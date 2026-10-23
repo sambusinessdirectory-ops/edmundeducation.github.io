@@ -2305,19 +2305,19 @@
     "titleZh": "陪伴日常的背景樂",
     "category": "figurative",
     "target": {
-      "pattern": "\\bthe soundtrack of everyday life\\b",
+      "pattern": "\\bthe soundtrack of everyday life\\b|\\bthe soundtrack of a whole period of life\\b",
       "glossaryForbidden": [
         "\\bsoundtrack\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Music or sound that regularly accompanies ordinary activities and becomes associated with them.",
-      "meaningZh": "經常陪伴平常活動、並讓人把聲音與生活連在一起的音樂或聲響。",
-      "grammar": "become/be the soundtrack of everyday life; soundtrack borrows the music-track idea from films.",
-      "register": "Creative but understandable sound metaphor.",
-      "boundaryZh": "不表示生活真的被拍成電影，也不必全天播放或每人聽相同音樂；重點是平常活動的陪伴與聯想。",
-      "misconceptionZh": "一次音樂會的配樂不自動成為日常背景；要有重複生活脈絡。",
-      "outcomeZh": "能把常聽聲音連結到通勤、煮食等例行活動。"
+      "meaningEn": "Music or sound that regularly accompanies ordinary activities or a life period and becomes strongly associated with those experiences.",
+      "meaningZh": "經常陪伴平常活動或一段人生時期，並讓人把聲音與那些經歷連在一起的音樂或聲響。",
+      "grammar": "become/be the soundtrack of everyday life or the soundtrack of a whole period of life; soundtrack borrows the music-track idea from films. The first highlights recurring routines, the second association with a life stage.",
+      "register": "A speaker recalling a familiar routine or life stage to a friend can use this creative but understandable sound metaphor.",
+      "boundaryZh": "不表示生活真的被拍成電影，也不必全天播放或每人聽相同音樂；要有平常活動或人生時期與聲音反覆連繫的線索。",
+      "misconceptionZh": "一次音樂會不自動成為日常背景或整段人生的代表；需要可辨認的重複經驗。",
+      "outcomeZh": "能把常聽聲音連結到通勤、煮食等例行活動，或一段人生時期。"
     },
     "sources": [
       {
@@ -2332,6 +2332,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 2, table 2, row 8; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p002-t2-r08"
+      },
+      {
+        "occurrenceId": "book10-16-0547",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 50,
+        "book": 11,
+        "question": 10,
+        "sample": "S1",
+        "sourceBookPages": "25–27",
+        "locatorNote": "DOCX table 46, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Those songs became the soundtrack of a whole period of life.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "the soundtrack of a whole period of life"
       }
     ],
     "listening": {
@@ -2450,8 +2464,8 @@
         },
         {
           "id": "c",
-          "en": "It compares familiar daily music to a film’s accompaniment; no film needs to be made.",
-          "zh": "它把熟悉日常音樂比作電影伴奏；不需要真的拍電影。"
+          "en": "Familiar kitchen radio can be the soundtrack of everyday life even without a formal concert or film.",
+          "zh": "熟悉的廚房電台聲音也可成為日常生活的背景樂，不需要正式音樂會或電影。"
         }
       ],
       "answerId": "c",
@@ -2533,8 +2547,8 @@
         "zh": "對許多通勤者，喜愛歌單是日常生活的背景樂。"
       },
       {
-        "en": "The soundtrack of everyday life can be a familiar radio voice rather than a special concert.",
-        "zh": "日常生活的背景樂可以是熟悉電台聲音，而非特別音樂會。"
+        "en": "Her late-night sketching playlist became the soundtrack of a whole period of life while she studied architecture.",
+        "zh": "她在修讀建築期間深夜畫圖常聽的歌單，成為那段人生的背景樂。"
       }
     ],
     "review": {
@@ -2561,7 +2575,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 3
   },
   {
     "id": "advanced-native-285",

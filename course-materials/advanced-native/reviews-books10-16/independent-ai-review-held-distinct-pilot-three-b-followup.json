@@ -1,0 +1,17 @@
+{
+  "reviewType": "independent-ai-polysemy-owner-and-seven-step-follow-up",
+  "scope": "Source ordinals 3142, 3308 and 3394 after parent owner-sense adjudication",
+  "input": {"path": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3142-3647-review-pilot.json", "sha256": "eb9ebe3e3118291c28a6715436d6f0b9c2459fef5036515b36fb0a3b01c9b9e5"},
+  "ownerSenseDecisions": [
+    {"ordinal": 3142, "priorCanonical": 48, "finding": "Source at once follows the warning and means immediately. Existing 048 assesses simultaneous demands. The assessed prompt and contrast make the time-sequence sense explicit; identical spelling is a valid polysemy split in the current module-ID-based system."},
+    {"ordinal": 3308, "priorCanonical": 711, "finding": "Source life does not always follow a script concerns events departing from a plan. Existing 711 concerns people behaving according to expected role scripts. Subject-bound target and the preserved-versus-changed writing details support a distinct learner decision."},
+    {"ordinal": 3394, "priorCanonical": 441, "finding": "Source pick up a postcard is obtaining a tangible item, distinct from canonical 441 informally learning a skill. The proposed detector requires one of a bounded list of tangible objects, while the dialogue correctly leaves payment unresolved."}
+  ],
+  "checks": {
+    "fullContent": "Read source, brief, all six assessed tasks, optional speaking, two writing models, Traditional Chinese and takeaways for all three; reply alternatives are independently valid, scene and dialogue keys are grounded, and writing prompts are fulfilled.",
+    "targetAndSpans": "All three full source examples and listening, speaking, both writing models, golden reply, keyed scene and keyed dialogue match their respective target regex. Exactly one reply option per lesson contains target. Six glossary spans per lesson are exact and exclude target forms.",
+    "focusedBuildAndCheck": "Five-lesson containing batch built and --check passed: 5 lessons, 30 questions, 20 audio requests, zero flags.",
+    "originality": "Learner examples use changed event, tour, gallery and station contexts rather than copying the guide sentence; the author-reported full-source overlap screen found zero non-target six-token copies."
+  },
+  "disposition": "These three are AI content-clear at the exact recorded hash, with the parent's distinct-sense adjudication. They remain unselected/unpublished; no human, media-listening or release approval claimed."
+}

@@ -873,7 +873,7 @@
     "titleZh": "留下持久印象",
     "category": "natural",
     "target": {
-      "pattern": "\\b(?:leave|leaves|leaving|left) a lasting impression\\b",
+      "pattern": "\\b(?:leave|leaves|leaving|left) a lasting impression\\b|\\b(?:leave|leaves|leaving|left) a poor impression that linger(?:s|ed)?\\b",
       "glossaryForbidden": [
         "\\blasting\\b",
         "\\bimpression\\b"
@@ -882,8 +882,8 @@
     "brief": {
       "meaningEn": "Create an effect or memory that remains for a long time.",
       "meaningZh": "形成長時間保留的印象或記憶。",
-      "grammar": "leave a lasting impression on + person; past left; the impression may be positive or negative.",
-      "register": "Neutral natural collocation.",
+      "grammar": "leave a lasting impression on + person; past left. The impression may be positive or negative. Leave a poor impression that lingers makes the negative quality and continuing effect explicit; linger/lingers/lingered follows its own clause tense.",
+      "register": "A customer describing a service experience to a colleague, or a teacher discussing a remembered event with a student, can use this neutral evaluative phrase.",
       "boundaryZh": "持久不等於正面，也不保證每人有相同感受；要有記得久或影響持續的線索。",
       "misconceptionZh": "不只是短暫留意，也不是實際留下印記或文件。",
       "outcomeZh": "能描述經歷如何持續被記住，並交代印象性質。"
@@ -927,6 +927,20 @@
         "sample": "S1",
         "locatorNote": "PDF page 127, table 1, row 7; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p127-t1-r07"
+      },
+      {
+        "occurrenceId": "book10-16-0401",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 37,
+        "book": 10,
+        "question": 33,
+        "sample": "S1",
+        "sourceBookPages": "80–82",
+        "locatorNote": "DOCX table 33, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "A rude opening can leave a poor impression that lingers.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "leave a poor impression that lingers"
       }
     ],
     "listening": {
@@ -1128,8 +1142,8 @@
         "zh": "體貼的舉動可以留下持久印象。"
       },
       {
-        "en": "Poor service can also leave a lasting impression on customers.",
-        "zh": "差劣服務也可以給顧客留下持久印象。"
+        "en": "The broken booking form left a poor impression that lingered even after registration reopened.",
+        "zh": "預約表格故障留下不好的印象，即使重新開放報名，那印象仍揮之不去。"
       }
     ],
     "review": {
@@ -1158,7 +1172,7 @@
         "Full AI author self-review completed: bilingual sense, pragmatics of four valid replies, nearby distractors, target-bearing audio lines, source evidence and exact answer-span glossary checked. Independent review/media/browser work remain pending."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-130",
@@ -1438,7 +1452,7 @@
     "titleZh": "一直留在記憶中",
     "category": "idiom",
     "target": {
-      "pattern": "\\b(?:stick|sticks|stuck|sticking)(?: in (?:my|your|his|her|our|their) minds?)?\\b",
+      "pattern": "\\b(?:stick|sticks|stuck|sticking) in (?:my|your|his|her|our|their|the) minds?\\b|\\b(?:make|makes|made|making) (?:the )?(?:learning|lesson|information|vocabulary|idea|story|detail) stick\\b|\\b(?:the )?(?:history|vocabulary|learning|lesson|information|idea|story|memory|details?)\\s+(?:(?:tends? to|can|could|will|would|may|might|still|really|often|simply|just|does|did|has|have|had)\\s+){0,3}(?:stick|sticks|stuck|sticking)\\b(?![-]|\\s+(?:to|on|onto|against)\\b)|\\b(?:hard experience|chorus)[^.!?]{0,80}\\b(?:but|so) it sticks\\b(?!\\s+(?:to|on|onto|against)\\b)|\\bnothing really sticks\\b",
       "glossaryForbidden": [
         "\\b(?:stick|sticks|stuck|sticking)\\b",
         "\\bminds?\\b"
@@ -1447,12 +1461,12 @@
     "brief": {
       "meaningEn": "Remain clearly in someone’s memory.",
       "meaningZh": "清楚地留在某人的記憶中。",
-      "grammar": "something sticks in my mind; past stuck; subject is the remembered detail. The information/the history tends to stick is the same memory-retention sense without an explicit in+mind complement; tends to keeps it a tendency rather than a guarantee.",
+      "grammar": "Something sticks in my mind / sticks in the mind; past stuck. For a bare stick, name a remembered subject such as a lesson or vocabulary, or say make the learning stick. In each case knowledge remains memorable, not physically attached.",
       "register": "Neutral everyday metaphor.",
       "boundaryZh": "難忘不代表一定正面，也不保證記憶每個細節完全準確。",
       "misconceptionZh": "不是刻意每天重讀才可以說；一個小細節也可能一直記得。",
       "outcomeZh": "能描述留在記憶中的細節，並避免把難忘當成準確性保證。",
-      "sourceClassificationNote": "Bare stick with information as its subject expresses remaining memorable, just as stick in someone’s mind does. It differs from stick to an agreement or literal adhesive sticking; tends to describes a tendency rather than a guarantee."
+      "sourceClassificationNote": "The detector requires an explicit in+mind complement, a bounded causative learning object, a memory-bearing subject that itself takes stick/stuck, or the attested anaphoric experience/chorus and nothing-really-sticks forms. This excludes literal stick(s)/stuck and adhesion."
     },
     "sources": [
       {
@@ -1494,6 +1508,20 @@
         "referenceSentenceKind": "guide_original_example",
         "expression": "the history tends to stick",
         "sourceCategory": "Figurative use"
+      },
+      {
+        "occurrenceId": "book10-16-1187",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 110,
+        "book": 12,
+        "question": 44,
+        "sample": "S1",
+        "sourceBookPages": "104–105",
+        "locatorNote": "DOCX table 114, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Examples make the learning stick.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "learning stick"
       }
     ],
     "listening": {
@@ -1576,26 +1604,26 @@
       "explanationZh": "多年後仍記得支持持續記憶，但不保證所有回憶準確。"
     },
     "contrast": {
-      "promptZh": "哪個推論不宜單憑 stick in my mind 作出？",
+      "promptZh": "科學館職員說「The hands-on model made the lesson stick」。哪個理解最準確？",
       "options": [
         {
           "id": "a",
-          "en": "The detail remains memorable.",
-          "zh": "那個細節仍令人記得。"
+          "en": "The model helped visitors remember the scientific idea after the visit.",
+          "zh": "模型幫助參觀者在離開後仍記得那個科學概念。"
         },
         {
           "id": "b",
-          "en": "The memory must be positive and completely accurate.",
-          "zh": "那份記憶一定正面，而且完全準確。"
+          "en": "The model proved that every claim in the exhibition was true.",
+          "zh": "模型證明展覽中每項說法都正確。"
         },
         {
           "id": "c",
-          "en": "The speaker continues to recall something.",
-          "zh": "說話者仍記得某件事。"
+          "en": "The model removed any need to revisit difficult points later.",
+          "zh": "模型令參觀者日後完全不用重溫難點。"
         }
       ],
-      "answerId": "b",
-      "explanationZh": "表達持續記得，不自行限定正負或絕對準確。"
+      "answerId": "a",
+      "explanationZh": "made the lesson stick 表示模型幫助人記住所學，不證明所有說法都正確，也不保證毋須重溫。"
     },
     "dialogue": {
       "promptZh": "朋友說：「我很記得那句話，所以不可能記錯任何字吧？」哪句最準確？",
@@ -1726,7 +1754,7 @@
         "Root-approved source alias expr-0168 merged; exact occurrence preserved. No audio text changed. Canonical target22 now also recognises bare plant a seed with optional in-mind adjunct."
       ]
     },
-    "contentRevision": 1,
+    "contentRevision": 3,
     "aliasInventoryIds": [
       "expr-1772"
     ]

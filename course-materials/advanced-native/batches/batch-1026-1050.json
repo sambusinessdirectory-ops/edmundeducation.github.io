@@ -3961,6 +3961,20 @@
           "sentence": "The extension gave us breathing space before the deadline.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "breathing space"
+        },
+        {
+          "occurrenceId": "book10-16-0110",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 11,
+          "book": 10,
+          "question": 8,
+          "sample": "S2",
+          "sourceBookPages": "20–21",
+          "locatorNote": "DOCX table 8, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "All work and no breathing space left the staff drained.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "all work and no breathing space"
         }
       ],
       "brief": {

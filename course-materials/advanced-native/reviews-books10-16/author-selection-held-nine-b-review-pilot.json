@@ -1,0 +1,98 @@
+{
+  "scope": "Provisional unpublished selection of nine independently AI content-cleared held-source lessons from author B",
+  "selectedAtUtc": "2026-10-23T18:54:24.298516+00:00",
+  "sourceOrdinals": [
+    4310,
+    4368,
+    4386,
+    4390,
+    4448,
+    4576,
+    4588,
+    4611,
+    4689
+  ],
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4310-4368-b.json",
+      "sha256": "3a685e392c38a02702ba20b3b90b32d5fe07426676e49371574a774f05a63f67",
+      "ordinals": [
+        4310,
+        4368
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4386-4448-b.json",
+      "sha256": "ce2cda104dbf16180f7f7225f4c608173dc58d0721184d71b7d3c27f6d9ae0b8",
+      "ordinals": [
+        4386,
+        4390,
+        4448
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4576-4588-b.json",
+      "sha256": "f30a15b60d9be62d3976bfc0ee3cb3862a866c17ce76c1c6c1a50228c34408a8",
+      "ordinals": [
+        4576,
+        4588
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4611-4689-b.json",
+      "sha256": "617f64777eb0b8f31712298337f0b389809063e71671f1d57759bbebf3b105ec",
+      "ordinals": [
+        4611,
+        4689
+      ]
+    }
+  ],
+  "decisionFiles": [
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4272-4331.jsonl",
+      "sha256": "c3dfc3ad30bbd9a90522d4257c9f95960309dfa603d4a76ebea258b13a2ff9e5"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4332-4391.jsonl",
+      "sha256": "8d2bbbffa6ee4e4138a5da4f94032fcecffb62762392f7cf7baf6b1422525af0"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4392-4451.jsonl",
+      "sha256": "a9d629317a4de5f9a43a648aad26de135ef8bceb26054d994a939303bdb081d6"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+      "sha256": "84168c89de5a5209da26e23a4f6f0227980a847722dbb3981481d6da57aaffa4"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl",
+      "sha256": "a80ffdfb9a14164ac01782e1c46d0a70b0e3246993e4968c765a51b98d34cfee"
+    }
+  ],
+  "manifest": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "sha256": "57e0ba98033b0f448639d9572bae6d8f51e967ba4cf8eb3a7d93661371ab895e"
+  },
+  "reviewEvidence": [
+    "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-4310-4448-a-followup.json",
+    "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-cohort-4576-4689-final-followup-review-pilot.json"
+  ],
+  "heldExcluded": {
+    "sourceOrdinal": 4596,
+    "reason": "Bespoke roof/house analogy withdrawn; remains hold-editorial."
+  },
+  "combinedVerifier": {
+    "intakeRows": 2604,
+    "decisionRows": 2604,
+    "selectedDrafts": 582,
+    "pilotQuestions": 3492,
+    "pilotAudioRequests": 2328,
+    "selectedExistingAliasPatternExceptions": 0,
+    "wholeCatalogueSchemaErrors": 0,
+    "exactGuideSentenceCopies": 0,
+    "pilotNearDuplicateFlags": 0,
+    "published": false,
+    "releaseApproved": false
+  },
+  "gate": "Independent AI content clearance supports provisional selection only. Human linguistic review, audio generation/listening, media and release gates remain open."
+}

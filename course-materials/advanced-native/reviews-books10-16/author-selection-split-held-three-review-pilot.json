@@ -1,0 +1,131 @@
+{
+  "kind": "AI-author-selection-split-audit",
+  "timeUtc": "2026-10-23T18:34:48.553968+00:00",
+  "status": "Three distinct-sense lessons provisionally selected as unpublished drafts; media, human and release approval remain open.",
+  "originalBatch": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3142-3647-review-pilot.json",
+    "sha256": "eb9ebe3e3118291c28a6715436d6f0b9c2459fef5036515b36fb0a3b01c9b9e5"
+  },
+  "selectedBatch": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3142-3394-review-pilot.json",
+    "sha256": "b286b22007d4b482bc8d2f5ece5dc14e9cc700fef112ea35935d19b585437006",
+    "ordinals": [
+      3142,
+      3308,
+      3394
+    ]
+  },
+  "rawLessonByteProof": [
+    {
+      "ordinal": 3142,
+      "lessonRawBytesSha256": "b4443ac143314a10ece27ad209a263539ff8206ed4c26fbd4d35cc3cd82db531",
+      "rawByteIdentical": true,
+      "sourceOccurrenceId": "book10-16-1031",
+      "sourceSentence": "The room became quiet at once."
+    },
+    {
+      "ordinal": 3308,
+      "lessonRawBytesSha256": "f0b0d3945ed9511a7164b9b4e55ca38c67e00f6a7ca02895dd2333ad2b199c26",
+      "rawByteIdentical": true,
+      "sourceOccurrenceId": "book10-16-1197",
+      "sourceSentence": "Even careful planners know life does not always follow a script."
+    },
+    {
+      "ordinal": 3394,
+      "lessonRawBytesSha256": "8893805444d184d0112e4c130b4525768c52d2af16861113a50a2045a0498f0b",
+      "rawByteIdentical": true,
+      "sourceOccurrenceId": "book10-16-1283",
+      "sourceSentence": "Visitors can pick up a postcard at the market."
+    }
+  ],
+  "parentOwnerAdjudication": {
+    "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-owner-sense-adjudication-3142-3308-3394-root.json",
+    "sha256": "de43c13b7c61b3ac65f296a48773fd336dfe1aaed093e1d2e1acbce113294136"
+  },
+  "independentContentFollowup": {
+    "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-distinct-pilot-three-b-followup.json",
+    "sha256": "82a5fd2b7ce9f47edcc31e9b13464140c7e479291bbb4d63c8bd2a7a96ea1822"
+  },
+  "decisionChanges": [
+    {
+      "ordinal": 3142,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3132-3191.jsonl",
+      "beforeRow": {
+        "sourceOrdinal": 3142,
+        "sourceId": "book10-16-1031",
+        "phrase": "at once",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Here at once means immediately, whereas existing canonical 048 teaches simultaneous demands despite matching spelling. Provisional editorial decision; independent review remains open."
+      },
+      "afterRow": {
+        "sourceOrdinal": 3142,
+        "sourceId": "book10-16-1031",
+        "phrase": "at once",
+        "action": "proposed-new-lesson",
+        "canonicalId": "advanced-native-3142",
+        "reason": "Proposed separate immediate-after-trigger at once lesson: source The room became quiet at once differs from canonical 048 simultaneous-actions sense. Module-local target matching, complete seven-step draft, root owner adjudication and independent AI content review clear; human and release review remain open."
+      },
+      "beforeFileSha256": "5163d741a2f460e937fd843597c7266e7ed9dcfe1cd8c2318b1002e07d4f3c84",
+      "afterFileSha256": "44591132a20ce39350026fb9ab857d88df8a00972318b4a51174d9a191d44d1a"
+    },
+    {
+      "ordinal": 3308,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "beforeRow": {
+        "sourceOrdinal": 3308,
+        "sourceId": "book10-16-1197",
+        "phrase": "life does not always follow a script",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Life not following a script differs from canonical 711 human-pattern sense despite related theatre image. Provisional editorial decision; independent review remains open."
+      },
+      "afterRow": {
+        "sourceOrdinal": 3308,
+        "sourceId": "book10-16-1197",
+        "phrase": "life does not always follow a script",
+        "action": "proposed-new-lesson",
+        "canonicalId": "advanced-native-3308",
+        "reason": "Proposed separate life-event unpredictability follow a script lesson: source life does not always follow a script differs from canonical 711 social-role conformity. Target is subject/negation bounded; root owner adjudication and independent AI content review clear; human and release review remain open."
+      },
+      "beforeFileSha256": "9d932d286dadbdea2a243d782bfffdc2b1dec33f534fc8026c5c6bc5849893c0",
+      "afterFileSha256": "bfdc0eb67b8ea279cd019cd56e3b2043a1b798bb9baf6f33e1e7b97bb6f0cd25"
+    },
+    {
+      "ordinal": 3394,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl",
+      "beforeRow": {
+        "sourceOrdinal": 3394,
+        "sourceId": "book10-16-1283",
+        "phrase": "pick up",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Picking up a postcard means buying or obtaining it, unlike canonical 441 informal skill-acquisition sense. Provisional editorial decision; independent review remains open."
+      },
+      "afterRow": {
+        "sourceOrdinal": 3394,
+        "sourceId": "book10-16-1283",
+        "phrase": "pick up",
+        "action": "proposed-new-lesson",
+        "canonicalId": "advanced-native-3394",
+        "reason": "Proposed separate physical-item pick up lesson: source pick up a postcard means obtain, unlike canonical 441 informal skill acquisition. Physical-object target boundary, root owner adjudication and independent AI content review clear; human and release review remain open."
+      },
+      "beforeFileSha256": "509ee534f0c07ed2ac89d3b771739613c9700ef99a023371f35a38305ff92fb4",
+      "afterFileSha256": "5a6137e2987a3c9626acbc05fa5963a5bd50b7d92b39d084d2ee845e0ee73429"
+    }
+  ],
+  "manifest": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "beforeSha256": "c31fd2ddb5a04b1dba78f28fae5640a288c90d687421b2cd9a003da63ec51107",
+    "afterSha256": "b47e8f999ff20161bd22d3a10c1842a6e7b6a3ff4ee3189e6b0527685b84478c",
+    "selectedSourceOrdinals": 563
+  },
+  "checks": {
+    "focusedBuildAndCheck": "3 lessons, 18 questions, 12 audio roles, zero flags",
+    "combinedVerifier": "2604 decisions, 563 selected unpublished drafts, 3378 questions, 2252 audio roles, zero schema/alias/guide-copy/near-duplicate flags; published=false; releaseApproved=false"
+  },
+  "excludedOwner": {
+    "sourceOrdinal": 4339,
+    "reason": "Independent same-learner-decision collision with canonical 4175; remains hold-editorial and unselected."
+  }
+}

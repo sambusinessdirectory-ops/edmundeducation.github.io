@@ -1,0 +1,228 @@
+{
+  "kind": "AI-author-selection-split-audit",
+  "timeUtc": "2026-10-23T18:31:22.354063+00:00",
+  "status": "Six AI-content-cleared lessons selected as unpublished drafts; media, human owner/release approval and publication remain open.",
+  "independentContentReview": {
+    "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-distinct-pilot-ten-b.json",
+    "sha256": "1243ee46449adcb1119cccbd83d9aba474fb453a40df06e784691ca1c49d1b92"
+  },
+  "splitFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3505-3647-review-pilot.json",
+      "sha256": "21e5cee30be5804968a312fecae96d4821e25936b52a8c316b8d82b1f0a8be17",
+      "ordinals": [
+        3505,
+        3647
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3726-4147-review-pilot.json",
+      "sha256": "9950b19625250126859aa85b8c6e730cb905f41ca7e6e48306affeb7a1c0c5e6",
+      "ordinals": [
+        3726,
+        3788,
+        3841,
+        4147
+      ]
+    }
+  ],
+  "rawLessonByteProof": [
+    {
+      "ordinal": 3505,
+      "sourceBatch": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3142-3647-review-pilot.json",
+      "selectedBatch": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3505-3647-review-pilot.json",
+      "lessonRawBytesSha256": "70b971573649cf5e21af2028bb6209f497222b48b244f60efdbea5499d5bf5e5",
+      "rawByteIdentical": true
+    },
+    {
+      "ordinal": 3647,
+      "sourceBatch": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3142-3647-review-pilot.json",
+      "selectedBatch": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3505-3647-review-pilot.json",
+      "lessonRawBytesSha256": "f916701cad7c79b3025c7a946990893de9f2d1873749f3420cfddaf8f6665e83",
+      "rawByteIdentical": true
+    },
+    {
+      "ordinal": 3726,
+      "sourceBatch": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3726-4339-review-pilot.json",
+      "selectedBatch": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3726-4147-review-pilot.json",
+      "lessonRawBytesSha256": "c6ff6572ee68bbf5595c2b4f4228f549a26242aee8c3c083738dd22a0c377c62",
+      "rawByteIdentical": true
+    },
+    {
+      "ordinal": 3788,
+      "sourceBatch": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3726-4339-review-pilot.json",
+      "selectedBatch": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3726-4147-review-pilot.json",
+      "lessonRawBytesSha256": "1de64271ad45cea4496440a091f863b6268df5c1d9d82ba17e584627fa3509c9",
+      "rawByteIdentical": true
+    },
+    {
+      "ordinal": 3841,
+      "sourceBatch": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3726-4339-review-pilot.json",
+      "selectedBatch": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3726-4147-review-pilot.json",
+      "lessonRawBytesSha256": "447167644521ad291908b228ed5b776a9a3203169800e9c43f56b9d9a0656329",
+      "rawByteIdentical": true
+    },
+    {
+      "ordinal": 4147,
+      "sourceBatch": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3726-4339-review-pilot.json",
+      "selectedBatch": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3726-4147-review-pilot.json",
+      "lessonRawBytesSha256": "a49f87b5f783607a74ff8e459445a49822063bf760a132500c9578a82c061290",
+      "rawByteIdentical": true
+    }
+  ],
+  "sourceProvenanceCheck": "Each of the six selected lesson objects retains exactly the original source occurrence ID, source sentence, page, document SHA and raw JSON bytes from the independently reviewed source batch.",
+  "decisionChanges": [
+    {
+      "sourceOrdinal": 3505,
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl",
+      "oldRow": {
+        "sourceOrdinal": 3505,
+        "sourceId": "book10-16-1394",
+        "phrase": "invites you to linger",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Invites you to linger personifies the essay but is a broad productive metaphor rather than a fixed unit. Provisional editorial decision; independent review remains open."
+      },
+      "newRow": {
+        "sourceOrdinal": 3505,
+        "sourceId": "book10-16-1394",
+        "phrase": "invites you to linger",
+        "action": "proposed-new-lesson",
+        "canonicalId": "advanced-native-3505",
+        "reason": "Proposed new owner for the figurative construction invite someone to linger: an artwork or passage encourages unhurried attention without an actual spoken invitation. Exact source, seven-step draft and independent AI content review clear; human and release review remain open."
+      },
+      "oldFileSha256": "bbc26807f954eed1e559d8596d58867648009b4fa9d18c7456314f9d26c7865e",
+      "newFileSha256": "a348f8dc1760c117022040b0efbc72c9e710e62a610bd8dc7fdd2247360ab35a"
+    },
+    {
+      "sourceOrdinal": 3647,
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl",
+      "oldRow": {
+        "sourceOrdinal": 3647,
+        "sourceId": "book10-16-1536",
+        "phrase": "roots and wings",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Roots and wings is a paired metaphor for security and independence; source scope needs review. Provisional editorial decision; independent review remains open."
+      },
+      "newRow": {
+        "sourceOrdinal": 3647,
+        "sourceId": "book10-16-1536",
+        "phrase": "roots and wings",
+        "action": "proposed-new-lesson",
+        "canonicalId": "advanced-native-3647",
+        "reason": "Proposed new owner for the paired roots and wings metaphor: secure support and room for independent growth, without requiring one family arrangement. Exact source, seven-step draft and independent AI content review clear; human and release review remain open."
+      },
+      "oldFileSha256": "2395a2e575d347db4d8d46fb2a8a8f4c9aa6f3af14b5639f5508d6651cf0133f",
+      "newFileSha256": "eceeb46e710ea9e8fbc7f142abcb7e8751b8a227ab3253c53720f918e53f728b"
+    },
+    {
+      "sourceOrdinal": 3726,
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl",
+      "oldRow": {
+        "sourceOrdinal": 3726,
+        "sourceId": "book10-16-1615",
+        "phrase": "a death sentence",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Death sentence could be literal medical prognosis here; figurative target would require review. Provisional editorial decision; independent review remains open."
+      },
+      "newRow": {
+        "sourceOrdinal": 3726,
+        "sourceId": "book10-16-1615",
+        "phrase": "a death sentence",
+        "action": "proposed-new-lesson",
+        "canonicalId": "advanced-native-3726",
+        "reason": "Proposed new owner for figurative a death sentence: a serious medical or institutional setback need not make an ending inevitable; no recovery is guaranteed. Exact source, seven-step draft and independent AI content review clear; human and release review remain open."
+      },
+      "oldFileSha256": "25cac9f9945aea4c2581e2a7c502d405db30438677623c1c1c0145cdf79f1acb",
+      "newFileSha256": "ffcea3c27b2d1a99a2c98b097d3aadd8e42e389473c5dbe4e821c0270c37b7e8"
+    },
+    {
+      "sourceOrdinal": 3788,
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl",
+      "oldRow": {
+        "sourceOrdinal": 3788,
+        "sourceId": "book10-16-1677",
+        "phrase": "the image they want to project",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Image they want to project is a productive impression collocation needing target review. Provisional editorial decision; independent review remains open."
+      },
+      "newRow": {
+        "sourceOrdinal": 3788,
+        "sourceId": "book10-16-1677",
+        "phrase": "the image they want to project",
+        "action": "proposed-new-lesson",
+        "canonicalId": "advanced-native-3788",
+        "reason": "Proposed new owner for project an image: a group presents an intended public impression that must be distinguished from actual audience response. Exact source, seven-step draft and independent AI content review clear; human and release review remain open."
+      },
+      "oldFileSha256": "3c299ffc4a2b0c1a2911c8fcf4be4a2f1e9489f8bcfbe8353eed119cf546ff5e",
+      "newFileSha256": "ba076534272ff7e71542ba4b4bd288cd4b980f89f59207644930d4d88abafbae"
+    },
+    {
+      "sourceOrdinal": 3841,
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl",
+      "oldRow": {
+        "sourceOrdinal": 3841,
+        "sourceId": "book10-16-1730",
+        "phrase": "upward mobility",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Upward mobility is a precise socioeconomic term, not a figurative idiom lesson. Provisional editorial decision; independent review remains open."
+      },
+      "newRow": {
+        "sourceOrdinal": 3841,
+        "sourceId": "book10-16-1730",
+        "phrase": "upward mobility",
+        "action": "proposed-new-lesson",
+        "canonicalId": "advanced-native-3841",
+        "reason": "Proposed new natural-language owner for upward mobility: socioeconomic improvement and access rather than physical upward movement or a guaranteed job. Exact source, seven-step draft and independent AI content review clear; human and release review remain open."
+      },
+      "oldFileSha256": "9f20d831234001f53ad66fcb60e00fc2727680f83544aed4724166612b7859e7",
+      "newFileSha256": "eba01974df277cacb4a036f3e3b3fb80a5deff71158c02c12e63dbc119d651e0"
+    },
+    {
+      "sourceOrdinal": 4147,
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl",
+      "oldRow": {
+        "sourceOrdinal": 4147,
+        "sourceId": "book10-16-2036",
+        "phrase": "tying a string around your finger",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "String around your finger is a familiar reminder image, but this source is an explicit simile. Provisional editorial decision; independent review remains open."
+      },
+      "newRow": {
+        "sourceOrdinal": 4147,
+        "sourceId": "book10-16-2036",
+        "phrase": "tying a string around your finger",
+        "action": "proposed-new-lesson",
+        "canonicalId": "advanced-native-4147",
+        "reason": "Proposed new owner for tying a string around your finger as a reminder cue, including the source comparison with a phone alert while separating reminder from task completion. Exact source, seven-step draft and independent AI content review clear; human and release review remain open."
+      },
+      "oldFileSha256": "0326179a32460bdcbbba25a448741b74ef5c41b282c86dae0c7f8ba2eab562e2",
+      "newFileSha256": "7e2a2e400044cd30badfec7c60abb3c0cc73ab59c82a2412644c9d7f4bd92317"
+    }
+  ],
+  "manifest": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "sha256": "c31fd2ddb5a04b1dba78f28fae5640a288c90d687421b2cd9a003da63ec51107",
+    "batchFiles": 134,
+    "selectedSourceOrdinals": 560
+  },
+  "checks": {
+    "focusedBuildCheck": "Split batch 1: 2 lessons/12 questions/8 audio roles/0 flags; split batch 2: 4/24/16/0",
+    "globalVerifier": "2604 decisions; 560 selected unpublished drafts, 3360 questions, 2240 audio roles; zero schema errors, zero existing alias exceptions, zero exact guide copies and zero near-duplicate flags; published=false, releaseApproved=false",
+    "unselectedOwnerScope": [
+      3142,
+      3308,
+      3394,
+      4339
+    ]
+  },
+  "limitations": [
+    "No human or media listening approval implied.",
+    "Original ten-lesson review batches remain unselected as exact-hash evidence; only split six-lesson files are in the unpublished manifest."
+  ]
+}

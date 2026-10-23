@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-held-promotion-2578-training-wheels-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2578",
+      "number": 2578,
+      "inventoryId": "expr-2578",
+      "contentRevision": 2,
+      "titleEn": "training wheels",
+      "titleZh": "初學時的暫時輔助",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:act(?:s|ed|ing)? like|serv(?:e|es|ed|ing) as|work(?:s|ed|ing)? like) training wheels\\b",
+        "glossaryForbidden": [
+          "\\btraining wheels\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Temporary support that lets a beginner practise a skill before doing it independently.",
+        "meaningZh": "像單車輔助輪般，讓初學者先練習一項技能、日後再獨立完成的暫時協助。",
+        "grammar": "A mentor, guide, template or supervised session acts like / serves as training wheels for a beginner. The plural noun comes from bicycle stabilisers; name the temporary aid, the skill being practised and the path to independent use.",
+        "register": "A coach explaining a learning plan to a trainee, or a teacher discussing scaffolded practice with a parent, can use this friendly figurative phrase. It is conversational rather than a literal claim about a bicycle.",
+        "boundaryZh": "這個比喻重點是初學期間可逐步減少的協助；不能只因有輔助就斷言學生已能獨立完成，也不要求立刻拿走輔助。",
+        "misconceptionZh": "「training wheels」不是替學生永遠做事的代替品，也與另一課的「strip away the training wheels」不同：本課先判斷輔助如何幫人練習。",
+        "outcomeZh": "能指出誰在學、哪項暫時協助讓他練習，以及何時可檢查是否能自行完成。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0467",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 43,
+          "book": 11,
+          "question": 3,
+          "sample": "S1",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 39, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The supervised sessions acted like training wheels.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "training wheels"
+        },
+        {
+          "occurrenceId": "book10-16-0515",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 47,
+          "book": 11,
+          "question": 7,
+          "sample": "S1",
+          "sourceBookPages": "17–18",
+          "locatorNote": "DOCX table 43, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The supervised sessions acted like training wheels.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "training wheels"
+        },
+        {
+          "occurrenceId": "book10-16-1530",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 143,
+          "book": 14,
+          "question": 9,
+          "sample": "S1",
+          "sourceBookPages": "22–23",
+          "locatorNote": "DOCX table 153, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The supervised sessions acted like training wheels.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "training wheels"
+        }
+      ],
+      "listening": {
+        "en": "At the community garden, new volunteers planted beside a mentor who checked their watering plan. Those joint shifts served as training wheels: by the fourth week, the volunteers could plan a bed on their own.",
+        "zh": "在社區園圃，新義工最初在導師旁種植，由導師核對澆水計劃。那些共同值班就像初學輔助：到第四週，義工已可自行規劃一個種植區。",
+        "promptZh": "說話者說共同值班 served as training wheels，意思是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The mentor’s early support let beginners practise before planning a bed alone.",
+            "zh": "導師初期支援讓新手先練習，之後再自行規劃種植區。"
+          },
+          {
+            "id": "b",
+            "en": "The mentor’s checks remained a permanent requirement even after the volunteers learnt to plan alone.",
+            "zh": "即使義工學會自行規劃，導師核對仍是永久規定。"
+          },
+          {
+            "id": "c",
+            "en": "The volunteers became independent because the mentor stopped supervising before they had practised.",
+            "zh": "義工能獨立工作，是因為導師在他們練習前就停止指導。"
+          },
+          {
+            "id": "d",
+            "en": "The shared shifts were mainly to finish the current beds faster, not to help beginners learn.",
+            "zh": "共同值班主要是為了更快完成眼前的種植區，而不是幫新手學習。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "導師起初陪同並核對，之後義工可獨立規劃；這是逐步建立能力的暫時支援。"
+      },
+      "reply": {
+        "promptEn": "A mentor shadows new museum guides for their first three tours and will step back once they can answer visitors alone. Why does the mentor join those early tours?",
+        "promptZh": "導師在博物館新導賞員首三次導賞時陪同；待他們能獨自回答參觀者問題便會退後。導師為甚麼參與初期導賞？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The beginners can practise explaining exhibits with someone nearby to correct mistakes.",
+            "zh": "新手講解展品時有人在旁協助糾正錯誤。"
+          },
+          {
+            "id": "b",
+            "en": "The accompanied tours give them temporary support before they guide visitors alone.",
+            "zh": "有人陪同的導賞讓他們在獨自帶領參觀者前得到暫時支援。"
+          },
+          {
+            "id": "c",
+            "en": "Those first tours act like training wheels while they learn to answer visitors.",
+            "zh": "首幾次導賞像初學輔助，讓他們學習回答參觀者。"
+          },
+          {
+            "id": "d",
+            "en": "Joining now lets the mentor check when they are ready to guide independently.",
+            "zh": "初期陪同讓導師觀察他們何時準備好獨立導賞。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明初期陪同的作用；金句自然用 training wheels 表達學習期間的暫時協助。"
+      },
+      "scene": {
+        "promptZh": "合唱團給初學團員練習聲部的示範音軌，讓他們先跟着唱；熟悉後會逐步淡出音軌。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The guide tracks act like training wheels while new singers learn their parts.",
+            "zh": "示範音軌像初學輔助，讓新團員學會自己的聲部。"
+          },
+          {
+            "id": "b",
+            "en": "The guide tracks will be needed for every concert because the singers cannot learn the parts without them.",
+            "zh": "每次音樂會都必須用示範音軌，因為團員沒有它就學不會聲部。"
+          },
+          {
+            "id": "c",
+            "en": "The tracks may shorten rehearsal, but they do not help the new singers learn their parts.",
+            "zh": "音軌或可縮短排練，但不會幫新團員學習自己的聲部。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "音軌幫新團員在早期練習聲部，熟悉後會淡出；題目沒有說它須永久使用或對學習毫無幫助。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合用比喻 training wheels 描述？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A new potter uses a marked template for early bowls, then tries shaping one without it.",
+            "zh": "新手陶藝者初期用有標記的模版做碗，之後試着不用它塑形。"
+          },
+          {
+            "id": "b",
+            "en": "A learner driver practises with an instructor nearby before driving alone.",
+            "zh": "學車者先在導師陪同下練習，之後才獨自駕駛。"
+          },
+          {
+            "id": "c",
+            "en": "An experienced editor uses the client’s required report template on every project, with no learning transition.",
+            "zh": "資深編輯每個項目都用客戶規定的報告模版，並無學習過渡。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "陶藝模版及學車導師的情境都有新手、暫時輔助和逐步獨立；資深編輯長期遵從客戶格式，沒有初學過渡。"
+      },
+      "dialogue": {
+        "promptEn": "A: The new library volunteers still need the colour-coded shelf map, but they want to sort returns without it eventually. Should we remove it tonight?\nB: ?",
+        "promptZh": "甲：圖書館新義工現在仍需要按顏色標示的書架地圖，但日後希望不用地圖也能整理還書。我們今晚就拿走它嗎？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Not yet. The map acts like training wheels; let them practise this week and check whether they can shelve books correctly before removing it.",
+            "zh": "暫時不要。地圖像初學輔助；讓他們本週繼續練習，確認能正確上架後再拿走。"
+          },
+          {
+            "id": "b",
+            "en": "Remove it tonight because wanting to work alone means they already know every shelf.",
+            "zh": "今晚就拿走，因為他們想獨立工作就表示已熟悉每個書架。"
+          },
+          {
+            "id": "c",
+            "en": "Keep the map forever without checking whether they can learn the shelves.",
+            "zh": "永遠保留地圖，也不用查看他們能否學會書架位置。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新義工仍需地圖；先讓他們練習並核對能力，再決定何時減少輔助，避免過早拿走或永遠不檢查。"
+      },
+      "speaking": {
+        "en": "The sample invoice served as training wheels while the trainees learnt to check real bills.",
+        "zh": "樣本發票在受訓者學習核對真實賬單時，起了暫時輔助的作用。",
+        "promptZh": "先聽示範，再指出學員使用哪項暫時協助練習甚麼技能。",
+        "targetSpan": {
+          "start": 19,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校辯論社在初學者首兩次練習時給他們一張追問清單；導師希望他們能逐漸不用清單也問出有用問題。用一至兩句英文解釋清單的暫時作用，以及何時可嘗試不用它。",
+        "selfCheckZh": "指出新手、追問清單如何幫忙練習、可自行追問時才逐步拿走；不要說清單替他們永遠思考，也不要把首次練習當作已完全獨立。",
+        "examples": [
+          {
+            "en": "The question checklist acts like training wheels for new debaters: they use it to prepare follow-up questions in the first two sessions, then try without it after they can respond on their own.",
+            "zh": "追問清單像辯論新手的初學輔助：他們在首兩次練習用它準備追問；待能自行回應後，再嘗試不用清單。"
+          },
+          {
+            "en": "In the first two sessions, the checklist serves as training wheels while beginners learn to challenge a claim; once they can ask useful follow-up questions independently, the coach puts it aside.",
+            "zh": "首兩次練習期間，清單為初學者提供暫時輔助，讓他們學習質疑主張；待他們能獨立提出有用追問，導師便把清單放下。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "follow-up questions",
+            "zh": "追問",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 109
+            }
+          },
+          {
+            "en": "the first two sessions",
+            "zh": "首兩次練習",
+            "exampleIndex": 0,
+            "span": {
+              "start": 113,
+              "end": 135
+            }
+          },
+          {
+            "en": "respond on their own",
+            "zh": "自行回應",
+            "exampleIndex": 0,
+            "span": {
+              "start": 172,
+              "end": 192
+            }
+          },
+          {
+            "en": "challenge a claim",
+            "zh": "質疑一項主張",
+            "exampleIndex": 1,
+            "span": {
+              "start": 92,
+              "end": 109
+            }
+          },
+          {
+            "en": "independently",
+            "zh": "獨立地",
+            "exampleIndex": 1,
+            "span": {
+              "start": 156,
+              "end": 169
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A labelled mixing bowl can act like training wheels for a novice baker who later measures without the labels.",
+          "zh": "對初學烘焙的人來說，有標記的攪拌碗可像暫時輔助，讓他日後不用標記也能量度。"
+        },
+        {
+          "en": "A sample form served as training wheels for the first application, but the learner completed the next one alone.",
+          "zh": "樣本表格在首次申請時提供暫時輔助，但學員下一次便自行填妥。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending.",
+          "Distinct from canonical 1276: this lesson assesses why temporary help supports early practice; canonical 1276 assesses removing support after readiness."
+        ]
+      }
+    }
+  ]
+}

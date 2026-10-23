@@ -6,21 +6,21 @@
       "id": "advanced-native-2684",
       "number": 2684,
       "inventoryId": "expr-2684",
-      "titleEn": "carry it forward",
-      "titleZh": "把它延續下去",
+      "titleEn": "carry forward",
+      "titleZh": "把既有事物延續下去",
       "category": "phrasal-verb",
       "target": {
-        "pattern": "\\b(?:carry|carries|carried|carrying) it forward\\b",
+        "pattern": "\\b(?:carry|carries|carried|carrying)\\s+(?:it|them|this|that|these|those|(?:the|a|an|our|their|his|her|its)\\s+(?:[\\w-]+\\s+){0,5}[\\w-]+)\\s+forward\\b|\\b(?:be|been|being|is|are|was|were)\\s+carried\\s+forward\\b|\\b(?:carry|carries|carried|carrying)\\s+forward\\s+(?:the|a|an|our|their|his|her|its|these|those)\\s+(?:[\\w-]+\\s+){0,5}[\\w-]+",
         "glossaryForbidden": []
       },
       "brief": {
-        "meaningEn": "Continue an existing practice, project or value into the future, possibly adapting it.",
-        "meaningZh": "把已有的做法、計劃或價值延續到將來，也可以在延續時作出調整。",
-        "grammar": "carry/carried/carrying + it + forward; it must refer to a named practice, project or value.",
-        "register": "Neutral and encouraging. A youth organiser may say it to volunteers taking over a community activity.",
-        "boundaryZh": "必須有既有做法或計劃讓人接手；延續不等於把舊形式原封不動保存。與 carry culture 不同，這裏着重人主動把已有活動接續下去。",
-        "misconceptionZh": "不要讓 it 沒有清楚指涉對象，也不要理解為把實物往前搬。",
-        "outcomeZh": "能指出要延續甚麼、由誰接手，以及如何在新情況下繼續。"
+        "meaningEn": "Continue an existing practice, project, value or useful feature into a later stage, possibly adapting it.",
+        "meaningZh": "把已有的做法、計劃、價值或有用功能延續到下一階段，也可以在延續時作出調整。",
+        "grammar": "Carry X forward / carry forward X, with an explicit object or a clear pronoun such as it; passive X is carried forward. Carry changes tense; forward stays fixed.",
+        "register": "Neutral and encouraging. A youth organiser may say it to volunteers taking over a community activity; a project lead may use the passive to discuss a useful feature retained in a new version.",
+        "boundaryZh": "必須有既有做法、計劃、價值或功能延續至下一階段；延續不等於原封不動保存，也不是搬動實物。",
+        "misconceptionZh": "使用 it 時須有清楚指涉對象；被動句可說 is carried forward，不要把 forward 當作實際方向。",
+        "outcomeZh": "能指出要延續的具體事物、下一階段及承接方式，並辨認代詞或被動句形式。"
       },
       "sources": [
         {
@@ -36,6 +36,20 @@
           "sentence": "Young musicians can carry it forward in new ways.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "carry it forward"
+        },
+        {
+          "occurrenceId": "book10-16-2399",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 226,
+          "book": 16,
+          "question": 34,
+          "sample": "S2",
+          "sourceBookPages": "82–83",
+          "locatorNote": "DOCX table 249, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Useful customs deserve to be carried forward.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "carried forward"
         }
       ],
       "review": {
@@ -64,7 +78,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 1,
+      "contentRevision": 2,
       "listening": {
         "promptZh": "青少年打算怎樣處理故事分享活動？",
         "options": [
@@ -127,8 +141,8 @@
         "options": [
           {
             "id": "a",
-            "en": "The students can carry it forward while making room for new styles.",
-            "zh": "學生可以接手延續分享會，同時加入新樂風。"
+            "en": "The students can carry the lunchtime music sessions forward while making room for new styles.",
+            "zh": "學生可以把午間音樂分享會延續下去，同時加入新樂風。"
           },
           {
             "id": "b",
@@ -142,7 +156,7 @@
           }
         ],
         "answerId": "a",
-        "explanationZh": "學生接手原有活動並讓它繼續發展，正是 carry it forward。"
+        "explanationZh": "學生接手原有活動並讓它繼續發展，正是 carry the sessions forward；也可用 it 指代活動。"
       },
       "contrast": {
         "promptZh": "哪個情況最不適合說 carry it forward？",
@@ -251,8 +265,8 @@
       },
       "takeaways": [
         {
-          "en": "A new team can carry it forward without copying every old detail.",
-          "zh": "新團隊可以延續原有計劃，而毋須照搬每個舊細節。"
+          "en": "A useful practice can be carried forward without copying every old detail.",
+          "zh": "有用的做法可以延續下去，而毋須照搬每個舊細節。"
         },
         {
           "en": "When the founders leave, younger volunteers may carry it forward through fresh ideas.",

@@ -1,0 +1,35 @@
+{
+  "reviewType": "independent-ai-owner-sense-adjudication",
+  "scope": "Three held Book 10–16 source occurrences whose target wording overlaps an earlier canonical lesson; semantic ownership only, not a full editorial or release approval",
+  "runtimeEvidence": "natural-english/advanced-display.mjs selects targetPatterns[moduleId] for each lesson, so overlapping lexical patterns are module-local highlights; audit-new-owner-collisions.mjs is a review screen rather than an automatic merge rule.",
+  "decisions": [
+    {
+      "sourceOrdinal": 3142,
+      "sourceOccurrenceId": "book10-16-1031",
+      "newDraftSha256": "9044467f098ae909220d61b9a6c413ab4ea92bc2f92442e039df49c788490d5a",
+      "priorCanonicalId": "advanced-native-048",
+      "priorCanonicalSha256": "283e4fade3e9c1a1cc79d2325506fd43a333a02edcefa17db904599beac6cbc5",
+      "decision": "distinct-sense-owner-acceptable",
+      "reason": "The source 'The room became quiet at once' means immediately after a trigger. Lesson 048 teaches simultaneous actions or demands ('every problem at once'). The new listening, reply and writing examples all use the immediate-after-trigger sense; the identical two-word form is genuine polysemy, not a duplicate learner decision."
+    },
+    {
+      "sourceOrdinal": 3308,
+      "sourceOccurrenceId": "book10-16-1197",
+      "newDraftSha256": "5550615d9d98d362650c133913e2af19db20c5a8605a321fce00c3bdcfde8d38",
+      "priorCanonicalId": "advanced-native-711",
+      "priorCanonicalSha256": "5b83a9d77ba0a51d6700c03b9d88bfb72ba3a3ddde085b994010adc257bad688",
+      "decision": "distinct-sense-owner-acceptable",
+      "reason": "The source 'life does not always follow a script' describes unpredictable events and adapting a plan. Lesson 711 teaches a person following an expected social or career pattern rather than choosing freely. The new target is bounded to life/day/trip/events/reality with negation and the exercises test changed circumstances, not conformity to a role."
+    },
+    {
+      "sourceOrdinal": 3394,
+      "sourceOccurrenceId": "book10-16-1283",
+      "newDraftSha256": "70363723003c4bde4bf08c4955b7e7101300e192f4cb380ec0256935ac7048b4",
+      "priorCanonicalId": "advanced-native-441",
+      "priorCanonicalSha256": "c2f00b5b1b77f3067784b7e81ead2990de2fc720aad04e2466c02cc494f965cd",
+      "decision": "distinct-sense-owner-acceptable",
+      "reason": "The source 'pick up a postcard' means obtain a tangible item. Lesson 441 teaches informally acquiring knowledge or a skill. The new target is bounded to small physical objects and the lesson correctly avoids claiming that obtaining an item entails payment or a free gift. The broad legacy detector is a highlighting overlap, not proof that the source teaches the legacy sense."
+    }
+  ],
+  "followUp": "A separate AI reviewer must clear the final content hashes before these three can enter the unpublished selected manifest. The 4339 draft remains excluded because it duplicates the learner decision of canonical 4175. No publication or human-review claim is made."
+}

@@ -1,0 +1,58 @@
+{
+  "reviewType": "independent-ai-focused-changed-canonical-audio-asr-triage",
+  "inputs": [
+    {
+      "path": "../audio-production/asr-small-flags-2208.json",
+      "sha256": "3b5e6ac35d1eef2dae200eb42a082c48df35049b7400c02de6a926269e724b6b"
+    },
+    {
+      "path": "../audio-production/combined-20261024-final/asr-base-2300.json",
+      "sha256": "3cce18ff459d777f42a05de02ca6fbb130d3c61899b6774da6b17093bd9f3233"
+    },
+    {
+      "path": "../audio-production/combined-20261024-final/asr-small-flags-2300.json",
+      "sha256": "349f3ff8f5c3a07f36e152ea65f2862a7ecdaba7f9f446ab70264a8ae396e6d9"
+    },
+    {
+      "path": "../audio-production/combined-20261024-final/signal-report-2300.json",
+      "sha256": "be2885a0eb330e70834d36512d64885fc46aa7cadeed54284bce8c3209ff53ff"
+    },
+    {
+      "path": "../audio-production/combined-20261024-final/audio-queue.generated.json",
+      "sha256": "7ad89547302c7a98d30e82fbbc02378d0391076df383dd25b7542c88ed532ccd"
+    },
+    {
+      "path": "../audio-production/selected-20261024-553/audio-queue.generated.json",
+      "sha256": "ee7a521b7f9f86ee3531c0a4982c9e5dbf4127c034ee063164b96cb334331363"
+    }
+  ],
+  "scope": {
+    "combinedRoles": 2300,
+    "baseFlags": 85,
+    "dualModelFlags": 28,
+    "previouslyTriagedFlagsUnchanged": 27,
+    "newDualFlags": 1,
+    "newFlagFromChangedCanonical": true
+  },
+  "newFlag": {
+    "synthesisKey": "efba566f3ec889bea1abcfb1af59bb1e5d0fa02014272ab090d7db22aee640a9",
+    "moduleId": "advanced-native-1149",
+    "role": "takeaway-2",
+    "voice": "bf_isabella",
+    "expected": "Sorting the mislabeled boxes ate into the day, so the team postponed the garden visit.",
+    "recognised": "sorting the mislabeled boxes eight into the day so the team postponed the garden visit.",
+    "wordErrorRate": 0.0667,
+    "signalStatus": "passed",
+    "decodedSeconds": 5.204,
+    "rmsDbfs": -18.87,
+    "peak": 0.79234,
+    "audibleFraction": 0.6318,
+    "classification": "ASR homophone/spelling substitution, not evidence of a synthesis content fault",
+    "reason": "English ate and eight have the same spoken form /eɪt/. Both systems transcribed the homophone as eight within otherwise matching wording; the file passed exact-key/full-decode/audible-signal QA. Text or resynthesis cannot disambiguate this ASR spelling alone.",
+    "action": "No automatic rewrite or regeneration on this flag. Include this exact clip in the sampled human listening/pronunciation review before release; retain pending media/public-host gates."
+  },
+  "otherChangedCanonicalDualFlags": 0,
+  "claimLimits": "ASR and signal checks do not certify pronunciation, accent, human listening, or public delivery. The 27 previous dual flags were not reaudited here.",
+  "contentChangeRecommended": false,
+  "publicationApproved": false
+}

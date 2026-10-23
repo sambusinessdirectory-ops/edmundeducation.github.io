@@ -1,0 +1,53 @@
+{
+  "auditKind": "author-two-held-narrative-soundtrack-aliases",
+  "createdUtc": "2026-10-23T18:08:12.124163+00:00",
+  "rows": [
+    {
+      "sourceOrdinal": 2530,
+      "sourceId": "book10-16-0419",
+      "sourceExpression": "part of a longer story",
+      "sourceExample": "Each family record is part of a longer story.",
+      "sourceMeaning": "Connected to a history extending beyond one person; a narrative metaphor.",
+      "canonicalOwner": "advanced-native-1766",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1751-1775.json",
+      "canonicalBatchSha256": "aa502374a84878b1bca395d0e2cab56e54eefa215017025b5755da2147901a2a",
+      "contentRevision": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+      "decisionFileSha256": "436a9d73c1fffa37540853c55e2e90110c1c99b9d9e322cd51a1464dc2780f3c",
+      "sourceProvenanceExact": true,
+      "positiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "decisionReason": "A family record is part of a longer story; canonical one chapter in a much longer story also locates a present element in continuing history. Part can be smaller than a chapter, which the revised grammar explicitly distinguishes."
+    },
+    {
+      "sourceOrdinal": 2658,
+      "sourceId": "book10-16-0547",
+      "sourceExpression": "the soundtrack of a whole period of life",
+      "sourceExample": "Those songs became the soundtrack of a whole period of life.",
+      "sourceMeaning": "Music strongly associated with a life stage; a film metaphor.",
+      "canonicalOwner": "advanced-native-284",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-0276-0300.json",
+      "canonicalBatchSha256": "f832fc36ff26c381158584b663a6e8faa5159d2f1a2f0dee1973ed73d5c818a1",
+      "contentRevision": 3,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+      "decisionFileSha256": "68f7f0305edd59158dc20ce4393e86e55b6ee22bd631fac1cbaf339c1baf02d1",
+      "sourceProvenanceExact": true,
+      "positiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "decisionReason": "Songs linked to a whole life period and familiar sound linked to everyday life use the same lived-experience soundtrack metaphor; the two complements distinguish life stage from routine, not separate senses."
+    }
+  ],
+  "reviewNotes": [
+    "2530 market-sign transfer is a single historical element, distinct from source family record and canonical exhibition/garden chapter contexts.",
+    "2658 architecture-study playlist models a life period rather than canonical commuter everyday routine or source unspecified old songs.",
+    "Adding source 2658 activated the Books10–16 target-bearing dialogue guard; canonical 284 dialogue answer was rewritten in EN/ZH to use the target naturally, with contentRevision 3.",
+    "Source 2664 leave the same deep footprint remains held: the source wording requires naturalness and comparator review before use in an assessed target."
+  ],
+  "focusedBuildCheck": "PASS: two canonical batches, 46 lessons, 276 questions, 184 audio requests, zero flags",
+  "fullVerifier": "PASS: 2604 source/decision rows; zero source gaps, schema errors, selected alias pattern exceptions, guide copies or near-duplicate flags",
+  "allDiscoveredAliasAudit": "PASS: 158/158 alias-new rows matched, zero exceptions",
+  "independentReview": "pending exact-hash focused content review",
+  "selectedManifestChanged": false,
+  "published": false,
+  "releaseApproved": false
+}

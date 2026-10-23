@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-held-4576-4588-b",
+  "lessons": [
+    {
+      "id": "advanced-native-4576",
+      "number": 4576,
+      "inventoryId": "expr-4576",
+      "contentRevision": 1,
+      "titleEn": "hard to go back",
+      "titleZh": "用慣新方法後難以回頭",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bhard to go back\\b",
+        "glossaryForbidden": [
+          "\\bhard to go back\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "After experiencing a more convenient or effective method, returning to the old one feels unattractive or difficult.",
+        "meaningZh": "用過更方便或更有效的方法後，覺得難以再接受原有做法。",
+        "grammar": "It is/was hard to go back (to the old system). State what improved and what older practice remains possible; hard expresses reluctance or difficulty, not logical impossibility.",
+        "register": "A customer comparing booking methods with a colleague, or a team lead discussing a workflow change, can use this everyday conversational phrase.",
+        "boundaryZh": "重點是新經驗改變了對舊方法的接受程度；不表示舊方法已被禁止，也不一定指身體上無法返回某地。",
+        "misconceptionZh": "難以回頭不等於絕對不能回頭；要說明新方法在哪方面帶來改善。",
+        "outcomeZh": "能指出新舊方法、具體改善及回到舊方法為何令人抗拒。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2465",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 233,
+          "book": 16,
+          "question": 44,
+          "sample": "S1",
+          "sourceBookPages": "104–105",
+          "locatorNote": "DOCX table 259, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "After online booking, it is hard to go back.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hard to go back"
+        }
+      ],
+      "listening": {
+        "en": "After the clinic introduced an online appointment calendar, Nila could see open times without waiting on the telephone. She said it was hard to go back to the old call queue, though the phone line still worked.",
+        "zh": "診所推出網上預約日曆後，Nila 不用在電話線上等候便可查看空缺時段。她說很難再回到舊電話排隊方式，雖然電話線仍可使用。",
+        "promptZh": "Nila 說 hard to go back，意思是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The online calendar is more convenient, so she is reluctant to use the old call queue again.",
+            "zh": "網上日曆較方便，她因此不願再用舊電話排隊方式。"
+          },
+          {
+            "id": "b",
+            "en": "The clinic has permanently banned every telephone call.",
+            "zh": "診所已永久禁止所有電話預約。"
+          },
+          {
+            "id": "c",
+            "en": "She physically cannot return to the clinic building.",
+            "zh": "她身體上無法返回診所大樓。"
+          },
+          {
+            "id": "d",
+            "en": "She has forgotten how to use any appointment system.",
+            "zh": "她已忘記如何使用任何預約系統。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "網上查看空檔比較方便，令她不願回到電話排隊；原方式仍可使用。"
+      },
+      "reply": {
+        "promptEn": "Our warehouse now scans each delivery label in seconds; the old handwritten log is still available. Why do staff prefer the scanner?",
+        "promptZh": "倉庫現可在數秒內掃描每張送貨標籤；舊手寫紀錄仍可使用。為甚麼員工較喜歡掃描器？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It records deliveries faster than writing every entry by hand.",
+            "zh": "它記錄送貨的速度比逐項手寫快。"
+          },
+          {
+            "id": "b",
+            "en": "The quicker check makes the old log feel cumbersome.",
+            "zh": "較快的核對方式令舊紀錄方法顯得繁瑣。"
+          },
+          {
+            "id": "c",
+            "en": "After scanning, staff find it hard to go back to handwriting every label, even though they still can.",
+            "zh": "用過掃描後，即使仍可手寫，員工也難以再接受逐張標籤記錄。"
+          },
+          {
+            "id": "d",
+            "en": "They can spend less time copying information and more time checking the parcels.",
+            "zh": "他們可少花時間抄資料，多花時間核對包裹。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都由掃描較快解釋偏好；金句同時保留舊方法仍可用的事實。"
+      },
+      "scene": {
+        "promptZh": "圖書館推出可搜尋的網上目錄，舊卡片目錄仍放在大堂。讀者發現網上搜尋更快。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Readers find it hard to go back to the cards after using the searchable catalogue, though the cards remain available.",
+            "zh": "讀者用過可搜尋目錄後，很難再回到卡片目錄，雖然卡片仍可使用。"
+          },
+          {
+            "id": "b",
+            "en": "The cards have disappeared and nobody can touch them.",
+            "zh": "卡片已消失，任何人都不能再使用。"
+          },
+          {
+            "id": "c",
+            "en": "The online catalogue cannot find any book.",
+            "zh": "網上目錄找不到任何書。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "讀者因新方法較快而不願用舊方法，並非舊卡片已不可用。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況只是在說實際返回某地，最不像本課的 hard to go back？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A volunteer prefers the new shared rota to the old paper list.",
+            "zh": "義工較喜歡新的共享值班表，不想用舊紙表。"
+          },
+          {
+            "id": "b",
+            "en": "A hiker cannot walk back to the trail entrance because the bridge is closed.",
+            "zh": "橋關閉了，遠足者無法走回行山徑入口。"
+          },
+          {
+            "id": "c",
+            "en": "A reader finds the searchable archive so useful that the old index feels slow.",
+            "zh": "讀者覺得可搜尋檔案很好用，舊索引顯得慢。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "遠足者是實際路線受阻；本課指體驗新方法後不願再用舊方法。"
+      },
+      "dialogue": {
+        "promptZh": "甲：劇院的網上座位圖可顯示空位。我們一定要停止電話訂票嗎？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "No. Many customers may find it hard to go back to choosing seats by phone, but others can still use that option.",
+            "zh": "不用。許多顧客或覺得很難回到電話選位，但其他人仍可用電話訂票。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. A new map proves all customers own a smartphone.",
+            "zh": "要。新座位圖證明所有顧客都有智能手機。"
+          },
+          {
+            "id": "c",
+            "en": "Yes. The phone service has already been legally prohibited.",
+            "zh": "要。電話服務已被法律禁止。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "網上選位較方便，不代表所有人都能或應放棄電話渠道。",
+        "promptEn": "A: The theatre's online seat map shows exactly which seats are free. Do we have to shut down telephone booking?\nB: ?"
+      },
+      "speaking": {
+        "en": "After the recipe app sorted ingredients for me, it was hard to go back to searching through loose pages.",
+        "zh": "食譜程式替我整理材料後，我很難再回到翻找零散紙張的方式。",
+        "promptZh": "先聽示範，再說出新方法改善了甚麼、舊方法為何顯得麻煩。",
+        "targetSpan": {
+          "start": 55,
+          "end": 70
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：體育會由紙本簽到表改用可立即更新的數碼名單；紙表仍作後備。用一至兩句英文解釋為何義工用慣數碼名單後難以回到舊方法，但不要說紙表已消失。",
+        "selfCheckZh": "寫出數碼名單能即時更新、紙表仍是後備，以及義工為何不想再逐項手寫。",
+        "examples": [
+          {
+            "en": "The digital attendance list updates immediately, so volunteers find it hard to go back to filling in the paper sheet by hand. The sheet remains available as a backup.",
+            "zh": "數碼簽到名單可即時更新，因此義工很難再回到逐項手寫紙表的方式；紙表仍保留作後備。"
+          },
+          {
+            "en": "Volunteers find it hard to go back to the slower paper sign-in after using the live list, although the club still keeps paper copies for emergencies.",
+            "zh": "義工用過即時更新的名單後，很難再接受較慢的紙本簽到；但體育會仍保留紙表供緊急情況使用。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "attendance list",
+            "zh": "簽到名單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 12,
+              "end": 27
+            }
+          },
+          {
+            "en": "updates immediately",
+            "zh": "即時更新",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 47
+            }
+          },
+          {
+            "en": "paper sheet",
+            "zh": "紙表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 116
+            }
+          },
+          {
+            "en": "paper sign-in",
+            "zh": "紙本簽到",
+            "exampleIndex": 1,
+            "span": {
+              "start": 49,
+              "end": 62
+            }
+          },
+          {
+            "en": "for emergencies",
+            "zh": "供緊急情況使用",
+            "exampleIndex": 1,
+            "span": {
+              "start": 133,
+              "end": 148
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The new caption search made it hard to go back to finding each interview quote by hand.",
+          "zh": "新的字幕搜尋功能令逐句手找訪問引文的舊方法顯得難以接受。"
+        },
+        {
+          "en": "Once the team could share live edits, it was hard to go back to emailing separate copies, though email remained possible.",
+          "zh": "團隊用慣即時共同修改後，很難再回到逐封電郵傳不同版本，雖然電郵仍可用。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      }
+    },
+    {
+      "id": "advanced-native-4588",
+      "number": 4588,
+      "inventoryId": "expr-4588",
+      "contentRevision": 2,
+      "titleEn": "time is a luxury",
+      "titleZh": "時間成了難得的奢侈",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\btime (?:has become|is|was|feels like|felt like) (?:a kind of |a )luxury\\b",
+        "glossaryForbidden": [
+          "\\btime (?:has become|is|was|feels like|felt like) (?:a kind of |a )luxury\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Free or flexible time has become scarce and especially valuable, regardless of someone's financial wealth.",
+        "meaningZh": "可自由安排的時間變得稀少而珍貴，與一個人是否富有不必然相關。",
+        "grammar": "Time is/has become a luxury; time feels like a luxury. Specify whose time and what obligations make it scarce. Luxury is figurative here, not a claim that time is bought as a product.",
+        "register": "A parent describing care schedules to a friend, or a volunteer coordinator discussing realistic availability, can use this neutral-to-reflective expression.",
+        "boundaryZh": "說時間珍貴，要有具體行程或責任造成的限制；不能推斷當事人一定有錢、沒有時間做任何事，或人人情況相同。",
+        "misconceptionZh": "這個比喻重點是時間難得，不是金錢價格。",
+        "outcomeZh": "能指出誰的可用時間有限、原因是甚麼，以及應如何據此調整安排。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2477",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 234,
+          "book": 16,
+          "question": 46,
+          "sample": "S1",
+          "sourceBookPages": "108–109",
+          "locatorNote": "DOCX table 261, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "For working parents, time has become a kind of luxury.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "time has become a kind of luxury"
+        }
+      ],
+      "listening": {
+        "en": "Leila cares for her father after her morning shift and has only one free evening a week. For her, time is a luxury, so the committee offered a shorter volunteer slot instead of assuming she could attend every meeting.",
+        "zh": "Leila 早班後照顧父親，每週只有一個晚上有空。對她而言，時間十分難得，因此委員會提供較短的義工時段，而不是假定她可出席每次會議。",
+        "promptZh": "為甚麼說 Leila 的 time is a luxury？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Care duties and work leave her very little flexible time.",
+            "zh": "工作和照顧責任令她幾乎沒有可自由安排的時間。"
+          },
+          {
+            "id": "b",
+            "en": "She can buy unlimited extra evenings with money.",
+            "zh": "她可用錢買到無限多個晚上。"
+          },
+          {
+            "id": "c",
+            "en": "She has no responsibilities and is free every night.",
+            "zh": "她沒有責任，每晚都有空。"
+          },
+          {
+            "id": "d",
+            "en": "The committee has cancelled all volunteer work.",
+            "zh": "委員會已取消所有義工工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她兼顧早班與照顧父親，空閒時間稀少；短時段是按其現實情況調整。"
+      },
+      "reply": {
+        "promptEn": "The market volunteers have only twenty minutes between site access and the first visitors. Why send setup tasks before they arrive instead of holding a long briefing on site?",
+        "promptZh": "市集義工從獲准進場到首批訪客到來，只有二十分鐘。為甚麼預先發送佈置工作，而不在現場開一場冗長簡介會？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They can use the short setup window to prepare the stalls rather than hear instructions.",
+            "zh": "他們可把短暫的佈置時間用於準備攤位，而非聽指示。"
+          },
+          {
+            "id": "b",
+            "en": "A task list sent early leaves more of those twenty minutes for actual setup.",
+            "zh": "提早發工作清單，可把二十分鐘更多地留給實際佈置。"
+          },
+          {
+            "id": "c",
+            "en": "For the volunteers, time is a luxury before opening; advance tasks make the setup window usable.",
+            "zh": "開市前義工的時間很珍貴；預先分配工作才能用好佈置時段。"
+          },
+          {
+            "id": "d",
+            "en": "They can start their assigned jobs as soon as site access begins.",
+            "zh": "一獲准進場，他們便可立即開始獲分配的工作。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明預先分工如何節省短暫佈置時間；金句以 time is a luxury 表達時間難得。"
+      },
+      "scene": {
+        "promptZh": "社區診所給輪班工人提供可選的十分鐘電話諮詢，不假定他們能請半天假。哪句較貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "For workers on changing shifts, time is a luxury; short flexible calls may fit better than a half-day visit.",
+            "zh": "對輪班工人而言，時間難得；靈活的短電話或比請半天假更合適。"
+          },
+          {
+            "id": "b",
+            "en": "Every shift worker has unlimited free time for appointments.",
+            "zh": "每位輪班工人都有無限時間覆診。"
+          },
+          {
+            "id": "c",
+            "en": "A short call proves that no one ever needs an in-person appointment.",
+            "zh": "短電話證明沒有人需要親身覆診。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "靈活短時段是配合時間限制，不代表所有人都一樣或親身覆診不再需要。"
+      },
+      "contrast": {
+        "promptZh": "哪項推論不能單靠 time is a luxury 得出？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A person has little free time around other commitments.",
+            "zh": "當事人在其他責任之間只有少量空閒時間。"
+          },
+          {
+            "id": "b",
+            "en": "The person must be wealthy because luxury always means buying expensive things.",
+            "zh": "當事人一定富有，因為奢侈只指購買昂貴物品。"
+          },
+          {
+            "id": "c",
+            "en": "A shorter or flexible appointment may be helpful.",
+            "zh": "較短或彈性的安排可能有幫助。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "時間難得不等於當事人有錢；此處 luxury 是時間稀少的比喻。"
+      },
+      "dialogue": {
+        "promptZh": "甲：義工簡介會要三小時，但不少照顧者只能抽半小時。我們應否認定他們沒興趣？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "No. Time is a luxury for many carers; offer a concise briefing and a way to ask questions later.",
+            "zh": "不應。很多照顧者的時間難得；可提供精簡簡介會，並讓他們之後提問。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. A caring responsibility proves they dislike volunteering.",
+            "zh": "應該。照顧責任證明他們不喜歡做義工。"
+          },
+          {
+            "id": "c",
+            "en": "Yes. Extend the briefing to six hours so they can show commitment.",
+            "zh": "應該。把簡介會延至六小時，讓他們表現投入。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可用時間有限不代表缺乏興趣；精簡及後續提問較能配合實際限制。",
+        "promptEn": "A: The volunteer briefing lasts three hours, but many carers can spare only half an hour. Should we assume they are not interested?\nB: ?"
+      },
+      "speaking": {
+        "en": "For the school meal team, time is a luxury during the morning rush, so clear labels save repeated checks.",
+        "zh": "早上繁忙時，學校膳食團隊的時間很珍貴，因此清楚標籤可減少重複核對。",
+        "promptZh": "先聽示範，再指出甚麼時段緊張，以及清楚標籤有甚麼作用。",
+        "targetSpan": {
+          "start": 26,
+          "end": 42
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩名輪班家長每週只有一個共同空檔，想參與學校圖書館義工工作；學校可提供二十分鐘輪值，而非整個下午。用一至兩句英文解釋時間限制及合適安排，不要斷言他們不願幫忙。",
+        "selfCheckZh": "寫出家長只有一個共同空檔、二十分鐘輪值可行，以及不應把時間不足誤解成沒有意願。",
+        "examples": [
+          {
+            "en": "Time is a luxury for the two shift-working parents because they share only one free slot each week. A twenty-minute library shift would let them help without assuming they can stay all afternoon.",
+            "zh": "兩名輪班家長每週只有一個共同空檔，因此時間很難得。二十分鐘圖書館輪值讓他們能幫忙，而不用假定他們可留一整個下午。"
+          },
+          {
+            "en": "The parents want to help, but time has become a luxury around their shifts and their single shared opening. The school could offer a twenty-minute turn instead of an afternoon duty.",
+            "zh": "家長想幫忙，但輪班之間每週只有一個共同空檔，時間十分珍貴；學校可提供二十分鐘輪值，而非整個下午的職務。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "shift-working parents",
+            "zh": "輪班家長",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 50
+            }
+          },
+          {
+            "en": "one free slot",
+            "zh": "一個空檔",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 88
+            }
+          },
+          {
+            "en": "library shift",
+            "zh": "圖書館輪值",
+            "exampleIndex": 0,
+            "span": {
+              "start": 116,
+              "end": 129
+            }
+          },
+          {
+            "en": "single shared opening",
+            "zh": "唯一共同空檔",
+            "exampleIndex": 1,
+            "span": {
+              "start": 85,
+              "end": 106
+            }
+          },
+          {
+            "en": "afternoon duty",
+            "zh": "整個下午的職務",
+            "exampleIndex": 1,
+            "span": {
+              "start": 166,
+              "end": 180
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "For the night-shift nurse, time is a luxury, so the workshop offered a short recorded session.",
+          "zh": "對夜班護士而言，時間很難得，因此工作坊提供短錄影課。"
+        },
+        {
+          "en": "When volunteers have care duties, time is a luxury; flexible tasks can help them stay involved.",
+          "zh": "義工有照顧責任時，時間很珍貴；彈性任務可助他們繼續參與。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      }
+    }
+  ]
+}

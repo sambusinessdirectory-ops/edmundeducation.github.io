@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-held-4310-4368-b",
+  "lessons": [
+    {
+      "id": "advanced-native-4310",
+      "number": 4310,
+      "inventoryId": "expr-4310",
+      "contentRevision": 2,
+      "titleEn": "walking through fog",
+      "titleZh": "在資訊或理解不足下摸索",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bwalk(?:s|ed|ing)? through fog\\b",
+        "glossaryForbidden": [
+          "\\bwalk(?:s|ed|ing)? through fog\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Try to make decisions without enough understanding to see the way forward clearly.",
+        "meaningZh": "因缺乏必要理解而難以看清下一步，只能摸索着作決定。",
+        "grammar": "Use walk/walking/walked through fog figuratively, often after feel like or as if, for a person or group facing unclear information. The image can also describe literal weather, so the uncertainty must be evident in context.",
+        "register": "A teacher addressing adult learners, or a community organiser explaining why residents need clear figures, can use this conversational image; it is more vivid than simply saying confused.",
+        "boundaryZh": "重點是缺少資訊或理解而難以判斷方向；真正在霧中步行、單純走得慢或不喜歡某計劃，並非這個比喻的用法。",
+        "misconceptionZh": "不是說沒有任何選項；就算數字齊備，若不懂其含意，也可能無法有把握地選擇。",
+        "outcomeZh": "能指出欠缺哪項資料或基礎理解、這如何妨礙判斷，以及甚麼說明可令下一步更清楚。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2199",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 207,
+          "book": 16,
+          "question": 11,
+          "sample": "S1",
+          "sourceBookPages": "27–28",
+          "locatorNote": "DOCX table 226, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Without basic science, citizens may feel like they are walking through fog.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "walking through fog"
+        }
+      ],
+      "listening": {
+        "en": "The tenants had to choose between two roof repairs, but no one had shown them the costs or the leak report. At the meeting, Mei said they were walking through fog until those details arrived.",
+        "zh": "住戶須在兩個屋頂維修方案之間作選擇，但仍未看到費用或滲漏報告。梅在會議上說，收到這些資料前，他們就像在霧中摸索。",
+        "promptZh": "梅說住戶 walking through fog，最主要是因為甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They lack the cost and leak details needed to compare the repairs.",
+            "zh": "他們缺少比較維修方案所需的費用和滲漏資料。"
+          },
+          {
+            "id": "b",
+            "en": "The meeting room is too dark for them to read either plan.",
+            "zh": "會議室太暗，令他們看不到兩份方案。"
+          },
+          {
+            "id": "c",
+            "en": "They have already chosen the cheaper repair with confidence.",
+            "zh": "他們已很有把握地選了較便宜的維修方案。"
+          },
+          {
+            "id": "d",
+            "en": "They dislike every kind of roof repair regardless of its cost.",
+            "zh": "不論費用多少，他們都不喜歡任何屋頂維修。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "缺的是比較方案所需的具體資料，並非會議室真的起霧或住戶已作決定。"
+      },
+      "reply": {
+        "promptEn": "A class must choose a field trip, but the organiser has not published transport costs or accessibility details. Why ask for those facts first?",
+        "promptZh": "班級要選校外考察地點，但籌辦者尚未公布交通費和無障礙安排。為甚麼要先索取這些資料？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The class needs to compare realistic costs and access before voting.",
+            "zh": "全班投票前需要比較實際費用和無障礙安排。"
+          },
+          {
+            "id": "b",
+            "en": "Those details will help everyone see which trip they can take.",
+            "zh": "這些資料有助大家了解哪個行程可行。"
+          },
+          {
+            "id": "c",
+            "en": "Without them, the class would be walking through fog when it votes.",
+            "zh": "沒有這些資料，全班投票時就像在霧中摸索。"
+          },
+          {
+            "id": "d",
+            "en": "Asking now gives students a fair basis for explaining their choice.",
+            "zh": "現在索取資料，讓學生有公平的依據解釋自己的選擇。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理說明先取得資料的作用；金句以 walking through fog 形容資訊不足時的摸索。"
+      },
+      "scene": {
+        "promptZh": "居民已拿到兩個診所時段的完整候診數字，卻不懂『中位數』與『平均數』有何不同，因而無法比較。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are walking through fog until someone explains how to interpret the two measures.",
+            "zh": "在有人解釋兩種數值的含意前，他們就像在霧中摸索。"
+          },
+          {
+            "id": "b",
+            "en": "Having all the numbers means they have already understood what each measure tells them.",
+            "zh": "拿到所有數字，就表示他們已明白每種數值代表甚麼。"
+          },
+          {
+            "id": "c",
+            "en": "They should choose the larger number without learning what it measures.",
+            "zh": "不用弄清數字量度甚麼，直接選較大的數字便可。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "居民已有資料，但缺少理解數值的基礎知識；先弄懂含意才可比較。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合用 walking through fog 作比喻？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The committee has no budget figures for the options it must rank.",
+            "zh": "委員會要排列方案，卻沒有預算數字。"
+          },
+          {
+            "id": "b",
+            "en": "A hiker walks through real fog on a marked path at dawn.",
+            "zh": "遠足者清晨沿着有標記的小徑在真霧中行走。"
+          },
+          {
+            "id": "c",
+            "en": "Applicants cannot tell which documents are required because the instructions conflict.",
+            "zh": "申請人看到互相矛盾的指示，無法判斷要交甚麼文件。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "遠足者是在真霧中行走；本課要表達的是缺少理解或資料的比喻用法。"
+      },
+      "dialogue": {
+        "promptZh": "甲：我們今天要推薦資助對象，但一直未收到評分準則。現在還能公平地排列申請嗎？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Not yet. We are walking through fog without the criteria; ask for them before ranking anyone.",
+            "zh": "暫時不能。沒有準則，我們就像在霧中摸索；先索取準則再排列申請。"
+          },
+          {
+            "id": "b",
+            "en": "We could use last year's scoring rules for now, even though no one has confirmed they still apply.",
+            "zh": "我們可暫用去年的評分準則，雖然沒有人確認它今年仍適用。"
+          },
+          {
+            "id": "c",
+            "en": "We could rank by application length, although that may have little to do with merit.",
+            "zh": "我們可按申請書長短排列，雖然這可能與申請質素關係不大。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "缺少評分準則，不能有把握地公平排序；先索取準則才有清晰依據。",
+        "promptEn": "A: We have to recommend a grant recipient today, but the scoring rules were never sent to us. Can we still rank the applications fairly?\nB: ?"
+      },
+      "speaking": {
+        "en": "Without the flood map, our planning team is walking through fog about where homes can be built.",
+        "zh": "沒有洪水風險圖，規劃團隊便難以判斷哪裏可建住宅。",
+        "promptZh": "先聽示範，再說出缺少哪項資料，令團隊難以判斷甚麼。",
+        "targetSpan": {
+          "start": 44,
+          "end": 63
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：大學新生要選一門選修課，但課程網站沒有列出先修要求及每週工作量。用一至兩句英文解釋他們為何難作決定，以及甚麼資料能幫忙。",
+        "selfCheckZh": "寫出欠缺先修要求及工作量，說明這如何影響選課，並指出取得資料後才能較有把握地選擇。",
+        "examples": [
+          {
+            "en": "The new students are walking through fog because the course page omits both prerequisites and weekly workload. Publishing those details would let them judge whether the elective fits their schedule.",
+            "zh": "新生選課時像在霧中摸索，因為課程頁面既沒有先修要求，也沒有每週工作量。公布資料後，他們才可判斷選修課是否適合自己的時間表。"
+          },
+          {
+            "en": "Without the prerequisites or weekly workload, students walk through fog when choosing this elective. The department should show both before students submit their choices.",
+            "zh": "沒有先修要求或每週工作量，學生選這門選修課時便難以判斷。學系應在學生提交選擇前公布兩項資料。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "prerequisites",
+            "zh": "先修要求",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 89
+            }
+          },
+          {
+            "en": "weekly workload",
+            "zh": "每週工作量",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 109
+            }
+          },
+          {
+            "en": "fits their schedule",
+            "zh": "適合他們的時間表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 178,
+              "end": 197
+            }
+          },
+          {
+            "en": "choosing this elective",
+            "zh": "選這門選修課",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 99
+            }
+          },
+          {
+            "en": "submit their choices",
+            "zh": "提交選擇",
+            "exampleIndex": 1,
+            "span": {
+              "start": 149,
+              "end": 169
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "When the organiser hid the rehearsal dates, the new cast felt like they were walking through fog.",
+          "zh": "籌辦者沒有公布排練日期，新演員便覺得難以規劃。"
+        },
+        {
+          "en": "Clear allergy labels stopped shoppers from walking through fog about what the meal contained.",
+          "zh": "清楚的致敏原標籤，令顧客不再需要猜測餐點含甚麼。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      }
+    },
+    {
+      "id": "advanced-native-4368",
+      "number": 4368,
+      "inventoryId": "expr-4368",
+      "contentRevision": 2,
+      "titleEn": "sell a feeling",
+      "titleZh": "以情感訴求推銷",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:sell|sells|sold|selling) a feeling\\b",
+        "glossaryForbidden": [
+          "\\b(?:sell|sells|sold|selling) a feeling\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Promote an experience by appealing to an emotion people hope to have, rather than only listing product features.",
+        "meaningZh": "以人們期望得到的感受作宣傳訴求，而非只列出產品或服務的功能。",
+        "grammar": "sell/sells/sold/selling a feeling of belonging, calm or excitement. The emotion is an appeal in the message, not a guaranteed result or a literal object for sale.",
+        "register": "A marketer explaining an advert to a client, or a media teacher discussing persuasion with students, may use this neutral-to-critical phrase.",
+        "boundaryZh": "重點是廣告訴求的情感；不能因宣傳片展示笑容，就斷言每位顧客實際都會得到那種感受。",
+        "misconceptionZh": "這裏不是把情緒當實體出售，也不是只強調客觀功能或價格。",
+        "outcomeZh": "能指出廣告承諾甚麼感受、用了甚麼畫面或文字暗示它，並分清訴求與實際保證。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2257",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 213,
+          "book": 16,
+          "question": 19,
+          "sample": "S1",
+          "sourceBookPages": "46–48",
+          "locatorNote": "DOCX table 234, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Luxury ads often sell a feeling of belonging.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "sell a feeling"
+        }
+      ],
+      "listening": {
+        "en": "The cycling club's advert hardly mentioned bike specifications. It showed newcomers laughing together after a ride and sold a feeling of belonging to a group.",
+        "zh": "單車會的廣告幾乎沒有談單車規格，卻展示新會員騎行後一起談笑，藉此推銷加入團體的歸屬感。",
+        "promptZh": "廣告 sold a feeling，指的是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It appealed to the wish to belong, rather than detailing bicycle features.",
+            "zh": "廣告訴諸想融入團體的願望，而非詳列單車功能。"
+          },
+          {
+            "id": "b",
+            "en": "It guaranteed every newcomer would make close friends immediately.",
+            "zh": "廣告保證每位新會員都立即交到摯友。"
+          },
+          {
+            "id": "c",
+            "en": "It mainly compared the weight of different bicycles.",
+            "zh": "廣告主要比較不同單車的重量。"
+          },
+          {
+            "id": "d",
+            "en": "It chiefly explained membership fees and insurance rather than the shared ride.",
+            "zh": "廣告主要解釋會費與保險，而非展示一起騎行。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "影片把一起騎行的快樂與歸屬感連在一起；這是情感訴求，不是交友保證。"
+      },
+      "reply": {
+        "promptEn": "A neighbourhood theatre poster shows families laughing together, but says little about ticket features. Why choose that image?",
+        "promptZh": "社區劇院海報展示一家人一同大笑，卻少談票務細節。為甚麼選這張照片？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It invites people to imagine enjoying a shared evening.",
+            "zh": "它讓人想像一起享受晚上的演出。"
+          },
+          {
+            "id": "b",
+            "en": "The picture appeals to the warmth of being together.",
+            "zh": "照片訴諸相聚的溫暖感。"
+          },
+          {
+            "id": "c",
+            "en": "The poster sells a feeling of togetherness, not just a seat.",
+            "zh": "海報推銷的是相聚的感受，不只是座位。"
+          },
+          {
+            "id": "d",
+            "en": "It gives viewers an emotional reason to consider a show.",
+            "zh": "它給觀眾一個從情感出發考慮演出的理由。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理說明照片的宣傳作用；金句以 sell a feeling 點出情感訴求。"
+      },
+      "scene": {
+        "promptZh": "旅館宣傳片只展示客人在露台安靜閱讀，沒有細列房間設備。哪句描述最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The film sells a feeling of calm through the quiet reading scene.",
+            "zh": "影片透過安靜閱讀的畫面推銷平靜感。"
+          },
+          {
+            "id": "b",
+            "en": "The film proves every guest will be calm throughout the stay.",
+            "zh": "影片證明每位住客入住期間都會一直平靜。"
+          },
+          {
+            "id": "c",
+            "en": "The film is a detailed inventory of the room's equipment.",
+            "zh": "影片詳細列出了房間設備。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "畫面喚起平靜感，並未提供設備清單，也不能保證每人的體驗。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況主要不是 sell a feeling？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An ad shows friends sharing a meal to suggest belonging.",
+            "zh": "廣告展示朋友聚餐以暗示歸屬感。"
+          },
+          {
+            "id": "b",
+            "en": "A brochure lists the fridge's dimensions and energy rating without any emotional image.",
+            "zh": "小冊子只列冰箱尺寸及能源評級，沒有情感畫面。"
+          },
+          {
+            "id": "c",
+            "en": "A campaign depicts a quiet garden to suggest relief from a busy day.",
+            "zh": "宣傳展示安靜花園，暗示忙碌一天後的放鬆。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "冰箱資料只陳列可量度的功能；另外兩項都以畫面喚起一種感受。"
+      },
+      "dialogue": {
+        "promptZh": "甲：圖書館宣傳展示孩子自豪地借到第一本書。我們是在聲稱圖書館會令每個孩子都變得有自信嗎？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "No. It sells a feeling of discovery; we should not promise the same result for every child.",
+            "zh": "不是。它以探索的喜悅作訴求；我們不應保證每個孩子都有同一結果。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. Since the poster suggests confidence, we can treat that feeling as a guaranteed result.",
+            "zh": "是。海報暗示自信，我們便可把這種感受當作必然結果。"
+          },
+          {
+            "id": "c",
+            "en": "No. We should remove the child's reaction and show only the library's shelf capacity.",
+            "zh": "不是。我們應刪去孩子的反應，只展示圖書館書架可放多少書。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "畫面可以喚起探索的喜悅，但宣傳訴求不等於保證所有孩子的實際感受。",
+        "promptEn": "A: Our library campaign shows children proudly borrowing their first book. Are we claiming the library will make every child confident?\nB: ?"
+      },
+      "speaking": {
+        "en": "The poster sells a feeling of welcome by showing neighbours greeting first-time visitors.",
+        "zh": "海報展示街坊迎接首次到訪者，以此推銷受歡迎的感受。",
+        "promptZh": "先聽示範，再說出海報用甚麼畫面暗示哪種感受。",
+        "targetSpan": {
+          "start": 11,
+          "end": 26
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：無障礙巴士服務的廣告展示一名輪椅使用者自行乘車到社區畫室，卻沒有列出實際班次。用一至兩句英文說明廣告主打哪種感受，並分清感受與仍須查核的時間表。",
+        "selfCheckZh": "指出自行到畫室的畫面、被喚起的獨立感及班次仍未公布；不要保證每位乘客都能有相同體驗。",
+        "examples": [
+          {
+            "en": "The accessible-bus advert sells a feeling of independence by showing a wheelchair user reaching an art studio without a companion. Riders still need the actual timetable before planning a trip.",
+            "zh": "無障礙巴士廣告展示輪椅使用者毋須同行者便到達畫室，主打獨立自主的感受；乘客規劃行程前仍須查實際時間表。"
+          },
+          {
+            "en": "By showing a rider travelling alone to an art class, the campaign sells a feeling of freedom rather than stating when buses run. It cannot promise every passenger the same experience.",
+            "zh": "宣傳展示乘客獨自乘車到畫班，主打自由自主的感受，而非列出巴士班次；它不能保證每位乘客都有相同體驗。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "wheelchair user",
+            "zh": "輪椅使用者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 86
+            }
+          },
+          {
+            "en": "without a companion",
+            "zh": "毋須同行者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 129
+            }
+          },
+          {
+            "en": "actual timetable",
+            "zh": "實際時間表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 153,
+              "end": 169
+            }
+          },
+          {
+            "en": "travelling alone",
+            "zh": "獨自乘車",
+            "exampleIndex": 1,
+            "span": {
+              "start": 19,
+              "end": 35
+            }
+          },
+          {
+            "en": "when buses run",
+            "zh": "巴士班次",
+            "exampleIndex": 1,
+            "span": {
+              "start": 113,
+              "end": 127
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The garden advert sold a feeling of peace with slow shots of a shaded bench.",
+          "zh": "花園廣告以樹蔭下長椅的慢鏡頭，喚起寧靜感。"
+        },
+        {
+          "en": "A repair shop can sell a feeling of relief in its advert, but customers still need a clear written estimate.",
+          "zh": "維修店廣告可以主打安心感，但顧客仍需要清楚的書面報價。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,819 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-held-cohort-2513-2627-b",
+  "lessons": [
+    {
+      "id": "advanced-native-2513",
+      "number": 2513,
+      "inventoryId": "expr-2513",
+      "contentRevision": 2,
+      "titleEn": "cast a long shadow",
+      "titleZh": "留下長遠陰影",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bcast(?:s|ing)? a long shadow\\b",
+        "glossaryForbidden": [
+          "\\b(?:cast(?:s|ing)? a long shadow)\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Cause a negative influence that lasts well beyond the original event.",
+        "meaningZh": "一件事的負面影響延續很久，超出事件當下。",
+        "grammar": "An error, decision or scandal can cast a long shadow over later work or trust; cast is both base and past form. Identify the later consequence, not merely the immediate setback.",
+        "register": "A commentator describing an incident to readers, or a colleague reflecting on damaged trust with a team, may use this measured figurative phrase.",
+        "boundaryZh": "必須有延續到較後時段的影響；瞬間的不快並不足以構成「長遠陰影」。",
+        "misconceptionZh": "「長」指影響的持續性，不是光線下實際影子的長度；正面長遠影響須清楚標明，另有課處理。",
+        "outcomeZh": "能指出原事件、後來仍存在的具體負面影響，以及時間跨度。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0402",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 37,
+          "book": 10,
+          "question": 33,
+          "sample": "S1",
+          "sourceBookPages": "80–82",
+          "locatorNote": "DOCX table 33, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "In a close contest, one slip can cast a long shadow.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "one slip can cast a long shadow"
+        }
+      ],
+      "listening": {
+        "en": "A theatre sold tickets before confirming wheelchair access. The seats were later changed and refunds offered, but the mistake cast a long shadow: some audience members still checked access independently the next season.",
+        "zh": "劇院未確認輪椅通道便售票。後來雖更換座位並退款，但這次錯誤留下長遠陰影：到下一季，有些觀眾仍會自行核對無障礙安排。",
+        "promptZh": "為甚麼說這次錯誤 cast a long shadow？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The access mistake affected trust even after the theatre fixed the immediate problem.",
+            "zh": "劇院解決眼前問題後，無障礙安排的錯誤仍影響信任。"
+          },
+          {
+            "id": "b",
+            "en": "The refund ended every concern before the next season.",
+            "zh": "退款在下一季前已消除所有疑慮。"
+          },
+          {
+            "id": "c",
+            "en": "The mistake mattered only during the few minutes of ticket sales.",
+            "zh": "這次錯誤只在售票的幾分鐘內有影響。"
+          },
+          {
+            "id": "d",
+            "en": "The audience kept checking access because the theatre closed permanently.",
+            "zh": "觀眾繼續核對通道，是因為劇院永久關閉。"
+          }
+        ],
+        "explanationZh": "即使劇院補救，觀眾到下一季仍有所戒心，顯示影響持續。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptEn": "A club corrected a misleading competition result, but members still ask for independent score checks months later. How has the original error affected the club?",
+        "promptZh": "一個學會已更正有誤導性的比賽結果，但數月後會員仍要求獨立核對分數。最初的錯誤如何影響學會？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The correction did not immediately restore confidence in its scoring.",
+            "zh": "更正結果沒有立即恢復大家對計分的信任。"
+          },
+          {
+            "id": "b",
+            "en": "Members remained cautious months after the result was corrected.",
+            "zh": "結果更正數月後，會員仍保持警惕。"
+          },
+          {
+            "id": "c",
+            "en": "The old error cast a long shadow over trust in the club’s scores.",
+            "zh": "舊錯誤為大家對學會計分的信任留下長遠陰影。"
+          },
+          {
+            "id": "d",
+            "en": "Independent checks became necessary to rebuild confidence.",
+            "zh": "要重建信任，便需要獨立核對。"
+          }
+        ],
+        "explanationZh": "四句都回答錯誤的持續影響；金句以 long shadow 表達延後仍在的陰影。",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一間餐廳去年誤標含堅果食物；標籤已修正，但常客今年仍會事先詢問食材。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The mislabelling cast a long shadow over diners’ trust.",
+            "zh": "錯誤標籤對食客信任留下長遠陰影。"
+          },
+          {
+            "id": "b",
+            "en": "The mislabelling had no effect once the label was changed.",
+            "zh": "標籤一改，錯誤標示便完全沒有影響。"
+          },
+          {
+            "id": "c",
+            "en": "The diners are worried only because today’s menu has no prices.",
+            "zh": "食客擔心只因今天的餐牌沒有價格。"
+          }
+        ],
+        "explanationZh": "常客在數月後仍額外核對食材，說明影響持續。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以支持 cast a long shadow 的說法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A privacy lapse is fixed, but users still avoid sharing details a year later.",
+            "zh": "私隱漏洞已修復，但一年後用戶仍避免分享資料。"
+          },
+          {
+            "id": "b",
+            "en": "A referee’s mistake is corrected, yet next season teams still demand extra review.",
+            "zh": "球證錯誤已更正，但下季球隊仍要求額外覆核。"
+          },
+          {
+            "id": "c",
+            "en": "A spilled drink briefly delays lunch, and everyone resumes without concern.",
+            "zh": "飲品打翻令午餐短暫延誤，之後大家毫無顧慮地繼續。"
+          }
+        ],
+        "explanationZh": "最後一項只帶來短暫延誤，沒有延續的負面後果。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptEn": "A: We corrected last year’s false attendance figure, so why do partners still ask to inspect this year’s records?\nB: ?",
+        "promptZh": "甲：我們已更正去年的錯誤出席數字，為何合作夥伴今年仍要求查看紀錄？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The old error still casts a long shadow; they want proof before trusting the new figures.",
+            "zh": "舊錯誤仍留下長遠陰影；他們想先看證據才相信新數字。"
+          },
+          {
+            "id": "b",
+            "en": "They ask only because they never saw any record last year, so the old error is irrelevant.",
+            "zh": "他們只因去年從未見過紀錄而提出要求，舊錯誤毫不相關。"
+          },
+          {
+            "id": "c",
+            "en": "We should say the error lasted one minute, so no further check can be justified.",
+            "zh": "我們應說錯誤只持續一分鐘，因此再查核毫無理由。"
+          }
+        ],
+        "explanationZh": "數字雖已更正，去年錯誤仍影響合作夥伴對今年紀錄的信任。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The data leak cast a long shadow over the service, because users were still changing passwords months after the fix.",
+        "zh": "資料外洩為服務留下長遠陰影，因為修復數月後，用戶仍在更改密碼。",
+        "promptZh": "先聽示範，再指出哪項後續行動顯示影響持續。",
+        "targetSpan": {
+          "start": 14,
+          "end": 32
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一項獎學金去年誤發拒絕通知，今年已改正流程，但申請人仍要求書面確認。用英文交代錯誤、補救及持續的具體影響。",
+        "selfCheckZh": "要有較後時段仍存在的戒心，並指出具體後續行動；不能只重述去年錯誤。",
+        "examples": [
+          {
+            "en": "Last year’s false rejection notice cast a long shadow over the scholarship process. Even after the workflow was corrected, applicants this year requested written confirmation of each decision.",
+            "zh": "去年的錯誤拒絕通知為獎學金流程留下長遠陰影。即使流程已修正，今年申請人仍要求每項決定都有書面確認。"
+          },
+          {
+            "en": "The scholarship office corrected the notice process, but last year’s false rejection still casts a long shadow: applicants now request written confirmation of results before making plans.",
+            "zh": "獎學金辦公室已修正通知流程，但去年的錯誤拒絕仍留下長遠陰影：申請人現在作安排前會要求書面確認結果。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "false rejection notice",
+            "zh": "錯誤拒絕通知",
+            "exampleIndex": 0,
+            "span": {
+              "start": 12,
+              "end": 34
+            }
+          },
+          {
+            "en": "written confirmation",
+            "zh": "書面確認",
+            "exampleIndex": 0,
+            "span": {
+              "start": 154,
+              "end": 174
+            }
+          },
+          {
+            "en": "corrected the notice process",
+            "zh": "修正通知流程",
+            "exampleIndex": 1,
+            "span": {
+              "start": 23,
+              "end": 51
+            }
+          },
+          {
+            "en": "last year’s false rejection",
+            "zh": "去年的錯誤拒絕",
+            "exampleIndex": 1,
+            "span": {
+              "start": 57,
+              "end": 84
+            }
+          },
+          {
+            "en": "making plans",
+            "zh": "作安排",
+            "exampleIndex": 1,
+            "span": {
+              "start": 174,
+              "end": 186
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A decision can cast a long shadow if people remain cautious after the apology.",
+          "zh": "若道歉後人們仍保持警惕，一項決定便可能留下長遠陰影。"
+        },
+        {
+          "en": "Show the later consequence before saying an old error casts a long shadow.",
+          "zh": "稱舊錯誤留下長遠陰影前，先交代後來的具體後果。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional lesson; independent editorial and media review pending.",
+          "Distinct from canonical 1841 shadow over one whole experience and 1725 explicit positive long shadow: the source tests lingering negative consequences across later periods."
+        ]
+      }
+    },
+    {
+      "id": "advanced-native-2531",
+      "number": 2531,
+      "inventoryId": "expr-2531",
+      "contentRevision": 1,
+      "titleEn": "hold everything up",
+      "titleZh": "作為整體的支柱",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bhold(?:s|ing)? everything up\\b|\\bheld everything up\\b",
+        "glossaryForbidden": [
+          "\\bhold(?:s|ing)? everything up\\b|\\bheld everything up\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Provide the underlying support that keeps a shared system or plan stable.",
+        "meaningZh": "像支柱一樣支撐共同制度或計劃，令整體保持穩定。",
+        "grammar": "Values, an agreed rule or a core service can hold everything up in a specified system. In other contexts hold everything up means delay everything; name the supported system and look for support, not waiting.",
+        "register": "A coordinator explaining a team’s guiding principle to new members, or a manager addressing staff, can use the figurative support sense in clear conversational English.",
+        "boundaryZh": "本課指支撐整體的基礎，不是「令所有事情延誤」；上下文必須說明受到支撐的是甚麼。",
+        "misconceptionZh": "不要見到 hold up 就一律解作拖延；也不要把一項普通細節誇大成整個系統的支柱。",
+        "outcomeZh": "能指出支柱是甚麼、支撐哪個整體，以及改變時為何仍有效。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0420",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 39,
+          "book": 10,
+          "question": 35,
+          "sample": "S1",
+          "sourceBookPages": "85–86",
+          "locatorNote": "DOCX table 35, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The shared values hold everything up when circumstances change.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hold everything up"
+        }
+      ],
+      "listening": {
+        "en": "A neighbourhood food bank changed its opening hours twice, but its rule to serve people without judging them stayed constant. That rule held everything up as volunteers adjusted the rota and kept the service welcoming.",
+        "zh": "社區食物銀行兩度更改開放時間，但不批判求助者的服務原則一直不變。義工調整更表時，這項原則支撐整個服務，讓接待方式仍然友善。",
+        "promptZh": "rule held everything up 在此是甚麼意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The rule kept the service coherent while practical arrangements changed.",
+            "zh": "實務安排改變時，原則仍支撐整項服務。"
+          },
+          {
+            "id": "b",
+            "en": "The rule delayed every volunteer until the food bank closed.",
+            "zh": "這項原則使所有義工延誤，直至食物銀行關門。"
+          },
+          {
+            "id": "c",
+            "en": "The rule was a minor decoration unrelated to how visitors were treated.",
+            "zh": "這項原則只是裝飾，與如何對待訪客無關。"
+          },
+          {
+            "id": "d",
+            "en": "The volunteers abandoned the rule when hours changed.",
+            "zh": "開放時間一改，義工便放棄了這項原則。"
+          }
+        ],
+        "explanationZh": "開放時間和更表變動，但共同服務原則讓整體仍按同一方向運作。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptEn": "A youth club changes rooms and leaders, yet its promise to let every newcomer participate keeps activities consistent. Why does the promise matter?",
+        "promptZh": "青年中心更換活動室和負責人，但讓每位新成員參與的承諾使活動方式保持一致。這項承諾為何重要？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gives changing leaders a shared basis for including newcomers.",
+            "zh": "它讓不同負責人有共同基礎去接納新成員。"
+          },
+          {
+            "id": "b",
+            "en": "It keeps the club’s approach consistent even when rooms change.",
+            "zh": "即使活動室更換，它仍使中心的做法一致。"
+          },
+          {
+            "id": "c",
+            "en": "That promise holds everything up as the club changes.",
+            "zh": "中心有所轉變時，這項承諾仍支撐整體。"
+          },
+          {
+            "id": "d",
+            "en": "It helps members judge whether each new activity welcomes beginners.",
+            "zh": "它讓成員判斷新活動是否歡迎初學者。"
+          }
+        ],
+        "explanationZh": "四句均解釋承諾如何支撐中心的做法；金句用 support 的比喻，而非 delay。",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "醫療義工隊換了登記系統，卻保留「先處理緊急需要」的共同準則。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shared triage rule holds everything up while the registration system changes.",
+            "zh": "登記系統改變時，共同的分流準則仍支撐整體運作。"
+          },
+          {
+            "id": "b",
+            "en": "The triage rule makes every patient wait longer by design.",
+            "zh": "分流準則本來就是要令每名病人等得更久。"
+          },
+          {
+            "id": "c",
+            "en": "The rule matters only to the colour of the new form.",
+            "zh": "這項準則只影響新表格的顏色。"
+          }
+        ],
+        "explanationZh": "不變的分流原則協調新系統下的服務，屬支撐而非延誤。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況的 hold everything up 最明顯是「拖延所有事情」，而非「支撐整體」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A shared safety principle guides every team after a staff change.",
+            "zh": "換人後，共同安全原則仍指引各隊。"
+          },
+          {
+            "id": "b",
+            "en": "One unsigned permit prevents every event from starting on time.",
+            "zh": "一張未簽署的許可證使所有活動不能準時開始。"
+          },
+          {
+            "id": "c",
+            "en": "A public-service promise shapes the rota and the way visitors are welcomed.",
+            "zh": "公共服務承諾影響更表和接待訪客的方式。"
+          }
+        ],
+        "explanationZh": "許可證令活動不能開始，屬延誤；其餘兩項是基礎原則的支撐作用。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptEn": "A: Our literacy group is changing volunteers and materials. What should remain constant when we decide how to teach new readers?\nB: ?",
+        "promptZh": "甲：我們的識字小組要更換義工和教材。決定如何教新讀者時，甚麼應保持不變？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Our promise to explain without embarrassing learners holds everything up; keep that in every new lesson.",
+            "zh": "不令學員難堪的講解承諾支撐整體；每節新課都應保留它。"
+          },
+          {
+            "id": "b",
+            "en": "Only the old paper colour matters, even if the explanation confuses learners.",
+            "zh": "只有舊紙張的顏色重要，即使講解令學員困惑也沒關係。"
+          },
+          {
+            "id": "c",
+            "en": "Once materials change, there is no reason to keep a common teaching principle.",
+            "zh": "一旦教材改變，就沒有理由保留共同教學原則。"
+          }
+        ],
+        "explanationZh": "小組更換人員與教材，但尊重學員的共同原則仍可作為整體基礎。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The access pledge held everything up when the festival changed sites, because every team still checked entrances before announcing a venue.",
+        "zh": "節慶更換場地時，無障礙承諾仍支撐整體工作，因為各隊宣布場地前仍會核對入口。",
+        "promptZh": "先聽示範，再說出哪項承諾支撐了各隊的決定。",
+        "targetSpan": {
+          "start": 18,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區劇團更換導演與排練地點，但始終承諾讓視障演員取得可用劇本。用一至兩句英文說明這項承諾如何支撐整體排練，以及一項具體做法。",
+        "selfCheckZh": "說出不變的承諾、整體排練的穩定性及可見做法；不能把 hold everything up 誤寫為延誤排練。",
+        "examples": [
+          {
+            "en": "The promise to provide accessible scripts holds everything up as the theatre group changes directors and rooms. Each new director checks the script format before the first rehearsal.",
+            "zh": "劇團更換導演與房間時，提供無障礙劇本的承諾仍支撐整體排練。每位新導演都在首次排練前核對劇本格式。"
+          },
+          {
+            "en": "New rehearsal rooms do not alter the group’s access pledge. It held everything up during the move, so the team sent usable scripts to visually impaired actors before practice began.",
+            "zh": "更換排練室沒有改變劇團的無障礙承諾。搬遷期間，這項承諾支撐整體運作，因此團隊在練習前把可用劇本送給視障演員。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "accessible scripts",
+            "zh": "無障礙劇本",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 41
+            }
+          },
+          {
+            "en": "the script format",
+            "zh": "劇本格式",
+            "exampleIndex": 0,
+            "span": {
+              "start": 137,
+              "end": 154
+            }
+          },
+          {
+            "en": "access pledge",
+            "zh": "無障礙承諾",
+            "exampleIndex": 1,
+            "span": {
+              "start": 45,
+              "end": 58
+            }
+          },
+          {
+            "en": "visually impaired actors",
+            "zh": "視障演員",
+            "exampleIndex": 1,
+            "span": {
+              "start": 134,
+              "end": 158
+            }
+          },
+          {
+            "en": "before practice began",
+            "zh": "練習開始前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 159,
+              "end": 180
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A clear founding principle can hold everything up through several practical changes.",
+          "zh": "明確的創立原則可在多項實務變動中支撐整體。"
+        },
+        {
+          "en": "If a missing form holds everything up, it is delaying work rather than supporting it.",
+          "zh": "若欠缺表格令所有工作停頓，那是延誤，不是支撐。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional lesson; independent editorial and media review pending.",
+          "Source support sense is distinct from the delay sense of hold up and from canonical1327 preserving family connection."
+        ]
+      }
+    },
+    {
+      "id": "advanced-native-2627",
+      "number": 2627,
+      "inventoryId": "expr-2627",
+      "contentRevision": 2,
+      "titleEn": "blow it all at once",
+      "titleZh": "一下子把錢花光",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:blow|blows|blowing|blew|blown) it all at once\\b",
+        "glossaryForbidden": [
+          "\\b(?:blow|blows|blowing|blew|blown) it all at once\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Spend all of an available sum quickly in one burst instead of keeping some for later.",
+        "meaningZh": "把手上的一筆錢一下子花光，沒有留些作日後之用。",
+        "grammar": "Blow it all at once; blew is past, blown is participle. It refers to money identified by it, not blowing air or releasing emotion. At once stresses one rapid spending burst.",
+        "register": "A parent discussing pocket money with a teenager, or a friend commenting on a bonus, may use this informal but nontechnical phrase; avoid it in formal financial reporting.",
+        "boundaryZh": "it 須清楚指一筆可用的錢；若只花其中一小部分，就不能說 all。",
+        "misconceptionZh": "不要與 blow off steam 混淆：那是釋放情緒，本課是把錢一次花光。",
+        "outcomeZh": "能指出原有金額、一次花光的行為，以及因此失去的後續選擇。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0516",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 47,
+          "book": 11,
+          "question": 7,
+          "sample": "S1",
+          "sourceBookPages": "17–18",
+          "locatorNote": "DOCX table 43, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Saving is difficult if you keep blowing it all at once.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "blowing it all at once"
+        }
+      ],
+      "listening": {
+        "en": "Rafi received a small travel allowance for a four-day trip. He blew it all at once on the first evening’s souvenirs and then had to ask for a bus fare on day three.",
+        "zh": "拉菲得到一筆供四日旅程使用的小額津貼。他首晚買紀念品便一下子把錢花光，到第三天只好借車費。",
+        "promptZh": "blow it all at once 在此是甚麼意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Rafi used the whole four-day budget on the first evening and had no fare left later.",
+            "zh": "拉菲首晚便用光四日預算，之後沒有餘款乘車。"
+          },
+          {
+            "id": "b",
+            "en": "Rafi set aside most of the allowance and bought one cheap souvenir.",
+            "zh": "拉菲保留大部分津貼，只買了一件便宜紀念品。"
+          },
+          {
+            "id": "c",
+            "en": "Rafi lost the allowance before he could spend any of it.",
+            "zh": "拉菲未花任何錢之前便遺失了津貼。"
+          },
+          {
+            "id": "d",
+            "en": "Rafi used the allowance evenly across all four days.",
+            "zh": "拉菲平均地在四天內使用津貼。"
+          }
+        ],
+        "explanationZh": "他首晚把四日津貼全數花掉，第三天已沒有車費。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptEn": "Nora received a one-off prize payment, used the whole amount on one shopping trip, and now cannot pay for the course she had planned. How did she use the payment?",
+        "promptZh": "諾拉收到一次性的獎金，在一次購物行程中花光整筆錢，現在無法支付原本打算修讀的課程。她怎樣使用獎金？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She spent the whole prize before setting aside the course fee.",
+            "zh": "她未預留課程費便花光獎金。"
+          },
+          {
+            "id": "b",
+            "en": "One shopping trip used the entire payment.",
+            "zh": "一次購物就用掉整筆獎金。"
+          },
+          {
+            "id": "c",
+            "en": "She blew it all at once and lost the option to pay for the course.",
+            "zh": "她一下子把錢花光，失去了支付課程費的選擇。"
+          },
+          {
+            "id": "d",
+            "en": "She did not keep any of the one-off payment for her planned course.",
+            "zh": "她沒有把那筆一次性獎金留一些給原定課程。"
+          }
+        ],
+        "explanationZh": "四句都準確描述整筆獎金在一次購物中花光；金句用非正式目標片語。",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "學生拿到整學期的材料費，第一天便用全部錢購買昂貴筆記本，月底無法買科學材料。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The student blew it all at once on the notebooks and had nothing left for science materials.",
+            "zh": "學生一下子把錢全花在筆記本上，沒有錢買科學材料。"
+          },
+          {
+            "id": "b",
+            "en": "He bought one notebook and saved the rest for later materials.",
+            "zh": "他買一本筆記本，保留餘款購買日後材料。"
+          },
+          {
+            "id": "c",
+            "en": "He never received the materials budget in the first place.",
+            "zh": "他一開始就沒有收到材料費。"
+          }
+        ],
+        "explanationZh": "整學期材料費在第一天一次花光，才符合 all at once。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合用 blew it all at once？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Someone spends the entire birthday money during one online checkout.",
+            "zh": "有人在一次網購結帳中花光全部生日禮金。"
+          },
+          {
+            "id": "b",
+            "en": "Someone uses a full bonus on one impulsive purchase.",
+            "zh": "有人一次衝動購物便用完整筆花紅。"
+          },
+          {
+            "id": "c",
+            "en": "Someone buys a low-cost book and saves the rest of a grant.",
+            "zh": "有人買一本便宜書，保留資助金餘款。"
+          }
+        ],
+        "explanationZh": "最後一項仍有餘款，不能說 all；前兩項都一次花光整筆錢。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptEn": "A: The team has a small equipment fund for the whole term. Should we use every dollar on the first camera we see?\nB: ?",
+        "promptZh": "甲：團隊有一筆供整學期使用的小額設備基金。我們應把每一元都花在第一部看到的相機上嗎？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "No. If we blow it all at once, we will have nothing for repairs later.",
+            "zh": "不要。若一下子花光，以後就沒有錢維修。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. Repairs will be free because the fund will be empty.",
+            "zh": "應該。基金一花光，維修便會免費。"
+          },
+          {
+            "id": "c",
+            "en": "Yes. We can say we saved the fund even after spending every dollar.",
+            "zh": "應該。即使花光每一元，也可說我們把基金存起來。"
+          }
+        ],
+        "explanationZh": "基金要用整學期；一次花光會失去日後維修的資金。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "She almost blew it all at once at the market, but kept enough of the grant to replace a damaged tool later.",
+        "zh": "她差點在市場一下子花光全部資助金，幸好仍留夠錢日後更換損壞的工具。",
+        "promptZh": "先聽示範，再說出她最終有沒有把資助金全數花光。",
+        "targetSpan": {
+          "start": 11,
+          "end": 30
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：樂隊收到一次性的演出酬金，原本要留錢修理樂器，卻有人建議立刻把全部酬金花在佈景。用英文解釋風險及較審慎做法。",
+        "selfCheckZh": "指出 it 是整筆演出酬金、一次花光會失去維修費，並提出保留部分金額的做法。",
+        "examples": [
+          {
+            "en": "The concert fee must also cover instrument repairs. If we blow it all at once on scenery, there will be nothing left when the keyboard fails; let us reserve a repair amount first.",
+            "zh": "演出酬金還要用於修理樂器。若一下子把錢全花在佈景，鍵盤壞掉時便沒有餘款；先預留維修金額吧。"
+          },
+          {
+            "en": "We received one payment for the show, but the drums may need new parts. Do not blow it all at once on the backdrop; set aside a repair budget before ordering it.",
+            "zh": "我們為這場演出收到一筆酬金，但鼓可能需要新零件。不要一下子把錢全花在背景板上；下訂單前先預留維修預算。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "instrument repairs",
+            "zh": "樂器維修",
+            "exampleIndex": 0,
+            "span": {
+              "start": 32,
+              "end": 50
+            }
+          },
+          {
+            "en": "reserve a repair amount",
+            "zh": "預留維修金額",
+            "exampleIndex": 0,
+            "span": {
+              "start": 149,
+              "end": 172
+            }
+          },
+          {
+            "en": "new parts",
+            "zh": "新零件",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 70
+            }
+          },
+          {
+            "en": "the backdrop",
+            "zh": "背景板",
+            "exampleIndex": 1,
+            "span": {
+              "start": 102,
+              "end": 114
+            }
+          },
+          {
+            "en": "set aside a repair budget",
+            "zh": "預留維修預算",
+            "exampleIndex": 1,
+            "span": {
+              "start": 116,
+              "end": 141
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "He blew it all at once on a flashy stand and could not buy the cables the next day.",
+          "zh": "他一下子把錢全花在華麗展示架，翌日便無法買電線。"
+        },
+        {
+          "en": "Before you blow it all at once, check what the money must still cover.",
+          "zh": "一下子把錢花光前，先核對這筆錢還要支付甚麼。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional lesson; independent editorial and media review pending.",
+          "Informal all-at-once money-spending construction is distinct from canonical1678 blow off steam emotion release."
+        ]
+      }
+    }
+  ]
+}

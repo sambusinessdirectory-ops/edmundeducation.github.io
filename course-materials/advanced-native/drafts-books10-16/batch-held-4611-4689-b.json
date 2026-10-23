@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-held-4611-4689-b",
+  "lessons": [
+    {
+      "id": "advanced-native-4611",
+      "number": 4611,
+      "inventoryId": "expr-4611",
+      "contentRevision": 1,
+      "titleEn": "leave ordinary life behind",
+      "titleZh": "暫別日常生活",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:leave|leaves|left|leaving) ordinary life behind\\b",
+        "glossaryForbidden": [
+          "\\b(?:leave|leaves|left|leaving) ordinary life behind\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Feel temporarily removed from familiar daily routines by entering a different setting or experience.",
+        "meaningZh": "置身不同環境或經歷時，感覺暫時遠離熟悉的日常規律。",
+        "grammar": "Leave/left/leaving ordinary life behind. Name the changed setting and the usual routine being set aside. Behind is figurative here; the wording alone does not say duties vanished forever.",
+        "register": "A traveller describing a short retreat to a friend, or a writer describing a residential arts course, can use this reflective expression.",
+        "boundaryZh": "重點是暫時感到離開平日節奏，不表示工作、家庭責任或原來生活從此消失；也不必一定出國。",
+        "misconceptionZh": "離開日常生活是感受或短期轉換，不能只憑這句推斷永久移居。",
+        "outcomeZh": "能指出平日規律與新環境的對比，並保留是否長久改變的界限。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2500",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 236,
+          "book": 16,
+          "question": 48,
+          "sample": "S2",
+          "sourceBookPages": "114–115",
+          "locatorNote": "DOCX table 263, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Overseas, she felt she had left ordinary life behind.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "left ordinary life behind"
+        }
+      ],
+      "listening": {
+        "en": "For one weekend, a bus driver joined a mountain sketching retreat with no timetables to manage. That break let her leave ordinary life behind for a while, although her driving shift resumed on Monday.",
+        "zh": "一名巴士司機參加週末山區寫生營，暫時不用管理行車時間表。她覺得自己離開了日常生活，雖然星期一仍要恢復駕駛班次。",
+        "promptZh": "她 left ordinary life behind，最貼近哪個意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The retreat gave her a temporary break from her usual timetable and setting.",
+            "zh": "寫生營讓她暫時離開慣常的時間表與環境。"
+          },
+          {
+            "id": "b",
+            "en": "She permanently abandoned her driving job without telling anyone.",
+            "zh": "她沒有通知任何人便永久放棄司機工作。"
+          },
+          {
+            "id": "c",
+            "en": "The mountain camp used the same route schedule as her bus shift.",
+            "zh": "山區營地沿用她巴士班次的路線表。"
+          },
+          {
+            "id": "d",
+            "en": "She physically left all her belongings on the bus.",
+            "zh": "她把所有物品實際留在巴士上。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "週末的寫生環境與日常駕駛節奏不同；星期一恢復工作，沒有永久放棄職務。"
+      },
+      "reply": {
+        "promptEn": "Why does a two-day island writing course feel different to Jo, who normally checks work messages every hour? She has arranged coverage for the weekend.",
+        "promptZh": "Jo 平時每小時都查看工作訊息；她已安排週末有人代班。為甚麼兩天的離島寫作課令她感覺不同？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She has time to write without the usual stream of work messages.",
+            "zh": "她可暫時不受日常工作訊息打擾，專心寫作。"
+          },
+          {
+            "id": "b",
+            "en": "The changed setting lets her focus on a different rhythm for two days.",
+            "zh": "不同環境讓她有兩天可專注於另一種節奏。"
+          },
+          {
+            "id": "c",
+            "en": "She can leave ordinary life behind for the weekend without claiming her duties are gone forever.",
+            "zh": "她可在週末暫別日常生活，而不表示責任永遠消失。"
+          },
+          {
+            "id": "d",
+            "en": "Arranged coverage lets her pause work checking while someone else handles urgent matters.",
+            "zh": "有人代班，使她可暫停查看工作，同時仍有人處理急事。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指有代班安排後，Jo 可在短期課程中暫離平日工作節奏；金句不把它說成永久離開。"
+      },
+      "scene": {
+        "promptZh": "護理員參加一晚海邊觀星活動，家中照顧工作已由親人代為安排；翌日她會回去。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "For one night she leaves ordinary life behind to watch the sky, then returns to her usual care routine.",
+            "zh": "她暫時離開日常生活一晚觀星，之後回到慣常照顧工作。"
+          },
+          {
+            "id": "b",
+            "en": "She has permanently stopped caring for her family.",
+            "zh": "她已永久停止照顧家人。"
+          },
+          {
+            "id": "c",
+            "en": "Watching the sky is exactly the same as carrying out her usual care duties.",
+            "zh": "觀星與她平日照顧工作完全相同。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "活動提供短暫轉換，親人已安排代班，翌日仍會回到日常。"
+      },
+      "contrast": {
+        "promptZh": "哪項推論不能只由 left ordinary life behind 得出？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The setting felt different from usual routines.",
+            "zh": "當時的環境與平日規律不同。"
+          },
+          {
+            "id": "b",
+            "en": "The person has permanently given up every prior duty.",
+            "zh": "當事人已永久放棄所有舊責任。"
+          },
+          {
+            "id": "c",
+            "en": "The experience offered a pause from familiar demands.",
+            "zh": "那段經歷使人暫離熟悉的要求。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "比喻只說當時感覺遠離日常節奏，並不證明所有責任永久消失。"
+      },
+      "dialogue": {
+        "promptZh": "甲：這個留宿音樂工作坊與我平日辦公室生活很不同。這是否表示我已辭職？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "No. You can leave ordinary life behind for one night and still return to work afterward.",
+            "zh": "不是。你可以一晚暫別日常生活，之後仍回去工作。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. Any overnight activity automatically ends your employment.",
+            "zh": "是。任何留宿活動都會自動令工作終止。"
+          },
+          {
+            "id": "c",
+            "en": "No. The workshop is identical to an office shift.",
+            "zh": "不是。工作坊與辦公室班次完全相同。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "活動與日常不同，不等於辭職；比喻可描述短暫脫離平日節奏。",
+        "promptEn": "A: The overnight music workshop feels far from my usual office day. Does that mean I have quit my job?\nB: ?"
+      },
+      "speaking": {
+        "en": "At the lakeside painting weekend, I left ordinary life behind for two days and returned to my shop on Monday.",
+        "zh": "週末在湖邊畫畫兩天，我暫時離開日常節奏，星期一便回到店裏。",
+        "promptZh": "先聽示範，再指出短暫的新環境和返回日常的時間。",
+        "targetSpan": {
+          "start": 36,
+          "end": 61
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區廚師每週末開店，這次安排同事代班，參加一日木工課；翌日仍回店工作。用一至兩句英文對比日常與新體驗，不要說他永久離開餐廳。",
+        "selfCheckZh": "寫出有人代班、一日木工課與平常餐廳工作的對比，以及翌日回店；不要誤作永久辭職。",
+        "examples": [
+          {
+            "en": "With a colleague covering the café, the cook left ordinary life behind for a day of woodwork instead of weekend service. He returned to the kitchen the next morning.",
+            "zh": "同事代班咖啡店後，廚師暫離週末餐飲工作，花一天學木工；翌日早上便回到廚房。"
+          },
+          {
+            "en": "The one-day woodwork class let the cook leave ordinary life behind while another staff member covered the café. It was a brief change of rhythm, not a permanent departure from the kitchen.",
+            "zh": "另一名員工代班咖啡店，讓廚師可藉一日木工課暫別日常生活。這只是短暫轉換節奏，並非永久離開廚房。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "colleague covering the café",
+            "zh": "同事代班咖啡店",
+            "exampleIndex": 0,
+            "span": {
+              "start": 7,
+              "end": 34
+            }
+          },
+          {
+            "en": "weekend service",
+            "zh": "週末餐飲工作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 104,
+              "end": 119
+            }
+          },
+          {
+            "en": "the next morning",
+            "zh": "翌日早上",
+            "exampleIndex": 0,
+            "span": {
+              "start": 148,
+              "end": 164
+            }
+          },
+          {
+            "en": "brief change of rhythm",
+            "zh": "短暫轉換節奏",
+            "exampleIndex": 1,
+            "span": {
+              "start": 121,
+              "end": 143
+            }
+          },
+          {
+            "en": "permanent departure",
+            "zh": "永久離開",
+            "exampleIndex": 1,
+            "span": {
+              "start": 151,
+              "end": 170
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "On the night train, she left ordinary life behind for a few hours, knowing her shift began after the trip.",
+          "zh": "夜車上，她暫別日常生活幾小時，也知道旅程結束後便要上班。"
+        },
+        {
+          "en": "A two-day garden retreat lets the team leave ordinary life behind without pretending their obligations have vanished.",
+          "zh": "兩天的園藝營讓團隊暫別日常生活，卻不會令他們的責任消失。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      }
+    },
+    {
+      "id": "advanced-native-4689",
+      "number": 4689,
+      "inventoryId": "expr-4689",
+      "contentRevision": 3,
+      "titleEn": "copy and paste",
+      "titleZh": "照搬另一處的做法",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:copy and paste|copies and pastes|copied and pasted|copying and pasting)\\b",
+        "glossaryForbidden": [
+          "\\b(?:copy and paste|copies and pastes|copied and pasted|copying and pasting)\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Replicate a plan or experience as if it were identical elsewhere. The phrase can criticise blind borrowing or stress that a place-specific experience cannot simply be reproduced.",
+        "meaningZh": "像數碼複製貼上一樣，把方案或體驗原樣搬到別處；可批評照搬，也可強調某地方獨有的體驗不能原樣複製。",
+        "grammar": "Copy and paste a design from another city; cannot copy and paste a local experience elsewhere. Name what would be replicated and the local feature that makes identical reuse unsuitable or impossible. Literal computer editing is a separate sense.",
+        "register": "A town planner explaining a failed borrowed design to colleagues, or a teacher asking students to adapt an event plan, may use this conversational, mildly critical phrase.",
+        "boundaryZh": "重點是能否把方案或體驗原樣搬到別處。借鑑後調整並非一定有錯；海岸、潮汐等在地條件，也可能使整段體驗無法複製。不要混同字面上的電腦操作。",
+        "misconceptionZh": "不是所有借鑑都屬盲目照搬，也不是所有地方特色都可原樣搬走；須指出哪項在地條件重要。",
+        "outcomeZh": "能指出複製的對象及在地條件，判斷是需要調整的照搬，還是根本無法原樣複製的體驗。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2578",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 244,
+          "book": 16,
+          "question": 58,
+          "sample": "S1",
+          "sourceBookPages": "134–135",
+          "locatorNote": "DOCX table 273, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Visitors want something they cannot copy and paste from another city.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "copy and paste from another city"
+        }
+      ],
+      "listening": {
+        "en": "The coastal town copied and pasted a mountain city's winter market plan. Its open-air stalls offered no shade, even though local visitors came during hot afternoons. The organisers changed the layout after hearing those complaints.",
+        "zh": "海邊小鎮照搬山城的冬季市集方案。露天攤位沒有遮蔭，但本地訪客多在炎熱的下午到場；主辦者收到投訴後才改動布局。",
+        "promptZh": "這裏的 copied and pasted 指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They reused another city's plan without adapting it to the local heat.",
+            "zh": "他們照搬另一座城市的方案，沒有因應本地炎熱天氣調整。"
+          },
+          {
+            "id": "b",
+            "en": "They literally transferred text between computer windows and made no market plan.",
+            "zh": "他們只在電腦視窗間複製文字，沒有制定市集方案。"
+          },
+          {
+            "id": "c",
+            "en": "The mountain city had already designed shade for the coastal town.",
+            "zh": "山城已替海邊小鎮設計遮蔭。"
+          },
+          {
+            "id": "d",
+            "en": "Local visitors asked the town to remove every market stall forever.",
+            "zh": "本地訪客要求永久拆走所有市集攤位。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "照搬外地冬季方案卻忽略本地炎熱天氣，才是這個比喻的重點。"
+      },
+      "reply": {
+        "promptEn": "Our school wants to use another district's evening festival schedule, but our last buses leave early. What should we do?",
+        "promptZh": "學校想採用另一區的晚間節慶時間表，但本區末班巴士較早開出。我們應怎樣做？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Move the closing time earlier so families can catch a bus home.",
+            "zh": "把閉幕時間提早，讓家庭趕得及乘巴士回家。"
+          },
+          {
+            "id": "b",
+            "en": "Check the last-bus times before finalising the programme.",
+            "zh": "落實節目表前先查末班巴士時間。"
+          },
+          {
+            "id": "c",
+            "en": "Do not copy and paste their timetable; adapt it to our local transport.",
+            "zh": "不要照搬對方時間表；要按本地交通情況調整。"
+          },
+          {
+            "id": "d",
+            "en": "Keep useful parts of the idea but change the hours that conflict with our buses.",
+            "zh": "保留有用的構想，但修改與本地巴士時間衝突的時段。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都主張借鑑但要按本區末班車時間調整；金句自然用 copy and paste 點出照搬風險。"
+      },
+      "scene": {
+        "promptZh": "海邊小鎮安排退潮時走入濕地看候鳥的導覽；沒有海岸的內陸城市想提供一模一樣的體驗。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The inland city cannot copy and paste the tide-shaped bird walk; it has no coastal wetland.",
+            "zh": "內陸城市沒有海岸濕地，無法原樣複製這條隨潮汐而定的觀鳥步道。"
+          },
+          {
+            "id": "b",
+            "en": "The inland city can provide the identical tide walk without any coast or wetland.",
+            "zh": "內陸城市即使沒有海岸或濕地，也能提供完全相同的潮汐步道。"
+          },
+          {
+            "id": "c",
+            "en": "Visitors value this walk only because the poster uses the same colours as another city's poster.",
+            "zh": "遊客欣賞步道，只因海報顏色與另一城市相同。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "退潮、海岸濕地和候鳥共同構成在地體驗；內陸城市不能把這一整段體驗原樣複製過去。"
+      },
+      "contrast": {
+        "promptZh": "哪種做法最不像比喻中的 copy and paste？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A council uses another town's market hours without checking local ferry times.",
+            "zh": "議會直接用另一鎮的市集時段，沒有查本地渡輪時間。"
+          },
+          {
+            "id": "b",
+            "en": "A school borrows a festival idea but changes the hours after checking local bus services.",
+            "zh": "學校借鑑節慶構想，但查本地巴士服務後調整時段。"
+          },
+          {
+            "id": "c",
+            "en": "A café adopts another city's menu and ignores local dietary needs.",
+            "zh": "咖啡店照搬另一城市的餐牌，忽略本地飲食需要。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "借鑑後因應本地交通調整，並不是盲目照搬；另兩項都忽略本地條件。"
+      },
+      "dialogue": {
+        "promptZh": "甲：博物館用了另一座城市的售票系統，但不少本地訪客付現金。我們一定要放棄整個構想嗎？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "No. Do not copy and paste it unchanged; keep useful features and add a cash-payment route.",
+            "zh": "不用。不要原封不動照搬；可保留有用功能，再加入現金付款途徑。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. Any idea from another city must always be rejected.",
+            "zh": "要。來自另一城市的構想一律要拒絕。"
+          },
+          {
+            "id": "c",
+            "en": "No. Cash-paying visitors cannot matter because the original city used cards.",
+            "zh": "不用。原城市用卡，本地現金付款訪客便不重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可保留有用部分，但須因應本地現金付款需求調整，而非全盤照搬或全盤丟棄。",
+        "promptEn": "A: The museum copied a ticket system from another city, but many local visitors pay in cash. Must we throw the whole idea away?\nB: ?"
+      },
+      "speaking": {
+        "en": "A city bakery cannot copy and paste the harvest festival recipe whose meaning comes from one village's farming history.",
+        "zh": "市區麵包店無法原樣複製某條村落的收成節食譜所承載的農耕歷史。",
+        "promptZh": "先聽示範，再指出哪項食譜與當地歷史相連，為何不能只照搬外形。",
+        "targetSpan": {
+          "start": 21,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：紡織小鎮請退休織布工人示範舊織機，並講述本地工廠的故事；另一座沒有紡織廠的城市想辦一模一樣的活動。它可借鑑口述歷史形式，改訪問當地造船工人。用一至兩句英文說明哪部分無法原樣複製，以及可借鑑甚麼。",
+        "selfCheckZh": "寫出舊織機示範與當地紡織工人經歷相連、另一城市沒有這段工廠歷史，以及可借鑑口述歷史形式改訪問造船工人；不要說兩地活動完全一樣。",
+        "examples": [
+          {
+            "en": "The second city cannot copy and paste the mill town's loom demonstration because it has no textile-factory history. It can borrow the oral-history format and invite its own shipbuilders to speak.",
+            "zh": "第二座城市沒有紡織廠歷史，不能原樣複製紡織小鎮的舊織機示範；它可借鑑口述歷史形式，邀請本地造船工人分享。"
+          },
+          {
+            "en": "A loom demonstration tied to retired textile workers cannot simply be copied and pasted into a city without that past. The organisers can use the same interview format to tell local shipbuilders' stories instead.",
+            "zh": "沒有相同過去的城市，無法原樣複製與退休紡織工人經歷相連的織機示範；主辦者可用相同訪談形式，改講本地造船工人的故事。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "loom demonstration",
+            "zh": "舊織機示範",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 72
+            }
+          },
+          {
+            "en": "textile-factory history",
+            "zh": "紡織廠歷史",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 114
+            }
+          },
+          {
+            "en": "oral-history format",
+            "zh": "口述歷史形式",
+            "exampleIndex": 0,
+            "span": {
+              "start": 134,
+              "end": 153
+            }
+          },
+          {
+            "en": "retired textile workers",
+            "zh": "退休紡織工人",
+            "exampleIndex": 1,
+            "span": {
+              "start": 29,
+              "end": 52
+            }
+          },
+          {
+            "en": "interview format",
+            "zh": "訪談形式",
+            "exampleIndex": 1,
+            "span": {
+              "start": 151,
+              "end": 167
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A copied festival plan failed because the town did not adapt it to its shorter daylight hours; it was copy and paste planning.",
+          "zh": "小鎮照搬節慶方案，沒有因應較短日照時間調整，因此計劃失敗。"
+        },
+        {
+          "en": "Borrow the courtyard idea, but do not copy and paste the other school's lunch schedule if your pupils leave earlier.",
+          "zh": "可借鑑庭院構想，但若本校學生較早放學，就別照搬另一校午膳時間表。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      }
+    }
+  ]
+}

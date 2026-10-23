@@ -1,0 +1,816 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-held-4386-4448-b",
+  "lessons": [
+    {
+      "id": "advanced-native-4386",
+      "number": 4386,
+      "inventoryId": "expr-4386",
+      "contentRevision": 2,
+      "titleEn": "sound bubble",
+      "titleZh": "隔絕周遭聲音的小天地",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bsound bubble\\b",
+        "glossaryForbidden": [
+          "\\bsound bubble\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A private-feeling auditory space created when headphones or similar sound control reduce awareness of surrounding noise.",
+        "meaningZh": "耳機等把周遭聲音隔開後，令人覺得置身自己聲音空間的狀態。",
+        "grammar": "A sound bubble; in a sound bubble; create or step out of a sound bubble. The noun bubble is figurative, not a physical sphere. Name what sound is blocked and what the listener may still need to hear.",
+        "register": "A student explaining headphone use to a classmate, or a sound designer discussing an audience experience, can use this conversational image.",
+        "boundaryZh": "耳機令人少聽到外界聲音，不代表真正與環境完全隔絕；在需要聽廣播或警示的地方仍須留意。",
+        "misconceptionZh": "這不是實體泡泡，也不一定表示使用者與人斷絕來往；本課專指聽覺環境。",
+        "outcomeZh": "能指出隔開了哪些聲音、這有何作用，以及甚麼重要聲音仍要留意。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2275",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 215,
+          "book": 16,
+          "question": 21,
+          "sample": "S1",
+          "sourceBookPages": "51–52",
+          "locatorNote": "DOCX table 236, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The headphones put her in a kind of sound bubble.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a kind of sound bubble"
+        }
+      ],
+      "listening": {
+        "en": "On the train, Ada's headphones made a sound bubble around her audiobook. She could focus on the story, but she turned the volume down before the station announcement.",
+        "zh": "火車上，Ada 戴耳機聽有聲書，彷彿進入自己的聲音小天地。她能專心聽故事，但站內廣播前會調低音量。",
+        "promptZh": "sound bubble 在這段話指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The headphones reduced surrounding noise so Ada could focus, though she still needed the station announcement.",
+            "zh": "耳機減少周遭聲音，讓 Ada 專心，但她仍須聽到站內廣播。"
+          },
+          {
+            "id": "b",
+            "en": "The sound bubble meant the station announcement was only part of the audiobook story.",
+            "zh": "聲音小天地表示站內廣播只是有聲書故事的一部分。"
+          },
+          {
+            "id": "c",
+            "en": "Ada could hear every announcement clearly while keeping the volume high.",
+            "zh": "Ada 音量保持很高，也能清楚聽到每段廣播。"
+          },
+          {
+            "id": "d",
+            "en": "Ada turned down the volume because the audiobook had ended before the train reached a station.",
+            "zh": "Ada 調低音量，是因為火車到站前有聲書已經播完。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "耳機營造較私人的聽覺空間，但 Ada 仍須在廣播前調低音量。"
+      },
+      "reply": {
+        "promptEn": "Why does Kai wear headphones while editing an interview in the shared study room, then take one ear cup off when the room monitor speaks?",
+        "promptZh": "Kai 在共用自修室剪輯訪問時為甚麼戴耳機，而管理員說話時又把一邊耳罩移開？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They help Kai hear the interview without the room chatter, while Kai can still check what the monitor says.",
+            "zh": "耳機讓 Kai 避開房間談話聲聽清訪問，也能聽管理員說甚麼。"
+          },
+          {
+            "id": "b",
+            "en": "Kai wants a quieter listening space but still needs to notice the monitor.",
+            "zh": "Kai 想有較安靜的聆聽空間，但仍須留意管理員。"
+          },
+          {
+            "id": "c",
+            "en": "The headphones give Kai a sound bubble for editing, and moving one cup lets Kai hear the monitor.",
+            "zh": "耳機為 Kai 剪輯時營造聲音小天地；移開一邊耳罩便能聽到管理員。"
+          },
+          {
+            "id": "d",
+            "en": "Kai separates the interview audio from background talk without ignoring the room entirely.",
+            "zh": "Kai 把訪問聲與背景談話分開，也沒有完全忽略房間情況。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都解釋專心聽訪問與留意管理員之間的平衡；金句自然使用 sound bubble。"
+      },
+      "scene": {
+        "promptZh": "博物館語音導覽耳機減弱大堂的交談聲，遊客仍須留意閉館廣播。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The headset creates a sound bubble for the tour, but visitors should still check closing announcements.",
+            "zh": "耳機為導覽營造聲音小天地，但訪客仍須留意閉館廣播。"
+          },
+          {
+            "id": "b",
+            "en": "The quieter guide audio is enough reason to stop paying attention to closing announcements.",
+            "zh": "導覽聲音較安靜，就足以不用留意閉館廣播。"
+          },
+          {
+            "id": "c",
+            "en": "The headset must be removed for the entire tour because announcements might occur later.",
+            "zh": "由於稍後可能有廣播，整段導覽都必須除下耳機。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "耳機減少干擾，並不令整個場地隔音，也不能取代重要廣播。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合用 sound bubble 描述？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Headphones soften office chatter during a recording edit.",
+            "zh": "剪輯錄音時，耳機減弱辦公室談話聲。"
+          },
+          {
+            "id": "b",
+            "en": "A child leaves the headphones off so she can hear every call from the coach.",
+            "zh": "孩子不戴耳機，清楚聽到教練每次呼叫。"
+          },
+          {
+            "id": "c",
+            "en": "Noise-control ear cups let a reader focus despite nearby traffic.",
+            "zh": "降噪耳罩減弱附近車聲，讓讀者專心。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "孩子沒有使用隔音工具，也沒有形成私人聽覺空間；另兩項都有減少外界聲音。"
+      },
+      "dialogue": {
+        "promptZh": "甲：耳機讓我在咖啡店的談話聲中聽爵士樂，但朋友剛坐到我桌旁。我們聊天時，我應繼續戴着耳機嗎？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "No. Step out of the sound bubble for the conversation; you can listen again afterward.",
+            "zh": "不應。聊天時先離開耳機營造的聲音小天地，之後可再聽。"
+          },
+          {
+            "id": "b",
+            "en": "Keep them on until the whole playlist ends, then let your friend explain the conversation again.",
+            "zh": "一直戴到整份歌單播完，再請朋友重述談話。"
+          },
+          {
+            "id": "c",
+            "en": "Move to another table so the private listening space is not interrupted.",
+            "zh": "換到另一張桌子，令私人聆聽時間不受打擾。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "聲音小天地適合獨自聽音樂，朋友加入後可先除下耳機交談。",
+        "promptEn": "A: My headphones let me enjoy jazz despite the café chatter, but my friend has just joined me at the table. Should I leave them on while we catch up?\nB: ?"
+      },
+      "speaking": {
+        "en": "My headphones create a sound bubble for editing music, but I pause the track when the stage manager calls.",
+        "zh": "耳機讓我在剪輯音樂時有自己的聲音空間，但舞台經理呼叫時，我會暫停音軌。",
+        "promptZh": "先聽示範，再指出哪些聲音被隔開，以及哪個呼叫仍要聽。",
+        "targetSpan": {
+          "start": 23,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：Mina 在診所等候時，戴耳機聽海浪聲，減弱候診室的電視聲並讓自己冷靜；護士叫名時，她要調低音量。用一至兩句英文說明耳機的好處與界限。",
+        "selfCheckZh": "寫出耳機減弱電視聲、海浪聲幫 Mina 冷靜，以及護士叫名時仍須調低音量。",
+        "examples": [
+          {
+            "en": "The ocean recording gives Mina a sound bubble away from the waiting-room television and helps her stay calm. She turns it down when the nurse calls her name.",
+            "zh": "海浪錄音讓 Mina 暫時隔開候診室的電視聲，也有助她保持冷靜；護士叫她的名字時，她會調低音量。"
+          },
+          {
+            "en": "Mina uses a sound bubble of ocean sounds to soften the television noise while she waits at the clinic. She lowers the volume as soon as the nurse calls for her.",
+            "zh": "Mina 在診所等候時，藉海浪聲營造自己的聲音小天地，減弱電視聲；護士叫她時，她便調低音量。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "waiting-room television",
+            "zh": "候診室的電視",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 83
+            }
+          },
+          {
+            "en": "stay calm",
+            "zh": "保持冷靜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 98,
+              "end": 107
+            }
+          },
+          {
+            "en": "calls her name",
+            "zh": "叫她的名字",
+            "exampleIndex": 0,
+            "span": {
+              "start": 142,
+              "end": 156
+            }
+          },
+          {
+            "en": "television noise",
+            "zh": "電視聲",
+            "exampleIndex": 1,
+            "span": {
+              "start": 55,
+              "end": 71
+            }
+          },
+          {
+            "en": "lowers the volume",
+            "zh": "調低音量",
+            "exampleIndex": 1,
+            "span": {
+              "start": 107,
+              "end": 124
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The library headset made a sound bubble around the language lesson, yet the student still checked the closing time.",
+          "zh": "圖書館耳機讓學生專心聽語言課，但他仍核對閉館時間。"
+        },
+        {
+          "en": "A quiet rehearsal mix can feel like a sound bubble; keep an ear open for the conductor's signal.",
+          "zh": "安靜的排練混音可令人彷彿置身聲音小天地，但仍須留意指揮的示意。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      }
+    },
+    {
+      "id": "advanced-native-4390",
+      "number": 4390,
+      "inventoryId": "expr-4390",
+      "contentRevision": 2,
+      "titleEn": "miss the moment",
+      "titleZh": "分心而錯過當下",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bmiss(?:es|ed|ing)? the moment\\b",
+        "glossaryForbidden": [
+          "\\bmiss(?:es|ed|ing)? the moment\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Fail to notice or enjoy a meaningful experience while it is happening, often because attention is elsewhere.",
+        "meaningZh": "因注意力放在別處，而未能在重要經歷發生當下留心或享受它。",
+        "grammar": "Miss/misses/missed/missing the moment. Usually name the event and the competing action; contrast with capture the moment, which means preserve it, not necessarily experience it.",
+        "register": "A friend discussing a concert with another friend, or a parent reflecting on a school event, may use this conversational phrase without treating every photograph as a mistake.",
+        "boundaryZh": "重點是當下沒有真正留意或感受經歷；拍一張照片後回到現場投入，不必然等於錯過。",
+        "misconceptionZh": "不要把留下影像與親身感受當成必然互斥；須有具體線索顯示注意力一直被別的事佔據。",
+        "outcomeZh": "能指出當時發生甚麼、注意力被甚麼分走，以及如何處理干擾又參與當下。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2279",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 215,
+          "book": 16,
+          "question": 21,
+          "sample": "S2",
+          "sourceBookPages": "51–52",
+          "locatorNote": "DOCX table 236, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "He filmed the view but missed the moment.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "missed the moment"
+        }
+      ],
+      "listening": {
+        "en": "At the school recital, Ben spent the whole final song adjusting his phone camera. He kept the video, but later could not describe the choir's live ending; he had missed the moment.",
+        "zh": "學校音樂會最後一首歌期間，Ben 一直調整手機鏡頭。他留下了影片，事後卻說不出合唱團現場如何收尾；他錯過了當下。",
+        "promptZh": "為甚麼說 Ben missed the moment？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He focused on camera settings and failed to take in the live ending.",
+            "zh": "他只顧調整鏡頭，沒有留心現場的結尾。"
+          },
+          {
+            "id": "b",
+            "en": "The choir cancelled its final song before he arrived.",
+            "zh": "合唱團在他到場前取消了最後一首歌。"
+          },
+          {
+            "id": "c",
+            "en": "He watched the performance closely and made no recording.",
+            "zh": "他專心看演出，沒有錄影。"
+          },
+          {
+            "id": "d",
+            "en": "The video file was deleted before he could watch it.",
+            "zh": "他未看影片，檔案已被刪除。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "Ben 留下影片，卻因忙於調鏡頭而沒有留意現場演出的結尾。"
+      },
+      "reply": {
+        "promptEn": "During the lantern parade, I keep checking whether my livestream is working and barely see the performers. What could I change?",
+        "promptZh": "燈籠巡遊時，我不斷檢查直播是否正常，幾乎沒有看到表演者。我可以怎樣做？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Record a short clip, then put the phone away to watch.",
+            "zh": "拍一小段後把手機收起，親眼看表演。"
+          },
+          {
+            "id": "b",
+            "en": "Ask a friend to save one photo while you watch the parade.",
+            "zh": "請朋友拍一張照片，自己專心看巡遊。"
+          },
+          {
+            "id": "c",
+            "en": "You could miss the moment if you watch the livestream controls all night; look up for the performance.",
+            "zh": "若整晚只看直播控制畫面，你可能錯過當下；抬頭看看表演。"
+          },
+          {
+            "id": "d",
+            "en": "Decide which parts you want to experience without a screen.",
+            "zh": "決定哪些段落要放下螢幕親身感受。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都幫助說話者把注意力由直播控制畫面轉回現場；金句點出錯過當下的風險。"
+      },
+      "scene": {
+        "promptZh": "畢業典禮上，家長拍一張合照後收起手機，專心聽孩子致辭。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Taking one photo did not make the parent miss the moment; they then listened to the speech.",
+            "zh": "拍一張照片並未令家長錯過當下；之後他們專心聽致辭。"
+          },
+          {
+            "id": "b",
+            "en": "Any photo means the parent certainly missed every part of the ceremony.",
+            "zh": "只要拍過照，家長肯定錯過典禮每個部分。"
+          },
+          {
+            "id": "c",
+            "en": "The child never delivered a speech.",
+            "zh": "孩子從沒有致辭。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "題目明言家長拍照後有專心聽致辭；不能單憑拍照便說他錯過經歷。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最清楚顯示有人 missed the moment？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A visitor takes one quick photo and then watches the dance.",
+            "zh": "訪客快速拍一張照片，之後專心看舞蹈。"
+          },
+          {
+            "id": "b",
+            "en": "A friend spends the entire farewell speech rearranging chairs and cannot recall what was said.",
+            "zh": "朋友整段告別致辭都在搬動椅子，事後記不起講了甚麼。"
+          },
+          {
+            "id": "c",
+            "en": "A student listens closely, then writes a diary entry after the event.",
+            "zh": "學生專心聽，活動後才寫日記。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "整段致辭都忙於搬椅，事後又記不起內容，才有錯過當下的證據；不一定涉及螢幕。"
+      },
+      "dialogue": {
+        "promptZh": "甲：我拍到清晰的初雪影片，但那一分鐘一直查看曝光設定，沒有望過窗外。\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You captured a video, but you may have missed the moment outside; next time, film briefly and look up.",
+            "zh": "你留下了影片，卻可能錯過窗外的當下景象；下次可短暫拍攝後抬頭看看。"
+          },
+          {
+            "id": "b",
+            "en": "The recording preserves the view, so there is no need to notice it directly when it happens.",
+            "zh": "影片留下了景色，所以當下毋須親眼留意。"
+          },
+          {
+            "id": "c",
+            "en": "Next time, keep checking exposure for the whole minute so the video is clearer.",
+            "zh": "下次整分鐘都繼續檢查曝光設定，讓影片更清晰。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有錄影不代表有親眼感受；甲說自己整分鐘都在看設定。",
+        "promptEn": "A: I have a clear recording of the first snowfall, but I spent the entire minute checking exposure and never looked out the window.\nB: ?"
+      },
+      "speaking": {
+        "en": "I nearly missed the moment at the concert while checking messages, so I put my phone away for the final song.",
+        "zh": "演唱會時我忙於查看訊息，差點錯過當下；於是最後一首歌時把手機收起。",
+        "promptZh": "先聽示範，再指出甚麼分散注意力，以及說話者如何重新投入。",
+        "targetSpan": {
+          "start": 9,
+          "end": 26
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區花園第一次把收成分給街坊時，義工 Iris 整段時間都在倉庫點算工具，事後說不出鄰居收到蔬菜時的反應。下次可先請另一名義工負責清點。用一至兩句英文解釋她錯過甚麼，以及如何避免再錯過。",
+        "selfCheckZh": "寫出 Iris 因點算工具而錯過首次分享收成時鄰居的反應；下次可請別人清點，讓她親身參與分享。",
+        "examples": [
+          {
+            "en": "Iris missed the moment when neighbours received the garden's first harvest because she was counting tools in the storeroom. Next time another volunteer could count them while she joins the handover.",
+            "zh": "Iris 當時在倉庫點算工具，錯過了鄰居收到花園首次收成時的反應；下次可請另一名義工清點，讓她參與派發。"
+          },
+          {
+            "en": "The first harvest was handed to neighbours while Iris checked the tool inventory, so she missed the moment and cannot describe their reactions. She could hand the count to a teammate next time and be present for the sharing.",
+            "zh": "Iris 點算工具庫存時，首次收成正分發給鄰居；她因此錯過當下，也說不出大家的反應。下次她可把清點交給隊友，親身參與分享。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "first harvest",
+            "zh": "首次收成",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 74
+            }
+          },
+          {
+            "en": "counting tools",
+            "zh": "點算工具",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 105
+            }
+          },
+          {
+            "en": "joins the handover",
+            "zh": "參與派發",
+            "exampleIndex": 0,
+            "span": {
+              "start": 179,
+              "end": 197
+            }
+          },
+          {
+            "en": "tool inventory",
+            "zh": "工具庫存",
+            "exampleIndex": 1,
+            "span": {
+              "start": 66,
+              "end": 80
+            }
+          },
+          {
+            "en": "be present for the sharing",
+            "zh": "親身參與分享",
+            "exampleIndex": 1,
+            "span": {
+              "start": 197,
+              "end": 223
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Filming the whole meal might make Sam miss the moment when his grandfather tells the recipe story.",
+          "zh": "若整餐飯只顧拍攝，Sam 可能錯過祖父講食譜故事的當下。"
+        },
+        {
+          "en": "I did not miss the moment at the exhibition: after one photo, I listened to the artist explain the work.",
+          "zh": "在展覽中我並沒有錯過當下：拍一張照片後，我專心聽藝術家講解作品。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      }
+    },
+    {
+      "id": "advanced-native-4448",
+      "number": 4448,
+      "inventoryId": "expr-4448",
+      "contentRevision": 2,
+      "titleEn": "edible history",
+      "titleZh": "吃得出的歷史",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bedible history\\b",
+        "glossaryForbidden": [
+          "\\bedible history\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Food that carries a community's past through its ingredients, preparation or remembered use.",
+        "meaningZh": "食物的材料、做法或相關記憶承載社群過去，使人從味道認識歷史。",
+        "grammar": "Call a dish edible history when you can name a specific historical practice or story it preserves. This compact metaphor is evocative, not a claim that the past itself is literally edible.",
+        "register": "A food-guide writer speaking to visitors, or an elder describing a family dish to younger relatives, may use this warm, slightly literary expression.",
+        "boundaryZh": "要有具體食物及可說明的歷史連繫；不能只因某道菜好吃或年代久遠，就把它當成已證實的完整歷史記錄。",
+        "misconceptionZh": "這是飲食承載記憶的比喻，不表示一道菜足以代表整個社群的所有歷史。",
+        "outcomeZh": "能指出菜式、保存了哪項過去做法或記憶，並避免把個別故事說成全部歷史。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2337",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 221,
+          "book": 16,
+          "question": 28,
+          "sample": "S1",
+          "sourceBookPages": "68–69",
+          "locatorNote": "DOCX table 243, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The old recipe is edible history for local families.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "edible history"
+        }
+      ],
+      "listening": {
+        "en": "At the harbour food fair, an elder showed how workers once dried fish before long voyages. The snack tasted familiar to her family; she called it edible history because the method carried a memory of that work.",
+        "zh": "海港美食節上，一位長者示範昔日工人在長途航行前如何曬魚。這小吃是她家熟悉的味道；她稱之為吃得出的歷史，因為做法保留了那段勞動記憶。",
+        "promptZh": "長者為何稱小吃為 edible history？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its preparation preserves a remembered practice from harbour work.",
+            "zh": "其做法保存了海港勞動中的一項舊習慣。"
+          },
+          {
+            "id": "b",
+            "en": "The snack is a complete written record of every harbour worker.",
+            "zh": "小吃是每位海港工人的完整文字記錄。"
+          },
+          {
+            "id": "c",
+            "en": "All ingredients were discovered during an archaeological dig.",
+            "zh": "所有材料都來自考古發掘。"
+          },
+          {
+            "id": "d",
+            "en": "The snack is valuable only because it is expensive.",
+            "zh": "小吃的價值只在於價格昂貴。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "長者把曬魚做法與過去海港工作連起來，但沒有聲稱小吃代表所有工人的完整歷史。"
+      },
+      "reply": {
+        "promptEn": "Why does the community café explain that its bean cake uses the milling method local families used during the ration years?",
+        "promptZh": "社區咖啡店為甚麼介紹豆糕沿用了當地家庭在配給年代使用的磨豆方法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The preparation helps visitors understand a remembered local practice.",
+            "zh": "這做法讓訪客認識一項當地舊習慣。"
+          },
+          {
+            "id": "b",
+            "en": "The cake links a present taste to the ration-years story.",
+            "zh": "豆糕把今天的味道與配給年代的故事連起來。"
+          },
+          {
+            "id": "c",
+            "en": "The bean cake is edible history because its method carries that community memory.",
+            "zh": "豆糕是吃得出的歷史，因為其做法承載那段社群記憶。"
+          },
+          {
+            "id": "d",
+            "en": "Explaining the method gives customers context beyond the flavour alone.",
+            "zh": "介紹做法讓顧客在味道以外明白其背景。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理說明介紹磨豆方法的作用；金句以 edible history 點出食物承載記憶。"
+      },
+      "scene": {
+        "promptZh": "村落節慶的米餅沿用祖輩在收割後分享米糧的做法，攤位寫明這段來歷。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The rice cakes are edible history because their preparation recalls a harvest-sharing custom.",
+            "zh": "米餅是吃得出的歷史，因為其做法讓人想起收割後分享米糧的習俗。"
+          },
+          {
+            "id": "b",
+            "en": "The cakes prove every family in the village always ate exactly the same food.",
+            "zh": "米餅證明村裏每個家庭一直吃完全相同的食物。"
+          },
+          {
+            "id": "c",
+            "en": "The stall offers no information about the cakes' past.",
+            "zh": "攤位沒有提供任何米餅來歷。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "米餅與可說明的舊習俗相連；不能把一種做法當成所有家庭的完整飲食史。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以支持 edible history 這個比喻？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A noodle stall describes a recipe kept through three generations.",
+            "zh": "麵檔介紹三代相傳的食譜。"
+          },
+          {
+            "id": "b",
+            "en": "A new sweet has no known tradition or past story, and its seller only lists today's price.",
+            "zh": "一款新甜點沒有已知傳統或舊故事，店主只列今天售價。"
+          },
+          {
+            "id": "c",
+            "en": "A festival dish preserves a method used by fishers before refrigeration.",
+            "zh": "節慶菜保留了漁民在冷藏技術普及前的做法。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "若只有新甜點和今天售價，沒有具體過去做法或記憶，就缺少歷史連繫。"
+      },
+      "dialogue": {
+        "promptZh": "甲：這款節慶湯沿用渡輪冬季停航期間家庭使用的食譜。一碗湯能說出整條村的全部歷史嗎？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is edible history that recalls one practice, but one bowl cannot tell the entire story of the village.",
+            "zh": "它是吃得出的歷史，讓人想起一項舊做法；但一碗湯不能講盡整條村的歷史。"
+          },
+          {
+            "id": "b",
+            "en": "Because the recipe is old, this bowl can stand for every part of the village's past.",
+            "zh": "食譜年代久遠，所以這碗湯足以代表整條村的所有過去。"
+          },
+          {
+            "id": "c",
+            "en": "The ferry closures explain the recipe, but food is useful only for flavour, not for remembering how people lived.",
+            "zh": "停航說明食譜的由來，但食物只有味道價值，無助記住人們當時怎樣生活。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "食譜可保存一段過去的做法，但不能等同整體歷史。",
+        "promptEn": "A: This festival soup follows the recipe families used during the winter ferry closures. Can one bowl tell us the whole village history?\nB: ?"
+      },
+      "speaking": {
+        "en": "The festival bread is edible history because its grain mix recalls how families baked during the old harvest season.",
+        "zh": "節慶麵包是吃得出的歷史，因為其穀物配方讓人想起昔日收成季節的家庭烘焙方式。",
+        "promptZh": "先聽示範，再指出食物及它保存的具體舊做法。",
+        "targetSpan": {
+          "start": 22,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：山區學校教學生做一款舊日採茶人帶上山的鹹飯團：米飯與鹹菜壓成小團，用布包好，途中毋須加熱。這只是採茶生活的一個側面。用一至兩句英文說明食物與過去的連繫，避免說它代表全部歷史。",
+        "selfCheckZh": "寫出採茶人攜帶鹹飯團上山、它壓成小團後可用布包着攜帶且毋須加熱，並保留這只是部分歷史的界限。",
+        "examples": [
+          {
+            "en": "The savoury rice balls are edible history: tea pickers could carry the compact bundles in cloth and eat them without reheating. They preserve one part of that working life, not its whole history.",
+            "zh": "鹹飯團是吃得出的歷史：採茶人可用布包着壓成小團的食物帶上山，不用重新加熱便可吃。它保存了那種勞動生活的一個側面，而非全部歷史。"
+          },
+          {
+            "en": "At the mountain school, students make edible history by preparing the small rice-and-pickle bundles once carried by tea pickers. Wrapped in cloth, they needed no heating on the hillside; one dish still tells only part of the story.",
+            "zh": "在山區學校，學生製作採茶人昔日攜帶的米飯鹹菜小團，體會吃得出的歷史。飯團用布包好，在山上不用加熱；一道菜仍只能說出故事的一部分。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "compact bundles",
+            "zh": "壓成小團的食物",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 86
+            }
+          },
+          {
+            "en": "without reheating",
+            "zh": "不用重新加熱",
+            "exampleIndex": 0,
+            "span": {
+              "start": 109,
+              "end": 126
+            }
+          },
+          {
+            "en": "working life",
+            "zh": "勞動生活",
+            "exampleIndex": 0,
+            "span": {
+              "start": 159,
+              "end": 171
+            }
+          },
+          {
+            "en": "rice-and-pickle bundles",
+            "zh": "米飯鹹菜小團",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 99
+            }
+          },
+          {
+            "en": "on the hillside",
+            "zh": "在山上",
+            "exampleIndex": 1,
+            "span": {
+              "start": 170,
+              "end": 185
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A baker's festival bun can be edible history when its shape recalls an old neighbourhood celebration.",
+          "zh": "若節慶麵包的形狀讓人想起舊日街坊慶典，它便可稱為吃得出的歷史。"
+        },
+        {
+          "en": "The preserved-vegetable dish was edible history for the family, though its recipe told only one part of their past.",
+          "zh": "那道醃菜對這家人而言是吃得出的歷史，但食譜只說出了他們過去的一部分。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      }
+    }
+  ]
+}

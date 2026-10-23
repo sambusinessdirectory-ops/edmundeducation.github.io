@@ -1995,6 +1995,34 @@
         "sentence": "Names can slip through the cracks when we are distracted.",
         "referenceSentenceKind": "guide_original_example",
         "expression": "slip through the cracks"
+      },
+      {
+        "occurrenceId": "book10-16-1697",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 160,
+        "book": 14,
+        "question": 27,
+        "sample": "S1",
+        "sourceBookPages": "59–61",
+        "locatorNote": "DOCX table 171, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Emergency aid can be the floor that stops people from falling through the cracks.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "the floor that stops people from falling through the cracks"
+      },
+      {
+        "occurrenceId": "book10-16-1742",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 164,
+        "book": 14,
+        "question": 32,
+        "sample": "S1",
+        "sourceBookPages": "70–72",
+        "locatorNote": "DOCX table 176, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Emergency aid can be the floor that stops people from falling through the cracks.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "the floor that stops people from falling through the cracks"
       }
     ],
     "listening": {

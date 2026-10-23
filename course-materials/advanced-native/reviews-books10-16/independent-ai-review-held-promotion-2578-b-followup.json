@@ -1,0 +1,28 @@
+{
+  "reviewType": "independent-ai-exact-hash-follow-up",
+  "priorReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-promotion-2578-b.json",
+  "inputs": {
+    "draft": {"path": "course-materials/advanced-native/drafts-books10-16/batch-2578-training-wheels-a.json", "sha256": "00df13142379f57370b1c599c60029aa623c7194696c9ebba65ce19592e64226"},
+    "authorAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-held-promotion-2578-2626-a.json", "sha256": "c090394f68ce5cf37362c94be46d03fb3199baccb69156b544e188138d6c4894"},
+    "decision3641": {"path": "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl", "sha256": "2395a2e575d347db4d8d46fb2a8a8f4c9aa6f3af14b5639f5508d6651cf0133f"}
+  },
+  "resolvedFindings": [
+    {
+      "id": "R2578-01",
+      "status": "cleared",
+      "evidence": "Ordinal 3641/book10-16-1530 is now proposed-alias-new to advanced-native-2578, and the lesson sources array contains its exact third occurrence and original guide sentence. The target detector matches all three full source sentences."
+    },
+    {
+      "id": "R2578-02",
+      "status": "cleared",
+      "evidence": "Reply now asks why a mentor accompanies novice museum guides on early tours, distinct from listening's community-garden planting and bed-planning. All four replies validly answer why; only keyed c uses a natural target form. English and Traditional Chinese preserve the visitor-question and eventual-independent-tour details."
+    }
+  ],
+  "regressionChecks": {
+    "revision": 2,
+    "focusedBuildAndCheck": "1 lesson, 6 questions, 4 audio requests, zero flags",
+    "allDiscoveredNewAliasAudit": "160 alias-new rows, 160 matched drafts, zero exceptions",
+    "fullVerifier": "2,604 source/decision rows; 553 selected drafts; zero whole-catalogue schema errors or exact guide copies. This provisional lesson remains unselected."
+  },
+  "disposition": "AI content-clear at the recorded hashes; unselected and unpublished. No human, media-listening, or release approval claimed."
+}

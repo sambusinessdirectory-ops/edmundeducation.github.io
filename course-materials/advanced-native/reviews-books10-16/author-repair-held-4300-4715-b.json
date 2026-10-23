@@ -1,0 +1,30 @@
+{
+  "status": "nine-unselected-drafts-awaiting-scoped-independent-followup",
+  "supersedes": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-4300-4715-b.json",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "drafts": [
+    {"file": "course-materials/advanced-native/drafts-books10-16/batch-held-4310-4368-b.json", "sha256": "3a685e392c38a02702ba20b3b90b32d5fe07426676e49371574a774f05a63f67", "ordinals": [4310, 4368]},
+    {"file": "course-materials/advanced-native/drafts-books10-16/batch-held-4386-4448-b.json", "sha256": "ce2cda104dbf16180f7f7225f4c608173dc58d0721184d71b7d3c27f6d9ae0b8", "ordinals": [4386, 4390, 4448]},
+    {"file": "course-materials/advanced-native/drafts-books10-16/batch-held-4576-4588-b.json", "sha256": "f30a15b60d9be62d3976bfc0ee3cb3862a866c17ce76c1c6c1a50228c34408a8", "ordinals": [4576, 4588]},
+    {"file": "course-materials/advanced-native/drafts-books10-16/batch-held-4611-4689-b.json", "sha256": "617f64777eb0b8f31712298337f0b389809063e71671f1d57759bbebf3b105ec", "ordinals": [4611, 4689]}
+  ],
+  "withdrawn": {
+    "ordinal": 4596,
+    "reason": "Independent AI owner review found the long roof-and-house clause to be a bespoke analogy forced into all seven decisions. Parent agreed to keep this source on editorial hold. Its provisional draft file was removed."
+  },
+  "repairs": [
+    "4310 now assesses missing conceptual understanding despite available clinic statistics, rather than only missing documents; dialogue foils revised.",
+    "4368 final writing transfers to an accessible-bus independence appeal, with separate timetable facts; listening and dialogue foils revised.",
+    "4386 dialogue now tests leaving a café music bubble for a friend, while final writing uses calming ocean audio in a clinic; listening and museum foils revised.",
+    "4390 contrast and final writing now test non-screen distraction at a farewell speech and a garden harvest, with clearer dialogue foils.",
+    "4448 final models explicitly explain the wrapped, compact rice balls and no reheating; dialogue foils revised.",
+    "4588 reply now tests a market setup window instead of repeating caregiver schedules.",
+    "4689 brief and scene cover a distinctive shore experience that cannot be copied inland; after independent follow-up, speaking moved to a village harvest recipe and final writing to a textile oral-history event adapted by a shipbuilding city."
+  ],
+  "checks": {
+    "focusedBuildAndCheck": "9 lessons, 54 questions, 36 audio requests, zero errors or review flags",
+    "guideOriginality": "207 learner-facing English strings screened against all 2,604 source examples; zero six-token matches with a source target shorter than six tokens and zero near-full source-sentence matches. Screening is a review aid, not a proof of originality.",
+    "targetAndGlossary": "Builder checks source target, keyed answer, speaking and glossary spans on all nine final drafts."
+  },
+  "reviewState": "A and Pilot received exact hashes for scoped independent recheck. Editorial decisions still retain hold-editorial; drafts remain unselected and unpublished."
+}

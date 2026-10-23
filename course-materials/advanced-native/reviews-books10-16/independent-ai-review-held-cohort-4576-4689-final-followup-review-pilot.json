@@ -1,0 +1,60 @@
+{
+  "reviewType": "Independent AI exact-hash focused follow-up; not human approval or release clearance",
+  "reviewedAtUtc": "2026-10-23T18:53:31.332311+00:00",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4576-4588-b.json",
+      "sha256": "f30a15b60d9be62d3976bfc0ee3cb3862a866c17ce76c1c6c1a50228c34408a8",
+      "ordinals": [
+        4576,
+        4588
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4611-4689-b.json",
+      "sha256": "617f64777eb0b8f31712298337f0b389809063e71671f1d57759bbebf3b105ec",
+      "ordinals": [
+        4611,
+        4689
+      ]
+    }
+  ],
+  "originalReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-cohort-4576-4689-review-pilot.json",
+  "resolutions": [
+    {
+      "id": "R4588-01",
+      "status": "resolved",
+      "evidence": "Reply now uses a market setup interval instead of another caregiving/working-parent scenario. Four valid responses and bilingual meaning remain aligned."
+    },
+    {
+      "id": "R4596-01",
+      "status": "resolved-by-hold",
+      "evidence": "The bespoke roof/house analogy remains hold-editorial; its provisional draft was withdrawn and is absent from the authoritative files and selected manifest."
+    },
+    {
+      "id": "R4689-01",
+      "status": "resolved",
+      "evidence": "Brief, keyed scene, speaking and final writing now assess source-side inability to copy a locally distinctive experience; copying a plan without adapting it remains covered. Literal computer editing remains a separate sense."
+    },
+    {
+      "id": "R4689-02",
+      "status": "resolved",
+      "evidence": "Scene uses low-tide coastal bird walk; speaking uses a village harvest recipe/history; final writing uses a textile mill loom demonstration and shipbuilding oral-history adaptation. The assessed contexts now genuinely change."
+    }
+  ],
+  "checks": {
+    "sourceAndTarget": "4689 exact source example and both writing models match the target; speaking span exact. 4588 target/source unchanged.",
+    "glossary": "Five 4689 answer-derived glossary spans exact; repaired bilingual models align.",
+    "focusedBuildAndCheck": "B reports combined nine-lesson build/check 9/54/36/0; this follow-up independently checked changed 4588/4689 content and spans."
+  },
+  "contentClearAtReviewedHashes": [
+    4576,
+    4588,
+    4611,
+    4689
+  ],
+  "notClear": [
+    4596
+  ],
+  "releaseState": "Unselected pending parent-coordinated manifest/decision promotion; no human linguistic, audio-listening or live release approval claimed."
+}

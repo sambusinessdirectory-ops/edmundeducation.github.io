@@ -1,0 +1,819 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-held-cohort-2413-2505-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2413",
+      "number": 2413,
+      "inventoryId": "expr-2413",
+      "contentRevision": 1,
+      "titleEn": "back-and-forth",
+      "titleZh": "雙方反覆來回的交流",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bback-and-forth\\b",
+        "glossaryForbidden": [
+          "\\bback-and-forth\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Repeated exchanges between people or sides, often involving questions, responses or challenges.",
+        "meaningZh": "雙方或多方反覆交換問題、回應或質疑。",
+        "grammar": "Use the noun the back-and-forth between A and B / over a point. It names an exchange, not one person changing their mind. A hyphenated attributive back-and-forth discussion is also possible.",
+        "register": "A moderator describing a hearing to readers, or colleagues reviewing a lively meeting, may use this neutral conversational noun; it need not imply hostility or wasted time.",
+        "boundaryZh": "須有至少兩方的來回交流；交流可以推進討論，不必然代表爭吵或沒有結論。",
+        "misconceptionZh": "別把雙方問答與同一人反覆改變選擇的 go back and forth 混為一談。",
+        "outcomeZh": "能指出哪兩方在交換甚麼，以及交流是否帶來新資訊。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0302",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 28,
+          "book": 10,
+          "question": 23,
+          "sample": "S1",
+          "sourceBookPages": "54–55",
+          "locatorNote": "DOCX table 23, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The back-and-forth between suspects kept the trial tense.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "back-and-forth"
+        }
+      ],
+      "listening": {
+        "en": "At the school exhibition meeting, the designer asked whether the label could be read from a wheelchair, and the access officer suggested a lower position. Their back-and-forth led to a revised display plan before printing.",
+        "zh": "在學校展覽會議上，設計師詢問坐輪椅的人能否讀到標籤，無障礙主任建議把標籤放低。雙方來回交流後，在印製前修訂了展示方案。",
+        "promptZh": "這段話的 back-and-forth 指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The designer and officer exchanged questions and suggestions before changing the plan.",
+            "zh": "設計師和主任交換問題與建議，然後修改方案。"
+          },
+          {
+            "id": "b",
+            "en": "The designer repeatedly switched between two labels without speaking to anyone.",
+            "zh": "設計師沒有與人交談，只是不斷在兩款標籤之間改主意。"
+          },
+          {
+            "id": "c",
+            "en": "The display plan was revised before either person considered access.",
+            "zh": "兩人考慮無障礙需要之前，展示方案已經修改。"
+          },
+          {
+            "id": "d",
+            "en": "The officer issued one final instruction and received no response.",
+            "zh": "主任只發出一次最終指示，沒有收到回應。"
+          }
+        ],
+        "explanationZh": "兩人先後提出問題和建議，再改動方案；重點是雙方來回交流。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptEn": "A community meeting included repeated questions from residents and replies from planners; the chair then recorded the points they had resolved. How would you describe that exchange?",
+        "promptZh": "社區會議中，居民反覆提問，規劃人員逐一回應；主席隨後記錄了已解決的事項。你會怎樣描述這段交流？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Both sides asked and answered points until some details became clearer.",
+            "zh": "雙方問答後，有些細節變得較清楚。"
+          },
+          {
+            "id": "b",
+            "en": "The exchange helped the chair identify which concerns had been settled.",
+            "zh": "這段交流讓主席辨認哪些疑慮已獲解決。"
+          },
+          {
+            "id": "c",
+            "en": "The back-and-forth between residents and planners clarified several points.",
+            "zh": "居民與規劃人員之間的來回交流釐清了幾項問題。"
+          },
+          {
+            "id": "d",
+            "en": "Their repeated replies gave the chair a record of the issues they had discussed.",
+            "zh": "雙方反覆回應，讓主席有紀錄可整理討論過的問題。"
+          }
+        ],
+        "explanationZh": "四句都直接描述雙方交流及其作用；金句自然用 back-and-forth 指反覆往返的問答。",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "診所改動預約制度後，病人代表提出問題，經理回覆，代表再追問具體時段。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The back-and-forth between the representatives and manager exposed a gap in the timetable.",
+            "zh": "病人代表與經理的來回交流，揭示時間表有一處空缺。"
+          },
+          {
+            "id": "b",
+            "en": "The representatives kept changing which appointment time they personally preferred.",
+            "zh": "代表只是反覆改變自己偏好的預約時段。"
+          },
+          {
+            "id": "c",
+            "en": "The manager published the timetable without hearing any question.",
+            "zh": "經理沒有聽取任何問題便公布時間表。"
+          }
+        ],
+        "explanationZh": "代表與經理多次問答，最後發現時間表的問題。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合稱為 back-and-forth between two sides？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Two editors exchange comments on a caption and revise it twice.",
+            "zh": "兩名編輯就圖說互提意見並修改兩次。"
+          },
+          {
+            "id": "b",
+            "en": "A tenant asks about repairs, the owner replies, and the tenant requests a date.",
+            "zh": "租客詢問維修，業主回覆後，租客再要求日期。"
+          },
+          {
+            "id": "c",
+            "en": "One juror silently changes a private preference several times without speaking.",
+            "zh": "一名陪審員沒有開口，只在心裏多次改變偏好。"
+          }
+        ],
+        "explanationZh": "前兩項有雙方交流；最後一項只有一人內心改變想法。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptEn": "A: The two research teams have challenged each other’s methods three times, but they have now agreed on one test. Was that exchange pointless?\nB: ?",
+        "promptZh": "甲：兩個研究團隊已三度互相質疑研究方法，但現在同意採用一項測試。那段交流沒有用嗎？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "No. The back-and-forth helped them identify a test both teams trust.",
+            "zh": "不是。雙方來回交流，幫助他們找到都信任的測試。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. Any repeated exchange means that no one can reach an agreement.",
+            "zh": "是的。只要反覆交流，就代表沒有人能達成共識。"
+          },
+          {
+            "id": "c",
+            "en": "No. They never questioned each other before choosing the test.",
+            "zh": "不是。他們選測試前從未互相質疑。"
+          }
+        ],
+        "explanationZh": "題目說雙方經過多輪質疑才達成共識，並非全無成果。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The back-and-forth between the two librarians revealed that they were using different dates for the same event.",
+        "zh": "兩名圖書館員來回核對後，發現他們為同一活動採用了不同日期。",
+        "promptZh": "先聽示範，再指出哪兩方交流，以及交流揭示了甚麼。",
+        "targetSpan": {
+          "start": 4,
+          "end": 18
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校車公司與家長代表反覆討論一個新站點。用一至兩句英文說明雙方各提出甚麼具體問題，以及來回交流後做了甚麼決定。",
+        "selfCheckZh": "指出雙方、至少一問一答、最後的具體結果；不要把 back-and-forth 寫成同一人獨自猶豫。",
+        "examples": [
+          {
+            "en": "The back-and-forth between parents and the bus company began with a question about the crossing; after a driver explained the route, both sides agreed to move the stop nearer the lights.",
+            "zh": "家長與校車公司先就過路位置來回討論；司機解釋路線後，雙方同意把站點移近交通燈。"
+          },
+          {
+            "en": "Parents asked whether younger pupils could see the waiting area, and the company proposed a marked queue. That back-and-forth ended with a trial stop beside the library.",
+            "zh": "家長問年幼學生能否看見候車區，公司建議設置標示清楚的隊列。雙方來回交流後，決定在圖書館旁試行一個站點。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the crossing",
+            "zh": "過路位置",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 95
+            }
+          },
+          {
+            "en": "explained the route",
+            "zh": "解釋路線",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 131
+            }
+          },
+          {
+            "en": "nearer the lights",
+            "zh": "較接近交通燈",
+            "exampleIndex": 0,
+            "span": {
+              "start": 168,
+              "end": 185
+            }
+          },
+          {
+            "en": "the waiting area",
+            "zh": "候車區",
+            "exampleIndex": 1,
+            "span": {
+              "start": 47,
+              "end": 63
+            }
+          },
+          {
+            "en": "a marked queue",
+            "zh": "有標示的隊列",
+            "exampleIndex": 1,
+            "span": {
+              "start": 90,
+              "end": 104
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A short back-and-forth with the caretaker settled where the notice should go.",
+          "zh": "與管理員簡短來回討論後，大家定下告示的位置。"
+        },
+        {
+          "en": "The back-and-forth was useful because each side heard the other’s missing detail.",
+          "zh": "雙方來回交流有用，因為各自聽到了對方補充的細節。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional lesson; independent editorial and media review pending.",
+          "Sense contrast: nominal exchange between sides, unlike canonical 885, which assesses one person alternating between choices."
+        ]
+      }
+    },
+    {
+      "id": "advanced-native-2467",
+      "number": 2467,
+      "inventoryId": "expr-2467",
+      "contentRevision": 1,
+      "titleEn": "fall apart under closer inspection",
+      "titleZh": "細看後站不住腳",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:fall|falls|fell|fallen|falling) apart under closer inspection\\b",
+        "glossaryForbidden": [
+          "\\bfall(?:s|en|ing)? apart\\b|\\bfell apart\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "An argument or claim proves weak when its evidence and logic are examined carefully.",
+        "meaningZh": "論點或說法在仔細查證證據與推理後顯得站不住腳。",
+        "grammar": "An argument / claim falls apart under closer inspection; fell apart is past. The phrase names weakness discovered by scrutiny, not a person becoming emotionally overwhelmed.",
+        "register": "A fact-checker addressing a writer, or a colleague reviewing a proposal, can use this direct but measured critical phrase when the evidence really has been checked.",
+        "boundaryZh": "必須指出仔細檢視後發現的實際缺口；不能只因不喜歡一個說法便宣稱它站不住腳。",
+        "misconceptionZh": "此處的 fall apart 指論證失效，並非另一課描述一個人情緒崩潰的 fall apart。",
+        "outcomeZh": "能指出原本的主張、查證方式及使它失效的具體證據。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0356",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 33,
+          "book": 10,
+          "question": 28,
+          "sample": "S2",
+          "sourceBookPages": "68–71",
+          "locatorNote": "DOCX table 28, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The argument began to fall apart under closer inspection.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "fall apart under closer inspection"
+        }
+      ],
+      "listening": {
+        "en": "A travel app claimed its routes were always step-free. A tester checked three listed stations and found two without lift access. The claim fell apart under closer inspection, so the team changed the wording.",
+        "zh": "一個旅遊應用程式聲稱路線永遠毋須使用樓梯。測試員查核了三個列出的車站，發現其中兩個沒有升降機。細查後這個說法站不住腳，團隊於是修改措辭。",
+        "promptZh": "為甚麼說這項 claim fell apart under closer inspection？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A check of listed stations contradicted the app’s broad access claim.",
+            "zh": "查核列出的車站後，發現實況與應用程式的廣泛無障礙聲稱不符。"
+          },
+          {
+            "id": "b",
+            "en": "The tester disliked the app’s colour before checking any route.",
+            "zh": "測試員未查任何路線前已不喜歡程式顏色。"
+          },
+          {
+            "id": "c",
+            "en": "The app offered a narrower claim and the tester confirmed it at every station.",
+            "zh": "程式作出較窄的聲稱，測試員在每個車站都確認了。"
+          },
+          {
+            "id": "d",
+            "en": "The team changed wording solely because the font was too small.",
+            "zh": "團隊只因字體太細而修改措辭。"
+          }
+        ],
+        "explanationZh": "實地查核發現兩個車站缺乏升降機，推翻了「永遠毋須使用樓梯」的說法。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptEn": "A grant proposal says every venue is accessible, but the attached audit lists two venues without ramps. What happens to that claim when reviewers read the audit?",
+        "promptZh": "一份資助建議書稱所有場地均無障礙，但附上的查核報告列出兩個沒有斜道的場地。審閱者看報告後，這項聲稱會如何？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The evidence contradicts the claim that every venue is accessible.",
+            "zh": "證據與「所有場地均無障礙」的聲稱相矛盾。"
+          },
+          {
+            "id": "b",
+            "en": "Reviewers have a concrete reason to narrow the wording.",
+            "zh": "審閱者有具體理由收窄措辭。"
+          },
+          {
+            "id": "c",
+            "en": "The accessibility claim falls apart under closer inspection.",
+            "zh": "無障礙聲稱在仔細檢視後站不住腳。"
+          },
+          {
+            "id": "d",
+            "en": "The proposal should separate venues with ramps from those still needing changes.",
+            "zh": "建議書應區分已有斜道與仍需改善的場地。"
+          }
+        ],
+        "explanationZh": "四句都直接回應查核結果；金句用固定比喻指論點經不起仔細檢視。",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一名酒店經理說泳池每天開放至晚上十時；你查閱當週公告，發現有三天六時便關閉。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The manager’s claim falls apart under closer inspection of the posted hours.",
+            "zh": "仔細查看公告時間後，經理的說法便站不住腳。"
+          },
+          {
+            "id": "b",
+            "en": "The posted hours prove the manager’s statement is accurate every day.",
+            "zh": "公告時間證明經理每天的說法都準確。"
+          },
+          {
+            "id": "c",
+            "en": "The claim was false solely because the manager sounded uncertain.",
+            "zh": "只因經理語氣不肯定，便能斷定說法錯誤。"
+          }
+        ],
+        "explanationZh": "關閉時間的公告構成具體反證；語氣不是判斷依據。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 argument falls apart under closer inspection？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A price comparison omits a compulsory delivery fee revealed in the terms.",
+            "zh": "價格比較遺漏條款列明的強制運費。"
+          },
+          {
+            "id": "b",
+            "en": "A survey claim relies on ten replies but calls them a citywide majority.",
+            "zh": "調查只有十份回覆，卻宣稱代表全市大多數。"
+          },
+          {
+            "id": "c",
+            "en": "An evidence summary survives a second check of its figures and sources.",
+            "zh": "一份證據摘要的數字與來源經再次核對後仍然正確。"
+          }
+        ],
+        "explanationZh": "前兩項有查核後發現的缺口；最後一項反而經得起檢查。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptEn": "A: The charity report says donations rose in every month, but its own table shows a drop in April. Can we keep that headline?\nB: ?",
+        "promptZh": "甲：慈善機構報告稱捐款每個月都增加，但其表格顯示四月下降。我們可以保留那個標題嗎？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "No. The headline falls apart under closer inspection; say donations rose overall but not every month.",
+            "zh": "不行。細看後標題站不住腳；應說整體捐款增加，而非每月皆增加。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. The April figure supports the claim that every month improved.",
+            "zh": "可以。四月的數字支持每月都有增長的說法。"
+          },
+          {
+            "id": "c",
+            "en": "Yes. A confident headline is enough even if the table contradicts it.",
+            "zh": "可以。即使表格相矛盾，語氣肯定的標題也已足夠。"
+          }
+        ],
+        "explanationZh": "四月下跌否定「每月增加」；應把說法改為有證據支持的整體趨勢。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The slogan fell apart under closer inspection when the label showed that the supposed zero-sugar drink contained syrup.",
+        "zh": "細看標籤發現所謂零糖飲品含糖漿後，那句宣傳口號便站不住腳。",
+        "promptZh": "先聽示範，再說出哪項標籤資料推翻了口號。",
+        "targetSpan": {
+          "start": 11,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生會倡議延長圖書館時間，聲稱每晚都有大量學生留下。用一至兩句英文指出查核了甚麼紀錄、發現哪個缺口，以及應如何修訂說法。",
+        "selfCheckZh": "說明原聲稱、具體查核及修訂；不要只寫「我不同意」。",
+        "examples": [
+          {
+            "en": "The claim that the library is crowded every evening fell apart under closer inspection of the sign-in sheets: only Tuesdays were busy, so the council proposed a Tuesday trial instead.",
+            "zh": "仔細查看簽到表後，「圖書館每晚都擠滿人」的說法站不住腳：只有星期二繁忙，因此學生會改為建議星期二試行延長開放。"
+          },
+          {
+            "en": "Our proposal said many pupils stayed late each night, but the door counts showed a sharp fall after Wednesday. It fell apart under closer inspection, and we asked for a shorter two-day pilot.",
+            "zh": "我們的建議稱每晚都有很多學生留下，但出入口人數紀錄顯示星期三後人數急跌。細查後原說法站不住腳，我們於是要求較短的兩日試行。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the sign-in sheets",
+            "zh": "簽到表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 108
+            }
+          },
+          {
+            "en": "a Tuesday trial",
+            "zh": "星期二試行",
+            "exampleIndex": 0,
+            "span": {
+              "start": 159,
+              "end": 174
+            }
+          },
+          {
+            "en": "door counts",
+            "zh": "出入口人數紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 73
+            }
+          },
+          {
+            "en": "a sharp fall",
+            "zh": "急跌",
+            "exampleIndex": 1,
+            "span": {
+              "start": 81,
+              "end": 93
+            }
+          },
+          {
+            "en": "a shorter two-day pilot",
+            "zh": "較短的兩日試行",
+            "exampleIndex": 1,
+            "span": {
+              "start": 167,
+              "end": 190
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A broad claim can fall apart under closer inspection when one omitted detail changes the result.",
+          "zh": "若一項遺漏的細節改變結論，廣泛的聲稱可能在細查後站不住腳。"
+        },
+        {
+          "en": "Check the figures before claiming that an argument falls apart under closer inspection.",
+          "zh": "說論點經不起細查之前，先核對數字。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional lesson; independent editorial and media review pending.",
+          "Distinct from canonical 1164 emotional fall apart and 098 systemic fall apart at the seams: scrutiny reveals an evidential flaw in an argument."
+        ]
+      }
+    },
+    {
+      "id": "advanced-native-2505",
+      "number": 2505,
+      "inventoryId": "expr-2505",
+      "contentRevision": 2,
+      "titleEn": "attention spread thin",
+      "titleZh": "注意力分散得太薄弱",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:attention (?:was|is|has been|had been) thinly spread|(?:spread|spreads|spreading) (?:my|our|your|their|his|her|its) attention (?:too )?thin)\\b",
+        "glossaryForbidden": [
+          "\\b(?:attention|spread thin|thinly spread)\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Attention is divided among so many tasks that each receives less focus than it needs.",
+        "meaningZh": "注意力被分到太多事項，每項得到的專注都不足。",
+        "grammar": "The source uses attention was thinly spread; in current everyday speech, we often say spread my/our/their attention too thin. Name the competing tasks and resulting loss of focus.",
+        "register": "A team lead explaining workload to colleagues, or a student reviewing a study plan with a tutor, may use this practical informal image.",
+        "boundaryZh": "重點不只是「同時有很多事」，還要有專注不足的後果；按次序完成多項工作不一定符合。",
+        "misconceptionZh": "不要把精力分配廣泛自動說成低效；需要指出哪項重要事情因注意力分散而受影響。",
+        "outcomeZh": "能指出被分散的注意力、競爭的任務及具體後果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0394",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 36,
+          "book": 10,
+          "question": 32,
+          "sample": "S1",
+          "sourceBookPages": "78–80",
+          "locatorNote": "DOCX table 32, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Our attention was thinly spread across six small tasks.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "attention was thinly spread"
+        }
+      ],
+      "listening": {
+        "en": "The volunteer desk tried to answer calls, file forms and welcome arrivals at the same time. Attention was thinly spread, and two visitors waited without directions; the coordinator assigned one person to each task.",
+        "zh": "義工接待處同時接電話、整理表格和迎接訪客。注意力分散得太薄弱，兩名訪客等候時無人指路；統籌員於是安排每項工作由一人負責。",
+        "promptZh": "說話者為甚麼說 attention was thinly spread？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team divided focus across several simultaneous duties and missed visitors.",
+            "zh": "團隊同時兼顧多項職務，因分神而忽略訪客。"
+          },
+          {
+            "id": "b",
+            "en": "Each volunteer finished one duty before starting the next, without interruption.",
+            "zh": "每名義工都不受干擾地完成一項工作才開始下一項。"
+          },
+          {
+            "id": "c",
+            "en": "The desk had too few forms, so visitors could not read them.",
+            "zh": "接待處表格不足，訪客無法閱讀。"
+          },
+          {
+            "id": "d",
+            "en": "The coordinator added staff because calls had ended early.",
+            "zh": "統籌員增派人手，是因為電話工作提早完成。"
+          }
+        ],
+        "explanationZh": "多項同時進行的職務搶走注意力，造成訪客無人指引。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptEn": "A tutor plans to mark essays, coach three groups and answer live messages in the same hour; feedback quality has dropped. Why should she narrow the schedule?",
+        "promptZh": "導師打算在同一小時內批改作文、指導三組學生及即時回覆訊息；評語質素已下降。她為何應收窄安排？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Too many simultaneous tasks leave too little focus for careful marking.",
+            "zh": "同時處理太多事，令她沒有足夠注意力仔細批改。"
+          },
+          {
+            "id": "b",
+            "en": "Separating message time from marking would protect the quality of feedback.",
+            "zh": "把回覆訊息與批改時段分開，可維持評語質素。"
+          },
+          {
+            "id": "c",
+            "en": "She is spreading her attention too thin across the hour.",
+            "zh": "她在這一小時把注意力分散得太薄弱。"
+          },
+          {
+            "id": "d",
+            "en": "Fewer overlapping duties would let her review each essay properly.",
+            "zh": "減少重疊職務，她便能認真審閱每篇作文。"
+          }
+        ],
+        "explanationZh": "四句都說明同時兼顧太多職務如何影響評語；金句自然使用目標比喻。",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一名活動主任同時核對票數、接待表演者及回答場地電話，結果漏報了換場時間。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The director spread their attention too thin and missed the changeover notice.",
+            "zh": "主任同時兼顧太多事情，因分神而漏報換場時間。"
+          },
+          {
+            "id": "b",
+            "en": "The changeover notice was missed because the director finished each job in sequence.",
+            "zh": "主任按次序完成各項工作，因而漏報換場時間。"
+          },
+          {
+            "id": "c",
+            "en": "The director had little to do, so no one needed her attention.",
+            "zh": "主任沒有太多工作，因此沒有人需要她留意。"
+          }
+        ],
+        "explanationZh": "同時處理多項工作並漏報重要時間，具體顯示注意力過度分散。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 someone spread their attention too thin？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A nurse answers three non-urgent requests while trying to finish a medication check and misses a step.",
+            "zh": "護士一邊核對藥物一邊處理三項非緊急要求，結果漏了一步。"
+          },
+          {
+            "id": "b",
+            "en": "A musician switches among four rehearsals and forgets a revised cue.",
+            "zh": "樂師在四場排練之間奔走，忘了更新的提示。"
+          },
+          {
+            "id": "c",
+            "en": "A gardener completes one bed fully before starting the next and checks each label.",
+            "zh": "園丁完成並核對一個花圃後才開始下一個。"
+          }
+        ],
+        "explanationZh": "最後一項按次序完成並核對，沒有因同時兼顧多事而分神。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptEn": "A: Our translator is handling four live chats and has missed two names. Can we give her another channel?\nB: ?",
+        "promptZh": "甲：我們的翻譯員同時處理四個即時對話，已漏掉兩個名字。還能給她多一個頻道嗎？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "No. We have spread her attention too thin already; let us assign a second translator.",
+            "zh": "不要。我們已讓她的注意力太分散；找第二名翻譯員吧。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. Missing names proves she needs more simultaneous channels.",
+            "zh": "可以。漏掉名字證明她需要同時處理更多頻道。"
+          },
+          {
+            "id": "c",
+            "en": "Yes. The names can be ignored because the chats are live.",
+            "zh": "可以。既然是即時對話，名字可以忽略。"
+          }
+        ],
+        "explanationZh": "已漏掉兩個名字，繼續增加頻道只會加重分神；分工更合理。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "We spread our attention too thin across five poster designs and failed to proofread the date on the final one.",
+        "zh": "我們把注意力分到五款海報設計，結果沒有校對最後一款的日期。",
+        "promptZh": "先聽示範，再指出注意力分散造成哪個具體疏漏。",
+        "targetSpan": {
+          "start": 3,
+          "end": 32
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：餐廳經理讓同一位員工同時管理訂位、外賣及桌邊付款，結果有一張訂單出錯。用英文說明注意力如何分散，以及可採取甚麼分工。",
+        "selfCheckZh": "指出三項並行工作、具體錯誤及一個實際分工；不可只說員工「太忙」。",
+        "examples": [
+          {
+            "en": "Mei was assigned bookings, takeaways and table payments. We spread her attention too thin, and she entered one order twice. A second worker will handle payments during the dinner rush.",
+            "zh": "美獲安排同時處理訂位、外賣及桌邊付款。我們讓她的注意力過度分散，結果她把一張訂單輸入了兩次。晚餐繁忙時段將由另一名員工處理付款。"
+          },
+          {
+            "en": "Mei’s attention was thinly spread while she took bookings, checked takeaway bags and collected bills; one takeaway order was missed. The shift lead will take over bookings at peak time.",
+            "zh": "美同時處理訂位、核對外賣袋及收帳，注意力分散，結果漏了一張外賣單。繁忙時段由值班主管接手訂位。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "table payments",
+            "zh": "桌邊付款",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 55
+            }
+          },
+          {
+            "en": "entered one order twice",
+            "zh": "把一張訂單輸入了兩次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 122
+            }
+          },
+          {
+            "en": "the dinner rush",
+            "zh": "晚餐繁忙時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 168,
+              "end": 183
+            }
+          },
+          {
+            "en": "checked takeaway bags",
+            "zh": "核對外賣袋",
+            "exampleIndex": 1,
+            "span": {
+              "start": 59,
+              "end": 80
+            }
+          },
+          {
+            "en": "take over bookings",
+            "zh": "接手訂位",
+            "exampleIndex": 1,
+            "span": {
+              "start": 153,
+              "end": 171
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "When attention is thinly spread, a small check can be the first thing lost.",
+          "zh": "注意力過度分散時，小型核對工作可能最先被忽略。"
+        },
+        {
+          "en": "Do not spread your attention too thin when a safety decision needs a careful check.",
+          "zh": "安全決定需要仔細核對時，不要讓注意力過度分散。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional lesson; independent editorial and media review pending.",
+          "Source uses passive thinly spread; lesson also teaches the more natural active spread attention too thin. No selected owner teaches this divided-focus consequence."
+        ]
+      }
+    }
+  ]
+}

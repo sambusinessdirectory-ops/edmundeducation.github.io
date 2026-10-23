@@ -1,0 +1,562 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-held-reviewed-3505-3647-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3505",
+      "number": 3505,
+      "inventoryId": "expr-3505",
+      "titleEn": "invite someone to linger",
+      "titleZh": "令人願意駐足細看",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\binvit(?:e|es|ed|ing) (?:you|us|them|readers|visitors|the audience|people) to linger\\b",
+        "glossaryForbidden": [
+          "\\binvit(?:e|es|ed|ing) (?:you|us|them|readers|visitors|the audience|people) to linger\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Make someone want to stay longer and pay unhurried attention, without literally issuing an invitation.",
+        "meaningZh": "令人願意多停留一會兒，從容細看；不一定真有人發出邀請。",
+        "grammar": "A place, artwork or passage invites visitors/readers to linger; linger over the details names what receives prolonged attention. Passive was invited to linger may describe a literal invitation and needs context.",
+        "register": "Reflective review or description; a gallery writer may describe how a display holds attention without claiming every visitor likes it.",
+        "boundaryZh": "令人想停留不表示所有人都停留，也不代表展品內容必然正確。",
+        "misconceptionZh": "不要把 invite 誤作職員親口邀請，或把慢看等同無限拖延。",
+        "outcomeZh": "能說明哪個細節吸引人多看一會兒，並保留讀者選擇。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1394",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 130,
+          "book": 13,
+          "question": 16,
+          "sample": "S2",
+          "sourceBookPages": "41–43",
+          "locatorNote": "DOCX table 137, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A long essay invites you to linger over the details.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "invites you to linger"
+        }
+      ],
+      "listening": {
+        "en": "The small ceramic bowl has tiny painted scenes around its rim. The display invites visitors to linger and notice them.",
+        "zh": "那隻小陶碗的邊緣畫了細小場景；展示方式令訪客願意駐足細看。",
+        "promptZh": "invites visitors to linger 在此表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The display encourages visitors to spend more time looking.",
+            "zh": "展示方式令人願意花多一點時間觀看。"
+          },
+          {
+            "id": "b",
+            "en": "A staff member has formally invited every visitor to dinner.",
+            "zh": "職員正式邀請每位訪客吃晚飯。"
+          },
+          {
+            "id": "c",
+            "en": "The bowl is too large to move through the gallery.",
+            "zh": "陶碗太大，無法穿過展廳。"
+          },
+          {
+            "id": "d",
+            "en": "Every visitor has already studied the bowl for an hour.",
+            "zh": "每位訪客都已研究陶碗一小時。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "細小畫面值得慢看，但沒有實際宴請或人人已停留的資料。"
+      },
+      "reply": {
+        "promptZh": "（為何有人在新壁畫旁停留？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The tiny drawings reward a closer look.",
+            "zh": "細小圖畫值得近看。"
+          },
+          {
+            "id": "b",
+            "en": "Several hidden details become visible when people pause.",
+            "zh": "人停下來時，幾個隱藏細節才會顯現。"
+          },
+          {
+            "id": "c",
+            "en": "The mural invites visitors to linger over its many small scenes.",
+            "zh": "壁畫令訪客願意駐足細看其中許多小場景。"
+          },
+          {
+            "id": "d",
+            "en": "The scene has details that are easy to miss while walking past.",
+            "zh": "路過時很容易錯過那些細節。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出壁畫的細節值得多看，金句自然描述它吸引人停留。",
+        "promptEn": "Why are people spending time beside the new mural?"
+      },
+      "scene": {
+        "promptZh": "一段步道設有可近看昆蟲的低矮觀察窗，遊人可自行決定停留多久。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The observation window invites visitors to linger and look more closely.",
+            "zh": "觀察窗令人願意駐足近看。"
+          },
+          {
+            "id": "b",
+            "en": "The window orders every visitor to stay for an hour.",
+            "zh": "觀察窗命令每位訪客停留一小時。"
+          },
+          {
+            "id": "c",
+            "en": "The insects are not visible from the window.",
+            "zh": "從觀察窗看不到昆蟲。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "觀察窗鼓勵細看，但沒有強制時間或看不到昆蟲的證據。"
+      },
+      "contrast": {
+        "promptZh": "哪項推論不應單靠 invites readers to linger 得出？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The passage may reward unhurried reading.",
+            "zh": "文章可能值得慢慢讀。"
+          },
+          {
+            "id": "b",
+            "en": "Every reader must find the passage enjoyable.",
+            "zh": "每位讀者都必定喜歡這篇文章。"
+          },
+          {
+            "id": "c",
+            "en": "A detail may encourage someone to pause.",
+            "zh": "某個細節可能令人停下來。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "描述吸引力不等於保證每人的反應一樣。"
+      },
+      "dialogue": {
+        "promptZh": "同學把「This photograph invites you to linger」譯成攝影師親口邀請你留下。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The photograph invites you to linger when it rewards a longer look, even if nobody speaks to you.",
+            "zh": "它可指照片值得多看一會兒，即使沒有人向你說話。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, a photograph can only invite by speaking aloud.",
+            "zh": "對，照片只能靠開口說話邀請。"
+          },
+          {
+            "id": "c",
+            "en": "It means the photograph has been removed.",
+            "zh": "它表示照片已被移走。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "此處 invite 是比喻：作品引人停留，不必有真人發出邀請。"
+      },
+      "speaking": {
+        "en": "The garden path invites visitors to linger near the night-blooming flowers, where their scent is strongest.",
+        "zh": "花園小徑令人願意在夜間開花的植物旁駐足，因為那裏香氣最濃。",
+        "promptZh": "先聽示範，再指出甚麼細節值得停下來感受。",
+        "targetSpan": {
+          "start": 16,
+          "end": 42
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：地方檔案館展示一張舊渡輪時刻表，旁邊有乘客手寫更改筆記。請描述筆記如何吸引人細看，不要說館員強制參觀者停留。",
+        "selfCheckZh": "寫出舊時刻表與手寫筆記，並說明它們令人願意細看而非被命令停留。",
+        "examples": [
+          {
+            "en": "The handwritten changes beside the old ferry timetable invite visitors to linger over the small details of past journeys.",
+            "zh": "舊渡輪時刻表旁的手寫更改令訪客願意駐足細看昔日旅程的小細節。"
+          },
+          {
+            "en": "Visitors can choose to move on, but the notes next to the ferry timetable invite them to linger and compare the altered times.",
+            "zh": "訪客可以繼續前行，但渡輪時刻表旁的筆記令他們願意停下來，比較更改過的時間。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "handwritten changes",
+            "zh": "手寫更改",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 23
+            }
+          },
+          {
+            "en": "old ferry timetable",
+            "zh": "舊渡輪時刻表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 54
+            }
+          },
+          {
+            "en": "past journeys",
+            "zh": "昔日旅程",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 120
+            }
+          },
+          {
+            "en": "choose to move on",
+            "zh": "選擇繼續前行",
+            "exampleIndex": 1,
+            "span": {
+              "start": 13,
+              "end": 30
+            }
+          },
+          {
+            "en": "the notes",
+            "zh": "筆記",
+            "exampleIndex": 1,
+            "span": {
+              "start": 36,
+              "end": 45
+            }
+          },
+          {
+            "en": "altered times",
+            "zh": "更改過的時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 112,
+              "end": 125
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A small detail can invite visitors to linger without forcing them to stay.",
+          "zh": "一個小細節可以吸引訪客駐足，卻不強迫他們留下。"
+        },
+        {
+          "en": "An image can invite visitors to linger; name the details rather than claiming everyone reacts alike.",
+          "zh": "作品可令人願意駐足細看；要指出細節，不要聲稱人人反應相同。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Reviewed source sense, grammar, register, four valid replies, keyed fairness, changed-context writing and target form. Independent review pending."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese reviewed against every learner-facing English sentence; independent review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Provisional source-backed seven-step draft. No human or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3647",
+      "number": 3647,
+      "inventoryId": "expr-3647",
+      "titleEn": "roots and wings",
+      "titleZh": "根基與展翅的能力",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\broots and wings\\b",
+        "glossaryForbidden": [
+          "\\broots and wings\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A paired metaphor for a secure sense of belonging and the freedom or confidence to grow independently.",
+        "meaningZh": "一組比喻：既有安穩歸屬感，也有逐漸獨立探索的自由與信心。",
+        "grammar": "Give someone roots and wings: roots represent support or belonging; wings represent room to try and become independent. The pair is figurative, not botany or flight.",
+        "register": "Warm, reflective family or mentoring language; a youth mentor may discuss support without prescribing one family model.",
+        "boundaryZh": "兩者要並存；有支持不等於替人決定一切，鼓勵獨立亦不等於放任不顧。",
+        "misconceptionZh": "不要把 roots 譯成一定要留在原地，或把 wings 譯成立即斷絕聯繫。",
+        "outcomeZh": "能說明一項支持如何兼顧歸屬與自主選擇。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1536",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 144,
+          "book": 14,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "22–23",
+          "locatorNote": "DOCX table 153, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Good families give children roots and wings as they grow.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "roots and wings"
+        }
+      ],
+      "listening": {
+        "en": "At the workshop, mentors offered regular check-ins while letting teenagers choose their own projects. One organiser called that giving them roots and wings.",
+        "zh": "工作坊導師定期關心青少年，同時讓他們自行選擇項目；一位組織者稱這是給他們「根基與翅膀」。",
+        "promptZh": "roots and wings 各指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Reliable support and room to make independent choices.",
+            "zh": "可靠支援及自行作選擇的空間。"
+          },
+          {
+            "id": "b",
+            "en": "Staying in one place and never trying a new task.",
+            "zh": "留在原地，永不嘗試新任務。"
+          },
+          {
+            "id": "c",
+            "en": "Leaving the group with no contact or support.",
+            "zh": "離開小組後完全沒有聯繫或支援。"
+          },
+          {
+            "id": "d",
+            "en": "Learning about plants and birds as the only workshop topics.",
+            "zh": "工作坊只學植物和鳥類。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "導師既定期關心，又容許自行選擇，正好對應兩個比喻。"
+      },
+      "reply": {
+        "promptZh": "（社團怎樣支援第一年義工，同時不替他們決定一切？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Offer a mentor they can contact and let them choose a suitable role.",
+            "zh": "安排可聯絡的導師，也讓他們選擇合適崗位。"
+          },
+          {
+            "id": "b",
+            "en": "Provide a regular check-in and a choice of duties.",
+            "zh": "定期關心，並提供職務選擇。"
+          },
+          {
+            "id": "c",
+            "en": "Give them roots and wings: steady guidance alongside room to lead a small task.",
+            "zh": "給他們根基與翅膀：穩定指導，同時讓他們有空間帶領小任務。"
+          },
+          {
+            "id": "d",
+            "en": "Explain the available roles, then let them decide which one to try.",
+            "zh": "說明可選崗位，再讓他們決定嘗試哪個。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都結合支援和自主，金句用並列比喻概括兩者。",
+        "promptEn": "How can the club support first-year volunteers without deciding everything for them?"
+      },
+      "scene": {
+        "promptZh": "新學員可以自己選題做短片，並有每週導師會面求助。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The programme offers roots and wings: support when needed and freedom to choose a topic.",
+            "zh": "計劃兼有根基與翅膀：需要時有支援，也能自由選題。"
+          },
+          {
+            "id": "b",
+            "en": "The programme gives freedom by removing every source of guidance.",
+            "zh": "計劃移除一切指導，藉此給予自由。"
+          },
+          {
+            "id": "c",
+            "en": "The mentor chooses every topic, so learners never decide.",
+            "zh": "導師決定每個題目，學員從不選擇。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每週會面和自行選題分別支援歸屬感與自主。"
+      },
+      "contrast": {
+        "promptZh": "哪項安排最不足以同時提供 roots and wings？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A mentor stays available while learners test their own ideas.",
+            "zh": "導師保持可聯絡，學員自行嘗試構思。"
+          },
+          {
+            "id": "b",
+            "en": "Adults control every decision and reject all learner choices.",
+            "zh": "成年人控制每項決定，否決所有學員選擇。"
+          },
+          {
+            "id": "c",
+            "en": "A group provides a place to return while members explore new roles.",
+            "zh": "小組提供可回來的地方，成員同時探索新崗位。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "完全控制只有限制，缺少 wings 所指的自主成長空間。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說「roots and wings」一定表示年輕人應搬離家。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The phrase “roots and wings” is a metaphor for belonging and independence; moving house is not required.",
+            "zh": "這是歸屬感與獨立的比喻，並非一定要搬家。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, the phrase specifies a new address.",
+            "zh": "對，這句指定要有新地址。"
+          },
+          {
+            "id": "c",
+            "en": "It means the young person should never ask for help again.",
+            "zh": "它表示年輕人以後不能再求助。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩個意象談支援與自主，沒有指定居住安排。"
+      },
+      "speaking": {
+        "en": "The makerspace gave learners roots and wings by pairing them with a mentor while allowing them to design their own tools.",
+        "zh": "創客空間安排導師，又容許學員設計自己的工具，讓他們同時有根基與展翅空間。",
+        "promptZh": "先聽示範，再指出哪項是支援，哪項是自主。",
+        "targetSpan": {
+          "start": 29,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區劇團讓初次演出的青年選擇角色，同時安排有經驗演員定期排練指導。用 roots and wings 說明兩方面。",
+        "selfCheckZh": "寫出青年自行選角、經驗演員定期指導，以及兩者如何兼顧自主和支援。",
+        "examples": [
+          {
+            "en": "The youth theatre offers roots and wings: newcomers choose their roles, while experienced actors guide them at regular rehearsals.",
+            "zh": "青年劇團兼顧根基與翅膀：新人自行選角，有經驗演員則在定期排練中指導。"
+          },
+          {
+            "en": "By letting young performers select parts and giving them steady coaching from older actors, the troupe offers roots and wings.",
+            "zh": "劇團讓青年演員自行選角，亦由資深演員持續指導，因此兼顧歸屬與自主成長。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "newcomers choose their roles",
+            "zh": "新人自行選角",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 70
+            }
+          },
+          {
+            "en": "experienced actors",
+            "zh": "有經驗演員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 96
+            }
+          },
+          {
+            "en": "regular rehearsals",
+            "zh": "定期排練",
+            "exampleIndex": 0,
+            "span": {
+              "start": 111,
+              "end": 129
+            }
+          },
+          {
+            "en": "young performers",
+            "zh": "青年演員",
+            "exampleIndex": 1,
+            "span": {
+              "start": 11,
+              "end": 27
+            }
+          },
+          {
+            "en": "steady coaching",
+            "zh": "持續指導",
+            "exampleIndex": 1,
+            "span": {
+              "start": 57,
+              "end": 72
+            }
+          },
+          {
+            "en": "older actors",
+            "zh": "資深演員",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 90
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Roots and wings combine dependable support with room to explore.",
+          "zh": "「根基與翅膀」結合可靠支援與探索空間。"
+        },
+        {
+          "en": "Roots and wings do not prescribe one family arrangement or a sudden break in contact.",
+          "zh": "根基與翅膀這個比喻不指定一種家庭安排，也不要求突然斷絕聯繫。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Reviewed source sense, grammar, register, four valid replies, keyed fairness, changed-context writing and target form. Independent review pending."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese reviewed against every learner-facing English sentence; independent review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Provisional source-backed seven-step draft. No human or release approval."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

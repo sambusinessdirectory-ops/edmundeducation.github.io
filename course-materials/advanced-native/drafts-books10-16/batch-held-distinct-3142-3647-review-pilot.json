@@ -1,0 +1,1396 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-held-distinct-3142-3647-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3142",
+      "number": 3142,
+      "inventoryId": "expr-3142",
+      "titleEn": "at once (immediately)",
+      "titleZh": "立即；馬上",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bat once\\b",
+        "glossaryForbidden": [
+          "\\bat once\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Immediately after a trigger, without delay; this is the time-sequence sense, not simultaneous actions.",
+        "meaningZh": "某事發生後立即作出反應，沒有拖延；不是本課以外「同時」的意思。",
+        "grammar": "At once usually follows the action: respond at once, become quiet at once. It can also mean simultaneously in another context, so infer the sense from sequence and actors.",
+        "register": "Neutral to firm; a stage manager may tell volunteers to act promptly after a cue, without implying panic.",
+        "boundaryZh": "「立即」有清楚的觸發點與隨後行動；並非聲稱兩件事同時進行。",
+        "misconceptionZh": "不要把所有 at once 都譯成「同時」；也不要因「立即」就假定結果已成功。",
+        "outcomeZh": "能按先後次序辨別 at once 的「立即」義並提出準確回應。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1031",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 96,
+          "book": 12,
+          "question": 29,
+          "sample": "S1",
+          "sourceBookPages": "70–71",
+          "locatorNote": "DOCX table 99, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The room became quiet at once.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "at once"
+        }
+      ],
+      "listening": {
+        "en": "When the lighthouse warning flashed, the keeper called the harbour office at once.",
+        "zh": "燈塔警報一閃，管理員便立即致電港口辦事處。",
+        "promptZh": "at once 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The keeper called immediately after the warning.",
+            "zh": "管理員在警報後立即致電。"
+          },
+          {
+            "id": "b",
+            "en": "The keeper and the office both flashed warnings together.",
+            "zh": "管理員與辦事處同時發出警報。"
+          },
+          {
+            "id": "c",
+            "en": "The keeper waited for the next morning.",
+            "zh": "管理員等到翌日早上。"
+          },
+          {
+            "id": "d",
+            "en": "The office had already fixed the problem before the call.",
+            "zh": "辦事處在電話前已解決問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "警報先出現，電話緊接其後；沒有說兩邊同時行動或問題已解決。"
+      },
+      "reply": {
+        "promptZh": "（展館警報剛響，現在要通知主管嗎？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes, send the supervisor a message immediately.",
+            "zh": "要，立即傳訊息給主管。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, call the supervisor before visitors enter that room.",
+            "zh": "要，在訪客進入那個房間前致電主管。"
+          },
+          {
+            "id": "c",
+            "en": "Yes, let the supervisor know at once.",
+            "zh": "要，馬上通知主管。"
+          },
+          {
+            "id": "d",
+            "en": "Yes, report the alarm now and give its location.",
+            "zh": "要，現在報告警報並說明位置。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都主張即時通報；at once 簡潔點明沒有拖延。",
+        "promptEn": "The gallery alarm has just sounded. Should we tell the supervisor now?"
+      },
+      "scene": {
+        "promptZh": "校車司機收到前方道路封閉通知，立刻改用已核准的替代路線。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The driver used the approved alternative route at once.",
+            "zh": "司機立即使用已核准的替代路線。"
+          },
+          {
+            "id": "b",
+            "en": "The driver waited until tomorrow to consider the closure.",
+            "zh": "司機等到明天才考慮封路。"
+          },
+          {
+            "id": "c",
+            "en": "The driver and the closure happened at the same time, so no choice was needed.",
+            "zh": "司機與封路同時發生，所以毋須作決定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "收到通知後隨即改道，符合「立即」的先後關係。"
+      },
+      "contrast": {
+        "promptZh": "哪個情境最能區分 at once 的「立即」義，而非「同時」義？",
+        "options": [
+          {
+            "id": "a",
+            "en": "After a bell rings, one pupil leaves at once.",
+            "zh": "鈴響後，一名學生立即離開。"
+          },
+          {
+            "id": "b",
+            "en": "Three pupils speak at once and nobody can be heard clearly.",
+            "zh": "三名學生同時說話，沒有人能聽清楚。"
+          },
+          {
+            "id": "c",
+            "en": "Two lights come on at once as the switch is pressed.",
+            "zh": "按下開關時，兩盞燈同時亮起。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "鈴聲觸發一名學生隨即離開；其他情境描述多個人或物同時行動。"
+      },
+      "dialogue": {
+        "promptZh": "同學說「The notice arrived at once」就一定是幾份通知同時送到。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Here at once can mean the notice arrived immediately after it was sent; the context decides.",
+            "zh": "這裏可指通知發出後立即送到；要看語境判斷。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, at once can only describe several things happening together.",
+            "zh": "對，at once 只能指幾件事同時發生。"
+          },
+          {
+            "id": "c",
+            "en": "It means the notice was never sent.",
+            "zh": "它表示通知從未發出。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "at once 可表示立即，不能單靠這兩字判斷是否多件事同時進行。"
+      },
+      "speaking": {
+        "en": "The caretaker turned off the tap at once when water began leaking, then called maintenance.",
+        "zh": "水管開始漏水時，管理員立即關掉水龍頭，然後致電維修人員。",
+        "promptZh": "先聽示範，再說明哪件事觸發即時行動。",
+        "targetSpan": {
+          "start": 33,
+          "end": 40
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區劇院在開演前發現側門沒有上鎖。值班員即時鎖好側門，然後通知經理。用 at once 描述先後次序，不要聲稱演出已取消。",
+        "selfCheckZh": "寫出發現側門未鎖、即時上鎖及其後通知經理；不要把 at once 解作兩個動作同時發生。",
+        "examples": [
+          {
+            "en": "The usher locked the side door at once after finding it open and then informed the manager.",
+            "zh": "帶位員發現側門沒有上鎖後立即鎖好，然後通知經理。"
+          },
+          {
+            "en": "After the open side door was noticed, the usher secured it at once before reporting the issue to the manager.",
+            "zh": "發現側門未鎖後，帶位員立即把門鎖好，再向經理報告。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "side door",
+            "zh": "側門",
+            "exampleIndex": 0,
+            "span": {
+              "start": 21,
+              "end": 30
+            }
+          },
+          {
+            "en": "after finding it open",
+            "zh": "發現門未鎖後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 60
+            }
+          },
+          {
+            "en": "informed the manager",
+            "zh": "通知經理",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 90
+            }
+          },
+          {
+            "en": "secured it",
+            "zh": "把門鎖好",
+            "exampleIndex": 1,
+            "span": {
+              "start": 48,
+              "end": 58
+            }
+          },
+          {
+            "en": "before reporting the issue",
+            "zh": "在報告問題前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 93
+            }
+          },
+          {
+            "en": "the manager",
+            "zh": "經理",
+            "exampleIndex": 1,
+            "span": {
+              "start": 97,
+              "end": 108
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Call for help at once when the agreed warning appears.",
+          "zh": "約定的警示出現時，立即求助。"
+        },
+        {
+          "en": "At once may also mean simultaneously; the surrounding events reveal which sense fits.",
+          "zh": "at once 也可表示「同時」；須看前後事件判斷。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Reviewed source sense, grammar, register, four valid replies, keyed fairness, changed-context writing and target form. Independent review pending."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese reviewed against every learner-facing English sentence; independent review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Provisional source-backed seven-step draft. No human or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3308",
+      "number": 3308,
+      "inventoryId": "expr-3308",
+      "titleEn": "life does not follow a script",
+      "titleZh": "生活未必按劇本發展",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:life|the day|the trip|events?|reality) (?:does not|doesn\\x27t|did not|didn\\x27t|rarely|never) (?:always )?follow a script\\b",
+        "glossaryForbidden": [
+          "\\b(?:life|the day|the trip|events?|reality) (?:does not|doesn\\x27t|did not|didn\\x27t|rarely|never) (?:always )?follow a script\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Events do not necessarily unfold according to a plan or expected sequence.",
+        "meaningZh": "事情不一定照預定計劃或想像中的次序發生。",
+        "grammar": "Life does not always follow a script; the subject can be life, a day, a trip or events. Here follow a script is about unpredictability, not a person complying with a social role.",
+        "register": "Reflective, conversational metaphor; a trip organiser can acknowledge a change while keeping practical next steps.",
+        "boundaryZh": "未按劇本發展不表示完全不能計劃，也不保證改變必定更好。",
+        "misconceptionZh": "不要把這裏的 script 當成真的戲劇台詞，或用一句比喻取代具體調整。",
+        "outcomeZh": "能指出計劃哪一環改變，並以不誇大的語氣提出應對。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1197",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 111,
+          "book": 12,
+          "question": 45,
+          "sample": "S2",
+          "sourceBookPages": "106–107",
+          "locatorNote": "DOCX table 115, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Even careful planners know life does not always follow a script.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "life does not always follow a script"
+        }
+      ],
+      "listening": {
+        "en": "The outdoor lecture was planned for the courtyard, but sudden rain moved everyone into the library. The day did not follow a script.",
+        "zh": "戶外講座原定在庭院舉行，突如其來的雨卻令大家移到圖書館；那一天沒有按預定安排發展。",
+        "promptZh": "did not follow a script 在此表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The day unfolded differently from the plan.",
+            "zh": "當天的發展與計劃不同。"
+          },
+          {
+            "id": "b",
+            "en": "The lecturer forgot written lines in a play.",
+            "zh": "講者忘了戲劇台詞。"
+          },
+          {
+            "id": "c",
+            "en": "The library had never been booked for any event.",
+            "zh": "圖書館從未被預訂作活動場地。"
+          },
+          {
+            "id": "d",
+            "en": "The rain had been forecast and ignored deliberately.",
+            "zh": "主辦者明知會下雨卻故意不理。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "場地由庭院轉為圖書館，說明事情偏離原定安排。"
+      },
+      "reply": {
+        "promptZh": "（步行導賞路線因工程受阻。我們該怎樣告訴訪客？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can explain the change and offer the approved shorter route.",
+            "zh": "我們可解釋改動，並提供已核准的較短路線。"
+          },
+          {
+            "id": "b",
+            "en": "Let us tell them the original route is unavailable and show the replacement map.",
+            "zh": "我們告訴他們原路線未能通行，並展示替代地圖。"
+          },
+          {
+            "id": "c",
+            "en": "The trip did not follow a script, so we will use the approved route and keep the same meeting point.",
+            "zh": "行程沒有完全按計劃發展；我們會用已核准路線，集合點則不變。"
+          },
+          {
+            "id": "d",
+            "en": "We should update the route notice before the next group arrives.",
+            "zh": "下一團抵達前，我們應更新路線告示。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明合理調整；金句用比喻承認變化，仍交代具體做法。",
+        "promptEn": "The walking tour route is blocked by repairs. What should we tell the visitors?"
+      },
+      "scene": {
+        "promptZh": "原定星期六的戶外棋賽改在室內舉行，報名人數不變。哪句準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The day did not follow a script: the venue changed, but the registered players can still compete.",
+            "zh": "當天並未完全按計劃發展：場地改了，已報名選手仍可比賽。"
+          },
+          {
+            "id": "b",
+            "en": "Every part of the event was cancelled.",
+            "zh": "活動的每個部分都取消了。"
+          },
+          {
+            "id": "c",
+            "en": "The organisers had planned the indoor venue from the beginning.",
+            "zh": "主辦者一開始就計劃用室內場地。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "比喻說的是場地偏離預定，不能推論賽事取消或早已安排。"
+      },
+      "contrast": {
+        "promptZh": "哪項推論超出了「life does not always follow a script」的意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A changed plan requires checking what can still be done.",
+            "zh": "計劃改變後，要核對仍能做甚麼。"
+          },
+          {
+            "id": "b",
+            "en": "Careful planning is always pointless because nothing can be adjusted.",
+            "zh": "仔細計劃永遠沒有意義，因為甚麼都不能調整。"
+          },
+          {
+            "id": "c",
+            "en": "A new situation may need a practical response.",
+            "zh": "新情況可能需要實際回應。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "這個比喻承認變化，不否定計劃或調整的價值。"
+      },
+      "dialogue": {
+        "promptZh": "同學把 life does not follow a script 解作「人人不應準備任何事」。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Life does not always follow a script means events may depart from a plan; preparation can still help us respond.",
+            "zh": "這句指事情可能偏離計劃；準備仍有助我們應對。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, any preparation guarantees failure.",
+            "zh": "對，任何準備都必定失敗。"
+          },
+          {
+            "id": "c",
+            "en": "It means everyone must memorise a play.",
+            "zh": "它表示人人都要背熟劇本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "未必照計劃發展與不用準備是兩回事。"
+      },
+      "speaking": {
+        "en": "Life does not always follow a script: our picnic moved indoors after the park closed, but we kept the group meal.",
+        "zh": "生活未必按劇本發展：公園關閉後，野餐改在室內進行，但大家仍一起用餐。",
+        "promptZh": "先聽示範，再指出哪些安排改了、哪些保留。",
+        "targetSpan": {
+          "start": 0,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：青年樂隊原定在廣場演出，因電力故障改到社區中心，不改演出曲目。用比喻描述改動與保留的部分。",
+        "selfCheckZh": "寫出原定廣場、因電力故障改在社區中心，以及曲目不變；不要說演出取消。",
+        "examples": [
+          {
+            "en": "The day did not follow a script when the power failed, so the band moved from the square to the community centre without changing its songs.",
+            "zh": "電力故障後，當天沒有照原定安排發展；樂隊由廣場移到社區中心，但曲目沒有改。"
+          },
+          {
+            "en": "Life does not always follow a script: after a power failure, the youth band performed at the community centre instead of the square, keeping the same set list.",
+            "zh": "生活未必按計劃發展：電力故障後，青年樂隊改在社區中心而非廣場演出，曲目表維持不變。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the power failed",
+            "zh": "電力故障",
+            "exampleIndex": 0,
+            "span": {
+              "start": 37,
+              "end": 53
+            }
+          },
+          {
+            "en": "the square",
+            "zh": "廣場",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 88
+            }
+          },
+          {
+            "en": "without changing its songs",
+            "zh": "曲目沒有改",
+            "exampleIndex": 0,
+            "span": {
+              "start": 113,
+              "end": 139
+            }
+          },
+          {
+            "en": "the youth band",
+            "zh": "青年樂隊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 75
+            }
+          },
+          {
+            "en": "instead of the square",
+            "zh": "而非廣場",
+            "exampleIndex": 1,
+            "span": {
+              "start": 110,
+              "end": 131
+            }
+          },
+          {
+            "en": "the same set list",
+            "zh": "相同曲目表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 141,
+              "end": 158
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Life does not always follow a script, but a revised plan can still be clear.",
+          "zh": "生活未必照劇本發展，但修訂後的計劃仍可清楚。"
+        },
+        {
+          "en": "When life does not follow a script, name the actual change instead of speaking vaguely.",
+          "zh": "生活沒有按計劃發展時，要指出實際改動，不要含糊交代。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Reviewed source sense, grammar, register, four valid replies, keyed fairness, changed-context writing and target form. Independent review pending."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese reviewed against every learner-facing English sentence; independent review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Provisional source-backed seven-step draft. No human or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3394",
+      "number": 3394,
+      "inventoryId": "expr-3394",
+      "titleEn": "pick up (obtain or buy)",
+      "titleZh": "順道取得或買到",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:pick|picks|picked|picking) up (?:a|an|the|this|that) (?:(?:trail|gallery|local) )?(?:postcard|map|booklet|brochure|copy|souvenir|ticket)\\b",
+        "glossaryForbidden": [
+          "\\b(?:pick|picks|picked|picking) up (?:a|an|the|this|that) (?:(?:trail|gallery|local) )?(?:postcard|map|booklet|brochure|copy|souvenir|ticket)\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Obtain or buy a small item casually while visiting or passing a place; not the skill-learning sense.",
+        "meaningZh": "到訪或路過某處時順道取得或買到小物件；不是「學會技能」的意思。",
+        "grammar": "Pick up + a small object: pick up a map, picked up a booklet. Context determines whether it is free or purchased; the phrase alone does not specify a price.",
+        "register": "Casual spoken shopping/travel phrasing; a visitor may ask staff where to collect an item without asserting it is free.",
+        "boundaryZh": "順道取得不代表物品免費，也不表示一定從地上撿起。",
+        "misconceptionZh": "不要把這裏的 pick up 誤解成學到技能，或未有價錢資料就說已付款。",
+        "outcomeZh": "能從語境分辨取得、購買、拾起與習得技能的不同用法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1283",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 119,
+          "book": 13,
+          "question": 3,
+          "sample": "S2",
+          "sourceBookPages": "7–8",
+          "locatorNote": "DOCX table 124, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Visitors can pick up a postcard at the market.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pick up"
+        }
+      ],
+      "listening": {
+        "en": "At the visitor centre, Dara picked up a trail map from the information desk before the walk.",
+        "zh": "Dara 在遊客中心步行前，從資訊台順道取了一張步道地圖。",
+        "promptZh": "picked up 在此最可能表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Dara obtained a map at the desk.",
+            "zh": "Dara 從資訊台取得地圖。"
+          },
+          {
+            "id": "b",
+            "en": "Dara learned to draw maps without instruction.",
+            "zh": "Dara 無人教導便學會畫地圖。"
+          },
+          {
+            "id": "c",
+            "en": "Dara found a map lying on the floor.",
+            "zh": "Dara 發現地圖掉在地上。"
+          },
+          {
+            "id": "d",
+            "en": "Dara paid a stated fee for the map.",
+            "zh": "Dara 付了已說明的費用買地圖。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "資訊台提供地圖，但沒有說地圖掉在地上或需要付款。"
+      },
+      "reply": {
+        "promptZh": "（離開前，我可拿一本社區步行指南嗎？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes, ask the desk whether copies are available.",
+            "zh": "可以，向資訊台查詢有沒有副本。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, the desk may have copies; check there first.",
+            "zh": "可以，資訊台可能有副本，先到那裏問。"
+          },
+          {
+            "id": "c",
+            "en": "You can pick up a booklet at the desk if copies are left.",
+            "zh": "如果還有副本，你可以到資訊台拿一本小冊子。"
+          },
+          {
+            "id": "d",
+            "en": "Yes, let us check the desk before we go.",
+            "zh": "可以，我們離開前先到資訊台看看。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都提出可行的取書方式，沒有憑空斷定免費或已售罄。",
+        "promptEn": "Can I get a copy of the neighbourhood walking guide before we leave?"
+      },
+      "scene": {
+        "promptZh": "旅客到博物館服務台領取一張展廳地圖，收費資料未提及。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She picked up a map at the service desk.",
+            "zh": "她在服務台拿了一張地圖。"
+          },
+          {
+            "id": "b",
+            "en": "She learned to read every map in one minute.",
+            "zh": "她一分鐘內學會讀懂所有地圖。"
+          },
+          {
+            "id": "c",
+            "en": "She picked a map off the gallery floor.",
+            "zh": "她從展廳地板撿起地圖。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "服務台是領取地點，pick up 可指取得，毋須臆測收費。"
+      },
+      "contrast": {
+        "promptZh": "哪句把 pick up 用成與本課不同的「學會」意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I picked up a brochure at the entrance.",
+            "zh": "我在入口拿了一本小冊子。"
+          },
+          {
+            "id": "b",
+            "en": "She picked up some Italian while living abroad.",
+            "zh": "她在外地生活時自然學會了一點意大利語。"
+          },
+          {
+            "id": "c",
+            "en": "We can pick up a map from the counter.",
+            "zh": "我們可從櫃檯拿一張地圖。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "學會語言是另一個意思；其餘兩句都是取得實物。"
+      },
+      "dialogue": {
+        "promptZh": "同學說「He picked up a ticket at the counter」一定表示免費。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "“Picked up a ticket” means he obtained it there; the sentence does not settle whether he paid.",
+            "zh": "它只說他在那裏取得票，沒有交代是否付費。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, pick up always means a free gift.",
+            "zh": "對，pick up 一定指免費禮物。"
+          },
+          {
+            "id": "c",
+            "en": "It means he learned how to print tickets.",
+            "zh": "它表示他學會印票。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "pick up 可指領取或買到，不能單靠動詞決定是否免費。"
+      },
+      "speaking": {
+        "en": "I picked up a booklet about the old harbour at the information desk, but I checked the price before leaving.",
+        "zh": "我在資訊台拿了一本介紹舊港口的小冊子，離開前先核對價錢。",
+        "promptZh": "先聽示範，再指出說話者如何避免猜測收費。",
+        "targetSpan": {
+          "start": 2,
+          "end": 21
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：火車站設有小冊子櫃檯，旅客在上車前取得一本地區活動指南，但不知道需否付款。用 pick up 描述，不要自行斷定免費。",
+        "selfCheckZh": "寫出旅客在火車站上車前取得指南，並保留收費未明這一點。",
+        "examples": [
+          {
+            "en": "A traveller picked up a booklet about local events at the station before boarding, then asked whether there was a charge.",
+            "zh": "旅客上車前在車站拿了一本地區活動小冊子，然後詢問是否收費。"
+          },
+          {
+            "en": "Before boarding, the traveller picked up a brochure at the station counter and checked its price instead of assuming it was free.",
+            "zh": "旅客上車前在車站櫃檯拿了一本小冊子，並核對價錢，沒有假定它免費。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "local events",
+            "zh": "地區活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 38,
+              "end": 50
+            }
+          },
+          {
+            "en": "before boarding",
+            "zh": "上車前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 81
+            }
+          },
+          {
+            "en": "whether there was a charge",
+            "zh": "是否收費",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 120
+            }
+          },
+          {
+            "en": "station counter",
+            "zh": "車站櫃檯",
+            "exampleIndex": 1,
+            "span": {
+              "start": 59,
+              "end": 74
+            }
+          },
+          {
+            "en": "checked its price",
+            "zh": "核對價錢",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 96
+            }
+          },
+          {
+            "en": "assuming it was free",
+            "zh": "假定它免費",
+            "exampleIndex": 1,
+            "span": {
+              "start": 108,
+              "end": 128
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "You can pick up a map at the centre, but ask whether there is a fee.",
+          "zh": "你可到中心拿地圖，但要問清楚是否收費。"
+        },
+        {
+          "en": "Pick up a booklet names obtaining an item; identify the object and setting before choosing a sense.",
+          "zh": "pick up a booklet 指取得實物；判斷意思前要看賓語與地點。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Reviewed source sense, grammar, register, four valid replies, keyed fairness, changed-context writing and target form. Independent review pending."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese reviewed against every learner-facing English sentence; independent review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Provisional source-backed seven-step draft. No human or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3505",
+      "number": 3505,
+      "inventoryId": "expr-3505",
+      "titleEn": "invite someone to linger",
+      "titleZh": "令人願意駐足細看",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\binvit(?:e|es|ed|ing) (?:you|us|them|readers|visitors|the audience|people) to linger\\b",
+        "glossaryForbidden": [
+          "\\binvit(?:e|es|ed|ing) (?:you|us|them|readers|visitors|the audience|people) to linger\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Make someone want to stay longer and pay unhurried attention, without literally issuing an invitation.",
+        "meaningZh": "令人願意多停留一會兒，從容細看；不一定真有人發出邀請。",
+        "grammar": "A place, artwork or passage invites visitors/readers to linger; linger over the details names what receives prolonged attention. Passive was invited to linger may describe a literal invitation and needs context.",
+        "register": "Reflective review or description; a gallery writer may describe how a display holds attention without claiming every visitor likes it.",
+        "boundaryZh": "令人想停留不表示所有人都停留，也不代表展品內容必然正確。",
+        "misconceptionZh": "不要把 invite 誤作職員親口邀請，或把慢看等同無限拖延。",
+        "outcomeZh": "能說明哪個細節吸引人多看一會兒，並保留讀者選擇。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1394",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 130,
+          "book": 13,
+          "question": 16,
+          "sample": "S2",
+          "sourceBookPages": "41–43",
+          "locatorNote": "DOCX table 137, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A long essay invites you to linger over the details.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "invites you to linger"
+        }
+      ],
+      "listening": {
+        "en": "The small ceramic bowl has tiny painted scenes around its rim. The display invites visitors to linger and notice them.",
+        "zh": "那隻小陶碗的邊緣畫了細小場景；展示方式令訪客願意駐足細看。",
+        "promptZh": "invites visitors to linger 在此表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The display encourages visitors to spend more time looking.",
+            "zh": "展示方式令人願意花多一點時間觀看。"
+          },
+          {
+            "id": "b",
+            "en": "A staff member has formally invited every visitor to dinner.",
+            "zh": "職員正式邀請每位訪客吃晚飯。"
+          },
+          {
+            "id": "c",
+            "en": "The bowl is too large to move through the gallery.",
+            "zh": "陶碗太大，無法穿過展廳。"
+          },
+          {
+            "id": "d",
+            "en": "Every visitor has already studied the bowl for an hour.",
+            "zh": "每位訪客都已研究陶碗一小時。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "細小畫面值得慢看，但沒有實際宴請或人人已停留的資料。"
+      },
+      "reply": {
+        "promptZh": "（為何有人在新壁畫旁停留？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The tiny drawings reward a closer look.",
+            "zh": "細小圖畫值得近看。"
+          },
+          {
+            "id": "b",
+            "en": "Several hidden details become visible when people pause.",
+            "zh": "人停下來時，幾個隱藏細節才會顯現。"
+          },
+          {
+            "id": "c",
+            "en": "The mural invites visitors to linger over its many small scenes.",
+            "zh": "壁畫令訪客願意駐足細看其中許多小場景。"
+          },
+          {
+            "id": "d",
+            "en": "The scene has details that are easy to miss while walking past.",
+            "zh": "路過時很容易錯過那些細節。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出壁畫的細節值得多看，金句自然描述它吸引人停留。",
+        "promptEn": "Why are people spending time beside the new mural?"
+      },
+      "scene": {
+        "promptZh": "一段步道設有可近看昆蟲的低矮觀察窗，遊人可自行決定停留多久。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The observation window invites visitors to linger and look more closely.",
+            "zh": "觀察窗令人願意駐足近看。"
+          },
+          {
+            "id": "b",
+            "en": "The window orders every visitor to stay for an hour.",
+            "zh": "觀察窗命令每位訪客停留一小時。"
+          },
+          {
+            "id": "c",
+            "en": "The insects are not visible from the window.",
+            "zh": "從觀察窗看不到昆蟲。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "觀察窗鼓勵細看，但沒有強制時間或看不到昆蟲的證據。"
+      },
+      "contrast": {
+        "promptZh": "哪項推論不應單靠 invites readers to linger 得出？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The passage may reward unhurried reading.",
+            "zh": "文章可能值得慢慢讀。"
+          },
+          {
+            "id": "b",
+            "en": "Every reader must find the passage enjoyable.",
+            "zh": "每位讀者都必定喜歡這篇文章。"
+          },
+          {
+            "id": "c",
+            "en": "A detail may encourage someone to pause.",
+            "zh": "某個細節可能令人停下來。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "描述吸引力不等於保證每人的反應一樣。"
+      },
+      "dialogue": {
+        "promptZh": "同學把「This photograph invites you to linger」譯成攝影師親口邀請你留下。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The photograph invites you to linger when it rewards a longer look, even if nobody speaks to you.",
+            "zh": "它可指照片值得多看一會兒，即使沒有人向你說話。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, a photograph can only invite by speaking aloud.",
+            "zh": "對，照片只能靠開口說話邀請。"
+          },
+          {
+            "id": "c",
+            "en": "It means the photograph has been removed.",
+            "zh": "它表示照片已被移走。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "此處 invite 是比喻：作品引人停留，不必有真人發出邀請。"
+      },
+      "speaking": {
+        "en": "The garden path invites visitors to linger near the night-blooming flowers, where their scent is strongest.",
+        "zh": "花園小徑令人願意在夜間開花的植物旁駐足，因為那裏香氣最濃。",
+        "promptZh": "先聽示範，再指出甚麼細節值得停下來感受。",
+        "targetSpan": {
+          "start": 16,
+          "end": 42
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：地方檔案館展示一張舊渡輪時刻表，旁邊有乘客手寫更改筆記。請描述筆記如何吸引人細看，不要說館員強制參觀者停留。",
+        "selfCheckZh": "寫出舊時刻表與手寫筆記，並說明它們令人願意細看而非被命令停留。",
+        "examples": [
+          {
+            "en": "The handwritten changes beside the old ferry timetable invite visitors to linger over the small details of past journeys.",
+            "zh": "舊渡輪時刻表旁的手寫更改令訪客願意駐足細看昔日旅程的小細節。"
+          },
+          {
+            "en": "Visitors can choose to move on, but the notes next to the ferry timetable invite them to linger and compare the altered times.",
+            "zh": "訪客可以繼續前行，但渡輪時刻表旁的筆記令他們願意停下來，比較更改過的時間。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "handwritten changes",
+            "zh": "手寫更改",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 23
+            }
+          },
+          {
+            "en": "old ferry timetable",
+            "zh": "舊渡輪時刻表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 54
+            }
+          },
+          {
+            "en": "past journeys",
+            "zh": "昔日旅程",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 120
+            }
+          },
+          {
+            "en": "choose to move on",
+            "zh": "選擇繼續前行",
+            "exampleIndex": 1,
+            "span": {
+              "start": 13,
+              "end": 30
+            }
+          },
+          {
+            "en": "the notes",
+            "zh": "筆記",
+            "exampleIndex": 1,
+            "span": {
+              "start": 36,
+              "end": 45
+            }
+          },
+          {
+            "en": "altered times",
+            "zh": "更改過的時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 112,
+              "end": 125
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A small detail can invite visitors to linger without forcing them to stay.",
+          "zh": "一個小細節可以吸引訪客駐足，卻不強迫他們留下。"
+        },
+        {
+          "en": "An image can invite visitors to linger; name the details rather than claiming everyone reacts alike.",
+          "zh": "作品可令人願意駐足細看；要指出細節，不要聲稱人人反應相同。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Reviewed source sense, grammar, register, four valid replies, keyed fairness, changed-context writing and target form. Independent review pending."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese reviewed against every learner-facing English sentence; independent review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Provisional source-backed seven-step draft. No human or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3647",
+      "number": 3647,
+      "inventoryId": "expr-3647",
+      "titleEn": "roots and wings",
+      "titleZh": "根基與展翅的能力",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\broots and wings\\b",
+        "glossaryForbidden": [
+          "\\broots and wings\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A paired metaphor for a secure sense of belonging and the freedom or confidence to grow independently.",
+        "meaningZh": "一組比喻：既有安穩歸屬感，也有逐漸獨立探索的自由與信心。",
+        "grammar": "Give someone roots and wings: roots represent support or belonging; wings represent room to try and become independent. The pair is figurative, not botany or flight.",
+        "register": "Warm, reflective family or mentoring language; a youth mentor may discuss support without prescribing one family model.",
+        "boundaryZh": "兩者要並存；有支持不等於替人決定一切，鼓勵獨立亦不等於放任不顧。",
+        "misconceptionZh": "不要把 roots 譯成一定要留在原地，或把 wings 譯成立即斷絕聯繫。",
+        "outcomeZh": "能說明一項支持如何兼顧歸屬與自主選擇。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1536",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 144,
+          "book": 14,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "22–23",
+          "locatorNote": "DOCX table 153, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Good families give children roots and wings as they grow.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "roots and wings"
+        }
+      ],
+      "listening": {
+        "en": "At the workshop, mentors offered regular check-ins while letting teenagers choose their own projects. One organiser called that giving them roots and wings.",
+        "zh": "工作坊導師定期關心青少年，同時讓他們自行選擇項目；一位組織者稱這是給他們「根基與翅膀」。",
+        "promptZh": "roots and wings 各指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Reliable support and room to make independent choices.",
+            "zh": "可靠支援及自行作選擇的空間。"
+          },
+          {
+            "id": "b",
+            "en": "Staying in one place and never trying a new task.",
+            "zh": "留在原地，永不嘗試新任務。"
+          },
+          {
+            "id": "c",
+            "en": "Leaving the group with no contact or support.",
+            "zh": "離開小組後完全沒有聯繫或支援。"
+          },
+          {
+            "id": "d",
+            "en": "Learning about plants and birds as the only workshop topics.",
+            "zh": "工作坊只學植物和鳥類。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "導師既定期關心，又容許自行選擇，正好對應兩個比喻。"
+      },
+      "reply": {
+        "promptZh": "（社團怎樣支援第一年義工，同時不替他們決定一切？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Offer a mentor they can contact and let them choose a suitable role.",
+            "zh": "安排可聯絡的導師，也讓他們選擇合適崗位。"
+          },
+          {
+            "id": "b",
+            "en": "Provide a regular check-in and a choice of duties.",
+            "zh": "定期關心，並提供職務選擇。"
+          },
+          {
+            "id": "c",
+            "en": "Give them roots and wings: steady guidance alongside room to lead a small task.",
+            "zh": "給他們根基與翅膀：穩定指導，同時讓他們有空間帶領小任務。"
+          },
+          {
+            "id": "d",
+            "en": "Explain the available roles, then let them decide which one to try.",
+            "zh": "說明可選崗位，再讓他們決定嘗試哪個。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都結合支援和自主，金句用並列比喻概括兩者。",
+        "promptEn": "How can the club support first-year volunteers without deciding everything for them?"
+      },
+      "scene": {
+        "promptZh": "新學員可以自己選題做短片，並有每週導師會面求助。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The programme offers roots and wings: support when needed and freedom to choose a topic.",
+            "zh": "計劃兼有根基與翅膀：需要時有支援，也能自由選題。"
+          },
+          {
+            "id": "b",
+            "en": "The programme gives freedom by removing every source of guidance.",
+            "zh": "計劃移除一切指導，藉此給予自由。"
+          },
+          {
+            "id": "c",
+            "en": "The mentor chooses every topic, so learners never decide.",
+            "zh": "導師決定每個題目，學員從不選擇。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每週會面和自行選題分別支援歸屬感與自主。"
+      },
+      "contrast": {
+        "promptZh": "哪項安排最不足以同時提供 roots and wings？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A mentor stays available while learners test their own ideas.",
+            "zh": "導師保持可聯絡，學員自行嘗試構思。"
+          },
+          {
+            "id": "b",
+            "en": "Adults control every decision and reject all learner choices.",
+            "zh": "成年人控制每項決定，否決所有學員選擇。"
+          },
+          {
+            "id": "c",
+            "en": "A group provides a place to return while members explore new roles.",
+            "zh": "小組提供可回來的地方，成員同時探索新崗位。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "完全控制只有限制，缺少 wings 所指的自主成長空間。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說「roots and wings」一定表示年輕人應搬離家。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The phrase “roots and wings” is a metaphor for belonging and independence; moving house is not required.",
+            "zh": "這是歸屬感與獨立的比喻，並非一定要搬家。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, the phrase specifies a new address.",
+            "zh": "對，這句指定要有新地址。"
+          },
+          {
+            "id": "c",
+            "en": "It means the young person should never ask for help again.",
+            "zh": "它表示年輕人以後不能再求助。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩個意象談支援與自主，沒有指定居住安排。"
+      },
+      "speaking": {
+        "en": "The makerspace gave learners roots and wings by pairing them with a mentor while allowing them to design their own tools.",
+        "zh": "創客空間安排導師，又容許學員設計自己的工具，讓他們同時有根基與展翅空間。",
+        "promptZh": "先聽示範，再指出哪項是支援，哪項是自主。",
+        "targetSpan": {
+          "start": 29,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區劇團讓初次演出的青年選擇角色，同時安排有經驗演員定期排練指導。用 roots and wings 說明兩方面。",
+        "selfCheckZh": "寫出青年自行選角、經驗演員定期指導，以及兩者如何兼顧自主和支援。",
+        "examples": [
+          {
+            "en": "The youth theatre offers roots and wings: newcomers choose their roles, while experienced actors guide them at regular rehearsals.",
+            "zh": "青年劇團兼顧根基與翅膀：新人自行選角，有經驗演員則在定期排練中指導。"
+          },
+          {
+            "en": "By letting young performers select parts and giving them steady coaching from older actors, the troupe offers roots and wings.",
+            "zh": "劇團讓青年演員自行選角，亦由資深演員持續指導，因此兼顧歸屬與自主成長。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "newcomers choose their roles",
+            "zh": "新人自行選角",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 70
+            }
+          },
+          {
+            "en": "experienced actors",
+            "zh": "有經驗演員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 96
+            }
+          },
+          {
+            "en": "regular rehearsals",
+            "zh": "定期排練",
+            "exampleIndex": 0,
+            "span": {
+              "start": 111,
+              "end": 129
+            }
+          },
+          {
+            "en": "young performers",
+            "zh": "青年演員",
+            "exampleIndex": 1,
+            "span": {
+              "start": 11,
+              "end": 27
+            }
+          },
+          {
+            "en": "steady coaching",
+            "zh": "持續指導",
+            "exampleIndex": 1,
+            "span": {
+              "start": 57,
+              "end": 72
+            }
+          },
+          {
+            "en": "older actors",
+            "zh": "資深演員",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 90
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Roots and wings combine dependable support with room to explore.",
+          "zh": "「根基與翅膀」結合可靠支援與探索空間。"
+        },
+        {
+          "en": "Roots and wings do not prescribe one family arrangement or a sudden break in contact.",
+          "zh": "根基與翅膀這個比喻不指定一種家庭安排，也不要求突然斷絕聯繫。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Reviewed source sense, grammar, register, four valid replies, keyed fairness, changed-context writing and target form. Independent review pending."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese reviewed against every learner-facing English sentence; independent review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Provisional source-backed seven-step draft. No human or release approval."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

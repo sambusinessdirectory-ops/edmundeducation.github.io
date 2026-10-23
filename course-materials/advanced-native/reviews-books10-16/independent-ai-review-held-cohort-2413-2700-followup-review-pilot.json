@@ -1,0 +1,87 @@
+{
+  "reviewType": "Independent AI editorial follow-up; not human approval or release clearance",
+  "reviewedAtUtc": "2026-10-23T18:45:12.523115+00:00",
+  "scope": "Four repaired findings (2513, 2668, 2677, 2700), replacement 2473, and 2663 disposition",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-2413-2505-a.json",
+      "sha256": "c5c0aa55284ef51856a28d0f2c1a5a00d77349557a4ce66f89e3b7378d59c22f",
+      "ordinals": [
+        2413,
+        2467,
+        2505
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-2513-2627-b.json",
+      "sha256": "24c02d808a49571eb130d58706755e11996fbcf168e9b0215124d24e090dcdc6",
+      "ordinals": [
+        2513,
+        2531,
+        2627
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-2668-2700-c.json",
+      "sha256": "81bce9af4c56b4c8151a8b9541f931f22fd52d782776b72deb3ac2544ca194be",
+      "ordinals": [
+        2668,
+        2677,
+        2700
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-2473-replacement-a.json",
+      "sha256": "3efc4145e140d232941ccf96dbfd451975388e94e9db342a2cafa149e1ff0660",
+      "ordinals": [
+        2473
+      ]
+    }
+  ],
+  "originalReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-cohort-2413-2700-review-pilot.json",
+  "findingsFollowup": [
+    {
+      "id": "R2513-01",
+      "status": "resolved",
+      "evidence": "Writing model 2 now uses the stated corrected notice process and applicants seeking written confirmation; no invented apology or signed record. English/Traditional Chinese and glossary spans align."
+    },
+    {
+      "id": "R2668-01",
+      "status": "resolved",
+      "evidence": "Bounded target regex matches base/inflected forms including our, their, young, students’ and children’s before ears and minds, rejects wrong paired nouns; source and assessed target forms still match."
+    },
+    {
+      "id": "R2677-01",
+      "status": "resolved",
+      "evidence": "Writing model 2 now uses only the stated workshop closure, next cast not learning mask-making, and consequent broken transmission. No invented final teacher or purchased masks; bilingual and glossary spans align."
+    },
+    {
+      "id": "R2700-01",
+      "status": "resolved",
+      "evidence": "Four-valid reply now uses patient voting seats in clinic appointment redesign. All four answer choices are supported; the target-bearing golden response is distinct from the source artist-payment policy."
+    },
+    {
+      "id": "R2473-01",
+      "status": "resolved",
+      "evidence": "Speaking now uses a local history society moving from photograph archiving to guided walking tours, distinct from the contrast repair-cooperative/radio/bicycle scenario; target span and Traditional Chinese match."
+    }
+  ],
+  "replacement2473": {
+    "status": "AI content-clear as an unpublished draft",
+    "sourceId": "book10-16-0362",
+    "sourceSentence": "The company is branching out into newer lanes this year.",
+    "sourceFidelity": "The source mixes tree and road images. The draft preserves the exact source for provenance and teaches natural branch out into a new service/area without copying newer lanes into models.",
+    "ownerComparison": "Canonical 1858 assesses personal roots and openness to unfamiliar interests using a longer whole-pattern detector; canonical 543 assesses branching out independently/on one’s own. Lesson 2473 assesses organizational diversification into a different service while retaining the original core. The target construction and learner decision differ.",
+    "quality": "Four reply options are valid and distinct; keyed scene/dialogue are target-bearing; reading/listening/contrast/speaking/writing apply the boundary; English/Traditional Chinese, writing self-check, target span and five answer-derived glossary spans checked. No unresolved content finding."
+  },
+  "held2663": {
+    "status": "not cleared or selected",
+    "reason": "Near same-decision owner collision with selected canonical 2726; A removed the 2663 draft and parent kept the source held."
+  },
+  "checks": {
+    "focusedBuildAndCheck": "four files: 10 lessons, 60 questions, 40 audio requests, 0 review flags",
+    "sourcePatternAndWriting": "2473 and repaired lessons retain full-source and writing-example target coverage",
+    "glossary": "all 2473 and 2513 glossary spans exact; repaired 2677 spans visually checked"
+  },
+  "releaseState": "No human linguistic, media, owner sign-off or live release approval is claimed."
+}

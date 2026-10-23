@@ -1,0 +1,48 @@
+{
+  "type": "AI sense-aware duplicate-owner adjudication and provenance-only merge; no human or release approval",
+  "recordedAtUtc": "2026-10-23T19:02:10.905124+00:00",
+  "owner": "advanced-native-2566",
+  "retiredSeparateLesson": "advanced-native-4533",
+  "sourceEvidence": [
+    {
+      "occurrenceId": "book10-16-0455",
+      "sentence": "Safety concerns enter the picture once children travel alone.",
+      "ownerTargetMatches": true
+    },
+    {
+      "occurrenceId": "book10-16-2422",
+      "sentence": "Ride-hailing services have entered the picture.",
+      "ownerTargetMatches": true
+    }
+  ],
+  "decision": "The two source examples and lesson briefs teach the same learner decision: a new factor becomes relevant or influential in an existing situation. Retain 2566 as the single owner and route source 4533 to it as a proposed-alias-new. No distinct sense supports a second exercise.",
+  "rootIndependentOwnerAdjudication": "The parent agent independently reached this same-sense decision before authorizing the merge. This report is AI evidence, not a human linguistic sign-off.",
+  "implementation": {
+    "sourceOnlyOwnerChange": true,
+    "ownerTeachingHashExcludingSourcesUnchanged": "d44aa1ca7529bb96b95c1d7ccd83c769cacf3679f7334a3bb568d19e1d92b685",
+    "ownerAudioTextsHashUnchanged": true,
+    "retainedSevenLessonObjectHashesUnchanged": true,
+    "originalEightLessonBatchRetainedUnselected": true,
+    "selectedManifestSha256": "2f613dc09cec85354b2ab39afb1fbefe44917712c7ba1474a9451a12e040921e",
+    "ownerBatchSha256": "b047f60577495a7d9c2a1301003ff2ad6309bd641a9c97eb78654e037cf3403d",
+    "selectedSevenBatchSha256": "44d7ac30404a4786726e33059cd9b7f55137a1b3dbccb110a0b58608563fc05e",
+    "decisionFileSha256": "45a98943e734077642b90a1893e965784b4e5d2a0515be41340336a5d6e9c5a6",
+    "detailedHashProofPath": "../release-prep-582/owner-merge-4533-into-2566-proof.json",
+    "detailedHashProofSha256": "490853410827e12288434d4e4031b9fa6a886c0654bbb2c4766b2b0e44b51b18"
+  },
+  "verification": {
+    "sourceRows": 2604,
+    "selectedNewLessons": 581,
+    "assessedQuestions": 3486,
+    "audioRoles": 2324,
+    "proposedAliasNew": 161,
+    "matchedDrafts": 161,
+    "existingAliasMatches": 1113,
+    "wholeCatalogueSchemaErrors": 0,
+    "exactGuideSentenceCopies": 0,
+    "pilotNearDuplicateFlags": 0,
+    "published": false,
+    "releaseApproved": false
+  },
+  "sqlImpact": "The earlier 582-lesson assessment SQL preview is obsolete and must be regenerated from the corrected 581-lesson manifest plus 101 changed canonicals."
+}

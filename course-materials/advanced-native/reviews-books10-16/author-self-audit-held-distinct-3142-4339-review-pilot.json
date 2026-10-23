@@ -1,0 +1,294 @@
+{
+  "kind": "AI-author-self-audit",
+  "timestampUtc": "2026-10-23T18:28:19.516473+00:00",
+  "reviewStatus": "provisional; independent AI editorial and human owner/release gates open",
+  "batchFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3142-3647-review-pilot.json",
+      "sha256": "eb9ebe3e3118291c28a6715436d6f0b9c2459fef5036515b36fb0a3b01c9b9e5",
+      "lessons": 5
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3726-4339-review-pilot.json",
+      "sha256": "14e30e2340585c138f10dd22bb71f2d3903c5dd925672c30f3805b096e1ec1f7",
+      "lessons": 5
+    }
+  ],
+  "counts": {
+    "lessons": 10,
+    "questions": 60,
+    "audioRoles": 40,
+    "writingExamples": 20,
+    "glossaryEntries": 60,
+    "rawSixTokenSourceOverlaps": 17,
+    "nonTargetSixTokenSourceOverlapsAfterTargetMask": 0
+  },
+  "checks": {
+    "uniqueIdsAndUnselected": true,
+    "sourceSentenceExact": true,
+    "sourceDecisionsRemainHeld": true,
+    "sevenStepsSixQuestions": true,
+    "fourReplyOptions": true,
+    "targetInSourceAndRequiredFields": true,
+    "twoWritingModels": true,
+    "glossaryExactSpansNoTarget": true,
+    "targetBearingTakeaways": true,
+    "focusedBuildAndCheck": "Both batches: 5 lessons, 30 questions, 20 audio requests, 0 review flags",
+    "fullSourceOriginalityScreen": "All 2604 source examples; zero non-target six-token windows after target masking. Raw overlaps are target/form windows only."
+  },
+  "sourceOwnerReview": [
+    {
+      "sourceOrdinal": 3142,
+      "sourceId": "book10-16-1031",
+      "sourceSentence": "The room became quiet at once.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3132-3191.jsonl",
+      "decisionFileSha256": "5163d741a2f460e937fd843597c7266e7ed9dcfe1cd8c2318b1002e07d4f3c84",
+      "lessonId": "advanced-native-3142",
+      "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3142-3647-review-pilot.json",
+      "ownerRisk": "Same exact lexical detector as canonical 048. Distinct immediate-after-trigger sense versus simultaneous-actions sense, but routing/owner-scope sign-off is required; do not select on AI author judgment alone."
+    },
+    {
+      "sourceOrdinal": 3308,
+      "sourceId": "book10-16-1197",
+      "sourceSentence": "Even careful planners know life does not always follow a script.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionFileSha256": "9d932d286dadbdea2a243d782bfffdc2b1dec33f534fc8026c5c6bc5849893c0",
+      "lessonId": "advanced-native-3308",
+      "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3142-3647-review-pilot.json",
+      "ownerRisk": "Canonical 711 teaches social-role follow a script, while source uses life-event unpredictability. Narrow subject/negative pattern drafted; semantic owner distinction still needs independent review."
+    },
+    {
+      "sourceOrdinal": 3394,
+      "sourceId": "book10-16-1283",
+      "sourceSentence": "Visitors can pick up a postcard at the market.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl",
+      "decisionFileSha256": "509ee534f0c07ed2ac89d3b771739613c9700ef99a023371f35a38305ff92fb4",
+      "lessonId": "advanced-native-3394",
+      "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3142-3647-review-pilot.json",
+      "ownerRisk": "Canonical 441 pick up teaches informal skill acquisition and has a broad detector that also matches this object-acquisition source. Distinct sense, but owner detector must be reconciled before selection."
+    },
+    {
+      "sourceOrdinal": 3505,
+      "sourceId": "book10-16-1394",
+      "sourceSentence": "A long essay invites you to linger over the details.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl",
+      "decisionFileSha256": "bbc26807f954eed1e559d8596d58867648009b4fa9d18c7456314f9d26c7865e",
+      "lessonId": "advanced-native-3505",
+      "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3142-3647-review-pilot.json",
+      "ownerRisk": "Source figurative artwork invitation; target narrowed to invite + recipient + to linger. Verify this is teachable rather than one-off poetic personification."
+    },
+    {
+      "sourceOrdinal": 3647,
+      "sourceId": "book10-16-1536",
+      "sourceSentence": "Good families give children roots and wings as they grow.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl",
+      "decisionFileSha256": "2395a2e575d347db4d8d46fb2a8a8f4c9aa6f3af14b5639f5508d6651cf0133f",
+      "lessonId": "advanced-native-3647",
+      "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3142-3647-review-pilot.json",
+      "ownerRisk": "Paired roots-and-wings metaphor; verify reusable learner decision and Chinese fidelity beyond family source context."
+    },
+    {
+      "sourceOrdinal": 3726,
+      "sourceId": "book10-16-1615",
+      "sourceSentence": "The diagnosis is no longer a death sentence.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl",
+      "decisionFileSha256": "25cac9f9945aea4c2581e2a7c502d405db30438677623c1c1c0145cdf79f1acb",
+      "lessonId": "advanced-native-3726",
+      "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3726-4339-review-pilot.json",
+      "ownerRisk": "Medical-source death-sentence metaphor transferred to institutional setbacks; verify seriousness and no success guarantee."
+    },
+    {
+      "sourceOrdinal": 3788,
+      "sourceId": "book10-16-1677",
+      "sourceSentence": "Brand choices may reflect the image they want to project.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl",
+      "decisionFileSha256": "3c299ffc4a2b0c1a2911c8fcf4be4a2f1e9489f8bcfbe8353eed119cf546ff5e",
+      "lessonId": "advanced-native-3788",
+      "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3726-4339-review-pilot.json",
+      "ownerRisk": "The image a group wants to project denotes intended impression, distinct from actual audience response; verify scope versus other presentation metaphors."
+    },
+    {
+      "sourceOrdinal": 3841,
+      "sourceId": "book10-16-1730",
+      "sourceSentence": "Good education can support upward mobility.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl",
+      "decisionFileSha256": "9f20d831234001f53ad66fcb60e00fc2727680f83544aed4724166612b7859e7",
+      "lessonId": "advanced-native-3841",
+      "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3726-4339-review-pilot.json",
+      "ownerRisk": "Established social/economic mobility term; avoid guaranteed-outcome implication."
+    },
+    {
+      "sourceOrdinal": 4147,
+      "sourceId": "book10-16-2036",
+      "sourceSentence": "A phone alert is like tying a string around your finger.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl",
+      "decisionFileSha256": "0326179a32460bdcbbba25a448741b74ef5c41b282c86dae0c7f8ba2eab562e2",
+      "lessonId": "advanced-native-4147",
+      "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3726-4339-review-pilot.json",
+      "ownerRisk": "Reminder simile; source explicitly compares phone alert with finger string. Verify no literal-string requirement or completed-task implication."
+    },
+    {
+      "sourceOrdinal": 4339,
+      "sourceId": "book10-16-2228",
+      "sourceSentence": "Emotional nuance may get lost along the way.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4332-4391.jsonl",
+      "decisionFileSha256": "6dabaa3704f3a200e46d8d3c506692684e1cfab12ed346a4088433541532fba4",
+      "lessonId": "advanced-native-4339",
+      "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3726-4339-review-pilot.json",
+      "ownerRisk": "Information nuance lost in transfer; distinguish figurative omission from literal route loss."
+    }
+  ],
+  "rawOverlapExamples": [
+    {
+      "lesson": 3308,
+      "field": "speaking.en",
+      "window": "life does not always follow a",
+      "sourceIds": [
+        "book10-16-1197"
+      ]
+    },
+    {
+      "lesson": 3308,
+      "field": "speaking.en",
+      "window": "does not always follow a script",
+      "sourceIds": [
+        "book10-16-1197"
+      ]
+    },
+    {
+      "lesson": 3308,
+      "field": "dialogue.a.en",
+      "window": "life does not always follow a",
+      "sourceIds": [
+        "book10-16-1197"
+      ]
+    },
+    {
+      "lesson": 3308,
+      "field": "dialogue.a.en",
+      "window": "does not always follow a script",
+      "sourceIds": [
+        "book10-16-1197"
+      ]
+    },
+    {
+      "lesson": 3308,
+      "field": "writing.examples[1].en",
+      "window": "life does not always follow a",
+      "sourceIds": [
+        "book10-16-1197"
+      ]
+    },
+    {
+      "lesson": 3308,
+      "field": "writing.examples[1].en",
+      "window": "does not always follow a script",
+      "sourceIds": [
+        "book10-16-1197"
+      ]
+    },
+    {
+      "lesson": 3308,
+      "field": "takeaways[0].en",
+      "window": "life does not always follow a",
+      "sourceIds": [
+        "book10-16-1197"
+      ]
+    },
+    {
+      "lesson": 3308,
+      "field": "takeaways[0].en",
+      "window": "does not always follow a script",
+      "sourceIds": [
+        "book10-16-1197"
+      ]
+    },
+    {
+      "lesson": 3788,
+      "field": "dialogue.a.en",
+      "window": "the image they want to project",
+      "sourceIds": [
+        "book10-16-1677"
+      ]
+    },
+    {
+      "lesson": 4147,
+      "field": "listening.en",
+      "window": "tying a string around your finger",
+      "sourceIds": [
+        "book10-16-2036"
+      ]
+    },
+    {
+      "lesson": 4147,
+      "field": "speaking.en",
+      "window": "tying a string around your finger",
+      "sourceIds": [
+        "book10-16-2036"
+      ]
+    },
+    {
+      "lesson": 4147,
+      "field": "scene.a.en",
+      "window": "tying a string around your finger",
+      "sourceIds": [
+        "book10-16-2036"
+      ]
+    },
+    {
+      "lesson": 4147,
+      "field": "dialogue.a.en",
+      "window": "tying a string around your finger",
+      "sourceIds": [
+        "book10-16-2036"
+      ]
+    },
+    {
+      "lesson": 4147,
+      "field": "writing.examples[0].en",
+      "window": "tying a string around your finger",
+      "sourceIds": [
+        "book10-16-2036"
+      ]
+    },
+    {
+      "lesson": 4147,
+      "field": "writing.examples[1].en",
+      "window": "tying a string around your finger",
+      "sourceIds": [
+        "book10-16-2036"
+      ]
+    },
+    {
+      "lesson": 4147,
+      "field": "takeaways[0].en",
+      "window": "tying a string around your finger",
+      "sourceIds": [
+        "book10-16-2036"
+      ]
+    },
+    {
+      "lesson": 4147,
+      "field": "takeaways[1].en",
+      "window": "tying a string around your finger",
+      "sourceIds": [
+        "book10-16-2036"
+      ]
+    }
+  ],
+  "limitations": [
+    "AI author self-review is not independent editorial approval or human approval.",
+    "3142, 3308 and 3394 require explicit owner/detector reconciliation before any selection.",
+    "No decisions, selected manifest, audio publication or release state were changed."
+  ]
+}

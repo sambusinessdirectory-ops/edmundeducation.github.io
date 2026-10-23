@@ -2880,12 +2880,12 @@
       "id": "advanced-native-1965",
       "number": 1965,
       "inventoryId": "expr-1965",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "putting up guardrails",
       "titleZh": "設立保護性的界限",
       "category": "figurative",
       "target": {
-        "pattern": "\\bput(?:ting)? up guardrails\\b"
+        "pattern": "\\bput(?:ting)? up guardrails\\b|\\b(?:act|acts|acting|acted) as guardrails\\b"
       },
       "sources": [
         {
@@ -2901,13 +2901,27 @@
           "sentence": "Parents can start by putting up guardrails online.",
           "referenceSentenceKind": "guide_original_example",
           "locatorNote": "Actual PDF page246, table2, row4; unreported locators remain null."
+        },
+        {
+          "occurrenceId": "book10-16-0528",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 48,
+          "book": 11,
+          "question": 8,
+          "sample": "S2",
+          "sourceBookPages": "19–21",
+          "locatorNote": "DOCX table 44, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Parents can act as guardrails without controlling every decision.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "act as guardrails"
         }
       ],
       "brief": {
         "meaningEn": "Create practical boundaries intended to reduce risk while leaving some room to act.",
         "meaningZh": "設立實際界限，旨在減低風險，同時保留一些行動空間。",
-        "grammar": "put/putting up guardrails around an activity; guardrails are figurative limits or safeguards. Name what the boundary does and how people know it; it does not guarantee that nothing can go wrong.",
-        "register": "A productive protective-barrier metaphor, common in discussion of processes and access. The specific fair or useful limits depend on the task and people; the phrase does not approve every rule.",
+        "grammar": "put/putting up guardrails around an activity describes creating safeguards; people, rules or arrangements can also act as guardrails by limiting risk while leaving choices. Name what the boundary does and how people know it; it does not guarantee nothing can go wrong.",
+        "register": "A parent explaining boundaries to another adult, or a coordinator discussing safeguards with volunteers, can use this neutral protective-barrier metaphor. The fairness of a particular limit still depends on the people and task.",
         "boundaryZh": "保護界限與全面禁止不同，也不表示任何規則都有用；要交代風險、範圍及實際作用。",
         "misconceptionZh": "不要只因寫了規則，就說人人已理解或所有問題已防止；也不把需要調整當成完全不應有界限。",
         "outcomeZh": "能提出與具體風險相連的清楚限制，並安排了解及檢視。"
@@ -3115,8 +3129,8 @@
           "zh": "小組界定試行時段，並問每位參與者安排帶來甚麼影響，藉此設立保護界限。"
         },
         {
-          "en": "They put up guardrails for the shared draft without preventing contributors from suggesting a different ending.",
-          "zh": "他們為共用草稿設立保護界限，同時沒有阻止提供者建議另一個結尾。"
+          "en": "Clear handover notes act as guardrails for volunteers handling borrowed equipment without dictating each choice.",
+          "zh": "清楚的交接紀錄為處理借用器材的義工提供保護界限，同時不規定每一個選擇。"
         }
       ],
       "review": {

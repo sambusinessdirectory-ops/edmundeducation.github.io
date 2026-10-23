@@ -1,0 +1,1118 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-held-reviewed-3726-4147-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3726",
+      "number": 3726,
+      "inventoryId": "expr-3726",
+      "titleEn": "a death sentence (figurative)",
+      "titleZh": "猶如判了死刑；難以挽回的結局",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:a|the) death sentence\\b",
+        "glossaryForbidden": [
+          "\\b(?:a|the) death sentence\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A seemingly final threat to survival or continuation; in a negative sentence, a serious setback need not mean an inevitable end.",
+        "meaningZh": "比喻一項看似會令事物終結的嚴重威脅；否定句指出挫折未必等於無可挽回。",
+        "grammar": "Be a death sentence for + person, project or institution; not a death sentence means a serious problem does not make the end inevitable. Literal judicial and medical uses require separate factual context.",
+        "register": "Strong, potentially sensitive idiom; use carefully and avoid treating a real medical prognosis as settled by a language example.",
+        "boundaryZh": "「不是死刑判決」不表示已完全安全，只表示不應把結局說成必然。",
+        "misconceptionZh": "不要把比喻當成法律判刑或醫療保證，也不要因有補救途徑便輕視問題。",
+        "outcomeZh": "能辨別嚴重風險與必然終結，並在比喻語境提出具體下一步。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1615",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 152,
+          "book": 14,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "39–40",
+          "locatorNote": "DOCX table 161, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The diagnosis is no longer a death sentence.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a death sentence"
+        }
+      ],
+      "listening": {
+        "en": "The library lost its largest donation, but smaller pledges and a new fundraising date remain. The loss is not a death sentence for the library.",
+        "zh": "圖書館失去最大一筆捐款，但仍有較小的捐款承諾和新的籌款日期；這次損失未必令圖書館注定關閉。",
+        "promptZh": "not a death sentence 在此強調甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The setback is serious but need not end the library.",
+            "zh": "挫折嚴重，但未必令圖書館結束營運。"
+          },
+          {
+            "id": "b",
+            "en": "The library has no money worries at all.",
+            "zh": "圖書館完全沒有資金問題。"
+          },
+          {
+            "id": "c",
+            "en": "A court has sentenced someone to death.",
+            "zh": "法院已判某人死刑。"
+          },
+          {
+            "id": "d",
+            "en": "The next fundraising event is guaranteed to succeed.",
+            "zh": "下次籌款必然成功。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "仍有其他資金途徑，所以不能把損失說成必然結束；也沒有成功保證。"
+      },
+      "reply": {
+        "promptZh": "（劇院失去一名贊助者，秋季戲劇還能上演嗎？另一名贊助者下週才決定，門票仍在發售。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is a serious gap, but the theatre can check the other funding and ticket income first.",
+            "zh": "資金缺口嚴重，但劇院可先核對其他贊助及票房。"
+          },
+          {
+            "id": "b",
+            "en": "We should review the budget before deciding whether the play can proceed.",
+            "zh": "決定能否演出前，應檢視預算。"
+          },
+          {
+            "id": "c",
+            "en": "The lost sponsor is not necessarily a death sentence for the play; the budget still needs checking.",
+            "zh": "失去贊助未必就注定演出告吹；仍需核對預算。"
+          },
+          {
+            "id": "d",
+            "en": "Let us wait for next week’s decision and calculate the remaining gap.",
+            "zh": "等下週決定，同時計算剩餘缺口。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都承認缺口且保留核對；金句拒絕過早斷言必然取消。",
+        "promptEn": "The theatre lost a sponsor. Can it still stage the autumn play? Another sponsor will decide next week, and ticket sales are open."
+      },
+      "scene": {
+        "promptZh": "青年報社失去印刷補貼，但可改用網上發佈，編輯仍在計算成本。哪句準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The loss is not automatically a death sentence for the paper, though its new costs must be checked.",
+            "zh": "失去補貼未必令報社注定結束，但仍要核對新成本。"
+          },
+          {
+            "id": "b",
+            "en": "The paper has solved every cost problem already.",
+            "zh": "報社已解決所有成本問題。"
+          },
+          {
+            "id": "c",
+            "en": "A judge issued a sentence against the editors.",
+            "zh": "法官已判編輯有罪。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "網上發佈提供可能途徑，但新成本仍需確認。"
+      },
+      "contrast": {
+        "promptZh": "哪句把比喻推得太遠？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A serious setback may have alternatives worth examining.",
+            "zh": "嚴重挫折仍可能有值得探討的替代方法。"
+          },
+          {
+            "id": "b",
+            "en": "Because it is not a death sentence, the project is guaranteed to succeed.",
+            "zh": "既然不是注定結束，項目就保證成功。"
+          },
+          {
+            "id": "c",
+            "en": "A warning can be severe without proving an inevitable ending.",
+            "zh": "警告可以嚴重，卻不證明結局必然。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "否定「必然終結」不等於保證成功。"
+      },
+      "dialogue": {
+        "promptZh": "朋友把「The failed bid is not a death sentence」理解成有人真的被法院判刑。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Here, “not a death sentence” is a figurative way to say the project may still continue despite the failed bid.",
+            "zh": "這裏是比喻投標失敗後項目仍可能繼續。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, every failed bid leads to a court sentence.",
+            "zh": "對，每次投標失敗都會導致法院判刑。"
+          },
+          {
+            "id": "c",
+            "en": "It means the bid succeeded after all.",
+            "zh": "它表示投標其實成功。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "語境談項目前景，並非司法判決，也沒有把失敗改成成功。"
+      },
+      "speaking": {
+        "en": "The cancelled exhibition slot was not a death sentence for the project; the artists found a second venue and still had to confirm its costs.",
+        "zh": "展覽檔期取消並未令項目注定結束；藝術家找到第二個場地，但仍須確認費用。",
+        "promptZh": "先聽示範，再指出哪項機會仍在、哪項未確認。",
+        "targetSpan": {
+          "start": 34,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區花園原本的土地租約到期，鄰近學校願意商討新地點，但尚未簽約。用比喻描述風險和可能性，不要保證遷址成功。",
+        "selfCheckZh": "寫出舊租約到期、新地點仍在商談，以及沒有成功保證。",
+        "examples": [
+          {
+            "en": "The expired lease is not a death sentence for the community garden: a nearby school is discussing a new site, but no agreement has been signed.",
+            "zh": "舊租約到期未必令社區花園注定結束：附近學校正商談新地點，但尚未簽約。"
+          },
+          {
+            "en": "Losing the old plot could be severe, yet it need not be a death sentence for the garden while talks with a nearby school continue without a signed deal.",
+            "zh": "失去舊地塊可能很嚴重，但附近學校仍在商談、尚未簽約時，也不應斷定花園必然結束。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "expired lease",
+            "zh": "到期的租約",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 17
+            }
+          },
+          {
+            "en": "nearby school",
+            "zh": "附近學校",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 83
+            }
+          },
+          {
+            "en": "no agreement has been signed",
+            "zh": "尚未簽約",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 142
+            }
+          },
+          {
+            "en": "the old plot",
+            "zh": "舊地塊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 7,
+              "end": 19
+            }
+          },
+          {
+            "en": "talks with a nearby school",
+            "zh": "與附近學校商談",
+            "exampleIndex": 1,
+            "span": {
+              "start": 94,
+              "end": 120
+            }
+          },
+          {
+            "en": "a signed deal",
+            "zh": "已簽署的協議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 138,
+              "end": 151
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A setback need not be a death sentence if a credible next option remains.",
+          "zh": "若仍有可信的下一步，挫折未必代表注定結束。"
+        },
+        {
+          "en": "Not a death sentence is strong; separate a possible future from a guaranteed outcome.",
+          "zh": "not a death sentence 語氣強烈；要分清仍有可能與保證成功。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Reviewed source sense, grammar, register, four valid replies, keyed fairness, changed-context writing and target form. Independent review pending."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese reviewed against every learner-facing English sentence; independent review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Provisional source-backed seven-step draft. No human or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3788",
+      "number": 3788,
+      "inventoryId": "expr-3788",
+      "titleEn": "project an image",
+      "titleZh": "塑造對外形象",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:project|projects|projected|projecting) (?:an?|the) image\\b|\\bimage (?:they|we|you|he|she|it) (?:want|wants|wanted) to project\\b",
+        "glossaryForbidden": [
+          "\\b(?:project|projects|projected|projecting) (?:an?|the) image\\b|\\bimage (?:they|we|you|he|she|it) (?:want|wants|wanted) to project\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Present a particular impression of oneself, a group or a place to others; the impression may differ from reality.",
+        "meaningZh": "向他人呈現自己、團體或地方的某種形象；所呈現的印象未必等同實情。",
+        "grammar": "Project an image of + quality; the image they want to project. Project is transitive here and refers to a public impression, not a film projector.",
+        "register": "Neutral media and public-communication language; an organiser may describe the impression a poster aims for while checking whether actions support it.",
+        "boundaryZh": "想呈現某形象不等於已達成，也不證明形象與實際一致。",
+        "misconceptionZh": "不要把 project 只看成投影機動作，或把宣傳圖像當成真實行動證據。",
+        "outcomeZh": "能區分想傳達的形象、觀眾實際感受與可核對的行動。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1677",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 158,
+          "book": 14,
+          "question": 24,
+          "sample": "S2",
+          "sourceBookPages": "53–54",
+          "locatorNote": "DOCX table 168, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Brand choices may reflect the image they want to project.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the image they want to project"
+        }
+      ],
+      "listening": {
+        "en": "The repair café used photos of neighbours fixing old radios to project an image of practical cooperation. Organisers still surveyed visitors to see whether the message came across.",
+        "zh": "維修咖啡館用鄰居修理舊收音機的照片塑造實際合作的形象；組織者仍調查訪客有否接收到訊息。",
+        "promptZh": "project an image 在此指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The photos aim to create a public impression of cooperation.",
+            "zh": "照片旨在建立合作的對外印象。"
+          },
+          {
+            "id": "b",
+            "en": "The photos prove every visitor repaired a radio.",
+            "zh": "照片證明每位訪客都修好收音機。"
+          },
+          {
+            "id": "c",
+            "en": "A projector displayed a moving film during the event.",
+            "zh": "活動期間投影機播放影片。"
+          },
+          {
+            "id": "d",
+            "en": "The survey has already shown that everybody agrees.",
+            "zh": "調查已顯示人人都同意。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "照片意在呈現形象，並不自行證明所有訪客的行動或調查結果。"
+      },
+      "reply": {
+        "promptZh": "（社區清潔活動海報該傳達甚麼印象？我們希望人們覺得活動歡迎新人，義工也會現場引導。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Show people helping first-time volunteers and mention the guides.",
+            "zh": "展示有人協助新義工，並寫明引導安排。"
+          },
+          {
+            "id": "b",
+            "en": "Use photos of mixed-age volunteers and explain how beginners can join.",
+            "zh": "用不同年齡義工的照片，並說明新人如何參與。"
+          },
+          {
+            "id": "c",
+            "en": "Let us project an image of a welcoming event, supported by the actual guide team.",
+            "zh": "我們塑造歡迎新人的形象，並以實際引導團隊配合。"
+          },
+          {
+            "id": "d",
+            "en": "Put the volunteer guidance details beside the picture.",
+            "zh": "把義工引導資料放在圖片旁。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都同時顧及對外印象與實際安排；金句指出形象應有行動支持。",
+        "promptEn": "What impression should our neighbourhood clean-up poster convey? We want people to see it as welcoming, and volunteers will be there to guide first-timers."
+      },
+      "scene": {
+        "promptZh": "某書店廣告主打寧靜閱讀空間，但顧客反映現場持續播放大聲音樂。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shop projects an image of quiet reading, but the reported noise may conflict with it.",
+            "zh": "書店塑造安靜閱讀的形象，但據報的噪音可能與之不符。"
+          },
+          {
+            "id": "b",
+            "en": "The advertisement proves the shop is always quiet.",
+            "zh": "廣告證明書店一直安靜。"
+          },
+          {
+            "id": "c",
+            "en": "The customers are definitely wrong because a poster exists.",
+            "zh": "既然有海報，顧客肯定錯了。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "廣告呈現的是意圖，需與實際體驗對照。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以證明「想投射的形象」已成為事實？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Independent visitors describe the same experience repeatedly.",
+            "zh": "多名獨立訪客反覆描述相同體驗。"
+          },
+          {
+            "id": "b",
+            "en": "A poster alone calls the service reliable, with no service data yet.",
+            "zh": "只有海報稱服務可靠，尚無服務資料。"
+          },
+          {
+            "id": "c",
+            "en": "A public schedule and attendance records support the claim.",
+            "zh": "公開時間表及出席紀錄支持說法。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "單靠宣傳文字只見意圖，尚未有獨立證據。"
+      },
+      "dialogue": {
+        "promptZh": "同學把「the image they want to project」解作已知所有人都接受這個形象。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The image they want to project names the impression they hope to present; audience response still needs checking.",
+            "zh": "它指他們希望呈現的印象，觀眾反應仍需核對。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, wishing to project an image guarantees that people believe it.",
+            "zh": "對，想塑造形象就保證人人相信。"
+          },
+          {
+            "id": "c",
+            "en": "It refers only to a beam from a projector.",
+            "zh": "它只指投影機發出的光束。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "想呈現與已被接受不同。"
+      },
+      "speaking": {
+        "en": "The volunteer team projected an image of openness by publishing its meeting times, then invited newcomers to report whether joining felt easy.",
+        "zh": "義工隊公開會議時間，塑造開放形象，並邀請新人回報加入過程是否容易。",
+        "promptZh": "先聽示範，再說明哪項是對外形象、哪項是核對方法。",
+        "targetSpan": {
+          "start": 19,
+          "end": 37
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區樂團的宣傳照顯示各年齡層成員，但報名表尚未公開。用 project an image 描述形象，並保留實際招募是否開放的疑問。",
+        "selfCheckZh": "寫出宣傳照呈現跨年齡形象、報名表未公開，不能保證實際招募已開放。",
+        "examples": [
+          {
+            "en": "The orchestra projects an image of all-age participation in its photos, but its application form is not public yet, so access still needs checking.",
+            "zh": "樂團的照片塑造各年齡層參與的形象，但報名表尚未公開，實際報名途徑仍需核對。"
+          },
+          {
+            "en": "Photos of older and younger players project an image of inclusion; because the registration details have not been released, that impression is not yet proof of open entry.",
+            "zh": "年長及年輕樂手的照片塑造共融形象；由於報名資料尚未公布，這印象暫未能證明人人可報名。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "all-age participation",
+            "zh": "各年齡層參與",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 56
+            }
+          },
+          {
+            "en": "application form",
+            "zh": "報名表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 96
+            }
+          },
+          {
+            "en": "access still needs checking",
+            "zh": "仍需核對實際途徑",
+            "exampleIndex": 0,
+            "span": {
+              "start": 119,
+              "end": 146
+            }
+          },
+          {
+            "en": "older and younger players",
+            "zh": "年長及年輕樂手",
+            "exampleIndex": 1,
+            "span": {
+              "start": 10,
+              "end": 35
+            }
+          },
+          {
+            "en": "registration details",
+            "zh": "報名資料",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 99
+            }
+          },
+          {
+            "en": "proof of open entry",
+            "zh": "開放報名的證明",
+            "exampleIndex": 1,
+            "span": {
+              "start": 151,
+              "end": 170
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A poster can project an image, but real experiences test whether it fits.",
+          "zh": "海報可塑造形象，實際體驗才能檢視是否貼切。"
+        },
+        {
+          "en": "A group may project an image that differs from what its actions establish.",
+          "zh": "團體想塑造的形象可能有別於其行動所證明的事。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Reviewed source sense, grammar, register, four valid replies, keyed fairness, changed-context writing and target form. Independent review pending."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese reviewed against every learner-facing English sentence; independent review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Provisional source-backed seven-step draft. No human or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3841",
+      "number": 3841,
+      "inventoryId": "expr-3841",
+      "titleEn": "upward mobility",
+      "titleZh": "向上流動",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bupward mobility\\b",
+        "glossaryForbidden": [
+          "\\bupward mobility\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Improved social or economic position over time, often through access to work, education or other opportunities.",
+        "meaningZh": "個人或家庭隨時間改善社會或經濟處境，往往與工作、教育等機會有關。",
+        "grammar": "Support/enable upward mobility; upward modifies mobility. The phrase concerns movement between positions or prospects, not a lift physically moving upwards.",
+        "register": "Formal social-policy and education discussion; a careers adviser may discuss access without promising every learner the same outcome.",
+        "boundaryZh": "有機會不等於保證升職或增薪；仍須看成本、可及性與實際結果。",
+        "misconceptionZh": "不要把 upward 當成乘升降機，也不要把單一成功故事當成人人可複製的證明。",
+        "outcomeZh": "能用具體門檻與機會討論向上流動，避免過度承諾。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1730",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 163,
+          "book": 14,
+          "question": 30,
+          "sample": "S1",
+          "sourceBookPages": "66–67",
+          "locatorNote": "DOCX table 174, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Good education can support upward mobility.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "upward mobility"
+        }
+      ],
+      "listening": {
+        "en": "A regional training scheme offers evening classes and travel grants, making better-paid jobs more accessible to workers who cannot leave daytime work. It aims to support upward mobility.",
+        "zh": "一項地區培訓計劃提供夜間課程和交通津貼，讓不能在白天離職的工人較易接觸薪酬較高的工作；計劃旨在支持向上流動。",
+        "promptZh": "upward mobility 在此指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "More people may gain access to better economic prospects.",
+            "zh": "更多人可能有機會改善經濟前景。"
+          },
+          {
+            "id": "b",
+            "en": "The classroom is on a higher floor.",
+            "zh": "課室位於較高樓層。"
+          },
+          {
+            "id": "c",
+            "en": "Every participant has already received a promotion.",
+            "zh": "每位參加者都已獲升職。"
+          },
+          {
+            "id": "d",
+            "en": "The scheme requires all workers to quit their jobs.",
+            "zh": "計劃要求所有工人辭職。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "夜課與交通津貼降低參與門檻，但只說可能改善前景，沒有保證結果。"
+      },
+      "reply": {
+        "promptZh": "（學徒計劃有名額，但部分申請人負擔不起火車費。怎樣令機會更易參與？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A travel grant could help eligible applicants attend the training.",
+            "zh": "交通津貼可幫合資格申請人出席培訓。"
+          },
+          {
+            "id": "b",
+            "en": "We could publish the timetable and discuss transport support.",
+            "zh": "我們可公布時間表並商討交通支援。"
+          },
+          {
+            "id": "c",
+            "en": "If we want upward mobility to be possible, we should address the fare barrier as well as offer places.",
+            "zh": "若想讓向上流動成為可能，除提供名額外也要處理車費門檻。"
+          },
+          {
+            "id": "d",
+            "en": "Let us ask applicants which travel costs prevent them from joining.",
+            "zh": "讓我們詢問申請人哪些交通費阻礙參與。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都處理真實門檻；金句連結改善機會與可及性。",
+        "promptEn": "Our apprenticeship programme has places, but some applicants cannot afford the train fare. What could make the opportunity more accessible?"
+      },
+      "scene": {
+        "promptZh": "一項實習設有導師和薪金，但未有長期聘用承諾。哪句準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It may support upward mobility by building experience, but a permanent job is not guaranteed.",
+            "zh": "它可累積經驗，有助向上流動，但不保證長期職位。"
+          },
+          {
+            "id": "b",
+            "en": "It guarantees every trainee a permanent promotion.",
+            "zh": "它保證每位實習生永久升職。"
+          },
+          {
+            "id": "c",
+            "en": "It only means the office lift moves upward.",
+            "zh": "它只表示辦公室升降機向上行。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "導師與薪金提供機會，卻未構成長期聘用保證。"
+      },
+      "contrast": {
+        "promptZh": "哪項說法過度推斷 upward mobility？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Access to training can improve prospects for some people.",
+            "zh": "參與培訓可改善部分人的前景。"
+          },
+          {
+            "id": "b",
+            "en": "One graduate’s success proves that every applicant faces no barriers.",
+            "zh": "一名畢業生成功，證明所有申請人都沒有門檻。"
+          },
+          {
+            "id": "c",
+            "en": "Transport and time costs may affect access to opportunities.",
+            "zh": "交通與時間成本可能影響機會可及性。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "個案不能證明所有人有相同機會。"
+      },
+      "dialogue": {
+        "promptZh": "同學說「upward mobility」只需要把培訓課室搬上一層。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Upward mobility concerns improving social or economic prospects, not moving the classroom upstairs.",
+            "zh": "它關乎改善社會或經濟前景，並非把課室搬到樓上。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, the lift determines everyone’s future earnings.",
+            "zh": "對，升降機決定人人將來收入。"
+          },
+          {
+            "id": "c",
+            "en": "It means all training is free already.",
+            "zh": "它表示所有培訓都已免費。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "這是社會經濟位置的比喻用語，不是建築物移動。"
+      },
+      "speaking": {
+        "en": "Affordable evening courses can support upward mobility when people can attend them without losing their daytime income.",
+        "zh": "若人們能在不失去日間收入下上課，負擔得起的夜間課程可以支持向上流動。",
+        "promptZh": "先聽示範，再說明課程怎樣減少參與門檻。",
+        "targetSpan": {
+          "start": 39,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個技術學徒計劃提供夜間課、托兒支援及面試機會，但沒有保證工作。用 upward mobility 說明潛在作用和限制。",
+        "selfCheckZh": "寫出夜間課、托兒支援、面試機會，以及沒有工作保證。",
+        "examples": [
+          {
+            "en": "The evening apprenticeship classes and childcare support may improve access to interviews and upward mobility, but they do not guarantee jobs.",
+            "zh": "夜間學徒課程與托兒支援可增加面試機會及向上流動的可能，但不保證工作。"
+          },
+          {
+            "en": "Upward mobility becomes more possible when trainees can attend evening classes with childcare and reach interviews; the programme still promises no job offer.",
+            "zh": "學員有托兒支援可上夜間課並得到面試機會，向上流動才更有可能；計劃仍不承諾提供工作。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "evening apprenticeship classes",
+            "zh": "夜間學徒課程",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 34
+            }
+          },
+          {
+            "en": "childcare support",
+            "zh": "托兒支援",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 56
+            }
+          },
+          {
+            "en": "do not guarantee jobs",
+            "zh": "不保證工作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 120,
+              "end": 141
+            }
+          },
+          {
+            "en": "attend evening classes",
+            "zh": "上夜間課",
+            "exampleIndex": 1,
+            "span": {
+              "start": 56,
+              "end": 78
+            }
+          },
+          {
+            "en": "reach interviews",
+            "zh": "得到面試機會",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 114
+            }
+          },
+          {
+            "en": "no job offer",
+            "zh": "不承諾提供工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 145,
+              "end": 157
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Upward mobility needs accessible routes, not only inspiring stories.",
+          "zh": "向上流動需要可參與的途徑，不只靠勵志故事。"
+        },
+        {
+          "en": "Upward mobility may become more possible through an opportunity, but the outcome is not guaranteed.",
+          "zh": "機會可能令向上流動更可行，卻不保證結果。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Reviewed source sense, grammar, register, four valid replies, keyed fairness, changed-context writing and target form. Independent review pending."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese reviewed against every learner-facing English sentence; independent review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Provisional source-backed seven-step draft. No human or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4147",
+      "number": 4147,
+      "inventoryId": "expr-4147",
+      "titleEn": "tie a string around your finger",
+      "titleZh": "用手指繫線提醒自己",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:tie|ties|tied|tying) a string around (?:my|your|his|her|our|their|someone\\x27s) finger\\b",
+        "glossaryForbidden": [
+          "\\b(?:tie|ties|tied|tying) a string around (?:my|your|his|her|our|their|someone\\x27s) finger\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Use a small visible cue to remind oneself of something; the old physical method can also serve as a comparison for digital reminders.",
+        "meaningZh": "用一個看得見的小提示提醒自己；傳統手指繫線的做法亦可比喻數碼提醒。",
+        "grammar": "Tie a string around someone’s finger; tying a string around your finger. A digital alert can be like that cue, but the phrase itself names the reminder method, not proof the task is complete.",
+        "register": "Familiar reminder image in conversational explanation; a teacher may use it to explain a cue while leaving the actual task to the learner.",
+        "boundaryZh": "提示出現不等於事情已完成；仍要記得做甚麼和何時去做。",
+        "misconceptionZh": "不要把比喻誤作每次都真的在手指繫線，也不要把提醒等同已完成。",
+        "outcomeZh": "能辨別提示、待辦事項和已完成行動。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2036",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 192,
+          "book": 15,
+          "question": 31,
+          "sample": "S1",
+          "sourceBookPages": "72–74",
+          "locatorNote": "DOCX table 209, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A phone alert is like tying a string around your finger.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "tying a string around your finger"
+        }
+      ],
+      "listening": {
+        "en": "Mira left a bright ribbon beside her lunch box to remember the form. Her teacher compared the cue to tying a string around your finger.",
+        "zh": "Mira 在飯盒旁放了一條鮮色絲帶提醒自己交表格；老師把這個提示比作在手指繫線。",
+        "promptZh": "這個比較突出甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A visible cue can prompt someone to remember a task.",
+            "zh": "看得見的提示可令人記起待辦事項。"
+          },
+          {
+            "id": "b",
+            "en": "The form has already been handed in.",
+            "zh": "表格已交。"
+          },
+          {
+            "id": "c",
+            "en": "Mira must attach the ribbon to her finger.",
+            "zh": "Mira 必須把絲帶繫在手指。"
+          },
+          {
+            "id": "d",
+            "en": "The lunch box itself completes the form.",
+            "zh": "飯盒會自行填好表格。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "絲帶是提醒線索，不代表已交表或必須真的繫手指。"
+      },
+      "reply": {
+        "promptZh": "（我怎樣記得明天帶已簽名的同意書？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Place it beside the bag you use every morning.",
+            "zh": "把它放在每天用的書包旁。"
+          },
+          {
+            "id": "b",
+            "en": "Set a labelled reminder for tonight and put the slip in your bag then.",
+            "zh": "今晚設有標籤的提醒，響起時把同意書放進書包。"
+          },
+          {
+            "id": "c",
+            "en": "Tie a string around your finger if that visible cue helps, then put the signed slip in your bag.",
+            "zh": "若手指繫線這個提示對你有用，就用它提醒自己，然後把已簽名的同意書放進書包。"
+          },
+          {
+            "id": "d",
+            "en": "Ask someone at home to check that it reaches your bag.",
+            "zh": "請家人檢查同意書是否已放進書包。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都提出可行提醒，金句明確把繫線作線索，仍要求完成放入書包的動作。",
+        "promptEn": "How can I remember to bring the signed permission slip tomorrow?"
+      },
+      "scene": {
+        "promptZh": "學生用彩色紙條貼在房門作提醒，之後才把樂譜放進袋裏。哪句比較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Tying a string around your finger offers a visible reminder; the paper strip serves the same purpose.",
+            "zh": "手指繫線是一種可見的提醒；紙條也起相同作用。"
+          },
+          {
+            "id": "b",
+            "en": "The paper strip proves the music is already packed.",
+            "zh": "紙條證明樂譜已放進袋裏。"
+          },
+          {
+            "id": "c",
+            "en": "The student has literally tied string to a finger.",
+            "zh": "學生真的把線繫在手指上。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "紙條只是提醒，實際收拾在後。"
+      },
+      "contrast": {
+        "promptZh": "哪項做法把提醒與完成混為一談？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Setting a labelled alert, then checking the task afterward.",
+            "zh": "設有標籤的提醒，事後再核對任務。"
+          },
+          {
+            "id": "b",
+            "en": "Assuming a phone notification means the form was submitted.",
+            "zh": "以為手機通知一出現就表示表格已提交。"
+          },
+          {
+            "id": "c",
+            "en": "Leaving a visible note and acting on it later.",
+            "zh": "留下可見紙條，稍後按提示行動。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "提醒是線索，提交須另有實際行動。"
+      },
+      "dialogue": {
+        "promptZh": "同學說「like tying a string around your finger」一定要求真的用線。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The phrase “tying a string around your finger” names an old visible reminder cue; the alert can be digital.",
+            "zh": "它把提醒的可見提示與舊方法相比；提示可以是數碼的。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, digital reminders only work if a real string is attached.",
+            "zh": "對，數碼提醒只有繫真線才有用。"
+          },
+          {
+            "id": "c",
+            "en": "It says the task has already been completed.",
+            "zh": "它表示任務已完成。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "比較重點是提示作用，不是一定要繫線或已完成任務。"
+      },
+      "speaking": {
+        "en": "A coloured tag on the folder served the same purpose as tying a string around your finger: it reminded the team to review the form before sending it.",
+        "zh": "資料夾上的彩色標籤與手指繫線作用相同，提醒團隊寄出表格前先覆核。",
+        "promptZh": "先聽示範，再指出提示和實際覆核的先後。",
+        "targetSpan": {
+          "start": 56,
+          "end": 89
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社團在攝影器材箱上貼橙色標籤，提醒下一班人在借出前檢查電池；標籤本身不代表檢查已完成。用比喻解釋。",
+        "selfCheckZh": "寫出橙色標籤的位置、借出前檢查電池，以及標籤不等於已完成檢查。",
+        "examples": [
+          {
+            "en": "Tying a string around your finger is one reminder method; the orange tag on the camera box likewise prompts the next group to check the batteries before lending the kit.",
+            "zh": "手指繫線是一種提醒方法；攝影器材箱上的橙色標籤同樣提醒下一班人借出前檢查電池。"
+          },
+          {
+            "en": "The orange label on the kit box has the same reminder role as tying a string around your finger; it is only a cue, and staff still need to check the batteries before it goes out.",
+            "zh": "器材箱上的橙色標籤與手指繫線同樣起提醒作用；它只是一個提示，職員仍須在借出前檢查電池。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "orange tag",
+            "zh": "橙色標籤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 72
+            }
+          },
+          {
+            "en": "camera box",
+            "zh": "攝影器材箱",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 90
+            }
+          },
+          {
+            "en": "check the batteries",
+            "zh": "檢查電池",
+            "exampleIndex": 0,
+            "span": {
+              "start": 126,
+              "end": 145
+            }
+          },
+          {
+            "en": "only a cue",
+            "zh": "只是一個提示",
+            "exampleIndex": 1,
+            "span": {
+              "start": 103,
+              "end": 113
+            }
+          },
+          {
+            "en": "staff still need",
+            "zh": "職員仍須",
+            "exampleIndex": 1,
+            "span": {
+              "start": 119,
+              "end": 135
+            }
+          },
+          {
+            "en": "before it goes out",
+            "zh": "借出前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 159,
+              "end": 177
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Tying a string around your finger is a reminder, not the completed task.",
+          "zh": "手指繫線是提醒，不代表任務已完成。"
+        },
+        {
+          "en": "Tying a string around your finger illustrates how a visible cue helps only when someone acts on it.",
+          "zh": "手指繫線說明可見提示只有在有人按提示行動時才有用。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Reviewed source sense, grammar, register, four valid replies, keyed fairness, changed-context writing and target form. Independent review pending."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese reviewed against every learner-facing English sentence; independent review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Provisional source-backed seven-step draft. No human or release approval."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

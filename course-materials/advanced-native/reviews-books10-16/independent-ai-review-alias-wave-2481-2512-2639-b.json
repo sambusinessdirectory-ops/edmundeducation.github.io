@@ -1,0 +1,57 @@
+{
+  "reviewType": "independent-exact-hash-focused-ai-review",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-alias-wave-2481-2512-2639-a.json",
+  "authorAuditSha256": "0485cb947d76c6f5318698ce140ba0c74f58222fa0ef669b00b1491e615a8c61",
+  "scope": "Three held-to-existing aliases; checked source meaning/provenance, current detector, changed bilingual takeaway and touched keyed content. No exhaustive repeat of previously passing assessments.",
+  "rows": [
+    {
+      "ordinal": 2481,
+      "owner": "advanced-native-579",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-0576-0600.json",
+      "canonicalSha256": "8ededa7897d259c08721cf1b9720062b17c08cdf8eac971f6f5931c0f1e6b41f",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+      "decisionSha256": "cfd4674cb2f37e38d23d823142e259cfd62c5aaf4295c402a5e8afec9a3fc2ef",
+      "ownerHashMatchesAudit": true,
+      "decisionHashMatchesAudit": true,
+      "exactSourceProvenance": true,
+      "fullSourceMatchesTargetGi": true,
+      "sourceSenseKeyAndChangedEnglishChineseReview": "Ate up hours is the same substantial-time-consumption sense as eat up half/the whole day; the brief explicitly avoids inferring exact hours or lack of value. Stage-prop takeaway is distinct from guide source and bilingual meaning aligns.",
+      "status": "content-clear"
+    },
+    {
+      "ordinal": 2512,
+      "owner": "advanced-native-129",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-0126-0150.json",
+      "canonicalSha256": "a46189ce6a5d7424d4faad5f29ef33c74d67b5cb06fd85ec13bd6aa3b52a1aee",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+      "decisionSha256": "cfd4674cb2f37e38d23d823142e259cfd62c5aaf4295c402a5e8afec9a3fc2ef",
+      "ownerHashMatchesAudit": true,
+      "decisionHashMatchesAudit": true,
+      "exactSourceProvenance": true,
+      "fullSourceMatchesTargetGi": true,
+      "sourceSenseKeyAndChangedEnglishChineseReview": "A poor impression that lingers composes a negative impression with persistence, within lasting-impression ownership. The new booking-form takeaway preserves duration and negative evaluation in both languages; no assumption that memory is positive.",
+      "status": "content-clear"
+    },
+    {
+      "ordinal": 2639,
+      "owner": "advanced-native-1965",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1951-1975.json",
+      "canonicalSha256": "83e9beedb80e025dcb48b63cd4a35687e638c1b1cc6327f49a949a003dab2f75",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+      "decisionSha256": "82a4a691a32e805d856f2ca3a7af3ca864e562f55ac3d172bb06069a4a9bcc18",
+      "ownerHashMatchesAudit": true,
+      "decisionHashMatchesAudit": true,
+      "exactSourceProvenance": true,
+      "fullSourceMatchesTargetGi": true,
+      "sourceSenseKeyAndChangedEnglishChineseReview": "People or handover notes acting as guardrails and putting up guardrails share a protective-boundary metaphor while leaving choices. The takeaway states the practical safeguard and avoids claiming total control.",
+      "status": "content-clear"
+    }
+  ],
+  "checks": {
+    "verifier": "2,604 source/decision rows, 553 selected drafts, zero schema errors",
+    "allDiscoveredAliasAudit": "1,104/1,104 existing aliases match full source, zero exceptions"
+  },
+  "blockers": [],
+  "contentClear": true,
+  "publicationApproved": false
+}

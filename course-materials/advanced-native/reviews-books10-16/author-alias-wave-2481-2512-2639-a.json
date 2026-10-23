@@ -1,0 +1,70 @@
+{
+  "auditKind": "author-three-held-semantic-aliases",
+  "createdUtc": "2026-10-23T18:04:58.601121+00:00",
+  "rows": [
+    {
+      "sourceOrdinal": 2481,
+      "sourceId": "book10-16-0370",
+      "sourceExpression": "ate up hours",
+      "sourceExample": "The manual review ate up hours each week.",
+      "sourceMeaning": "Consumed a large amount of time; a natural figurative phrasal verb.",
+      "canonicalOwner": "advanced-native-579",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-0576-0600.json",
+      "canonicalBatchSha256": "8ededa7897d259c08721cf1b9720062b17c08cdf8eac971f6f5931c0f1e6b41f",
+      "contentRevision": 4,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+      "decisionFileSha256": "cfd4674cb2f37e38d23d823142e259cfd62c5aaf4295c402a5e8afec9a3fc2ef",
+      "sourceProvenanceExact": true,
+      "positiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "decisionReason": "Ate up hours and ate up half/the whole day both express substantial time consumption without a negative value judgment; hours is a less precise quantity, now taught and detected."
+    },
+    {
+      "sourceOrdinal": 2512,
+      "sourceId": "book10-16-0401",
+      "sourceExpression": "leave a poor impression that lingers",
+      "sourceExample": "A rude opening can leave a poor impression that lingers.",
+      "sourceMeaning": "Cause negative judgement that lasts; a natural evaluative phrase.",
+      "canonicalOwner": "advanced-native-129",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-0126-0150.json",
+      "canonicalBatchSha256": "a46189ce6a5d7424d4faad5f29ef33c74d67b5cb06fd85ec13bd6aa3b52a1aee",
+      "contentRevision": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+      "decisionFileSha256": "cfd4674cb2f37e38d23d823142e259cfd62c5aaf4295c402a5e8afec9a3fc2ef",
+      "sourceProvenanceExact": true,
+      "positiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "decisionReason": "A poor impression that lingers is the explicit negative enduring effect already allowed by canonical leave a lasting impression; the added relative clause is a compositional extension."
+    },
+    {
+      "sourceOrdinal": 2639,
+      "sourceId": "book10-16-0528",
+      "sourceExpression": "act as guardrails",
+      "sourceExample": "Parents can act as guardrails without controlling every decision.",
+      "sourceMeaning": "Set limits that prevent harmful choices; a road-safety metaphor.",
+      "canonicalOwner": "advanced-native-1965",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1951-1975.json",
+      "canonicalBatchSha256": "83e9beedb80e025dcb48b63cd4a35687e638c1b1cc6327f49a949a003dab2f75",
+      "contentRevision": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+      "decisionFileSha256": "82a4a691a32e805d856f2ca3a7af3ca864e562f55ac3d172bb06069a4a9bcc18",
+      "sourceProvenanceExact": true,
+      "positiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "decisionReason": "Act as guardrails and put up guardrails both use protective roadside barriers for practical limits that leave room for choice; agency changes, core decision does not."
+    }
+  ],
+  "reviewNotes": [
+    "2481 new theatre-prop transfer is distinct from guide manual-review and canonical journey/book-catalogue examples.",
+    "2512 broken-booking-form example tests an enduring negative impression distinct from source rude opening; canonical already allowed negative impressions.",
+    "2639 volunteer-equipment handover shows guardrails as a protective arrangement, distinct from source parent boundaries and canonical shared-photo setting.",
+    "All original assessed questions remain, exact source metadata and bounded detector variants are added; Chinese aligns with changed English takeaways."
+  ],
+  "focusedBuildCheck": "PASS: three canonical batches, 59 lessons, 354 questions, 236 audio requests, zero flags",
+  "fullVerifier": "PASS: 2604 source/decision rows; zero source gaps, schema errors, selected alias pattern exceptions, guide copies or near-duplicate flags",
+  "allDiscoveredAliasAudit": "PASS: 158/158 alias-new rows matched, zero exceptions",
+  "independentReview": "pending exact-hash focused content review",
+  "selectedManifestChanged": false,
+  "published": false,
+  "releaseApproved": false
+}

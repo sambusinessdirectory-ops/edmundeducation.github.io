@@ -1,0 +1,819 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-held-cohort-2668-2700-c",
+  "lessons": [
+    {
+      "id": "advanced-native-2668",
+      "number": 2668,
+      "inventoryId": "expr-2668",
+      "contentRevision": 2,
+      "titleEn": "open ears and minds",
+      "titleZh": "打開聆聽與思考的眼界",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bopen(?:s|ed|ing)? (?:(?:our|their|young|students['’]|children['’]s) )?ears and minds\\b",
+        "glossaryForbidden": [
+          "\\bears and minds\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Make learners more receptive both to unfamiliar sounds and to new ideas about them.",
+        "meaningZh": "令學習者願意聽陌生的聲音，也願意思考與這些聲音相關的新觀點。",
+        "grammar": "Music, a class or an encounter can open ears and minds. The paired nouns make sound and intellectual openness both relevant; do not reduce it to louder hearing alone.",
+        "register": "A music teacher explaining a lesson to parents, or a festival curator describing a programme to visitors, may use this warm figurative phrase.",
+        "boundaryZh": "須有聆聽新聲音及重新理解或思考的兩層效果；只調高音量不足以支持。",
+        "misconceptionZh": "open ears 不是生理上改善聽力；open minds 也不等於學生無條件接受所有觀點。",
+        "outcomeZh": "能指出聽到甚麼新聲音，以及它令學習者重新思考甚麼。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0557",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 51,
+          "book": 11,
+          "question": 11,
+          "sample": "S1",
+          "sourceBookPages": "28–29",
+          "locatorNote": "DOCX table 47, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A good music class can open ears and minds.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "open ears and minds"
+        }
+      ],
+      "listening": {
+        "en": "The class compared a local lullaby with a lullaby from another region, then asked why each community used different rhythms. The lesson opened ears and minds: pupils heard new sounds and reconsidered what a bedtime song could be.",
+        "zh": "課堂比較本地搖籃曲與另一地區的搖籃曲，再問不同社群為何使用不同節奏。課堂令學生耳界與思路都更開闊：他們聽到新聲音，也重新思考睡前歌可以是甚麼。",
+        "promptZh": "課堂如何 opened ears and minds？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Pupils encountered different rhythms and reconsidered their idea of a bedtime song.",
+            "zh": "學生接觸不同節奏，重新思考睡前歌的形式。"
+          },
+          {
+            "id": "b",
+            "en": "The teacher simply raised the speaker volume without comparing songs.",
+            "zh": "老師只是調高喇叭音量，沒有比較歌曲。"
+          },
+          {
+            "id": "c",
+            "en": "Pupils heard only the tune they already knew and discussed no ideas.",
+            "zh": "學生只聽熟悉的旋律，沒有討論任何想法。"
+          },
+          {
+            "id": "d",
+            "en": "The class tested pupils’ hearing but never played music.",
+            "zh": "課堂只測試聽力，沒有播放音樂。"
+          }
+        ],
+        "explanationZh": "學生既聽到不同節奏，也改變對睡前歌的看法。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptEn": "A workshop plays unfamiliar instruments and asks listeners how those sounds can tell a migration story. Why might the workshop change the audience?",
+        "promptZh": "工作坊播放不熟悉的樂器聲，並請聽眾思考那些聲音如何訴說遷徙故事。工作坊為何可能改變聽眾？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It introduces sounds they did not know and ideas behind them.",
+            "zh": "它介紹聽眾未聽過的聲音及背後觀點。"
+          },
+          {
+            "id": "b",
+            "en": "Listeners hear new instruments while considering the story those instruments tell.",
+            "zh": "聽眾聽新樂器，也思考樂器所訴說的故事。"
+          },
+          {
+            "id": "c",
+            "en": "The workshop can open ears and minds at the same time.",
+            "zh": "工作坊可以同時開闊聆聽與思考。"
+          },
+          {
+            "id": "d",
+            "en": "It may change both what listeners notice and what they understand.",
+            "zh": "它可能改變聽眾注意到的聲音及理解。"
+          }
+        ],
+        "explanationZh": "四句都指出新聲音與新觀點兩方面；金句用 paired image 概括。",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "學生聽街頭打擊樂，再訪問演奏者了解節奏如何承載地區故事。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The project can open ears and minds by linking new sounds with local stories.",
+            "zh": "項目可把新聲音與地區故事連起來，開闊學生的聆聽與思考。"
+          },
+          {
+            "id": "b",
+            "en": "The project only makes the drums louder; no one explores their meaning.",
+            "zh": "項目只讓鼓聲更大，沒有人探究其意義。"
+          },
+          {
+            "id": "c",
+            "en": "The students avoid the music and interview no one.",
+            "zh": "學生避開音樂，也沒有訪問任何人。"
+          }
+        ],
+        "explanationZh": "學生既接觸聲音，也透過訪問理解其文化故事。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說一堂音樂課 open ears and minds？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Children hear a new scale and discuss why its intervals feel unfamiliar.",
+            "zh": "孩子聽一種新音階，討論為何音程陌生。"
+          },
+          {
+            "id": "b",
+            "en": "Children hear a folk song and consider the community story behind it.",
+            "zh": "孩子聽民歌，思考背後的社群故事。"
+          },
+          {
+            "id": "c",
+            "en": "Children wear headphones that merely amplify the same song, with no discussion or new sound.",
+            "zh": "孩子只戴耳機把同一首歌放大，沒有討論或新聲音。"
+          }
+        ],
+        "explanationZh": "最後一項只是把既有歌曲放大，沒有接觸新聲音或新想法。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptEn": "A: Should we cut the visiting musicians’ explanations and play only the clips? The pupils have never heard these instruments.\nB: ?",
+        "promptZh": "甲：我們應否刪去客席樂師的講解，只播放片段？學生從未聽過這些樂器。\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Keep the explanations; the clips and stories together can open ears and minds.",
+            "zh": "保留講解；片段與故事合起來，才能同時開闊聆聽與思考。"
+          },
+          {
+            "id": "b",
+            "en": "Remove every clip too, because unfamiliar sounds cannot help learning.",
+            "zh": "連片段也刪掉，因為陌生聲音不可能有助學習。"
+          },
+          {
+            "id": "c",
+            "en": "Turn up the clips instead; volume alone explains the instruments’ history.",
+            "zh": "只需把片段放大；音量本身便能解釋樂器歷史。"
+          }
+        ],
+        "explanationZh": "學生需要聽到新樂器，也需要理解背後故事；音量不能代替講解。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The guest drummer’s lesson opened ears and minds: the class heard a new rhythm and learnt why it marked a harvest celebration.",
+        "zh": "客席鼓手的課堂開闊了學生的聆聽與思考：全班聽到新節奏，也學會它為何標誌收穫慶典。",
+        "promptZh": "先聽示範，再指出學生聽到甚麼，以及理解到甚麼。",
+        "targetSpan": {
+          "start": 27,
+          "end": 48
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：圖書館播放陌生的海港工作歌，之後請退休工人說明歌詞如何協調搬運。用英文說明活動如何同時改變聽眾聽到的內容和理解。",
+        "selfCheckZh": "要有新聲音與新理解兩個方面，並指明工人的說明如何幫忙；不要只寫歌曲「很好聽」。",
+        "examples": [
+          {
+            "en": "The harbour songs open ears and minds: visitors hear work rhythms they did not know, then retired workers explain how the lyrics helped crews lift together.",
+            "zh": "海港工作歌開闊聽眾的聆聽與思考：訪客聽到陌生的工作節奏，退休工人再說明歌詞如何幫助工人同時搬運。"
+          },
+          {
+            "en": "Playing the old dockside chorus opened ears and minds. The unfamiliar beat caught the audience’s attention, and a former worker explained how each call timed a shared lift.",
+            "zh": "播放舊碼頭合唱開闊了聽眾的聆聽與思考。陌生節拍吸引大家，前工人解釋每句呼喊如何配合共同搬運。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "work rhythms",
+            "zh": "工作節奏",
+            "exampleIndex": 0,
+            "span": {
+              "start": 53,
+              "end": 65
+            }
+          },
+          {
+            "en": "retired workers",
+            "zh": "退休工人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 105
+            }
+          },
+          {
+            "en": "lift together",
+            "zh": "同時搬運",
+            "exampleIndex": 0,
+            "span": {
+              "start": 142,
+              "end": 155
+            }
+          },
+          {
+            "en": "unfamiliar beat",
+            "zh": "陌生節拍",
+            "exampleIndex": 1,
+            "span": {
+              "start": 59,
+              "end": 74
+            }
+          },
+          {
+            "en": "a shared lift",
+            "zh": "共同搬運",
+            "exampleIndex": 1,
+            "span": {
+              "start": 158,
+              "end": 171
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A whistle-language demonstration can open ears and minds when visitors learn how messages travel across a valley.",
+          "zh": "口哨語示範可讓訪客開闊聆聽與思考，了解訊息如何傳越山谷。"
+        },
+        {
+          "en": "If a class only turns up the volume, it has not necessarily opened ears and minds.",
+          "zh": "課堂若只把音量調高，未必能開闊聆聽與思考。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional lesson; independent editorial and media review pending.",
+          "Source combines auditory and intellectual receptiveness; do not collapse into the existing broad open-mindedness lessons."
+        ]
+      }
+    },
+    {
+      "id": "advanced-native-2677",
+      "number": 2677,
+      "inventoryId": "expr-2677",
+      "contentRevision": 2,
+      "titleEn": "an important thread is broken",
+      "titleZh": "文化傳承的一條線斷了",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:an important|a|the) thread (?:is|was|has been) broken\\b",
+        "glossaryForbidden": [
+          "\\bthread (?:is|was|has been) broken\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A continuing connection between generations or practices has been interrupted.",
+        "meaningZh": "連結不同世代或慣例的一條傳承脈絡中斷了。",
+        "grammar": "An important thread is broken when a specific practice stops being passed on. Name the people or periods it once connected; the image is not literal sewing thread.",
+        "register": "A community historian talking to local readers, or a family member explaining a discontinued custom to younger relatives, may use this reflective figurative phrase.",
+        "boundaryZh": "要有真正中斷的傳承或聯繫；只是暫停一次聚會，不足以斷言整條線已斷。",
+        "misconceptionZh": "thread 不是實際絲線；也不是所有習俗變化都意味傳承已斷，若換形式延續便要說明。",
+        "outcomeZh": "能指出過去如何相連、哪項做法停止傳遞，以及中斷後失去了甚麼。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0566",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 52,
+          "book": 11,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "30–32",
+          "locatorNote": "DOCX table 48, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "If the tradition ends, an important thread is broken.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "thread is broken"
+        }
+      ],
+      "listening": {
+        "en": "For decades, older workers taught new staff the harbour’s hand signals. The last instructor retired without training a successor, and an important thread was broken: the next team knew the rules on paper but not the shared signals.",
+        "zh": "數十年來，資深工人教新員工港口手勢。最後一名導師退休前沒有培訓接班人，一條重要傳承線就此中斷：下一隊只知道書面規則，卻不懂共同手勢。",
+        "promptZh": "為甚麼說 an important thread was broken？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A practice once passed between workers stopped reaching the next team.",
+            "zh": "曾在工人之間傳授的做法沒有傳到下一隊。"
+          },
+          {
+            "id": "b",
+            "en": "The last instructor trained several successors before retiring.",
+            "zh": "最後一名導師退休前培訓了幾名接班人。"
+          },
+          {
+            "id": "c",
+            "en": "The next team learnt the hand signals from the same instructor.",
+            "zh": "下一隊仍向同一位導師學會手勢。"
+          },
+          {
+            "id": "d",
+            "en": "Only a physical rope snapped at the harbour.",
+            "zh": "港口只是有一條真正的繩索斷了。"
+          }
+        ],
+        "explanationZh": "手勢本來由資深員工傳給新人，如今沒有接班人，傳承中斷。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptEn": "A family used to teach its traditional festival recipe to each generation, but no one learnt it before the last cook died. What changed?",
+        "promptZh": "一個家庭過去每代都教下一代製作節日傳統菜，但最後一位廚師離世前無人學會做法。發生了甚麼變化？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The recipe stopped being passed from one generation to the next.",
+            "zh": "食譜不再由一代傳給下一代。"
+          },
+          {
+            "id": "b",
+            "en": "A continuing family practice lost its next bearer.",
+            "zh": "持續多年的家庭做法失去了下一位傳承者。"
+          },
+          {
+            "id": "c",
+            "en": "An important thread was broken when no one learnt the recipe.",
+            "zh": "沒有人學會食譜，一條重要傳承線便中斷了。"
+          },
+          {
+            "id": "d",
+            "en": "The family no longer has someone able to teach that recipe.",
+            "zh": "家中再沒有人能教那道菜。"
+          }
+        ],
+        "explanationZh": "四句都指出跨代傳承中斷；金句以 thread 比喻那條連繫。",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "小鎮的木船修復方法原由師傅親身教學；最後一名師傅退休，技法沒有留下紀錄，也沒有人學會。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An important thread was broken when the repair skill was not passed on.",
+            "zh": "修船技法沒有傳下去，一條重要傳承線便中斷了。"
+          },
+          {
+            "id": "b",
+            "en": "The repair skill was passed to every apprentice before the retirement.",
+            "zh": "退休前，每名學徒都學會了修船技法。"
+          },
+          {
+            "id": "c",
+            "en": "The town only lost a physical thread used to tie boats.",
+            "zh": "小鎮只是失去綁船的真正線繩。"
+          }
+        ],
+        "explanationZh": "技法既沒記錄，也沒有人承接，跨代連結中斷。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 an important thread was broken？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A song stops being taught when its last known singer dies without recording it.",
+            "zh": "最後一名懂歌的人沒有錄下或教人便離世。"
+          },
+          {
+            "id": "b",
+            "en": "A craft apprenticeship ends before anyone learns the technique.",
+            "zh": "工藝學徒制度結束，沒有人學會技法。"
+          },
+          {
+            "id": "c",
+            "en": "A yearly dance moves indoors, but elders still teach children the same steps.",
+            "zh": "每年舞蹈搬到室內，但長輩仍教孩子相同步法。"
+          }
+        ],
+        "explanationZh": "最後一項只是地點改變，步法仍由長輩教給孩子，傳承未斷。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptEn": "A: We moved the storytelling night online this year. Does that mean the connection between grandparents and children has ended?\nB: ?",
+        "promptZh": "甲：今年故事之夜搬到網上。這是否表示祖父母與孩子之間的傳承已結束？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "No. An important thread is broken only when the stories stop passing on; the elders still tell them online.",
+            "zh": "不是。只有故事不再傳下去，重要的傳承線才會中斷；長輩仍在網上講故事。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. Any change of venue breaks a tradition even if everyone continues it.",
+            "zh": "是的。即使大家繼續講故事，換地點就一定斷了傳承。"
+          },
+          {
+            "id": "c",
+            "en": "Yes. The children cannot hear stories through a computer at all.",
+            "zh": "是的。孩子完全不可能透過電腦聽故事。"
+          }
+        ],
+        "explanationZh": "地點轉到網上，但祖孫仍共享故事，傳承仍然存在。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "When the final gardener left without teaching anyone how to save the rare seeds, an important thread was broken between the old and new volunteers.",
+        "zh": "最後一名園丁離開前沒有教人保存稀有種子，舊義工與新義工之間的一條重要傳承線便中斷了。",
+        "promptZh": "先聽示範，再說出哪項知識沒有傳給下一批義工。",
+        "targetSpan": {
+          "start": 81,
+          "end": 111
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區劇團的手製面具技法多年由前輩教新演員；工作坊停辦後，下一代沒有人學會。用英文交代過去的傳承、何時中斷及其後果。",
+        "selfCheckZh": "須指出技法從誰傳給誰、具體中斷點及新一代失去甚麼；若只是暫停一天便不能說傳承線斷了。",
+        "examples": [
+          {
+            "en": "The mask-making method once passed from senior performers to new actors, but the workshop closed before anyone in the next cast learnt it. An important thread was broken, leaving the new cast unable to make the traditional masks.",
+            "zh": "面具製作方法原由資深演員教新演員，但工作坊在下一批演員學會之前便關閉。一條重要傳承線中斷，新演員無法製作傳統面具。"
+          },
+          {
+            "en": "For years, older actors taught each new cast how to shape the masks. When the workshop closed before the next cast learnt the process, an important thread was broken; new actors could no longer make the traditional masks.",
+            "zh": "多年來，資深演員教每一批新演員塑造面具。工作坊在下一批演員學會步驟前關閉，一條重要傳承線便中斷了；新演員再也無法製作傳統面具。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "senior performers",
+            "zh": "資深演員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 57
+            }
+          },
+          {
+            "en": "the next cast",
+            "zh": "下一批演員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 127
+            }
+          },
+          {
+            "en": "traditional masks",
+            "zh": "傳統面具",
+            "exampleIndex": 0,
+            "span": {
+              "start": 211,
+              "end": 228
+            }
+          },
+          {
+            "en": "the workshop closed",
+            "zh": "工作坊關閉",
+            "exampleIndex": 1,
+            "span": {
+              "start": 74,
+              "end": 93
+            }
+          },
+          {
+            "en": "new actors",
+            "zh": "新演員",
+            "exampleIndex": 1,
+            "span": {
+              "start": 167,
+              "end": 177
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An important thread is broken when a practice reaches no one in the next generation.",
+          "zh": "若某項做法沒有傳給下一代，一條重要傳承線便中斷了。"
+        },
+        {
+          "en": "An important thread is broken only if teaching stops, not merely because the meeting place changes.",
+          "zh": "只有教學停止，重要傳承線才可能中斷；換聚會地點本身不代表中斷。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional lesson; independent editorial and media review pending.",
+          "Distinct interruption of transmission from canonical1490 continuing living thread and canonical1504 enduring Cantonese thread."
+        ]
+      }
+    },
+    {
+      "id": "advanced-native-2700",
+      "number": 2700,
+      "inventoryId": "expr-2700",
+      "contentRevision": 2,
+      "titleEn": "send the message",
+      "titleZh": "傳達更廣泛的訊息",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:send|sends|sent|sending) the message(?: that)?\\b",
+        "glossaryForbidden": [
+          "\\b(?:send|sends|sent|sending) the message\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Communicate a wider principle or attitude through an action, policy or public choice.",
+        "meaningZh": "透過行動、政策或公開選擇，向人傳達較廣泛的原則或態度。",
+        "grammar": "An action or policy sends the message that a principle matters. This is a social signal inferred from conduct, not necessarily a literal text message or a proven effect on everyone.",
+        "register": "A policy adviser explaining a decision to colleagues, or a teacher discussing school rules with students, may use this everyday figurative construction.",
+        "boundaryZh": "應指出哪項可見行動向誰傳達甚麼態度；不能只空泛說「傳達訊息」，也不能聲稱所有人必然接受。",
+        "misconceptionZh": "不是按送出鍵傳簡訊；重點是行動所暗示的原則，仍須分清意圖與觀眾實際反應。",
+        "outcomeZh": "能指出可見政策或行動、所傳達的原則及可能的受眾。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0589",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 54,
+          "book": 11,
+          "question": 14,
+          "sample": "S1",
+          "sourceBookPages": "37–39",
+          "locatorNote": "DOCX table 50, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The policy should send the message that artists deserve payment.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "send the message"
+        }
+      ],
+      "listening": {
+        "en": "The cinema added captions to every late showing, not only one special event. The change sent the message that deaf viewers belonged in its regular audience, though managers still asked them whether the captions worked well.",
+        "zh": "戲院為每場夜間放映加字幕，不只安排一次特別場。這項改變傳達聾人觀眾也是一般觀眾的一部分；管理層仍向他們查詢字幕是否合用。",
+        "promptZh": "戲院的行動 sent the message that 甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Regular screenings should include deaf viewers, rather than treating access as rare.",
+            "zh": "一般場次也應照顧聾人觀眾，不應只把無障礙安排視為罕見例外。"
+          },
+          {
+            "id": "b",
+            "en": "Captions were intended only for one special screening.",
+            "zh": "字幕只打算用於一場特別放映。"
+          },
+          {
+            "id": "c",
+            "en": "Managers no longer needed feedback from viewers about caption quality.",
+            "zh": "管理層不再需要觀眾就字幕質素提出意見。"
+          },
+          {
+            "id": "d",
+            "en": "The cinema literally texted every viewer on a phone.",
+            "zh": "戲院真的以手機簡訊通知每名觀眾。"
+          }
+        ],
+        "explanationZh": "每場夜間放映都提供字幕，表明無障礙應納入日常服務；管理層仍會聽取意見。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptEn": "A clinic gives patient representatives voting seats on the committee redesigning appointment access instead of only sending them a survey. What principle might that choice communicate?",
+        "promptZh": "診所讓病人代表在重新設計預約服務的委員會中擁有投票權，而不只是寄問卷給他們。這項選擇可能傳達甚麼原則？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Patients should influence decisions about how they obtain appointments.",
+            "zh": "病人應能影響如何取得預約的決定。"
+          },
+          {
+            "id": "b",
+            "en": "The clinic treats patient views as part of the decision, rather than optional feedback.",
+            "zh": "診所把病人意見納入決策，而非視作可有可無的回應。"
+          },
+          {
+            "id": "c",
+            "en": "It sends the message that patients deserve a say in decisions affecting their access.",
+            "zh": "這傳達病人有權參與影響他們使用服務的決定。"
+          },
+          {
+            "id": "d",
+            "en": "A voting seat gives patient representatives more influence than a survey alone.",
+            "zh": "投票席位讓病人代表比單靠問卷更能影響決定。"
+          }
+        ],
+        "explanationZh": "四句都解釋病人代表投票權所傳達的參與原則；金句以 send the message 描述政策訊號。",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "圖書館延長週末開放時間，讓輪班工作者也能借書，並公布此安排。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The change sends the message that shift workers should also have access to the library.",
+            "zh": "這項改變傳達輪班工作者也應有機會使用圖書館。"
+          },
+          {
+            "id": "b",
+            "en": "The library literally mailed the same text to every worker.",
+            "zh": "圖書館真的把相同文字郵寄給每名工人。"
+          },
+          {
+            "id": "c",
+            "en": "The change proves every shift worker will visit the library each weekend.",
+            "zh": "這項改變證明每名輪班工人每個週末都會到圖書館。"
+          }
+        ],
+        "explanationZh": "可見的開放時間安排傳達平等使用服務的原則，並不保證所有人都會來。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合以 figurative send the message 描述？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A museum hires local interpreters to show it values neighbourhood voices.",
+            "zh": "博物館聘請本地傳譯員，表明重視街坊聲音。"
+          },
+          {
+            "id": "b",
+            "en": "A company publishes its pay bands to signal that salaries should be transparent.",
+            "zh": "公司公開薪酬級別，顯示薪酬應透明。"
+          },
+          {
+            "id": "c",
+            "en": "A clerk presses send on a routine private appointment reminder without any wider principle.",
+            "zh": "職員按下發送鍵，寄出一則一般私人預約提醒，沒有更廣泛原則。"
+          }
+        ],
+        "explanationZh": "最後一項是字面上發送私人訊息，沒有透過行動傳達廣泛態度。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptEn": "A: Why do we replace the broken ramp before buying new banners for the festival?\nB: ?",
+        "promptZh": "甲：為甚麼節慶要先修好損壞的斜道，再買新橫額？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Fixing access first sends the message that visitors’ entry matters more than decoration.",
+            "zh": "先修通道傳達訪客能否進場比裝飾更重要。"
+          },
+          {
+            "id": "b",
+            "en": "The banners are useless because no visitor ever looks at them.",
+            "zh": "橫額毫無用處，因為從沒有訪客看。"
+          },
+          {
+            "id": "c",
+            "en": "The ramp should remain broken so the festival can buy more banners.",
+            "zh": "斜道應繼續損壞，節慶才可買更多橫額。"
+          }
+        ],
+        "explanationZh": "先修斜道是可見的優先次序，傳達平等入場較裝飾重要。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "By publishing the selection criteria before auditions, the orchestra sent the message that applicants deserved a fair process.",
+        "zh": "樂團在試音前公布甄選準則，傳達申請者值得獲得公平程序的原則。",
+        "promptZh": "先聽示範，再指出哪項行動傳達了甚麼原則。",
+        "targetSpan": {
+          "start": 69,
+          "end": 90
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：公園管理處把所有步道的維修進度公開，並每週更新，讓居民知道問題不會被悄悄擱置。用英文說明具體行動與它傳達的原則，避免聲稱所有居民必然滿意。",
+        "selfCheckZh": "指出公開及定期更新的行動、向居民傳達的問責態度；不應虛構居民反應。",
+        "examples": [
+          {
+            "en": "Publishing the repair timetable and updating it each week sends the message that residents deserve to see how path problems are being handled. It does not by itself prove they are satisfied.",
+            "zh": "公布步道維修時間表並每週更新，傳達居民有權知道問題如何處理。這本身不證明他們已滿意。"
+          },
+          {
+            "en": "The parks office posts a weekly record of completed and delayed path repairs. That choice sends the message that it will account publicly for its progress, while leaving room for residents to question the schedule.",
+            "zh": "公園管理處每週公布已完成和延遲的步道維修紀錄。這項選擇傳達管理處會公開交代進度，同時讓居民可質詢時間表。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the repair timetable",
+            "zh": "維修時間表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 11,
+              "end": 31
+            }
+          },
+          {
+            "en": "path problems",
+            "zh": "步道問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 123
+            }
+          },
+          {
+            "en": "by itself",
+            "zh": "單憑這點",
+            "exampleIndex": 0,
+            "span": {
+              "start": 155,
+              "end": 164
+            }
+          },
+          {
+            "en": "completed and delayed",
+            "zh": "已完成和延遲的",
+            "exampleIndex": 1,
+            "span": {
+              "start": 42,
+              "end": 63
+            }
+          },
+          {
+            "en": "question the schedule",
+            "zh": "質詢時間表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 192,
+              "end": 213
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A visible policy can send the message that a neglected group matters.",
+          "zh": "可見的政策可傳達過去受忽略的群體也重要。"
+        },
+        {
+          "en": "An action may send the message, but audience reaction still has to be checked.",
+          "zh": "行動可以傳達訊息，但仍要核查受眾實際反應。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional lesson; independent editorial and media review pending.",
+          "Distinct figurative action-signalling use from literally sending a text; no selected owner teaches this policy-action inference."
+        ]
+      }
+    }
+  ]
+}

@@ -819,7 +819,7 @@
     "titleZh": "耗去大半天或一整天",
     "category": "idiom",
     "target": {
-      "pattern": "\\b(?:eat|eats|eating|ate|eaten) up (?:half (?:the|a)|(?:the|a) whole|an entire) day\\b",
+      "pattern": "\\b(?:eat|eats|eating|ate|eaten) up (?:half (?:the|a)|(?:the|a) whole|an entire) day\\b|\\b(?:eat|eats|eating|ate|eaten) up (?:several )?hours\\b",
       "glossaryForbidden": [
         "\\beat(?:s|ing)? up\\b",
         "\\bate up\\b",
@@ -828,9 +828,9 @@
       ]
     },
     "brief": {
-      "meaningEn": "Consume a substantial block of time, such as half or all of a day, often leaving less time for other plans.",
-      "meaningZh": "耗去大段時間，例如半天或整天，常使其他事情可用時間變少。",
-      "grammar": "A journey or task eats/ate/has eaten up half the day, the whole day, or an entire day. State actual hours when timing matters; the quantity depends on context.",
+      "meaningEn": "Consume a substantial block of time, such as hours, half a day or an entire day, often leaving less time for other plans.",
+      "meaningZh": "耗去大段時間，例如數小時、半天或整天，常使其他事情可用時間變少。",
+      "grammar": "A journey or task eats/ate/has eaten up hours, half the day, the whole day or an entire day. Hours is an indefinite substantial duration; state actual hours when timing matters, and do not infer an exact duration from hours alone.",
       "register": "Common conversational eat up time metaphor; a colleague may use it to explain scheduling pressure. Half the day can be approximate, while the whole day describes all available daytime.",
       "boundaryZh": "耗時不表示事情沒價值或做錯，也不必整整十二小時；需要時間表時應給實際時段。",
       "misconceptionZh": "不能只因花時間就斷言無用；可保留活動價值而調整其後計劃。",
@@ -863,6 +863,20 @@
         "sentence": "The repairs could eat up the whole day.",
         "referenceSentenceKind": "guide_original_example",
         "expression": "eat up the whole day"
+      },
+      {
+        "occurrenceId": "book10-16-0370",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 34,
+        "book": 10,
+        "question": 30,
+        "sample": "S1",
+        "sourceBookPages": "74–76",
+        "locatorNote": "DOCX table 30, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The manual review ate up hours each week.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "ate up hours"
       }
     ],
     "listening": {
@@ -1064,8 +1078,8 @@
         "zh": "替捐贈書籍編目耗去整天，團隊便把展示佈局留待翌日早上處理。"
       },
       {
-        "en": "The journey can eat up half the day, so I would leave the rest of the afternoon free.",
-        "zh": "路程可耗去半天，所以我會讓下午其餘時間保持空檔。"
+        "en": "Tracing the missing stage props ate up hours, so the cast moved the rehearsal to Friday.",
+        "zh": "追查失蹤的舞台道具耗去數小時，所以演員把排練改到星期五。"
       }
     ],
     "review": {
@@ -1092,7 +1106,7 @@
       },
       "notes": []
     },
-    "contentRevision": 3
+    "contentRevision": 4
   },
   {
     "id": "advanced-native-581",

@@ -1,0 +1,25 @@
+{
+  "kind": "AI-author-selected-grounding-repair",
+  "timeUtc": "2026-10-23T18:40:08.521495+00:00",
+  "lessonId": "advanced-native-3142",
+  "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3142-3394-review-pilot.json",
+  "oldBatchSha256": "b286b22007d4b482bc8d2f5ece5dc14e9cc700fef112ea35935d19b585437006",
+  "newBatchSha256": "35b091510e580dc40365a6674b1f8a0853bf978aecf2ed1a76a755d0eddc716e",
+  "revision": {
+    "old": 1,
+    "new": 2
+  },
+  "trigger": "The writing prompt says the theatre side door is unlocked, but both English answer models called it open, implying an unsupported physical state.",
+  "changes": [
+    "Both English answer models now say unlocked and preserve the order: secure the door at once, then notify the manager.",
+    "The answer-derived glossary row now reads after finding it unlocked with recalculated exact span.",
+    "Unchanged 3308/3394 lesson objects; no listening, speaking, takeaway or audio-request text changed."
+  ],
+  "checks": {
+    "focusedBuildCheck": "3 lessons, 18 questions, 12 audio requests, zero flags",
+    "globalVerifier": "563 selected unpublished drafts, 3378 questions, 2252 audio roles, zero schema/alias/copy flags; published=false",
+    "glossaryExactSpans": true,
+    "independentFollowup": "pending"
+  },
+  "approval": "AI author repair only; independent and human/release approvals not implied"
+}

@@ -1,0 +1,56 @@
+{
+  "reviewType": "independent-ai-exact-hash-followup",
+  "originalFinding": "R3298-01",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-implementation-audit-hold-merges-wave11-review-pilot.json",
+  "authorAuditSha256": "ffadfee97443d5c08e5e249cfe6fbf32f2e4df7f20b83ed16cb8f092b6608f12",
+  "canonicalFile": "course-materials/advanced-native/batches/batch-0126-0150.json",
+  "canonicalSha256": "7848efe56148b35499037db72bc73953b739daee3a6f2c463d6a3c791878dca9",
+  "canonicalHashMatchesAuthorAudit": true,
+  "positiveControls": [
+    {
+      "sentence": "Examples make the learning stick.",
+      "matched": true
+    },
+    {
+      "sentence": "The hands-on model made the lesson stick.",
+      "matched": true
+    },
+    {
+      "sentence": "The lesson sticks in the mind.",
+      "matched": true
+    }
+  ],
+  "negativeControls": [
+    {
+      "sentence": "The label physically stuck to the wall.",
+      "matched": false
+    },
+    {
+      "sentence": "The stick fell to the ground.",
+      "matched": false
+    },
+    {
+      "sentence": "The lesson uses a stick.",
+      "matched": false
+    },
+    {
+      "sentence": "The lesson uses sticks for crafts.",
+      "matched": false
+    },
+    {
+      "sentence": "The history teacher collected sticks for the fire.",
+      "matched": false
+    },
+    {
+      "sentence": "The lesson included sticks of chalk.",
+      "matched": false
+    }
+  ],
+  "sourceProvenanceExact": true,
+  "sourceSenseAndChangedContrast": "The causative learning-stick source remains a memory-retention variant of canonical 131. Revised bounded bare branch requires memory/learning subject plus close verb; revised contrast asks what a science-museum model helped learners remember, with faithful Traditional Chinese and no literal adhesion claim.",
+  "otherSixRows": "Exact current canonical/decision hashes, source provenance and full-source target coverage rechecked; no other material finding in initial report.",
+  "allDiscoveredAliasAudit": "1,113/1,113 full-source matches, 0 exceptions",
+  "blockers": [],
+  "waveContentClear": true,
+  "publicationApproved": false
+}

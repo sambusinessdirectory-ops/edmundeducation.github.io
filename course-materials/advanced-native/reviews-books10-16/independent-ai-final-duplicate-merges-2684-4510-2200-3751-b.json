@@ -1,0 +1,99 @@
+{
+  "type": "Independent focused AI review of final same-sense owner merges; no human, media, or release approval",
+  "inputSha256": {
+    "owner2684": "bb8b233a97840a54cce20ba99a943f7083bcef705b51538991ce4c42a76323a0",
+    "owner2200": "65dd3bb5117cb3f108f69ecd7cb2b066d3529b556b5e8abdc3389fc1009cd7f1",
+    "decision2684": "48007ebf36399c6bf0d2475cec81e16f8e01aa9ee5b93280f7e9dc56a64b2b99",
+    "decision3751": "8beb25ca7f3ce5d153ff8a1b02f288cb6bf50c4280f980d54e096a2f5f9b4b7f",
+    "decision4510": "7a5851b94258ca880ed2e6f779154bf4ecec6c6cf06edcb26fab3688f2627cb2",
+    "manifest": "8ee3b1a29664dc8d6c7f3c66d7a717cd3766b17b3fffc22ab094c97336ef6548"
+  },
+  "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "scope": {
+    "owners": [
+      2684,
+      2200
+    ],
+    "mergedSourceOrdinals": [
+      4510,
+      3751
+    ],
+    "reviewedChangedFields": [
+      "2684 title, target, brief, source provenance, scene key, first takeaway EN/ZH",
+      "2200 source provenance",
+      "decision rows 2684, 3751, 4510"
+    ]
+  },
+  "sourceDetectorEvidence": [
+    {
+      "owner": 2684,
+      "sourceId": "book10-16-0573",
+      "sourceSentence": "Young musicians can carry it forward in new ways.",
+      "matchedSpan": "carry it forward"
+    },
+    {
+      "owner": 2684,
+      "sourceId": "book10-16-2399",
+      "sourceSentence": "Useful customs deserve to be carried forward.",
+      "matchedSpan": "be carried forward"
+    },
+    {
+      "owner": 2200,
+      "sourceId": "book10-16-0089",
+      "sourceSentence": "We meet up for lunch every Friday.",
+      "matchedSpan": "meet up"
+    },
+    {
+      "owner": 2200,
+      "sourceId": "book10-16-1640",
+      "sourceSentence": "Friends enjoy meeting up at the market.",
+      "matchedSpan": "meeting up"
+    }
+  ],
+  "controls": {
+    "2684Positive": [
+      "carry it forward",
+      "carry the tradition forward",
+      "is carried forward",
+      "carried forward the tradition"
+    ],
+    "2684Negative": [
+      "carry forward to the next village",
+      "carry nothing forward"
+    ],
+    "2200Positive": [
+      "meet up",
+      "meeting up",
+      "met up"
+    ],
+    "2200Negative": [
+      "met our teacher"
+    ]
+  },
+  "findings": [],
+  "assessment": [
+    {
+      "owner": 2684,
+      "status": "AI content-clear at exact hash",
+      "reason": "Both source rows describe continuation of an existing practice or custom into a later stage. The revised brief and bounded active/passive detector cover both source grammatical frames. The changed scene names the inherited music sessions before carrying them forward; its Chinese preserves continuation and new styles. The first takeaway models a useful practice being carried forward. The source sentence matches, keyed answer retains target, and glossary/speaking structural checks pass."
+    },
+    {
+      "owner": 2200,
+      "status": "AI content-clear at exact hash",
+      "reason": "The later meeting-up source has the same arranged social gathering sense as meet up. The existing inflection detector matches both complete source examples. Only exact source provenance was appended; no assessed content or audio text changed."
+    }
+  ],
+  "focusedBuildCheck": {
+    "lessons": 8,
+    "questions": 48,
+    "audioRequests": 32,
+    "reviewFlags": 0,
+    "draftOnly": true
+  },
+  "limits": [
+    "Regex matching does not decide meaning by itself; this focused AI review compared the two complete source examples and changed teaching fields.",
+    "Changed first takeaway audio for 2684 requires exact synthesis-key regeneration and media QA in the parent checkpoint.",
+    "No hosted media, live site, migration, human listening, or release acceptance was verified."
+  ],
+  "verdict": "Both merges are AI content-clear for the unpublished selected manifest at these hashes; publication remains unapproved."
+}

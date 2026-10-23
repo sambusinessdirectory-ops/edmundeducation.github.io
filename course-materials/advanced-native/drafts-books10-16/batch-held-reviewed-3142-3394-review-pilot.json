@@ -1,0 +1,840 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-held-reviewed-3142-3394-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3142",
+      "number": 3142,
+      "inventoryId": "expr-3142",
+      "titleEn": "at once (immediately)",
+      "titleZh": "立即；馬上",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bat once\\b",
+        "glossaryForbidden": [
+          "\\bat once\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Immediately after a trigger, without delay; this is the time-sequence sense, not simultaneous actions.",
+        "meaningZh": "某事發生後立即作出反應，沒有拖延；不是本課以外「同時」的意思。",
+        "grammar": "At once usually follows the action: respond at once, become quiet at once. It can also mean simultaneously in another context, so infer the sense from sequence and actors.",
+        "register": "Neutral to firm; a stage manager may tell volunteers to act promptly after a cue, without implying panic.",
+        "boundaryZh": "「立即」有清楚的觸發點與隨後行動；並非聲稱兩件事同時進行。",
+        "misconceptionZh": "不要把所有 at once 都譯成「同時」；也不要因「立即」就假定結果已成功。",
+        "outcomeZh": "能按先後次序辨別 at once 的「立即」義並提出準確回應。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1031",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 96,
+          "book": 12,
+          "question": 29,
+          "sample": "S1",
+          "sourceBookPages": "70–71",
+          "locatorNote": "DOCX table 99, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The room became quiet at once.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "at once"
+        }
+      ],
+      "listening": {
+        "en": "When the lighthouse warning flashed, the keeper called the harbour office at once.",
+        "zh": "燈塔警報一閃，管理員便立即致電港口辦事處。",
+        "promptZh": "at once 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The keeper called immediately after the warning.",
+            "zh": "管理員在警報後立即致電。"
+          },
+          {
+            "id": "b",
+            "en": "The keeper and the office both flashed warnings together.",
+            "zh": "管理員與辦事處同時發出警報。"
+          },
+          {
+            "id": "c",
+            "en": "The keeper waited for the next morning.",
+            "zh": "管理員等到翌日早上。"
+          },
+          {
+            "id": "d",
+            "en": "The office had already fixed the problem before the call.",
+            "zh": "辦事處在電話前已解決問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "警報先出現，電話緊接其後；沒有說兩邊同時行動或問題已解決。"
+      },
+      "reply": {
+        "promptZh": "（展館警報剛響，現在要通知主管嗎？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes, send the supervisor a message immediately.",
+            "zh": "要，立即傳訊息給主管。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, call the supervisor before visitors enter that room.",
+            "zh": "要，在訪客進入那個房間前致電主管。"
+          },
+          {
+            "id": "c",
+            "en": "Yes, let the supervisor know at once.",
+            "zh": "要，馬上通知主管。"
+          },
+          {
+            "id": "d",
+            "en": "Yes, report the alarm now and give its location.",
+            "zh": "要，現在報告警報並說明位置。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都主張即時通報；at once 簡潔點明沒有拖延。",
+        "promptEn": "The gallery alarm has just sounded. Should we tell the supervisor now?"
+      },
+      "scene": {
+        "promptZh": "校車司機收到前方道路封閉通知，立刻改用已核准的替代路線。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The driver used the approved alternative route at once.",
+            "zh": "司機立即使用已核准的替代路線。"
+          },
+          {
+            "id": "b",
+            "en": "The driver waited until tomorrow to consider the closure.",
+            "zh": "司機等到明天才考慮封路。"
+          },
+          {
+            "id": "c",
+            "en": "The driver and the closure happened at the same time, so no choice was needed.",
+            "zh": "司機與封路同時發生，所以毋須作決定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "收到通知後隨即改道，符合「立即」的先後關係。"
+      },
+      "contrast": {
+        "promptZh": "哪個情境最能區分 at once 的「立即」義，而非「同時」義？",
+        "options": [
+          {
+            "id": "a",
+            "en": "After a bell rings, one pupil leaves at once.",
+            "zh": "鈴響後，一名學生立即離開。"
+          },
+          {
+            "id": "b",
+            "en": "Three pupils speak at once and nobody can be heard clearly.",
+            "zh": "三名學生同時說話，沒有人能聽清楚。"
+          },
+          {
+            "id": "c",
+            "en": "Two lights come on at once as the switch is pressed.",
+            "zh": "按下開關時，兩盞燈同時亮起。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "鈴聲觸發一名學生隨即離開；其他情境描述多個人或物同時行動。"
+      },
+      "dialogue": {
+        "promptZh": "同學說「The notice arrived at once」就一定是幾份通知同時送到。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Here at once can mean the notice arrived immediately after it was sent; the context decides.",
+            "zh": "這裏可指通知發出後立即送到；要看語境判斷。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, at once can only describe several things happening together.",
+            "zh": "對，at once 只能指幾件事同時發生。"
+          },
+          {
+            "id": "c",
+            "en": "It means the notice was never sent.",
+            "zh": "它表示通知從未發出。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "at once 可表示立即，不能單靠這兩字判斷是否多件事同時進行。"
+      },
+      "speaking": {
+        "en": "The caretaker turned off the tap at once when water began leaking, then called maintenance.",
+        "zh": "水管開始漏水時，管理員立即關掉水龍頭，然後致電維修人員。",
+        "promptZh": "先聽示範，再說明哪件事觸發即時行動。",
+        "targetSpan": {
+          "start": 33,
+          "end": 40
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區劇院在開演前發現側門沒有上鎖。值班員即時鎖好側門，然後通知經理。用 at once 描述先後次序，不要聲稱演出已取消。",
+        "selfCheckZh": "寫出發現側門未鎖、即時上鎖及其後通知經理；不要把 at once 解作兩個動作同時發生。",
+        "examples": [
+          {
+            "en": "The usher locked the side door at once after finding it unlocked and then informed the manager.",
+            "zh": "帶位員發現側門沒有上鎖後立即鎖好，然後通知經理。"
+          },
+          {
+            "en": "After noticing that the side door was unlocked, the usher secured it at once before reporting the issue to the manager.",
+            "zh": "發現側門未鎖後，帶位員立即把門鎖好，再向經理報告。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "side door",
+            "zh": "側門",
+            "exampleIndex": 0,
+            "span": {
+              "start": 21,
+              "end": 30
+            }
+          },
+          {
+            "en": "after finding it unlocked",
+            "zh": "發現門未鎖後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 64
+            }
+          },
+          {
+            "en": "informed the manager",
+            "zh": "通知經理",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 94
+            }
+          },
+          {
+            "en": "secured it",
+            "zh": "把門鎖好",
+            "exampleIndex": 1,
+            "span": {
+              "start": 58,
+              "end": 68
+            }
+          },
+          {
+            "en": "before reporting the issue",
+            "zh": "在報告問題前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 103
+            }
+          },
+          {
+            "en": "the manager",
+            "zh": "經理",
+            "exampleIndex": 1,
+            "span": {
+              "start": 107,
+              "end": 118
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Call for help at once when the agreed warning appears.",
+          "zh": "約定的警示出現時，立即求助。"
+        },
+        {
+          "en": "At once may also mean simultaneously; the surrounding events reveal which sense fits.",
+          "zh": "at once 也可表示「同時」；須看前後事件判斷。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Reviewed source sense, grammar, register, four valid replies, keyed fairness, changed-context writing and target form. Independent review pending."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese reviewed against every learner-facing English sentence; independent review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Provisional source-backed seven-step draft. No human or release approval."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3308",
+      "number": 3308,
+      "inventoryId": "expr-3308",
+      "titleEn": "life does not follow a script",
+      "titleZh": "生活未必按劇本發展",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:life|the day|the trip|events?|reality) (?:does not|doesn\\x27t|did not|didn\\x27t|rarely|never) (?:always )?follow a script\\b",
+        "glossaryForbidden": [
+          "\\b(?:life|the day|the trip|events?|reality) (?:does not|doesn\\x27t|did not|didn\\x27t|rarely|never) (?:always )?follow a script\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Events do not necessarily unfold according to a plan or expected sequence.",
+        "meaningZh": "事情不一定照預定計劃或想像中的次序發生。",
+        "grammar": "Life does not always follow a script; the subject can be life, a day, a trip or events. Here follow a script is about unpredictability, not a person complying with a social role.",
+        "register": "Reflective, conversational metaphor; a trip organiser can acknowledge a change while keeping practical next steps.",
+        "boundaryZh": "未按劇本發展不表示完全不能計劃，也不保證改變必定更好。",
+        "misconceptionZh": "不要把這裏的 script 當成真的戲劇台詞，或用一句比喻取代具體調整。",
+        "outcomeZh": "能指出計劃哪一環改變，並以不誇大的語氣提出應對。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1197",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 111,
+          "book": 12,
+          "question": 45,
+          "sample": "S2",
+          "sourceBookPages": "106–107",
+          "locatorNote": "DOCX table 115, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Even careful planners know life does not always follow a script.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "life does not always follow a script"
+        }
+      ],
+      "listening": {
+        "en": "The outdoor lecture was planned for the courtyard, but sudden rain moved everyone into the library. The day did not follow a script.",
+        "zh": "戶外講座原定在庭院舉行，突如其來的雨卻令大家移到圖書館；那一天沒有按預定安排發展。",
+        "promptZh": "did not follow a script 在此表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The day unfolded differently from the plan.",
+            "zh": "當天的發展與計劃不同。"
+          },
+          {
+            "id": "b",
+            "en": "The lecturer forgot written lines in a play.",
+            "zh": "講者忘了戲劇台詞。"
+          },
+          {
+            "id": "c",
+            "en": "The library had never been booked for any event.",
+            "zh": "圖書館從未被預訂作活動場地。"
+          },
+          {
+            "id": "d",
+            "en": "The rain had been forecast and ignored deliberately.",
+            "zh": "主辦者明知會下雨卻故意不理。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "場地由庭院轉為圖書館，說明事情偏離原定安排。"
+      },
+      "reply": {
+        "promptZh": "（步行導賞路線因工程受阻。我們該怎樣告訴訪客？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can explain the change and offer the approved shorter route.",
+            "zh": "我們可解釋改動，並提供已核准的較短路線。"
+          },
+          {
+            "id": "b",
+            "en": "Let us tell them the original route is unavailable and show the replacement map.",
+            "zh": "我們告訴他們原路線未能通行，並展示替代地圖。"
+          },
+          {
+            "id": "c",
+            "en": "The trip did not follow a script, so we will use the approved route and keep the same meeting point.",
+            "zh": "行程沒有完全按計劃發展；我們會用已核准路線，集合點則不變。"
+          },
+          {
+            "id": "d",
+            "en": "We should update the route notice before the next group arrives.",
+            "zh": "下一團抵達前，我們應更新路線告示。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明合理調整；金句用比喻承認變化，仍交代具體做法。",
+        "promptEn": "The walking tour route is blocked by repairs. What should we tell the visitors?"
+      },
+      "scene": {
+        "promptZh": "原定星期六的戶外棋賽改在室內舉行，報名人數不變。哪句準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The day did not follow a script: the venue changed, but the registered players can still compete.",
+            "zh": "當天並未完全按計劃發展：場地改了，已報名選手仍可比賽。"
+          },
+          {
+            "id": "b",
+            "en": "Every part of the event was cancelled.",
+            "zh": "活動的每個部分都取消了。"
+          },
+          {
+            "id": "c",
+            "en": "The organisers had planned the indoor venue from the beginning.",
+            "zh": "主辦者一開始就計劃用室內場地。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "比喻說的是場地偏離預定，不能推論賽事取消或早已安排。"
+      },
+      "contrast": {
+        "promptZh": "哪項推論超出了「life does not always follow a script」的意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A changed plan requires checking what can still be done.",
+            "zh": "計劃改變後，要核對仍能做甚麼。"
+          },
+          {
+            "id": "b",
+            "en": "Careful planning is always pointless because nothing can be adjusted.",
+            "zh": "仔細計劃永遠沒有意義，因為甚麼都不能調整。"
+          },
+          {
+            "id": "c",
+            "en": "A new situation may need a practical response.",
+            "zh": "新情況可能需要實際回應。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "這個比喻承認變化，不否定計劃或調整的價值。"
+      },
+      "dialogue": {
+        "promptZh": "同學把 life does not follow a script 解作「人人不應準備任何事」。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Life does not always follow a script means events may depart from a plan; preparation can still help us respond.",
+            "zh": "這句指事情可能偏離計劃；準備仍有助我們應對。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, any preparation guarantees failure.",
+            "zh": "對，任何準備都必定失敗。"
+          },
+          {
+            "id": "c",
+            "en": "It means everyone must memorise a play.",
+            "zh": "它表示人人都要背熟劇本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "未必照計劃發展與不用準備是兩回事。"
+      },
+      "speaking": {
+        "en": "Life does not always follow a script: our picnic moved indoors after the park closed, but we kept the group meal.",
+        "zh": "生活未必按劇本發展：公園關閉後，野餐改在室內進行，但大家仍一起用餐。",
+        "promptZh": "先聽示範，再指出哪些安排改了、哪些保留。",
+        "targetSpan": {
+          "start": 0,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：青年樂隊原定在廣場演出，因電力故障改到社區中心，不改演出曲目。用比喻描述改動與保留的部分。",
+        "selfCheckZh": "寫出原定廣場、因電力故障改在社區中心，以及曲目不變；不要說演出取消。",
+        "examples": [
+          {
+            "en": "The day did not follow a script when the power failed, so the band moved from the square to the community centre without changing its songs.",
+            "zh": "電力故障後，當天沒有照原定安排發展；樂隊由廣場移到社區中心，但曲目沒有改。"
+          },
+          {
+            "en": "Life does not always follow a script: after a power failure, the youth band performed at the community centre instead of the square, keeping the same set list.",
+            "zh": "生活未必按計劃發展：電力故障後，青年樂隊改在社區中心而非廣場演出，曲目表維持不變。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the power failed",
+            "zh": "電力故障",
+            "exampleIndex": 0,
+            "span": {
+              "start": 37,
+              "end": 53
+            }
+          },
+          {
+            "en": "the square",
+            "zh": "廣場",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 88
+            }
+          },
+          {
+            "en": "without changing its songs",
+            "zh": "曲目沒有改",
+            "exampleIndex": 0,
+            "span": {
+              "start": 113,
+              "end": 139
+            }
+          },
+          {
+            "en": "the youth band",
+            "zh": "青年樂隊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 75
+            }
+          },
+          {
+            "en": "instead of the square",
+            "zh": "而非廣場",
+            "exampleIndex": 1,
+            "span": {
+              "start": 110,
+              "end": 131
+            }
+          },
+          {
+            "en": "the same set list",
+            "zh": "相同曲目表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 141,
+              "end": 158
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Life does not always follow a script, but a revised plan can still be clear.",
+          "zh": "生活未必照劇本發展，但修訂後的計劃仍可清楚。"
+        },
+        {
+          "en": "When life does not follow a script, name the actual change instead of speaking vaguely.",
+          "zh": "生活沒有按計劃發展時，要指出實際改動，不要含糊交代。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Reviewed source sense, grammar, register, four valid replies, keyed fairness, changed-context writing and target form. Independent review pending."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese reviewed against every learner-facing English sentence; independent review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Provisional source-backed seven-step draft. No human or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3394",
+      "number": 3394,
+      "inventoryId": "expr-3394",
+      "titleEn": "pick up (obtain or buy)",
+      "titleZh": "順道取得或買到",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:pick|picks|picked|picking) up (?:a|an|the|this|that) (?:(?:trail|gallery|local) )?(?:postcard|map|booklet|brochure|copy|souvenir|ticket)\\b",
+        "glossaryForbidden": [
+          "\\b(?:pick|picks|picked|picking) up (?:a|an|the|this|that) (?:(?:trail|gallery|local) )?(?:postcard|map|booklet|brochure|copy|souvenir|ticket)\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Obtain or buy a small item casually while visiting or passing a place; not the skill-learning sense.",
+        "meaningZh": "到訪或路過某處時順道取得或買到小物件；不是「學會技能」的意思。",
+        "grammar": "Pick up + a small object: pick up a map, picked up a booklet. Context determines whether it is free or purchased; the phrase alone does not specify a price.",
+        "register": "Casual spoken shopping/travel phrasing; a visitor may ask staff where to collect an item without asserting it is free.",
+        "boundaryZh": "順道取得不代表物品免費，也不表示一定從地上撿起。",
+        "misconceptionZh": "不要把這裏的 pick up 誤解成學到技能，或未有價錢資料就說已付款。",
+        "outcomeZh": "能從語境分辨取得、購買、拾起與習得技能的不同用法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1283",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 119,
+          "book": 13,
+          "question": 3,
+          "sample": "S2",
+          "sourceBookPages": "7–8",
+          "locatorNote": "DOCX table 124, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Visitors can pick up a postcard at the market.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pick up"
+        }
+      ],
+      "listening": {
+        "en": "At the visitor centre, Dara picked up a trail map from the information desk before the walk.",
+        "zh": "Dara 在遊客中心步行前，從資訊台順道取了一張步道地圖。",
+        "promptZh": "picked up 在此最可能表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Dara obtained a map at the desk.",
+            "zh": "Dara 從資訊台取得地圖。"
+          },
+          {
+            "id": "b",
+            "en": "Dara learned to draw maps without instruction.",
+            "zh": "Dara 無人教導便學會畫地圖。"
+          },
+          {
+            "id": "c",
+            "en": "Dara found a map lying on the floor.",
+            "zh": "Dara 發現地圖掉在地上。"
+          },
+          {
+            "id": "d",
+            "en": "Dara paid a stated fee for the map.",
+            "zh": "Dara 付了已說明的費用買地圖。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "資訊台提供地圖，但沒有說地圖掉在地上或需要付款。"
+      },
+      "reply": {
+        "promptZh": "（離開前，我可拿一本社區步行指南嗎？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes, ask the desk whether copies are available.",
+            "zh": "可以，向資訊台查詢有沒有副本。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, the desk may have copies; check there first.",
+            "zh": "可以，資訊台可能有副本，先到那裏問。"
+          },
+          {
+            "id": "c",
+            "en": "You can pick up a booklet at the desk if copies are left.",
+            "zh": "如果還有副本，你可以到資訊台拿一本小冊子。"
+          },
+          {
+            "id": "d",
+            "en": "Yes, let us check the desk before we go.",
+            "zh": "可以，我們離開前先到資訊台看看。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都提出可行的取書方式，沒有憑空斷定免費或已售罄。",
+        "promptEn": "Can I get a copy of the neighbourhood walking guide before we leave?"
+      },
+      "scene": {
+        "promptZh": "旅客到博物館服務台領取一張展廳地圖，收費資料未提及。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She picked up a map at the service desk.",
+            "zh": "她在服務台拿了一張地圖。"
+          },
+          {
+            "id": "b",
+            "en": "She learned to read every map in one minute.",
+            "zh": "她一分鐘內學會讀懂所有地圖。"
+          },
+          {
+            "id": "c",
+            "en": "She picked a map off the gallery floor.",
+            "zh": "她從展廳地板撿起地圖。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "服務台是領取地點，pick up 可指取得，毋須臆測收費。"
+      },
+      "contrast": {
+        "promptZh": "哪句把 pick up 用成與本課不同的「學會」意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I picked up a brochure at the entrance.",
+            "zh": "我在入口拿了一本小冊子。"
+          },
+          {
+            "id": "b",
+            "en": "She picked up some Italian while living abroad.",
+            "zh": "她在外地生活時自然學會了一點意大利語。"
+          },
+          {
+            "id": "c",
+            "en": "We can pick up a map from the counter.",
+            "zh": "我們可從櫃檯拿一張地圖。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "學會語言是另一個意思；其餘兩句都是取得實物。"
+      },
+      "dialogue": {
+        "promptZh": "同學說「He picked up a ticket at the counter」一定表示免費。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "“Picked up a ticket” means he obtained it there; the sentence does not settle whether he paid.",
+            "zh": "它只說他在那裏取得票，沒有交代是否付費。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, pick up always means a free gift.",
+            "zh": "對，pick up 一定指免費禮物。"
+          },
+          {
+            "id": "c",
+            "en": "It means he learned how to print tickets.",
+            "zh": "它表示他學會印票。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "pick up 可指領取或買到，不能單靠動詞決定是否免費。"
+      },
+      "speaking": {
+        "en": "I picked up a booklet about the old harbour at the information desk, but I checked the price before leaving.",
+        "zh": "我在資訊台拿了一本介紹舊港口的小冊子，離開前先核對價錢。",
+        "promptZh": "先聽示範，再指出說話者如何避免猜測收費。",
+        "targetSpan": {
+          "start": 2,
+          "end": 21
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：火車站設有小冊子櫃檯，旅客在上車前取得一本地區活動指南，但不知道需否付款。用 pick up 描述，不要自行斷定免費。",
+        "selfCheckZh": "寫出旅客在火車站上車前取得指南，並保留收費未明這一點。",
+        "examples": [
+          {
+            "en": "A traveller picked up a booklet about local events at the station before boarding, then asked whether there was a charge.",
+            "zh": "旅客上車前在車站拿了一本地區活動小冊子，然後詢問是否收費。"
+          },
+          {
+            "en": "Before boarding, the traveller picked up a brochure at the station counter and checked its price instead of assuming it was free.",
+            "zh": "旅客上車前在車站櫃檯拿了一本小冊子，並核對價錢，沒有假定它免費。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "local events",
+            "zh": "地區活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 38,
+              "end": 50
+            }
+          },
+          {
+            "en": "before boarding",
+            "zh": "上車前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 81
+            }
+          },
+          {
+            "en": "whether there was a charge",
+            "zh": "是否收費",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 120
+            }
+          },
+          {
+            "en": "station counter",
+            "zh": "車站櫃檯",
+            "exampleIndex": 1,
+            "span": {
+              "start": 59,
+              "end": 74
+            }
+          },
+          {
+            "en": "checked its price",
+            "zh": "核對價錢",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 96
+            }
+          },
+          {
+            "en": "assuming it was free",
+            "zh": "假定它免費",
+            "exampleIndex": 1,
+            "span": {
+              "start": 108,
+              "end": 128
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "You can pick up a map at the centre, but ask whether there is a fee.",
+          "zh": "你可到中心拿地圖，但要問清楚是否收費。"
+        },
+        {
+          "en": "Pick up a booklet names obtaining an item; identify the object and setting before choosing a sense.",
+          "zh": "pick up a booklet 指取得實物；判斷意思前要看賓語與地點。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Reviewed source sense, grammar, register, four valid replies, keyed fairness, changed-context writing and target form. Independent review pending."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese reviewed against every learner-facing English sentence; independent review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Provisional source-backed seven-step draft. No human or release approval."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

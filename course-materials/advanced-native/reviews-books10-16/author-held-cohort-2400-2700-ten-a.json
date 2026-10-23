@@ -1,0 +1,284 @@
+{
+  "scope": "ten unselected held-source lessons from source ordinals 2400–2700",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-2413-2505-a.json",
+      "sha256": "c5c0aa55284ef51856a28d0f2c1a5a00d77349557a4ce66f89e3b7378d59c22f"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-2473-replacement-a.json",
+      "sha256": "3efc4145e140d232941ccf96dbfd451975388e94e9db342a2cafa149e1ff0660"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-2513-2627-b.json",
+      "sha256": "24c02d808a49571eb130d58706755e11996fbcf168e9b0215124d24e090dcdc6"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-2668-2700-c.json",
+      "sha256": "81bce9af4c56b4c8151a8b9541f931f22fd52d782776b72deb3ac2544ca194be"
+    }
+  ],
+  "decisionFiles": [
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "sha256": "8269ff182a1e5db80025499deee8ebfa42fefa56143f634383f5a472bf9c29f5"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+      "sha256": "9ce5e1bf2d92803896942c39185e5c9176867e591df5a72b988100c94776968e"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+      "sha256": "af35297774e349bed5011917bb4452a68ce1c6a3c90c7fd27bf0071fcd3ae8d3"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+      "sha256": "6cdda7d1761f42e21042d2b084fc0da85879afbc26e0401fb2ef4f45357bfa97"
+    }
+  ],
+  "lessons": [
+    {
+      "sourceOrdinal": 2413,
+      "sourceId": "book10-16-0302",
+      "expression": "back-and-forth",
+      "sourceExample": "The back-and-forth between suspects kept the trial tense.",
+      "targetMatchesFullSource": true,
+      "sceneAndDialogueKeysTargetBearing": true,
+      "fourReplyOptions": true,
+      "speakingSpanExact": true,
+      "writingExamplesTargetBearing": true,
+      "glossarySpansExact": 5,
+      "originality": "0 near-full guide-source copies after revision",
+      "ownerRisk": "no apparent same-sense selected owner"
+    },
+    {
+      "sourceOrdinal": 2467,
+      "sourceId": "book10-16-0356",
+      "expression": "fall apart under closer inspection",
+      "sourceExample": "The argument began to fall apart under closer inspection.",
+      "targetMatchesFullSource": true,
+      "sceneAndDialogueKeysTargetBearing": true,
+      "fourReplyOptions": true,
+      "speakingSpanExact": true,
+      "writingExamplesTargetBearing": true,
+      "glossarySpansExact": 5,
+      "originality": "0 near-full guide-source copies after revision",
+      "ownerRisk": "canonical1164 broad detector overlaps, but it teaches emotional collapse; this lesson teaches argument failure under scrutiny"
+    },
+    {
+      "sourceOrdinal": 2473,
+      "sourceId": "book10-16-0362",
+      "expression": "branching out into newer lanes",
+      "sourceExample": "The company is branching out into newer lanes this year.",
+      "targetMatchesFullSource": true,
+      "sceneAndDialogueKeysTargetBearing": true,
+      "fourReplyOptions": true,
+      "speakingSpanExact": true,
+      "writingExamplesTargetBearing": true,
+      "glossarySpansExact": 5,
+      "originality": "0 six-token or near-full guide-source copies",
+      "ownerRisk": "source organisation-diversification decision differs provisionally from canonical1858 personal roots/opening; independent owner and idiomaticity review pending"
+    },
+    {
+      "sourceOrdinal": 2505,
+      "sourceId": "book10-16-0394",
+      "expression": "attention was thinly spread",
+      "sourceExample": "Our attention was thinly spread across six small tasks.",
+      "targetMatchesFullSource": true,
+      "sceneAndDialogueKeysTargetBearing": true,
+      "fourReplyOptions": true,
+      "speakingSpanExact": true,
+      "writingExamplesTargetBearing": true,
+      "glossarySpansExact": 5,
+      "originality": "0 near-full guide-source copies after revision",
+      "ownerRisk": "no apparent same-sense selected owner"
+    },
+    {
+      "sourceOrdinal": 2513,
+      "sourceId": "book10-16-0402",
+      "expression": "one slip can cast a long shadow",
+      "sourceExample": "In a close contest, one slip can cast a long shadow.",
+      "targetMatchesFullSource": true,
+      "sceneAndDialogueKeysTargetBearing": true,
+      "fourReplyOptions": true,
+      "speakingSpanExact": true,
+      "writingExamplesTargetBearing": true,
+      "glossarySpansExact": 5,
+      "originality": "0 near-full guide-source copies after revision",
+      "ownerRisk": "no apparent same-sense selected owner"
+    },
+    {
+      "sourceOrdinal": 2531,
+      "sourceId": "book10-16-0420",
+      "expression": "hold everything up",
+      "sourceExample": "The shared values hold everything up when circumstances change.",
+      "targetMatchesFullSource": true,
+      "sceneAndDialogueKeysTargetBearing": true,
+      "fourReplyOptions": true,
+      "speakingSpanExact": true,
+      "writingExamplesTargetBearing": true,
+      "glossarySpansExact": 5,
+      "originality": "0 near-full guide-source copies after revision",
+      "ownerRisk": "no apparent same-sense selected owner"
+    },
+    {
+      "sourceOrdinal": 2627,
+      "sourceId": "book10-16-0516",
+      "expression": "blowing it all at once",
+      "sourceExample": "Saving is difficult if you keep blowing it all at once.",
+      "targetMatchesFullSource": true,
+      "sceneAndDialogueKeysTargetBearing": true,
+      "fourReplyOptions": true,
+      "speakingSpanExact": true,
+      "writingExamplesTargetBearing": true,
+      "glossarySpansExact": 5,
+      "originality": "0 near-full guide-source copies after revision",
+      "ownerRisk": "canonical048 matches at once temporal part, but this lesson teaches spending an entire sum"
+    },
+    {
+      "sourceOrdinal": 2668,
+      "sourceId": "book10-16-0557",
+      "expression": "open ears and minds",
+      "sourceExample": "A good music class can open ears and minds.",
+      "targetMatchesFullSource": true,
+      "sceneAndDialogueKeysTargetBearing": true,
+      "fourReplyOptions": true,
+      "speakingSpanExact": true,
+      "writingExamplesTargetBearing": true,
+      "glossarySpansExact": 5,
+      "originality": "0 near-full guide-source copies after revision",
+      "ownerRisk": "paired ears+minds phrase is source-supported but naturalness needs independent review"
+    },
+    {
+      "sourceOrdinal": 2677,
+      "sourceId": "book10-16-0566",
+      "expression": "thread is broken",
+      "sourceExample": "If the tradition ends, an important thread is broken.",
+      "targetMatchesFullSource": true,
+      "sceneAndDialogueKeysTargetBearing": true,
+      "fourReplyOptions": true,
+      "speakingSpanExact": true,
+      "writingExamplesTargetBearing": true,
+      "glossarySpansExact": 5,
+      "originality": "0 near-full guide-source copies after revision",
+      "ownerRisk": "severed transmission distinct from continuing-thread canonicals"
+    },
+    {
+      "sourceOrdinal": 2700,
+      "sourceId": "book10-16-0589",
+      "expression": "send the message",
+      "sourceExample": "The policy should send the message that artists deserve payment.",
+      "targetMatchesFullSource": true,
+      "sceneAndDialogueKeysTargetBearing": true,
+      "fourReplyOptions": true,
+      "speakingSpanExact": true,
+      "writingExamplesTargetBearing": true,
+      "glossarySpansExact": 5,
+      "originality": "0 near-full guide-source copies after revision",
+      "ownerRisk": "no apparent same-sense selected owner"
+    }
+  ],
+  "automaticChecks": {
+    "focusedBuild": {
+      "lessons": 10,
+      "questions": 60,
+      "audioRequests": 40,
+      "reviewFlags": 0
+    },
+    "focusedCheck": "pass",
+    "fullVerifier": {
+      "sourceRows": 2604,
+      "selectedLessons": 573,
+      "questions": 3438,
+      "audioRequests": 2292,
+      "schemaErrors": 0,
+      "exactGuideCopies": 0,
+      "nearDuplicateFlags": 0,
+      "published": false
+    },
+    "allDiscoveredAliasAudit": {
+      "aliasRows": 160,
+      "matches": 160,
+      "exceptions": 0
+    },
+    "sourceOriginality": {
+      "sixTokenHitsExcludingFixedTarget": 0,
+      "nearFullGuideSentenceHits": 0
+    },
+    "selectedOwnerDetectorCollisionLeads": [
+      {
+        "sourceOrdinal": 2467,
+        "owner": 1164,
+        "reviewedDistinction": "argument-scrutiny versus emotional collapse"
+      },
+      {
+        "sourceOrdinal": 2627,
+        "owner": 48,
+        "reviewedDistinction": "whole-sum spending versus mere immediacy"
+      }
+    ]
+  },
+  "editorial": {
+    "status": "ten exact-hash AI content-cleared drafts selected into unpublished manifest; 2663 remains held",
+    "manifestChangedForThisCohort": true,
+    "published": false,
+    "held2663": "Pilot found same recall decision as selected canonical2726; parent agreed hold-editorial; source row reverted and draft removed",
+    "manifestSha256": "81cb588c4605a8b5f22cd16e99e1c783496e7f5c5f789b05f613441fe6097552",
+    "independentFollowup": {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-cohort-2413-2700-followup-review-pilot.json",
+      "sha256": "f138e5e7cb3f58329bb236e923c925b955c3a798bd5746171cc8464370f6aad8",
+      "result": "ten content-clear; 2663 held"
+    }
+  },
+  "selfReviewCorrection": "2505 and 2627 scene keys made gender-neutral to match their prompts; contentRevision 2; combined build/check refreshed.",
+  "replacementCandidate": {
+    "ordinal": 2473,
+    "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-2473-replacement-a.json",
+    "draftSha256": "3efc4145e140d232941ccf96dbfd451975388e94e9db342a2cafa149e1ff0660",
+    "sourceMeaning": "organisation diversifies into a new service category; original source mixed metaphor preserved only as provenance",
+    "canonicalComparison": "1858 asks whether personal roots coexist with openness, not whether an organisation adds a different service while retaining its core",
+    "focusedBuildCheck": "1 lesson, 6 questions, 4 audio requests, 0 flags",
+    "sourceOriginality": "0 six-token and 0 near-full guide matches",
+    "reviewState": "independent exact-hash AI content-clear; selected into unpublished manifest",
+    "contentRevision": 2,
+    "repair": "Independent review found contrast and speaking repeated repair-cooperative radios-to-bicycles scenario; speaking now uses history-society photo archive to guided walking tours, with new Chinese, target span and audio text."
+  },
+  "independentFirstPass": {
+    "report": "reviews-books10-16/independent-ai-review-held-cohort-2413-2700-review-pilot.json",
+    "sha256": "df5e2a98efbff61699288e6bf39e9f0b174e32d4fade817977a8960dec7a52fa",
+    "contentClear": [
+      2413,
+      2467,
+      2505,
+      2531,
+      2627
+    ],
+    "repairs": [
+      2513,
+      2668,
+      2677,
+      2700
+    ],
+    "ownerBlocked": [
+      2663
+    ]
+  },
+  "repairSummary": {
+    "2513": "Writing model2 now uses only corrected notice process and applicants seeking written confirmation; glossary recalculated.",
+    "2668": "Pattern now handles grammatical our/their/young/students’/children’s modifiers with positive and negative controls.",
+    "2677": "Writing model2 now uses workshop closure and failed transmission only; glossary recalculated.",
+    "2700": "Four-valid reply moved from guide-like artist-payment scenario to patient voting seats in clinic appointment redesign."
+  },
+  "cohortSourceOrdinals": [
+    2413,
+    2467,
+    2473,
+    2505,
+    2513,
+    2531,
+    2627,
+    2668,
+    2677,
+    2700
+  ]
+}

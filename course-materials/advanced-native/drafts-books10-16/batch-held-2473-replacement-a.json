@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-held-replacement-2473-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2473",
+      "number": 2473,
+      "inventoryId": "expr-2473",
+      "contentRevision": 2,
+      "titleEn": "branch out into new areas",
+      "titleZh": "擴展到新的服務領域",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bbranch(?:es|ed|ing)? out into\\b",
+        "glossaryForbidden": [
+          "\\bbranch(?:es|ed|ing)? out\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Expand an organisation’s work into a genuinely new type of activity while retaining its existing core.",
+        "meaningZh": "一個機構在保留原有核心工作的同時，擴展到真正不同的新活動類別。",
+        "grammar": "An organisation branches out into a new service, field or activity. The source says newer lanes, mixing road and tree metaphors; learner models use natural branch out into new areas/services. Name the old core and the new line.",
+        "register": "A library manager describing a service plan to trustees, or a cooperative leader briefing members, may use this ordinary professional phrase without claiming the expansion has succeeded.",
+        "boundaryZh": "須是擴展到不同類別的活動；只增加同一服務的時段或數量，不等於 branch out。",
+        "misconceptionZh": "來源的 newer lanes 是混合比喻，不應當作固定搭配照抄；本課也不等於放棄原有核心。",
+        "outcomeZh": "能指出原本業務、新類別、試行或資源界限，並分清擴展與單純增量。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0362",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 33,
+          "book": 10,
+          "question": 29,
+          "sample": "S1",
+          "sourceBookPages": "72–73",
+          "locatorNote": "DOCX table 29, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The company is branching out into newer lanes this year.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "branching out into newer lanes"
+        }
+      ],
+      "listening": {
+        "en": "The neighbourhood library still lends books, but this year it began lending gardening tools and teaching basic repairs. It is branching out into practical-skills services; staff will review demand before buying more equipment.",
+        "zh": "社區圖書館仍借出圖書，但今年開始借出園藝工具，並教授簡單維修。它正擴展到實用技能服務；員工會先檢討需求，再購買更多器材。",
+        "promptZh": "圖書館如何 branching out into 新領域？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It added tool lending and repair teaching beyond its book service.",
+            "zh": "它在借書服務以外加入工具借用和維修教學。"
+          },
+          {
+            "id": "b",
+            "en": "It stopped lending books and only shortened opening hours.",
+            "zh": "它停止借書，只縮短開放時間。"
+          },
+          {
+            "id": "c",
+            "en": "It lent more copies of the same titles but offered no new activity.",
+            "zh": "它只是多借出同一批書的副本，沒有新活動。"
+          },
+          {
+            "id": "d",
+            "en": "It bought all possible tools before checking whether anyone wanted them.",
+            "zh": "它未查需求便買下所有可買的工具。"
+          }
+        ],
+        "explanationZh": "借工具和教維修是借書以外的新服務類別；增加同一批書的數量則不是。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptEn": "A sports club still runs training sessions but has started a small nutrition workshop series for members. Why might the committee describe this as an expansion?",
+        "promptZh": "一間體育會仍舉辦訓練班，最近為會員試辦一系列小型營養工作坊。委員會為何可說這是擴展？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is adding a different kind of service alongside training.",
+            "zh": "它在訓練以外加入另一類服務。"
+          },
+          {
+            "id": "b",
+            "en": "The workshops take the club into education while training continues.",
+            "zh": "訓練繼續，工作坊則把體育會帶到教育領域。"
+          },
+          {
+            "id": "c",
+            "en": "The club is branching out into nutrition education.",
+            "zh": "體育會正擴展到營養教育。"
+          },
+          {
+            "id": "d",
+            "en": "The committee can test interest in a new service without abandoning the core sessions.",
+            "zh": "委員會可在保留核心訓練的同時測試新服務的需求。"
+          }
+        ],
+        "explanationZh": "四句都指出訓練以外多了營養教育；金句自然使用 branch out into。",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "麵包店保留日常烘焙售賣，另試辦教顧客製作酸種麵包的週末課程。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The bakery is branching out into weekend baking classes while still selling bread.",
+            "zh": "麵包店仍售麵包，同時擴展到週末烘焙課。"
+          },
+          {
+            "id": "b",
+            "en": "The bakery is only baking more of the same loaves, with no new service.",
+            "zh": "麵包店只是增加同款麵包產量，沒有新服務。"
+          },
+          {
+            "id": "c",
+            "en": "The bakery has closed its shop and ended all bread sales.",
+            "zh": "麵包店已關門，完全停止賣麵包。"
+          }
+        ],
+        "explanationZh": "教學是售賣麵包以外的新類別，原有業務仍在。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說機構 branches out into a new area？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A repair cooperative adds supervised bicycle maintenance to its radio work.",
+            "zh": "維修合作社在修收音機之外加入有人指導的單車維修。"
+          },
+          {
+            "id": "b",
+            "en": "A cinema starts running film-making workshops alongside screenings.",
+            "zh": "戲院在放映以外開設電影製作工作坊。"
+          },
+          {
+            "id": "c",
+            "en": "A bookshop sells more copies of the same books without offering a new service.",
+            "zh": "書店只增加同款書的銷量，沒有推出新服務。"
+          }
+        ],
+        "explanationZh": "最後一項只擴大原有銷量，沒有進入新的活動類別。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptEn": "A: The theatre will still stage plays, but it wants to rent costumes to local schools as a small pilot. Are we leaving theatre work behind?\nB: ?",
+        "promptZh": "甲：劇院仍會上演戲劇，但想小規模試行把戲服租給本地學校。我們是在放棄劇院工作嗎？\n乙：？",
+        "options": [
+          {
+            "id": "a",
+            "en": "No. We are branching out into costume rental while keeping our productions.",
+            "zh": "不是。我們會保留演出，同時擴展到戲服租賃。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. Renting one costume means every play must close at once.",
+            "zh": "是。只要租出一件戲服，所有戲劇便要立即停演。"
+          },
+          {
+            "id": "c",
+            "en": "No. Costume rental is exactly the same activity as staging a play, so nothing changes.",
+            "zh": "不是。戲服租賃與上演戲劇完全相同，因此沒有改變。"
+          }
+        ],
+        "explanationZh": "戲服租賃是演出以外的新服務，而劇院仍保留原本製作。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The local history society branched out into guided walking tours after years of archiving photographs, but it began with one small trial route.",
+        "zh": "本地歷史學會多年來整理相片檔案，後來擴展到導賞步行團，但起初只試行一條短路線。",
+        "promptZh": "先聽示範，再指出原本工作、新服務和試行界限。",
+        "targetSpan": {
+          "start": 26,
+          "end": 43
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：科學博物館原本只辦館內展覽，現試行把可借用的實驗套裝送到學校。用英文說明原有核心、新活動及如何審慎測試需求。",
+        "selfCheckZh": "說出展覽仍然保留、可借用套裝屬新服務，以及試行和檢討方法；不能只說博物館「做得更多」。",
+        "examples": [
+          {
+            "en": "The museum is branching out into school kit loans while keeping its exhibitions. It will lend ten experiment sets first and ask teachers which activities pupils actually use.",
+            "zh": "博物館保留館內展覽，同時擴展到學校實驗套裝借用。它會先借出十套，再問老師學生實際使用哪些活動。"
+          },
+          {
+            "en": "Exhibitions remain the museum’s core work, but it branched out into lending experiment kits to schools. A one-term trial will show whether teachers need more sets.",
+            "zh": "展覽仍是博物館的核心工作，但它已擴展到向學校借出實驗套裝。一學期試行可讓館方知道老師是否需要更多套裝。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "school kit loans",
+            "zh": "學校套裝借用",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 49
+            }
+          },
+          {
+            "en": "experiment sets",
+            "zh": "實驗套裝",
+            "exampleIndex": 0,
+            "span": {
+              "start": 98,
+              "end": 113
+            }
+          },
+          {
+            "en": "actually use",
+            "zh": "實際使用",
+            "exampleIndex": 0,
+            "span": {
+              "start": 161,
+              "end": 173
+            }
+          },
+          {
+            "en": "core work",
+            "zh": "核心工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 32,
+              "end": 41
+            }
+          },
+          {
+            "en": "one-term trial",
+            "zh": "一學期試行",
+            "exampleIndex": 1,
+            "span": {
+              "start": 106,
+              "end": 120
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A small bakery branched out into classes only after checking that customers wanted them.",
+          "zh": "小麵包店確認顧客有興趣後，才擴展到課程。"
+        },
+        {
+          "en": "Selling more of the same product is growth, but it is not necessarily branching out into a new area.",
+          "zh": "多賣原有產品是增長，但未必算擴展到新領域。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional lesson; independent editorial and media review pending.",
+          "Organisational diversification into a new service category is distinct from canonical1858 keeping personal roots while exploring interests; source mixed metaphor is preserved only as provenance."
+        ]
+      }
+    }
+  ]
+}

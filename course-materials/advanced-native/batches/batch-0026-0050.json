@@ -6279,9 +6279,9 @@
       "number": 46,
       "inventoryId": "expr-0046",
       "titleEn": "break something down",
-      "titleZh": "把任務拆成小步驟",
+      "titleZh": "把任務或概念拆成小部分",
       "category": "phrasal-verb",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
         "pattern": "\\b(?:break|breaks|broke|broken|breaking) (?:it down|them down|the task down|the project down|down the task|down the project|down large tasks)\\b",
         "glossaryForbidden": [
@@ -6302,16 +6302,30 @@
           "sentence": "She made her assignments manageable by breaking them down into smaller tasks.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "breaking them down"
+        },
+        {
+          "occurrenceId": "book10-16-1493",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 140,
+          "book": 14,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "12–15",
+          "locatorNote": "DOCX table 149, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The teacher will break them down into small steps.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "break them down"
         }
       ],
       "brief": {
-        "meaningEn": "Divide a complex task into smaller, manageable parts.",
-        "meaningZh": "把複雜任務拆成較小、較容易處理的部分。",
-        "grammar": "break something down into parts/steps; break it/them down; break down the task; past broke down.",
-        "register": "Neutral planning language; this lesson excludes physical destruction and machine failure.",
-        "boundaryZh": "拆解是保留目標並分成小部分，不是取消、破壞或讓機器故障。",
+        "meaningEn": "Divide a complex task or idea into smaller, manageable parts or steps.",
+        "meaningZh": "把複雜任務或概念拆成較小、較容易處理的部分或步驟。",
+        "grammar": "Break a task or complex ideas down into parts/steps; break it/them down; past broke down. Pronouns go between break and down. In teaching, the smaller steps help explain an idea.",
+        "register": "Neutral planning and teaching language; this lesson excludes physical destruction and machine failure.",
+        "boundaryZh": "拆解任務或概念是保留整體，再分成較易處理或理解的小部分；不是取消、破壞或讓機器故障。",
         "misconceptionZh": "代詞要放在 break 和 down 之間；本課重點是工作規劃的意思。",
-        "outcomeZh": "能把大任務拆解為可實行的小步驟，並提出先做哪一步。"
+        "outcomeZh": "能把大任務或難懂概念拆成可實行或可理解的小步驟。"
       },
       "listening": {
         "promptEn": "",
@@ -6396,26 +6410,26 @@
       },
       "contrast": {
         "promptEn": "",
-        "promptZh": "按本課「拆解工作」的意思，哪個情況不宜用 break it down？",
+        "promptZh": "學生想理解校園水浸的三個互相關連成因。哪句最符合 break them down？",
         "options": [
           {
             "id": "choice-1",
-            "en": "A writer divides a report into research, an outline and a first draft.",
-            "zh": "作者把報告分成研究、大綱和初稿。"
+            "en": "We can break them down by showing each cause in a separate diagram before connecting them.",
+            "zh": "我們可把三個成因分開，用各自的圖解說，再說明它們如何相連。"
           },
           {
             "id": "choice-2",
-            "en": "A team leaves a task completely undivided and simply adds more work.",
-            "zh": "團隊完全不分拆任務，只是增加更多工作。"
+            "en": "We can explain only the final flood damage and leave the three causes unnamed.",
+            "zh": "我們可只解釋最後的水浸損失，不提三個成因。"
           },
           {
             "id": "choice-3",
-            "en": "A learner turns a revision plan into several short sessions.",
-            "zh": "學習者把溫習計劃分成幾節短時段。"
+            "en": "We can list all three causes at once without showing how any of them works.",
+            "zh": "我們可一次列出三個成因，但不解釋任何一個如何起作用。"
           }
         ],
-        "answerId": "choice-2",
-        "explanationZh": "沒有分拆而且增加工作，與拆成較小部分不同；不是任何改動都叫 break down。"
+        "answerId": "choice-1",
+        "explanationZh": "break them down 是把複雜成因分開解說，再連起來理解；只講結果或只列名稱都沒有拆解其運作。"
       },
       "dialogue": {
         "promptEn": "",

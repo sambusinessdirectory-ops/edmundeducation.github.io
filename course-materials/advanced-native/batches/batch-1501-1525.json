@@ -488,12 +488,12 @@
       "id": "advanced-native-1503",
       "number": 1503,
       "inventoryId": "expr-1503",
-      "contentRevision": 3,
+      "contentRevision": 4,
       "titleEn": "woven into everyday life",
       "titleZh": "融入日常習慣",
       "category": "figurative",
       "target": {
-        "pattern": "\\b(?:deeply )?woven into (?:daily routines|(?:ordinary )?daily life|ordinary life|everyday living|everyday life)\\b"
+        "pattern": "(?:\\b(?:deeply )?woven into (?:daily routines|(?:ordinary )?daily life|ordinary life|everyday living|everyday life)\\b)|(?:\\bwoven quite naturally into everyday life\\b)"
       },
       "sources": [
         {
@@ -565,12 +565,40 @@
           "sentence": "Digital payments are deeply woven into everyday life.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "deeply woven into everyday life"
+        },
+        {
+          "occurrenceId": "book10-16-1573",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 148,
+          "book": 14,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "30–31",
+          "locatorNote": "DOCX table 157, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Science is woven into everyday life through transport and medicine.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "science is woven into everyday life"
+        },
+        {
+          "occurrenceId": "book10-16-1639",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 154,
+          "book": 14,
+          "question": 20,
+          "sample": "S1",
+          "sourceBookPages": "44–46",
+          "locatorNote": "DOCX table 164, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Shopping is woven quite naturally into everyday life in the district.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "woven quite naturally into everyday life"
         }
       ],
       "brief": {
         "meaningEn": "Integrated into ordinary repeated activities.",
         "meaningZh": "融入平常重複進行的生活活動。",
-        "grammar": "Be woven into daily routines, ordinary life, everyday living or everyday life; deeply intensifies how fully a practice is integrated. The fabric image is figurative, not literal thread.",
+        "grammar": "Be woven into daily routines, ordinary life, everyday living or everyday life; deeply stresses how fully a practice is integrated, while quite naturally describes smooth integration. The fabric image is figurative, not literal thread.",
         "register": "Neutral integration metaphor; a resident may use it to describe a habitual service or family practice to a visitor, without claiming everyone follows the same routine.",
         "boundaryZh": "weave 是融入的比喻；每天有自然位置，不是只在特別場合展示，也不表示人人做法相同。",
         "misconceptionZh": "weave 是融入的比喻；每天有自然位置，不是只在特別場合展示，也不表示人人做法相同。",

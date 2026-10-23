@@ -1,0 +1,29 @@
+{
+  "status": "unselected-provisional-author-drafts-awaiting-independent-review",
+  "scope": "Ten distinct proposed held-source lessons in source ordinals 4300–4715; existing editorial decisions remain hold-editorial until independent content and owner review.",
+  "sourceInventory": {
+    "file": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "examplesCompared": 2604
+  },
+  "drafts": [
+    {"file": "course-materials/advanced-native/drafts-books10-16/batch-held-4310-4368-b.json", "sha256": "aed9e04bb18250c22c0cf1aa775f0815747c1aa8f132f6a32651e07d4699ac8a", "ordinals": [4310, 4368]},
+    {"file": "course-materials/advanced-native/drafts-books10-16/batch-held-4386-4448-b.json", "sha256": "488a7f4612aa5136af111fdf7888359a26f819d5bca5874ac7c9e893c49aba40", "ordinals": [4386, 4390, 4448]},
+    {"file": "course-materials/advanced-native/drafts-books10-16/batch-held-4576-4596-b.json", "sha256": "b691a2c18eafd0443f41a037821840f2c6dd9d688e3c2cc392b1e849db12fa61", "ordinals": [4576, 4588, 4596]},
+    {"file": "course-materials/advanced-native/drafts-books10-16/batch-held-4611-4689-b.json", "sha256": "a506a14aa6d13cc10caff11e01443805ac9ffbd564c6dc20becc06000153d695", "ordinals": [4611, 4689]}
+  ],
+  "mechanicalChecks": {
+    "focusedBuildAndCheck": "10 lessons, 60 questions, 40 audio requests, zero validation errors or review flags",
+    "sourceProvenance": "All ten draft source IDs, expressions and guide sentences copied exactly from their inventory occurrences; source examples match the lesson target detectors.",
+    "existingCanonicalDetectorCollision": "Zero source-example matches against the existing canonical lesson catalogue for the ten proposed owners; semantic near-owner judgement remains for independent review.",
+    "originalityScreen": "230 learner-facing English strings compared with 2,604 guide examples: zero non-target six-token overlaps and zero near-full source-sentence matches at at most two substitutions. The long fixed target in 4596 repeats as target-only overlap; its separate scenario contexts need editorial review.",
+    "schema": "Four answer options for the reply task with one target-bearing keyed option; six questions and four audio texts per lesson; two writing examples with exact answer-derived glossary spans."
+  },
+  "independentReviewPriorities": [
+    "4596 is a long, bespoke active-system-repair metaphor. Decide whether it is natural and reusable enough for a separate seven-step lesson; retain the source on editorial hold if not.",
+    "4689 teaches figurative copy and paste, distinct from literal computer editing; confirm the detector and all examples preserve this boundary.",
+    "4310 walking through fog and 4386 sound bubble have literal counterparts; confirm context prevents false semantic teaching.",
+    "4448 edible history is a compact food-and-heritage metaphor; verify varied learner decisions and that it does not claim one dish represents a whole culture."
+  ],
+  "releaseState": "Unselected and unpublished. This self-audit is not independent AI clearance, human approval, or audio listening certification."
+}

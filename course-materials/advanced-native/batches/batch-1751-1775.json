@@ -3279,12 +3279,12 @@
       "id": "advanced-native-1766",
       "number": 1766,
       "inventoryId": "expr-1766",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "one chapter in a much longer story",
       "titleZh": "更長歷史故事中的一章",
       "category": "figurative",
       "target": {
-        "pattern": "\\bone chapter in a much longer story\\b"
+        "pattern": "\\bone chapter in a much longer story\\b|\\bpart of a longer story\\b"
       },
       "sources": [
         {
@@ -3300,16 +3300,30 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "one chapter in a much longer story",
           "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-0419",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 39,
+          "book": 10,
+          "question": 35,
+          "sample": "S1",
+          "sourceBookPages": "85–86",
+          "locatorNote": "DOCX table 35, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Each family record is part of a longer story.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "part of a longer story"
         }
       ],
       "brief": {
-        "meaningEn": "One period or generation within a broader continuing history.",
-        "meaningZh": "較廣而延續的歷史中，一個時期或一代人。",
-        "grammar": "our era/the present project is one chapter in a much longer story; story is continuing history, not necessarily a written novel",
-        "register": "neutral",
-        "boundaryZh": "一章不代表無足輕重，也不等於已知結局；需交代前後連繫，不把當前當全部歷史。",
-        "misconceptionZh": "一章不代表無足輕重，也不等於已知結局；需交代前後連繫，不把當前當全部歷史。",
-        "outcomeZh": "理解「更長歷史故事中的一章」的語境及用法，並在新情境寫出自然句子。"
+        "meaningEn": "An event, record or period belongs within a broader continuing history rather than standing alone.",
+        "meaningZh": "一件事、一份紀錄或一段時期屬於更廣而延續的歷史，並非孤立存在。",
+        "grammar": "A period or project can be one chapter in a much longer story; an event or record can be part of a longer story. Chapter presents a bounded period, while part can name a smaller element. Story is continuing history, not necessarily a written novel.",
+        "register": "A historian explaining a record to visitors, or a community organiser describing a project to residents, can use this neutral narrative metaphor.",
+        "boundaryZh": "「一部分」或「一章」不代表無足輕重，也不等於已知結局；要指出與前後事情的連繫，不把單一紀錄當作全部歷史。",
+        "misconceptionZh": "一份紀錄可屬於更長故事，但不能單靠這句話推斷其他部分的具體內容。",
+        "outcomeZh": "能說明某件事或某段時期如何連接較長歷史，並區分「部分」與「一章」的範圍。"
       },
       "listening": {
         "en": "The new library was one chapter in a much longer story: earlier residents had exchanged books in kitchens, and the current volunteers hoped later groups would adapt the collection again.",
@@ -3510,8 +3524,8 @@
           "zh": "首展是更長故事中的一章，連早前草圖與新班還未想出的作品。"
         },
         {
-          "en": "She described the community garden as one chapter in a much longer story of residents finding ways to share the space.",
-          "zh": "她把社區園圃描述為居民尋找共用空間方法的更長故事中的一章。"
+          "en": "The restored market sign is part of a longer story about how neighbours learned to share the street.",
+          "zh": "修復後的街市招牌屬於一段更長的故事，記錄鄰居如何逐漸學會共用那條街。"
         }
       ],
       "review": {

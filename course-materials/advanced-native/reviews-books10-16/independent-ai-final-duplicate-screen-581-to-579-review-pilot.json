@@ -1,0 +1,141 @@
+{
+  "type": "AI final selected-set semantic duplicate screen and scoped merge report; not human approval",
+  "recordedAtUtc": "2026-10-23T19:13:26.347944+00:00",
+  "selectedInitial": 581,
+  "selectedFinal": 579,
+  "sourceInventoryRows": 2604,
+  "inputHashes": {
+    "initialSelectedManifestSha256": "2f613dc09cec85354b2ab39afb1fbefe44917712c7ba1474a9451a12e040921e",
+    "finalSelectedManifestSha256": "8ee3b1a29664dc8d6c7f3c66d7a717cd3766b17b3fffc22ab094c97336ef6548",
+    "initialFuzzyQueueSha256": "82a2fb1c9fd150a8d41827f2bf91091ef6780a1dd7eea52de252142258b38287",
+    "finalFuzzyQueueSha256": "3ba49533b932cc25fcd4aa5f8e7470c8f44126407e49d373f0607f4098461ae7",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "screen": {
+    "initialFuzzyNearFull": 12,
+    "initialFuzzyReviewNearFull": 47,
+    "initialFuzzyUniqueLessons": 20,
+    "interpretation": "All 59 fuzzy hits are repeated fixed target frames within their own source idiom; none independently establishes a different-owner collision.",
+    "exactSelectedTitleDuplicates": 0,
+    "lexicalTitleOrBriefCandidatePairsReviewed": 51
+  },
+  "resolvedConcreteDuplicates": [
+    {
+      "owners": [
+        2200,
+        3751
+      ],
+      "sourceIds": [
+        "book10-16-0089",
+        "book10-16-1640"
+      ],
+      "reason": "Both use the same in-person arranged gathering sense and identical full-source target detector. Earlier owner 2200 retained; later 3751 alias-new and provenance appended."
+    },
+    {
+      "owners": [
+        2684,
+        4510
+      ],
+      "sourceIds": [
+        "book10-16-0573",
+        "book10-16-2399"
+      ],
+      "reason": "Both continue an existing practice or useful feature into a later stage. Earlier owner 2684 retained to satisfy alias chronology; its grammar/detector and one keyed scene plus takeaway now cover object/passive forms. Later 4510 alias-new and provenance appended."
+    }
+  ],
+  "relatedExpressionPairsRetained": [
+    {
+      "owners": [
+        2969,
+        3564
+      ],
+      "sourceIds": [
+        "book10-16-0858",
+        "book10-16-1453"
+      ],
+      "reason": "Imposed from above labels the affected group’s judgement of a directive; from the top down names the direction of organisational decision flow. Different lexical constructions and patterns, though scenarios overlap; retained as separate expression forms."
+    },
+    {
+      "owners": [
+        2240,
+        3715
+      ],
+      "sourceIds": [
+        "book10-16-0129",
+        "book10-16-1604"
+      ],
+      "reason": "Shifted with the times describes a completed adaptation; move with the times can prescribe ongoing adaptation. Similar purpose but different verb frame, aspect and source-specific learner form."
+    },
+    {
+      "owners": [
+        2269,
+        2280
+      ],
+      "sourceIds": [
+        "book10-16-0158",
+        "book10-16-0169"
+      ],
+      "reason": "Bend the truth covers selective or misleading presentation, including omission; stretch the truth focuses on an exaggerated claim beyond the evidence. Some numeric-writing examples overlap, but source target expressions and assessed nuance differ."
+    },
+    {
+      "owners": [
+        2416,
+        3984
+      ],
+      "sourceIds": [
+        "book10-16-0305",
+        "book10-16-1873"
+      ],
+      "reason": "Fall into place allows facts gradually to become coherent; click into place emphasizes sudden fit after a clue. Their learner decisions differ in aspect."
+    },
+    {
+      "owners": [
+        2854,
+        4304
+      ],
+      "sourceIds": [
+        "book10-16-0743",
+        "book10-16-2193"
+      ],
+      "reason": "Spill across borders identifies effects spreading outward from an origin; cross borders states an issue spans national boundaries. Different causal/source focus."
+    },
+    {
+      "owners": [
+        2878,
+        3487
+      ],
+      "sourceIds": [
+        "book10-16-0767",
+        "book10-16-1376"
+      ],
+      "reason": "Make headlines establishes prominent coverage; grab the headlines emphasizes dominating attention over other stories."
+    }
+  ],
+  "postMergeValidation": {
+    "sourceRows": 2604,
+    "selectedLessons": 579,
+    "questions": 3474,
+    "audioRoles": 2316,
+    "schemaErrors": 0,
+    "nearDuplicateFlags": 0,
+    "newAliasesMatched": 163,
+    "existingAliasesMatched": 1113,
+    "exactGuideCopies": 0
+  },
+  "releasePrep": {
+    "path": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/release-prep-579",
+    "sqlModules": 680,
+    "sqlQuestions": 4080,
+    "databaseApplied": false
+  },
+  "openGates": [
+    "human linguistic review",
+    "audio listening and refreshed affected clips",
+    "database/application deployment approval"
+  ],
+  "independentFocusedReview": {
+    "path": "independent-ai-final-duplicate-merges-2684-4510-2200-3751-b.json",
+    "sha256": "44f4cba5d4266ce6ee61bbbec847e6d84b97b081e8e2accfa297d9a6bfbf7a54",
+    "result": "both scoped merges clear; 2684 changed takeaway audio requires final exact-key media QA"
+  }
+}

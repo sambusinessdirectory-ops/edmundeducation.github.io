@@ -1,0 +1,32 @@
+{
+  "reviewType": "independent-ai-risk-based-new-held-lesson-review",
+  "scope": "Ten unselected Pilot drafts, with detailed content review of six source-distinct owners, three polysemy owner questions, and one likely duplicate",
+  "inputs": {
+    "pilotBatch1": {"path": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3142-3647-review-pilot.json", "sha256": "eb9ebe3e3118291c28a6715436d6f0b9c2459fef5036515b36fb0a3b01c9b9e5"},
+    "pilotBatch2": {"path": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3726-4339-review-pilot.json", "sha256": "14e30e2340585c138f10dd22bb71f2d3903c5dd925672c30f3805b096e1ec1f7"},
+    "authorAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-distinct-3142-4339-review-pilot.json", "sha256": "c327145def24c6fa17bcc593be4a040686f1d1ddbd061942292c186d71ff6841"}
+  },
+  "coverage": "Read full seven-step content and source/owner briefs for all ten. Independently checked source target matches, one target reply, keyed scene/dialogue target, speaking and writing target spans, all glossary exact spans and required Traditional Chinese prompts for the six content-clear lessons. Author reported focused build/check 5/30/20/0 for each file; no publication or human review is inferred.",
+  "contentClearAtRecordedHashes": [
+    {"ordinal": 3505, "reason": "Natural nonliteral invitation to pay unhurried attention; all four reply answers valid and writing transfers the essay source to an archive timetable."},
+    {"ordinal": 3647, "reason": "Roots and wings consistently combines dependable support with independent choice; does not falsely require moving house."},
+    {"ordinal": 3726, "reason": "Figurative death-sentence use preserves serious setback versus inevitable end, with explicit uncertainty rather than a guarantee of recovery."},
+    {"ordinal": 3788, "reason": "Project an image distinguishes intended public impression from actual audience response; bilingual answers and models preserve that distinction."},
+    {"ordinal": 3841, "reason": "Upward mobility is correctly socioeconomic, and apprenticeship examples state access improvements without promising employment."},
+    {"ordinal": 4147, "reason": "String-around-finger analogy separates reminder cue from task completion; actual orange-tag transfer and target spans are valid after final source-frame edits."}
+  ],
+  "ownerScopePendingParentAdjudication": [
+    {"ordinal": 3142, "priorOwner": 48, "note": "Identical at once surface and detector, but immediate-after-trigger versus simultaneous senses. A distinct sense lesson is linguistically defensible; parent should confirm catalogue treatment of identical target forms before selecting both."},
+    {"ordinal": 3308, "priorOwner": 711, "note": "Source makes life/events, not a person's routine behaviour, depart from a plan. The subject and learner decision differ, though the phrase shares follow a script wording."},
+    {"ordinal": 3394, "priorOwner": 441, "note": "Pick up a postcard means obtain, whereas prior 441 teaches informally acquiring a skill. Current proposed owner detector is object bounded; prior 441 detector remains broad enough to match the postcard surface in isolation, so coexistence needs an explicit polysemy decision."}
+  ],
+  "blockingFinding": {
+    "id": "R4339-01",
+    "ordinal": 4339,
+    "severity": "major-owner-duplicate",
+    "path": "drafts-books10-16/batch-held-distinct-3726-4339-review-pilot.json:lesson advanced-native-4339",
+    "evidence": "Selected lesson 4175 explicitly teaches an important condition or nuance lost when a message moves between people, formats or languages. Its listening, scene, dialogue and writing compare original terms with shortened minutes, notes and handoffs, then restore the omitted condition. Draft 4339 tests the same decision with a safety flyer, volunteer summary, short bilingual guide and phone-message rewrite.",
+    "recommendation": "Do not select 4339 as a separate owner. Evaluate a bounded get lost along the way alternate within 4175 with exact source provenance, or retain editorial hold if the alternate cannot be taught without redundancy. Pilot agrees with withholding the separate owner."
+  },
+  "status": "Six lessons AI content-clear at recorded hashes; three await polysemy owner adjudication; 4339 blocked as a duplicate owner. All remain unselected/unpublished. No human, media-listening or release approval claimed."
+}

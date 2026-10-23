@@ -1,0 +1,43 @@
+{
+  "reviewType": "independent-exact-hash-focused-ai-review",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-alias-wave-2530-2658-a.json",
+  "authorAuditSha256": "9e38392d4bb51bacd967fa3ff5729c8103773777375d712814664d9553370a4a",
+  "scope": "Two held-to-existing aliases; source meaning/provenance, bounded target, changed bilingual model and target-bearing keyed dialogue. Unchanged questions were not reaudited exhaustively.",
+  "rows": [
+    {
+      "ordinal": 2530,
+      "owner": "advanced-native-1766",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1751-1775.json",
+      "canonicalSha256": "aa502374a84878b1bca395d0e2cab56e54eefa215017025b5755da2147901a2a",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+      "decisionSha256": "436a9d73c1fffa37540853c55e2e90110c1c99b9d9e322cd51a1464dc2780f3c",
+      "ownerHashMatchesAudit": true,
+      "decisionHashMatchesAudit": true,
+      "exactSourceProvenance": true,
+      "fullSourceMatchesTargetGi": true,
+      "sourceSenseKeyAndChangedEnglishChineseReview": "Part of a longer story and one chapter in a much longer story locate a record or period in continuing history. Brief distinguishes smaller part from bounded chapter; market-sign takeaway is a different situation with faithful Chinese.",
+      "status": "content-clear"
+    },
+    {
+      "ordinal": 2658,
+      "owner": "advanced-native-284",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-0276-0300.json",
+      "canonicalSha256": "f832fc36ff26c381158584b663a6e8faa5159d2f1a2f0dee1973ed73d5c818a1",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+      "decisionSha256": "68f7f0305edd59158dc20ce4393e86e55b6ee22bd631fac1cbaf339c1baf02d1",
+      "ownerHashMatchesAudit": true,
+      "decisionHashMatchesAudit": true,
+      "exactSourceProvenance": true,
+      "fullSourceMatchesTargetGi": true,
+      "sourceSenseKeyAndChangedEnglishChineseReview": "Everyday soundtrack and a whole life-period soundtrack share recurring association between music/sound and lived experience. Architecture-study playlist transfers beyond source songs, with aligned Traditional Chinese; repaired dialogue key contains the owner target and rejects literal film/concert requirements.",
+      "status": "content-clear"
+    }
+  ],
+  "checks": {
+    "verifier": "2,604 source/decision rows, 553 selected drafts, zero schema errors at review",
+    "authorFocusedBuildCheck": "PASS: two canonical batches, 46 lessons, 276 questions, 184 audio requests, zero flags"
+  },
+  "blockers": [],
+  "contentClear": true,
+  "publicationApproved": false
+}

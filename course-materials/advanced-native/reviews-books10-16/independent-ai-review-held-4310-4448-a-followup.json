@@ -1,0 +1,63 @@
+{
+  "status": "exact-hash-independent-ai-content-clear",
+  "scope": {
+    "sourceOrdinals": [
+      4310,
+      4368,
+      4386,
+      4390,
+      4448
+    ],
+    "draftFiles": [
+      {
+        "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4310-4368-b.json",
+        "sha256": "3a685e392c38a02702ba20b3b90b32d5fe07426676e49371574a774f05a63f67"
+      },
+      {
+        "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4386-4448-b.json",
+        "sha256": "ce2cda104dbf16180f7f7225f4c608173dc58d0721184d71b7d3c27f6d9ae0b8"
+      }
+    ],
+    "selected": false,
+    "published": false
+  },
+  "initialReport": {
+    "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-4310-4448-a.json",
+    "sha256": "3f6a3c23aae1ee44b2a7ed2643dabce056a6d7a2485fcb0576fd9b64101c7cee"
+  },
+  "focusedMechanicalCheck": "Fresh build and --check: 5 lessons, 30 questions, 20 audio requests, zero review flags.",
+  "findingFollowup": [
+    {
+      "id": "R4310-01",
+      "status": "cleared",
+      "evidence": "The keyed scene now gives residents complete numbers but shows they cannot distinguish median from mean; the new case assesses lack of understanding rather than only missing paperwork."
+    },
+    {
+      "id": "R4368-01",
+      "status": "cleared",
+      "evidence": "Final writing now uses an accessible-bus campaign selling independence, with actual timetable still unavailable. Both models and Traditional Chinese address that new emotional appeal and factual limit; it no longer repeats the family theatre poster."
+    },
+    {
+      "id": "R4386-01",
+      "status": "cleared",
+      "evidence": "Dialogue now concerns leaving a jazz-headphone bubble to speak with a friend at a café; final writing uses ocean audio against clinic television while monitoring a nurse call. These differ from the museum guide and interview-editing situations."
+    },
+    {
+      "id": "R4390-01",
+      "status": "cleared",
+      "evidence": "Contrast now includes chair rearrangement during a farewell speech, and both final writing models use a volunteer missing a community-garden harvest handover while counting tools. Filming remains as source fidelity, but the final transfer is non-screen."
+    },
+    {
+      "id": "R4448-01",
+      "status": "cleared",
+      "evidence": "Both writing models now explain compact rice-and-pickle bundles wrapped in cloth and eaten without reheating, addressing the portability reason and the partial-history boundary in English and Traditional Chinese."
+    },
+    {
+      "id": "RBATCH-FOILS-01",
+      "status": "cleared",
+      "evidence": "The listed extreme literal/impossible options were replaced with context-specific but mistaken interpretations or advice. Changed EN/ZH pairings are faithful; for example the library advert option now overpromises its suggested feeling, and the snow-recording option incorrectly treats the recording as sufficient direct experience."
+    }
+  ],
+  "sourceAndOwner": "No new same-sense selected-owner collision found in the scoped first-five follow-up; source meanings and exact expressions remain intact.",
+  "conclusion": "Five lessons AI content-clear at these exact hashes for provisional unpublished selection. This does not certify human review, media listening or release."
+}

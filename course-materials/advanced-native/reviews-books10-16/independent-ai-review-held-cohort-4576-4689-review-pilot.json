@@ -1,0 +1,65 @@
+{
+  "reviewType": "Independent AI editorial and owner-risk review, not human approval or release clearance",
+  "reviewedAtUtc": "2026-10-23T18:47:03.260155+00:00",
+  "scope": "Five unselected held-source lesson drafts: 4576, 4588, 4596, 4611, 4689",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4576-4596-b.json",
+      "sha256": "b691a2c18eafd0443f41a037821840f2c6dd9d688e3c2cc392b1e849db12fa61"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4611-4689-b.json",
+      "sha256": "a506a14aa6d13cc10caff11e01443805ac9ffbd564c6dc20becc06000153d695"
+    }
+  ],
+  "checks": {
+    "focusedBuildAndCheck": "5 lessons, 30 questions, 20 audio requests, 0 review flags",
+    "sourceAndTarget": "All five exact source sentences match bounded target patterns; target-bearing scene/dialogue/golden replies and both writing examples pass",
+    "spans": "All five speaking target spans and 25 writing glossary spans are exact",
+    "reply": "Each lesson has four contextually valid reply choices with one target-bearing golden response"
+  },
+  "findings": [
+    {
+      "id": "R4596-01",
+      "sourceOrdinal": 4596,
+      "severity": "major-owner-eligibility",
+      "path": "brief / target / seven steps",
+      "explanation": "The eleven-word roof-and-house clause is a source-specific extended analogy, not a conventional set phrase. Although understandable, the seven tasks force its exact wording into a clinic, school, bakery, library, port and pantry; most assess the same continuing-service-during-upgrade decision. It risks teaching a one-off image as a reusable fixed expression. The hold reason itself asks for this naturalness gate.",
+      "recommendedFix": "Keep source 4596 on editorial hold unless the owner explicitly accepts this as a creative figurative-use lesson after a naturalness/transfer review. A release candidate would need a genuinely reusable pattern and more distinct decisions without requiring students to repeat the entire bespoke clause."
+    },
+    {
+      "id": "R4689-01",
+      "sourceOrdinal": 4689,
+      "severity": "major",
+      "path": "brief.meaningEn/meaningZh; assessed steps",
+      "explanation": "The exact source says visitors want a local experience they cannot copy and paste from another city: the non-replicable, place-specific side of the metaphor. The draft teaches only the criticism of copying plans from elsewhere without adaptation. That is related but leaves the source’s affirmative uniqueness sense unassessed and narrows the meaning too far.",
+      "recommendedFix": "Broaden the brief to cover exact replication and its limits, then add at least one grounded assessed case where a distinctive local experience cannot simply be copied elsewhere. Retain the literal-computer-editing boundary, adaptation examples, and a precise Chinese rendering; avoid claiming all borrowing is wrong."
+    },
+    {
+      "id": "R4689-02",
+      "sourceOrdinal": 4689,
+      "severity": "minor",
+      "path": "speaking; contrast.options[2]",
+      "explanation": "Both steps reuse the cafe copying another city’s menu and overlooking local dietary needs, contrary to SOP setting rotation.",
+      "recommendedFix": "Move the speaking model to a different institution and local constraint while preserving the figurative target and recalculating the target span."
+    },
+    {
+      "id": "R4588-01",
+      "sourceOrdinal": 4588,
+      "severity": "minor",
+      "path": "listening / reply / writing",
+      "explanation": "Three assessed contexts cluster around a working caregiver or shift-working parent with scarce time. The source itself names working parents, so the lesson offers limited transfer beyond that one demographic.",
+      "recommendedFix": "Replace one of the three contexts with a different bounded scarcity of time, such as a volunteer team’s brief morning setup window, without implying wealth or absolute unavailability."
+    }
+  ],
+  "contentClearAtReviewedHashes": [
+    4576,
+    4611
+  ],
+  "conditionalNotes": {
+    "4588": "Semantic content and answers are clear; minor scenario rotation before provisional selection is recommended.",
+    "4596": "Comprehensible as a creative analogy but not yet cleared as a standalone reusable learner target.",
+    "4689": "Figurative/literal digital distinction is handled in distractors and brief, but source-side uniqueness is missing."
+  },
+  "releaseState": "All five remain unselected and unpublished; no human linguistic, media-listening or release approval claimed."
+}

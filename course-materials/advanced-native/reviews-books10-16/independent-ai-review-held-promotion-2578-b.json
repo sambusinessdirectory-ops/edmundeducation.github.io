@@ -1,0 +1,35 @@
+{
+  "reviewType": "independent-ai-focused-held-promotion-review",
+  "scope": "Unselected proposed new owner 2578 training wheels and repeat-source aliases",
+  "inputs": {
+    "draft": {"path": "course-materials/advanced-native/drafts-books10-16/batch-2578-training-wheels-a.json", "sha256": "65c4ed5f81ebde4b6c47fec641d477cfb38624ef5b932146b425037f6803171f"},
+    "authorAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-held-promotion-2578-2626-a.json", "sha256": "937566fde18c98dc905b109a9dc5bde953073fb2f95e9957ca3a226048c6a122"},
+    "sourceInventory": {"path": "course-materials/advanced-native/books10-16/source-inventory.jsonl", "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"},
+    "decision2578": {"path": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl", "sha256": "7c62049af7b2337afb351053b5744aa412be62b538d5bafa5ce267e2d292b883"},
+    "decision2626": {"path": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl", "sha256": "0170633c4fa60a92e108c427fbc4c9106fe8f961dadddd389ba82ec97512f6dd"},
+    "priorOwner1276": {"path": "course-materials/advanced-native/batches/batch-1276-1300.json", "sha256": "977cc22d53bdd3463543cb061f930dbb65592b778de9a0b0c03ee17f555eab9b"}
+  },
+  "mechanicalChecks": {
+    "focusedBuildAndCheck": "1 lesson, 6 questions, 4 audio requests, zero flags; both build and --check pass",
+    "targetAndSpans": "Target matches exact 2578 and 2626 source sentences, one target-bearing option per reply/scene/dialogue, exact speaking span and five answer-derived glossary spans.",
+    "englishChinese": "Sampled all six answer decisions and both writing models; no material meaning drift found. Four reply options independently answer the stated why-question."
+  },
+  "ownerJudgment": "2578 teaches the temporary aid while a novice is practising; canonical 1276 teaches withdrawing that aid. Their assessed learner decisions differ, so a separate owner is defensible if source repetition and step distinctness are repaired.",
+  "findings": [
+    {
+      "id": "R2578-01",
+      "severity": "major",
+      "path": "books10-16/editorial-decisions-3612-3671.jsonl:sourceOrdinal=3641; drafts-books10-16/batch-2578-training-wheels-a.json:lessons[0].sources",
+      "evidence": "Inventory source book10-16-1530, ordinal 3641, repeats exactly ‘The supervised sessions acted like training wheels.’ Yet its current decision is hold-editorial and 2578 retains only the identical 0467 and 0515 occurrences.",
+      "requiredCorrection": "Classify 3641 as proposed-alias-new to owner 2578 and attach its exact source occurrence/provenance; verify the full sentence against the owner detector."
+    },
+    {
+      "id": "R2578-02",
+      "severity": "major",
+      "path": "drafts-books10-16/batch-2578-training-wheels-a.json:lessons[0].reply",
+      "evidence": "Listening and reply both present new community-garden volunteers with a mentor planning a bed, early joined shifts and later solo work. The reply retests the same facts rather than rotating people and setting as Golden SOP P97 requires.",
+      "requiredCorrection": "Rewrite reply prompt and all four independently valid responses in a different learner setting. Keep exactly one natural target-bearing golden response and faithful Traditional Chinese."
+    }
+  ],
+  "disposition": "hold from selection pending both material repairs and exact-hash independent follow-up; no human, media, or release approval claimed"
+}

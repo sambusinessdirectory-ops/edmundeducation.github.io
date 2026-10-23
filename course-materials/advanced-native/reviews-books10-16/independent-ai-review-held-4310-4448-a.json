@@ -1,0 +1,135 @@
+{
+  "status": "initial-independent-ai-review-blocking-selection",
+  "scope": {
+    "sourceOrdinals": [
+      4310,
+      4368,
+      4386,
+      4390,
+      4448
+    ],
+    "draftFiles": [
+      {
+        "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4310-4368-b.json",
+        "sha256": "aed9e04bb18250c22c0cf1aa775f0815747c1aa8f132f6a32651e07d4699ac8a"
+      },
+      {
+        "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4386-4448-b.json",
+        "sha256": "488a7f4612aa5136af111fdf7888359a26f819d5bca5874ac7c9e893c49aba40"
+      }
+    ],
+    "selected": false,
+    "published": false
+  },
+  "method": {
+    "source": "Compared five exact inventory examples, senses and lesson provenance.",
+    "contract": "Checked Golden SOP P81–P129 and P179, especially source breadth, seven distinct decisions, plausible options, four independently valid replies, changed-context writing, and English–Traditional Chinese alignment.",
+    "mechanical": "Fresh focused build and --check pass: 5 lessons, 30 questions, 20 audio requests, zero review flags. Target and glossary spans passed builder checks."
+  },
+  "findings": [
+    {
+      "id": "R4310-01",
+      "severity": "major",
+      "lesson": 4310,
+      "paths": [
+        "brief.meaningEn",
+        "listening.en",
+        "reply.promptEn",
+        "scene.promptZh",
+        "dialogue.promptEn",
+        "writing.promptZh"
+      ],
+      "evidence": "The source says people may be walking through fog without basic science and glosses the image as proceeding without enough understanding. Every assessment instead turns on a missing external document or fact (repair costs/leak report, travel cost/access, waiting times, scoring rules, flood map, course requirements). A learner is never asked to distinguish available facts from the knowledge needed to interpret them.",
+      "repair": "Keep the uncertainty meaning, but replace at least one assessed scene and/or final writing context with a person who has the data yet lacks the foundational explanation needed to interpret it. Preserve an explicit decisive clue, EN/ZH parity and target-bearing key. The brief can acknowledge both absent information and absent understanding."
+    },
+    {
+      "id": "R4368-01",
+      "severity": "major",
+      "lesson": 4368,
+      "paths": [
+        "reply.promptEn",
+        "writing.promptZh",
+        "writing.examples[0]",
+        "writing.examples[1]"
+      ],
+      "evidence": "The reply already asks why a theatre poster shows families laughing together to sell togetherness. The final writing task and both models use a cinema poster showing grandparent and child together to sell family closeness/shared time. Theatre-to-cinema is essentially a setting swap, so Step 7 does not model a new decision.",
+      "repair": "Move final writing to a substantively different product/service and emotional appeal that earlier tasks do not use; retain the distinction between emotional promise and missing factual price/service information. Update both EN/ZH models and answer-derived glossary spans."
+    },
+    {
+      "id": "R4386-01",
+      "severity": "major",
+      "lesson": 4386,
+      "paths": [
+        "scene.promptZh",
+        "dialogue.promptEn",
+        "writing.promptZh",
+        "writing.examples[0]",
+        "writing.examples[1]"
+      ],
+      "evidence": "Step 3 and Step 5 both put museum audio-guide headsets against announcements/alarms. Step 7 returns to editing audio with headphones amid room noise, then interrupting for an announcement, closely matching Step 2 (interview editing in a shared room; ear cup moved for a monitor). These are repeated scenario decisions rather than a changed final context.",
+      "repair": "Keep one museum safety case, but move the dialogue or final writing to a genuinely different listening purpose and setting with a distinct practical limit. Rework EN/ZH, exact glossary spans and any audio request text."
+    },
+    {
+      "id": "R4390-01",
+      "severity": "major",
+      "lesson": 4390,
+      "paths": [
+        "listening.en",
+        "reply.promptEn",
+        "scene.promptZh",
+        "contrast.options",
+        "dialogue.promptEn",
+        "speaking.en",
+        "writing.promptZh",
+        "writing.examples"
+      ],
+      "evidence": "The source films a view but misses the moment. All seven lesson steps likewise use phone filming, livestreaming, photos, camera settings, messages or recordings at performances/events. The final dance-photo models repeat the source mechanism, so students do not transfer the phrase to another kind of divided attention.",
+      "repair": "Retain a filming case for source fidelity, but replace one or two assessed situations and the final writing context with a non-screen distraction that causes a meaningful live experience to be missed (for example work duties or a conversation). Preserve the boundary that brief capture followed by attention need not mean missing the moment."
+    },
+    {
+      "id": "R4448-01",
+      "severity": "major",
+      "lesson": 4448,
+      "paths": [
+        "writing.selfCheckZh",
+        "writing.examples[0].en",
+        "writing.examples[0].zh",
+        "writing.examples[1].en",
+        "writing.examples[1].zh"
+      ],
+      "evidence": "The self-check explicitly asks why tea-pickers’ rice-ball ingredients were easy to carry. Model 1 calls them portable; model 2 says the teacher explains why they travelled well, but neither gives the actual reason. This leaves a required part of the writing task unanswered.",
+      "repair": "Add a concrete, source-compatible portability reason to both complete English models and Chinese translations (for example compact wrapped food needing no cooking on the route); check historical plausibility and recalculate any shifted glossary spans."
+    },
+    {
+      "id": "RBATCH-FOILS-01",
+      "severity": "major",
+      "lessons": [
+        4310,
+        4368,
+        4386,
+        4390,
+        4448
+      ],
+      "paths": [
+        "4310.dialogue.options[b,c]",
+        "4368.listening.options[d]",
+        "4368.dialogue.options[b,c]",
+        "4386.listening.options[b]",
+        "4386.dialogue.options[b,c]",
+        "4390.dialogue.options[b,c]",
+        "4448.dialogue.options[b,c]"
+      ],
+      "evidence": "Several wrong options are impossible or cartoonish rather than plausible nuance errors: an advert sells a physical object named belonging; an audio-guide recording makes emergency signs disappear; holding a camera makes snowfall impossible; one bowl proves every event in village history. Similar absolute claims appear across all five dialogues. SOP P99 and P123 call for plausible alternatives based on timing, meaning or outcome; these foils make the keyed answer obvious without teaching the expression.",
+      "repair": "Replace the listed extreme foils with believable, context-specific wrong interpretations or next turns, such as mistaking an advert’s emotional suggestion for a guarantee, treating headphones as sufficient reason to rely on staff rather than monitoring an alarm, or assuming a recording fully substitutes for the live experience. Keep one defensible key and aligned Traditional Chinese."
+    }
+  ],
+  "contentCleared": [],
+  "ownerNotes": {
+    "4310": "Source sense is broader than missing paperwork; lesson owner appears distinct from selected literal/figurative catalogue matches, but this content gap remains.",
+    "4368": "Natural figurative marketing phrase; no apparent same-sense selected owner in focused title/source comparison.",
+    "4386": "Auditory isolation metaphor is source-supported; repeated exercise architecture needs repair.",
+    "4390": "Source-supported phrase but screen-only task design narrows transfer.",
+    "4448": "Food/heritage metaphor is source-supported; one dish need not represent all history, and the current boundary handles that correctly."
+  },
+  "conclusion": "No selection clearance at these exact hashes. These are learner-content findings that the structural builder cannot detect; recheck changed fields and final exact hashes after author repairs."
+}

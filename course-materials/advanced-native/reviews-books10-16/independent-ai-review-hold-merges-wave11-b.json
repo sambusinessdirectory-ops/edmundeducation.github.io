@@ -1,0 +1,119 @@
+{
+  "reviewType": "independent-ai-exact-hash-risk-review",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-implementation-audit-hold-merges-wave11-review-pilot.json",
+  "authorAuditSha256": "bdb8489307670d2826a4ab003f3b7f9e23299dac5ce5f193af2a3ad43e9cb8dc",
+  "scope": "Seven held-source variants; source sense, changed contrast, exact provenance/target and bilingual key. Unchanged prior questions not exhaustively reaudited.",
+  "rows": [
+    {
+      "ordinal": 2221,
+      "canonicalId": "advanced-native-1042",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1026-1050.json",
+      "canonicalSha256": "56485c9b12055b43569b50621d5bac875b40a8a331be653c7cb7cebc2bf13cd5",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionSha256": "3e7d06e4473fe2d24ce2ab3f7bd10208fc6501badbbd608fb8b05b99e816c364",
+      "canonicalHashMatchesAuthorAudit": true,
+      "decisionHashMatchesAuthorAudit": true,
+      "exactSourceProvenance": true,
+      "fullSourceMatchesTargetGi": true,
+      "sourceSenseReview": "No breathing space is an absence of respite, squarely within canonical 1042 temporal-relief sense.",
+      "status": "content-clear"
+    },
+    {
+      "ordinal": 3298,
+      "canonicalId": "advanced-native-131",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0126-0150.json",
+      "canonicalSha256": "024d47bf9f35cb7c0a599687603a9e8681bbe8a5ade7c35731623a481e1d603e",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionSha256": "9d932d286dadbdea2a243d782bfffdc2b1dec33f534fc8026c5c6bc5849893c0",
+      "canonicalHashMatchesAuthorAudit": true,
+      "decisionHashMatchesAuthorAudit": true,
+      "exactSourceProvenance": true,
+      "fullSourceMatchesTargetGi": true,
+      "sourceSenseReview": "The memory-retention sense fits, but bare stick detector also matches literal stuck-to-wall and noun stick; the author negative control fails live gi.",
+      "status": "repair-required"
+    },
+    {
+      "ordinal": 3604,
+      "canonicalId": "advanced-native-046",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0026-0050.json",
+      "canonicalSha256": "78abef51faeb078d8b1a43998894e39a2b5d3282818e26ae01e80e67456554e8",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl",
+      "decisionSha256": "a09d0e0f578d238b83ecbf89617478bad68582eb46d59d1f91d09e959f98df59",
+      "canonicalHashMatchesAuthorAudit": true,
+      "decisionHashMatchesAuthorAudit": true,
+      "exactSourceProvenance": true,
+      "fullSourceMatchesTargetGi": true,
+      "sourceSenseReview": "Teacher breaks ideas down into small steps; canonical task/concept segmentation and revised contrast preserve teaching sense.",
+      "status": "content-clear"
+    },
+    {
+      "ordinal": 3684,
+      "canonicalId": "advanced-native-1503",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "canonicalSha256": "c40e9b740ddacc0e543e579608d8a6064a4a6ac0bfa626e5e611574e0e14436b",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl",
+      "decisionSha256": "25cac9f9945aea4c2581e2a7c502d405db30438677623c1c1c0145cdf79f1acb",
+      "canonicalHashMatchesAuthorAudit": true,
+      "decisionHashMatchesAuthorAudit": true,
+      "exactSourceProvenance": true,
+      "fullSourceMatchesTargetGi": true,
+      "sourceSenseReview": "Science integrated into repeated ordinary routines fits woven into everyday life; no claim of literal fabric.",
+      "status": "content-clear"
+    },
+    {
+      "ordinal": 3750,
+      "canonicalId": "advanced-native-1503",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "canonicalSha256": "c40e9b740ddacc0e543e579608d8a6064a4a6ac0bfa626e5e611574e0e14436b",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl",
+      "decisionSha256": "3c299ffc4a2b0c1a2911c8fcf4be4a2f1e9489f8bcfbe8353eed119cf546ff5e",
+      "canonicalHashMatchesAuthorAudit": true,
+      "decisionHashMatchesAuthorAudit": true,
+      "exactSourceProvenance": true,
+      "fullSourceMatchesTargetGi": true,
+      "sourceSenseReview": "Quite naturally woven into everyday life is smooth routine integration within the same fabric metaphor.",
+      "status": "content-clear"
+    },
+    {
+      "ordinal": 3808,
+      "canonicalId": "advanced-native-534",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0526-0550.json",
+      "canonicalSha256": "db678d199e58e0a78a417f561088703be3fe43c5de8e4f4ef660c196a5d0432f",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl",
+      "decisionSha256": "9f20d831234001f53ad66fcb60e00fc2727680f83544aed4724166612b7859e7",
+      "canonicalHashMatchesAuthorAudit": true,
+      "decisionHashMatchesAuthorAudit": true,
+      "exactSourceProvenance": true,
+      "fullSourceMatchesTargetGi": true,
+      "sourceSenseReview": "Fall through the cracks is embedded in a bespoke floor/safety-net sentence; canonical covers the institutional miss, while floor carrier is not taught as a fixed target.",
+      "status": "content-clear"
+    },
+    {
+      "ordinal": 3853,
+      "canonicalId": "advanced-native-534",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0526-0550.json",
+      "canonicalSha256": "db678d199e58e0a78a417f561088703be3fe43c5de8e4f4ef660c196a5d0432f",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3852-3911.jsonl",
+      "decisionSha256": "8ec421c45538e8ceabe36de4f90fbc2ca1cbf63eff02fa61c926dbc4c213f8bd",
+      "canonicalHashMatchesAuthorAudit": true,
+      "decisionHashMatchesAuthorAudit": true,
+      "exactSourceProvenance": true,
+      "fullSourceMatchesTargetGi": true,
+      "sourceSenseReview": "Duplicate source phrase/example carries the same embedded institutional-miss idiom and exact provenance.",
+      "status": "content-clear"
+    }
+  ],
+  "blockers": [
+    {
+      "id": "R3298-01",
+      "ordinal": 3298,
+      "canonicalId": "advanced-native-131",
+      "path": "target.pattern",
+      "severity": "major",
+      "evidence": "Live gi detector matches author negative control The label physically stuck to the wall. and literal noun The stick fell to the ground. Optional in my mind leaves bare stick/stuck unbounded.",
+      "repair": "Bound the bare memory-retention branch to learning/lesson/idea/information context while preserving prior target-bearing assessed strings and exact source example; add positive and negative tests."
+    }
+  ],
+  "waveContentClear": false,
+  "publicationApproved": false
+}

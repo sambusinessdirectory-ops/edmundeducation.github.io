@@ -1,0 +1,90 @@
+{
+  "reviewType": "independent-ai-risk-based-held-cohort-review",
+  "timeUtc": "2026-10-23T18:36:23.792896+00:00",
+  "scope": "Ten unselected held-source draft lessons in three exact-hash files, with full field read and focused source/owner, answer fairness, bilingual, writing, detector and originality checks. This is AI peer review, not human or release approval.",
+  "inputs": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-2413-2505-a.json",
+      "sha256": "c5c0aa55284ef51856a28d0f2c1a5a00d77349557a4ce66f89e3b7378d59c22f"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-2513-2627-b.json",
+      "sha256": "5896193ada9bc5e53c605b4749dff95741a363974c2824c81a60fcbf092ec6c4"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-2663-2700-c.json",
+      "sha256": "ba404e3f174771039084e257a5ca32c74ae12c32fab630557d8cee131c2a41f2"
+    }
+  ],
+  "authorAudit": {
+    "path": "course-materials/advanced-native/reviews-books10-16/author-held-cohort-2400-2700-ten-a.json",
+    "sha256": "a50021af75f130a09e455c2d42de2a8d17bdbf45e3cac41724a32d74d6762dbd"
+  },
+  "checks": {
+    "focusedBuildCheck": "3/18/12/0, 3/18/12/0 and 4/24/16/0 independently passed",
+    "fullSourceSixTokenScreen": "All 2604 source examples; zero non-target six-token overlaps after target masking. Manual scenario review found R2700-01.",
+    "schemaTargetGlossary": "Source target, keyed reply/scene/dialogue, speaking span and exact glossary slices checked; no structural blocker beyond R2668-01 detector variants."
+  },
+  "findings": [
+    {
+      "id": "R2663-01",
+      "ordinal": 2663,
+      "severity": "major-owner-scope",
+      "path": "batch-held-2663-2700-c.json:advanced-native-2663 brief/listening/reply/writing",
+      "explanation": "Selected canonical 2726 `take them straight back` already teaches a sound/object causing vivid memories of an earlier period. Its listening uses an old school-bell recording and former pupils; draft 2663 likewise uses an old school-radio/bell recording, classmates, and vivid recall. The current seven steps test the same trigger-and-memory learner decision, with no demonstrated time-capsule-specific distinction.",
+      "recommendedFix": "Keep 2663 unselected pending parent owner adjudication, or rewrite the lesson to test a distinct preserved-snapshot-of-an-era decision supported by the source and then seek a new exact-hash review. Do not claim mere lexical difference as sufficient."
+    },
+    {
+      "id": "R2668-01",
+      "ordinal": 2668,
+      "severity": "minor-target-pattern",
+      "path": "batch-held-2663-2700-c.json:advanced-native-2668 target.pattern",
+      "explanation": "The optional modifier alternatives omit a separating space after our/their/young/students' but include it after children's. Live regex accepts `open ears and minds` and `open children's ears and minds` yet rejects grammatical `opens our ears and minds`, `opened their ears and minds`, and `opens young ears and minds`.",
+      "recommendedFix": "Use a consistent optional modifier plus space, with positive and negative controls. Keep source and assessed target forms valid and rerun build/check."
+    },
+    {
+      "id": "R2700-01",
+      "ordinal": 2700,
+      "severity": "major-originality",
+      "path": "batch-held-2663-2700-c.json:advanced-native-2700 reply.promptEn/options",
+      "explanation": "Guide source `The policy should send the message that artists deserve payment` is re-skinned as a school paying student musicians for a performance, and the golden answer says creative effort deserves recognition. The actor, payment action, and principle closely reproduce the source scenario even though no six-token string matches.",
+      "recommendedFix": "Replace this reply with a different policy/action and a different conveyed principle, retaining four plausible valid responses, a target-bearing golden reply, faithful Traditional Chinese and audio role."
+    },
+    {
+      "id": "R2513-01",
+      "ordinal": 2513,
+      "severity": "minor-writing-grounding",
+      "path": "batch-held-2513-2627-b.json:advanced-native-2513 writing.examples[1]",
+      "explanation": "The fixed writing task says the scholarship office corrected its process and applicants request written confirmation. Model 2 additionally asserts an apology and a signed record; those stronger facts are not supplied by the task.",
+      "recommendedFix": "Keep the correction and written-confirmation facts, replacing apology/signed record with task-grounded wording; revalidate Chinese and glossary spans."
+    },
+    {
+      "id": "R2677-01",
+      "ordinal": 2677,
+      "severity": "minor-writing-grounding",
+      "path": "batch-held-2663-2700-c.json:advanced-native-2677 writing.examples[1]",
+      "explanation": "The new writing situation says the mask-making workshop ended before the next generation learnt the craft. Model 2 adds that the final teacher left and the next show used bought masks, neither of which appears in the task.",
+      "recommendedFix": "Describe workshop closure, failed transmission, and the next generation's inability to make masks without asserting an unprovided teacher departure or purchase; revalidate Chinese and glossary spans."
+    }
+  ],
+  "contentClearSubjectToOwnerReview": [
+    2413,
+    2467,
+    2505,
+    2531,
+    2627
+  ],
+  "needsRepair": [
+    2513,
+    2668,
+    2677,
+    2700
+  ],
+  "ownerScopeBlocked": [
+    2663
+  ],
+  "notes": [
+    "2513 cast a long shadow shares lasting-influence territory with prior 1742 the long shadow behind the present, but the former teaches an error with later trust damage and the latter is history-to-present construction; this is a near-owner comparison, not an automatic block.",
+    "All ten remain unselected and unpublished at the reviewed hashes."
+  ]
+}

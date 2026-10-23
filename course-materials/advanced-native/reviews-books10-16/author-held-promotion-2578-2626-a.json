@@ -1,0 +1,73 @@
+{
+  "scope": "unselected held-source promotion 2578 and exact repeated sources 2626, 3641",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-2578-training-wheels-a.json",
+  "draftSha256": "00df13142379f57370b1c599c60029aa623c7194696c9ebba65ce19592e64226",
+  "decisionFiles": [
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "sha256": "7c62049af7b2337afb351053b5744aa412be62b538d5bafa5ce267e2d292b883"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+      "sha256": "0170633c4fa60a92e108c427fbc4c9106fe8f961dadddd389ba82ec97512f6dd"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl",
+      "sha256": "2395a2e575d347db4d8d46fb2a8a8f4c9aa6f3af14b5639f5508d6651cf0133f"
+    }
+  ],
+  "sourceIds": [
+    "book10-16-0467",
+    "book10-16-0515",
+    "book10-16-1530"
+  ],
+  "ownerComparison": "2578/2626 teach temporary support still present for a beginner; canonical 1276 assesses when to strip training wheels away. Same metaphor, different decision and phase.",
+  "automaticChecks": {
+    "focusedBuild": {
+      "lessons": 1,
+      "questions": 6,
+      "audioRequests": 4,
+      "reviewFlags": 0
+    },
+    "focusedCheck": "pass",
+    "fullVerifier": {
+      "sourceRows": 2604,
+      "sourceGaps": 0,
+      "schemaErrors": 0,
+      "exactGuideCopies": 0
+    },
+    "allDiscoveredNewAliasAudit": {
+      "aliasRows": 160,
+      "matchedDrafts": 160,
+      "exceptions": 0
+    }
+  },
+  "selfReview": {
+    "sourceProvenance": "three exact inventory occurrences preserved",
+    "targetAndSpeakingSpans": "checked",
+    "fourReplyOptions": "museum-guide setting differs from garden listening; all four independently answer why mentor joins; golden option target-bearing",
+    "sceneAndDialogueKeys": "target-bearing, grounded in prompts",
+    "writingModels": "both use the different debate-checklist setting; each covers early practice and later independent work",
+    "glossary": "five exact answer-derived spans, target omitted",
+    "traditionalChinese": "all required fields present and aligned",
+    "originality": "learner scenes differ from the guide sentence"
+  },
+  "reviewState": "independent English/Traditional Chinese/QA review pending",
+  "selectedManifestChanged": true,
+  "published": false,
+  "independentReview": {
+    "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-promotion-2578-b-followup.json",
+    "sha256": "1039d0e53088d6ff74789e57f0934349d3ba3e81445306134d07574331599dca",
+    "result": "content-clear"
+  },
+  "selectedManifestSha256": "ec6eba96fc5c114ad9cd752c7fa491878c0cc6e7aa8cdea0f8353568cbef4c4a",
+  "selectedDraftCount": 554,
+  "selectedQuestionCount": 3324,
+  "selectedAudioRequestCount": 2216,
+  "selectedOriginality": {
+    "exact": 0,
+    "high": 0,
+    "medium": 0,
+    "lesson2578FuzzyHits": 0
+  }
+}

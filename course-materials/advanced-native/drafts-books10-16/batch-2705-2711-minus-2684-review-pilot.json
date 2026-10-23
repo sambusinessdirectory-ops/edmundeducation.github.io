@@ -1,0 +1,540 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-2705-2711-minus-2684-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-2705",
+      "number": 2705,
+      "inventoryId": "expr-2705",
+      "titleEn": "punishment does not fit the crime",
+      "titleZh": "處罰與過錯不相稱",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:the )?punishment (?:does not|doesn['’]t|did not|didn['’]t|would not|wouldn['’]t) fit the crime\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Judge a penalty out of proportion to the wrongdoing, usually because it is too severe.",
+        "meaningZh": "認為處罰與過錯的程度不相稱，通常指罰得過重。",
+        "grammar": "the punishment does not fit the crime; the negative auxiliary is essential. Crime can refer figuratively to a minor rule breach.",
+        "register": "Conversational to semi-formal fairness language. A student representative may say it to a committee reconsidering an excessive school rule.",
+        "boundaryZh": "須指出處罰相對哪項過錯過重；嚴厲不必然失衡，crime 亦不必指刑事罪。與第 779 課正面相稱原則相近，此句專用固定反面說法批評具體處罰。",
+        "misconceptionZh": "不要只因不喜歡處罰就套用；要比較過錯和後果，也不要假設違規完全不用負責。",
+        "outcomeZh": "能用固定反面說法指出處罰與過錯的落差，並提出較相稱的方向。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0594",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 55,
+          "book": 11,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "37–39",
+          "locatorNote": "DOCX table 50, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Many thought the punishment does not fit the crime.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "punishment does not fit the crime"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "說話者對全年禁借器材有甚麼看法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is too severe for a one-day delay.",
+            "zh": "對遲還一天而言，處罰過重。"
+          },
+          {
+            "id": "b",
+            "en": "It is fair because the student damaged the camera.",
+            "zh": "學生弄壞了相機，所以處罰公平。"
+          },
+          {
+            "id": "c",
+            "en": "It is too lenient because the club lost the camera.",
+            "zh": "社團失去相機，所以處罰太輕。"
+          },
+          {
+            "id": "d",
+            "en": "It is mainly a problem because the club failed to announce its opening hours.",
+            "zh": "問題主要是社團沒有公布開放時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只遲還一天卻全年禁借，說話者認為後果過重；題目沒有說相機損壞或遺失。",
+        "en": "A student returned a borrowed camera one day late, and the club banned her from borrowing equipment for the whole year. The punishment does not fit the crime.",
+        "zh": "一名學生遲了一天歸還借來的相機，社團便禁止她整年借用器材。這項處罰與過錯不相稱。"
+      },
+      "reply": {
+        "promptEn": "The choir banned a member from all future rehearsals for being five minutes late once. Why ask its committee to reconsider?",
+        "promptZh": "（合唱團一名成員首次遲到五分鐘，便被永久禁止參加排練。你為何請委員會重新考慮？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A single five-minute delay should not bar her forever.",
+            "zh": "一次遲到五分鐘，不應令她永遠不得參加。"
+          },
+          {
+            "id": "b",
+            "en": "A reminder would fit a first brief delay better.",
+            "zh": "對首次短暫遲到而言，提醒會更合適。"
+          },
+          {
+            "id": "c",
+            "en": "The punishment does not fit the crime in this case.",
+            "zh": "在這件事上，處罰與過錯不相稱。"
+          },
+          {
+            "id": "d",
+            "en": "The lifetime ban is out of proportion to the short delay.",
+            "zh": "永久禁制與短暫遲到不成比例。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都針對一次短暫遲到與永久禁排練的落差，合理說明重議理由；金句用本課固定反面說法。"
+      },
+      "scene": {
+        "promptZh": "校內畫展一名參賽者首次把作品標籤貼錯，主辦者卻禁止她往後三年參賽。哪句最能表達對這項處分的批評？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The punishment does not fit the crime: a three-year ban is excessive for one mistaken label.",
+            "zh": "處罰與過錯不相稱：首次貼錯標籤便禁賽三年，實在過重。"
+          },
+          {
+            "id": "b",
+            "en": "The label error could be corrected before the next display.",
+            "zh": "標籤錯誤可在下次展出前更正。"
+          },
+          {
+            "id": "c",
+            "en": "The organiser may need to explain the labelling rule more clearly.",
+            "zh": "主辦者可能需要更清楚解釋標籤規則。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "三年禁賽與一次貼錯標籤明顯不相稱；其他回應雖有用，卻沒有明確評價已作出的失衡處分。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合批評為 the punishment does not fit the crime？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A first minor delay leads to a lifetime ban from a community class.",
+            "zh": "首次輕微遲到，卻被永久禁止參加社區課堂。"
+          },
+          {
+            "id": "b",
+            "en": "A member repeatedly damages shared equipment and receives a temporary borrowing suspension after review.",
+            "zh": "會員反覆損壞公用器材，經審議後暫時不能借用。"
+          },
+          {
+            "id": "c",
+            "en": "A one-time form error leads to exclusion from every future competition.",
+            "zh": "一次填表錯誤，卻令參賽者永遠不得再參賽。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "反覆損壞器材後，經審議暫時禁借，不見得與過錯失衡；另外兩項把首次小失誤換成極長限制。"
+      },
+      "dialogue": {
+        "promptZh": "委員說：「學生第一次忘記帶學生證，就永久取消她的活動資格。」你想提出較相稱的處理方法，怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The punishment does not fit the crime; could we verify her identity and give a warning instead?",
+            "zh": "處罰與過錯不相稱；我們可否先核實她的身分，再給予提醒？"
+          },
+          {
+            "id": "b",
+            "en": "Let us publish a clearer ID reminder for future events before we discuss this exclusion.",
+            "zh": "我們先為日後活動發出更清楚的學生證提醒，再討論這次取消資格。"
+          },
+          {
+            "id": "c",
+            "en": "A permanent rule is at least easy to apply, even when this is her first forgotten card.",
+            "zh": "永久禁制至少容易執行，即使她是第一次忘帶學生證。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "首次忘帶證件與永久取消資格不成比例；較貼切的回應指出失衡，並提出先核實及提醒。"
+      },
+      "speaking": {
+        "en": "For one accidental form error, a permanent ban seems extreme; the punishment does not fit the crime.",
+        "zh": "只因一次意外填表錯誤就永久禁止參加，似乎過重；處罰與過錯不相稱。",
+        "promptZh": "先聽示範，再說明處罰為何相對過錯過重。",
+        "targetSpan": {
+          "start": 62,
+          "end": 99
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一名學生首次不慎在美術室打翻少量顏料，願意清理，但被禁止整個學期使用美術室。用一至兩句英文評價處罰，並提出較相稱的處理方法。",
+        "selfCheckZh": "比較首次意外打翻少量顏料與整學期禁用，使用固定反面說法，並提出提醒或協助清理等較相稱安排。",
+        "examples": [
+          {
+            "en": "A pupil spilled a little paint once, yet the school barred her from the art room for the entire term. The punishment does not fit the crime; she could help clean up instead.",
+            "zh": "一名學生只失手打翻少量顏料，學校卻禁止她整個學期使用美術室。處罰與過錯不相稱；她可以改為協助清理。"
+          },
+          {
+            "en": "The punishment does not fit the crime when a first accidental spill leads to a term-long ban. A warning and a clean-up duty would be more proportionate.",
+            "zh": "首次意外打翻顏料便遭禁用美術室一整個學期，這項處罰與過錯不相稱。提醒及協助清理會較為相稱。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "spilled a little paint",
+            "zh": "打翻少量顏料",
+            "exampleIndex": 0,
+            "span": {
+              "start": 8,
+              "end": 30
+            }
+          },
+          {
+            "en": "the entire term",
+            "zh": "整個學期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 100
+            }
+          },
+          {
+            "en": "help clean up",
+            "zh": "協助清理",
+            "exampleIndex": 0,
+            "span": {
+              "start": 151,
+              "end": 164
+            }
+          },
+          {
+            "en": "a first accidental spill",
+            "zh": "首次意外打翻顏料",
+            "exampleIndex": 1,
+            "span": {
+              "start": 43,
+              "end": 67
+            }
+          },
+          {
+            "en": "a clean-up duty",
+            "zh": "清理工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 108,
+              "end": 123
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "When a minor first mistake brings a permanent ban, the punishment does not fit the crime.",
+          "zh": "首次輕微失誤卻招致永久禁制，處罰便與過錯不相稱。"
+        },
+        {
+          "en": "A warning may be fairer if the punishment does not fit the crime.",
+          "zh": "若處罰與過錯不相稱，提醒可能較公平。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2711",
+      "number": 2711,
+      "inventoryId": "expr-2711",
+      "titleEn": "has a slight edge",
+      "titleZh": "稍佔優勢",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:has|have|had|having) a slight edge\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Have a small comparative advantage over another option on a relevant criterion, without settling every consideration.",
+        "meaningZh": "在某個相關準則上比另一選項稍有優勢，但並非各方面都勝出。",
+        "grammar": "has/have/had a slight edge over + competitor, or a slight edge on/in + criterion; slight limits the degree.",
+        "register": "Neutral comparison. A friend may say it to someone choosing between two similarly suitable plans.",
+        "boundaryZh": "要有比較對象和具體準則，差距應較小；不要把稍佔優勢說成必勝。與 commercial edge 不同，這裏可以比較任何選項，不限企業競爭。",
+        "misconceptionZh": "不要由單一準則的小優勢推斷整體一定更好。",
+        "outcomeZh": "能說出哪個選項在哪方面稍佔優勢，同時保留其他準則仍可影響決定。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0600",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 55,
+          "book": 11,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "40–42",
+          "locatorNote": "DOCX table 51, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The cheaper plan has a slight edge on value.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "has a slight edge"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "說話者認為 A 線在哪方面佔優？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It was a little more reliable last month.",
+            "zh": "上月它的準時程度稍高。"
+          },
+          {
+            "id": "b",
+            "en": "It was much cheaper than Route B.",
+            "zh": "它比 B 線便宜得多。"
+          },
+          {
+            "id": "c",
+            "en": "It was the only route that reached the library before nine.",
+            "zh": "只有它可在九時前到達圖書館。"
+          },
+          {
+            "id": "d",
+            "en": "It was guaranteed to arrive on time every future day.",
+            "zh": "它保證往後每天都準時。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "A 線上月只多三天準時，所以在可靠程度上稍佔優勢；B 線較便宜，A 線也沒有未來準時保證。",
+        "en": "Both bus routes reach the library before nine. Route A has a slight edge on reliability because it was on time three more days last month, although Route B is cheaper.",
+        "zh": "兩條巴士路線都可在九時前到達圖書館。上月 A 線比 B 線多三天準時，所以在可靠程度上稍佔優勢，但 B 線較便宜。"
+      },
+      "reply": {
+        "promptEn": "Both study rooms are quiet. Room A has larger desks, a brighter lamp, a window seat and a nearer entrance. Why might you choose it?",
+        "promptZh": "（兩間自修室都安靜。A 室桌子較大、燈光較亮、有窗邊座位，而且較近入口。你為何可能選它？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its desks are a little larger, which would help with my notes.",
+            "zh": "它的桌子稍大一點，方便我攤開筆記。"
+          },
+          {
+            "id": "b",
+            "en": "It is nearer the entrance, so I can get there more easily.",
+            "zh": "它較近入口，我去那裏較方便。"
+          },
+          {
+            "id": "c",
+            "en": "It has a slight edge for me because the lighting is a little better.",
+            "zh": "對我而言，它的燈光稍好，所以稍佔優勢。"
+          },
+          {
+            "id": "d",
+            "en": "I prefer its window seat for longer sessions.",
+            "zh": "長時間溫習時，我較喜歡它的窗邊座位。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都可獨立解釋選 A 室的理由；金句表達一項小優勢，並非宣稱各方面最好。"
+      },
+      "scene": {
+        "promptZh": "兩個水樽同樣耐用、價錢接近；A 款稍輕，B 款顏色較合你的喜好。朋友只比較重量時，哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Bottle A has a slight edge on weight, though the colour may still matter to you.",
+            "zh": "只看重量，A 水樽稍佔優勢，但顏色對你仍可能重要。"
+          },
+          {
+            "id": "b",
+            "en": "Bottle A is better in every way because it is lighter.",
+            "zh": "A 水樽較輕，所以各方面都較好。"
+          },
+          {
+            "id": "c",
+            "en": "The bottles have no meaningful difference in weight, so price is the only factor.",
+            "zh": "兩個水樽的重量毫無差別，所以只能考慮價錢。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "A 款只在重量上稍優；不能由單一小優勢推斷整體必勝，也不能否認題目所給的重量差。"
+      },
+      "contrast": {
+        "promptZh": "哪個比較最不適合用 has a slight edge？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One café is two minutes nearer, while both have similar prices and service.",
+            "zh": "一間咖啡店近兩分鐘，而兩者價錢與服務相近。"
+          },
+          {
+            "id": "b",
+            "en": "One candidate receives almost every vote, while the other receives only a handful.",
+            "zh": "一名候選人取得幾乎所有選票，另一人只得寥寥數票。"
+          },
+          {
+            "id": "c",
+            "en": "One online class offers a slightly longer question period, but both cover the same syllabus.",
+            "zh": "一個網課的提問時間稍長，但兩者教授相同課程。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "選票差距懸殊，不是 slight；另外兩項只有小幅、特定準則上的優勢。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「兩間餐廳都不錯，A 店服務平均快五分鐘，但 B 店環境較舒適。A 店一定全面勝出吧？」你怎樣回應較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A has a slight edge on speed, but comfort could still affect your choice.",
+            "zh": "A 店在速度上稍佔優勢，但舒適程度仍可能影響選擇。"
+          },
+          {
+            "id": "b",
+            "en": "A is faster, so I'd choose it without asking how much comfort matters to you.",
+            "zh": "A 店較快，所以我會選它，毋須問你有多重視舒適程度。"
+          },
+          {
+            "id": "c",
+            "en": "B is more comfortable, so the speed difference probably won't matter to anyone.",
+            "zh": "B 店較舒適，所以速度差別對任何人可能都不重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "A 店在速度上小勝，不等於其他準則都勝；回應應保留 B 店較舒適這個因素。"
+      },
+      "speaking": {
+        "en": "The evening train has a slight edge on price, but the earlier service suits my schedule better.",
+        "zh": "晚間列車在票價上稍佔優勢，但較早的班次更配合我的時間表。",
+        "promptZh": "先聽示範，再比較票價上的小優勢與時間上的需要。",
+        "targetSpan": {
+          "start": 18,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩部手提電腦都能處理你的課業。A 型號的電池續航時間大約長一小時，但 B 型號稍輕。用一至兩句英文比較一項小優勢，並說明還須考慮另一準則。",
+        "selfCheckZh": "指出 A 型號在電池續航時間上只稍佔優勢，並保留 B 型號較輕這項因素；不要說 A 型號各方面必定更好。",
+        "examples": [
+          {
+            "en": "Both laptops can handle my coursework, but Model A has a slight edge on battery life because it lasts about an hour longer, while Model B is lighter.",
+            "zh": "兩部手提電腦都可處理我的課業，但 A 型號的電池續航時間約長一小時，因此稍佔優勢；B 型號則較輕。"
+          },
+          {
+            "en": "Model A has a slight edge on battery life, yet Model B is lighter, so I will compare both before deciding.",
+            "zh": "A 型號在電池續航時間上稍佔優勢，但 B 型號較輕，所以我會在決定前比較兩者。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "handle my coursework",
+            "zh": "處理我的課業",
+            "exampleIndex": 0,
+            "span": {
+              "start": 17,
+              "end": 37
+            }
+          },
+          {
+            "en": "battery life",
+            "zh": "電池續航時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 84
+            }
+          },
+          {
+            "en": "about an hour longer",
+            "zh": "大約長一小時",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 122
+            }
+          },
+          {
+            "en": "Model B is lighter",
+            "zh": "B 型號較輕",
+            "exampleIndex": 1,
+            "span": {
+              "start": 47,
+              "end": 65
+            }
+          },
+          {
+            "en": "before deciding",
+            "zh": "作決定前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 90,
+              "end": 105
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The express train has a slight edge on journey time, but its seats are less comfortable.",
+          "zh": "特快列車在車程時間上稍佔優勢，但座位較不舒適。"
+        },
+        {
+          "en": "One plan may have a slight edge on convenience without being best for everyone.",
+          "zh": "一個計劃在方便程度上可能稍佔優勢，卻未必最適合所有人。"
+        }
+      ]
+    }
+  ]
+}

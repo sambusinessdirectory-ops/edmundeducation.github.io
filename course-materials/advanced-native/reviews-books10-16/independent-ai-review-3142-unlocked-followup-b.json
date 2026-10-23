@@ -1,0 +1,10 @@
+{
+  "status": "independent-ai-content-clear-scoped",
+  "scope": "Selected lesson 3142 writing prompt and two writing models only; other lesson content was cleared at its prior hash.",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3142-3394-review-pilot.json",
+  "sha256": "35b091510e580dc40365a6674b1f8a0853bf978aecf2ed1a76a755d0eddc716e",
+  "lesson": 3142,
+  "finding": "The Traditional Chinese prompt specifies an unlocked side door. Both revised English models now say unlocked, describe the usher securing it at once, and place the manager notification afterward. Their Chinese translations and answer-derived glossary spans align.",
+  "remainingIssues": [],
+  "limits": "This is AI editorial review of a scoped repair, not human listening or release approval."
+}
