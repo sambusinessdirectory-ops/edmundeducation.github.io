@@ -1,0 +1,48 @@
+{
+  "reviewType": "independent-ai-exact-hash-followup",
+  "scope": "Eight unselected 2833–2870 lessons; recheck R2851-01 and R2854-01",
+  "inputFiles": {
+    "pilot1": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2833-2870-review-pilot-1.json",
+      "sha256": "06561edd2435e79d3c0fe3be93fb4f0e8d47ea2fc2d7a6dd3fa94407dbb17f9f"
+    },
+    "pilot2": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2833-2870-review-pilot-2.json",
+      "sha256": "97b6a22a6c8af25c3adc733e3f8dda62e1bcb24dce453c3680945dcd28ec1e91"
+    },
+    "selfAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-2833-2870-review-pilot.json",
+      "sha256": "26fbffd7dc7949f0349c5ba57b8abb1f76a0fd53e4ec90bbf5399f25e0cd7e55"
+    }
+  },
+  "findings": [
+    {
+      "id": "R2851-01",
+      "status": "cleared",
+      "lesson": 2851,
+      "evidence": "Listening option D now asserts that omitted months would reverse the trend. The audio only states that the chart begins in June while the report covers the full year; trend reversal is not established. A remains the sole defensible meaning response. English and Chinese D align; contentRevision 2."
+    },
+    {
+      "id": "R2854-01",
+      "status": "cleared",
+      "lesson": 2854,
+      "evidence": "Writing model 2 now says delay bus production, matching prompt and Traditional Chinese; it retains Country A source, Country B dependency, modal could, and unknown effects elsewhere. contentRevision 2."
+    }
+  ],
+  "regressionReview": {
+    "sourceTarget": "All eight full source sentences and target-bearing assessment texts match fresh gi regex.",
+    "glossary": "All 48 glossary spans are exact and exclude target forms.",
+    "otherLessons": "Other six lessons retain initial independent content pass; no new material defect found in changed items."
+  },
+  "focusedBuild": {
+    "lessons": 8,
+    "questions": 48,
+    "audioRequests": 32,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass",
+    "outputDirectory": "/private/tmp/advanced-native-review-b-2833-2870-followup"
+  },
+  "selectionRecommendation": "All eight content-cleared for provisional selection; human English, Chinese, media, QA and release checks remain pending.",
+  "selectedOrPublished": false
+}

@@ -1,0 +1,190 @@
+{
+  "reviewType": "AI author self-audit, not independent peer review, human approval, media listening approval, or release certification",
+  "scope": "Eight unselected Books 10–16 proposed-new lessons after source ordinal 2830",
+  "createdUtc": "2026-10-23T13:32:06.937184+00:00",
+  "sourceInventory": {
+    "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "editorialDecisions": {
+    "path": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+    "sha256": "7decbc6b334f613812f6fd5d1842505d9f62a6fd8d0ebca1126aa67c104c1db4"
+  },
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2833-2870-review-pilot-1.json",
+      "sha256": "06561edd2435e79d3c0fe3be93fb4f0e8d47ea2fc2d7a6dd3fa94407dbb17f9f",
+      "sourceOrdinals": [
+        2833,
+        2834,
+        2851,
+        2853
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2833-2870-review-pilot-2.json",
+      "sha256": "97b6a22a6c8af25c3adc733e3f8dda62e1bcb24dce453c3680945dcd28ec1e91",
+      "sourceOrdinals": [
+        2854,
+        2855,
+        2856,
+        2870
+      ]
+    }
+  ],
+  "sourceOrdinals": [
+    2833,
+    2834,
+    2851,
+    2853,
+    2854,
+    2855,
+    2856,
+    2870
+  ],
+  "focusedBuild": {
+    "lessons": 8,
+    "questions": 48,
+    "audioRequests": 32,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass",
+    "outputDirectory": "/private/tmp/advanced-native-2833-2870-pilot"
+  },
+  "authorChecks": [
+    {
+      "sourceOrdinal": 2833,
+      "lessonId": "advanced-native-2833",
+      "sourceExact": true,
+      "patternMatchesSource": true,
+      "decisionOwnerMatched": true,
+      "sevenStepsPresent": true,
+      "fourContextuallyValidReplies": "author checked; independent review pending",
+      "keyAndDistractorFairness": "author checked; independent review pending",
+      "bothWritingModelsTargetBearing": true,
+      "glossaryExactAndNoTargetLeakage": true,
+      "chineseFidelity": "author checked; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2834,
+      "lessonId": "advanced-native-2834",
+      "sourceExact": true,
+      "patternMatchesSource": true,
+      "decisionOwnerMatched": true,
+      "sevenStepsPresent": true,
+      "fourContextuallyValidReplies": "author checked; independent review pending",
+      "keyAndDistractorFairness": "author checked; independent review pending",
+      "bothWritingModelsTargetBearing": true,
+      "glossaryExactAndNoTargetLeakage": true,
+      "chineseFidelity": "author checked; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2851,
+      "lessonId": "advanced-native-2851",
+      "sourceExact": true,
+      "patternMatchesSource": true,
+      "decisionOwnerMatched": true,
+      "sevenStepsPresent": true,
+      "fourContextuallyValidReplies": "author checked; independent review pending",
+      "keyAndDistractorFairness": "author checked; independent review pending",
+      "bothWritingModelsTargetBearing": true,
+      "glossaryExactAndNoTargetLeakage": true,
+      "chineseFidelity": "author checked; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2853,
+      "lessonId": "advanced-native-2853",
+      "sourceExact": true,
+      "patternMatchesSource": true,
+      "decisionOwnerMatched": true,
+      "sevenStepsPresent": true,
+      "fourContextuallyValidReplies": "author checked; independent review pending",
+      "keyAndDistractorFairness": "author checked; independent review pending",
+      "bothWritingModelsTargetBearing": true,
+      "glossaryExactAndNoTargetLeakage": true,
+      "chineseFidelity": "author checked; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2854,
+      "lessonId": "advanced-native-2854",
+      "sourceExact": true,
+      "patternMatchesSource": true,
+      "decisionOwnerMatched": true,
+      "sevenStepsPresent": true,
+      "fourContextuallyValidReplies": "author checked; independent review pending",
+      "keyAndDistractorFairness": "author checked; independent review pending",
+      "bothWritingModelsTargetBearing": true,
+      "glossaryExactAndNoTargetLeakage": true,
+      "chineseFidelity": "author checked; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2855,
+      "lessonId": "advanced-native-2855",
+      "sourceExact": true,
+      "patternMatchesSource": true,
+      "decisionOwnerMatched": true,
+      "sevenStepsPresent": true,
+      "fourContextuallyValidReplies": "author checked; independent review pending",
+      "keyAndDistractorFairness": "author checked; independent review pending",
+      "bothWritingModelsTargetBearing": true,
+      "glossaryExactAndNoTargetLeakage": true,
+      "chineseFidelity": "author checked; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2856,
+      "lessonId": "advanced-native-2856",
+      "sourceExact": true,
+      "patternMatchesSource": true,
+      "decisionOwnerMatched": true,
+      "sevenStepsPresent": true,
+      "fourContextuallyValidReplies": "author checked; independent review pending",
+      "keyAndDistractorFairness": "author checked; independent review pending",
+      "bothWritingModelsTargetBearing": true,
+      "glossaryExactAndNoTargetLeakage": true,
+      "chineseFidelity": "author checked; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2870,
+      "lessonId": "advanced-native-2870",
+      "sourceExact": true,
+      "patternMatchesSource": true,
+      "decisionOwnerMatched": true,
+      "sevenStepsPresent": true,
+      "fourContextuallyValidReplies": "author checked; independent review pending",
+      "keyAndDistractorFairness": "author checked; independent review pending",
+      "bothWritingModelsTargetBearing": true,
+      "glossaryExactAndNoTargetLeakage": true,
+      "chineseFidelity": "author checked; independent review pending"
+    }
+  ],
+  "deferredOwnerCandidate": {
+    "sourceOrdinal": 2859,
+    "expression": "drowning in headlines",
+    "existingOwnerCompared": "advanced-native-2483 drowning in paperwork",
+    "reason": "Same be drowning in + high-volume noun overload construction; the earlier lesson is paperwork-specific and the news variant may be separately useful, but distinct learner decision and owner scope need review before drafting. Decision file was not edited.",
+    "action": "no draft or decision change; request editorial comparison"
+  },
+  "openGates": [
+    "Independent exact-hash English and Traditional Chinese review",
+    "Human owner/sense approval under Golden SOP",
+    "Media listening and device QA",
+    "Manifest selection and publication by parent; no release action taken"
+  ],
+  "repairFollowup": {
+    "independentReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2833-2870-b.json",
+    "independentReviewSha256": "9cebd99b10460a91aeae9b083538ce8463c85310677a7bcff5b916796f0126be",
+    "repairs": [
+      {
+        "sourceOrdinal": 2851,
+        "contentRevision": 2,
+        "change": "Listening distractor D now asserts the unsupported trend reversal, removing a second arguably true answer."
+      },
+      {
+        "sourceOrdinal": 2854,
+        "contentRevision": 2,
+        "change": "Writing model 2 now specifies delayed bus production; Chinese already states production delay."
+      }
+    ],
+    "status": "author repaired; independent exact-hash follow-up pending"
+  }
+}

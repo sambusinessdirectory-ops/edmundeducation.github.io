@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2833-2870-review-pilot-2",
+  "lessons": [
+    {
+      "id": "advanced-native-2854",
+      "number": 2854,
+      "inventoryId": "expr-2854",
+      "titleEn": "spill across borders",
+      "titleZh": "影響蔓延到其他國家",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:spill|spills|spilled|spilling)\\s+across\\s+borders\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "For effects or problems originating in one country to spread to other countries.",
+        "meaningZh": "某地開始的影響或問題蔓延到其他國家。",
+        "grammar": "Effects, shocks or pressure spill/spilled across borders; subject names the spreading consequence. Unlike emotion spilling over into a reaction, this construction identifies geographic reach.",
+        "register": "Measured regional-policy briefing: an analyst tells neighbouring food-import teams how a supply disruption may affect them, without asserting every country is equally hit.",
+        "boundaryZh": "說影響跨境蔓延，不等於所有國家受影響程度相同，也不證明蔓延已發生。",
+        "misconceptionZh": "不是液體真的流過邊界；也不等於事件本身在每個國家重演。",
+        "outcomeZh": "能指出影響從哪裏開始、如何波及別國，並分清可能性與已發生的事。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0743",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 69,
+          "book": 11,
+          "question": 32,
+          "sample": "S1",
+          "sourceBookPages": "79–81",
+          "locatorNote": "DOCX table 68, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Economic shocks can spill across borders.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "spill across borders"
+        }
+      ],
+      "listening": {
+        "en": "A major harvest failure in one exporting country may raise grain prices in neighbouring markets. Economic pressure can spill across borders even when the failed crops stay in one place.",
+        "zh": "一個出口國嚴重失收，可能推高鄰近市場的穀物價格。即使失收只發生在一地，經濟壓力仍可能跨境蔓延。",
+        "promptZh": "spill across borders 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The price effects can spread to other countries.",
+            "zh": "價格影響可能蔓延到其他國家。"
+          },
+          {
+            "id": "b",
+            "en": "The price effect remains entirely inside the exporting country.",
+            "zh": "價格影響完全留在出口國內。"
+          },
+          {
+            "id": "c",
+            "en": "Every country has already suffered an identical harvest failure.",
+            "zh": "每個國家都已出現完全相同的失收。"
+          },
+          {
+            "id": "d",
+            "en": "The exporting country’s harvest cannot affect any import market.",
+            "zh": "出口國失收不可能影響任何進口市場。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "跨境蔓延的是價格壓力，不是失收農作物本身。"
+      },
+      "reply": {
+        "promptEn": "What could happen after one port closes for a week? Two nearby countries import medicine through that port, so their delivery times might lengthen despite no local closure.",
+        "promptZh": "（一個港口關閉一週後可能怎樣？兩個鄰國靠該港進口藥物，因此雖然本地港口沒關，送貨時間仍可能延長。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A delay at one port may affect neighbouring supply chains.",
+            "zh": "一個港口延誤可能影響鄰國供應鏈。"
+          },
+          {
+            "id": "b",
+            "en": "The nearby countries may face longer medicine deliveries.",
+            "zh": "鄰國的藥物送貨時間可能延長。"
+          },
+          {
+            "id": "c",
+            "en": "The disruption could spill across borders through delivery delays.",
+            "zh": "貨運延誤可能令這次中斷的影響跨境蔓延。"
+          },
+          {
+            "id": "d",
+            "en": "A closure in one place may have consequences elsewhere.",
+            "zh": "一地港口關閉可能在別處產生影響。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都按進口依賴推論可能的跨境延誤，金句用 spill across borders。"
+      },
+      "scene": {
+        "promptZh": "一國短暫停供關鍵零件，鄰國工廠因依賴該零件而可能減產。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The supply shock may spill across borders to factories that use the part.",
+            "zh": "供應衝擊可能跨境波及使用該零件的工廠。"
+          },
+          {
+            "id": "b",
+            "en": "Every factory in every country has already closed.",
+            "zh": "所有國家的每間工廠都已關閉。"
+          },
+          {
+            "id": "c",
+            "en": "The neighbouring factories do not use this part at all.",
+            "zh": "鄰國工廠完全不用這種零件。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "進口依賴形成可能的跨境影響，但未能說所有工廠已停工。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說 effects spilled across borders？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One country’s rail strike delays deliveries to its neighbours.",
+            "zh": "一國鐵路罷工拖慢送往鄰國的貨運。"
+          },
+          {
+            "id": "b",
+            "en": "A local power cut affects one building, with no links outside the town.",
+            "zh": "停電只影響一棟樓，與鎮外沒有連繫。"
+          },
+          {
+            "id": "c",
+            "en": "A trade-rule change in one state raises import costs abroad.",
+            "zh": "一國貿易規則改變，推高外國進口成本。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "沒有任何跨出本地的影響證據。"
+      },
+      "dialogue": {
+        "promptZh": "同學說：「一國物價升，證明每個鄰國都已同幅度上升。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Pressure can spill across borders, but we need evidence for each neighbour’s actual impact.",
+            "zh": "壓力可能跨境蔓延，但各鄰國實際影響仍須逐一查證。"
+          },
+          {
+            "id": "b",
+            "en": "If an effect crosses a border, every country must be affected equally.",
+            "zh": "影響一旦越境，每個國家受影響程度都必然相同。"
+          },
+          {
+            "id": "c",
+            "en": "A national price rise can never affect trading partners.",
+            "zh": "一國物價上升絕不可能影響貿易伙伴。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語描述可能的跨境傳播，不決定範圍或幅度。"
+      },
+      "speaking": {
+        "en": "The shipping delay began at one port, but its effects could spill across borders to neighbouring hospitals waiting for supplies.",
+        "zh": "貨運延誤始於一個港口，但其影響可能跨境波及等待物資的鄰國醫院。",
+        "promptZh": "先聽示範，再指出影響經甚麼連繫擴散。",
+        "targetSpan": {
+          "start": 60,
+          "end": 80
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：甲國限制出口某種電池材料，乙國的電動巴士廠依賴該材料，可能要延後生產；尚未有證據說所有國家都受影響。用一至兩句英文描述可能的跨境影響。",
+        "selfCheckZh": "寫出限制始於甲國、乙國工廠可能延產，以及不能推論所有國家同受影響。",
+        "examples": [
+          {
+            "en": "The export restriction began in Country A, but its effects may spill across borders: Country B’s bus factory could delay production because it needs the battery material. Effects on other countries remain unknown.",
+            "zh": "出口限制始於甲國，但影響可能跨境蔓延：乙國巴士廠需要該電池材料，生產或要延後。其他國家的情況仍未明。"
+          },
+          {
+            "en": "Because the factory in Country B relies on Country A’s battery material, the supply shock could spill across borders and delay bus production, though other countries’ effects remain unknown.",
+            "zh": "由於乙國工廠依賴甲國的電池材料，供應衝擊可能跨境蔓延，令巴士生產延後；其他國家的情況則仍未明。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "export restriction",
+            "zh": "出口限制",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 22
+            }
+          },
+          {
+            "en": "Country A",
+            "zh": "甲國",
+            "exampleIndex": 0,
+            "span": {
+              "start": 32,
+              "end": 41
+            }
+          },
+          {
+            "en": "bus factory",
+            "zh": "巴士廠",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 108
+            }
+          },
+          {
+            "en": "battery material",
+            "zh": "電池材料",
+            "exampleIndex": 0,
+            "span": {
+              "start": 153,
+              "end": 169
+            }
+          },
+          {
+            "en": "supply shock",
+            "zh": "供應衝擊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 89
+            }
+          },
+          {
+            "en": "remain unknown",
+            "zh": "仍未明",
+            "exampleIndex": 1,
+            "span": {
+              "start": 175,
+              "end": 189
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Economic pressure may spill across borders through trade links.",
+          "zh": "經濟壓力可經貿易連繫跨境蔓延。"
+        },
+        {
+          "en": "Saying effects spill across borders does not prove all countries are affected equally.",
+          "zh": "說影響跨境蔓延，不等於證明所有國家受影響程度相同。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2855",
+      "number": 2855,
+      "inventoryId": "expr-2855",
+      "titleEn": "beyond your own doorstep",
+      "titleZh": "放眼身邊以外的世界",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bbeyond\\s+(?:their|our|my|your|his|her|its)\\s+own\\s+doorstep\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Outside one’s immediate home area or familiar local surroundings.",
+        "meaningZh": "超出自己住處附近或熟悉的本地範圍。",
+        "grammar": "Look/think beyond + possessive + own doorstep; the possessive changes with whose local world is meant. The metaphor refers to attention, not physically stepping over a threshold.",
+        "register": "Encouraging school discussion: a geography teacher invites pupils to compare local transport with neighbouring regions without dismissing local issues.",
+        "boundaryZh": "放眼外界不等於忽略本地，也不要求每個人出國旅行。",
+        "misconceptionZh": "不是實際走出門口一步；本地經驗仍可作比較起點。",
+        "outcomeZh": "能說明何時需要加入較廣的地區或國際視角，同時保留本地觀察。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0744",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 69,
+          "book": 11,
+          "question": 32,
+          "sample": "S1",
+          "sourceBookPages": "79–81",
+          "locatorNote": "DOCX table 68, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Students should look beyond their own doorstep.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "beyond their own doorstep"
+        }
+      ],
+      "listening": {
+        "en": "The class knows how buses work in its own district, but the teacher asks students to look beyond their own doorstep and compare two neighbouring cities.",
+        "zh": "全班熟悉自己區內的巴士安排，但老師請學生放眼本區以外，比較兩個鄰近城市。",
+        "promptZh": "look beyond their own doorstep 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Consider places and experiences beyond their familiar district.",
+            "zh": "留意熟悉地區以外的地方和經驗。"
+          },
+          {
+            "id": "b",
+            "en": "Ignore everything the class already knows locally.",
+            "zh": "完全忽略全班已知的本地情況。"
+          },
+          {
+            "id": "c",
+            "en": "Compare routes only within their already familiar district.",
+            "zh": "只比較自己已熟悉地區內的路線。"
+          },
+          {
+            "id": "d",
+            "en": "Travel abroad before comparing any transport systems.",
+            "zh": "比較交通系統前必須先出國。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語鼓勵擴闊視野，仍可把本地經驗用作比較。"
+      },
+      "reply": {
+        "promptEn": "Why did the school newspaper interview pupils from a nearby town? Its own pupils described their library well, but the editors wanted to understand whether other towns faced similar opening-hour problems.",
+        "promptZh": "（校報為何訪問鄰鎮學生？本校學生對自己圖書館的描述很清楚，但編輯想知道其他城鎮是否遇到類似開放時間問題。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The editors wanted a comparison beyond their own school.",
+            "zh": "編輯想加入本校以外的比較。"
+          },
+          {
+            "id": "b",
+            "en": "They could keep their local account while hearing another town’s view.",
+            "zh": "他們可以保留本地描述，同時聽取鄰鎮看法。"
+          },
+          {
+            "id": "c",
+            "en": "They wanted to look beyond their own doorstep.",
+            "zh": "他們想放眼身邊以外的地方。"
+          },
+          {
+            "id": "d",
+            "en": "The nearby town might offer useful context for the local issue.",
+            "zh": "鄰鎮情況可能為本地問題提供有用背景。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都在本地觀察之外加入其他地區視角；金句用 beyond their own doorstep。"
+      },
+      "scene": {
+        "promptZh": "學生只訪問自己屋苑住戶，卻要談全市公共空間；老師請他們加入另一區資料。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They should look beyond their own doorstep while keeping their local interviews.",
+            "zh": "他們應保留本地訪問，並放眼自己屋苑以外。"
+          },
+          {
+            "id": "b",
+            "en": "They must discard every local interview before writing.",
+            "zh": "他們寫作前必須丟棄所有本地訪問。"
+          },
+          {
+            "id": "c",
+            "en": "Another district is irrelevant to a citywide claim.",
+            "zh": "談全市情況時，另一區完全無關。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "全市結論需要更廣視角，但不須放棄本地資料。"
+      },
+      "contrast": {
+        "promptZh": "哪個做法最不符合 look beyond your own doorstep？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Compare local water use with neighbouring regions’ practices.",
+            "zh": "把本地用水與鄰近地區做法比較。"
+          },
+          {
+            "id": "b",
+            "en": "Assume one street’s experience describes every city without checking.",
+            "zh": "未查證便假設一條街的經驗代表所有城市。"
+          },
+          {
+            "id": "c",
+            "en": "Read accounts from other towns before discussing local traffic.",
+            "zh": "討論本地交通前閱讀其他城鎮的記述。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只憑一條街概括所有城市，沒有擴闊視野。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「放眼本區以外，就代表本地觀察毫無價值。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Looking beyond our own doorstep adds context; it does not erase what we learned locally.",
+            "zh": "放眼身邊以外是增加背景，不會抹掉本地所得。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. Broader context always makes local evidence useless.",
+            "zh": "對；較廣背景必定令本地證據毫無用處。"
+          },
+          {
+            "id": "c",
+            "en": "A wider comparison proves our local records are inaccurate.",
+            "zh": "較廣的比較已證明本地紀錄不準確。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "擴闊比較範圍與保留本地證據可以並行。"
+      },
+      "speaking": {
+        "en": "To understand the housing debate, we looked beyond our own doorstep and compared our district with a neighbouring town.",
+        "zh": "為了解住房議題，我們放眼本區以外，把本區與鄰鎮比較。",
+        "promptZh": "先聽示範，再指出加入了哪個比較對象。",
+        "targetSpan": {
+          "start": 44,
+          "end": 67
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區小組掌握本區公園使用情況，但想向市政府提出全市建議；他們打算再訪問兩個鄰區，不放棄本區紀錄。用一至兩句英文描述為何擴闊觀察範圍。",
+        "selfCheckZh": "寫出本區資料仍保留、再訪問兩個鄰區、因為提案涉及全市；不必說一定出國。",
+        "examples": [
+          {
+            "en": "For a citywide park proposal, group members will look beyond their own doorstep by interviewing residents in two neighbouring districts while keeping local records.",
+            "zh": "為提出全市公園建議，小組會訪問兩個鄰區，放眼本區以外，同時保留本區紀錄。"
+          },
+          {
+            "en": "The group has local park records, but a citywide recommendation calls for members to look beyond their own doorstep, so they will speak to residents in two nearby districts too.",
+            "zh": "小組已有本區公園紀錄，但要提出全市建議，就須放眼本區以外，因此也會訪問兩個鄰區的居民。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "citywide park proposal",
+            "zh": "全市公園建議",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 28
+            }
+          },
+          {
+            "en": "two neighbouring districts",
+            "zh": "兩個鄰區",
+            "exampleIndex": 0,
+            "span": {
+              "start": 109,
+              "end": 135
+            }
+          },
+          {
+            "en": "local records",
+            "zh": "本區紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 150,
+              "end": 163
+            }
+          },
+          {
+            "en": "citywide recommendation",
+            "zh": "全市建議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 40,
+              "end": 63
+            }
+          },
+          {
+            "en": "residents",
+            "zh": "居民",
+            "exampleIndex": 1,
+            "span": {
+              "start": 139,
+              "end": 148
+            }
+          },
+          {
+            "en": "nearby districts",
+            "zh": "鄰區",
+            "exampleIndex": 1,
+            "span": {
+              "start": 156,
+              "end": 172
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Looking beyond your own doorstep adds perspectives outside your familiar local area.",
+          "zh": "放眼身邊以外，是加入熟悉本區以外的視角。"
+        },
+        {
+          "en": "Beyond our own doorstep need not mean abandoning local evidence or travelling abroad.",
+          "zh": "放眼身邊以外，不必放棄本地證據或出國旅行。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2856",
+      "number": 2856,
+      "inventoryId": "expr-2856",
+      "titleEn": "living in a bubble",
+      "titleZh": "活在資訊泡泡裏",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:live|lives|lived|living)\\s+in\\s+a\\s+bubble\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Be insulated from wider realities because one’s information or social world is narrow.",
+        "meaningZh": "因接觸的資訊或社交圈狹窄，而與較廣闊的現實隔絕。",
+        "grammar": "Live/living/lived in a bubble is a state; can be followed by details of which outside voices or facts are missed. It differs from step out of a bubble, which names a possible action to change that state.",
+        "register": "Reflective school media discussion: a student tells classmates that their local group chat alone cannot represent every neighbourhood’s experience.",
+        "boundaryZh": "資訊有限不等於一個人完全無知，也不一定是他故意隔絕外界。",
+        "misconceptionZh": "不是身處真正的透明泡泡；看不同意見也不保證立即理解所有現實。",
+        "outcomeZh": "能指出資訊視野狹窄的具體原因和被忽略的外界經驗，而不武斷評價一個人。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0745",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 69,
+          "book": 11,
+          "question": 32,
+          "sample": "S1",
+          "sourceBookPages": "79–81",
+          "locatorNote": "DOCX table 68, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Ignoring world news can leave people living in a bubble.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "living in a bubble"
+        }
+      ],
+      "listening": {
+        "en": "The discussion group reads only its own neighbourhood chat and assumes every district has the same bus service. Without outside accounts, members may be living in a bubble.",
+        "zh": "討論小組只看本區群組，便假設每區巴士服務都一樣。沒有其他地方的說法，成員可能活在資訊泡泡裏。",
+        "promptZh": "living in a bubble 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They may have too narrow a view of other districts’ realities.",
+            "zh": "他們對其他地區現實的認識可能太狹窄。"
+          },
+          {
+            "id": "b",
+            "en": "They have compared many districts’ independent transport surveys.",
+            "zh": "他們已比較多區獨立交通調查。"
+          },
+          {
+            "id": "c",
+            "en": "They deliberately hid outside accounts from other members.",
+            "zh": "他們故意把外界說法藏起來，不讓其他成員知道。"
+          },
+          {
+            "id": "d",
+            "en": "Every district definitely has identical bus service.",
+            "zh": "每區巴士服務肯定完全一樣。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只看本區群組，容易錯把本地情況當作所有地區的情況。"
+      },
+      "reply": {
+        "promptEn": "Why did Anya seek views outside her university club? Its members all use the same online forum, and she realised it had shown her little about the needs of part-time students.",
+        "promptZh": "（安雅為何尋找大學學會以外的意見？會員都用同一網上討論區；她發現自己幾乎不知道兼讀學生的需要。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The club forum did not show every student’s experience.",
+            "zh": "學會討論區沒有呈現所有學生的經驗。"
+          },
+          {
+            "id": "b",
+            "en": "Part-time students’ views could broaden her picture.",
+            "zh": "兼讀學生的意見可讓她看得更全面。"
+          },
+          {
+            "id": "c",
+            "en": "She feared she was living in a bubble of club-only views.",
+            "zh": "她擔心自己只聽學會意見，活在資訊泡泡裏。"
+          },
+          {
+            "id": "d",
+            "en": "Seeking outside voices could reveal needs she had missed.",
+            "zh": "聽取外界意見可找出她原本漏看的需要。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出學會資訊圈的局限；金句用 living in a bubble。"
+      },
+      "scene": {
+        "promptZh": "一位居民只聽自己屋苑的討論，便斷定全市房屋問題與本屋苑相同。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He may be living in a bubble if he ignores other districts’ accounts.",
+            "zh": "若他忽略其他區的說法，可能活在資訊泡泡裏。"
+          },
+          {
+            "id": "b",
+            "en": "He has already studied every district in the city.",
+            "zh": "他已研究全市每個地區。"
+          },
+          {
+            "id": "c",
+            "en": "One estate always represents an entire city.",
+            "zh": "一個屋苑總能代表全市。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "以單一屋苑代表全市，是視野可能過窄的跡象。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不支持 living in a bubble？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A team relies only on its own members’ views and ignores user feedback.",
+            "zh": "團隊只聽成員意見，忽略使用者回饋。"
+          },
+          {
+            "id": "b",
+            "en": "A journalist compares local accounts with reports from several other regions.",
+            "zh": "記者把本地說法與其他多個地區的報道比較。"
+          },
+          {
+            "id": "c",
+            "en": "A club assumes everyone uses its preferred app without asking outsiders.",
+            "zh": "學會不問外人，便假設人人都用它喜歡的應用程式。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "比較多地區說法有助避免資訊圈過窄。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「說他可能 living in a bubble，就是說他故意無知。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Living in a bubble points to a narrow information world; it does not prove deliberate ignorance.",
+            "zh": "活在資訊泡泡裏，指資訊來源狹窄，並不能證明他故意無知。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. Limited information always proves bad intentions.",
+            "zh": "對；資訊有限一定證明動機不良。"
+          },
+          {
+            "id": "c",
+            "en": "It proves he has never spoken to anyone outside his group.",
+            "zh": "這證明他從未跟群組外的人說話。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可指出視野局限，而不武斷推斷意圖。"
+      },
+      "speaking": {
+        "en": "If we rely only on our own forum, we may be living in a bubble and miss how other families use the service.",
+        "zh": "若我們只依賴自己的討論區，便可能活在資訊泡泡裏，漏看其他家庭如何使用服務。",
+        "promptZh": "先聽示範，再指出可能被忽略的人。",
+        "targetSpan": {
+          "start": 44,
+          "end": 62
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：圖書館規劃兒童活動，只訪問常到館的家庭，卻未聽從未到館的家長；策劃員擔心資訊來源太窄，打算到附近學校收集意見。用一至兩句英文描述視野局限和下一步，不要說現有家庭的意見沒有價值。",
+        "selfCheckZh": "寫出只問常到館家庭、欠缺從未到館家長看法、到學校擴闊資訊；不要否定原有意見。",
+        "examples": [
+          {
+            "en": "The planners may be living in a bubble if they hear only regular visitors; they will also ask parents at nearby schools who have never visited.",
+            "zh": "圖書館若只聽常到館家庭意見，可能活在資訊泡泡裏；策劃員也會到附近學校訪問從未到館的家長。"
+          },
+          {
+            "en": "Regular visitors’ views still matter, but the planners risk living in a bubble without non-users’ voices, so they will visit nearby schools.",
+            "zh": "常到館家庭的意見仍重要，但若欠缺未使用者的看法，策劃員可能活在資訊泡泡裏，因此會走訪附近學校。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "regular visitors",
+            "zh": "常到館家庭",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 73
+            }
+          },
+          {
+            "en": "nearby schools",
+            "zh": "附近學校",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 119
+            }
+          },
+          {
+            "en": "parents",
+            "zh": "家長",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 101
+            }
+          },
+          {
+            "en": "never visited",
+            "zh": "從未到館",
+            "exampleIndex": 0,
+            "span": {
+              "start": 129,
+              "end": 142
+            }
+          },
+          {
+            "en": "views still matter",
+            "zh": "意見仍重要",
+            "exampleIndex": 1,
+            "span": {
+              "start": 18,
+              "end": 36
+            }
+          },
+          {
+            "en": "non-users’ voices",
+            "zh": "未使用者的看法",
+            "exampleIndex": 1,
+            "span": {
+              "start": 87,
+              "end": 104
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Living in a bubble can mean hearing too few voices from outside one’s group.",
+          "zh": "活在資訊泡泡裏，可指聽到的圈外聲音太少。"
+        },
+        {
+          "en": "A person living in a bubble is not necessarily ignoring others on purpose.",
+          "zh": "活在資訊泡泡裏的人，不一定是故意忽略別人。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2870",
+      "number": 2870,
+      "inventoryId": "expr-2870",
+      "titleEn": "on the spot",
+      "titleZh": "當場立即",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bon\\s+the\\s+spot\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Immediately at the time something happens, without waiting to prepare or decide later.",
+        "meaningZh": "事情發生時當場立即行動或回答，沒有延後準備。",
+        "grammar": "On the spot follows a verb such as decide, answer or form an opinion in the temporal sense. The words can also literally locate someone, but this lesson targets immediacy.",
+        "register": "Neutral discussion of quick decisions: a facilitator tells committee members when she answered an unexpected question and what she still planned to verify later.",
+        "boundaryZh": "當場作答或作決定不保證內容正確，也不表示一定草率；須看可用資料。",
+        "misconceptionZh": "不是單純「站在某個地點」，也不是指一切後續程序立即完成。",
+        "outcomeZh": "能分清立即作出的動作、其後仍待核實的部分，以及地點字面用法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0759",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 70,
+          "book": 11,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "82–83",
+          "locatorNote": "DOCX table 69, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She formed an opinion on the spot.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "on the spot"
+        }
+      ],
+      "listening": {
+        "en": "A reporter asked for her view without warning, and Maya formed an opinion on the spot. She later read the full report before publishing a final comment.",
+        "zh": "記者毫無預告地問美雅意見，她當場形成初步看法。其後她讀完整份報告，才發表最後評論。",
+        "promptZh": "formed an opinion on the spot 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She formed an initial view immediately when asked.",
+            "zh": "她被問及時立即形成初步看法。"
+          },
+          {
+            "id": "b",
+            "en": "She postponed forming any view until after the full report.",
+            "zh": "她等讀完整份報告後才形成任何看法。"
+          },
+          {
+            "id": "c",
+            "en": "Her first view was guaranteed to be correct.",
+            "zh": "她的第一個看法保證正確。"
+          },
+          {
+            "id": "d",
+            "en": "She gave a fully researched final statement immediately.",
+            "zh": "她立即發表了經全面研究的最終聲明。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她沒有預先準備，當場有了初步看法；最後評論則較後才發表。"
+      },
+      "reply": {
+        "promptEn": "How did the help-desk worker handle the simple ticket correction? The passenger showed the printed receipt, the fare rule was clear, and the worker fixed the name immediately rather than sending the passenger away.",
+        "promptZh": "（服務台職員怎樣處理簡單的車票姓名更正？乘客出示印好的收據，票價規則清楚；職員立即更正，而非叫乘客稍後再來。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The worker corrected the name immediately after seeing the receipt.",
+            "zh": "職員看過收據便立即更正姓名。"
+          },
+          {
+            "id": "b",
+            "en": "The clear rule allowed a decision without a later appointment.",
+            "zh": "規則清楚，毋須另約時間才決定。"
+          },
+          {
+            "id": "c",
+            "en": "The worker made the correction on the spot.",
+            "zh": "職員當場完成更正。"
+          },
+          {
+            "id": "d",
+            "en": "The passenger did not have to return for the simple correction.",
+            "zh": "乘客毋須為這項簡單更正再回來。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說更正立即完成；金句用 on the spot。"
+      },
+      "scene": {
+        "promptZh": "面試員突然問申請人一個新問題，申請人沒有事先準備，但立即給出初步答案，並答應稍後補交數據。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She answered on the spot, then promised supporting data later.",
+            "zh": "她當場作答，並答應稍後補交佐證數據。"
+          },
+          {
+            "id": "b",
+            "en": "She waited a week before saying anything at all.",
+            "zh": "她整整等了一週才說出任何答案。"
+          },
+          {
+            "id": "c",
+            "en": "Her immediate answer must have included every relevant statistic.",
+            "zh": "她立即回答，就必然包括每項相關數據。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "即時回答與其後補充數據可以並存。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合 on the spot 的時間意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A speaker answers an unexpected question immediately.",
+            "zh": "講者立即回答突如其來的問題。"
+          },
+          {
+            "id": "b",
+            "en": "A committee sets a decision for next month after further research.",
+            "zh": "委員會安排下月完成研究後才作決定。"
+          },
+          {
+            "id": "c",
+            "en": "A cashier fixes an obvious receipt error while the customer waits.",
+            "zh": "收銀員在顧客等候時立即更正明顯的收據錯誤。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "決定延至下月，不屬於當場立即。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「他 on the spot 回答了，就一定沒有認真想過，也不用再核實。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "On the spot tells us when he answered, not whether the answer was sound; later checking may still help.",
+            "zh": "on the spot 只說明他何時回答，不說明答案是否可靠；其後核實仍可能有用。"
+          },
+          {
+            "id": "b",
+            "en": "Every immediate answer is wrong and cannot be reviewed.",
+            "zh": "每個即時答案都錯，而且不能覆核。"
+          },
+          {
+            "id": "c",
+            "en": "An answer cannot be immediate if anyone later checks it.",
+            "zh": "若有人其後核實，答案就不可能是即時的。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "時間與答案品質及後續核實是不同判斷。"
+      },
+      "speaking": {
+        "en": "The facilitator answered the timetable question on the spot because the confirmed schedule was open in front of her.",
+        "zh": "主持人面前有已確認的時間表，所以當場回答了時間問題。",
+        "promptZh": "先聽示範，再指出她可立即回答的根據。",
+        "targetSpan": {
+          "start": 48,
+          "end": 59
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區會議上有人突然問義工一項初步調查有多少受訪者；義工手上有核對過的人數表，便立即回答「四十人」，但完整分析仍要翌日才提交。用一至兩句英文區分即時回答與較後分析。",
+        "selfCheckZh": "寫出突然被問、根據已核對數字當場答四十人、完整分析翌日才提交；不要說即時回答已完成整份分析。",
+        "examples": [
+          {
+            "en": "When asked unexpectedly, the volunteer answered on the spot from the checked count of forty respondents; the full analysis was due the next day.",
+            "zh": "義工突然被問及時，根據已核對的四十名受訪者數字當場回答；完整分析要翌日才交。"
+          },
+          {
+            "en": "When asked unexpectedly, the verified table let her give the number of forty respondents on the spot, although she would submit the full analysis only the following day.",
+            "zh": "她突然被問及時，已核對的表格讓她當場答出四十名受訪者，但完整分析要到翌日才提交。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "unexpectedly",
+            "zh": "突然",
+            "exampleIndex": 0,
+            "span": {
+              "start": 11,
+              "end": 23
+            }
+          },
+          {
+            "en": "checked count",
+            "zh": "已核對的數字",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 82
+            }
+          },
+          {
+            "en": "forty respondents",
+            "zh": "四十名受訪者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 86,
+              "end": 103
+            }
+          },
+          {
+            "en": "full analysis",
+            "zh": "完整分析",
+            "exampleIndex": 0,
+            "span": {
+              "start": 109,
+              "end": 122
+            }
+          },
+          {
+            "en": "verified table",
+            "zh": "已核對的表格",
+            "exampleIndex": 1,
+            "span": {
+              "start": 29,
+              "end": 43
+            }
+          },
+          {
+            "en": "following day",
+            "zh": "翌日",
+            "exampleIndex": 1,
+            "span": {
+              "start": 155,
+              "end": 168
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Answering on the spot means answering immediately, not necessarily without evidence.",
+          "zh": "當場作答是立即回答，不一定毫無根據。"
+        },
+        {
+          "en": "An answer given on the spot does not imply that all later analysis is complete.",
+          "zh": "當場回答不表示其後的分析都已完成。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

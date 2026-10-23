@@ -1,0 +1,84 @@
+{
+  "reviewType": "independent-ai-exact-hash-followup",
+  "scope": "Eight unselected lessons 3198–3228; focused recheck R3200-01 and regressions",
+  "inputFiles": {
+    "draft": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3198-3228-a.json",
+      "sha256": "9705882c69f72ddc98140fb02e1da6400be0f5c770f673de1063992a8f550bc1"
+    },
+    "selfAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-3198-3228-a.json",
+      "sha256": "75bfaee4126fe1a1e5f37eb1692c564163a61525f8a7a03ad9d9b19afcf1648f"
+    },
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    }
+  },
+  "finding": {
+    "id": "R3200-01",
+    "lesson": 3200,
+    "status": "cleared",
+    "evidence": "Writing model 1 now gives three-venue practical experience, a specific suggestion to check access routes before printing, and an explicit present-venue check of whether those routes are clear. Traditional Chinese aligns with the added action. Model 2 already includes a current-conditions check. contentRevision 2."
+  },
+  "perLesson": [
+    {
+      "sourceOrdinal": 3198,
+      "status": "content-cleared",
+      "note": "Initial independent content pass retained; no new regression seen."
+    },
+    {
+      "sourceOrdinal": 3199,
+      "status": "content-cleared",
+      "note": "Initial independent content pass retained; no new regression seen."
+    },
+    {
+      "sourceOrdinal": 3200,
+      "status": "content-cleared",
+      "note": "Initial editorial pass retained; 3200 repair independently verified."
+    },
+    {
+      "sourceOrdinal": 3205,
+      "status": "content-cleared",
+      "note": "Initial independent content pass retained; no new regression seen."
+    },
+    {
+      "sourceOrdinal": 3211,
+      "status": "content-cleared",
+      "note": "Initial independent content pass retained; no new regression seen."
+    },
+    {
+      "sourceOrdinal": 3213,
+      "status": "content-cleared",
+      "note": "Initial independent content pass retained; no new regression seen."
+    },
+    {
+      "sourceOrdinal": 3219,
+      "status": "content-cleared",
+      "note": "Initial independent content pass retained; no new regression seen."
+    },
+    {
+      "sourceOrdinal": 3228,
+      "status": "content-cleared",
+      "note": "Initial independent content pass retained; no new regression seen."
+    }
+  ],
+  "regressionChecks": {
+    "provenance": "All eight source IDs, exact example sentences and expression strings match inventory.",
+    "target": "All full sources and target-bearing assessment texts match fresh gi detector; speaking spans are exact.",
+    "glossary": "All 40 non-target glossary spans are exact answer-derived substrings.",
+    "bilingual": "Changed 3200 English and Traditional Chinese agree on the current-venue check.",
+    "ownerScope": "3198 welfare-motive construction remains distinct from canonical 562 underlying-nature at heart; 3228 dictionary-attested meaning remains clear, with human register check open."
+  },
+  "focusedBuild": {
+    "lessons": 8,
+    "questions": 48,
+    "audioRequests": 32,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass",
+    "outputDirectory": "/private/tmp/advanced-native-review-b-3198-3228-followup"
+  },
+  "selectionRecommendation": "All eight content-cleared for provisional selection; human English/Chinese/media/QA and release approval remain open.",
+  "selectedOrPublished": false
+}

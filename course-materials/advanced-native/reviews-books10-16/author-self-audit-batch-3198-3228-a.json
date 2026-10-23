@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T13:28:15.057665+00:00",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3198-3228-a.json",
+  "draftSha256": "9705882c69f72ddc98140fb02e1da6400be0f5c770f673de1063992a8f550bc1",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": "b9ef939e3810ae02faf8d16c33c4095203318a5cfec074b8059744623348dfea",
+  "focusedBuild": "PASS: 8 lessons, 48 questions, 32 audio requests, 0 flags",
+  "focusedCheck": "PASS",
+  "canonicalScreen": "All eight are proposed-new. 3198 uses the full have + possessive + best interests at heart construction, distinct from canonical 562 at heart = fundamentally/in one’s underlying nature; however the older broad detector also matches and sense-aware owner sign-off remains open. Other seven showed no exact canonical phrase collision in catalogue screening.",
+  "dictionarySenseCheck": {
+    "lesson": 3228,
+    "phrase": "where the shoe pinches",
+    "sense": "true source of trouble or worry",
+    "source": "https://www.collinsdictionary.com/us/dictionary/english/where-the-shoe-pinches",
+    "useNote": "Traditional/old-fashioned idiom; local lesson brief states this register."
+  },
+  "selectedOrPublished": false,
+  "humanReviewClaimed": false,
+  "rows": [
+    {
+      "sourceOrdinal": 3198,
+      "sourceExpression": "best interests at heart",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3199,
+      "sourceExpression": "tell you what you need to hear",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3200,
+      "sourceExpression": "been around the block",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3205,
+      "sourceExpression": "the long view",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3211,
+      "sourceExpression": "keep my word",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3213,
+      "sourceExpression": "burn bridges",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3219,
+      "sourceExpression": "down the line",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3228,
+      "sourceExpression": "where the shoe pinches",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    }
+  ],
+  "authorChecks": [
+    "Exact guide sentence, expression and source provenance cross-checked for all eight.",
+    "All five MC prompts have Han Traditional Chinese; all dialogue EN/ZH turns compared.",
+    "Listening question/key and each choice checked against spoken information; unstated speaker roles were removed.",
+    "Four independently reasonable replies in each reply task, with one target-bearing golden.",
+    "Keyed scenes/dialogues, speaking models, both writing models and four audio roles match reviewed target forms.",
+    "All 40 glossary rows are exact answer-derived non-target spans.",
+    "Both writing models checked against prompt details, with different contexts and no guaranteed future outcomes.",
+    "Obvious literal-gag distractors removed during author review."
+  ],
+  "limitations": [
+    "Independent English, Traditional Chinese, assessment and device review still pending.",
+    "No audio synthesis, upload, manifest selection or publication occurred."
+  ],
+  "updatedUtc": "2026-10-23T13:33:35.988969+00:00",
+  "independentReviewRepair": {
+    "reviewFile": "reviews-books10-16/independent-ai-review-3198-3228-b.json",
+    "reviewSha256": "2a8422d9d280a583647ddfae495e27b78d1e1ec5b045d5fedcbbef18192bb3f6",
+    "findingsResolvedInDraft": [
+      "R3200-01"
+    ],
+    "specificEdit": "3200 writing model 1 now checks whether the experienced organiser’s access-route advice applies to the team’s current venue; English/Traditional Chinese aligned.",
+    "audioTextChanged": false,
+    "status": "awaiting independent exact-hash follow-up"
+  }
+}

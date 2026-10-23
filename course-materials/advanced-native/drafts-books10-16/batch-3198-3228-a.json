@@ -1,0 +1,2150 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3198-3228-a",
+  "lessons": [
+    {
+      "id": "advanced-native-3198",
+      "number": 3198,
+      "inventoryId": "expr-3198",
+      "titleEn": "have someone’s best interests at heart",
+      "titleZh": "真心為某人著想",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:have|has|had|having) (?:my|your|his|her|our|their|its) best interests at heart\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Sincerely want what is best for another person’s welfare, even when the advice is unwelcome.",
+        "meaningZh": "真心希望對方得到最有利於其福祉的結果，即使所提建議不討好。",
+        "grammar": "have/has/had + possessive determiner + best interests at heart; the possessor marks whose welfare matters. This lesson models pronoun forms only to avoid overbroad substring detection.",
+        "register": "Warm, somewhat earnest conversational phrase. A parent might say it to a teenager when explaining a difficult recommendation.",
+        "boundaryZh": "指動機在於對方的福祉，不保證建議必定正確；與第 562 課 at heart 表示「本質上」的意思和句法不同，須按完整結構判別。",
+        "misconceptionZh": "不是「把利益放在心臟裏」，也不應用這句話免除聆聽對方需要的責任。",
+        "outcomeZh": "能從動機和具體行動辨別真心為對方著想，並避免把關心當成正確保證。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1087",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 101,
+          "book": 12,
+          "question": 35,
+          "sample": "S1",
+          "sourceBookPages": "84–85",
+          "locatorNote": "DOCX table 105, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Her parents have her best interests at heart.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "best interests at heart"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者為何建議 Nia 先試兩星期才決定是否退出樂隊？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The speaker wants Nia to make an informed choice that supports her welfare.",
+            "zh": "講者希望 Nia 先了解情況，再作對自己有益的選擇。"
+          },
+          {
+            "id": "b",
+            "en": "The speaker wants Nia to stay only to sell more tickets.",
+            "zh": "講者只想 Nia 留下來賣更多門票。"
+          },
+          {
+            "id": "c",
+            "en": "The speaker has already signed Nia up for another year.",
+            "zh": "講者已替 Nia 報名參加下一年。"
+          },
+          {
+            "id": "d",
+            "en": "The speaker thinks Nia should ignore her own stress.",
+            "zh": "講者認為 Nia 應無視自己的壓力。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者邀請 Nia 觀察練習負擔和自身感受，目的是讓她作知情選擇。",
+        "en": "I know you are tired of band practice, Nia. I have your best interests at heart, so I suggest trying the shorter rehearsal plan for two weeks, then deciding whether to stay. Please tell me if the stress is still too much.",
+        "zh": "Nia，我知道你對樂隊練習感到疲倦。我是真心為你著想，所以建議先試兩星期較短的排練安排，再決定是否留下。如果壓力仍太大，請告訴我。"
+      },
+      "reply": {
+        "promptEn": "I am thinking of leaving the band because rehearsals are exhausting. My aunt suggests a two-week trial with shorter practices and says I can still leave. How might I answer?",
+        "promptZh": "（我因排練太累而考慮退出樂隊。姨姨建議先試兩星期較短的練習，也說我之後仍可退出。我可以怎樣回應？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Thanks for listening to why I am tired.",
+            "zh": "謝謝你聽我解釋為甚麼累。"
+          },
+          {
+            "id": "b",
+            "en": "I can try the shorter schedule and tell you honestly how it feels.",
+            "zh": "我可以試較短的時間表，再坦誠告訴你感受。"
+          },
+          {
+            "id": "c",
+            "en": "I know you have my best interests at heart; let us review it together after two weeks.",
+            "zh": "我知道你真心為我著想；兩星期後我們一起檢討吧。"
+          },
+          {
+            "id": "d",
+            "en": "I would also like to talk to the band leader about my workload.",
+            "zh": "我也想跟樂隊導師談談我的負擔。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均能合理回應；金句承認姨姨的關心，同時保留討論和檢討。"
+      },
+      "scene": {
+        "promptZh": "導師建議學生先減少課外活動，因為他長期睡眠不足；導師同時問學生想保留哪項活動。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The teacher has his best interests at heart and listens to his priorities.",
+            "zh": "導師真心為他著想，也聆聽他的優先選擇。"
+          },
+          {
+            "id": "b",
+            "en": "The teacher wants the student to quit every activity for the teacher’s convenience.",
+            "zh": "導師為了自己方便，希望學生退出所有活動。"
+          },
+          {
+            "id": "c",
+            "en": "The teacher has decided the student’s future without speaking to him.",
+            "zh": "導師未與學生交談，便替他決定未來。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "導師以學生健康為重，仍聆聽學生的需要；不是單方面命令。"
+      },
+      "contrast": {
+        "promptZh": "哪個行為最不足以支持某人 have your best interests at heart？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A coach hides a player’s injury to keep the team’s winning chance.",
+            "zh": "教練為保住球隊勝算，隱瞞球員受傷。"
+          },
+          {
+            "id": "b",
+            "en": "A coach recommends rest after hearing about the injury.",
+            "zh": "教練得知傷勢後建議休息。"
+          },
+          {
+            "id": "c",
+            "en": "A coach helps the player consider a safe return date.",
+            "zh": "教練幫球員考慮安全復出的日期。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "為球隊成績隱瞞傷勢，是把其他利益置於球員福祉之上。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我不喜歡媽媽叫我休息的建議，但她留意到我睡眠很少，也願意幫我計劃。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She seems to have your best interests at heart, though you can still discuss the plan.",
+            "zh": "她似乎真心為你著想，但你仍可跟她商量計劃。"
+          },
+          {
+            "id": "b",
+            "en": "Tell her which commitments you most want to keep.",
+            "zh": "告訴她你最想保留哪些活動。"
+          },
+          {
+            "id": "c",
+            "en": "Ask whether she can help you protect a regular bedtime.",
+            "zh": "問她能否幫你保持固定睡覺時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她關注睡眠並提出幫忙，金句描述關心動機而不把建議說成必然正確。",
+        "promptEn": "A: I dislike Mum’s advice to take a break, but she has noticed how little I sleep and offered to help me plan. B: ______"
+      },
+      "speaking": {
+        "en": "My mentor has my best interests at heart: she asked about my goals before suggesting a lighter course load.",
+        "zh": "我的導師真心為我著想：她先問我的目標，才建議減少修課負擔。",
+        "promptZh": "說明誰關心誰、具體建議和對方有否聆聽需要。",
+        "targetSpan": {
+          "start": 10,
+          "end": 40
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一名成年人關心學生或受訓者的福祉，先聆聽對方，再提出可檢討的具體調整。用英文寫出關心動機、具體行動和聆聽或檢討方式。",
+        "selfCheckZh": "不要把有善意寫成建議必定正確；模型須同時顯示聆聽和具體行動。",
+        "examples": [
+          {
+            "en": "A child said the reading room was too noisy. The librarian had their best interests at heart when she suggested a quieter study corner and asked whether the child felt comfortable there.",
+            "zh": "一名孩子說閱覽室太吵。圖書館員建議較安靜的自修角落，又問孩子是否自在，當時是真心為孩子著想。"
+          },
+          {
+            "en": "The trainee told her supervisor she was tired. He has her best interests at heart: he reduced her late shifts and invited her feedback.",
+            "zh": "受訓員告訴主管自己很疲倦。他真心為她著想：減少了她的晚班，並邀請她提供意見。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a quieter study corner",
+            "zh": "較安靜的自修角落",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 134
+            }
+          },
+          {
+            "en": "felt comfortable there",
+            "zh": "在那裏感到自在",
+            "exampleIndex": 0,
+            "span": {
+              "start": 163,
+              "end": 185
+            }
+          },
+          {
+            "en": "late shifts",
+            "zh": "晚班",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 109
+            }
+          },
+          {
+            "en": "her supervisor",
+            "zh": "她的主管",
+            "exampleIndex": 1,
+            "span": {
+              "start": 17,
+              "end": 31
+            }
+          },
+          {
+            "en": "her feedback",
+            "zh": "她的意見",
+            "exampleIndex": 1,
+            "span": {
+              "start": 122,
+              "end": 134
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "She has your best interests at heart, even if you want to discuss her advice.",
+          "zh": "她真心為你著想，即使你想討論她的建議。"
+        },
+        {
+          "en": "A mentor can have your best interests at heart without being right about every suggestion.",
+          "zh": "導師可以真心為你著想，但不代表每項建議都正確。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3199",
+      "number": 3199,
+      "inventoryId": "expr-3199",
+      "titleEn": "tell you what you need to hear",
+      "titleZh": "告訴你需要聽的真話",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:tell|tells|told|telling) (?:(?:me what I|you what you|us what we|them what they) (?:need|needed)|(?:him what he|her what she) (?:needs|needed)) to hear\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Give someone necessary honest feedback rather than merely saying what pleases them.",
+        "meaningZh": "給對方真正需要的坦誠意見，而非只說對方愛聽的話。",
+        "grammar": "tell + person + what that person needs to hear; matching person/subject agreement matters. Past contexts can use needed.",
+        "register": "Natural informal-to-neutral phrase. A friend might use it when promising candid but considerate feedback to another friend.",
+        "boundaryZh": "核心是真實且有用的提醒，並非以「我只是說真話」為藉口傷害人；也不要求所有意見都是否定的。",
+        "misconceptionZh": "不等於專挑難聽的話說；若只有指責而沒有根據或幫助，就不符合本課。",
+        "outcomeZh": "能分辨有用的坦誠提醒與單純討好或無益的尖刻批評。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1088",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 101,
+          "book": 12,
+          "question": 35,
+          "sample": "S1",
+          "sourceBookPages": "84–85",
+          "locatorNote": "DOCX table 105, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A good friend may tell you what you need to hear.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "tell you what you need to hear"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者閱讀 Leo 的申請信後怎樣給意見？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The speaker identified a missing example that Leo could add before submitting.",
+            "zh": "講者指出欠缺一個例子，讓 Leo 可在提交前補上。"
+          },
+          {
+            "id": "b",
+            "en": "The speaker praised the letter without reading it.",
+            "zh": "講者沒有閱讀便稱讚申請信。"
+          },
+          {
+            "id": "c",
+            "en": "The speaker said the application was hopeless without explanation.",
+            "zh": "講者沒有解釋便說申請毫無希望。"
+          },
+          {
+            "id": "d",
+            "en": "The speaker rewrote the letter without Leo’s permission.",
+            "zh": "講者未經 Leo 同意便重寫申請信。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者指出可修正的具體缺漏，這是 Leo 需要聽的實用真話。",
+        "en": "Leo asked if his application letter was ready. I could have said it was perfect, but I wanted to tell him what he needs to hear: his experience paragraph needs one concrete example. He still has time to add it.",
+        "zh": "Leo 問我他的申請信是否寫好了。我大可以說它完美，但我想告訴他真正需要聽的話：他的經驗段落需要一個具體例子。他仍有時間補上。"
+      },
+      "reply": {
+        "promptEn": "I asked my friend to read my application. She found a missing example and told me kindly before the deadline. How can I answer?",
+        "promptZh": "（我請朋友讀我的申請信。她在截止前善意指出缺少一個例子。我可以怎樣回應？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Thank you for pointing out something I can fix.",
+            "zh": "謝謝你指出我可以修改的地方。"
+          },
+          {
+            "id": "b",
+            "en": "Could you tell me which experience needs an example?",
+            "zh": "你可以告訴我哪段經歷需要例子嗎？"
+          },
+          {
+            "id": "c",
+            "en": "Thanks for telling me what I need to hear, even though it was not easy to hear.",
+            "zh": "謝謝你告訴我需要聽的話，雖然它不太容易接受。"
+          },
+          {
+            "id": "d",
+            "en": "I will add a clear example before I submit it.",
+            "zh": "提交前我會補上一個清楚的例子。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是合理回應；金句承認坦誠意見雖不討好卻有幫助。"
+      },
+      "scene": {
+        "promptZh": "樂隊成員問演奏是否已準備好。朋友指出合奏時第二段經常跟不上，並提出一起練習，而不是只說「很好」。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The friend told her what she needed to hear and offered help.",
+            "zh": "朋友告訴她需要聽的真話，並提出幫忙。"
+          },
+          {
+            "id": "b",
+            "en": "The friend praised the performance without mentioning the recurring problem.",
+            "zh": "朋友只稱讚演奏，沒有提到反覆出現的問題。"
+          },
+          {
+            "id": "c",
+            "en": "The friend insulted her talent without giving any useful detail.",
+            "zh": "朋友沒有提供有用細節，只侮辱她的才能。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "指出可練習的具體問題，有別於討好或空泛傷害。"
+      },
+      "contrast": {
+        "promptZh": "哪種說法最不像 tell someone what they need to hear？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Your work is terrible; I will not say what should change.",
+            "zh": "你的作品很差；我不會說哪裏需要改。"
+          },
+          {
+            "id": "b",
+            "en": "The opening is strong, but the conclusion needs one example.",
+            "zh": "開首有力，但結論需要一個例子。"
+          },
+          {
+            "id": "c",
+            "en": "The schedule is too tight; perhaps move one task to next week.",
+            "zh": "時間表太緊；也許可把一項工作延到下星期。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有尖刻評價而無根據或可用建議，不是有幫助的坦誠提醒。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我覺得自己的報告講起來不錯。明天之前還有甚麼要改嗎？乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I will tell you what you need to hear: the ending does not yet answer the main question.",
+            "zh": "我會告訴你需要聽的真話：結尾尚未回答主要問題。"
+          },
+          {
+            "id": "b",
+            "en": "The opening example is clear; perhaps check the final slide too.",
+            "zh": "開首的例子很清楚；也許也要檢查最後一張投影片。"
+          },
+          {
+            "id": "c",
+            "en": "Try practising once with a timer and see where you rush.",
+            "zh": "試用計時器練習一次，看看哪裏講得太快。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句提供可修正的具體坦誠意見，其他建議也合理。",
+        "promptEn": "A: My presentation sounds fine to me. Is there anything I should change before tomorrow? B: ______"
+      },
+      "speaking": {
+        "en": "I told her what she needed to hear about the missing evidence, then helped her find a clearer example.",
+        "zh": "我告訴她證據不足這個需要聽的真話，然後幫她找一個更清楚的例子。",
+        "promptZh": "說明誰需要意見、具體問題及怎樣提供幫助。",
+        "targetSpan": {
+          "start": 2,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：朋友或領隊希望作品或表現改善，給予不討好但具體可用的意見，並提供下一步。用英文寫出問題、坦誠提醒和協助或改進。",
+        "selfCheckZh": "不得把無根據的人身批評當成真話；兩個模型都須有具體問題和可行下一步。",
+        "examples": [
+          {
+            "en": "Before the debate, Arun reviewed his partner’s draft and told her what she needed to hear: her strongest claim still lacked a source, and he offered to help find one.",
+            "zh": "辯論前，Arun 看過拍檔的草稿，告訴她需要聽的真話：她最有力的主張仍欠缺出處，而他願意幫忙找一個。"
+          },
+          {
+            "en": "The choir leader told us what we needed to hear about the rushed ending and arranged another rehearsal instead of offering empty praise.",
+            "zh": "合唱團領隊就倉促的結尾告訴我們需要聽的真話，並安排再排練，而不是空泛稱讚。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Before the debate",
+            "zh": "辯論前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "her strongest claim",
+            "zh": "她最有力的主張",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 110
+            }
+          },
+          {
+            "en": "a source",
+            "zh": "出處",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 132
+            }
+          },
+          {
+            "en": "the rushed ending",
+            "zh": "倉促的結尾",
+            "exampleIndex": 1,
+            "span": {
+              "start": 54,
+              "end": 71
+            }
+          },
+          {
+            "en": "another rehearsal",
+            "zh": "再排練",
+            "exampleIndex": 1,
+            "span": {
+              "start": 85,
+              "end": 102
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A good friend may tell you what you need to hear, not just what you want to hear.",
+          "zh": "好朋友可能告訴你需要聽的真話，而不只說你愛聽的話。"
+        },
+        {
+          "en": "She told him what he needed to hear and offered a practical next step.",
+          "zh": "她告訴他需要聽的真話，並提出可行的下一步。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3200",
+      "number": 3200,
+      "inventoryId": "expr-3200",
+      "titleEn": "been around the block",
+      "titleZh": "見過世面；有實際經驗",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:have|has|had|having) been around the block\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Have substantial practical experience of life or a particular type of situation.",
+        "meaningZh": "曾經歷不少事情，因而有相當實際經驗。",
+        "grammar": "have/has/had been around the block; present perfect often describes accumulated experience. Add a field or context when needed.",
+        "register": "Informal and conversational. A younger colleague might say it to a peer about an experienced mentor.",
+        "boundaryZh": "指累積經驗，不代表此人永遠正確，也不是說真的繞過街區；資歷長卻無相關經歷仍需謹慎。",
+        "misconceptionZh": "不是「在這條街附近待過」，也不應把閱歷等同某個專業資格。",
+        "outcomeZh": "能從多次實際經歷推斷閱歷，同時保留對建議的獨立判斷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1089",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 101,
+          "book": 12,
+          "question": 35,
+          "sample": "S1",
+          "sourceBookPages": "84–85",
+          "locatorNote": "DOCX table 105, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "My aunt has been around the block and gives practical advice.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "been around the block"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "新員工為何想聽 Ruth 的意見？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Ruth has handled several similar changes and can share practical lessons.",
+            "zh": "Ruth 處理過多次類似改動，可分享實際經驗。"
+          },
+          {
+            "id": "b",
+            "en": "Ruth owns the building where they work.",
+            "zh": "Ruth 擁有他們工作的建築物。"
+          },
+          {
+            "id": "c",
+            "en": "Ruth has already approved the new rota.",
+            "zh": "Ruth 已批准新的輪班表。"
+          },
+          {
+            "id": "d",
+            "en": "Ruth guarantees that her advice will always work.",
+            "zh": "Ruth 保證自己的建議永遠有效。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "Ruth 有多次相關實務經驗；講者想聽建議，但仍會自行判斷。",
+        "en": "Ruth has been around the block. She has helped three teams through timetable changes, so I will ask what worked before. I will still check whether her advice fits our team.",
+        "zh": "Ruth 見過不少世面。她曾協助三個團隊應付時間表改動，所以我會問她過去甚麼方法有效。我仍會檢查她的建議是否適合我們的團隊。"
+      },
+      "reply": {
+        "promptEn": "Ruth has handled several timetable changes across different teams. Should we ask her for advice on ours?",
+        "promptZh": "（Ruth 曾協助不同團隊應付多次時間表改動。我們應否向她請教自己團隊的安排？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes; ask what problems she has seen before.",
+            "zh": "好；問她以前見過甚麼問題。"
+          },
+          {
+            "id": "b",
+            "en": "Ask which parts of her experience apply to our team.",
+            "zh": "問她哪些經驗適用於我們團隊。"
+          },
+          {
+            "id": "c",
+            "en": "She has been around the block, so her practical perspective may help.",
+            "zh": "她見過世面，有實際經驗；她的看法也許有幫助。"
+          },
+          {
+            "id": "d",
+            "en": "Listen to her advice, then compare it with our current needs.",
+            "zh": "聽取她的建議，再對照我們目前的需要。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理；金句概括閱歷，但沒有把經驗當成保證。"
+      },
+      "scene": {
+        "promptZh": "社區廚房新的輪班員想解決物資不足問題。一位前義工曾處理過幾次類似困難，可分享哪些方法行得通。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The former volunteer has been around the block and may offer practical advice.",
+            "zh": "那位前義工見過世面，有實際經驗，可能提供實用意見。"
+          },
+          {
+            "id": "b",
+            "en": "The former volunteer has never worked through a shortage.",
+            "zh": "那位前義工從未處理過物資不足。"
+          },
+          {
+            "id": "c",
+            "en": "The former volunteer can guarantee that every previous method will work here.",
+            "zh": "那位前義工保證以往每種方法在這裏都有效。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "曾處理多次類似困難，能提供實務參考，但不保證照搬有效。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以證明某人 has been around the block？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She read one article about the issue but has never dealt with it.",
+            "zh": "她讀過一篇相關文章，但從未親身處理。"
+          },
+          {
+            "id": "b",
+            "en": "He has managed several difficult event changes over the years.",
+            "zh": "多年來，他處理過幾次困難的活動改動。"
+          },
+          {
+            "id": "c",
+            "en": "She has worked through repeated setbacks and can explain what she learned.",
+            "zh": "她經歷過多次挫折，也能說明所學。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單讀一篇文章沒有顯示累積的實際經歷。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：新市集團隊需要導師。Mina 曾處理幾次困難的開幕安排，也能解釋出了甚麼問題。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She has been around the block; let us ask what she learned.",
+            "zh": "她見過世面，有實際經驗；我們問問她學到了甚麼。"
+          },
+          {
+            "id": "b",
+            "en": "We could invite her to review our opening plan.",
+            "zh": "我們可以請她檢視開幕計劃。"
+          },
+          {
+            "id": "c",
+            "en": "Ask whether she has time to guide the team.",
+            "zh": "問她能否抽時間指導團隊。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多次處理相關難題支持閱歷；金句又把建議保持在可檢討範圍。",
+        "promptEn": "A: We need a mentor for the new market team. Mina has dealt with several difficult openings and can explain what went wrong. B: ______"
+      },
+      "speaking": {
+        "en": "My aunt has been around the block in small business, so I value her advice while checking it against my own plan.",
+        "zh": "姨姨在小生意方面見過世面，有實際經驗，所以我重視她的建議，同時按自己的計劃衡量。",
+        "promptZh": "說出此人的實際經驗範圍，以及你如何看待其建議。",
+        "targetSpan": {
+          "start": 8,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一位長者或前同事累積了多次相關實務經驗，提出具體建議；你仍會按現況判斷。用英文寫出閱歷證據、建議及如何核對。",
+        "selfCheckZh": "不能只靠年齡或頭銜推斷閱歷，也不能把經驗當成必然正確。",
+        "examples": [
+          {
+            "en": "The workshop organiser has been around the block: after running events in three different venues, she suggested checking access routes before printing the programme; the team then checked whether those routes were clear in its current venue.",
+            "zh": "工作坊主辦人見過世面，有實際經驗：她曾在三個不同場地舉辦活動，因此建議印製場刊前先檢查通道；團隊之後核對了現時場地的通道是否暢通。"
+          },
+          {
+            "en": "After years tending local gardens, our retired neighbour has been around the block in gardening and advised us to test the soil before choosing plants, though we still checked local conditions.",
+            "zh": "退休鄰居多年來打理本地花園，在園藝方面見過世面，有實際經驗；她建議我們選植物前先檢測泥土，但我們仍另外檢查本地環境。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "three different venues",
+            "zh": "三個不同場地",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 96
+            }
+          },
+          {
+            "en": "access routes",
+            "zh": "通道",
+            "exampleIndex": 0,
+            "span": {
+              "start": 121,
+              "end": 134
+            }
+          },
+          {
+            "en": "the programme",
+            "zh": "場刊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 151,
+              "end": 164
+            }
+          },
+          {
+            "en": "test the soil",
+            "zh": "檢測泥土",
+            "exampleIndex": 1,
+            "span": {
+              "start": 114,
+              "end": 127
+            }
+          },
+          {
+            "en": "local conditions",
+            "zh": "本地環境",
+            "exampleIndex": 1,
+            "span": {
+              "start": 176,
+              "end": 192
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "She has been around the block and can share practical lessons.",
+          "zh": "她見過世面，有實際經驗，可分享實務教訓。"
+        },
+        {
+          "en": "Having been around the block does not make every suggestion right for a new setting.",
+          "zh": "閱歷豐富，不代表每項建議都適合新環境。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3205",
+      "number": 3205,
+      "inventoryId": "expr-3205",
+      "titleEn": "take the long view",
+      "titleZh": "從長遠角度看",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:take|takes|took|taking) the long view\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Consider longer-term consequences rather than only immediate gains or discomfort.",
+        "meaningZh": "考慮較長遠的後果，而不只看眼前得失或不便。",
+        "grammar": "take/takes/took/taking the long view; often followed by of + topic or explained by a longer-term outcome.",
+        "register": "Neutral planning phrase. A parent might use it with a teenager when weighing a study routine.",
+        "boundaryZh": "不是忽略眼前真實需要；長遠考慮仍應包括短期成本和可行性。",
+        "misconceptionZh": "不等於保證未來好處，也不是把決定無限期拖延。",
+        "outcomeZh": "能同時比較眼前與未來影響，作有界限的長遠判斷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1094",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 102,
+          "book": 12,
+          "question": 35,
+          "sample": "S2",
+          "sourceBookPages": "84–85",
+          "locatorNote": "DOCX table 105, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "My parents often take the long view.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the long view"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者為何支持每週保留一晚休息？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The speaker thinks steady rest may support study over the whole term.",
+            "zh": "講者認為規律休息可能有助整個學期的學習。"
+          },
+          {
+            "id": "b",
+            "en": "The speaker believes one evening off guarantees top marks.",
+            "zh": "講者相信休息一晚必定取得最高分。"
+          },
+          {
+            "id": "c",
+            "en": "The speaker wants the listener to stop studying altogether.",
+            "zh": "講者希望聽者完全停止學習。"
+          },
+          {
+            "id": "d",
+            "en": "The speaker only cares about tonight’s entertainment.",
+            "zh": "講者只在乎今晚的娛樂。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者衡量的是整個學期的持續學習，不只是今晚多讀一小時。",
+        "en": "We could add another hour of study tonight, but let us take the long view. If you keep one evening free each week, you may be able to study steadily through the whole term without becoming exhausted.",
+        "zh": "今晚我們可以多讀一小時，但不妨從長遠角度看。若你每星期留一晚休息，也許能在整個學期持續學習，而不至於太疲倦。"
+      },
+      "reply": {
+        "promptEn": "I could revise for one more hour tonight, but I have been exhausted this week. How should I think about my study plan?",
+        "promptZh": "（今晚我可以多溫習一小時，但這星期一直很累。我應怎樣考慮學習計劃？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Check how much revision you can sustain over the term.",
+            "zh": "考慮整個學期能持續多少溫習。"
+          },
+          {
+            "id": "b",
+            "en": "Rest tonight if more study would leave you too tired tomorrow.",
+            "zh": "若多讀一小時令你明天過累，今晚就休息。"
+          },
+          {
+            "id": "c",
+            "en": "Take the long view and protect a routine you can keep.",
+            "zh": "從長遠角度看，維持一個你能持續的安排。"
+          },
+          {
+            "id": "d",
+            "en": "Adjust tomorrow’s task list instead of trying to finish everything now.",
+            "zh": "調整明天的工作清單，而非今晚做完所有事。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都考慮可持續學習；金句概括長期影響。"
+      },
+      "scene": {
+        "promptZh": "小店可省下一筆錢，立即停止員工培訓，但店主擔心半年後新人仍不懂處理顧客問題，因此保留基本培訓。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The owner took the long view rather than focusing only on today’s saving.",
+            "zh": "店主從長遠角度看，而不只顧今天省錢。"
+          },
+          {
+            "id": "b",
+            "en": "The owner proved training would guarantee every future sale.",
+            "zh": "店主證明培訓必定帶來未來每宗生意。"
+          },
+          {
+            "id": "c",
+            "en": "The owner ignored all current spending limits.",
+            "zh": "店主完全無視目前的開支上限。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "店主衡量眼前開支與半年後的能力，沒有保證結果或無限花費。"
+      },
+      "contrast": {
+        "promptZh": "哪個決定最缺乏 take the long view 的考慮？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Cancel a necessary maintenance check just to report a saving this week.",
+            "zh": "只為本週報告節省開支而取消必要維修檢查。"
+          },
+          {
+            "id": "b",
+            "en": "Compare the short-term cost of training with likely future needs.",
+            "zh": "比較培訓短期成本與未來可能需要。"
+          },
+          {
+            "id": "c",
+            "en": "Keep some funds for repairs that may arise later in the year.",
+            "zh": "預留部分資金處理今年稍後可能出現的維修。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只顧本週帳目而忽略未來維修風險，缺乏長遠考慮。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我們現在可以跳過維修省錢，但器材下個月活動時可能故障。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us take the long view and compare repair costs with the risk of failure.",
+            "zh": "不如從長遠角度看，比較維修費與故障風險。"
+          },
+          {
+            "id": "b",
+            "en": "Ask the technician what work is necessary this week.",
+            "zh": "問技術員這星期哪些工程是必要的。"
+          },
+          {
+            "id": "c",
+            "en": "We should set a date to inspect the equipment before the event.",
+            "zh": "我們應定日期，在活動前檢查器材。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句同時考慮當前成本和未來故障風險。",
+        "promptEn": "A: We could skip the repair now and save money, but the equipment may fail during next month’s event. B: ______"
+      },
+      "speaking": {
+        "en": "The committee took the long view and kept basic training, even though cancelling it would have saved money this month.",
+        "zh": "委員會從長遠角度看，保留基本培訓，雖然取消它本月可以省錢。",
+        "promptZh": "交代眼前誘因、長遠風險和最後的選擇。",
+        "targetSpan": {
+          "start": 14,
+          "end": 32
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：組織面對一項眼前省錢或加快進度的選擇，但也須考慮未來風險或持續效益。用英文比較眼前誘因、較長遠結果與最後做法。",
+        "selfCheckZh": "長遠結果應寫成可能性或理由，不要保證好處；仍要承認眼前成本。",
+        "examples": [
+          {
+            "en": "The school took the long view and repaired the playground surface before reopening it, accepting a short delay to reduce future injuries.",
+            "zh": "學校從長遠角度看，在重開遊樂場前修好地面，接受短暫延遲以減少日後受傷。"
+          },
+          {
+            "en": "Instead of cutting the reading programme for a small immediate saving, the library took the long view and funded a smaller version that could continue all year.",
+            "zh": "圖書館沒有為了眼前省一小筆錢而取消閱讀計劃，而是從長遠角度看，資助一個較小、可全年持續的版本。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the playground surface",
+            "zh": "遊樂場地面",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 65
+            }
+          },
+          {
+            "en": "a short delay",
+            "zh": "短暫延遲",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 110
+            }
+          },
+          {
+            "en": "future injuries",
+            "zh": "日後受傷",
+            "exampleIndex": 0,
+            "span": {
+              "start": 121,
+              "end": 136
+            }
+          },
+          {
+            "en": "a small immediate saving",
+            "zh": "眼前省一筆小錢",
+            "exampleIndex": 1,
+            "span": {
+              "start": 45,
+              "end": 69
+            }
+          },
+          {
+            "en": "a smaller version",
+            "zh": "較小版本",
+            "exampleIndex": 1,
+            "span": {
+              "start": 113,
+              "end": 130
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Taking the long view means weighing future effects alongside today’s cost.",
+          "zh": "從長遠角度看，須同時衡量日後影響和今天成本。"
+        },
+        {
+          "en": "They took the long view without ignoring the immediate budget.",
+          "zh": "他們從長遠角度看，同時沒有忽略眼前預算。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3211",
+      "number": 3211,
+      "inventoryId": "expr-3211",
+      "titleEn": "keep my word",
+      "titleZh": "信守承諾",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping) (?:my|your|his|her|our|their) word\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Do what one has promised, especially when doing so becomes inconvenient.",
+        "meaningZh": "即使事情變得不方便，仍履行自己已作出的承諾。",
+        "grammar": "keep + possessive determiner + word; kept is past tense and past participle. The possessor is the person who made the promise.",
+        "register": "Neutral conversational phrase. A volunteer might explain it to a coordinator after completing an agreed shift.",
+        "boundaryZh": "必須先有明確承諾，後來再履行；只做了好事但從未答應過，不一定是信守承諾。若情況危及安全，應先協商而非盲目堅持。",
+        "misconceptionZh": "word 在這裏不是單一詞語；也不等於所有臨時邀請都構成承諾。",
+        "outcomeZh": "能辨別已作承諾與單純意願，並說出如何負責任地履行或協商。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1100",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 102,
+          "book": 12,
+          "question": 36,
+          "sample": "S1",
+          "sourceBookPages": "85–88",
+          "locatorNote": "DOCX table 106, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I try to keep my word even when the task is difficult.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep my word"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者明天為何仍會到場協助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The speaker promised to cover the morning shift and has arranged transport.",
+            "zh": "講者已答應負責早更，也安排了交通。"
+          },
+          {
+            "id": "b",
+            "en": "The speaker may come if nothing more interesting happens.",
+            "zh": "講者只有在沒有更有趣的事時才會來。"
+          },
+          {
+            "id": "c",
+            "en": "The speaker never agreed to help at the event.",
+            "zh": "講者從未答應在活動幫忙。"
+          },
+          {
+            "id": "d",
+            "en": "The speaker has transferred the shift to another person without telling anyone.",
+            "zh": "講者沒有通知任何人便把更次交給別人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者已答應並作出安排，明確表達會履行承諾。",
+        "en": "I promised to cover the morning book-sale shift, and I will keep my word. I have booked an early bus, even though I would rather sleep in tomorrow.",
+        "zh": "我答應負責明早的賣書更次，也會信守承諾。雖然我明天更想睡晚一點，但已訂好早班巴士。"
+      },
+      "reply": {
+        "promptEn": "You promised to cover the morning book-sale shift, but you would prefer to sleep in. What will you tell the coordinator?",
+        "promptZh": "（你答應負責明早的賣書更次，但比較想睡晚一點。你會怎樣告訴統籌人？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I will be there at the time we agreed.",
+            "zh": "我會按約定時間到場。"
+          },
+          {
+            "id": "b",
+            "en": "I have arranged an early bus to get there.",
+            "zh": "我已安排乘早班巴士到場。"
+          },
+          {
+            "id": "c",
+            "en": "I will keep my word and cover the morning shift.",
+            "zh": "我會信守承諾，負責早更。"
+          },
+          {
+            "id": "d",
+            "en": "Please send me the setup instructions tonight.",
+            "zh": "請今晚把佈置指示傳給我。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是負責任的回覆；金句直接表達履行先前承諾。"
+      },
+      "scene": {
+        "promptZh": "社區義工答應星期六帶一箱書到閱讀角。當天他很忙，仍按約定時間送到，沒有影響其他安排。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He kept his word despite the inconvenient day.",
+            "zh": "即使當天不方便，他仍信守承諾。"
+          },
+          {
+            "id": "b",
+            "en": "He helped spontaneously without ever promising anything.",
+            "zh": "他從未作承諾，只是臨時自發幫忙。"
+          },
+          {
+            "id": "c",
+            "en": "He quietly cancelled and assumed someone else would bring the books.",
+            "zh": "他沒有通知便取消，並假設別人會帶書。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "先前已有明確承諾，星期六也按約定履行。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不足以單憑事實說某人 kept their word？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She brought extra chairs but had never agreed to do so.",
+            "zh": "她帶來額外椅子，但之前從未答應過。"
+          },
+          {
+            "id": "b",
+            "en": "He promised to email the notes by Friday and sent them on Thursday.",
+            "zh": "他答應星期五前傳電郵送出筆記，星期四便送出了。"
+          },
+          {
+            "id": "c",
+            "en": "They agreed to cover the shift and arrived at the agreed time.",
+            "zh": "他們答應代班，並按約定時間到場。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "主動幫忙很好，但沒有先前承諾便不能單憑此事說她信守承諾。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我告訴團隊今晚會傳送修訂時間表，但今天很累。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You can keep your word by sending the agreed version, or tell them promptly if you need more time.",
+            "zh": "你可以按約定送出版本來信守承諾；若需要更多時間，就盡快通知他們。"
+          },
+          {
+            "id": "b",
+            "en": "Check whether anyone needs the schedule before morning.",
+            "zh": "查看是否有人在明早前需要時間表。"
+          },
+          {
+            "id": "c",
+            "en": "If the revision is not ready, explain exactly what remains.",
+            "zh": "若修訂尚未完成，清楚說明還欠甚麼。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句回應既有承諾，同時允許負責任地協商延期。",
+        "promptEn": "A: I told the group I would send the revised schedule tonight, but I have had a tiring day. B: ______"
+      },
+      "speaking": {
+        "en": "I promised to return the borrowed camera on Friday, and I kept my word even though I had to leave work early.",
+        "zh": "我答應星期五歸還借來的相機；雖然要提早下班，我仍信守承諾。",
+        "promptZh": "交代原先答應的事、履行行動及遇到的不便。",
+        "targetSpan": {
+          "start": 58,
+          "end": 70
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：某人已明確答應一項可行工作，後來遇到不便，但仍按承諾完成。用英文寫出原先承諾、後來障礙和實際履行情況。",
+        "selfCheckZh": "須有承諾在先、履行在後；不能只描寫臨時自發幫忙。",
+        "examples": [
+          {
+            "en": "Mara promised to send the translated notice before the meeting, and she kept her word by emailing it that morning despite a busy schedule.",
+            "zh": "Mara 答應會議前送出翻譯通知；雖然行程繁忙，她仍在當天早上用電郵送出，信守了承諾。"
+          },
+          {
+            "en": "We agreed to open the community hall at eight, and we kept our word even after the setup team changed its arrival time.",
+            "zh": "我們答應八時開放社區會堂；即使佈置隊改了到場時間，我們仍信守承諾。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the translated notice",
+            "zh": "翻譯通知",
+            "exampleIndex": 0,
+            "span": {
+              "start": 22,
+              "end": 43
+            }
+          },
+          {
+            "en": "before the meeting",
+            "zh": "會議前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 62
+            }
+          },
+          {
+            "en": "a busy schedule",
+            "zh": "繁忙行程",
+            "exampleIndex": 0,
+            "span": {
+              "start": 122,
+              "end": 137
+            }
+          },
+          {
+            "en": "the community hall",
+            "zh": "社區會堂",
+            "exampleIndex": 1,
+            "span": {
+              "start": 18,
+              "end": 36
+            }
+          },
+          {
+            "en": "the setup team",
+            "zh": "佈置隊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 93
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "She kept her word and delivered what she had promised.",
+          "zh": "她信守承諾，交付了答應送出的東西。"
+        },
+        {
+          "en": "To keep your word, first be clear about what you agreed to do.",
+          "zh": "要信守承諾，先要清楚自己答應了做甚麼。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3213",
+      "number": 3213,
+      "inventoryId": "expr-3213",
+      "titleEn": "burn bridges",
+      "titleZh": "斷絕後路；破壞未來關係",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:burn|burns|burned|burnt|burning) (?:(?:my|your|his|her|our|their|the) )?bridges\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Damage a relationship or future opportunity so badly that returning or cooperating later becomes difficult.",
+        "meaningZh": "嚴重破壞關係或未來合作機會，使日後難以回頭或再合作。",
+        "grammar": "burn bridges or burn one’s bridges; burned and burnt are past forms. Usually refers to a consequential action, not a routine disagreement.",
+        "register": "Informal idiom. A colleague may warn another colleague about an angry farewell message before a job change.",
+        "boundaryZh": "不是所有離職或表達不滿都在斷後路；重點是方式嚴重損害未來關係。",
+        "misconceptionZh": "不是燒毀真正的橋；有禮貌地辭職並清楚交接，通常不屬於此義。",
+        "outcomeZh": "能辨別合理設界限與不必要地毀掉日後合作可能性。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1102",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 102,
+          "book": 12,
+          "question": 36,
+          "sample": "S1",
+          "sourceBookPages": "85–88",
+          "locatorNote": "DOCX table 106, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Do not burn bridges when leaving a job.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "burn bridges"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者為何勸 Kai 不要送出第一版離職電郵？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It insults colleagues and could make future cooperation difficult.",
+            "zh": "電郵侮辱同事，可能令日後合作困難。"
+          },
+          {
+            "id": "b",
+            "en": "It politely explains the leaving date and handover plan.",
+            "zh": "電郵禮貌說明離職日期及交接計劃。"
+          },
+          {
+            "id": "c",
+            "en": "It asks for a reference from a former manager.",
+            "zh": "電郵向前主管索取推薦信。"
+          },
+          {
+            "id": "d",
+            "en": "It contains one minor typing error in the subject line.",
+            "zh": "電郵標題只有一個小型打字錯誤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者擔心侮辱性內容損害長遠關係，而非反對離職本身。",
+        "en": "Kai can leave the company, but the first draft of his goodbye email calls every colleague useless. I told him not to burn bridges: explain the handover clearly and raise specific complaints separately.",
+        "zh": "Kai 可以離開公司，但他的第一版告別電郵說每名同事都沒有用。我告訴他不要斷絕後路：清楚交代交接安排，並另外提出具體不滿。"
+      },
+      "reply": {
+        "promptEn": "Kai is leaving a job. He wants to email every colleague that they are useless, though he may work with some of them again. What could you say?",
+        "promptZh": "（Kai 正準備離職。他想發電郵給每名同事，說他們都沒有用，但日後可能再與部分人合作。你會怎樣勸他？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Describe the specific problems without attacking everyone.",
+            "zh": "具體說明問題，不要攻擊所有人。"
+          },
+          {
+            "id": "b",
+            "en": "Keep the goodbye note focused on the handover.",
+            "zh": "讓告別電郵集中交代交接。"
+          },
+          {
+            "id": "c",
+            "en": "Do not burn bridges; you may work with these people again.",
+            "zh": "不要斷絕後路；你日後可能再與這些人合作。"
+          },
+          {
+            "id": "d",
+            "en": "Wait until the angry first draft has cooled before sending anything.",
+            "zh": "先放下憤怒的第一稿，冷靜後才考慮發信。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能維護日後合作可能；金句直接警告關係代價。"
+      },
+      "scene": {
+        "promptZh": "學生退出社團時，在公開群組無根據地指責所有幹事不誠實。下學期他仍想和幹事合作辦活動。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He is burning bridges with people he may need to work with later.",
+            "zh": "他正與日後可能合作的人斷絕後路。"
+          },
+          {
+            "id": "b",
+            "en": "He is leaving politely and thanking the organisers.",
+            "zh": "他禮貌退出，並感謝主辦人。"
+          },
+          {
+            "id": "c",
+            "en": "He is privately raising one documented concern through the proper process.",
+            "zh": "他透過合適程序私下提出一項有紀錄的不滿。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "公開、籠統且無根據的指責可能嚴重破壞未來關係。"
+      },
+      "contrast": {
+        "promptZh": "哪種離開方式最不符合 burn bridges？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Give clear notice, explain genuine concerns respectfully, and complete the handover.",
+            "zh": "提前清楚通知，尊重地說明真實不滿，並完成交接。"
+          },
+          {
+            "id": "b",
+            "en": "Publish insults about the whole team before leaving.",
+            "zh": "離開前公開侮辱整個團隊。"
+          },
+          {
+            "id": "c",
+            "en": "Share confidential complaints online to embarrass a former colleague.",
+            "zh": "在網上分享機密投訴，令前同事難堪。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "禮貌交接及尊重表達不滿，保留日後合作可能。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我正準備辭職，也想公開說辦公室裏每個人都不稱職。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That could burn bridges; put specific concerns through the right channel instead.",
+            "zh": "那可能會斷絕後路；改為循合適渠道提出具體問題吧。"
+          },
+          {
+            "id": "b",
+            "en": "Finish the handover before your last day.",
+            "zh": "在最後工作日前完成交接。"
+          },
+          {
+            "id": "c",
+            "en": "Write the post as a private draft first and reconsider it tomorrow.",
+            "zh": "先把貼文存成私人草稿，明天再考慮。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指出公開籠統攻擊的長遠關係代價，同時提供較合宜渠道。",
+        "promptEn": "A: I am resigning, and I want to post that everyone in the office is incompetent. B: ______"
+      },
+      "speaking": {
+        "en": "I was angry about the change, but I did not burn bridges; I explained the issue privately and finished the handover.",
+        "zh": "我對改動感到生氣，但沒有斷絕後路；我私下說明問題，也完成了交接。",
+        "promptZh": "說明離開或分歧、可能傷害未來關係的行動，以及較好的處理方式。",
+        "targetSpan": {
+          "start": 44,
+          "end": 56
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：有人離開一個團隊或合作關係，須交代造成分歧的事、他採取的表達方式，以及對日後合作的影響。用英文寫出完整因果。",
+        "selfCheckZh": "離開本身不是斷後路；要寫出嚴重損害或保護未來關係的具體做法。",
+        "examples": [
+          {
+            "en": "Before leaving the volunteer group, Lina chose not to burn bridges: she documented the scheduling problem and thanked the team for its work.",
+            "zh": "離開義工團隊前，Lina 選擇不斷絕後路：她記錄排班問題，也感謝團隊付出。"
+          },
+          {
+            "en": "The designer burned bridges by mocking the former client in a public post, making a later joint project difficult.",
+            "zh": "設計師在公開貼文嘲笑前客戶，破壞了未來關係，使日後合作項目變得困難。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the volunteer group",
+            "zh": "義工團隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 15,
+              "end": 34
+            }
+          },
+          {
+            "en": "the scheduling problem",
+            "zh": "排班問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 105
+            }
+          },
+          {
+            "en": "thanked the team",
+            "zh": "感謝團隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 126
+            }
+          },
+          {
+            "en": "the former client",
+            "zh": "前客戶",
+            "exampleIndex": 1,
+            "span": {
+              "start": 39,
+              "end": 56
+            }
+          },
+          {
+            "en": "a public post",
+            "zh": "公開貼文",
+            "exampleIndex": 1,
+            "span": {
+              "start": 60,
+              "end": 73
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A respectful handover helps you avoid burning bridges.",
+          "zh": "尊重地交接有助避免斷絕後路。"
+        },
+        {
+          "en": "He burned bridges by insulting former colleagues in public.",
+          "zh": "他公開侮辱前同事，破壞了未來關係。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3219",
+      "number": 3219,
+      "inventoryId": "expr-3219",
+      "titleEn": "down the line",
+      "titleZh": "將來；日後某個時候",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bdown the line\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "At a later point in time, often when considering a future consequence.",
+        "meaningZh": "在將來某個時候，常用於談之後才顯現的影響。",
+        "grammar": "down the line is an adverbial time phrase; it often comes after the event or consequence. It does not specify an exact date or guarantee an outcome.",
+        "register": "Informal conversational phrase. A project member might use it when discussing how today’s records may help a future team.",
+        "boundaryZh": "表示日後某時，不一定是遙遠未來；也不等於「沿著線往下」的空間方向。",
+        "misconceptionZh": "不能從這句話推斷具體日期或結果必然出現。",
+        "outcomeZh": "能辨別未來可能影響與即時結果、具體日期或空間位置。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1108",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 103,
+          "book": 12,
+          "question": 36,
+          "sample": "S2",
+          "sourceBookPages": "85–88",
+          "locatorNote": "DOCX table 106, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A small saving may help down the line.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "down the line"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "團隊今日整理紀錄的主要長期用意是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The records may help a new team later when similar questions arise.",
+            "zh": "日後有類似問題時，紀錄可能幫到新團隊。"
+          },
+          {
+            "id": "b",
+            "en": "The records will guarantee that the same fault is fixed by tomorrow.",
+            "zh": "紀錄保證同樣故障明天就能修妥。"
+          },
+          {
+            "id": "c",
+            "en": "The team already used these notes to solve a second fault today.",
+            "zh": "團隊今天已用這些筆記解決第二宗故障。"
+          },
+          {
+            "id": "d",
+            "en": "The next team will certainly arrive on a named date.",
+            "zh": "下一批團隊一定會在指定日期到來。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者只說將來可能有用，沒有指定日期、已發生的第二宗故障或保證結果。",
+        "en": "We are writing down the repair steps today. If a new team faces the same fault down the line, these notes may help them solve it faster. I do not know when that will happen.",
+        "zh": "我們今天記下維修步驟。如果新團隊將來遇到同樣故障，這些筆記也許能幫他們更快解決。我不知道那會在甚麼時候發生。"
+      },
+      "reply": {
+        "promptEn": "We have finished a difficult equipment repair. Should we document the steps even though the machine works now?",
+        "promptZh": "（我們剛完成一次困難的器材維修。雖然機器現在已可運作，應否記下步驟？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes; future staff may face the same fault.",
+            "zh": "應該；將來職員可能遇到同樣故障。"
+          },
+          {
+            "id": "b",
+            "en": "Keep a short note on the symptoms and repair.",
+            "zh": "簡短記下徵狀和修理方法。"
+          },
+          {
+            "id": "c",
+            "en": "The record could help someone down the line, even if we do not need it today.",
+            "zh": "即使我們今天用不上，紀錄日後仍可能幫到人。"
+          },
+          {
+            "id": "d",
+            "en": "Save the note where the team can find it later.",
+            "zh": "把筆記存放在團隊日後找得到的地方。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理；金句直接表達今日紀錄的未來可能用途。"
+      },
+      "scene": {
+        "promptZh": "學校今天建立器材借用清單，因為下學期換一批學生管理時可能需要查閱舊記錄。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The list may help the next group down the line.",
+            "zh": "這份清單日後可能幫到下一批學生。"
+          },
+          {
+            "id": "b",
+            "en": "The list has already solved every future borrowing dispute.",
+            "zh": "這份清單已解決所有未來借用爭議。"
+          },
+          {
+            "id": "c",
+            "en": "The list is useful only for checking what was borrowed today.",
+            "zh": "這份清單只用於查看今天借走了甚麼。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "清單的用途是將來有需要時提供參考，而非只限今天或保證結果。"
+      },
+      "contrast": {
+        "promptZh": "哪個說法不應只由 down the line 推斷出來？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The result will definitely appear at 3 p.m. next Tuesday.",
+            "zh": "結果一定在下星期二下午三時出現。"
+          },
+          {
+            "id": "b",
+            "en": "Something may matter at a later stage.",
+            "zh": "某件事可能在較後階段有影響。"
+          },
+          {
+            "id": "c",
+            "en": "The exact timing has not been stated.",
+            "zh": "具體時間尚未說明。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "此片語只表示日後某時，不能推出確切日期或必然結果。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我們真的需要保留交接筆記嗎？下一批團隊幾個月後才到。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They may be useful down the line when the next team faces the same issue.",
+            "zh": "下一批團隊日後遇到同樣問題時，筆記可能有用。"
+          },
+          {
+            "id": "b",
+            "en": "Let us store them in the shared folder.",
+            "zh": "我們把筆記存到共用資料夾。"
+          },
+          {
+            "id": "c",
+            "en": "We could ask the next team what format would help them most.",
+            "zh": "我們可以問下一批團隊哪種格式最有用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句準確指出未來可能用途而沒有保證。",
+        "promptEn": "A: Do we really need to save these handover notes? The next team will not arrive for months. B: ______"
+      },
+      "speaking": {
+        "en": "A clear handover may save time down the line when another volunteer takes over the project.",
+        "zh": "日後另一名義工接手項目時，清楚的交接可能節省時間。",
+        "promptZh": "交代今天的行動、將來可能受益的人或情況，以及不確定性。",
+        "targetSpan": {
+          "start": 31,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：團隊今天做一項整理或記錄工作，可能在下學期或下次交接時幫助別人。用英文寫出現在的行動、日後的受益情況和不確定性。",
+        "selfCheckZh": "不要把未來好處寫成確定發生，也不要把片語解作空間方向。",
+        "examples": [
+          {
+            "en": "The theatre group labelled its cables during this week’s setup so that a new stage crew could identify them more easily down the line.",
+            "zh": "劇團在本週佈置期間為電線貼標籤，讓日後的新舞台團隊更容易辨認。"
+          },
+          {
+            "en": "A short summary of the meeting may help parents down the line if a similar question comes up next term.",
+            "zh": "如果下學期再出現類似問題，簡短的會議摘要日後可能幫到家長。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "labelled its cables",
+            "zh": "為電線貼標籤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 37
+            }
+          },
+          {
+            "en": "a new stage crew",
+            "zh": "新的舞台團隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 87
+            }
+          },
+          {
+            "en": "identify them",
+            "zh": "辨認它們",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 107
+            }
+          },
+          {
+            "en": "A short summary",
+            "zh": "簡短摘要",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "next term",
+            "zh": "下學期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 102
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The notes may be useful down the line.",
+          "zh": "這些筆記日後可能有用。"
+        },
+        {
+          "en": "Down the line names a later time, not a guaranteed date.",
+          "zh": "Down the line 指日後某時，不是保證的日期。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3228",
+      "number": 3228,
+      "inventoryId": "expr-3228",
+      "titleEn": "where the shoe pinches",
+      "titleZh": "問題真正的癥結所在",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bwhere the shoe pinches\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "The exact source of trouble, discomfort, or worry, rather than only its visible symptom.",
+        "meaningZh": "問題、難處或憂慮真正的來源，而非只看表面徵狀。",
+        "grammar": "where the shoe pinches is a fixed clause, commonly with know/find/see + where the shoe pinches. The shoe is figurative.",
+        "register": "Traditional and somewhat old-fashioned idiom. A long-time colleague might use it with another colleague while pinpointing a stubborn problem; in ordinary modern speech, the real problem is often simpler. Collins Dictionary confirms this source-of-trouble sense.",
+        "boundaryZh": "重點是找出具體根因；只是知道有人不開心，或看到表面結果，未必知道癥結。",
+        "misconceptionZh": "不是在問鞋子哪裏太緊，也不應把觀察到的徵狀當成已證實根因。",
+        "outcomeZh": "能區分表面困擾與經核對的實際問題來源，並留意此說法偏傳統。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1117",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 104,
+          "book": 12,
+          "question": 38,
+          "sample": "S1",
+          "sourceBookPages": "91–93",
+          "locatorNote": "DOCX table 108, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A close friend knows where the shoe pinches.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "where the shoe pinches"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者找出的真正問題是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Volunteers could not see which shifts were still unfilled.",
+            "zh": "義工看不到哪些更次仍缺人。"
+          },
+          {
+            "id": "b",
+            "en": "Volunteers disliked the colour of the timetable.",
+            "zh": "義工不喜歡時間表的顏色。"
+          },
+          {
+            "id": "c",
+            "en": "No volunteers were willing to help at all.",
+            "zh": "完全沒有義工願意幫忙。"
+          },
+          {
+            "id": "d",
+            "en": "The hall was too small for the event.",
+            "zh": "會堂太小，容不下活動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者先看到缺人這個表面結果，再查出真正原因是空缺資訊不清楚。",
+        "en": "At first I thought nobody wanted to help, but several volunteers told me they could not see which shifts were open. That is where the shoe pinches: the sign-up page hides the vacancies. We will make them visible.",
+        "zh": "起初我以為沒有人想幫忙，但幾名義工告訴我，他們看不到哪些更次仍有空缺。問題真正的癥結在這裏：報名頁把空缺藏起來。我們會把它們清楚顯示。"
+      },
+      "reply": {
+        "promptEn": "Few volunteers have signed up. Several say they cannot see which shifts are still open on the page. What should we tell the organiser?",
+        "promptZh": "（報名義工不多。幾個人說在網頁上看不到哪些更次還有空缺。我們應怎樣告訴主辦人？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Show the open shifts clearly on the sign-up page.",
+            "zh": "在報名頁清楚列出空缺更次。"
+          },
+          {
+            "id": "b",
+            "en": "Ask volunteers to test the page after it is changed.",
+            "zh": "網頁修改後請義工試用。"
+          },
+          {
+            "id": "c",
+            "en": "Now we know where the shoe pinches: the page hides vacancies, so people cannot choose a shift.",
+            "zh": "現在我們知道問題癥結：網頁藏起空缺，大家無法選擇更次。"
+          },
+          {
+            "id": "d",
+            "en": "Tell the organiser what several volunteers reported.",
+            "zh": "告訴主辦人幾名義工反映了甚麼。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均可處理問題；金句點明經義工反映而查出的根因。"
+      },
+      "scene": {
+        "promptZh": "圖書館以為借書人不願還書。查閱紀錄和詢問讀者後，職員發現歸還箱的標示被遮住，許多人找不到它。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The staff found where the shoe pinches: the return box is hard to find.",
+            "zh": "職員找到了真正癥結：還書箱難以找到。"
+          },
+          {
+            "id": "b",
+            "en": "The staff proved every borrower intended to keep the books.",
+            "zh": "職員證明每名借書人都打算不還書。"
+          },
+          {
+            "id": "c",
+            "en": "The staff simply noticed late returns without asking why.",
+            "zh": "職員只看到逾期還書，沒有查問原因。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "職員由表面逾期問題追查到標示被遮住的具體根因。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況尚未找到 where the shoe pinches？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team knows attendance fell but has not asked participants why.",
+            "zh": "團隊知道出席率下跌，但尚未問參加者原因。"
+          },
+          {
+            "id": "b",
+            "en": "Interviews show that the new booking form hides available dates.",
+            "zh": "訪談顯示新預約表隱藏了可用日期。"
+          },
+          {
+            "id": "c",
+            "en": "A check finds the missing labels that caused repeated sorting errors.",
+            "zh": "檢查發現標籤不見，導致反覆分類錯誤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只知道出席率下跌這個徵狀，尚未找出實際原因。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：人們一直錯過工作坊，但訪談顯示提醒電郵送到舊地址。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That is where the shoe pinches; update the address list before the next reminder.",
+            "zh": "那就是真正的癥結；下次提醒前更新地址清單。"
+          },
+          {
+            "id": "b",
+            "en": "We should confirm each participant’s current email address.",
+            "zh": "我們應確認每名參加者目前的電郵地址。"
+          },
+          {
+            "id": "c",
+            "en": "Tell participants when the next workshop will be held.",
+            "zh": "告訴參加者下次工作坊何時舉行。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "舊地址是已查出的具體原因；金句標示癥結並提出修正。",
+        "promptEn": "A: People keep missing the workshop, but interviews show the reminder emails go to an old address. B: ______"
+      },
+      "speaking": {
+        "en": "We finally found where the shoe pinches: the booking form conceals the open times, so visitors assume the room is full.",
+        "zh": "我們終於找到問題癥結：預約表把空檔藏起來，所以訪客以為房間已滿。",
+        "promptZh": "先說表面問題，再說已核對的真正原因。",
+        "targetSpan": {
+          "start": 17,
+          "end": 39
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：團隊先看到一項表面問題，經調查找到具體根因。用英文寫出原先推測、核對方法、真正原因及其造成的結果。",
+        "selfCheckZh": "不要只說有人不滿或出席率低；兩個模型都須有查證後的具體癥結。",
+        "examples": [
+          {
+            "en": "The club first blamed late members, but a survey showed where the shoe pinches: the meeting notice listed the wrong entrance.",
+            "zh": "社團最初怪責遲到成員，但問卷揭示了真正癥結：會議通知列錯了入口。"
+          },
+          {
+            "en": "When the kitchen checked the order records, it saw where the shoe pinches: the form cut off allergy notes, so cooks never received them.",
+            "zh": "廚房檢查訂單紀錄時，看到了真正癥結：表格截掉過敏備註，廚師因此從未收到。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "late members",
+            "zh": "遲到成員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 22,
+              "end": 34
+            }
+          },
+          {
+            "en": "a survey",
+            "zh": "問卷",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 48
+            }
+          },
+          {
+            "en": "the wrong entrance",
+            "zh": "錯誤入口",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 124
+            }
+          },
+          {
+            "en": "the order records",
+            "zh": "訂單紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 25,
+              "end": 42
+            }
+          },
+          {
+            "en": "allergy notes",
+            "zh": "過敏備註",
+            "exampleIndex": 1,
+            "span": {
+              "start": 92,
+              "end": 105
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A careful check can reveal where the shoe pinches.",
+          "zh": "仔細查證可找出問題真正的癥結。"
+        },
+        {
+          "en": "Knowing the symptom is not the same as knowing where the shoe pinches.",
+          "zh": "知道表面徵狀，不等於知道問題真正的癥結。"
+        }
+      ]
+    }
+  ]
+}

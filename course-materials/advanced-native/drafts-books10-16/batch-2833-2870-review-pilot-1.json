@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2833-2870-review-pilot-1",
+  "lessons": [
+    {
+      "id": "advanced-native-2833",
+      "number": 2833,
+      "inventoryId": "expr-2833",
+      "titleEn": "jinx it",
+      "titleZh": "把好事說早而招霉運",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:jinx|jinxes|jinxed|jinxing)\\s+it\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "In a superstitious way, spoil a hoped-for outcome by speaking of it before it is settled.",
+        "meaningZh": "帶點迷信地認為，好事未落實就說出口會令結果變壞。",
+        "grammar": "Jinx it is a transitive colloquial expression; it refers back to a hoped-for result, often in do not want to jinx it.",
+        "register": "Light informal caution: a theatre director tells a colleague why she is waiting for a signed venue agreement before celebrating.",
+        "boundaryZh": "片語表達說話者擔心「說早了不吉利」，不是有證據證明言語真的會改變結果。",
+        "misconceptionZh": "不是客觀證明有魔法或保證壞事必然發生；也不是已正式簽妥後的謹慎說法。",
+        "outcomeZh": "能指出哪個結果尚未落實，並區分迷信式擔心與有證據的實際風險。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0722",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 66,
+          "book": 11,
+          "question": 28,
+          "sample": "S2",
+          "sourceBookPages": "69–71",
+          "locatorNote": "DOCX table 64, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "He did not want to jinx it before the contract was signed.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "jinx it"
+        }
+      ],
+      "listening": {
+        "en": "The venue manager said the theatre could use the hall, but the agreement was not signed. The director wanted to celebrate yet said she did not want to jinx it.",
+        "zh": "場地經理說劇團可用禮堂，但協議尚未簽署。導演想慶祝，卻說她不想太早說出口，以免不吉利。",
+        "promptZh": "did not want to jinx it 表達甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She worried that celebrating too early might somehow spoil the hoped-for agreement.",
+            "zh": "她擔心過早慶祝會招來不吉利，令期待中的協議落空。"
+          },
+          {
+            "id": "b",
+            "en": "The agreement had already been signed and delivered.",
+            "zh": "協議早已簽妥並送達。"
+          },
+          {
+            "id": "c",
+            "en": "She had evidence that celebrating would legally void the contract.",
+            "zh": "她有證據證明慶祝會令合約在法律上失效。"
+          },
+          {
+            "id": "d",
+            "en": "She no longer wanted the theatre to use the hall.",
+            "zh": "她不再想劇團使用禮堂。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "協議仍未簽妥；片語是帶迷信意味的擔心，非法律因果。"
+      },
+      "reply": {
+        "promptEn": "Why did Leo wait to announce the grant? The panel had recommended his project, but the final approval email had not arrived; he was excited but reluctant to celebrate publicly.",
+        "promptZh": "（里奧為何等一等才公布資助？評審小組已推薦項目，但最後批准電郵未到；他很興奮，卻不想先公開慶祝。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He hoped for the grant but had not received final approval.",
+            "zh": "他希望獲資助，但尚未收到最後批准。"
+          },
+          {
+            "id": "b",
+            "en": "He chose to wait before celebrating publicly.",
+            "zh": "他選擇先等一等才公開慶祝。"
+          },
+          {
+            "id": "c",
+            "en": "He did not want to jinx it before the approval arrived.",
+            "zh": "批准未到前，他不想把好事說早，以免不吉利。"
+          },
+          {
+            "id": "d",
+            "en": "The panel’s recommendation encouraged him, but the decision was not final.",
+            "zh": "評審推薦令他受到鼓舞，但決定尚未落實。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都保留尚未正式批准的界線；金句表達他對說早了的迷信式顧慮。"
+      },
+      "scene": {
+        "promptZh": "參賽隊暫列第一，最後成績明天才公布；隊長笑着說：「先別說我們拿冠軍。」哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She does not want to jinx it before the final result is official.",
+            "zh": "最後成績正式公布前，她不想把奪冠說早，以免不吉利。"
+          },
+          {
+            "id": "b",
+            "en": "She knows the team has already won officially.",
+            "zh": "她知道團隊已正式奪冠。"
+          },
+          {
+            "id": "c",
+            "en": "She has proved that speaking will change the judges’ scores.",
+            "zh": "她已證明說話會改變評判分數。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "暫列第一不等於正式奪冠；她說的是帶點迷信的克制。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 I do not want to jinx it？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A student has a promising interview but no offer yet.",
+            "zh": "學生面試順利，但尚未收到聘書。"
+          },
+          {
+            "id": "b",
+            "en": "A winner reads the final official result and collects the trophy.",
+            "zh": "得獎者看過正式最終結果，並已領取獎盃。"
+          },
+          {
+            "id": "c",
+            "en": "A singer is shortlisted, but the final selection has not been announced.",
+            "zh": "歌手入圍，但最後名單尚未公布。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "正式結果及獎盃已到手，已不是擔心把未定的好事說早。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「你說不想 jinx it，就代表你知道一句話能改變結果。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I do not want to jinx it before the result is final; that is a worry, not evidence that words change it.",
+            "zh": "我不想結果未定便把好事說早；這只是顧慮，沒有證據說話能改變結果。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, saying one positive sentence will certainly cancel the award.",
+            "zh": "對，只要說一句好話，獎項一定取消。"
+          },
+          {
+            "id": "c",
+            "en": "If I am cautious, I must already know the result is bad.",
+            "zh": "我既然謹慎，就一定已知道結果不好。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "這是口語上的迷信顧慮，不是對因果的證明。"
+      },
+      "speaking": {
+        "en": "The museum liked our proposal, but the final letter has not arrived, so I do not want to jinx it by announcing the exhibition yet.",
+        "zh": "博物館喜歡我們的提案，但正式信件未到，所以我不想先宣布展覽，以免把好事說早了。",
+        "promptZh": "先聽示範，再指出尚未完成的步驟。",
+        "targetSpan": {
+          "start": 89,
+          "end": 96
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：朋友的食譜已獲出版社口頭表示有興趣，但合約尚未寄出；她很高興，決定收到合約後才告訴全班。用一至兩句英文描述她為何暫不公布，不要說說話真的能改變出版社決定。",
+        "selfCheckZh": "寫出口頭興趣、合約未到、她暫不公開慶祝，並保留這只是顧慮。",
+        "examples": [
+          {
+            "en": "The publisher likes her recipe, but the contract has not arrived; she does not want to jinx it by announcing the deal before it is signed.",
+            "zh": "出版社喜歡她的食譜，但合約尚未寄到；她不想在簽妥前宣布，以免把好事說早了。"
+          },
+          {
+            "en": "She is pleased by the publisher’s interest but will wait for the contract before telling the class, because she worries about jinxing it.",
+            "zh": "她很高興出版社表示有興趣，但會等收到合約才告訴全班，因為她擔心說早了不吉利。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "publisher",
+            "zh": "出版社",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 13
+            }
+          },
+          {
+            "en": "her recipe",
+            "zh": "她的食譜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 20,
+              "end": 30
+            }
+          },
+          {
+            "en": "contract has not arrived",
+            "zh": "合約尚未寄到",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 64
+            }
+          },
+          {
+            "en": "before it is signed",
+            "zh": "簽妥前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 118,
+              "end": 137
+            }
+          },
+          {
+            "en": "telling the class",
+            "zh": "告訴全班",
+            "exampleIndex": 1,
+            "span": {
+              "start": 81,
+              "end": 98
+            }
+          },
+          {
+            "en": "the contract",
+            "zh": "合約",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 73
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "People may say they do not want to jinx it before a hoped-for result is final.",
+          "zh": "期待中的結果未落實前，有人會說不想把好事說早，以免不吉利。"
+        },
+        {
+          "en": "Jinx it expresses a superstitious worry, not proof that words change a decision.",
+          "zh": "jinx it 表達迷信式顧慮，不證明說話能改變決定。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2834",
+      "number": 2834,
+      "inventoryId": "expr-2834",
+      "titleEn": "blurt it out",
+      "titleZh": "衝口說出來",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:blurt|blurts|blurted|blurting)\\s+it\\s+out\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Say a thought or piece of news suddenly, before planning or filtering what to say.",
+        "meaningZh": "未想清楚或來不及控制便突然把想法或消息說出口。",
+        "grammar": "Blurt it out keeps the object pronoun between blurt and out; blurted it out for past events, and blurting it out for ongoing action.",
+        "register": "Conversational reflection: a school event helper tells a teammate how an unplanned announcement spoiled a surprise reveal.",
+        "boundaryZh": "重點是說出口的方式突然、缺乏預先斟酌；不必假設說話內容一定不真誠或故意傷人。",
+        "misconceptionZh": "不是有計劃的正式宣布，也不代表每次脫口而出都泄露秘密。",
+        "outcomeZh": "能分辨無意衝口而出與事先安排的公開說明，並掌握 it 的正確位置。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0723",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 67,
+          "book": 11,
+          "question": 28,
+          "sample": "S2",
+          "sourceBookPages": "69–71",
+          "locatorNote": "DOCX table 64, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She tried not to blurt it out before telling her family first.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "blurt it out"
+        }
+      ],
+      "listening": {
+        "en": "Nina meant to wait until the rehearsal ended before mentioning the surprise guest, but she blurted it out when a classmate asked about the extra chair.",
+        "zh": "妮娜本想等綵排完結才提驚喜嘉賓，但同學問起多出的椅子時，她便衝口說了出來。",
+        "promptZh": "blurted it out 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She said the news suddenly, before she meant to.",
+            "zh": "她未到原定時間便突然說出消息。"
+          },
+          {
+            "id": "b",
+            "en": "She made the planned announcement after rehearsal.",
+            "zh": "她在綵排後依計劃正式公布。"
+          },
+          {
+            "id": "c",
+            "en": "She had never heard about the guest.",
+            "zh": "她從未聽過那位嘉賓。"
+          },
+          {
+            "id": "d",
+            "en": "She deliberately announced the guest at the start of rehearsal.",
+            "zh": "她故意在綵排開始時公布嘉賓。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她本想等一等，卻因提問而突然說出口。"
+      },
+      "reply": {
+        "promptEn": "How did the secret prize become known? Omar had planned to tell his friend after the ceremony, but when asked about the wrapped box he said the prize name without pausing.",
+        "promptZh": "（秘密獎品怎樣被知道？奧馬原想在典禮後才告訴朋友，但對方問起包好的盒子時，他不假思索說出獎品名稱。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He revealed the prize earlier than planned.",
+            "zh": "他比原定時間提早透露獎品。"
+          },
+          {
+            "id": "b",
+            "en": "His answer came without preparation when asked.",
+            "zh": "被問及時，他未經準備便回答。"
+          },
+          {
+            "id": "c",
+            "en": "He blurted it out when his friend asked about the box.",
+            "zh": "朋友問起盒子時，他便衝口說了出來。"
+          },
+          {
+            "id": "d",
+            "en": "He did not pause to protect the planned surprise.",
+            "zh": "他沒有停一停，結果未能保住原定驚喜。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都反映提早而突然說出；金句用 blurted it out。"
+      },
+      "scene": {
+        "promptZh": "記者在正式記者會前問職員尚未公布的展覽日期，職員一緊張便立即說了出來。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The staff member blurted it out before the scheduled announcement.",
+            "zh": "職員在預定公布前衝口說出日期。"
+          },
+          {
+            "id": "b",
+            "en": "The staff member carefully read the prepared announcement at the scheduled time.",
+            "zh": "職員在預定時間仔細讀出預備好的公告。"
+          },
+          {
+            "id": "c",
+            "en": "The staff member had never learned the date.",
+            "zh": "職員從未知道日期。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "緊張之下立即說出口，並非按計劃宣布。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 she blurted it out？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She gives an unplanned answer before thinking through its effect.",
+            "zh": "她未想清楚後果便突然回答。"
+          },
+          {
+            "id": "b",
+            "en": "She rehearses a statement, then delivers it at the scheduled press conference.",
+            "zh": "她先排練發言，再於預定記者會讀出。"
+          },
+          {
+            "id": "c",
+            "en": "A surprise question makes her reveal the news sooner than intended.",
+            "zh": "意外提問令她比原定時間提早透露消息。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "事先排練、按時發言並非衝口而出。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「他 blurted it out，所以他一定故意傷害別人。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He blurted it out without planning; that alone does not prove a wish to hurt anyone.",
+            "zh": "他未經準備衝口說了出來，單憑這點不能證明他想傷害別人。"
+          },
+          {
+            "id": "b",
+            "en": "Every unplanned comment is intentionally cruel.",
+            "zh": "每句未經準備的話都是故意殘酷。"
+          },
+          {
+            "id": "c",
+            "en": "Because he spoke, the news must have been false.",
+            "zh": "他既然說出口，消息就一定是假的。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語描述說話方式，不自動判定動機或真偽。"
+      },
+      "speaking": {
+        "en": "I knew the party location was a surprise, but when she asked about the map, I blurted it out before I could stop myself.",
+        "zh": "我知道派對地點是驚喜，但她問起地圖時，我來不及控制，便衝口說了出來。",
+        "promptZh": "先聽示範，再指出消息何時意外透露。",
+        "targetSpan": {
+          "start": 78,
+          "end": 92
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：科學展覽的組員原本打算等評判公布後才告訴朋友初步得分；朋友突然問起，組員一時沒想便說出分數，但結果仍待正式核實。用一至兩句英文描述衝口而出及結果未正式確認。",
+        "selfCheckZh": "寫出原本打算等公布、突然被問及而先說了、分數仍待核實，不要說已正式公布。",
+        "examples": [
+          {
+            "en": "The group meant to wait for the judges’ announcement, but a sudden question made Mei blurt it out; the preliminary score still needed official checking.",
+            "zh": "小組原想等評判公布，但突然被問起時，美怡便衝口說出初步分數；分數仍待正式核實。"
+          },
+          {
+            "en": "Mei was going to keep the preliminary score private until the judges confirmed it, but she blurted it out when a friend asked unexpectedly.",
+            "zh": "美怡原想等評判確認初步分數後才公開，但朋友突然問起時，她便衝口說了出來。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "judges’ announcement",
+            "zh": "評判公布",
+            "exampleIndex": 0,
+            "span": {
+              "start": 32,
+              "end": 52
+            }
+          },
+          {
+            "en": "a sudden question",
+            "zh": "突然提問",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 75
+            }
+          },
+          {
+            "en": "preliminary score",
+            "zh": "初步分數",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 120
+            }
+          },
+          {
+            "en": "official checking",
+            "zh": "正式核實",
+            "exampleIndex": 0,
+            "span": {
+              "start": 134,
+              "end": 151
+            }
+          },
+          {
+            "en": "a friend asked unexpectedly",
+            "zh": "朋友突然問起",
+            "exampleIndex": 1,
+            "span": {
+              "start": 111,
+              "end": 138
+            }
+          },
+          {
+            "en": "judges confirmed it",
+            "zh": "評判確認",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 81
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "To blurt it out is to say it suddenly before filtering the words.",
+          "zh": "blurt it out 指未經斟酌便突然說出口。"
+        },
+        {
+          "en": "Blurting it out need not mean the speaker intended harm or that the news was false.",
+          "zh": "衝口說出來不代表說話者有意傷人，也不代表消息是假的。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2851",
+      "number": 2851,
+      "inventoryId": "expr-2851",
+      "titleEn": "keep your eyes open",
+      "titleZh": "保持警覺",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping)\\s+(?:your|their|our|my|his|her)\\s+eyes\\s+open\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Stay alert for something that may appear or be easy to miss.",
+        "meaningZh": "對可能出現或容易漏看的事物保持警覺。",
+        "grammar": "Keep one’s eyes open for + clue/problem/opportunity; possessive changes with the person. This search-oriented phrase differs from make a choice with one’s eyes open, which stresses knowing risks beforehand.",
+        "register": "Practical newsroom guidance: an editor reminds readers to watch for missing context while checking a report.",
+        "boundaryZh": "保持警覺是留意可能的線索，不表示已找到錯誤，也不等於預先知悉所有風險後作決定。",
+        "misconceptionZh": "不是叫人肉眼一直睜着，也不代表凡可疑之處必定是假消息。",
+        "outcomeZh": "能指出應留意甚麼可能被忽略的資訊，並與「知情下作決定」分清。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0740",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 68,
+          "book": 11,
+          "question": 31,
+          "sample": "S2",
+          "sourceBookPages": "77–78",
+          "locatorNote": "DOCX table 67, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Readers should keep their eyes open for missing context.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep their eyes open"
+        }
+      ],
+      "listening": {
+        "en": "The chart starts in June although the report discusses the whole year. Readers should keep their eyes open for missing months before accepting the trend.",
+        "zh": "圖表從六月開始，但報告討論全年。讀者接受趨勢說法前，應留意是否遺漏了月份。",
+        "promptZh": "keep their eyes open for missing months 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Watch carefully for omitted context in the chart.",
+            "zh": "仔細留意圖表有否遺漏背景資料。"
+          },
+          {
+            "id": "b",
+            "en": "Assume the entire report is fabricated without checking.",
+            "zh": "未查證便假定整份報告都是捏造的。"
+          },
+          {
+            "id": "c",
+            "en": "Close the chart and make a final decision immediately.",
+            "zh": "關上圖表並立即作最終決定。"
+          },
+          {
+            "id": "d",
+            "en": "They have proved the omitted months would reverse the trend.",
+            "zh": "他們已證明遺漏月份會令趨勢逆轉。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語叫讀者留意可能遺漏的月份，尚未斷定報告真偽。"
+      },
+      "reply": {
+        "promptEn": "What should volunteers do while sorting old photographs? Some backs contain dates or names, but those labels are small and easy to overlook.",
+        "promptZh": "（義工整理舊照片時應怎樣做？部分背面有日期或名字，但字很小，容易漏看。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They should check the backs for small labels.",
+            "zh": "他們應查看照片背面的細小標記。"
+          },
+          {
+            "id": "b",
+            "en": "They should stay alert for dates and names.",
+            "zh": "他們應留意日期與姓名。"
+          },
+          {
+            "id": "c",
+            "en": "They should keep their eyes open for easy-to-miss labels.",
+            "zh": "他們應留意容易漏看的標記。"
+          },
+          {
+            "id": "d",
+            "en": "They need to look carefully before filing each photograph.",
+            "zh": "他們歸檔前須仔細查看每張照片。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都要求留意易漏看的標記；金句用 keep their eyes open for。"
+      },
+      "scene": {
+        "promptZh": "學生檢查網上統計圖，標題寫「所有年齡」，但圖例只列兩個年齡組。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They should keep their eyes open for missing age groups.",
+            "zh": "他們應留意有否遺漏年齡組別。"
+          },
+          {
+            "id": "b",
+            "en": "They can already conclude every figure is invented.",
+            "zh": "他們現在就可斷定所有數字都是捏造。"
+          },
+          {
+            "id": "c",
+            "en": "The title proves the graph covers every age group.",
+            "zh": "標題證明圖表涵蓋每個年齡組別。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "標題與圖例有落差，應查找遺漏，而非立即作極端結論。"
+      },
+      "contrast": {
+        "promptZh": "哪個說法最不符合 keep your eyes open for 的意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Check whether a long article has left out the comparison group.",
+            "zh": "留意長文章有否漏掉比較組別。"
+          },
+          {
+            "id": "b",
+            "en": "Know the project’s documented risks before choosing to join it.",
+            "zh": "加入項目前先了解已記錄的風險，再作選擇。"
+          },
+          {
+            "id": "c",
+            "en": "Watch for a small correction beneath the headline.",
+            "zh": "留意標題下方有否細小更正。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "這是知情下作決定，更接近 with your eyes open；不是尋找可能被漏看的線索。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「你叫我 keep my eyes open for missing context，就是斷定作者在說謊。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Keeping our eyes open for missing context means checking before drawing a conclusion.",
+            "zh": "留意可能遺漏的背景，是指下結論前先核對。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. Being alert proves deliberate dishonesty.",
+            "zh": "對；保持警覺就證明對方故意不誠實。"
+          },
+          {
+            "id": "c",
+            "en": "No check is needed once a chart has a title.",
+            "zh": "圖表有標題就毋須再核對。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "保持警覺是查找線索，不是先行定罪。"
+      },
+      "speaking": {
+        "en": "Keep your eyes open for the small date printed under each image before you place the photographs in order.",
+        "zh": "排列照片前，留意每張圖片下方印着的小日期。",
+        "promptZh": "先聽示範，再指出要找的具體線索。",
+        "targetSpan": {
+          "start": 0,
+          "end": 19
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：博物館義工整理口述歷史錄音；部分檔案的姓名與年份藏在細小標籤上，尚未確定有否漏標。用一至兩句英文提醒同伴留意甚麼，避免先斷定檔案有錯。",
+        "selfCheckZh": "寫出應留意細小的姓名與年份標籤、目前只是檢查可能遺漏，不要說已證實資料錯誤。",
+        "examples": [
+          {
+            "en": "Volunteers should keep their eyes open for small name and year labels on the recordings; they are checking for omissions, not declaring the files wrong.",
+            "zh": "義工應留意錄音上的細小姓名與年份標籤；他們是在檢查有否遺漏，不是斷定檔案出錯。"
+          },
+          {
+            "en": "As they sort the recordings, they can keep their eyes open for easy-to-miss labels showing the speaker’s name and year, without assuming any label is wrong.",
+            "zh": "整理錄音時，他們可留意容易漏看的姓名與年份標籤，而不先假設標籤有錯。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "small name and year labels",
+            "zh": "細小姓名與年份標籤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 69
+            }
+          },
+          {
+            "en": "the recordings",
+            "zh": "錄音",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 87
+            }
+          },
+          {
+            "en": "checking for omissions",
+            "zh": "檢查有否遺漏",
+            "exampleIndex": 0,
+            "span": {
+              "start": 98,
+              "end": 120
+            }
+          },
+          {
+            "en": "files wrong",
+            "zh": "檔案出錯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 140,
+              "end": 151
+            }
+          },
+          {
+            "en": "speaker’s name",
+            "zh": "說話者姓名",
+            "exampleIndex": 1,
+            "span": {
+              "start": 95,
+              "end": 109
+            }
+          },
+          {
+            "en": "without assuming",
+            "zh": "而不先假設",
+            "exampleIndex": 1,
+            "span": {
+              "start": 120,
+              "end": 136
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Keep your eyes open for a clue means stay alert to find it.",
+          "zh": "留意某個線索，指保持警覺以便發現。"
+        },
+        {
+          "en": "Keeping your eyes open for missing context does not prove anyone intended to mislead.",
+          "zh": "留意可能遺漏的背景，不證明有人蓄意誤導。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2853",
+      "number": 2853,
+      "inventoryId": "expr-2853",
+      "titleEn": "brain switched off",
+      "titleZh": "腦袋像關了機",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:brain|brains)\\s+switched\\s+off\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "In an informal metaphor, not actively thinking or checking what one is told.",
+        "meaningZh": "用口語比喻沒有積極思考或核對所聽所讀的內容。",
+        "grammar": "With your brain switched off describes a person’s mental approach during a task; switched off modifies brain metaphorically. Unlike switch off from work, this lesson concerns uncritical attention to a claim.",
+        "register": "Informal media-literacy reminder: a teacher asks students to examine evidence while reading a serious health claim, rather than passively accepting it.",
+        "boundaryZh": "休息時放鬆不等於在重要判斷中停止思考；不能以此侮辱人的智力。",
+        "misconceptionZh": "不是大腦真的有電源掣，也不是說所有娛樂性閱讀都必須逐字質疑。",
+        "outcomeZh": "能判斷何時需要主動核對聲稱，並區分放鬆休息與在重要事項上不加思索。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0742",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 69,
+          "book": 11,
+          "question": 31,
+          "sample": "S2",
+          "sourceBookPages": "77–78",
+          "locatorNote": "DOCX table 67, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Do not read serious claims with your brain switched off.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "brain switched off"
+        }
+      ],
+      "listening": {
+        "en": "A post claims that one drink cures every illness but cites no study. Do not read that claim with your brain switched off; check the evidence first.",
+        "zh": "一篇貼文聲稱一種飲品能治好所有疾病，卻沒有引用研究。閱讀這種聲稱時，不要不加思索；先核對證據。",
+        "promptZh": "with your brain switched off 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Reading the serious claim without thinking critically.",
+            "zh": "讀嚴肅聲稱時沒有審慎思考。"
+          },
+          {
+            "id": "b",
+            "en": "Taking a planned break after finishing the evidence check.",
+            "zh": "完成證據核對後按計劃休息。"
+          },
+          {
+            "id": "c",
+            "en": "Finding a cited study that supports the claim.",
+            "zh": "找到支持該聲稱的引用研究。"
+          },
+          {
+            "id": "d",
+            "en": "Rejecting the post as false without examining it.",
+            "zh": "未檢查貼文便斷定它虛假。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語比喻讀重要聲稱時不作主動思考或核對。"
+      },
+      "reply": {
+        "promptEn": "How should the committee read a supplier’s safety claim? The brochure promises zero risk, yet provides no test report, and members must decide whether to buy equipment.",
+        "promptZh": "（委員會應怎樣看供應商的安全聲稱？小冊子承諾零風險，卻沒有測試報告；委員須決定是否購買設備。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They should request evidence before making a purchase.",
+            "zh": "他們購買前應索取證據。"
+          },
+          {
+            "id": "b",
+            "en": "They should not accept the claim without checking it.",
+            "zh": "他們不應未查證便接受聲稱。"
+          },
+          {
+            "id": "c",
+            "en": "They should not decide with their brains switched off.",
+            "zh": "他們不應不加思索便作決定。"
+          },
+          {
+            "id": "d",
+            "en": "The missing report is a reason to ask further questions.",
+            "zh": "缺乏報告是進一步提問的理由。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都建議審慎核對；金句用 brains switched off 比喻不加思索。"
+      },
+      "scene": {
+        "promptZh": "學生閱讀一篇用單一個案證明「所有學生都喜歡這做法」的文章，卻不看其他資料便同意。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They read the claim with their brains switched off.",
+            "zh": "他們沒有審慎思考便接受聲稱。"
+          },
+          {
+            "id": "b",
+            "en": "They compared the claim against several independent surveys.",
+            "zh": "他們把聲稱與多份獨立調查比較。"
+          },
+          {
+            "id": "c",
+            "en": "One example proves what all students prefer.",
+            "zh": "一個例子就證明所有學生的喜好。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只憑單一個案就接受總括結論，是沒有充分思考。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合批評為 brain switched off？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A parent forwards a medical claim without reading its source.",
+            "zh": "家長不看來源便轉發醫療聲稱。"
+          },
+          {
+            "id": "b",
+            "en": "A reader checks the data and asks what comparison group was used.",
+            "zh": "讀者查核數據，並問用了甚麼比較組別。"
+          },
+          {
+            "id": "c",
+            "en": "A buyer accepts a zero-risk promise without requesting test results.",
+            "zh": "買家未索取測試結果便相信零風險承諾。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "查數據和比較組別正是主動思考。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我休息時看小說放鬆，是否等於 brain switched off、做錯了？」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Reading an important claim with your brain switched off differs from relaxing after work.",
+            "zh": "讀重要聲稱時不加思索，與工餘放鬆是兩回事。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. Any relaxed reading is a failure to think.",
+            "zh": "是；任何輕鬆閱讀都代表沒有思考。"
+          },
+          {
+            "id": "c",
+            "en": "If you check a serious claim, you can never relax again.",
+            "zh": "只要核對嚴肅聲稱，之後就永遠不能放鬆。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語在此批評重要判斷時不加思索，不是批評休息。"
+      },
+      "speaking": {
+        "en": "Read the figures with your brain switched off and you may miss that the survey asked only five people.",
+        "zh": "若不加思索地看數字，你可能漏看調查其實只訪問了五人。",
+        "promptZh": "先聽示範，再指出最需要核對的數字。",
+        "targetSpan": {
+          "start": 27,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生會考慮更換飯堂供應商；宣傳單寫「九成人滿意」，但調查其實只問了十人。學生會要先查看樣本數，不能不加思索接受宣傳。用一至兩句英文說明應核對甚麼。",
+        "selfCheckZh": "寫出九成數字來自十人、須核對樣本數、不要不加思索接受，不要說調查已證實完全不實。",
+        "examples": [
+          {
+            "en": "The flyer says 90% are satisfied, but the survey asked only ten people; the council should not read it with their brains switched off and must check the sample size.",
+            "zh": "宣傳單說九成人滿意，但調查只問了十人；學生會不應不加思索，而須核對樣本數。"
+          },
+          {
+            "en": "Before changing the canteen supplier, students should check the ten-person sample rather than accept the 90% claim with their brains switched off.",
+            "zh": "更換飯堂供應商前，學生應核對只有十人的樣本，而非不加思索地接受九成滿意的聲稱。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "90%",
+            "zh": "九成",
+            "exampleIndex": 0,
+            "span": {
+              "start": 15,
+              "end": 18
+            }
+          },
+          {
+            "en": "ten people",
+            "zh": "十人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 70
+            }
+          },
+          {
+            "en": "the sample size",
+            "zh": "樣本數",
+            "exampleIndex": 0,
+            "span": {
+              "start": 149,
+              "end": 164
+            }
+          },
+          {
+            "en": "The flyer",
+            "zh": "宣傳單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 9
+            }
+          },
+          {
+            "en": "canteen supplier",
+            "zh": "飯堂供應商",
+            "exampleIndex": 1,
+            "span": {
+              "start": 20,
+              "end": 36
+            }
+          },
+          {
+            "en": "ten-person sample",
+            "zh": "十人樣本",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 81
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A brain switched off is a metaphor for failing to think critically during a task.",
+          "zh": "腦袋像關了機，是比喻處理事情時欠缺審慎思考。"
+        },
+        {
+          "en": "Reading an important claim with your brain switched off differs from resting after work.",
+          "zh": "對重要聲稱不加思索，與工餘休息不同。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

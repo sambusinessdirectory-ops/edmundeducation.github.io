@@ -1,0 +1,137 @@
+{
+  "reviewType": "independent-ai-seven-step-editorial-review",
+  "inputFiles": {
+    "a": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3198-3228-a.json",
+      "sha256": "386016e6091d313775a1f2416e466db618452232ecfece6fe4eba324fb06b371"
+    },
+    "pilot1": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2833-2870-review-pilot-1.json",
+      "sha256": "f4c48373f45527093b98deef3518d3615063bad4d11dbc2aefd057a99f97a9d2"
+    },
+    "pilot2": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2833-2870-review-pilot-2.json",
+      "sha256": "4f2855182559facace0896f90f00822755537f250079afcb87d4ad4787eca133"
+    },
+    "aSelfAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-3198-3228-a.json",
+      "sha256": "3bf97332c5623d96778e1c43d2d5086b950f3c13de7f803ab0690d28c6fe49ee"
+    },
+    "pilotSelfAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-2833-2870-review-pilot.json",
+      "sha256": "87413450dd13f92c7cf0a569c982926f2804379bac39dce33f4e3c84659bdcd5"
+    },
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    "canonical562": {
+      "path": "course-materials/advanced-native/batches/batch-0551-0575.json",
+      "sha256": "98a01c44d8bfcd3a4c1e36a684ef561dea31adc4febe6abd0afc321b14139bc6"
+    },
+    "canonical375": {
+      "path": "course-materials/advanced-native/batches/batch-0351-0375.json",
+      "sha256": "a966c02c6778fbca2eca22572fa08aadb7aedc5688aec069ac5d77d51ab92171"
+    }
+  },
+  "mechanicalChecks": {
+    "source": "Each lesson source sentence and provenance was compared with the source inventory; no mismatch found.",
+    "target": "All 16 full-source and target-bearing assessed items match their own fresh gi regex; speaking spans select target forms.",
+    "glossary": "All 88 glossary spans across the two reviewed eight-lesson batches are exact non-target substrings of the answer models.",
+    "reply": "All 16 have four independent plausible replies and one target-bearing golden option.",
+    "translations": "Traditional Chinese of the listened text, prompts, options, speaking and writing models was reviewed; R2854 is an English precision defect against the Chinese intended meaning.",
+    "build": "Combined build and --check pass: 16 lessons, 96 questions, 64 audio requests, zero review flags."
+  },
+  "dictionaryCheck": {
+    "lesson": 3228,
+    "result": "Collins defines where the shoe pinches as the true cause/source of trouble; this supports the taught sense but does not establish a contemporary frequency/register label.",
+    "source": "https://www.collinsdictionary.com/us/dictionary/english/where-the-shoe-pinches"
+  },
+  "humanApproval": false,
+  "releaseApproval": false,
+  "scope": "Eight unselected provisional Books 10–16 lessons: 3198,3199,3200,3205,3211,3213,3219,3228",
+  "perLesson": [
+    {
+      "sourceOrdinal": 3198,
+      "lessonId": "advanced-native-3198",
+      "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3198-3228-a.json",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "Source sense, English/Traditional Chinese, seven decisions, four-valid reply, target and exact glossary checked."
+    },
+    {
+      "sourceOrdinal": 3199,
+      "lessonId": "advanced-native-3199",
+      "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3198-3228-a.json",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "Source sense, English/Traditional Chinese, seven decisions, four-valid reply, target and exact glossary checked."
+    },
+    {
+      "sourceOrdinal": 3200,
+      "lessonId": "advanced-native-3200",
+      "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3198-3228-a.json",
+      "status": "requires-repair",
+      "findings": [
+        {
+          "id": "R3200-01",
+          "severity": "major",
+          "path": "writing.examples[0]",
+          "text": "The writing prompt requires evidence of experience, practical advice, and how the advice is checked against current circumstances. Model 1 gives three venues and an access-route suggestion but never shows anyone checking whether that advice applies to the present venue. Add a bounded follow-up check; keep the first model a complete answer and recalculate glossary spans."
+        }
+      ],
+      "evidence": "One material editorial issue remains; other source/target/glossary controls pass."
+    },
+    {
+      "sourceOrdinal": 3205,
+      "lessonId": "advanced-native-3205",
+      "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3198-3228-a.json",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "Source sense, English/Traditional Chinese, seven decisions, four-valid reply, target and exact glossary checked."
+    },
+    {
+      "sourceOrdinal": 3211,
+      "lessonId": "advanced-native-3211",
+      "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3198-3228-a.json",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "Source sense, English/Traditional Chinese, seven decisions, four-valid reply, target and exact glossary checked."
+    },
+    {
+      "sourceOrdinal": 3213,
+      "lessonId": "advanced-native-3213",
+      "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3198-3228-a.json",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "Source sense, English/Traditional Chinese, seven decisions, four-valid reply, target and exact glossary checked."
+    },
+    {
+      "sourceOrdinal": 3219,
+      "lessonId": "advanced-native-3219",
+      "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3198-3228-a.json",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "Source sense, English/Traditional Chinese, seven decisions, four-valid reply, target and exact glossary checked."
+    },
+    {
+      "sourceOrdinal": 3228,
+      "lessonId": "advanced-native-3228",
+      "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3198-3228-a.json",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "Source sense, English/Traditional Chinese, seven decisions, four-valid reply, target and exact glossary checked."
+    }
+  ],
+  "ownerScope": {
+    "3198": "Full have someone’s best interests at heart is welfare motive, distinct from canonical 562 at heart (underlying nature).",
+    "3228": "Fixed idiom meaning is supported by Collins dictionary; verify age/register for learner-facing copy rather than implying ordinary contemporary frequency."
+  },
+  "watchItems": [
+    {
+      "lesson": 3228,
+      "note": "Dictionary supports meaning, but a register/frequency label has not been independently established. This is a human editorial watch item, not a blocker."
+    }
+  ],
+  "selectionRecommendation": "Hold 3200 for targeted writing-model repair; seven other lessons provisionally content-pass. Human language/media/QA and release gates remain open."
+}
