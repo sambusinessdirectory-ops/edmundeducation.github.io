@@ -1,0 +1,51 @@
+{
+  "lessonId": "idiom-31",
+  "status": "AI_EDITORIAL_DRAFT_NOT_LIVE",
+  "items": {
+    "idiom-31-q26": {
+      "truthCondition": "Amir and his business partner do not work well together because they argue angrily about almost every choice.",
+      "correctReason": "答句的「No」回應合作是否順利；正確句保留阿米爾與生意拍檔幾乎每個選擇都會爭吵。",
+      "foils": [
+        { "text": "No. Amir and his business partner fight like cat and dog about one unusual choice.", "reason": "「one unusual choice」把幾乎每個選擇都吵改成只為一項特殊選擇而吵。", "kind": "changed-scope" },
+        { "text": "Yes. Amir and his business partner fight like cat and dog about almost every choice.", "reason": "「Yes」說他們合作得好，與後面幾乎事事激烈爭吵的內容及原題答句不符。", "kind": "contradictory-response" },
+        { "text": "No. Amir and his business partner discuss almost every choice calmly together.", "reason": "「discuss ... calmly」把激烈爭吵改成平靜討論。", "kind": "reversed-behaviour" }
+      ]
+    },
+    "idiom-31-q27": {
+      "truthCondition": "Josh and Ethan became flatmates two months ago and have argued fiercely about housework ever since.",
+      "correctReason": "「Since ... became flatmates」和現在完成進行式保留兩個月前開始、至今仍持續的家務爭吵。",
+      "foils": [
+        { "text": "Before Josh and Ethan became flatmates, they had fought like cat and dog over housework.", "reason": "「Before」把爭吵移到同住前；原題說兩人自同住後才一直爭吵。", "kind": "changed-start-point" },
+        { "text": "Since Josh and Ethan became flatmates, they have been fighting like cat and dog over rent.", "reason": "「rent」把爭議由家務改成租金。", "kind": "changed-issue" },
+        { "text": "Since Josh and Ethan became flatmates, they have divided the housework without arguing.", "reason": "「without arguing」說兩人能和平分工，與原題持續激烈爭吵相反。", "kind": "reversed-outcome" }
+      ]
+    },
+    "idiom-31-q28": {
+      "truthCondition": "Priya and her older sister used to argue angrily often, but now resolve problems calmly.",
+      "correctReason": "正確句用「do not ... any more」表明昔日激烈爭吵已停止，並保留兩人現時冷靜討論。",
+      "foils": [
+        { "text": "Priya and her older sister still fight like cat and dog whenever they discuss problems.", "reason": "「still」表示現在仍激烈爭吵；原題說兩人如今會冷靜討論。", "kind": "changed-current-state" },
+        { "text": "Priya and her older sister did not fight like cat and dog before, but they do now.", "reason": "這句把昔日常吵、現在平靜的時間線完全倒轉。", "kind": "reversed-timeline" },
+        { "text": "Priya and her older sister never had angry arguments and still talk calmly now.", "reason": "「never had angry arguments」抹去了原題說兩人以前總是激烈爭吵。", "kind": "erased-past-conflict" }
+      ]
+    },
+    "idiom-31-q29": {
+      "truthCondition": "The two singers appeared friendly on stage but argued angrily nearly every day away from the audience.",
+      "correctReason": "正確句保留台上友好、離開觀眾視線後常激烈爭吵的反差。",
+      "foils": [
+        { "text": "The two singers seemed friendly on stage, but often fought like cat and dog in front of the audience.", "reason": "「in front of the audience」把爭吵移到觀眾面前；原題說爭吵發生在觀眾看不到的地方。", "kind": "changed-setting" },
+        { "text": "The two singers seemed unfriendly on stage, but often fought like cat and dog when away from the audience.", "reason": "「unfriendly on stage」改變原題台上看來友好的情況。", "kind": "changed-public-appearance" },
+        { "text": "The two singers seemed friendly on stage and remained close friends when they were away from the audience.", "reason": "「remained close friends」抹去了兩人私下幾乎每天激烈爭吵的反差。", "kind": "reversed-private-behaviour" }
+      ]
+    },
+    "idiom-31-q30": {
+      "truthCondition": "Continuing to share a desk will probably cause the twins to argue fiercely about the available space.",
+      "correctReason": "正確句保留「繼續共用書桌」這個條件、對空間的爭議，以及「很可能」而非必然的預測。",
+      "foils": [
+        { "text": "Using separate desks will probably make the twins fight like cat and dog over space.", "reason": "「separate desks」把繼續共用書桌的條件改成各用一張書桌。", "kind": "changed-condition" },
+        { "text": "Continuing to share the same desk will certainly make the twins fight like cat and dog over space.", "reason": "「will certainly」把原題的「很可能」提升成必然。", "kind": "changed-certainty" },
+        { "text": "Continuing to share the same desk will probably help the twins settle the space issue calmly.", "reason": "「settle ... calmly」把很可能爭吵改成很可能和平解決。", "kind": "reversed-outcome" }
+      ]
+    }
+  }
+}

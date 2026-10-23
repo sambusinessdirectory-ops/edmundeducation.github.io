@@ -1,0 +1,51 @@
+{
+  "lessonId": "idiom-31",
+  "status": "AI_EDITORIAL_DRAFT_NOT_LIVE",
+  "items": {
+    "idiom-31-q21": {
+      "truthCondition": "Sam and Alex always argue angrily over who gets the chair beside the window.",
+      "correctReason": "正確句保留兩人「總是」為窗邊座位吵架的習慣；慣用語描述的是爭執，不是搶椅子的動作。",
+      "foils": [
+        { "text": "Sam and Alex always fight like cat and dog over who sits by the door.", "reason": "「by the door」把爭議座位由窗邊改成門邊。", "kind": "changed-location" },
+        { "text": "Sam and Alex fought like cat and dog once over who sits by the window.", "reason": "「once」把總是發生的爭吵改成一次事件。", "kind": "changed-frequency" },
+        { "text": "Sam and Alex take turns peacefully over who sits by the window.", "reason": "「take turns peacefully」表示輪流而沒有爭吵，與原題的大叫大嚷相反。", "kind": "reversed-behaviour" }
+      ]
+    },
+    "idiom-31-q22": {
+      "truthCondition": "The coach separated Ryan and Luke because they argued fiercely about every decision.",
+      "correctReason": "原題是爭吵在先、教練分開兩人在後；正確句保留了原因、結果及「每個決定」。",
+      "foils": [
+        { "text": "The coach separated Ryan and Luke before they began fighting like cat and dog over any decision.", "reason": "「before they began」把分開兩人的時間移到爭吵之前；原題說教練因爭吵才把他們分開。", "kind": "reversed-sequence" },
+        { "text": "The coach separated Ryan and Luke because they fought like cat and dog over one decision.", "reason": "「one decision」把每個決定都吵的模式縮成單一決定。", "kind": "changed-scope" },
+        { "text": "The coach kept Ryan and Luke together because they agreed on every decision.", "reason": "這句把教練分開兩人改成讓他們留在一起，也把爭吵改成同意。", "kind": "reversed-outcome" }
+      ]
+    },
+    "idiom-31-q23": {
+      "truthCondition": "Whenever their family chooses a restaurant, Cara and her brother argue angrily over where to eat.",
+      "correctReason": "「Whenever」對應每次選餐廳；正確句保留卡拉與哥哥為用餐地點激烈爭執。",
+      "foils": [
+        { "text": "Whenever the family chooses a restaurant, Cara and her brother fight like cat and dog over the bill.", "reason": "「over the bill」把爭議由去哪裏吃改成由誰付款。", "kind": "changed-issue" },
+        { "text": "After the family has eaten, Cara and her brother fight like cat and dog about where they ate.", "reason": "「After ... eaten」把爭吵移到用餐後；原題說選餐廳時便會爭吵。", "kind": "changed-timing" },
+        { "text": "Whenever the family chooses a restaurant, Cara and her brother quickly agree where to eat.", "reason": "「quickly agree」表示兩人迅速取得共識，與原題相反。", "kind": "reversed-conflict" }
+      ]
+    },
+    "idiom-31-q24": {
+      "truthCondition": "The two cousins often argue fiercely over a simple joke, even on happy days.",
+      "correctReason": "正確句保留「即使在愉快的日子」和「經常因一個簡單笑話」兩項反差與頻率。",
+      "foils": [
+        { "text": "Even on happy days, the two cousins often fight like cat and dog over a serious insult.", "reason": "「a serious insult」把普通笑話改成嚴重侮辱，失去原題的小事引發激烈爭吵的反差。", "kind": "changed-trigger" },
+        { "text": "Only on unhappy days do the two cousins fight like cat and dog over a simple joke.", "reason": "「Only on unhappy days」否定了原題說連愉快日子也會爭吵。", "kind": "changed-condition" },
+        { "text": "Even on happy days, the two cousins laugh together instead of arguing over a simple joke.", "reason": "這句說兩人一起歡笑而不爭吵，倒轉了原題的反應。", "kind": "reversed-reaction" }
+      ]
+    },
+    "idiom-31-q25": {
+      "truthCondition": "Nina reported that she and her flatmate argued angrily every day throughout the previous week about heating.",
+      "correctReason": "正確句保留妮娜的轉述、整個上星期每天爭吵的時段，以及暖氣這個爭議。",
+      "foils": [
+        { "text": "Nina told me that she and her flatmate had fought like cat and dog all week about the rent.", "reason": "「the rent」把爭議由暖氣改成租金。", "kind": "changed-issue" },
+        { "text": "Nina told me that she and her flatmate had fought like cat and dog once last week about the heating.", "reason": "「once last week」把上星期每天的爭吵改成只吵一次。", "kind": "changed-frequency" },
+        { "text": "Nina told me that she and her flatmate had agreed about the heating all week.", "reason": "「had agreed」把整星期的激烈爭吵改成整星期達成共識。", "kind": "reversed-conflict" }
+      ]
+    }
+  }
+}
