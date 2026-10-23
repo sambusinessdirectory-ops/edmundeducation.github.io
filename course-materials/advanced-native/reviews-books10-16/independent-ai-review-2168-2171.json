@@ -1,0 +1,65 @@
+{
+  "reviewType": "independent AI editorial peer review",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftState": "unpublished",
+  "scope": {
+    "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-2168-2171-a.json",
+    "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sop": "work/advanced-native-books10-16/sop-extracted.txt",
+    "lessonCount": 4
+  },
+  "counts": {"major": 1, "minor": 2, "blocker": 0},
+  "lessons": [
+    {
+      "lessonId": "advanced-native-2168",
+      "sourceSense": "The source concerns practical travel from one place to another; the lesson's English preserves that sense.",
+      "findings": [
+        {
+          "path": "reply.options[a].zh; scene.options[a].zh; dialogue.options[a].zh; speaking.zh; writing.examples[0].zh; takeaways[0].zh",
+          "severity": "major",
+          "explanation": "Several Chinese renderings say '往返兩地', which implies travel to and back from the two locations. 'Getting from A to B' identifies one-direction travel from one place to another and does not establish a return trip. Other lesson lines correctly use '從一處到另一處', showing the translation can preserve the source boundary.",
+          "recommendedFix": "Use '從一地到另一地', '由起點到目的地', or a context-specific one-way equivalent in every affected translation. Preserve a round trip only where the English explicitly says one occurs."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2169",
+      "sourceSense": "Time remaining before a deadline or event; the English models and keys stay within this sense.",
+      "findings": [
+        {
+          "path": "listening.zh; reply.options[a].zh; scene.options[a].zh; dialogue.options[a].zh; speaking.zh; writing.examples[*].zh; takeaways[*].zh",
+          "severity": "minor",
+          "explanation": "The repeated Chinese phrase '餘裕時間' / '留有餘裕時間' is stiff and redundant for 'time to spare'. It appears throughout this short lesson and makes the Chinese less natural than the English.",
+          "recommendedFix": "Choose fluent Traditional Chinese for the context, such as '還有充裕時間', '還有時間餘裕' or '提早完成，還有時間...', and apply it consistently without changing the before-deadline meaning."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2170",
+      "sourceSense": "Caught off guard or disadvantaged by an unexpected change; source sense, grammar, answer key and Chinese are defensible.",
+      "findings": []
+    },
+    {
+      "lessonId": "advanced-native-2171",
+      "sourceSense": "Anticipate likely delays and take action before they disrupt a journey; source sense preserved.",
+      "findings": [
+        {
+          "path": "listening.en; scene.promptZh; dialogue.options[a].en; compared with advanced-native-2166",
+          "severity": "minor",
+          "explanation": "This lesson and nearby 2166 repeatedly use the same learner decision: inspect travel/traffic warnings, foresee a delay, then choose another route. Their target expressions are distinct ('see delays coming' versus 'stay one step ahead of delays'), but the listening and dialogue scenarios are close enough to weaken exercise variety across adjacent lessons.",
+          "recommendedFix": "Keep 2171's proactive-action boundary, but vary at least one assessed situation beyond road-warning-and-rerouting: for example, advance loading, an earlier dispatch, a backup vehicle, or timely notification based on a known bottleneck. Recheck the Chinese and answer fairness after revision."
+        }
+      ]
+    }
+  ],
+  "mechanicalObservations": [
+    "All four records match their cited source occurrence, exact guide sentence, expression, book/question/sample and rendered-page locator.",
+    "Listening, golden replies, speaking, both writing examples and both takeaways have target matches; all four speaking clozes remove the target.",
+    "Every glossary row is an exact source-character span from the cited writing answer and excludes the lesson target."
+  ],
+  "limits": [
+    "This is AI peer review, not independent human English or Traditional Chinese approval, owner acceptance or release approval.",
+    "No audio listening, browser/device line-ending inspection, sound feedback, microphone check or live lesson check was performed."
+  ]
+}

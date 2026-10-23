@@ -1,0 +1,1614 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-second-sixty-provisional-six-a-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2176",
+      "number": 2176,
+      "inventoryId": "expr-2176",
+      "titleEn": "ready to go",
+      "titleZh": "準備妥當，可以出發",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bready to go\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Fully prepared to start an activity or leave.",
+        "meaningZh": "所需準備已完成，可以開始活動或出發。",
+        "grammar": "be ready to go; get something ready to go.",
+        "register": "Everyday conversational expression for a prepared person or setup.",
+        "boundaryZh": "表示準備足以開始，不代表活動已經完成或絕對不會出問題。",
+        "misconceptionZh": "不要只因口頭說準備好了，就忽略仍缺少的必要物品或步驟。",
+        "outcomeZh": "能判斷何時人員或物品已具備開始所需的條件。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0065",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 7,
+          "book": 10,
+          "question": 5,
+          "sample": "S2",
+          "sourceBookPages": "13–14",
+          "locatorNote": "DOCX table 5, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I packed the documents so everything was ready to go.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "ready to go"
+        }
+      ],
+      "listening": {
+        "en": "The volunteers checked the microphone, set out the chairs and printed the sign-in sheet; the workshop was ready to go.",
+        "zh": "義工測試了咪高峰、排好椅子，並印好登記表；工作坊已準備妥當，可以開始。",
+        "promptZh": "工作坊此時處於甚麼狀態？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The essential setup has been completed.",
+            "zh": "必要的準備工作已完成。"
+          },
+          {
+            "id": "b",
+            "en": "The workshop has already finished.",
+            "zh": "工作坊已經結束。"
+          },
+          {
+            "id": "c",
+            "en": "The volunteers have not checked any equipment.",
+            "zh": "義工尚未檢查任何設備。"
+          },
+          {
+            "id": "d",
+            "en": "The sign-in sheet has been cancelled.",
+            "zh": "登記表已被取消。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "咪高峰、座位和登記表都已準備好，故可開始工作坊；這不表示活動已結束。"
+      },
+      "reply": {
+        "promptEn": "Can we start the student exhibition now?",
+        "promptZh": "（我們現在可以開始學生展覽嗎？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The doors are open and the visitors can come in.",
+            "zh": "門已打開，訪客可以進來。"
+          },
+          {
+            "id": "b",
+            "en": "The labels and displays are ready to go.",
+            "zh": "標籤和展品已準備妥當，可以開始。"
+          },
+          {
+            "id": "c",
+            "en": "We have checked the lighting and the rooms are safe.",
+            "zh": "我們已檢查燈光，展室也安全。"
+          },
+          {
+            "id": "d",
+            "en": "The guides have reached their assigned places.",
+            "zh": "導賞員已到達各自的崗位。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四句都能合理說明展覽可以開始；金句以本課片語概括標籤和展品的準備狀態。"
+      },
+      "scene": {
+        "promptZh": "社區電影夜即將開始。投影機已測試，椅子排好，影片檔案也能播放。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The screening is ready to go.",
+            "zh": "放映活動已準備妥當，可以開始。"
+          },
+          {
+            "id": "b",
+            "en": "The screening has already ended and needs a new audience.",
+            "zh": "放映已結束，需要新一批觀眾。"
+          },
+          {
+            "id": "c",
+            "en": "The team has yet to test whether the film file can open.",
+            "zh": "團隊仍未測試影片檔案能否開啟。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "重要設備、座位和影片都已準備好，所以放映可開始；其餘兩句與已知事實相反。"
+      },
+      "contrast": {
+        "promptZh": "按本課「準備妥當，可以開始」的意思，哪種情況最不適合說 ready to go？",
+        "options": [
+          {
+            "id": "a",
+            "en": "All maps and name badges are packed for the trip.",
+            "zh": "旅行所需的地圖與名牌都已收好。"
+          },
+          {
+            "id": "b",
+            "en": "The class has a venue but has not obtained the required safety permission.",
+            "zh": "班級有了場地，卻仍未取得必需的安全許可。"
+          },
+          {
+            "id": "c",
+            "en": "A band has completed its sound check and is waiting to perform.",
+            "zh": "樂隊已完成音響測試，正等待表演。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "尚欠必需的安全許可就不能開始；另外兩項已完成各自的必要準備。"
+      },
+      "dialogue": {
+        "promptZh": "同伴問：「我們可以帶訪客入場嗎？」你已核對名單，門口也有接待員。哪句回應最自然？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes, the entrance is ready to go; let us invite the first group in.",
+            "zh": "可以，入口已準備妥當；請第一組進來吧。"
+          },
+          {
+            "id": "b",
+            "en": "No, because finishing preparation means the visit is already over.",
+            "zh": "不可以，因為準備完成代表參觀已結束。"
+          },
+          {
+            "id": "c",
+            "en": "We must hide the verified list before any visitor arrives.",
+            "zh": "訪客到達前，我們必須把已核對的名單藏起來。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已核對名單且接待員到位，入口具備開始接待的條件；其他回應誤解準備狀態。"
+      },
+      "speaking": {
+        "en": "The banners were hung and the speakers were tested, so the school fair was ready to go.",
+        "zh": "橫額已掛好，揚聲器也測試過，所以學校市集已準備妥當，可以開始。",
+        "promptZh": "先聽示範，再說明學校市集為何可以開始。",
+        "targetSpan": {
+          "start": 75,
+          "end": 86
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：明早你們要在操場舉辦舊書交換。今晚你們已分類書本、做好價目牌，並安排了收款員。用一至兩句英文說明明早的準備狀態。",
+        "selfCheckZh": "指出書本、標示及人手等必要準備已完成，活動可以開始；不要說交換已結束。",
+        "examples": [
+          {
+            "en": "The books are sorted and the price signs are finished, so our swap is ready to go tomorrow morning.",
+            "zh": "書本已分類，價目牌也已做好，所以明早的交換活動已準備妥當，可以開始。"
+          },
+          {
+            "en": "With the cashier assigned and every table labelled, we are ready to go when the gates open.",
+            "zh": "收款員已安排好，每張桌子也貼上標籤；大門一開，我們便準備妥當，可以開始。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "books are sorted",
+            "zh": "書本已分類",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 20
+            }
+          },
+          {
+            "en": "price signs",
+            "zh": "價目牌",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 40
+            }
+          },
+          {
+            "en": "tomorrow morning",
+            "zh": "明早",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 98
+            }
+          },
+          {
+            "en": "the cashier assigned",
+            "zh": "收款員已安排好",
+            "exampleIndex": 1,
+            "span": {
+              "start": 5,
+              "end": 25
+            }
+          },
+          {
+            "en": "every table labelled",
+            "zh": "每張桌子也貼上標籤",
+            "exampleIndex": 1,
+            "span": {
+              "start": 30,
+              "end": 50
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "After the final sound check, the band was ready to go.",
+          "zh": "完成最後一次音響測試後，樂隊便準備妥當，可以開始。"
+        },
+        {
+          "en": "The trip bags are ready to go, but we still need to check the weather.",
+          "zh": "旅行袋已準備妥當，可以出發，但我們仍須查天氣。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft: second-60 source triage remains under independent AI audit; no editorial or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2185",
+      "number": 2185,
+      "inventoryId": "expr-2185",
+      "titleEn": "fight back",
+      "titleZh": "積極反擊或爭取",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:fight|fights|fought|fighting) back\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Respond actively to a challenge or unfair pressure rather than simply yielding.",
+        "meaningZh": "面對困難或不公平壓力時積極應對，不是單純接受。",
+        "grammar": "fight back against a change; fought back by organising; can be nonviolent.",
+        "register": "Often forceful but can describe peaceful advocacy or practical resistance.",
+        "boundaryZh": "須有不利情況以及有目的的回應；不一定涉及暴力，也不保證成功。",
+        "misconceptionZh": "不要把提出投訴或建議誤解成打架，更不要把任何被動抱怨當成積極爭取。",
+        "outcomeZh": "能辨認以具體、合適行動回應不利情況。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0074",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 8,
+          "book": 10,
+          "question": 6,
+          "sample": "S2",
+          "sourceBookPages": "15–17",
+          "locatorNote": "DOCX table 6, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "When the costs rose, the community decided to fight back.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "fight back"
+        }
+      ],
+      "listening": {
+        "en": "When the bus company cut the evening service, residents fought back by collecting signatures and asking for a public meeting.",
+        "zh": "巴士公司削減晚間服務後，居民收集簽名並要求召開公開會議，積極爭取改善。",
+        "promptZh": "居民怎樣回應晚間巴士服務被削減？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They organised a peaceful response to the cut.",
+            "zh": "他們組織了和平的行動，回應服務削減。"
+          },
+          {
+            "id": "b",
+            "en": "They accepted the cut without taking any action.",
+            "zh": "他們沒有採取行動，直接接受削減。"
+          },
+          {
+            "id": "c",
+            "en": "They physically attacked bus drivers.",
+            "zh": "他們襲擊巴士司機。"
+          },
+          {
+            "id": "d",
+            "en": "They cancelled their own public meeting.",
+            "zh": "他們取消了自己的公開會議。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "收集簽名和要求開會是有組織的回應；fight back 在此不指襲擊司機。"
+      },
+      "reply": {
+        "promptEn": "How could residents respond to the proposed closure of the local clinic?",
+        "promptZh": "（居民可以怎樣回應關閉社區診所的建議？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They could ask the council to explain its reasons.",
+            "zh": "他們可以請區議會解釋原因。"
+          },
+          {
+            "id": "b",
+            "en": "They could collect evidence about how many people use the clinic.",
+            "zh": "他們可以收集有多少人使用診所的資料。"
+          },
+          {
+            "id": "c",
+            "en": "They could fight back by organising a petition and a meeting.",
+            "zh": "他們可以組織請願和會議，積極爭取保留診所。"
+          },
+          {
+            "id": "d",
+            "en": "They could suggest another way to reduce costs.",
+            "zh": "他們可以建議其他節省成本的方法。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四項都是居民可採取的合理、和平回應；金句用本課片語概括有組織的積極爭取。"
+      },
+      "scene": {
+        "promptZh": "公園的無障礙入口擬被關閉，使用者向管理處提交聯署和替代方案。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are fighting back through a petition and a proposal.",
+            "zh": "他們透過聯署和建議積極爭取。"
+          },
+          {
+            "id": "b",
+            "en": "They have ignored the change and made no response.",
+            "zh": "他們沒有理會變動，也沒有作出回應。"
+          },
+          {
+            "id": "c",
+            "en": "They have resorted to a physical fight at the park.",
+            "zh": "他們在公園裏動手打架。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "聯署及替代方案是有目的的回應，符合非暴力的 fight back；並非袖手旁觀或動手打架。"
+      },
+      "contrast": {
+        "promptZh": "以本課「積極回應不利情況」的意思，哪種情況最不適合說 fight back？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A tenants’ group writes a joint letter against an unfair fee.",
+            "zh": "租客團體聯署反對不公平收費。"
+          },
+          {
+            "id": "b",
+            "en": "A club quietly accepts a cut to its activity space and makes no response.",
+            "zh": "社團默默接受活動空間被削減，沒有作出回應。"
+          },
+          {
+            "id": "c",
+            "en": "A team proposes a workable alternative to a harmful rule.",
+            "zh": "團隊針對有害規則提出可行替代方案。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "社團完全沒有採取行動，不構成積極應對；另外兩項都有具體爭取或替代方案。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「社區中心打算取消長者電腦班，大家很失望。」哪個回應最有建設性？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can fight back by gathering feedback and asking the centre to review the plan.",
+            "zh": "我們可以收集意見，請中心重新考慮計劃，積極爭取。"
+          },
+          {
+            "id": "b",
+            "en": "There is no point hearing why people value the class.",
+            "zh": "不用了解大家為何重視這課程。"
+          },
+          {
+            "id": "c",
+            "en": "We should accuse every staff member of bad intentions.",
+            "zh": "我們應指責每名職員都有惡意。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "收集意見並要求檢討是具體、尊重他人的積極回應；盲目指責不能幫助討論。"
+      },
+      "speaking": {
+        "en": "The volunteers fought back against the library closure by presenting a practical funding plan.",
+        "zh": "義工提出可行的資金方案，積極反對關閉圖書館的計劃。",
+        "promptZh": "先聽示範，再說明義工怎樣積極應對關館建議。",
+        "targetSpan": {
+          "start": 15,
+          "end": 26
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校準備縮短課後自修室開放時間，你和同學認為這會影響需要安靜地方讀書的人。用一至兩句英文說明你們可以怎樣有禮地爭取。",
+        "selfCheckZh": "指出對縮短開放時間的具體回應，例如收集使用資料並向校方提出替代方案；不要寫成暴力衝突或保證勝利。",
+        "examples": [
+          {
+            "en": "We can fight back against the shorter hours by collecting student feedback and presenting it to the school.",
+            "zh": "我們可以收集學生意見並向學校呈報，積極爭取維持自修室較長的開放時間。"
+          },
+          {
+            "en": "Instead of simply complaining, our group could fight back with a proposal to keep the room open twice a week.",
+            "zh": "我們小組可以提出每星期保留兩晚開放的方案，積極爭取，而不只是抱怨。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "shorter hours",
+            "zh": "縮短開放時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 43
+            }
+          },
+          {
+            "en": "student feedback",
+            "zh": "學生意見",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 74
+            }
+          },
+          {
+            "en": "presenting it",
+            "zh": "呈報這些意見",
+            "exampleIndex": 0,
+            "span": {
+              "start": 79,
+              "end": 92
+            }
+          },
+          {
+            "en": "simply complaining",
+            "zh": "只是抱怨",
+            "exampleIndex": 1,
+            "span": {
+              "start": 11,
+              "end": 29
+            }
+          },
+          {
+            "en": "twice a week",
+            "zh": "每星期兩次",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 108
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The neighbours fought back against the proposed tree removal with a clear alternative.",
+          "zh": "鄰居提出明確替代方案，積極反對移除樹木的建議。"
+        },
+        {
+          "en": "You can fight back peacefully when a decision harms your community.",
+          "zh": "當一項決定損害社區時，你可以和平地積極爭取。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft: second-60 source triage remains under independent AI audit; no editorial or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2186",
+      "number": 2186,
+      "inventoryId": "expr-2186",
+      "titleEn": "stay on top of things",
+      "titleZh": "把事情掌握好",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:stay|stays|stayed|staying) on top of things\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Keep tasks and responsibilities organised and under control.",
+        "meaningZh": "把工作及責任安排妥當，掌握進度。",
+        "grammar": "stay on top of things; stayed on top of things.",
+        "register": "Everyday conversational phrase for managing several responsibilities.",
+        "boundaryZh": "重點是持續掌握進度，不表示完全沒有工作或永不出錯。",
+        "misconceptionZh": "不要把 top 當作真的站在物件上，也不要只因忙碌就推斷已掌握工作。",
+        "outcomeZh": "能提出追蹤任務和整理優先次序的具體方法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0075",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 8,
+          "book": 10,
+          "question": 6,
+          "sample": "S2",
+          "sourceBookPages": "15–17",
+          "locatorNote": "DOCX table 6, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A weekly review helps me stay on top of things.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stay on top of things"
+        }
+      ],
+      "listening": {
+        "en": "With three club events this week, Salma checks one shared task list each morning to stay on top of things.",
+        "zh": "今星期有三項社團活動，莎瑪每天早上查看共用工作清單，以便掌握各項事情的進度。",
+        "promptZh": "莎瑪每天查看清單的主要作用是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It helps her keep multiple responsibilities organised.",
+            "zh": "這有助她把多項責任安排妥當。"
+          },
+          {
+            "id": "b",
+            "en": "It means she has no work to do.",
+            "zh": "這代表她沒有工作要做。"
+          },
+          {
+            "id": "c",
+            "en": "It lets her stand on the list physically.",
+            "zh": "這讓她真的站在清單上。"
+          },
+          {
+            "id": "d",
+            "en": "It replaces the need to tell anyone about changes.",
+            "zh": "這使她不用告訴其他人任何變動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每天查看共用清單有助管理三項活動；片語指掌握進度，不是沒有工作。"
+      },
+      "reply": {
+        "promptEn": "Why do you review the project board every morning?",
+        "promptZh": "（你為何每天早上查看項目看板？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It shows which tasks need attention today.",
+            "zh": "它顯示今天哪些工作需要處理。"
+          },
+          {
+            "id": "b",
+            "en": "I can spot deadlines before they arrive.",
+            "zh": "我能在限期前留意到它們。"
+          },
+          {
+            "id": "c",
+            "en": "I can update teammates when a task changes.",
+            "zh": "工作有變動時，我可以通知隊友。"
+          },
+          {
+            "id": "d",
+            "en": "It helps me stay on top of things during a busy week.",
+            "zh": "繁忙的一星期裏，它幫助我掌握各項工作的進度。"
+          }
+        ],
+        "goldenId": "d",
+        "explanationZh": "四句都合理解釋每天查看看板的好處；金句概括忙碌時仍能掌握工作。"
+      },
+      "scene": {
+        "promptZh": "義工隊同時籌備演講和展覽，隊長每日核對分工和限期。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The leader checks the list to stay on top of things.",
+            "zh": "隊長查看清單，以便掌握各項工作的進度。"
+          },
+          {
+            "id": "b",
+            "en": "The leader can ignore every deadline because the team is busy.",
+            "zh": "隊伍忙碌，所以隊長可以忽略所有限期。"
+          },
+          {
+            "id": "c",
+            "en": "Checking the list proves every task has already been finished.",
+            "zh": "查看清單證明所有工作都已完成。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每天核對分工與限期是持續掌握進度；忙碌並不等於可以忽略限期，也不代表全已完成。"
+      },
+      "contrast": {
+        "promptZh": "以本課「掌握工作進度」的意思，哪種情況最不適合說 stay on top of things？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A coordinator tracks tasks and follows up when a deadline changes.",
+            "zh": "統籌員追蹤任務，限期改變時便跟進。"
+          },
+          {
+            "id": "b",
+            "en": "A committee stops reading messages and forgets two important dates.",
+            "zh": "委員會不再看訊息，並忘記兩個重要日期。"
+          },
+          {
+            "id": "c",
+            "en": "A student uses a calendar to balance classes and practice.",
+            "zh": "學生用日曆安排課堂和練習。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "不讀訊息又忘記重要日期，表示沒有掌握進度；其餘兩項有具體管理方法。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「今個月有考試和球隊練習，我開始漏了交表格。」哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "To stay on top of things, put each deadline on one calendar and check it daily.",
+            "zh": "為了掌握各項工作的進度，把每個限期放在同一個日曆，每天查看吧。"
+          },
+          {
+            "id": "b",
+            "en": "Stop reading your teachers’ messages until exams finish.",
+            "zh": "考試結束前都不要看老師的訊息。"
+          },
+          {
+            "id": "c",
+            "en": "Being busy means deadlines no longer matter.",
+            "zh": "忙碌就代表限期不再重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單一日曆和每天核對能減少漏交；其餘建議只會令問題加重。"
+      },
+      "speaking": {
+        "en": "Our team stayed on top of things by checking the supply list after every delivery.",
+        "zh": "我們團隊每次收貨後核對物資清單，以掌握各項工作。",
+        "promptZh": "先聽示範，再說明團隊怎樣掌握物資工作。",
+        "targetSpan": {
+          "start": 9,
+          "end": 32
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你負責學校文化日，有三個攤位要準備，朋友不時更改值班時間。用一至兩句英文說明你會怎樣追蹤任務和變動。",
+        "selfCheckZh": "指出可用共用清單或日曆掌握多項攤位工作，並及時更新值班安排。",
+        "examples": [
+          {
+            "en": "I will use one shared checklist to stay on top of things. Each stall can update its tasks and duty times.",
+            "zh": "我會用一份共用清單掌握各項工作。每個攤位都可以更新工作和當值時間。"
+          },
+          {
+            "en": "To stay on top of things during culture day, I will check the roster every evening and tell volunteers about changes.",
+            "zh": "文化日期間，為了掌握各項工作，我會每晚核對值班表，並通知義工各項變動。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "one shared checklist",
+            "zh": "一份共用清單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 11,
+              "end": 31
+            }
+          },
+          {
+            "en": "Each stall",
+            "zh": "每個攤位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 68
+            }
+          },
+          {
+            "en": "duty times",
+            "zh": "當值時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 104
+            }
+          },
+          {
+            "en": "the roster",
+            "zh": "值班表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 58,
+              "end": 68
+            }
+          },
+          {
+            "en": "every evening",
+            "zh": "每晚",
+            "exampleIndex": 1,
+            "span": {
+              "start": 69,
+              "end": 82
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "She stayed on top of things by reviewing the schedule each morning.",
+          "zh": "她每天早上查看時間表，以掌握各項工作的進度。"
+        },
+        {
+          "en": "A clear task board helps the club stay on top of things.",
+          "zh": "清晰的工作看板有助社團掌握各項工作的進度。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft: second-60 source triage remains under independent AI audit; no editorial or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2189",
+      "number": 2189,
+      "inventoryId": "expr-2189",
+      "titleEn": "block out study time",
+      "titleZh": "預留專門的學習時間",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:block|blocks|blocked|blocking) out study time\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Reserve a specific period for study in a schedule.",
+        "meaningZh": "在時間表上預留一段專門用來學習的時間。",
+        "grammar": "block out study time; blocked out study time; time is deliberately reserved.",
+        "register": "Everyday planning advice; block out here means reserve, not prevent learning.",
+        "boundaryZh": "須事先留出一段時間，不只是希望有空才讀書。",
+        "misconceptionZh": "不要把 block out 誤解成阻止自己學習，也不要把臨時空檔當作已預留。",
+        "outcomeZh": "能為需要持續學習的任務安排固定時段。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0078",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 8,
+          "book": 10,
+          "question": 6,
+          "sample": "S2",
+          "sourceBookPages": "15–17",
+          "locatorNote": "DOCX table 6, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I block out study time before accepting other invitations.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "block out study time"
+        }
+      ],
+      "listening": {
+        "en": "Before the club calendar filled up, I blocked out study time on Tuesday and Thursday evenings.",
+        "zh": "在社團日程排滿之前，我先預留星期二和星期四晚上的學習時間。",
+        "promptZh": "說話者如何確保有時間溫習？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They reserved two evenings for study in advance.",
+            "zh": "他們預先保留了兩個晚上用來學習。"
+          },
+          {
+            "id": "b",
+            "en": "They cancelled all future study sessions.",
+            "zh": "他們取消了日後所有學習時段。"
+          },
+          {
+            "id": "c",
+            "en": "They waited for a random free minute.",
+            "zh": "他們等候偶然出現的空閒一分鐘。"
+          },
+          {
+            "id": "d",
+            "en": "They made the club meet only on Tuesday and Thursday.",
+            "zh": "他們令社團只在星期二和星期四開會。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "before the calendar filled up 顯示先在日程上保留兩晚；block out 指預留，而非阻止讀書。"
+      },
+      "reply": {
+        "promptEn": "How can you protect revision time while attending sports practice?",
+        "promptZh": "（參加球隊練習的同時，你怎樣保留溫習時間？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I can check practice dates before making other plans.",
+            "zh": "我可以先核對練習日期，再安排其他活動。"
+          },
+          {
+            "id": "b",
+            "en": "I can tell my teammates which evenings I need for revision.",
+            "zh": "我可以告訴隊友哪些晚上要溫習。"
+          },
+          {
+            "id": "c",
+            "en": "I can keep my books ready for a quiet hour after practice.",
+            "zh": "我可以準備好書本，練習後安靜讀一小時。"
+          },
+          {
+            "id": "d",
+            "en": "I can block out study time on the evenings without practice.",
+            "zh": "我可以在沒有練習的晚上預留學習時間。"
+          }
+        ],
+        "goldenId": "d",
+        "explanationZh": "四項都能幫忙保留溫習空間；金句明確說在日程上預留專門時段。"
+      },
+      "scene": {
+        "promptZh": "下星期有科學測驗，學生把星期一至三晚上七時至八時標作溫習，並拒絕重疊的非必要邀請。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She blocked out study time on those evenings.",
+            "zh": "她在那幾個晚上預留了學習時間。"
+          },
+          {
+            "id": "b",
+            "en": "She decided never to study for the test.",
+            "zh": "她決定永遠不為測驗溫習。"
+          },
+          {
+            "id": "c",
+            "en": "She left all three evenings open for unplanned visits.",
+            "zh": "她讓三個晚上都空着，方便臨時訪客。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "明確把七至八時留作溫習，正是預留學習時間；其他兩句與已給安排相反。"
+      },
+      "contrast": {
+        "promptZh": "按本課「事先預留學習時段」的意思，哪種情況最不適合說 block out study time？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A student enters revision hours in a calendar before agreeing to shifts.",
+            "zh": "學生接工作班次前，先把溫習時段記在日曆。"
+          },
+          {
+            "id": "b",
+            "en": "A student hopes to revise if an unexpected gap appears, but reserves no slot.",
+            "zh": "學生希望偶然有空時才溫習，卻沒有預留任何時段。"
+          },
+          {
+            "id": "c",
+            "en": "A student keeps Wednesday evening free for a practice paper.",
+            "zh": "學生把星期三晚上留給模擬試卷。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只希望偶然有空並非事先預留時段；另外兩項都刻意保留時間。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我每天都說要溫習，但總被其他活動填滿晚上。」哪個建議最具體？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Block out study time in your calendar before accepting more invitations.",
+            "zh": "接受更多邀請前，先在日曆上預留學習時間。"
+          },
+          {
+            "id": "b",
+            "en": "Keep every evening unplanned and hope study happens somehow.",
+            "zh": "每晚都不作安排，盼望學習自然發生。"
+          },
+          {
+            "id": "c",
+            "en": "Stop checking when the test will take place.",
+            "zh": "不要再查看測驗何時舉行。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "先保留學習時段能避免被邀請擠走；另外兩句沒有解決日程安排問題。"
+      },
+      "speaking": {
+        "en": "I blocked out study time each Saturday morning so the project would not be left until the last night.",
+        "zh": "我每星期六早上都預留學習時間，免得項目拖到最後一晚。",
+        "promptZh": "先聽示範，再說明星期六早上的安排有何作用。",
+        "targetSpan": {
+          "start": 2,
+          "end": 24
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你兩星期後有歷史測驗，星期三和星期五晚上要參加游泳訓練。你想在不影響訓練的情況下溫習。用一至兩句英文說明具體安排。",
+        "selfCheckZh": "說明在沒有訓練的日子預先保留溫習時段，並指出有助準備測驗。",
+        "examples": [
+          {
+            "en": "I will block out study time on Monday and Thursday evenings, when I do not have swimming practice.",
+            "zh": "星期一和星期四晚上沒有游泳訓練，我會在那兩晚預留學習時間。"
+          },
+          {
+            "en": "To prepare for the history test, I blocked out study time on the weekend and kept my training evenings free.",
+            "zh": "為準備歷史測驗，我已在週末預留學習時間，訓練的晚上則不安排溫習。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Monday and Thursday evenings",
+            "zh": "星期一和星期四晚上",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 59
+            }
+          },
+          {
+            "en": "swimming practice",
+            "zh": "游泳訓練",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 97
+            }
+          },
+          {
+            "en": "the history test",
+            "zh": "歷史測驗",
+            "exampleIndex": 1,
+            "span": {
+              "start": 15,
+              "end": 31
+            }
+          },
+          {
+            "en": "on the weekend",
+            "zh": "在週末",
+            "exampleIndex": 1,
+            "span": {
+              "start": 58,
+              "end": 72
+            }
+          },
+          {
+            "en": "training evenings",
+            "zh": "訓練的晚上",
+            "exampleIndex": 1,
+            "span": {
+              "start": 85,
+              "end": 102
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "She blocked out study time before planning the family visit.",
+          "zh": "安排家庭探訪前，她先預留學習時間。"
+        },
+        {
+          "en": "Block out study time early if the next month is busy.",
+          "zh": "如果下個月繁忙，便應及早預留學習時間。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft: second-60 source triage remains under independent AI audit; no editorial or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2196",
+      "number": 2196,
+      "inventoryId": "expr-2196",
+      "titleEn": "hectic",
+      "titleZh": "忙亂而緊張",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bhectic\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Very busy, often with pressure and many things happening at once.",
+        "meaningZh": "非常忙碌，通常同時有很多事情要處理，令人感到緊張。",
+        "grammar": "a hectic day; hectic at work; more hectic than usual.",
+        "register": "Natural adjective for schedules, workplaces or periods, not a medical judgement.",
+        "boundaryZh": "不只是有趣或熱鬧，也不一定是災難；重點是繁忙及壓力。",
+        "misconceptionZh": "不要把任何人多的愉快場合都自動稱為 hectic。",
+        "outcomeZh": "能分辨繁忙有壓力與單純熱鬧或悠閒。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0085",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 9,
+          "book": 10,
+          "question": 7,
+          "sample": "S1",
+          "sourceBookPages": "18–19",
+          "locatorNote": "DOCX table 7, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The office was hectic before the deadline.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hectic"
+        }
+      ],
+      "listening": {
+        "en": "The bakery was hectic before the holiday: orders kept arriving while two staff members were off sick.",
+        "zh": "假期前麵包店十分忙亂：訂單不斷湧來，同時有兩名員工因病缺勤。",
+        "promptZh": "假期前麵包店的情況如何？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It was very busy and under pressure.",
+            "zh": "店裏非常忙碌，而且承受壓力。"
+          },
+          {
+            "id": "b",
+            "en": "It was quiet because there were no orders.",
+            "zh": "店裏沒有訂單，因此很清靜。"
+          },
+          {
+            "id": "c",
+            "en": "It had extra staff and no customers.",
+            "zh": "店裏員工增多，卻沒有顧客。"
+          },
+          {
+            "id": "d",
+            "en": "It was merely lively and had nothing urgent to handle.",
+            "zh": "店裏只是熱鬧，沒有急需處理的事情。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "訂單不斷而人手不足，使麵包店忙亂且有壓力；hectic 不只是熱鬧。"
+      },
+      "reply": {
+        "promptEn": "Why did you need a break after the festival shift?",
+        "promptZh": "（節慶活動的工作時段結束後，你為何需要休息？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I had been helping visitors for several hours.",
+            "zh": "我已連續幾個小時協助訪客。"
+          },
+          {
+            "id": "b",
+            "en": "The desk was hectic when three groups arrived together.",
+            "zh": "三組人同時到達時，服務台忙亂得很。"
+          },
+          {
+            "id": "c",
+            "en": "I had to answer many questions without much pause.",
+            "zh": "我幾乎不停地回答許多問題。"
+          },
+          {
+            "id": "d",
+            "en": "I had been on my feet since early morning.",
+            "zh": "我從清早起便一直站着工作。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四句都能合理解釋需要休息；金句用 hectic 準確描述多人同時到達時的忙亂與壓力。"
+      },
+      "scene": {
+        "promptZh": "考試報名截止前十分鐘，服務台有長隊，兩部電腦又故障。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The registration desk is hectic right now.",
+            "zh": "登記處現在忙亂而緊張。"
+          },
+          {
+            "id": "b",
+            "en": "The desk is quiet because everyone has gone home.",
+            "zh": "所有人都回家了，所以登記處很清靜。"
+          },
+          {
+            "id": "c",
+            "en": "The staff have no urgent work and can close early.",
+            "zh": "職員沒有急事，可以提早關門。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "長隊、限期迫近和電腦故障同時發生，構成忙亂而有壓力的情況。"
+      },
+      "contrast": {
+        "promptZh": "以本課「繁忙且有壓力」的意思，哪種情況最不適合說 hectic？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A team answers calls while preparing a last-minute event.",
+            "zh": "團隊一邊接電話，一邊籌備臨時活動。"
+          },
+          {
+            "id": "b",
+            "en": "A family has a calm afternoon with no appointments.",
+            "zh": "一家人下午悠閒，沒有任何約會。"
+          },
+          {
+            "id": "c",
+            "en": "A clinic handles many unexpected walk-ins during staff absence.",
+            "zh": "診所缺人手期間，要接待大量沒有預約的病人。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "悠閒且沒有安排的下午不忙亂；其餘兩項同時有大量事情要處理。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「明天要同時接待三個訪客團，我怕服務台應付不來。」哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It may be hectic, so let us divide the arrivals between two desks.",
+            "zh": "明天可能會很忙亂，所以把訪客分到兩個服務台吧。"
+          },
+          {
+            "id": "b",
+            "en": "Three groups can never create a busy period.",
+            "zh": "三組訪客絕不可能造成忙碌。"
+          },
+          {
+            "id": "c",
+            "en": "There is no need to plan; leave one person alone at the desk.",
+            "zh": "不用計劃；留一個人在服務台就好。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "預見忙亂並分流訪客是具體安排；其他選項否認或忽視可見的壓力。"
+      },
+      "speaking": {
+        "en": "The charity shop was hectic when donations and customers arrived at the same time.",
+        "zh": "捐贈者和顧客同時到達時，慈善店十分忙亂。",
+        "promptZh": "先聽示範，再說明慈善店為何忙亂。",
+        "targetSpan": {
+          "start": 21,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區圖書館開放新書借閱的第一個下午，很多讀者同時排隊，電話也不停響。你是義工。用一至兩句英文形容當時情況，並提出一項幫助。",
+        "selfCheckZh": "指出人潮與電話令場面忙亂，並提出分流隊伍或找人接電話等具體方法。",
+        "examples": [
+          {
+            "en": "The library was hectic as readers queued and the phone kept ringing. I asked another volunteer to answer calls.",
+            "zh": "讀者排隊，電話又不斷響，圖書館十分忙亂。我請另一名義工接電話。"
+          },
+          {
+            "en": "It became a hectic afternoon, so we opened a second desk to shorten the queue.",
+            "zh": "那天下午變得忙亂，所以我們增設第二個服務台，縮短隊伍。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "readers queued",
+            "zh": "讀者排隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 26,
+              "end": 40
+            }
+          },
+          {
+            "en": "the phone kept ringing",
+            "zh": "電話不斷響",
+            "exampleIndex": 0,
+            "span": {
+              "start": 45,
+              "end": 67
+            }
+          },
+          {
+            "en": "another volunteer",
+            "zh": "另一名義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 94
+            }
+          },
+          {
+            "en": "a second desk",
+            "zh": "第二個服務台",
+            "exampleIndex": 1,
+            "span": {
+              "start": 43,
+              "end": 56
+            }
+          },
+          {
+            "en": "shorten the queue",
+            "zh": "縮短隊伍",
+            "exampleIndex": 1,
+            "span": {
+              "start": 60,
+              "end": 77
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The first hour was hectic, but the queue became shorter later.",
+          "zh": "第一小時十分忙亂，但之後隊伍縮短了。"
+        },
+        {
+          "en": "A hectic morning does not mean the staff failed to plan.",
+          "zh": "忙亂的早上不代表職員沒有作計劃。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft: second-60 source triage remains under independent AI audit; no editorial or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2198",
+      "number": 2198,
+      "inventoryId": "expr-2198",
+      "titleEn": "catch their breath",
+      "titleZh": "稍作休息，喘口氣",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:catch|catches|caught|catching) (?:my|your|his|her|our|their) breath\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Pause briefly to recover after physical effort or pressure.",
+        "meaningZh": "在體力消耗或壓力過後，短暫停下來恢復。",
+        "grammar": "catch their breath; catch my breath; caught our breath.",
+        "register": "Everyday idiom; not a substitute for medical care if someone cannot breathe.",
+        "boundaryZh": "須有先前的勞累或壓力，以及短暫休息；不只是開始前閒坐。",
+        "misconceptionZh": "不要把正常喘口氣和嚴重呼吸困難混為一談。",
+        "outcomeZh": "能在勞累後自然提出短暫休息，再繼續活動。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0087",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 9,
+          "book": 10,
+          "question": 7,
+          "sample": "S1",
+          "sourceBookPages": "18–19",
+          "locatorNote": "DOCX table 7, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The volunteers needed a few minutes to catch their breath.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "catch their breath"
+        }
+      ],
+      "listening": {
+        "en": "After carrying chairs upstairs, the volunteers sat down for two minutes to catch their breath before the next trip.",
+        "zh": "把椅子搬上樓後，義工坐下來兩分鐘，喘口氣才繼續下一趟。",
+        "promptZh": "義工為何坐下來兩分鐘？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They needed a short rest after physical effort.",
+            "zh": "體力消耗後，他們需要短暫休息。"
+          },
+          {
+            "id": "b",
+            "en": "They were starting work without having moved anything.",
+            "zh": "他們甚麼都未搬，剛要開始工作。"
+          },
+          {
+            "id": "c",
+            "en": "They had decided never to carry another chair.",
+            "zh": "他們已決定永遠不再搬椅子。"
+          },
+          {
+            "id": "d",
+            "en": "They were searching for a missing chair on the stairs.",
+            "zh": "他們在樓梯上找一張失去的椅子。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "搬椅上樓後暫坐兩分鐘，表示要稍作恢復；不是永久停止工作。"
+      },
+      "reply": {
+        "promptEn": "Why did the walkers pause after the steep climb?",
+        "promptZh": "（步行者爬過陡坡後為何停下來？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They wanted a short drink before moving on.",
+            "zh": "他們想在繼續前喝點水。"
+          },
+          {
+            "id": "b",
+            "en": "They needed to check that everyone had reached the top.",
+            "zh": "他們需要確認所有人都到了坡頂。"
+          },
+          {
+            "id": "c",
+            "en": "They stopped to catch their breath after the climb.",
+            "zh": "爬坡後他們停下來喘口氣。"
+          },
+          {
+            "id": "d",
+            "en": "They wanted a moment to look at the route ahead.",
+            "zh": "他們想花一點時間看看前面的路。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是爬坡後暫停的合理理由；金句用本課片語指出運動後短暫恢復。"
+      },
+      "scene": {
+        "promptZh": "隊員剛跑完樓梯，說話有點急促，教練讓大家休息三分鐘才繼續搬器材。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The coach let them catch their breath before the next task.",
+            "zh": "教練讓他們在下一項工作前喘口氣。"
+          },
+          {
+            "id": "b",
+            "en": "The coach told them to carry more equipment without any pause.",
+            "zh": "教練要他們不休息，立即多搬一些器材。"
+          },
+          {
+            "id": "c",
+            "en": "The team had been sitting quietly all morning without exertion.",
+            "zh": "隊伍整個早上都安靜坐着，沒有消耗體力。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "剛跑樓梯並獲三分鐘休息，符合勞累後短暫恢復；其餘兩句與情境相反。"
+      },
+      "contrast": {
+        "promptZh": "以本課「勞累後短暫休息」的意思，哪種情況最不適合說 catch their breath？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Helpers pause after moving heavy boxes up two flights of stairs.",
+            "zh": "幫手把重箱搬上兩層樓後暫停休息。"
+          },
+          {
+            "id": "b",
+            "en": "People sit comfortably for an hour before any activity has begun.",
+            "zh": "活動尚未開始，人們已舒適地坐了一小時。"
+          },
+          {
+            "id": "c",
+            "en": "A runner walks slowly for a minute after finishing a race.",
+            "zh": "跑手比賽後慢走一分鐘。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "活動未開始前的悠閒久坐，不是勞累後短暫恢復；其餘兩項符合本課用法。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「我們剛把最後一箱書搬上樓，大家都累了。」哪個回應最體貼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let them catch their breath for a few minutes before asking them to sort the boxes.",
+            "zh": "先讓他們喘口氣，幾分鐘後才請他們整理箱子吧。"
+          },
+          {
+            "id": "b",
+            "en": "Ask them to run up the stairs again without a break.",
+            "zh": "叫他們不要休息，再跑一次樓梯吧。"
+          },
+          {
+            "id": "c",
+            "en": "They must be lazy because they want a short pause.",
+            "zh": "他們想短暫休息，一定是懶惰。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "搬完重箱後先稍作休息，再安排整理，是尊重體力負擔的做法；其餘兩句不體貼。"
+      },
+      "speaking": {
+        "en": "The stage crew paused to catch their breath after lifting the heavy backdrop into place.",
+        "zh": "舞台組把沉重的背景板抬到位後，停下來喘口氣。",
+        "promptZh": "先聽示範，再說明舞台組為何短暫停下來。",
+        "targetSpan": {
+          "start": 25,
+          "end": 43
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你和同學剛跑完校園接力賽，接着要接受主持人訪問。大家跑得氣喘，需要先稍作休息。用一至兩句英文建議訪問前怎樣做。",
+        "selfCheckZh": "建議跑完接力賽後先喘口氣，再接受訪問；不要把正常運動後的疲累說成醫療緊急情況。",
+        "examples": [
+          {
+            "en": "Let us catch our breath for a minute before the interview begins.",
+            "zh": "訪問開始前，先讓我們喘口氣，休息一分鐘吧。"
+          },
+          {
+            "en": "After the relay, the runners should catch their breath and drink some water before speaking to the host.",
+            "zh": "接力賽後，跑手應先喘口氣、喝點水，然後才與主持人交談。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "for a minute",
+            "zh": "一分鐘",
+            "exampleIndex": 0,
+            "span": {
+              "start": 24,
+              "end": 36
+            }
+          },
+          {
+            "en": "the interview begins",
+            "zh": "訪問開始",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 64
+            }
+          },
+          {
+            "en": "After the relay",
+            "zh": "接力賽後",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "drink some water",
+            "zh": "喝點水",
+            "exampleIndex": 1,
+            "span": {
+              "start": 59,
+              "end": 75
+            }
+          },
+          {
+            "en": "speaking to the host",
+            "zh": "與主持人交談",
+            "exampleIndex": 1,
+            "span": {
+              "start": 83,
+              "end": 103
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The hikers caught their breath before the final short climb.",
+          "zh": "行山人士在最後一段短坡前喘了口氣。"
+        },
+        {
+          "en": "Give the movers a moment to catch their breath after the stairs.",
+          "zh": "搬運者走完樓梯後，給他們一點時間喘口氣。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft: second-60 source triage remains under independent AI audit; no editorial or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

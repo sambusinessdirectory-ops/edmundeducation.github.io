@@ -1,0 +1,77 @@
+{
+  "reviewType": "independent AI editorial follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftState": "unpublished",
+  "scope": "The repaired twelve drafts in batch-2141-2150-a.json and batch-2151-2167-b2.json, rechecked against all 17 findings in independent-ai-review-next-twelve.json",
+  "result": {
+    "priorFindings": 17,
+    "resolvedOnFollowUp": 17,
+    "stillOpenFromPriorReview": 0,
+    "newBlockerFindings": 0,
+    "newMajorFindings": 0,
+    "newMinorFindings": 4
+  },
+  "perLesson": [
+    {"lessonId": "advanced-native-2141", "priorFindingsResolved": 0, "newFindings": []},
+    {"lessonId": "advanced-native-2143", "priorFindingsResolved": 2, "newFindings": []},
+    {"lessonId": "advanced-native-2144", "priorFindingsResolved": 1, "newFindings": []},
+    {"lessonId": "advanced-native-2146", "priorFindingsResolved": 0, "newFindings": []},
+    {"lessonId": "advanced-native-2149", "priorFindingsResolved": 0, "newFindings": []},
+    {"lessonId": "advanced-native-2150", "priorFindingsResolved": 1, "newFindings": []},
+    {"lessonId": "advanced-native-2151", "priorFindingsResolved": 2, "newFindings": []},
+    {
+      "lessonId": "advanced-native-2152",
+      "priorFindingsResolved": 4,
+      "newFindings": [
+        {
+          "path": "scene.explanationZh",
+          "severity": "minor",
+          "explanation": "After the literal-track distractor was replaced, the explanation still says the situation is '不是實物遺失' (not a lost physical object). None of the displayed scene choices now involves losing an object.",
+          "recommendedFix": "Explain the current distractors: he did not deliberately time two hours and did not check the clock every few minutes."
+        },
+        {
+          "path": "writing.examples[0].zh",
+          "severity": "minor",
+          "explanation": "'我們開始不清楚掌握班級義賣的開支' is awkward Traditional Chinese for 'We are losing track of our spending on the class sale'. The repaired listening translation is natural, but this separate writing translation remains strained.",
+          "recommendedFix": "Use a natural meaning such as '我們開始弄不清班級義賣花了多少錢。'"
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2153",
+      "priorFindingsResolved": 2,
+      "newFindings": [
+        {
+          "path": "scene.explanationZh",
+          "severity": "minor",
+          "explanation": "The repaired scene no longer has a literal-swallow distractor, but the explanation still says the other choices '把比喻字面化' (take the metaphor literally). Both now incorrectly claim a faster upload instead.",
+          "recommendedFix": "Describe the actual contrast with the two speed claims, or make the alternatives test two distinct plausible errors and explain those."
+        }
+      ]
+    },
+    {"lessonId": "advanced-native-2162", "priorFindingsResolved": 1, "newFindings": []},
+    {"lessonId": "advanced-native-2166", "priorFindingsResolved": 2, "newFindings": []},
+    {
+      "lessonId": "advanced-native-2167",
+      "priorFindingsResolved": 2,
+      "newFindings": [
+        {
+          "path": "contrast.explanationZh",
+          "severity": "minor",
+          "explanation": "The repaired choice calls the notice '含糊' (vague), but the explanation still calls it '空白' (blank). The notice has the words 'work it out yourself', so it is unhelpful rather than blank.",
+          "recommendedFix": "Replace '空白告示' with '含糊的告示' or equivalent wording and retain the lack-of-usable-guidance rationale."
+        }
+      ]
+    }
+  ],
+  "mechanicalRecheck": [
+    "All twelve records still match their source occurrence, expression, guide example, book/question/sample and rendered-page locator.",
+    "All twelve retain target forms in listening, golden reply, speaking, both writing models and both takeaways; all speaking clozes remove the target.",
+    "Every stored glossary row remains an exact answer-character span and excludes the target expression."
+  ],
+  "limits": [
+    "This is AI peer review, not independent human English or Traditional Chinese approval, owner acceptance or release approval.",
+    "No actual audio listening, browser/device line-ending inspection, sound feedback, microphone check or live lesson check was performed."
+  ]
+}

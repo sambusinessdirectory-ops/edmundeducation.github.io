@@ -1,8 +1,8 @@
 {
-  "drafted-pending-review-audio-qa": 20,
+  "drafted-pending-review-audio-qa": 42,
   "exact-existing-phrase-sense-review-pending": 864,
-  "new-phrase-near-existing-review-pending": 270,
-  "new-phrase-authoring-pending": 1219,
+  "new-phrase-near-existing-review-pending": 268,
+  "new-phrase-authoring-pending": 1199,
   "repeat-in-new-source-sense-review-pending": 231,
   "total": 2604,
   "uniqueNewCandidatePhrases": 1506

@@ -1,0 +1,106 @@
+{
+  "reviewType": "independent AI editorial decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "decisionState": "provisional; unpublished",
+  "scope": {
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl",
+    "sourceInventory": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "comparisonDecisions": "course-materials/advanced-native/books10-16/editorial-decisions-2112-2231.jsonl (three consecutive decision files)",
+    "priorLabels": "course-materials/advanced-native/provenance/source-labels.json",
+    "priorLessons": "course-materials/advanced-native/batches/*.json",
+    "decisionCount": 60
+  },
+  "counts": {
+    "proposedAliasExisting": 26,
+    "proposedAliasNew": 1,
+    "holdEditorial": 4,
+    "proposedNewLesson": 29,
+    "findings": 8,
+    "major": 7,
+    "minor": 1
+  },
+  "findings": [
+    {
+      "sourceOrdinals": [2233, 2254],
+      "sourceIds": ["book10-16-0122", "book10-16-0143"],
+      "phrase": "drawn to",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "Both rows repeat the same passive source example 'Many visitors are drawn to the quiet garden.' Source ordinal 2227 was just placed on editorial hold because canonical 021 teaches and detects 'feel drawn to', not 'are drawn to'. These two later rows nevertheless alias the identical be-passive form to 021. This is a cross-batch ownership and review-state contradiction, not a new meaning.",
+      "recommendedFix": "Put both 2233 and 2254 on the same hold as 2227, or first broaden and review canonical 021's be + drawn to grammar, target pattern and exercises, then resolve all three source occurrences consistently."
+    },
+    {
+      "sourceOrdinal": 2234,
+      "sourceId": "book10-16-0123",
+      "phrase": "a ripple in water",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "Canonical 1692 teaches an explicit simile, 'like a ripple in water', and its target pattern requires 'like'. The new source says 'created a ripple in water across the team', which does not fit that simile and sounds awkward as a free-standing image. The prior source label records the phrase, but the authored lesson does not teach this surface form.",
+      "recommendedFix": "Hold for idiomaticity and source-context review. Decide whether to revise the wording toward 'a ripple effect' or broaden the canonical image with a defensible construction; do not claim exact lesson coverage before that."
+    },
+    {
+      "sourceOrdinal": 2238,
+      "sourceId": "book10-16-0127",
+      "phrase": "at the tap of a screen",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "Canonical 829 teaches 'with a tap on the screen'; the source's 'at the tap of a screen' is a different preposition and noun pattern and does not match the canonical target. Although the meanings are close, the decision treats a source phrase of uncertain conventionality as if it were already taught.",
+      "recommendedFix": "Hold for language review. If the source form is accepted, explicitly add it to canonical 829's pattern, examples and boundary; otherwise retain the source as a noncanonical wording rather than an unqualified alias."
+    },
+    {
+      "sourceOrdinal": 2256,
+      "sourceId": "book10-16-0145",
+      "phrase": "a pocket of peace",
+      "path": "action; canonicalId; reason",
+      "severity": "minor",
+      "explanation": "The same small-calm-space meaning belongs to canonical 837, but its title, grammar and target pattern require 'a small pocket of peace'. The source drops 'small', so its example is not matched by the current target detector.",
+      "recommendedFix": "Broaden and check canonical 837 for the optional 'small' modifier before marking this source form fully covered."
+    },
+    {
+      "sourceOrdinal": 2263,
+      "sourceId": "book10-16-0152",
+      "phrase": "bring ideas to life",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "Canonical 327 has the broad title 'bring something to life', and its meaning can encompass vivid abstract ideas. Its enumerated target pattern, however, does not accept the source object 'ideas', and the source example cannot match. The proposed alias requires a canonical grammar and detector change.",
+      "recommendedFix": "Review 'bring ideas to life' as an object variant, add and test it in canonical 327's pattern and examples, then alias; otherwise hold until the canonical lesson covers it."
+    },
+    {
+      "sourceOrdinal": 2267,
+      "sourceId": "book10-16-0156",
+      "phrase": "come away with",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "The source example is 'Visitors often come away with a new respect for the place.' Canonical 139 is specifically 'come away with a positive impression', and its brief, grammar and target pattern require that object. New respect is related favourable appraisal, but the existing lesson does not teach or detect the broader productive come-away-with construction.",
+      "recommendedFix": "Hold until an editor decides whether to broaden canonical 139 to varied impressions/learning, including 'a new respect', and updates the target pattern and tasks; otherwise draft a clearly distinct sense."
+    },
+    {
+      "sourceOrdinal": 2277,
+      "sourceId": "book10-16-0166",
+      "phrase": "spark curiosity",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "The proposed new lesson overlaps canonical 1066's figurative spark sense. Its authored brief explicitly says spark can trigger the beginning of curiosity, a feeling or an idea, but its current target pattern only lists 'something in [person]' and ideas. 'Spark curiosity' is a conventional object variant, not an established new sense merely because the exact phrase is absent from the detector.",
+      "recommendedFix": "Hold the new-lesson decision and compare with canonical 1066. Prefer one broadened spark lesson that covers curiosity and other supported objects unless a reviewer documents a pedagogically distinct construction."
+    },
+    {
+      "sourceOrdinal": 2287,
+      "sourceId": "book10-16-0176",
+      "phrase": "lean on",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "A new 2287 lesson is proposed for relying on a friend, but canonical 1210 already owns a source label 'lean on' with the exact meaning 'rely on another person for support'. Its brief and grammar cover leaning on a person for help, and its target pattern even admits 'lean on my friend', the wording in this source example. This is a direct duplicate-owner decision.",
+      "recommendedFix": "Replace proposed-new-lesson with proposed-alias-existing to canonical 1210, preserving this source occurrence and its specific example; do not create a second completion-credit lesson."
+    }
+  ],
+  "mechanicalChecks": [
+    "All 60 source ordinals are contiguous 2232–2291; source IDs, expressions and source-ordinal offsets match the extracted inventory.",
+    "All proposed-new IDs follow their source ordinals, all holds have null canonical IDs, and alias-new 2288 points to the earlier proposed owner 2209.",
+    "Seven existing-alias source examples do not match the target regex of their proposed canonical lessons: 2233, 2234, 2238, 2254, 2256, 2263 and 2267. These are the alias-coverage findings above; regex mismatch alone is not proof of a distinct semantic sense."
+  ],
+  "limits": [
+    "This is AI peer review of provisional editorial decisions, not independent human language approval, owner acceptance or release approval.",
+    "Source comparisons used the extracted source inventory, prior source labels and canonical lesson records; this review did not separately inspect every page of the original DOCX or perform device/audio testing."
+  ]
+}

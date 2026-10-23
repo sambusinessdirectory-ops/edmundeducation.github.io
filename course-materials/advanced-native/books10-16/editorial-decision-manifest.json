@@ -1,0 +1,12 @@
+{
+  "status": "provisional-unpublished",
+  "decisionFiles": [
+    "editorial-decisions-2112-2141.jsonl",
+    "editorial-decisions-2142-2171.jsonl",
+    "editorial-decisions-2172-2231.jsonl",
+    "editorial-decisions-2232-2291.jsonl",
+    "editorial-decisions-2292-2351.jsonl",
+    "editorial-decisions-2352-2411.jsonl"
+  ],
+  "expectedSourceOrdinals": 300
+}

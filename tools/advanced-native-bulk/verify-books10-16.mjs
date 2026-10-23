@@ -15,7 +15,11 @@ const readLines=relative=>fs.readFileSync(path.join(base,relative),'utf8').trim(
 const rows=readLines('books10-16/source-inventory.jsonl');
 const intake=read('books10-16/intake-summary.json');
 const reconciliation=readLines('books10-16/reconciliation-register.jsonl');
-const decisions=[...readLines('books10-16/editorial-decisions-2112-2141.jsonl'),...readLines('books10-16/editorial-decisions-2142-2171.jsonl')];
+const decisionManifest=read('books10-16/editorial-decision-manifest.json');
+const decisionFiles=decisionManifest.decisionFiles;
+assert.equal(new Set(decisionFiles).size,decisionFiles.length);
+assert.ok(decisionFiles.every(name=>/^editorial-decisions-\d+-\d+\.jsonl$/.test(name)));
+const decisions=decisionFiles.flatMap(name=>readLines(`books10-16/${name}`));
 const exactAliasSuggestions=readLines('books10-16/exact-prior-alias-suggestions.jsonl');
 const release=read('release-index.json');
 const draftManifest=read('drafts-books10-16/batch-manifest.json');
@@ -29,8 +33,8 @@ assert.equal(intake.sourceRows,rows.length);
 assert.deepEqual(intake.rowsWithoutPdfPage,[]);
 assert.deepEqual(intake.unmatchedQuestionHeadings,[]);
 assert.equal(new Set(rows.map(r=>r.sourceId)).size,rows.length);
-assert.equal(decisions.length,60);
-assert.deepEqual(decisions.map(row=>row.sourceOrdinal),Array.from({length:60},(_,i)=>2112+i));
+assert.equal(decisions.length,decisionManifest.expectedSourceOrdinals);
+assert.deepEqual(decisions.map(row=>row.sourceOrdinal),Array.from({length:decisions.length},(_,i)=>2112+i));
 const sourceById=new Map(rows.map(row=>[row.sourceId,row]));
 const existingIds=new Set(read('provenance/curated-module-index.json').map(row=>row.moduleId));
 const oldLabels=new Map(read('provenance/source-labels.json').map(row=>[row.inventoryId,row]));
@@ -65,7 +69,8 @@ for(const suggestion of exactAliasSuggestions){
   assert.ok(prior.sourceMeanings.some(meaning=>normaliseMeaning(meaning)===normaliseMeaning(source.meaningAndReason)));
  }
  const manual=decisions.find(row=>row.sourceId===suggestion.sourceId);
- if(manual){assert.equal(manual.action,'proposed-alias-existing');assert.equal(manual.canonicalId,suggestion.proposedCanonicalId);}
+ if(manual?.action==='proposed-alias-existing')assert.equal(manual.canonicalId,suggestion.proposedCanonicalId);
+ // An exact phrase-and-guide-meaning hit is a suggestion; a distinct contextual sense may need a new lesson or hold.
 }
 assert.ok(rows.every(r=>r.renderedPdfPage>=1&&r.renderedPdfPage<=intake.renderedPdfPages));
 for(const [book,count] of Object.entries(intake.reportedBookCounts)){
@@ -120,7 +125,7 @@ assert.deepEqual(nextIndex.slice(0,baseIndex.length).map(row=>[row.id,row.number
                  baseIndex.map(row=>[row.id,row.number]));
 assert.deepEqual(nextIndex.slice(-pilot.length).map(row=>row.number),Array.from({length:pilot.length},(_,i)=>1894+i));
 console.log(JSON.stringify({intakeRows:rows.length,books:Object.keys(intake.reportedBookCounts).length,
- sourcePageGaps:0,first60EditorialTriage:Object.fromEntries(['proposed-new-lesson','proposed-alias-existing','proposed-alias-new','hold-editorial'].map(action=>[action,decisions.filter(row=>row.action===action).length])),exactPriorAliasSuggestions:exactAliasSuggestions.length,existingCanonical:release.counts.totalCanonicalModules,
+ sourcePageGaps:0,editorialDecisionRows:decisions.length,provisionalEditorialTriage:Object.fromEntries(['proposed-new-lesson','proposed-alias-existing','proposed-alias-new','hold-editorial'].map(action=>[action,decisions.filter(row=>row.action===action).length])),exactPriorAliasSuggestions:exactAliasSuggestions.length,exactSuggestionEditorialExceptions:exactAliasSuggestions.filter(row=>{const decision=decisions.find(other=>other.sourceId===row.sourceId);return decision&&decision.action!=='proposed-alias-existing';}).length,existingCanonical:release.counts.totalCanonicalModules,
  pilotDrafts:pilot.length,pilotQuestions:pilot.length*6,pilotAudioRequests:pilot.length*4,
  projectedDisplayRange:`1894–${1893+pilot.length}`,wholeCatalogueSchemaErrors:validation.errors.length,exactGuideSentenceCopies:0,pilotNearDuplicateFlags:nearFlags.length,
  published:false,releaseApproved:false},null,2));

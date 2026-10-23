@@ -1,0 +1,1608 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-six-more-drafts-a-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2141",
+      "number": 2141,
+      "inventoryId": "expr-2141",
+      "titleEn": "memory can be slippery",
+      "titleZh": "記憶有時不可靠",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bmemory can be slippery\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Memory can be unreliable, especially when details compete for attention.",
+        "meaningZh": "記憶有時不可靠，尤其要記住多項細節時。",
+        "grammar": "memory can be slippery; use can to express a possibility, not certainty.",
+        "register": "Conversational figurative warning; does not diagnose memory loss.",
+        "boundaryZh": "指人可能記錯或忘記細節，並非每次都會記錯。",
+        "misconceptionZh": "不要當成記憶真的能滑動，也不要斷言有人患病。",
+        "outcomeZh": "能以適度語氣提醒別人核實容易記錯的細節。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0030",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 4,
+          "book": 10,
+          "question": 3,
+          "sample": "S2",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 3, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Memory can be slippery when several tasks compete for attention.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "memory can be slippery"
+        }
+      ],
+      "listening": {
+        "en": "I wrote the gate number down because memory can be slippery when a station is crowded.",
+        "zh": "我把閘口號碼記下來，因為車站擠迫時，記憶有時不可靠。",
+        "promptZh": "說話者為何把閘口號碼寫下來？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A busy setting may make the detail easy to misremember.",
+            "zh": "環境繁忙時，這項細節可能容易記錯。"
+          },
+          {
+            "id": "b",
+            "en": "The gate number was deliberately hidden.",
+            "zh": "閘口號碼被故意隱藏。"
+          },
+          {
+            "id": "c",
+            "en": "The speaker’s notebook could physically slip away.",
+            "zh": "說話者的筆記簿可能真的滑走。"
+          },
+          {
+            "id": "d",
+            "en": "The station changed every gate number without notice.",
+            "zh": "車站沒有通知便改了所有閘口號碼。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "寫下號碼是為了防止在繁忙環境中記錯；slippery 是比喻記憶不可靠，不是筆記簿滑走。"
+      },
+      "reply": {
+        "promptEn": "Why did you put the appointment time in your calendar?",
+        "promptZh": "（你為何把約會時間記在日曆裏？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I wanted a reminder before leaving home.",
+            "zh": "我想出門前有個提醒。"
+          },
+          {
+            "id": "b",
+            "en": "I wanted the details in one place.",
+            "zh": "我想把詳情放在同一處。"
+          },
+          {
+            "id": "c",
+            "en": "Memory can be slippery, so I wrote the time down.",
+            "zh": "記憶有時不可靠，所以我把時間記下來。"
+          },
+          {
+            "id": "d",
+            "en": "I did not want to confuse it with another appointment.",
+            "zh": "我不想把它和另一項約會混淆。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能解釋為何記錄時間；金句特別說明記憶可能出錯，因此要寫下資料。"
+      },
+      "scene": {
+        "promptZh": "同學同時要記住三個活動的開始時間，卻沒有筆記。哪句最能提醒他？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Memory can be slippery; let us check the timetable together.",
+            "zh": "記憶有時不可靠；我們一起核對時間表吧。"
+          },
+          {
+            "id": "b",
+            "en": "You must have forgotten all three times already.",
+            "zh": "你一定已忘記全部三個時間。"
+          },
+          {
+            "id": "c",
+            "en": "The timetable has no value because no one can remember anything.",
+            "zh": "時間表毫無用處，因為沒有人能記住任何事。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "三項時間容易混淆，核對時間表比武斷認定他已全忘記更合宜。"
+      },
+      "contrast": {
+        "promptZh": "按本課「記憶有時不可靠」的意思，哪個情況最不適合用 memory can be slippery？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A traveller mixes up two similar train times.",
+            "zh": "旅客把兩班火車的相近時間混淆。"
+          },
+          {
+            "id": "b",
+            "en": "A swimmer slips on a wet floor beside the pool.",
+            "zh": "泳客在泳池旁濕滑的地面跣倒。"
+          },
+          {
+            "id": "c",
+            "en": "Someone forgets which box holds the tickets.",
+            "zh": "有人忘了門票放在哪個盒子。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "泳客跣倒是身體動作，並非記錯資料；其餘兩種情況才涉及記憶。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我記得應該是九點開始，但沒有把握。」哪個回應最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Memory can be slippery; let us check the invitation before we set off.",
+            "zh": "記憶有時不可靠；出發前先核對邀請函吧。"
+          },
+          {
+            "id": "b",
+            "en": "You are definitely wrong, so there is no reason to check.",
+            "zh": "你肯定記錯了，所以不用核對。"
+          },
+          {
+            "id": "c",
+            "en": "Throw away the invitation and guess a new time.",
+            "zh": "丟掉邀請函，另猜一個時間吧。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "對方不肯定時間，先查原始資料比責怪或猜測更可靠；片語只表示可能記錯。"
+      },
+      "speaking": {
+        "en": "Memory can be slippery, so I checked the date on the ticket before booking the bus.",
+        "zh": "記憶有時不可靠，所以訂巴士票前，我核對了門票上的日期。",
+        "promptZh": "先聽示範，再說明為何要核對門票日期。",
+        "targetSpan": {
+          "start": 0,
+          "end": 22
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你和家人下星期要參加婚禮，請柬列明地點和時間，但你擔心把兩項資料混淆。用一至兩句英文說明你的擔心和準備方法。",
+        "selfCheckZh": "說明記憶可能把資料混淆，並提出保存或核對請柬的做法；不要斷言一定記錯。",
+        "examples": [
+          {
+            "en": "Memory can be slippery, so I will save a photo of the invitation and check the venue before we leave.",
+            "zh": "記憶有時不可靠，所以我會儲存請柬照片，出發前核對婚禮場地。"
+          },
+          {
+            "en": "I have written down the ceremony time because memory can be slippery when there are several family events.",
+            "zh": "我已寫下典禮時間，因為家裏有幾項活動時，記憶有時不可靠。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "save a photo",
+            "zh": "儲存照片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 34,
+              "end": 46
+            }
+          },
+          {
+            "en": "the invitation",
+            "zh": "請柬",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 64
+            }
+          },
+          {
+            "en": "check the venue",
+            "zh": "核對場地",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 84
+            }
+          },
+          {
+            "en": "ceremony time",
+            "zh": "典禮時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 24,
+              "end": 37
+            }
+          },
+          {
+            "en": "family events",
+            "zh": "家庭活動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 92,
+              "end": 105
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Memory can be slippery, so confirm the meeting room before you go.",
+          "zh": "記憶有時不可靠，所以出發前要確認會議室。"
+        },
+        {
+          "en": "When several dates look alike, memory can be slippery.",
+          "zh": "幾個日期看起來相似時，記憶有時不可靠。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2143",
+      "number": 2143,
+      "inventoryId": "expr-2143",
+      "titleEn": "lay out your clothes",
+      "titleZh": "預先把衣服擺好",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:lay|lays|laid|laying) out (?:your|my|his|her|our|their) clothes\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Put the clothes you plan to wear somewhere ready in advance.",
+        "meaningZh": "預先把打算穿的衣服放好，方便稍後使用。",
+        "grammar": "lay out your clothes; laid out my clothes; lay, laid, laid.",
+        "register": "Everyday practical advice; physical preparation, not explaining an idea.",
+        "boundaryZh": "此處指預先挑選及擺放衣服，不是把衣服丟出或陳列出售。",
+        "misconceptionZh": "不要誤以為 lay 的過去式是 layed，也不要混同 lay out a plan 的抽象意思。",
+        "outcomeZh": "能自然描述為翌日出門預先準備衣服。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0032",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 4,
+          "book": 10,
+          "question": 3,
+          "sample": "S2",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 3, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "You can lay out your clothes before an early flight.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "lay out your clothes"
+        }
+      ],
+      "listening": {
+        "en": "Before the early train, I laid out my clothes and packed my bag so I could leave quietly.",
+        "zh": "趕早班火車前，我預先擺好衣服，並收拾行李，這樣便能安靜地出門。",
+        "promptZh": "趕早班火車前，說話者預先做了甚麼準備？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Prepared the clothes to wear later.",
+            "zh": "預先放好稍後要穿的衣服。"
+          },
+          {
+            "id": "b",
+            "en": "Put the clothes away in a wardrobe.",
+            "zh": "把衣服收回衣櫃裏。"
+          },
+          {
+            "id": "c",
+            "en": "Prepared the bag but left the outfit undecided.",
+            "zh": "收拾了行李，卻未決定穿甚麼。"
+          },
+          {
+            "id": "d",
+            "en": "Ironed the clothes before leaving home.",
+            "zh": "出門前把衣服熨好。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "laid out my clothes 指預先把衣服放好，方便稍後穿着；句子沒有說把衣服收回衣櫃、尚未選衣或曾熨衣。"
+      },
+      "reply": {
+        "promptEn": "How can I make tomorrow morning less rushed?",
+        "promptZh": "（我怎樣才能令明早不用那麼趕？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Pack your schoolbag before bed.",
+            "zh": "睡前收拾書包。"
+          },
+          {
+            "id": "b",
+            "en": "Lay out your clothes tonight.",
+            "zh": "今晚預先把衣服擺好。"
+          },
+          {
+            "id": "c",
+            "en": "Set an alarm with enough time for breakfast.",
+            "zh": "設定鬧鐘，預留足夠時間吃早餐。"
+          },
+          {
+            "id": "d",
+            "en": "Check the bus timetable this evening.",
+            "zh": "今晚核對巴士時間表。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四項都是避免早上匆忙的合理方法；金句具體建議今晚先把明天要穿的衣服放好。"
+      },
+      "scene": {
+        "promptZh": "明早六點要穿好制服出發，同學仍未決定穿哪套。哪句建議最能節省清晨的時間？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Lay out your clothes tonight so you do not have to choose at dawn.",
+            "zh": "今晚先把衣服擺好，便不用黎明才挑選。"
+          },
+          {
+            "id": "b",
+            "en": "Set an earlier alarm but wait until dawn to choose a uniform.",
+            "zh": "把鬧鐘校早，卻等到黎明才挑選制服。"
+          },
+          {
+            "id": "c",
+            "en": "Check the weather at dawn, then start looking through the wardrobe.",
+            "zh": "黎明時先查天氣，再開始在衣櫃裏找衣服。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "前一晚擺好制服能直接省去清晨挑選和翻找的時間；另兩種做法仍把選衣留到早上。"
+      },
+      "contrast": {
+        "promptZh": "按本課「預先擺好衣服」的意思，哪個情況最不適合用 lay out your clothes？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A student places tomorrow’s uniform on a chair.",
+            "zh": "學生把明天的制服放在椅子上。"
+          },
+          {
+            "id": "b",
+            "en": "A traveller arranges tomorrow’s outfit beside a suitcase.",
+            "zh": "旅客把明天的衣服放在行李箱旁。"
+          },
+          {
+            "id": "c",
+            "en": "A presenter lays out the reasons for a decision on a slide.",
+            "zh": "講者在投影片列出決定的理由。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "列出理由是 lay out 的另一種用法，但沒有擺放衣服；前兩種才符合本課完整片語。"
+      },
+      "dialogue": {
+        "promptZh": "室友說：「我明天要很早出門，怕開燈找衣服會吵醒你。」哪個回應最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You could lay out your clothes before bed and take them to the bathroom.",
+            "zh": "你可以睡前先把衣服擺好，再拿到浴室。"
+          },
+          {
+            "id": "b",
+            "en": "Turn on every light at five so you can choose slowly.",
+            "zh": "五點把所有燈打開，慢慢挑衣服吧。"
+          },
+          {
+            "id": "c",
+            "en": "Wear whatever is in the laundry basket without checking it.",
+            "zh": "洗衣籃裏有甚麼就穿甚麼，不用看清楚。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "睡前準備衣服能減少清晨翻找和開燈；其他選項沒有照顧室友。"
+      },
+      "speaking": {
+        "en": "I laid out my clothes the night before the interview and avoided a last-minute search.",
+        "zh": "面試前一晚，我預先擺好衣服，避免臨出門才到處找。",
+        "promptZh": "先聽示範，再說明面試前一晚做了甚麼準備。",
+        "targetSpan": {
+          "start": 2,
+          "end": 21
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你明早要參加戶外義工活動，天氣可能轉涼。用一至兩句英文說明今晚如何準備衣服，並指出這樣做的好處。",
+        "selfCheckZh": "指出今晚預先擺好適合天氣的衣服，以及明早能更快出門或避免忘帶外套。",
+        "examples": [
+          {
+            "en": "I will lay out my clothes tonight, including a warm jacket, so I can leave quickly in the morning.",
+            "zh": "今晚我會預先擺好衣服，包括一件保暖外套，這樣明早便能快點出門。"
+          },
+          {
+            "en": "I laid out my clothes beside my bag and added an extra layer in case it gets cold.",
+            "zh": "我已在袋旁預先擺好衣服，還加上一件可穿在外面的衣物，以防天氣轉涼。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a warm jacket",
+            "zh": "保暖外套",
+            "exampleIndex": 0,
+            "span": {
+              "start": 45,
+              "end": 58
+            }
+          },
+          {
+            "en": "leave quickly",
+            "zh": "快點出門",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 82
+            }
+          },
+          {
+            "en": "in the morning",
+            "zh": "明早",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 97
+            }
+          },
+          {
+            "en": "beside my bag",
+            "zh": "在袋旁",
+            "exampleIndex": 1,
+            "span": {
+              "start": 22,
+              "end": 35
+            }
+          },
+          {
+            "en": "an extra layer",
+            "zh": "一件可穿在外面的衣物",
+            "exampleIndex": 1,
+            "span": {
+              "start": 46,
+              "end": 60
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "I laid out my clothes before the early ferry trip.",
+          "zh": "趕早班渡輪前，我預先擺好衣服。"
+        },
+        {
+          "en": "Lay out your clothes tonight if you need to leave before sunrise.",
+          "zh": "如果你需要日出前出門，今晚便先把衣服擺好。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2144",
+      "number": 2144,
+      "inventoryId": "expr-2144",
+      "titleEn": "leave to chance",
+      "titleZh": "聽憑運氣決定",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:leave|leaves|left|leaving) (?:it|that|this|the outcome|the result|the venue|the ferry trip|the room booking|the booking|our plans|their plans|anything|nothing|the timing|the details|the transport) to chance\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Allow an outcome to depend on luck rather than making a plan.",
+        "meaningZh": "不先作好安排，讓結果取決於運氣。",
+        "grammar": "leave something to chance; leave it to chance; do not leave the timing to chance.",
+        "register": "Neutral; commonly used in advice about planning.",
+        "boundaryZh": "重點是本可計劃卻任由運氣決定；遇到無法控制的因素不一定是故意聽天由命。",
+        "misconceptionZh": "不要把 chance 解作一次機會，也不要把合理預留彈性視為完全不計劃。",
+        "outcomeZh": "能區分事先安排與任由重要細節碰運氣。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0033",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 4,
+          "book": 10,
+          "question": 3,
+          "sample": "S2",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 3, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "There is too much at stake to leave to chance.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "leave to chance"
+        }
+      ],
+      "listening": {
+        "en": "The ferry only runs twice a day, so we checked the timetable and booked seats rather than leaving our plans to chance.",
+        "zh": "渡輪每天只開兩班，所以我們核對時間表並預訂座位，沒有讓行程安排聽憑運氣。",
+        "promptZh": "說話者為何核對時間表並預訂座位？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They did not want an important travel detail to depend on luck.",
+            "zh": "他們不想讓重要行程細節取決於運氣。"
+          },
+          {
+            "id": "b",
+            "en": "They wanted to meet the ferry captain.",
+            "zh": "他們想見渡輪船長。"
+          },
+          {
+            "id": "c",
+            "en": "The ferry was guaranteed to have empty seats.",
+            "zh": "渡輪保證有空位。"
+          },
+          {
+            "id": "d",
+            "en": "They wanted to cancel both services.",
+            "zh": "他們想取消兩班渡輪。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每天只有兩班，先核對班次並訂位才能減少行程的不確定性；leave ... to chance 指任由結果碰運氣。"
+      },
+      "reply": {
+        "promptEn": "Why did you reserve the hall a month early?",
+        "promptZh": "（你為何提早一個月預訂禮堂？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The event is popular, so rooms may fill up.",
+            "zh": "活動很受歡迎，場地可能很快訂滿。"
+          },
+          {
+            "id": "b",
+            "en": "I wanted time to organise the seating.",
+            "zh": "我想有時間安排座位。"
+          },
+          {
+            "id": "c",
+            "en": "I did not want to leave the venue to chance.",
+            "zh": "我不想讓場地安排聽憑運氣。"
+          },
+          {
+            "id": "d",
+            "en": "The guests needed an address for their invitations.",
+            "zh": "賓客需要地址，才能收到邀請函。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能合理解釋提早訂場；金句指出不想把場地是否有空的結果交給運氣。"
+      },
+      "scene": {
+        "promptZh": "婚禮只剩一星期，餐廳座位有限。哪句最能勸人先安排，而非碰運氣？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Do not leave the booking to chance; call the restaurant today.",
+            "zh": "不要讓訂位聽憑運氣；今天便打電話給餐廳。"
+          },
+          {
+            "id": "b",
+            "en": "Wait until the wedding day and assume seats will appear.",
+            "zh": "等到婚禮當天，再假設自然會有座位。"
+          },
+          {
+            "id": "c",
+            "en": "Cancel the meal before asking whether seats remain.",
+            "zh": "未問清楚有沒有位子便先取消用餐。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "時間緊、座位有限，應先致電確認；其餘做法不是適切的預先安排。"
+      },
+      "contrast": {
+        "promptZh": "按本課「任由本可計劃的結果取決於運氣」的意思，哪個情況最不適合說 leave it to chance？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A team arrives at a sold-out venue without booking.",
+            "zh": "團隊沒有訂位便到達座位售罄的場地。"
+          },
+          {
+            "id": "b",
+            "en": "A gardener follows a schedule but cannot control an unexpected storm.",
+            "zh": "園丁按計劃工作，卻無法控制突如其來的暴風雨。"
+          },
+          {
+            "id": "c",
+            "en": "Someone hopes to catch the last bus without checking its time.",
+            "zh": "有人沒有查末班巴士時間，只希望趕得上。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "園丁已有安排，只是遇到不能控制的天氣；另外兩項可查可訂卻選擇碰運氣。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「我們明天才決定怎樣把展品送到場地，應該可以吧？」哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us book a van today; we should not leave the transport to chance.",
+            "zh": "今天先訂貨車吧；我們不應讓運送安排聽憑運氣。"
+          },
+          {
+            "id": "b",
+            "en": "There is no need to know whether the van is available.",
+            "zh": "不用知道有沒有貨車可用。"
+          },
+          {
+            "id": "c",
+            "en": "The exhibition will certainly fail if we wait one more hour.",
+            "zh": "只要再等一小時，展覽一定會失敗。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "展品運送可以提前安排，先訂車比假設明天一定有車穩妥；也無須誇大成必然失敗。"
+      },
+      "speaking": {
+        "en": "We checked the train schedule because we did not want to leave the timing to chance.",
+        "zh": "我們核對火車時間表，因為不想讓時間安排聽憑運氣。",
+        "promptZh": "先聽示範，再說明核對火車時間表的原因。",
+        "targetSpan": {
+          "start": 57,
+          "end": 83
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你們星期六要坐船到小島參加清潔活動。船班不多，隊伍需要準時到。用一至兩句英文說明你會怎樣預先安排。",
+        "selfCheckZh": "指出不應任由船班或出發時間碰運氣，並提出查時間或預訂座位。",
+        "examples": [
+          {
+            "en": "We should not leave the ferry trip to chance. Let us check the timetable and book seats in advance.",
+            "zh": "我們不應讓渡輪行程聽憑運氣。先查時間表並預訂座位吧。"
+          },
+          {
+            "en": "I will confirm the first sailing tonight rather than leaving our plans to chance. That gives the group time to travel.",
+            "zh": "今晚我會確認首班船的時間，而不是讓計劃聽憑運氣。這樣小組便有時間出發。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "check the timetable",
+            "zh": "查時間表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 53,
+              "end": 72
+            }
+          },
+          {
+            "en": "book seats",
+            "zh": "預訂座位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 87
+            }
+          },
+          {
+            "en": "in advance",
+            "zh": "預先",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 98
+            }
+          },
+          {
+            "en": "the first sailing",
+            "zh": "首班船",
+            "exampleIndex": 1,
+            "span": {
+              "start": 15,
+              "end": 32
+            }
+          },
+          {
+            "en": "gives the group time",
+            "zh": "讓小組有時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 87,
+              "end": 107
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Do not leave the room booking to chance during a busy week.",
+          "zh": "繁忙的一星期，不要讓訂房聽憑運氣。"
+        },
+        {
+          "en": "She confirmed the meeting time instead of leaving it to chance.",
+          "zh": "她確認了開會時間，沒有任由運氣決定。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2146",
+      "number": 2146,
+      "inventoryId": "expr-2146",
+      "titleEn": "on the back foot",
+      "titleZh": "處於被動劣勢",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bon the back foot\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "In a defensive or disadvantaged position after a setback.",
+        "meaningZh": "遇到挫折後處於被動或不利的位置。",
+        "grammar": "be on the back foot; put someone on the back foot.",
+        "register": "Neutral, slightly informal British sporting metaphor; useful outside sport.",
+        "boundaryZh": "不必真的站在某隻腳上，也不表示已經輸定；只是當下較被動。",
+        "misconceptionZh": "不要把短暫退後一步的實際動作當作本課意思。",
+        "outcomeZh": "能指出一方因開局不順而暫時被動，並辨認仍可回應的空間。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0035",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 4,
+          "book": 10,
+          "question": 3,
+          "sample": "S2",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 3, row 15; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The late start put our team on the back foot.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "on the back foot"
+        }
+      ],
+      "listening": {
+        "en": "When our only projector failed just before the talk, the team was on the back foot from the start.",
+        "zh": "演講前唯一的投影機突然壞了，團隊從一開始就處於被動。",
+        "promptZh": "投影機故障令團隊處於甚麼位置？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They faced an immediate disadvantage.",
+            "zh": "他們立即面對不利局面。"
+          },
+          {
+            "id": "b",
+            "en": "They had already won the audience over.",
+            "zh": "他們已贏得觀眾支持。"
+          },
+          {
+            "id": "c",
+            "en": "They were standing with weight on one foot.",
+            "zh": "他們把重心放在一隻腳上。"
+          },
+          {
+            "id": "d",
+            "en": "They had decided to cancel every future talk.",
+            "zh": "他們已決定取消日後所有演講。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "唯一投影機臨場故障令演講難以照計劃進行，團隊處於被動；片語不是字面的站姿。"
+      },
+      "reply": {
+        "promptEn": "How did the early mistake affect your team?",
+        "promptZh": "（那個早期失誤怎樣影響你們的團隊？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We had to spend time correcting it.",
+            "zh": "我們要花時間修正錯誤。"
+          },
+          {
+            "id": "b",
+            "en": "It put us on the back foot, but we adjusted our plan.",
+            "zh": "這令我們處於被動，但我們調整了計劃。"
+          },
+          {
+            "id": "c",
+            "en": "We asked for a short break to regroup.",
+            "zh": "我們要求短暫休息，重新整理。"
+          },
+          {
+            "id": "d",
+            "en": "We shared the remaining tasks more carefully.",
+            "zh": "我們更仔細地分配餘下工作。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四個回答都合理描述早期失誤的影響或應對；金句指出當時被動，但沒有說團隊必然失敗。"
+      },
+      "scene": {
+        "promptZh": "辯論隊開場時誤讀題目，對方已提出兩項論據。哪句最能描述辯論隊此刻的處境？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are on the back foot and need to respond carefully.",
+            "zh": "他們處於被動，需要小心回應。"
+          },
+          {
+            "id": "b",
+            "en": "They have already secured an easy victory.",
+            "zh": "他們已輕鬆勝出。"
+          },
+          {
+            "id": "c",
+            "en": "They are literally standing on one foot.",
+            "zh": "他們真的單腳站着。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "誤讀題目、對方先行立論，使團隊暫時不利；仍可以回應，不代表已輸。"
+      },
+      "contrast": {
+        "promptZh": "按本課比喻意思，哪個情況最不適合說 a team is on the back foot？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The lead singer loses her voice moments before a concert.",
+            "zh": "主唱在演唱會前一刻失聲。"
+          },
+          {
+            "id": "b",
+            "en": "A group has all its materials ready and responds confidently to the first question.",
+            "zh": "小組備齊所有材料，並自信地回答第一條問題。"
+          },
+          {
+            "id": "c",
+            "en": "A team discovers a missing file as a client meeting begins.",
+            "zh": "團隊在客戶會議開始時發現少了一份檔案。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "準備充分且回應自信的一組沒有明顯劣勢；臨場失聲或缺檔則會令團隊被動。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「展覽剛開幕，網上預訂系統便故障了。」哪個回應最恰當？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That puts us on the back foot. Let us offer a manual sign-in while we fix it.",
+            "zh": "這令我們處於被動。修理系統期間，先提供人手登記吧。"
+          },
+          {
+            "id": "b",
+            "en": "This proves no visitor will come again.",
+            "zh": "這證明以後不會再有訪客。"
+          },
+          {
+            "id": "c",
+            "en": "Ignore the queue until the system fixes itself.",
+            "zh": "不要理會隊伍，等系統自己修好吧。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "系統故障帶來當下的被動處境，提供人手登記是具體應變；另外兩句過度斷言或沒有解決問題。"
+      },
+      "speaking": {
+        "en": "A missing microphone put the speakers on the back foot, but they continued with a smaller group.",
+        "zh": "少了一支咪高峰令講者處於被動，但他們仍以較小組別繼續進行。",
+        "promptZh": "先聽示範，再說明器材不足怎樣影響講者。",
+        "targetSpan": {
+          "start": 38,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你們的合唱團在比賽前一小時發現鋼琴壞了，但可以改用電子琴。用一至兩句英文說明目前處境和應變方法。",
+        "selfCheckZh": "指出器材故障使合唱團暫時被動，並提出改用電子琴；不要斷言比賽必輸。",
+        "examples": [
+          {
+            "en": "The broken piano puts us on the back foot, but we can rehearse once with the keyboard.",
+            "zh": "鋼琴壞了令我們處於被動，但我們可以用電子琴先綵排一次。"
+          },
+          {
+            "en": "We are on the back foot because the piano has failed. Let us switch to the keyboard before the performance.",
+            "zh": "鋼琴故障令我們處於被動。表演前先轉用電子琴吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The broken piano",
+            "zh": "壞了的鋼琴",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 16
+            }
+          },
+          {
+            "en": "rehearse once",
+            "zh": "綵排一次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 67
+            }
+          },
+          {
+            "en": "the keyboard",
+            "zh": "電子琴",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 85
+            }
+          },
+          {
+            "en": "switch to",
+            "zh": "轉用",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 70
+            }
+          },
+          {
+            "en": "before the performance",
+            "zh": "表演前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 84,
+              "end": 106
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A late delivery left the kitchen on the back foot before lunch.",
+          "zh": "送貨遲到，令廚房在午餐前處於被動。"
+        },
+        {
+          "en": "The team was on the back foot early, but it found another way to present.",
+          "zh": "團隊早段處於被動，但找到另一種展示方法。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2149",
+      "number": 2149,
+      "inventoryId": "expr-2149",
+      "titleEn": "second brain",
+      "titleZh": "協助整理資訊的第二個大腦",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bsecond brain\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "An external tool or system that helps store and organise information.",
+        "meaningZh": "幫人儲存和整理資訊的外部工具或系統。",
+        "grammar": "a second brain for someone; use a notebook or app as a second brain.",
+        "register": "Informal metaphor in productivity contexts; not a literal organ.",
+        "boundaryZh": "這裏重點是資訊管理的幫助，不表示工具能代替人的判斷。",
+        "misconceptionZh": "不要把任何電子產品都自動稱為第二個大腦；它須實際協助記錄和找回資訊。",
+        "outcomeZh": "能辨認用來記錄、整理及找回資訊的工具所起的作用。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0038",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 4,
+          "book": 10,
+          "question": 4,
+          "sample": "S1",
+          "sourceBookPages": "10–12",
+          "locatorNote": "DOCX table 4, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The shared notebook became a second brain for the team.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "second brain"
+        }
+      ],
+      "listening": {
+        "en": "Nora keeps meeting notes, dates and links in one searchable notebook; it works like a second brain for her.",
+        "zh": "阿娜把會議筆記、日期和連結放在同一本可搜尋的筆記簿；它對她就像第二個大腦。",
+        "promptZh": "這本筆記簿怎樣幫助阿娜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It stores information she can organise and find again.",
+            "zh": "它儲存資訊，讓她能整理並再次找到。"
+          },
+          {
+            "id": "b",
+            "en": "It makes every decision for her without review.",
+            "zh": "它不用她核查便替她作所有決定。"
+          },
+          {
+            "id": "c",
+            "en": "It is a physical organ in her body.",
+            "zh": "它是她身體裏真正的器官。"
+          },
+          {
+            "id": "d",
+            "en": "It records only the colour of each meeting room.",
+            "zh": "它只記錄每個會議室的顏色。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "筆記簿集中保存可搜尋資料，才有 second brain 的比喻作用；它不會代替本人判斷。"
+      },
+      "reply": {
+        "promptEn": "Why do you keep all your project notes in one app?",
+        "promptZh": "（你為何把所有項目筆記放在同一個應用程式？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I can search old decisions quickly.",
+            "zh": "我可以很快搜尋過去的決定。"
+          },
+          {
+            "id": "b",
+            "en": "It lets the team see the latest schedule.",
+            "zh": "它讓團隊查看最新時間表。"
+          },
+          {
+            "id": "c",
+            "en": "It helps me keep links and files together.",
+            "zh": "它幫我把連結和檔案集中放好。"
+          },
+          {
+            "id": "d",
+            "en": "It acts as a second brain when I need to find details.",
+            "zh": "我要找回細節時，它就像第二個大腦。"
+          }
+        ],
+        "goldenId": "d",
+        "explanationZh": "四句都解釋了集中存放筆記的用處；金句用 second brain 概括儲存和找回資訊的作用。"
+      },
+      "scene": {
+        "promptZh": "一位學生把每科的摘錄、待辦事項和參考資料整理在可搜尋的筆記庫。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The note system is becoming a second brain for her studies.",
+            "zh": "這套筆記系統逐漸成為她學習上的第二個大腦。"
+          },
+          {
+            "id": "b",
+            "en": "The system has replaced her ability to think about schoolwork.",
+            "zh": "這套系統已取代她思考功課的能力。"
+          },
+          {
+            "id": "c",
+            "en": "Any empty folder would provide the same organised record.",
+            "zh": "任何空資料夾都能提供同樣有組織的紀錄。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "系統整理多類可搜尋資料，符合比喻用途；它沒有取代思考，空資料夾也沒有相同作用。"
+      },
+      "contrast": {
+        "promptZh": "按本課「幫助儲存及整理資訊」的意思，哪個情況最不適合稱為 a second brain？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A shared notebook stores decisions and makes them easy to search.",
+            "zh": "共用筆記簿儲存決定，並方便搜尋。"
+          },
+          {
+            "id": "b",
+            "en": "An empty tablet is kept in a drawer and never used for notes.",
+            "zh": "一部空平板放在抽屜裏，從不用來記筆記。"
+          },
+          {
+            "id": "c",
+            "en": "A labelled archive helps volunteers retrieve past plans.",
+            "zh": "有標籤的檔案庫讓義工找回以往的計劃。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "從不使用的空平板沒有協助記錄或找回資訊；另外兩種工具則有。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「我找不到上次會議的決定。」哪個回應最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Our shared notes can be a second brain; search the meeting date and check the decision there.",
+            "zh": "我們的共用筆記就像第二個大腦；搜尋會議日期，再核對當時的決定。"
+          },
+          {
+            "id": "b",
+            "en": "The notes must know the answer even if nothing was recorded.",
+            "zh": "即使甚麼都沒記，筆記也一定知道答案。"
+          },
+          {
+            "id": "c",
+            "en": "There is no need to verify old decisions if the app opens.",
+            "zh": "只要應用程式能打開，就不用核對舊決定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "共用筆記能幫助找回曾記錄的決定，仍須查核內容；不能假設空白筆記也有答案。"
+      },
+      "speaking": {
+        "en": "Our labelled notebook became a second brain when we needed to find earlier project decisions.",
+        "zh": "我們要找回項目先前的決定時，那本有標籤的筆記簿就像第二個大腦。",
+        "promptZh": "先聽示範，再說明筆記簿如何協助團隊。",
+        "targetSpan": {
+          "start": 29,
+          "end": 43
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你的義工隊每月輪換隊員，大家常忘記上次怎樣安排物資。你想建立共用筆記。用一至兩句英文說明它可怎樣幫忙。",
+        "selfCheckZh": "指出共用筆記能記錄並找回物資安排，不要聲稱它會自動替隊員決策。",
+        "examples": [
+          {
+            "en": "A shared notebook could serve as a second brain for our team. We can record supplies and find last month’s plan.",
+            "zh": "共用筆記簿可以成為團隊的第二個大腦。我們可以記錄物資，並找回上月的安排。"
+          },
+          {
+            "en": "If we label each delivery note, the archive can become a second brain when new volunteers need details.",
+            "zh": "如果我們替每張送貨紀錄加標籤，新義工需要資料時，檔案庫就能成為第二個大腦。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "A shared notebook",
+            "zh": "共用筆記簿",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "record supplies",
+            "zh": "記錄物資",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 84
+            }
+          },
+          {
+            "en": "last month’s plan",
+            "zh": "上月的安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 111
+            }
+          },
+          {
+            "en": "each delivery note",
+            "zh": "每張送貨紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 12,
+              "end": 30
+            }
+          },
+          {
+            "en": "new volunteers",
+            "zh": "新義工",
+            "exampleIndex": 1,
+            "span": {
+              "start": 75,
+              "end": 89
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The archive became a second brain for the small team.",
+          "zh": "檔案庫成為這個小團隊的第二個大腦。"
+        },
+        {
+          "en": "A useful second brain stores notes that you can actually find later.",
+          "zh": "實用的第二個大腦會儲存日後能夠找回的筆記。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2150",
+      "number": 2150,
+      "inventoryId": "expr-2150",
+      "titleEn": "lay it all out",
+      "titleZh": "把事情逐項說清楚",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:lay|lays|laid|laying) it all out\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Explain or display all relevant information clearly and in an orderly way.",
+        "meaningZh": "把相關資訊有條理地全部列出或說明。",
+        "grammar": "lay it all out; laid it all out; lay, laid, laid.",
+        "register": "Neutral conversational request for clarity; it can involve writing or speech.",
+        "boundaryZh": "此處是把資訊完整呈現以利討論，不是把物件實際攤開。",
+        "misconceptionZh": "不要因為 all 就加入無關細節；也不要混同 lay out your clothes 的實物用法。",
+        "outcomeZh": "能在共同決策前清楚列出相關選項或資料。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0039",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 4,
+          "book": 10,
+          "question": 4,
+          "sample": "S1",
+          "sourceBookPages": "10–12",
+          "locatorNote": "DOCX table 4, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Let's lay it all out on one page before we decide.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "lay it all out"
+        }
+      ],
+      "listening": {
+        "en": "Before choosing a venue, the organisers laid it all out on one page: prices, travel times and room sizes.",
+        "zh": "挑選場地前，主辦者在一頁紙上把各項資料列清楚：價錢、交通時間和房間大小。",
+        "promptZh": "主辦者在作決定前做了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They presented the relevant details together for comparison.",
+            "zh": "他們把相關資料集中列出，方便比較。"
+          },
+          {
+            "id": "b",
+            "en": "They spread every chair across the floor.",
+            "zh": "他們把所有椅子攤開放在地上。"
+          },
+          {
+            "id": "c",
+            "en": "They chose the venue before seeing any details.",
+            "zh": "他們還未看資料便選了場地。"
+          },
+          {
+            "id": "d",
+            "en": "They removed prices from the discussion.",
+            "zh": "他們把價錢從討論中刪去。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一頁紙列出價錢、交通和大小，方便比較；lay it all out 在此指清楚呈現資訊。"
+      },
+      "reply": {
+        "promptEn": "How can we compare the two trip plans fairly?",
+        "promptZh": "（我們怎樣才能公平比較兩個旅行計劃？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We could put both costs in the same table.",
+            "zh": "我們可以把兩項費用放在同一張表裏。"
+          },
+          {
+            "id": "b",
+            "en": "Let us lay it all out before we vote.",
+            "zh": "投票前，我們先把相關資料逐項列清楚。"
+          },
+          {
+            "id": "c",
+            "en": "We should check how long each journey takes.",
+            "zh": "我們應核對每段旅程需時多久。"
+          },
+          {
+            "id": "d",
+            "en": "We can ask everyone which detail matters most.",
+            "zh": "我們可以問問各人最重視哪項細節。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四項都幫助公平比較；金句提出投票前把各項相關資料完整呈現。"
+      },
+      "scene": {
+        "promptZh": "社團要在兩個場地中選一個，成員只聽到租金，未知道交通或容量。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us lay it all out: cost, capacity and transport, then decide.",
+            "zh": "把費用、容量和交通逐項說清楚，再決定吧。"
+          },
+          {
+            "id": "b",
+            "en": "Choose the cheaper room now because rent is the only figure available.",
+            "zh": "目前只有租金資料，所以現在便選較便宜的房間。"
+          },
+          {
+            "id": "c",
+            "en": "Choose the room that looks best in photos before checking its capacity.",
+            "zh": "未核查房間容量前，先選照片中看起來最好的房間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "決策所需資料尚未完整，應先列出費用、容量及交通；只看租金或照片都忽略了關鍵條件。"
+      },
+      "contrast": {
+        "promptZh": "按本課「把資訊完整呈現」的意思，哪個情況最不適合用 lay it all out？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A leader explains the costs and risks before the group votes.",
+            "zh": "組長在投票前解釋費用和風險。"
+          },
+          {
+            "id": "b",
+            "en": "A student quietly places clothes on a bed for tomorrow.",
+            "zh": "學生悄悄把明天要穿的衣服放在床上。"
+          },
+          {
+            "id": "c",
+            "en": "A committee writes every relevant option on a board.",
+            "zh": "委員會把每個相關選項寫在白板上。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "把衣服放在床上是擺放實物，不是清楚呈現資訊；另外兩項才屬本課意思。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我只知道旅行要花錢，不知道包甚麼。」哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let me lay it all out: the fee covers travel and lunch, but not tickets.",
+            "zh": "我把內容逐項說清楚：費用包括車程和午餐，但不包括門票。"
+          },
+          {
+            "id": "b",
+            "en": "Pay first and ask about the details after the trip.",
+            "zh": "先付款，旅行後才問詳情。"
+          },
+          {
+            "id": "c",
+            "en": "There is no need to know what the fee covers.",
+            "zh": "不用知道費用包括甚麼。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "對方想知道費用細項，清楚說明包含與不包含的內容才有助決定。"
+      },
+      "speaking": {
+        "en": "The mentor laid it all out in a simple chart so the group could compare the choices.",
+        "zh": "導師用一張簡單圖表把相關資料列清楚，讓小組比較選項。",
+        "promptZh": "先聽示範，再說明導師怎樣協助小組比較選項。",
+        "targetSpan": {
+          "start": 11,
+          "end": 26
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你們要選一間印刷店製作校刊，有兩份報價，但同學只看了總價。用一至兩句英文提議如何作公平比較。",
+        "selfCheckZh": "提出把印刷數量、交貨日期及額外費用逐項列清楚，然後才決定；避免只看總價。",
+        "examples": [
+          {
+            "en": "Let us lay it all out before choosing a printer: page count, delivery date and extra fees.",
+            "zh": "選印刷店前，先把頁數、交貨日期和額外費用逐項列清楚。"
+          },
+          {
+            "en": "I will lay it all out in a table so we can compare both quotes beyond the total price.",
+            "zh": "我會用表格把相關資料逐項列清楚，讓我們不只比較總價，也能比較兩份報價的細節。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "before choosing a printer",
+            "zh": "選印刷店前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 22,
+              "end": 47
+            }
+          },
+          {
+            "en": "page count",
+            "zh": "頁數",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 59
+            }
+          },
+          {
+            "en": "delivery date",
+            "zh": "交貨日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 74
+            }
+          },
+          {
+            "en": "both quotes",
+            "zh": "兩份報價",
+            "exampleIndex": 1,
+            "span": {
+              "start": 51,
+              "end": 62
+            }
+          },
+          {
+            "en": "the total price",
+            "zh": "總價",
+            "exampleIndex": 1,
+            "span": {
+              "start": 70,
+              "end": 85
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "She laid it all out before the budget meeting began.",
+          "zh": "預算會議開始前，她把相關資料逐項列清楚。"
+        },
+        {
+          "en": "Please lay it all out so everyone can compare the options.",
+          "zh": "請把相關資料逐項列清楚，讓大家可以比較選項。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

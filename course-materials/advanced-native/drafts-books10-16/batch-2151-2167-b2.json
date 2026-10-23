@@ -1,0 +1,1608 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-author-b2-2151-2167-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2151",
+      "number": 2151,
+      "inventoryId": "expr-2151",
+      "titleEn": "juggling everything in your head",
+      "titleZh": "把所有事情都放在腦中盤算",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:juggle|juggles|juggled|juggling) everything in (?:my|your|his|her|our|their) head\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Try to remember and coordinate many responsibilities mentally without a reliable external record.",
+        "meaningZh": "只靠腦袋記住並安排許多事情。",
+        "grammar": "juggle/juggling everything in your/my/her head; the possessive matches the person.",
+        "register": "Conversational figurative English for mental workload.",
+        "boundaryZh": "重點是同時在腦中記住和安排多件事，不是實際拋接物品。",
+        "misconceptionZh": "不是說真的在頭上玩雜耍，也不一定表示已忘記事情。",
+        "outcomeZh": "能指出只靠記憶處理多項責任的負擔，並提出較可靠的記錄方法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0040",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 5,
+          "book": 10,
+          "question": 4,
+          "sample": "S1",
+          "sourceBookPages": "10–12",
+          "locatorNote": "DOCX table 4, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "You cannot keep juggling everything in your head without a checklist.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "juggling everything in your head"
+        }
+      ],
+      "listening": {
+        "promptZh": "Mina 在做甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is trying to remember and coordinate several arrangements.",
+            "zh": "她正嘗試記住並協調幾項安排。"
+          },
+          {
+            "id": "b",
+            "en": "She is physically throwing objects above her head.",
+            "zh": "她真的把物件拋到頭頂上。"
+          },
+          {
+            "id": "c",
+            "en": "She has already completed every appointment.",
+            "zh": "她已完成每一項約定。"
+          },
+          {
+            "id": "d",
+            "en": "She is ignoring all the deadlines on purpose.",
+            "zh": "她故意不理會所有限期。"
+          }
+        ],
+        "explanationZh": "會議、限期和約診都要記住並協調，所以是腦中的多項安排；不是實際雜耍。",
+        "answerId": "a",
+        "en": "Mina was juggling everything in her head: the club meeting, two deadlines and her brother's appointment.",
+        "zh": "Mina 只靠腦袋盤算社團會議、兩個限期，以及弟弟的約診時間。"
+      },
+      "reply": {
+        "promptZh": "你怎樣同時記住工作、購物和家人的安排？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I put the important dates in a shared calendar.",
+            "zh": "我把重要日期記在共用日曆。"
+          },
+          {
+            "id": "b",
+            "en": "I ask my family to remind me about changes.",
+            "zh": "我請家人提醒我安排有變。"
+          },
+          {
+            "id": "c",
+            "en": "I try not to juggle everything in my head; I use a list.",
+            "zh": "我盡量不只靠腦袋盤算一切，而會用清單。"
+          },
+          {
+            "id": "d",
+            "en": "I set reminders for tasks that have firm deadlines.",
+            "zh": "我為有明確限期的任務設定提醒。"
+          }
+        ],
+        "explanationZh": "四個回答都提出合理做法；金句直接說明不要只靠腦袋記住所有事。",
+        "goldenId": "c",
+        "promptEn": "How do you keep up with work, shopping and family plans?"
+      },
+      "scene": {
+        "promptZh": "義工要同時記住場地鑰匙、講者時間和物資數量，卻沒有寫下任何資料。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is juggling everything in her head and might benefit from a checklist.",
+            "zh": "她只靠腦袋盤算所有事情，可能需要一份清單。"
+          },
+          {
+            "id": "b",
+            "en": "She has delegated every decision and no longer needs to remember anything.",
+            "zh": "她已分派所有決定，再不用記住任何事情。"
+          },
+          {
+            "id": "c",
+            "en": "She is physically practising a juggling act with the supplies.",
+            "zh": "她正在用物資練習真正的雜耍。"
+          }
+        ],
+        "explanationZh": "多項安排都只留在腦中，清單可減輕負擔；其他選項與情況不符。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "按本課『靠腦袋記住多項安排』的意思，哪種情況最不適合使用這個表達？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A parent remembers three children's lesson times without writing them down.",
+            "zh": "家長沒有記錄，卻要記住三名子女的上課時間。"
+          },
+          {
+            "id": "b",
+            "en": "A performer tosses three balls in the air during a show.",
+            "zh": "表演者在演出中把三個球拋向空中。"
+          },
+          {
+            "id": "c",
+            "en": "A manager mentally coordinates several staff shifts.",
+            "zh": "經理只靠腦袋協調多名員工的班次。"
+          }
+        ],
+        "explanationZh": "拋球是真正的雜耍；另外兩項才是同時在腦中安排多件事。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同學說：『我連社團活動和作業限期都放在腦中記，最近常弄混。』你會怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You do not have to juggle everything in your head; let’s write the dates in one calendar so you can check them.",
+            "zh": "你不必只靠腦袋盤算所有事情；我們把日期記在同一個日曆，方便你查看。"
+          },
+          {
+            "id": "b",
+            "en": "You should remember even more dates without checking anything.",
+            "zh": "你應不查任何資料，再記更多日期。"
+          },
+          {
+            "id": "c",
+            "en": "The only solution is to quit every activity immediately.",
+            "zh": "唯一辦法是立即退出所有活動。"
+          }
+        ],
+        "explanationZh": "同學只靠腦袋盤算多項安排，結果弄混；用日曆記錄能減輕這個負擔。其他回應會加重問題或過於極端。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "You do not have to juggle everything in your head; write the deadlines down.",
+        "zh": "你不必只靠腦袋盤算所有事情；把限期寫下來吧。",
+        "promptZh": "先聽示範，再向朋友建議如何減輕記住多個限期的負擔。",
+        "targetSpan": {
+          "start": 19,
+          "end": 49
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你負責安排社區義工活動，要記住集合時間、物資和每人的工作。用一至兩句英文說明只靠記憶的風險及一個改善方法。",
+        "selfCheckZh": "指出多項安排只靠腦袋記會容易混亂，並提出可行的記錄或提醒方法。",
+        "examples": [
+          {
+            "en": "Do not juggle everything in your head when planning the volunteer day. Put the meeting time and supplies on a checklist.",
+            "zh": "籌辦義工活動時，不要只靠腦袋盤算所有事情。把集合時間和物資記在清單上。"
+          },
+          {
+            "en": "I was juggling everything in my head, so I made a shared plan for each volunteer's job.",
+            "zh": "我原本只靠腦袋盤算所有事情，所以我為每名義工的工作製作了共用計劃。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "planning the volunteer day",
+            "zh": "籌辦義工活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 69
+            }
+          },
+          {
+            "en": "the meeting time",
+            "zh": "集合時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 91
+            }
+          },
+          {
+            "en": "supplies",
+            "zh": "物資",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 104
+            }
+          },
+          {
+            "en": "a checklist",
+            "zh": "清單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 119
+            }
+          },
+          {
+            "en": "a shared plan",
+            "zh": "共用計劃",
+            "exampleIndex": 1,
+            "span": {
+              "start": 48,
+              "end": 61
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Juggling everything in your head can make a busy day harder to manage.",
+          "zh": "只靠腦袋盤算所有事情，會令忙碌的一天更難安排。"
+        },
+        {
+          "en": "I stopped juggling everything in my head once I put the shifts on a shared calendar.",
+          "zh": "我把班次記在共用日曆後，就不再只靠腦袋盤算所有事情。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2152",
+      "number": 2152,
+      "inventoryId": "expr-2152",
+      "titleEn": "losing track",
+      "titleZh": "失去對時間或進度的掌握",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:lose|loses|lost|losing) track(?: of)?\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Stop keeping an accurate awareness of time, items or progress.",
+        "meaningZh": "不再清楚掌握時間、數量或進度。",
+        "grammar": "lose/lost/losing track of + time, spending or progress; lose track without an object when context is clear.",
+        "register": "Common neutral phrase in speech and writing.",
+        "boundaryZh": "是失去對時間或進度的掌握，不一定是實物遺失。",
+        "misconceptionZh": "track 在這裏不是火車軌道，也不是運動場跑道。",
+        "outcomeZh": "能在時間或進度難以掌握時恰當使用這個表達。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0041",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 5,
+          "book": 10,
+          "question": 4,
+          "sample": "S1",
+          "sourceBookPages": "10–12",
+          "locatorNote": "DOCX table 4, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I kept losing track of the small expenses.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "losing track"
+        }
+      ],
+      "listening": {
+        "promptZh": "電影社團遇到甚麼問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It no longer has a clear picture of how much it has spent.",
+            "zh": "它已不清楚自己花了多少錢。"
+          },
+          {
+            "id": "b",
+            "en": "It lost a train ticket on the way to a meeting.",
+            "zh": "它在赴會途中遺失了一張火車票。"
+          },
+          {
+            "id": "c",
+            "en": "It decided to stop buying anything at all.",
+            "zh": "它決定完全停止購物。"
+          },
+          {
+            "id": "d",
+            "en": "It has a detailed record of every small cost.",
+            "zh": "它詳細記錄了每筆小額開支。"
+          }
+        ],
+        "explanationZh": "不斷增加開支卻沒有掌握總額，說的是支出追蹤問題，不是遺失物件。",
+        "answerId": "a",
+        "en": "The film club kept adding small costs and started losing track of its spending.",
+        "zh": "電影社團不斷增加小額開支，開始無法準確掌握支出。"
+      },
+      "reply": {
+        "promptZh": "準備學校展覽時，你們怎樣掌握已買物資的數量？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We count the supplies at the end of each day.",
+            "zh": "我們每天結束時點算物資。"
+          },
+          {
+            "id": "b",
+            "en": "We keep a shared list of what we have bought.",
+            "zh": "我們用共用清單記下已購買的東西。"
+          },
+          {
+            "id": "c",
+            "en": "We avoid losing track by updating the inventory after each purchase.",
+            "zh": "我們每次購物後更新物資清單，以免失去掌握。"
+          },
+          {
+            "id": "d",
+            "en": "We ask one person to check the boxes before the exhibition.",
+            "zh": "我們請一個人在展覽前檢查箱子。"
+          }
+        ],
+        "explanationZh": "四個回應都是可行的點算方法；金句明確用本課表達說明避免失去掌握。",
+        "goldenId": "c",
+        "promptEn": "How will your team keep count of supplies for the school exhibition?"
+      },
+      "scene": {
+        "promptZh": "朋友看書入神，抬頭才發現已過了兩小時。哪句最能描述他的情況？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He lost track of time while reading.",
+            "zh": "他看書時忘了時間。"
+          },
+          {
+            "id": "b",
+            "en": "He deliberately set a two-hour reading alarm.",
+            "zh": "他刻意設定兩小時的閱讀鬧鐘。"
+          },
+          {
+            "id": "c",
+            "en": "He checked the clock every few minutes while reading.",
+            "zh": "他看書時每隔幾分鐘就查看時鐘。"
+          }
+        ],
+        "explanationZh": "他投入閱讀，以致沒有留意時間流逝；他沒有刻意計時，也沒有每隔幾分鐘查看時鐘。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "按本課『失去掌握』的意思，哪種情況最不適合使用 losing track？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A team cannot remember which tasks are finished.",
+            "zh": "團隊記不起哪些任務已完成。"
+          },
+          {
+            "id": "b",
+            "en": "A walker notices every minute and records each stage of the route.",
+            "zh": "步行者留意每分鐘，並記錄路線每一段。"
+          },
+          {
+            "id": "c",
+            "en": "A family does not know how much it spent this month.",
+            "zh": "一家人不清楚這個月花了多少錢。"
+          }
+        ],
+        "explanationZh": "步行者一直清楚記錄時間和進度，因此沒有失去掌握；其餘兩項都有資訊缺口。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "組長說：『我們討論太久，現在不知還有多少時間。』哪個回應最有幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We have lost track of time. Let’s check the clock and set a limit for the remaining points.",
+            "zh": "我們已經忘了時間。我們先查看時鐘，再為餘下議題設定時限。"
+          },
+          {
+            "id": "b",
+            "en": "Let's start another unrelated discussion without checking the time.",
+            "zh": "我們不看時間，再開始另一個無關討論。"
+          },
+          {
+            "id": "c",
+            "en": "Let's pretend the meeting has not begun.",
+            "zh": "我們假裝會議尚未開始。"
+          }
+        ],
+        "explanationZh": "承認討論時失去時間掌握後，查看時鐘和設定餘下時限可直接處理問題；其他回應令情況更差。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "I lost track of time while preparing the display and missed the break.",
+        "zh": "我準備展板時忘了時間，結果錯過休息。",
+        "promptZh": "先聽示範，再說明忙着準備展板時發生了甚麼事。",
+        "targetSpan": {
+          "start": 2,
+          "end": 15
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你為班級義賣準備物資，買了多次小東西，卻不知道總共花了多少。用一至兩句英文說明問題及改善方法。",
+        "selfCheckZh": "指出自己不再清楚掌握開支，並建議用清單或收據記錄。",
+        "examples": [
+          {
+            "en": "We are losing track of our spending on the class sale. Let's record each purchase in a notebook.",
+            "zh": "我們開始弄不清班級義賣花了多少錢。讓我們把每次購物記在筆記簿。"
+          },
+          {
+            "en": "I lost track of the small costs, so I kept the receipts and calculated the total.",
+            "zh": "我忘了掌握小額開支，因此保留收據並計算了總額。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "our spending",
+            "zh": "我們的開支",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 35
+            }
+          },
+          {
+            "en": "the class sale",
+            "zh": "班級義賣",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 53
+            }
+          },
+          {
+            "en": "each purchase",
+            "zh": "每次購物",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 81
+            }
+          },
+          {
+            "en": "the small costs",
+            "zh": "小額開支",
+            "exampleIndex": 1,
+            "span": {
+              "start": 16,
+              "end": 31
+            }
+          },
+          {
+            "en": "the receipts",
+            "zh": "收據",
+            "exampleIndex": 1,
+            "span": {
+              "start": 43,
+              "end": 55
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "It is easy to lose track of time when you focus on one task.",
+          "zh": "專注做一件事時，很容易忘了時間。"
+        },
+        {
+          "en": "The group was losing track of costs until it started keeping receipts.",
+          "zh": "小組開始保留收據之前，一直不清楚掌握開支。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2153",
+      "number": 2153,
+      "inventoryId": "expr-2153",
+      "titleEn": "swallow time whole",
+      "titleZh": "把時間一下子吞掉",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:swallow|swallows|swallowed|swallowing) time whole\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Consume a large amount of time unexpectedly or with little visible progress.",
+        "meaningZh": "出乎意料地耗掉大量時間，往往收效不大。",
+        "grammar": "swallow/swallowed time whole; a process or distraction usually acts as subject.",
+        "register": "Vivid and somewhat literary metaphor; useful for a time-consuming process.",
+        "boundaryZh": "強調時間被大量消耗，不是字面上吞食時間，也不適合形容只花了幾秒的小事。",
+        "misconceptionZh": "不要理解成真的有東西把時間吞下。",
+        "outcomeZh": "能描述某個程序或干擾如何出乎意料地佔去大段時間。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0042",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 5,
+          "book": 10,
+          "question": 4,
+          "sample": "S2",
+          "sourceBookPages": "10–12",
+          "locatorNote": "DOCX table 4, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A confusing process can swallow time whole.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "swallow time whole"
+        }
+      ],
+      "listening": {
+        "promptZh": "Leo 為甚麼沒時間校對海報？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The formatting problem consumed much more time than expected.",
+            "zh": "排版問題花的時間遠超預期。"
+          },
+          {
+            "id": "b",
+            "en": "He finished the poster and then chose not to proofread it.",
+            "zh": "他完成海報後，自己選擇不校對。"
+          },
+          {
+            "id": "c",
+            "en": "The poster was swallowed by an animal.",
+            "zh": "海報被一隻動物吞下。"
+          },
+          {
+            "id": "d",
+            "en": "The formatting problem was solved instantly.",
+            "zh": "排版問題瞬間就解決了。"
+          }
+        ],
+        "explanationZh": "一個小排版問題佔去大量時間，才令 Leo 沒時間校對；這是時間消耗的比喻。",
+        "answerId": "a",
+        "en": "Fixing one tiny formatting problem swallowed time whole, and Leo had no time left to proofread the poster.",
+        "zh": "修正一個微小的排版問題，卻耗掉大量時間，Leo 最後沒有時間校對海報。"
+      },
+      "reply": {
+        "promptZh": "為甚麼你昨晚沒有完成活動海報？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I spent longer than planned choosing the pictures.",
+            "zh": "我選圖片花了比預計更長的時間。"
+          },
+          {
+            "id": "b",
+            "en": "The online editor kept freezing, so I had to restart.",
+            "zh": "網上編輯器不斷當機，我只好重新開始。"
+          },
+          {
+            "id": "c",
+            "en": "Trying to fix the layout swallowed time whole.",
+            "zh": "嘗試修正版面，一下子耗掉大量時間。"
+          },
+          {
+            "id": "d",
+            "en": "I needed to ask the organiser for the final date first.",
+            "zh": "我需要先向主辦者確認最後日期。"
+          }
+        ],
+        "explanationZh": "四個理由都可以解釋未完成；金句鮮明地表達排版工作吞掉大量時間。",
+        "goldenId": "c",
+        "promptEn": "Why did you not finish the event poster last night?"
+      },
+      "scene": {
+        "promptZh": "學校網站每次上載照片都要求重填多個欄位，原本十分鐘的工作花了一小時。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The repeated form swallowed time whole.",
+            "zh": "重複填寫表格一下子耗掉大量時間。"
+          },
+          {
+            "id": "b",
+            "en": "The upload finished in one minute without any extra steps.",
+            "zh": "上載在一分鐘內完成，完全不用多做任何步驟。"
+          },
+          {
+            "id": "c",
+            "en": "The repeated form made the upload finish earlier than expected.",
+            "zh": "重複填寫表格令上載比預期更早完成。"
+          }
+        ],
+        "explanationZh": "重複欄位令短工作變成一小時，符合出乎意料地大量耗時；另外兩個選項卻說上傳速度變快，與情境不符。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "按本課『大量耗時』的意思，哪種情況最不適合使用 swallow time whole？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A confusing form takes an entire afternoon instead of ten minutes.",
+            "zh": "一份混亂的表格花了整個下午，而非十分鐘。"
+          },
+          {
+            "id": "b",
+            "en": "A one-click setting changes immediately and takes no extra work.",
+            "zh": "按一下設定便立即改好，無須額外工夫。"
+          },
+          {
+            "id": "c",
+            "en": "A minor software problem delays the team for hours.",
+            "zh": "一個小程式問題令團隊延誤幾小時。"
+          }
+        ],
+        "explanationZh": "即時完成的設定沒有耗掉大量時間；另外兩項都有意外而顯著的時間損失。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事說：『我們一直在整理不重要的檔名，主要報告還沒開始。』你怎樣回應最有幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Renaming files is swallowing time whole. Let’s stop now and reserve an hour for the report.",
+            "zh": "更改檔名一下子耗掉大量時間。我們現在先停下，留一小時寫報告。"
+          },
+          {
+            "id": "b",
+            "en": "Let's spend the rest of the day changing file names.",
+            "zh": "我們今天餘下時間都用來改檔名吧。"
+          },
+          {
+            "id": "c",
+            "en": "Let's assume the report is complete because the folder looks tidy.",
+            "zh": "資料夾看起來整齊，我們就當報告已完成。"
+          }
+        ],
+        "explanationZh": "更改次要檔名正在大量耗時，先停下並安排報告時間可保護重點工作；其他回應加重問題。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "A confusing registration form can swallow time whole on a busy morning.",
+        "zh": "忙碌的早上，一份難懂的登記表可能一下子耗掉大量時間。",
+        "promptZh": "先聽示範，再說明混亂的登記程序如何影響時間安排。",
+        "targetSpan": {
+          "start": 34,
+          "end": 52
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你為社區演出整理相片，原本只想快速改幾張，卻花了大半天調整格式。用一至兩句英文描述問題及下一步。",
+        "selfCheckZh": "指出格式工作出乎意料地耗掉大量時間，並提出把餘下時間留給較重要工作的做法。",
+        "examples": [
+          {
+            "en": "Changing the photo format swallowed time whole. I will stop editing and finish the programme first.",
+            "zh": "更改相片格式一下子耗掉大量時間。我會先停止編輯，完成節目單。"
+          },
+          {
+            "en": "The image edits swallowed time whole, so we should use the remaining hour to check the programme.",
+            "zh": "修圖一下子耗掉大量時間，所以我們應用餘下的一小時檢查節目單。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the photo format",
+            "zh": "相片格式",
+            "exampleIndex": 0,
+            "span": {
+              "start": 9,
+              "end": 25
+            }
+          },
+          {
+            "en": "stop editing",
+            "zh": "停止編輯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 67
+            }
+          },
+          {
+            "en": "finish the programme",
+            "zh": "完成節目單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 92
+            }
+          },
+          {
+            "en": "image edits",
+            "zh": "修圖",
+            "exampleIndex": 1,
+            "span": {
+              "start": 4,
+              "end": 15
+            }
+          },
+          {
+            "en": "the remaining hour",
+            "zh": "餘下的一小時",
+            "exampleIndex": 1,
+            "span": {
+              "start": 55,
+              "end": 73
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A confusing sign-up process can swallow time whole if nobody explains the steps.",
+          "zh": "如果沒有人解釋步驟，混亂的報名程序可能一下子耗掉大量時間。"
+        },
+        {
+          "en": "Checking every tiny detail swallowed time whole and left little time for the main task.",
+          "zh": "檢查每個微小細節一下子耗掉大量時間，令主要工作所剩時間無幾。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2162",
+      "number": 2162,
+      "inventoryId": "expr-2162",
+      "titleEn": "moving the main task forward",
+      "titleZh": "推進主要工作",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:move|moves|moved|moving) the main task forward\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Make real progress on the central piece of work, rather than merely staying busy.",
+        "meaningZh": "令最重要的工作有實際進展，而不只是忙於周邊事項。",
+        "grammar": "move/moved/moving the main task forward; often followed by by + action.",
+        "register": "Practical neutral work and study language.",
+        "boundaryZh": "要有主項目的實際進展；整理雜項但未處理核心工作，不算推進。",
+        "misconceptionZh": "forward 在這裏是進度，不是把物件往前搬。",
+        "outcomeZh": "能分辨真正推進核心工作與只完成次要雜務。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0051",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 5,
+          "book": 10,
+          "question": 4,
+          "sample": "S2",
+          "sourceBookPages": "10–12",
+          "locatorNote": "DOCX table 4, row 15; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We spent the morning moving the main task forward.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "moving the main task forward"
+        }
+      ],
+      "listening": {
+        "promptZh": "小組甚麼時候開始推進主要工作？",
+        "options": [
+          {
+            "id": "a",
+            "en": "When it produced an outline for the report.",
+            "zh": "當他們寫出報告大綱時。"
+          },
+          {
+            "id": "b",
+            "en": "As soon as it began comparing colours.",
+            "zh": "一開始比較顏色時。"
+          },
+          {
+            "id": "c",
+            "en": "When it physically moved the report to the front of the table.",
+            "zh": "當他們真的把報告移到桌面前方時。"
+          },
+          {
+            "id": "d",
+            "en": "Only after the report had already been submitted.",
+            "zh": "只在報告已提交後。"
+          }
+        ],
+        "explanationZh": "寫出報告大綱才令核心工作前進；選顏色只是周邊事項，搬動物件則誤解了比喻。",
+        "answerId": "a",
+        "en": "The group spent the morning choosing colours, but it only moved the main task forward when it wrote the report outline.",
+        "zh": "小組一早上都在選顏色，但直到寫下報告大綱，才真正推進主要工作。"
+      },
+      "reply": {
+        "promptZh": "今天你們怎樣讓社區調查有實際進展？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We interviewed five residents this afternoon.",
+            "zh": "我們今天下午訪問了五名居民。"
+          },
+          {
+            "id": "b",
+            "en": "We drafted the first section of the findings.",
+            "zh": "我們起草了調查結果的第一節。"
+          },
+          {
+            "id": "c",
+            "en": "We moved the main task forward by checking the survey responses.",
+            "zh": "我們核對問卷回應，推進了主要工作。"
+          },
+          {
+            "id": "d",
+            "en": "We gathered the figures for the next section.",
+            "zh": "我們蒐集了下一節要用的數據。"
+          }
+        ],
+        "explanationZh": "四項都能合理說明調查進展；金句明確用本課表達指出核心工作取得進展。",
+        "goldenId": "c",
+        "promptEn": "How did your team make progress on the community survey today?"
+      },
+      "scene": {
+        "promptZh": "學生要交科學報告，花兩小時美化封面，卻一頁分析都未寫。哪項行動最能推進主要工作？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Start analysing the results and write the first paragraph.",
+            "zh": "開始分析結果，並寫下第一段。"
+          },
+          {
+            "id": "b",
+            "en": "Try ten more colours for the cover.",
+            "zh": "再試十種封面顏色。"
+          },
+          {
+            "id": "c",
+            "en": "Rearrange the pens on the desk again.",
+            "zh": "再次整理桌上的筆。"
+          }
+        ],
+        "explanationZh": "報告的核心是分析結果，寫下第一段才真正推進；另兩項仍是周邊雜務。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "按本課『核心工作有實際進展』的意思，哪種情況最不適合說 moving the main task forward？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The writer completes the introduction to the proposal.",
+            "zh": "寫作者完成了建議書的引言。"
+          },
+          {
+            "id": "b",
+            "en": "The team checks evidence for its central argument.",
+            "zh": "團隊核對核心論點的證據。"
+          },
+          {
+            "id": "c",
+            "en": "The team spends all day picking a font and writes no content.",
+            "zh": "團隊整天選字型，卻沒有寫任何內容。"
+          }
+        ],
+        "explanationZh": "只選字型而沒有內容進展，不符合推進核心工作的意思；前兩項直接處理主項目。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "同事說：『我們一直改簡報背景，但明天就要報告結果。』你怎樣回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let’s move the main task forward by drafting the results first. We can polish the slides later.",
+            "zh": "我們先起草結果，推進主要工作。之後才美化投影片。"
+          },
+          {
+            "id": "b",
+            "en": "Let's keep changing the background until the deadline passes.",
+            "zh": "我們一直更改背景，直到限期過去。"
+          },
+          {
+            "id": "c",
+            "en": "A polished background means the results need no checking.",
+            "zh": "背景設計精美，結果就不用核對。"
+          }
+        ],
+        "explanationZh": "限期前先起草核心結果，才能推進主要工作；簡報外觀可稍後處理。其餘回應把次要工作置於主要工作之上。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Writing the first clear paragraph moved the main task forward more than another hour of formatting.",
+        "zh": "寫出清楚的第一段，比再花一小時排版更能推進主要工作。",
+        "promptZh": "先聽示範，再說明為甚麼寫出第一段比繼續排版重要。",
+        "targetSpan": {
+          "start": 34,
+          "end": 61
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你們要為鄰里會議準備建議書，卻一直挑選圖片，還未寫建議內容。用一至兩句英文說明怎樣推進主要工作。",
+        "selfCheckZh": "指出主要工作是撰寫建議，並提出一個能帶來內容進展的具體步驟。",
+        "examples": [
+          {
+            "en": "Drafting the proposal will move the main task forward. We can choose pictures after the ideas are clear.",
+            "zh": "起草建議書能推進主要工作。待想法清楚後，我們才挑選圖片。"
+          },
+          {
+            "en": "We moved the main task forward by writing two practical suggestions for the neighbours.",
+            "zh": "我們寫下兩項給鄰居的實際建議，推進了主要工作。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Drafting the proposal",
+            "zh": "起草建議書",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 21
+            }
+          },
+          {
+            "en": "choose pictures",
+            "zh": "挑選圖片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 77
+            }
+          },
+          {
+            "en": "the ideas are clear",
+            "zh": "想法清楚",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 103
+            }
+          },
+          {
+            "en": "two practical suggestions",
+            "zh": "兩項實際建議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 42,
+              "end": 67
+            }
+          },
+          {
+            "en": "the neighbours",
+            "zh": "鄰居",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 86
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A clear outline can move the main task forward before the team polishes its slides.",
+          "zh": "清楚的大綱可在團隊美化投影片之前推進主要工作。"
+        },
+        {
+          "en": "The group spent less time on decoration and more time moving the main task forward.",
+          "zh": "小組減少裝飾時間，增加推進主要工作的時間。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2166",
+      "number": 2166,
+      "inventoryId": "expr-2166",
+      "titleEn": "see delays coming",
+      "titleZh": "預先察覺延誤",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:see|sees|saw|seen|seeing) delays coming\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Recognise signs in advance that something will probably run late.",
+        "meaningZh": "根據早期跡象，預先察覺可能會延誤。",
+        "grammar": "see/saw/seeing delays coming; no claim that the exact delay duration is known.",
+        "register": "Conversational and practical planning phrase.",
+        "boundaryZh": "須有預先判斷的線索；延誤已發生後才知道，不算預先察覺。",
+        "misconceptionZh": "不是用眼睛真的看見未來，而是根據資訊預測。",
+        "outcomeZh": "能利用交通或活動資訊提早判斷延誤並調整計劃。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0055",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 6,
+          "book": 10,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "13–14",
+          "locatorNote": "DOCX table 5, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Live updates help passengers see delays coming.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "see delays coming"
+        }
+      ],
+      "listening": {
+        "promptZh": "司機為何改道？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He had early information that the journey might run late.",
+            "zh": "他提早得知車程可能延誤。"
+          },
+          {
+            "id": "b",
+            "en": "He had already reached the destination on time.",
+            "zh": "他已準時到達目的地。"
+          },
+          {
+            "id": "c",
+            "en": "He could physically see tomorrow's journey.",
+            "zh": "他真的能用眼睛看見明天的旅程。"
+          },
+          {
+            "id": "d",
+            "en": "The app guaranteed the other route would never be busy.",
+            "zh": "應用程式保證另一條路永不擠塞。"
+          }
+        ],
+        "explanationZh": "前方交通資訊讓司機在延誤發生前作判斷；並非預知未來或保證另一條路暢通。",
+        "answerId": "a",
+        "en": "The app showed heavy traffic ahead, so the driver saw delays coming and chose another route.",
+        "zh": "應用程式顯示前方交通擠塞，因此司機預先察覺可能延誤，選了另一條路。"
+      },
+      "reply": {
+        "promptZh": "你怎樣在出門前決定是否要提早乘車？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I check the live bus arrival times.",
+            "zh": "我查看巴士即時到站時間。"
+          },
+          {
+            "id": "b",
+            "en": "I look at traffic updates for my usual route.",
+            "zh": "我查看慣常路線的交通消息。"
+          },
+          {
+            "id": "c",
+            "en": "The travel app helps me see delays coming.",
+            "zh": "交通應用程式幫我預先察覺延誤。"
+          },
+          {
+            "id": "d",
+            "en": "I ask whether the road is closed today.",
+            "zh": "我詢問今天道路是否封閉。"
+          }
+        ],
+        "explanationZh": "四個回答都可幫助決定出門時間；金句直接表達透過資訊預先察覺可能的延誤。",
+        "goldenId": "c",
+        "promptEn": "How do you decide whether to leave earlier before travelling?"
+      },
+      "scene": {
+        "promptZh": "車站螢幕顯示列車預計晚到十五分鐘，而列車尚未抵站。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The passengers can see delays coming and adjust their plans.",
+            "zh": "乘客可以預先察覺延誤並調整安排。"
+          },
+          {
+            "id": "b",
+            "en": "The passengers know the train arrived yesterday.",
+            "zh": "乘客知道火車昨天已抵達。"
+          },
+          {
+            "id": "c",
+            "en": "The screen gives no information about timing.",
+            "zh": "螢幕沒有提供任何時間資訊。"
+          }
+        ],
+        "explanationZh": "預計晚到十五分鐘是提早判斷的線索；其餘選項與螢幕資訊相反。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "按本課『事先察覺可能延誤』的意思，哪種情況最不適合使用 see delays coming？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A road notice warns of lane closures tomorrow.",
+            "zh": "道路公告預告明天有行車線封閉。"
+          },
+          {
+            "id": "b",
+            "en": "A live map shows traffic building up ahead.",
+            "zh": "即時地圖顯示前方開始塞車。"
+          },
+          {
+            "id": "c",
+            "en": "The event ended an hour late before anyone noticed the time.",
+            "zh": "活動已晚一小時結束，大家事前卻沒有留意時間。"
+          }
+        ],
+        "explanationZh": "活動結束後才知道超時，並非提早察覺；另外兩項都有預先線索。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：『路線應用程式剛顯示前方大塞車，我們可能趕不上開場。』你怎樣回應最有幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can see delays coming from the app. Let’s check another route and tell the organiser we may be late.",
+            "zh": "我們可從應用程式預先察覺延誤。一起查看其他路線，並通知主辦者我們可能遲到。"
+          },
+          {
+            "id": "b",
+            "en": "Let's ignore the update and say we are already there.",
+            "zh": "我們無視消息，說自己已經到達。"
+          },
+          {
+            "id": "c",
+            "en": "The traffic warning proves the event has been cancelled.",
+            "zh": "交通警告證明活動已取消。"
+          }
+        ],
+        "explanationZh": "應用程式提供提早警告，據此查看其他路線並通知相關人士是具體做法；警告並不等於活動取消。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "With live updates, we can see delays coming before we leave the station.",
+        "zh": "有即時資訊，我們在離開車站前就能預先察覺可能的延誤。",
+        "promptZh": "先聽示範，再說明即時資訊如何幫助你預先判斷延誤。",
+        "targetSpan": {
+          "start": 26,
+          "end": 43
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你負責安排一班同學去參觀展覽，交通應用程式顯示原定巴士可能晚到。用一至兩句英文說明你如何預先判斷並調整安排。",
+        "selfCheckZh": "指出應用程式提供了可能延誤的線索，並提出提早出發、轉車或通知展館等可行動作。",
+        "examples": [
+          {
+            "en": "The live bus update helps us see delays coming. Let's take an earlier service to the exhibition.",
+            "zh": "巴士即時資訊幫我們預先察覺可能延誤。讓我們乘較早的班次前往展覽。"
+          },
+          {
+            "en": "We saw delays coming on the app, so we told the gallery that our group might arrive late.",
+            "zh": "我們在應用程式預先察覺可能延誤，所以告訴展館本團可能會遲到。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The live bus update",
+            "zh": "巴士即時資訊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 19
+            }
+          },
+          {
+            "en": "an earlier service",
+            "zh": "較早的班次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 59,
+              "end": 77
+            }
+          },
+          {
+            "en": "the exhibition",
+            "zh": "展覽",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 95
+            }
+          },
+          {
+            "en": "on the app",
+            "zh": "在應用程式上",
+            "exampleIndex": 1,
+            "span": {
+              "start": 21,
+              "end": 31
+            }
+          },
+          {
+            "en": "our group might arrive late",
+            "zh": "本團可能遲到",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 88
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Clear travel updates help us see delays coming before they disrupt the plan.",
+          "zh": "清楚的交通資訊幫我們在延誤打亂計劃前預先察覺。"
+        },
+        {
+          "en": "The organiser saw delays coming and warned the visitors early.",
+          "zh": "主辦者預先察覺可能延誤，及早提醒訪客。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2167",
+      "number": 2167,
+      "inventoryId": "expr-2167",
+      "titleEn": "takes a lot of the guesswork out of",
+      "titleZh": "大幅減少猜測",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:take|takes|took|taken|taking) a lot of the guesswork out of\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Remove much of the uncertainty from a task by providing useful guidance or information.",
+        "meaningZh": "透過清楚資訊或指引，大幅減少做某事時的不確定性。",
+        "grammar": "take/takes/took a lot of the guesswork out of + noun or -ing activity.",
+        "register": "Common idiomatic phrase in helpful guidance and technology contexts.",
+        "boundaryZh": "是減少很多猜測，不等於消除所有問題，也不表示工具代替人作每個決定。",
+        "misconceptionZh": "guesswork 不是正式的猜謎遊戲，而是缺乏資訊時靠估計行事。",
+        "outcomeZh": "能解釋清楚步驟或即時資料如何減少一項工作的不確定性。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0056",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 6,
+          "book": 10,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "13–14",
+          "locatorNote": "DOCX table 5, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A clear checklist takes a lot of the guesswork out of registration.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "takes a lot of the guesswork out of"
+        }
+      ],
+      "listening": {
+        "promptZh": "地圖對規劃參觀有甚麼幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gives information that reduces uncertainty about the route.",
+            "zh": "它提供資料，減少對路線的不確定性。"
+          },
+          {
+            "id": "b",
+            "en": "It guarantees that every visitor will enjoy the same activity.",
+            "zh": "它保證每名訪客都會喜歡同一活動。"
+          },
+          {
+            "id": "c",
+            "en": "It removes all need to decide when to leave.",
+            "zh": "它令大家完全不用決定何時出門。"
+          },
+          {
+            "id": "d",
+            "en": "It asks visitors to guess where every entrance is.",
+            "zh": "它要求訪客猜測每個入口在哪裏。"
+          }
+        ],
+        "explanationZh": "標示入口讓路線規劃有依據，減少猜測；並非保證所有決定都可省略。",
+        "answerId": "a",
+        "en": "The map marked every accessible entrance, which took a lot of the guesswork out of planning the visit.",
+        "zh": "地圖標出了每個無障礙入口，大幅減少了規劃參觀路線時的不確定性。"
+      },
+      "reply": {
+        "promptZh": "新義工怎樣知道如何替參加者登記？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They can follow the printed steps at the desk.",
+            "zh": "他們可以依照桌上的印製步驟。"
+          },
+          {
+            "id": "b",
+            "en": "An experienced volunteer can show them the form.",
+            "zh": "有經驗的義工可以向他們示範表格。"
+          },
+          {
+            "id": "c",
+            "en": "A clear guide takes a lot of the guesswork out of registration.",
+            "zh": "清楚的指南大幅減少登記程序中的猜測。"
+          },
+          {
+            "id": "d",
+            "en": "They can ask the organiser before the session starts.",
+            "zh": "他們可以在活動開始前詢問主辦者。"
+          }
+        ],
+        "explanationZh": "四項都能提供協助；金句指出清楚指引可減少登記工作的不確定性。",
+        "goldenId": "c",
+        "promptEn": "How can new volunteers learn to register participants?"
+      },
+      "scene": {
+        "promptZh": "社團發給新成員一張列明步驟和所需文件的報名表。哪句最能說明它的作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It takes a lot of the guesswork out of signing up.",
+            "zh": "它大幅減少報名時要靠猜測的部分。"
+          },
+          {
+            "id": "b",
+            "en": "It makes all applicants guess which papers to bring.",
+            "zh": "它令所有申請人猜測要帶哪些文件。"
+          },
+          {
+            "id": "c",
+            "en": "It guarantees that every applicant will be accepted.",
+            "zh": "它保證每名申請人都會獲接納。"
+          }
+        ],
+        "explanationZh": "表格列清步驟與文件，能減少不確定性；但不能保證每人獲接納。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "按本課『有資訊可減少猜測』的意思，哪種情況最不適合使用這個表達？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A timetable shows exact departure points and times.",
+            "zh": "時間表列明確切出發地點和時間。"
+          },
+          {
+            "id": "b",
+            "en": "A guide explains each stage of an online form.",
+            "zh": "指南解釋網上表格的每個階段。"
+          },
+          {
+            "id": "c",
+            "en": "A vague notice says only 'work it out yourself' without any steps or location details.",
+            "zh": "一張含糊的告示只寫着「自行想辦法」，沒有任何步驟或地點資料。"
+          }
+        ],
+        "explanationZh": "含糊的告示沒有提供可用指引，不會減少猜測；前兩項都提供了具體資訊。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：『第一次去新場地，不知道入口在哪裏。』你怎樣回應最有幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A map with the entrance marked would take a lot of the guesswork out of finding the venue. I'll send it with a photo of the door.",
+            "zh": "標明入口的地圖可大幅減少尋找場地時的不確定性。我會連同門口照片傳給你。"
+          },
+          {
+            "id": "b",
+            "en": "Just pick a random door and hope it is open.",
+            "zh": "隨便選一扇門，希望它開着吧。"
+          },
+          {
+            "id": "c",
+            "en": "If the entrance is hard to find, the event must be cancelled.",
+            "zh": "如果入口難找，活動一定已取消。"
+          }
+        ],
+        "explanationZh": "標明入口的地圖和照片能大幅減少猜測；亂選入口或推斷活動取消都欠根據。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The step-by-step guide takes a lot of the guesswork out of setting up the camera.",
+        "zh": "逐步指南大幅減少設置相機時的不確定性。",
+        "promptZh": "先聽示範，再說明逐步指南如何幫助使用者設置相機。",
+        "targetSpan": {
+          "start": 23,
+          "end": 58
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你帶新義工使用社區中心的投影機。機器有幾個接口，你準備了圖文步驟。用一至兩句英文說明指引有甚麼幫助，但不要保證完全不會出錯。",
+        "selfCheckZh": "指出圖文步驟能減少設置投影機時的猜測，並保留遇到問題時向職員求助的空間。",
+        "examples": [
+          {
+            "en": "The picture guide takes a lot of the guesswork out of setting up the projector. Volunteers can ask for help if a cable is missing.",
+            "zh": "圖文指南大幅減少設置投影機時的不確定性。如果缺少接線，義工仍可求助。"
+          },
+          {
+            "en": "Clear labels took a lot of the guesswork out of connecting the projector, though we still checked the screen.",
+            "zh": "清楚的標籤大幅減少連接投影機時要靠猜測的部分，但我們仍檢查了畫面。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The picture guide",
+            "zh": "圖文指南",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "setting up the projector",
+            "zh": "設置投影機",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 78
+            }
+          },
+          {
+            "en": "a cable is missing",
+            "zh": "缺少接線",
+            "exampleIndex": 0,
+            "span": {
+              "start": 111,
+              "end": 129
+            }
+          },
+          {
+            "en": "Clear labels",
+            "zh": "清楚的標籤",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 12
+            }
+          },
+          {
+            "en": "checked the screen",
+            "zh": "檢查畫面",
+            "exampleIndex": 1,
+            "span": {
+              "start": 90,
+              "end": 108
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A labelled diagram takes a lot of the guesswork out of assembling the stand.",
+          "zh": "有標示的圖表大幅減少組裝支架時要靠猜測的部分。"
+        },
+        {
+          "en": "The clear checklist took a lot of the guesswork out of preparing for the trip.",
+          "zh": "清楚的清單大幅減少準備行程時的不確定性。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

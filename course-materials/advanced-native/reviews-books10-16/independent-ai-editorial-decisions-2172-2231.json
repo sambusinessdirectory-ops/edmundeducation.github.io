@@ -1,0 +1,119 @@
+{
+  "reviewType": "independent AI editorial decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "decisionState": "provisional; unpublished",
+  "scope": {
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+    "sourceInventory": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "comparisonDecisions": [
+      "course-materials/advanced-native/books10-16/editorial-decisions-2112-2141.jsonl",
+      "course-materials/advanced-native/books10-16/editorial-decisions-2142-2171.jsonl"
+    ],
+    "priorLabels": "course-materials/advanced-native/provenance/source-labels.json",
+    "priorLessons": "course-materials/advanced-native/batches/*.json",
+    "decisionCount": 60
+  },
+  "counts": {
+    "proposedAliasExisting": 30,
+    "proposedAliasNew": 3,
+    "holdEditorial": 10,
+    "proposedNewLesson": 17,
+    "findings": 9,
+    "major": 8,
+    "minor": 1
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 2172,
+      "sourceId": "book10-16-0061",
+      "phrase": "until the last minute",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "The source says 'wait until the last minute', describing a delay that continues up to the near-deadline point. Canonical 1821 teaches a last-minute arrangement and an action/change 'at the last minute'; its brief, grammar and target pattern do not teach 'until'. Treating the prepositions as one temporal meaning would hide a useful usage contrast, and the decision's own reason says the distinction still needs review.",
+      "recommendedFix": "Change this to hold-editorial while comparing the full usage, then either create a separate until-the-last-minute lesson or explicitly extend canonical 1821 with the delay-until construction and contrasted exercises before aliasing."
+    },
+    {
+      "sourceOrdinal": 2179,
+      "sourceId": "book10-16-0068",
+      "phrase": "pulled in too many directions at once",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "The competing-demands sense matches canonical 841, but that lesson's target pattern only accepts 'pulled in [ten] different directions'. It does not accept the source's 'too many directions at once'. The proposed alias overstates the current lesson's coverage.",
+      "recommendedFix": "Keep this as a conditional alias and revise the canonical target pattern, grammar and examples to include the natural too-many-directions variant; otherwise hold the source rather than marking it covered."
+    },
+    {
+      "sourceOrdinal": 2182,
+      "sourceId": "book10-16-0071",
+      "phrase": "on paper",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "Canonical 567 teaches the 'look ... on paper' contrast, but its target pattern only admits impressive/good/secure. The source sentence 'The schedule looks simple on paper' cannot match. The semantic alias is plausible, but the exact source form is not yet covered by the existing lesson.",
+      "recommendedFix": "Expand canonical 567's target pattern and boundary/examples to cover 'looks simple on paper', then record the new source occurrence as an alias; or hold until that canonical revision is reviewed."
+    },
+    {
+      "sourceOrdinal": 2184,
+      "sourceId": "book10-16-0073",
+      "phrase": "eat into the day",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "Canonical 1149 correctly explains consumption of a finite resource and includes time, but its target pattern accepts budget/time/energy, not 'the day'. Thus the decision's specific source phrase and example are not actually represented by the canonical target matcher.",
+      "recommendedFix": "Extend and review canonical 1149 for 'eat into the day' as a time-resource variant, or hold this alias pending that work."
+    },
+    {
+      "sourceOrdinal": 2210,
+      "sourceId": "book10-16-0099",
+      "phrase": "lean into",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "A new 2210 lesson is proposed on the ground that canonical 1687 is limited to adopting healthy habits. Yet 1687's own source classification says 'healthy habits' is a contextual object, not a separate fixed idiom, and its brief defines figurative lean into as active engagement. Leaning into a festival's local character is a closely related deliberate-embrace/emphasis use, not demonstrably a new lexical target.",
+      "recommendedFix": "Compare the two lean-into contexts in an editorial hold. Prefer one broadened canonical lean-into lesson, with distinct objects, semantic boundaries and target pattern, unless an editor documents a defensible sense split."
+    },
+    {
+      "sourceOrdinal": 2214,
+      "sourceId": "book10-16-0103",
+      "phrase": "juggling work",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "Canonical 1872 says the number three is only a source frame, so the competing-demands sense can be shared. But its actual target pattern is the exact 'juggle three things at once', and the source 'Juggling work and family duties ...' is a broader verb-object construction that the lesson cannot match. The current alias would leave the source expression unassessed.",
+      "recommendedFix": "Broaden canonical 1872 to the juggle-work-and-other-demands construction and review its target detector/exercises, or hold the source instead of treating it as already taught."
+    },
+    {
+      "sourceOrdinal": 2221,
+      "sourceId": "book10-16-0110",
+      "phrase": "all work and no breathing space",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "The source replaces the established 'all work and no play' proverb fragment with 'no breathing space'. That changes the lexical target and may shift the emphasis from recreation to rest/capacity. Canonical 639 only teaches and matches 'all work and no play'. The decision itself says the wording needs editor confirmation yet labels it an existing alias.",
+      "recommendedFix": "Change to hold-editorial for idiomaticity and meaning review. If accepted as a productive variant, explicitly revise the canonical teaching and target matching; otherwise mark the source as a creative paraphrase rather than claiming an existing proverb lesson covers it."
+    },
+    {
+      "sourceOrdinal": 2222,
+      "sourceId": "book10-16-0111",
+      "phrase": "strengthen bonds",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "Canonical 1524 is a narrow passive sentence, 'family bonds are quietly strengthened', with family, quietness and passive syntax built into its target pattern and brief. The new source is the active general collocation 'strengthen bonds across generations'. The meanings are related but the existing lesson does not cover the source's syntax or scope.",
+      "recommendedFix": "Hold the merge pending an explicit decision: either broaden canonical 1524 into a general strengthen-bonds lesson with active/passive forms and non-family contexts, or create a separate natural-collocation lesson."
+    },
+    {
+      "sourceOrdinal": 2227,
+      "sourceId": "book10-16-0116",
+      "phrase": "drawn to",
+      "path": "action; canonicalId; reason",
+      "severity": "minor",
+      "explanation": "Canonical 021 has the right attraction sense, but its current grammar and target pattern require 'feel drawn to'; the source example uses 'are drawn to'. A passive be-form is a valid variant, so this is a canonical-coverage gap rather than a separate sense.",
+      "recommendedFix": "Add and check be + drawn to variants in canonical 021 before treating this source form as fully covered."
+    }
+  ],
+  "mechanicalChecks": [
+    "All 60 source IDs exist; source ordinal, source ID suffix and phrase agree with the source inventory, with contiguous ordinals 2172–2231.",
+    "All 17 proposed-new-lesson canonical IDs follow their source ordinals; every hold has a null canonical ID; all three alias-new IDs have a proposed-new owner in the preceding 60 decisions.",
+    "No duplicate source ID or ownership collision was found within these 60 decisions or against the preceding 60 decisions.",
+    "Automated exact-prior suggestions do not contradict any canonical ID in this set; this does not establish semantic equivalence."
+  ],
+  "limits": [
+    "This is AI peer review of provisional editorial decisions, not independent human language approval, owner acceptance or release approval.",
+    "Source comparisons used the extracted source inventory, prior source labels and canonical lesson records; this review did not perform separate page-by-page inspection of the original DOCX or device/audio testing."
+  ]
+}

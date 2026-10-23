@@ -1,0 +1,23 @@
+{
+  "reviewType": "independent AI editorial decision follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "decisionState": "provisional; unpublished",
+  "scope": "The sixty decisions in editorial-decisions-2172-2231.jsonl, rechecked against all nine findings in independent-ai-editorial-decisions-2172-2231.json",
+  "result": {
+    "priorFindings": 9,
+    "resolvedOnFollowUp": 9,
+    "stillOpenFromPriorReview": 0,
+    "newFindingsWithinThisFile": 0
+  },
+  "resolvedSourceOrdinals": [2172, 2179, 2182, 2184, 2210, 2214, 2221, 2222, 2227],
+  "resolution": "Each flagged provisional alias or new-lesson decision is now hold-editorial with a null canonicalId and a concrete reason naming the usage, canonical-coverage or naturalness question that must be resolved before teaching or merging.",
+  "mechanicalRecheck": [
+    "All 60 source ordinals remain contiguous and their source IDs and phrases match the source inventory.",
+    "Every hold has a null canonical ID; all proposed-new IDs follow their source ordinals; all alias-new IDs still point to an earlier proposed-new owner."
+  ],
+  "limits": [
+    "The nine issues are resolved as safe editorial holds, not as verified source senses or approved lessons. An independent human editor still needs to decide each held item.",
+    "This is AI peer review, not human approval, owner acceptance or release approval."
+  ]
+}

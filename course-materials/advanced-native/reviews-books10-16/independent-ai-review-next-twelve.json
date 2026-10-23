@@ -1,0 +1,200 @@
+{
+  "reviewType": "independent AI editorial peer review",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftState": "unpublished",
+  "scope": {
+    "batchFiles": [
+      "course-materials/advanced-native/drafts-books10-16/batch-2141-2150-a.json",
+      "course-materials/advanced-native/drafts-books10-16/batch-2151-2167-b2.json"
+    ],
+    "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sop": "work/advanced-native-books10-16/sop-extracted.txt",
+    "lessonCount": 12
+  },
+  "overallVerdict": "Editorial repair required before human review or release. This AI review is not owner acceptance.",
+  "lessons": [
+    {
+      "lessonId": "advanced-native-2141",
+      "sourceSense": "Memory can be unreliable when multiple details compete for attention; guide sense preserved.",
+      "findings": []
+    },
+    {
+      "lessonId": "advanced-native-2143",
+      "sourceSense": "Physically prepare clothes for later use; source sense and lay/laid grammar preserved.",
+      "findings": [
+        {
+          "path": "listening.en; listening.promptZh",
+          "severity": "major",
+          "explanation": "The question asks what the speaker prepared before bed, but the audio model only says 'Before the early train'. It does not establish that the preparation occurred at bedtime rather than on the morning of travel.",
+          "recommendedFix": "Add 'the night before' to the model or ask more generally what the speaker prepared before the train; align the Chinese and regenerate audio if text changes."
+        },
+        {
+          "path": "scene.options[c].en; scene.options[c].zh",
+          "severity": "major",
+          "explanation": "Writing a long essay about the history of a uniform is an absurdly unrelated alternative to preparing clothes for a six-o'clock departure. It makes the keyed advice trivial rather than testing a plausible misconception or competing plan.",
+          "recommendedFix": "Use a realistic but inferior preparation option, such as selecting clothes after waking at departure time, with faithful Chinese."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2144",
+      "sourceSense": "Leave an outcome to luck instead of planning; guide sense preserved.",
+      "findings": [
+        {
+          "path": "listening.en; listening.zh; listening.explanationZh",
+          "severity": "major",
+          "explanation": "The ferry runs twice daily, and booking seats prevents a capacity problem; it does not determine the ferry's departure timing. Saying they booked seats rather than leaving 'the timing' to chance misidentifies the planned variable.",
+          "recommendedFix": "Change the target's object to 'our places on the ferry' or add an action that actually secures the intended timing, then align translation, question rationale and audio text."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2146",
+      "sourceSense": "A setback places someone at a temporary disadvantage; guide sense preserved without guaranteeing failure.",
+      "findings": []
+    },
+    {
+      "lessonId": "advanced-native-2149",
+      "sourceSense": "An external system stores and retrieves useful information; guide sense preserved.",
+      "findings": []
+    },
+    {
+      "lessonId": "advanced-native-2150",
+      "sourceSense": "Lay out relevant information clearly for a decision; guide sense preserved.",
+      "findings": [
+        {
+          "path": "scene.options[c].en; scene.options[c].zh",
+          "severity": "major",
+          "explanation": "Moving chairs outside without telling anyone the room sizes is unrelated to the request to compare venue data. The option is neither a natural competing recommendation nor a useful contrast with the taught informational sense.",
+          "recommendedFix": "Use a realistic but inadequate comparison, such as showing only the rent or laying out physical brochures without their key details; keep a single defensible key."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2151",
+      "sourceSense": "Mentally coordinate too many responsibilities without an external record; guide sense preserved.",
+      "findings": [
+        {
+          "path": "listening.options[a].en; listening.options[a].zh",
+          "severity": "major",
+          "explanation": "The English 'several commitments' here refers to a meeting, deadlines and a brother's appointment. Chinese '幾項承諾' means several promises and changes the sense of the keyed option.",
+          "recommendedFix": "Translate commitments as '幾項安排或責任', or change the English to 'several arrangements' and keep the model and option consistent."
+        },
+        {
+          "path": "dialogue.options[a].en; dialogue.options[a].zh",
+          "severity": "major",
+          "explanation": "The keyed reply sensibly recommends a calendar, but never uses the lesson expression. The compiled dialogue step promises '把表達放入對話' (put the expression into dialogue).",
+          "recommendedFix": "Include a natural 'juggle everything in your head' form in the helpful reply while retaining the specific calendar suggestion."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2152",
+      "sourceSense": "Lose accurate awareness of spending, time or progress; guide sense preserved.",
+      "findings": [
+        {
+          "path": "dialogue.options[a].en; dialogue.options[a].zh",
+          "severity": "major",
+          "explanation": "The keyed time-management reply omits 'lose track' although the dialogue step promises target-expression practice.",
+          "recommendedFix": "Use a natural target-bearing next turn such as acknowledging they lost track of time before suggesting a clock check and limit."
+        },
+        {
+          "path": "scene.options[c].en; scene.options[c].zh",
+          "severity": "major",
+          "explanation": "A person cannot ordinarily 'lose a physical track' in a sports stadium. This impossible distractor makes the keyed time sense obvious without testing a plausible interpretation.",
+          "recommendedFix": "Use a plausible but wrong inference about deliberate two-hour timing or an unrelated progress-tracking reading."
+        },
+        {
+          "path": "writing.examples[1].en; writing.examples[1].zh",
+          "severity": "minor",
+          "explanation": "'Made a simple total' is strained English for adding up receipt amounts; the Chinese says '簡單計算總額' and is clearer than the model it translates.",
+          "recommendedFix": "Use 'calculated the total' or 'added up the costs', then recheck the whole example and glossary spans."
+        },
+        {
+          "path": "listening.zh",
+          "severity": "minor",
+          "explanation": "'開始不清楚掌握自己的支出' is awkward Traditional Chinese for 'started losing track of its spending'.",
+          "recommendedFix": "Use '開始無法準確掌握支出' or another natural equivalent without overstating complete ignorance."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2153",
+      "sourceSense": "A process consumes a surprisingly large amount of time; guide metaphor preserved.",
+      "findings": [
+        {
+          "path": "dialogue.options[a].en; dialogue.options[a].zh",
+          "severity": "major",
+          "explanation": "The keyed advice to stop renaming files is useful but omits 'swallow time whole', so the dialogue step does not put its target expression into dialogue.",
+          "recommendedFix": "Name how the file-renaming swallowed time whole, then give the specific advice to protect report time."
+        },
+        {
+          "path": "scene.options[c].en; scene.options[c].zh",
+          "severity": "major",
+          "explanation": "Photos being physically eaten by a website is impossible and does not represent a plausible learner error about the target phrase 'swallow time whole'. It makes the keyed time-loss reading too easy.",
+          "recommendedFix": "Replace with a credible but wrong claim about the upload taking little time or improving the process, tied to the actual scene."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2162",
+      "sourceSense": "Make actual progress on central work rather than peripheral busywork; guide sense preserved.",
+      "findings": [
+        {
+          "path": "dialogue.options[a].en; dialogue.options[a].zh",
+          "severity": "major",
+          "explanation": "The keyed suggestion to draft results is sensible but never uses 'move the main task forward', despite the dialogue step's explicit target-use title.",
+          "recommendedFix": "Use a natural target-bearing next turn while keeping the priority of drafting results before polishing slides."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2166",
+      "sourceSense": "Recognise an impending delay from advance signs; guide sense preserved.",
+      "findings": [
+        {
+          "path": "dialogue.options[a].en; dialogue.options[a].zh",
+          "severity": "major",
+          "explanation": "The keyed rerouting advice lacks 'see delays coming', so the target is absent from the dialogue step intended for using the expression.",
+          "recommendedFix": "Acknowledge that they can see delays coming from the app and then propose another route and notice to the organiser."
+        },
+        {
+          "path": "scene.promptZh",
+          "severity": "minor",
+          "explanation": "A station display showing that a train 'has started slowing down' is an odd way to present an expected fifteen-minute delay; it is unclear how the display detects that physical deceleration.",
+          "recommendedFix": "State that the display shows an expected fifteen-minute late arrival, and make clear that the train has not yet arrived."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2167",
+      "sourceSense": "Clear guidance removes much, but not all, uncertainty from a task; guide sense preserved.",
+      "findings": [
+        {
+          "path": "dialogue.options[a].en; dialogue.options[a].zh",
+          "severity": "major",
+          "explanation": "The keyed map-and-photo reply is helpful but omits 'take a lot of the guesswork out of'. The dialogue step promises to put the expression into the response.",
+          "recommendedFix": "Use the target naturally with the marked entrance map, keeping a concise helpful next turn and matching Chinese."
+        },
+        {
+          "path": "contrast.options[c].en; contrast.options[c].zh",
+          "severity": "minor",
+          "explanation": "The notice is described as blank while it contains the sentence 'work it out yourself'. The intended point is lack of usable guidance, but the literal wording is contradictory.",
+          "recommendedFix": "Call it a vague notice that offers only 'work it out yourself', with no steps or location details."
+        }
+      ]
+    }
+  ],
+  "mechanicalObservations": [
+    "The 12 records match their cited source occurrence IDs, phrases, guide example sentences and rendered-PDF page locators.",
+    "All 12 listening models, golden replies, speaking cloze spans, two writing examples and two takeaways retain a target-form match.",
+    "Every stored glossary row is an exact character span of its cited writing example and no glossary row matches its lesson target regex.",
+    "Mechanical checks do not certify answer fairness, naturalness, actual audio playback or rendered line endings."
+  ],
+  "unverifiedGates": [
+    "No human English or Traditional Chinese editor has approved these records.",
+    "No browser or device line-ending inspection has been performed, so no-dangling-word or bracket claims are possible.",
+    "No audio, correct/wrong sound, microphone, accessibility or live-release check has been performed."
+  ]
+}

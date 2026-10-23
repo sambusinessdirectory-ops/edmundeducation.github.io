@@ -1178,11 +1178,11 @@
           },
           {
             "id": "c",
-            "en": "Cancel the second shift even though it is needed.",
-            "zh": "雖然需要第二班，仍把它取消。"
+            "en": "Cancel the second registration session even though it is needed.",
+            "zh": "雖然仍需要第二場登記活動，卻把它取消。"
           }
         ],
-        "explanationZh": "同一張登記桌需要清理，在兩場活動之間預留十分鐘能處理這項工作和小幅延誤；另外兩項沒有合理的場地交接。",
+        "explanationZh": "同一張登記桌需要清理，在兩場活動之間預留十分鐘能處理這項工作和小幅延誤；另外兩項未能合理處理桌面整理。",
         "answerId": "a"
       },
       "contrast": {

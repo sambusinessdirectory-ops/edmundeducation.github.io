@@ -1,0 +1,99 @@
+{
+  "reviewType": "independent AI editorial follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftState": "unpublished",
+  "scope": "The ten drafts in batch-2114-2127-a.json and batch-2132-2138-b.json, rechecked against all 15 findings in independent-ai-review-next-ten.json after repair",
+  "result": {
+    "priorFindings": 15,
+    "resolvedOnFollowUp": 15,
+    "stillOpenFromPriorReview": 0,
+    "newBlockerFindings": 0,
+    "newMajorFindings": 0,
+    "newMinorFindings": 0
+  },
+  "perLesson": [
+    {
+      "lessonId": "advanced-native-2114",
+      "resolved": [
+        "Reply option D now describes a feeling after the apology and answers the prompt independently.",
+        "Scene option B is now a plausible wrong response rather than nonsensical literal taste attributed to a refund."
+      ],
+      "remainingFindings": []
+    },
+    {
+      "lessonId": "advanced-native-2122",
+      "resolved": [],
+      "remainingFindings": []
+    },
+    {
+      "lessonId": "advanced-native-2124",
+      "resolved": [
+        "The scene now states that no overall spending ceiling applies, grounding the unrestricted-discretion key."
+      ],
+      "remainingFindings": []
+    },
+    {
+      "lessonId": "advanced-native-2126",
+      "resolved": [],
+      "remainingFindings": []
+    },
+    {
+      "lessonId": "advanced-native-2127",
+      "resolved": [
+        "The Chinese for reply option A now directly and naturally conveys checking that every required page is present."
+      ],
+      "remainingFindings": []
+    },
+    {
+      "lessonId": "advanced-native-2132",
+      "resolved": [
+        "The keyed dialogue turn now uses the target expression while retaining practical stage-direction advice."
+      ],
+      "remainingFindings": []
+    },
+    {
+      "lessonId": "advanced-native-2133",
+      "resolved": [
+        "The reply prompt now supports four distinct valid planning responses.",
+        "The contrast exception explicitly plans zero spare minutes, removing the ambiguity that a real buffer might merely have proved insufficient.",
+        "The keyed dialogue turn now includes the target expression.",
+        "Both writing models advise the friend about the unreliable bus; the second model no longer shifts to an organiser's room-finding plan."
+      ],
+      "remainingFindings": []
+    },
+    {
+      "lessonId": "advanced-native-2134",
+      "resolved": [
+        "The keyed dialogue turn now includes the target expression and remains responsive to the schedule problem."
+      ],
+      "remainingFindings": []
+    },
+    {
+      "lessonId": "advanced-native-2136",
+      "resolved": [
+        "The keyed dialogue advice now uses the target expression naturally.",
+        "The English writing model now refers to an extended shift, matching the Chinese and the task's unexpectedly longer work shift."
+      ],
+      "remainingFindings": []
+    },
+    {
+      "lessonId": "advanced-native-2138",
+      "resolved": [
+        "The keyed dialogue turn now says the target expression and retains the room-reset reason.",
+        "The scene now concerns spacing two registration sessions rather than leaving an unstaffed gap between shifts. Its option C and explanation refer consistently to cancelling the second registration session.",
+        "The listening model now calibrates the cushion to a brief lift delay instead of guaranteeing that no delay could make the group late."
+      ],
+      "remainingFindings": []
+    }
+  ],
+  "mechanicalRecheck": [
+    "All ten repaired lessons still map to their cited source rows, exact expressions and guide examples.",
+    "All ten target forms remain present in the required listening, reply, writing and takeaway fields; speaking clozes remove their target forms.",
+    "All recorded glossary character spans remain exact substrings of the writing answers and do not contain the target expression."
+  ],
+  "limits": [
+    "This is AI peer review, not independent human English or Traditional Chinese approval, owner acceptance or release approval.",
+    "No audio listening, browser/device line-ending inspection, sound feedback, microphone check or live lesson check was performed."
+  ]
+}

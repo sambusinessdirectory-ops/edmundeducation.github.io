@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-four-more-drafts-a-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2168",
+      "number": 2168,
+      "inventoryId": "expr-2168",
+      "titleEn": "getting from A to B",
+      "titleZh": "從一處到另一處",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:getting|get|gets|got) from A to B\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Travel between two places, especially when discussing the practical journey.",
+        "meaningZh": "從一個地方前往另一個地方，重點是實際行程。",
+        "grammar": "getting from A to B; get from A to B; got from A to B.",
+        "register": "Neutral shorthand for travel logistics; A and B stand for places, not named people.",
+        "boundaryZh": "須談論兩地之間如何移動；不是比較選項 A 和 B 的文字標籤。",
+        "misconceptionZh": "不要把 A 和 B 當成必須叫這兩個字母的地名。",
+        "outcomeZh": "能用這個片語討論路線、轉乘與出行難易。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0057",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 6,
+          "book": 10,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "13–14",
+          "locatorNote": "DOCX table 5, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new route makes getting from A to B much easier.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "getting from A to B"
+        }
+      ],
+      "listening": {
+        "en": "The new bus route cuts out a transfer, so getting from A to B across town is much easier now.",
+        "zh": "新巴士路線省卻一次轉乘，所以現在穿越市區，從一處到另一處容易得多。",
+        "promptZh": "新路線改善了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It makes travelling between places simpler.",
+            "zh": "它令兩地之間的出行較簡單。"
+          },
+          {
+            "id": "b",
+            "en": "It mainly lowers the fare without changing the route.",
+            "zh": "它主要降低車費，卻沒有改變路線。"
+          },
+          {
+            "id": "c",
+            "en": "It shortens the wait but keeps the same transfer.",
+            "zh": "它縮短等車時間，但轉乘次數不變。"
+          },
+          {
+            "id": "d",
+            "en": "It adds an extra transfer across town.",
+            "zh": "它令穿越市區的旅程多一次轉乘。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新路線省卻一次轉乘，令兩地之間的旅程更容易；沒有資料顯示車費或候車時間改變。"
+      },
+      "reply": {
+        "promptEn": "What would help visitors travel between the two exhibition buildings?",
+        "promptZh": "（甚麼能幫助訪客從一座展覽大樓前往另一座？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A clear map would make getting from A to B easier.",
+            "zh": "清晰的地圖會令訪客從一座大樓前往另一座更容易。"
+          },
+          {
+            "id": "b",
+            "en": "A short shuttle would save them a long walk.",
+            "zh": "短程接駁車能省卻漫長步行。"
+          },
+          {
+            "id": "c",
+            "en": "Signs at both exits would point them the right way.",
+            "zh": "兩邊出口的指示牌能指引正確方向。"
+          },
+          {
+            "id": "d",
+            "en": "Staff could explain which entrance is closer to each display.",
+            "zh": "職員可以解釋哪個入口較接近各個展區。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四項都能幫助訪客從一座大樓前往另一座；金句使用本課片語，概括從起點到終點的旅程。"
+      },
+      "scene": {
+        "promptZh": "兩座場館原本要轉乘兩次。主辦方增設直達接駁車。哪句最準確描述改動的作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shuttle makes getting from A to B more straightforward.",
+            "zh": "接駁車令從一座場館前往另一座更直接。"
+          },
+          {
+            "id": "b",
+            "en": "Visitors now need two additional transfers to reach the second venue.",
+            "zh": "訪客現在要額外轉乘兩次，才能到第二個場館。"
+          },
+          {
+            "id": "c",
+            "en": "Visitors still need to change vehicles twice, though the fare is lower.",
+            "zh": "訪客仍須轉乘兩次，只是車費較低。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "直達接駁車減少轉乘，改善實際交通；另外兩句都聲稱仍要轉車，與情境不符。"
+      },
+      "contrast": {
+        "promptZh": "以本課「兩地之間的實際行程」的意思，哪個情況最不適合說 getting from A to B？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A cyclist asks which bridge connects the two districts.",
+            "zh": "單車騎士查問哪座橋連接兩個地區。"
+          },
+          {
+            "id": "b",
+            "en": "A teacher compares answer choice A with answer choice B on a worksheet.",
+            "zh": "老師比較工作紙上的 A 和 B 兩個答案選項。"
+          },
+          {
+            "id": "c",
+            "en": "A traveller checks how long it takes to reach the harbour from the station.",
+            "zh": "旅客查問從車站到碼頭需時多久。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "比較工作紙的答案選項不涉及前往兩地；另外兩項都是路線或交通問題。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「車站與音樂廳相隔兩條街，但我不熟悉這一帶。」哪個回應最有幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "This map makes getting from A to B easier on foot; follow the marked crossing.",
+            "zh": "這張地圖讓你更容易步行從車站前往音樂廳；沿着標示的行人過路處走吧。"
+          },
+          {
+            "id": "b",
+            "en": "Do not check a route; simply guess at every junction.",
+            "zh": "不用查路線；每個路口都隨便猜吧。"
+          },
+          {
+            "id": "c",
+            "en": "The streets are close, so signs and crossings cannot matter.",
+            "zh": "兩條街很近，所以指示牌和行人過路處都不重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "地圖與過路處直接解決陌生地區的步行路線問題；其餘建議忽視實際導航。"
+      },
+      "speaking": {
+        "en": "A simple walking map made getting from A to B easier for new visitors.",
+        "zh": "簡單的步行地圖讓初次到訪的人更容易從起點走到目的地。",
+        "promptZh": "先聽示範，再說明步行地圖怎樣幫助初次到訪的人。",
+        "targetSpan": {
+          "start": 26,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校活動分別在主校舍與體育館舉行，新同學不懂兩地之間怎樣走。用一至兩句英文介紹你會提供甚麼幫助。",
+        "selfCheckZh": "說明兩地之間的出行問題，以及地圖或指示牌等具體幫助；不要只談論課室名稱。",
+        "examples": [
+          {
+            "en": "A marked map will make getting from A to B easier for new students. We can show the safest crossing.",
+            "zh": "有標記的地圖會令新同學從主校舍前往體育館更容易。我們可以指出最安全的行人過路處。"
+          },
+          {
+            "en": "Getting from A to B takes about five minutes on foot, so I will put clear signs beside both entrances.",
+            "zh": "兩地之間步行約需五分鐘，所以我會在兩邊入口旁放置清晰的指示牌。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "A marked map",
+            "zh": "有標記的地圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 12
+            }
+          },
+          {
+            "en": "new students",
+            "zh": "新同學",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 66
+            }
+          },
+          {
+            "en": "the safest crossing",
+            "zh": "最安全的行人過路處",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 99
+            }
+          },
+          {
+            "en": "five minutes on foot",
+            "zh": "步行五分鐘",
+            "exampleIndex": 1,
+            "span": {
+              "start": 32,
+              "end": 52
+            }
+          },
+          {
+            "en": "both entrances",
+            "zh": "兩邊入口",
+            "exampleIndex": 1,
+            "span": {
+              "start": 87,
+              "end": 101
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Getting from A to B took longer when the footbridge was closed.",
+          "zh": "行人天橋關閉後，從一處前往另一處要更久。"
+        },
+        {
+          "en": "The guide explained how to get from A to B without changing trains.",
+          "zh": "導遊解釋了如何不轉車便從一處到另一處。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2169",
+      "number": 2169,
+      "inventoryId": "expr-2169",
+      "titleEn": "time to spare",
+      "titleZh": "還有充裕時間",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\btime to spare\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Have more time than needed before a deadline or event.",
+        "meaningZh": "在限期或活動開始前，仍有超過所需的時間。",
+        "grammar": "arrive with time to spare; finish with time to spare.",
+        "register": "Everyday neutral expression for a margin of time.",
+        "boundaryZh": "須真的比所需時間早完成或到達；剛好準時並沒有額外時間。",
+        "misconceptionZh": "不要把片語當成「沒有事情做」的一整天閒暇。",
+        "outcomeZh": "能判斷何時一項行程或工作留有充裕時間。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0058",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 6,
+          "book": 10,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "13–14",
+          "locatorNote": "DOCX table 5, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We reached the gate with time to spare.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "time to spare"
+        }
+      ],
+      "listening": {
+        "en": "We reached the cinema twenty minutes before the film began, so we had time to spare.",
+        "zh": "電影開場前二十分鐘，我們已到達戲院，所以還有充裕時間。",
+        "promptZh": "說話者到達戲院時，時間情況如何？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They had extra time before the film.",
+            "zh": "電影開始前，他們還有多出的時間。"
+          },
+          {
+            "id": "b",
+            "en": "They arrived just as the film ended.",
+            "zh": "他們在電影結束時才到。"
+          },
+          {
+            "id": "c",
+            "en": "They had no time to buy a ticket.",
+            "zh": "他們沒有時間買票。"
+          },
+          {
+            "id": "d",
+            "en": "The film was delayed by twenty minutes.",
+            "zh": "電影延遲了二十分鐘。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "提前二十分鐘到達表示開場前有多出的時間；題目沒有說電影延期。"
+      },
+      "reply": {
+        "promptEn": "Why did you take the earlier train to the museum?",
+        "promptZh": "（你為何乘較早的火車去博物館？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I wanted to arrive with time to spare before our booked tour.",
+            "zh": "我想在預約導賞開始前提早到達，留有充裕時間。"
+          },
+          {
+            "id": "b",
+            "en": "The earlier train gave me a safer margin if a connection was slow.",
+            "zh": "若轉車稍慢，較早的火車仍能給我較充裕的時間。"
+          },
+          {
+            "id": "c",
+            "en": "I hoped to find the entrance before the group gathered.",
+            "zh": "我希望在小組集合前找到入口。"
+          },
+          {
+            "id": "d",
+            "en": "I wanted a little time to read the visitor information.",
+            "zh": "我想留點時間閱讀訪客資訊。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四個回答都能解釋為何乘較早的火車；金句指出在預約導賞前有多餘時間。"
+      },
+      "scene": {
+        "promptZh": "工作坊十點開始，組員九點四十分已到場並完成登記。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They arrived with time to spare before the workshop.",
+            "zh": "他們在工作坊開始前提早到達，還有充裕時間。"
+          },
+          {
+            "id": "b",
+            "en": "They arrived after the workshop had begun.",
+            "zh": "他們在工作坊開始後才到。"
+          },
+          {
+            "id": "c",
+            "en": "They reached the desk at exactly ten and had no margin.",
+            "zh": "他們剛好十點到達登記處，沒有額外時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "十點開始、九點四十分已登記，表示開場前有充裕時間；其餘兩句與已給時間不符。"
+      },
+      "contrast": {
+        "promptZh": "按本課意思，哪個情況最不適合說 with time to spare？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A speaker completes the slides half an hour before the meeting.",
+            "zh": "講者在會議前半小時完成投影片。"
+          },
+          {
+            "id": "b",
+            "en": "A runner crosses the line exactly at the cut-off, with no time left.",
+            "zh": "跑手剛好在截止時間衝線，沒有餘下時間。"
+          },
+          {
+            "id": "c",
+            "en": "A family reaches the airport long before check-in closes.",
+            "zh": "一家人在辦理登機手續截止前很久便到達機場。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "剛好在截止時衝線，沒有餘下時間；其餘兩項保留了明顯的時間空間。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「表演七點開始，我們六點十五分就到場了。」哪個回應最自然？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Great, we have time to spare; let us find our seats calmly.",
+            "zh": "太好了，我們還有充裕時間；慢慢找座位吧。"
+          },
+          {
+            "id": "b",
+            "en": "We are definitely late and must ask for a refund.",
+            "zh": "我們肯定遲到了，必須要求退款。"
+          },
+          {
+            "id": "c",
+            "en": "There is no need to know when the doors open.",
+            "zh": "不用知道場館何時開門。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "提早四十五分鐘到場，合理地有時間找座位；另外兩句不是根據已知時間作出的合適回應。"
+      },
+      "speaking": {
+        "en": "We finished the display ten minutes before the doors opened, with time to spare.",
+        "zh": "開門前十分鐘，我們已完成佈置，還有充裕時間。",
+        "promptZh": "先聽示範，再說明佈置完成時為何不用趕。",
+        "targetSpan": {
+          "start": 66,
+          "end": 79
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你明天要到圖書館參加十點開始的講座。巴士車程約三十分鐘，你打算提早出門。用一至兩句英文說明你想怎樣安排到達時間及好處。",
+        "selfCheckZh": "說明會在講座開始前到達並留有充裕時間，可用來找場地或登記。",
+        "examples": [
+          {
+            "en": "I will take an earlier bus so I arrive with time to spare. Then I can find the lecture room.",
+            "zh": "我會乘較早的巴士，讓自己提早到達，還有充裕時間。之後便可找講座室。"
+          },
+          {
+            "en": "Leaving at nine should give me time to spare before the talk, even if the bus is a little slow.",
+            "zh": "九點出門應可讓我在講座前留有充裕時間，即使巴士稍慢也是如此。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "an earlier bus",
+            "zh": "較早的巴士",
+            "exampleIndex": 0,
+            "span": {
+              "start": 12,
+              "end": 26
+            }
+          },
+          {
+            "en": "the lecture room",
+            "zh": "講座室",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 91
+            }
+          },
+          {
+            "en": "before the talk",
+            "zh": "講座前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 45,
+              "end": 60
+            }
+          },
+          {
+            "en": "the bus is a little slow",
+            "zh": "巴士稍慢",
+            "exampleIndex": 1,
+            "span": {
+              "start": 70,
+              "end": 94
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "We arrived at the station with time to spare before the last train.",
+          "zh": "末班火車開出前，我們已到達車站，還有充裕時間。"
+        },
+        {
+          "en": "She finished the report with time to spare and checked the figures.",
+          "zh": "她提早完成報告，尚有時間核對數字。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2170",
+      "number": 2170,
+      "inventoryId": "expr-2170",
+      "titleEn": "caught out",
+      "titleZh": "因意外變化措手不及",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:catch|catches|caught|catching) (?:(?:me|you|him|her|us|them) )?out\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Be surprised and disadvantaged by an unexpected change or overlooked detail.",
+        "meaningZh": "因意想不到的變化或忽略的細節而措手不及、處於不利。",
+        "grammar": "be caught out by something; a change catches someone out.",
+        "register": "Common British conversational use; does not necessarily imply dishonesty.",
+        "boundaryZh": "須有意外或忽略細節帶來的不利影響；預先知悉並妥善應對，便不是被打個措手不及。",
+        "misconceptionZh": "不要一律理解成被抓到作弊；本課着重意外變化造成的被動。",
+        "outcomeZh": "能辨認突發變化如何使人措手不及，並提出防範方法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0059",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 6,
+          "book": 10,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "13–14",
+          "locatorNote": "DOCX table 5, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Several applicants were caught out by the sudden rule change.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "caught out"
+        }
+      ],
+      "listening": {
+        "en": "The gallery changed its opening hours overnight, and visitors who had not checked the update were caught out.",
+        "zh": "畫廊一夜間更改開放時間，沒有查看更新的訪客便措手不及。",
+        "promptZh": "部分訪客為何遇到麻煩？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They did not know about the unexpected change.",
+            "zh": "他們不知道開放時間突然改變。"
+          },
+          {
+            "id": "b",
+            "en": "They were caught stealing artwork.",
+            "zh": "他們被抓到偷畫。"
+          },
+          {
+            "id": "c",
+            "en": "They had checked the update and changed their plans.",
+            "zh": "他們看過更新並改了計劃。"
+          },
+          {
+            "id": "d",
+            "en": "The gallery gave them an extra hour inside.",
+            "zh": "畫廊讓他們在內多留一小時。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "開放時間一夜間更改，而訪客沒有查看更新，所以到場時措手不及；沒有偷畫的意思。"
+      },
+      "reply": {
+        "promptEn": "Why do you check the event website on the morning of a trip?",
+        "promptZh": "（為何出行當早要查看活動網站？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I want to confirm the latest opening time.",
+            "zh": "我想確認最新開放時間。"
+          },
+          {
+            "id": "b",
+            "en": "I need to see whether any activity has been cancelled.",
+            "zh": "我需要查看有沒有活動被取消。"
+          },
+          {
+            "id": "c",
+            "en": "I want to check the address before setting off.",
+            "zh": "我想出發前核對地址。"
+          },
+          {
+            "id": "d",
+            "en": "A last-minute change could catch me out if I miss the notice.",
+            "zh": "如果我錯過通知，臨時變動可能令我措手不及。"
+          }
+        ],
+        "goldenId": "d",
+        "explanationZh": "四句都能合理說明出行當早查網站的理由；金句點出錯過臨時通知的風險。"
+      },
+      "scene": {
+        "promptZh": "演出臨時改在另一座大樓，沒有看通知的觀眾走錯場地。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They were caught out by the venue change.",
+            "zh": "場地變動令他們措手不及。"
+          },
+          {
+            "id": "b",
+            "en": "They had prepared for the new venue and reached it early.",
+            "zh": "他們已為新場地作好準備並提早到達。"
+          },
+          {
+            "id": "c",
+            "en": "They were identified as people who had broken a rule.",
+            "zh": "他們被認定曾違反規則。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有看到臨時場地通知使觀眾走錯地方，符合意外變化造成的不利；不涉及違規。"
+      },
+      "contrast": {
+        "promptZh": "按本課「因意外變化措手不及」的意思，哪種情況最不適合說 caught out？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A student follows an old timetable and misses a moved class.",
+            "zh": "學生沿用舊時間表，錯過已改時的課堂。"
+          },
+          {
+            "id": "b",
+            "en": "A team sees the closure notice in advance and takes its planned alternative route.",
+            "zh": "團隊預先看到封路通知，並按計劃改走另一條路。"
+          },
+          {
+            "id": "c",
+            "en": "A traveller misses a new luggage rule and pays an extra fee.",
+            "zh": "旅客沒有留意新的行李規定，須多付費用。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "預先知悉封路並照計劃改道，沒有被意外變化打個措手不及；另外兩項因忽略更新而受影響。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「巴士站突然搬了，我們已在舊站等了十分鐘。」哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We were caught out by the move. Let us check the new stop and message the group.",
+            "zh": "站位變動令我們措手不及。先找新站，並通知小組吧。"
+          },
+          {
+            "id": "b",
+            "en": "The old stop must reopen immediately if we keep waiting.",
+            "zh": "只要繼續等，舊站一定會立即重開。"
+          },
+          {
+            "id": "c",
+            "en": "There is no point telling the rest of the group.",
+            "zh": "不用通知小組其他人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "先承認突發改站帶來被動，再查新站及通知同伴；其餘做法忽視實際問題。"
+      },
+      "speaking": {
+        "en": "We were caught out by the new entry rule and had to return home for identification.",
+        "zh": "新的入場規定令我們措手不及，須回家拿身分證明文件。",
+        "promptZh": "先聽示範，再說明新規定怎樣影響說話者。",
+        "targetSpan": {
+          "start": 8,
+          "end": 18
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你們準備參觀科技館，卻在門口才知道團體票必須先在網上預約，因此要改天再來。用一至兩句英文說明發生甚麼事及下次如何避免。",
+        "selfCheckZh": "指出新的訂票要求令隊伍措手不及，並提出下次預先查網頁或預約。",
+        "examples": [
+          {
+            "en": "We were caught out by the online booking rule and had to return another day. Next time, we will check the website first.",
+            "zh": "網上預約規定令我們措手不及，須改天再來。下次我們會先查看網站。"
+          },
+          {
+            "en": "The ticket rule caught us out at the entrance, so I will book group tickets before our next visit.",
+            "zh": "我們到入口時才因訂票規定措手不及，所以下次參觀前，我會先預訂團體票。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "online booking rule",
+            "zh": "網上預約規定",
+            "exampleIndex": 0,
+            "span": {
+              "start": 26,
+              "end": 45
+            }
+          },
+          {
+            "en": "return another day",
+            "zh": "改天再來",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 75
+            }
+          },
+          {
+            "en": "check the website first",
+            "zh": "先查看網站",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 119
+            }
+          },
+          {
+            "en": "at the entrance",
+            "zh": "在入口",
+            "exampleIndex": 1,
+            "span": {
+              "start": 30,
+              "end": 45
+            }
+          },
+          {
+            "en": "book group tickets",
+            "zh": "預訂團體票",
+            "exampleIndex": 1,
+            "span": {
+              "start": 57,
+              "end": 75
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A sudden timetable change caught us out on the way to school.",
+          "zh": "時間表突然改變，令我們上學途中措手不及。"
+        },
+        {
+          "en": "Checking the latest notice can stop a visitor from being caught out.",
+          "zh": "查看最新通告，可避免訪客措手不及。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2171",
+      "number": 2171,
+      "inventoryId": "expr-2171",
+      "titleEn": "stay one step ahead of delays",
+      "titleZh": "預先防範延誤",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:stay|stays|stayed|staying) one step ahead of delays\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Anticipate likely delays and adjust plans before they disrupt you.",
+        "meaningZh": "預先留意可能的延誤，並在受影響前調整計劃。",
+        "grammar": "stay one step ahead of delays; stayed one step ahead of delays.",
+        "register": "Positive figurative advice; it does not guarantee that every delay can be prevented.",
+        "boundaryZh": "須在延誤影響活動前查資訊或採取措施；事後才抱怨不算預先防範。",
+        "misconceptionZh": "不要把 one step 理解成實際多走一步，也不要保證完全不會延誤。",
+        "outcomeZh": "能提出事前查證和備用安排，減低延誤的影響。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0060",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 6,
+          "book": 10,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "13–14",
+          "locatorNote": "DOCX table 5, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Checking the forecast helps us stay one step ahead of delays.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stay one step ahead of delays"
+        }
+      ],
+      "listening": {
+        "en": "By loading parcels before the morning rush, the delivery team stays one step ahead of delays at the warehouse.",
+        "zh": "送貨隊在早上繁忙時段前裝好包裹，預先防範貨倉作業延誤。",
+        "promptZh": "送貨隊怎樣預防貨倉作業延誤？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They finish loading before the busiest period can slow them down.",
+            "zh": "他們在最繁忙的時段拖慢進度前先完成裝貨。"
+          },
+          {
+            "id": "b",
+            "en": "They reduce the number of parcels but leave the loading time unchanged.",
+            "zh": "他們減少包裹數量，卻沒有改變裝貨時間。"
+          },
+          {
+            "id": "c",
+            "en": "They wait for the loading queue to form before beginning.",
+            "zh": "他們等到裝貨隊伍形成後才開始。"
+          },
+          {
+            "id": "d",
+            "en": "They guarantee that every parcel will arrive at an exact minute.",
+            "zh": "他們保證每件包裹都會在某一分鐘準時送達。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "在早上繁忙時段前先裝貨，是事前減低瓶頸影響的行動；這不等於保證每件包裹準時送達。"
+      },
+      "reply": {
+        "promptEn": "Why are you setting up the school fair tables tonight?",
+        "promptZh": "（你為何今晚便佈置學校市集的桌子？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Visitors can enter promptly when the fair opens.",
+            "zh": "市集開放時，訪客便可以立即入場。"
+          },
+          {
+            "id": "b",
+            "en": "The morning volunteers can spend time checking the signs.",
+            "zh": "早上的義工可以花時間核對指示牌。"
+          },
+          {
+            "id": "c",
+            "en": "I can check the supplies while the hall is still quiet.",
+            "zh": "禮堂仍安靜時，我可以核對用品。"
+          },
+          {
+            "id": "d",
+            "en": "I want to stay one step ahead of delays before the opening rush.",
+            "zh": "我想在開場的人潮到來前，預先防範延誤。"
+          }
+        ],
+        "goldenId": "d",
+        "explanationZh": "四個回應都能合理解釋提前佈置桌子；金句強調在開場人潮出現前做好準備，防範延誤。"
+      },
+      "scene": {
+        "promptZh": "學校飯堂知道午餐時段常有長隊，所以在小息前先準備餐盤，並安排多一名收銀員。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The canteen is staying one step ahead of delays by preparing before the rush.",
+            "zh": "飯堂在人潮到來前先準備，預先防範延誤。"
+          },
+          {
+            "id": "b",
+            "en": "The canteen waits until the queue grows before preparing any trays.",
+            "zh": "飯堂等到隊伍變長後才開始準備餐盤。"
+          },
+          {
+            "id": "c",
+            "en": "The canteen has guaranteed that nobody will ever need to wait.",
+            "zh": "飯堂保證以後任何人都不用等候。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "人潮到來前已備餐並增派人手，是針對已知瓶頸的事前措施；題目沒有保證完全不用等。"
+      },
+      "contrast": {
+        "promptZh": "按本課「在延誤發生前採取措施」的意思，哪種情況最不適合說 stay one step ahead of delays？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A stage crew tests the microphone and prepares spare batteries before doors open.",
+            "zh": "舞台組在開門前測試咪高峰，並準備後備電池。"
+          },
+          {
+            "id": "b",
+            "en": "A crew waits until the microphone fails mid-show before first looking for a battery.",
+            "zh": "咪高峰在演出中途失靈後，工作人員才首次尋找電池。"
+          },
+          {
+            "id": "c",
+            "en": "Volunteers print backup entry lists before a busy registration period.",
+            "zh": "義工在繁忙的登記時段前印好後備入場名單。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "咪高峰失靈後才首次找電池，屬事後補救；另外兩項是在問題影響活動前準備後備方案。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「明早的展覽可能有很多訪客，同時登記系統偶爾會卡住。」哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us stay one step ahead of delays by testing the scanner and keeping a paper check-in list ready.",
+            "zh": "我們先測試掃描器，並準備紙本登記名單，預先防範延誤吧。"
+          },
+          {
+            "id": "b",
+            "en": "Wait until the queue blocks the door before we check the scanner.",
+            "zh": "等隊伍堵住門口後，才檢查掃描器吧。"
+          },
+          {
+            "id": "c",
+            "en": "The scanner sometimes freezes, so we can promise every guest instant entry.",
+            "zh": "掃描器偶爾會卡住，所以我們可保證每位訪客立即入場。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "系統偶爾卡住是已知風險；事先測試並備紙本名單，比等人潮形成才處理更合適，也不能保證零等候。"
+      },
+      "speaking": {
+        "en": "We stayed one step ahead of delays by preparing the registration desk before the first guests arrived.",
+        "zh": "第一批訪客到達前，我們先準備好登記處，預先防範延誤。",
+        "promptZh": "先聽示範，再說明提早準備登記處如何減少延誤。",
+        "targetSpan": {
+          "start": 3,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校戲劇表演中，兩幕之間只有短時間換裝。你負責後台，擔心換裝會拖慢下一幕。用一至兩句英文說明演出前會做甚麼。",
+        "selfCheckZh": "指出演出前會標示服裝或準備後備用品，以減低換裝延誤；不要聲稱一定不會延誤。",
+        "examples": [
+          {
+            "en": "We can stay one step ahead of delays by labelling each costume bag before the performance. That will make costume changes quicker.",
+            "zh": "我們可以在表演前替每個服裝袋貼上標籤，預先防範延誤。這樣換裝便會更快。"
+          },
+          {
+            "en": "To stay one step ahead of delays between acts, I will keep spare pins and the next costumes beside the stage.",
+            "zh": "為了預先防範幕與幕之間的延誤，我會把後備別針和下一套服裝放在舞台旁。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "labelling each costume bag",
+            "zh": "替每個服裝袋貼上標籤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 66
+            }
+          },
+          {
+            "en": "before the performance",
+            "zh": "表演前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 89
+            }
+          },
+          {
+            "en": "costume changes",
+            "zh": "換裝",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 121
+            }
+          },
+          {
+            "en": "spare pins",
+            "zh": "後備別針",
+            "exampleIndex": 1,
+            "span": {
+              "start": 59,
+              "end": 69
+            }
+          },
+          {
+            "en": "the next costumes",
+            "zh": "下一套服裝",
+            "exampleIndex": 1,
+            "span": {
+              "start": 74,
+              "end": 91
+            }
+          },
+          {
+            "en": "beside the stage",
+            "zh": "舞台旁",
+            "exampleIndex": 1,
+            "span": {
+              "start": 92,
+              "end": 108
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Preparing spare batteries helps a stage crew stay one step ahead of delays.",
+          "zh": "準備後備電池有助舞台組預先防範延誤。"
+        },
+        {
+          "en": "The team stayed one step ahead of delays by setting up an extra check-in desk.",
+          "zh": "團隊增設一個登記處，預先防範延誤。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

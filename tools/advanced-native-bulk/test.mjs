@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
 import legacy from '../../natural-english/advanced-expressions.mjs';
 import {validateRecord,compileRecord,normalise} from './schema.mjs';
 import {buildArtifacts} from './build.mjs';
@@ -49,6 +50,10 @@ const fragment=structuredClone(record);fragment.writing.glossary[0]={en:'got thr
 assert.ok(validateRecord(fragment).errors.some(e=>e.message.includes('fragment')||e.message.includes('overlaps')),'Partial target fragments cannot enter glossary.');
 const twoGolden=structuredClone(record);twoGolden.reply.options[0].en='They got through it with help.';twoGolden.reply.options[1].en='We got through it together.';
 assert.ok(validateRecord(twoGolden).errors.some(e=>e.path==='reply.goldenId'),'Reply cannot contain two target options.');
+const books1016=JSON.parse(fs.readFileSync(new URL('../../course-materials/advanced-native/drafts-books10-16/batch-2112-2119.json',import.meta.url),'utf8')).lessons[0];
+const missingDialogueTarget=structuredClone(books1016);
+missingDialogueTarget.dialogue.options.find(option=>option.id===missingDialogueTarget.dialogue.answerId).en='Use headphones in the study room.';
+assert.ok(validateRecord(missingDialogueTarget).errors.some(e=>e.path==='dialogue.answerId'),'A Books 10–16 keyed dialogue must actually model its target expression.');
 assert.ok(validateRecord(record,{release:true}).errors.some(e=>e.path==='review.media'),'Draft metadata cannot claim release approval.');
 const unstable=structuredClone(record);unstable.speaking.cloze='__________________';
 assert.ok(validateRecord(unstable).errors.some(e=>e.path==='speaking.cloze'),'Surrounding speaking text cannot disappear.');
