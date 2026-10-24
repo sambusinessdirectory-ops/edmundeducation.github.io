@@ -1,17 +1,21 @@
 import {juniorHighlightToolbar, mountJuniorHighlighter} from '../junior-text-highlighter.mjs?v=20261021-study3';
 
-const MODULE_KEY = 's2-exam-prep-oct-2026';
+let MODULE_KEY = 's2-exam-prep-oct-2026';
+let TOTAL = 470;
+let TITLE = 'S2 Exam Prep - Oct 2026';
+const WORD_FORMS_OWNER = '8d05282a-10a3-44c8-9376-8a066fce7a3a';
 const JAYDEN_ID = 'df2a3ba9-25be-4b0c-823a-304d4c29c2ba';
+let assignedOwner = JAYDEN_ID;
 const host = document.createElement('section');
 host.className = 'junior-app';
 host.setAttribute('aria-label', '初中考試溫習內容');
 document.querySelector('[data-view="dashboard"]')?.append(host);
 const highlighter = mountJuniorHighlighter(host, '.junior-table-shell td, .junior-table-shell th, .junior-question__sentence, .junior-question__translation', 'exam', {
   scopeSelector: '.junior-table-shell, .junior-question',
-  scopeKey: scope => scope.classList.contains('junior-table-shell') ? 'legacy:forms' : `legacy:q${scope.dataset.question}`
+  scopeKey: scope => scope.classList.contains('junior-table-shell') ? `${MODULE_KEY === 's2-exam-prep-oct-2026' ? 'legacy' : MODULE_KEY}:forms` : `${MODULE_KEY === 's2-exam-prep-oct-2026' ? 'legacy' : MODULE_KEY}:q${scope.dataset.question}`
 });
 
-const FORM_GROUPS = [
+const LEGACY_FORM_GROUPS = [
   ['role model', [['role model','榜樣；單數名詞'],['role models','榜樣；複數名詞']]],
   ['achievement', [['achieve','達成；動詞原形'],['achieved','已達成；過去式／過去分詞'],['achievement','成就；單數名詞'],['achievements','成就；複數名詞']]],
   ['trustworthy', [['trust','信任；名詞／動詞'],['trustworthiness','可靠程度；名詞'],['trustworthy','值得信賴的；形容詞']]],
@@ -28,7 +32,8 @@ const FORM_GROUPS = [
   ['communicate', [['communicate','溝通；動詞原形'],['communicated','已溝通；過去式／過去分詞'],['communicates','溝通；第三人稱單數'],['communication','溝通；名詞']]],
   ['stumble upon', [['stumble upon','偶然發現；動詞原形'],['stumbled upon','偶然發現了；過去式／過去分詞'],['stumbles upon','偶然發現；第三人稱單數']]]
 ];
-const FORM_COUNT = FORM_GROUPS.reduce((count, [, forms]) => count + forms.length, 0);
+let FORM_GROUPS = LEGACY_FORM_GROUPS;
+let FORM_COUNT = FORM_GROUPS.reduce((count, [, forms]) => count + forms.length, 0);
 if (FORM_COUNT !== 47) throw new Error('Word-form table must contain exactly 47 forms');
 
 let owner = null;
@@ -71,23 +76,31 @@ function answeredCount() { return Object.values(answers).filter((value) => Strin
 
 function renderHome() {
   if (!owner) return;
-  if (owner !== JAYDEN_ID) {
+  if (owner !== assignedOwner) {
     host.innerHTML = '<article class="junior-empty"><p class="junior-eyebrow">YOUR LEARNING SPACE</p><h2>已成功登入</h2><p>目前沒有分配給您的考試溫習模組。新課題加入後會在這裏顯示。</p></article>';
     return;
   }
-  host.innerHTML = `<div class="junior-home-heading"><p class="junior-eyebrow">YOUR EXAM PREPARATION</p><h2>您的溫習模組</h2><p>使用 47 個詞形完成 470 道混合填空題，並可分段提交。</p></div>
-    <button class="junior-module-card" type="button" data-open-module><span class="junior-module-card__number">01</span><span><strong>S2 Exam Prep - Oct 2026</strong><small>Word Form Challenge · 47 forms × 10 questions</small><em data-home-progress>${Object.keys(submitted).length} / 470 題已提交</em></span><span aria-hidden="true">↗</span></button>`;
+  host.innerHTML = `<div class="junior-home-heading"><p class="junior-eyebrow">YOUR EXAM PREPARATION</p><h2>您的溫習模組</h2><p>使用 ${FORM_COUNT} 個詞形完成 ${TOTAL} 道混合填空題，並可分段提交。</p></div>
+    <button class="junior-module-card" type="button" data-open-module><span class="junior-module-card__number">01</span><span><strong>${escapeHtml(TITLE)}</strong><small>Word Form Challenge · ${FORM_COUNT} forms · ${TOTAL} questions</small><em data-home-progress>${Object.keys(submitted).length} / ${TOTAL} 題已提交</em></span><span aria-hidden="true">↗</span></button>`;
 }
 
 async function openLegacyModule() {
   view = 'module';
-  host.innerHTML = '<p class="junior-loading" role="status">正在載入 470 題與語音…</p>';
-  try { await loadModule(); if (view === 'module' && owner === JAYDEN_ID) renderModule(); }
+  host.innerHTML = `<p class="junior-loading" role="status">正在載入 ${TOTAL} 題…</p>`;
+  try { await loadModule(); if (view === 'module' && owner === assignedOwner) renderModule(); }
   catch (error) { host.innerHTML = `<p class="junior-error" role="alert">${escapeHtml(error.message)}</p><button type="button" data-back>返回模組</button>`; }
 }
 
 async function loadModule() {
   if (questions && clips) return;
+  if (MODULE_KEY === 'word-forms-35-oct-2026') {
+    const response = await fetch('./junior-exam-prep/word-forms-35-questions.json?v=20261024-1');
+    if (!response.ok) throw new Error('教材暫時未能載入，請稍後再試。');
+    const data = await response.json();
+    if (data.module !== MODULE_KEY || data.questions?.length !== TOTAL || data.formGroups?.flatMap(([, rows]) => rows).length !== 138) throw new Error('教材資料未通過完整性檢查。');
+    questions = data.questions; FORM_GROUPS = data.formGroups; FORM_COUNT = data.formCount; clips = {};
+    return;
+  }
   const [dataResponse, audioResponse] = await Promise.all([
     fetch('./junior-exam-prep/s2-oct-2026-questions.json?v=20261012-s2-1'),
     fetch('./junior-exam-prep/audio-manifest.json?v=20261012-s2-1')
@@ -107,7 +120,7 @@ async function loadSubmissions(expectedOwner) {
     submitted = {};
     for (const row of rows) {
       const number = Number(row.question_number);
-      if (number < 1 || number > 470) continue;
+      if (number < 1 || number > TOTAL) continue;
       serverAnswers[key(number)] = String(row.answer || '');
       submitted[key(number)] = Boolean(row.correct);
     }
@@ -130,20 +143,20 @@ function questionCard(question) {
   const number = key(question.number);
   const sentence = escapeHtml(question.sentence).replace('_____', `<input class="junior-answer" data-answer="${number}" name="answer-${number}" type="text" maxlength="100" autocomplete="off" spellcheck="false" aria-label="第 ${question.number} 題答案" value="${escapeHtml(answers[number] || '')}">`);
   const result = submitted[number] === undefined ? '' : `<span class="junior-result ${submitted[number] ? 'is-correct' : 'is-incorrect'}" data-result="${number}">${submitted[number] ? '✓ 正確' : '請再試一次'}</span>`;
-  return `<article class="junior-question" id="junior-q-${number}" data-question="${number}"><div class="junior-question__top"><span class="junior-question__number">${number}</span><button type="button" class="junior-audio" data-play="${number}" aria-label="播放第 ${question.number} 題的英文語音">▶ 聆聽</button></div><p class="junior-question__sentence" lang="en">${sentence}</p><p class="junior-question__translation">${escapeHtml(question.translation)}</p><div class="junior-question__feedback" data-feedback="${number}">${result}</div></article>`;
+  return `<article class="junior-question" id="junior-q-${number}" data-question="${number}"><div class="junior-question__top"><span class="junior-question__number">${number}</span>${clips?.[number] ? `<button type="button" class="junior-audio" data-play="${number}" aria-label="播放第 ${question.number} 題的英文語音">▶ 聆聽</button>` : ''}</div><p class="junior-question__sentence" lang="en">${sentence}${MODULE_KEY === 'word-forms-35-oct-2026' ? ` <span class="junior-question__clue">(${escapeHtml(question.clue)})</span>` : ''}</p><p class="junior-question__translation">${escapeHtml(question.translation)}</p><div class="junior-question__feedback" data-feedback="${number}">${result}</div></article>`;
 }
 function renderModule() {
   if (!questions || !clips || !owner) return;
   const groups = [];
-  for (let start = 0; start < 470; start += 20) {
-    groups.push(`<section class="junior-question-group" aria-labelledby="junior-group-${start + 1}"><h3 id="junior-group-${start + 1}">Questions ${String(start + 1).padStart(3, '0')}–${String(Math.min(start + 20, 470)).padStart(3, '0')}</h3>${questions.slice(start, start + 20).map(questionCard).join('')}</section>`);
+  for (let start = 0; start < TOTAL; start += 20) {
+    groups.push(`<section class="junior-question-group" aria-labelledby="junior-group-${start + 1}"><h3 id="junior-group-${start + 1}">Questions ${String(start + 1).padStart(3, '0')}–${String(Math.min(start + 20, TOTAL)).padStart(3, '0')}</h3>${questions.slice(start, start + 20).map(questionCard).join('')}</section>`);
   }
-  host.innerHTML = `<div class="junior-module-heading"><button type="button" class="junior-back" data-back>← 所有模組</button><p class="junior-eyebrow">S2 · OCTOBER 2026</p><h2>S2 Exam Prep - Oct 2026</h2><p>每題填入一個詞或片語。可以先提交已填答案，或填妥 470 題後作完整提交。</p></div>
+  host.innerHTML = `<div class="junior-module-heading"><button type="button" class="junior-back" data-back>← 所有模組</button><p class="junior-eyebrow">S2 · OCTOBER 2026</p><h2>${escapeHtml(TITLE)}</h2><p>每題填入一個詞或片語。可以先提交已填答案，或填妥 ${TOTAL} 題後作完整提交。</p></div>
   ${juniorHighlightToolbar()}
-  <div class="junior-table-shell ${tableVisible ? '' : 'is-hidden'}" data-table-shell><div class="junior-table-head"><div><span class="junior-eyebrow">REFERENCE TABLE</span><h3>47 個詞形一覽</h3><p>先查看全部 47 個詞形，再開始作答。</p></div><button type="button" data-toggle-table aria-expanded="${tableVisible}">${tableVisible ? '隱藏詞形表' : '顯示詞形表'}</button></div><div class="junior-table-scroll"><table><thead><tr><th>詞族</th><th>詞形</th><th>用法與意思</th></tr></thead><tbody>${tableRows()}</tbody></table></div></div>
-  <aside class="junior-table-float ${tableVisible ? '' : 'is-hidden'}" data-table-float hidden aria-label="浮動詞形表"><div class="junior-table-head"><strong>47 個詞形一覽</strong><button type="button" data-toggle-table aria-expanded="${tableVisible}">${tableVisible ? '隱藏詞形表' : '顯示詞形表'}</button></div><div class="junior-table-scroll"><table><thead><tr><th>詞族</th><th>詞形</th><th>用法與意思</th></tr></thead><tbody>${tableRows()}</tbody></table></div></aside>
-  <div class="junior-exam-toolbar"><span><strong data-answered-count>${answeredCount()}</strong> / 470 題已填</span>${translationButton()}<label>跳至題目 <input type="number" min="1" max="470" data-jump aria-label="跳至題目編號"></label><button type="button" data-jump-button>前往</button><span data-submitted-count>${Object.keys(submitted).length} 題已提交</span><button type="button" data-submit-now="partial">提交已填答案</button><button type="button" data-submit-now="final" ${answeredCount() === 470 ? '' : 'disabled'}>提交全部</button><span class="junior-toolbar-status" role="status" aria-live="polite" data-toolbar-status></span></div>
-  <form data-exam-form novalidate>${groups.join('')}<div class="junior-submit-bar"><div><strong>提交答案</strong><small>部分提交會保存所有已填答案；完整提交需要填妥 470 題。</small><p role="status" aria-live="polite" data-submit-status></p></div>${translationButton()}<button type="submit" name="mode" value="partial" data-submit-partial>提交已填答案</button><button type="submit" name="mode" value="final" data-submit-final ${answeredCount() === 470 ? '' : 'disabled'}>提交全部 470 題</button></div></form>`;
+  <div class="junior-table-shell ${tableVisible ? '' : 'is-hidden'}" data-table-shell><div class="junior-table-head"><div><span class="junior-eyebrow">REFERENCE TABLE</span><h3>${FORM_COUNT} 個詞形一覽</h3><p>先查看全部 ${FORM_COUNT} 個詞形，再開始作答。</p></div><button type="button" data-toggle-table aria-expanded="${tableVisible}">${tableVisible ? '隱藏詞形表' : '顯示詞形表'}</button></div><div class="junior-table-scroll"><table><thead><tr><th>詞族</th><th>詞形</th><th>用法與意思</th></tr></thead><tbody>${tableRows()}</tbody></table></div></div>
+  <aside class="junior-table-float ${tableVisible ? '' : 'is-hidden'}" data-table-float hidden aria-label="浮動詞形表"><div class="junior-table-head"><strong>${FORM_COUNT} 個詞形一覽</strong><button type="button" data-toggle-table aria-expanded="${tableVisible}">${tableVisible ? '隱藏詞形表' : '顯示詞形表'}</button></div><div class="junior-table-scroll"><table><thead><tr><th>詞族</th><th>詞形</th><th>用法與意思</th></tr></thead><tbody>${tableRows()}</tbody></table></div></aside>
+  <div class="junior-exam-toolbar"><span><strong data-answered-count>${answeredCount()}</strong> / ${TOTAL} 題已填</span>${translationButton()}<label>跳至題目 <input type="number" min="1" max="${TOTAL}" data-jump aria-label="跳至題目編號"></label><button type="button" data-jump-button>前往</button><span data-submitted-count>${Object.keys(submitted).length} 題已提交</span><button type="button" data-submit-now="partial">提交已填答案</button><button type="button" data-submit-now="final" ${answeredCount() === TOTAL ? '' : 'disabled'}>提交全部</button><span class="junior-toolbar-status" role="status" aria-live="polite" data-toolbar-status></span></div>
+  <form data-exam-form novalidate>${groups.join('')}<div class="junior-submit-bar"><div><strong>提交答案</strong><small>部分提交會保存所有已填答案；完整提交需要填妥 ${TOTAL} 題。</small><p role="status" aria-live="polite" data-submit-status></p></div>${translationButton()}<button type="submit" name="mode" value="partial" data-submit-partial>提交已填答案</button><button type="submit" name="mode" value="final" data-submit-final ${answeredCount() === TOTAL ? '' : 'disabled'}>提交全部 ${TOTAL} 題</button></div></form>`;
   syncTranslationControls();
   highlighter.syncToolbar();
   updateCounters();
@@ -152,7 +165,7 @@ function renderModule() {
 
 function updateCounters() {
   host.querySelector('[data-answered-count]')?.replaceChildren(String(answeredCount()));
-  host.querySelectorAll('[data-submit-final], [data-submit-now="final"]').forEach((button) => { button.disabled = answeredCount() !== 470 || saving; });
+  host.querySelectorAll('[data-submit-final], [data-submit-now="final"]').forEach((button) => { button.disabled = answeredCount() !== TOTAL || saving; });
   host.querySelectorAll('[data-submit-partial], [data-submit-now="partial"]').forEach((button) => { button.disabled = answeredCount() === 0 || saving; });
   host.querySelector('[data-submitted-count]')?.replaceChildren(`${Object.keys(submitted).length} 題已提交`);
 }
@@ -165,13 +178,13 @@ function updateSticky() {
 window.addEventListener('scroll', updateSticky, {passive: true});
 
 async function submit(final) {
-  if (saving || !owner || owner !== JAYDEN_ID) return;
+  if (saving || !owner || owner !== assignedOwner) return;
   const payload = Object.fromEntries(Object.entries(answers).filter(([, value]) => String(value || '').trim()).map(([number, value]) => [number, String(value).trim()]));
   const count = Object.keys(payload).length;
   const statuses = host.querySelectorAll('[data-submit-status], [data-toolbar-status]');
   const showStatus = (message) => statuses.forEach((status) => { status.textContent = message; });
-  if (!count || (final && count !== 470)) {
-    showStatus(final ? '請先填妥全部 470 題。' : '請先填寫至少一題。');
+  if (!count || (final && count !== TOTAL)) {
+    showStatus(final ? `請先填妥全部 ${TOTAL} 題。` : '請先填寫至少一題。');
     return;
   }
   saving = true;
@@ -224,7 +237,7 @@ host.addEventListener('click', async (event) => {
     syncTranslationControls();
   } else if (event.target.closest('[data-jump-button]')) {
     const number = Number(host.querySelector('[data-jump]')?.value);
-    if (number >= 1 && number <= 470) host.querySelector(`#junior-q-${key(number)}`)?.scrollIntoView({behavior: 'smooth', block: 'start'});
+    if (number >= 1 && number <= TOTAL) host.querySelector(`#junior-q-${key(number)}`)?.scrollIntoView({behavior: 'smooth', block: 'start'});
   } else if (event.target.closest('[data-play]')) {
     const button = event.target.closest('[data-play]');
     const clip = clips?.[button.dataset.play];
@@ -240,12 +253,18 @@ function syncSession() {
   const next = session?.user?.id || null;
   if (next === owner) { token = session?.token || ''; return; }
   owner = next; token = session?.token || '';
+  const custom = owner === WORD_FORMS_OWNER && (owner !== JAYDEN_ID || new URLSearchParams(location.search).get('module') === 'word-forms-35');
+  MODULE_KEY = custom ? 'word-forms-35-oct-2026' : 's2-exam-prep-oct-2026';
+  TOTAL = custom ? 138 : 470; TITLE = custom ? '35 Words · Word Form Practice' : 'S2 Exam Prep - Oct 2026';
+  assignedOwner = custom ? WORD_FORMS_OWNER : JAYDEN_ID;
+  FORM_GROUPS = LEGACY_FORM_GROUPS; FORM_COUNT = custom ? 138 : 47;
+  questions = null; clips = null;
   player.pause(); answers = {}; submitted = {}; view = 'home';
   if (!owner) { host.replaceChildren(); return; }
   try { translationVisible = localStorage.getItem(translationKey()) !== 'hidden'; } catch { translationVisible = true; }
   answers = readDraft();
   renderHome();
-  if (owner === JAYDEN_ID) {
+  if (owner === assignedOwner) {
     void loadSubmissions(owner);
     if (window.location.hash === '#module') void openLegacyModule();
   }

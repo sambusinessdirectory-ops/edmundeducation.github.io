@@ -36,6 +36,10 @@ function saveDraft() {
 function filledCount() { return Object.values(answers).filter((answer) => String(answer || '').trim()).length; }
 function renderHome() {
   if (!owner) { host.replaceChildren(); return; }
+  if (owner === '8d05282a-10a3-44c8-9376-8a066fce7a3a') {
+    host.innerHTML = `<div class="junior-home-heading"><p class="junior-eyebrow">YOUR EXAM PREPARATION</p><h2>您的溫習模組</h2><p>35 個詞族・138 項詞形用法・138 道雙語填空題。</p></div><a class="junior-module-card" href="./junior-exam-prep-legacy.html#module"><span class="junior-module-card__number">01</span><span><strong>35 Words · Word Form Practice</strong><small>完整詞形參考表 · 可分段提交</small></span><span aria-hidden="true">↗</span></a>`;
+    return;
+  }
   if (owner !== JAYDEN_ID) {
     host.innerHTML = '<article class="junior-empty"><p class="junior-eyebrow">YOUR LEARNING SPACE</p><h2>已成功登入</h2><p>目前沒有分配給您的考試溫習模組。</p></article>';
     return;

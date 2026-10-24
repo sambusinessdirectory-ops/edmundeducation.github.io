@@ -25,7 +25,7 @@ assert.match(legacyApp, /audio-manifest\.json/);
 assert.match(legacyApp, /junior_exam_list_responses/);
 assert.match(legacyApp, /junior_exam_submit/);
 assert.match(html, /data-learning-portal="junior-exam-prep"/);
-assert.match(html, /junior-exam-prep\/app\.mjs\?v=20261021-study3/);
+assert.match(html, /junior-exam-prep\/app\.mjs\?v=20261024-wordforms1/);
 assert.match(app, /junior_exam_list_responses/);
 assert.match(app, /junior_exam_submit/);
 assert.match(app, /p_final: final/);
