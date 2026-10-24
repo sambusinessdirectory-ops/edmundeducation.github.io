@@ -1,0 +1,56 @@
+{
+  "reportType": "independent-exact-hash-proposal-review",
+  "status": "accept-both-proposal-content",
+  "createdUtc": "2026-10-24T01:27:07.673266+00:00",
+  "proposal": {
+    "path": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-4517-4564-proposed-a.json",
+    "sha256": "2d203eb8f5b0b13afe188b45ef1c38a155fa1b3ed8afbd249a6f9daefa4da5bc"
+  },
+  "authorAudit": {
+    "path": "course-materials/advanced-native/reviews-books10-16/author-owner-proposals-4517-4564-a.json",
+    "sha256": "c73d0814aae6ab0593793767a7fdca890f30da31da4ce5e9aff3f0a4d32a9763"
+  },
+  "perSource": [
+    {
+      "sourceOrdinal": 4517,
+      "sourceId": "book10-16-2406",
+      "proposedOwner": 590,
+      "status": "accept",
+      "evidence": "As cities grow supplies the rate-of-change benchmark for transport has had to keep pace. Revised title, meaning, grammar and tutoring dialogue teach bare keep pace only with a clear benchmark; the dialogue compares new requests, completed sessions and stable waiting list. The guarded pattern matches reviewed with complements and contextual bare use but rejects literal kept pace with the bus. Actor, timing, keyed answer and EN/ZH agree."
+    },
+    {
+      "sourceOrdinal": 4564,
+      "sourceId": "book10-16-2453",
+      "proposedOwner": 1849,
+      "status": "accept",
+      "evidence": "I can work that out with the route app uses the app as a tool to resolve a route question. The revised scene provides a clear that antecedent (a mutually available meeting time), separates the parents’ tentative overlap from teacher confirmation, and offers plausible wrong decisions. New speaking sentence uses the same transitive construction. The final detector covers recorded and keyed forms while rejecting incomplete determiner/wh fragments and intransitive worked out well. All seven formerly Chinese-only assessed choices now have faithful English/Traditional Chinese pairs."
+    }
+  ],
+  "validation": {
+    "focusedBuildAndCheck": "2 lessons, 12 questions, 8 audio requests, 0 flags",
+    "liveJsControls": {
+      "owner590": "4 positive/3 negative pass",
+      "owner1849": "4 positive/4 negative pass"
+    },
+    "allRecordedSourcesAndSceneKeysMatch": true,
+    "fullGuideSourceMatches": {
+      "owner590": [
+        "book10-16-2178",
+        "book10-16-2406"
+      ],
+      "owner1849": [
+        "book10-16-1546",
+        "book10-16-2453"
+      ]
+    },
+    "assessmentAnswerIdsAndOptionIdsPreserved": true,
+    "changedAssessedOptionsBilingual": true,
+    "sixTokenGuideCopy": "Author audit reports zero; not independently re-run in this focused review.",
+    "audioTextDelta": "Only owner1849 speaking audio text changes; later local media production/QA is separate."
+  },
+  "findings": [],
+  "limits": [
+    "Read-only independent AI review of frozen proposal; no owner, decision, manifest, audio, or release edit.",
+    "Content clearance supports coordinated integration only; no human or live release approval."
+  ]
+}

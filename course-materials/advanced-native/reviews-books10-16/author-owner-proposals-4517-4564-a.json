@@ -1,0 +1,130 @@
+{
+  "kind": "author-proposal-audit",
+  "scope": "Proposal-only owner expansions; no selected owner, source decision, manifest, audit, media, or release file changed by this proposal.",
+  "proposal": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-4517-4564-proposed-a.json",
+  "proposalSha256": "2d203eb8f5b0b13afe188b45ef1c38a155fa1b3ed8afbd249a6f9daefa4da5bc",
+  "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4512-4571.jsonl",
+  "decisionFileSha256": "a72e4b8b9f1892723c220b8b589f0e42fce5e18f3af74540d3d3886bce021a41",
+  "build": {
+    "command": "node tools/advanced-native-bulk/build.mjs PROPOSAL --out-dir /private/tmp/advanced-native-owner-4517-4564-proposal-a && same --check",
+    "lessons": 2,
+    "questions": 12,
+    "audioRequests": 8,
+    "reviewFlags": 0,
+    "passed": true
+  },
+  "sourceInventoryRows": 2604,
+  "newEnglishChangedFields": 14,
+  "sixTokenGuideExampleOverlaps": 0,
+  "owners": [
+    {
+      "owner": "advanced-native-590",
+      "sourceOrdinal": 4517,
+      "sourceId": "book10-16-2406",
+      "sourceSentence": "As cities grow, transport has had to keep pace.",
+      "sourceExpression": "transport has had to keep pace",
+      "sourceMeaning": "Transport has needed to adapt as fast as life changes; a fixed motion idiom.",
+      "originalFile": "course-materials/advanced-native/batches/batch-0576-0600.json",
+      "originalSha256": "9b6da03c001fc0bf732bcd2b45a09e3ef877a2d02df218e92d6602ea1de9413f",
+      "beforeContentRevision": 2,
+      "proposedContentRevision": 3,
+      "changedTopLevelFields": [
+        "titleEn",
+        "titleZh",
+        "target",
+        "brief",
+        "sources",
+        "dialogue",
+        "contentRevision"
+      ],
+      "audioTextChanges": [],
+      "fullSourceDetectorHits": [
+        {
+          "sourceOrdinal": 4289,
+          "sourceId": "book10-16-2178"
+        },
+        {
+          "sourceOrdinal": 4517,
+          "sourceId": "book10-16-2406"
+        }
+      ],
+      "keyedIdsPreserved": true,
+      "sourceOccurrenceExact": true
+    },
+    {
+      "owner": "advanced-native-1849",
+      "sourceOrdinal": 4564,
+      "sourceId": "book10-16-2453",
+      "sourceSentence": "I can work that out with the route app.",
+      "sourceExpression": "work that out",
+      "sourceMeaning": "Determine an answer or solution; a natural phrasal verb.",
+      "originalFile": "course-materials/advanced-native/batches/batch-1826-1850.json",
+      "originalSha256": "84c2d6c322e0dadf5532be17e7584893bab9fd35691b77347a671d5a935c809c",
+      "beforeContentRevision": 1,
+      "proposedContentRevision": 2,
+      "changedTopLevelFields": [
+        "contentRevision",
+        "target",
+        "sources",
+        "brief",
+        "listening",
+        "scene",
+        "contrast",
+        "speaking"
+      ],
+      "audioTextChanges": [
+        "speaking"
+      ],
+      "fullSourceDetectorHits": [
+        {
+          "sourceOrdinal": 3657,
+          "sourceId": "book10-16-1546"
+        },
+        {
+          "sourceOrdinal": 4564,
+          "sourceId": "book10-16-2453"
+        }
+      ],
+      "keyedIdsPreserved": true,
+      "sourceOccurrenceExact": true
+    }
+  ],
+  "detectorControls": {
+    "advanced-native-590": {
+      "positive": [
+        "transport has had to keep pace",
+        "The service is keeping pace as requests rise.",
+        "The clinic could not keep pace with demand.",
+        "Ethical rules must keep pace with human invention."
+      ],
+      "negative": [
+        "The staff kept a steady pace.",
+        "The crowd set the pace.",
+        "The bus kept to schedule.",
+        "The joggers kept pace with the bus."
+      ],
+      "semanticCaveat": "Bare keep pace requires an explicit changing benchmark in nearby discourse. The bare branch rejects a following with phrase, so unreviewed literal with-complements do not match; contextual editorial review is still needed."
+    },
+    "advanced-native-1849": {
+      "positive": [
+        "I can work that out with the route app.",
+        "We worked it out.",
+        "They will work out a fair schedule.",
+        "We are working this out.",
+        "We need to work out which detail is missing."
+      ],
+      "negative": [
+        "The plan worked out well.",
+        "The plan worked out.",
+        "The workout lasted an hour.",
+        "They worked through that issue.",
+        "The plan worked out badly.",
+        "We work out a.",
+        "She worked out the.",
+        "We work out which."
+      ],
+      "semanticCaveat": "Detector admits common transitive object/clause openings and object-pronoun placement; it deliberately does not grade every possible noun object or the intransitive outcome use."
+    }
+  },
+  "editorialStatus": "Awaiting independent AI review; no human or release approval claimed."
+}

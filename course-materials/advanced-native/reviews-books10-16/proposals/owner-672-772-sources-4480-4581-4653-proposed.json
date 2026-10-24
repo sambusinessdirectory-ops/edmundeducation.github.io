@@ -1,0 +1,649 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-proposal-only-owner-672-772-source-4480-4581-4653",
+  "lessons": [
+    {
+      "id": "advanced-native-672",
+      "number": 672,
+      "inventoryId": "expr-0672",
+      "titleEn": "tell a story",
+      "titleZh": "物件呈現背後的經歷",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:tell|tells|told|telling) (?:a|its) story\\b",
+        "glossaryForbidden": [
+          "\\btell(?:s|ing)? a story\\b",
+          "\\btold a story\\b",
+          "\\b(?:tell|tells|told|telling) its story\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Reveal or suggest a history, experience or meaning through details of an object or collection; a museum or archive may also help a place tell its story through supported local evidence.",
+        "meaningZh": "透過物件或一組資料的細節，呈現或暗示背後的歷史、經歷或意義；博物館或檔案館亦可藉有根據的地方資料，協助一個地方呈現其歷史。",
+        "grammar": "Worn steps or photographs tell a story about a place; a museum can help a city tell its story. Told/tells/telling are natural inflections, and its refers to the place. Objects and places do not literally speak: dated details support an account without proving every person’s motive or a complete history.",
+        "register": "Figurative but natural in museum and civic writing. A curator may tell visitors what dated objects show; a city historian may explain how an archive helps the town tell its story. Identify visible evidence before claiming a personal motive.",
+        "boundaryZh": "物件或地方可透過有年份的資料呈現部分經歷，但這不是把城市當作真人說話，也不等於知道每個人的動機或完整歷史。",
+        "misconceptionZh": "不要把單一磨損當作動機的證明，也不因物件不能說話，就認為它完全沒有資訊。",
+        "outcomeZh": "能用具體物件或地方資料呈現有根據的歷史片段，分清可見證據與仍需查證的個人原因。"
+      },
+      "sources": [
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 51,
+          "expression": "tell a story",
+          "sentence": "The old photographs tell a story about the neighbourhood.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 3,
+          "question": 18,
+          "sample": "S1",
+          "locatorNote": "PDF page 51, table 2, row 5; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p051-t2-r05"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 107,
+          "expression": "tell a story",
+          "sentence": "The old photographs tell a story about the neighbourhood.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 5,
+          "question": 9,
+          "sample": "S1",
+          "locatorNote": "PDF page 107, table 2, row 6; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p107-t2-r06"
+        },
+        {
+          "occurrenceId": "book10-16-2369",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 224,
+          "book": 16,
+          "question": 31,
+          "sample": "S2",
+          "sourceBookPages": "75–76",
+          "locatorNote": "DOCX table 246, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A museum helps the city tell its story.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "tell its story",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-2542",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 240,
+          "book": 16,
+          "question": 53,
+          "sample": "S2",
+          "sourceBookPages": "124–125",
+          "locatorNote": "DOCX table 268, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A museum helps the city tell its story.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "tell its story",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "listening": {
+        "en": "The worn handles and repeated repairs tell a story about how often the community used the old cupboard, but they do not identify who made each repair; the curator plans to ask former volunteers before naming anyone.",
+        "zh": "磨損的把手及反覆修補的痕跡，呈現社區經常使用舊櫃子的經歷，但沒有指明每次由誰修補；策展人打算先問昔日義工，再寫出人名。",
+        "promptZh": "物件細節支持甚麼？還需要查問哪些資訊？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The cupboard shows repeated use and repair, while the repairers’ identities remain to be checked.",
+            "zh": "櫃子顯示反覆使用及修補，但維修者身份仍待核實。"
+          },
+          {
+            "id": "b",
+            "en": "Each mark is already linked to a named volunteer in the account.",
+            "zh": "敘述已把每道痕跡，連到一位具名義工。"
+          },
+          {
+            "id": "c",
+            "en": "The visible marks come from a single recent repair rather than repeated community use.",
+            "zh": "可見痕跡來自最近的一次修補，而不是社區反覆使用。"
+          },
+          {
+            "id": "d",
+            "en": "The curator plans to replace the cupboard before examining any of its details.",
+            "zh": "策展人打算還未查看細節，就先換掉櫃子。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "痕跡支持使用經歷，卻未提供修補者姓名；策展人計劃查問，不是未看細節就換櫃。"
+      },
+      "reply": {
+        "promptZh": "策展人為甚麼暫時不寫修補者的人名？",
+        "promptEn": "Why is the curator not naming the repairers yet?",
+        "options": [
+          {
+            "id": "a",
+            "en": "The repairs tell a story of use, but do not identify the people who made them.",
+            "zh": "修補呈現了使用經歷，但沒有指明由誰完成。"
+          },
+          {
+            "id": "b",
+            "en": "The visible traces establish maintenance, not which volunteer carried out each part.",
+            "zh": "可見痕跡顯示曾經維護，卻沒有說每個部分由哪位義工處理。"
+          },
+          {
+            "id": "c",
+            "en": "Former volunteers may know something that the worn handles alone cannot supply.",
+            "zh": "昔日義工可能知道磨損把手本身不能提供的資訊。"
+          },
+          {
+            "id": "d",
+            "en": "Naming a repairer requires more information than the marks currently provide.",
+            "zh": "要寫出維修者姓名，需要比現有痕跡更多的資料。"
+          }
+        ],
+        "explanationZh": "四句都解釋了物件細節為甚麼尚不足以支持姓名，同時承認可見使用痕跡仍有價值。",
+        "goldenId": "a"
+      },
+      "scene": {
+        "promptZh": "市鎮檔案館展出有年份的店舖招牌及租約，顯示市集如何改變，但沒有記錄每家店為何結業。哪句最審慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The dated records help the town tell its story by showing how the market changed, but they do not establish why each shop closed.",
+            "zh": "有年份的紀錄顯示市集如何變遷，有助小鎮呈現自身歷史，但不能證實每家店為何結業。"
+          },
+          {
+            "id": "b",
+            "en": "The leases prove that every shop closed because its rent rose, even though no reason is recorded.",
+            "zh": "雖然沒有記下原因，租約仍證明每家店都是因租金上升而結業。"
+          },
+          {
+            "id": "c",
+            "en": "Because the records leave motives unknown, the town cannot tell any story about how its market changed.",
+            "zh": "既然紀錄沒有交代動機，小鎮就完全無法呈現市集如何改變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有年份的招牌及租約可支持市集變遷的敘述，但不足以證實每家店的結業原因；不能把未知動機當作已知，也不用因此否定所有可見變化。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不能從物件 tell a story 的比喻本身推論出來？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Details can suggest past use or change.",
+            "zh": "細節可以暗示過去的使用或改變。"
+          },
+          {
+            "id": "b",
+            "en": "Every person’s motive and every event are already known.",
+            "zh": "每個人的動機及每件事情，都已經知道。"
+          },
+          {
+            "id": "c",
+            "en": "Other testimony may clarify the object’s history.",
+            "zh": "其他證言可能釐清物件的經歷。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "呈現部分經歷，不等於已完整知道所有事件及動機。"
+      },
+      "dialogue": {
+        "promptZh": "伙伴問：「看到修補痕跡，就可以直接寫是林先生做的嗎？」還沒有人認出維修者。哪個回應最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The repairs tell a story, but not yet that particular name; let us ask the former volunteers first.",
+            "zh": "修補呈現了一段經歷，但尚未支持那個特定人名；先問昔日義工吧。"
+          },
+          {
+            "id": "b",
+            "en": "I would name him now because he volunteered there, even though nobody has linked him to the repairs.",
+            "zh": "我會現在寫他，因為他曾在那裏做義工，雖然沒有人把他與修補連起來。"
+          },
+          {
+            "id": "c",
+            "en": "We should remove all mention of repairs until we know the person’s name.",
+            "zh": "在知道姓名之前，應刪掉所有有關修補的描述。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可以保留已看見的修補，但不添加未證實的姓名；不必因一項未知，就抹去已見的細節。"
+      },
+      "speaking": {
+        "en": "These marks tell a story about past use, but I would look for more evidence before naming the people behind them.",
+        "zh": "這些痕跡呈現過去使用的經歷，但寫出背後人物的姓名前，我會再找證據。",
+        "promptZh": "先聽示範，再說明痕跡支持甚麼，以及仍有甚麼未知。",
+        "targetSpan": {
+          "start": 12,
+          "end": 24
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：人物整理自己童年的畫冊，看到同一隻貓畫了很多遍，旁邊有祖父寫的鼓勵。你想以第一人稱旁白呈現練習及被支持的成長，不把畫冊當成全家每人的完整人生。用一至兩句英文寫實際旁白。",
+        "selfCheckZh": "以畫冊中的反覆練習及鼓勵，寫出可用的第一人稱旁白；保留自己的記憶及細節，不用局部物件取代全家的完整經歷。",
+        "examples": [
+          {
+            "en": "These pages tell a story about the child I was: I drew the same cat again and again, with my grandfather’s encouragement beside it. Turning the pages, I can see practice and kindness sharing the same small space.",
+            "zh": "這些頁面呈現了童年的我：同一隻貓，我畫了一遍又一遍，旁邊有祖父的鼓勵。翻着頁，我看見練習與善意共在同一片小空間。"
+          },
+          {
+            "en": "The repeated cats and his careful notes tell a story of how I kept trying. I cannot find our whole family history here, but I can recognise the support that made these attempts possible.",
+            "zh": "反覆畫出的貓，及他用心寫的字句，呈現了我怎樣不斷嘗試。這裏沒有全家的完整歷史，但我認得那些讓嘗試成為可能的支持。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the child I was",
+            "zh": "童年時的自己",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 46
+            }
+          },
+          {
+            "en": "again and again",
+            "zh": "一遍又一遍",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 83
+            }
+          },
+          {
+            "en": "my grandfather’s encouragement",
+            "zh": "祖父給我的鼓勵",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 120
+            }
+          },
+          {
+            "en": "Turning the pages",
+            "zh": "翻閱書頁時",
+            "exampleIndex": 0,
+            "span": {
+              "start": 132,
+              "end": 149
+            }
+          },
+          {
+            "en": "the support that made these attempts possible",
+            "zh": "讓這些嘗試成為可能的支持",
+            "exampleIndex": 1,
+            "span": {
+              "start": 140,
+              "end": 185
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The patched sleeves tell a story of long use, though the label does not say who sewed them.",
+          "zh": "補過的衣袖呈現長期使用的經歷，但標籤沒有說由誰縫補。"
+        },
+        {
+          "en": "The notes in the margins told a story of changing plans as the writer reconsidered the ending.",
+          "zh": "作者重新考慮結尾時，頁邊筆記呈現了計劃改變的經過。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": []
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-772",
+      "number": 772,
+      "inventoryId": "expr-0772",
+      "titleEn": "ripple out / ripples spread",
+      "titleZh": "影響逐步向外擴散",
+      "category": "phrasal-verb",
+      "contentRevision": 5,
+      "target": {
+        "pattern": "\\b(?:rippl(?:e|es|ed|ing)\\s+(?:out(?:ward)?|through\\s+(?:(?:the|a)\\s+)?(?:whole\\s+)?family)|(?:send|sends|sent|sending)\\s+ripples\\s+far\\s+beyond)\\b|\\brippl(?:e|es|ed|ing)\\s+through\\s+the\\s+city\\b|\\bripples (?:have|had) spread (?:much )?more widely\\b|\\bripples spread (?:much )?more widely\\b",
+        "glossaryForbidden": [
+          "\\brippl(?:e|es|ed|ing)\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p066-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 66,
+          "book": 3,
+          "question": 35,
+          "sample": "S1",
+          "sourceBookPages": "102–104",
+          "sentence": "The effects of the closure could ripple out across the region.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "ripple out"
+        },
+        {
+          "occurrenceId": "pdf-2-p157-t2-r10",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 157,
+          "book": 6,
+          "question": 25,
+          "sample": "S2",
+          "sourceBookPages": "71–72",
+          "sentence": "A calm response can ripple outward.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "ripple outward"
+        },
+        {
+          "occurrenceId": "book10-16-0896",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 83,
+          "book": 12,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "39–40",
+          "locatorNote": "DOCX table 85, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A job change may ripple through the whole family.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "ripple through the whole family"
+        },
+        {
+          "occurrenceId": "book10-16-0907",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 84,
+          "book": 12,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 86, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "One policy change can send ripples far beyond the office.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "send ripples far beyond"
+        },
+        {
+          "occurrenceId": "book10-16-0619",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 57,
+          "book": 11,
+          "question": 16,
+          "sample": "S2",
+          "sourceBookPages": "43–44",
+          "locatorNote": "DOCX table 52, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "News of the concert began to ripple through the city.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "ripple through the city"
+        },
+        {
+          "occurrenceId": "book10-16-2470",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 233,
+          "book": 16,
+          "question": 44,
+          "sample": "S2",
+          "sourceBookPages": "104–105",
+          "locatorNote": "DOCX table 259, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "From one trial, the ripples have spread much more widely.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "ripples have spread much more widely",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Spread from an initial event or group to affect others; effects may ripple out, news may ripple through a city, and the resulting ripples may spread more widely through connected groups.",
+        "meaningZh": "從最初事件或群體向外擴散並影響其他人；影響可向外傳開，消息可在人們轉傳下遍及城市，連鎖影響亦可擴至更廣範圍。",
+        "grammar": "Effects can ripple out/outward or through a connected family; reported news can ripple through a city. A change can send ripples far beyond its starting group, or its ripples have spread much more widely after identifiable follow-on effects. Name the initial cause and relay link; wider spread does not mean everyone experienced the same effect.",
+        "register": "Figurative water-movement image for good or bad effects. A project planner explaining a trial to residents can say its ripples have spread more widely after linked service changes; a news editor can describe information rippling through a city. Neither wording alone proves every claimed causal link.",
+        "boundaryZh": "可用於「影響已擴得更廣」的名詞 ripples 加 spread 結構；仍須交代起點及後續連結，不能只因同時發生便當作連鎖影響。",
+        "misconceptionZh": "ripples have spread much more widely 是後續影響擴大的說法，不表示人人同時受相同影響，也不表示任何遠處變化都由原試行計劃引起。",
+        "outcomeZh": "能描繪有依據的連鎖影響，並保留範圍差異。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "影響怎樣向外擴散？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A change at the library affected activity at a nearby business.",
+            "zh": "圖書館的改變影響附近店舖的活動。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The café’s earlier closure caused the library to reduce its hours.",
+            "zh": "咖啡店提早關門，令圖書館縮短時間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The longer hours affected only the librarian’s desk arrangement.",
+            "zh": "延長時間只影響圖書館員的桌面安排。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The café’s customers changed independently of the study sessions.",
+            "zh": "咖啡店顧客的變化與溫習時段無關。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "晚間圖書館使用增加，帶動之後到咖啡店的人流，是具體連結；不是反向因果或無關同時發生。",
+        "en": "The library’s longer opening hours rippled out to the nearby café, which began serving more students after evening study sessions.",
+        "zh": "圖書館延長開放的影響擴散到附近咖啡店；晚間溫習後到店的學生增加。"
+      },
+      "reply": {
+        "promptEn": "How could the new repair classes benefit people beyond those who attend?",
+        "promptZh": "新維修班可怎樣幫到直接參加者以外的人？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Participants might show family members how to fix small items.",
+            "zh": "參加者可能教家人修小物品。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The benefits could ripple out as learners share what they have practised.",
+            "zh": "學習者分享練過的技巧時，好處可能向外擴散。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Neighbours could borrow tools and learn from someone who took the class.",
+            "zh": "鄰居可向上過課的人借工具並請教。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Families could spend less on replacements when learners repair household items.",
+            "zh": "學員修理家居物品時，家人可減少花錢更換。"
+          }
+        ],
+        "goldenId": "choice-2",
+        "explanationZh": "四句均提出直接學員以外的可能好處；金句保留 could，不保證所有人都受惠。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "某區試行夜間接駁車後，轉乘乘客增加。鄰近診所為了讓這些乘客趕上晚間預約，調整了預約時段；社區中心也因應他們到訪而延後關門。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The ripples have spread much more widely: the trial led clinics to revise booking slots and the community centre to stay open later.",
+            "zh": "連鎖影響已擴得更廣：試行計劃令診所調整預約時段，社區中心也延後關門。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The community centre extended its hours first and caused the shuttle trial, rather than responding to extra transfers.",
+            "zh": "社區中心先延長時間，促成了接駁車試行，而不是回應轉乘人流增加。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The extra transfers affected only the shuttle route; the clinics and community centre kept their original schedules.",
+            "zh": "轉乘人流增加只影響接駁路線；診所及社區中心仍維持原來安排。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "轉乘人流增加後，診所及社區中心相繼調整，構成從試行路線向外擴展的具體連結；不是相反的先後次序，也不是影響只限於原路線。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪個推論不宜單憑 ripple out 作出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "An effect can reach beyond its starting point.",
+            "zh": "影響可超出最初起點。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Connections can transmit an effect to other groups.",
+            "zh": "連結可把影響傳到其他群體。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Every person must experience the same effect at the same time.",
+            "zh": "每個人必須在同一時間有相同影響。"
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "擴散範圍、時間及效果可不同，沒有全體同時一致的保證。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「兩間店同日生意變了，就是同一影響擴散吧？」哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Effects can ripple out, but we should check what connects the changes before claiming a link.",
+            "zh": "影響可以向外擴散，但說有連結前，應查甚麼把變化連起來。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the matching dates as enough evidence without checking customer patterns.",
+            "zh": "只因日期相同就當證據足夠，不查顧客模式。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Describe one shop’s change as the cause before asking whether the shops share customers.",
+            "zh": "未問兩店是否有共同顧客，就說一店改變是另一店的成因。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "同時發生不等於因果，要查顧客或其他實際連結。"
+      },
+      "speaking": {
+        "en": "The benefits can ripple out when participants share their new skills.",
+        "zh": "參加者分享新技能時，好處可向外擴散。",
+        "promptZh": "你想描述分享帶來的間接好處。先聽，再說。",
+        "targetSpan": {
+          "start": 17,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生學會節約食物，回家和家人分享，家人再把做法帶到工作場所。用一至兩句英文描述影響怎樣擴散。",
+        "examples": [
+          {
+            "en": "The lessons can ripple out as students share food-saving ideas with their families. Family members may then try them at work.",
+            "zh": "學生與家人分享節約食物想法時，課堂影響可向外擴散。家人之後可能在工作場所嘗試。"
+          },
+          {
+            "en": "The benefits ripple out through family conversations and workplace habits, rather than staying only in the classroom.",
+            "zh": "好處透過家庭談話及工作習慣向外擴散，而非只留在課室。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "food-saving ideas",
+            "zh": "節約食物的想法",
+            "exampleIndex": 0,
+            "span": {
+              "start": 45,
+              "end": 62
+            }
+          },
+          {
+            "en": "their families",
+            "zh": "他們的家人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 82
+            }
+          },
+          {
+            "en": "try them at work",
+            "zh": "在工作場所嘗試",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 124
+            }
+          },
+          {
+            "en": "family conversations",
+            "zh": "家庭談話",
+            "exampleIndex": 1,
+            "span": {
+              "start": 32,
+              "end": 52
+            }
+          },
+          {
+            "en": "workplace habits",
+            "zh": "工作習慣",
+            "exampleIndex": 1,
+            "span": {
+              "start": 57,
+              "end": 73
+            }
+          }
+        ],
+        "selfCheckZh": "寫出由學生到家人再到工作場所的傳播連結；可用 can 或 may 保留未必人人實行。"
+      },
+      "takeaways": [
+        {
+          "en": "A small change can ripple out through a connected community.",
+          "zh": "小改變可透過互相連結的社區向外擴散。"
+        },
+        {
+          "en": "One timetable change can send ripples far beyond the first team when other groups depend on its deliveries.",
+          "zh": "若其他小組依賴第一組的送貨，一項時間表改動便可能令影響擴散到遠超第一組的範圍。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Outward-spread phrasal verb with explicit intermediate links; neither universal impact nor mere coincidence. Source gradually is not made a mandatory speed constraint."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+      }
+    }
+  ]
+}

@@ -3387,24 +3387,25 @@
     "id": "advanced-native-590",
     "number": 590,
     "inventoryId": "expr-0590",
-    "titleEn": "keep pace with demand",
-    "titleZh": "跟得上需求的增長",
+    "titleEn": "keep pace",
+    "titleZh": "跟上相關變化的速度",
     "category": "idiom",
     "target": {
-      "pattern": "\\b(?:keep(?:s|ing)?|kept)\\s+pace\\s+with\\s+(?:demand|human\\s+invention)\\b",
+      "pattern": "\\b(?:keep(?:s|ing)?|kept)\\s+pace\\b(?:\\s+with\\s+(?:demand|human\\s+invention)\\b|(?!\\s+with\\b))",
       "glossaryForbidden": [
         "\\bpace\\s+with\\s+demand\\b",
-        "\\bpace\\s+with\\s+human\\s+invention\\b"
+        "\\bpace\\s+with\\s+human\\s+invention\\b",
+        "\\b(?:keep(?:s|ing)?|kept)\\s+pace\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Match the rate of a relevant change: a service may meet rising demand, while rules may be updated as new inventions create new uses and risks.",
-      "meaningZh": "跟上相關變化的速度：服務可配合增長的需求；規則亦可隨新發明帶來的用途與風險更新。",
-      "grammar": "Keep/keeps/kept/keeping pace with demand or human invention. State what is changing and what provision or guidance must adapt; matching the timetable alone does not prove adequacy.",
-      "register": "Conventional pace-as-matching-rate metaphor in service and policy discussion. A coordinator may compare requests with capacity; an ethics reviewer may compare technology releases with rule updates.",
-      "boundaryZh": "供應增加須與需求比較；規則在新用途推出前更新，也不證明所有倫理或私隱風險已消除。",
-      "misconceptionZh": "不要把「做得更多」直接當成跟得上需求，也不要把「更新得及時」當成規則必然足夠。",
-      "outcomeZh": "能辨認被比較的變化速度，分別判斷服務能否配合需求，或規則能否隨技術新用途及時調整。"
+      "meaningEn": "Match the rate of a relevant change. The benchmark may follow with (demand, human invention) or be supplied by the surrounding clause, as when a service adapts while a city grows.",
+      "meaningZh": "跟上相關變化的速度；比較對象可由 with 指出，也可由前後文交代，例如城市增長時服務相應調整。",
+      "grammar": "Keep/keeps/kept/keeping pace (with demand or human invention). The with phrase may be omitted when an as/while clause or clear nearby context supplies the changing benchmark; state what is changing and what must adapt. Matching a timetable alone does not prove adequacy.",
+      "register": "Neutral in service and policy discussion. A transport planner may explain to residents whether routes match city growth; a coordinator may compare requests with capacity, and an ethics reviewer may compare inventions with rule updates.",
+      "boundaryZh": "單說「跟上」而沒有明確比較對象，意思未夠清楚；供應增加須與需求或城市增長比較。規則及時更新，也不證明所有風險已消除。",
+      "misconceptionZh": "不要把「做得更多」直接當成跟得上變化；省略 with 時仍須在語境交代比較甚麼。",
+      "outcomeZh": "能辨認有無 with 的比較對象，並判斷服務或規則是否跟得上相關變化。"
     },
     "sources": [
       {
@@ -3433,6 +3434,21 @@
         "sentence": "Ethical rules must keep pace with human invention.",
         "referenceSentenceKind": "guide_original_example",
         "expression": "keep pace with human invention",
+        "sourceCategory": "Idiom or set phrase"
+      },
+      {
+        "occurrenceId": "book10-16-2406",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 227,
+        "book": 16,
+        "question": 36,
+        "sample": "S1",
+        "sourceBookPages": "86–89",
+        "locatorNote": "DOCX table 251, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "As cities grow, transport has had to keep pace.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "transport has had to keep pace",
         "sourceCategory": "Idiom or set phrase"
       }
     ],
@@ -3538,26 +3554,26 @@
       "explanationZh": "只知完成量上升未有需求比較，不能單憑此判已跟上。"
     },
     "dialogue": {
-      "promptZh": "同伴想用「修多三件」宣布已跟上，但新製作加入後請求增加多少還未比較。哪個回應最好？",
+      "promptZh": "開課後，輔導小組每周收到的新申請由二十宗增至三十宗，完成節數也由二十增至三十，輪候名單持平。同伴只想報告「多做十節」。哪句較完整？",
       "options": [
         {
           "id": "a",
-          "en": "Compare incoming requests with finished repairs before claiming we can keep pace with demand.",
-          "zh": "先比新請求與修好數，再稱跟得上需求。"
+          "en": "The tutoring team is keeping pace as requests rise: completed sessions have increased at the same rate, and the waiting list is stable.",
+          "zh": "申請增加時，輔導小組仍跟得上：完成節數以相同速度增加，輪候名單也持平。"
         },
         {
           "id": "b",
-          "en": "Use the higher repair total alone and leave the new productions out of the comparison.",
-          "zh": "只用較高修補總數，不把新製作放進比較。"
+          "en": "The ten extra sessions alone prove the team is keeping up, without comparing them with requests or the waiting list.",
+          "zh": "單憑多做十節，毋須比較申請或輪候名單，便能證明小組跟得上。"
         },
         {
           "id": "c",
-          "en": "Ask for every optional change first while postponing the discussion of essential repairs.",
-          "zh": "延後談必要修補，先要每項非必要改動。"
+          "en": "A stable waiting list shows that no additional students requested tutoring this term.",
+          "zh": "輪候名單持平，表示本學期沒有更多學生申請輔導。"
         }
       ],
       "answerId": "a",
-      "explanationZh": "需要供需同看，並非單看多做或先加非必要需求。"
+      "explanationZh": "申請與完成節數均由二十增至三十，輪候亦持平，才有根據說跟得上；比較對象由 as requests rise 清楚交代，不必硬加 with。"
     },
     "speaking": {
       "en": "The service is doing more, but we need to compare new requests before saying it can keep pace with demand.",
@@ -3663,7 +3679,7 @@
       },
       "notes": []
     },
-    "contentRevision": 2
+    "contentRevision": 3
   },
   {
     "id": "advanced-native-591",

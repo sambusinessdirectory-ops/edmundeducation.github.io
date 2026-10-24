@@ -1,0 +1,573 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-read-only-owner-proposal-4517-4564-a",
+  "lessons": [
+    {
+      "id": "advanced-native-590",
+      "number": 590,
+      "inventoryId": "expr-0590",
+      "titleEn": "keep pace",
+      "titleZh": "跟上相關變化的速度",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:keep(?:s|ing)?|kept)\\s+pace\\b(?:\\s+with\\s+(?:demand|human\\s+invention)\\b|(?!\\s+with\\b))",
+        "glossaryForbidden": [
+          "\\bpace\\s+with\\s+demand\\b",
+          "\\bpace\\s+with\\s+human\\s+invention\\b",
+          "\\b(?:keep(?:s|ing)?|kept)\\s+pace\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Match the rate of a relevant change. The benchmark may follow with (demand, human invention) or be supplied by the surrounding clause, as when a service adapts while a city grows.",
+        "meaningZh": "跟上相關變化的速度；比較對象可由 with 指出，也可由前後文交代，例如城市增長時服務相應調整。",
+        "grammar": "Keep/keeps/kept/keeping pace (with demand or human invention). The with phrase may be omitted when an as/while clause or clear nearby context supplies the changing benchmark; state what is changing and what must adapt. Matching a timetable alone does not prove adequacy.",
+        "register": "Neutral in service and policy discussion. A transport planner may explain to residents whether routes match city growth; a coordinator may compare requests with capacity, and an ethics reviewer may compare inventions with rule updates.",
+        "boundaryZh": "單說「跟上」而沒有明確比較對象，意思未夠清楚；供應增加須與需求或城市增長比較。規則及時更新，也不證明所有風險已消除。",
+        "misconceptionZh": "不要把「做得更多」直接當成跟得上變化；省略 with 時仍須在語境交代比較甚麼。",
+        "outcomeZh": "能辨認有無 with 的比較對象，並判斷服務或規則是否跟得上相關變化。"
+      },
+      "sources": [
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 40,
+          "expression": "keep pace with demand",
+          "sentence": "The clinic could not keep pace with demand.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 3,
+          "question": 4,
+          "sample": "S1",
+          "locatorNote": "PDF page 40, table 1, row 4; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p040-t1-r04"
+        },
+        {
+          "occurrenceId": "book10-16-2178",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 205,
+          "book": 16,
+          "question": 8,
+          "sample": "S2",
+          "sourceBookPages": "18–19",
+          "locatorNote": "DOCX table 223, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Ethical rules must keep pace with human invention.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep pace with human invention",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-2406",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 227,
+          "book": 16,
+          "question": 36,
+          "sample": "S1",
+          "sourceBookPages": "86–89",
+          "locatorNote": "DOCX table 251, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "As cities grow, transport has had to keep pace.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "transport has had to keep pace",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "listening": {
+        "en": "The costume team repaired more each week but could not keep pace with demand after two productions joined. New requests outpaced finished repairs, so the coordinator asked directors to prioritise essential changes.",
+        "zh": "服裝組每周修更多件，但多兩個製作加入後仍跟不上需求；請求比完成修補來得快，統籌請導演先排必要改動。",
+        "promptZh": "為甚麼修更多仍不夠？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Requests were growing faster than completed repairs, despite increased output.",
+            "zh": "請求比完成修補增得更快，即使產量已升。"
+          },
+          {
+            "id": "b",
+            "en": "The team stopped all repairs when the extra productions joined.",
+            "zh": "額外製作加入時，小組停全部修補。"
+          },
+          {
+            "id": "c",
+            "en": "Every request had already been completed before the directors discussed priorities.",
+            "zh": "導演談優先次序前，每項請求已完成。"
+          },
+          {
+            "id": "d",
+            "en": "The coordinator wanted directors to order new costumes instead of comparing repair needs.",
+            "zh": "統籌要導演訂新服裝，不比較修補需求。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "要比請求與完成，不只看修多；優先必要改動是所述回應。"
+      },
+      "reply": {
+        "promptZh": "為甚麼每周修更多後，仍要排優先次序？",
+        "promptEn": "Why are priorities still needed after increasing weekly repairs?",
+        "options": [
+          {
+            "id": "a",
+            "en": "We cannot keep pace with demand because new requests are arriving faster than repairs are finished.",
+            "zh": "新請求比修好來得快，所以我們仍跟不上需求。"
+          },
+          {
+            "id": "b",
+            "en": "The extra productions increased the workload beyond the rise in completed repairs.",
+            "zh": "額外製作增加的工作量，超過修補完成量的增長。"
+          },
+          {
+            "id": "c",
+            "en": "More output is not enough when the incoming requests are growing even faster.",
+            "zh": "若新請求增得更快，產量增加仍不夠。"
+          },
+          {
+            "id": "d",
+            "en": "We need to decide which changes matter first while the repair queue is growing.",
+            "zh": "修補隊伍漸長時，我們需決定先改甚麼。"
+          }
+        ],
+        "explanationZh": "四句都用供需差或漸長輪候答排優先的原因。",
+        "goldenId": "a"
+      },
+      "scene": {
+        "promptZh": "學校的圖像辨識工具每月增加新用途；審查小組在每項新用途推出前檢視資料風險並修訂相關規則，但仍要測試修訂是否足夠。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The review rules are keeping pace with human invention by being revised before each new use, though their adequacy still needs testing.",
+            "zh": "審查規則在每項新用途推出前修訂，正跟上技術發展；但仍須測試修訂是否足夠。"
+          },
+          {
+            "id": "b",
+            "en": "Because the rules were updated before launch, every privacy risk has already been eliminated.",
+            "zh": "規則在推出前更新，便代表所有私隱風險已消除。"
+          },
+          {
+            "id": "c",
+            "en": "The old unchanged rules already cover each new use, so checking the new data risks adds nothing.",
+            "zh": "舊規則毋須更改便涵蓋每項新用途，因此檢查新的資料風險毫無作用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每項新用途推出前有檢視及修訂，支持規則及時跟上；但修訂的充分程度仍須另外測試。"
+      },
+      "contrast": {
+        "promptZh": "哪個證據最不足以單獨證明 keep pace with demand？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Completed work increases, but the rate of incoming requests has not been checked.",
+            "zh": "完成量增加，但未查新請求的速度。"
+          },
+          {
+            "id": "b",
+            "en": "Provision matches new requests over the period, with existing waiting work stable or falling.",
+            "zh": "期間供應配合新請求，舊輪候持平或減少。"
+          },
+          {
+            "id": "c",
+            "en": "The comparison considers both the needed volume and available provision.",
+            "zh": "比較同時考慮需求量及可用供應。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只知完成量上升未有需求比較，不能單憑此判已跟上。"
+      },
+      "dialogue": {
+        "promptZh": "開課後，輔導小組每周收到的新申請由二十宗增至三十宗，完成節數也由二十增至三十，輪候名單持平。同伴只想報告「多做十節」。哪句較完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The tutoring team is keeping pace as requests rise: completed sessions have increased at the same rate, and the waiting list is stable.",
+            "zh": "申請增加時，輔導小組仍跟得上：完成節數以相同速度增加，輪候名單也持平。"
+          },
+          {
+            "id": "b",
+            "en": "The ten extra sessions alone prove the team is keeping up, without comparing them with requests or the waiting list.",
+            "zh": "單憑多做十節，毋須比較申請或輪候名單，便能證明小組跟得上。"
+          },
+          {
+            "id": "c",
+            "en": "A stable waiting list shows that no additional students requested tutoring this term.",
+            "zh": "輪候名單持平，表示本學期沒有更多學生申請輔導。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "申請與完成節數均由二十增至三十，輪候亦持平，才有根據說跟得上；比較對象由 as requests rise 清楚交代，不必硬加 with。"
+      },
+      "speaking": {
+        "en": "The service is doing more, but we need to compare new requests before saying it can keep pace with demand.",
+        "zh": "服務做得更多，但說跟得上需求前，需比較新請求。",
+        "promptZh": "先聽，再用供需比較而非單看速度。",
+        "targetSpan": {
+          "start": 84,
+          "end": 105
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你與朋友主持短篇互評，每人每周只能仔細讀兩篇，邀稿後來了十二篇，但兩位主持合共只能讀四篇。你想寫公開回覆，說這輪未能跟上，提分批並先問作者願否等下輪，不假裝加快看便可保持仔細回饋。用一至兩句英文表達。",
+        "selfCheckZh": "比較十二請求與每周四篇仔細閱讀，說分批及讓作者選等，不以空泛加快保證全部即時且仔細。",
+        "examples": [
+          {
+            "en": "Our careful feedback cannot keep pace with demand this round: twelve stories have arrived, and we can read four properly each week. Could we arrange batches and ask which writers are willing to wait for the next round?",
+            "zh": "本輪仔細回饋跟不上需求：來了十二篇，我們每周可仔細讀四篇；可否分批，問哪些作者願等下輪？"
+          },
+          {
+            "en": "We cannot keep pace with demand by promising immediate comments on every story. Let us offer a clear place in a later batch rather than rush the reading without the writer’s agreement.",
+            "zh": "承諾每篇即時評語，不能讓我們跟上需求；與其未得作者同意便趕讀，不如清楚提供較後批次名額。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "twelve stories have arrived",
+            "zh": "已收到十二篇故事",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 89
+            }
+          },
+          {
+            "en": "read four properly",
+            "zh": "仔細讀四篇",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 120
+            }
+          },
+          {
+            "en": "arrange batches",
+            "zh": "安排分批",
+            "exampleIndex": 0,
+            "span": {
+              "start": 141,
+              "end": 156
+            }
+          },
+          {
+            "en": "wait for the next round",
+            "zh": "等候下輪",
+            "exampleIndex": 0,
+            "span": {
+              "start": 194,
+              "end": 217
+            }
+          },
+          {
+            "en": "the writer’s agreement",
+            "zh": "作者同意",
+            "exampleIndex": 1,
+            "span": {
+              "start": 161,
+              "end": 183
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The lending desk kept pace with demand after the team added a second collection session each week.",
+          "zh": "團隊每周多加一段取件時段後，借物櫃枱跟上了需求。"
+        },
+        {
+          "en": "Privacy guidance can keep pace with human invention when reviewers check new uses and revise outdated rules before launch; whether the revisions are adequate still needs testing.",
+          "zh": "審查者在推出前檢視新用途並修訂過時規則，私隱指引便可跟上技術發展；修訂是否足夠仍須測試。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": []
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-1849",
+      "number": 1849,
+      "inventoryId": "expr-1849",
+      "contentRevision": 2,
+      "titleEn": "work out",
+      "titleZh": "想出解決辦法或安排",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\bwork(?:s|ed|ing)?\\s+(?:(?:it|them|that|this)\\s+out\\b|out\\b(?=\\s+(?:(?:a|an|the|our|their|her|his|its|your|my|some|any|another)\\s+(?:(?:fair|first|possible|missing|new|old|shared|practical)\\s+)?(?:schedule|rota|arrangement|route|dates?|details?|issue|problem|answer|solution|plan|timing|costs?|numbers?|explanation|cause|reason|order|sequence)\\b|(?:which|what|when|where|why|how|whether)\\s+[a-z]+\\b|(?:logistics|details|dates|costs|numbers)\\b)))",
+        "glossaryForbidden": [
+          "\\bwork(?:s|ed|ing)?\\s+(?:out|(?:it|them|that|this)\\s+out)\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p227-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 227,
+          "book": 8,
+          "question": 23,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "They will work out a fair schedule together.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "work out",
+          "sourceCategory": "Phrasal verb"
+        },
+        {
+          "occurrenceId": "book10-16-2453",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 232,
+          "book": 16,
+          "question": 42,
+          "sample": "S2",
+          "sourceBookPages": "100–101",
+          "locatorNote": "DOCX table 257, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I can work that out with the route app.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "work that out",
+          "sourceCategory": "Phrasal verb"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Find a solution, explanation or workable arrangement through thought or discussion.",
+        "meaningZh": "透過思考或討論，找出解決辦法、解釋或可行安排。",
+        "grammar": "Work out a fair schedule; work out what happened; work it/that/this out. With a pronoun object, place the pronoun before out and give it a clear antecedent. This lesson focuses on a solution or plan; work out well is a different intransitive outcome pattern.",
+        "register": "Neutral in practical problem-solving. A parent may tell another parent what they can work out from a shared calendar; a trip planner may use an app to resolve a route question.",
+        "boundaryZh": "找出安排不等於實行已成功，也不一定一個人完成；需說解決了甚麼，以及哪些條件仍待確認。",
+        "misconceptionZh": "找出安排不等於實行已成功，也不一定一個人完成；需說解決了甚麼，以及哪些條件仍待確認。",
+        "outcomeZh": "理解「想出解決辦法或安排」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The planning/solution sense takes an object or clause. In the source, that points back to the route question supplied by context; learners should state the unresolved question before using work that out. Work out well is an intransitive outcome pattern."
+      },
+      "listening": {
+        "en": "We worked out a fair rota by comparing the hours each helper could actually offer; the first draft was agreed, but we still needed to check whether the room was available for those sessions.",
+        "zh": "我們比較各幫手實際可提供的時數，想出公平輪值；初稿已議定，但仍要查那些時段房間是否可用。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The group compared the hours helpers could offer and agreed on a first rota, though the room still needs checking.",
+            "zh": "小組比較幫手可提供的時數並議定首份輪值，但房間仍待確認。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The room was confirmed for every session before the group compared anyone's availability.",
+            "zh": "小組比較任何人的空檔前，房間已確認可供所有時段使用。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The group kept the old rota without checking when the helpers were available.",
+            "zh": "小組沒有查幫手何時有空，只沿用舊輪值。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The group reviewed how the sessions had gone before drawing up the first rota.",
+            "zh": "小組在制訂首份輪值前，已檢討那些時段的活動情況。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "語音說小組比較了幫手可提供的時數並議定首稿；房間仍待確認，所以不等於活動已成功舉行。"
+      },
+      "reply": {
+        "promptEn": "How did you arrive at the first rota?",
+        "promptZh": "你們怎樣得出首份輪值？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "We worked out a fair rota by comparing the hours people could actually offer.",
+            "zh": "我們比較大家實際能提供的時數，想出公平輪值。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Each helper’s availability gave us information to build the arrangement around.",
+            "zh": "各幫手可用的時間，給我們依據去安排。"
+          },
+          {
+            "id": "reply-3",
+            "en": "We discussed the real hours rather than divide the sessions without asking.",
+            "zh": "我們討論實際時數，不是在未問之前就分時段。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The first draft came from matching the tasks with the time people said they had.",
+            "zh": "首稿來自把工作與大家說可提供的時間配合。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "兩位家長要找出雙方都能出席的家長會時段。共享日曆列出各自空檔，但老師尚未確認可用時段。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They can work that out by comparing their calendars, while treating the teacher's confirmation as a separate step.",
+            "zh": "他們可比較日曆，找出雙方合適的時段；老師確認是否可用則是另一步。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Finding an overlap on their calendars also confirms that the teacher has approved that time.",
+            "zh": "日曆顯示雙方有共同空檔，也等於老師已批准那個時段。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They must wait for the teacher's approval before they can even compare their own available times.",
+            "zh": "他們必須先等老師批准，才可比較自己有哪些空檔。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "that 指雙方合適的時段；先從日曆找出可能安排，與老師其後確認可用時段，是兩個不同步驟。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 work out a solution 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A solution has been found through thought or discussion.",
+            "zh": "已透過思考或討論找出一個辦法。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The proposed solution has already proved fully successful in practice.",
+            "zh": "辦法已在實際執行中證明完全成功。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The solution may still need a trial, confirmed conditions, or adjustments.",
+            "zh": "辦法仍可能需要試行、確認條件或再作調整。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "解決方案的形成與實際驗證是不同步驟。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說輪值既議好了，就可先不查房間；你們已知道場地批覆仍未收到。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We have worked out the rota, but let us confirm the room before telling everyone the sessions are ready to run.",
+            "zh": "我們已想出輪值，但告訴大家時段可實行前，先確認房間。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would send the rota as final and look for a different room only if people arrive to find this one unavailable.",
+            "zh": "我會先把輪值當定稿發出，等大家到場發現房間不可用才找另一間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought the helpers’ agreement was also confirmation from the person responsible for the venue.",
+            "zh": "我以為幫手同意，也等於場地負責人已確認。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "幫手協議與場地批准是不同來源，不能由其中一方代另一方或留到現場才處理。"
+      },
+      "speaking": {
+        "en": "We need to decide whether the plan still fits; we can work that out after checking which detail is missing.",
+        "zh": "我們要判斷計劃是否仍合適；查清缺少哪項細節後，就能把這問題弄明白。",
+        "promptZh": "先聽示範，再說明 that 指的是哪個待解問題。",
+        "targetSpan": {
+          "start": 54,
+          "end": 67
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你們整理舊照片，只知道一張在禮堂啟用前、另一張在新校徽推出後；兩件地標事件的日期都尚未查到，也未知道誰先。你想請伙伴先查那些日期，再判斷線索是否足以確定照片先後，不為排版方便便補年份。用一至兩句英文提出查證步驟。",
+        "examples": [
+          {
+            "en": "Could we work out when the hall opened and the new badge appeared before trying to order the photos? We should then check whether those dates actually establish a sequence, rather than assume the clues are enough.",
+            "zh": "嘗試排列照片前，我們可否先查清禮堂何時啟用、新校徽何時出現？之後應檢查那些日期是否真正確立先後，而不是假定線索已足夠。"
+          },
+          {
+            "en": "Let us work out the dates of the two landmarks first, then see what limits they place on each photo. If those limits still overlap, we should mark the order as uncertain rather than invent a year for the display.",
+            "zh": "我們先查清兩件地標事件的日期，再看它們為各張照片帶來甚麼時間界限。如果界限仍有重疊，我們應標明先後未確定，而不是為展板編一個年份。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the hall opened",
+            "zh": "禮堂啟用",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 38
+            }
+          },
+          {
+            "en": "the new badge appeared",
+            "zh": "新校徽出現",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 65
+            }
+          },
+          {
+            "en": "order the photos",
+            "zh": "排列照片先後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 99
+            }
+          },
+          {
+            "en": "establish a sequence",
+            "zh": "確立先後次序",
+            "exampleIndex": 0,
+            "span": {
+              "start": 151,
+              "end": 171
+            }
+          },
+          {
+            "en": "those limits still overlap",
+            "zh": "那些界限仍有重疊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 130
+            }
+          }
+        ],
+        "selfCheckZh": "先核實地標日期，再問時間界限是否足夠確立照片先後；若仍重疊便保留不確定，不把兩個未定日期的線索直接當成已知順序或年份。"
+      },
+      "takeaways": [
+        {
+          "en": "They worked out why the two totals differed after noticing that one list included visitors and the other counted members only.",
+          "zh": "他們留意到一份名單包括訪客、另一份只計會員後，找出了兩個總數不同的原因。"
+        },
+        {
+          "en": "She asked us to work out a possible route through the exhibition before deciding where the first explanation should go.",
+          "zh": "她請我們先想出展覽內一條可能路線，再決定首段解說應放在哪裏。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    }
+  ]
+}

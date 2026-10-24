@@ -4907,20 +4907,21 @@
     "titleZh": "物件呈現背後的經歷",
     "category": "figurative",
     "target": {
-      "pattern": "\\btell(?:s|ing)? a story\\b|\\btold a story\\b",
+      "pattern": "\\b(?:tell|tells|told|telling) (?:a|its) story\\b",
       "glossaryForbidden": [
         "\\btell(?:s|ing)? a story\\b",
-        "\\btold a story\\b"
+        "\\btold a story\\b",
+        "\\b(?:tell|tells|told|telling) its story\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Reveal or suggest a history, experience or meaning through the details of an object or collection.",
-      "meaningZh": "透過物件或一組資料的細節，呈現或暗示背後的歷史、經歷或意義。",
-      "grammar": "the worn steps/photographs tell a story about something; told a story. Objects do not literally speak: details support an account, with limits to what can be inferred.",
-      "register": "Productive figurative use alongside the literal act of narrating. Identify the relevant details and distinguish visible traces from a complete account or imagined motive.",
-      "boundaryZh": "物件可以留下經歷的痕跡，但不表示已交代所有人的想法或完整歷史；推論需要有細節支持。",
+      "meaningEn": "Reveal or suggest a history, experience or meaning through details of an object or collection; a museum or archive may also help a place tell its story through supported local evidence.",
+      "meaningZh": "透過物件或一組資料的細節，呈現或暗示背後的歷史、經歷或意義；博物館或檔案館亦可藉有根據的地方資料，協助一個地方呈現其歷史。",
+      "grammar": "Worn steps or photographs tell a story about a place; a museum can help a city tell its story. Told/tells/telling are natural inflections, and its refers to the place. Objects and places do not literally speak: dated details support an account without proving every person’s motive or a complete history.",
+      "register": "Figurative but natural in museum and civic writing. A curator may tell visitors what dated objects show; a city historian may explain how an archive helps the town tell its story. Identify visible evidence before claiming a personal motive.",
+      "boundaryZh": "物件或地方可透過有年份的資料呈現部分經歷，但這不是把城市當作真人說話，也不等於知道每個人的動機或完整歷史。",
       "misconceptionZh": "不要把單一磨損當作動機的證明，也不因物件不能說話，就認為它完全沒有資訊。",
-      "outcomeZh": "能以具體痕跡描述有根據的背景，分清已看見的細節與仍待了解的事。"
+      "outcomeZh": "能用具體物件或地方資料呈現有根據的歷史片段，分清可見證據與仍需查證的個人原因。"
     },
     "sources": [
       {
@@ -4948,6 +4949,36 @@
         "sample": "S1",
         "locatorNote": "PDF page 107, table 2, row 6; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p107-t2-r06"
+      },
+      {
+        "occurrenceId": "book10-16-2369",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 224,
+        "book": 16,
+        "question": 31,
+        "sample": "S2",
+        "sourceBookPages": "75–76",
+        "locatorNote": "DOCX table 246, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "A museum helps the city tell its story.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "tell its story",
+        "sourceCategory": "Idiom or set phrase"
+      },
+      {
+        "occurrenceId": "book10-16-2542",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 240,
+        "book": 16,
+        "question": 53,
+        "sample": "S2",
+        "sourceBookPages": "124–125",
+        "locatorNote": "DOCX table 268, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "A museum helps the city tell its story.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "tell its story",
+        "sourceCategory": "Idiom or set phrase"
       }
     ],
     "listening": {
@@ -5008,26 +5039,26 @@
       "goldenId": "a"
     },
     "scene": {
-      "promptZh": "日記封面的污漬顯示曾受潮，但還沒讀過內容；同學卻說，作者一定在下雨當天因失戀哭泣。哪句最謹慎？",
+      "promptZh": "市鎮檔案館展出有年份的店舖招牌及租約，顯示市集如何改變，但沒有記錄每家店為何結業。哪句最審慎？",
       "options": [
         {
           "id": "a",
-          "en": "The marks may tell a story of the diary’s condition, but do not establish that personal event or motive.",
-          "zh": "痕跡可能呈現日記的保存經歷，但沒有證實那個私人事件或動機。"
+          "en": "The dated records help the town tell its story by showing how the market changed, but they do not establish why each shop closed.",
+          "zh": "有年份的紀錄顯示市集如何變遷，有助小鎮呈現自身歷史，但不能證實每家店為何結業。"
         },
         {
           "id": "b",
-          "en": "The stain identifies the writer’s exact reason for crying.",
-          "zh": "污漬指明了作者哭泣的確切原因。"
+          "en": "The leases prove that every shop closed because its rent rose, even though no reason is recorded.",
+          "zh": "雖然沒有記下原因，租約仍證明每家店都是因租金上升而結業。"
         },
         {
           "id": "c",
-          "en": "There is no reason to examine the pages because a stained cover cannot provide the complete account.",
-          "zh": "封面污漬不能提供完整經歷，所以沒有理由再看內頁。"
+          "en": "Because the records leave motives unknown, the town cannot tell any story about how its market changed.",
+          "zh": "既然紀錄沒有交代動機，小鎮就完全無法呈現市集如何改變。"
         }
       ],
       "answerId": "a",
-      "explanationZh": "受潮痕跡與私人情感動機需要分清；有限資訊仍可以成為繼續查閱的起點。"
+      "explanationZh": "有年份的招牌及租約可支持市集變遷的敘述，但不足以證實每家店的結業原因；不能把未知動機當作已知，也不用因此否定所有可見變化。"
     },
     "contrast": {
       "promptZh": "哪項最不能從物件 tell a story 的比喻本身推論出來？",
@@ -5177,7 +5208,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-673",

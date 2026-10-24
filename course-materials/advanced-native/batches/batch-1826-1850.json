@@ -4046,12 +4046,15 @@
       "id": "advanced-native-1849",
       "number": 1849,
       "inventoryId": "expr-1849",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "work out",
       "titleZh": "想出解決辦法或安排",
       "category": "phrasal-verb",
       "target": {
-        "pattern": "\\bwork(?:s|ed|ing)? (?:out|(?:it|them) out)\\b"
+        "pattern": "\\bwork(?:s|ed|ing)?\\s+(?:(?:it|them|that|this)\\s+out\\b|out\\b(?=\\s+(?:(?:a|an|the|our|their|her|his|its|your|my|some|any|another)\\s+(?:(?:fair|first|possible|missing|new|old|shared|practical)\\s+)?(?:schedule|rota|arrangement|route|dates?|details?|issue|problem|answer|solution|plan|timing|costs?|numbers?|explanation|cause|reason|order|sequence)\\b|(?:which|what|when|where|why|how|whether)\\s+[a-z]+\\b|(?:logistics|details|dates|costs|numbers)\\b)))",
+        "glossaryForbidden": [
+          "\\bwork(?:s|ed|ing)?\\s+(?:out|(?:it|them|that|this)\\s+out)\\b"
+        ]
       },
       "sources": [
         {
@@ -4067,17 +4070,32 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "work out",
           "sourceCategory": "Phrasal verb"
+        },
+        {
+          "occurrenceId": "book10-16-2453",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 232,
+          "book": 16,
+          "question": 42,
+          "sample": "S2",
+          "sourceBookPages": "100–101",
+          "locatorNote": "DOCX table 257, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I can work that out with the route app.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "work that out",
+          "sourceCategory": "Phrasal verb"
         }
       ],
       "brief": {
         "meaningEn": "Find a solution, explanation or workable arrangement through thought or discussion.",
         "meaningZh": "透過思考或討論，找出解決辦法、解釋或可行安排。",
-        "grammar": "work out a fair schedule; work out what happened; work it out. This lesson focuses on the transitive solution/planning use; work out well means develop successfully in a different intransitive pattern.",
-        "register": "neutral",
+        "grammar": "Work out a fair schedule; work out what happened; work it/that/this out. With a pronoun object, place the pronoun before out and give it a clear antecedent. This lesson focuses on a solution or plan; work out well is a different intransitive outcome pattern.",
+        "register": "Neutral in practical problem-solving. A parent may tell another parent what they can work out from a shared calendar; a trip planner may use an app to resolve a route question.",
         "boundaryZh": "找出安排不等於實行已成功，也不一定一個人完成；需說解決了甚麼，以及哪些條件仍待確認。",
         "misconceptionZh": "找出安排不等於實行已成功，也不一定一個人完成；需說解決了甚麼，以及哪些條件仍待確認。",
         "outcomeZh": "理解「想出解決辦法或安排」的語境及用法，並在新情境寫出自然句子。",
-        "sourceClassificationNote": "The planning/solution pattern takes an object or a clause. An intransitive outcome such as work out well requires a different sentence structure."
+        "sourceClassificationNote": "The planning/solution sense takes an object or clause. In the source, that points back to the route question supplied by context; learners should state the unresolved question before using work that out. Work out well is an intransitive outcome pattern."
       },
       "listening": {
         "en": "We worked out a fair rota by comparing the hours each helper could actually offer; the first draft was agreed, but we still needed to check whether the room was available for those sessions.",
@@ -4086,27 +4104,27 @@
         "options": [
           {
             "id": "choice-1",
-            "en": "小組已透過比較可用時數議出輪值，場地仍待確認。",
-            "zh": ""
+            "en": "The group compared the hours helpers could offer and agreed on a first rota, though the room still needs checking.",
+            "zh": "小組比較幫手可提供的時數並議定首份輪值，但房間仍待確認。"
           },
           {
             "id": "choice-2",
-            "en": "房間已確認所有時段，幫手的時間卻未曾比較。",
-            "zh": ""
+            "en": "The room was confirmed for every session before the group compared anyone's availability.",
+            "zh": "小組比較任何人的空檔前，房間已確認可供所有時段使用。"
           },
           {
             "id": "choice-3",
-            "en": "小組只是把原表重印，沒有討論或得出新安排。",
-            "zh": ""
+            "en": "The group kept the old rota without checking when the helpers were available.",
+            "zh": "小組沒有查幫手何時有空，只沿用舊輪值。"
           },
           {
             "id": "choice-4",
-            "en": "第一輪活動已完成，輪值效果也已作過檢討。",
-            "zh": ""
+            "en": "The group reviewed how the sessions had gone before drawing up the first rota.",
+            "zh": "小組在制訂首份輪值前，已檢討那些時段的活動情況。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "comparing/agreed draft 說解決安排的過程；still check venue 保留未定條件，不當成已實施成功。"
+        "explanationZh": "語音說小組比較了幫手可提供的時數並議定首稿；房間仍待確認，所以不等於活動已成功舉行。"
       },
       "reply": {
         "promptEn": "How did you arrive at the first rota?",
@@ -4137,44 +4155,44 @@
         "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
       },
       "scene": {
-        "promptZh": "小組已議定可接受的初稿，但其中一個時段場地未批；有人把「已想出安排」直接寫成活動全程已成功。哪句較準確？",
+        "promptZh": "兩位家長要找出雙方都能出席的家長會時段。共享日曆列出各自空檔，但老師尚未確認可用時段。哪句最準確？",
         "options": [
           {
             "id": "choice-1",
-            "en": "They have worked out a draft arrangement, but its remaining venue condition still needs confirmation.",
-            "zh": "他們已想出初步安排，但剩下的場地條件仍需確認。"
+            "en": "They can work that out by comparing their calendars, while treating the teacher's confirmation as a separate step.",
+            "zh": "他們可比較日曆，找出雙方合適的時段；老師確認是否可用則是另一步。"
           },
           {
             "id": "choice-2",
-            "en": "The agreed draft is a report of an event that has already run successfully.",
-            "zh": "議定初稿，是活動已成功舉行的報告。"
+            "en": "Finding an overlap on their calendars also confirms that the teacher has approved that time.",
+            "zh": "日曆顯示雙方有共同空檔，也等於老師已批准那個時段。"
           },
           {
             "id": "choice-3",
-            "en": "They have not yet discussed any helper’s availability or proposed a schedule.",
-            "zh": "他們尚未談任何幫手時間，也未提出時間表。"
+            "en": "They must wait for the teacher's approval before they can even compare their own available times.",
+            "zh": "他們必須先等老師批准，才可比較自己有哪些空檔。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "方案階段與實行結果不同，不能把已討論初稿說成已辦活動，或反過來說未談。"
+        "explanationZh": "that 指雙方合適的時段；先從日曆找出可能安排，與老師其後確認可用時段，是兩個不同步驟。"
       },
       "contrast": {
         "promptZh": "哪種推論不宜由 work out a solution 得出？",
         "options": [
           {
             "id": "choice-1",
-            "en": "已透過思考或討論找出一個辦法。",
-            "zh": ""
+            "en": "A solution has been found through thought or discussion.",
+            "zh": "已透過思考或討論找出一個辦法。"
           },
           {
             "id": "choice-2",
-            "en": "辦法已在實際執行中證明完全成功。",
-            "zh": ""
+            "en": "The proposed solution has already proved fully successful in practice.",
+            "zh": "辦法已在實際執行中證明完全成功。"
           },
           {
             "id": "choice-3",
-            "en": "仍可需要試行、確認條件或再作調整。",
-            "zh": ""
+            "en": "The solution may still need a trial, confirmed conditions, or adjustments.",
+            "zh": "辦法仍可能需要試行、確認條件或再作調整。"
           }
         ],
         "answerId": "choice-2",
@@ -4203,13 +4221,13 @@
         "explanationZh": "幫手協議與場地批准是不同來源，不能由其中一方代另一方或留到現場才處理。"
       },
       "speaking": {
-        "en": "We need to work out which detail is missing before we decide whether to change the whole plan.",
-        "zh": "決定是否改整個計劃前，我們需要先找出缺的是哪項細節。",
+        "en": "We need to decide whether the plan still fits; we can work that out after checking which detail is missing.",
+        "zh": "我們要判斷計劃是否仍合適；查清缺少哪項細節後，就能把這問題弄明白。",
+        "promptZh": "先聽示範，再說明 that 指的是哪個待解問題。",
         "targetSpan": {
-          "start": 11,
-          "end": 19
-        },
-        "promptZh": "先聽示範，再說想解決哪個具體問題。"
+          "start": 54,
+          "end": 67
+        }
       },
       "writing": {
         "promptZh": "新情境：你們整理舊照片，只知道一張在禮堂啟用前、另一張在新校徽推出後；兩件地標事件的日期都尚未查到，也未知道誰先。你想請伙伴先查那些日期，再判斷線索是否足以確定照片先後，不為排版方便便補年份。用一至兩句英文提出查證步驟。",

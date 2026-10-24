@@ -5416,12 +5416,12 @@
       "id": "advanced-native-772",
       "number": 772,
       "inventoryId": "expr-0772",
-      "titleEn": "ripple out / outward",
+      "titleEn": "ripple out / ripples spread",
       "titleZh": "影響逐步向外擴散",
       "category": "phrasal-verb",
-      "contentRevision": 4,
+      "contentRevision": 5,
       "target": {
-        "pattern": "\\b(?:rippl(?:e|es|ed|ing)\\s+(?:out(?:ward)?|through\\s+(?:(?:the|a)\\s+)?(?:whole\\s+)?family)|(?:send|sends|sent|sending)\\s+ripples\\s+far\\s+beyond)\\b|\\brippl(?:e|es|ed|ing)\\s+through\\s+the\\s+city\\b",
+        "pattern": "\\b(?:rippl(?:e|es|ed|ing)\\s+(?:out(?:ward)?|through\\s+(?:(?:the|a)\\s+)?(?:whole\\s+)?family)|(?:send|sends|sent|sending)\\s+ripples\\s+far\\s+beyond)\\b|\\brippl(?:e|es|ed|ing)\\s+through\\s+the\\s+city\\b|\\bripples (?:have|had) spread (?:much )?more widely\\b|\\bripples spread (?:much )?more widely\\b",
         "glossaryForbidden": [
           "\\brippl(?:e|es|ed|ing)\\b"
         ]
@@ -5494,15 +5494,30 @@
           "sentence": "News of the concert began to ripple through the city.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "ripple through the city"
+        },
+        {
+          "occurrenceId": "book10-16-2470",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 233,
+          "book": 16,
+          "question": 44,
+          "sample": "S2",
+          "sourceBookPages": "104–105",
+          "locatorNote": "DOCX table 259, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "From one trial, the ripples have spread much more widely.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "ripples have spread much more widely",
+          "sourceCategory": "Figurative use"
         }
       ],
       "brief": {
-        "meaningEn": "Spread from an initial event or group to affect others; news can also ripple through a city as people relay it.",
-        "meaningZh": "從起點向外擴散並影響其他人；消息也可經人們轉傳而遍及城市。",
-        "grammar": "Effects, benefits, problems or reported news can ripple out/outward or through a connected family or city; a decision can send ripples far beyond its starting group. Name the initial cause and the relay link; matching timing alone does not prove impact.",
-        "register": "Common figurative water-movement metaphor for good or bad effects; send ripples far beyond is a causative variant, not a claim that every distant effect is certain.",
-        "boundaryZh": "不表示每個人同時受相同影響，也不限定一定緩慢；需有傳播連結。",
-        "misconceptionZh": "要說明最初來源及後續影響，不能只把同時發生但無關的事連起來。",
+        "meaningEn": "Spread from an initial event or group to affect others; effects may ripple out, news may ripple through a city, and the resulting ripples may spread more widely through connected groups.",
+        "meaningZh": "從最初事件或群體向外擴散並影響其他人；影響可向外傳開，消息可在人們轉傳下遍及城市，連鎖影響亦可擴至更廣範圍。",
+        "grammar": "Effects can ripple out/outward or through a connected family; reported news can ripple through a city. A change can send ripples far beyond its starting group, or its ripples have spread much more widely after identifiable follow-on effects. Name the initial cause and relay link; wider spread does not mean everyone experienced the same effect.",
+        "register": "Figurative water-movement image for good or bad effects. A project planner explaining a trial to residents can say its ripples have spread more widely after linked service changes; a news editor can describe information rippling through a city. Neither wording alone proves every claimed causal link.",
+        "boundaryZh": "可用於「影響已擴得更廣」的名詞 ripples 加 spread 結構；仍須交代起點及後續連結，不能只因同時發生便當作連鎖影響。",
+        "misconceptionZh": "ripples have spread much more widely 是後續影響擴大的說法，不表示人人同時受相同影響，也不表示任何遠處變化都由原試行計劃引起。",
         "outcomeZh": "能描繪有依據的連鎖影響，並保留範圍差異。"
       },
       "listening": {
@@ -5565,26 +5580,26 @@
       },
       "scene": {
         "promptEn": "",
-        "promptZh": "渡輪停航通告先由碼頭職員發給乘客，乘客轉到社區群組，鄰里再分享給其他區。哪句最準確？",
+        "promptZh": "某區試行夜間接駁車後，轉乘乘客增加。鄰近診所為了讓這些乘客趕上晚間預約，調整了預約時段；社區中心也因應他們到訪而延後關門。哪句最準確？",
         "options": [
           {
             "id": "choice-1",
-            "en": "News of the cancellation rippled through the city as people passed the notice along.",
-            "zh": "人們接連轉發通告，停航消息於是傳遍城市。"
+            "en": "The ripples have spread much more widely: the trial led clinics to revise booking slots and the community centre to stay open later.",
+            "zh": "連鎖影響已擴得更廣：試行計劃令診所調整預約時段，社區中心也延後關門。"
           },
           {
             "id": "choice-2",
-            "en": "The notice stayed with the first group of passengers and never reached other districts.",
-            "zh": "通告只留在第一批乘客手中，沒有傳到其他地區。"
+            "en": "The community centre extended its hours first and caused the shuttle trial, rather than responding to extra transfers.",
+            "zh": "社區中心先延長時間，促成了接駁車試行，而不是回應轉乘人流增加。"
           },
           {
             "id": "choice-3",
-            "en": "Every district learnt about the cancellation independently, without anyone forwarding the notice.",
-            "zh": "各區都獨立得知停航消息，沒有人轉發通告。"
+            "en": "The extra transfers affected only the shuttle route; the clinics and community centre kept their original schedules.",
+            "zh": "轉乘人流增加只影響接駁路線；診所及社區中心仍維持原來安排。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "職員、乘客、社區群組到其他地區構成可見的轉傳鏈，支持 ripple through the city，而非消息停在起點或各區各自得知。"
+        "explanationZh": "轉乘人流增加後，診所及社區中心相繼調整，構成從試行路線向外擴展的具體連結；不是相反的先後次序，也不是影響只限於原路線。"
       },
       "contrast": {
         "promptEn": "",

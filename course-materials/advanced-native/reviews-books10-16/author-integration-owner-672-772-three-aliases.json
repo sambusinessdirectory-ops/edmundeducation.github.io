@@ -1,0 +1,98 @@
+{
+  "status": "integrated-provisional-existing-aliases-no-release",
+  "createdUtc": "2026-10-24T01:34:02.207881+00:00",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-672-772-sources-4480-4581-4653-proposed.json",
+  "proposalSha256": "2a49fd543746d05708627ad45109dacc422a3b390e74a96af21e392724e0c1d3",
+  "independentAiReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-672-772-sources-4480-4581-4653-b-final.json",
+  "independentAiReviewSha256": "9214125ecf088d8b8078901b944ee4290b5d979e95180d57524d61e756ed06e3",
+  "selectedManifestSha256BeforeAndAfter": "7928f7c6e19bfd703c122c03ecd6e04fc789a407cca8be34e36f93632eb8c497",
+  "ownerFiles": [
+    {
+      "ownerId": "advanced-native-672",
+      "path": "course-materials/advanced-native/batches/batch-0651-0675.json",
+      "beforeSha256": "581672263430bc0bc00fe16c57173a2cfe950474f7c5ffa089e0c37ef5a2c945",
+      "afterSha256": "64f933fc38aeaafd7739aef626cc33a78ffccbf4fe7b8b1134fbf9586efed01d",
+      "beforeObjectCanonicalSha256": "e51b1d0f18223fa3c4861284577564f0c8b9acf9c4ce63363a1100a87b30dcf8",
+      "afterObjectCanonicalSha256": "f72ea2eb80ac7094f8b7ee634e5644f257f5c41374d168467067d82a1495265b",
+      "contentRevision": 2
+    },
+    {
+      "ownerId": "advanced-native-772",
+      "path": "course-materials/advanced-native/batches/batch-0751-0775.json",
+      "beforeSha256": "0834ced512d7a2de3fe5332af52954c48ca8e8bb0bea26a977978ed81d36459d",
+      "afterSha256": "4404c4d1c501d84880314ecab989ade9f8ae970f798edc8fb6a2989af8081177",
+      "beforeObjectCanonicalSha256": "a3f5dc3a364dfdd67a8a19e68d53fe842fdcb6b16c6be3fcf54364ea8ea7a9c9",
+      "afterObjectCanonicalSha256": "2d8adce798e0aa8a7841701caa1cf823dedae6110bbb5508cf162ddfa54aa012",
+      "contentRevision": 5
+    }
+  ],
+  "decisionFiles": [
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "beforeSha256": "bbccfbd136984523d970102b31c7b35fb4bfc8c8071a3bcc0ea961e5b639311e",
+      "afterSha256": "42480ab6aefc90ae1cd06415dc9f9f1770bec6a45c03e40917456f58cf167590",
+      "changedOrdinals": [
+        4480
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+      "beforeSha256": "de2d36a570e829023a5b60f8a53b96248143acb0337a5fd1096c8a6f697757d1",
+      "afterSha256": "b56c4df0bcb093427ed9b673bb421be261d899990bee601ec3b8ce6aaa3d882b",
+      "changedOrdinals": [
+        4581
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl",
+      "beforeSha256": "a80ffdfb9a14164ac01782e1c46d0a70b0e3246993e4968c765a51b98d34cfee",
+      "afterSha256": "92961cadcb28be4ebe3f241991469dc823057cfa37151058fcb6455147266306",
+      "changedOrdinals": [
+        4653
+      ]
+    }
+  ],
+  "changedSourceOrdinals": [
+    4480,
+    4581,
+    4653
+  ],
+  "sourceToExistingOwner": {
+    "4480": "advanced-native-672",
+    "4581": "advanced-native-772",
+    "4653": "advanced-native-672"
+  },
+  "sourceProvenanceExact": true,
+  "scopeLimit": "Only two canonical batch files and three decision rows changed. No selected manifest, SOP audit, audio, release or publication mutation.",
+  "validation": {
+    "fullVerifier": {
+      "passed": true,
+      "sourceRows": 2604,
+      "selectedDrafts": 626,
+      "questions": 3756,
+      "audioRoles": 2504,
+      "wholeCatalogueSchemaErrors": 0,
+      "selectedExistingAliasPatternExceptions": 0,
+      "nearDuplicateFlags": 0
+    },
+    "allDiscoveredExistingAliasAudit": {
+      "passed": true,
+      "aliasRows": 1173,
+      "fullSourceMatches": 1173,
+      "exceptions": 0
+    },
+    "holdCoverage": {
+      "passed": true,
+      "currentHolds": 622,
+      "unauditedCurrentHolds": 0
+    },
+    "newAliasOwnerAudit": {
+      "passed": true,
+      "aliasNewRows": 183,
+      "matchedDrafts": 183,
+      "exceptions": 0
+    },
+    "selectedManifestUnchanged": true
+  },
+  "concurrentWorkNote": "The final 622-hold count includes other contemporaneous editorial edits outside this three-row integration; this integration itself converted only source ordinals 4480, 4581 and 4653."
+}

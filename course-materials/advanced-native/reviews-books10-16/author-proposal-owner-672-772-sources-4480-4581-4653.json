@@ -1,0 +1,143 @@
+{
+  "status": "proposal-only-author-self-audit-independent-review-pending",
+  "createdUtc": "2026-10-24T01:31:46.245621+00:00",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-672-772-sources-4480-4581-4653-proposed.json",
+  "proposalSha256": "2a49fd543746d05708627ad45109dacc422a3b390e74a96af21e392724e0c1d3",
+  "scope": "Two existing canonical owner objects proposed in isolation; three Books10–16 source occurrences; no selected file or decision mutation.",
+  "ownerDiffs": [
+    {
+      "ownerId": "advanced-native-672",
+      "originalFile": "course-materials/advanced-native/batches/batch-0651-0675.json",
+      "originalFileSha256": "581672263430bc0bc00fe16c57173a2cfe950474f7c5ffa089e0c37ef5a2c945",
+      "originalObjectCanonicalSha256": "e51b1d0f18223fa3c4861284577564f0c8b9acf9c4ce63363a1100a87b30dcf8",
+      "proposedObjectCanonicalSha256": "f72ea2eb80ac7094f8b7ee634e5644f257f5c41374d168467067d82a1495265b",
+      "originalContentRevision": 1,
+      "proposedContentRevision": 2,
+      "changedPaths": [
+        "brief.boundaryZh",
+        "brief.grammar",
+        "brief.meaningEn",
+        "brief.meaningZh",
+        "brief.outcomeZh",
+        "brief.register",
+        "contentRevision",
+        "scene.explanationZh",
+        "scene.options[0].en",
+        "scene.options[0].zh",
+        "scene.options[1].en",
+        "scene.options[1].zh",
+        "scene.options[2].en",
+        "scene.options[2].zh",
+        "scene.promptZh",
+        "sources[2]",
+        "sources[3]",
+        "target.glossaryForbidden[2]",
+        "target.pattern"
+      ],
+      "assessedAnswerIdsPreserved": true,
+      "audioRoleTextUnchanged": true,
+      "writingAndGlossaryUnchanged": true
+    },
+    {
+      "ownerId": "advanced-native-772",
+      "originalFile": "course-materials/advanced-native/batches/batch-0751-0775.json",
+      "originalFileSha256": "0834ced512d7a2de3fe5332af52954c48ca8e8bb0bea26a977978ed81d36459d",
+      "originalObjectCanonicalSha256": "a3f5dc3a364dfdd67a8a19e68d53fe842fdcb6b16c6be3fcf54364ea8ea7a9c9",
+      "proposedObjectCanonicalSha256": "2d8adce798e0aa8a7841701caa1cf823dedae6110bbb5508cf162ddfa54aa012",
+      "originalContentRevision": 4,
+      "proposedContentRevision": 5,
+      "changedPaths": [
+        "brief.boundaryZh",
+        "brief.grammar",
+        "brief.meaningEn",
+        "brief.meaningZh",
+        "brief.misconceptionZh",
+        "brief.register",
+        "contentRevision",
+        "scene.explanationZh",
+        "scene.options[0].en",
+        "scene.options[0].zh",
+        "scene.options[1].en",
+        "scene.options[1].zh",
+        "scene.options[2].en",
+        "scene.options[2].zh",
+        "scene.promptZh",
+        "sources[5]",
+        "target.pattern",
+        "titleEn"
+      ],
+      "assessedAnswerIdsPreserved": true,
+      "audioRoleTextUnchanged": true,
+      "writingAndGlossaryUnchanged": true
+    }
+  ],
+  "sourceChecks": [
+    {
+      "sourceOrdinal": 4480,
+      "sourceId": "book10-16-2369",
+      "exactSourceSentence": "A museum helps the city tell its story.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionFileSha256": "bbccfbd136984523d970102b31c7b35fb4bfc8c8071a3bcc0ea961e5b639311e",
+      "sourceOccurrenceExact": true
+    },
+    {
+      "sourceOrdinal": 4653,
+      "sourceId": "book10-16-2542",
+      "exactSourceSentence": "A museum helps the city tell its story.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl",
+      "decisionFileSha256": "a80ffdfb9a14164ac01782e1c46d0a70b0e3246993e4968c765a51b98d34cfee",
+      "sourceOccurrenceExact": true
+    },
+    {
+      "sourceOrdinal": 4581,
+      "sourceId": "book10-16-2470",
+      "exactSourceSentence": "From one trial, the ripples have spread much more widely.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+      "decisionFileSha256": "de2d36a570e829023a5b60f8a53b96248143acb0337a5fd1096c8a6f697757d1",
+      "sourceOccurrenceExact": true
+    }
+  ],
+  "focusedBuild": {
+    "lessonCount": 2,
+    "questionCount": 12,
+    "audioRequestCount": 8,
+    "reviewFlags": 0,
+    "buildAndCheckPassed": true,
+    "outputDir": "../focused-owner-proposal-672-772"
+  },
+  "targetControls": {
+    "status": "passed-live-JS-RegExp-gi-after-scoped-repair",
+    "sourceSentencesMatched": 3,
+    "sceneKeysMatched": 2,
+    "dialogueKeysMatched": 2,
+    "positiveControls": 7,
+    "negativeControls": 7,
+    "falsePositivesObservedInControls": 0,
+    "semanticLimit": "A literal physical ripple or literal act of narrating could still match the lexical detector; learner context and answer review must disambiguate."
+  },
+  "editorialJudgment": {
+    "owner672": "Town/city history represented by dated archive evidence fits the existing object-details tell-a-story sense; the new scene contrasts supported market change with unsupported closure motives. The duplicate source sentence has two separate exact occurrences.",
+    "owner772": "Ripples spreading more widely after a trial fits the existing causal propagation metaphor; the new scene supplies a shuttle-to-clinic-to-centre chain and distinguishes reverse causation and a no-follow-on reading."
+  },
+  "mediaImpact": "No selected owner changed, and proposal listening/speaking/takeaway text is byte-identical to current owners. No audio synthesis requested; any future integration must regenerate the queue to confirm exact keys.",
+  "openGates": [
+    "Independent AI editorial review of owner sense, bilingual scene options, false positives and source-order policy.",
+    "Only after approval, decisions and selected owners could be updated in a separate integrated checkpoint.",
+    "No human editorial, browser, audio-listening, hosted-site or release approval is claimed."
+  ],
+  "scopedReviewerRepairs": [
+    {
+      "ownerId": "advanced-native-772",
+      "finding": "The pilot-to-schedule causal claim needed explicit prompt evidence.",
+      "resolution": "Prompt now says added transfer passengers caused the clinic to change evening booking slots and the centre to stay open later; key and options retain the same chain."
+    },
+    {
+      "ownerId": "advanced-native-672",
+      "finding": "Keyed tell its story of a changing market phrasing was stiff.",
+      "resolution": "Key now says tell its story by showing how the market changed, with aligned Traditional Chinese."
+    }
+  ]
+}

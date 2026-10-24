@@ -1,0 +1,49 @@
+{
+  "status": "ai-content-clear-proposal-only",
+  "createdUtc": "2026-10-24T01:33:01.316971+00:00",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-672-772-sources-4480-4581-4653-proposed.json",
+  "proposalSha256": "2a49fd543746d05708627ad45109dacc422a3b390e74a96af21e392724e0c1d3",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-proposal-owner-672-772-sources-4480-4581-4653.json",
+  "authorAuditSha256": "f07feb137f52cd5ae9bcd98fb841a237b427a60ffed68314d3149a1f9399045d",
+  "scope": "Independent final-hash review of source4480/4653→owner672 and source4581→owner772. No selected owner, decision or manifest edits.",
+  "perSource": [
+    {
+      "sourceOrdinal": 4480,
+      "ownerId": "advanced-native-672",
+      "verdict": "accept",
+      "reason": "Exact museum/city source says tell its story; dated archive evidence supports the same place-history narration sense without asserting undocumented shop-closure motives."
+    },
+    {
+      "sourceOrdinal": 4653,
+      "ownerId": "advanced-native-672",
+      "verdict": "accept",
+      "reason": "Separate exact occurrence of the same museum/city source; provenance preserves the duplicate occurrence and same owner sense."
+    },
+    {
+      "sourceOrdinal": 4581,
+      "ownerId": "advanced-native-772",
+      "verdict": "accept",
+      "reason": "The source trial has ripples spread more widely; the revised shuttle scene now states transfer passengers caused the clinic booking change and centre extension, so the causal key is grounded."
+    }
+  ],
+  "changedAssessmentReview": {
+    "owner672": "Scene key now naturally says tell its story by showing how the market changed; EN/ZH match, key remains evidence-bounded, distractors respectively overclaim closure motive and deny observed change.",
+    "owner772": "Clinic/centre response is explicit in the Chinese prompt; keyed EN/ZH describe outward effects, and foils give reverse causation or falsely unchanged schedules. Existing answer IDs retained."
+  },
+  "targetChecks": {
+    "liveNativeJs": "Both source sentences and both scene keys match; three representative positive and three representative negative controls per owner tested.",
+    "sourceAndKeyMatches": true,
+    "knownSemanticLimit": "A literal physical sentence using identical ripples-have-spread wording also matches owner772’s lexical detector. No assessed item uses that literal context; the learner brief and answer context retain the causal metaphor boundary."
+  },
+  "mechanicalCheck": {
+    "lessons": 2,
+    "questions": 12,
+    "audioRequests": 8,
+    "flags": 0,
+    "buildAndCheckPassed": true
+  },
+  "mediaImpact": "Proposal does not change audio text compared with selected owners; any later integration must regenerate and compare exact synthesis keys.",
+  "limitations": [
+    "AI content clearance only, not selection, human listening, hosting or release approval."
+  ]
+}
