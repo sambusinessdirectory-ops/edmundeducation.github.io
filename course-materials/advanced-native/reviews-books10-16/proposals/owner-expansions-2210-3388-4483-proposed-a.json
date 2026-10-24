@@ -1,0 +1,1006 @@
+{
+  "schemaVersion": 1,
+  "batchId": "owner-expansions-2210-3388-4483-proposed-a",
+  "lessons": [
+    {
+      "id": "advanced-native-305",
+      "number": 305,
+      "inventoryId": "expr-0305",
+      "titleEn": "a window into",
+      "titleZh": "深入了解某事的窗口",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:a window (?:into|onto)|a (?:small )?window to another culture)\\b",
+        "glossaryForbidden": [
+          "\\bwindow (?:into|onto|to another culture)\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A way of gaining insight into a subject, experience or way of life.",
+        "meaningZh": "讓人深入了解某主題、經驗或生活方式的途徑。",
+        "grammar": "Offer/provide/open a window into/onto a subject or way of life; the source also uses a small window to another culture for limited insight. Into and onto are the more established general choices; do not extend to every literal window to a place.",
+        "register": "A reviewer or guide can use this conventional insight metaphor with readers or visitors; window to another culture is a less usual contextual variant, so the lesson keeps that form bounded to culture rather than teaching it as a free substitute for into.",
+        "boundaryZh": "只提供一個局部視角，不代表整個文化；來源的 a small window to another culture 可在這個語境表示洞見，但一般寫作宜優先用較常見的 window into。不是本課的實際建築窗口。",
+        "misconceptionZh": "個人日記可有價值但仍只是一人的視角，需與其他來源對照。",
+        "outcomeZh": "能描述資料帶來的理解及局限，區分局部洞見與完整代表。"
+      },
+      "sources": [
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 5,
+          "expression": "opens a window into",
+          "sentence": "Her diary opens a window into rural life.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 2,
+          "question": 5,
+          "sample": "S1",
+          "locatorNote": "PDF page 5, table 1, row 3; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p005-t1-r03"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 6,
+          "expression": "opens a window into",
+          "sentence": "Her diary opens a window into rural life.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 2,
+          "question": 6,
+          "sample": "S1",
+          "locatorNote": "PDF page 6, table 1, row 3; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p006-t1-r03"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 217,
+          "expression": "opens a window into",
+          "sentence": "Her diary opens a window into rural life.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 8,
+          "question": 14,
+          "sample": "S1",
+          "locatorNote": "PDF page 217, table 2, row 3; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p217-t2-r03"
+        },
+        {
+          "occurrenceId": "pdf-2-p016-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 16,
+          "book": 2,
+          "question": 17,
+          "sample": "S1",
+          "locatorNote": "PDF page 16, table 2, row 2; missing book/question/sample remains null.",
+          "expression": "a window into",
+          "sentence": "The exhibition offers a window into local history.",
+          "referenceSentenceKind": "guide_original_example"
+        },
+        {
+          "occurrenceId": "pdf-2-p062-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 62,
+          "book": 3,
+          "question": 30,
+          "sample": "S1",
+          "locatorNote": "PDF page 62, table 1, row 2; missing book/question/sample remains null.",
+          "expression": "a window into",
+          "sentence": "The exhibition offers a window into local history.",
+          "referenceSentenceKind": "guide_original_example"
+        },
+        {
+          "occurrenceId": "pdf-2-p107-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 107,
+          "book": 5,
+          "question": 9,
+          "sample": "S1",
+          "sourceBookPages": "27–30",
+          "expression": "open a window onto",
+          "sentence": "Friendship can open a window onto another culture.",
+          "referenceSentenceKind": "guide_original_example"
+        },
+        {
+          "occurrenceId": "pdf-2-p186-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 186,
+          "book": 7,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "32–34",
+          "expression": "open a window onto",
+          "sentence": "Friendship can open a window onto another culture.",
+          "referenceSentenceKind": "guide_original_example"
+        },
+        {
+          "occurrenceId": "pdf-2-p219-t1-r10",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 219,
+          "book": 8,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "43–44",
+          "expression": "open a window onto",
+          "sentence": "Friendship can open a window onto another culture.",
+          "referenceSentenceKind": "guide_original_example"
+        },
+        {
+          "occurrenceId": "book10-16-1277",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 119,
+          "book": 13,
+          "question": 2,
+          "sample": "S2",
+          "sourceBookPages": "5–6",
+          "expression": "a small window to another culture",
+          "sentence": "Imported food can be a small window to another culture.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "DOCX table 123, row 6; page is the locally rendered PDF page. Proposal-only same-sense variant; exact source wording retained as provenance."
+        }
+      ],
+      "listening": {
+        "en": "The apprentice’s diary offers a window into daily workshop life, but it records one person’s experience rather than everyone’s.",
+        "zh": "學徒日記提供了解工場日常生活的窗口，但記錄的是一人的經驗，不是所有人的。",
+        "promptZh": "說話者怎樣看日記的價值？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It helps us understand workshop life from one person’s perspective.",
+            "zh": "它幫我們從一人視角了解工場生活。"
+          },
+          {
+            "id": "b",
+            "en": "It is a complete record of every worker’s experience.",
+            "zh": "它是每位工人經歷的完整記錄。"
+          },
+          {
+            "id": "c",
+            "en": "It contains no insight because it was written by only one person.",
+            "zh": "它只由一人寫，所以完全沒有洞見。"
+          },
+          {
+            "id": "d",
+            "en": "It replaces the need to compare any other accounts.",
+            "zh": "它取代對照其他敘述的需要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "window 提供洞見，but 保留一人視角；局部來源仍可有價值。"
+      },
+      "reply": {
+        "promptZh": "為甚麼你想把學徒日記放入工場歷史展？",
+        "promptEn": "Why would you include the apprentice’s diary in the workshop-history exhibition?",
+        "options": [
+          {
+            "id": "a",
+            "en": "It shows details of ordinary work from someone who was there.",
+            "zh": "它由在場者展示平常工作的細節。"
+          },
+          {
+            "id": "b",
+            "en": "It offers a window into workshop life.",
+            "zh": "它提供了解工場生活的窗口。"
+          },
+          {
+            "id": "c",
+            "en": "Visitors can learn how one apprentice experienced the day.",
+            "zh": "訪客可了解一位學徒怎樣經歷一天。"
+          },
+          {
+            "id": "d",
+            "en": "It provides a personal perspective that can sit alongside other accounts.",
+            "zh": "它提供可與其他敘述並列的個人視角。"
+          }
+        ],
+        "explanationZh": "四句都說明可帶來的理解；金句未聲稱全面代表。",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "一本社區食譜書記錄某節日的一道菜及幾個家庭如何準備。一位來自另一文化背景、對該節日不熟悉的讀者從中認識一項習俗，但仍不知道該文化中每個家庭的做法。哪句準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The recipe proves that every household in that culture celebrates in exactly the same way.",
+            "zh": "這份食譜證明該文化中每個家庭的慶祝方式完全相同。"
+          },
+          {
+            "id": "b",
+            "en": "The recipe offers a small window to another culture, but it cannot represent every household.",
+            "zh": "這份食譜讓人窺見另一種文化的一小部分，但不能代表每個家庭。"
+          },
+          {
+            "id": "c",
+            "en": "The recipe offers no cultural insight because it describes only one dish.",
+            "zh": "這份食譜只描述一道菜，所以完全不能提供文化洞見。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "一道菜可帶來局部洞見，卻不足以代表所有家庭；有限不等於沒有價值。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解最超出 a window into 的意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A source may reveal useful details of an unfamiliar experience.",
+            "zh": "來源可揭示陌生經驗的有用細節。"
+          },
+          {
+            "id": "b",
+            "en": "One perspective can be compared with other evidence.",
+            "zh": "一個視角可與其他證據比較。"
+          },
+          {
+            "id": "c",
+            "en": "The source automatically gives a complete and unbiased account of the whole subject.",
+            "zh": "來源自動給出整個主題完整而無偏見的敘述。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "洞見窗口不是全面保證，仍要看來源範圍及立場。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說「日記是 a window into 工場生活，所以毋須看工人訪談」。哪句回應最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The diary offers a window into factory life, but interviews may add experiences the writer did not share.",
+            "zh": "日記讓人窺見工場生活的一面，但訪談可能補充作者未曾經歷的事。"
+          },
+          {
+            "id": "b",
+            "en": "Let us use the diary’s detail as proof that no other account could matter.",
+            "zh": "把日記細節當作沒有其他敘述重要的證據吧。"
+          },
+          {
+            "id": "c",
+            "en": "One apprentice’s routine is a complete account of every worker’s experience.",
+            "zh": "一位學徒的習慣就是每位工人經驗的完整敘述。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "來源有洞見與需要補充可同時成立。"
+      },
+      "speaking": {
+        "en": "These letters offer a window into one family’s everyday life.",
+        "zh": "這些信提供了解一個家庭日常生活的窗口。",
+        "promptZh": "先聽示範，再描述資料帶來的視角及範圍。",
+        "targetSpan": {
+          "start": 20,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你想了解舞台燈光工作，跟隨劇院團隊觀察一個早上的準備，看到分工及排練安排。你想描述職業體驗的洞見，也說明一次探訪未代表整份工作。用一至兩句英文寫出。",
+        "examples": [
+          {
+            "en": "The morning with the lighting team offered a window into backstage work, though one visit could not show every part of the job.",
+            "zh": "跟燈光團隊的一個早上，提供了解幕後工作的窗口，但一次探訪無法呈現工作每一部分。"
+          },
+          {
+            "en": "Observing the preparations gave me a window into the team’s daily responsibilities; I would need further visits to understand the wider role.",
+            "zh": "觀察準備讓我有了解團隊日常職責的窗口；要理解較完整角色，我還需更多探訪。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the lighting team",
+            "zh": "燈光團隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 17,
+              "end": 34
+            }
+          },
+          {
+            "en": "backstage work",
+            "zh": "幕後工作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 71
+            }
+          },
+          {
+            "en": "one visit",
+            "zh": "一次探訪",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 89
+            }
+          },
+          {
+            "en": "daily responsibilities",
+            "zh": "日常職責",
+            "exampleIndex": 1,
+            "span": {
+              "start": 60,
+              "end": 82
+            }
+          },
+          {
+            "en": "further visits",
+            "zh": "更多探訪",
+            "exampleIndex": 1,
+            "span": {
+              "start": 97,
+              "end": 111
+            }
+          }
+        ],
+        "selfCheckZh": "把直接觀察的職業洞見與一次體驗限制連起來，不把局部觀察當完整代表。"
+      },
+      "takeaways": [
+        {
+          "en": "A photograph can offer a window into a past way of life.",
+          "zh": "照片可以提供了解過往生活方式的窗口。"
+        },
+        {
+          "en": "An interview can offer a small window to another culture without telling its whole story.",
+          "zh": "一段訪談可讓人窺見另一種文化的一小部分，但不能講述其全部故事。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Source opens a window into and root-notified399 a window into same insight metaphor; full source occurrences will be attached, immutable399 reserved."
+        ],
+        "note": "Proposal only: bounded source-specific window-to-culture variant for book10-16-1277; prior IDs and other tasks preserved. Naturalness and owner breadth require independent review."
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-1687",
+      "number": 1687,
+      "inventoryId": "expr-1687",
+      "contentRevision": 2,
+      "titleEn": "lean into",
+      "titleZh": "主動擁抱或投入",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\blean(?:s|ed|t|ing)? into (?:healthy habits|(?:its|their) local character)\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p202-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 202,
+          "book": 7,
+          "question": 29,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "With support, more people may lean into healthy habits.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "lean into healthy habits",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-0099",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 10,
+          "book": 10,
+          "question": 7,
+          "sample": "S2",
+          "sourceBookPages": "18–19",
+          "expression": "lean into",
+          "sentence": "The festival decided to lean into its local character.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "DOCX table 7, row 17; page is the locally rendered PDF page. Proposal-only same-sense variant; exact source wording retained as provenance."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Deliberately embrace and develop a quality or practice instead of merely noticing it or resisting it; engagement does not itself prove a successful result.",
+        "meaningZh": "有意識地擁抱並發展一種特質或做法，而非只注意到它或抗拒它；投入本身不證明已有成果。",
+        "grammar": "Lean/leans/leaned/leant/leaning into healthy habits or its/their local character. Into takes the quality or practice being actively embraced; the source personifies a festival as choosing to emphasise its local identity.",
+        "register": "A coach can use this contemporary, somewhat informal phrasal verb with a learner about habits; a festival organiser can use it with colleagues about local identity. The objects are contextual uses of the same verb, not fixed idioms requiring those exact nouns.",
+        "boundaryZh": "說明主動投入或強調某特質，不保證健康已有改善，也不表示地方特色是唯一值得保留的面向；須看實際行動。",
+        "misconceptionZh": "收藏目標清單不等於投入健康習慣；活動以地方特色設計內容，也不等於拒絕所有新元素。",
+        "outcomeZh": "能從具體行動判斷某人或機構是否主動擁抱習慣或地方特色，並避免誇大結果。",
+        "sourceClassificationNote": "Oxford lean into attests accepting a challenge and trying hard. Healthy habits is a contextual object, not a separate fixed idiom. Fictional personal routines illustrate engagement without prescribing a regimen."
+      },
+      "listening": {
+        "en": "In the novel, Sam decided to lean into healthy habits rather than keep collecting advice: he planned his own lunch break and asked a friend to help him protect that time during busy weeks.",
+        "zh": "小說中，森決定更主動投入健康習慣，而非只收集資訊：他安排自己的午餐休息，並請朋友幫他在忙周保留時間。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "他開始具體投入自己的日常目標，而非只收資訊。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "他已得到所有習慣改善身體的實測結果。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "他只在收集更多資訊，未想落實任何安排。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "朋友替他決定所有生活選擇，沒有問他的目標。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "planned 與 asked 表現主動投入；未給身體成效或朋友代作全部決定。"
+      },
+      "reply": {
+        "promptEn": "What changed in Sam’s approach to his daily goals?",
+        "promptZh": "森對日常目標的做法有甚麼改變？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "He began to lean into healthy habits by protecting a lunch break he had chosen.",
+            "zh": "他保留自己選的午餐休息，開始更主動投入健康習慣。"
+          },
+          {
+            "id": "reply-2",
+            "en": "He moved from collecting advice to making a specific arrangement.",
+            "zh": "他由收集資訊，轉為作具體安排。"
+          },
+          {
+            "id": "reply-3",
+            "en": "He asked for practical support to keep time for his own routine.",
+            "zh": "他請求實際支援，為自己的習慣保留時間。"
+          },
+          {
+            "id": "reply-4",
+            "en": "His plan involved participation rather than simply storing suggestions.",
+            "zh": "他的計劃涉及參與，而非只儲存建議。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "社區書店不再只用連鎖店的統一陳列，開始展示本區作者的書，並讓居民選擇口述歷史活動的題目；它仍出售其他書籍。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The bookshop is leaning into its local character through specific choices, without excluding every other kind of book.",
+            "zh": "書店透過具體安排更主動突出自身的地方特色，但沒有排除所有其他類型的書。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The bookshop has kept only the same chain-store display and made no local choices.",
+            "zh": "書店只保留原有的連鎖店式陳列，沒有作出任何地方特色的安排。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The local display proves that every resident now prefers the same books.",
+            "zh": "地方主題陳列證明所有居民現在都喜歡相同的書。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "展示本區作者及讓居民選題，是主動突出地方特色；並無證據說其他書被排除或所有人喜好相同。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 lean into healthy habits 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "更主動參與相關日常安排。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "單憑這用語已知個人的健康指標改善。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "情境應交代習慣及投入方式，不只用抽象標語。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "投入描述不等於健康結果數據。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「他只有午餐休息計劃，哪能說成效已證實？」你本來只說他開始投入。哪句澄清較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I said he was starting to lean into healthy habits, not that the story had proved a health result.",
+            "zh": "我說他開始更主動投入健康習慣，不是故事已證健康成效。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Count the new plan itself as the measured improvement, without waiting for any observation.",
+            "zh": "不用等觀察，把新計劃本身算作已量度改善。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Because no result is reported, leave out the concrete effort he has already made.",
+            "zh": "既沒報成果，就不提他已作的具體努力。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "投入可真實存在而結果未報，不把兩者合併，也不抹去努力。"
+      },
+      "speaking": {
+        "en": "He wanted to lean into healthy habits by making room for the routine he had chosen, rather than just saving more advice.",
+        "zh": "他想為自己選的安排留空間，更主動投入健康習慣，而非只儲存更多資訊。",
+        "targetSpan": {
+          "start": 13,
+          "end": 37
+        },
+        "promptZh": "先聽示範，再分清投入行動與結果。"
+      },
+      "writing": {
+        "promptZh": "新情境：故事中，你與朋友自己選了下班後到公園散步作日常目標，朋友願陪你，也尊重你有時需改時間。你想感謝陪伴，承諾自己提早核哪天可行、若加班先聯絡，而不只談新器材或讓朋友追着問。用一至兩句英文表達主動投入。",
+        "examples": [
+          {
+            "en": "Thank you for joining the walks we chose; I want to lean into healthy habits by taking responsibility for our shared arrangements. I will check the time in advance and let you know if work changes.",
+            "zh": "謝謝你參與我們選的散步；我想負責共同安排，更主動投入健康習慣。我會提早核時間，若工作改動便告訴你。"
+          },
+          {
+            "en": "Your company encourages me to lean into healthy habits rather than only discuss new equipment. I can help plan the park visits and contact you early when we need another time.",
+            "zh": "你的陪伴鼓勵我更主動投入健康習慣，而不只談新器材。我可幫安排公園散步，需另選時間時及早聯絡你。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "joining the walks",
+            "zh": "參與散步",
+            "exampleIndex": 0,
+            "span": {
+              "start": 14,
+              "end": 31
+            }
+          },
+          {
+            "en": "our shared arrangements",
+            "zh": "共同安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 129
+            }
+          },
+          {
+            "en": "in advance",
+            "zh": "預先",
+            "exampleIndex": 0,
+            "span": {
+              "start": 153,
+              "end": 163
+            }
+          },
+          {
+            "en": "Your company",
+            "zh": "你的陪伴",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 12
+            }
+          },
+          {
+            "en": "the park visits",
+            "zh": "公園散步",
+            "exampleIndex": 1,
+            "span": {
+              "start": 111,
+              "end": 126
+            }
+          }
+        ],
+        "selfCheckZh": "感謝已選共同活動的支持，以自己提早安排及聯絡作投入，不把參與意願當健康結果已證或把責任全交朋友。"
+      },
+      "takeaways": [
+        {
+          "en": "She began to lean into healthy habits by discussing which of her chosen routines she could realistically keep.",
+          "zh": "她討論自己選的哪些安排實際可維持，開始更主動投入健康習慣。"
+        },
+        {
+          "en": "The bookshop leaned into its local character by featuring neighbourhood writers beside the usual titles.",
+          "zh": "書店在一般書目旁重點展示本區作家的作品，更主動突出自身的地方特色。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Proposal only: active-embrace object expansion for book10-16-0099; no claim that healthy outcomes or local audience approval are proved. Independent owner review needed."
+      }
+    },
+    {
+      "id": "advanced-native-307",
+      "number": 307,
+      "inventoryId": "expr-0307",
+      "titleEn": "room to breathe",
+      "titleZh": "稍有喘息與調整的空間",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:room|space) to breathe\\b|\\bgiven (?:the|a) chance to breathe\\b(?!\\s+new\\s+life\\b)",
+        "glossaryForbidden": [
+          "\\b(?:room|space) to breathe\\b",
+          "\\bgiven (?:the|a) chance to breathe\\b(?!\\s+new\\s+life\\b)"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Enough time or freedom to ease pressure and continue working or adapting; being given the chance to breathe describes receiving that opportunity.",
+        "meaningZh": "獲得足夠時間或自由，稍減壓力並繼續工作或調整；being given the chance to breathe 指得到這樣的機會。",
+        "grammar": "Room/space to breathe names the available leeway; be given the/a chance to breathe describes being allowed it. The second construction is passive in the source and does not guarantee success or the removal of every constraint.",
+        "register": "A colleague or organiser can use this figurative pressure-relief language with a team discussing schedules or creative constraints. The source personifies traditional makers but refers to people’s freedom to adapt; literal breathing and breathe new life into are different uses.",
+        "boundaryZh": "得到喘息及調整機會，不等於完全不用履行責任，也不是字面呼吸困難或 breathe new life into 的「注入新活力」。",
+        "misconceptionZh": "喘息空間不等於放棄目標；合理留白可以幫人維持工作及生活。",
+        "outcomeZh": "能描述安排如何減輕壓力，同時保留仍有責任。"
+      },
+      "sources": [
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 5,
+          "expression": "room to breathe",
+          "sentence": "A shorter commute gave the family room to breathe.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 2,
+          "question": 5,
+          "sample": "S1",
+          "locatorNote": "PDF page 5, table 1, row 5; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p005-t1-r05"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 21,
+          "expression": "room to breathe",
+          "sentence": "A shorter commute gave the family room to breathe.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 2,
+          "question": 21,
+          "sample": "S2",
+          "locatorNote": "PDF page 21, table 1, row 3; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p021-t1-r03"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 38,
+          "expression": "room to breathe",
+          "sentence": "A shorter commute gave the family room to breathe.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 3,
+          "question": 2,
+          "sample": "S2",
+          "locatorNote": "PDF page 38, table 1, row 10; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p038-t1-r10"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 49,
+          "expression": "room to breathe",
+          "sentence": "A shorter commute gave the family room to breathe.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 3,
+          "question": 15,
+          "sample": "S2",
+          "locatorNote": "PDF page 49, table 1, row 8; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p049-t1-r08"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 50,
+          "expression": "room to breathe",
+          "sentence": "A shorter commute gave the family room to breathe.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 3,
+          "question": 16,
+          "sample": "S2",
+          "locatorNote": "PDF page 50, table 1, row 4; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p050-t1-r04"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 230,
+          "expression": "room to breathe",
+          "sentence": "A shorter commute gave the family room to breathe.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 8,
+          "question": 26,
+          "sample": "S2",
+          "locatorNote": "PDF page 230, table 2, row 8; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p230-t2-r08"
+        },
+        {
+          "occurrenceId": "book10-16-0967",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 90,
+          "book": 12,
+          "question": 21,
+          "sample": "S2",
+          "sourceBookPages": "53–54",
+          "locatorNote": "DOCX table 91, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The children need space to breathe and invent stories.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "space to breathe"
+        },
+        {
+          "occurrenceId": "book10-16-2372",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 224,
+          "book": 16,
+          "question": 31,
+          "sample": "S2",
+          "sourceBookPages": "75–76",
+          "expression": "given the chance to breathe",
+          "sentence": "Traditional makers should be given the chance to breathe.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "DOCX table 246, row 14; page is the locally rendered PDF page. Proposal-only same-sense variant; exact source wording retained as provenance."
+        }
+      ],
+      "listening": {
+        "en": "Moving one deadline gave the team room to breathe: they could check the draft carefully instead of rushing between two tasks.",
+        "zh": "把一個期限移後讓小組有喘息空間：他們可仔細查草稿，不用在兩項工作間趕來趕去。",
+        "promptZh": "期限調整帶來甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It cancelled every task so nobody had responsibilities.",
+            "zh": "它取消所有工作，沒有人再需負責。"
+          },
+          {
+            "id": "b",
+            "en": "It added another urgent task to the same crowded period.",
+            "zh": "它在同一擠迫時段加入另一急事。"
+          },
+          {
+            "id": "c",
+            "en": "It eased the immediate pressure enough for a careful check.",
+            "zh": "它減輕即時壓力，讓人能仔細查核。"
+          },
+          {
+            "id": "d",
+            "en": "It showed that the team had already abandoned the project.",
+            "zh": "它顯示小組已放棄項目。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "查草稿仍是責任，只是安排不再如此趕迫；不是全取消。"
+      },
+      "reply": {
+        "promptZh": "把其中一個期限移後對小組有甚麼幫助？",
+        "promptEn": "How did moving one deadline help the team?",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gave them enough time to check the draft carefully.",
+            "zh": "它給他們足夠時間仔細查草稿。"
+          },
+          {
+            "id": "b",
+            "en": "It gave them room to breathe.",
+            "zh": "它給他們喘息空間。"
+          },
+          {
+            "id": "c",
+            "en": "They no longer had to rush between both tasks at once.",
+            "zh": "他們不再需同時在兩項工作間趕來趕去。"
+          },
+          {
+            "id": "d",
+            "en": "The revised schedule reduced the pressure without dropping the work.",
+            "zh": "修訂時間表減輕壓力，同時沒有放棄工作。"
+          }
+        ],
+        "explanationZh": "四句都說明減壓及留時間；金句是安排空間的比喻。",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "一個劇團原須翌日交出舞台設計，主辦方改為給設計師兩周試作及修改；演出日期和安全規定仍然保留。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The designers have been given the chance to breathe while revising, without abandoning the production.",
+            "zh": "設計師在修改時獲得喘息空間，但劇團沒有放棄演出。"
+          },
+          {
+            "id": "b",
+            "en": "The extra time means the production has been cancelled and no design is needed.",
+            "zh": "多出的時間表示演出已取消，不再需要任何設計。"
+          },
+          {
+            "id": "c",
+            "en": "The organizers removed every safety requirement as soon as the deadline changed.",
+            "zh": "主辦方一改期限便取消了所有安全規定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "延長試作及修改時間帶來喘息與調整機會；原定演出和安全要求仍在。"
+      },
+      "contrast": {
+        "promptZh": "哪句最不宜由 room to breathe 得出？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Some pressure or restriction has eased.",
+            "zh": "部分壓力或限制減輕了。"
+          },
+          {
+            "id": "b",
+            "en": "There may be more time to think or prepare.",
+            "zh": "可能有更多時間思考或準備。"
+          },
+          {
+            "id": "c",
+            "en": "All responsibility has disappeared and no further action is needed.",
+            "zh": "所有責任已消失，不需再採取行動。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "喘息指足夠空間，不等於任務全無或工作完成。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說「你想 room to breathe，就是不想完成項目」。哪句回應最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us treat a request for a realistic schedule as withdrawal from the project.",
+            "zh": "把合理時間表要求當作退出項目吧。"
+          },
+          {
+            "id": "b",
+            "en": "I need room to breathe so I can do the work properly; I am not dropping the commitment.",
+            "zh": "我需要一點喘息空間，才能把工作做好；我沒有放棄承諾。"
+          },
+          {
+            "id": "c",
+            "en": "The number of overlapping deadlines alone measures how committed you are.",
+            "zh": "單憑期限重疊數目，便可衡量你有多投入。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "調整壓力可支持完成目標，不由留白推斷放棄。"
+      },
+      "speaking": {
+        "en": "A short gap between tasks gives us room to breathe.",
+        "zh": "工作之間的短空檔給我們喘息空間。",
+        "promptZh": "先聽示範，再描述安排中的合理留白。",
+        "targetSpan": {
+          "start": 35,
+          "end": 50
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：美術社原要求每個人照同一樣板逐步複製，現在容許學生在核心主題內自行選材料，讓大家探索但仍須完成作品。用一至兩句英文描述多了創作自由，而非取消要求。",
+        "examples": [
+          {
+            "en": "Choosing our own materials gives us room to breathe creatively while we still work within the shared theme.",
+            "zh": "自行選材料給我們創作上的喘息空間，同時仍在共同主題內工作。"
+          },
+          {
+            "en": "The revised art brief gives students room to breathe without removing the need to complete a piece that fits the main theme.",
+            "zh": "修訂的美術要求給學生喘息空間，同時未刪去完成符合主要主題作品的需要。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Choosing our own materials",
+            "zh": "自行選材料",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 26
+            }
+          },
+          {
+            "en": "the shared theme",
+            "zh": "共同主題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 106
+            }
+          },
+          {
+            "en": "The revised art brief",
+            "zh": "修訂美術要求",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 21
+            }
+          },
+          {
+            "en": "complete a piece",
+            "zh": "完成一件作品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 82,
+              "end": 98
+            }
+          },
+          {
+            "en": "the main theme",
+            "zh": "主要主題",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 123
+            }
+          }
+        ],
+        "selfCheckZh": "指出選材料的創作自由，保留核心主題及完成責任；不把 room to breathe 只當完全沒有要求。"
+      },
+      "takeaways": [
+        {
+          "en": "A less crowded schedule gives the family room to breathe.",
+          "zh": "較少擠迫的時間表給家庭喘息空間。"
+        },
+        {
+          "en": "Leaving one afternoon unplanned gives the class space to breathe and test its own ideas.",
+          "zh": "預留一個下午不排滿活動，讓全班有空間自主嘗試想法。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [],
+        "note": "Proposal only: bounded passive chance-to-breathe variant for book10-16-2372; same pressure-relief decision as room/space to breathe, pending independent naturalness review."
+      },
+      "contentRevision": 3
+    }
+  ]
+}

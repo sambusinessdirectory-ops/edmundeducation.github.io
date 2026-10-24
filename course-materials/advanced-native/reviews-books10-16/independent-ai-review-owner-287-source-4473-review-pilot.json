@@ -1,0 +1,38 @@
+{
+  "status": "independent-ai-review-repair-required-not-human-or-release-approval",
+  "createdUtc": "2026-10-24T03:12:23.102349+00:00",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-287-source-4473-proposed-b.json",
+  "proposalSha256": "d6fe38949a37f6bdffc5a4fdbdf870b699f70bab7e59ee3e1b577cb2d99e0ac9",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-owner-proposal-4473-to-287-b.json",
+  "authorAuditSha256": "44cdd34533bcdcae7aed55f09c662f8f34b15481a6f4597a4f1a41cd77c4ce05",
+  "sourceOrdinal": 4473,
+  "sourceId": "book10-16-2362",
+  "exactSourceSentence": "Local crafts can be pushed aside by cheap mass-produced goods.",
+  "ownerId": "advanced-native-287",
+  "ownerSenseVerdict": "pass: commercial loss of visibility is a coherent extension of figurative sidelining without implying complete removal",
+  "fullSourceDetectorVerdict": "pass: native JS matches exact source and new key; bounded to passive pushed aside by specified competing goods. A literal object physically moved by qualifying goods can still match, so semantic context remains necessary.",
+  "provenanceVerdict": "pass: exact occurrence and source sentence attached",
+  "answerAndChineseVerdict": "keyed A is grounded and Traditional Chinese faithful; B/C are currently too easy",
+  "audioTextDeltaIfIntegrated": false,
+  "focusedBuildCheck": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRoles": 4,
+    "reviewFlags": 0,
+    "result": "pass"
+  },
+  "findings": [
+    {
+      "id": "R4473-287-01",
+      "severity": "major",
+      "path": "advanced-native-287.scene.options[b,c]",
+      "explanation": "Both wrong options simply negate explicit prompt facts: B says equal display and publicity although the prompt assigns main display and most publicity to factory goods; C says handmade stalls are closed although the prompt says they remain. A learner can select A by spotting direct contradictions without deciding what figurative pushed aside means.",
+      "recommendedRepair": "Replace B/C with plausible contextual near-misses: one may overgeneralize the fair’s visibility loss to every market; another may incorrectly infer that retaining a stall guarantees unchanged prominence. Keep each option unambiguously unsupported and align English, Chinese and explanation."
+    }
+  ],
+  "result": "not-clear-for-integration-until-scene-distractors-repaired",
+  "limitations": [
+    "Proposal only; no selected, canonical or decision files edited.",
+    "No human, audio-listening, physical-device or release approval."
+  ]
+}

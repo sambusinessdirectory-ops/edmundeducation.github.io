@@ -2540,12 +2540,12 @@
       "id": "advanced-native-1687",
       "number": 1687,
       "inventoryId": "expr-1687",
-      "contentRevision": 1,
-      "titleEn": "lean into healthy habits",
-      "titleZh": "更主動投入健康習慣",
+      "contentRevision": 2,
+      "titleEn": "lean into",
+      "titleZh": "主動擁抱或投入",
       "category": "phrasal-verb",
       "target": {
-        "pattern": "\\blean(?:s|ed|t|ing)? into healthy habits\\b"
+        "pattern": "\\blean(?:s|ed|t|ing)? into (?:healthy habits|(?:its|their) local character)\\b"
       },
       "sources": [
         {
@@ -2561,16 +2561,30 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "lean into healthy habits",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-0099",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 10,
+          "book": 10,
+          "question": 7,
+          "sample": "S2",
+          "sourceBookPages": "18–19",
+          "expression": "lean into",
+          "sentence": "The festival decided to lean into its local character.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "DOCX table 7, row 17; page is the locally rendered PDF page. Proposal-only same-sense variant; exact source wording retained as provenance."
         }
       ],
       "brief": {
-        "meaningEn": "Engage more actively with routines aimed at supporting wellbeing.",
-        "meaningZh": "更主動投入以身心健康為目標的日常習慣。",
-        "grammar": "lean into healthy habits; leaned/leant/leaning; figurative lean into means engage with the challenge, not physically tilt the body",
-        "register": "informal",
-        "boundaryZh": "說投入方式，不保證已見健康成效；healthy habits 需由情境具體說明，也不等於每項做法對人人合適。",
-        "misconceptionZh": "說投入方式，不保證已見健康成效；healthy habits 需由情境具體說明，也不等於每項做法對人人合適。",
-        "outcomeZh": "理解「更主動投入健康習慣」的語境及用法，並在新情境寫出自然句子。",
+        "meaningEn": "Deliberately embrace and develop a quality or practice instead of merely noticing it or resisting it; engagement does not itself prove a successful result.",
+        "meaningZh": "有意識地擁抱並發展一種特質或做法，而非只注意到它或抗拒它；投入本身不證明已有成果。",
+        "grammar": "Lean/leans/leaned/leant/leaning into healthy habits or its/their local character. Into takes the quality or practice being actively embraced; the source personifies a festival as choosing to emphasise its local identity.",
+        "register": "A coach can use this contemporary, somewhat informal phrasal verb with a learner about habits; a festival organiser can use it with colleagues about local identity. The objects are contextual uses of the same verb, not fixed idioms requiring those exact nouns.",
+        "boundaryZh": "說明主動投入或強調某特質，不保證健康已有改善，也不表示地方特色是唯一值得保留的面向；須看實際行動。",
+        "misconceptionZh": "收藏目標清單不等於投入健康習慣；活動以地方特色設計內容，也不等於拒絕所有新元素。",
+        "outcomeZh": "能從具體行動判斷某人或機構是否主動擁抱習慣或地方特色，並避免誇大結果。",
         "sourceClassificationNote": "Oxford lean into attests accepting a challenge and trying hard. Healthy habits is a contextual object, not a separate fixed idiom. Fictional personal routines illustrate engagement without prescribing a regimen."
       },
       "listening": {
@@ -2631,26 +2645,26 @@
         "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
       },
       "scene": {
-        "promptZh": "故事人物原只收藏健康目標清單，後來主動與家人商量晚間安靜時間，試行自己選的睡前安排；沒有報告效果。哪句貼切？",
+        "promptZh": "社區書店不再只用連鎖店的統一陳列，開始展示本區作者的書，並讓居民選擇口述歷史活動的題目；它仍出售其他書籍。哪句貼切？",
         "options": [
           {
             "id": "choice-1",
-            "en": "She is beginning to lean into healthy habits rather than only save lists.",
-            "zh": "她開始更主動投入健康習慣，而非只收藏清單。"
+            "en": "The bookshop is leaning into its local character through specific choices, without excluding every other kind of book.",
+            "zh": "書店透過具體安排更主動突出自身的地方特色，但沒有排除所有其他類型的書。"
           },
           {
             "id": "choice-2",
-            "en": "Her saved lists are the only action described; no shared arrangement is being tried.",
-            "zh": "敘述只有收藏清單，沒有試行共同安排。"
+            "en": "The bookshop has kept only the same chain-store display and made no local choices.",
+            "zh": "書店只保留原有的連鎖店式陳列，沒有作出任何地方特色的安排。"
           },
           {
             "id": "choice-3",
-            "en": "The story reports a measured health improvement caused by the new routine.",
-            "zh": "故事報告新安排造成已量度的健康改善。"
+            "en": "The local display proves that every resident now prefers the same books.",
+            "zh": "地方主題陳列證明所有居民現在都喜歡相同的書。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "商量及試行是投入，未給成效量度；不是只存資訊。"
+        "explanationZh": "展示本區作者及讓居民選題，是主動突出地方特色；並無證據說其他書被排除或所有人喜好相同。"
       },
       "contrast": {
         "promptZh": "哪種推論不宜由 lean into healthy habits 得出？",
@@ -2772,8 +2786,8 @@
           "zh": "她討論自己選的哪些安排實際可維持，開始更主動投入健康習慣。"
         },
         {
-          "en": "He hoped to lean into healthy habits with practical support, rather than add another unused list to his phone.",
-          "zh": "他希望靠實際支援更主動投入健康習慣，而非在手機添另一張未用清單。"
+          "en": "The bookshop leaned into its local character by featuring neighbourhood writers beside the usual titles.",
+          "zh": "書店在一般書目旁重點展示本區作家的作品，更主動突出自身的地方特色。"
         }
       ],
       "review": {
@@ -2784,7 +2798,7 @@
           "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
         },
         "independentHumanApproval": false,
-        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+        "note": "Proposal only: active-embrace object expansion for book10-16-0099; no claim that healthy outcomes or local audience approval are proved. Independent owner review needed."
       }
     },
     {

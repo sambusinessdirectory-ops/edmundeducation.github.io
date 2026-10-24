@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "scope": "Proposal only; no canonical owner, editorial decision, selected manifest, audio, or publication edits",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-2210-3388-4483-proposed-a.json",
+  "proposalSha256": "f40ca5ada58598af4ff94ddd954a89f80a63e4271710409f7194d685034d2769",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "selectedManifestSha256": "42878344ff07e2c228d95027b90691233c312c29fc12b391b30e21b0ffdcc453",
+  "focusedBuild": {
+    "lessons": 3,
+    "questions": 18,
+    "audioRequests": 12,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass"
+  },
+  "candidates": {
+    "2210": {
+      "owner": 1687,
+      "sourceId": "book10-16-0099",
+      "sourceSentence": "The festival decided to lean into its local character.",
+      "sourceSense": "Actively embrace or emphasise the festival’s local identity rather than resist it.",
+      "ownerFit": "Owner 1687 already teaches active engagement rather than guaranteed results in lean into healthy habits. The local-character object changes domain but keeps that decision. The proposed scene tests concrete local programming while rejecting a claim that every other type of book is excluded.",
+      "limitation": "The bilingual title now names the reusable verb lean into; both wellness and local-character objects remain bounded target branches. Independent review must still confirm one coherent owner.",
+      "ownerFile": "batches/batch-1676-1700.json",
+      "ownerFileSha256": "280c5e64c82eb599e6133220365de33416945b55dab668d35651de7f46667ed2",
+      "decisionFile": "books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionFileSha256": "3e7d06e4473fe2d24ce2ab3f7bd10208fc6501badbbd608fb8b05b99e816c364",
+      "decisionActionBefore": "hold-editorial",
+      "exactSourceInProvenance": true,
+      "targetControls": {
+        "positives": [
+          {
+            "text": "The festival decided to lean into its local character.",
+            "matched": true
+          },
+          {
+            "text": "The shop leaned into its local character.",
+            "matched": true
+          },
+          {
+            "text": "They leant into their local character.",
+            "matched": true
+          },
+          {
+            "text": "She is leaning into healthy habits.",
+            "matched": true
+          }
+        ],
+        "negatives": [
+          {
+            "text": "He leaned into the wall.",
+            "matched": false
+          },
+          {
+            "text": "The festival leaned into local character.",
+            "matched": false
+          },
+          {
+            "text": "The group leaned into unhealthy habits.",
+            "matched": false
+          }
+        ],
+        "allProvenanceMatches": true,
+        "provenanceMisses": [],
+        "fullInventoryHits": [
+          {
+            "ordinal": 2210,
+            "sourceId": "book10-16-0099",
+            "example": "The festival decided to lean into its local character."
+          }
+        ],
+        "stableQuestionIds": true,
+        "stableAnswerIds": true,
+        "stableWritingModels": true,
+        "oldRevision": 1,
+        "newRevision": 2
+      },
+      "proposedOutcome": "conditional same-sense owner expansion; independent review pending"
+    },
+    "3388": {
+      "owner": 305,
+      "sourceId": "book10-16-1277",
+      "sourceSentence": "Imported food can be a small window to another culture.",
+      "sourceSense": "A food encounter offers a limited glimpse into another culture, not complete representation.",
+      "ownerFit": "Owner 305 already teaches the window metaphor as partial insight and contrasts a useful perspective with overgeneralization. The new recipe scene makes the same decision in the source’s culture domain.",
+      "limitation": "Window to another culture is less conventional than window into another culture. The source form is preserved in a culture-bound branch, and the repaired scene explicitly establishes a reader from another cultural background; it does not generalize window to physical locations.",
+      "ownerFile": "batches/batch-0301-0325.json",
+      "ownerFileSha256": "f90c3fd81fbcf327e345d9464b4a8f5a3f6c5f16387db3a06e37d5991b853ad1",
+      "decisionFile": "books10-16/editorial-decisions-3372-3431.jsonl",
+      "decisionFileSha256": "de6453f80a20615f4cd48297cb5e288a7b2eefadb1694a45cb19a85885d355e5",
+      "decisionActionBefore": "hold-editorial",
+      "exactSourceInProvenance": true,
+      "targetControls": {
+        "positives": [
+          {
+            "text": "Imported food can be a small window to another culture.",
+            "matched": true
+          },
+          {
+            "text": "The interview offers a window into one family's history.",
+            "matched": true
+          },
+          {
+            "text": "A guide can open a window onto another culture.",
+            "matched": true
+          }
+        ],
+        "negatives": [
+          {
+            "text": "The cafe has a window to the garden.",
+            "matched": false
+          },
+          {
+            "text": "The kitchen has a small window to another room.",
+            "matched": false
+          },
+          {
+            "text": "The guide is a door to another culture.",
+            "matched": false
+          }
+        ],
+        "allProvenanceMatches": true,
+        "provenanceMisses": [],
+        "fullInventoryHits": [
+          {
+            "ordinal": 3388,
+            "sourceId": "book10-16-1277",
+            "example": "Imported food can be a small window to another culture."
+          }
+        ],
+        "stableQuestionIds": true,
+        "stableAnswerIds": true,
+        "stableWritingModels": true,
+        "oldRevision": 1,
+        "newRevision": 2
+      },
+      "proposedOutcome": "conditional same-sense owner expansion; independent review pending"
+    },
+    "4483": {
+      "owner": 307,
+      "sourceId": "book10-16-2372",
+      "sourceSentence": "Traditional makers should be given the chance to breathe.",
+      "sourceSense": "People working in a traditional craft should have time or freedom to adapt, not be suffocated by constraints.",
+      "ownerFit": "Owner 307 already covers relief from crowded schedules and rigid creative constraints with room/space to breathe. The proposed theatre scene tests receiving time to revise while obligations remain.",
+      "limitation": "The source personifies traditional makers, and given the chance to breathe can be literal in another context. The detector excludes breathe new life but cannot decide literal versus figurative context alone; the brief and assessed scene carry that distinction.",
+      "ownerFile": "batches/batch-0301-0325.json",
+      "ownerFileSha256": "f90c3fd81fbcf327e345d9464b4a8f5a3f6c5f16387db3a06e37d5991b853ad1",
+      "decisionFile": "books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionFileSha256": "76e41d94a3779908f253ffc9c4be5f725cb19d32b52f06b8a80174721273e4b5",
+      "decisionActionBefore": "hold-editorial",
+      "exactSourceInProvenance": true,
+      "targetControls": {
+        "positives": [
+          {
+            "text": "Traditional makers should be given the chance to breathe.",
+            "matched": true
+          },
+          {
+            "text": "A shorter commute gave the family room to breathe.",
+            "matched": true
+          },
+          {
+            "text": "The children need space to breathe and invent stories.",
+            "matched": true
+          },
+          {
+            "text": "They were given a chance to breathe.",
+            "matched": true
+          }
+        ],
+        "negatives": [
+          {
+            "text": "He was given the chance to breathe new life into the club.",
+            "matched": false
+          },
+          {
+            "text": "They had a chance to breathe.",
+            "matched": false
+          },
+          {
+            "text": "The doctor helped her breathe.",
+            "matched": false
+          }
+        ],
+        "allProvenanceMatches": true,
+        "provenanceMisses": [],
+        "fullInventoryHits": [
+          {
+            "ordinal": 3078,
+            "sourceId": "book10-16-0967",
+            "example": "The children need space to breathe and invent stories."
+          },
+          {
+            "ordinal": 3310,
+            "sourceId": "book10-16-1199",
+            "example": "A shorter commute gave the family room to breathe."
+          },
+          {
+            "ordinal": 3324,
+            "sourceId": "book10-16-1213",
+            "example": "A shorter commute gave the family room to breathe."
+          },
+          {
+            "ordinal": 3470,
+            "sourceId": "book10-16-1359",
+            "example": "A shorter commute gave the family room to breathe."
+          },
+          {
+            "ordinal": 4483,
+            "sourceId": "book10-16-2372",
+            "example": "Traditional makers should be given the chance to breathe."
+          }
+        ],
+        "stableQuestionIds": true,
+        "stableAnswerIds": true,
+        "stableWritingModels": true,
+        "oldRevision": 2,
+        "newRevision": 3
+      },
+      "proposedOutcome": "conditional same-sense owner expansion; independent review pending"
+    }
+  },
+  "independentReviewRequired": true,
+  "audioTextDeltaIfIntegrated": {
+    "305": [
+      "takeaway-2"
+    ],
+    "1687": [
+      "takeaway-2"
+    ],
+    "307": []
+  },
+  "reviewRepair": {
+    "initialIndependentReport": "reviews-books10-16/independent-ai-review-owner-expansions-2210-3388-4483-review-pilot.json",
+    "initialIndependentReportSha256": "3dc7c664be14d96b87fe884078d6575e6675538276593294039ab959e87c0343e",
+    "resolvedInCurrentProposal": [
+      "R3388-305-01: scene now states unfamiliar reader from another culture",
+      "R3388-305-02: recipe classifier changed to 這份食譜 in all three options",
+      "R2210-1687-01: bilingual title normalized to lean into / 主動擁抱或投入"
+    ],
+    "followupIndependentReview": "pending"
+  }
+}

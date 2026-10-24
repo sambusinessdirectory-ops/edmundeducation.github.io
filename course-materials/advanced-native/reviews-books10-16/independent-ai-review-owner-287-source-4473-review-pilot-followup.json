@@ -1,0 +1,25 @@
+{
+  "status": "independent-ai-scoped-followup-clear-not-human-or-release-approval",
+  "createdUtc": "2026-10-24T03:14:09.038998+00:00",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-287-source-4473-proposed-b.json",
+  "proposalSha256": "7f113ddc3ae8451b9932c1ca44ed5004e55d3b9599503ae6cfe0334264720cba",
+  "initialReviewSha256": "922e69cfbc629a413f8ea239092b04ea5bf0f70cc83bef3b152b81cd07985f19",
+  "authorRepairSha256": "73409d61ad54256988a342cdd53b8967ced7f5d41d3bf1e30d6c8ab6304f992e",
+  "sourceOrdinal": 4473,
+  "ownerId": "advanced-native-287",
+  "finding": "R4473-287-01",
+  "resolved": true,
+  "evidence": "Scene B now confuses a still-open stall with equal prominence; C overgeneralizes this fair’s publicity to every nearby market. Both are plausible interpretation errors and neither is supported. Key A is grounded in reduced main-display/publicity and visitor attention; English/Chinese options and explanation align. Source provenance and target branch are unchanged from initial reviewed proposal.",
+  "focusedBuildCheck": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRoles": 4,
+    "reviewFlags": 0,
+    "result": "pass"
+  },
+  "remainingContentBlockers": 0,
+  "limitations": [
+    "Proposal-only; no selected owner or decision file edited.",
+    "No human approval, audio-listening, physical-device QA or release sign-off."
+  ]
+}

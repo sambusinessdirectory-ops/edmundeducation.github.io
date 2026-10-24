@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-read-only-owner-proposal-287-source-4473-b",
+  "lessons": [
+    {
+      "id": "advanced-native-287",
+      "number": 287,
+      "inventoryId": "expr-0287",
+      "titleEn": "pushed to the margins",
+      "titleZh": "被擠到邊緣而少被重視",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:push|pushes|pushed|pushing)(?: quietly)? to the (?:margins|sidelines|side)\\b|\\bpushed aside\\b(?=\\s+by\\s+(?:(?:cheap|cheaper|low[- ]cost|mass[- ]produced|factory[- ]made|imported)\\s+){1,3}(?:goods|products|items|alternatives)\\b)",
+        "glossaryForbidden": [
+          "\\bmargins\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Made less visible, influential or central in an activity, discussion or market; a local option can lose attention to a cheaper competitor without disappearing altogether.",
+        "meaningZh": "在活動、討論或市場中變得較少被看見、較少影響力或較不受重視；本地選項可能因廉價競爭品而失去注意，卻未完全消失。",
+        "grammar": "Be pushed (quietly) to the margins, sidelines or side of a debate or programme. In a market-displacement context, be pushed aside by cheap or mass-produced goods. The metaphor describes lost prominence or attention, not literal physical movement; the by-phrase names a competing product.",
+        "register": "Figurative social or market description. A curator may tell colleagues that smaller art forms are pushed to the margins, or a craft seller may tell a fair organiser that local work is being pushed aside by cheap mass-produced goods.",
+        "boundaryZh": "不一定完全被排除或實際移走；須有參與、注意、展示或選擇機會減少的證據。市場用法須清楚指出競爭商品，而非有人把物件推開。",
+        "misconceptionZh": "仍在場不代表仍有實質參與；反過來，未採用一個建議也不單獨證明整個群體被邊緣化。",
+        "outcomeZh": "能用發言、議程、展示或宣傳機會的具體變化描述被邊緣化。"
+      },
+      "sources": [
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 3,
+          "expression": "pushed to the margins",
+          "sentence": "Small community groups can be pushed to the margins of a large debate.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 2,
+          "question": 2,
+          "sample": "S2",
+          "locatorNote": "PDF page 3, table 1, row 3; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p003-t1-r03"
+        },
+        {
+          "occurrenceId": "book10-16-0568",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 52,
+          "book": 11,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "30–32",
+          "locatorNote": "DOCX table 48, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Smaller art forms are often pushed quietly to the margins.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pushed quietly to the margins"
+        },
+        {
+          "occurrenceId": "book10-16-0604",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 56,
+          "book": 11,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "40–42",
+          "locatorNote": "DOCX table 51, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Local artists should not be pushed to the sidelines.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pushed to the sidelines"
+        },
+        {
+          "occurrenceId": "book10-16-1721",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 162,
+          "book": 14,
+          "question": 29,
+          "sample": "S2",
+          "sourceBookPages": "64–65",
+          "locatorNote": "DOCX table 173, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Mental wellbeing is too often pushed to the side.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pushed to the side"
+        },
+        {
+          "occurrenceId": "book10-16-2362",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 223,
+          "book": 16,
+          "question": 31,
+          "sample": "S1",
+          "sourceBookPages": "75–76",
+          "locatorNote": "DOCX table 246, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Local crafts can be pushed aside by cheap mass-produced goods.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pushed aside by cheap mass-produced goods"
+        }
+      ],
+      "listening": {
+        "en": "When the agenda gave almost all the time to large organisations, the small volunteer groups were pushed to the margins and had little chance to explain their needs.",
+        "zh": "議程把幾乎全部時間給大機構時，小義工團體被擠到邊緣，少有機會解釋需要。",
+        "promptZh": "小團體的主要困難是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They chose to lead the discussion and set every agenda item.",
+            "zh": "它們選擇主導討論，訂定每項議程。"
+          },
+          {
+            "id": "b",
+            "en": "They attended but had little opportunity to make their needs heard.",
+            "zh": "它們出席，但少有機會讓需要被聽到。"
+          },
+          {
+            "id": "c",
+            "en": "They were the only groups given time to speak.",
+            "zh": "只有它們獲發言時間。"
+          },
+          {
+            "id": "d",
+            "en": "They rejected an equal speaking allocation because they wanted a shorter meeting.",
+            "zh": "它們因想縮短會議而拒絕平等發言分配。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "little chance to explain 提供實質參與減少的證據，不只是座位位置。"
+      },
+      "reply": {
+        "promptZh": "為甚麼小義工團體覺得難以參與這次討論？",
+        "promptEn": "Why did the small volunteer groups find it hard to participate?",
+        "options": [
+          {
+            "id": "a",
+            "en": "They had very little speaking time.",
+            "zh": "它們的發言時間很少。"
+          },
+          {
+            "id": "b",
+            "en": "The agenda gave their needs little attention.",
+            "zh": "議程很少注意它們的需要。"
+          },
+          {
+            "id": "c",
+            "en": "They were pushed to the margins of the discussion.",
+            "zh": "它們被擠到討論邊緣。"
+          },
+          {
+            "id": "d",
+            "en": "The larger organisations took nearly all the available time.",
+            "zh": "大機構佔去幾乎全部可用時間。"
+          }
+        ],
+        "explanationZh": "四句都解釋參與機會少；金句用邊緣意象。",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "手作市集仍讓本地工藝有攤位，但主展示區和大部分宣傳都給廉價大量生產商品，較少顧客留意手作。哪句最有根據？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Local crafts are being pushed aside by cheaper factory-made products in the fair’s displays and publicity.",
+            "zh": "在市集的展示和宣傳中，本地工藝正被較便宜的工廠製商品擠到一旁。"
+          },
+          {
+            "id": "b",
+            "en": "Because the local stalls are still open, their work has equal prominence in this fair.",
+            "zh": "本地攤位仍開放，所以它們的作品在這個市集得到同等重視。"
+          },
+          {
+            "id": "c",
+            "en": "This fair’s publicity proves that buyers for local crafts have disappeared from every nearby market.",
+            "zh": "這個市集的宣傳證明，附近每個市場都已沒有本地工藝的買家。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "手作攤位仍在，但主展示和宣傳轉向廉價量產商品，支持本地工藝在這個市集失去能見度；仍有攤位不等於同等重視，也不能從一個市集推斷所有市場。"
+      },
+      "contrast": {
+        "promptZh": "哪項資料最不足以單獨支持 pushed to the margins？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A group repeatedly receives little time to explain its needs.",
+            "zh": "一個團體反覆少有時間解釋需要。"
+          },
+          {
+            "id": "b",
+            "en": "A proposal is considered carefully but not chosen, while the group keeps an equal voice.",
+            "zh": "提案被仔細考慮後未獲選，但團體仍有平等發言權。"
+          },
+          {
+            "id": "c",
+            "en": "The agenda regularly leaves a group’s concerns unaddressed.",
+            "zh": "議程經常不處理某團體的關切。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "一次有理由未採納不單獨表示整體影響力被壓低。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說「他們仍在會場，就不可能 pushed to the margins」。哪句回應最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us use attendance alone to measure influence.",
+            "zh": "只用出席衡量影響力吧。"
+          },
+          {
+            "id": "b",
+            "en": "Being present does not rule out being pushed to the margins; check how much time or influence they actually have.",
+            "zh": "人在場仍可能被推到邊緣；要查他們實際有多少發言時間或影響力。"
+          },
+          {
+            "id": "c",
+            "en": "An invitation is enough evidence that their needs reached the agenda.",
+            "zh": "單憑邀請，已有足夠證據顯示他們的需要列入議程。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "需要看發言、議程及影響，不只看有沒有到場。"
+      },
+      "speaking": {
+        "en": "Smaller groups should not be pushed to the margins of the discussion.",
+        "zh": "較小團體不應被擠到討論邊緣。",
+        "promptZh": "先聽示範，再表達實質參與的重要。",
+        "targetSpan": {
+          "start": 29,
+          "end": 50
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一部社區歷史短片反覆訪問知名訪客，卻很少呈現長期居民的經驗，居民覺得自己的故事不被看見。用一至兩句英文指出問題並建議補充訪談。",
+        "examples": [
+          {
+            "en": "Long-term residents are being pushed to the margins of the film while famous visitors receive most of the attention. We should include more local interviews.",
+            "zh": "知名訪客獲大部分注意時，長期居民正被擠到短片邊緣。我們應加入更多本地訪談。"
+          },
+          {
+            "en": "The residents’ stories have been pushed to the margins, so the next edit should give their experiences a clearer place.",
+            "zh": "居民故事被擠到邊緣，所以下次剪輯應讓他們的經驗更清楚呈現。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Long-term residents",
+            "zh": "長期居民",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 19
+            }
+          },
+          {
+            "en": "famous visitors",
+            "zh": "知名訪客",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 85
+            }
+          },
+          {
+            "en": "most of the attention",
+            "zh": "大部分注意",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 115
+            }
+          },
+          {
+            "en": "more local interviews",
+            "zh": "更多本地訪談",
+            "exampleIndex": 0,
+            "span": {
+              "start": 135,
+              "end": 156
+            }
+          },
+          {
+            "en": "the next edit",
+            "zh": "下次剪輯",
+            "exampleIndex": 1,
+            "span": {
+              "start": 59,
+              "end": 72
+            }
+          }
+        ],
+        "selfCheckZh": "描述呈現與注意分配的證據，提出讓故事可見的改動，不只看居民有沒有到拍攝現場。"
+      },
+      "takeaways": [
+        {
+          "en": "Local concerns were pushed to the margins of the wider debate.",
+          "zh": "本地關切被擠到較大辯論的邊緣。"
+        },
+        {
+          "en": "Mental wellbeing was pushed to the side when the planning meeting discussed only budgets and deadlines.",
+          "zh": "規劃會議只談預算和期限，心理健康便被擱置一旁。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": []
+      },
+      "contentRevision": 7
+    }
+  ]
+}

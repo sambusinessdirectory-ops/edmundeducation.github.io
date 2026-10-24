@@ -1,0 +1,55 @@
+{
+  "type": "canonical-alias-integration-attestation",
+  "recordedAtUtc": "2026-10-24T03:15:08.818605+00:00",
+  "sourceOrdinal": 4473,
+  "sourceId": "book10-16-2362",
+  "proposal": {
+    "path": "course-materials/advanced-native/reviews-books10-16/proposals/owner-287-source-4473-proposed-b.json",
+    "sha256": "7f113ddc3ae8451b9932c1ca44ed5004e55d3b9599503ae6cfe0334264720cba"
+  },
+  "independentReview": {
+    "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-287-source-4473-review-pilot-followup.json",
+    "sha256": "db111adf0baf2ed85059f6339cfb921c8bfffda6fbdad64562d07e616abb2c00"
+  },
+  "sourceSentence": "Local crafts can be pushed aside by cheap mass-produced goods.",
+  "owner": {
+    "id": "advanced-native-287",
+    "path": "course-materials/advanced-native/batches/batch-0276-0300.json",
+    "beforeSha256": "9d89b133bfc56577e7529b966a3d3d43f2f3a6e6cd778cc0c668158d99cacaff",
+    "afterSha256": "3521f2ba670a1f50ecef0142651cebcaf7fd7159b5a659b4dca54e581bb0f4d5",
+    "objectEqualToReviewedProposal": true,
+    "otherOwnerObjectsUnchanged": true
+  },
+  "decision": {
+    "path": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+    "beforeSha256": "0a5ef691cbbf3a69e01e211134aa38d7cc46992fddd1d54890381a58da3676c4",
+    "afterSha256": "f6cf40a1c9a5af3cacdf759082de32adac12cd5bf1efc57e1328379d652ad434",
+    "row": {
+      "sourceOrdinal": 4473,
+      "sourceId": "book10-16-2362",
+      "phrase": "pushed aside by cheap mass-produced goods",
+      "action": "proposed-alias-existing",
+      "canonicalId": "advanced-native-287",
+      "reason": "The source describes local crafts losing prominence to cheap mass-produced goods, not physical removal. Canonical 287 teaches figurative sidelining without full exclusion; its reviewed by-product branch matches the complete source and the market scene tests reduced display and publicity."
+    },
+    "otherDecisionLinesUnchanged": true
+  },
+  "selectedManifest": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "sha256": "42878344ff07e2c228d95027b90691233c312c29fc12b391b30e21b0ffdcc453",
+    "edited": false
+  },
+  "verification": {
+    "fullVerifier": "2604 decisions; 630 selected; 3780 questions; 2520 selected audio roles; 1184 existing aliases; 189 new aliases; 601 holds; zero schema/source/alias exceptions",
+    "existingAliasAudit": "1184/1184, zero exceptions",
+    "newAliasAudit": "189/189, zero exceptions",
+    "holdCoverageAudit": "601 current holds, zero unaudited/errors",
+    "focusedBuildAndCheck": "25 lessons, 150 questions, 100 audio roles, zero flags",
+    "fullSourceTargetMatch": true
+  },
+  "audioTextDelta": {
+    "changedRoles": 0,
+    "reason": "Owner287 listening, speaking and both takeaway English texts are byte-equivalent to the pre-integration lesson."
+  },
+  "publication": false
+}

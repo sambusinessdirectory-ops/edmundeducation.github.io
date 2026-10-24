@@ -1,0 +1,58 @@
+{
+  "kind": "read-only-source-owner-and-teachable-unit-assessment",
+  "status": "retain-hold-editorial",
+  "sourceOrdinal": 4076,
+  "sourceId": "book10-16-1965",
+  "source": {
+    "book": 15,
+    "question": 23,
+    "questionText": "Which products are most consumed in your country?",
+    "sample": "S1",
+    "expression": "bread and butter of daily life",
+    "sentence": "Groceries are the bread and butter of daily life.",
+    "meaningAndReason": "Essential ordinary components of everyday living; a fixed food idiom.",
+    "sourceBookPages": "54–55",
+    "renderedPdfPage": 185,
+    "docxTable": 201,
+    "docxRow": 4
+  },
+  "evidenceHashesSha256": {
+    "sourceInventoryJsonl": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "decisionFile4032To4091": "ed5c5edb518985bd80198f9cc8c49ae335c42d2934febd2d2be2997a73ccc8f8",
+    "legacyOwner1505Batch": "498cc5a8d2e39cd41b25bed245fa26a6aa9cc804f55a967f2a5c733afe22af10",
+    "selectedManifest": "42878344ff07e2c228d95027b90691233c312c29fc12b391b30e21b0ffdcc453"
+  },
+  "lexicalEvidence": [
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/bread-and-butter",
+      "finding": "The ordinary noun-phrase sense is the work or activity that supplies a person's or organisation's main income."
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/bread-and-butter",
+      "finding": "The noun phrase can also denote essential sustaining elements or a mainstay, but the principal-income sense is prominent; bread-and-butter as an adjective has a practical-everyday sense."
+    },
+    {
+      "url": "https://lawreview.uchicago.edu/sites/default/files/08%20GinsburgStephanopoulos_SYMP_IC.pdf",
+      "finding": "Attests the figurative construction 'the bread and butter of daily life' with an abstract non-food subject."
+    }
+  ],
+  "ownerScreen": {
+    "fullSourceDetectorMatchesAcrossLegacyAndDraftBatches": 0,
+    "nearestSenseOwner": "advanced-native-1505",
+    "nearestSenseOwnerTarget": "the backbone of local eating habits / everyday life / modern home life",
+    "comparison": "Owner 1505 already asks learners to identify a recurring central support in food routines or everyday life, including a staple-food scene. That is nearly the same decision the 4076 groceries sentence would support. Its different metaphor does not justify declaring 4076 an alias: the owner's reviewed target pattern rightly does not match bread and butter."
+  },
+  "decision": {
+    "recommendation": "keep source 4076 held; do not author or alias on current evidence",
+    "confidence": "high",
+    "rationale": "The source's groceries are actual food products, so 'bread and butter' is vulnerable to a literal-food reading in a consumption question. The idiom's common livelihood reading would change the source meaning; its broader mainstay reading is possible, but a faithful seven-step lesson about ordinary necessities would largely repeat owner 1505's central-staple decisions. The exact source does not establish a distinct learner decision, and forcing seven stages would likely recycle staple-versus-optional contrasts.",
+    "notAnExclusionApproval": true,
+    "revisitCondition": "Reconsider only with a natural non-food mainstay source or corpus examples that support a differentiated bread-and-butter construction and seven materially distinct learner decisions while still explicitly handling the groceries example as figurative."
+  },
+  "mutations": {
+    "drafts": 0,
+    "decisions": 0,
+    "owners": 0,
+    "selectedManifest": 0
+  }
+}

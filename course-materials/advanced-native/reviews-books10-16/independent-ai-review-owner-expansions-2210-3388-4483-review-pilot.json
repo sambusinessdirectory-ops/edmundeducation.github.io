@@ -1,0 +1,97 @@
+{
+  "status": "independent-ai-review-not-human-or-release-approval",
+  "createdUtc": "2026-10-24T03:08:31.214239+00:00",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-2210-3388-4483-proposed-a.json",
+  "proposalSha256": "7b5361c35b77150b1061f6a4c8093ada8f3b141b8f36442edeb89fe0a97beaa1",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-proposal-owner-expansions-2210-3388-4483-a.json",
+  "authorAuditSha256": "8c7f12009bc803a03f81c0af41fbee529252925ecab3cb2e52a5359073c30af9",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "focusedBuildAndCheck": {
+    "lessons": 3,
+    "questions": 18,
+    "audioRoles": 12,
+    "reviewFlags": 0,
+    "independentRun": "pass"
+  },
+  "summary": {
+    "pass": 1,
+    "minorRepair": 1,
+    "majorRepair": 1,
+    "integrationReady": false
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 3388,
+      "ownerId": "advanced-native-305",
+      "exactSourceSentence": "Imported food can be a small window to another culture.",
+      "sourceMeaning": "A limited but appealing view into another way of life; a window metaphor.",
+      "ownerMeaningAfter": "A way of gaining insight into a subject, experience or way of life.",
+      "proposalTargetPattern": "\\b(?:a window (?:into|onto)|a (?:small )?window to another culture)\\b",
+      "fullSourceMatches": true,
+      "exactSourceAttached": true,
+      "ownerFileBeforeSha256": "f90c3fd81fbcf327e345d9464b4a8f5a3f6c5f16387db3a06e37d5991b853ad1",
+      "questionIdsAndAnswerIdsStable": true,
+      "writingModelsUnchanged": true,
+      "verdict": "repair-required",
+      "findings": [
+        {
+          "id": "R3388-305-01",
+          "severity": "major",
+          "path": "advanced-native-305.scene.promptZh / scene.options",
+          "explanation": "The prompt describes a community cookbook and a reader learning a custom, but never establishes that the reader is encountering another culture. The keyed answer and all three alternatives refer to another culture, so the key depends on an unstated outsider relationship. The source itself has imported food, which does provide this relation.",
+          "recommendedRepair": "State that the reader is from a different community/culture and unfamiliar with this festival, or otherwise make the cross-cultural relation explicit in the prompt. Keep the one-dish limitation and target-bearing keyed answer."
+        },
+        {
+          "id": "R3388-305-02",
+          "severity": "minor",
+          "path": "advanced-native-305.scene.options[*].zh",
+          "explanation": "「這道食譜」 uses the dish classifier 道 with 食譜; it reads unnaturally and alternates between recipe and dish.",
+          "recommendedRepair": "Use 「這份食譜」 for recipe or 「這道菜」 for dish consistently in A/B/C, preserving English meaning."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2210,
+      "ownerId": "advanced-native-1687",
+      "exactSourceSentence": "The festival decided to lean into its local character.",
+      "sourceMeaning": "Accept or emphasise a quality or situation rather than resist it; a contemporary phrasal verb.",
+      "ownerMeaningAfter": "Deliberately embrace and develop a quality or practice instead of merely noticing it or resisting it; engagement does not itself prove a successful result.",
+      "proposalTargetPattern": "\\blean(?:s|ed|t|ing)? into (?:healthy habits|(?:its|their) local character)\\b",
+      "fullSourceMatches": true,
+      "exactSourceAttached": true,
+      "ownerFileBeforeSha256": "280c5e64c82eb599e6133220365de33416945b55dab668d35651de7f46667ed2",
+      "questionIdsAndAnswerIdsStable": true,
+      "writingModelsUnchanged": true,
+      "verdict": "minor-repair-before-integration",
+      "findings": [
+        {
+          "id": "R2210-1687-01",
+          "severity": "minor",
+          "path": "advanced-native-1687.titleEn / titleZh",
+          "explanation": "The expanded brief and scene correctly teach lean into a quality/practice, but the displayed title still limits the lesson to healthy habits. The newly attached source is local festival character, so the card label obscures its reusable target.",
+          "recommendedRepair": "Normalize the bilingual title to lean into / 主動擁抱或投入, retaining healthy habits and local character as contextual objects. Preserve ID, source provenance and assessed answer keys."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 4483,
+      "ownerId": "advanced-native-307",
+      "exactSourceSentence": "Traditional makers should be given the chance to breathe.",
+      "sourceMeaning": "Allowed room to adapt and develop; a breathing metaphor.",
+      "ownerMeaningAfter": "Enough time or freedom to ease pressure and continue working or adapting; being given the chance to breathe describes receiving that opportunity.",
+      "proposalTargetPattern": "\\b(?:room|space) to breathe\\b|\\bgiven (?:the|a) chance to breathe\\b(?!\\s+new\\s+life\\b)",
+      "fullSourceMatches": true,
+      "exactSourceAttached": true,
+      "ownerFileBeforeSha256": "f90c3fd81fbcf327e345d9464b4a8f5a3f6c5f16387db3a06e37d5991b853ad1",
+      "questionIdsAndAnswerIdsStable": true,
+      "writingModelsUnchanged": true,
+      "verdict": "pass-ai-content-review",
+      "findings": [],
+      "boundaryNote": "The source personifies traditional makers, and the revised scene tests leeway under a deadline without claiming that safety duties vanish. The lexical detector can also match literal breathing in unrelated text; this is a semantic-context limit, not a source-sense defect."
+    }
+  ],
+  "limitations": [
+    "No selected, canonical or decision files were edited.",
+    "Proposal content was reviewed by AI; no human approval, audio listening, physical-device acceptance or release is implied."
+  ]
+}

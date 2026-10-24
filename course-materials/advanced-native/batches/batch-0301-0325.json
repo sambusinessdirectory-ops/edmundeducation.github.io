@@ -578,17 +578,17 @@
     "titleZh": "深入了解某事的窗口",
     "category": "idiom",
     "target": {
-      "pattern": "\\ba window (?:into|onto)\\b",
+      "pattern": "\\b(?:a window (?:into|onto)|a (?:small )?window to another culture)\\b",
       "glossaryForbidden": [
-        "\\bwindow (?:into|onto)\\b"
+        "\\bwindow (?:into|onto|to another culture)\\b"
       ]
     },
     "brief": {
       "meaningEn": "A way of gaining insight into a subject, experience or way of life.",
       "meaningZh": "讓人深入了解某主題、經驗或生活方式的途徑。",
-      "grammar": "offer/provide/open a window into/onto + subject, experience or way of life. Into and onto share the insight metaphor; the opening verb can change with subject and tense.",
-      "register": "Conventional insight metaphor.",
-      "boundaryZh": "提供一個角度，不保證完整或毫無偏見；不是本課的實際建築窗口。",
+      "grammar": "Offer/provide/open a window into/onto a subject or way of life; the source also uses a small window to another culture for limited insight. Into and onto are the more established general choices; do not extend to every literal window to a place.",
+      "register": "A reviewer or guide can use this conventional insight metaphor with readers or visitors; window to another culture is a less usual contextual variant, so the lesson keeps that form bounded to culture rather than teaching it as a free substitute for into.",
+      "boundaryZh": "只提供一個局部視角，不代表整個文化；來源的 a small window to another culture 可在這個語境表示洞見，但一般寫作宜優先用較常見的 window into。不是本課的實際建築窗口。",
       "misconceptionZh": "個人日記可有價值但仍只是一人的視角，需與其他來源對照。",
       "outcomeZh": "能描述資料帶來的理解及局限，區分局部洞見與完整代表。"
     },
@@ -696,6 +696,20 @@
         "expression": "open a window onto",
         "sentence": "Friendship can open a window onto another culture.",
         "referenceSentenceKind": "guide_original_example"
+      },
+      {
+        "occurrenceId": "book10-16-1277",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 119,
+        "book": 13,
+        "question": 2,
+        "sample": "S2",
+        "sourceBookPages": "5–6",
+        "expression": "a small window to another culture",
+        "sentence": "Imported food can be a small window to another culture.",
+        "referenceSentenceKind": "guide_original_example",
+        "locatorNote": "DOCX table 123, row 6; page is the locally rendered PDF page. Proposal-only same-sense variant; exact source wording retained as provenance."
       }
     ],
     "listening": {
@@ -756,26 +770,26 @@
       "goldenId": "b"
     },
     "scene": {
-      "promptZh": "祖父的信描述一個年代的家庭飲食，你想用來了解他的生活，也會比較別的家庭資料。哪句準確？",
+      "promptZh": "一本社區食譜書記錄某節日的一道菜及幾個家庭如何準備。一位來自另一文化背景、對該節日不熟悉的讀者從中認識一項習俗，但仍不知道該文化中每個家庭的做法。哪句準確？",
       "options": [
         {
           "id": "a",
-          "en": "The letters establish that every family ate in the same way.",
-          "zh": "信件證明每個家庭都同樣吃飯。"
+          "en": "The recipe proves that every household in that culture celebrates in exactly the same way.",
+          "zh": "這份食譜證明該文化中每個家庭的慶祝方式完全相同。"
         },
         {
           "id": "b",
-          "en": "The letters are a window into one family’s everyday life.",
-          "zh": "信件是了解一個家庭日常生活的窗口。"
+          "en": "The recipe offers a small window to another culture, but it cannot represent every household.",
+          "zh": "這份食譜讓人窺見另一種文化的一小部分，但不能代表每個家庭。"
         },
         {
           "id": "c",
-          "en": "The personal details have no historical value because they are not a full survey.",
-          "zh": "個人細節不是全面調查，所以沒有歷史價值。"
+          "en": "The recipe offers no cultural insight because it describes only one dish.",
+          "zh": "這份食譜只描述一道菜，所以完全不能提供文化洞見。"
         }
       ],
       "answerId": "b",
-      "explanationZh": "個人來源可帶來洞見，但不能推及每個家庭或抹去價值。"
+      "explanationZh": "一道菜可帶來局部洞見，卻不足以代表所有家庭；有限不等於沒有價值。"
     },
     "contrast": {
       "promptZh": "哪個理解最超出 a window into 的意思？",
@@ -804,8 +818,8 @@
       "options": [
         {
           "id": "a",
-          "en": "It gives one useful perspective; the interviews may add experiences the writer did not share.",
-          "zh": "它提供一個有用視角；訪談可補充作者未經歷的事。"
+          "en": "The diary offers a window into factory life, but interviews may add experiences the writer did not share.",
+          "zh": "日記讓人窺見工場生活的一面，但訪談可能補充作者未曾經歷的事。"
         },
         {
           "id": "b",
@@ -897,8 +911,8 @@
         "zh": "照片可以提供了解過往生活方式的窗口。"
       },
       {
-        "en": "A window into someone’s experience is useful even when it is not the whole story.",
-        "zh": "了解他人經驗的窗口，即使不是全部故事，仍有用。"
+        "en": "An interview can offer a small window to another culture without telling its whole story.",
+        "zh": "一段訪談可讓人窺見另一種文化的一小部分，但不能講述其全部故事。"
       }
     ],
     "review": {
@@ -925,9 +939,10 @@
       },
       "notes": [
         "Source opens a window into and root-notified399 a window into same insight metaphor; full source occurrences will be attached, immutable399 reserved."
-      ]
+      ],
+      "note": "Proposal only: bounded source-specific window-to-culture variant for book10-16-1277; prior IDs and other tasks preserved. Naturalness and owner breadth require independent review."
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-306",
@@ -1203,17 +1218,18 @@
     "titleZh": "稍有喘息與調整的空間",
     "category": "idiom",
     "target": {
-      "pattern": "(?:\\broom to breathe\\b)|(?:\\bspace to breathe\\b)",
+      "pattern": "\\b(?:room|space) to breathe\\b|\\bgiven (?:the|a) chance to breathe\\b(?!\\s+new\\s+life\\b)",
       "glossaryForbidden": [
-        "\\broom to breathe\\b"
+        "\\b(?:room|space) to breathe\\b",
+        "\\bgiven (?:the|a) chance to breathe\\b(?!\\s+new\\s+life\\b)"
       ]
     },
     "brief": {
-      "meaningEn": "Enough time, freedom or space to ease pressure and act without feeling overly constrained.",
-      "meaningZh": "足夠的時間、自由或空間，讓人稍減壓力，不覺處處受限制。",
-      "grammar": "room to breathe / space to breathe; either names enough time or freedom to act without excessive pressure. It need not describe literal air or physical room.",
-      "register": "Common figurative expression; this lesson includes relief from crowded schedules and overly fixed creative constraints.",
-      "boundaryZh": "不是本課的呼吸醫療問題，也不必完全沒有工作或責任；可只是少一點擁擠安排。",
+      "meaningEn": "Enough time or freedom to ease pressure and continue working or adapting; being given the chance to breathe describes receiving that opportunity.",
+      "meaningZh": "獲得足夠時間或自由，稍減壓力並繼續工作或調整；being given the chance to breathe 指得到這樣的機會。",
+      "grammar": "Room/space to breathe names the available leeway; be given the/a chance to breathe describes being allowed it. The second construction is passive in the source and does not guarantee success or the removal of every constraint.",
+      "register": "A colleague or organiser can use this figurative pressure-relief language with a team discussing schedules or creative constraints. The source personifies traditional makers but refers to people’s freedom to adapt; literal breathing and breathe new life into are different uses.",
+      "boundaryZh": "得到喘息及調整機會，不等於完全不用履行責任，也不是字面呼吸困難或 breathe new life into 的「注入新活力」。",
       "misconceptionZh": "喘息空間不等於放棄目標；合理留白可以幫人維持工作及生活。",
       "outcomeZh": "能描述安排如何減輕壓力，同時保留仍有責任。"
     },
@@ -1309,6 +1325,20 @@
         "sentence": "The children need space to breathe and invent stories.",
         "referenceSentenceKind": "guide_original_example",
         "expression": "space to breathe"
+      },
+      {
+        "occurrenceId": "book10-16-2372",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 224,
+        "book": 16,
+        "question": 31,
+        "sample": "S2",
+        "sourceBookPages": "75–76",
+        "expression": "given the chance to breathe",
+        "sentence": "Traditional makers should be given the chance to breathe.",
+        "referenceSentenceKind": "guide_original_example",
+        "locatorNote": "DOCX table 246, row 14; page is the locally rendered PDF page. Proposal-only same-sense variant; exact source wording retained as provenance."
       }
     ],
     "listening": {
@@ -1369,26 +1399,26 @@
       "goldenId": "b"
     },
     "scene": {
-      "promptZh": "你把兩個連續聚會中間留半小時，不取消聚會，只想休息及準備下一場。哪句貼切？",
+      "promptZh": "一個劇團原須翌日交出舞台設計，主辦方改為給設計師兩周試作及修改；演出日期和安全規定仍然保留。哪句最貼切？",
       "options": [
         {
           "id": "a",
-          "en": "The gap gives me room to breathe between commitments.",
-          "zh": "空檔讓我在各項安排間有喘息空間。"
+          "en": "The designers have been given the chance to breathe while revising, without abandoning the production.",
+          "zh": "設計師在修改時獲得喘息空間，但劇團沒有放棄演出。"
         },
         {
           "id": "b",
-          "en": "The gap means I have withdrawn from both gatherings.",
-          "zh": "空檔表示我已退出兩場聚會。"
+          "en": "The extra time means the production has been cancelled and no design is needed.",
+          "zh": "多出的時間表示演出已取消，不再需要任何設計。"
         },
         {
           "id": "c",
-          "en": "The new schedule removes the gap and makes the meetings overlap.",
-          "zh": "新時間表刪去空檔，令聚會重疊。"
+          "en": "The organizers removed every safety requirement as soon as the deadline changed.",
+          "zh": "主辦方一改期限便取消了所有安全規定。"
         }
       ],
       "answerId": "a",
-      "explanationZh": "留白減壓與繼續履行安排可並存。"
+      "explanationZh": "延長試作及修改時間帶來喘息與調整機會；原定演出和安全要求仍在。"
     },
     "contrast": {
       "promptZh": "哪句最不宜由 room to breathe 得出？",
@@ -1536,9 +1566,10 @@
         "reviewer": "",
         "evidence": ""
       },
-      "notes": []
+      "notes": [],
+      "note": "Proposal only: bounded passive chance-to-breathe variant for book10-16-2372; same pressure-relief decision as room/space to breathe, pending independent naturalness review."
     },
-    "contentRevision": 2
+    "contentRevision": 3
   },
   {
     "id": "advanced-native-308",
@@ -3079,16 +3110,16 @@
     "titleZh": "多方面均衡發展",
     "category": "natural",
     "target": {
-      "pattern": "\\bwell[- ]rounded\\b",
+      "pattern": "\\bwell[- ]rounded\\b|\\bmore rounded\\b(?=\\s+(?:rather than one[- ]dimensional|learner|education|training|programme|program|person|performer|approach|development)\\b)",
       "glossaryForbidden": [
-        "\\bwell[- ]rounded\\b"
+        "\\bwell[- ]rounded\\b|\\bmore rounded\\b(?=\\s+(?:rather than one[- ]dimensional|learner|education|training|programme|program|person|performer|approach|development)\\b)"
       ]
     },
     "brief": {
-      "meaningEn": "Developed in several useful abilities, interests or aspects rather than only one.",
-      "meaningZh": "在多種有用能力、興趣或方面都有發展，而非只有單一專長。",
-      "grammar": "a well-rounded learner/education; be well rounded; hyphen usual before a noun.",
-      "register": "Common descriptive adjective, often about education or development.",
+      "meaningEn": "Developed in several useful abilities, interests or aspects rather than only one; more rounded compares the broader result with a narrower starting point.",
+      "meaningZh": "在多種有用能力、興趣或方面都有發展，而非只有單一專長；more rounded 比較改善後較全面的結果與原來較窄的發展。",
+      "grammar": "A well-rounded learner/education; be well rounded (hyphen usual before a noun). A more rounded learner or more rounded rather than one-dimensional training expresses a comparative gain in breadth; it does not imply perfection.",
+      "register": "Common descriptive adjective in education and development; the comparative more rounded is natural in British English when broader abilities are evidenced. A teacher might tell a parent that a student is becoming more rounded after gaining teamwork and presentation experience beyond one specialist subject.",
       "boundaryZh": "不等於每項完美、所有領域精通或沒有專長；可有強項，也培養其他相關能力。",
       "misconceptionZh": "活動清單長不代表能力均衡；需看有沒有實際發展，而非只報名。",
       "outcomeZh": "能以不同能力證據描述均衡發展，不把多方面當全能。"
@@ -3145,6 +3176,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 162, table 1, row 9; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p162-t1-r09"
+      },
+      {
+        "occurrenceId": "book10-16-1882",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 177,
+        "book": 15,
+        "question": 13,
+        "sample": "S2",
+        "sourceBookPages": "30–31",
+        "locatorNote": "DOCX table 191, row 8; page refers to locally rendered PDF in intake summary.",
+        "sentence": "The resulting training becomes more rounded rather than one-dimensional.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "more rounded rather than one-dimensional"
       }
     ],
     "listening": {
@@ -3205,7 +3250,7 @@
       "goldenId": "b"
     },
     "scene": {
-      "promptZh": "一位同學有數學強項，也透過主持活動、合作及運動培養其他能力。哪句有根據？",
+      "promptZh": "女學生美怡原本主要專注數學；最近她開始主持活動、與同學合作及參與運動，逐步培養其他能力。哪句有根據？",
       "options": [
         {
           "id": "a",
@@ -3214,17 +3259,17 @@
         },
         {
           "id": "b",
-          "en": "She is developing as a well-rounded learner while keeping a strength in mathematics.",
-          "zh": "她保留數學強項，同時朝均衡發展的學習者成長。"
+          "en": "She is becoming a more rounded learner while keeping a strength in mathematics.",
+          "zh": "她保留數學強項，同時正變得更全面。"
         },
         {
           "id": "c",
-          "en": "Her club membership alone establishes equally strong skills in every listed activity.",
-          "zh": "單憑社團會籍，已確定她在每項所列活動都有同樣強的技能。"
+          "en": "Trying hosting, teamwork and sport proves she is equally skilled in all three already.",
+          "zh": "嘗試主持、合作和運動，已證明她在這三方面的能力同樣高。"
         }
       ],
       "answerId": "b",
-      "explanationZh": "多面發展可保留強項，無需否定專長或推成全能。"
+      "explanationZh": "美怡原本主要專注數學，現在透過主持、合作及運動發展其他能力，故可說她變得更全面而仍保留強項；嘗試新活動不等於三方面已同樣擅長。"
     },
     "contrast": {
       "promptZh": "哪項資料最不足以單獨支持 well-rounded？",
@@ -3253,8 +3298,8 @@
       "options": [
         {
           "id": "a",
-          "en": "A person can have a special strength while developing other useful abilities.",
-          "zh": "一個人可以有特別強項，同時發展其他有用能力。"
+          "en": "A well-rounded learner can have a special strength while developing other useful abilities.",
+          "zh": "均衡發展的學習者可以有特別強項，同時培養其他有用能力。"
         },
         {
           "id": "b",
@@ -3374,7 +3419,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 3
   },
   {
     "id": "advanced-native-314",

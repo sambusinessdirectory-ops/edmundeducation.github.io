@@ -1,0 +1,42 @@
+{
+  "status": "independent-ai-scoped-followup-clear-not-human-or-release-approval",
+  "createdUtc": "2026-10-24T03:09:41.111349+00:00",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-2210-3388-4483-proposed-a.json",
+  "proposalSha256": "f40ca5ada58598af4ff94ddd954a89f80a63e4271710409f7194d685034d2769",
+  "authorAuditSha256": "c7dafe6063aabbe8b792abe2dd3b8e37a1778c4574243a68dc67ceb2eb74518a",
+  "priorReviewSha256": "3dc7c664d513f427abdb8f0e73fef8aa02fc2fc08dcf377b826db81973b978d8",
+  "reviewedFindings": [
+    {
+      "id": "R3388-305-01",
+      "resolved": true,
+      "evidence": "Scene prompt now explicitly identifies the reader as from another cultural background and unfamiliar with the festival, grounding the keyed another-culture inference."
+    },
+    {
+      "id": "R3388-305-02",
+      "resolved": true,
+      "evidence": "All three scene options use 這份食譜 consistently for recipe; answer meaning unchanged."
+    },
+    {
+      "id": "R2210-1687-01",
+      "resolved": true,
+      "evidence": "Displayed bilingual title is now lean into / 主動擁抱或投入, covering both healthy-habits and local-character objects."
+    }
+  ],
+  "perSourceVerdict": {
+    "2210": "pass-ai-content-review",
+    "3388": "pass-ai-content-review",
+    "4483": "prior-pass-unchanged-scope"
+  },
+  "focusedBuildCheck": {
+    "lessons": 3,
+    "questions": 18,
+    "audioRoles": 12,
+    "reviewFlags": 0,
+    "result": "pass"
+  },
+  "remainingContentBlockers": 0,
+  "limitations": [
+    "Proposal-only; selected owner files and editorial decisions remain unchanged.",
+    "No human approval, media listening, physical-device QA or release sign-off is implied."
+  ]
+}

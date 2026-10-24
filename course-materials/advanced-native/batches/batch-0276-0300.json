@@ -3146,19 +3146,19 @@
     "titleZh": "被擠到邊緣而少被重視",
     "category": "figurative",
     "target": {
-      "pattern": "\\b(?:push|pushes|pushed|pushing)(?: quietly)? to the (?:margins|sidelines|side)\\b",
+      "pattern": "\\b(?:push|pushes|pushed|pushing)(?: quietly)? to the (?:margins|sidelines|side)\\b|\\bpushed aside\\b(?=\\s+by\\s+(?:(?:cheap|cheaper|low[- ]cost|mass[- ]produced|factory[- ]made|imported)\\s+){1,3}(?:goods|products|items|alternatives)\\b)",
       "glossaryForbidden": [
         "\\bmargins\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Made less visible, influential or central in an activity or discussion.",
-      "meaningZh": "在活動或討論中變得較少被看見、較少影響力或較不受重視。",
-      "grammar": "Be pushed (quietly) to the margins, to the sidelines, or to the side of a debate, programme or cultural space; the spatial metaphor describes lost prominence or attention, not literal movement. The adverb can describe a gradual or low-profile loss of attention.",
-      "register": "Figurative social or organisational description. A curator may tell colleagues that smaller art forms are pushed to the margins, or a health advocate may say mental wellbeing is pushed to the side when agendas omit it.",
-      "boundaryZh": "不一定完全被排除或實際坐在邊位；需說清參與、注意或影響力減少的證據。",
+      "meaningEn": "Made less visible, influential or central in an activity, discussion or market; a local option can lose attention to a cheaper competitor without disappearing altogether.",
+      "meaningZh": "在活動、討論或市場中變得較少被看見、較少影響力或較不受重視；本地選項可能因廉價競爭品而失去注意，卻未完全消失。",
+      "grammar": "Be pushed (quietly) to the margins, sidelines or side of a debate or programme. In a market-displacement context, be pushed aside by cheap or mass-produced goods. The metaphor describes lost prominence or attention, not literal physical movement; the by-phrase names a competing product.",
+      "register": "Figurative social or market description. A curator may tell colleagues that smaller art forms are pushed to the margins, or a craft seller may tell a fair organiser that local work is being pushed aside by cheap mass-produced goods.",
+      "boundaryZh": "不一定完全被排除或實際移走；須有參與、注意、展示或選擇機會減少的證據。市場用法須清楚指出競爭商品，而非有人把物件推開。",
       "misconceptionZh": "仍在場不代表仍有實質參與；反過來，未採用一個建議也不單獨證明整個群體被邊緣化。",
-      "outcomeZh": "能用發言機會、議程或資源的具體變化描述邊緣化。"
+      "outcomeZh": "能用發言、議程、展示或宣傳機會的具體變化描述被邊緣化。"
     },
     "sources": [
       {
@@ -3215,6 +3215,20 @@
         "sentence": "Mental wellbeing is too often pushed to the side.",
         "referenceSentenceKind": "guide_original_example",
         "expression": "pushed to the side"
+      },
+      {
+        "occurrenceId": "book10-16-2362",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 223,
+        "book": 16,
+        "question": 31,
+        "sample": "S1",
+        "sourceBookPages": "75–76",
+        "locatorNote": "DOCX table 246, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Local crafts can be pushed aside by cheap mass-produced goods.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "pushed aside by cheap mass-produced goods"
       }
     ],
     "listening": {
@@ -3275,26 +3289,26 @@
       "goldenId": "c"
     },
     "scene": {
-      "promptZh": "社團仍邀年幼會員出席，但長期不給他們發言，也不把他們的需要列入議程。哪句最有根據？",
+      "promptZh": "手作市集仍讓本地工藝有攤位，但主展示區和大部分宣傳都給廉價大量生產商品，較少顧客留意手作。哪句最有根據？",
       "options": [
         {
           "id": "a",
-          "en": "The younger members have been pushed to the margins of decision-making.",
-          "zh": "年幼會員被擠到決策邊緣。"
+          "en": "Local crafts are being pushed aside by cheaper factory-made products in the fair’s displays and publicity.",
+          "zh": "在市集的展示和宣傳中，本地工藝正被較便宜的工廠製商品擠到一旁。"
         },
         {
           "id": "b",
-          "en": "The invitation alone shows that they have an equal voice in decisions.",
-          "zh": "單憑獲邀已顯示他們在決策有平等發言權。"
+          "en": "Because the local stalls are still open, their work has equal prominence in this fair.",
+          "zh": "本地攤位仍開放，所以它們的作品在這個市集得到同等重視。"
         },
         {
           "id": "c",
-          "en": "They are setting the agenda and directing the older members’ contributions.",
-          "zh": "他們正訂議程並指揮年長會員發言。"
+          "en": "This fair’s publicity proves that buyers for local crafts have disappeared from every nearby market.",
+          "zh": "這個市集的宣傳證明，附近每個市場都已沒有本地工藝的買家。"
         }
       ],
       "answerId": "a",
-      "explanationZh": "出席與實質參與不同；長期未能發言及列需要支持邊緣化。"
+      "explanationZh": "手作攤位仍在，但主展示和宣傳轉向廉價量產商品，支持本地工藝在這個市集失去能見度；仍有攤位不等於同等重視，也不能從一個市集推斷所有市場。"
     },
     "contrast": {
       "promptZh": "哪項資料最不足以單獨支持 pushed to the margins？",
@@ -3444,7 +3458,7 @@
       },
       "notes": []
     },
-    "contentRevision": 5
+    "contentRevision": 7
   },
   {
     "id": "advanced-native-288",

@@ -1,0 +1,1528 @@
+{
+  "status": "read-only-independent-AI-collision-review-no-human-or-release-approval",
+  "createdUtc": "2026-10-24T03:20:02.810036+00:00",
+  "scope": {
+    "selectedNewOwnerDetectorLeads": 30,
+    "exactTitleLeads": 4,
+    "exactSourceExpressionLeads": 4,
+    "sameSenseDuplicateBlockers": 0,
+    "differentSenseOrConstruction": 21,
+    "incidentalDetectorHits": 9,
+    "method": "Reran current all-discovered collision screen and compared each exact source sentence/meaning with both selected lesson briefs, grammar, targets and key assessed learner decision; separately inspected the four exact-title/expression hits and nearby show up, come across, fall apart, pick up and at once assessments."
+  },
+  "inputHashes": {
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "decisionManifestSha256": "b4c210caa55d0c0d410ba3a19338550888fda1318975ff84ff3d6dbc6c9eb47f",
+    "decisionFileContentDigestSha256": "f09668e6306a042f376019221bfe4e1d867b951a431c295ec4198d5652711158",
+    "selectedManifestSha256": "42878344ff07e2c228d95027b90691233c312c29fc12b391b30e21b0ffdcc453",
+    "collisionScreenJsonSha256": "6e3532a9b44be9507d30f396eea25027e2fe0dad6b87ad7665b7c3e840bf9b5b",
+    "collisionToolSha256": "aff1e406f1a376ba41c8d29d24e4dd3f5aa3eb879909babed3c7e74aada45e22"
+  },
+  "records": [
+    {
+      "sourceOrdinal": 2123,
+      "sourceId": "book10-16-0012",
+      "exactSourceSentence": "Guests should show up before noon.",
+      "sourceMeaning": "Arrive or appear; a common phrasal verb.",
+      "sourceRowSha256": "1643ca630a6da718848299e2e959abe7db6d555409b046d3df644e44680ebcb8",
+      "proposedNew": {
+        "id": "advanced-native-2123",
+        "title": "show up",
+        "meaning": "Arrive or appear at a place, meeting or event.",
+        "targetPattern": "\\b(?:show|shows|showed|shown|showing) up\\b",
+        "objectSha256": "907e874f537f9d2b5d1130cb7423e730c4966bd489cc24b53242a0f04ff545dd",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-2123.json",
+        "fileSha256": "912f558f87ac8d8ca4bbdd65c39dd614c96d984485030913040237c13d554b84",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0012",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 2,
+            "book": 10,
+            "question": 1,
+            "sample": "S2",
+            "sourceBookPages": "3–4",
+            "locatorNote": "DOCX table 1, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "Guests should show up before noon.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "show up"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-364",
+        "title": "show up",
+        "meaning": "Be present when needed and offer support, especially in show up for someone.",
+        "targetPattern": "\\bshow(?:s|ed|ing)? up\\b",
+        "objectSha256": "846feca3a0e8473a6af45545bcd26960fbbffd21dd9c49a8a13b0b4cbe99d415",
+        "file": "course-materials/advanced-native/batches/batch-0351-0375.json",
+        "fileSha256": "54f81bdf9c3bece9553c930afe857ad5ce6854f3ecbd117c605a3e641f631763"
+      },
+      "screenFlags": {
+        "exactTitle": true,
+        "exactSourceExpression": true,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-sense",
+      "overlapCategory": "support-vs-arrival",
+      "rationale": "Canonical 364 assesses showing up for someone with reliable support and follow-through; 2123 assesses whether a guest or volunteer actually arrived. Same phrasal verb, different learner decision; retain separate sense boundary.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 2134,
+      "sourceId": "book10-16-0023",
+      "exactSourceSentence": "Our timing is too tight if we rely on the final train.",
+      "sourceMeaning": "A plan leaves too little spare time; a concise natural description of scheduling pressure.",
+      "sourceRowSha256": "148b0c787134180e16097d83cdca65d31519936923e91a2f674513f3d567397b",
+      "proposedNew": {
+        "id": "advanced-native-2134",
+        "title": "timing is too tight",
+        "meaning": "A schedule leaves too little spare time for likely delays or tasks.",
+        "targetPattern": "\\btiming (?:is|was|seems|looks) too tight\\b",
+        "objectSha256": "543710673114e96598af3443e54b411aa01222fafef599c2977b632987bd3ab6",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-2132-2138-b.json",
+        "fileSha256": "61c07ec6f757a1b178ad74a914ff108f4426cf0235c578decf9d21ed48f391f8",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0023",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 3,
+            "book": 10,
+            "question": 3,
+            "sample": "S1",
+            "sourceBookPages": "8–9",
+            "locatorNote": "DOCX table 3, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "Our timing is too tight if we rely on the final train.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "timing is too tight"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-256",
+        "title": "rely on",
+        "meaning": "Depend on a person, service, resource or method for something needed.",
+        "targetPattern": "\\bre(?:ly|lies|lied|lying) on\\b",
+        "objectSha256": "02e1cddc2ec5646988791f195c1e2bbdcfcc5ae4b179bb62eec5704d0e3da763",
+        "file": "course-materials/advanced-native/batches/batch-0251-0275.json",
+        "fileSha256": "658a002d180af37b08010295757abb0a2e06a3f3d7d10fbc71c4707c7a74aaa5"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "incidental-detection",
+      "overlapCategory": "other-expression-in-source",
+      "rationale": "The source uses rely on as a condition explaining why train timing is tight. Owner 256 teaches dependency; the new target is inadequate scheduling margin.",
+      "requiredFollowUp": "No owner merge; detector hit is a different expression or incidental carrier wording."
+    },
+    {
+      "sourceOrdinal": 2176,
+      "sourceId": "book10-16-0065",
+      "exactSourceSentence": "I packed the documents so everything was ready to go.",
+      "sourceMeaning": "Fully prepared to start or leave; a natural set phrase.",
+      "sourceRowSha256": "23cdb2f41ca31cdbecf22f4710dfdfc962b42568fc3b94f10b38b5eb2989b121",
+      "proposedNew": {
+        "id": "advanced-native-2176",
+        "title": "ready to go",
+        "meaning": "Fully prepared to start an activity or leave.",
+        "targetPattern": "\\bready to go\\b",
+        "objectSha256": "d329ac46d23e995a6235a4c14e57456bcc33ba84e88ea907d70cb40249707ffa",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-2176-2198-a.json",
+        "fileSha256": "5fd4f28709671b4f9d22e8769670e66f689316aa56227db2d1ed00b478015f32",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0065",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 7,
+            "book": 10,
+            "question": 5,
+            "sample": "S2",
+            "sourceBookPages": "13–14",
+            "locatorNote": "DOCX table 5, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "I packed the documents so everything was ready to go.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "ready to go"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-434",
+        "title": "packed",
+        "meaning": "Very full of people in the stated place or event.",
+        "targetPattern": "\\bpacked\\b",
+        "objectSha256": "962790a10882c2e090721fbfed5aedf49094a611f13c372b0a6a21e86128527b",
+        "file": "course-materials/advanced-native/batches/batch-0426-0450.json",
+        "fileSha256": "ca95098a4cb8f4f9909edf0a6f5a684c55c393d631cf74edff667bf5608dc091"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "incidental-detection",
+      "overlapCategory": "other-expression-in-source",
+      "rationale": "Packed is the literal action on documents in the carrier sentence. Canonical 434 teaches a venue crowded with people; new lesson targets ready to go.",
+      "requiredFollowUp": "No owner merge; detector hit is a different expression or incidental carrier wording."
+    },
+    {
+      "sourceOrdinal": 2279,
+      "sourceId": "book10-16-0168",
+      "exactSourceSentence": "Her argument was grounded in facts rather than speculation.",
+      "sourceMeaning": "Based firmly on evidence; grounded is a physical metaphor.",
+      "sourceRowSha256": "1962e3a9623a9ab6100fbe0cb6fcb4faa5d4946b37a206494a93fe2796ce067c",
+      "proposedNew": {
+        "id": "advanced-native-2279",
+        "title": "grounded in facts",
+        "meaning": "Supported by verifiable facts or evidence rather than mere assumption.",
+        "targetPattern": "\\b(?:grounded|ground) in (?:facts|evidence)\\b",
+        "objectSha256": "b8764bf0c07ddb5035e0c94b6ac0fa809cb002769962b0810103796a5ed727c8",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-2279-a.json",
+        "fileSha256": "b118669bde04f65aa087917b33b2df3886557bfcd49b1d9a8e0c72f1088cb1d9",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0168",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 16,
+            "book": 10,
+            "question": 13,
+            "sample": "S1",
+            "sourceBookPages": "31–34",
+            "locatorNote": "DOCX table 13, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "Her argument was grounded in facts rather than speculation.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "grounded in facts"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-798",
+        "title": "grounded / more grounded",
+        "meaning": "A person who feels or remains calm, steady and connected to practical reality; well-grounded describes a sensible, emotionally steady person, while more grounded explicitly compares with before.",
+        "targetPattern": "\\b(?:(?:more|emotionally) grounded|(?:stay|stays|stayed|staying|feel|feels|felt|feeling|be|is|was|were|being|become|becomes|became|remain|remains|remained) grounded)\\b|\\bwell-grounded (?:teenager|student|young adult|volunteer|person)\\b",
+        "objectSha256": "20e73baee62d71f0dce0ea5fd2b91b0137b21ed93f0dbb550d2930f3524ddc71",
+        "file": "course-materials/advanced-native/batches/batch-0776-0800.json",
+        "fileSha256": "8673bdcba75864c07272cf3876e7cedf138e0d25f7ad69d10093c41fd3def192"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-sense",
+      "overlapCategory": "grounded-evidence-vs-person",
+      "rationale": "An argument grounded in facts is evidence-based. Canonical 798 teaches a person feeling steady or grounded; its current detector does not match the source evidence construction.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 2295,
+      "sourceId": "book10-16-0184",
+      "exactSourceSentence": "The opening scene should pull them in at once.",
+      "sourceMeaning": "Attract and hold their attention; a figurative phrasal verb.",
+      "sourceRowSha256": "c04fe992e059848223c452889b537fed174b7488a7ce24f28da9f5a9578861d5",
+      "proposedNew": {
+        "id": "advanced-native-2295",
+        "title": "pull them in",
+        "meaning": "Attract an audience’s attention or curiosity so they want to engage.",
+        "targetPattern": "\\b(?:pull|pulls|pulled|pulling) them in\\b",
+        "objectSha256": "0c94b84304294081aa7b921f86cadd22ccb14fc42b34c695d39eb734dd164ddb",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-2291-2304-a.json",
+        "fileSha256": "9dac7d084ab9dbccf239bcd93ee740100784d6070f71595fadef5d23ebaaab97",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0184",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 17,
+            "book": 10,
+            "question": 14,
+            "sample": "S2",
+            "sourceBookPages": "35–36",
+            "locatorNote": "DOCX table 14, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "The opening scene should pull them in at once.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "pull them in"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-048",
+        "title": "at once",
+        "meaning": "At the same time; this lesson focuses on simultaneous actions or demands.",
+        "targetPattern": "\\bat once\\b",
+        "objectSha256": "283e4fade3e9c1a1cc79d2325506fd43a333a02edcefa17db904599beac6cbc5",
+        "file": "course-materials/advanced-native/batches/batch-0026-0050.json",
+        "fileSha256": "92f9ecbd23ee2116aba48ea0fde14ee00e67252a643dfbf16398a3e3db524c56"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "incidental-detection",
+      "overlapCategory": "modifier-in-source",
+      "rationale": "At once merely specifies when an opening scene attracts an audience. Canonical 048 tests simultaneous actions; pull them in tests engagement.",
+      "requiredFollowUp": "No owner merge; detector hit is a different expression or incidental carrier wording."
+    },
+    {
+      "sourceOrdinal": 2335,
+      "sourceId": "book10-16-0224",
+      "exactSourceSentence": "A short reply may come across as rude.",
+      "sourceMeaning": "Give other people a particular impression; a phrasal verb pattern.",
+      "sourceRowSha256": "795cf3f517b03a95032052c762b92832164f898b912a4f16fa25cf8094c43d4f",
+      "proposedNew": {
+        "id": "advanced-native-2335",
+        "title": "come across as",
+        "meaning": "Seem to others to have a particular quality, regardless of the speaker’s intention.",
+        "targetPattern": "\\b(?:come|comes|came|coming) across as\\b",
+        "objectSha256": "53277147aea0d2b147f7d64389505e7ac4f56d1e93e0fd4ea9c50365358d0014",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-2332-2350-a.json",
+        "fileSha256": "c82eb1ef9d1e5089bb30823a851787df269c479ac5c618c6fb84c76ba5334e8b",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0224",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 21,
+            "book": 10,
+            "question": 17,
+            "sample": "S1",
+            "sourceBookPages": "41–42",
+            "locatorNote": "DOCX table 17, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "A short reply may come across as rude.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "come across as"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-120",
+        "title": "come across",
+        "meaning": "Find or meet someone or something by chance.",
+        "targetPattern": "\\b(?:come|comes|coming|came) across\\b",
+        "objectSha256": "79aab4e50d912104f0d7e0e63d73ae4f71d1984b7c9e90e7e6bdc0e62ab7b87d",
+        "file": "course-materials/advanced-native/batches/batch-0101-0125.json",
+        "fileSha256": "10aa11a61157a8a96d2d641f15a83bc110232dc720dc3ed249d5d3db324a1f3c"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-construction",
+      "overlapCategory": "chance-find-vs-impression",
+      "rationale": "Come across as + adjective conveys an impression. Canonical 120 come across + object means find by chance and explicitly excludes the as construction.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 2342,
+      "sourceId": "book10-16-0231",
+      "exactSourceSentence": "The film relied on star power to fill cinemas.",
+      "sourceMeaning": "A celebrity's ability to attract attention and audiences; a conventional entertainment phrase.",
+      "sourceRowSha256": "cd6ed80041c92d671b944254d69b056bc0e5b80c63a004d29ab992ef2fda8bb4",
+      "proposedNew": {
+        "id": "advanced-native-2342",
+        "title": "star power",
+        "meaning": "A celebrity’s ability to attract an audience or public attention.",
+        "targetPattern": "\\bstar power\\b",
+        "objectSha256": "cdf6c2eeb9ece0067e3e6b612e2b65302659f809d2d619898143c6925c4040ed",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-2332-2350-a.json",
+        "fileSha256": "c82eb1ef9d1e5089bb30823a851787df269c479ac5c618c6fb84c76ba5334e8b",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0231",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 21,
+            "book": 10,
+            "question": 17,
+            "sample": "S2",
+            "sourceBookPages": "41–42",
+            "locatorNote": "DOCX table 17, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "The film relied on star power to fill cinemas.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "star power"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-256",
+        "title": "rely on",
+        "meaning": "Depend on a person, service, resource or method for something needed.",
+        "targetPattern": "\\bre(?:ly|lies|lied|lying) on\\b",
+        "objectSha256": "02e1cddc2ec5646988791f195c1e2bbdcfcc5ae4b179bb62eec5704d0e3da763",
+        "file": "course-materials/advanced-native/batches/batch-0251-0275.json",
+        "fileSha256": "658a002d180af37b08010295757abb0a2e06a3f3d7d10fbc71c4707c7a74aaa5"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "incidental-detection",
+      "overlapCategory": "other-expression-in-source",
+      "rationale": "The film relied on star power. Owner 256 assesses dependency; star power is celebrity audience draw.",
+      "requiredFollowUp": "No owner merge; detector hit is a different expression or incidental carrier wording."
+    },
+    {
+      "sourceOrdinal": 2366,
+      "sourceId": "book10-16-0255",
+      "exactSourceSentence": "It is wise to keep your feet on the ground after a big win.",
+      "sourceMeaning": "Remain realistic despite excitement or success; a fixed grounding metaphor.",
+      "sourceRowSha256": "110a6136c2b6d94db5bd46e6c4ebd9c3bb5f24025fe611d85add43d0406cd412",
+      "proposedNew": {
+        "id": "advanced-native-2366",
+        "title": "keep your feet on the ground",
+        "meaning": "Remain realistic and sensible despite success, praise or excitement.",
+        "targetPattern": "\\b(?:keep|keeps|kept|keeping) (?:your|my|our|his|her|their|its) feet on the ground\\b",
+        "objectSha256": "59b31ba51c28b5f902471a09385f56776f838b4725db527b1621685e69770679",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-2361-2394-a.json",
+        "fileSha256": "0491c72e93769e8c077980036104d411aa4930f7f3dd74a946f96cb9df91ac3e",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0255",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 23,
+            "book": 10,
+            "question": 19,
+            "sample": "S2",
+            "sourceBookPages": "46–47",
+            "locatorNote": "DOCX table 19, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "It is wise to keep your feet on the ground after a big win.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "keep your feet on the ground"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-536",
+        "title": "on the ground",
+        "meaning": "In the actual local situation where work happens, rather than only in plans or distant descriptions.",
+        "targetPattern": "\\bon the ground\\b",
+        "objectSha256": "77136d429064db8e6b2ec8190776dbfd6b1cd62e4e34417f86a098c4737b4e09",
+        "file": "course-materials/advanced-native/batches/batch-0526-0550.json",
+        "fileSha256": "e911bb517e1a1d6ad5c61f09c11609657628cf24e6af4d6bc80a7daee0c7395f"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-sense",
+      "overlapCategory": "realism-vs-local-conditions",
+      "rationale": "Keep your feet on the ground after success means stay realistic. Canonical 536 on the ground refers to local operational conditions.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 2458,
+      "sourceId": "book10-16-0347",
+      "exactSourceSentence": "The schedule ended up running their life.",
+      "sourceMeaning": "Controlling a person's daily choices; running is figurative.",
+      "sourceRowSha256": "1908d83e1375ab25e8cbd6720be4af68c68dc59fd1ba4beda00d033063583f03",
+      "proposedNew": {
+        "id": "advanced-native-2458",
+        "title": "running their life",
+        "meaning": "Control a person’s daily choices or routine instead of merely assisting them.",
+        "targetPattern": "\\b(?:run|runs|ran|running) (?:my|your|his|her|our|their|its|the) (?:life|lives)\\b",
+        "objectSha256": "c152f176e9a7788ca3a67c381e48bf4e4179a7a2e68189a9a7f1c5a6b59f7d4e",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-2449-2458-a.json",
+        "fileSha256": "72ad4155beb78cbb31b142ef73dc9c1153d4012a574ff6fd42f3498451da4c3d",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0347",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 32,
+            "book": 10,
+            "question": 27,
+            "sample": "S2",
+            "sourceBookPages": "66–67",
+            "locatorNote": "DOCX table 27, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "The schedule ended up running their life.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "running their life"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-041",
+        "title": "end up",
+        "meaning": "Eventually reach a result or find yourself doing something, often without originally intending it. The examples here mainly show an initial purpose turning into comparison.",
+        "targetPattern": "\\bend(?:s|ed|ing)? up\\b",
+        "objectSha256": "5bc1f88930c2a200727256665a497a66818e1b7a7199c8fd1dd1c1a6bf6a7146",
+        "file": "course-materials/advanced-native/batches/batch-0026-0050.json",
+        "fileSha256": "92f9ecbd23ee2116aba48ea0fde14ee00e67252a643dfbf16398a3e3db524c56"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "incidental-detection",
+      "overlapCategory": "other-expression-in-source",
+      "rationale": "Ended up marks eventual result in the carrier sentence. Owner 041 teaches that construction; running their life is excessive control by a schedule.",
+      "requiredFollowUp": "No owner merge; detector hit is a different expression or incidental carrier wording."
+    },
+    {
+      "sourceOrdinal": 2467,
+      "sourceId": "book10-16-0356",
+      "exactSourceSentence": "The argument began to fall apart under closer inspection.",
+      "sourceMeaning": "Prove weak when examined carefully; a conventional structural metaphor.",
+      "sourceRowSha256": "e406da55d394bf74897994fb59dd1680fd87a768df320a19bcef44d7cf22c402",
+      "proposedNew": {
+        "id": "advanced-native-2467",
+        "title": "fall apart under closer inspection",
+        "meaning": "An argument or claim proves weak when its evidence and logic are examined carefully.",
+        "targetPattern": "\\b(?:fall|falls|fell|fallen|falling) apart under closer inspection\\b",
+        "objectSha256": "7a20b80117695bc14fe9eb2253f7c6a4a17df2c40132792270f86940c4780e3e",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-held-2413-2505-a.json",
+        "fileSha256": "458025cc450c8ead8950c5110282afcf0e9fde14900537fe7fbe75e5d3e8f750",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0356",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 33,
+            "book": 10,
+            "question": 28,
+            "sample": "S2",
+            "sourceBookPages": "68–71",
+            "locatorNote": "DOCX table 28, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "The argument began to fall apart under closer inspection.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "fall apart under closer inspection"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-1164",
+        "title": "fall apart",
+        "meaning": "Become so upset that it is difficult to think calmly or deal with the immediate situation.",
+        "targetPattern": "\\b(?:fall|falls|fell|fallen|falling) (?:apart|to pieces)\\b",
+        "objectSha256": "01d13c2105842c8d9723dfc4058db11bd531293652a7d465b584f361d49dd570",
+        "file": "course-materials/advanced-native/batches/batch-1151-1175.json",
+        "fileSha256": "aa68f6050f286d0097c2f18934cd582af3061469227aa0bede3e5caa39188072"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-sense",
+      "overlapCategory": "claim-fails-vs-human-distress",
+      "rationale": "An argument falls apart under closer inspection when evidence fails. Canonical 1164 assesses a distressed person falling apart emotionally. The new lesson additionally requires a specific scrutiny trigger.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 2514,
+      "sourceId": "book10-16-0403",
+      "exactSourceSentence": "The effects will show up in the final results.",
+      "sourceMeaning": "Become evident or noticeable; the phrasal verb describes how an abstract quality appears.",
+      "sourceRowSha256": "0d1bcecf49dd9e11d25ae865f23a6ce87718a32087067ae4b17827b52560a733",
+      "proposedNew": {
+        "id": "advanced-native-2514",
+        "title": "show up in the results",
+        "meaning": "For an effect or difference to become evident in later observations or results.",
+        "targetPattern": "\\b(?:effects?|differences?|changes?|problems?|gaps?|benefits?|improvements?|errors?|patterns?|impacts?|delays?|risks?|bias|costs?)\\s+(?:(?:will|may|might|can|could|would)\\s+)?(?:show|shows|showed)\\s+up\\b",
+        "objectSha256": "dacaf19f6b90abcfa973bc90dae04434f057d285ae21545f48de647dccb31781",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-2514-a.json",
+        "fileSha256": "ee6c965d57cca507e4ddc31618e40f094e3ea34f77631ddd5785516d65dffbfc",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0403",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 37,
+            "book": 10,
+            "question": 33,
+            "sample": "S2",
+            "sourceBookPages": "80–82",
+            "locatorNote": "DOCX table 33, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "The effects will show up in the final results.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "show up"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-364",
+        "title": "show up",
+        "meaning": "Be present when needed and offer support, especially in show up for someone.",
+        "targetPattern": "\\bshow(?:s|ed|ing)? up\\b",
+        "objectSha256": "846feca3a0e8473a6af45545bcd26960fbbffd21dd9c49a8a13b0b4cbe99d415",
+        "file": "course-materials/advanced-native/batches/batch-0351-0375.json",
+        "fileSha256": "54f81bdf9c3bece9553c930afe857ad5ce6854f3ecbd117c605a3e641f631763"
+      },
+      "screenFlags": {
+        "exactTitle": true,
+        "exactSourceExpression": true,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-sense",
+      "overlapCategory": "abstract-evidence-vs-support",
+      "rationale": "Effects showing up in results become evident. Canonical 364 assesses reliable presence and support for a person. Exact title-level verb overlap does not remove the different subject and decision.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 2585,
+      "sourceId": "book10-16-0474",
+      "exactSourceSentence": "Teenagers can become caught up in social pressure online.",
+      "sourceMeaning": "Becoming strongly affected or trapped by others' expectations; a natural figurative pattern.",
+      "sourceRowSha256": "38a8eb5f31d6c40fac6837696575bc1a9e8ea77d7b21305130d13033e6148f9f",
+      "proposedNew": {
+        "id": "advanced-native-2585",
+        "title": "caught up in social pressure",
+        "meaning": "Become so entangled in others’ expectations that one’s choices are driven by that pressure.",
+        "targetPattern": "\\b(?:caught up|catch(?:es|ing)? up) in social pressure\\b",
+        "objectSha256": "2e25f290681a7b923b36df0a7439dd3139749274a5c5bb5438a2793b52f0ab14",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-2585-2657-a.json",
+        "fileSha256": "ee0b50b5019a9cad2db412216ac0c568685832881dfb1242e06b45d8911c4341",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0474",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 44,
+            "book": 11,
+            "question": 3,
+            "sample": "S2",
+            "sourceBookPages": "8–9",
+            "locatorNote": "DOCX table 39, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "Teenagers can become caught up in social pressure online.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "caught up in social pressure"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-1521",
+        "title": "catching up",
+        "meaning": "Talk and share recent news after time apart.",
+        "targetPattern": "\\bcatch(?:ing)?\\s+up\\b|\\bcaught\\s+up\\b|\\bcatches\\s+up\\b",
+        "objectSha256": "8860625236cee8432ee07a4a1138407b8a4b550db7d9924b51904f4566a1a8ee",
+        "file": "course-materials/advanced-native/batches/batch-1501-1525.json",
+        "fileSha256": "498cc5a8d2e39cd41b25bed245fa26a6aa9cc804f55a967f2a5c733afe22af10"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-construction",
+      "overlapCategory": "entangled-pressure-vs-reunion",
+      "rationale": "Caught up in social pressure means entangled or swept into it. Canonical 1521 catch up with a person means exchange news after time apart.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 2627,
+      "sourceId": "book10-16-0516",
+      "exactSourceSentence": "Saving is difficult if you keep blowing it all at once.",
+      "sourceMeaning": "Spending all available money quickly; a natural informal phrase.",
+      "sourceRowSha256": "c27e3f447ff6e64b7fc9ace18525b54ff81ebc9fa4c006075e00542906199c89",
+      "proposedNew": {
+        "id": "advanced-native-2627",
+        "title": "blow it all at once",
+        "meaning": "Spend all of an available sum quickly in one burst instead of keeping some for later.",
+        "targetPattern": "\\b(?:blow|blows|blowing|blew|blown) it all at once\\b",
+        "objectSha256": "c0fe4500f1d8db8fb2f37a377de32158c675b78cab9306f347e03bdae9d2175d",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-held-2513-2627-b.json",
+        "fileSha256": "24c02d808a49571eb130d58706755e11996fbcf168e9b0215124d24e090dcdc6",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0516",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 47,
+            "book": 11,
+            "question": 7,
+            "sample": "S1",
+            "sourceBookPages": "17–18",
+            "locatorNote": "DOCX table 43, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "Saving is difficult if you keep blowing it all at once.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "blowing it all at once"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-048",
+        "title": "at once",
+        "meaning": "At the same time; this lesson focuses on simultaneous actions or demands.",
+        "targetPattern": "\\bat once\\b",
+        "objectSha256": "283e4fade3e9c1a1cc79d2325506fd43a333a02edcefa17db904599beac6cbc5",
+        "file": "course-materials/advanced-native/batches/batch-0026-0050.json",
+        "fileSha256": "92f9ecbd23ee2116aba48ea0fde14ee00e67252a643dfbf16398a3e3db524c56"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "incidental-detection",
+      "overlapCategory": "modifier-in-source",
+      "rationale": "At once modifies a single burst of spending. Canonical 048 tests simultaneous tasks; blowing it all concerns spending the whole sum.",
+      "requiredFollowUp": "No owner merge; detector hit is a different expression or incidental carrier wording."
+    },
+    {
+      "sourceOrdinal": 2657,
+      "sourceId": "book10-16-0546",
+      "exactSourceSentence": "An unknown artist can blow up overnight online.",
+      "sourceMeaning": "Become popular suddenly; an informal figurative phrasal verb.",
+      "sourceRowSha256": "e4e60186954f293a40959014022b4668fed84076ba0da609eba6270f8d4611a2",
+      "proposedNew": {
+        "id": "advanced-native-2657",
+        "title": "blow up overnight",
+        "meaning": "Become widely noticed or popular very quickly, especially online.",
+        "targetPattern": "\\b(?:blow|blows|blew|blown|blowing) up overnight\\b",
+        "objectSha256": "2bc3cc955669a539d1e1f5e86ced67e16d01fe6413481388ba71858d169537fd",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-2585-2657-a.json",
+        "fileSha256": "ee0b50b5019a9cad2db412216ac0c568685832881dfb1242e06b45d8911c4341",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0546",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 50,
+            "book": 11,
+            "question": 10,
+            "sample": "S1",
+            "sourceBookPages": "25–27",
+            "locatorNote": "DOCX table 46, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "An unknown artist can blow up overnight online.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "blow up overnight"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-061",
+        "title": "overnight",
+        "meaning": "Very quickly or almost suddenly, not necessarily during one literal night.",
+        "targetPattern": "\\bovernight\\b",
+        "objectSha256": "102ff686f35c4430e3718f8e8b4f28d8681a4d2399a50bba8314a43183b9ae0d",
+        "file": "course-materials/advanced-native/batches/batch-0051-0075.json",
+        "fileSha256": "fcb338a02a8e1a7180b6b7b30e24c26c436646842da09db1ab24b6c00b82db0b"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-construction",
+      "overlapCategory": "viral-rise-vs-rapid-time",
+      "rationale": "Overnight supplies the speed modifier. Canonical 061 teaches rapid timing generally; blow up overnight additionally requires sudden widespread popularity.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 2816,
+      "sourceId": "book10-16-0705",
+      "exactSourceSentence": "A rumour can spread before the truth catches up.",
+      "sourceMeaning": "Correct information eventually reaches people; a pursuit metaphor.",
+      "sourceRowSha256": "99432a8d3e919dc83a01dd27481b7b0e38e818158ee793866f3c17e9b1bebb3c",
+      "proposedNew": {
+        "id": "advanced-native-2816",
+        "title": "the truth catches up",
+        "meaning": "Verified correction reaches an audience after an earlier false or misleading account has circulated; it may take time to reach everyone.",
+        "targetPattern": "\\bthe\\s+truth\\s+(?:catches|caught|will\\s+catch|can\\s+catch|may\\s+catch|is\\s+catching)\\s+up\\b",
+        "objectSha256": "c65b1b7a398a0ace9efd9cbb761135a27a77146909cfe2e6b6c64b4a5805891b",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-held-candidates-2816-3630-review-pilot.json",
+        "fileSha256": "64bdaa2ae29d47c652ca0f6e64d8fd04470a8893123fda9533e6b17b39846e1e",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0705",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 65,
+            "book": 11,
+            "question": 26,
+            "sample": "S2",
+            "sourceBookPages": "65–66",
+            "locatorNote": "DOCX table 62, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "A rumour can spread before the truth catches up.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "the truth catches up"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-1521",
+        "title": "catching up",
+        "meaning": "Talk and share recent news after time apart.",
+        "targetPattern": "\\bcatch(?:ing)?\\s+up\\b|\\bcaught\\s+up\\b|\\bcatches\\s+up\\b",
+        "objectSha256": "8860625236cee8432ee07a4a1138407b8a4b550db7d9924b51904f4566a1a8ee",
+        "file": "course-materials/advanced-native/batches/batch-1501-1525.json",
+        "fileSha256": "498cc5a8d2e39cd41b25bed245fa26a6aa9cc804f55a967f2a5c733afe22af10"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-sense",
+      "overlapCategory": "correction-catches-up-vs-social-catch-up",
+      "rationale": "The truth catching up means a verified correction reaches an audience after a rumour. Canonical 1521 is social reconnection and news-sharing between people.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 2853,
+      "sourceId": "book10-16-0742",
+      "exactSourceSentence": "Do not read serious claims with your brain switched off.",
+      "sourceMeaning": "Not thinking critically; a mechanical switch metaphor.",
+      "sourceRowSha256": "930dbb0dbadf3e277725fccf4c48e33289f5948c86481a5ccdd69f8143eb4661",
+      "proposedNew": {
+        "id": "advanced-native-2853",
+        "title": "brain switched off",
+        "meaning": "In an informal metaphor, not actively thinking or checking what one is told.",
+        "targetPattern": "\\b(?:brain|brains)\\s+switched\\s+off\\b",
+        "objectSha256": "d261c95c4ed2ba8a25e6596e96cb5d7800ee9d9a81881f8a7ca240a8a5ffca1a",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-2833-2870-review-pilot-1.json",
+        "fileSha256": "f245c757302ee73ecb3288c5365ea23eda920404a425034f85deafcc8d40dc8a",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0742",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 69,
+            "book": 11,
+            "question": 31,
+            "sample": "S2",
+            "sourceBookPages": "77–78",
+            "locatorNote": "DOCX table 67, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "Do not read serious claims with your brain switched off.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "brain switched off"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-375",
+        "title": "switch off",
+        "meaning": "Stop thinking about work or worries for a while and relax.",
+        "targetPattern": "\\bswitch(?:es|ed|ing)? off\\b",
+        "objectSha256": "21bed2ab7d6a5ccdda00480ee661516646709b3566b8110dae61a9f864cfc795",
+        "file": "course-materials/advanced-native/batches/batch-0351-0375.json",
+        "fileSha256": "54f81bdf9c3bece9553c930afe857ad5ce6854f3ecbd117c605a3e641f631763"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-sense",
+      "overlapCategory": "inattention-vs-relaxation",
+      "rationale": "Brain switched off means uncritical attention to serious claims. Canonical 375 switch off from work means relax; the pragmatic decisions oppose each other.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 2876,
+      "sourceId": "book10-16-0765",
+      "exactSourceSentence": "Officials have their hands on the wheel during a crisis.",
+      "sourceMeaning": "Direct control over events; a fixed driving metaphor.",
+      "sourceRowSha256": "58744ac76cb152323c665a6ff26b45f0fca6e41be7bfb0e03cc9e570f8f1cc46",
+      "proposedNew": {
+        "id": "advanced-native-2876",
+        "title": "hands on the wheel",
+        "meaning": "Have practical control over decisions and the direction of events; holding the steering wheel all the time stresses that one person keeps control rather than allowing another to choose.",
+        "targetPattern": "(?:\\bhands?\\s+on\\s+the\\s+wheel\\b)|(?:\\b(?:hold|holds|held|holding)\\s+the\\s+steering\\s+wheel\\s+all\\s+the\\s+time\\b)",
+        "objectSha256": "f9fab148bc7f4596b4063dbb8e1c64ee5ebd7e3861842d1e56a67c22a02dbe9a",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-2876-2919-review-pilot-1.json",
+        "fileSha256": "90b9c6df91bacc6ac285e101c484d28bf309a18b7d7af49359f4e0db7ee5ee7a",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0765",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 71,
+            "book": 11,
+            "question": 34,
+            "sample": "S1",
+            "sourceBookPages": "84–85",
+            "locatorNote": "DOCX table 70, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "Officials have their hands on the wheel during a crisis.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "hands on the wheel"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-329",
+        "title": "hands-on",
+        "meaning": "Involving direct practical participation rather than only observing or studying theory.",
+        "targetPattern": "\\bhands[- ]on\\b",
+        "objectSha256": "1748e69f7b161b74fbf252cb4d72b53b950a57f06ae83f777e5b14a16cbb193b",
+        "file": "course-materials/advanced-native/batches/batch-0326-0350.json",
+        "fileSha256": "597d726f08eeb0dd24679ac39a15e620685274237148ddee78e4613a14a27ce2"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-expression",
+      "overlapCategory": "control-vs-practical-participation",
+      "rationale": "Hands on the wheel is a driving metaphor for decision control. Canonical 329 hands-on is practical experience or involvement.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 2956,
+      "sourceId": "book10-16-0845",
+      "exactSourceSentence": "The celebration is not worth picking up the pieces afterwards.",
+      "sourceMeaning": "Dealing with the damage after a bad outcome; a fixed broken-object image.",
+      "sourceRowSha256": "dd8947f311aee22ab8479f8e27c23f0860479359b4f3978dea0b22f4fcdb8283",
+      "proposedNew": {
+        "id": "advanced-native-2956",
+        "title": "picking up the pieces afterwards",
+        "meaning": "Deal with damage, disrupted plans or other consequences after a harmful event or decision.",
+        "targetPattern": "\\b(?:pick|picks|picked|picking) up the pieces(?: afterwards)?\\b",
+        "objectSha256": "5051a80fa07275626064bd25b521eba445842403baeee952e6963e32af4bc0ee",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-2920-2956-a.json",
+        "fileSha256": "a4ef0fa5ddde6c0930e6becdb0e5398fa14e08fbed6dd22ad12872325e328f8a",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-0845",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 78,
+            "book": 12,
+            "question": 9,
+            "sample": "S2",
+            "sourceBookPages": "23–25",
+            "locatorNote": "DOCX table 79, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "The celebration is not worth picking up the pieces afterwards.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "picking up the pieces afterwards"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-441",
+        "title": "pick up",
+        "meaning": "Acquire knowledge or a skill informally through exposure or activity rather than only direct teaching.",
+        "targetPattern": "(?:\\bpick(?:s|ed|ing)? up\\b|\\bpick(?:s|ed|ing)? (?:it|them|something) up\\b)|(?:\\bpick(?:s|ed|ing)? things up quickly\\b)",
+        "objectSha256": "c2f00b5b1b77f3067784b7e81ead2990de2fc720aad04e2466c02cc494f965cd",
+        "file": "course-materials/advanced-native/batches/batch-0426-0450.json",
+        "fileSha256": "ca95098a4cb8f4f9909edf0a6f5a684c55c393d631cf74edff667bf5608dc091"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-idiom",
+      "overlapCategory": "repair-aftermath-vs-learn-informally",
+      "rationale": "Pick up the pieces means repair the consequences of damage. Canonical 441 pick up concerns informally learning words or skills.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 3142,
+      "sourceId": "book10-16-1031",
+      "exactSourceSentence": "The room became quiet at once.",
+      "sourceMeaning": "Almost immediately; a fixed time expression.",
+      "sourceRowSha256": "985c6fc19590190fcbb5dbece87378686b01ea587113e383c972a56c450eb4a6",
+      "proposedNew": {
+        "id": "advanced-native-3142",
+        "title": "at once (immediately)",
+        "meaning": "Immediately after a trigger, without delay; this is the time-sequence sense, not simultaneous actions.",
+        "targetPattern": "\\bat once\\b",
+        "objectSha256": "1387800eccaf420f7d862a0a15783afef13778ba9f140c4b831d52b310a476c7",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3142-3394-review-pilot.json",
+        "fileSha256": "a7a153a820c948a7d759463fc461162cc2fd877f506016b0ae307e57fa06433a",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-1031",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 96,
+            "book": 12,
+            "question": 29,
+            "sample": "S1",
+            "sourceBookPages": "70–71",
+            "locatorNote": "DOCX table 99, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "The room became quiet at once.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "at once"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-048",
+        "title": "at once",
+        "meaning": "At the same time; this lesson focuses on simultaneous actions or demands.",
+        "targetPattern": "\\bat once\\b",
+        "objectSha256": "283e4fade3e9c1a1cc79d2325506fd43a333a02edcefa17db904599beac6cbc5",
+        "file": "course-materials/advanced-native/batches/batch-0026-0050.json",
+        "fileSha256": "92f9ecbd23ee2116aba48ea0fde14ee00e67252a643dfbf16398a3e3db524c56"
+      },
+      "screenFlags": {
+        "exactTitle": true,
+        "exactSourceExpression": true,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-polysemy",
+      "overlapCategory": "immediate-vs-simultaneous",
+      "rationale": "At once here means immediately after the room trigger. Canonical 048 assesses several actions simultaneously. The new contrast task explicitly tests this sense distinction.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 3175,
+      "sourceId": "book10-16-1064",
+      "exactSourceSentence": "She is even-tempered under pressure.",
+      "sourceMeaning": "Generally calm and emotionally steady; a conventional descriptive adjective.",
+      "sourceRowSha256": "1f8ff388c9c4f07c9c571249d4129ad10509f28631c5079cde4c9fef9225d31d",
+      "proposedNew": {
+        "id": "advanced-native-3175",
+        "title": "even-tempered",
+        "meaning": "Generally calm and steady in mood, including when facing pressure or disagreement.",
+        "targetPattern": "\\beven-tempered\\b",
+        "objectSha256": "56d81d656be36e0267c3379cead362d6c2f351ff2f60432c8163bc40277187b8",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-3159-3186-a.json",
+        "fileSha256": "7c14ab49fa8d336b24c8a5bf092084a15f5ee09e7627b217d9c0d43190c05ea4",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-1064",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 99,
+            "book": 12,
+            "question": 32,
+            "sample": "S2",
+            "sourceBookPages": "77–79",
+            "locatorNote": "DOCX table 102, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "She is even-tempered under pressure.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "even-tempered"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-486",
+        "title": "under pressure",
+        "meaning": "Facing stress, demands or a strong expectation to act.",
+        "targetPattern": "\\bunder pressure\\b",
+        "objectSha256": "23f3145b8bc8ec1351c779eb340ac4adcca0bb75e38f6f15974dd6a83989a914",
+        "file": "course-materials/advanced-native/batches/batch-0476-0500.json",
+        "fileSha256": "929509f8fa56f37c41277d8571e84163c0085c6eadd369b57253b7cf77c8cea3"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "incidental-detection",
+      "overlapCategory": "modifier-in-source",
+      "rationale": "Under pressure is contextual evidence for a generally even-tempered person. Canonical 486 teaches facing pressure, whereas even-tempered denotes stable temperament.",
+      "requiredFollowUp": "No owner merge; detector hit is a different expression or incidental carrier wording."
+    },
+    {
+      "sourceOrdinal": 3186,
+      "sourceId": "book10-16-1075",
+      "exactSourceSentence": "The plan was falling apart after the second delay.",
+      "sourceMeaning": "Failing or breaking down; a natural figurative phrasal verb.",
+      "sourceRowSha256": "7477c8bb1547bdd382b98ba0c6fd943bd906912f9e3e36ff1dac44686b168223",
+      "proposedNew": {
+        "id": "advanced-native-3186",
+        "title": "falling apart",
+        "meaning": "A plan or organised activity is breaking down because its necessary parts no longer work together.",
+        "targetPattern": "\\b(?:a|the|this|that|our|their|his|her|my|your) (?:[a-z]+ ){0,3}(?:plan|schedule|arrangement|project|strategy|event) (?:is|was|seems to be|appears to be) falling apart\\b|\\b(?:a|the|this|that|our|their|his|her|my|your) (?:[a-z]+ ){0,3}(?:plan|schedule|arrangement|project|strategy|event) (?:fell|falls) apart\\b",
+        "objectSha256": "a524b7e1b3e3d26c674e10e0701381c3036fc93c5d03e877fec172577e1e1ec4",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-3159-3186-a.json",
+        "fileSha256": "7c14ab49fa8d336b24c8a5bf092084a15f5ee09e7627b217d9c0d43190c05ea4",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-1075",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 100,
+            "book": 12,
+            "question": 33,
+            "sample": "S2",
+            "sourceBookPages": "80–81",
+            "locatorNote": "DOCX table 103, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "The plan was falling apart after the second delay.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "falling apart"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-1164",
+        "title": "fall apart",
+        "meaning": "Become so upset that it is difficult to think calmly or deal with the immediate situation.",
+        "targetPattern": "\\b(?:fall|falls|fell|fallen|falling) (?:apart|to pieces)\\b",
+        "objectSha256": "01d13c2105842c8d9723dfc4058db11bd531293652a7d465b584f361d49dd570",
+        "file": "course-materials/advanced-native/batches/batch-1151-1175.json",
+        "fileSha256": "aa68f6050f286d0097c2f18934cd582af3061469227aa0bede3e5caa39188072"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-sense",
+      "overlapCategory": "plan-failure-vs-human-distress",
+      "rationale": "A plan falling apart means essential arrangements breaking down. Canonical 1164 assesses a distressed person; new scene/contrast explicitly uses inanimate plans and multiple failed components.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 3198,
+      "sourceId": "book10-16-1087",
+      "exactSourceSentence": "Her parents have her best interests at heart.",
+      "sourceMeaning": "A genuine wish for someone's welfare; a fixed heart idiom.",
+      "sourceRowSha256": "803c8457fb662d624c0be5393bbe1e83b9270aeb7477d530e5618b71dc1f8581",
+      "proposedNew": {
+        "id": "advanced-native-3198",
+        "title": "have someone’s best interests at heart",
+        "meaning": "Sincerely want what is best for another person’s welfare, even when the advice is unwelcome.",
+        "targetPattern": "\\b(?:have|has|had|having) (?:my|your|his|her|our|their|its) best interests at heart\\b",
+        "objectSha256": "af4705cea4ed30a7d2cbafe7b295262ae9938c71d60b017fb29e0e5e32b0758c",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-3198-3228-a.json",
+        "fileSha256": "bf75cdc0c21cf84976be3e0ca0a5d59f1ca6a977ade1cf908b16fc6192144156",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-1087",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 101,
+            "book": 12,
+            "question": 35,
+            "sample": "S1",
+            "sourceBookPages": "84–85",
+            "locatorNote": "DOCX table 105, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "Her parents have her best interests at heart.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "best interests at heart"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-562",
+        "title": "at heart",
+        "meaning": "In someone’s basic nature or deepest interests, even if outward roles suggest something else.",
+        "targetPattern": "\\bat heart\\b",
+        "objectSha256": "1153552c0f56e0cb4f21cc6bb4a2020ce7b7ebe65bfeef1d9597dd4e339f16e5",
+        "file": "course-materials/advanced-native/batches/batch-0551-0575.json",
+        "fileSha256": "8bc703bfb65dd024f0d0fdb8c2ae7d30d083656bee7aeae4cc9fac2efa9e7de7"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-idiom",
+      "overlapCategory": "welfare-vs-inner-nature",
+      "rationale": "Best interests at heart means sincerely wanting another person’s welfare. Canonical 562 at heart describes a person’s basic nature.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 3308,
+      "sourceId": "book10-16-1197",
+      "exactSourceSentence": "Even careful planners know life does not always follow a script.",
+      "sourceMeaning": "Events do not unfold exactly as planned; a stage metaphor.",
+      "sourceRowSha256": "e5177b92caf71eb934509371d5b3aaef7b684f1067e949ed1d00589b70e7aff3",
+      "proposedNew": {
+        "id": "advanced-native-3308",
+        "title": "life does not follow a script",
+        "meaning": "Events do not necessarily unfold according to a plan or expected sequence.",
+        "targetPattern": "\\b(?:life|the day|the trip|events?|reality) (?:does not|doesn\\x27t|did not|didn\\x27t|rarely|never) (?:always )?follow a script\\b|\\blife rarely sticks to the script\\b",
+        "objectSha256": "cee1ca6abb8c39773f149e47285b8b096d03d1c81130ac1507fb8e09d98eadfd",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3142-3394-review-pilot.json",
+        "fileSha256": "a7a153a820c948a7d759463fc461162cc2fd877f506016b0ae307e57fa06433a",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-1197",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 111,
+            "book": 12,
+            "question": 45,
+            "sample": "S2",
+            "sourceBookPages": "106–107",
+            "locatorNote": "DOCX table 115, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "Even careful planners know life does not always follow a script.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "life does not always follow a script"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-711",
+        "title": "follow a script",
+        "meaning": "Behave according to a familiar or expected pattern rather than choosing freely.",
+        "targetPattern": "(?:\\b(?:follow|follows|followed|following) a script\\b)|(?:\\b(?:follow|follows|followed|following) a rigid script\\b)",
+        "objectSha256": "5b83a9d77ba0a51d6700c03b9d88bfb72ba3a3ddde085b994010adc257bad688",
+        "file": "course-materials/advanced-native/batches/batch-0701-0725.json",
+        "fileSha256": "224a24baae87faefd1c157e4fffa6904e10068b27fe5ff02c78ce9839dd9a677"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-sense",
+      "overlapCategory": "event-unpredictability-vs-person-routine",
+      "rationale": "Life not following a script concerns events departing from plans. Canonical 711 follows a script concerns a person acting by a familiar social/routine pattern.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 3394,
+      "sourceId": "book10-16-1283",
+      "exactSourceSentence": "Visitors can pick up a postcard at the market.",
+      "sourceMeaning": "Buy or obtain casually; a useful phrasal verb.",
+      "sourceRowSha256": "a8effeb9a5dff29ffc10a7d110fced9115f6cb2c80b0caa60e9aab028ed4ec68",
+      "proposedNew": {
+        "id": "advanced-native-3394",
+        "title": "pick up (obtain or buy)",
+        "meaning": "Obtain or buy a small item casually while visiting or passing a place; not the skill-learning sense.",
+        "targetPattern": "\\b(?:pick|picks|picked|picking) up (?:a|an|the|this|that) (?:(?:trail|gallery|local) )?(?:postcard|map|booklet|brochure|copy|souvenir|ticket)\\b",
+        "objectSha256": "70363723003c4bde4bf08c4955b7e7101300e192f4cb380ec0256935ac7048b4",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3142-3394-review-pilot.json",
+        "fileSha256": "a7a153a820c948a7d759463fc461162cc2fd877f506016b0ae307e57fa06433a",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-1283",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 119,
+            "book": 13,
+            "question": 3,
+            "sample": "S2",
+            "sourceBookPages": "7–8",
+            "locatorNote": "DOCX table 124, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "Visitors can pick up a postcard at the market.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "pick up"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-441",
+        "title": "pick up",
+        "meaning": "Acquire knowledge or a skill informally through exposure or activity rather than only direct teaching.",
+        "targetPattern": "(?:\\bpick(?:s|ed|ing)? up\\b|\\bpick(?:s|ed|ing)? (?:it|them|something) up\\b)|(?:\\bpick(?:s|ed|ing)? things up quickly\\b)",
+        "objectSha256": "c2f00b5b1b77f3067784b7e81ead2990de2fc720aad04e2466c02cc494f965cd",
+        "file": "course-materials/advanced-native/batches/batch-0426-0450.json",
+        "fileSha256": "ca95098a4cb8f4f9909edf0a6f5a684c55c393d631cf74edff667bf5608dc091"
+      },
+      "screenFlags": {
+        "exactTitle": true,
+        "exactSourceExpression": true,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-polysemy",
+      "overlapCategory": "obtain-object-vs-acquire-skill",
+      "rationale": "Pick up a postcard means obtain or buy a small item, with price unspecified. Canonical 441 pick up teaches informal acquisition of a skill or language. New contrast directly tests object versus skill.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 3735,
+      "sourceId": "book10-16-1624",
+      "exactSourceSentence": "Others may struggle to keep their heads above water.",
+      "sourceMeaning": "Avoid serious difficulty despite pressure; a fixed swimming idiom.",
+      "sourceRowSha256": "e24e468cfd66092af5c1c1227db9b6aea0e26c9658b9b443ce0976695dd7cd36",
+      "proposedNew": {
+        "id": "advanced-native-3735",
+        "title": "keep their heads above water",
+        "meaning": "Continue coping with heavy demands without being overwhelmed, often only just. This lesson uses workload and time pressure rather than canonical 349’s financial viability sense.",
+        "targetPattern": "\\b(?:keep|keeps|kept|keeping) (?:(?:my|your|his|her|its) head|(?:our|your|their) heads) above water\\b",
+        "objectSha256": "4bb2e2b010b145c1e2c7df0768c3acddbbdde84e1978c3a217981d1f6ac3099b",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-3728-3738-a.json",
+        "fileSha256": "b5567b3ae664bcc68e090c57f89d7367a255d9e9aca02ba31c9ee8c91a0bf6cf",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-1624",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 152,
+            "book": 14,
+            "question": 18,
+            "sample": "S2",
+            "sourceBookPages": "41–42",
+            "locatorNote": "DOCX table 162, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "Others may struggle to keep their heads above water.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "keep their heads above water"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-491",
+        "title": "keep a cool head",
+        "meaning": "Remain calm and able to think clearly in a difficult or tense situation.",
+        "targetPattern": "\\bkeep(?:s|ing)? a cool head\\b|\\bkept a cool head\\b|\\b(?:keep|keeps|kept|keeping) (?:(?:my|your|his|her|its|their) head|(?:our|your|their) heads)\\b",
+        "objectSha256": "2c3d0666ba523ba8de3bb1783ee914b95195753ead1c64aeaecacf629ffc6ef4",
+        "file": "course-materials/advanced-native/batches/batch-0476-0500.json",
+        "fileSha256": "929509f8fa56f37c41277d8571e84163c0085c6eadd369b57253b7cf77c8cea3"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-idiom",
+      "overlapCategory": "cope-vs-keep-calm",
+      "rationale": "Keep their heads above water means continue coping under heavy demands. Canonical 491 keep a cool head means remain calm and clear-thinking in a difficult moment.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 3834,
+      "sourceId": "book10-16-1723",
+      "exactSourceSentence": "Work pressure can end up spilling into every part of life.",
+      "sourceMeaning": "Stress spreading beyond its original source; a liquid metaphor.",
+      "sourceRowSha256": "b86050a4f0f6a7766e7790fb0f2cd6547a085a0b3a2acdfd73f4e91b3ce4daac",
+      "proposedNew": {
+        "id": "advanced-native-3834",
+        "title": "spill into",
+        "meaning": "For a pressure, problem or effect from one part of life or work to extend into another domain beyond its starting point.",
+        "targetPattern": "\\b(?:spill|spills|spilled|spilt|spilling) into\\b",
+        "objectSha256": "a0af2e9ab7492682e7de205fef8e3e3d1734764758ae61e26c235dcbc44f4ee1",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3360-3834-review-pilot.json",
+        "fileSha256": "14bf74c30a5504daf8fef45c7fc980173184601b1ca14b28189b655be4b69f5f",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-1723",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 162,
+            "book": 14,
+            "question": 29,
+            "sample": "S2",
+            "sourceBookPages": "64–65",
+            "locatorNote": "DOCX table 173, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "Work pressure can end up spilling into every part of life.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "spilling into every part of life"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-041",
+        "title": "end up",
+        "meaning": "Eventually reach a result or find yourself doing something, often without originally intending it. The examples here mainly show an initial purpose turning into comparison.",
+        "targetPattern": "\\bend(?:s|ed|ing)? up\\b",
+        "objectSha256": "5bc1f88930c2a200727256665a497a66818e1b7a7199c8fd1dd1c1a6bf6a7146",
+        "file": "course-materials/advanced-native/batches/batch-0026-0050.json",
+        "fileSha256": "92f9ecbd23ee2116aba48ea0fde14ee00e67252a643dfbf16398a3e3db524c56"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "incidental-detection",
+      "overlapCategory": "other-expression-in-source",
+      "rationale": "End up marks the eventual result in the source carrier. Owner 041 teaches end up; new spill into targets pressure crossing from work into another life domain.",
+      "requiredFollowUp": "No owner merge; detector hit is a different expression or incidental carrier wording."
+    },
+    {
+      "sourceOrdinal": 4047,
+      "sourceId": "book10-16-1936",
+      "exactSourceSentence": "Children grow out of clothes remarkably quickly.",
+      "sourceMeaning": "Become too big for clothes; a natural phrasal verb.",
+      "sourceRowSha256": "2e1cf6b8080ce17d3059d89c7a536477d8f1b5d0b3c076772d7f36e49e42332d",
+      "proposedNew": {
+        "id": "advanced-native-4047",
+        "title": "grow out of clothes",
+        "meaning": "Become physically too large for clothes that once fitted, usually through growth.",
+        "targetPattern": "\\b(?:grow|grows|grew|growing|grown) out of (?:(?:my|your|his|her|our|their|the) )?clothes\\b",
+        "objectSha256": "eeb2e2b2e814a171e3fbb61a877103d8e3ca5a71a40ed9407180f930696afa28",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-4026-4058-a.json",
+        "fileSha256": "9cadaa4f10e7ea046145448dd85247f636e449f23e8476ef397d4c9ac939a9a6",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-1936",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 183,
+            "book": 15,
+            "question": 19,
+            "sample": "S1",
+            "sourceBookPages": "44–45",
+            "locatorNote": "DOCX table 197, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "Children grow out of clothes remarkably quickly.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "grow out of clothes"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-957",
+        "title": "grow out of real daily life",
+        "meaning": "Develop from an existing experience, need or situation.",
+        "targetPattern": "\\b(?:grow(?:s|ing)?|grew|grown) out of\\b",
+        "objectSha256": "2793c6b730cde5cc946312fea39fc8e982fda374988ca97f415fa93b816cdb06",
+        "file": "course-materials/advanced-native/batches/batch-0951-0975.json",
+        "fileSha256": "1927cf862092525fe7447abb54e2e421fe99f5f1d1fb7d894d264b8d800bb8c1"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-polysemy",
+      "overlapCategory": "outgrow-size-vs-develop-from",
+      "rationale": "Grow out of clothes means become physically too large for them. Canonical 957 grow out of real daily life means develop from a source experience.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 4122,
+      "sourceId": "book10-16-2011",
+      "exactSourceSentence": "Progress begins when you keep showing up.",
+      "sourceMeaning": "Continue attending and putting in effort; a natural phrasal verb.",
+      "sourceRowSha256": "fd8b2baa7c44bfe4207afdac064845088e1d9f304c257467cf75c3b332167700",
+      "proposedNew": {
+        "id": "advanced-native-4122",
+        "title": "keep showing up",
+        "meaning": "Continue returning and making an effort over time, even when improvement is not immediate.",
+        "targetPattern": "\\b(?:keep|keeps|kept|keeping) showing up\\b",
+        "objectSha256": "36e73542133fb3597de022e88d37222d30fd44b1de8999480a1807db8b14257b",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-held-3903-4702-seven-extracted-review-pilot.json",
+        "fileSha256": "5e8d12968719af8877d47be6e3eeb4c4b755a58a7de28fedb32f990f277790d7",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-2011",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 190,
+            "book": 15,
+            "question": 28,
+            "sample": "S1",
+            "sourceBookPages": "66–67",
+            "locatorNote": "DOCX table 206, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "Progress begins when you keep showing up.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "keep showing up"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-364",
+        "title": "show up",
+        "meaning": "Be present when needed and offer support, especially in show up for someone.",
+        "targetPattern": "\\bshow(?:s|ed|ing)? up\\b",
+        "objectSha256": "846feca3a0e8473a6af45545bcd26960fbbffd21dd9c49a8a13b0b4cbe99d415",
+        "file": "course-materials/advanced-native/batches/batch-0351-0375.json",
+        "fileSha256": "54f81bdf9c3bece9553c930afe857ad5ce6854f3ecbd117c605a3e641f631763"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-aspect",
+      "overlapCategory": "repetition-vs-support",
+      "rationale": "Keep showing up emphasises sustained attendance/effort over repeated occasions. Canonical 364 assesses reliable support for another person, which can occur on a single meaningful occasion.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 4315,
+      "sourceId": "book10-16-2204",
+      "exactSourceSentence": "A brief text can come across the wrong way.",
+      "sourceMeaning": "Be interpreted differently from what was intended; a natural phrasal verb.",
+      "sourceRowSha256": "4ed565be6272348b8d388ee11a4c9fa8e126fd19b5e69d26263e4a865e46ad4f",
+      "proposedNew": {
+        "id": "advanced-native-4315",
+        "title": "come across the wrong way",
+        "meaning": "Be interpreted with a tone or meaning the speaker did not intend, especially when context or vocal cues are missing.",
+        "targetPattern": "\\b(?:come|comes|came|coming)\\s+across\\s+the\\s+wrong\\s+way\\b",
+        "objectSha256": "e69552355e821a45f42445ef600d301984f97f60686e270a7b3b96ff6cc187be",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-held-3340-4315-a.json",
+        "fileSha256": "24e39fb09fd27c775a87adf4840f1ae38454123f3a106c7a9b8ec330a73ca190",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-2204",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 208,
+            "book": 16,
+            "question": 12,
+            "sample": "S1",
+            "sourceBookPages": "29–30",
+            "locatorNote": "DOCX table 227, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "A brief text can come across the wrong way.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "come across the wrong way"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-120",
+        "title": "come across",
+        "meaning": "Find or meet someone or something by chance.",
+        "targetPattern": "\\b(?:come|comes|coming|came) across\\b",
+        "objectSha256": "79aab4e50d912104f0d7e0e63d73ae4f71d1984b7c9e90e7e6bdc0e62ab7b87d",
+        "file": "course-materials/advanced-native/batches/batch-0101-0125.json",
+        "fileSha256": "10aa11a61157a8a96d2d641f15a83bc110232dc720dc3ed249d5d3db324a1f3c"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "distinct-construction",
+      "overlapCategory": "misread-tone-vs-chance-find",
+      "rationale": "Come across the wrong way means a message is interpreted with unintended tone. Canonical 120 come across + object means find by chance. Related selected 2335 as + adjective describes perceived quality, while the wrong-way unit specifically requires intended-versus-received mismatch.",
+      "requiredFollowUp": "No merge from this detector hit. Preserve distinct brief/target/assessment boundary in any future revision."
+    },
+    {
+      "sourceOrdinal": 4488,
+      "sourceId": "book10-16-2377",
+      "exactSourceSentence": "A festival changes shape when it enters a new culture.",
+      "sourceMeaning": "Takes a different form; a fixed shape metaphor.",
+      "sourceRowSha256": "93ab97d1602a3a3b7a8a702c477aed3c05a3359388fed8a5ce07c23c8bf0ae97",
+      "proposedNew": {
+        "id": "advanced-native-4488",
+        "title": "changes shape",
+        "meaning": "Take a different form as circumstances or cultural setting change while some purpose may continue.",
+        "targetPattern": "\\b(?:change|changes|changed|changing) shape\\b",
+        "objectSha256": "503f759dd189eed0e1ac94cdaec6b1e12335db8ea2021e80ccff2b426a1f831c",
+        "file": "course-materials/advanced-native/drafts-books10-16/batch-4488-4499-a.json",
+        "fileSha256": "f4c3d3aec3a0765d3c0db73992044e30ea57a1a1c51d35854c77122f2e175b97",
+        "exactSourceProvenance": [
+          {
+            "occurrenceId": "book10-16-2377",
+            "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+            "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+            "page": 224,
+            "book": 16,
+            "question": 32,
+            "sample": "S2",
+            "sourceBookPages": "77–78",
+            "locatorNote": "DOCX table 247, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+            "sentence": "A festival changes shape when it enters a new culture.",
+            "referenceSentenceKind": "guide_original_example",
+            "expression": "changes shape"
+          }
+        ]
+      },
+      "overlappingOwner": {
+        "id": "advanced-native-020",
+        "title": "shape",
+        "meaning": "Influence how something develops or how someone thinks or behaves.",
+        "targetPattern": "\\bshap(?:e|es|ed|ing)\\b",
+        "objectSha256": "a7623114836af5e09468cd4304ab346d048dbb2a2e7c7514e23d755c315c67cb",
+        "file": "course-materials/advanced-native/batches/batch-0011-0025.json",
+        "fileSha256": "0cb2202b5e60a0b17c3b2d844953ff1f3ae5f2e7d0334119f9adcd3438b70deb"
+      },
+      "screenFlags": {
+        "exactTitle": false,
+        "exactSourceExpression": false,
+        "detectorMatch": true
+      },
+      "verdict": "incidental-substring",
+      "overlapCategory": "lexical-stem-overlap",
+      "rationale": "The festival changes shape or form in a new culture. Canonical 020 shape is a transitive verb meaning influence the development of choices or attitudes; its broad detector catches the noun shape incidentally.",
+      "requiredFollowUp": "No owner merge; detector hit is a different expression or incidental carrier wording."
+    }
+  ],
+  "limitations": [
+    "A detector overlap is lexical and not a routing collision: selected lessons use their own module target pattern.",
+    "This is an AI sense/assessment comparison, not human editorial or release approval. It does not audit unrelated source records or all lesson content.",
+    "No selected lesson, decision, manifest, audit, media, database or release file was edited."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent exact-hash owner proposal review",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-313-source-3993-proposed-b.json",
+  "proposalSha256": "571dd06764ab7ae0da7bde8aa58bdc6977301bdc0ddc7fc355107cd246e877c8",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-conditional-owner-investigation-2757-3993-4545-b.json",
+  "authorAuditSha256": "4a9dd2682234e400623972c6d8a8d99333b9e09d715621ff882941ca0aa725fa",
+  "sourceOrdinal": 3993,
+  "sourceId": "book10-16-1882",
+  "ownerId": "advanced-native-313",
+  "disposition": "repair-before-integration",
+  "sourceAndOwner": {
+    "exactSentence": "The resulting training becomes more rounded rather than one-dimensional.",
+    "exactExpression": "more rounded rather than one-dimensional",
+    "sourceMeaning": "Developing several abilities rather than only one; a shape metaphor.",
+    "sameSense": true,
+    "rationale": "The source compares multi-ability training with one-dimensional training; selected owner313 already teaches balanced development across abilities, without demanding equal excellence. The comparative rounded form is a grammatical variant of that owner, not a new learner decision.",
+    "externalLexicalEvidence": [
+      {
+        "title": "Collins rounded",
+        "url": "https://www.collinsdictionary.com/dictionary/english/rounded",
+        "relevance": "Includes diversified, well-developed person or education sense."
+      },
+      {
+        "title": "Cambridge well-rounded",
+        "url": "https://dictionary.cambridge.org/dictionary/english/well-rounded",
+        "relevance": "Defines breadth of ideas or activities."
+      }
+    ]
+  },
+  "mechanics": {
+    "focusedBuildAndCheck": "1 lesson, 6 questions, 4 audio requests, 0 flags",
+    "allFiveProvenanceSentencesMatch": true,
+    "full2604SourceHits": [
+      "book10-16-1882"
+    ],
+    "newSourceFullSentenceMatch": true,
+    "literalRoundedEdgesRejected": true,
+    "bareMoreRoundedRejected": true,
+    "answerIdsPreserved": true,
+    "writingModelsAndGlossaryUnchanged": true,
+    "audioTextUnchanged": true
+  },
+  "findings": [
+    {
+      "id": "R3993-01",
+      "severity": "minor-required",
+      "path": "lessons[313].scene.promptZh and options[c].en/zh",
+      "issue": "The new keyed comparative “becoming a more rounded learner” would be better grounded by an explicit earlier maths-only baseline. The prompt says only 一位同學 while all English options assign she/her. Foil C claims club membership, which the prompt never establishes, so it can be discarded without assessing the roundedness distinction.",
+      "repair": "Specify a female learner who previously focused mainly on mathematics and now demonstrably develops hosting, teamwork and sport. Make C overclaim equal skill from the stated practice rather than introduce club membership. Preserve option IDs and key b."
+    },
+    {
+      "id": "R3993-02",
+      "severity": "minor-required",
+      "path": "lessons[313].brief.register",
+      "issue": "The revised register identifies an education/development context but omits a likely speaker/listener pair required by Golden SOP P81.",
+      "repair": "Name a plausible course adviser or teacher addressing a learner/parent/colleague, while retaining the natural British comparative qualification."
+    }
+  ],
+  "nonblockingNotes": [
+    "The exact source comparative is less common than well-rounded but the source and Collins rounded definition support it. The target deliberately limits more rounded to a narrow set of educational/person-development continuations; other grammatical collocations are outside this proposal.",
+    "The inherited dialogue option was made target-bearing and remains a faithful EN/ZH clarification."
+  ],
+  "integrationAuthorized": false
+}

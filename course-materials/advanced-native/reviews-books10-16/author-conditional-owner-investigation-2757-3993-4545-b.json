@@ -1,0 +1,128 @@
+{
+  "type": "read-only conditional hold-to-owner investigation and isolated proposal",
+  "recordedAtUtc": "2026-10-24T03:03:27.228809+00:00",
+  "scope": [
+    2757,
+    3993,
+    4545
+  ],
+  "inputs": {
+    "priorityScreenPath": "course-materials/advanced-native/reviews-books10-16/read-only-next50-hold-owner-priority-review-pilot.json",
+    "priorityScreenSha256": "040d313e4b7e09e48ec2d076985214acaa3cb7e763d4bba4e45392104beaf536",
+    "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "selectedManifestSha256": "42878344ff07e2c228d95027b90691233c312c29fc12b391b30e21b0ffdcc453"
+  },
+  "decisions": [
+    {
+      "sourceOrdinal": 2757,
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+      "sha256": "7e9610dd692fed5ce4e6b7ab92b1c03d693426865d01e48ffa212727bacb4cb5",
+      "action": "hold-editorial",
+      "unchanged": true
+    },
+    {
+      "sourceOrdinal": 3993,
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3972-4031.jsonl",
+      "sha256": "173adb496634bc355f677c8699e2e43fa795bddc36856d6eab8d6d9ffb2d5b72",
+      "action": "hold-editorial",
+      "unchanged": true
+    },
+    {
+      "sourceOrdinal": 4545,
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4512-4571.jsonl",
+      "sha256": "3430373ac3811fd3d965df6113a40c20c6af182d006377d74bb472ed95821cec",
+      "action": "hold-editorial",
+      "unchanged": true
+    }
+  ],
+  "candidates": [
+    {
+      "sourceOrdinal": 2757,
+      "sourceId": "book10-16-0646",
+      "expression": "keep their roots alive",
+      "exactSentence": "Community performances help keep their roots alive.",
+      "verdict": "retain-hold",
+      "proposedOwner": 4470,
+      "ownerPath": "course-materials/advanced-native/drafts-books10-16/batch-4466-4481-a.json",
+      "ownerSha256": "b4749ba641ad0a3d0da68568690e29675daf703146200d85a93900ee8059036c",
+      "sense": "Same cultural-origin preservation as later owner4470; that owner already stores the exact source and its detector matches.",
+      "sourceOrderGate": "Owner4470 is later than source2757, so direct alias violates current source-order contract.",
+      "earlierOwnerCheck": "Earlier roots owners 1471 (deep roots: long-established connection), 1481 (part of a child’s roots: constituent heritage), 1741 (roots stretch back: remoteness), 1854 (build deep roots: forming ties), and 1864 (put down roots: settling) do not teach actively preserving origins through performances.",
+      "nextStep": "Keep hold until editorial ownership/ID migration is explicitly coordinated; no regex-only or semantically broader alias."
+    },
+    {
+      "sourceOrdinal": 3993,
+      "sourceId": "book10-16-1882",
+      "expression": "more rounded rather than one-dimensional",
+      "exactSentence": "The resulting training becomes more rounded rather than one-dimensional.",
+      "verdict": "conditional-proposal-for-independent-review",
+      "proposedOwner": 313,
+      "sense": "Comparative increase in breadth of training or ability, the same multi-aspect judgement as owner313 well-rounded, with an explicit before/after contrast.",
+      "naturalnessEvidence": {
+        "source": "Oxford Advanced Learner’s Dictionary, rounded adjective, sense 2",
+        "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/rounded",
+        "note": "The dictionary treats rounded as combining a range of qualities and illustrates comparative more rounded; it separately lists well-rounded."
+      },
+      "originalOwnerPath": "course-materials/advanced-native/batches/batch-0301-0325.json",
+      "originalOwnerSha256": "f90c3fd81fbcf327e345d9464b4a8f5a3f6c5f16387db3a06e37d5991b853ad1",
+      "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-313-source-3993-proposed-b.json",
+      "proposalSha256": "571dd06764ab7ae0da7bde8aa58bdc6977301bdc0ddc7fc355107cd246e877c8",
+      "proposedChange": "Append exact source, add bounded comparative detector branch, clarify comparative grammar/meaning, change scene key to evidence-grounded more rounded and make dialogue key target-bearing. Answer IDs and all four audio texts remain unchanged.",
+      "detectorControls": {
+        "positive": 6,
+        "negative": 6,
+        "oldProvenanceSourcesMatched": 4,
+        "newFullSourceMatched": true,
+        "books10to16FullSourceMatches": [
+          "book10-16-1882"
+        ],
+        "literalRoundedEdgesRejected": true,
+        "bareComparativeWithoutContextRejected": true
+      },
+      "focusedBuildCheck": {
+        "lessons": 1,
+        "questions": 6,
+        "audioRequests": 4,
+        "reviewFlags": 0,
+        "build": "passed",
+        "check": "passed"
+      },
+      "changedKeyOriginality": {
+        "sixTokenSourceHits": 0,
+        "glossaryExactRows": 5
+      },
+      "independentReview": "pending"
+    },
+    {
+      "sourceOrdinal": 4545,
+      "sourceId": "book10-16-2434",
+      "expression": "not standing still",
+      "exactSentence": "Urban transport is not standing still.",
+      "verdict": "retain-hold",
+      "proposedOwner": 1600,
+      "ownerPath": "course-materials/advanced-native/batches/batch-1576-1600.json",
+      "ownerSha256": "af0154ce3c391e5806899be9c6e00d0640df24c825dfb3ecbed9ac96b0",
+      "senseBoundary": "Owner1600 teaches changing human needs, which may remain useful or simply differ. The source applies not standing still to development of urban transport in a question about future improvement. A shared motion metaphor is insufficient evidence for a single teaching outcome.",
+      "detector": "Current owner requires needs do not stand still and does not match full 4545 sentence. Broadening to bare stand still would admit unrelated physical and progress senses.",
+      "assessedContentGate": "Existing owner cases and writing are about families, users and team needs; they do not assess transport development. Inherited listening/contrast options also lack proper EN/ZH pairs, so an expansion would require a substantive reauthoring.",
+      "nextStep": "Retain hold; reconsider only with a separately reviewed two-construction owner proposal or a distinct idiomaticity decision."
+    }
+  ],
+  "fileEdits": {
+    "proposalOnly": [
+      "course-materials/advanced-native/reviews-books10-16/proposals/owner-313-source-3993-proposed-b.json",
+      "course-materials/advanced-native/reviews-books10-16/author-conditional-owner-investigation-2757-3993-4545-b.json"
+    ],
+    "selectedOwnerFilesEdited": false,
+    "decisionFilesEdited": false,
+    "selectedManifestEdited": false,
+    "audioGenerated": false,
+    "publication": false
+  },
+  "limitations": [
+    "Proposal 3993 has author-only checks; independent content review and coordinated integration are pending.",
+    "No human, listening, browser, hosting or release approval."
+  ]
+}

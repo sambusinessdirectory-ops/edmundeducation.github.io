@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "batchId": "proposal-owner-313-source-3993-unselected",
+  "lessons": [
+    {
+      "id": "advanced-native-313",
+      "number": 313,
+      "inventoryId": "expr-0313",
+      "titleEn": "well-rounded",
+      "titleZh": "多方面均衡發展",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bwell[- ]rounded\\b|\\bmore rounded\\b(?=\\s+(?:rather than one[- ]dimensional|learner|education|training|programme|program|person|performer|approach|development)\\b)",
+        "glossaryForbidden": [
+          "\\bwell[- ]rounded\\b|\\bmore rounded\\b(?=\\s+(?:rather than one[- ]dimensional|learner|education|training|programme|program|person|performer|approach|development)\\b)"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Developed in several useful abilities, interests or aspects rather than only one; more rounded compares the broader result with a narrower starting point.",
+        "meaningZh": "在多種有用能力、興趣或方面都有發展，而非只有單一專長；more rounded 比較改善後較全面的結果與原來較窄的發展。",
+        "grammar": "A well-rounded learner/education; be well rounded (hyphen usual before a noun). A more rounded learner or more rounded rather than one-dimensional training expresses a comparative gain in breadth; it does not imply perfection.",
+        "register": "Common descriptive adjective in education and development; the comparative more rounded is natural in British English when broader abilities are evidenced. A teacher might tell a parent that a student is becoming more rounded after gaining teamwork and presentation experience beyond one specialist subject.",
+        "boundaryZh": "不等於每項完美、所有領域精通或沒有專長；可有強項，也培養其他相關能力。",
+        "misconceptionZh": "活動清單長不代表能力均衡；需看有沒有實際發展，而非只報名。",
+        "outcomeZh": "能以不同能力證據描述均衡發展，不把多方面當全能。"
+      },
+      "sources": [
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 5,
+          "expression": "well-rounded",
+          "sentence": "The course aims to produce well-rounded graduates.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 2,
+          "question": 5,
+          "sample": "S2",
+          "locatorNote": "PDF page 5, table 1, row 12; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p005-t1-r12"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 6,
+          "expression": "well-rounded",
+          "sentence": "The course aims to produce well-rounded graduates.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 2,
+          "question": 6,
+          "sample": "S2",
+          "locatorNote": "PDF page 6, table 1, row 11; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p006-t1-r11"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 161,
+          "expression": "well-rounded",
+          "sentence": "The course aims to produce well-rounded graduates.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 6,
+          "question": 29,
+          "sample": "S1",
+          "locatorNote": "PDF page 161, table 2, row 4; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p161-t2-r04"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 162,
+          "expression": "well-rounded",
+          "sentence": "The course aims to produce well-rounded graduates.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 6,
+          "question": 29,
+          "sample": "S2",
+          "locatorNote": "PDF page 162, table 1, row 9; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p162-t1-r09"
+        },
+        {
+          "occurrenceId": "book10-16-1882",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 177,
+          "book": 15,
+          "question": 13,
+          "sample": "S2",
+          "sourceBookPages": "30–31",
+          "locatorNote": "DOCX table 191, row 8; page refers to locally rendered PDF in intake summary.",
+          "sentence": "The resulting training becomes more rounded rather than one-dimensional.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "more rounded rather than one-dimensional"
+        }
+      ],
+      "listening": {
+        "en": "The course aims to develop well-rounded learners by combining analysis, communication and practical teamwork, not just test preparation.",
+        "zh": "課程把分析、溝通及實際合作結合，目標培養均衡發展的學習者，而不只備試。",
+        "promptZh": "課程重視哪種發展？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Several complementary abilities rather than a single test skill.",
+            "zh": "多種互補能力，而非單一考試技巧。"
+          },
+          {
+            "id": "b",
+            "en": "Perfect performance in every possible subject.",
+            "zh": "所有可能科目都完美表現。"
+          },
+          {
+            "id": "c",
+            "en": "Registration in many activities without practising any skill.",
+            "zh": "報名許多活動，但不練任何技能。"
+          },
+          {
+            "id": "d",
+            "en": "Only analysing test questions while excluding discussion and teamwork.",
+            "zh": "只分析試題，排除討論及合作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "列出的分析、溝通及合作是多方面實際能力，非全能或只備試。"
+      },
+      "reply": {
+        "promptZh": "為甚麼課程不只安排試卷練習？",
+        "promptEn": "Why does the course include more than practice papers?",
+        "options": [
+          {
+            "id": "a",
+            "en": "Learners need communication and teamwork as well as analysis.",
+            "zh": "學習者除分析外，也需溝通與合作。"
+          },
+          {
+            "id": "b",
+            "en": "It aims to give them a well-rounded education.",
+            "zh": "它目標是提供均衡發展的教育。"
+          },
+          {
+            "id": "c",
+            "en": "Different practical abilities support one another.",
+            "zh": "不同實際能力互相支持。"
+          },
+          {
+            "id": "d",
+            "en": "The course wants students to develop beyond one assessment skill.",
+            "zh": "課程希望學生發展不只一項評估技能。"
+          }
+        ],
+        "explanationZh": "四句都交代多方面發展原因；金句不承諾每項完美。",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "女學生美怡原本主要專注數學；最近她開始主持活動、與同學合作及參與運動，逐步培養其他能力。哪句有根據？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She has no specialist strength because she practises more than one area.",
+            "zh": "她練多個方面，所以沒有專長。"
+          },
+          {
+            "id": "b",
+            "en": "She is becoming a more rounded learner while keeping a strength in mathematics.",
+            "zh": "她保留數學強項，同時正變得更全面。"
+          },
+          {
+            "id": "c",
+            "en": "Trying hosting, teamwork and sport proves she is equally skilled in all three already.",
+            "zh": "嘗試主持、合作和運動，已證明她在這三方面的能力同樣高。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "美怡原本主要專注數學，現在透過主持、合作及運動發展其他能力，故可說她變得更全面而仍保留強項；嘗試新活動不等於三方面已同樣擅長。"
+      },
+      "contrast": {
+        "promptZh": "哪項資料最不足以單獨支持 well-rounded？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A learner shows progress in practical, analytical and interpersonal skills.",
+            "zh": "學習者在實踐、分析及人際能力有進步。"
+          },
+          {
+            "id": "b",
+            "en": "A programme includes meaningful practice in several complementary areas.",
+            "zh": "計劃在幾個互補方面都有實質練習。"
+          },
+          {
+            "id": "c",
+            "en": "A student signs up for many clubs but has not participated or practised yet.",
+            "zh": "學生報名許多社團，但尚未參與或練習。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "只有報名清單未顯示實際多方面發展。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說「well-rounded 就是不能有最強科目」。哪句澄清最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A well-rounded learner can have a special strength while developing other useful abilities.",
+            "zh": "均衡發展的學習者可以有特別強項，同時培養其他有用能力。"
+          },
+          {
+            "id": "b",
+            "en": "We should describe her as a specialist only and leave the other abilities out.",
+            "zh": "我們應只把她形容為專才，省略其他能力。"
+          },
+          {
+            "id": "c",
+            "en": "Any uneven score proves that broader development has not occurred.",
+            "zh": "任何分數不齊都證明沒有較全面發展。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "均衡發展不要求所有程度相同，也不要求消除強項。"
+      },
+      "speaking": {
+        "en": "A well-rounded education includes practical and social abilities as well as academic knowledge.",
+        "zh": "均衡發展的教育除學術知識外，也包括實踐與社交能力。",
+        "promptZh": "先聽示範，再以多種能力說明均衡發展。",
+        "targetSpan": {
+          "start": 2,
+          "end": 14
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：青年訓練計劃原只看運動成績，你想加入安排賽事、清楚溝通及照顧團隊需要的實際機會，讓參加者更全面，同時保留運動強項。用一至兩句英文建議。",
+        "selfCheckZh": "提出實質不同能力的機會，不只列社團數目，也不要求放棄原強項或達到全能。",
+        "examples": [
+          {
+            "en": "A well-rounded sports programme should develop communication and event planning as well as athletic ability.",
+            "zh": "均衡發展的體育計劃除運動能力外，也應發展溝通及賽事規劃。"
+          },
+          {
+            "en": "The athletes can become more well-rounded by organising matches and supporting teammates without giving up their sporting strengths.",
+            "zh": "運動員可透過安排比賽及支持隊友，變得更全面，同時不需放棄運動強項。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "communication and event planning",
+            "zh": "溝通及賽事規劃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 79
+            }
+          },
+          {
+            "en": "athletic ability",
+            "zh": "運動能力",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 107
+            }
+          },
+          {
+            "en": "organising matches",
+            "zh": "安排比賽",
+            "exampleIndex": 1,
+            "span": {
+              "start": 45,
+              "end": 63
+            }
+          },
+          {
+            "en": "supporting teammates",
+            "zh": "支持隊友",
+            "exampleIndex": 1,
+            "span": {
+              "start": 68,
+              "end": 88
+            }
+          },
+          {
+            "en": "their sporting strengths",
+            "zh": "他們的運動強項",
+            "exampleIndex": 1,
+            "span": {
+              "start": 107,
+              "end": 131
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "She wants a well-rounded education with room for a specialist interest.",
+          "zh": "她想得到均衡發展的教育，同時保留專門興趣的空間。"
+        },
+        {
+          "en": "A well-rounded person need not be equally skilled at everything.",
+          "zh": "全面發展的人不必每方面都同樣熟練。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": []
+      },
+      "contentRevision": 3
+    }
+  ]
+}

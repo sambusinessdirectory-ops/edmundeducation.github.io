@@ -1,0 +1,110 @@
+{
+  "type": "author-read-only-owner-expansion-proposal",
+  "recordedAtUtc": "2026-10-24T03:13:40.796455+00:00",
+  "sourceOrdinal": 4473,
+  "sourceId": "book10-16-2362",
+  "source": {
+    "expression": "pushed aside by cheap mass-produced goods",
+    "sentence": "Local crafts can be pushed aside by cheap mass-produced goods.",
+    "meaningAndReason": "Displaced by inexpensive factory items; a natural phrasal verb.",
+    "questionText": "Do you think the government should help in the promotion of traditional products?",
+    "inventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "inventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "currentDecision": {
+    "path": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+    "sha256": "0a5ef691cbbf3a69e01e211134aa38d7cc46992fddd1d54890381a58da3676c4",
+    "row": {
+      "sourceOrdinal": 4473,
+      "sourceId": "book10-16-2362",
+      "phrase": "pushed aside by cheap mass-produced goods",
+      "action": "hold-editorial",
+      "canonicalId": null,
+      "reason": "Pushed aside by cheap mass-produced goods describes displacement but the full source span is topic-specific. Provisional editorial decision; independent review remains open."
+    }
+  },
+  "existingOwner": {
+    "number": 287,
+    "path": "course-materials/advanced-native/batches/batch-0276-0300.json",
+    "sha256": "9d89b133bfc56577e7529b966a3d3d43f2f3a6e6cd778cc0c668158d99cacaff",
+    "title": "pushed to the margins",
+    "meaning": "Made less visible, influential or central in an activity or discussion."
+  },
+  "proposedOwner": {
+    "path": "course-materials/advanced-native/reviews-books10-16/proposals/owner-287-source-4473-proposed-b.json",
+    "sha256": "7f113ddc3ae8451b9932c1ca44ed5004e55d3b9599503ae6cfe0334264720cba",
+    "contentRevision": 7,
+    "targetPattern": "\\b(?:push|pushes|pushed|pushing)(?: quietly)? to the (?:margins|sidelines|side)\\b|\\bpushed aside\\b(?=\\s+by\\s+(?:(?:cheap|cheaper|low[- ]cost|mass[- ]produced|factory[- ]made|imported)\\s+){1,3}(?:goods|products|items|alternatives)\\b)"
+  },
+  "senseJudgement": "Same figurative loss of prominence or attention: the source describes local crafts being displaced in market visibility by cheap factory goods; owner287 already teaches marginalisation without complete removal. Market competitor must be named, and a still-open stall plus reduced display/publicity makes the assessed inference concrete.",
+  "proposedDecision": {
+    "sourceOrdinal": 4473,
+    "sourceId": "book10-16-2362",
+    "phrase": "pushed aside by cheap mass-produced goods",
+    "action": "proposed-alias-existing",
+    "canonicalId": 287,
+    "reason": "Exact source describes local crafts losing prominence to cheap mass-produced goods. Canonical287 teaches figurative sidelining without full exclusion; its bounded pushed-aside-by-product variant matches the complete source, and the market scene assesses lost display/publicity rather than literal movement."
+  },
+  "changedOwnerFields": [
+    "target.pattern",
+    "brief.meaningEn",
+    "brief.meaningZh",
+    "brief.grammar",
+    "brief.register",
+    "brief.boundaryZh",
+    "brief.outcomeZh",
+    "sources[4]",
+    "scene",
+    "contentRevision"
+  ],
+  "unchangedAssessedSections": [
+    "listening",
+    "reply",
+    "contrast",
+    "dialogue",
+    "speaking",
+    "writing",
+    "takeaways"
+  ],
+  "answerIdPreserved": "a",
+  "audioTextsChanged": false,
+  "validation": {
+    "focusedBuildCheck": "1 lesson, 6 questions, 4 audio requests, 0 flags; build and --check passed",
+    "nativeJsPositiveControls": 7,
+    "nativeJsNegativeControls": 7,
+    "fullSourceHits": [
+      {
+        "sourceId": "book10-16-0568",
+        "sentence": "Smaller art forms are often pushed quietly to the margins.",
+        "matchedSpan": "pushed quietly to the margins"
+      },
+      {
+        "sourceId": "book10-16-0604",
+        "sentence": "Local artists should not be pushed to the sidelines.",
+        "matchedSpan": "pushed to the sidelines"
+      },
+      {
+        "sourceId": "book10-16-1721",
+        "sentence": "Mental wellbeing is too often pushed to the side.",
+        "matchedSpan": "pushed to the side"
+      },
+      {
+        "sourceId": "book10-16-2362",
+        "sentence": "Local crafts can be pushed aside by cheap mass-produced goods.",
+        "matchedSpan": "pushed aside"
+      }
+    ],
+    "changedSceneNonTargetSixTokenCopies": 0,
+    "sourceProvenanceExact": true,
+    "selectedOwnerDecisionManifestEdited": false
+  },
+  "retainedHold2676": {
+    "action": "hold-editorial",
+    "reason": "The it antecedent in The community worked to stitch it back together is unresolved; no owner expansion proposed."
+  },
+  "status": "proposal-only-awaiting-independent-review",
+  "limitations": [
+    "No selected owner, decision or manifest integration.",
+    "No browser, media, human or release approval."
+  ]
+}

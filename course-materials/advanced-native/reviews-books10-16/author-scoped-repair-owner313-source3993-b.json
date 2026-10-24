@@ -1,0 +1,31 @@
+{
+  "type": "author-scoped-followup-owner313-source3993",
+  "recordedAtUtc": "2026-10-24T03:09:56.787663+00:00",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-313-source-3993-proposed-b.json",
+  "proposalSha256": "c4030488b2ec0d9709088a3fdfc379cccf018b9d467727170003af5cb8a6b0f1",
+  "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-313-source-3993-a.json",
+  "independentReviewSha256": "9d377ff44efa9b1b952060528c7ecb85fd39356af92aa88f838a9e6d473addff",
+  "sourceOrdinal": 3993,
+  "changedFields": [
+    "lessons[0].brief.register",
+    "lessons[0].scene.promptZh",
+    "lessons[0].scene.options[2].en",
+    "lessons[0].scene.options[2].zh",
+    "lessons[0].scene.explanationZh",
+    "lessons[0].contentRevision"
+  ],
+  "repairs": {
+    "priorNarrowBaseline": "Prompt now says female learner Mei previously concentrated chiefly on mathematics and is developing hosting, teamwork and sport.",
+    "genderGrounding": "Prompt explicitly identifies the learner as female; EN she/her options no longer infer gender.",
+    "foilGrounding": "Foil C overclaims equal proficiency from trying the three named activities, without inventing club membership.",
+    "register": "Now names teacher as likely speaker and parent as listener."
+  },
+  "validation": {
+    "focusedBuild": "1 lesson/6 questions/4 audio/0 flags",
+    "focusedCheck": "passed",
+    "answerId": "b preserved",
+    "audioTexts": "unchanged",
+    "selectedOwnerDecisionManifestEdited": false
+  },
+  "status": "awaiting-independent-scoped-recheck"
+}

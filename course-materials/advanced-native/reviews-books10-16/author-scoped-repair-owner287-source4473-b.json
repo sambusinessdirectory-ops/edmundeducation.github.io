@@ -1,0 +1,49 @@
+{
+  "type": "author-scoped-followup-4473-to-287",
+  "recordedAtUtc": "2026-10-24T03:13:48.093594+00:00",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-287-source-4473-proposed-b.json",
+  "proposalSha256": "7f113ddc3ae8451b9932c1ca44ed5004e55d3b9599503ae6cfe0334264720cba",
+  "initialReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-287-source-4473-review-pilot.json",
+  "initialReviewSha256": "922e69cfbc629a413f8ea239092b04ea5bf0f70cc83bef3b152b81cd07985f19",
+  "updatedAuthorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-owner-proposal-4473-to-287-b.json",
+  "updatedAuthorAuditSha256": "a55e5d5aa8964231107dc3d12a1484f618d26adad413ae04d3fe15b95944c4db",
+  "finding": "R4473-287-01",
+  "changedFields": [
+    "scene.options[1].en",
+    "scene.options[1].zh",
+    "scene.options[2].en",
+    "scene.options[2].zh",
+    "scene.explanationZh",
+    "contentRevision"
+  ],
+  "repair": "Foil B now treats an open stall as proof of equal prominence; foil C overgeneralizes one fair’s promotion to buyer disappearance in every nearby market. Neither is a direct fact contradiction stated in the prompt. Key A, scene prompt, source, target and all other assessments are unchanged.",
+  "scene": {
+    "promptZh": "手作市集仍讓本地工藝有攤位，但主展示區和大部分宣傳都給廉價大量生產商品，較少顧客留意手作。哪句最有根據？",
+    "options": [
+      {
+        "id": "a",
+        "en": "Local crafts are being pushed aside by cheaper factory-made products in the fair’s displays and publicity.",
+        "zh": "在市集的展示和宣傳中，本地工藝正被較便宜的工廠製商品擠到一旁。"
+      },
+      {
+        "id": "b",
+        "en": "Because the local stalls are still open, their work has equal prominence in this fair.",
+        "zh": "本地攤位仍開放，所以它們的作品在這個市集得到同等重視。"
+      },
+      {
+        "id": "c",
+        "en": "This fair’s publicity proves that buyers for local crafts have disappeared from every nearby market.",
+        "zh": "這個市集的宣傳證明，附近每個市場都已沒有本地工藝的買家。"
+      }
+    ],
+    "answerId": "a",
+    "explanationZh": "手作攤位仍在，但主展示和宣傳轉向廉價量產商品，支持本地工藝在這個市集失去能見度；仍有攤位不等於同等重視，也不能從一個市集推斷所有市場。"
+  },
+  "checks": {
+    "focusedBuildCheck": "1/6/4/0 passed",
+    "fullSourcePatternControls": "7 positive/7 negative native-JS controls passed before unchanged pattern",
+    "changedSceneSixTokenNonTargetCopies": 0,
+    "ownerDecisionManifestEdited": false
+  },
+  "status": "awaiting-independent-scoped-recheck"
+}

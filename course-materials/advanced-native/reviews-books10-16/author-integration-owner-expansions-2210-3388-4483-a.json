@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "type": "integration-attestation-no-release",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-2210-3388-4483-proposed-a.json",
+  "proposalSha256": "f40ca5ada58598af4ff94ddd954a89f80a63e4271710409f7194d685034d2769",
+  "independentFollowupPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-expansions-2210-3388-4483-review-pilot-followup.json",
+  "independentFollowupSha256": "e7a892af6e33c10f749186f9e48c1c62d9beca922148152c0499ef0002c334d0",
+  "integratedMappings": [
+    {
+      "sourceOrdinal": 2210,
+      "ownerId": "advanced-native-1687",
+      "sourceId": "book10-16-0099"
+    },
+    {
+      "sourceOrdinal": 3388,
+      "ownerId": "advanced-native-305",
+      "sourceId": "book10-16-1277"
+    },
+    {
+      "sourceOrdinal": 4483,
+      "ownerId": "advanced-native-307",
+      "sourceId": "book10-16-2372"
+    }
+  ],
+  "selectedManifestSha256Unchanged": "42878344ff07e2c228d95027b90691233c312c29fc12b391b30e21b0ffdcc453",
+  "changedFiles": [
+    {
+      "path": "course-materials/advanced-native/batches/batch-0301-0325.json",
+      "sha256Before": "f90c3fd81fbcf327e345d9464b4a8f5a3f6c5f16387db3a06e37d5991b853ad1",
+      "sha256After": "5e1b91dbd49863b105c87745695fb3bc513b3c9b1b2c113a5582ff5702759540",
+      "changedIdsOnly": [
+        305,
+        307
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/batches/batch-1676-1700.json",
+      "sha256Before": "280c5e64c82eb599e6133220365de33416945b55dab668d35651de7f46667ed2",
+      "sha256After": "5e88d0ae33a7361af44f64d17ff35c2eb98e382a5222db6cf529531d3223836c",
+      "changedIdsOnly": [
+        1687
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "sha256Before": "3e7d06e4473fe2d24ce2ab3f7bd10208fc6501badbbd608fb8b05b99e816c364",
+      "sha256After": "3872400a66cd2bf67f6f2b7401c99e914713311ac72045ab0142b22d01bb74d7",
+      "changedIdsOnly": [
+        2210
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl",
+      "sha256Before": "de6453f80a20615f4cd48297cb5e288a7b2eefadb1694a45cb19a85885d355e5",
+      "sha256After": "e9256475fed0dcbe04c03427d00dccc52078f341f128a59fe65380abd9eea7c8",
+      "changedIdsOnly": [
+        3388
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "sha256Before": "76e41d94a3779908f253ffc9c4be5f725cb19d32b52f06b8a80174721273e4b5",
+      "sha256After": "0a5ef691cbbf3a69e01e211134aa38d7cc46992fddd1d54890381a58da3676c4",
+      "changedIdsOnly": [
+        4483
+      ]
+    }
+  ],
+  "focusedBuildChecks": [
+    {
+      "file": "batches/batch-0301-0325.json",
+      "lessons": 23,
+      "questions": 138,
+      "audioRoles": 92,
+      "flags": 0,
+      "build": "pass",
+      "check": "pass"
+    },
+    {
+      "file": "batches/batch-1676-1700.json",
+      "lessons": 24,
+      "questions": 144,
+      "audioRoles": 96,
+      "flags": 0,
+      "build": "pass",
+      "check": "pass"
+    }
+  ],
+  "combinedVerification": {
+    "sourceRows": 2604,
+    "selectedLessons": 630,
+    "selectedQuestions": 3780,
+    "selectedAudioRoles": 2520,
+    "existingAliases": 1182,
+    "newAliases": 189,
+    "holds": 603,
+    "schemaErrors": 0,
+    "guideExactCopies": 0,
+    "existingAliasExceptions": 0,
+    "newAliasExceptions": 0,
+    "holdCoverageErrors": 0
+  },
+  "audioTextDeltaIfLaterRegenerated": [
+    "advanced-native-305 takeaway-2",
+    "advanced-native-1687 takeaway-2"
+  ],
+  "scopeNotes": [
+    "Owner305 dialogue keyed text and Chinese were repaired to include the target, with the same answer ID.",
+    "No manifest, SOP audit, media, release, staging, commit, push or publication edits."
+  ]
+}
