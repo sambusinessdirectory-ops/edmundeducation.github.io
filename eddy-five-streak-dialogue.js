@@ -109,7 +109,7 @@
 
   function showWhenPrimaryFinishes() {
     scheduled = false;
-    if (!pending.length || overlay || document.hidden) return;
+    if (!pending.length || overlay || document.hidden || window.EdmundEddyGlobalDialogue?.isBlocking()) return;
     if (document.querySelector('.eddy-first-question-overlay:not(.eddy-five-streak-overlay)')) return;
     active = pending.shift();
     step = 0;
@@ -136,6 +136,7 @@
     }
   }
 
+  document.addEventListener('edmund:eddy-global-dialogue-finished', schedule);
   document.addEventListener('edmund:eddy-streak-answer', (event) => {
     const { scope, correct, streak, previousStreak } = event.detail || {};
     if (typeof scope !== 'string' || !scope || typeof correct !== 'boolean') return;

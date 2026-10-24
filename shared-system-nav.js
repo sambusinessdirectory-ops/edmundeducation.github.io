@@ -709,7 +709,7 @@
     pomodoroPageLocked = nextLocked;
     document.documentElement.classList.toggle("edmund-pomodoro-page-locked", nextLocked);
     [...document.body.children].forEach(element => {
-      if (element === pomodoroNodes?.breakLock) return;
+      if (element === pomodoroNodes?.breakLock || element.hasAttribute("data-eddy-global-dialogue")) return;
       if (nextLocked) {
         if (!element.inert) {
           element.inert = true;
@@ -722,7 +722,13 @@
     });
     if (nextLocked) {
       if (pomodoroNodes.dialog.open) pomodoroNodes.dialog.close();
-      window.setTimeout(() => (pomodoroNodes.skipBreak.hidden ? pomodoroNodes.breakLock : pomodoroNodes.skipBreak).focus(), 0);
+      window.setTimeout(() => {
+        if (!window.EdmundEddyGlobalDialogue?.isShowing()) {
+          (pomodoroNodes.skipBreak.hidden ? pomodoroNodes.breakLock : pomodoroNodes.skipBreak).focus();
+        }
+      }, 0);
+    } else {
+      document.dispatchEvent(new Event("edmund:eddy-global-dialogue-finished"));
     }
   }
 
@@ -762,6 +768,7 @@
     pomodoroNodes.breakLock.hidden = !onBreak;
     pomodoroNodes.skipBreak.hidden = !(onBreak && pomodoroState.settings.allowSkipBreak);
     setPomodoroPageLocked(onBreak);
+    if (onBreak) window.EdmundEddyGlobalDialogue?.queuePomodoroBreak(pomodoroOwnerKey || currentPomodoroStorageKey(), pomodoroState.endsAt);
     if (onBreak) {
       pomodoroNodes.breakKicker.textContent = pomodoroState.phase === "long-break"
         ? `完成 ${pomodoroState.settings.sessionsBeforeLongBreak} 輪 · 長休時間`

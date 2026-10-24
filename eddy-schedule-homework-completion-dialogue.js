@@ -116,7 +116,7 @@
   }
 
   function showNext() {
-    if (overlay || !queue.length || document.hidden || document.querySelector('dialog[open]')) return;
+    if (overlay || !queue.length || document.hidden || window.EdmundEddyGlobalDialogue?.isBlocking() || document.querySelector('dialog[open]')) return;
     const milestone = queue.shift();
     currentPages = pagesByCount[milestone.count].map(([art, options]) => [art, pick(options)]);
     pageIndex = 0;
@@ -144,6 +144,7 @@
     }
     requestAnimationFrame(showNext);
   });
+  document.addEventListener('edmund:eddy-global-dialogue-finished', showNext);
   document.addEventListener('visibilitychange', showNext);
   document.addEventListener('close', showNext, true);
 })();

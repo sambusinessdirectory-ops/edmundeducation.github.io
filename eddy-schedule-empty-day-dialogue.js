@@ -24,7 +24,7 @@
   }
 
   function showIfReady() {
-    if (!pending || overlay || document.hidden) return;
+    if (!pending || overlay || document.hidden || window.EdmundEddyGlobalDialogue?.isBlocking()) return;
     const calendar = document.querySelector('[data-view="calendar"]');
     const todayColumn = calendar?.querySelector(`.day-column.is-today[data-column-date="${pending.date}"]`);
     if (calendar?.hidden || !todayColumn || document.querySelector('dialog[open]')) return;
@@ -52,6 +52,7 @@
     pending = homeworkCount === 0 ? { studentId, date } : null;
     requestAnimationFrame(showIfReady);
   });
+  document.addEventListener('edmund:eddy-global-dialogue-finished', showIfReady);
   document.addEventListener('visibilitychange', showIfReady);
   document.addEventListener('close', showIfReady, true);
 })();

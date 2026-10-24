@@ -235,6 +235,7 @@
   }
   function check() {
     scheduled = false;
+    if (window.EdmundEddyGlobalDialogue?.isBlocking()) return;
     const snapshot = completionSnapshot();
     if (snapshot) {
       const previous = observedProgress.get(snapshot.scope);
@@ -278,6 +279,7 @@
   function schedule() {
     if (!scheduled) { scheduled = true; requestAnimationFrame(check); }
   }
+  document.addEventListener('edmund:eddy-global-dialogue-finished', schedule);
   const observer = new MutationObserver(schedule);
   observer.observe(document.documentElement, { subtree: true, childList: true, characterData: true, attributes: true, attributeFilter: ['hidden', 'aria-current', 'aria-valuenow'] });
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', schedule, { once: true });

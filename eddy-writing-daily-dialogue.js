@@ -45,7 +45,7 @@
   }
 
   function showIfDue() {
-    if (workspace.hidden || document.hidden || overlay) return;
+    if (workspace.hidden || document.hidden || overlay || window.EdmundEddyGlobalDialogue?.isBlocking()) return;
     const today = localDay();
     if (storedDay() === today || shownInThisPage === today) return;
 
@@ -64,6 +64,7 @@
   }
 
   new MutationObserver(showIfDue).observe(workspace, { attributes: true, attributeFilter: ['hidden'] });
+  document.addEventListener('edmund:eddy-global-dialogue-finished', showIfDue);
   document.addEventListener('visibilitychange', showIfDue);
   showIfDue();
 })();
