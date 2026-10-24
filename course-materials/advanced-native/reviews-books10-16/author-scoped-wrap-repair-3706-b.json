@@ -1,0 +1,44 @@
+{
+  "status": "author_scoped_selected_content_repair_pending_independent_review",
+  "createdUtc": "2026-10-24T00:31:26.030588+00:00",
+  "lessonId": "advanced-native-3706",
+  "sourceOrdinal": 3706,
+  "selectedBatchPath": "course-materials/advanced-native/drafts-books10-16/batch-3702-3715-a.json",
+  "beforeBatchSha256": "f18f9260c2db6fcc738c685d7c62b998ef462f718c9995f4b50b61bb842c621d",
+  "afterBatchSha256": "f6b121e19a42ca0a3ca0098a304a870db137eddd2bf2356c7ce49c80ff536673",
+  "changedFields": {
+    "listening.options[c].en": {
+      "before": "Similar signs had already been common for decades before 1998.",
+      "after": "Similar signs had been common for decades."
+    },
+    "contentRevision": {
+      "before": 1,
+      "after": 2
+    }
+  },
+  "preserved": {
+    "listening.options[c].zh": "一九九八年之前，類似顯示牌已普及數十年。",
+    "listening.answerId": "a",
+    "listening.options[c].id": "c",
+    "sourceSentence": "The design may have been ahead of its time.",
+    "targetPattern": "\\bahead of its time\\b",
+    "speakingTargetSpan": "ahead of its time",
+    "fiveWritingGlossaryRows": "exact offsets unchanged",
+    "audioText": "unchanged; option c is not a synthesis role"
+  },
+  "semanticCheck": "The shortened distractor still falsely asserts that comparable signs were commonplace for decades before the 1998 prototype; the listening text states they became common decades later. The Chinese preserves the same false historical claim.",
+  "validation": {
+    "focusedBuild": {
+      "lessons": 4,
+      "questions": 24,
+      "audioRequests": 16,
+      "reviewFlags": 0
+    },
+    "focusedCheck": "pass",
+    "sourceTargetPositive": true,
+    "speakingTargetSpanExact": true,
+    "glossaryOffsetsExact": true,
+    "diffScope": "2 lines only: option English and contentRevision"
+  },
+  "mediaAndRelease": "No audio generation, selection/decision/manifest/audit edit, upload or release action; independent exact-hash review pending."
+}

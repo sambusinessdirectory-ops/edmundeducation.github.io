@@ -1,0 +1,40 @@
+{
+  "reviewType": "independent-exact-hash-scoped-followup",
+  "sourceOrdinal": 2554,
+  "lessonId": "advanced-native-2554",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-2554-downright-b.json",
+  "draftSha256": "c26fa274f82704a424e9dcabca91265fe9455b76b6f79aa33f2948cd828733f8",
+  "authorAuditSha256": "e14cefc5720f5cf4c924d38ac3c78e21ddb5e66a355c097ec4e896a7141a1710",
+  "initialReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-2554-a.json",
+  "initialReviewSha256": "d6d42d90bd7e7700cfb95ee398975f5f0631e48bb08f9c18ccc39f1c6d746f78",
+  "contentRevision": 3,
+  "findingsClosed": [
+    {
+      "id": "R2554-01",
+      "result": "closed",
+      "evidence": "Step 4 now asks which emphatic downright judgment is least justified. All three options make parallel judgments without naming their own validity; the keyed spacing error does not substantiate misleading, whereas discarded ballots and knowingly false nut-free labelling substantiate the other negative judgments. English, Traditional Chinese and explanation align."
+    },
+    {
+      "id": "R2554-02",
+      "result": "closed",
+      "evidence": "Glossary row zero is now the complete answer-derived phrase promised to keep the member's draft private, with faithful Traditional Chinese and exact model-text offsets."
+    },
+    {
+      "id": "R2554-followup-answer-leak",
+      "result": "closed",
+      "evidence": "Earlier repair described one option as overstated and the others as fitting evidence inside the option text. Final options remove those answer labels."
+    }
+  ],
+  "verification": {
+    "focusedBuildAndCheck": "1 lesson, 6 questions, 4 audio requests, 0 review flags",
+    "sourceTargetMatch": true,
+    "speakingTargetSpanExact": true,
+    "glossarySpansExact": "6/6",
+    "sevenStepAndRegisterReview": "No new material blocker in changed content; negative-adjective register and evidence-calibrated use remain consistent with the source.",
+    "status": "AI content clear for provisional unpublished selection only"
+  },
+  "limitations": [
+    "No human teacher sign-off, listening or live-site verification is claimed.",
+    "Editorial decision and selected manifest remain unchanged by this review."
+  ]
+}

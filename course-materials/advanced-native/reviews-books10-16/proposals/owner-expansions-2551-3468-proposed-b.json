@@ -1,0 +1,551 @@
+{
+  "schemaVersion": 1,
+  "batchId": "owner-expansions-2551-3468-proposed-b",
+  "lessons": [
+    {
+      "id": "advanced-native-2411",
+      "number": 2411,
+      "inventoryId": "expr-2411",
+      "titleEn": "piece the puzzle together",
+      "titleZh": "拼合線索看清全貌",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:piece|pieces|pieced|piecing) (?:the puzzle|it) together\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Combine separate pieces of evidence to understand a whole situation.",
+        "meaningZh": "把分散的線索拼合起來，了解事情全貌。",
+        "grammar": "Use piece/pieces/pieced/piecing the puzzle together from clues, or piece it together when it clearly refers to an already named event or story. The object sits between piece and together; past tense pieced.",
+        "register": "Neutral figurative reconstruction: an investigator, family historian, reporter or reader explains how several incomplete clues combine into a coherent account, not a literal jigsaw. Use it only when the event or story it refers to is clear.",
+        "boundaryZh": "重點是多項片段互相補足後形成整體理解；單靠一條線索猜中答案不夠。",
+        "misconceptionZh": "不要只翻譯為玩拼圖；用 it 時須先清楚指出所指的事情，也不要把尚未查明的猜測說成已拼出全貌。",
+        "outcomeZh": "能指出至少兩項線索及它們合起來揭示的事情。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0300",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 27,
+          "book": 10,
+          "question": 23,
+          "sample": "S1",
+          "sourceBookPages": "54–55",
+          "locatorNote": "DOCX table 23, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We had to piece the puzzle together from short reports.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "piece the puzzle together"
+        },
+        {
+          "occurrenceId": "book10-16-0440",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 40,
+          "book": 10,
+          "question": 36,
+          "sample": "S2",
+          "sourceBookPages": "87–88",
+          "locatorNote": "DOCX table 36, row 15; page refers to locally rendered PDF recorded in intake summary.",
+          "sentence": "We used the letters to piece it together.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "piece it together"
+        }
+      ],
+      "listening": {
+        "en": "The sports team received one message about a changed match time and another about a different venue. By comparing both notices with the official schedule, they pieced the puzzle together and found the correct plan.",
+        "zh": "球隊收到一則比賽改時間的訊息，另一則卻說場地不同。隊員把兩則通知與官方時間表比對，拼合線索，查明正確安排。",
+        "promptZh": "隊員如何把線索拼合起來，查明正確安排？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They combined the two notices with the official schedule.",
+            "zh": "他們把兩則通知與官方時間表合起來核對。"
+          },
+          {
+            "id": "b",
+            "en": "They followed the first message without checking the venue.",
+            "zh": "他們沒有核對場地，就按第一則訊息行事。"
+          },
+          {
+            "id": "c",
+            "en": "They chose the venue they had used last season.",
+            "zh": "他們選了上季用過的場地。"
+          },
+          {
+            "id": "d",
+            "en": "They asked another team to make the decision for them.",
+            "zh": "他們請另一隊替他們決定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩則訊息各有部分資訊，與官方時間表比對後才能理解全貌；只用一則訊息或舊經驗不足。"
+      },
+      "reply": {
+        "promptEn": "How did you find out why the class trip had been delayed?",
+        "promptZh": "（你怎樣查出班級旅行延期的原因？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The coach company’s message said the original vehicle had broken down.",
+            "zh": "旅遊車公司的訊息說原本的車輛故障。"
+          },
+          {
+            "id": "b",
+            "en": "The teacher confirmed that a road closure had delayed the coach.",
+            "zh": "老師證實封路令旅遊車延誤。"
+          },
+          {
+            "id": "c",
+            "en": "I pieced the puzzle together from the booking email and revised timetable: the coach had been booked for the wrong day.",
+            "zh": "我把預約電郵和修訂時間表的線索拼合起來，查出旅遊車預約錯了日期。"
+          },
+          {
+            "id": "d",
+            "en": "The driver told me the first coach had a mechanical fault and a replacement was needed.",
+            "zh": "司機告訴我第一輛旅遊車機件故障，因此需要替代車輛。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句各指出一項使旅行延期的明確原因及資料來源；金句展示把兩份資料拼合後才查出預約日期有誤。各回應獨立成立，不表示多個原因同時發生。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Staff pieced it together from the call log and the text notice.",
+            "zh": "職員從通話紀錄和通知短訊拼合出預約改動的經過。"
+          },
+          {
+            "id": "b",
+            "en": "Staff knew the full sequence from the appointment date alone.",
+            "zh": "職員只憑預約日期便知道完整經過。"
+          },
+          {
+            "id": "c",
+            "en": "Staff ignored the call log and guessed which day was right.",
+            "zh": "職員沒有查看通話紀錄，只猜哪天正確。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "不同紀錄各提供一部分時序，合起來才能重建經過；單一日期或猜測不夠。",
+        "promptZh": "診所接到兩份資料：病人說星期三曾來電，系統顯示星期四更改預約。職員查電話紀錄及通知短訊，找出改動次序。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A researcher matches three letters to identify when a building opened.",
+            "zh": "研究員比對三封信，查出建築物何時啟用。"
+          },
+          {
+            "id": "b",
+            "en": "A driver reads a single clear sign and immediately knows the exit number.",
+            "zh": "司機看見一個清楚的路牌，立刻知道出口號碼。"
+          },
+          {
+            "id": "c",
+            "en": "A student combines interviews and old photos to understand a local event.",
+            "zh": "學生結合訪談與舊照片，了解一項地方活動。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "單一清楚路牌已提供完整答案，沒有把分散片段拼合起來；另兩項都需要多項線索。",
+        "promptZh": "哪個情況最不適合用 piece the puzzle together？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "We can piece the puzzle together if we check the old programme as well.",
+            "zh": "若再查舊節目單，我們就能把線索拼合起來。"
+          },
+          {
+            "id": "b",
+            "en": "The date already proves the event name, so there is no need to check.",
+            "zh": "日期已證明活動名稱，不用再查。"
+          },
+          {
+            "id": "c",
+            "en": "The photograph must be wrong because the letter mentions a place.",
+            "zh": "信中提到地點，所以照片一定有錯。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "日期與地點仍未確認活動名稱，找節目單可補足線索；其餘回應過早下結論。",
+        "promptZh": "朋友說：「我有相片上的日期，也找到一封提到地點的信；現在只差確認活動名稱。」怎樣回應最合適？"
+      },
+      "speaking": {
+        "en": "The volunteers pieced the puzzle together by comparing old photographs with the building records.",
+        "zh": "義工把舊照片與建築紀錄比對，拼合線索，還原事情全貌。",
+        "promptZh": "先聽示範，再說出兩類被拼合的線索。",
+        "targetSpan": {
+          "start": 15,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校刊只寫了校園花園的開幕月份；你和朋友從舊照片、會議紀錄及邀請卡查出確實日期。用一至兩句英文描述你們如何查明。",
+        "selfCheckZh": "指出原先只知道月份，提到至少兩種線索，並說出最後查出確實日期。",
+        "examples": [
+          {
+            "en": "The magazine gave only the opening month, so we pieced the puzzle together from old photos and meeting notes to find the garden’s exact opening date.",
+            "zh": "校刊只提供開幕月份，所以我們把舊照片與會議紀錄的線索拼合起來，查出花園確實開幕日期。"
+          },
+          {
+            "en": "We compared an invitation card with meeting notes and pieced the puzzle together to identify the school garden's exact opening date.",
+            "zh": "我們把邀請卡與會議紀錄比對，拼合出全貌，查明校園花園確實開幕日期。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "opening month",
+            "zh": "開幕月份",
+            "exampleIndex": 0,
+            "span": {
+              "start": 27,
+              "end": 40
+            }
+          },
+          {
+            "en": "old photos",
+            "zh": "舊照片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 90
+            }
+          },
+          {
+            "en": "meeting notes",
+            "zh": "會議紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 95,
+              "end": 108
+            }
+          },
+          {
+            "en": "exact opening date",
+            "zh": "確實開幕日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 130,
+              "end": 148
+            }
+          },
+          {
+            "en": "an invitation card",
+            "zh": "邀請卡",
+            "exampleIndex": 1,
+            "span": {
+              "start": 12,
+              "end": 30
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Investigators pieced the puzzle together from the receipts and delivery notes.",
+          "zh": "調查人員把收據與送貨單的線索拼合起來，還原全貌。"
+        },
+        {
+          "en": "Mara wanted to understand her family’s move. Two dated postcards and a tenancy letter helped her piece it together.",
+          "zh": "瑪拉想了解家人搬遷的經過。兩張有日期的明信片和一封租約信幫助她把線索拼合起來。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 5
+    },
+    {
+      "id": "advanced-native-1839",
+      "number": 1839,
+      "inventoryId": "expr-1839",
+      "contentRevision": 2,
+      "titleEn": "take the shine off it",
+      "titleZh": "令原本期待的事少了些光彩",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:take|takes|took|taken|taking) the shine off (?:the trip|it)\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p226-t1-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 226,
+          "book": 8,
+          "question": 21,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "A missed flight takes the shine off the trip.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "takes the shine off the trip",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-1357",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 127,
+          "book": 13,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "29–30",
+          "locatorNote": "DOCX table 133, row 6; page refers to locally rendered PDF recorded in intake summary. The isolated source sentence does not resolve it; no specific antecedent is inferred.",
+          "sentence": "A long journey can take the shine off it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take the shine off it"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Reduce the pleasure, excitement or positive impression of a trip or another clearly named anticipated experience.",
+        "meaningZh": "減少旅程或另一項已清楚指出、原本令人期待的經歷所帶來的樂趣、興奮或好印象。",
+        "grammar": "A problem takes/took/has taken the shine off the trip; take/takes/took/taken/taking the shine off it is natural only when it clearly refers to a named experience. Shine means appeal or enjoyment, not literal polish.",
+        "register": "neutral",
+        "boundaryZh": "it 必須清楚指向前文的經歷；樂趣減少不等於整件事完全沒有好處，也不自動決定誰有責任。",
+        "misconceptionZh": "不要把 it 無指向地套入句子，或把 shine 解作物件表面的光澤；也不要說成所有樂趣都消失。",
+        "outcomeZh": "能指出受影響的經歷、減少樂趣的事件，以及 it 的清楚所指。"
+      },
+      "listening": {
+        "en": "The cancelled boat ride took the shine off the trip because it was the outing I had most looked forward to, though the evening meal with our cousins was still a highlight.",
+        "zh": "遊船取消，令旅程少了些光彩，因那是我最期待的外出；不過跟表親的晚餐仍是亮點。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Losing the activity they had most looked forward to reduced the pleasure, but parts of the trip were still worth cherishing.",
+            "zh": "失去最期待的活動減少了樂趣，但旅程仍有珍惜的部分。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The boat ride went ahead; only dinner was cancelled.",
+            "zh": "遊船照常舉行，只有晚餐取消。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The speaker thought there was nothing memorable about dinner.",
+            "zh": "說話者認為晚餐沒有任何值得記住的地方。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The main disappointment came from the dinner schedule, not the cancelled boat ride.",
+            "zh": "主要失望來自晚餐時間表，而不是取消遊船。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "most looked forward 與 still highlight 留下不同部分的感受，不把影響說成一切皆無。"
+      },
+      "reply": {
+        "promptEn": "Why were you disappointed about the cancelled boat ride?",
+        "promptZh": "遊船取消為甚麼令你失望？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It took the shine off the trip because that was the outing I had most wanted.",
+            "zh": "它令旅程少了些光彩，因那是我最想參加的外出。"
+          },
+          {
+            "id": "reply-2",
+            "en": "I had been looking forward to that part more than the other outings.",
+            "zh": "比起其他外出，我更期待那一項。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Losing it changed my excitement about the visit, even though the meal was still special.",
+            "zh": "失去它改變了我對探訪的興奮，即使晚餐仍很特別。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The cancelled plan mattered to me rather than being a minor item I had no interest in.",
+            "zh": "取消的安排對我重要，不是我沒興趣的小項目。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "周末市集可能因天雨而縮短，但主辦方尚未確認，詩雅也未說自己會否失望；朋友直接說市集已失去吸引力。哪句最謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "If rain shortens the fair, that might take the shine off it, but neither the change nor Sze-nga’s reaction is confirmed.",
+            "zh": "若天雨令市集縮短，可能會令它少了些光彩；但安排是否改動及詩雅的反應都未獲確認。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The shorter fair and Sze-nga’s disappointment are both already confirmed.",
+            "zh": "市集縮短及詩雅感到失望都已獲確認。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Sze-nga has said that the fair was the only part of the weekend worth keeping.",
+            "zh": "詩雅已說市集是周末唯一值得保留的部分。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可能縮短、確認改動與實際感受要分開；it 在金句中清楚指前文的市集。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 took the shine off the trip 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The trip lost some of its original pleasure or appeal.",
+            "zh": "旅程原有的樂趣或吸引力受了影響。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Every part of the trip became completely worthless.",
+            "zh": "整趟旅程的每個部分都完全失去價值。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Other experiences could still be worth cherishing.",
+            "zh": "仍可有令人珍惜的其他經歷。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "減少樂趣不等於所有部分都被抹去。"
+      },
+      "dialogue": {
+        "promptZh": "朋友問你既失望，為甚麼還提那頓好晚餐；你想保留兩種感受。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The cancellation took the shine off the trip, but that does not erase what the meal meant to me.",
+            "zh": "取消令旅程少了些光彩，但不抹去那頓晚餐對我的意義。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I thought mentioning the disappointment meant I should leave the enjoyable evening out of my account.",
+            "zh": "我以為提了失望，就應不再寫那個愉快晚上。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would use the good meal to conclude that the cancelled ride did not affect me after all.",
+            "zh": "我會用那頓好晚餐作結論，說遊船取消其實沒有影響我。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "不同部分的感受可並存，不用其中一項代替另一項。"
+      },
+      "speaking": {
+        "en": "I worry that leaving the argument unresolved could take the shine off the trip, so I would like us to talk before we go.",
+        "zh": "我擔心爭論未解會令旅程少些光彩，所以想在出發前先談。",
+        "targetSpan": {
+          "start": 51,
+          "end": 78
+        },
+        "promptZh": "先聽示範，再分預期擔心與已發生的影響。"
+      },
+      "writing": {
+        "promptZh": "新情境：你跟同行朋友因誰負責訂車票而爭執，旅行尚未開始。你仍想一起去，但怕不談清楚會一直尷尬。你想提出出發前比較各自原以為的分工，再議一個雙方可接受的安排，不把擔心說成旅程已被毀。用一至兩句英文邀請談話。",
+        "examples": [
+          {
+            "en": "I still want to go together, but I worry this unresolved argument could take the shine off the trip. Could we compare what each of us thought we had agreed and settle the ticket arrangements before leaving?",
+            "zh": "我仍想一起去，但擔心未解爭論會令旅程少些光彩。離開前，可否比較各自以為議好了甚麼，再定車票安排？"
+          },
+          {
+            "en": "The disagreement need not take the shine off the trip if we are willing to discuss it now. I would like to hear what you expected me to handle before we agree how to share the booking work.",
+            "zh": "若願意現在談，分歧未必要令旅程少些光彩。我想先聽你以為我負責甚麼，再議怎分訂票工作。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "this unresolved argument",
+            "zh": "這場未解的爭論",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 65
+            }
+          },
+          {
+            "en": "the ticket arrangements",
+            "zh": "車票安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 167,
+              "end": 190
+            }
+          },
+          {
+            "en": "before leaving",
+            "zh": "離開之前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 191,
+              "end": 205
+            }
+          },
+          {
+            "en": "discuss it now",
+            "zh": "現在討論",
+            "exampleIndex": 1,
+            "span": {
+              "start": 75,
+              "end": 89
+            }
+          },
+          {
+            "en": "the booking work",
+            "zh": "預訂工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 172,
+              "end": 188
+            }
+          }
+        ],
+        "selfCheckZh": "保留想同行的目標，以可能影響邀請先談分工；不補成旅程已失敗，也不在未聽前判定全是對方責任。"
+      },
+      "takeaways": [
+        {
+          "en": "The long wait took the shine off the trip for him, although he still enjoyed seeing his old school friend.",
+          "zh": "長時間等候令旅程對他少了些光彩，但他仍享受跟舊同學見面。"
+        },
+        {
+          "en": "Lin had looked forward to the exhibit opening. A last-minute room change took the shine off it, though she still enjoyed the art.",
+          "zh": "琳原本期待展覽開幕。臨時更換展室令開幕少了些光彩，但她仍然欣賞展品。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    }
+  ]
+}

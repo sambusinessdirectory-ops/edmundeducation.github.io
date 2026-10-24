@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-4151-memory-b",
+  "lessons": [
+    {
+      "id": "advanced-native-4151",
+      "number": 4151,
+      "inventoryId": "expr-4151",
+      "titleEn": "outsource memory to a device",
+      "titleZh": "把記憶工作交給裝置",
+      "category": "figurative",
+      "contentRevision": 3,
+      "target": {
+        "pattern": "\\b(?:outsource(?:s|d)?|outsourcing) (?:every detail|all details|some details|(?:(?:the|my|our|your|his|her|their) )?(?:memory|details?|dates?|appointments?|schedules?|reminders?|meeting times|rehearsal times|check-in times|watering dates|remembering dates)) to (?:a (?:phone calendar|shared calendar|digital calendar|reminder app|phone|device|calendar)|an app|(?:the|my|our|your|his|her|their) (?:phone calendar|shared calendar|digital calendar|reminder app|phones?|apps?|devices?|calendar))\\b",
+        "glossaryForbidden": [
+          "\\boutsource\\b",
+          "\\boutsourcing\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Figuratively hand the job of storing or recalling details to a phone, app or calendar instead of holding all of them in one’s own memory. The source warns against handing over every detail; selective reminders can still be useful.",
+        "meaningZh": "比喻把記錄或提醒細節的工作交給手機、應用程式或日曆，而不是全靠自己記住。原句提醒人不要連每個細節都交出去；有選擇地用提醒仍可有用。",
+        "grammar": "Outsource + a memory task/details + to + a device or digital tool; the verb inflects as outsources, outsourced, outsourcing. Figurative personal use extends the business verb “outsource”, which normally means contracting work to another organisation.",
+        "register": "Conversational to reflective technology commentary: a student may explain to a tutor which dates a calendar stores, or a club organiser may explain to volunteers which reminders an app handles.",
+        "boundaryZh": "描述記憶工作交由外部工具處理，本身不等於工具已成妨礙判斷的依賴；要另有失去獨立判斷的證據，才適合說 a crutch。",
+        "misconceptionZh": "不要把「外包記憶」誤解為把人的選擇權交給手機，也不要因為用了一次提醒就斷定人完全不會記東西。",
+        "outcomeZh": "能指出哪些資料交給裝置記錄、哪些判斷仍由人作出，並分辨有用提醒與盲目依賴。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2040",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 192,
+          "book": 15,
+          "question": 31,
+          "sample": "S2",
+          "sourceBookPages": "72–74",
+          "locatorNote": "DOCX table 209, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We should not outsource every detail to our phones.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "outsource every detail"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "Unselected figurative candidate; independent source/owner and bilingual review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "What has the violinist handed over to the phone, and what does she still decide herself?",
+        "promptZh": "那位小提琴手把甚麼交給手機處理？她仍自行決定甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The phone stores rehearsal dates, while she chooses what to practise.",
+            "zh": "手機記錄排練日期，她則自行選擇練習內容。"
+          },
+          {
+            "id": "b",
+            "en": "The phone chooses the pieces and judges her playing.",
+            "zh": "手機選曲，並評價她的演奏。"
+          },
+          {
+            "id": "c",
+            "en": "She memorises every date and uses the phone only to play recordings.",
+            "zh": "她自己記住所有日期，手機只用來播放錄音。"
+          },
+          {
+            "id": "d",
+            "en": "The phone cancels rehearsals whenever she feels unprepared.",
+            "zh": "她未準備好時，手機會取消排練。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "手機處理日期提醒，小提琴手仍自己決定練甚麼；把記憶工作交給裝置不等於交出所有判斷。",
+        "en": "I outsource the rehearsal times to my phone: it alerts me the day before each session. I still listen to my playing and decide which passage needs work.",
+        "zh": "我把排練時間交給手機記錄；每次排練前一天它會提醒我。我仍會聆聽自己的演奏，決定哪一段需要加練。"
+      },
+      "reply": {
+        "promptEn": "Our reading club has five meeting dates. Could a shared calendar handle reminders while volunteers still choose the books and answer readers’ questions?",
+        "promptZh": "讀書會有五個聚會日期。可否由共用日曆負責提醒，而義工仍自行選書並回答讀者問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes. We can outsource the dates to our shared calendar, while volunteers keep the book choices and replies.",
+            "zh": "可以。我們把日期交給共用日曆記錄，義工仍負責選書和回覆讀者。"
+          },
+          {
+            "id": "b",
+            "en": "One volunteer can enter the dates and check the calendar alerts; the team can still choose titles and answer reader questions.",
+            "zh": "一名義工可輸入日期並檢查日曆提醒；團隊仍可選書並回答讀者問題。"
+          },
+          {
+            "id": "c",
+            "en": "Use calendar alerts for the five dates, then set aside meeting time for volunteers to choose books and respond to readers.",
+            "zh": "用日曆提醒五個日期，再於聚會時留時間讓義工選書和回應讀者。"
+          },
+          {
+            "id": "d",
+            "en": "I can send calendar invitations for the five dates; the volunteers retain the book choices and reader replies.",
+            "zh": "我可為五個日期發出日曆邀請；選書和回覆讀者仍由義工負責。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都合理分配提醒與選書／討論工作；金句直接用本課比喻說明日期交由日曆記錄。"
+      },
+      "scene": {
+        "promptEn": "Costume designers used to rely on memory for each actor’s sizes. Now they store the measurements and fitting notes in an app, but still check the costume on the actor before changing seams. Which account is accurate?",
+        "promptZh": "服裝設計師以前靠記憶記住每位演員的尺寸。現在他們把尺寸和試身筆記存入應用程式，但在修改縫線前仍會親自查看演員試穿的效果。哪句準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They outsource the details to an app but still judge the fit in person.",
+            "zh": "他們把細節交給應用程式記錄，但仍親自判斷服裝是否合身。"
+          },
+          {
+            "id": "b",
+            "en": "The app decides how every costume fits without a fitting.",
+            "zh": "應用程式毋須試身，便能決定每件服裝是否合身。"
+          },
+          {
+            "id": "c",
+            "en": "Because sizes are stored digitally, the designers no longer see the actors.",
+            "zh": "尺寸以數碼方式記錄，所以設計師不再與演員見面。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "應用程式負責記尺寸和試身筆記；設計師仍須親自判斷服裝是否合身。其餘兩句錯把記錄工具當成能代替試身的決策者。"
+      },
+      "contrast": {
+        "promptEn": "Which action is least an example of outsourcing memory to a device?",
+        "promptZh": "哪項做法最不像把記憶工作交給裝置？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Putting a meeting time in a phone calendar so it reminds you tomorrow.",
+            "zh": "把聚會時間輸入手機日曆，讓它明天提醒你。"
+          },
+          {
+            "id": "b",
+            "en": "Saving a list of gallery opening dates in a notes app for later checking.",
+            "zh": "把畫廊開放日期存進筆記程式，供日後查閱。"
+          },
+          {
+            "id": "c",
+            "en": "Reading a review on a phone and deciding for yourself whether its argument is convincing.",
+            "zh": "在手機上閱讀評論，並自行判斷論點是否可信。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "在手機上讀評論後自行判斷論點，並沒有把記錄或提醒工作交給裝置；日曆提醒和儲存日期才是把細節交給外部工具。"
+      },
+      "dialogue": {
+        "promptEn": "An app reminds players of match check-in times, but they must hand over phones at the venue gate. A parent proposes keeping every gate direction and safety instruction only in the app. What should the coach say?",
+        "promptZh": "應用程式提醒隊員比賽報到時間，但他們須在場地閘口交出手機。一位家長提議把所有閘口路線和安全指示都只存於應用程式。教練應怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can outsource the check-in times to the app, but players should note the gate and review key safety instructions before handing over their phones.",
+            "zh": "我們可把報到時間交給應用程式記錄，但隊員在交出手機前，仍須記下閘口位置並看過重要安全指示。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. If all directions and instructions are in the app, nobody needs to know them before handing over a phone.",
+            "zh": "可以。只要路線和指示都在應用程式裏，交出手機前就毋須有人了解它們。"
+          },
+          {
+            "id": "c",
+            "en": "No. Even a check-in reminder is harmful, so players must memorise every time without any tool.",
+            "zh": "不可以。連報到提醒也有害，所以隊員必須不用任何工具，自己記住所有時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "應用程式可提醒報到時間，但隊員到閘口時拿不到手機，所以須預先記下閘口位置並看過關鍵安全指示；這是選擇性使用提醒與把所有資料都只存於手機的分別。"
+      },
+      "speaking": {
+        "en": "I outsource meeting times to my calendar, but I still decide which meetings deserve my attention.",
+        "zh": "我把聚會時間交給日曆記錄，但仍自行決定哪些聚會值得參加。",
+        "promptZh": "先聽示範，再說出交給日曆的是甚麼、自己仍保留甚麼判斷。",
+        "targetSpan": {
+          "start": 2,
+          "end": 40
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校科學小組用手機日曆記錄植物澆水日期，但學生仍須檢查泥土、按實際情況決定是否澆水。請用一至兩句英文向新組員解釋哪些記憶工作可交給手機、哪些判斷仍要自己做；不要把所有提醒說成壞事。",
+        "selfCheckZh": "兩例都指出手機負責記錄或提醒澆水日期，學生仍檢查泥土並決定是否澆水；沒有說提醒本身等於過度依賴，也沒有讓程式替學生判斷泥土。",
+        "examples": [
+          {
+            "en": "We can outsource the watering dates to the phone calendar, which sends reminders. Students still inspect the soil and decide whether the plants need water that day.",
+            "zh": "我們可把澆水日期交給手機日曆記錄，由它發出提醒。學生仍要檢查泥土，決定植物當天是否需要澆水。"
+          },
+          {
+            "en": "Our group outsources the schedule to an app so no one has to memorise every date. Before watering, we check the soil ourselves rather than treating the alert as an order.",
+            "zh": "小組把時間表交給應用程式記錄，毋須人人記住每個日期。澆水前我們自行檢查泥土，不把提醒當成命令。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the plants need water",
+            "zh": "植物需要澆水",
+            "exampleIndex": 0,
+            "span": {
+              "start": 133,
+              "end": 154
+            }
+          },
+          {
+            "en": "sends reminders",
+            "zh": "發出提醒",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 80
+            }
+          },
+          {
+            "en": "inspect the soil",
+            "zh": "檢查泥土",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 113
+            }
+          },
+          {
+            "en": "memorise every date",
+            "zh": "記住每個日期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 80
+            }
+          },
+          {
+            "en": "treating the alert as an order",
+            "zh": "把提醒當成命令",
+            "exampleIndex": 1,
+            "span": {
+              "start": 139,
+              "end": 169
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Outsourcing dates to a calendar can free attention for choices that still need human judgment.",
+          "zh": "把日期交給日曆記錄，可以騰出心力處理仍需人自行判斷的選擇。"
+        },
+        {
+          "en": "Do not outsource every detail to a phone; decide which reminders help and which facts you still need to know.",
+          "zh": "不要把每個細節都交給手機記；要分清哪些提醒有用、哪些資料仍需自己掌握。"
+        }
+      ]
+    }
+  ]
+}

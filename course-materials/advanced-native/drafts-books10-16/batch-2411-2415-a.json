@@ -10,16 +10,16 @@
       "titleZh": "拼合線索看清全貌",
       "category": "idiom",
       "target": {
-        "pattern": "\\b(?:piece|pieces|pieced|piecing) the puzzle together\\b",
+        "pattern": "\\b(?:piece|pieces|pieced|piecing) (?:the puzzle|it) together\\b",
         "glossaryForbidden": []
       },
       "brief": {
         "meaningEn": "Combine separate pieces of evidence to understand a whole situation.",
         "meaningZh": "把分散的線索拼合起來，了解事情全貌。",
-        "grammar": "Pattern: piece/pieces/pieced the puzzle together from + clues or evidence. The object the puzzle sits between piece and together; past tense pieced.",
-        "register": "Neutral figurative reconstruction: an investigator, reporter or reader tells a colleague how several incomplete clues combine into a coherent account, not a literal jigsaw.",
+        "grammar": "Use piece/pieces/pieced/piecing the puzzle together from clues, or piece it together when it clearly refers to an already named event or story. The object sits between piece and together; past tense pieced.",
+        "register": "Neutral figurative reconstruction: an investigator, family historian, reporter or reader explains how several incomplete clues combine into a coherent account, not a literal jigsaw. Use it only when the event or story it refers to is clear.",
         "boundaryZh": "重點是多項片段互相補足後形成整體理解；單靠一條線索猜中答案不夠。",
-        "misconceptionZh": "不要只翻譯為玩拼圖；也不要把尚未查明的猜測說成已經拼出全貌。",
+        "misconceptionZh": "不要只翻譯為玩拼圖；用 it 時須先清楚指出所指的事情，也不要把尚未查明的猜測說成已拼出全貌。",
         "outcomeZh": "能指出至少兩項線索及它們合起來揭示的事情。"
       },
       "sources": [
@@ -36,12 +36,26 @@
           "sentence": "We had to piece the puzzle together from short reports.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "piece the puzzle together"
+        },
+        {
+          "occurrenceId": "book10-16-0440",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 40,
+          "book": 10,
+          "question": 36,
+          "sample": "S2",
+          "sourceBookPages": "87–88",
+          "locatorNote": "DOCX table 36, row 15; page refers to locally rendered PDF recorded in intake summary.",
+          "sentence": "We used the letters to piece it together.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "piece it together"
         }
       ],
       "listening": {
         "en": "The sports team received one message about a changed match time and another about a different venue. By comparing both notices with the official schedule, they pieced the puzzle together and found the correct plan.",
         "zh": "球隊收到一則比賽改時間的訊息，另一則卻說場地不同。隊員把兩則通知與官方時間表比對，拼合線索，查明正確安排。",
-        "promptZh": "隊員如何 pieced the puzzle together？",
+        "promptZh": "隊員如何把線索拼合起來，查明正確安排？",
         "options": [
           {
             "id": "a",
@@ -99,8 +113,8 @@
         "options": [
           {
             "id": "a",
-            "en": "Staff pieced the puzzle together from the call log and the text notice.",
-            "zh": "職員從通話紀錄和通知短訊拼合出事情經過。"
+            "en": "Staff pieced it together from the call log and the text notice.",
+            "zh": "職員從通話紀錄和通知短訊拼合出預約改動的經過。"
           },
           {
             "id": "b",
@@ -237,8 +251,8 @@
           "zh": "調查人員把收據與送貨單的線索拼合起來，還原全貌。"
         },
         {
-          "en": "Several short interviews helped us piece the puzzle together.",
-          "zh": "幾段簡短訪談幫助我們拼合線索，了解全貌。"
+          "en": "Mara wanted to understand her family’s move. Two dated postcards and a tenancy letter helped her piece it together.",
+          "zh": "瑪拉想了解家人搬遷的經過。兩張有日期的明信片和一封租約信幫助她把線索拼合起來。"
         }
       ],
       "review": {
@@ -267,7 +281,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 4
+      "contentRevision": 5
     },
     {
       "id": "advanced-native-2414",

@@ -1,0 +1,44 @@
+{
+  "reviewType": "independent-ai-exact-hash-content-review",
+  "status": "scoped-repairs-required-before-provisional-selection",
+  "input": {
+    "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-2554-downright-b.json",
+    "draftSha256": "64eb7bd7419ffb18d50f343b441a6ad6cd031f67d43dec83a306d57ff0abd6e5",
+    "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-2554-downright-b.json",
+    "authorAuditSha256": "d5c43df777cc5f767b49863de47b43d239a2ea70200aaa9f7cc7c73875b36f63"
+  },
+  "sourceAndSense": {
+    "sourceOrdinal": 2554,
+    "sourceId": "book10-16-0443",
+    "sourceExpression": "downright dangerous",
+    "sourceSentence": "That shortcut looks downright dangerous after dark.",
+    "judgment": "A source-bound, reusable degree/register construction is defensible; it is accurately labelled natural English rather than a fixed idiom. The drafted safety, misleading-claim, unfair-process, unsupported dishonesty, rudeness and privacy cases offer more than adjective synonym substitution if Step 4 is repaired.",
+    "primaryUsageReference": "https://www.oxfordlearnersdictionaries.com/us/definition/english/downright_1",
+    "primaryUsageFinding": "Oxford gives the adverb as emphasis for negative or unpleasant evaluation, including dangerous and rude. The draft's restricted negative-adjective scope is truthful, without claiming all positive uses are impossible."
+  },
+  "findings": [
+    {
+      "id": "R2554-01",
+      "severity": "major",
+      "path": "lessons[number=2554].contrast",
+      "finding": "Step 4 currently asks `Which description best matches that evidence?` and keys another well-supported strong adjective, `downright unfair`. This repeats Step 3's positive evidence-to-degree decision instead of testing a real boundary or exception. Golden SOP P90/P91/P125/P126 require Step 4 to distinguish a limit of use.",
+      "requestedRepair": "Rewrite Step 4 as a least-fitting/unsupported-intensity contrast where a minor, uncertain or non-culpable problem does not justify downright + a strong negative adjective, while the other options are defensible strong cases. Make the negative cue explicit in English/Chinese, retain one defensible best answer, and align the explanation with evidence rather than moral certainty."
+    },
+    {
+      "id": "R2554-02",
+      "severity": "minor",
+      "path": "lessons[number=2554].writing.glossary[0]",
+      "finding": "The English glossary span `promised to keep` ends before its object/complement, whereas Chinese `承諾保密` already interprets the omitted `private` meaning. Though the offsets are exact, the row is an incomplete expression and its translation is not self-contained.",
+      "requestedRepair": "Use an exact contiguous, complete span such as `keep the member's draft private` or `promised to keep the member's draft private`, with a faithful Traditional Chinese gloss, and recalculate its offsets."
+    }
+  ],
+  "checks": {
+    "independentFocusedBuildAndCheck": "1 lesson, 6 questions, 4 audio requests, 0 review flags; build and --check passed in /private/tmp/review-2554-downright-a",
+    "sourceProvenance": "Source ID, expression and sentence match inventory; full source sentence matches target pattern.",
+    "targetAndGlossary": "Listening, golden reply, keyed scene/contrast/dialogue, speaking span, two writing models and both takeaways use reviewed target forms. Six glossary offsets are exact and exclude the target; R2554-02 concerns one span's completeness/translation, not its offset.",
+    "fourValidReplies": "All four replies independently address the jammed emergency exit with a proportionate safe action; only the golden reply uses downright dangerous.",
+    "englishChinese": "No other material bilingual contradiction found in the assessed items or writing models.",
+    "originality": "Author's 28-by-2,604 six-token source screen reports zero hits; this reviewer did not rerun the full lexical screen."
+  },
+  "limits": "AI content review only. No human language approval, audio listening, browser/device QA, selection, upload or release claim."
+}

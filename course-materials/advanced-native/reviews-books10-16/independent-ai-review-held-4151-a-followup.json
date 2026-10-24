@@ -1,0 +1,35 @@
+{
+  "reportType": "independent-ai-exact-hash-scoped-followup",
+  "status": "content-clear-unselected",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-4151-memory-b.json",
+  "draftSha256": "f2aa899bb676097adee4ef462ea81a9aaa6cf782b9a39d718eb40f9fd3ab647f",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-4151-memory-b.json",
+  "authorAuditSha256": "014f31136c6e9956f64a4fb6a0b31fc132eaf1db0a178680272741c10509b123",
+  "originalReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-4151-a.json",
+  "resolutions": [
+    {
+      "id": "R4151-01",
+      "status": "resolved",
+      "evidence": "The revised target regex accepts the exact source and assessed inflections while rejecting tested malformed every/all/some plus singular/plural objects and a/an plus destinations. Source, keyed, speaking and writing spans remain covered."
+    },
+    {
+      "id": "R4151-02",
+      "status": "resolved",
+      "evidence": "The revised dialogue assesses the source's selective-versus-all-details boundary: a check-in reminder may be useful, but phones are unavailable after handover at the venue gate, so essential directions and safety instructions must be reviewed rather than stored only in the app. It no longer gives practice decisions to the app, preserving the distinction from owner 1031's harmful judgment dependence. Key, Chinese and rationale align."
+    },
+    {
+      "id": "R4151-03",
+      "status": "resolved-editorial-watch",
+      "evidence": "The scene now states designers formerly relied on memory for measurements before using the app; reply alternatives specify different operational ways to keep reminders with the team while volunteers choose books and answer readers."
+    }
+  ],
+  "checks": {
+    "independentBuildAndCheck": "1 lesson, 6 questions, 4 audio requests, 0 flags; build and --check pass at the final hash in /private/tmp/review-4151-memory-final-a",
+    "source": "Exact source sentence and expression provenance retained; source full sentence matches final target pattern.",
+    "target": "All target-bearing keyed fields, speaking span and both writing models match; malformed article/number controls reject.",
+    "glossary": "Five answer-derived glossary spans match the final model English exactly and exclude the target.",
+    "chinese": "Changed dialogue and scene preserve their English facts and owner boundary in Traditional Chinese."
+  },
+  "ownerJudgment": "4151 teaches figurative delegation of remembering to a device, including when to retain essential information. Selected 1031 a crutch requires evidence of dependence that limits independent judgment or development. The final assessment does not claim useful reminders alone prove a crutch.",
+  "limits": "AI content clearance for an unselected draft only; no human language sign-off, actual listening, browser/device QA, media production, selection, upload or release claim."
+}

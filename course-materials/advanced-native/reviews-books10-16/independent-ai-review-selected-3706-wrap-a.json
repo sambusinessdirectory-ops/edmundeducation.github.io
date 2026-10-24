@@ -1,0 +1,19 @@
+{
+  "reviewType": "independent-exact-hash-scoped-selected-content-review",
+  "lessonId": "advanced-native-3706",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-3702-3715-a.json",
+  "draftSha256": "f6b121e19a42ca0a3ca0098a304a870db137eddd2bf2356c7ce49c80ff536673",
+  "authorAuditSha256": "5fd7f06a8d6e9e3fa4f9700a2fc2363403650aa6ef793bc2604c31c9039536a3",
+  "changedFields": ["lessons[number=3706].listening.options[id=c].en", "lessons[number=3706].contentRevision"],
+  "verdict": "content-clear-with-visual-check-separate",
+  "findings": [],
+  "evidence": {
+    "wrongAnswerLogic": "The 1998 prototype lacked wireless coverage, and comparable signs became common decades later. The shortened option still incorrectly says they had been common for decades at that point; keyed A remains the only audio-supported answer.",
+    "traditionalChinese": "The unchanged Chinese specifies before 1998. The English past-perfect claim takes the 1998 prototype as its reference point from the listening text, so both assert the same false historical chronology in context.",
+    "gradingAndIds": "Only option C English and contentRevision changed in the Git diff; option IDs and answerId a remain unchanged.",
+    "targetLeakage": "Option C does not contain ahead of its time or disclose why it is incorrect.",
+    "wrapIntent": "The replacement is substantially shorter while preserving the false chronology. Layout improvement remains a browser-visual claim to test separately.",
+    "focusedBuildAndCheck": "4 lessons, 24 questions, 16 audio requests, 0 review flags"
+  },
+  "limits": "No selected manifest, decision, Golden audit, media, staging or publication files changed by this reviewer. This is content review, not a browser or device result."
+}

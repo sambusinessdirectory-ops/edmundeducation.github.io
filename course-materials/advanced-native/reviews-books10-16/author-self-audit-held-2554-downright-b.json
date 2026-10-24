@@ -1,0 +1,65 @@
+{
+  "type": "author self-audit for held source 2554; unselected natural-English adverb construction",
+  "recordedAtUtc": "2026-10-24T00:18:57.831307+00:00",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-2554-downright-b.json",
+  "draftSha256": "c26fa274f82704a424e9dcabca91265fe9455b76b6f79aa33f2948cd828733f8",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceOrdinal": 2554,
+  "sourceId": "book10-16-0443",
+  "exactSourceExpression": "downright dangerous",
+  "exactSourceSentence": "That shortcut looks downright dangerous after dark.",
+  "normalizedTarget": "downright + strongly negative adjective",
+  "teachableUnitDecision": "Provisional new lesson. It teaches emphatic degree, negative-adjective placement, and evidence/register calibration across safety, misleading claims, unfair process, unsupported dishonesty accusations, rudeness and privacy; more than six synonym substitutions. It is a source-bound natural collocation, not labelled an idiom. Independent review should reject it if those decisions prove too transparent or duplicative.",
+  "ownerScreen": {
+    "selectedAndCanonicalOwnerPatternsScreened": 2507,
+    "fullSourceSentenceMatches": 0,
+    "nearbyTitle": "ban outright (owner 1241), a different verb-complement construction and meaning"
+  },
+  "primaryUsageEvidence": [
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/downright_1",
+      "note": "Oxford Advanced Learner’s Dictionary gives the adverb as emphasizing negative or unpleasant evaluation, including dangerous; author checked source register/degree here."
+    }
+  ],
+  "buildCheck": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRequests": 4,
+    "reviewFlags": 0,
+    "build": "passed",
+    "check": "passed"
+  },
+  "targetControls": {
+    "positives": 7,
+    "negatives": 6,
+    "sourceFullSentenceMatch": true,
+    "grammarBoundary": "downright immediately before enumerated negative adjectives; not noun, extra degree adverb, or unrelated outright"
+  },
+  "contentChecks": {
+    "sevenSteps": 7,
+    "sixAssessedItems": 6,
+    "fourIndependentlyValidReplyOptions": true,
+    "allAssessedGoldenKeysTargetBearingExceptListeningAudioKey": true,
+    "traditionalChineseParitySelfReviewed": true,
+    "writingChangedContext": "Private club draft exposed after a promise of confidentiality, distinct from safety, misleading fundraising, and voting assessments.",
+    "writingModelsComplete": true,
+    "answerDerivedNonTargetGlossaryRows": 6,
+    "glossarySpansExact": true,
+    "step4Boundary": "Parallel factual judgments now make the learner assess whether downright is warranted: spacing-only typo versus discarded ballots and known nut-allergen mislabeling; no option announces its own validity."
+  },
+  "originalityScreen": {
+    "learnerEnglishStrings": 28,
+    "guideSourceExamples": 2604,
+    "sixTokenNonTargetHits": 0,
+    "limitation": "Mechanical lexical screen; independent semantic review pending."
+  },
+  "selectedManifestEdited": false,
+  "editorialDecisionsEdited": false,
+  "independentReview": "pending",
+  "limitations": [
+    "AI author self-review only. No audio listening, physical-device testing, hosted release or publication claim.",
+    "This is a degree/register construction. Its standalone course value remains an editorial judgment despite passing structural checks."
+  ],
+  "contentRevision": 3,
+  "repairNote": "R2554-01/02 fixed in revision 2; follow-up reviewer found answer leakage in contrast option verdict words. Revision 3 removes verdict cues from all three options in EN/ZH while retaining the true least-fitting case. Focused build/check 1/6/4/0 passes."
+}

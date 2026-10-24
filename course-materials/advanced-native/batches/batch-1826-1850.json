@@ -1779,12 +1779,12 @@
       "id": "advanced-native-1839",
       "number": 1839,
       "inventoryId": "expr-1839",
-      "contentRevision": 1,
-      "titleEn": "takes the shine off the trip",
-      "titleZh": "令旅程少了些光彩",
+      "contentRevision": 2,
+      "titleEn": "take the shine off it",
+      "titleZh": "令原本期待的事少了些光彩",
       "category": "idiom",
       "target": {
-        "pattern": "\\btak(?:e|es|en|ing) the shine off the trip\\b|\\btook the shine off the trip\\b"
+        "pattern": "\\b(?:take|takes|took|taken|taking) the shine off (?:the trip|it)\\b"
       },
       "sources": [
         {
@@ -1800,16 +1800,30 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "takes the shine off the trip",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-1357",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 127,
+          "book": 13,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "29–30",
+          "locatorNote": "DOCX table 133, row 6; page refers to locally rendered PDF recorded in intake summary. The isolated source sentence does not resolve it; no specific antecedent is inferred.",
+          "sentence": "A long journey can take the shine off it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take the shine off it"
         }
       ],
       "brief": {
-        "meaningEn": "Reduce the pleasure, excitement or positive impression of a journey.",
-        "meaningZh": "減少旅程的樂趣、興奮或原有好印象。",
-        "grammar": "a problem takes/took/has taken the shine off the trip; shine is the attraction or pleasure, not a surface needing polish",
+        "meaningEn": "Reduce the pleasure, excitement or positive impression of a trip or another clearly named anticipated experience.",
+        "meaningZh": "減少旅程或另一項已清楚指出、原本令人期待的經歷所帶來的樂趣、興奮或好印象。",
+        "grammar": "A problem takes/took/has taken the shine off the trip; take/takes/took/taken/taking the shine off it is natural only when it clearly refers to a named experience. Shine means appeal or enjoyment, not literal polish.",
         "register": "neutral",
-        "boundaryZh": "樂趣減少不等於整趟完全沒有好處，也不自動決定誰有責任；需說是哪件事影響哪種感受。",
-        "misconceptionZh": "樂趣減少不等於整趟完全沒有好處，也不自動決定誰有責任；需說是哪件事影響哪種感受。",
-        "outcomeZh": "理解「令旅程少了些光彩」的語境及用法，並在新情境寫出自然句子。"
+        "boundaryZh": "it 必須清楚指向前文的經歷；樂趣減少不等於整件事完全沒有好處，也不自動決定誰有責任。",
+        "misconceptionZh": "不要把 it 無指向地套入句子，或把 shine 解作物件表面的光澤；也不要說成所有樂趣都消失。",
+        "outcomeZh": "能指出受影響的經歷、減少樂趣的事件，以及 it 的清楚所指。"
       },
       "listening": {
         "en": "The cancelled boat ride took the shine off the trip because it was the outing I had most looked forward to, though the evening meal with our cousins was still a highlight.",
@@ -1818,23 +1832,23 @@
         "options": [
           {
             "id": "choice-1",
-            "en": "失去最期待的活動減少了樂趣，但旅程仍有珍惜的部分。",
-            "zh": ""
+            "en": "Losing the activity they had most looked forward to reduced the pleasure, but parts of the trip were still worth cherishing.",
+            "zh": "失去最期待的活動減少了樂趣，但旅程仍有珍惜的部分。"
           },
           {
             "id": "choice-2",
-            "en": "遊船照常舉行，只有晚餐取消。",
-            "zh": ""
+            "en": "The boat ride went ahead; only dinner was cancelled.",
+            "zh": "遊船照常舉行，只有晚餐取消。"
           },
           {
             "id": "choice-3",
-            "en": "說話者認為晚餐沒有任何值得記住的地方。",
-            "zh": ""
+            "en": "The speaker thought there was nothing memorable about dinner.",
+            "zh": "說話者認為晚餐沒有任何值得記住的地方。"
           },
           {
             "id": "choice-4",
-            "en": "主要失望來自晚餐時間表，而不是取消遊船。",
-            "zh": ""
+            "en": "The main disappointment came from the dinner schedule, not the cancelled boat ride.",
+            "zh": "主要失望來自晚餐時間表，而不是取消遊船。"
           }
         ],
         "answerId": "choice-1",
@@ -1869,44 +1883,44 @@
         "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
       },
       "scene": {
-        "promptZh": "人物收到遊船可能取消的消息，但仍在等最終確認，也未說自己會否失望；朋友直接寫旅程樂趣已減。哪句最謹慎？",
+        "promptZh": "周末市集可能因天雨而縮短，但主辦方尚未確認，詩雅也未說自己會否失望；朋友直接說市集已失去吸引力。哪句最謹慎？",
         "options": [
           {
             "id": "choice-1",
-            "en": "The possibility might take the shine off the trip, but the account has not yet reported either a cancellation or the traveller’s reaction.",
-            "zh": "這可能令旅程少些光彩，但敘述尚未報告取消已定或旅客的反應。"
+            "en": "If rain shortens the fair, that might take the shine off it, but neither the change nor Sze-nga’s reaction is confirmed.",
+            "zh": "若天雨令市集縮短，可能會令它少了些光彩；但安排是否改動及詩雅的反應都未獲確認。"
           },
           {
             "id": "choice-2",
-            "en": "The warning is already a confirmed cancellation and a description of the traveller’s disappointment.",
-            "zh": "提醒已等於確認取消，也已描述旅客失望。"
+            "en": "The shorter fair and Sze-nga’s disappointment are both already confirmed.",
+            "zh": "市集縮短及詩雅感到失望都已獲確認。"
           },
           {
             "id": "choice-3",
-            "en": "The traveller has said that the boat ride was the only part worth keeping.",
-            "zh": "旅客已說遊船是唯一值得保留的部分。"
+            "en": "Sze-nga has said that the fair was the only part of the weekend worth keeping.",
+            "zh": "詩雅已說市集是周末唯一值得保留的部分。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "可能情況、確定取消和實際感受要分開，不能由提醒自行補出。"
+        "explanationZh": "可能縮短、確認改動與實際感受要分開；it 在金句中清楚指前文的市集。"
       },
       "contrast": {
         "promptZh": "哪種推論不宜由 took the shine off the trip 得出？",
         "options": [
           {
             "id": "choice-1",
-            "en": "旅程原有的樂趣或吸引力受了影響。",
-            "zh": ""
+            "en": "The trip lost some of its original pleasure or appeal.",
+            "zh": "旅程原有的樂趣或吸引力受了影響。"
           },
           {
             "id": "choice-2",
-            "en": "整趟旅程的每個部分都完全失去價值。",
-            "zh": ""
+            "en": "Every part of the trip became completely worthless.",
+            "zh": "整趟旅程的每個部分都完全失去價值。"
           },
           {
             "id": "choice-3",
-            "en": "仍可有令人珍惜的其他經歷。",
-            "zh": ""
+            "en": "Other experiences could still be worth cherishing.",
+            "zh": "仍可有令人珍惜的其他經歷。"
           }
         ],
         "answerId": "choice-2",
@@ -2010,8 +2024,8 @@
           "zh": "長時間等候令旅程對他少了些光彩，但他仍享受跟舊同學見面。"
         },
         {
-          "en": "She hoped the dispute would not take the shine off the trip and asked to clarify the shared plans before departure.",
-          "zh": "她希望爭議不會令旅程少些光彩，便請求出發前釐清共同安排。"
+          "en": "Lin had looked forward to the exhibit opening. A last-minute room change took the shine off it, though she still enjoyed the art.",
+          "zh": "琳原本期待展覽開幕。臨時更換展室令開幕少了些光彩，但她仍然欣賞展品。"
         }
       ],
       "review": {

@@ -2174,7 +2174,7 @@
       },
       "takeaways": [
         {
-          "en": "Crossed wires means a communication misunderstanding.",
+          "en": "Crossed wires means a communication mix-up.",
           "zh": "crossed wires 指溝通誤會。"
         },
         {
@@ -2208,7 +2208,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     }
   ]
 }

@@ -1,0 +1,97 @@
+{
+  "status": "read_only_proposal_no_selected_or_decision_mutation",
+  "generatedAtUTC": "2026-10-24T00:22:59.678737+00:00",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-2551-3468-proposed-b.json",
+  "proposalSha256": "17be365c920b39f7eb90bcc311af2bc9e2567e633d06b0f06e55591981d3cb5d",
+  "owners": [
+    {
+      "sourceOrdinal": 2551,
+      "ownerId": "advanced-native-2411",
+      "selectedFile": "course-materials/advanced-native/drafts-books10-16/batch-2411-2415-a.json",
+      "selectedFileSha256": "d835380932b20eabff2c61a61c65f45e4d86ef46b4eef63b14def15d7629ee0e",
+      "sameSenseReason": "Family letters are fragments used to reconstruct a coherent history, the same decision as combining evidence to piece the puzzle together. The pronoun it refers to the already named history; it is not a second owner.",
+      "decisionProposal": "proposed-alias-existing to advanced-native-2411 after independent exact-hash review.",
+      "changedFields": [
+        "target.pattern",
+        "brief.grammar",
+        "brief.register",
+        "brief.misconceptionZh",
+        "sources",
+        "scene.options[a].en/zh",
+        "takeaways[1].en/zh",
+        "contentRevision",
+        "listening.promptZh"
+      ],
+      "answerIdsPreserved": true,
+      "audioDelta": [
+        "takeaway-2"
+      ]
+    },
+    {
+      "sourceOrdinal": 3468,
+      "ownerId": "advanced-native-1839",
+      "selectedFile": "course-materials/advanced-native/batches/batch-1826-1850.json",
+      "selectedFileSha256": "c652134bd9bf2763359dbebf092e17f9ad9472ff9bddcc88588303106d3020be",
+      "sameSenseReason": "The isolated sentence expresses reduced enjoyment or appeal, matching owner1839. The pronoun it lacks a recoverable antecedent in the source sentence, so teaching requires a previously named experience rather than guessing a meal or journey.",
+      "decisionProposal": "conditional proposed-alias-existing to advanced-native-1839 only if independent reviewer accepts antecedent-bounded owner expansion.",
+      "changedFields": [
+        "titleEn/Zh",
+        "target.pattern",
+        "brief.meaningEn/Zh",
+        "brief.grammar",
+        "brief.boundaryZh",
+        "brief.misconceptionZh",
+        "brief.outcomeZh",
+        "sources",
+        "scene.promptZh/options/explanationZh",
+        "takeaways[1].en/zh",
+        "contentRevision",
+        "listening.options[0..3].en/zh",
+        "contrast.options[0..2].en/zh"
+      ],
+      "answerIdsPreserved": true,
+      "audioDelta": [
+        "takeaway-2"
+      ]
+    }
+  ],
+  "sourceEvidence": {
+    "2551": "We used the letters to piece it together.",
+    "3468": "A long journey can take the shine off it."
+  },
+  "knownLimit": "Regex can require the phrase and object form but cannot establish a discourse antecedent. The 3468 scene explicitly names the fair; isolated source it remains unresolved.",
+  "selectionImpact": "none; proposal file only",
+  "validation": {
+    "focusedBuildAndCheck": {
+      "lessons": 2,
+      "questions": 12,
+      "audioRequests": 8,
+      "reviewFlags": 0
+    },
+    "nativeJsPatternControls": {
+      "2411": {
+        "positive": 4,
+        "negative": 4,
+        "allPassed": true
+      },
+      "1839": {
+        "positive": 4,
+        "negative": 4,
+        "allPassed": true
+      }
+    },
+    "fullBooks10to16SourceScreen": {
+      "sourceRows": 2604,
+      "2411MatchedSourceIds": [
+        "book10-16-0300",
+        "book10-16-0440"
+      ],
+      "1839MatchedSourceIds": [
+        "book10-16-1357"
+      ]
+    },
+    "legacySourceControl": "Owner1839 original Book8 sentence and owner2411 original Book10 sentence both match; answer IDs unchanged.",
+    "media": "Only takeaway-2 text changes in each proposed owner; no audio synthesis or listening performed.",
+    "bilingualRepair": "Moved seven inherited Traditional Chinese option strings from .en into .zh and supplied faithful English .en; all answer IDs preserved. Owner2411 listening prompt now reads naturally in Chinese."
+  }
+}

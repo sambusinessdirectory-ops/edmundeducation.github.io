@@ -1,0 +1,51 @@
+{
+  "type": "read-only teachable-unit disposition for held 3860, held 2331/2367 and provisional 4151",
+  "recordedAtUtc": "2026-10-24T00:14:57.086551+00:00",
+  "items": [
+    {
+      "sourceOrdinals": [
+        3860
+      ],
+      "sourceIds": [
+        "book10-16-1749",
+        "book10-16-1704"
+      ],
+      "sourceSentence": "A good policy tackles both the symptoms and the roots of the problem.",
+      "statusRecommendation": "hold-editorial",
+      "selectedOwner": 1104,
+      "ownerPath": "course-materials/advanced-native/batches/batch-1101-1125.json",
+      "ownerSha256": "3b8db33adc07a44326335324a4d2c898a166df0d3b3c40f748b9a882252175d9",
+      "reason": "Owner 1104 already teaches immediate effects versus underlying causes and expressly permits useful symptom relief while investigating the cause. The both/and source is the positive completion of the same decision; its different wording is not enough for a distinct seven-step lesson. Current target regex does not cover the full source, so an alias would require a substantive two-construction owner review rather than a detector-only addition."
+    },
+    {
+      "sourceOrdinals": [
+        2331,
+        2367
+      ],
+      "sourceIds": [
+        "book10-16-0220",
+        "book10-16-0256"
+      ],
+      "sourceSentence": "She has an understated but powerful screen presence.",
+      "statusRecommendation": "hold-editorial",
+      "selectedOwner": 2332,
+      "ownerPath": "course-materials/advanced-native/drafts-books10-16/batch-2332-2350-a.json",
+      "ownerSha256": "c82eb1ef9d1e5089bb30823a851787df269c479ac5c618c6fb84c76ba5334e8b",
+      "reason": "Screen presence is a natural noun phrase, but selected 2332 already tests captivating on-camera performance, including quiet and brief-role performances, and even explains a key as engaging screen presence. A noun-versus-verb distinction alone does not create a distinct learner decision; the prior proposed lesson repeated filmed-presenter attention. A two-construction merge would materially alter the selected owner and needs separate adjudication."
+    },
+    {
+      "sourceOrdinals": [
+        4151
+      ],
+      "sourceIds": [
+        "book10-16-2040"
+      ],
+      "sourceSentence": "We should not outsource every detail to our phones.",
+      "statusRecommendation": "provisional-new-unselected",
+      "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-4151-memory-b.json",
+      "draftSha256": "f2aa899bb676097adee4ef462ea81a9aaa6cf782b9a39d718eb40f9fd3ab647f",
+      "reason": "The figurative delegation of remembering details to a tool is teachable with an explicit boundary from overdependence and independent decisions; independent editorial review remains pending."
+    }
+  ],
+  "decisionOrManifestMutations": false
+}

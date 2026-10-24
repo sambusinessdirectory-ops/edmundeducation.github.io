@@ -1,0 +1,21 @@
+{
+  "reviewType": "independent-exact-hash-scoped-selected-content-review",
+  "lessonId": "advanced-native-4679",
+  "sourceOrdinal": 4679,
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-4652-4679-review-pilot.json",
+  "draftSha256": "1bdaf8c0926950f75b3c7422f617306692e42cbdfa6e8863b80e5b2b784d320d",
+  "authorAuditSha256": "f3c3bd9723d0f2251fc851284b023ba9c990031918645f4b28834e75076ce29b",
+  "verdict": "content-clear; visual overflow check separate",
+  "changedFields": ["lessons[number=4679].takeaways[0].en", "lessons[number=4679].contentRevision"],
+  "findings": [],
+  "evidence": {
+    "sourceAndMeaning": "The guide says a direct call can prevent crossed wires over arrival times and glosses a misunderstanding between people. Communication mix-up naturally conveys that meaning without adding blame or literal electrical wiring.",
+    "englishChinese": "Crossed wires means a communication mix-up is idiomatic and concise; the unchanged crossed wires 指溝通誤會 is faithful Traditional Chinese.",
+    "target": "The revised English takeaway retains crossed wires exactly, satisfying the reviewed target pattern.",
+    "sevenStepIntegrity": "Git diff contains only takeaway[0].en and contentRevision 1→2; six assessment keys, source provenance, writing glossary offsets and other steps are unchanged.",
+    "wrapIntent": "The revised line is shorter and removes the redundant-sounding communication misunderstanding. A browser visual result is still required to claim that the completion overflow is resolved.",
+    "audioDelta": "Takeaway-1 English synthesis text changed; no audio generation or listening is claimed.",
+    "focusedBuildAndCheck": "8 lessons, 48 questions, 32 audio requests, 0 review flags"
+  },
+  "scopeLimit": "No selected manifest, decision, Golden audit, media, staging or publication files changed by the reviewer."
+}

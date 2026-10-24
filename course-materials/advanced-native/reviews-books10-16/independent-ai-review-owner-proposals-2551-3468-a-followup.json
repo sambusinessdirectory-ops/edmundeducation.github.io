@@ -1,0 +1,31 @@
+{
+  "reviewType": "independent-exact-hash-scoped-followup",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-2551-3468-proposed-b.json",
+  "proposalSha256": "17be365c920b39f7eb90bcc311af2bc9e2567e633d06b0f06e55591981d3cb5d",
+  "authorAuditSha256": "44da23c067c6570cf6d9926d2f08a087b5274fb52aeb726eb48835ad0dac8418",
+  "initialReviewSha256": "e8b5a62f8677b65a61fcfa504a82a0c3d5c12c7757649295c4f404f9a663fc6d",
+  "findings": [
+    {
+      "id": "R1839-01",
+      "status": "closed",
+      "evidence": "All four listening and three contrast options now have natural English in en and faithful Traditional Chinese in zh; keyed answers remain grounded by the unchanged audio and boundary."
+    },
+    {
+      "id": "R2411-01",
+      "status": "closed",
+      "evidence": "The listening question is now natural Traditional Chinese: 隊員如何把線索拼合起來，查明正確安排？"
+    }
+  ],
+  "ownerSense": {
+    "2551To2411": "Same-sense family-history reconstruction from letters; scene it refers to the named appointment-change sequence and takeaway it refers to the named family move.",
+    "3468To1839": "The source gloss supports reduced enjoyment or appeal. The isolated source it remains antecedent-ambiguous and is not assigned an invented referent; new assessed and takeaway uses name a fair or exhibit opening before it."
+  },
+  "validation": {
+    "focusedBuildAndCheck": "2 lessons, 12 questions, 8 audio requests, 0 review flags",
+    "fullSourceSentenceDetectorMatch": "Both incoming and original owner source sentences match their bounded target patterns.",
+    "provenance": "Exact source occurrence IDs, sentences and source metadata retained.",
+    "assessedUse": "Changed scene keys are target-bearing, evidence-grounded and bilingual; answer IDs unchanged.",
+    "status": "AI content clear as read-only owner-expansion proposals"
+  },
+  "limits": "No selected owner, editorial decision, manifest, media or publication files were changed in this review. Human and live release approval are not claimed."
+}

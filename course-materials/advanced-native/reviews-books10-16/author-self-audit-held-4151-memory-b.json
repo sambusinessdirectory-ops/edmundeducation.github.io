@@ -1,0 +1,83 @@
+{
+  "type": "author self-audit: held source 4151 as one unselected Golden SOP lesson",
+  "recordedAtUtc": "2026-10-24T00:14:57.086551+00:00",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-4151-memory-b.json",
+  "draftSha256": "f2aa899bb676097adee4ef462ea81a9aaa6cf782b9a39d718eb40f9fd3ab647f",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceOrdinal": 4151,
+  "sourceId": "book10-16-2040",
+  "sourceExpression": "outsource every detail",
+  "sourceSentence": "We should not outsource every detail to our phones.",
+  "normalizedTarget": "outsource a memory task or details to a phone, app, or digital calendar",
+  "senseBoundary": "Delegation of storing or recalling details to a digital tool may be selective and useful. Selected owner 1031 a crutch requires excessive reliance that limits independent action or judgment; the source 4151 warns against outsourcing every detail but does not say every reminder is harmful.",
+  "ownerComparison": {
+    "selectedOwner": 1031,
+    "selectedOwnerPath": "course-materials/advanced-native/batches/batch-1026-1050.json",
+    "selectedOwnerSha256": "56485c9b12055b43569b50621d5bac875b40a8a331be653c7cb7cebc2bf13cd5",
+    "selectedMeaning": "Something relied on so heavily that it may limit independent action or development.",
+    "fullSourceRegexMatchesIn2507SelectedAndCanonicalLessons": 0,
+    "semanticCollisionJudgment": "Distinct delegation-versus-dependence decision, subject to independent editorial challenge."
+  },
+  "usageEvidence": [
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/outsource",
+      "note": "Conventional verb is delegation of work; this lesson teaches an expressly figurative extension."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9971128/",
+      "note": "Research uses outsourcing memory to external tools as a cognitive-offloading concept; this supports register but does not establish every drafted example as natural."
+    }
+  ],
+  "buildCheck": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRequests": 4,
+    "reviewFlags": 0,
+    "build": "passed",
+    "check": "passed"
+  },
+  "targetControls": {
+    "positiveCount": 8,
+    "negativeCount": 12,
+    "exactSourceMatch": true,
+    "coveredInflections": [
+      "outsource",
+      "outsources",
+      "outsourced",
+      "outsourcing"
+    ],
+    "objectBoundary": "memory/details/dates and specified scheduling or reminder tasks",
+    "destinationBoundary": "phone/app/device/calendar variants",
+    "businessPayrollNegativeRejected": true,
+    "judgmentWithoutDelegationNegativeRejected": true,
+    "malformedArticleAndNumberNegativesRejected": true
+  },
+  "contentChecks": {
+    "sevenSteps": 7,
+    "assessedQuestions": 6,
+    "replyOptionsIndependentlyValid": 4,
+    "fourTargetAudioTexts": true,
+    "writingContexts": "School science-club plant care, separate from theatre-costume memory-record scene and timing assessments.",
+    "writingModelsAddressPromptAndSelfCheck": true,
+    "traditionalChineseFieldsPresentAndParitySelfReviewed": true,
+    "glossaryRows": 5,
+    "answerDerivedGlossaryOffsetsExactAndNonTarget": true,
+    "assessedSourceEveryDetailLimit": "Dialogue tests selective check-in reminders against storing every gate direction and safety instruction only on an app that players cannot access at entry. The response preserves essential memory access without shifting practice judgments to the app."
+  },
+  "originalityScreen": {
+    "learnerEnglishStrings": 28,
+    "guideSourceExamples": 2604,
+    "contiguousSixTokenHits": 0,
+    "limitation": "Mechanical screen does not prove semantic originality or full linguistic quality."
+  },
+  "selectedManifestEdited": false,
+  "editorialDecisionsEdited": false,
+  "independentReview": "pending",
+  "limitations": [
+    "AI author self-review only; independent source/owner, idiomaticity and EN/ZH review pending.",
+    "No listening, physical-device QA, audio production, publication, or release approval claim."
+  ],
+  "contentRevision": 3,
+  "repairNote": "R4151-01/02 regex agreement and all-details boundary repaired. Subsequent scoped reviewer found dialogue overreached into owner1031 independent-judgment harm; revision 3 instead tests memory-only inaccessibility at a phone handover. EN/ZH aligned, native JS 8 positive/12 negative controls, focused build/check, 28×2604 six-token originality screen pass."
+}

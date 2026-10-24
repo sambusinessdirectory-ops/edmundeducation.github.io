@@ -1,0 +1,56 @@
+{
+  "status": "integrated-provisionally-unpublished",
+  "sourceProposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-2551-3468-proposed-b.json",
+  "sourceProposalSha256": "17be365c920b39f7eb90bcc311af2bc9e2567e633d06b0f06e55591981d3cb5d",
+  "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-proposals-2551-3468-a-followup.json",
+  "independentReviewSha256": "bd9f8871876039d692282a3ee238c178eaea4fa041aea567bc7b194b6a8ea1c2",
+  "selectedManifestSha256Unchanged": "7928f7c6e19bfd703c122c03ecd6e04fc789a407cca8be34e36f93632eb8c497",
+  "ownerFiles": [
+    {
+      "lessonId": "advanced-native-2411",
+      "sourceOrdinal": 2551,
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2411-2415-a.json",
+      "beforeSha256": "d835380932b20eabff2c61a61c65f45e4d86ef46b4eef63b14def15d7629ee0e",
+      "afterSha256": "de3dcd8dd747ac12f320422907e36506caeeb9344be1ffca991a14a85c063610",
+      "proposedLessonExactMatch": true,
+      "contentRevision": 5,
+      "decisionAction": "proposed-alias-new",
+      "reason": "2411 is a selected Books 10–16 new owner, so the alias-new action is required even though the reviewed proposal called it alias-existing."
+    },
+    {
+      "lessonId": "advanced-native-1839",
+      "sourceOrdinal": 3468,
+      "path": "course-materials/advanced-native/batches/batch-1826-1850.json",
+      "beforeSha256": "c652134bd9bf2763359dbebf092e17f9ad9472ff9bddcc88588303106d3020be",
+      "afterSha256": "84c2d6c322e0dadf5532be17e7584893bab9fd35691b77347a671d5a935c809c",
+      "proposedLessonExactMatch": true,
+      "contentRevision": 2,
+      "decisionAction": "proposed-alias-existing"
+    }
+  ],
+  "decisionFiles": [
+    {
+      "sourceOrdinal": 2551,
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "beforeSha256AtEdit": "fe8dda0b93e9cebcb6c26f4c25144c748163e4507345f132ceb33a69fb0576cb",
+      "afterSha256": "a399c4addd119a641823fee841e0ff60e8479864475a53e861c8931843295707",
+      "note": "Only source row 2551 was edited by this integration; the file had pre-existing concurrent changes."
+    },
+    {
+      "sourceOrdinal": 3468,
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3432-3491.jsonl",
+      "beforeSha256AtEdit": "74f7ddda1cdfc7a59a7b7e9dff8b1bf158bdac67f37024cae016db2583406c5d",
+      "afterSha256": "3997af9c353b914c85a05e0b492e31113954056ea07744c1be7911bcee890cde"
+    }
+  ],
+  "validation": {
+    "focused2411BuildAndCheck": "3 lessons, 18 questions, 12 audio requests, 0 review flags",
+    "focused1839BuildAndCheck": "18 lessons, 108 questions, 72 audio requests, 0 review flags",
+    "fullVerifier": "2,604 source rows; 626 selected lessons; 3,756 questions; 2,504 selected audio roles; 0 schema errors or alias exceptions; unpublished",
+    "allDiscoveredExistingAliasAudit": "1,165/1,165 match; 0 exceptions",
+    "allDiscoveredNewAliasAudit": "182/182 match; 0 exceptions",
+    "holdCoverage": "631 current holds; 0 unaudited; 0 errors",
+    "gradedChoiceIdsPreserved": true
+  },
+  "outOfScope": "Selected manifest, Golden SOP audit, media, staging, commits, pushes and deployment were not changed. Audio text changed for takeaway-2 in each owner and needs the parent's combined-queue processing."
+}

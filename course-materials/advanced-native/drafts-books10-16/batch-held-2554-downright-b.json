@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-2554-downright-b",
+  "lessons": [
+    {
+      "id": "advanced-native-2554",
+      "number": 2554,
+      "inventoryId": "expr-2554",
+      "titleEn": "downright + a negative adjective",
+      "titleZh": "downright 加負面形容詞，強調程度",
+      "category": "natural",
+      "contentRevision": 3,
+      "target": {
+        "pattern": "\\bdownright (?:dangerous|misleading|unfair|dishonest|irresponsible|rude|disrespectful|unsafe|harmful|offensive|unacceptable)\\b",
+        "glossaryForbidden": [
+          "\\bdownright\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Downright strengthens a negative or unpleasant adjective to say the problem is clear and serious, not merely a small irritation. Choose it when the facts support that strength; the source uses downright dangerous for a risky shortcut after dark.",
+        "meaningZh": "downright 放在負面形容詞前，強調問題明顯而且嚴重，不只是稍有不便。應有足夠事實才用這種強烈說法；原句用 downright dangerous 形容天黑後危險的捷徑。",
+        "grammar": "Downright + negative evaluative adjective: downright dangerous, misleading, unfair, or rude. This source-bound lesson assesses that construction; it does not teach every possible positive or idiomatic use of downright.",
+        "register": "Forceful everyday criticism or warning. A caretaker might alert a facilities manager to an observed danger; a club member might challenge a misleading claim. Match the intensity to evidence and avoid a personal accusation without support.",
+        "boundaryZh": "本課只教原句所屬的負面評價用法；downright 表示強烈程度，不會單憑說話者不滿就證明對方故意欺騙，也不是放在名詞前的普通形容詞。",
+        "misconceptionZh": "不要把小失誤自動說成 downright dishonest；若缺乏欺騙證據，可先說令人不便或需要核實。",
+        "outcomeZh": "能根據具體證據判斷何時用 downright 加強負面評價，並在證據不足時改用較溫和、準確的措辭。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0443",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 41,
+          "book": 11,
+          "question": 1,
+          "sample": "S1",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 37, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "That shortcut looks downright dangerous after dark.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "downright dangerous"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "Unselected adverb-plus-adjective candidate; independent editorial review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "Why does the caretaker call the ramp more than inconvenient?",
+        "promptZh": "為甚麼管理員認為那條斜道不只是使用不便？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A wheelchair wheel nearly slipped off where an edge guard is missing.",
+            "zh": "斜道缺少邊緣護欄，一個輪椅輪子差點滑出去。"
+          },
+          {
+            "id": "b",
+            "en": "A visitor asked for a clearer sign beside an otherwise safe ramp.",
+            "zh": "有訪客希望在安全的斜道旁加一塊清晰的指示牌。"
+          },
+          {
+            "id": "c",
+            "en": "The ramp paint is an unpopular colour, but its guard is intact.",
+            "zh": "斜道油漆顏色不受歡迎，但護欄完好。"
+          },
+          {
+            "id": "d",
+            "en": "The caretaker prefers a different entrance even though no risk was observed.",
+            "zh": "管理員偏好另一個入口，但未觀察到任何風險。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "缺少護欄又幾乎發生滑出意外，有具體證據支持 downright dangerous 這種強烈警告。",
+        "en": "The ramp has lost an edge guard. A wheelchair wheel nearly slipped off it this morning. It is downright dangerous until the guard is replaced.",
+        "zh": "斜道缺了一段邊緣護欄。今早有一個輪椅輪子差點滑出去。護欄修好前，這裏實在很危險。"
+      },
+      "reply": {
+        "promptEn": "During a community-hall drill, the emergency exit sticks shut. What could you tell the manager to prompt a safe response?",
+        "promptZh": "社區禮堂演習時，緊急出口的門卡住打不開。你可怎樣告訴經理，促使他安全處理？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That is downright dangerous; please stop using the hall until the exit opens reliably.",
+            "zh": "這實在很危險；請暫停使用禮堂，直至出口能可靠地打開。"
+          },
+          {
+            "id": "b",
+            "en": "Please move the group out and ask maintenance to repair the exit before the hall reopens.",
+            "zh": "請先帶大家離開，請維修人員修好出口後才重開禮堂。"
+          },
+          {
+            "id": "c",
+            "en": "A jammed emergency exit is a serious risk; can we pause the event and get it fixed now?",
+            "zh": "緊急出口卡住是嚴重風險；可否暫停活動並立即維修？"
+          },
+          {
+            "id": "d",
+            "en": "We should not hold another event here while the exit can stick shut; please arrange a repair.",
+            "zh": "出口仍可能卡住時，不應在此再辦活動；請安排維修。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都承認出口卡住的嚴重風險並提出安全行動；金句用 downright dangerous 準確加強警告。"
+      },
+      "scene": {
+        "promptEn": "A meal charity poster says every donation pays for meals, but its records show half of donations pay for unrelated venue hire. Which assessment fits the evidence?",
+        "promptZh": "一間供餐慈善團體的海報聲稱每筆捐款都用於餐食，但紀錄顯示一半捐款付了無關的場地租金。哪項評價符合證據？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The poster is downright misleading because half the money does not pay for meals.",
+            "zh": "海報確實嚴重誤導人，因為一半款項並非用於餐食。"
+          },
+          {
+            "id": "b",
+            "en": "The claim is accurate because venue hire can sometimes support a charity event.",
+            "zh": "這項聲稱是準確的，因為場地租金有時也可支持慈善活動。"
+          },
+          {
+            "id": "c",
+            "en": "The records prove that none of the donations pays for meals.",
+            "zh": "紀錄證明所有捐款都沒有用於餐食。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "「每筆捐款都用於餐食」與一半付無關租金的紀錄矛盾；後兩句各自忽略或誇大了證據。"
+      },
+      "contrast": {
+        "promptEn": "Which use of downright is least justified by the stated evidence?",
+        "promptZh": "哪個用 downright 作出的強烈評價，最缺乏所述證據支持？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A poster with one spacing error but otherwise clear facts is downright misleading.",
+            "zh": "海報只有一處字距錯誤，其餘事實都清楚，這是「嚴重誤導」。"
+          },
+          {
+            "id": "b",
+            "en": "A club that promised equal votes and then discarded most members’ ballots is downright unfair.",
+            "zh": "社團承諾平等投票，之後卻丟掉大部分會員選票，這是「極不公平」。"
+          },
+          {
+            "id": "c",
+            "en": "A supplier that knowingly labels food nut-free when it contains nuts is downright dangerous.",
+            "zh": "供應商明知食品含堅果，仍標示為不含堅果，這是「非常危險」。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "字距小錯未令內容失實，不能據此稱海報嚴重誤導；丟掉選票和明知含堅果仍錯誤標示，則有具體證據支持強烈負面評價。"
+      },
+      "dialogue": {
+        "promptEn": "A booking deadline was missed after a calendar failed to send an alert. A student calls the organiser “downright dishonest”, although there is no evidence of deception. What is a fair reply?",
+        "promptZh": "日曆沒有發出提醒，導致預約截止時間錯過。一名學生稱主辦者「徹頭徹尾不誠實」，但沒有欺騙證據。怎樣回應才公允？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The missed deadline is frustrating, but we cannot call the organiser downright dishonest without evidence of deliberate deception.",
+            "zh": "錯過截止時間令人懊惱，但沒有故意欺騙的證據，就不能說主辦者極不誠實。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. Missing any deadline proves the organiser meant to deceive us.",
+            "zh": "對。錯過任何截止時間，都證明主辦者有意欺騙我們。"
+          },
+          {
+            "id": "c",
+            "en": "No. Because the alert failed, there is no need to check whether anyone was affected.",
+            "zh": "不是。既然提醒失效，就毋須查明是否有人受到影響。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錯過期限值得處理，但 downright dishonest 是對品格的強烈指控；沒有故意欺騙的證據時不應使用。"
+      },
+      "speaking": {
+        "en": "Mocking a learner after they ask for help is downright rude; the tutor should intervene.",
+        "zh": "有人求助後還被嘲笑，這實在很無禮；導師應該介入。",
+        "promptZh": "先聽示範，再說出哪個行為支持強烈的負面評價，以及應採取甚麼行動。",
+        "targetSpan": {
+          "start": 45,
+          "end": 59
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社團主席承諾把會員的私人草稿保密，之後卻未經同意公開張貼。請用一至兩句英文向社團委員說明為何這不只是尷尬的小事，並提出補救行動；不要無證據地指控收款或其他動機。",
+        "selfCheckZh": "兩例都提到保密承諾、未經同意公開草稿、足以支持強烈負面評價的具體行為，以及刪除和道歉等補救；沒有捏造主席動機。",
+        "examples": [
+          {
+            "en": "The chair promised to keep the member's draft private, then posted it for everyone to read. That was downright disrespectful; the chair should remove the post and apologise.",
+            "zh": "主席承諾把會員的草稿保密，卻張貼出來讓所有人看。這實在很不尊重人；主席應刪除貼文並道歉。"
+          },
+          {
+            "en": "Sharing the member's private draft without consent after promising confidentiality was downright irresponsible. The club should delete the copy, apologise, and let the member decide whether to submit anything again.",
+            "zh": "承諾保密後，未經同意就分享會員的私人草稿，實在極不負責任。社團應刪除副本、道歉，並讓會員自行決定日後是否再投稿。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "promised to keep the member's draft private",
+            "zh": "承諾把會員的草稿保密",
+            "exampleIndex": 0,
+            "span": {
+              "start": 10,
+              "end": 53
+            }
+          },
+          {
+            "en": "posted it for everyone to read",
+            "zh": "張貼出來讓所有人看",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 90
+            }
+          },
+          {
+            "en": "remove the post",
+            "zh": "刪除貼文",
+            "exampleIndex": 0,
+            "span": {
+              "start": 143,
+              "end": 158
+            }
+          },
+          {
+            "en": "without consent",
+            "zh": "未經同意",
+            "exampleIndex": 1,
+            "span": {
+              "start": 35,
+              "end": 50
+            }
+          },
+          {
+            "en": "promising confidentiality",
+            "zh": "承諾保密",
+            "exampleIndex": 1,
+            "span": {
+              "start": 57,
+              "end": 82
+            }
+          },
+          {
+            "en": "let the member decide",
+            "zh": "讓會員自行決定",
+            "exampleIndex": 1,
+            "span": {
+              "start": 160,
+              "end": 181
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A blocked exit can be downright dangerous; use this forceful wording when the evidence supports serious risk.",
+          "zh": "被堵住的出口可能實在很危險；有證據顯示嚴重風險時，才用這種強烈措辭。"
+        },
+        {
+          "en": "A late reply may be annoying, but calling someone downright dishonest needs evidence that they meant to mislead.",
+          "zh": "回覆遲了可能令人不快，但說某人極不誠實，必須有他故意誤導的證據。"
+        }
+      ]
+    }
+  ]
+}

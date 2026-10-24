@@ -1,0 +1,51 @@
+{
+  "reviewType": "independent-exact-hash-proposal-review",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-2551-3468-proposed-b.json",
+  "proposalSha256": "d13827d6378406087ebff21f0906a45460075118b57031cfb654dfc2415abd1e",
+  "authorAuditSha256": "93d398ec7f613af35de3420fcd34b66907ac9dcb3b5cadd750f8a7e9a4bdac83",
+  "scope": "Read-only proposal review; no selected owner, decision, manifest or audit integration.",
+  "sourceComparisons": [
+    {
+      "sourceOrdinal": 2551,
+      "sourceId": "book10-16-0440",
+      "ownerId": "advanced-native-2411",
+      "sourceSentence": "We used the letters to piece it together.",
+      "assessment": "same-sense alias supported",
+      "reason": "The source question asks how to learn family history; letters are fragments used to reconstruct that already named history. This is the same evidence-combination decision as piece the puzzle together. The proposed scene names the appointment-change sequence before keyed piece it together, and the takeaway names the family move before it."
+    },
+    {
+      "sourceOrdinal": 3468,
+      "sourceId": "book10-16-1357",
+      "ownerId": "advanced-native-1839",
+      "sourceSentence": "A long journey can take the shine off it.",
+      "assessment": "conditional same-sense alias supported after bilingual repair",
+      "reason": "The source gloss says reduced enjoyment or appeal, matching owner1839. The isolated source it has no recoverable referent, so the proposal appropriately does not invent one; the new scene and takeaway each supply a named anticipated experience before it. Regex alone cannot establish antecedent."
+    }
+  ],
+  "findings": [
+    {
+      "id": "R1839-01",
+      "severity": "major",
+      "status": "open",
+      "paths": ["lessons[number=1839].listening.options[*].en/zh", "lessons[number=1839].contrast.options[*].en/zh"],
+      "finding": "Four listening and three contrast options put Traditional Chinese in en and leave zh empty. This is inherited from the selected owner but remains in the revised owner proposal, contradicting the requested bilingual option contract.",
+      "requestedRepair": "Give all seven options natural English in en and faithful Traditional Chinese in zh; preserve answer IDs and recheck evidence grounding."
+    },
+    {
+      "id": "R2411-01",
+      "severity": "minor",
+      "status": "open",
+      "paths": ["lessons[number=2411].listening.promptZh"],
+      "finding": "The Chinese question currently says 如何 pieced the puzzle together？, mixing a past-tense English clause ungrammatically into the prompt.",
+      "requestedRepair": "Ask naturally in Traditional Chinese how the team reconstructed the plan; retaining the English target in parentheses is optional."
+    }
+  ],
+  "checks": {
+    "focusedBuildAndCheck": "2 lessons, 12 questions, 8 audio requests, 0 review flags",
+    "fullSourceSentencePatternMatch": "Both proposed owners match original and incoming full source sentences.",
+    "assessedTargetMatch": "Both changed scene keys and takeaway-2 texts match owner pattern; speaking spans remain exact.",
+    "gradingIds": "All five inspected choice/golden IDs per owner match the selected baseline.",
+    "provenance": "Both incoming exact source occurrences and original owner occurrences are present."
+  },
+  "conclusion": "Owner/sense merge is supportable; hold integration until the two bilingual prompt/option repairs receive exact-hash follow-up. No human, listening or release approval claimed."
+}

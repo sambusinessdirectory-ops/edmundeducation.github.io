@@ -1,0 +1,42 @@
+{
+  "status": "selected_content_scoped_author_repair_pending_independent_review",
+  "createdUtc": "2026-10-24T00:41:40.279806+00:00",
+  "lessonId": "advanced-native-4679",
+  "sourceOrdinal": 4679,
+  "batchPath": "course-materials/advanced-native/drafts-books10-16/batch-4652-4679-review-pilot.json",
+  "beforeBatchSha256": "4c9f1ede4b9f13f15449ab594b0cf7d27e408b42ffed1fa295d9161f0aaa487d",
+  "afterBatchSha256": "1bdaf8c0926950f75b3c7422f617306692e42cbdfa6e8863b80e5b2b784d320d",
+  "change": {
+    "takeaways[0].en": {
+      "before": "Crossed wires means a communication misunderstanding.",
+      "after": "Crossed wires means a communication mix-up."
+    },
+    "contentRevision": {
+      "before": 1,
+      "after": 2
+    }
+  },
+  "preserved": {
+    "takeaways[0].zh": "crossed wires 指溝通誤會。",
+    "answerIds": "unchanged",
+    "targetPattern": "\\bcrossed\\s+wires\\b|\\b(?:get|gets|got|getting)\\s+(?:[\\w’\\'-]+\\s+){0,2}wires\\s+crossed\\b",
+    "sources": "unchanged",
+    "questionTexts": "unchanged",
+    "glossary": "unchanged"
+  },
+  "semanticRationale": "Mix-up in communication is the same miscommunication sense as misunderstanding; shorter words avoid the 320-pixel unbroken misunderstanding overflow. The target crossed wires remains explicit.",
+  "validation": {
+    "focusedBuildAndCheck": {
+      "lessons": 8,
+      "questions": 48,
+      "audioRequests": 32,
+      "reviewFlags": 0
+    },
+    "sourceFullSentenceTargetMatch": true,
+    "takeawayTargetMatch": true,
+    "glossaryOffsetsExact": true,
+    "diffScope": "two changed lines only"
+  },
+  "mediaDelta": "Selected takeaway-1 English audio text changes; audio must be regenerated and checked separately before release. No media operation in this repair.",
+  "selectionAndRelease": "No manifest, decisions, SOP audit, audio, upload or deployment edits."
+}

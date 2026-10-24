@@ -1,0 +1,55 @@
+{
+  "reviewType": "independent-ai-exact-hash-content-review",
+  "status": "repairs-required-before-provisional-selection",
+  "input": {
+    "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-4151-memory-b.json",
+    "draftSha256": "b94e649add20466cecfd186381bdddacf832a26f1defb8e55a98655cf541c99c",
+    "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-4151-memory-b.json",
+    "authorAuditSha256": "7f4d09c66b4c511d64a2efa5cc6de6dce68be62fccee81f90335d885e192e873"
+  },
+  "sourceAndOwner": {
+    "sourceOrdinal": 4151,
+    "sourceId": "book10-16-2040",
+    "sourceSentence": "We should not outsource every detail to our phones.",
+    "sourceSense": "Figuratively hand remembering or recording details to an external device, with the source warning against doing so for every detail.",
+    "selectedOwnerComparison": "Owner 1031 a crutch requires reliance that limits independent judgment or development. Delegating dates to a device can be useful without that further harm. Distinctness is defensible if this lesson actually teaches selective versus exhaustive offloading rather than simply repeating a phone-versus-human choice."
+  },
+  "findings": [
+    {
+      "id": "R4151-01",
+      "severity": "blocker",
+      "path": "lessons[number=4151].target.pattern",
+      "finding": "The live regex pairs every determiner with singular and plural objects, and a/an with singular and plural destinations. It matches ungrammatical `outsource every dates to an calendar`, `outsourced all detail to a phones`, and `outsource my dates to an reminder app` under case-insensitive matching.",
+      "requestedRepair": "Split object and destination branches by grammatical number and article, preserving the exact source `outsource every detail to our phones` and all current assessed spans. Add explicit negative controls for malformed determiner/noun/article combinations plus positive controls for source, ordinary singular/plural and inflected verb forms."
+    },
+    {
+      "id": "R4151-02",
+      "severity": "major",
+      "paths": [
+        "lessons[number=4151].contrast",
+        "lessons[number=4151].dialogue",
+        "lessons[number=4151].takeaways[1]"
+      ],
+      "finding": "The source's distinctive warning is not to outsource every detail. All assessed contexts use selective calendar/date storage with human choices retained; the exhaustive-detail boundary appears only in the unassessed second takeaway. The lesson therefore does not test the source's contrast between helpful selective offloading and handing over every detail.",
+      "requestedRepair": "Change one assessed contrast or conversational task so the learner must identify a concrete problem with handing every relevant detail to the device, while still allowing selective reminders. State the fact that makes the risk real, avoid claiming any reminder automatically becomes a crutch, and align the key, Chinese and explanation. Distinguish this task from the repeated date-reminder examples."
+    },
+    {
+      "id": "R4151-03",
+      "severity": "minor-editorial-watch",
+      "paths": [
+        "lessons[number=4151].reply.options",
+        "lessons[number=4151].scene"
+      ],
+      "finding": "The four valid replies all give nearly the same shared-calendar/dates-versus-book-choice answer. The costume scene shows digital record-keeping but does not explicitly establish a memory task that a person previously held, so it is a weaker transfer case for outsourcing memory than the listening and writing contexts.",
+      "requestedRepair": "When repairing R4151-02, consider making replies independently useful in different ways and grounding the scene in external recall. This is a quality watch, not a reason to reject the distinct owner if the two material findings are fixed."
+    }
+  ],
+  "checks": {
+    "independentFocusedBuildAndCheck": "1 lesson, 6 questions, 4 audio requests, 0 flags; both build and --check passed in /private/tmp/review-4151-memory-a",
+    "sourceProvenance": "Exact source ID, expression and sentence match the inventory and the current target regex matches the source sentence.",
+    "keysAndTargetSpans": "Listening, golden reply, keyed scene/dialogue, speaking span and both writing models match the current pattern. The four single-best multiple-choice steps have recorded keys; the reply has one golden among four valid options, and writing is open self-review.",
+    "glossary": "All five answer-derived spans are exact and exclude the target.",
+    "traditionalChinese": "No material English–Traditional Chinese contradiction found in the unchanged fields."
+  },
+  "limits": "Independent AI content review only. No human English/Chinese approval, audio listening, browser/device QA, selected-manifest edit or publication claim."
+}

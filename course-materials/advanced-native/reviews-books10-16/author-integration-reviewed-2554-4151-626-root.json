@@ -1,0 +1,46 @@
+{
+  "status": "unpublished-provisional-selection",
+  "selectedManifestSha256": "7928f7c6e19bfd703c122c03ecd6e04fc789a407cca8be34e36f93632eb8c497",
+  "selectedLessons": 626,
+  "selectedQuestions": 3756,
+  "selectedAudioRoles": 2504,
+  "sourceOccurrences": 2604,
+  "holdEditorialAfterSelection": 633,
+  "lessons": [
+    {
+      "sourceOrdinal": 2554,
+      "sourceId": "book10-16-0443",
+      "canonicalId": "advanced-native-2554",
+      "draftFile": "drafts-books10-16/batch-held-2554-downright-b.json",
+      "draftSha256": "c26fa274f82704a424e9dcabca91265fe9455b76b6f79aa33f2948cd828733f8",
+      "independentReviewFile": "reviews-books10-16/independent-ai-review-held-2554-a-followup.json",
+      "independentReviewSha256": "cfa3ccc8398aa5e00ca6d58d31580e2bae5a1edc6bf13646c0ec62763750fe0c"
+    },
+    {
+      "sourceOrdinal": 4151,
+      "sourceId": "book10-16-2040",
+      "canonicalId": "advanced-native-4151",
+      "draftFile": "drafts-books10-16/batch-held-4151-memory-b.json",
+      "draftSha256": "f2aa899bb676097adee4ef462ea81a9aaa6cf782b9a39d718eb40f9fd3ab647f",
+      "independentReviewFile": "reviews-books10-16/independent-ai-review-held-4151-a-followup.json",
+      "independentReviewSha256": "9a37610d57671e1f7360e46084943b99452dad4c3237f62ce683439761283b0e"
+    }
+  ],
+  "checks": {
+    "focusedBuildLessons": 2,
+    "focusedBuildQuestions": 12,
+    "focusedBuildAudioRoles": 8,
+    "focusedBuildReviewFlags": 0,
+    "focusedBuildOutputCheck": "passed",
+    "wholeCatalogueSchemaErrors": 0,
+    "existingAliasPatternExceptionsBeforeOwnerExpansions": 0,
+    "holdCoverageErrorsBeforeOwnerExpansions": 0
+  },
+  "publication": {
+    "audioUploaded": false,
+    "databaseUpdated": false,
+    "siteDeployed": false,
+    "lessonsLive": 0,
+    "releaseApproved": false
+  }
+}

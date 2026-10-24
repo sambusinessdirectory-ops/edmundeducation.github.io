@@ -331,7 +331,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 1,
+      "contentRevision": 2,
       "listening": {
         "en": "In 1998, an engineer built a portable sign that updated bus arrivals over a wireless network. The local network could not cover bus stops then; decades later, similar signs became common. Her prototype was ahead of its time.",
         "zh": "一九九八年，一位工程師做了以無線網絡更新巴士到站時間的流動顯示牌。當時本地網絡尚未覆蓋巴士站；數十年後類似顯示牌才普及。她的原型可說超前於當時。",
@@ -349,7 +349,7 @@
           },
           {
             "id": "c",
-            "en": "Similar signs had already been common for decades before 1998.",
+            "en": "Similar signs had been common for decades.",
             "zh": "一九九八年之前，類似顯示牌已普及數十年。"
           },
           {
