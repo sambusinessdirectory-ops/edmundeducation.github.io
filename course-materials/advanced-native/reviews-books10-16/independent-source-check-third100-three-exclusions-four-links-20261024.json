@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-exact-source-hash-disposition-check",
+  "reviewDate": "2026-10-24",
+  "inputReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-read-only-third100-current-holds-3479-4112-disposition-20261024.json",
+  "inputReviewSha256": "8375c252e2f614d45e391b9b27603877d40b25fdd00ad8c5d9526eb1da6fd5cc",
+  "sourceInventoryFile": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256AtInputReview": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "rule": "The user approved skipping one-time comparisons with a recorded source-specific reason. This does not exclude a reusable target solely because its words are compositional, and a semantic duplicate does not become a selected alias while its proposed owner remains held.",
+  "proposedExclusions": [
+    {
+      "sourceOrdinal": 3891,
+      "sourceId": "book10-16-1780",
+      "sourceRawRowSha256": "6db0097860886ee458b486997e954c3b9f63253bfb0592842f5b367964ea8c84",
+      "exactGuideSentence": "The concert was a little spark in an otherwise ordinary week.",
+      "guideMeaning": "A brief moment of interest or joy; a fire metaphor.",
+      "recommendation": "ACCEPT exclusion of the full source expression",
+      "narrowReason": "A little spark in an otherwise ordinary week is a concert-specific bright-moment image; the week qualifier carries the meaning and is not a reusable bounded phrase. Shorter spark constructions are separately teachable only when their exact source and sense warrant them. Existing the emotional spark (owner 831) describes the feeling that first creates excitement, not this concert as a brief pleasant moment, so it is not a same-sense alias.",
+      "doNotDo": "Do not infer that every figurative use of spark is excluded or alias this line to owner 831."
+    },
+    {
+      "sourceOrdinal": 3989,
+      "sourceId": "book10-16-1878",
+      "sourceRawRowSha256": "3cf8ec7e149854993712b046a936cce16be8749c16b6ccfb71e8634047d7a505",
+      "exactGuideSentence": "Logic puzzles are like going to the gym for the brain.",
+      "guideMeaning": "Exercising mental ability regularly; a gym simile.",
+      "recommendation": "ACCEPT exclusion of the full source comparison",
+      "narrowReason": "The explicit like comparison turns a visit to the gym into a one-time image for doing logic puzzles. Going to the gym for the brain is not used here as an independent, reusable English expression. The nearby a little workout for the brain at 3981 has different wording and remains editorially held; it is neither an approved canonical owner nor an exact-source alias target.",
+      "doNotDo": "Do not mark 3981 selected or link 3989 to it merely because both use exercise imagery."
+    },
+    {
+      "sourceOrdinal": 3994,
+      "sourceId": "book10-16-1883",
+      "sourceRawRowSha256": "71a2f23e688aabad44aa827eb41864696d84ef2f4f32b371cfefc33580a7a41b",
+      "exactGuideSentence": "Puzzles are little gyms for the brain after a long holiday.",
+      "guideMeaning": "Activities that exercise the mind; a fitness metaphor.",
+      "recommendation": "ACCEPT exclusion of the full source comparison",
+      "narrowReason": "Calling puzzles little gyms for the brain after a long holiday is a context-specific extension of the mental-workout image. Its plural gym-as-puzzle wording is not the same target as 3989's going-to-the-gym simile or 3981's a little workout for the brain. No standalone reusable form is established by this source line.",
+      "doNotDo": "Record this source independently; do not silently merge its wording with 3989 or the still-held 3981."
+    }
+  ],
+  "conditionalLinks": [
+    {
+      "sourceOrdinal": 3681,
+      "sourceId": "book10-16-1570",
+      "sourceRawRowSha256": "dd420cdfbb42bbeef7f813a888d4f5ab7f8322984cd2f169aebafd4f136ffe87",
+      "proposedOwnerOrdinal": 3670,
+      "proposedOwnerRawRowSha256": "d834fe9e0a9ee9a483ce8fca8a46d44958f2fbcc454645ca4476e8e8e8040a70",
+      "recommendation": "REJECT proposed owner identity; ACCEPT same-sentence, same-guide-sense duplicate conditionally under earliest source 2472",
+      "narrowReason": "The exact sentence A patient explanation can make the topic open up and the clarity/accessibility guide meaning first occur at ordinal 2472, then 2541, before 3670 and 3681. All remain held because make the topic open up may be an unnatural clarity use. If that sense receives a defensible lesson, 2472 is the earliest provenance owner; otherwise keep all held. Existing open up to owner 1576 teaches personal disclosure and is not this sense.",
+      "earliestSourceOrdinal": 2472,
+      "earliestSourceRawRowSha256": "3a90d3eb30e9d97be9f73b8d020e527bdebe1c97ccde7de26b3432f64dd73b7b"
+    },
+    {
+      "sourceOrdinal": 3740,
+      "sourceId": "book10-16-1629",
+      "sourceRawRowSha256": "0a09445976d242df3d53f61d9f25417732ed8744b257a9e579401c848b9486dc",
+      "proposedOwnerOrdinal": 3731,
+      "proposedOwnerRawRowSha256": "149ccc31ae21d966db28b43116168d95e225ce50fd7e51f0a87fb88078322e0f",
+      "recommendation": "ACCEPT conditional same-sense link only if 3731 is approved as a lesson",
+      "narrowReason": "The phrase, full sentence Every powerful tool casts a shadow when used carelessly, and guide meaning about benefits having harmful side effects are identical. Ordinal 3731 is the earliest occurrence. It remains held as an original warning image; linking duplicate provenance does not establish a reusable target or justify a lesson."
+    },
+    {
+      "sourceOrdinal": 3860,
+      "sourceId": "book10-16-1749",
+      "sourceRawRowSha256": "37c5f6d3b5f9148132512a19e3d87587eab5b3c222f74ba45e91215c60ead323",
+      "proposedOwnerOrdinal": 3815,
+      "proposedOwnerRawRowSha256": "4e24654954079c8b41b822e447dd0f3da352ecf79218a2ac85fb134ae17ae9c0",
+      "recommendation": "ACCEPT conditional same-sense link only if 3815 is approved as a lesson",
+      "narrowReason": "The phrase, full sentence A good policy tackles both the symptoms and the roots of the problem, and guide meaning about immediate effects and underlying causes are identical. Ordinal 3815 is the earliest occurrence. It remains held because the mixed medical/plant image needs a stable target boundary; the duplicate alone does not resolve that issue."
+    },
+    {
+      "sourceOrdinal": 4112,
+      "sourceId": "book10-16-2001",
+      "sourceRawRowSha256": "955273aa59d3b43411f457e49e07f93d5cefad9a7e3a00983313442051739d01",
+      "proposedOwnerOrdinal": 3670,
+      "proposedOwnerRawRowSha256": "d834fe9e0a9ee9a483ce8fca8a46d44958f2fbcc454645ca4476e8e8e8040a70",
+      "recommendation": "REJECT proposed owner identity; ACCEPT same-sentence, same-guide-sense duplicate conditionally under earliest source 2472",
+      "narrowReason": "This repeats the exact open-up clarity line and guide sense already present at 2472, 2541, 3670 and 3681. The proposed 3670 owner would skip two earlier occurrences. Keep all held until the unusual source form is resolved; if approved, 2472 is the earliest provenance owner, not disclosure owner 1576.",
+      "earliestSourceOrdinal": 2472,
+      "earliestSourceRawRowSha256": "3a90d3eb30e9d97be9f73b8d020e527bdebe1c97ccde7de26b3432f64dd73b7b"
+    }
+  ],
+  "decisionMutation": false,
+  "selectionMutation": false,
+  "releaseApproval": false
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "kind": "exclusion-decision-raw-line-reformat-attestation",
+  "priorCommit": "d5743407",
+  "count": 9,
+  "scope": "Only raw decision-line hash changed after JSON formatting; parsed exclusion decision objects are identical. No source, reason, approval or action changed.",
+  "items": [
+    {
+      "sourceOrdinal": 2405,
+      "decisionFile": "editorial-decisions-2352-2411.jsonl",
+      "priorRowSha256": "9314ca3807ecdbb4741379110f063b7e38e27799a77f484735b6b900ef4f5982",
+      "currentRowSha256": "cfb7a50b2759e9f9019a3b95662fed680eb2225dbcd5faee80a9851b33ef8bc5",
+      "semanticObjectUnchanged": true
+    },
+    {
+      "sourceOrdinal": 2496,
+      "decisionFile": "editorial-decisions-2472-2531.jsonl",
+      "priorRowSha256": "1b1961763a3eb0ecc5f2244b0b0f04633675b2bc04492b71f58b441003e555f3",
+      "currentRowSha256": "4b94d60249145ca13bec552c894a28e72279e8562a1dd42d356b88376bf8d253",
+      "semanticObjectUnchanged": true
+    },
+    {
+      "sourceOrdinal": 2653,
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "priorRowSha256": "ba9062a94a266674c811390ef1fa7ff206486e2f0639b01aa4a6e6170a1f36d6",
+      "currentRowSha256": "2540cb6771473624b5764357c654e67d9e201856b408c3ce620a1712a8f74444",
+      "semanticObjectUnchanged": true
+    },
+    {
+      "sourceOrdinal": 2654,
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "priorRowSha256": "3c592b47323bd46820b3ef64f3c13fa3acecf022ef68a76b95238f0cb16255f2",
+      "currentRowSha256": "e1f46881a49c50bb5002900b30df45d5570ee690fc517968c1ee9048416621e5",
+      "semanticObjectUnchanged": true
+    },
+    {
+      "sourceOrdinal": 2688,
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "priorRowSha256": "edfa1ac74c12ba97e73950d4c161d6e0df3c3e89a31a47b80fd6ce794565be1e",
+      "currentRowSha256": "e1b6c48b56a6db2091681a1850ca1c758b549b7cd1c49fafb753fb949f98fbc3",
+      "semanticObjectUnchanged": true
+    },
+    {
+      "sourceOrdinal": 3476,
+      "decisionFile": "editorial-decisions-3432-3491.jsonl",
+      "priorRowSha256": "73be8c12ad02793dbedc5f07f4d3c742aa3e864f5cb11cc71a53adc6670b08b9",
+      "currentRowSha256": "7359626c87e523c5a8c3c60395226952760aa018e737963f21723f46dac6e494",
+      "semanticObjectUnchanged": true
+    },
+    {
+      "sourceOrdinal": 4104,
+      "decisionFile": "editorial-decisions-4092-4151.jsonl",
+      "priorRowSha256": "a29b3a51932b2edbf1af2490737c292b090cf164181cadd80e97dcfa77d081fa",
+      "currentRowSha256": "c24d95bcd77ffdb068589c224382fd229f2e7acb81350aac033cd3e6c4e2e400",
+      "semanticObjectUnchanged": true
+    },
+    {
+      "sourceOrdinal": 4654,
+      "decisionFile": "editorial-decisions-4632-4691.jsonl",
+      "priorRowSha256": "1e9cc991c6641e1e03516c83f81d1a6ca06a59826f23f0028a595c74cbedf511",
+      "currentRowSha256": "cdf932da485fcd538020e95c459a8562cd682318420d07399929e390cc657ca7",
+      "semanticObjectUnchanged": true
+    },
+    {
+      "sourceOrdinal": 4663,
+      "decisionFile": "editorial-decisions-4632-4691.jsonl",
+      "priorRowSha256": "3ef6e21e9aadffa9e7276cb5386c5de8b8738299dc6cd1185e755fa67014d165",
+      "currentRowSha256": "b21678be1227d0653b2f98f3011d5922fdf2a5b882810e08a496e026d1362214",
+      "semanticObjectUnchanged": true
+    }
+  ]
+}

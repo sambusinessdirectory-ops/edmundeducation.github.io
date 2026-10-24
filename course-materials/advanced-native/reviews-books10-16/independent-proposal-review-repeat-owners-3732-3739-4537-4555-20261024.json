@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-exact-hash-editorial-review",
+  "reviewDate": "2026-10-24",
+  "scope": "Four unselected Books 10–16 owner proposals, their exact guide examples, seven steps, bilingual choices, answer integrity, writing glossaries, originality, and repeated-source owner boundaries. This is not media, browser, database, or release approval.",
+  "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "method": {
+    "goldenManual": "超高級 Idiomatic Language 系統 Advanced_Native_Complete_Golden_SOP_2026-10-16.docx, especially source intake, seven-step contract, reply validity, glossary provenance, translation, originality, and scale-review chapters",
+    "reviewProtocol": "course-materials/advanced-native/books10-16/STREAMLINED_REVIEW_PROTOCOL.md",
+    "schema": "validateRecord on each exact proposal: zero errors and zero warnings",
+    "mechanical": "All four speaking target spans exactly match their English model; each writing example contains the target; all 20 glossary offsets equal contiguous answer spans and exclude the target; each golden reply alone contains a target match; each record has two writing examples and four audio text roles.",
+    "originality": "Compared learner English strings with all 2,604 guide examples using normalized contiguous six-word windows. Lesson 3739 overlaps only through its six-word target expression, which is expected. Lesson 4537 reproduces the complete six-word guide example as the opening of its scene answer, which requires revision. This lexical check does not establish wider copyright clearance."
+  },
+  "lessons": [
+    {
+      "id": "advanced-native-3732",
+      "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-held-exact-repeat-owner-3732-20261024.json",
+      "proposalSha256": "9ba6e9d96253c6a10c6ceb47a62071cacd1d27b884e041f826b30b4600144c6e",
+      "source": {
+        "sourceId": "book10-16-1621",
+        "sourceInventoryRawRowSha256": "a66471a4d0ef099fc466fac257ada167f78aac1823d6b4e2068eda3db1c3ce9d",
+        "guideExample": "Excessive automation could make us mentally lazier.",
+        "guideMeaning": "Less inclined to think independently; a precise natural comparison.",
+        "laterExactRepeat": "book10-16-1630",
+        "laterRepeatRawRowSha256": "6eebe4352aaa6c414bb593158897619d292d9a03c3c1d9264ebe332891802694"
+      },
+      "ownerBoundary": "Distinct from existing mentally drained, which means cognitive fatigue rather than reduced independent-thinking effort. The later line has the same guide sentence and sense and may link to this owner after selection; no decision was changed here.",
+      "sevenSteps": {
+        "listening": "pass: an earlier versus current reasoning habit supports the intended cautious concern; key a is unique and bilingual options preserve their meanings",
+        "reply": "revise explanation: all four replies plausibly answer the maths question and c alone uses the target, but the explanation falsely says all four compare historical before/after habits",
+        "scene": "pass: the editor's shift from checking recordings to accepting summaries makes a the best diagnosis",
+        "contrast": "pass: dictionary use followed by active testing is the least supportive case; key c",
+        "dialogue": "pass: a directly answers the concern without making a universal claim",
+        "speaking": "pass: target span exactly covers mentally lazier and the model has aligned Chinese",
+        "writing": "pass with minor translation edit: a changed chess scenario, two complete model answers and five exact non-target glossary spans"
+      },
+      "findings": [
+        {
+          "severity": "editorial-revision",
+          "path": "reply.explanationZh",
+          "current": "四句都對比使用工具前後的做題習慣",
+          "issue": "Only option b explicitly compares former and current habits; a and d compare steps in one attempt. The explanation teaches a distinction not present in every choice.",
+          "requiredRevision": "Say all four are responsive to the concern, while c alone uses the target to make a qualified claim."
+        },
+        {
+          "severity": "minor-translation",
+          "path": "writing.examples[1].zh and writing.glossary[4].zh",
+          "issue": "Follow its advice means act on the app's suggestion; 參考建議 can mean merely consult it and softens the second model's intended action.",
+          "requiredRevision": "Use 採納它的建議 or an equally faithful expression in both places, then recheck glossary provenance and any changed translation mapping."
+        }
+      ],
+      "verdict": "REVISE before selection; no key or target-sense conflict found"
+    },
+    {
+      "id": "advanced-native-3739",
+      "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-held-exact-repeat-owner-3739-20261024.json",
+      "proposalSha256": "6a1c95f6abaeda15fa3b10ef9cc2d0afceb4c03b3ec2d0b70002fb4265b88f5d",
+      "source": {
+        "sourceId": "book10-16-1628",
+        "sourceInventoryRawRowSha256": "8cd9b3ad4643cc8d877c733a9659e0dc15d7ae975efe774a2e9cf80f0af3dac0",
+        "guideExample": "Training helps staff stay in control of the change.",
+        "guideMeaning": "Guide a transition rather than be passively affected; a natural governance phrase.",
+        "laterExactRepeat": "book10-16-1637",
+        "laterRepeatRawRowSha256": "73ca7ea72d301cbac7b71e1c6694685da33c5a7f7fea0f867b7ccb4a7ede95f6"
+      },
+      "ownerBoundary": "The source labels this Natural English, not a fixed idiom. The proposal teaches practical influence over a change through trials, feedback and decisions; the exact repeat may link to this owner after selection.",
+      "sevenSteps": {
+        "listening": "pass: staff test, report and vote; key a uniquely describes their role",
+        "reply": "pass: four relevant responses, c alone uses the target and is the golden reply",
+        "scene": "pass: setting trial and review points is the most complete answer; key a",
+        "contrast": "pass: a fixed policy with no feedback is the counterexample; key b",
+        "dialogue": "pass: a directly answers the colleague's agency question and names two remaining decisions",
+        "speaking": "pass: exact target span and meaning-aligned Traditional Chinese",
+        "writing": "pass: different sports-venue context, two complete examples, five exact answer-derived non-target glossary spans"
+      },
+      "translationReview": "No material subject, negation, modality, option-pairing, or glossary-meaning mismatch found.",
+      "originalityReview": "Nine normalized six-word matches are the target expression stay in control of the change itself; no full guide teaching sentence is copied.",
+      "verdict": "PASS independent editorial review for this exact proposal hash; selection still requires paired repeat-source decisions and remaining technical/release gates"
+    },
+    {
+      "id": "advanced-native-4537",
+      "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-held-exact-repeat-owner-4537-20261024.json",
+      "proposalSha256": "21e83c69efa5500b0a4a25ae3c269922a543a8a7d550b8828bf057fb1c824737",
+      "source": {
+        "sourceId": "book10-16-2426",
+        "sourceInventoryRawRowSha256": "1eae695aa2f6239d716d3eff3c075f06982a6c103148649ec4941a4fc44fdb6d",
+        "guideExample": "The new route avoids awkward transfers.",
+        "guideMeaning": "Inconvenient changes between vehicles; a useful travel collocation.",
+        "laterExactRepeat": "book10-16-2449",
+        "laterRepeatRawRowSha256": "760f230e547b86ed0de91863f61a6389f8d72c913494633bdc30206f94b307d0"
+      },
+      "ownerBoundary": "A reusable transport collocation, explicitly categorized as Natural English by the guide. The exact later line may link to this owner after source-specific confirmation; ordinary but reusable phrasing is not a one-time comparison exclusion.",
+      "sevenSteps": {
+        "listening": "revise: a names the intended inconvenience, but the model describes one bus change while calling it plural those awkward transfers",
+        "reply": "pass: all four options naturally explain choosing the direct route and b alone uses the target",
+        "scene": "revise originality: a is a strong answer, but it copies the guide's entire example before adding a clause",
+        "contrast": "pass: adjacent stops and enough time make b the least awkward case",
+        "dialogue": "block: a claims the new route removes awkward transfers, while the scenario only places a bus stop by a lift and does not establish that a transfer is removed",
+        "speaking": "pass: the direct shuttle model uses an exact target span and a plausible transport meaning",
+        "writing": "revise translation: both English model answers cover the route trade-off and all five glossary spans are exact, but example 1 Chinese reverses the missed-bus risk"
+      },
+      "findings": [
+        {
+          "severity": "blocking-meaning",
+          "path": "dialogue.promptZh, dialogue.options[0], dialogue.explanationZh",
+          "issue": "A lift-adjacent stop improves accessibility; it does not prove that the new route removes transfers. The keyed response and rationale overclaim the scenario, so the assessment key is not defensible.",
+          "requiredRevision": "Make the new route explicitly direct or otherwise state that the difficult transfer is eliminated; alternatively change the target-bearing answer to a factually supported claim and recheck all options."
+        },
+        {
+          "severity": "blocking-translation",
+          "path": "writing.examples[0].zh",
+          "current": "不用走七分鐘路，還可能錯過巴士",
+          "issue": "The English says route B avoids both the seven-minute walk and the risk of a missed bus. The Chinese reads as though the travellers may still miss the bus.",
+          "requiredRevision": "Use 也不用冒錯過巴士的風險 or an equally clear negative scope; retain the exact English glossary spans."
+        },
+        {
+          "severity": "editorial-revision",
+          "path": "listening.en and listening.zh",
+          "issue": "The story states a single bus change but refers to those awkward transfers in the plural. This weakens idiomaticity and the noun-number lesson.",
+          "requiredRevision": "State two genuinely difficult changes, or use a different original model that naturally supports the plural target; recheck Chinese and audio text."
+        },
+        {
+          "severity": "editorial-revision",
+          "path": "scene.options[0].en and scene.options[0].zh",
+          "current": "The new route avoids awkward transfers by keeping the change on one platform.",
+          "issue": "Its first six words reproduce the complete guide example The new route avoids awkward transfers. The Golden SOP calls for original teaching sentences and changed contexts.",
+          "requiredRevision": "Rewrite the answer's wording while retaining the intended transport comparison and target phrase; recheck keyed option, translation and any target span."
+        }
+      ],
+      "verdict": "BLOCK selection until the dialogue key and translation are repaired, plus listening number and guide-sentence overlap are revised and independently rechecked at the final hash"
+    },
+    {
+      "id": "advanced-native-4555",
+      "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-held-exact-repeat-owner-4555-20261024.json",
+      "proposalSha256": "a76e675e4dfa457f8e39f29080e9ee1480c979a876547962051bbebe7e680518",
+      "source": {
+        "sourceId": "book10-16-2444",
+        "sourceInventoryRawRowSha256": "96788ed7583a32b63ef5bffa0665882752a565dff2cf571d942af748ef69f6c7",
+        "guideExample": "The pass encourages drivers to leave the car at home.",
+        "guideMeaning": "Choose another transport option instead of driving; a fixed phrase.",
+        "laterExactRepeat": "book10-16-2459",
+        "laterRepeatRawRowSha256": "4974e1bce961a7e396d1ea1283af83eb8fdf4ebceeaafa9bcf243f07d39506b1"
+      },
+      "ownerBoundary": "The guide labels the wording Idiom or set phrase. The proposal's teaching is literal but conventional transport advice, so it is defensible as the set-phrase side of that combined source category; do not claim a nonliteral meaning. The exact later line may link after selection.",
+      "sevenSteps": {
+        "listening": "pass: a directly states a train trip without driving; distractors test permanent car loss, park-and-ride and staying home",
+        "reply": "pass: all four are plausible route answers, and b alone uses the target as the golden reply",
+        "scene": "pass: a names the non-driving decision and tram journey rather than only a partial benefit",
+        "contrast": "pass: park-and-ride means the car was driven away from home, so b is the least appropriate case",
+        "dialogue": "pass: a answers the friend's travel question directly and naturally",
+        "speaking": "pass: exact target span, model and aligned Chinese",
+        "writing": "pass: new art-exhibition situation, two complete examples, five exact answer-derived non-target glossary spans"
+      },
+      "translationReview": "English and Traditional Chinese preserve single-trip choice, rather than claiming no car ownership or permanent driving cessation.",
+      "originalityReview": "No normalized six-word guide-example overlap in 23 screened learner-facing English strings.",
+      "verdict": "PASS independent editorial review for this exact proposal hash; selection still requires paired repeat-source decisions and remaining technical/release gates"
+    }
+  ],
+  "decisionMutation": false,
+  "lessonMutation": false,
+  "releaseApproval": false
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-exact-hash-focused-follow-up",
+  "reviewDate": "2026-10-24",
+  "priorReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-proposal-review-repeat-owners-3732-3739-4537-4555-20261024.json",
+  "priorReviewSha256": "e4943a411e77a83735985af391a7d45406c3b59b2cd12b2a01a48cd50983ee90",
+  "method": "Rechecked the earlier cited paths, all current assessed keys and four valid replies, English–Traditional Chinese meaning alignment, seven generated steps and six generated questions, target detector and speaking span, both writing examples and all five exact non-target glossary spans per lesson, and normalized six-word overlap with all 2,604 guide examples. No proposal or decision was edited.",
+  "lessons": [
+    {
+      "id": "advanced-native-3732",
+      "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-held-exact-repeat-owner-3732-20261024.json",
+      "proposalSha256": "0dbb8b24be7a95ec12d908da72883fb73bbe7ea88d1aae10901b39cb54e95c86",
+      "priorFindings": [
+        {
+          "path": "reply.explanationZh",
+          "status": "resolved",
+          "evidence": "The explanation now says all four choices address the concern, while only the golden reply uses the target to state a qualified concern. It no longer falsely says every option compares past and present habits."
+        },
+        {
+          "path": "writing.examples[1].zh and writing.glossary[4].zh",
+          "status": "resolved",
+          "evidence": "Both now use 採納它的建議, faithfully matching follow its advice. The English answer and exact glossary span are unchanged."
+        }
+      ],
+      "sevenStepAndAnswerReview": "Listening a, reply golden c with four valid replies, scene a, contrast c, dialogue a, optional speaking, and self-reviewed writing remain coherent and source-sense aligned. No new key ambiguity or option-translation mismatch was found.",
+      "technicalChecks": {
+        "schemaErrors": 0,
+        "schemaWarnings": 0,
+        "compiledSteps": 7,
+        "compiledQuestions": 6,
+        "replyTargetBearingOptionIds": ["c"],
+        "speakingTargetSpan": "mentally lazier",
+        "writingExamples": 2,
+        "glossaryRowsExact": 5,
+        "glossaryRowsWithTarget": 0,
+        "normalizedSixWordGuideOverlaps": 0
+      },
+      "verdict": "PASS independent editorial re-review at this exact proposal hash; eligible for selection subject to paired repeat-source decisions and later media/browser/release gates"
+    },
+    {
+      "id": "advanced-native-4537",
+      "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-held-exact-repeat-owner-4537-20261024.json",
+      "proposalSha256": "eb763f7324b9eeb80aa27af4f82d11394816dfa7190181d2d9de1178e022d03e",
+      "priorFindings": [
+        {
+          "path": "listening.en and listening.zh",
+          "status": "partially resolved",
+          "evidence": "The model now introduces a train-to-bus change and a later wait for another bus, giving a plausible plural referent for awkward transfers. However, the sequence omits an explicit first bus ride and the unchanged keyed paraphrase describes the crossing as part of changing buses; the text specifies the crossing for the train-to-bus change."
+        },
+        {
+          "path": "scene.options[0].en and scene.options[0].zh",
+          "status": "resolved",
+          "evidence": "The keyed scene answer has been reworded to Keeping the connection on one platform spares travellers awkward transfers. It no longer copies the complete guide example, and the Chinese preserves the new meaning."
+        },
+        {
+          "path": "dialogue.promptZh, dialogue.options[0], dialogue.explanationZh",
+          "status": "resolved",
+          "evidence": "The prompt now expressly states that the new bus goes directly to the clinic without any transfer, supporting the keyed claim that it removes the old awkward transfers; the explanation uses that decisive fact."
+        },
+        {
+          "path": "writing.examples[0].zh",
+          "status": "resolved",
+          "evidence": "The Chinese now says 也不用冒錯過巴士的風險, which correctly scopes both inconveniences under route B's avoidance."
+        }
+      ],
+      "newFinding": {
+        "severity": "assessment-revision",
+        "path": "listening.en, listening.zh, listening.options[0].en, listening.options[0].zh",
+        "issue": "The revised model says Mina crosses a busy road to change from train to bus, then waits for another bus. Keyed option A says Changing buses involves an inconvenient crossing and wait, inaccurately placing the crossing in a bus-to-bus change. The bus-to-bus transfer is also only implied rather than narrated as a completed first bus ride. A meaning question should not require the learner to overlook this distinction.",
+        "requiredRevision": "Make the two service changes explicit in the model and translate them accurately; revise option A to describe changing services or making two connections, with paired Chinese. Recheck the key and audio text at the new exact hash."
+      },
+      "otherStepAndAnswerReview": "Reply golden b has four valid route explanations; scene a, contrast b and repaired dialogue a are defensible. Speaking has an exact awkward transfers span. Both writing examples are complete; all five glossary entries are exact non-target answer spans. No other material Chinese or key mismatch was found.",
+      "technicalChecks": {
+        "schemaErrors": 0,
+        "schemaWarnings": 0,
+        "compiledSteps": 7,
+        "compiledQuestions": 6,
+        "replyTargetBearingOptionIds": ["b"],
+        "speakingTargetSpan": "awkward transfers",
+        "writingExamples": 2,
+        "glossaryRowsExact": 5,
+        "glossaryRowsWithTarget": 0,
+        "normalizedSixWordGuideOverlaps": 0
+      },
+      "verdict": "REVISE listening before selection; the four original cited defects are addressed, but the revised listening model and keyed paraphrase introduce a new source-of-inconvenience mismatch"
+    }
+  ],
+  "lessonMutation": false,
+  "decisionMutation": false,
+  "releaseApproval": false
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-exact-hash-final-focused-follow-up",
+  "reviewDate": "2026-10-24",
+  "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-held-exact-repeat-owner-4537-20261024.json",
+  "proposalSha256": "7f7252ce1666ee1b0e1a309ee89a7a0197dbf644246d8b659bd73bebcbb71f8e",
+  "priorFollowupFile": "course-materials/advanced-native/reviews-books10-16/independent-proposal-followup-3732-4537-20261024.json",
+  "priorFollowupSha256": "e94c7266f73d41f8f1b8562c06d7bf6eee4a462002f3d398abafdfb3ca2a96b6",
+  "focusedRepair": {
+    "path": "listening.options[0].en, listening.options[0].zh, listening.explanationZh",
+    "status": "resolved",
+    "evidence": "The keyed answer now distinguishes the road crossing for train-to-bus from the later wait for another bus; the Chinese keeps the same two connections. The explanation also states the two distinct inconveniences. The model's first bus ride is elided but its then/another-bus sequence is understandable, and the key no longer attributes the crossing to bus-to-bus transfer."
+  },
+  "fullLessonRecheck": {
+    "sourceAndOwner": "Book 16 question 39 S1 gives the exact guide example The new route avoids awkward transfers and defines inconvenient vehicle changes; question 42 S1 repeats the same sentence and sense. A reusable Natural English transport collocation remains a defensible new owner, with the repeat to be linked only during selection.",
+    "sevenSteps": "Listening key a, four-valid reply golden b, scene key a, contrast key b, dialogue key a, optional speaking and self-reviewed writing are all coherent at this hash. The repaired direct bus in dialogue establishes that the old difficult transfer is removed.",
+    "translation": "The listening key/option, revised dialogue, both writing models and five glossary translations preserve the English meaning and polarity. The earlier missed-bus negative-scope error remains fixed.",
+    "originality": "The scene answer remains an original reformulation; zero normalized contiguous six-word overlaps across 23 learner-facing English strings against the 2,604 guide examples.",
+    "schemaErrors": 0,
+    "schemaWarnings": 0,
+    "compiledSteps": 7,
+    "compiledQuestions": 6,
+    "replyTargetBearingOptionIds": ["b"],
+    "speakingTargetSpan": "awkward transfers",
+    "writingExamples": 2,
+    "exactAnswerDerivedGlossaryRows": 5,
+    "glossaryRowsWithTarget": 0
+  },
+  "verdict": "PASS independent editorial re-review for this exact proposal hash; eligible for selection subject to paired repeat-source decision and later media/browser/release gates",
+  "lessonMutation": false,
+  "decisionMutation": false,
+  "releaseApproval": false
+}

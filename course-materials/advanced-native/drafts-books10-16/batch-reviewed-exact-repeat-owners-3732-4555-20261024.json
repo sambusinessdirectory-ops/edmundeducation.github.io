@@ -1,0 +1,1149 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-reviewed-exact-repeat-owners-3732-4555-20261024",
+  "lessons": [
+    {
+      "id": "advanced-native-3732",
+      "number": 3732,
+      "inventoryId": "expr-3732",
+      "titleEn": "mentally lazier",
+      "titleZh": "思考上變得較懶惰",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bmentally lazier\\b",
+        "glossaryForbidden": [
+          "\\bmentally\\b",
+          "\\blazier\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Less willing to think through problems independently than before.",
+        "meaningZh": "與之前相比，較不願意自己動腦思考問題。",
+        "grammar": "Mentally modifies lazier, the comparative of lazy; say X may make someone mentally lazier than before and name the thinking habit at issue.",
+        "register": "Cautious evaluative language: a teacher, coach or colleague raises a concern about changed thinking habits with learners or peers, not a proven universal effect.",
+        "boundaryZh": "指獨立思考的意願相對下降，不是體力活動減少，也不等於使用工具本身有問題。",
+        "misconceptionZh": "不能只見到有人使用工具就斷定他思考上變懶；要有前後比較及具體行為。",
+        "outcomeZh": "能有分寸地描述思考習慣可能變差的證據與比較基準。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1621",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 152,
+          "book": 14,
+          "question": 18,
+          "sample": "S1",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 162, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Excessive automation could make us mentally lazier.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "mentally lazier"
+        },
+        {
+          "occurrenceId": "book10-16-1630",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 153,
+          "book": 14,
+          "question": 19,
+          "sample": "S1",
+          "sourceBookPages": "42–44",
+          "locatorNote": "DOCX table 163, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Excessive automation could make us mentally lazier.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "mentally lazier"
+        }
+      ],
+      "listening": {
+        "en": "At first, the puzzle club checked the clues before asking for hints. Now several members open the answer app immediately and rarely test an idea. Their coach worries that this habit could make them mentally lazier.",
+        "zh": "起初，解謎學會的成員會先檢查線索才求提示。現在有幾人立即打開答案程式，很少自行驗證想法；教練擔心這種習慣可能使他們在思考上變得較懶惰。",
+        "promptZh": "教練為甚麼擔心成員變得 mentally lazier？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They now rely on instant hints before trying to reason through clues.",
+            "zh": "他們現在還未嘗試推理線索，便依賴即時提示。"
+          },
+          {
+            "id": "b",
+            "en": "They exercise less after joining the club.",
+            "zh": "加入學會後，他們的運動量變少。"
+          },
+          {
+            "id": "c",
+            "en": "They solve more puzzles independently than they used to.",
+            "zh": "與以前相比，他們更常獨立解謎。"
+          },
+          {
+            "id": "d",
+            "en": "The app has proved that all club members cannot think.",
+            "zh": "程式證明所有成員都不會思考。"
+          }
+        ],
+        "explanationZh": "擔心來自思考習慣的前後改變：成員未先試解，便立即看提示；這不是體力問題，也不是對所有人的定論。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "（你為甚麼擔心他們現在做數學題的方式？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They ask the calculator for every answer before estimating it themselves.",
+            "zh": "他們還未自己估算，就請計算機給出每個答案。"
+          },
+          {
+            "id": "b",
+            "en": "They used to check their reasoning, but now often skip that step.",
+            "zh": "以前他們會檢查推理過程，現在卻常常略過。"
+          },
+          {
+            "id": "c",
+            "en": "Relying on instant answers may be making them mentally lazier.",
+            "zh": "依賴即時答案可能令他們在思考上變得較懶惰。"
+          },
+          {
+            "id": "d",
+            "en": "I want them to attempt a method before using the tool.",
+            "zh": "我希望他們先嘗試方法，再使用工具。"
+          }
+        ],
+        "explanationZh": "四句都切合對做題習慣的擔憂；只有金句用本課表達，審慎指出依賴即時答案可能令他們較不願意動腦。",
+        "goldenId": "c",
+        "promptEn": "Why are you worried about how they do maths now?"
+      },
+      "scene": {
+        "promptZh": "編輯曾逐條核對訪問錄音；最近幾次，她只看軟件摘要，連關鍵引語也不回聽。哪句最準確地提出擔憂？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shortcut may be making her mentally lazier about checking evidence.",
+            "zh": "這種捷徑可能使她在核對證據時較不願意動腦。"
+          },
+          {
+            "id": "b",
+            "en": "The software helps her locate recordings more quickly.",
+            "zh": "軟件幫助她更快找到錄音。"
+          },
+          {
+            "id": "c",
+            "en": "She is busier now and may need a better schedule for reviewing interviews.",
+            "zh": "她現在更忙，也許需要更好的時間安排來審閱訪問。"
+          }
+        ],
+        "explanationZh": "另兩句或許有道理，但沒有指出她由親自核對轉為依賴摘要的思考習慣變化。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不支持「mentally lazier」這項比較？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A learner now copies hints before attempting any problem, unlike last month.",
+            "zh": "與上月不同，學員現在未嘗試解題便照抄提示。"
+          },
+          {
+            "id": "b",
+            "en": "A writer now accepts every automated suggestion without checking its logic.",
+            "zh": "作家現在不核對邏輯便接受所有自動建議。"
+          },
+          {
+            "id": "c",
+            "en": "A student uses a dictionary, then tests each new word in her own sentence.",
+            "zh": "學生查字典後，會用自己的句子檢驗每個新詞。"
+          }
+        ],
+        "explanationZh": "查字典後仍主動檢驗用法，沒有顯示獨立思考意願下降；另外兩項有較明顯的依賴變化。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「我們用自動排班程式，會不會令大家不再思考？」你發現隊員仍會檢查例外情況。怎樣回應較審慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It need not make us mentally lazier if we still review unusual shifts and explain our choices.",
+            "zh": "只要我們仍檢查特殊班次並解釋決定，它未必會令我們在思考上變得較懶惰。"
+          },
+          {
+            "id": "b",
+            "en": "The program saves time, so we should keep using it for now.",
+            "zh": "程式節省時間，所以我們目前應繼續使用。"
+          },
+          {
+            "id": "c",
+            "en": "We should compare the schedules with staff feedback before judging the change.",
+            "zh": "作判斷前，我們應把時間表與員工意見比較。"
+          }
+        ],
+        "explanationZh": "另兩句是合理的時間或評估建議，卻未直接回答「使用程式是否令大家不再思考」；金句以具體檢查習慣限制擔憂。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "If we stop checking the reasons behind each answer, quick hints could make us mentally lazier.",
+        "zh": "如果我們不再檢查每個答案背後的理由，即時提示可能令我們在思考上變得較懶惰。",
+        "promptZh": "先聽示範，再指出甚麼習慣改變才值得擔心。",
+        "targetSpan": {
+          "start": 78,
+          "end": 93
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：棋藝學會試用一個推薦走法的程式。以前新會員會討論每步棋的利弊；這個月有幾人直接照程式建議落子，卻說不出原因。教練仍讓大家使用程式，但要求先提出自己的理由。用一至兩句英文審慎說明教練的擔心和做法。",
+        "selfCheckZh": "比較以前與現在的推理習慣，用 may 或 could 表示擔憂而非必然結果，並寫出先自行提出理由的做法。",
+        "examples": [
+          {
+            "en": "The coach worries that copying suggested moves without explaining them could make new players mentally lazier than before, so she asks them to give a reason first.",
+            "zh": "教練擔心新會員照抄建議走法卻說不出理由，可能比以前較不願意動腦；因此她要求他們先提出自己的理由。"
+          },
+          {
+            "en": "If the players stop weighing the risks of each move, the app may make them mentally lazier; the coach therefore asks for their own reasoning before they follow its advice.",
+            "zh": "如果棋手不再衡量每步棋的風險，程式可能令他們在思考上變得較懶惰；因此教練要求他們先說出自己的推理，再採納它的建議。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "copying suggested moves",
+            "zh": "照抄建議走法",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 46
+            }
+          },
+          {
+            "en": "give a reason first",
+            "zh": "先提出理由",
+            "exampleIndex": 0,
+            "span": {
+              "start": 143,
+              "end": 162
+            }
+          },
+          {
+            "en": "weighing the risks",
+            "zh": "衡量風險",
+            "exampleIndex": 1,
+            "span": {
+              "start": 20,
+              "end": 38
+            }
+          },
+          {
+            "en": "their own reasoning",
+            "zh": "自己的推理",
+            "exampleIndex": 1,
+            "span": {
+              "start": 121,
+              "end": 140
+            }
+          },
+          {
+            "en": "follow its advice",
+            "zh": "採納它的建議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 153,
+              "end": 170
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A shortcut may make us mentally lazier only if we stop evaluating its answers.",
+          "zh": "只有不再評估答案，捷徑才可能令我們在思考上變得較懶惰。"
+        },
+        {
+          "en": "Using a tool need not make us mentally lazier when we still explain our reasoning.",
+          "zh": "如果仍能解釋推理，使用工具未必會令我們在思考上變得較懶惰。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author and independent AI editorial reviewer",
+          "evidence": "Original proposal SHA-256 0dbb8b24be7a95ec12d908da72883fb73bbe7ea88d1aae10901b39cb54e95c86; independent exact-hash review reviews-books10-16/independent-proposal-followup-3732-4537-20261024.json SHA-256 e94c7266f73d41f8f1b8562c06d7bf6eee4a462002f3d398abafdfb3ca2a96b6. Content is clear for provisional unpublished selection; release approval is not granted."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author and independent AI editorial reviewer",
+          "evidence": "Original proposal SHA-256 0dbb8b24be7a95ec12d908da72883fb73bbe7ea88d1aae10901b39cb54e95c86; independent exact-hash review reviews-books10-16/independent-proposal-followup-3732-4537-20261024.json SHA-256 e94c7266f73d41f8f1b8562c06d7bf6eee4a462002f3d398abafdfb3ca2a96b6. Content is clear for provisional unpublished selection; release approval is not granted."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Unpublished lesson provisionally selected after independent AI editorial clearance of exact proposal SHA-256 0dbb8b24be7a95ec12d908da72883fb73bbe7ea88d1aae10901b39cb54e95c86; exact later guide occurrence book10-16-1630 was appended only to source provenance.",
+          "Audio generation/listening, browser/device checks, media hosting, human approval and release remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "independentHumanApproval": false
+    },
+    {
+      "id": "advanced-native-3739",
+      "number": 3739,
+      "inventoryId": "expr-3739",
+      "titleEn": "stay in control of the change",
+      "titleZh": "掌握變革的主導權",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:stay|stays|stayed|staying) in control of the change\\b",
+        "glossaryForbidden": [
+          "\\bin control\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Keep meaningful influence over how a transition is planned and carried out.",
+        "meaningZh": "在變革的規劃和推行過程中，持續保有實際影響力。",
+        "grammar": "Use stay in control of the change with the people guiding a specific transition as subject; it expresses meaningful agency, not total control of every result.",
+        "register": "Practical change-management language: a team lead, staff representative or organiser discusses a transition with colleagues affected by it.",
+        "boundaryZh": "需能參與決定、調整步驟或提出回饋；只被通知或被迫適應，不算掌握變革。",
+        "misconceptionZh": "保有主導權不等於能保證所有結果，也不等於拒絕任何改變。",
+        "outcomeZh": "能指出團隊透過哪些具體決策與回饋，保有對變革的實際影響。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1628",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 153,
+          "book": 14,
+          "question": 18,
+          "sample": "S2",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 162, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Training helps staff stay in control of the change.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stay in control of the change"
+        },
+        {
+          "occurrenceId": "book10-16-1637",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 153,
+          "book": 14,
+          "question": 19,
+          "sample": "S2",
+          "sourceBookPages": "42–44",
+          "locatorNote": "DOCX table 163, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Training helps staff stay in control of the change.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stay in control of the change"
+        }
+      ],
+      "listening": {
+        "en": "The workshop is replacing its paper rota with a shared calendar. Staff first test it on one shift, report problems and vote on the final layout. Those choices help them stay in control of the change.",
+        "zh": "工作坊正把紙本更表改成共用行事曆。員工先在一個班次試用，報告問題，再表決最後的版面；這些決定讓他們在變革中保有主導權。",
+        "promptZh": "員工怎樣 stay in control of the change？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They test the calendar and help decide how it will be used.",
+            "zh": "他們試用行事曆，並參與決定使用方式。"
+          },
+          {
+            "id": "b",
+            "en": "They receive the new schedule only after every choice is final.",
+            "zh": "所有決定落實後，他們才收到新時間表。"
+          },
+          {
+            "id": "c",
+            "en": "They prevent the workshop from changing any schedule at all.",
+            "zh": "他們阻止工作坊更改任何時間表。"
+          },
+          {
+            "id": "d",
+            "en": "They know exactly what every future problem will be.",
+            "zh": "他們準確知道將來會出現的每個問題。"
+          }
+        ],
+        "explanationZh": "先試用、回報並參與決定，讓員工對推行方式有實際影響；這不是拒絕改變或保證結果。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "（團隊如何面對即將更改的服務流程？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are piloting one stage and collecting staff feedback.",
+            "zh": "他們正試行一個階段並收集員工意見。"
+          },
+          {
+            "id": "b",
+            "en": "They keep the right to adjust the timetable as problems emerge.",
+            "zh": "遇到問題時，他們仍可調整時間表。"
+          },
+          {
+            "id": "c",
+            "en": "They stay in control of the change by reviewing each stage before it expands.",
+            "zh": "他們在擴大推行前檢視每個階段，從而掌握變革的主導權。"
+          },
+          {
+            "id": "d",
+            "en": "They let the affected staff help decide the next step.",
+            "zh": "他們讓受影響的員工參與決定下一步。"
+          }
+        ],
+        "explanationZh": "四句都描述團隊如何參與流程更改；金句使用本課表達，概括這種持續的決策權。",
+        "goldenId": "c",
+        "promptEn": "How is the team handling the coming change to its service process?"
+      },
+      "scene": {
+        "promptZh": "一間劇院改用流動售票。前台員工提出先在週末試行、每週檢視投訴，再決定何時全面推行。哪句最完整描述他們的角色？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Staff can stay in control of the change by setting trial and review points.",
+            "zh": "員工可訂立試行和檢視時點，從而掌握變革的主導權。"
+          },
+          {
+            "id": "b",
+            "en": "The new system may reduce the time spent printing tickets.",
+            "zh": "新系統或許會減少列印門票所需的時間。"
+          },
+          {
+            "id": "c",
+            "en": "The staff have been told the system will arrive next month.",
+            "zh": "員工已獲通知系統將於下月推出。"
+          }
+        ],
+        "explanationZh": "節省列印時間和獲知日期都可能是真的，但未說明員工如何影響試行與推行。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合 stay in control of the change？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Volunteers test a new rota, suggest changes and approve the next version.",
+            "zh": "義工試用新更表、提出修改並審批下一版。"
+          },
+          {
+            "id": "b",
+            "en": "A manager announces a fixed policy after launch and allows no feedback.",
+            "zh": "經理在推出後宣布不可更改的政策，也不接納意見。"
+          },
+          {
+            "id": "c",
+            "en": "Staff review weekly results and can pause the rollout if errors appear.",
+            "zh": "員工每週檢視結果，若出現錯誤可暫停推行。"
+          }
+        ],
+        "explanationZh": "單方面宣布且沒有回饋或調整渠道，受影響者難以保有實際影響。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「新登記方法已定，我們能做的只剩照辦嗎？」你知道仍可選擇試行範圍並每週修改。哪句最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can stay in control of the change by choosing the pilot group and revising the process each week.",
+            "zh": "我們可選定試行組別並每週修改流程，藉此掌握變革的主導權。"
+          },
+          {
+            "id": "b",
+            "en": "We may not choose the system itself, but we can still report which steps cause delays.",
+            "zh": "我們未必能選系統本身，但仍可回報哪些步驟導致延誤。"
+          },
+          {
+            "id": "c",
+            "en": "We should document the delays before deciding how widely to use the new method.",
+            "zh": "決定擴大使用新方法前，我們應記錄延誤情況。"
+          }
+        ],
+        "explanationZh": "另兩句提出有用的回報和記錄方式，但金句同時指出團隊仍可決定試行範圍並持續調整。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "A small trial and regular feedback help the team stay in control of the change.",
+        "zh": "小規模試行及定期回饋，幫助團隊在變革中保有主導權。",
+        "promptZh": "先聽示範，再指出團隊怎樣影響推行過程。",
+        "targetSpan": {
+          "start": 49,
+          "end": 78
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區運動會要由固定場地改成輪流使用三所學校。義工擔心交通和器材安排。籌委會讓義工試行一個週末、提出修訂，並在每月會議決定下一個場地。用一至兩句英文說明他們如何仍能掌握這項變動，而非只是被動接受。",
+        "selfCheckZh": "寫出試行、提出修訂及參與決定下一個場地的具體作用；不要說義工能控制所有意外結果。",
+        "examples": [
+          {
+            "en": "The volunteers can stay in control of the change by testing one weekend, reporting equipment problems and helping choose the next school site.",
+            "zh": "義工先試行一個週末、回報器材問題，再參與選擇下一所學校場地，便能保有對這項變動的實際影響。"
+          },
+          {
+            "en": "By reviewing transport issues each month and voting on the next venue, the volunteers stay in control of the change instead of simply accepting a fixed rotation.",
+            "zh": "義工每月檢視交通問題，並表決下一個場地，便能掌握變動的主導權，而非只接受固定的輪換安排。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "testing one weekend",
+            "zh": "試行一個週末",
+            "exampleIndex": 0,
+            "span": {
+              "start": 52,
+              "end": 71
+            }
+          },
+          {
+            "en": "equipment problems",
+            "zh": "器材問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 101
+            }
+          },
+          {
+            "en": "the next school site",
+            "zh": "下一所學校場地",
+            "exampleIndex": 0,
+            "span": {
+              "start": 121,
+              "end": 141
+            }
+          },
+          {
+            "en": "transport issues",
+            "zh": "交通問題",
+            "exampleIndex": 1,
+            "span": {
+              "start": 13,
+              "end": 29
+            }
+          },
+          {
+            "en": "a fixed rotation",
+            "zh": "固定的輪換安排",
+            "exampleIndex": 1,
+            "span": {
+              "start": 144,
+              "end": 160
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The museum guides stayed in control of the change by voting on the visitor route before it was introduced.",
+          "zh": "博物館的導覽員在新參觀路線推出前投票決定路線，因而仍能掌握這項變革。"
+        },
+        {
+          "en": "A trial lets volunteers stay in control of the change without promising a perfect result.",
+          "zh": "試行讓義工保有對變革的影響，但不保證結果完美。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author; independent AI reviewer of original proposal",
+          "evidence": "Original proposal SHA-256 6a1c95f6abaeda15fa3b10ef9cc2d0afceb4c03b3ec2d0b70002fb4265b88f5d; independent exact-hash review reviews-books10-16/independent-proposal-review-repeat-owners-3732-3739-4537-4555-20261024.json SHA-256 e4943a411e77a83735985af391a7d45406c3b59b2cd12b2a01a48cd50983ee90. Content is clear for provisional unpublished selection; release approval is not granted. Takeaway 1 was revised after an originality screen on 2026-10-24; the revised sentence is self-reviewed and awaits focused independent review."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author; independent AI reviewer of original proposal",
+          "evidence": "Original proposal SHA-256 6a1c95f6abaeda15fa3b10ef9cc2d0afceb4c03b3ec2d0b70002fb4265b88f5d; independent exact-hash review reviews-books10-16/independent-proposal-review-repeat-owners-3732-3739-4537-4555-20261024.json SHA-256 e4943a411e77a83735985af391a7d45406c3b59b2cd12b2a01a48cd50983ee90. Content is clear for provisional unpublished selection; release approval is not granted. Takeaway 1 was revised after an originality screen on 2026-10-24; the revised sentence is self-reviewed and awaits focused independent review."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Unpublished lesson provisionally selected after independent AI editorial clearance of exact proposal SHA-256 6a1c95f6abaeda15fa3b10ef9cc2d0afceb4c03b3ec2d0b70002fb4265b88f5d; exact later guide occurrence book10-16-1637 was appended only to source provenance.",
+          "Audio generation/listening, browser/device checks, media hosting, human approval and release remain pending.",
+          "Takeaway 1 was rewritten at content revision 2 after an originality screen. The new text is self-reviewed; independent focused review, revised audio, and browser checks remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "independentHumanApproval": false
+    },
+    {
+      "id": "advanced-native-4537",
+      "number": 4537,
+      "inventoryId": "expr-4537",
+      "titleEn": "awkward transfers",
+      "titleZh": "不便的轉乘",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bawkward transfers\\b",
+        "glossaryForbidden": [
+          "\\bawkward\\b",
+          "\\btransfers?\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Inconvenient changes between transport services, such as a long walk, poor timing or difficult access.",
+        "meaningZh": "交通工具之間轉乘不便，例如要走遠路、接駁時間不佳或出入口難用。",
+        "grammar": "Use awkward transfers as a plural noun phrase for inconvenient changes between buses, trains or other services; awkward describes the transfer, not a person’s social embarrassment.",
+        "register": "Everyday route-planning language: a passenger, journey planner or transport officer explains practical interchange difficulties to another traveller.",
+        "boundaryZh": "必須有交通服務之間不便的接駁；單純車程長或在車上坐得不舒服，不一定是轉乘問題。",
+        "misconceptionZh": "awkward 在這裏不指社交尷尬；要指出轉車的距離、時間或通行障礙。",
+        "outcomeZh": "能說明哪一段接駁造成不便，以及另一條路線如何改善。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2426",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 229,
+          "book": 16,
+          "question": 39,
+          "sample": "S1",
+          "sourceBookPages": "94–95",
+          "locatorNote": "DOCX table 254, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new route avoids awkward transfers.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "awkward transfers"
+        },
+        {
+          "occurrenceId": "book10-16-2449",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 231,
+          "book": 16,
+          "question": 42,
+          "sample": "S1",
+          "sourceBookPages": "100–101",
+          "locatorNote": "DOCX table 257, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new route avoids awkward transfers.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "awkward transfers"
+        }
+      ],
+      "listening": {
+        "en": "The clinic route looks short on a map, but Mina must cross a busy road to change from train to bus, then wait ten minutes for another bus. With a stroller, she finds those awkward transfers tiring.",
+        "zh": "往診所的路線在地圖上看似很短，但米娜要橫過繁忙道路，從列車轉巴士，再等十分鐘轉另一班巴士。她推著嬰兒車，覺得這些不便的轉乘很累。",
+        "promptZh": "這裏的 awkward transfers 指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The train-to-bus change requires a road crossing, and the later bus change adds a wait.",
+            "zh": "從列車轉巴士時要過馬路，之後再次轉巴士時還須等候。"
+          },
+          {
+            "id": "b",
+            "en": "The passenger is embarrassed to speak to the driver.",
+            "zh": "乘客不好意思跟司機說話。"
+          },
+          {
+            "id": "c",
+            "en": "The clinic appointment itself lasts too long.",
+            "zh": "診症時間本身太長。"
+          },
+          {
+            "id": "d",
+            "en": "The bus seats are uncomfortable even on a direct journey.",
+            "zh": "即使乘坐直達車，巴士座位仍不舒服。"
+          }
+        ],
+        "explanationZh": "這段旅程有兩次不便的接駁：先要過馬路從列車轉巴士，之後再等候另一班巴士；不是社交尷尬、診症或車廂座位的問題。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "（你為甚麼選擇直達醫院的路線？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The other route makes me cross a large station between services.",
+            "zh": "另一條路線要我在兩班車之間穿過大站。"
+          },
+          {
+            "id": "b",
+            "en": "This bus avoids awkward transfers when I travel with my father.",
+            "zh": "和父親同行時，這班巴士讓我避開不便的轉乘。"
+          },
+          {
+            "id": "c",
+            "en": "I do not have to rush from one platform to another.",
+            "zh": "我毋須匆忙從一個月台趕到另一個。"
+          },
+          {
+            "id": "d",
+            "en": "It has one continuous ride, which is easier with his wheelchair.",
+            "zh": "全程只坐一班車，推他的輪椅較方便。"
+          }
+        ],
+        "explanationZh": "四句都回答為何選直達路線；金句以本課表達概括免除的不便。",
+        "goldenId": "b",
+        "promptEn": "Why did you choose the direct route to the hospital?"
+      },
+      "scene": {
+        "promptZh": "一名乘客要推行李，原路線須在五分鐘內由地下月台走到街對面的巴士站；新路線可在同一月台轉車。哪句最完整比較？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Keeping the connection on one platform spares travellers awkward transfers.",
+            "zh": "在同一月台接駁，讓旅客免於不便的轉乘。"
+          },
+          {
+            "id": "b",
+            "en": "The traveller has a shorter walk between the two services.",
+            "zh": "旅客在兩班車之間要走的路縮短了。"
+          },
+          {
+            "id": "c",
+            "en": "The traveller no longer needs to cross the street with luggage.",
+            "zh": "旅客不用再提著行李橫過馬路。"
+          }
+        ],
+        "explanationZh": "後兩句指出走路較少及不用過馬路，都是局部改善；金句完整概括原本不便的轉乘如何被同月台接駁取代。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合稱為 awkward transfers？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The connection requires a long walk up stairs with heavy bags.",
+            "zh": "接駁要提著重行李走很遠的樓梯。"
+          },
+          {
+            "id": "b",
+            "en": "Two buses arrive at adjacent stops with enough time to change.",
+            "zh": "兩班巴士停在相鄰站位，轉乘時間充裕。"
+          },
+          {
+            "id": "c",
+            "en": "The train arrives just after the bus leaves, forcing a long wait.",
+            "zh": "列車到站時巴士剛開走，乘客須久候。"
+          }
+        ],
+        "explanationZh": "相鄰站位且時間充裕，沒有明顯轉乘不便；另外兩項分別有通行和時間問題。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「帶著輪椅從舊線轉車很辛苦；新線是直達診所的巴士，不用轉車，車站就在電梯旁。」你怎樣評價？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The new route removes the awkward transfers that made the old journey difficult.",
+            "zh": "新路線免除了舊旅程中不便的轉乘。"
+          },
+          {
+            "id": "b",
+            "en": "The lift makes the station easier to navigate, even if we still need to check the timetable.",
+            "zh": "電梯令車站較易通行，不過仍要查看時間表。"
+          },
+          {
+            "id": "c",
+            "en": "The bus stop is closer to the lift, so the final walk should be shorter.",
+            "zh": "巴士站較近電梯，因此最後一段路應較短。"
+          }
+        ],
+        "explanationZh": "新線既直達診所，又靠近電梯，因此免除了舊線的不便轉乘；另兩句只指出電梯或步行距離帶來的局部改善。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The direct shuttle saves patients from awkward transfers at the crowded station.",
+        "zh": "直達接駁車讓病人免於在擁擠車站不便地轉乘。",
+        "promptZh": "先聽示範，再指出哪段接駁對旅客造成麻煩。",
+        "targetSpan": {
+          "start": 39,
+          "end": 56
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：志工要帶一群長者到海濱展館。甲線須從地鐵出站、步行七分鐘到另一個巴士站，還常常趕不上接駁；乙線只需在同一月台換車，總車程多五分鐘。用一至兩句英文說明你為何建議乙線。",
+        "selfCheckZh": "指出甲線的步行和接駁時間問題，以及乙線雖然車程稍長，卻在同一月台換車；不要只說甲線慢。",
+        "examples": [
+          {
+            "en": "I would choose route B for the older visitors because it avoids awkward transfers: they can change on the same platform instead of walking seven minutes and risking a missed bus.",
+            "zh": "我會替長者選乙線，因為它避免了不便的轉乘：他們可在同一月台換車，不用走七分鐘路，也不用冒錯過巴士的風險。"
+          },
+          {
+            "en": "Although route B takes five minutes longer overall, its same-platform connection is easier for the group than route A’s awkward transfers and uncertain bus timing.",
+            "zh": "雖然乙線全程多五分鐘，但同月台接駁比甲線不便的轉乘和不穩定的巴士接駁時間更適合這群長者。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "older visitors",
+            "zh": "長者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 45
+            }
+          },
+          {
+            "en": "change on the same platform",
+            "zh": "在同一月台換車",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 119
+            }
+          },
+          {
+            "en": "walking seven minutes",
+            "zh": "走七分鐘路",
+            "exampleIndex": 0,
+            "span": {
+              "start": 131,
+              "end": 152
+            }
+          },
+          {
+            "en": "a missed bus",
+            "zh": "錯過巴士",
+            "exampleIndex": 0,
+            "span": {
+              "start": 165,
+              "end": 177
+            }
+          },
+          {
+            "en": "uncertain bus timing",
+            "zh": "不穩定的巴士接駁時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 142,
+              "end": 162
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Awkward transfers can outweigh a small saving in total travel time.",
+          "zh": "不便的轉乘可能抵消車程稍短的好處。"
+        },
+        {
+          "en": "A same-platform change may avoid awkward transfers for travellers with limited mobility.",
+          "zh": "同月台換車可讓行動不便的旅客避開不便的轉乘。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author and independent AI editorial reviewer",
+          "evidence": "Original proposal SHA-256 7f7252ce1666ee1b0e1a309ee89a7a0197dbf644246d8b659bd73bebcbb71f8e; independent exact-hash review reviews-books10-16/independent-proposal-followup-4537-final-20261024.json SHA-256 dfd14f490130e58f628987099059f0f3cad8eed9cadea297a4d82e5590c9ee1f. Content is clear for provisional unpublished selection; release approval is not granted."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author and independent AI editorial reviewer",
+          "evidence": "Original proposal SHA-256 7f7252ce1666ee1b0e1a309ee89a7a0197dbf644246d8b659bd73bebcbb71f8e; independent exact-hash review reviews-books10-16/independent-proposal-followup-4537-final-20261024.json SHA-256 dfd14f490130e58f628987099059f0f3cad8eed9cadea297a4d82e5590c9ee1f. Content is clear for provisional unpublished selection; release approval is not granted."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Unpublished lesson provisionally selected after independent AI editorial clearance of exact proposal SHA-256 7f7252ce1666ee1b0e1a309ee89a7a0197dbf644246d8b659bd73bebcbb71f8e; exact later guide occurrence book10-16-2449 was appended only to source provenance.",
+          "Audio generation/listening, browser/device checks, media hosting, human approval and release remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "independentHumanApproval": false
+    },
+    {
+      "id": "advanced-native-4555",
+      "number": 4555,
+      "inventoryId": "expr-4555",
+      "titleEn": "leave the car at home",
+      "titleZh": "這趟不開車",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:leave|leaves|left|leaving) the car at home\\b",
+        "glossaryForbidden": [
+          "\\bcar\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Choose not to drive one’s car for a particular trip and use another way of travelling.",
+        "meaningZh": "這一趟選擇不開私家車，改用其他交通方式。",
+        "grammar": "Leave/left the car at home uses the car as the object and at home as a conventional location phrase; it can be advice or a report of a specific non-driving choice.",
+        "register": "Everyday transport advice: a friend, event organiser or commuter explains to another traveller why public transport, walking or cycling suits a trip.",
+        "boundaryZh": "表示這一趟選擇不用私家車，不代表當事人沒有車，也不等於永遠不駕車。",
+        "misconceptionZh": "乘車到車站才轉地鐵，並非整趟把車留在家裏；要分清是否真的從家出發便不開車。",
+        "outcomeZh": "能依據具體旅程，說明為何選擇不用私家車及改用甚麼交通方式。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2444",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 231,
+          "book": 16,
+          "question": 41,
+          "sample": "S2",
+          "sourceBookPages": "98–99",
+          "locatorNote": "DOCX table 256, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The pass encourages drivers to leave the car at home.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "leave the car at home"
+        },
+        {
+          "occurrenceId": "book10-16-2459",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 232,
+          "book": 16,
+          "question": 43,
+          "sample": "S2",
+          "sourceBookPages": "102–103",
+          "locatorNote": "DOCX table 258, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The pass encourages drivers to leave the car at home.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "leave the car at home"
+        }
+      ],
+      "listening": {
+        "en": "The stadium car park will close before the evening match. Priya will leave the car at home and take the train from her neighbourhood station instead.",
+        "zh": "晚間球賽開始前，體育場停車場會關閉。普莉雅這一趟會把車留在家裏，從住所附近的車站乘火車前往。",
+        "promptZh": "Priya 打算 leave the car at home，意思是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She will take the train for this trip instead of driving.",
+            "zh": "這趟她會乘火車，而不是開車。"
+          },
+          {
+            "id": "b",
+            "en": "She has sold her car and will never drive again.",
+            "zh": "她賣掉了車，以後再也不開車。"
+          },
+          {
+            "id": "c",
+            "en": "She will drive to the station and park there before taking the train.",
+            "zh": "她會開車到車站停泊，再轉乘火車。"
+          },
+          {
+            "id": "d",
+            "en": "She will stay home and miss the match.",
+            "zh": "她會留在家裏，不看球賽。"
+          }
+        ],
+        "explanationZh": "她仍會去看比賽，但從家附近車站乘火車，不用私家車完成這趟旅程。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "（週末市集附近沒有停車位，你打算怎樣去？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I will catch the tram from the stop beside my flat.",
+            "zh": "我會在住所旁的車站乘電車。"
+          },
+          {
+            "id": "b",
+            "en": "I am leaving the car at home and taking the tram.",
+            "zh": "這趟我不開車，改乘電車。"
+          },
+          {
+            "id": "c",
+            "en": "I can walk to the stop and avoid looking for parking.",
+            "zh": "我可以步行到車站，毋須找車位。"
+          },
+          {
+            "id": "d",
+            "en": "The tram will take me straight to the market entrance.",
+            "zh": "電車會直接把我送到市集入口。"
+          }
+        ],
+        "explanationZh": "四句都回答如何前往市集；金句直接使用本課表達，指出這趟改乘電車而非開車。",
+        "goldenId": "b",
+        "promptEn": "There is no parking near the weekend market. How will you get there?"
+      },
+      "scene": {
+        "promptZh": "學校開放日附近道路封閉，但校門旁有電車站。家長從住處步行到電車站，全程沒有開車。哪句最完整描述這次選擇？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They left the car at home and took the tram to the open day.",
+            "zh": "他們這趟沒有開車，改乘電車到開放日。"
+          },
+          {
+            "id": "b",
+            "en": "The tram stops close to the school gate.",
+            "zh": "電車站很接近校門。"
+          },
+          {
+            "id": "c",
+            "en": "Walking to the tram stop saved them time searching for parking.",
+            "zh": "步行到電車站替他們省下找車位的時間。"
+          }
+        ],
+        "explanationZh": "另外兩句只說部分便利；金句指出整趟行程不用私家車，並交代改乘電車。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 leave the car at home？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A commuter walks from home to the bus stop and rides to work.",
+            "zh": "通勤者從家步行到巴士站，再乘車上班。"
+          },
+          {
+            "id": "b",
+            "en": "A family drives to a park-and-ride lot and then takes the train.",
+            "zh": "一家人開車到轉乘停車場，再乘火車。"
+          },
+          {
+            "id": "c",
+            "en": "A visitor cycles from home to the gallery instead of driving.",
+            "zh": "訪客從家踩單車到畫廊，而沒有開車。"
+          }
+        ],
+        "explanationZh": "一家人已開車到轉乘停車場，車並沒有留在家裏；其餘兩項全程未開車。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「演唱會散場時，停車場總是擠塞；你會怎樣去？」你打算從家附近乘巴士。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I will leave the car at home and catch the bus near my flat.",
+            "zh": "這趟我不開車，會在住所附近乘巴士。"
+          },
+          {
+            "id": "b",
+            "en": "The bus stop is near my flat, so the first part of the trip should be easy.",
+            "zh": "巴士站在住所附近，所以頭一段路應該方便。"
+          },
+          {
+            "id": "c",
+            "en": "The bus will probably avoid the queue at the car park after the show.",
+            "zh": "演出後乘巴士大概能避開停車場的車龍。"
+          }
+        ],
+        "explanationZh": "後兩句分別說站點和散場好處；金句直接回答這趟不用車、改乘巴士的選擇。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "For the street festival, we can leave the car at home, take the train and walk from the station.",
+        "zh": "去街頭節慶時，我們可以這趟不開車，改乘火車，再從車站步行過去。",
+        "promptZh": "先聽示範，再說出改用甚麼交通方式。",
+        "targetSpan": {
+          "start": 32,
+          "end": 53
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區藝術展的場地旁只能停十輛車，週末又有道路工程。你和朋友住在巴士站附近，巴士可直達展館。用一至兩句英文向朋友建議這次怎樣去，並說明具體原因。",
+        "selfCheckZh": "指出場地泊車位少、道路工程，以及從家附近乘直達巴士；不要說你們沒有車或永遠不開車。",
+        "examples": [
+          {
+            "en": "Let us leave the car at home for the art exhibition and take the direct bus near our flats; parking is limited and roadworks may slow drivers down.",
+            "zh": "這次去藝術展，我們把車留在家裏，從住所附近乘直達巴士吧；場地泊車位少，道路工程又可能令駕駛者受阻。"
+          },
+          {
+            "en": "Since only ten parking spaces are available and the road is being repaired, we should leave the car at home and use the bus that stops by the exhibition hall.",
+            "zh": "場地只有十個泊車位，而且道路正在維修；我們這次應不開車，乘坐在展館旁停站的巴士。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the art exhibition",
+            "zh": "藝術展",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 51
+            }
+          },
+          {
+            "en": "the direct bus",
+            "zh": "直達巴士",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 75
+            }
+          },
+          {
+            "en": "parking is limited",
+            "zh": "泊車位少",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 110
+            }
+          },
+          {
+            "en": "roadworks may slow drivers down",
+            "zh": "道路工程可能令駕駛者受阻",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 146
+            }
+          },
+          {
+            "en": "ten parking spaces",
+            "zh": "十個泊車位",
+            "exampleIndex": 1,
+            "span": {
+              "start": 11,
+              "end": 29
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "We can leave the car at home when a direct bus serves the event.",
+          "zh": "活動有直達巴士時，我們可以這趟不開車。"
+        },
+        {
+          "en": "Leaving the car at home for one trip does not mean giving up driving forever.",
+          "zh": "某趟不開車，不等於永遠放棄駕駛。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author and independent AI editorial reviewer",
+          "evidence": "Original proposal SHA-256 a76e675e4dfa457f8e39f29080e9ee1480c979a876547962051bbebe7e680518; independent exact-hash review reviews-books10-16/independent-proposal-review-repeat-owners-3732-3739-4537-4555-20261024.json SHA-256 e4943a411e77a83735985af391a7d45406c3b59b2cd12b2a01a48cd50983ee90. Content is clear for provisional unpublished selection; release approval is not granted."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author and independent AI editorial reviewer",
+          "evidence": "Original proposal SHA-256 a76e675e4dfa457f8e39f29080e9ee1480c979a876547962051bbebe7e680518; independent exact-hash review reviews-books10-16/independent-proposal-review-repeat-owners-3732-3739-4537-4555-20261024.json SHA-256 e4943a411e77a83735985af391a7d45406c3b59b2cd12b2a01a48cd50983ee90. Content is clear for provisional unpublished selection; release approval is not granted."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Unpublished lesson provisionally selected after independent AI editorial clearance of exact proposal SHA-256 a76e675e4dfa457f8e39f29080e9ee1480c979a876547962051bbebe7e680518; exact later guide occurrence book10-16-2459 was appended only to source provenance.",
+          "Audio generation/listening, browser/device checks, media hosting, human approval and release remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "independentHumanApproval": false
+    }
+  ]
+}

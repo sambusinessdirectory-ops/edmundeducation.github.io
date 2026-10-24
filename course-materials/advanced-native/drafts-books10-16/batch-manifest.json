@@ -179,7 +179,8 @@
     "batch-held-exact-repeat-owner-2331-selected.json",
     "batch-held-exact-repeat-owner-2495-selected.json",
     "batch-held-exact-repeat-owner-2694-selected.json",
-    "batch-held-exact-repeat-owner-3454-selected.json"
+    "batch-held-exact-repeat-owner-3454-selected.json",
+    "batch-reviewed-exact-repeat-owners-3732-4555-20261024.json"
   ],
   "expectedSourceOrdinals": [
     2112,
@@ -613,9 +614,11 @@
     3715,
     3726,
     3728,
+    3732,
     3735,
     3736,
     3738,
+    3739,
     3754,
     3766,
     3778,
@@ -783,6 +786,7 @@
     4525,
     4529,
     4535,
+    4537,
     4538,
     4539,
     4540,
@@ -790,6 +794,7 @@
     4548,
     4553,
     4554,
+    4555,
     4563,
     4576,
     4580,

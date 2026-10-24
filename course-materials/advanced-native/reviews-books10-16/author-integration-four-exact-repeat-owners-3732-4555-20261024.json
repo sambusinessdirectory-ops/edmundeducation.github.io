@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "kind": "unpublished-four-owner-exact-repeat-integration-attestation",
+  "sourceOrdinals": [
+    3732,
+    3739,
+    3741,
+    3748,
+    4537,
+    4555,
+    4560,
+    4570
+  ],
+  "before": {
+    "manifestSha256": "1aac90a6dcf6706e2a09ab0c25a6945f60cba0b981fdcbcd1ec7c886e7de66e9",
+    "selectedCount": 643
+  },
+  "after": {
+    "selectedCount": 647,
+    "selectedBatchPath": "course-materials/advanced-native/drafts-books10-16/batch-reviewed-exact-repeat-owners-3732-4555-20261024.json",
+    "selectedBatchSha256": "393c9e35135a842ec24b5d19ba59105066663d401c319bb58659ebdf4eab64c0",
+    "manifestSha256": "c840a735158c64eaaaee9845ee67318e5f77b30a99067f28b5a243be792526dc",
+    "decisionFileSha256": {
+      "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl": "c311f74a69511e9226478bc3b472f643262aac22d9d9f6af5a3164aa0f67846c",
+      "course-materials/advanced-native/books10-16/editorial-decisions-4512-4571.jsonl": "e9cbe45cc6ac34c221af5841f59ac4c75d4b3b4b8761cc76d048d764cef26bf8"
+    }
+  },
+  "items": [
+    {
+      "owner": 3732,
+      "repeat": 3741,
+      "proposalSha256": "0dbb8b24be7a95ec12d908da72883fb73bbe7ea88d1aae10901b39cb54e95c86",
+      "reviewPath": "course-materials/advanced-native/reviews-books10-16/independent-proposal-followup-3732-4537-20261024.json",
+      "reviewSha256": "e94c7266f73d41f8f1b8562c06d7bf6eee4a462002f3d398abafdfb3ca2a96b6",
+      "selectedLessonContentSha256": "43393dfdd81c0c21a5a8de68edfff0f437835312cf15cf121ebbff2a06e6acfb"
+    },
+    {
+      "owner": 3739,
+      "repeat": 3748,
+      "proposalSha256": "6a1c95f6abaeda15fa3b10ef9cc2d0afceb4c03b3ec2d0b70002fb4265b88f5d",
+      "reviewPath": "course-materials/advanced-native/reviews-books10-16/independent-proposal-review-repeat-owners-3732-3739-4537-4555-20261024.json",
+      "reviewSha256": "e4943a411e77a83735985af391a7d45406c3b59b2cd12b2a01a48cd50983ee90",
+      "selectedLessonContentSha256": "00a2d8f0a1e1ffb20d2f210c3d5aad5179ed987020eef57030b0ec2e2f2f30be",
+      "postSelectionRevision": "Content revision 2 replaces takeaway 1 English/Traditional Chinese after originality screen; focused independent review, revised audio and browser check pending."
+    },
+    {
+      "owner": 4537,
+      "repeat": 4560,
+      "proposalSha256": "7f7252ce1666ee1b0e1a309ee89a7a0197dbf644246d8b659bd73bebcbb71f8e",
+      "reviewPath": "course-materials/advanced-native/reviews-books10-16/independent-proposal-followup-4537-final-20261024.json",
+      "reviewSha256": "dfd14f490130e58f628987099059f0f3cad8eed9cadea297a4d82e5590c9ee1f",
+      "selectedLessonContentSha256": "9dd767e8ac860561b7d4125075cae21cb8811b20430b573a8f334c0ce7d36cf4"
+    },
+    {
+      "owner": 4555,
+      "repeat": 4570,
+      "proposalSha256": "a76e675e4dfa457f8e39f29080e9ee1480c979a876547962051bbebe7e680518",
+      "reviewPath": "course-materials/advanced-native/reviews-books10-16/independent-proposal-review-repeat-owners-3732-3739-4537-4555-20261024.json",
+      "reviewSha256": "e4943a411e77a83735985af391a7d45406c3b59b2cd12b2a01a48cd50983ee90",
+      "selectedLessonContentSha256": "b48744502a571c7c954aeeb440ef4b451c45c1cfbcef6219e32ecab3f429c742"
+    }
+  ],
+  "reviewMetadata": "English/Chinese content self-reviewed; independent AI evidence covers the original proposals. Revised 3739 takeaway 1 awaits focused independent review. Media and QA pending; no human or release approval.",
+  "publication": "not published",
+  "commitOrPush": false
+}
