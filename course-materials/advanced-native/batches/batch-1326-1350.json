@@ -4340,24 +4340,24 @@
       "id": "advanced-native-1347",
       "number": 1347,
       "inventoryId": "expr-1347",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "cut off from others",
       "titleZh": "與別人失去聯繫而感到隔絕",
       "category": "phrasal-verb",
       "target": {
-        "pattern": "\\bcut off from (?:others|the world|the digital world)\\b",
+        "pattern": "\\b(?:cut off from (?:others|the world|the digital world)|cut (?:them|us|people) off from birdsong)\\b",
         "glossaryForbidden": [
           "\\bcut off\\b"
         ]
       },
       "brief": {
-        "meaningEn": "Separated from social contact or connection with the surrounding world, including online communication and information.",
-        "meaningZh": "與別人或周圍世界的接觸、聯繫隔絕，也可以指網上通訊及資訊。",
-        "grammar": "be/feel cut off from others/the world/the digital world; cut is unchanged in the past. Feel describes experienced isolation and does not by itself establish that every possible contact is physically impossible.",
-        "register": "Social-isolation use of the separation phrasal verb. Quiet, solitude and isolation are not identical. Related opportunity-access or physical-route uses require their own context.",
-        "boundaryZh": "感到隔絕，不一定表示所有通訊都失效，也不證明別人故意排斥；要指出失去的是哪些聯繫。",
+        "meaningEn": "Separated from desired contact with people or from an experience in the surrounding world; the context must identify what is no longer accessible.",
+        "meaningZh": "與想要的人際接觸或周圍環境中的某種體驗隔開；上下文須指出失去的是甚麼接觸。",
+        "grammar": "Be or feel cut off from others/the world/the digital world; loud sound can cut them/us/people off from birdsong. Cut is unchanged in the past. The object after from identifies the lost contact or experience.",
+        "register": "Natural separation phrasal verb for social connection or a specific sensory experience. Feeling isolated does not prove every communication channel has failed; masking birdsong does not prove that every outdoor sound is inaudible.",
+        "boundaryZh": "與人隔絕不一定表示所有通訊失效；音樂蓋過鳥鳴也不表示完全聽不到戶外所有聲音。須指出實際失去的接觸或體驗。",
         "misconceptionZh": "留意本人想獨處與缺少想要的互動不同，不替沉默的人假定他喜歡或討厭孤單。",
-        "outcomeZh": "能按需要說明聯繫障礙，也能提出自願而具體的參與方式。"
+        "outcomeZh": "能區分失去人際聯繫與暫時聽不到環境聲音，說清楚隔絕的具體對象。"
       },
       "sources": [
         {
@@ -4401,6 +4401,20 @@
           "sentence": "Training helps older adults avoid feeling cut off from the digital world.",
           "referenceSentenceKind": "guide_original_example",
           "locatorNote": "Actual PDF page251, table2, row3; unknown locators remain null."
+        },
+        {
+          "occurrenceId": "book10-16-2278",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 215,
+          "book": 16,
+          "question": 21,
+          "sample": "S2",
+          "sourceBookPages": "51–52",
+          "expression": "cut them off from",
+          "sentence": "Loud music can cut them off from birdsong.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "DOCX table 236, row 6; page is the locally rendered PDF page. Proposed same-sense alias only; retain exact source wording as provenance."
         }
       ],
       "listening": {
@@ -4463,26 +4477,26 @@
       },
       "scene": {
         "promptEn": "",
-        "promptZh": "人物自願在安靜咖啡店讀半天書，之後已約朋友見面；她明說享受獨處，不覺得隔絕。旁人只看她獨坐，就說她與世界失去聯繫。哪句最準確？",
+        "promptZh": "自然導賞時，幾名參加者戴着耳機聽很響的音樂。導賞員仍能聽到林間鳥鳴，他們摘下耳機後也聽到了。哪句最準確？",
         "options": [
           {
             "id": "choice-1",
-            "en": "Choosing a quiet morning does not establish that she feels cut off from the world, especially given her stated enjoyment and later plans.",
-            "zh": "自選安靜的早上，不足以確定她覺得與世界隔絕，尤其她明說享受獨處，也有稍後見面的安排。"
+            "en": "The loud music cut them off from birdsong while their headphones were on; it did not make the birds disappear.",
+            "zh": "耳機開着時，響亮的音樂令他們聽不到鳥鳴；這不表示鳥兒消失了。"
           },
           {
             "id": "choice-2",
-            "en": "Sitting alone confirms that she has no way to contact the friends she plans to meet.",
-            "zh": "獨坐確認了，她沒有方法聯絡已約好的朋友。"
+            "en": "The birds stopped singing for everyone until the group took off its headphones.",
+            "zh": "在小組摘下耳機前，鳥兒對所有人都停止了鳴叫。"
           },
           {
             "id": "choice-3",
-            "en": "Her later meeting is described as a cancelled plan that leaves her disappointed.",
-            "zh": "敘述把稍後見面說成已取消、令她失望的計劃。"
+            "en": "The guide could not hear birdsong either, so the headphones made no difference.",
+            "zh": "導賞員也聽不到鳥鳴，所以耳機沒有造成分別。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "自願獨處與不想要的隔絕不同；要尊重本人說明及仍存在的聯繫，不只看座位。"
+        "explanationZh": "導賞員仍聽到鳥鳴，參加者摘下耳機後也聽到；被隔開的是他們當時對鳥鳴的聽覺體驗。"
       },
       "contrast": {
         "promptEn": "",
@@ -4624,7 +4638,7 @@
           "reviewer": "AI author author_0011_0025",
           "evidence": "Every learner-facing Traditional Chinese field individually checked as complete natural prose against English subjects, tense, negation, degree and modality; independent review remains pending."
         },
-        "note": "Original individual author draft; separate independent editorial/media/browser/publication checks remain pending."
+        "note": "Proposal only: bounded sensory-object expansion for book10-16-2278. Existing IDs and all other assessed stages remain unchanged; independent review needed."
       }
     },
     {

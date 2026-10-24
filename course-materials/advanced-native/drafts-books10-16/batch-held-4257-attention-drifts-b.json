@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-4257-attention-drifts-b-unselected",
+  "lessons": [
+    {
+      "id": "advanced-native-4257",
+      "number": 4257,
+      "inventoryId": "expr-4257",
+      "titleEn": "attention drifts",
+      "titleZh": "注意力逐漸飄走",
+      "category": "figurative",
+      "contentRevision": 3,
+      "target": {
+        "pattern": "\\b(?:attention|focus)\\s+(?:(?:(?:can|may|might|will)\\s+drift)|(?:(?:may|might)\\s+have\\s+drifted)|(?:(?:sometimes|often)\\s+drifts)|drifts|drifted|(?:is|was)\\s+drifting)\\b",
+        "glossaryForbidden": [
+          "\\b(?:attention|focus)\\s+(?:(?:can|may|might|will|sometimes|often)\\s+)?drift(?:s|ed|ing)?\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A person’s attention gradually moves away from an intended task, often unintentionally; the person can notice and return to it.",
+        "meaningZh": "一個人的注意力逐漸離開原本要專注的任務，通常不是故意；察覺後可以重新集中。",
+        "grammar": "Use attention or focus as the singular subject: attention drifts/drifted, can drift, may have drifted, or is drifting. Without a modal, attention drift is not a complete present-tense clause. A from/to phrase may name the intended task and distraction. This describes a person’s focus, not a discussion drifting off-topic.",
+        "register": "Neutral, non-diagnostic wording. A learner can explain a lapse to a tutor; a trainer can adjust a long explanation without treating a missed step as deliberate refusal.",
+        "boundaryZh": "本課指人的注意力逐步偏離，可再回到任務；不等於一開始就完全不理會、故意拒聽，亦不同於討論本身離題。單憑一次相關提問，不能說注意力飄走。",
+        "misconceptionZh": "不要把短暫走神當成品格或醫學判斷。要指出原任務、注意力偏往何處，以及怎樣接回去。",
+        "outcomeZh": "能辨認逐漸、非故意的注意力偏離，區分人走神與討論離題，並提出尊重對方的重新聚焦做法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2146",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 202,
+          "book": 16,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "12–13",
+          "locatorNote": "DOCX table 220, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "During a long lecture, attention can drift.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "attention can drift"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory scoped reauthoring",
+          "evidence": "Source sense, staged decision variety and changed-context writing self-checked; pending independent AI review."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory scoped reauthoring",
+          "evidence": "Changed EN/ZH fields checked for subjects, modality and evidence; pending independent AI review."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ],
+        "author": "AI author source_inventory scoped reauthoring",
+        "independentHumanApproval": false
+      },
+      "listening": {
+        "promptEn": "What happened to Chen’s focus?",
+        "promptZh": "Chen 的注意力發生甚麼變化？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It moved away from the route for a while, then he refocused.",
+            "zh": "注意力暫時離開路線，之後他重新集中。"
+          },
+          {
+            "id": "b",
+            "en": "He deliberately refused to hear any route information.",
+            "zh": "他刻意拒絕聽任何路線資料。"
+          },
+          {
+            "id": "c",
+            "en": "He took a pause but still could not find the marked stop afterwards.",
+            "zh": "他停頓過後，仍找不到標示的站點。"
+          },
+          {
+            "id": "d",
+            "en": "He found the marked stop again without needing a pause.",
+            "zh": "他毋須停頓便重新找到標示的站點。"
+          }
+        ],
+        "answerId": "a",
+      "explanationZh": "他被窗外噪音帶走注意，要求停頓後又找到站點；乙妄斷他刻意拒聽，丙說他之後仍找不到站點，丁則說他毋須停頓。",
+        "en": "During the long map briefing, Chen noticed that his attention drifted from the route to the noise outside. He asked for a short pause, then found the marked stop on the map again.",
+        "zh": "漫長的路線簡介期間，Chen 發現注意力由路線飄到窗外噪音。他要求短暫停頓，然後重新在地圖上找到標示的站點。"
+      },
+      "reply": {
+        "promptEn": "I lose track during long staff briefings, but a written agenda and a quick pause help me return to the topic. How could I explain this to my manager?",
+        "promptZh": "冗長職員簡介時我有時跟不上，但書面議程和短暫停頓能幫我回到議題。我可怎樣向經理解釋？",
+        "options": [
+          {
+            "id": "a",
+            "en": "My attention can drift in a long briefing; the agenda and a brief pause help me refocus.",
+            "zh": "冗長簡介時我的注意力可能飄走；議程和短暫停頓有助重新集中。"
+          },
+          {
+            "id": "b",
+            "en": "A written agenda helps me see which point we are discussing.",
+            "zh": "書面議程幫我知道正在談哪一點。"
+          },
+          {
+            "id": "c",
+            "en": "A short pause lets me check my notes before we continue.",
+            "zh": "短暫停頓讓我在繼續前核對筆記。"
+          },
+          {
+            "id": "d",
+            "en": "I can ask for a recap when I have lost the thread of the discussion.",
+            "zh": "跟不上討論時，我可以請人簡單重述。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都誠實交代跟進方法，不把注意力偏離說成拒絕工作。"
+      },
+      "scene": {
+        "promptEn": "At a gallery inventory, Mei records the first four labels accurately. As the long check continues, she starts following an unrelated conversation, misses the next label number, then uses the log to find her place. Which description fits?",
+        "promptZh": "畫廊盤點時，Mei 準確記下頭四個標籤。漫長的核查繼續進行，她開始留意旁邊無關的談話，漏了下一個標籤編號，之後翻查紀錄找回進度。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her attention drifted during the long check, and she used the log to find her place again.",
+            "zh": "漫長的核查期間，她的注意力飄走，之後靠紀錄找回進度。"
+          },
+          {
+            "id": "b",
+            "en": "She deliberately skipped the next label number to make the inventory shorter.",
+            "zh": "她為了縮短盤點，故意跳過下一個標籤編號。"
+          },
+          {
+            "id": "c",
+            "en": "The inventory discussion drifted off-topic while Mei kept checking every label number.",
+            "zh": "盤點討論離了題，但 Mei 一直核對每個標籤編號。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "Mei 起初核查準確，後來被無關談話帶走注意，漏了一個編號，再靠紀錄接回進度；題目沒有說她故意略過，也不是只說討論離題而她仍核對所有編號。"
+      },
+      "contrast": {
+        "promptEn": "Which case is least about a person’s attention drifting?",
+        "promptZh": "哪種情況最不屬於某人的注意力飄走？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A reader follows an unrelated sidebar and must reread the paragraph she was studying.",
+            "zh": "讀者追看無關側欄，要重讀原本正在看的段落。"
+          },
+          {
+            "id": "b",
+            "en": "A committee discusses labels, then moves to next year’s trip while each speaker follows that new topic.",
+            "zh": "委員會原本討論標籤，之後轉談明年的旅程，而每位發言者都跟得上新話題。"
+          },
+          {
+            "id": "c",
+            "en": "A volunteer starts checking numbers, then follows a nearby conversation and loses her place.",
+            "zh": "義工起初核對數字，後來留意旁邊談話，忘了核對到哪裏。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "乙是討論本身轉到別的話題，沒有證據顯示任何發言者走神；甲和丙都有人從原任務移開注意，之後需要找回位置。"
+      },
+      "dialogue": {
+        "promptEn": "A trainee says, “I followed the first two steps, but during the long explanation I began thinking about the door alarm and missed the third. Could you repeat it?” Which reply is most helpful?",
+        "promptZh": "受訓者說：「頭兩步我有跟上，但解釋太長時，我開始想着門警報器，漏聽第三步。可否再說一次？」哪個回應最有幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Of course. Your attention may have drifted; step three is to label each sample. I can point to it on the handout too.",
+            "zh": "當然。你的注意力可能暫時飄走；第三步是為每個樣本貼標籤。我也可以在講義上指出那一步。"
+          },
+          {
+            "id": "b",
+            "en": "I will repeat step three, but missing it shows you chose not to listen to the training.",
+            "zh": "我會重說第三步，但你漏聽就表示你選擇不聽培訓。"
+          },
+          {
+            "id": "c",
+            "en": "The handout is available, so I will continue without checking which step you missed.",
+            "zh": "有講義可看，所以我會繼續，不確認你漏了哪一步。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲沒有把短暫走神判成故意拒聽，而且重說了受訓者漏聽的第三步並提供書面位置；乙妄斷動機，丙沒有回應具體求助。"
+      },
+      "speaking": {
+        "en": "When my attention drifts during a complex recipe, I return to the last numbered instruction before continuing.",
+        "zh": "照着複雜食譜做菜時，若我的注意力飄走，我會先找回最後跟上的編號步驟，再繼續做。",
+        "promptZh": "先聽示範，說明非故意走神後如何安全地接回原步驟。",
+        "targetSpan": {
+          "start": 5,
+          "end": 24
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你正在修改義工急救培訓的網上課節。幾位義工說，他們雖然想學，但連續十二分鐘只看圖解說明，注意力會在實際操作步驟前飄走。請用一至兩句英文向課程設計者建議把圖解分成較短部分、加入簡短核對，並標出走神後可接回的位置；不要把義工說成不願學。",
+        "selfCheckZh": "兩例都要根據義工自己的說法指出長時間連續圖解使注意力在操作步驟前飄走；建議較短部分、簡短核對及清楚接回的位置，不把走神說成故意不學。",
+        "examples": [
+          {
+            "en": "Several volunteers said their attention drifted before the action step during the uninterrupted twelve-minute diagram explanation, although they wanted to learn. Could we split the diagrams into shorter parts, add a quick check, and mark where to resume?",
+            "zh": "幾位義工說，雖然想學，但連續十二分鐘觀看圖解說明時，注意力在操作步驟前飄走了。我們可否把圖解分成較短部分、加上簡短核對，並標出從哪裏接回？"
+          },
+          {
+            "en": "The volunteers wanted to learn, but said their focus drifted before the action step in the uninterrupted twelve-minute diagram segment. I would divide it into shorter sections, ask for a brief check after each, and show a clear return point.",
+            "zh": "義工想學，但說在連續十二分鐘的圖解部分，注意力於操作步驟前飄走。我會把圖解分成較短段落，每段後加一項簡短核對，並標示清楚的接回位置。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the uninterrupted twelve-minute diagram explanation",
+            "zh": "連續十二分鐘的圖解說明",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 129
+            }
+          },
+          {
+            "en": "split the diagrams into shorter parts",
+            "zh": "把圖解分成較短部分",
+            "exampleIndex": 0,
+            "span": {
+              "start": 171,
+              "end": 208
+            }
+          },
+          {
+            "en": "a quick check",
+            "zh": "簡短核對",
+            "exampleIndex": 0,
+            "span": {
+              "start": 214,
+              "end": 227
+            }
+          },
+          {
+            "en": "shorter sections",
+            "zh": "較短段落",
+            "exampleIndex": 1,
+            "span": {
+              "start": 159,
+              "end": 175
+            }
+          },
+          {
+            "en": "a clear return point",
+            "zh": "清楚的接回位置",
+            "exampleIndex": 1,
+            "span": {
+              "start": 220,
+              "end": 240
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Attention can drift during a long explanation even when the listener wants to learn.",
+          "zh": "即使聽者想學，冗長解釋中注意力仍可能逐漸飄走。"
+        },
+        {
+          "en": "Short checks and a clear return point can help when attention drifts, without calling anyone careless.",
+          "zh": "注意力飄走時，簡短核對和清楚的接回位置能幫助重新集中，毋須指責任何人粗心。"
+        }
+      ]
+    }
+  ]
+}

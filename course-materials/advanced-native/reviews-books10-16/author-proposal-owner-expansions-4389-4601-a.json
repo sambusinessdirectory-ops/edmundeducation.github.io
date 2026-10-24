@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "scope": "Proposal only, no selected/decision/owner edits",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-4389-4601-proposed-a.json",
+  "proposalSha256": "4ff97b0f59a973fe433684a7679380e3403a152b859fe5dde3e963875286adab",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "selectedManifestSha256": "914b8b27ced7aa5a3b35ad0e1df3f5a172dbb31cbe8353cc251aa05ee305651a",
+  "ownerFileSha256": {
+    "1347": "0b36e3369eb92464d25bb6ebb1064147d13e6a0af43c6d48a43741725df9306d",
+    "1258": "75514234af5836c127261e5a9a34230b8de8633a536754574ccc9ef1e3737cb9"
+  },
+  "decisionFileSha256": {
+    "4389": "29fd435ab9750dbc40a553bb3c0aa5d6144fe9eea4bd1bfcfad1a2631703d639",
+    "4601": "0d1aee9a73ef7d252ae68b62e3a7045fed3b44237f11fbc61f43c7b720f47395"
+  },
+  "sourceOrdinals": {
+    "4389": {
+      "sourceId": "book10-16-2278",
+      "proposedOwner": 1347,
+      "decision": "conditional same-sense expansion",
+      "rationale": "The specific sensory loss is an access-to-surroundings use of cut off from, distinct from literal disappearance of birds and compatible with owner1347’s connection-to-world frame. Its social-isolation stages are preserved; revised Step 3 tests auditory masking, not loneliness. This expansion requires editorial confirmation because the current title remains socially focused."
+    },
+    "4601": {
+      "sourceId": "book10-16-2490",
+      "proposedOwner": 1258,
+      "decision": "conditional same-sense expansion",
+      "rationale": "Run into retains the encounter-obstacle meaning; political pressure is a different obstacle object from practical problems. Revised Step 3 tests a political approval delay, without claiming the rail project failed or naming a party. Existing logistics stages are preserved."
+    }
+  },
+  "changedLessonFields": {
+    "1347": [
+      "contentRevision",
+      "target.pattern",
+      "brief",
+      "sources[+1]",
+      "scene",
+      "review.note"
+    ],
+    "1258": [
+      "contentRevision",
+      "target.pattern",
+      "brief",
+      "sources[+1]",
+      "scene",
+      "review.note"
+    ]
+  },
+  "focusedBuild": {
+    "lessons": 2,
+    "questions": 12,
+    "audioRequests": 8,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass"
+  },
+  "checks": [
+    {
+      "check": "1347-ids",
+      "pass": true,
+      "evidence": {
+        "optionIds": {
+          "listening": [
+            "choice-1",
+            "choice-2",
+            "choice-3",
+            "choice-4"
+          ],
+          "reply": [
+            "choice-1",
+            "choice-2",
+            "choice-3",
+            "choice-4"
+          ],
+          "scene": [
+            "choice-1",
+            "choice-2",
+            "choice-3"
+          ],
+          "contrast": [
+            "choice-1",
+            "choice-2",
+            "choice-3"
+          ],
+          "dialogue": [
+            "choice-1",
+            "choice-2",
+            "choice-3"
+          ]
+        },
+        "keyIds": {
+          "listening": "choice-1",
+          "reply": "choice-1",
+          "scene": "choice-1",
+          "contrast": "choice-2",
+          "dialogue": "choice-1"
+        }
+      }
+    },
+    {
+      "check": "1347-unchanged-other-assessed",
+      "pass": true,
+      "evidence": {
+        "changedAssessment": "scene only",
+        "audioTextDelta": false
+      }
+    },
+    {
+      "check": "1347-exact-provenance",
+      "pass": true,
+      "evidence": "Loud music can cut them off from birdsong."
+    },
+    {
+      "check": "1347-full-source-pattern",
+      "pass": true,
+      "evidence": {
+        "sentence": "Loud music can cut them off from birdsong.",
+        "matchedSpan": "cut them off from birdsong"
+      }
+    },
+    {
+      "check": "1347-inventory-scope",
+      "pass": true,
+      "evidence": {
+        "all2604SourceHits": [
+          {
+            "sourceId": "book10-16-2278",
+            "match": "cut them off from birdsong"
+          }
+        ]
+      }
+    },
+    {
+      "check": "1347-pattern-controls",
+      "pass": true,
+      "evidence": {
+        "positive": [
+          "Loud music can cut them off from birdsong.",
+          "The generator cut us off from birdsong.",
+          "Residents felt cut off from others during the closure.",
+          "She felt cut off from the digital world."
+        ],
+        "negative": [
+          "Loud music shut them off from birdsong.",
+          "The barrier cut them off from opportunity.",
+          "The headphones cut them off from traffic warnings.",
+          "The music cut them off from all contact."
+        ]
+      }
+    },
+    {
+      "check": "1347-key-target",
+      "pass": true,
+      "evidence": {
+        "key": "The loud music cut them off from birdsong while their headphones were on; it did not make the birds disappear."
+      }
+    },
+    {
+      "check": "1347-prior-sources-preserved",
+      "pass": true,
+      "evidence": {
+        "priorOccurrences": 3,
+        "proposedOccurrences": 4
+      }
+    },
+    {
+      "check": "1258-ids",
+      "pass": true,
+      "evidence": {
+        "optionIds": {
+          "listening": [
+            "choice-1",
+            "choice-2",
+            "choice-3",
+            "choice-4"
+          ],
+          "reply": [
+            "choice-1",
+            "choice-2",
+            "choice-3",
+            "choice-4"
+          ],
+          "scene": [
+            "choice-1",
+            "choice-2",
+            "choice-3"
+          ],
+          "contrast": [
+            "choice-1",
+            "choice-2",
+            "choice-3"
+          ],
+          "dialogue": [
+            "choice-1",
+            "choice-2",
+            "choice-3"
+          ]
+        },
+        "keyIds": {
+          "listening": "choice-1",
+          "reply": "choice-1",
+          "scene": "choice-1",
+          "contrast": "choice-2",
+          "dialogue": "choice-1"
+        }
+      }
+    },
+    {
+      "check": "1258-unchanged-other-assessed",
+      "pass": true,
+      "evidence": {
+        "changedAssessment": "scene only",
+        "audioTextDelta": false
+      }
+    },
+    {
+      "check": "1258-exact-provenance",
+      "pass": true,
+      "evidence": "New rail projects can run into political pressure."
+    },
+    {
+      "check": "1258-full-source-pattern",
+      "pass": true,
+      "evidence": {
+        "sentence": "New rail projects can run into political pressure.",
+        "matchedSpan": "run into political pressure"
+      }
+    },
+    {
+      "check": "1258-inventory-scope",
+      "pass": true,
+      "evidence": {
+        "all2604SourceHits": [
+          {
+            "sourceId": "book10-16-2490",
+            "match": "run into political pressure"
+          }
+        ]
+      }
+    },
+    {
+      "check": "1258-pattern-controls",
+      "pass": true,
+      "evidence": {
+        "positive": [
+          "New rail projects can run into political pressure.",
+          "The proposal ran into political pressure.",
+          "First-time organizers often run into practical problems.",
+          "The group has run into practical problems."
+        ],
+        "negative": [
+          "New rail projects can run into a political meeting.",
+          "The bus ran into a politician.",
+          "The project ran into political pressures.",
+          "The plans faced political pressure."
+        ]
+      }
+    },
+    {
+      "check": "1258-key-target",
+      "pass": true,
+      "evidence": {
+        "key": "The rail project has run into political pressure, although its technical plans are ready and it has not been cancelled."
+      }
+    },
+    {
+      "check": "1258-prior-sources-preserved",
+      "pass": true,
+      "evidence": {
+        "priorOccurrences": 1,
+        "proposedOccurrences": 2
+      }
+    },
+    {
+      "check": "4389-decision-unchanged",
+      "pass": true,
+      "evidence": {
+        "action": "hold-editorial",
+        "file": "course-materials/advanced-native/books10-16/editorial-decisions-4332-4391.jsonl"
+      }
+    },
+    {
+      "check": "4601-decision-unchanged",
+      "pass": true,
+      "evidence": {
+        "action": "hold-editorial",
+        "file": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl"
+      }
+    }
+  ],
+  "openRisk": "These are proposed object/sense expansions, not integrated aliases; independent reviewer should decide whether one owner can coherently cover each new object domain."
+}

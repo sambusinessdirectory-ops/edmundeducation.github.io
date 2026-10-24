@@ -1,0 +1,109 @@
+{
+  "type": "author self-audit: one reauthored held source in separate unselected batch",
+  "recordedAtUtc": "2026-10-24T02:50:03.652249+00:00",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-4257-attention-drifts-b.json",
+  "draftSha256": "6fce831881a372990b8bf18268589dab989e1a4c66702ec684dcd3605598f449",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "914b8b27ced7aa5a3b35ad0e1df3f5a172dbb31cbe8353cc251aa05ee305651a",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceOrdinal": 4257,
+  "sourceId": "book10-16-2146",
+  "sourceExpression": "attention can drift",
+  "sourceSentence": "During a long lecture, attention can drift.",
+  "sourceProvenance": {
+    "occurrenceId": "book10-16-2146",
+    "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+    "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+    "page": 202,
+    "book": 16,
+    "question": 5,
+    "sample": "S1",
+    "sourceBookPages": "12–13",
+    "locatorNote": "DOCX table 220, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+    "sentence": "During a long lecture, attention can drift.",
+    "referenceSentenceKind": "guide_original_example",
+    "expression": "attention can drift"
+  },
+  "currentDecision": {
+    "action": "hold-editorial",
+    "selectionChanged": false,
+    "decisionChanged": false
+  },
+  "eligibilityJudgment": "Provisional teachable collocation: a person’s attention gradually and often unintentionally moves away from an intended task, with a respectful route back. This is a narrow natural-English decision despite transparent words; independent owner/teaching challenge remains required.",
+  "ownerBoundaries": [
+    {
+      "owner": 1487,
+      "target": "switch off straight away",
+      "boundary": "sudden disengagement at the start, not a gradual lapse during a continuing task"
+    },
+    {
+      "owner": 3072,
+      "target": "let their minds wander",
+      "boundary": "deliberately allowing open thought, not losing focus unintentionally"
+    },
+    {
+      "owner": 4242,
+      "target": "drift off-topic",
+      "boundary": "the subject of a discussion moves, not a participant’s attention"
+    }
+  ],
+  "sevenStepDecisions": [
+    "Listening: identify an involuntary lapse and recovery in a map briefing, without inferring refusal or sleep.",
+    "Reply: explain a long-briefing lapse to a manager and suggest an agenda, pause, or recap; all four replies are usable.",
+    "Scene: classify a gallery inventory lapse with recorded recovery rather than deliberate omission or only topical drift.",
+    "Contrast: distinguish a discussion changing topic from a reader or volunteer losing focus.",
+    "Dialogue: repeat the specifically missed instruction without attributing misconduct to a trainee.",
+    "Speaking: describe returning to the last numbered recipe instruction after a lapse.",
+    "Writing: redesign an online first-aid training diagram for volunteers who reported attention lapses; shorter sections, checks and a return point are grounded in the prompt."
+  ],
+  "focusedBuildCheck": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRequests": 4,
+    "reviewFlags": 0,
+    "build": "passed",
+    "check": "passed"
+  },
+  "mechanicalChecks": {
+    "nativeJsPositiveControls": 7,
+    "nativeJsNegativeControls": 7,
+    "exactSourceMatched": true,
+    "allSourceOwnerPatternsScanned": 2512,
+    "priorOwnerHitsOnFullSource": 0,
+    "targetBearingKeyAndAudioTextsMatched": 9,
+    "replyOptionsIndependentlyValid": 4,
+    "sceneContrastDialogueAnswerIdsPresent": true,
+    "glossaryRows": 5,
+    "answerDerivedNonTargetOffsetsExact": true,
+    "speakingTargetSpanExact": true,
+    "englishTraditionalChineseParity": "AI author checked changed subjects, timing, intent, and model details; independent review pending."
+  },
+  "originalityScreen": {
+    "learnerEnglishStrings": 28,
+    "guideSourceExamples": 2604,
+    "nonOwnContiguousSixTokenHits": 0,
+    "limitation": "Mechanical overlap screen cannot establish naturalness or semantic originality."
+  },
+  "exploratoryBatchDisposition": {
+    "alreadySelectedOrdinals": [
+      3903,
+      3963,
+      4122,
+      4207,
+      4511,
+      4539,
+      4589,
+      4702
+    ],
+    "otherHeldOrdinal": 4465,
+    "otherHeldReason": "support livelihoods is a transparent income-support collocation overlapping owner 229’s livelihood-impact teaching; seven distinct decisions not established. Original hold is unchanged."
+  },
+  "limitations": [
+    "Unselected exploratory content; selected manifest and editorial decisions untouched.",
+    "AI author self-review only; independent editorial review pending.",
+    "No browser, audio, device, human listening, publication, or release approval claim."
+  ],
+  "contentRevision": 3,
+  "focusedRepair": "Pilot initial review R4257-01: listening C and D are now contextual outcome/timing near-misses instead of remote sleep/route foils; paired Traditional Chinese and rationale updated. Golden answer, source, target, other steps and glossary unchanged."
+}

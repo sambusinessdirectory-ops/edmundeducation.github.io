@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "kind": "independent-ai-scoped-followup",
+  "status": "content-clear-provisional",
+  "reviewedDraftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-4257-attention-drifts-b.json",
+  "reviewedDraftSha256": "6fce831881a372990b8bf18268589dab989e1a4c66702ec684dcd3605598f449",
+  "reviewedAuthorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-4257-attention-drifts-b.json",
+  "reviewedAuthorAuditSha256": "350e5820dabe49cf606fa0a85e2f7b230d260a98e0b17f27ae686fa7273625f2",
+  "initialReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-4257-attention-drifts-review-pilot.json",
+  "initialReviewSha256": "7d44b3e19de63f2b78b411bd7522659ef8925b69a87b2560927b7f972326db42",
+  "sourceOrdinal": 4257,
+  "contentRevision": 3,
+  "resolved": [
+    {
+      "id": "R4257-01",
+      "finding": "Listening C/D remote distractors",
+      "resolution": "C now says the pause failed to restore the marked stop; D says he found it without a pause. Both are natural, context-specific near-misses on outcome/timing, contradicted by the heard model. Chinese options and rationale preserve those distinctions; A remains the sole supported interpretation."
+    }
+  ],
+  "checks": {
+    "sourceAndOwnerScope": "Original book10-16-2146 attention-lapse sense; distinct from 1487 sudden switch-off, 3072 deliberate mind wandering, and 4242 discussion-topic drift.",
+    "sevenDistinctDecisions": "Pass on full reread.",
+    "fourValidReplies": "Pass: all four manager-facing options independently usable; only A golden target-bearing.",
+    "assessedKeys": "Listening, scene, contrast, dialogue keys remain defensible and bilingual.",
+    "writing": "Both new first-aid training models meet the stated twelve-minute/shorter-section/check/return-point/nonblame self-check.",
+    "target": "Full source, target-bearing options, speaking target span and bounded inflections matched.",
+    "glossary": "Five exact answer-derived spans; no target leak.",
+    "focusedBuildCheck": "1 lesson, 6 questions, 4 audio roles, zero flags."
+  },
+  "remainingContentFindings": [],
+  "limits": [
+    "AI peer content review only, not human sign-off.",
+    "Unselected lesson; no decision, manifest, audio, browser or publication approval."
+  ]
+}

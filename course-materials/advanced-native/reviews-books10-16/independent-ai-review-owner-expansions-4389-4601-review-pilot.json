@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "kind": "independent-ai-proposal-review",
+  "status": "content-clear-proposal-only",
+  "proposal": {
+    "path": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-4389-4601-proposed-a.json",
+    "sha256": "4ff97b0f59a973fe433684a7679380e3403a152b859fe5dde3e963875286adab"
+  },
+  "authorAudit": {
+    "path": "course-materials/advanced-native/reviews-books10-16/author-proposal-owner-expansions-4389-4601-a.json",
+    "sha256": "93e398e5c14ba0ce505cfbf4a1223d08c4ffd251aed5a5c7740754c1f27d59b6"
+  },
+  "sourceInventory": {
+    "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "focusedBuild": {
+    "lessons": 2,
+    "questions": 12,
+    "audioRoles": 8,
+    "schemaFlags": 0,
+    "buildAndCheck": "pass",
+    "output": "../proposal-qa-4389-4601-review-pilot"
+  },
+  "findings": [],
+  "reviews": [
+    {
+      "sourceOrdinal": 4389,
+      "sourceId": "book10-16-2278",
+      "sourceSentence": "Loud music can cut them off from birdsong.",
+      "proposalOwner": "advanced-native-1347",
+      "verdict": "pass",
+      "evidence": [
+        "Full source target span `cut them off from birdsong` matches live bounded regex; original social variants remain matched and prior three provenance rows are preserved.",
+        "The same cut-off-from access/separation construction extends from people/world contact to a specific sensory experience. A new learner unit would duplicate the phrasal decision; revised brief explicitly bounds the extension and one keyed scene assesses the auditory form.",
+        "Scene prompt says the guide still hears birds and headphone wearers hear them after removing headphones; key correctly attributes temporary masking to loud music rather than bird disappearance. English and Traditional Chinese agree.",
+        "Listening, four-valid reply, contrast, dialogue, speaking, writing, takeaways and their assessed IDs are unchanged; no audio text delta."
+      ],
+      "controls": {
+        "positives": 3,
+        "negatives": 3,
+        "sourceAndKeyTarget": true
+      },
+      "caveat": "Historical title `cut off from others` names the original dominant use; the new sensory extension is explicit in brief and scene. Retitling is optional, not needed for this bounded alias."
+    },
+    {
+      "sourceOrdinal": 4601,
+      "sourceId": "book10-16-2490",
+      "sourceSentence": "New rail projects can run into political pressure.",
+      "proposalOwner": "advanced-native-1258",
+      "verdict": "pass",
+      "evidence": [
+        "Full source target span `run into political pressure` matches live bounded regex, including natural ran/run variants; original `practical problems` branch and provenance remain intact.",
+        "The run-into encounter-obstacle construction is the same learner decision as owner1258, with political pressure as a new obstacle object; brief and scene distinguish it from practical arrangements and do not infer cancellation or a party actor.",
+        "Scene grounds councillors requesting approval delay to review residents’ route concerns; key says political pressure but no cancellation. Other options contradict prepared drawings or cancellation status. English and Traditional Chinese agree.",
+        "Listening, four-valid reply, contrast, dialogue, speaking, writing, takeaways and assessed IDs are unchanged; no audio text delta."
+      ],
+      "controls": {
+        "positives": 3,
+        "negatives": 3,
+        "sourceAndKeyTarget": true
+      },
+      "caveat": "Historical title `run into practical problems` remains the original source label; the new object extension is explicit in brief and scene."
+    }
+  ],
+  "limits": [
+    "AI peer review only, not human editorial approval.",
+    "Proposal-only object review; no selected canonical, decisions or manifest were changed.",
+    "Focused build/check validates schema and target placement, not live deployment or human listening."
+  ]
+}

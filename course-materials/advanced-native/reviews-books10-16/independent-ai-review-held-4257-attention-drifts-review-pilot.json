@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "kind": "independent-ai-review",
+  "status": "repair-required",
+  "reviewedDraftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-4257-attention-drifts-b.json",
+  "reviewedDraftSha256": "b8137ef512eac88264a3c166aa88134c60d126028f12e5959849a89de74e4e53",
+  "reviewedAuthorAuditSha256": "a24925aee7ee11d1ec5ce6091a255dcbdf4f42bdd2f435040ddc5857f85d8af7",
+  "sourceOrdinal": 4257,
+  "sourceSentence": "During a long lecture, attention can drift.",
+  "selectedAtReview": false,
+  "contentClear": false,
+  "findings": [
+    {
+      "id": "R4257-01",
+      "severity": "minor",
+      "path": "lessons[0].listening.options[c,d]",
+      "goldenSop": "P99",
+      "explanation": "The sleep-through-whole-briefing and route-itself-moving alternatives are remote against Chen asking for a pause and then finding the marked stop. They make the listening inference too easy rather than offering plausible timing or outcome near-misses tailored to the model.",
+      "recommendedFix": "Replace C and D with contextually plausible but unsupported timing/outcome interpretations. Preserve A as the sole supported answer and align both Traditional Chinese options and explanation."
+    }
+  ],
+  "checks": {
+    "sourceProvenance": "exact book10-16-2146 inventory sentence",
+    "ownerDistinctness": "defensible provisional learner unit versus 1487 sudden switch-off, 3072 deliberate mind wandering and 4242 discussion-topic drift",
+    "sevenDistinctDecisions": "pass: recognition, manager explanation, gallery evidence, topic-versus-attention boundary, supportive next turn, spoken recovery, changed-context course design",
+    "fourValidReplies": "pass; each independently usable, only A target-bearing",
+    "sceneContrastDialogue": "one defensible key each with grounded EN/ZH",
+    "writing": "new first-aid training context; both models meet twelve-minute/shorter-sections/check/return-point/nonblame self-check",
+    "glossary": "five exact answer-derived slices, no target leakage",
+    "target": "source, keys, speaking span and bounded inflections pass",
+    "focusedBuildCheck": "1 lesson, 6 questions, 4 audio roles, zero flags",
+    "originality": "author screen 28 learner strings × 2604 source examples, zero six-token hits"
+  },
+  "limits": [
+    "AI peer review, not human approval.",
+    "Proposal remains unselected and held.",
+    "Author began repairing the file after this exact-hash read; this report describes only the pinned prior SHA."
+  ]
+}

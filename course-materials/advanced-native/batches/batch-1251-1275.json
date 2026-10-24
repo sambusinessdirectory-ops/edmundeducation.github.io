@@ -1376,12 +1376,12 @@
       "id": "advanced-native-1258",
       "number": 1258,
       "inventoryId": "expr-1258",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "run into practical problems",
       "titleZh": "遇到實際安排上的問題",
       "category": "phrasal-verb",
       "target": {
-        "pattern": "\\br(?:un|uns|unning|an) into practical problems\\b"
+        "pattern": "\\br(?:un|uns|unning|an) into (?:practical problems|political pressure)\\b"
       },
       "sources": [
         {
@@ -1397,16 +1397,30 @@
           "sentence": "First-time organizers often run into practical problems.",
           "referenceSentenceKind": "guide_original_example",
           "locatorNote": "Actual PDF page137, table1, row9; unreported locators remain null."
+        },
+        {
+          "occurrenceId": "book10-16-2490",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 235,
+          "book": 16,
+          "question": 47,
+          "sample": "S2",
+          "sourceBookPages": "110–113",
+          "expression": "run into political pressure",
+          "sentence": "New rail projects can run into political pressure.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "DOCX table 262, row 8; page is the locally rendered PDF page. Proposed same-sense alias only; retain exact source wording as provenance."
         }
       ],
       "brief": {
-        "meaningEn": "Encounter difficulties involving practical arrangements or implementation.",
-        "meaningZh": "遇到實際安排或執行上的困難。",
-        "grammar": "run/ran/have run into practical problems; the problems concern doing or arranging something. Run into can also mean meet someone unexpectedly, but that is not this object construction.",
-        "register": "Natural encounter-problems phrasal-verb frame. Problems may be manageable; the phrase alone does not say a plan has failed or that nobody prepared.",
-        "boundaryZh": "遇到問題不等於整個計劃失敗，也不必表示主辦者完全沒有準備。",
+        "meaningEn": "Encounter an obstacle while carrying out a plan, whether a practical arrangement problem or political pressure on the proposal.",
+        "meaningZh": "推行計劃時遇到阻礙，可以是實際安排問題，也可以是針對方案的政治壓力。",
+        "grammar": "Run/ran/have run into practical problems or political pressure. Run into names an encountered obstacle; political pressure identifies its source, not its outcome. Run into can also mean meet someone unexpectedly, but that is a different object construction.",
+        "register": "Natural encounter-obstacle phrasal-verb frame. Pressure may prompt review or negotiation; the phrase alone does not establish cancellation, a specific political actor, or failed preparation.",
+        "boundaryZh": "遇到政治壓力不等於工程已取消，也不能單憑片語斷言是哪個黨派施壓；須按情境說明壓力及下一步。",
         "misconceptionZh": "要說明實際阻礙及下一步，不能只把所有困難歸於能力差或惡意。",
-        "outcomeZh": "能自然報告實施上的具體問題，並協商可行的調整。"
+        "outcomeZh": "能區分現場技術安排問題與方案遇到的政治壓力，並避免把阻礙說成已確定的失敗。"
       },
       "listening": {
         "en": "We ran into practical problems with the outdoor reading: the benches were fixed too far from the power point for the microphone lead. The poems were ready, but we needed to agree on a different arrangement for the audience.",
@@ -1468,26 +1482,26 @@
       },
       "scene": {
         "promptEn": "",
-        "promptZh": "同學已借到投影機，但到場才知道屏幕不能從後排看清；大家正商量移動屏幕。哪句貼切？",
+        "promptZh": "一項新鐵路工程的施工圖與成本估算已完成，但多名市議員要求暫緩批核，先審視居民對路線的意見。工程尚未取消。哪句最貼切？",
         "options": [
           {
             "id": "choice-1",
-            "en": "They have run into practical problems with visibility and are considering a different screen position.",
-            "zh": "他們遇到實際的觀看問題，正考慮把屏幕放在另一位置。"
+            "en": "The rail project has run into political pressure, although its technical plans are ready and it has not been cancelled.",
+            "zh": "這項鐵路工程遇到政治壓力，雖然技術方案已備妥，工程也尚未取消。"
           },
           {
             "id": "choice-2",
-            "en": "They have cancelled the presentation because nobody prepared any slides.",
-            "zh": "他們因沒有人準備投影片而取消演示。"
+            "en": "The rail project has run into practical problems because its construction drawings have not been prepared.",
+            "zh": "這項鐵路工程遇到實際安排問題，因為施工圖還未準備好。"
           },
           {
             "id": "choice-3",
-            "en": "The projector loan has been refused, so they have no equipment to arrange.",
-            "zh": "投影機借用已被拒，所以沒有器材可安排。"
+            "en": "The council has cancelled the rail project after finding that no residents commented on the route.",
+            "zh": "市議會發現沒有居民對路線提出意見後，已取消這項鐵路工程。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "問題是已借器材的使用效果，資料也明說正在找調整方法。"
+        "explanationZh": "已完成的圖則與估算不是此處阻礙；議員要求暫緩批核構成政治壓力，但工程尚未取消。"
       },
       "contrast": {
         "promptEn": "",
@@ -1629,7 +1643,7 @@
           "reviewer": "AI root",
           "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
         },
-        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+        "note": "Proposal only: bounded political-pressure object expansion for book10-16-2490. Existing IDs and all other assessed stages remain unchanged; independent review needed."
       }
     },
     {

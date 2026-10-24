@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-4389-4601-proposed-a.json",
+  "proposalSha256": "4ff97b0f59a973fe433684a7679380e3403a152b859fe5dde3e963875286adab",
+  "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-expansions-4389-4601-review-pilot.json",
+  "independentReviewSha256": "795081a5cd731a578455248d0da19ef59076a7294129a26565c11714ce1d5ff5",
+  "ownerFiles": {
+    "1347": {
+      "path": "course-materials/advanced-native/batches/batch-1326-1350.json",
+      "beforeSha256": "0b36e3369eb92464d25bb6ebb1064147d13e6a0af43c6d48a43741725df9306d",
+      "afterSha256": "5be33c0004eb87f0223efb86230d8a0d99d032d28b3a08a0d932f433f4fd5a35",
+      "unrelatedLessonObjectsUnchanged": true,
+      "contentRevision": 2
+    },
+    "1258": {
+      "path": "course-materials/advanced-native/batches/batch-1251-1275.json",
+      "beforeSha256": "75514234af5836c127261e5a9a34230b8de8633a536754574ccc9ef1e3737cb9",
+      "afterSha256": "414b5e9598606ec459735db23f5baafd124637e504c3170bef6d777b8c4722a7",
+      "unrelatedLessonObjectsUnchanged": true,
+      "contentRevision": 2
+    }
+  },
+  "decisionFiles": {
+    "4389": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4332-4391.jsonl",
+      "beforeSha256": "29fd435ab9750dbc40a553bb3c0aa5d6144fe9eea4bd1bfcfad1a2631703d639",
+      "afterSha256": "be0d5723365315c8ad67f7c788f05ffcbf4fce7c53907d2bf6430ca3a98f25aa",
+      "changedLineIndex": 58,
+      "unchangedOtherLines": true,
+      "newRow": {
+        "sourceOrdinal": 4389,
+        "sourceId": "book10-16-2278",
+        "phrase": "cut them off from",
+        "action": "proposed-alias-existing",
+        "canonicalId": "advanced-native-1347",
+        "reason": "Cut them off from birdsong is the same separation-from-surroundings frame as owner 1347, applied to audible bird calls rather than social contact. The bounded detector matches the full source sentence; the revised keyed scene distinguishes sound masking from birds disappearing, and exact occurrence provenance is attached."
+      }
+    },
+    "4601": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+      "beforeSha256": "0d1aee9a73ef7d252ae68b62e3a7045fed3b44237f11fbc61f43c7b720f47395",
+      "afterSha256": "25ae1634dea6d1f7850989218589c65628a81d39c64798375798df301272fd75",
+      "changedLineIndex": 30,
+      "unchangedOtherLines": true,
+      "newRow": {
+        "sourceOrdinal": 4601,
+        "sourceId": "book10-16-2490",
+        "phrase": "run into political pressure",
+        "action": "proposed-alias-existing",
+        "canonicalId": "advanced-native-1258",
+        "reason": "Run into political pressure uses owner 1258’s encounter-obstacle phrasal verb with a political rather than logistical obstacle. The bounded detector matches the full source sentence; the revised keyed scene distinguishes political delay from technical unreadiness or cancellation, and exact occurrence provenance is attached."
+      }
+    }
+  },
+  "selectedManifestSha256Before": "914b8b27ced7aa5a3b35ad0e1df3f5a172dbb31cbe8353cc251aa05ee305651a",
+  "selectedManifestSha256After": "914b8b27ced7aa5a3b35ad0e1df3f5a172dbb31cbe8353cc251aa05ee305651a",
+  "verification": {
+    "focusedBuild": {
+      "lessons": 2,
+      "questions": 12,
+      "audioRequests": 8,
+      "reviewFlags": 0,
+      "build": "pass",
+      "check": "pass"
+    },
+    "fullVerifier": {
+      "intakeRows": 2604,
+      "selectedLessons": 629,
+      "selectedQuestions": 3774,
+      "selectedAudioRoles": 2516,
+      "existingAliases": 1179,
+      "newAliases": 189,
+      "holds": 607,
+      "wholeCatalogueSchemaErrors": 0,
+      "exactGuideSentenceCopies": 0,
+      "nearDuplicateFlags": 0,
+      "status": "pass"
+    },
+    "existingAliasAudit": {
+      "matchingAliases": 1179,
+      "exceptionCount": 0
+    },
+    "newAliasAudit": {
+      "matchedDrafts": 189,
+      "exceptionCount": 0
+    },
+    "holdCoverage": {
+      "currentHolds": 607,
+      "unauditedCurrentHolds": 0,
+      "errorCount": 0
+    },
+    "targetControls": "18/18 positive-negative, provenance, IDs, unchanged-audio checks passed in author-proposal-owner-expansions-4389-4601-a.json",
+    "gitDiffCheck": "pass"
+  },
+  "selectedManifestSha256AfterChecks": "914b8b27ced7aa5a3b35ad0e1df3f5a172dbb31cbe8353cc251aa05ee305651a"
+}

@@ -1,0 +1,585 @@
+{
+  "schemaVersion": 1,
+  "batchId": "owner-expansions-4389-4601-proposed-a",
+  "lessons": [
+    {
+      "id": "advanced-native-1347",
+      "number": 1347,
+      "inventoryId": "expr-1347",
+      "contentRevision": 2,
+      "titleEn": "cut off from others",
+      "titleZh": "與別人失去聯繫而感到隔絕",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:cut off from (?:others|the world|the digital world)|cut (?:them|us|people) off from birdsong)\\b",
+        "glossaryForbidden": [
+          "\\bcut off\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Separated from desired contact with people or from an experience in the surrounding world; the context must identify what is no longer accessible.",
+        "meaningZh": "與想要的人際接觸或周圍環境中的某種體驗隔開；上下文須指出失去的是甚麼接觸。",
+        "grammar": "Be or feel cut off from others/the world/the digital world; loud sound can cut them/us/people off from birdsong. Cut is unchanged in the past. The object after from identifies the lost contact or experience.",
+        "register": "Natural separation phrasal verb for social connection or a specific sensory experience. Feeling isolated does not prove every communication channel has failed; masking birdsong does not prove that every outdoor sound is inaudible.",
+        "boundaryZh": "與人隔絕不一定表示所有通訊失效；音樂蓋過鳥鳴也不表示完全聽不到戶外所有聲音。須指出實際失去的接觸或體驗。",
+        "misconceptionZh": "留意本人想獨處與缺少想要的互動不同，不替沉默的人假定他喜歡或討厭孤單。",
+        "outcomeZh": "能區分失去人際聯繫與暫時聽不到環境聲音，說清楚隔絕的具體對象。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p151-t1-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 151,
+          "book": 6,
+          "question": 19,
+          "sample": "S2",
+          "sourceBookPages": "53–56",
+          "expression": "cut off from others",
+          "sentence": "Residents felt cut off from others during the closure.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page151, table1, row6; unknown locators remain null."
+        },
+        {
+          "occurrenceId": "pdf-2-p177-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 177,
+          "book": 7,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "12–13",
+          "expression": "cut off from the world",
+          "sentence": "She wanted quiet without feeling cut off from the world.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page177, table2, row2; unknown locators remain null."
+        },
+        {
+          "occurrenceId": "pdf-2-p251-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 251,
+          "book": 9,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "44–45",
+          "expression": "cut off from the digital world",
+          "sentence": "Training helps older adults avoid feeling cut off from the digital world.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page251, table2, row3; unknown locators remain null."
+        },
+        {
+          "occurrenceId": "book10-16-2278",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 215,
+          "book": 16,
+          "question": 21,
+          "sample": "S2",
+          "sourceBookPages": "51–52",
+          "expression": "cut them off from",
+          "sentence": "Loud music can cut them off from birdsong.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "DOCX table 236, row 6; page is the locally rendered PDF page. Proposed same-sense alias only; retain exact source wording as provenance."
+        }
+      ],
+      "listening": {
+        "en": "I felt cut off from others when the art room closed, even though my phone still worked. I missed the small conversations while we cleaned the tables; a weekly message helped, but it was not quite the same kind of contact.",
+        "zh": "畫室關閉時，即使電話仍能用，我也感到與別人隔絕。我想念收拾桌子時的短談話；每周訊息有幫助，但不是完全相同的接觸。",
+        "promptEn": "",
+        "promptZh": "隔絕感來自甚麼，而不是甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The loss of informal shared conversations, not a complete failure of the phone.",
+            "zh": "失去共同活動中的短談話，而不是電話完全失效。"
+          },
+          {
+            "id": "choice-2",
+            "en": "A decision to avoid the group because all contact was unwanted.",
+            "zh": "因不想要任何接觸，決定避開小組。"
+          },
+          {
+            "id": "choice-3",
+            "en": "A complete loss of every communication channel, including messages.",
+            "zh": "完全失去所有聯絡途徑，包括訊息。"
+          },
+          {
+            "id": "choice-4",
+            "en": "A return to the same daily conversations in the reopened art room.",
+            "zh": "回到已重開畫室，恢復相同的日常談話。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "電話可用及訊息有幫助，仍不一定取代共同活動中的互動；本人沒有說想拒絕聯繫。"
+      },
+      "reply": {
+        "promptEn": "Why did you miss the art room despite still having a working phone?",
+        "promptZh": "電話仍能用，你為甚麼仍想念畫室？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I felt cut off from others because I had lost the ordinary conversations around our shared work.",
+            "zh": "我失去共同工作時的日常談話，所以感到與別人隔絕。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The messages did not fully replace talking together while we cleared the tables.",
+            "zh": "訊息沒有完全取代一起收桌時的談話。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I missed a particular kind of company, not just the ability to send information.",
+            "zh": "我想念某種相伴，而不只是傳送資訊的能力。"
+          },
+          {
+            "id": "choice-4",
+            "en": "A working device did not give me the informal interaction I had enjoyed in the room.",
+            "zh": "器材仍能用，也沒有給我原來在房內享有的隨意互動。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句各自說明失去的互動方式，不把可通訊等同所有社交需要已滿足。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "自然導賞時，幾名參加者戴着耳機聽很響的音樂。導賞員仍能聽到林間鳥鳴，他們摘下耳機後也聽到了。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The loud music cut them off from birdsong while their headphones were on; it did not make the birds disappear.",
+            "zh": "耳機開着時，響亮的音樂令他們聽不到鳥鳴；這不表示鳥兒消失了。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The birds stopped singing for everyone until the group took off its headphones.",
+            "zh": "在小組摘下耳機前，鳥兒對所有人都停止了鳴叫。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The guide could not hear birdsong either, so the headphones made no difference.",
+            "zh": "導賞員也聽不到鳥鳴，所以耳機沒有造成分別。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "導賞員仍聽到鳥鳴，參加者摘下耳機後也聽到；被隔開的是他們當時對鳥鳴的聽覺體驗。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只從「He felt cut off from others」推論？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "他感到缺少想要的人際聯繫。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "朋友已明確要求他不要再聯絡。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "上下文可以指出哪類接觸減少了。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "隔絕感本身沒有報告朋友曾發出拒絕聯絡的要求；這需要另外的資料。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「電話沒壞，你就不可能覺得隔絕吧？」你想念的是收拾時的隨意談話。哪句回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I can feel cut off from others without losing the phone; I miss the informal company, not merely a way to send a message.",
+            "zh": "電話仍可用，我也可以感到與別人隔絕；我想念隨意相伴，而不只是傳訊息的途徑。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I thought simply increasing the number of messages could replace the missing conversations, without asking what kind of contact I missed.",
+            "zh": "我以為只要增加訊息數量，就能代替失去的談話，不用問自己想念哪種接觸。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would treat being able to send a message as proof that I do not miss any company.",
+            "zh": "我會把能傳訊息當成證據，證明自己沒有想念任何相伴。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可傳訊息不等於已有想要的陪伴；訊息數量也不能自動代替隨意談話。應先說清楚想念的是哪種互動。"
+      },
+      "speaking": {
+        "en": "A quiet place can let me rest without making me feel cut off from the world, provided I can choose when to reconnect.",
+        "zh": "只要我能選擇何時重新聯繫，安靜地方可以讓我休息，而不令我覺得與世界隔絕。",
+        "promptZh": "先聽示範，再把選擇獨處與缺少聯繫分開。",
+        "targetSpan": {
+          "start": 53,
+          "end": 75
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：新同學剛搬來，課後常要照顧弟妹，不能參加晚間聚會；他說想知道同學近況，卻不想在群組解釋家事。用一至兩句英文私下提出一個午間自願短聚或私訊的選項，先問意願，不替他向全班公開原因。",
+        "examples": [
+          {
+            "en": "I do not want you to feel cut off from others just because the evening meetups do not fit your time. Would a short lunch conversation or an occasional private message suit you, without sharing your family circumstances with the class?",
+            "zh": "我不希望晚間聚會時間不合，就令你感到與別人隔絕；午間短談或偶爾私訊合適嗎？不用向全班分享你的家庭情況。"
+          },
+          {
+            "en": "You need not feel cut off from the world to keep your family plans private. If you would like, we could catch up briefly at lunch; please tell me whether that would be useful rather than feeling you have to join.",
+            "zh": "保留家庭安排的私隱，不必等於感到與世界隔絕；如果你願意，我們可在午間短聚，請告訴我這是否有用，不用覺得一定要參加。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a short lunch conversation",
+            "zh": "午間短談",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 133
+            }
+          },
+          {
+            "en": "an occasional private message",
+            "zh": "偶爾的私人訊息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 137,
+              "end": 166
+            }
+          },
+          {
+            "en": "your family circumstances",
+            "zh": "你的家庭情況",
+            "exampleIndex": 0,
+            "span": {
+              "start": 193,
+              "end": 218
+            }
+          },
+          {
+            "en": "keep your family plans private",
+            "zh": "保留家庭安排的私隱",
+            "exampleIndex": 1,
+            "span": {
+              "start": 44,
+              "end": 74
+            }
+          },
+          {
+            "en": "catch up briefly at lunch",
+            "zh": "午間短聚談近況",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 129
+            }
+          }
+        ],
+        "selfCheckZh": "提出可自選的具體聯繫方式，先問合適與否，保護對方不公開家事的選擇，不把參與變成義務。"
+      },
+      "takeaways": [
+        {
+          "en": "The letter helped her feel less cut off from the world while the familiar group could not meet.",
+          "zh": "熟悉的小組無法見面時，那封信幫她減少與世界隔絕的感覺。"
+        },
+        {
+          "en": "He felt cut off from others after losing the shared routine, although he could still phone the people he knew.",
+          "zh": "失去共同規律後，他感到與別人隔絕，雖然仍可打電話給認識的人。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author author_0011_0025",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Social-isolation unit with others/world/digital-world contextual objects;1534 exact quiet-without-isolation and1997 online-connection source belong to this unit. Distinct648 opportunity-access application retained. Main missing informal interaction despite functioning phone, scene chosen quiet with ongoing contact not imposed isolation, final voluntary private inclusion proposal respects care-time and privacy."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Every learner-facing Traditional Chinese field individually checked as complete natural prose against English subjects, tense, negation, degree and modality; independent review remains pending."
+        },
+        "note": "Proposal only: bounded sensory-object expansion for book10-16-2278. Existing IDs and all other assessed stages remain unchanged; independent review needed."
+      }
+    },
+    {
+      "id": "advanced-native-1258",
+      "number": 1258,
+      "inventoryId": "expr-1258",
+      "contentRevision": 2,
+      "titleEn": "run into practical problems",
+      "titleZh": "遇到實際安排上的問題",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\br(?:un|uns|unning|an) into (?:practical problems|political pressure)\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p137-t1-r09",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 137,
+          "book": 6,
+          "question": 6,
+          "sample": "S2",
+          "sourceBookPages": "16–19",
+          "expression": "run into practical problems",
+          "sentence": "First-time organizers often run into practical problems.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page137, table1, row9; unreported locators remain null."
+        },
+        {
+          "occurrenceId": "book10-16-2490",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 235,
+          "book": 16,
+          "question": 47,
+          "sample": "S2",
+          "sourceBookPages": "110–113",
+          "expression": "run into political pressure",
+          "sentence": "New rail projects can run into political pressure.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "DOCX table 262, row 8; page is the locally rendered PDF page. Proposed same-sense alias only; retain exact source wording as provenance."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Encounter an obstacle while carrying out a plan, whether a practical arrangement problem or political pressure on the proposal.",
+        "meaningZh": "推行計劃時遇到阻礙，可以是實際安排問題，也可以是針對方案的政治壓力。",
+        "grammar": "Run/ran/have run into practical problems or political pressure. Run into names an encountered obstacle; political pressure identifies its source, not its outcome. Run into can also mean meet someone unexpectedly, but that is a different object construction.",
+        "register": "Natural encounter-obstacle phrasal-verb frame. Pressure may prompt review or negotiation; the phrase alone does not establish cancellation, a specific political actor, or failed preparation.",
+        "boundaryZh": "遇到政治壓力不等於工程已取消，也不能單憑片語斷言是哪個黨派施壓；須按情境說明壓力及下一步。",
+        "misconceptionZh": "要說明實際阻礙及下一步，不能只把所有困難歸於能力差或惡意。",
+        "outcomeZh": "能區分現場技術安排問題與方案遇到的政治壓力，並避免把阻礙說成已確定的失敗。"
+      },
+      "listening": {
+        "en": "We ran into practical problems with the outdoor reading: the benches were fixed too far from the power point for the microphone lead. The poems were ready, but we needed to agree on a different arrangement for the audience.",
+        "zh": "戶外朗讀遇到實際安排問題：長椅固定的位置，離插座太遠，咪高峰電線不夠長。詩作已準備好，但我們還需議定觀眾的另一種安排。",
+        "promptEn": "",
+        "promptZh": "問題出在哪裏？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The fixed seating did not work with the available microphone lead.",
+            "zh": "固定座位的位置配不上現有的咪高峰電線。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The poems had not yet been selected for the event.",
+            "zh": "活動還未選好詩作。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The audience had rejected every proposed reading.",
+            "zh": "觀眾拒絕了所有擬議朗讀。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The group had already moved the fixed benches beside the power point.",
+            "zh": "小組已把固定長椅移到插座旁。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "已準備的內容與現場執行安排不同；困難在座位和器材的配合。"
+      },
+      "reply": {
+        "promptEn": "Why did you need another audience arrangement?",
+        "promptZh": "為甚麼需要另一種觀眾安排？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We had run into practical problems with the fixed benches and the microphone lead.",
+            "zh": "固定長椅和咪高峰電線的配合，令我們遇到實際安排問題。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The lead would not reach the available seating from the power point.",
+            "zh": "電線無法由插座伸到現有座位。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The poems were ready, but the outdoor setup still needed changing.",
+            "zh": "詩作已備妥，但戶外配置仍需調整。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Our equipment did not fit the site in the way we had expected.",
+            "zh": "器材配合場地的情況，與我們預期不同。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都指出現場配置的實際障礙，不把問題改成未有內容。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "一項新鐵路工程的施工圖與成本估算已完成，但多名市議員要求暫緩批核，先審視居民對路線的意見。工程尚未取消。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The rail project has run into political pressure, although its technical plans are ready and it has not been cancelled.",
+            "zh": "這項鐵路工程遇到政治壓力，雖然技術方案已備妥，工程也尚未取消。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The rail project has run into practical problems because its construction drawings have not been prepared.",
+            "zh": "這項鐵路工程遇到實際安排問題，因為施工圖還未準備好。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The council has cancelled the rail project after finding that no residents commented on the route.",
+            "zh": "市議會發現沒有居民對路線提出意見後，已取消這項鐵路工程。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "已完成的圖則與估算不是此處阻礙；議員要求暫緩批核構成政治壓力，但工程尚未取消。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能由 run into practical problems 推論出來？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "實際執行時遇到困難。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "整個活動已經取消，而且不可能改善。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "原有安排可能需要調整。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "遇到問題不等於已取消或無法解決；結果要按後續資料判斷。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "伙伴說：「詩稿都準備好，現場應該不用再改吧？」長椅位置配不上電線。哪句回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The poems are ready, but we have run into practical problems with the setup; we still need to agree where people can sit.",
+            "zh": "詩作已備妥，但現場配置遇到實際問題；我們仍需議定大家坐在哪裏。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I think finished poems are enough to confirm that the seating will work as planned.",
+            "zh": "我覺得詩作寫好，就足以確認座位能按計劃使用。"
+          },
+          {
+            "id": "choice-3",
+            "en": "We are still choosing the poems, so the seating issue can only be about the content.",
+            "zh": "我們還在選詩，所以座位問題只可能跟內容有關。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "清楚區分已完成內容與仍需處理的配置。"
+      },
+      "speaking": {
+        "en": "We have run into practical problems with the setup, so I would like to agree on an alternative before inviting people in.",
+        "zh": "現場配置遇到實際問題，所以讓大家進場前，我想先議定替代安排。",
+        "promptZh": "先聽示範，再報告實際障礙及需要議定的下一步。",
+        "targetSpan": {
+          "start": 8,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你答應把班刊做成一大張摺頁，印店卻說那種紙只能印較小尺寸。你想向負責版面的同學說明問題，提出先保留她的設計，請印店試印一張縮小版，再一起看字是否仍清楚；不是直接宣布刪掉她的內容。用一至兩句英文寫訊息。",
+        "examples": [
+          {
+            "en": "We have run into practical problems with the paper size, but I do not want to cut your design without discussing it. Could we ask for one smaller test print and check the lettering together before deciding?",
+            "zh": "紙張尺寸令我們遇到實際問題，但我不想未經討論就刪改你的設計；可先請印店試印一張小版，再一起看字體後才決定嗎？"
+          },
+          {
+            "en": "The foldout has run into practical problems because that paper cannot be printed at our planned size. I suggest testing a smaller version of your layout first, so we can judge the text before changing the content.",
+            "zh": "那種紙不能按原定尺寸印，摺頁因此遇到實際問題；我建議先試印你的版面的小版，判斷文字是否清楚，再考慮改內容。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the paper size",
+            "zh": "紙張尺寸",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 55
+            }
+          },
+          {
+            "en": "cut your design",
+            "zh": "刪改你的設計",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 93
+            }
+          },
+          {
+            "en": "one smaller test print",
+            "zh": "一張較小的試印",
+            "exampleIndex": 0,
+            "span": {
+              "start": 134,
+              "end": 156
+            }
+          },
+          {
+            "en": "check the lettering together",
+            "zh": "一起檢視字體",
+            "exampleIndex": 0,
+            "span": {
+              "start": 161,
+              "end": 189
+            }
+          },
+          {
+            "en": "a smaller version of your layout",
+            "zh": "你的版面的小版",
+            "exampleIndex": 1,
+            "span": {
+              "start": 120,
+              "end": 152
+            }
+          }
+        ],
+        "selfCheckZh": "說明外部印製限制，尊重同學的設計，提出能取得判斷依據的試印；不把未測試的方案說成已確定可行。"
+      },
+      "takeaways": [
+        {
+          "en": "They ran into practical problems when the display stand would not fit through the doorway.",
+          "zh": "展架無法通過門口時，他們遇到實際安排上的問題。"
+        },
+        {
+          "en": "We may run into practical problems with the room layout, so let us measure the tables before confirming the plan.",
+          "zh": "房間配置可能出現實際問題，所以確認計劃前，先量度桌子吧。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Natural run-into-problems encounter frame; print scenario is a hypothetical communication exercise."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Proposal only: bounded political-pressure object expansion for book10-16-2490. Existing IDs and all other assessed stages remain unchanged; independent review needed."
+      }
+    }
+  ]
+}

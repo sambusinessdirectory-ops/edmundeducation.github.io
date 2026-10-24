@@ -1,0 +1,118 @@
+{
+  "type": "hash-bound unpublished selection integration",
+  "recordedAtUtc": "2026-10-24T02:52:27.040451+00:00",
+  "scope": {
+    "sourceOrdinal": 4257,
+    "sourceId": "book10-16-2146",
+    "ownerId": "advanced-native-4257",
+    "selectedLessonCount": 630,
+    "changedDecisionRows": [
+      4257
+    ],
+    "manifestChange": "One batch-file reference appended; source ordinal 4257 inserted in sorted expectedSourceOrdinals.",
+    "selectedLessonBytesChanged": false,
+    "unrelatedDecisionLinesPreserved": true,
+    "noAudioBrowserCommitPushPublication": true
+  },
+  "sourceInventory": {
+    "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "expression": "attention can drift",
+    "example": "During a long lecture, attention can drift."
+  },
+  "selectedLesson": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4257-attention-drifts-b.json",
+    "sha256": "6fce831881a372990b8bf18268589dab989e1a4c66702ec684dcd3605598f449",
+    "contentRevision": 3,
+    "exactSourceProvenanceMatched": true
+  },
+  "reviewEvidence": [
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-4257-attention-drifts-b.json",
+      "sha256": "350e5820dabe49cf606fa0a85e2f7b230d260a98e0b17f27ae686fa7273625f2",
+      "kind": "author-self-audit"
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-4257-attention-drifts-followup-review-pilot.json",
+      "sha256": "cb70f036e2d3eb8290d7dcfc9565400226e082bd694ae9a533c0c43a3901090e",
+      "kind": "independent-ai-scoped-followup",
+      "status": "content-clear-provisional"
+    }
+  ],
+  "changedFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+      "beforeSha256": "914b8b27ced7aa5a3b35ad0e1df3f5a172dbb31cbe8353cc251aa05ee305651a",
+      "afterSha256": "42878344ff07e2c228d95027b90691233c312c29fc12b391b30e21b0ffdcc453",
+      "otherEntriesBytePreserved": true
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl",
+      "beforeSha256": "be79f40922c8d968bb87d686a2f4ef72afca3a8bc47a41f269e1877f598ebb29",
+      "afterSha256": "9f51f29c475ed47a6e536e8eeba740607716d7ad1aeb8823b7c5714d6441b433",
+      "otherLinesBytePreserved": true
+    }
+  ],
+  "currentDecisionRow": {
+    "sourceOrdinal": 4257,
+    "sourceId": "book10-16-2146",
+    "phrase": "attention can drift",
+    "action": "proposed-new-lesson",
+    "canonicalId": "advanced-native-4257",
+    "reason": "The source describes a gradual, often involuntary attention lapse during a long lecture. Independently AI-reviewed owner 4257 teaches recognizing the lapse and returning to the task, distinct from sudden switch-off, deliberate mind wandering and a discussion drifting off-topic; exact source provenance and bounded target coverage are retained. Provisional unpublished selection."
+  },
+  "verification": {
+    "fullVerifier": {
+      "intakeRows": 2604,
+      "editorialDecisionRows": 2604,
+      "selectedLessons": 630,
+      "selectedQuestions": 3780,
+      "selectedAudioRequests": 2520,
+      "proposedNew": 630,
+      "existingAliases": 1179,
+      "newAliases": 189,
+      "holds": 606,
+      "wholeCatalogueSchemaErrors": 0,
+      "exactGuideSentenceCopies": 0,
+      "nearDuplicateFlags": 0,
+      "published": false,
+      "releaseApproved": false
+    },
+    "existingAliasAudit": {
+      "matched": 1179,
+      "exceptions": 0
+    },
+    "newAliasAudit": {
+      "matched": 189,
+      "awaitingDrafts": 0,
+      "exceptions": 0
+    },
+    "holdCoverage": {
+      "currentHolds": 606,
+      "unauditedCurrentHolds": 0,
+      "errors": 0
+    },
+    "newOwnerCollisions": {
+      "currentLeads": 30,
+      "lesson4257Lead": false,
+      "interpretation": "Review queue, not an automatic defect."
+    },
+    "guideOriginality": {
+      "selectedLessons": 630,
+      "learnerEnglishStrings": 15541,
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "nearFull": 5,
+      "reviewNearFull": 50,
+      "lesson4257SixTokenHits": 0,
+      "lesson4257FuzzyHits": 0
+    },
+    "gitDiffCheck": "passed"
+  },
+  "concurrentChangesNote": "Two disjoint existing-alias integrations by Agent A may affect catalogue alias/hold totals. This attestation attributes only the manifest entry and source4257 decision row to this operation.",
+  "limitations": [
+    "Content cleared by independent AI review; no human, audio, browser, hosting, DB or live-release approval implied.",
+    "The guide originality and owner-collision screens are mechanical review queues."
+  ]
+}

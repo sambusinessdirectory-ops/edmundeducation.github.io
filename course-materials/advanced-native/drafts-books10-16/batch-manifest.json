@@ -166,7 +166,8 @@
     "batch-held-distinct-3360-3834-review-pilot.json",
     "batch-held-3903-4702-seven-extracted-review-pilot.json",
     "batch-held-candidates-2262-3682-three-review-pilot.json",
-    "batch-held-candidates-2816-3630-review-pilot.json"
+    "batch-held-candidates-2816-3630-review-pilot.json",
+    "batch-held-4257-attention-drifts-b.json"
   ],
   "expectedSourceOrdinals": [
     2112,
@@ -705,6 +706,7 @@
     4250,
     4252,
     4253,
+    4257,
     4263,
     4264,
     4265,
