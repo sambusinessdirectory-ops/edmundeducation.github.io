@@ -1,0 +1,41 @@
+{
+  "kind": "author-self-audit-unselected-held-3849",
+  "candidatePath": "course-materials/advanced-native/drafts-books10-16/batch-held-3849-outpace-ability-review-pilot.json",
+  "candidateSha256": "0e17dbef77dfe11f63afb7527a01a33710742354b122eabde3000cfa4a278705",
+  "sourceOrdinal": 3849,
+  "sourceId": "book10-16-1738",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "exactSourceSentence": "Population growth can outpace a place's ability to care for them.",
+  "nearestOwner": "advanced-native-590 keep pace",
+  "ownerFileSha256": "4c974199e92e5b6b5c950ff362ddb16fe1c271a2eb9d34e0b50fc7648fa117dc",
+  "sourceFidelity": "Exact source occurrence, page, book/question/sample and expression match inventory. Original ambiguous them is confined to provenance; learner examples name service users or requests clearly.",
+  "keyedDecisions": {
+    "listening": "rate evidence vs volume alone",
+    "reply": "four valid, non-blaming explanations of clinic backlog; only a uses outpace",
+    "scene": "service continues though demand exceeds daily handling capacity",
+    "contrast": "transitive direction: fast-growing requests precede outpace",
+    "dialogue": "public explanation distinguishes an expanding queue from complete stoppage",
+    "speaking": "explicit outpace + possessive ability to clause",
+    "writing": "new repair-café domain with booking/training and no same-day guarantee"
+  },
+  "glossary": "6 answer-derived exact English spans; none contains outpace",
+  "audio": "Four EN texts under 240 characters; audio not synthesized or reviewed",
+  "originality": {
+    "guideExamplesScreened": 2604,
+    "learnerEnglishStringsScreened": 26,
+    "sixTokenOverlapCount": 0,
+    "hits": []
+  },
+  "buildCheck": "node tools/advanced-native-bulk/build.mjs candidate --out-dir /private/tmp/advanced-native-held-3849-build, then --check: 1 lesson / 6 questions / 4 audio requests / 0 review flags",
+  "risk": "Owner 590 already teaches the rate mismatch using keep pace. Independent reviewer must judge whether the transitive outpace grammar and changed learner decisions justify a separate owner; this self-audit is not selection approval.",
+  "selectedManifestOrDecisionEdited": false,
+  "targetControls": "Native JavaScript gi: six positive including the exact source, possessive ability-to complements, bare capacity, supply and progressive form; six negatives including malformed a ability, a capacity and incomplete ability to. All passed.",
+  "contentRevision": 2,
+  "independentReviewFinding": "Independent B review at draft SHA 7c5551031d62b98e1394c27bb21307ddf46850399e1fb9f50c297f0554046a50 found an unpromised appointment increase and an inherited overbroad detector; both repaired in revision 2.",
+  "repairEvidence": {
+    "goldenReply": "Hours are reviewed before deciding whether more appointments can be added; EN/ZH remain aligned.",
+    "detector": "Requires a grammatical ability-to verb or a bounded capacity/supply/provision noun; source and all target-bearing keys match.",
+    "clozeAndGlossary": "Speaking span expanded to the full bounded target; a glossary row moved to non-target extra sessions; all six spans exact.",
+    "focusedBuildCheck": "1 lesson, 6 questions, 4 audio requests, 0 flags"
+  }
+}

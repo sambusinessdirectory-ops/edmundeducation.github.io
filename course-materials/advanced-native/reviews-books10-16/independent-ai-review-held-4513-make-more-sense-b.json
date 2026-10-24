@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "AI author B",
+  "status": "independent-focused-review",
+  "reviewedDraft": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4513-make-more-sense-review-pilot.json",
+    "sha256": "2b69d6fba2fed46268946342f894d144744a3b9de4a7dcbae463c08a4d042398"
+  },
+  "reviewedAuthorAudit": {
+    "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-4513-make-more-sense-review-pilot.json",
+    "sha256": "6edf81ae69e17a0d96f49830880dd1dfce928860ca81f04225597ad9af8910eb"
+  },
+  "sourceRows": [
+    {
+      "ordinal": 4513,
+      "sourceId": "book10-16-2402",
+      "sentence": "For late travel, a car may make more sense.",
+      "expression": "make more sense",
+      "rawSha256": "c2743b3656d92a1f6572694e7129a4540fae440e39275ae5e46cbaf1bafedb07",
+      "detectorMatch": true
+    },
+    {
+      "ordinal": 4619,
+      "sourceId": "book10-16-2508",
+      "sentence": "For late travel, a car may make more sense.",
+      "expression": "make more sense",
+      "rawSha256": "369a62d5f3fc120b250b2b264aa7e3d3612c81f77c69f163e16dff3b460f1d6e",
+      "detectorMatch": true
+    },
+    {
+      "ordinal": 4627,
+      "sourceId": "book10-16-2516",
+      "sentence": "For late travel, a car may make more sense.",
+      "expression": "make more sense",
+      "rawSha256": "72830e3c84a8751b0eada644c6494dc57e553193c7e7c2961983ecd8419e3cf3",
+      "detectorMatch": true
+    }
+  ],
+  "verdictBySource": [
+    {
+      "ordinal": 4513,
+      "verdict": "repair-before-provisional-selection",
+      "reason": "The ordinary but reusable comparative choice sense is teachable and the source may is handled cautiously, but assessed-scenario repetition and remote distractors weaken seven-step value."
+    },
+    {
+      "ordinal": 4619,
+      "verdict": "conditional-alias-new-if-4513-selected",
+      "reason": "Exact repeated source sentence and expression; keep current hold until owner4513 is independently cleared and selected."
+    },
+    {
+      "ordinal": 4627,
+      "verdict": "conditional-alias-new-if-4513-selected",
+      "reason": "Exact repeated source sentence and expression; keep current hold until owner4513 is independently cleared and selected."
+    }
+  ],
+  "checksPassed": [
+    "No selected owner titles or target patterns teach make more sense as practical comparative choice; comprehension sense is explicitly contrasted.",
+    "Source sentence is exactly preserved for all three occurrences; target regex matches each complete source example and current keyed uses.",
+    "Four reply options answer the teammate, cite the load/rain constraint, and do not claim vans are universally better.",
+    "Six assessed keys are defensible, with English and Traditional Chinese aligned.",
+    "Six answer-derived glossary spans and speaking target span are exact; target is excluded from glossary.",
+    "Fresh focused build and --check pass 1 lesson/6 questions/4 audio roles/0 flags.",
+    "32 learner English strings have zero six-token overlaps with all 2604 guide examples."
+  ],
+  "findings": [
+    {
+      "id": "R4513-01",
+      "severity": "major",
+      "paths": [
+        "lessons[0].scene",
+        "lessons[0].speaking"
+      ],
+      "issue": "Step 3 and Step 6 reuse the same twelve-attendee, smaller hall versus auditorium, revisit-if-numbers-rise decision. Step 6 adds no new transfer decision.",
+      "repair": "Move speaking to a different practical-choice domain and constraint while retaining the target phrase, spoken span and faithful Chinese."
+    },
+    {
+      "id": "R4513-02",
+      "severity": "major",
+      "paths": [
+        "lessons[0].listening.options[b..d]",
+        "lessons[0].scene.options[b..c]",
+        "lessons[0].dialogue.options[b..c]"
+      ],
+      "issue": "Several distractors are absolute or directly contradict stated facts (every volunteer prefers home, everyone catches the bus, permanent smaller room after capacity exceeded, online form during outage, paper forever). Learners can reject them without interpreting the conditional make-more-sense choice.",
+      "repair": "Replace at least the most obvious listening and scene or dialogue foils with context-plausible near-misses that preserve one best answer; align Traditional Chinese and explanations. Retain graded IDs."
+    }
+  ],
+  "ownerRisk": "No same-phrase selected owner found; this is a productive natural collocation rather than a fixed idiom, so seven distinct decisions remain the course-value gate.",
+  "contentState": "Unselected; 4513/4619/4627 decision rows remain hold-editorial."
+}

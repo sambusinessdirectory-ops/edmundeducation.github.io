@@ -1,0 +1,137 @@
+{
+  "status": "unselected-author-polish; independent one-field recheck pending",
+  "owner": "advanced-native-4513",
+  "sourceOrdinals": [
+    4513,
+    4619,
+    4627
+  ],
+  "sourceIds": [
+    "book10-16-2402",
+    "book10-16-2508",
+    "book10-16-2516"
+  ],
+  "exactSourceSentence": "For late travel, a car may make more sense.",
+  "sourceExpression": "make more sense",
+  "sourceSense": "A more sensible choice in context; the guide repeats the identical example three times.",
+  "eligibility": {
+    "verdict": "provisional Natural English candidate, not a fixed idiom claim",
+    "evidence": [
+      "The source labels all three occurrences an idiom or set phrase and explicitly glosses the practical-choice sense.",
+      "Collins Dictionary, https://www.collinsdictionary.com/us/dictionary/english/make-sense, lists a course of action seeming sensible; Cambridge, https://dictionary.cambridge.org/dictionary/english/make-sense, also documents the different clarity sense.",
+      "One owner can test conditional comparative recommendation, hedging, option change when constraints change, and contrast with the comprehension sense. No earlier selected lesson owns the exact target."
+    ],
+    "limitation": "The surface regex also matches comprehension uses; assessed context and owner sense, not regex alone, determine routing. The source gives no reason the car is better, so none is inferred as a source fact."
+  },
+  "nearestOwners": [
+    {
+      "id": "advanced-native-873",
+      "distinction": "think straight concerns mental clarity under pressure, not relative practical choice"
+    },
+    {
+      "id": "advanced-native-390",
+      "distinction": "as far as practicality is concerned marks a viewpoint, not a recommendation of one option over another"
+    },
+    {
+      "id": "advanced-native-1449",
+      "distinction": "every bit as practical expresses equal practicality, not comparative preference"
+    },
+    {
+      "id": "advanced-native-1541",
+      "distinction": "sensible middle ground names compromise, not the general judgment pattern"
+    }
+  ],
+  "sevenDecisionMap": [
+    {
+      "step": "listening",
+      "decision": "Which format is more workable for bus-dependent volunteers given an ending time?"
+    },
+    {
+      "step": "reply",
+      "decision": "Give one of four valid conditional explanations for a load-and-weather transport choice."
+    },
+    {
+      "step": "scene",
+      "decision": "Choose a venue using confirmed attendance, capacity and fee while retaining a revision trigger."
+    },
+    {
+      "step": "contrast",
+      "decision": "Distinguish practical-choice sense from explanation-comprehension sense."
+    },
+    {
+      "step": "dialogue",
+      "decision": "Reverse a form recommendation when a temporary network constraint ends."
+    },
+    {
+      "step": "speaking",
+      "decision": "Produce a hedged rear-loading-ramp versus front-stairs recommendation for a heavy display case, with a route-check caveat."
+    },
+    {
+      "step": "writing",
+      "decision": "Transfer to borrowing versus buying a one-use garden tool, with caveat."
+    }
+  ],
+  "checks": {
+    "focusedBuild": {
+      "lessons": 1,
+      "questions": 6,
+      "audioRoles": 4,
+      "reviewFlags": 0
+    },
+    "focusedCheck": true,
+    "exactSourceProvenance": 3,
+    "sourceRegexMatches": [
+      "book10-16-2402",
+      "book10-16-2508",
+      "book10-16-2516"
+    ],
+    "allInventoryRegexHits": [
+      "book10-16-2402",
+      "book10-16-2508",
+      "book10-16-2516"
+    ],
+    "selectedOwnerDetectorHitsOnFullSource": 0,
+    "selectedTitleExactPhraseHits": 0,
+    "glossaryRows": 6,
+    "glossarySpansExact": 6,
+    "glossaryTargetLeaks": 0,
+    "speakingTargetSpanExact": true,
+    "learnerEnglishFieldsScreenedAgainst2604GuideExamples": 29,
+    "nonTargetSixTokenGuideCopies": 0,
+    "audioRoleLengths": [
+      206,
+      159,
+      137,
+      158
+    ],
+    "fourReplyOptionsValidByManualReview": true
+  },
+  "hashes": {
+    "draftSha256": "64726182d0bbcf2d40aaff94e261782aa3ec5276a2408963e63c1e60de514159",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "decision4512_4571Sha256": "a51142357769ef61e312d86ca0c319836cf9980df213dd3cc63dc088cd5b171f",
+    "decision4572_4631Sha256": "47dd3db2b0f7e7347f7f89062f88958e23c0f3feb3a45fb191fac1477d4c55ec",
+    "selectedManifestSha256": "b8182b8d4ffbc1472e85b95ea644d54dd490461270b47205673346a71dd5cc3c"
+  },
+  "changedSharedFiles": [],
+  "pending": [
+    "Independent AI content and owner eligibility review",
+    "No decision, selected manifest, audio or release change authorized by this audit"
+  ],
+  "contentRevision": 4,
+  "repairs": {
+    "reviewPath": "reviews-books10-16/independent-ai-review-held-4513-make-more-sense-b.json",
+    "reviewSha256": "54db8aec3a8fcb75462c11fb32d03900ef2bb127b5ad8ff9412ef1fe1311cf9f",
+    "R4513-01": "Speaking moved from the twelve-person hall to a heavy display-case loading-ramp choice; EN/ZH and target span revised.",
+    "R4513-02": "Listening, scene and dialogue now use plausible but less grounded near-miss alternatives rather than universal/permanent or immediate contradictions; Chinese and explanations revised.",
+    "focusedBuildCheck": "1 lesson, 6 questions, 4 audio roles, 0 flags; six glossary spans and all three exact source matches retained; 29 learner English fields versus 2,604 guide examples have zero six-token copies."
+  },
+  "listeningCPolish": {
+    "priorIndependentFollowup": "reviews-books10-16/independent-ai-review-held-4513-make-more-sense-b-followup.json",
+    "reason": "Root requested replacement of awkward bus-after-at-home-online foil despite nonblocking earlier clearance.",
+    "change": "C now offers plausible but unsupported lower-fee reason; Chinese and rationale match.",
+    "scope": "One option EN/ZH and explanationZh only; answer ID, source, target, glossary, audio English and other assessed fields unchanged.",
+    "focusedBuildCheck": "1 lesson, 6 questions, 4 audio roles, 0 review flags",
+    "grammarRepair": "Independent narrow review caught a because/so double connector in listening C; the option now says its lower fee is the speaker’s main reason, with Chinese and explanation unchanged."
+  }
+}

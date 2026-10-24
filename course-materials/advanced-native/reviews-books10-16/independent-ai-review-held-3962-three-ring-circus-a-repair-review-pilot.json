@@ -1,0 +1,36 @@
+{
+  "status": "content-clear-unselected-alternative",
+  "reviewedDraftPath": "drafts-books10-16/batch-held-3962-three-ring-circus-a-repair.json",
+  "reviewedDraftSha256": "b80e863f92b0d72abe93ee6f6239e8277368034c3c9d37c3c50b353a639068a8",
+  "authorAuditSha256": "d2a38d01ecd0e48f727bc9e59a8879bf297ed1d0110489a7c595d816179c9e00",
+  "sourceOrdinal": 3962,
+  "sourceId": "book10-16-1851",
+  "sourceSentence": "The broadcast felt like a circus with too many rings.",
+  "ownerSense": "The source creatively varies the conventional a three-ring circus image. The lesson labels this accurately and teaches broader busy/confusing activity rather than treating simultaneity or exactly three events as required.",
+  "priorFindings": [
+    {
+      "id": "R3962-01",
+      "verdict": "resolved",
+      "evidence": "Brief and boundary now allow plan changes, conflicting directions and interruptions. Listening tests changing clinic lists and interruptions; scene tests conflicting school maps; speaking tests rescue-call interruptions and a system outage; contrast tests busy-but-orderly evidence. Reply retains overlap as one cause."
+    },
+    {
+      "id": "R3962-02",
+      "verdict": "resolved",
+      "evidence": "Listening moved from the source broadcast to clinic check-in, with matching English and Traditional Chinese."
+    },
+    {
+      "id": "R3962-03",
+      "verdict": "resolved",
+      "evidence": "Dialogue uses 'This is starting to feel like ...' and a courteous item-by-item request rather than instructing the chair to label colleagues."
+    }
+  ],
+  "checks": [
+    "Fresh focused build and --check: 1 lesson, 6 questions, 4 audio requests, 0 flags.",
+    "Exact source sentence is preserved and matched by target regex; standard idiom appears in assessed keys.",
+    "Four reply options remain individually responsive; scene, contrast and dialogue each have one grounded key.",
+    "Speaking target span and all six glossary answer spans are exact, and glossary does not contain target.",
+    "Changed EN/ZH prompts, options, model answers and takeaways are broadly aligned."
+  ],
+  "watch": "Clinic listening, school scene and food-bank writing all use changing or conflicting instructions. They ask for different learner outputs (diagnose, choose a current map, compose a debrief) and do not block this alternative, but only one 3962 lesson should be selected. B's separately cleared revision is another viable candidate; do not combine both objects or add duplicate owner 3962.",
+  "changedSharedFiles": []
+}

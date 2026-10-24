@@ -1,0 +1,18 @@
+{
+  "status": "independent-ai-content-accepted-for-local-draft-integration",
+  "sourceOrdinal": 3482,
+  "sourceId": "book10-16-1371",
+  "exactSourceSentence": "The magazine felt like a mirror and a mood board rolled into one.",
+  "proposedOwner": "advanced-native-1181",
+  "ownerBeforeSha256": "eb2624ef3763063cbfd7856c46df27bd9e5a2dccde315b16d0c23c8f9b99823f",
+  "proposalSha256": "2ec4fda0fdc14c6cde5f2d423441910ad31a031b0fc0d3081ca1c17e89da39ea",
+  "authorSelfAuditSha256": "ccee9a0d0fc01da36840adaf500dc79af29738a55c3f04a002e1e753cf1fa9fe",
+  "priorDecisionRowSha256": "1daba2e2babadb5a1a0ead6de26029081a7e7812a82559b6327633582163e135",
+  "sourceSenseFinding": "The magazine is simultaneously a mirror of readers’ identity and a board suggesting taste; the two named roles share the combined-functions sense of earlier owner 1181. The optional all does not change the meaning.",
+  "grammarFinding": "The no-all passive phrase appears naturally after two named functions in both source and revised assessed scene. The bounded alternative target detects the whole source; original all-rolled and active variants remain supported.",
+  "assessmentFinding": "The keyed scene answer now assesses the no-all form; all option IDs and keyed option IDs stay stable. Other assessment wording stays unchanged.",
+  "audioFinding": "All four English audio texts are byte-identical; this change should not request new audio, subject to generated queue verification.",
+  "traditionalChineseFinding": "The unchanged keyed Chinese states one sister combines teacher and companion roles. Revised explanation correctly says omitting all still combines the two roles.",
+  "risk": "Inherited active-voice detector remains broad; this change does not widen that branch. Synthetic browser and SQL validation are still required after integration.",
+  "releaseStatus": "unpublished"
+}

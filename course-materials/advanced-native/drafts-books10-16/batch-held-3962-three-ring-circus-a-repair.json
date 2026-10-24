@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-3962-three-ring-circus-a-repair",
+  "lessons": [
+    {
+      "id": "advanced-native-3962",
+      "number": 3962,
+      "inventoryId": "expr-3962",
+      "titleEn": "a three-ring circus",
+      "titleZh": "像三環馬戲團般混亂",
+      "category": "figurative",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:a\\s+)?(?:three[- ]ring circus|circus with too many rings)\\b",
+        "glossaryForbidden": [
+          "\\b(?:three[- ]ring circus|circus with too many rings)\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A place or situation full of busy, confusing activity. Several things happening at once can cause the confusion, but simultaneity and exactly three activities are not required. The guide’s “a circus with too many rings” is a creative variant; “a three-ring circus” is conventional.",
+        "meaningZh": "形容一個地方或情況忙亂、令人難以跟上。多件事同時發生可以造成混亂，但不一定要同時發生，更不必剛好有三項活動。教材的 a circus with too many rings 是創意變體；慣常說法是 a three-ring circus。",
+        "grammar": "Call a place or situation a three-ring circus when concrete activity is busy and confusing—for example, abrupt plan changes, conflicting directions or overlapping voices. Name what made it difficult to follow; do not require exactly three events or simultaneous strands. The source’s “a circus with too many rings” creatively extends the same image, rather than giving the fixed dictionary form.",
+        "register": "Informal, chiefly North American and mildly critical. Use with evidence and tact when speaking to the people coordinating an event; it does not necessarily blame any one person.",
+        "boundaryZh": "須有忙亂而難以跟上的具體線索；單是繁忙但安排有序，不足以這樣說。混亂可以來自安排突然變動、指示不一致或聲音互相干擾，不限於多件事同時發生。真正馬戲團則是字面用法。",
+        "misconceptionZh": "three-ring 不表示必須剛好有三個環節，也不表示每項工作都失敗，或一定有人故意製造混亂。",
+        "outcomeZh": "能按實際證據判斷情況是否忙亂難以跟上，選擇合適的語氣，並提出針對混亂成因的改善。",
+        "sourceClassificationNote": "The guide’s exact broadcast sentence is a creative expansion of the established three-ring circus idiom. Its overlapping strands are one way to create confusion, not a required condition for the conventional expression."
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1851",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 175,
+          "book": 15,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "21–23",
+          "locatorNote": "DOCX table 187, row 6; page is the locally rendered PDF page.",
+          "sentence": "The broadcast felt like a circus with too many rings.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a circus with too many rings"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author A scoped repair, based on B draft",
+          "evidence": "Repaired after Pilot review: conventional idiom covers busy/confusing activity beyond simultaneous strands; listening, scene, contrast and final writing now test distinct causes and decisions. Four-valid reply retained; dialogue uses a diplomatic procedural suggestion. Independent AI review of the repaired content is recorded at reviews-books10-16/independent-ai-review-held-3962-three-ring-circus-a-repair-review-pilot.json; publication approval pending."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author A scoped repair, based on B draft",
+          "evidence": "Traditional Chinese revised for the broader idiom meaning, new clinic and school scenarios, diplomatic dialogue and food-bank writing. Source creative variant and target spans retained. Independent AI review of the repaired content is recorded at reviews-books10-16/independent-ai-review-held-3962-three-ring-circus-a-repair-review-pilot.json; publication approval pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "Provisionally selected after independent AI content clearance in reviews-books10-16/independent-ai-review-held-3962-three-ring-circus-a-repair-review-pilot.json; media, browser, device and release acceptance remain pending.",
+          "Teach conventional a three-ring circus; the source’s a circus with too many rings is documented as a creative same-sense variant and recognized only in the target/source boundary."
+        ],
+        "author": "AI author A scoped repair",
+        "independentHumanApproval": false
+      },
+      "listening": {
+        "promptEn": "What made the clinic check-in confusing?",
+        "promptZh": "診所登記處為甚麼變得混亂？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Repeated list changes, desk switches and interruptions left patients unsure where to check in.",
+            "zh": "名單反覆改動、櫃檯轉換和不斷打斷登記，令病人不知應到哪裏報到。"
+          },
+          {
+            "id": "b",
+            "en": "The list changed twice, but every desk received the same update before patients arrived.",
+            "zh": "名單改動了兩次，但每個櫃檯都在病人到達前收到同一份更新。"
+          },
+          {
+            "id": "c",
+            "en": "Urgent calls slowed check-in, but the appointment list and desk directions stayed consistent.",
+            "zh": "緊急來電拖慢了登記，但預約名單和櫃檯指示始終一致。"
+          },
+          {
+            "id": "d",
+            "en": "One doctor ran late, so patients waited longer although the check-in directions stayed clear.",
+            "zh": "一位醫生遲到，病人因此等得較久，但登記指示仍然清楚。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "預約名單兩度改動，病人被叫到不同櫃檯，登記又不斷被緊急來電打斷；甲把造成混亂的線索合在一起。繁忙或等待較久本身不足以稱為 a three-ring circus。",
+        "en": "At the clinic, the appointment list changed twice, patients were sent between desks, and urgent calls interrupted check-in. It became a three-ring circus until staff posted one current list for every desk.",
+        "zh": "診所的預約名單改動了兩次，病人被叫到不同櫃檯，緊急來電又不斷打斷登記。場面變得忙亂難跟上，直到職員張貼一份讓每個櫃檯都採用的最新名單。"
+      },
+      "reply": {
+        "promptEn": "Our community fair has a cooking demonstration, a prize announcement and a safety talk all using loudspeakers in the same hall at noon. Visitors say they cannot hear the safety instructions. How can I explain this to the organiser and suggest a fix?",
+        "promptZh": "社區嘉年華的烹飪示範、頒獎公布和安全講解都在中午於同一大堂使用擴音器。訪客說聽不清安全指示。我可以怎樣向籌辦人說明並提出改善？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is turning into a three-ring circus: three amplified events overlap, so visitors miss the safety talk. Could we stagger the announcements?",
+            "zh": "場面快像三環馬戲團般混亂：三個擴音環節同時進行，訪客因而聽不清安全講解。我們可否錯開公布時間？"
+          },
+          {
+            "id": "b",
+            "en": "The three loudspeakers compete with one another. Could we move the prize announcement until after the safety talk?",
+            "zh": "三個擴音器互相蓋過聲音。我們可否等安全講解完畢才公布獎項？"
+          },
+          {
+            "id": "c",
+            "en": "Visitors cannot hear the safety instructions over the cooking and prize audio. Could we pause those two segments for the talk?",
+            "zh": "烹飪和頒獎的聲音蓋過了安全指示。我們可否在講解期間暫停那兩個環節？"
+          },
+          {
+            "id": "d",
+            "en": "Noon has three competing announcements in one hall. Could we give the safety speaker a clear, separate time slot?",
+            "zh": "中午同一大堂有三項互相干擾的公布。我們可否給安全講者一段清楚、獨立的時段？"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都指出同時擴音令安全指示聽不清，並提出可行的排序；甲用 a three-ring circus 概括混亂，但不把嘉年華本身說成毫無價值。"
+      },
+      "scene": {
+        "promptEn": "At a school open evening, room assignments change twice after families arrive. Volunteers use two versions of the map, so families are sent from room to room, although the talks themselves are ready. Which account best fits?",
+        "promptZh": "學校開放夜的教室安排在家長到場後改動了兩次。義工使用兩個版本的地圖，令家長在不同教室之間走來走去，雖然講座本身已準備好。哪個描述最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The arrival area became a three-ring circus because conflicting room information sent families in circles; the team needs one current map.",
+            "zh": "不同版本的教室資料令家長繞來繞去，入口變得忙亂難跟上；團隊需要一份最新地圖。"
+          },
+          {
+            "id": "b",
+            "en": "The talks need fuller subject descriptions; explaining their content again should settle the room mix-up.",
+            "zh": "講座需要更詳細的主題說明；再次解釋內容就應能解決教室混亂。"
+          },
+          {
+            "id": "c",
+            "en": "Volunteers can keep using either map if they tell families which version they are holding.",
+            "zh": "義工只要告訴家長自己拿的是哪個版本，就可以繼續使用任一份地圖。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "混亂來自教室資料改動後，義工仍使用不同版本的地圖；甲點出原因並提出一份最新地圖。講座內容並非問題，繼續使用兩份地圖也不能統一指示。"
+      },
+      "contrast": {
+        "promptEn": "Which use of “a three-ring circus” is least justified by the evidence?",
+        "promptZh": "根據證據，哪個情況最不足以稱為 a three-ring circus？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The registration desk receives repeated room-list changes, and arrivals are sent to different places for the same session.",
+            "zh": "登記處反覆收到更改的教室名單，同一節活動的來賓被帶往不同地方。"
+          },
+          {
+            "id": "b",
+            "en": "A busy workshop follows its published timetable, and visitors know where to go for each session.",
+            "zh": "工作坊雖繁忙，卻按公布的時間表進行，訪客也知道每節活動該往哪裏去。"
+          },
+          {
+            "id": "c",
+            "en": "Unexpected interruptions repeatedly stop the chair, leaving members unsure which motion is being decided.",
+            "zh": "突如其來的打斷令主席反覆停下，委員分不清現在要決定哪項動議。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "甲有反覆變動且互相矛盾的指示，丙有令議題失焦的連續打斷；乙只是繁忙，安排仍清楚。這個說法不要求所有事情同時發生。"
+      },
+      "dialogue": {
+        "promptEn": "The chair says, “Each time we reach a vote, a late paper changes the agenda and someone reopens an earlier question. Members no longer know what they are voting on. What should I ask the committee to do?” Which reply best answers?",
+        "promptZh": "主席說：「每次準備投票，遲來的文件都改動議程，又有人重提先前的問題。委員已分不清現在要投甚麼票。我應請委員會怎樣做？」哪個回答最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "This is starting to feel like a three-ring circus. Could we finish the budget item, take the venue question next, and vote on volunteers separately?",
+            "zh": "場面開始像三環馬戲團一樣忙亂。我們可否先處理完預算，再討論場地，最後另行投票決定義工安排？"
+          },
+          {
+            "id": "b",
+            "en": "Could we combine the three matters into one motion, so the minutes only need to show a single decision?",
+            "zh": "我們可否把三項事情合成一項動議，讓會議紀錄只需寫下一個決定？"
+          },
+          {
+            "id": "c",
+            "en": "Could we send a clearer agenda now, then continue all three debates during the vote?",
+            "zh": "我們可否現在發一份較清楚的議程，然後在投票期間繼續同時討論三項事情？"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲有禮地指出場面難以跟上，並把預算、場地和義工投票分開處理；乙把不同議題混成一項決定，丙雖補發議程，卻繼續讓討論與投票互相干擾。"
+      },
+      "speaking": {
+        "en": "The animal shelter’s intake became a three-ring circus when rescue calls kept interrupting the team while its record system was down; the manager set one triage order before volunteers moved the animals.",
+        "zh": "動物收容所的登記系統故障，救援來電又不斷打斷工作，令接收動物的過程忙亂難跟上；經理先定下處理次序，義工才安排動物移動。",
+        "promptZh": "先聽示範，再指出哪些實際問題令接收動物的過程忙亂，以及經理怎樣決定處理次序。",
+        "targetSpan": {
+          "start": 35,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區食物銀行的取貨時段臨時改動兩次，義工手上的兩份名單顯示不同時間，領取者因而排錯隊。請用一至兩句英文向統籌員作事後簡報，說明混亂的具體原因並提出一份共同更新的名單及清楚的隊伍指示；不要責怪領取者或說整項服務沒有價值。",
+        "selfCheckZh": "兩例都要指出時段改動和互相矛盾的名單如何令領取者排錯隊，並提出統一更新及指示；不要單憑「繁忙」就使用目標說法。",
+        "examples": [
+          {
+            "en": "Distribution became a three-ring circus after the pickup time changed twice and two lists sent visitors to different queues. Could we post one updated schedule, mark the queues clearly and ask volunteers to check it before directing anyone?",
+            "zh": "取貨時段改動了兩次，兩份名單又把領取者帶到不同隊伍，發放現場因此變得忙亂難跟上。我們可否張貼一份更新的時間表、清楚標示隊伍，並請義工在指示任何人前先核對？"
+          },
+          {
+            "en": "Visitors received conflicting pickup times, and volunteers had no single current list; the food-bank collection turned into a three-ring circus. Let us agree on one live schedule and display the correct queue signs before opening tomorrow.",
+            "zh": "領取者收到互相矛盾的取貨時間，義工也沒有一份共同的最新名單，令食物銀行的領取安排變得忙亂難跟上。讓我們先確定一份即時更新的時間表，並在明天開放前展示正確的隊伍標示。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "pickup time",
+            "zh": "取貨時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 61
+            }
+          },
+          {
+            "en": "two lists",
+            "zh": "兩份名單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 89
+            }
+          },
+          {
+            "en": "different queues",
+            "zh": "不同隊伍",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 123
+            }
+          },
+          {
+            "en": "one updated schedule",
+            "zh": "一份更新的時間表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 139,
+              "end": 159
+            }
+          },
+          {
+            "en": "conflicting pickup times",
+            "zh": "互相矛盾的取貨時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 18,
+              "end": 42
+            }
+          },
+          {
+            "en": "correct queue signs",
+            "zh": "正確的隊伍標示",
+            "exampleIndex": 1,
+            "span": {
+              "start": 195,
+              "end": 214
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A three-ring circus describes busy, confusing activity; the guide’s “a circus with too many rings” is a creative variant, not the fixed form.",
+          "zh": "a three-ring circus 形容忙亂而令人難以跟上的情況；教材的 a circus with too many rings 是創意變體，並非慣常固定形式。"
+        },
+        {
+          "en": "A schedule can be busy but orderly. Show what caused confusion—overlap, abrupt changes or conflicting directions—before using the phrase a three-ring circus.",
+          "zh": "時間表可以繁忙但有序。使用 a three-ring circus 前，先指出混亂是由環節互相干擾、安排突然改動，還是指示矛盾所造成。"
+        }
+      ]
+    }
+  ]
+}

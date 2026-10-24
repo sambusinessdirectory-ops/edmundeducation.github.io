@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-4513-make-more-sense-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-4513",
+      "number": 4513,
+      "inventoryId": "book10-16-2402",
+      "titleEn": "make more sense (as a practical choice)",
+      "titleZh": "在具體情況下更合適",
+      "category": "natural",
+      "contentRevision": 4,
+      "target": {
+        "pattern": "\\b(?:make|makes|made|making)\\s+more\\s+sense\\b",
+        "glossaryForbidden": [
+          "\\b(?:make|makes|made|making)\\s+more\\s+sense\\b",
+          "\\bmake\\s+sense\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Given a stated need or constraint, one option is a more sensible choice than another. Source may offers a tentative recommendation, not a claim that a car is always best.",
+        "meaningZh": "在已說明的需求或限制下，一個選擇比另一個更合理。原句以 may 作審慎建議，並非說開車在任何情況下都最好。",
+        "grammar": "Option + may/might/makes/made + more sense + than alternative + for/when/because constraint. Make more sense can also mean 'be easier to understand'; this lesson targets comparative practical choice. In a question, use Would X make more sense?",
+        "register": "Neutral conversational advice and planning. A colleague may recommend a venue to an organiser; a volunteer may compare transport options with a teammate. State the relevant constraint and leave room to revisit the choice.",
+        "boundaryZh": "須有足以比較選項的具體需要或限制；只因個人喜好、解釋較易明白，或未提供比較資料，均不足以推斷某選擇更合適。may 保留條件性。",
+        "misconceptionZh": "不要把 make more sense 一律譯成「較容易理解」；在建議選擇時，它表示「在這個條件下更合理」。也不要把審慎建議說成絕對最好。",
+        "outcomeZh": "能根據具體限制審慎比較兩個選擇，用 make more sense 提出有理由的建議，並區分選擇義與理解義。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2402",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 227,
+          "book": 16,
+          "question": 35,
+          "sample": "S2",
+          "sourceBookPages": "84–85",
+          "locatorNote": "DOCX table 250, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "For late travel, a car may make more sense.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "make more sense"
+        },
+        {
+          "occurrenceId": "book10-16-2508",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 237,
+          "book": 16,
+          "question": 49,
+          "sample": "S1",
+          "sourceBookPages": "116–117",
+          "locatorNote": "DOCX table 264, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "For late travel, a car may make more sense.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "make more sense"
+        },
+        {
+          "occurrenceId": "book10-16-2516",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 238,
+          "book": 16,
+          "question": 50,
+          "sample": "S2",
+          "sourceBookPages": "118–119",
+          "locatorNote": "DOCX table 265, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "For late travel, a car may make more sense.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "make more sense"
+        }
+      ],
+      "listening": {
+        "en": "The evening workshop ends after the last bus leaves. Volunteers can attend online from home, and both formats cover the same material. For anyone relying on that bus, the online session may make more sense.",
+        "zh": "晚間工作坊結束時，尾班巴士已開走。義工可以在家網上參與，兩種形式的內容相同。對依賴那班巴士的人來說，網上場次可能更合適。",
+        "promptZh": "講者為甚麼認為部分義工參加網上場次可能更合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Because the last bus leaves before the in-person workshop ends, while the online session covers the same material.",
+            "zh": "因為尾班巴士在實體工作坊結束前已開走，而網上場次內容相同。"
+          },
+          {
+            "id": "b",
+            "en": "Because the online session offers extra coaching that the in-person one lacks.",
+            "zh": "因為網上場次有實體場次沒有的額外個別指導。"
+          },
+          {
+            "id": "c",
+            "en": "Because its lower fee is the speaker’s main reason for recommending the online session.",
+            "zh": "因為網上場次收費較低，所以講者主要因費用而推薦它。"
+          },
+          {
+            "id": "d",
+            "en": "Because bus riders can leave the in-person workshop early and still cover the same material.",
+            "zh": "因為依賴巴士的人可以提早離開實體工作坊，同時仍學到相同內容。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "網上與實體內容相同，而依賴巴士的人在實體場次結束後沒有車可搭。講者沒有提及額外指導、較低費用或提早離開仍能學完。"
+      },
+      "reply": {
+        "promptEn": "We must take twenty folding chairs across town before rain. A cargo bike cannot carry them all, but an available van can carry all twenty. How can I explain the transport choice to my teammate without saying a van is always best?",
+        "promptZh": "我們要在下雨前把二十張摺椅運到城的另一邊。貨運單車載不下全部椅子，但有小型貨車可一程載完二十張。我可怎樣向隊友說明交通選擇，而不說貨車永遠最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "For twenty chairs in this weather, the van may make more sense than the cargo bike; it can take them in one trip.",
+            "zh": "要在這種天氣運送二十張椅子，貨車可能比貨運單車更合適；它可以一程載完。"
+          },
+          {
+            "id": "b",
+            "en": "The cargo bike cannot carry all twenty chairs, and rain is coming; could we use the available van for this trip?",
+            "zh": "貨運單車載不下全部二十張椅子，而且快下雨了；這次可否用現成的貨車？"
+          },
+          {
+            "id": "c",
+            "en": "The available van can carry the chairs in one trip before the rain; we can choose the bike for smaller loads later.",
+            "zh": "現成的貨車可在下雨前一程運完椅子；日後貨物較少時可再選單車。"
+          },
+          {
+            "id": "d",
+            "en": "For this delivery, I would use the van because the bike would require several trips with the chairs.",
+            "zh": "這次我會用貨車，因為用單車運椅子要走幾趟。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都根據椅子數量及天氣回應隊友；甲使用 make more sense 作有條件的比較，沒有推論貨車一律較好。"
+      },
+      "scene": {
+        "promptZh": "社區讀書會原訂可容八十人的禮堂，但目前只有十二人確認出席。隔壁較小的房間可容二十人，租金較低，兩個場地都可預訂，日後仍可在出席人數增加時改訂。哪句建議最有根據？",
+        "options": [
+          {
+            "id": "a",
+            "en": "With twelve people confirmed, the smaller room may make more sense; review the booking if attendance rises.",
+            "zh": "目前只有十二人確認出席，較小的房間可能更合適；若人數增加，再檢討預訂。"
+          },
+          {
+            "id": "b",
+            "en": "The original auditorium may be preferable because it allows extra late sign-ups, even though it costs more and only twelve have confirmed.",
+            "zh": "雖然大禮堂租金較高、目前只有十二人確認出席，但沿用原訂禮堂也許可容納更多臨時報名者。"
+          },
+          {
+            "id": "c",
+            "en": "Postpone any venue choice until every possible guest replies, although either room can be booked now and changed later.",
+            "zh": "雖然現在可預訂任一場地、日後亦可更改，仍等所有可能出席的人回覆後才決定場地。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "現有十二人可坐進租金較低的二十人房間，日後人數增加仍可改訂。乙重視未證實的臨時報名而承擔較高租金；丙為未知人數延遲可逆的安排，均不如甲根據現有資料作審慎建議。"
+      },
+      "contrast": {
+        "promptEn": "Which sentence uses “make more sense” to recommend a practical option, rather than to say that an explanation is clearer?",
+        "promptZh": "哪句用 make more sense 建議較合適的實際選擇，而不是說解釋較容易明白？",
+        "options": [
+          {
+            "id": "a",
+            "en": "For one repair job, borrowing the ladder may make more sense than buying it.",
+            "zh": "只為一次維修借梯子，可能比買一把更合適。"
+          },
+          {
+            "id": "b",
+            "en": "After the trainer defined the symbols, the diagram began to make more sense.",
+            "zh": "導師解釋符號後，圖表開始較容易看懂。"
+          },
+          {
+            "id": "c",
+            "en": "The new summary makes more sense because its terms are explained.",
+            "zh": "新摘要的用語已有解釋，所以較容易理解。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲根據只使用一次這項條件比較借與買；乙和丙都說內容較易明白，屬另一個常見意思。"
+      },
+      "dialogue": {
+        "promptEn": "The library asks, “Our online form is faster when the network works, but the network is down today. We have blank paper forms and need to register visitors now. What should we use now?”",
+        "promptZh": "圖書館問：「網絡正常時，網上表格比較快，但今天網絡故障。我們有空白紙本表格，現在就要替訪客登記。現在應該用哪種表格？」",
+        "options": [
+          {
+            "id": "a",
+            "en": "Paper forms make more sense while the network is down; return to the faster online form when service is restored.",
+            "zh": "網絡故障期間用紙本表格較合適；服務恢復後可再用較快的網上表格。"
+          },
+          {
+            "id": "b",
+            "en": "Keep the usually faster online form as the only option and ask visitors to wait for the network to return.",
+            "zh": "繼續只提供平時較快的網上表格，請訪客等網絡恢復。"
+          },
+          {
+            "id": "c",
+            "en": "Use paper today, then retire the online form because this outage shows paper is more reliable for every visit.",
+            "zh": "今天先用紙本；今次故障顯示紙本對每次登記都較可靠，所以此後停用網上表格。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲把紙本選擇限定於今天網絡故障期間，並在服務恢復後重新評估。乙要求急需登記的訪客等待；丙把單次故障擴大成永久更改，未根據已知條件比較。"
+      },
+      "speaking": {
+        "en": "With a heavy display case to move and a loading ramp at the rear, the rear entrance may make more sense than the front stairs; check the route before delivery.",
+        "zh": "要搬運沉重的展櫃，而後門有裝卸斜道，走後門可能比走前門樓梯更合適；送貨前仍要確認路線。",
+        "promptZh": "先聽，再指出甚麼實際限制支持這項選擇，以及送貨前仍要確認甚麼。",
+        "targetSpan": {
+          "start": 88,
+          "end": 103
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區花園只為一塊園地試用土壤測試儀一次，經費有限；工具圖書館有可借的儀器。請用一至兩句英文比較借用與購買，說明當前條件及何時應重新考慮，但不要聲稱借用永遠較好。",
+        "selfCheckZh": "兩例都須交代單次使用及經費或現成借用條件，建議借用而非購買；保留日後多次使用時重新評估的可能，不保證工具永遠可借。",
+        "examples": [
+          {
+            "en": "Since our garden needs a soil tester for only one plot, borrowing the shared device may make more sense than buying one. We can reconsider if we start testing every month.",
+            "zh": "我們的花園暫時只須為一塊園地測試土壤，借用共用儀器可能比購買一部更合適。如果日後每月都要測試，我們可以重新考慮。"
+          },
+          {
+            "en": "For this single garden trial, a loan from the tool library makes more sense than a new purchase while funds are limited. We should check that the device is available before fixing the test date and reconsider buying if tests become routine.",
+            "zh": "這次花園試驗只需用一次儀器，而經費有限，向工具圖書館借用比買新機更合理。我們應先確認儀器可借，才定下測試日期；如果日後定期測試，可重新考慮購買。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "soil tester",
+            "zh": "土壤測試儀",
+            "exampleIndex": 0,
+            "span": {
+              "start": 25,
+              "end": 36
+            }
+          },
+          {
+            "en": "only one plot",
+            "zh": "只有一塊園地",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 54
+            }
+          },
+          {
+            "en": "reconsider",
+            "zh": "重新考慮",
+            "exampleIndex": 0,
+            "span": {
+              "start": 128,
+              "end": 138
+            }
+          },
+          {
+            "en": "single garden trial",
+            "zh": "這次單次花園試驗",
+            "exampleIndex": 1,
+            "span": {
+              "start": 9,
+              "end": 28
+            }
+          },
+          {
+            "en": "tool library",
+            "zh": "工具圖書館",
+            "exampleIndex": 1,
+            "span": {
+              "start": 46,
+              "end": 58
+            }
+          },
+          {
+            "en": "available",
+            "zh": "可借用",
+            "exampleIndex": 1,
+            "span": {
+              "start": 156,
+              "end": 165
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An option may make more sense when a particular constraint favors it; name that constraint instead of claiming the option is always best.",
+          "zh": "某選擇在特定限制下可能更合適；要說明該限制，而非宣稱它在任何情況下都最好。"
+        },
+        {
+          "en": "“Make more sense” can describe a clearer explanation or a wiser practical choice. In advice, compare the options and say what would change the recommendation.",
+          "zh": "make more sense 可以指解釋更易理解，也可以指實際選擇更合理。提出建議時，要比較選項並說明甚麼變化會改變建議。"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author 4513 pilot",
+          "evidence": "Three guide repeats, earlier owner senses, six keyed decisions and four valid replies self-reviewed; independent review pending."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author 4513 pilot",
+          "evidence": "Prompts, choices, explanations, examples and takeaways checked against English; independent review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "Provisionally selected as one Natural English lesson for exact same-sense source occurrences 4513, 4619 and 4627 after independent AI content clearance in reviews-books10-16/independent-ai-review-held-4513-make-more-sense-b-final-followup.json. Audio, browser, device, hosted media and release acceptance remain pending.",
+          "This lesson teaches a context-bound practical choice; it is distinct from the bare comprehension sense of make sense."
+        ],
+        "author": "AI author 4513 pilot",
+        "independentHumanApproval": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "status": "read-only-post-integration-attestation",
+  "scope": "Selected lessons 3849, 4513 and 3962(A); learner content, source, target, keys and current manifest",
+  "selectedManifest": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "sha256": "0119b8adb94fb81216b690dfc4afc7da852249f6ea4b4ea8eeed49ffefb35d8c",
+    "lessonCount": 639
+  },
+  "selectedLessons": [
+    {
+      "sourceOrdinal": 3849,
+      "selectedFile": "course-materials/advanced-native/drafts-books10-16/batch-held-3849-outpace-ability-review-pilot.json",
+      "currentFullFileSha256": "560157c6eba1a6008c8f04b12b7ed55e4300d07ae2c360d5ca5d6256a8f3402e",
+      "reviewedFullFileSha256": "0e17dbef77dfe11f63afb7527a01a33710742354b122eabde3000cfa4a278705",
+      "fullFileHashMatchesReviewed": false,
+      "reviewReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-3849-outpace-ability-b-followup.json",
+      "reviewReportSha256": "1e4e957621e53805177f402fbf9dfe716ed0a72f0621259cf869071dbda3f551",
+      "selectedManifestMembership": true,
+      "contentRevision": 2,
+      "currentLessonWithoutReviewSha256": "d6ef78c1d27ea3749d512e66dcf196f06729c13e291616b94347a8a51561155d",
+      "priorBuildArtifactDir": "/private/tmp/review-3849-final-b",
+      "priorBuildArtifactBundleSha256": "fd442a9e338781c9503e0449395b3ea86171b2c41f5a2b1587ea221397331a6d",
+      "currentBuildArtifactDir": "/private/tmp/postintegration-3849-b",
+      "currentBuildArtifactBundleSha256": "fd442a9e338781c9503e0449395b3ea86171b2c41f5a2b1587ea221397331a6d",
+      "allGeneratedArtifactsByteIdentical": true,
+      "sourceChecks": [
+        {
+          "sourceId": "book10-16-1738",
+          "lessonSentence": "Population growth can outpace a place's ability to care for them.",
+          "inventorySentence": "Population growth can outpace a place's ability to care for them.",
+          "exactSentenceMatch": true,
+          "fullSentenceTargetMatch": true,
+          "rawRowSha256": "82cfe08c8ddfc90d46faf7c959232e1f180fb4d9c2515d2c9a71ae0add83b93f"
+        }
+      ],
+      "targetPattern": "\\boutpac(?:e|es|ed|ing)\\s+(?:(?:(?:a|the)\\s+)?[A-Za-z-]+['’]s\\s+ability\\s+to\\s+[A-Za-z]+|(?:(?:the|its|their|our|his|her)\\s+)?ability\\s+to\\s+[A-Za-z]+|(?:(?:the|its|their|our|his|her)\\s+)?(?:capacity|supply|provision))\\b",
+      "keyIds": {
+        "listening": "a",
+        "scene": "a",
+        "contrast": "a",
+        "dialogue": "a",
+        "reply": "a"
+      },
+      "speakingTargetSpan": "outpace its ability to offer",
+      "glossarySpansExactAndNonTarget": true,
+      "audioRoleCount": 4,
+      "focusedBuildAndCheck": "pass 1 lesson/6 questions/4 audio roles/0 flags"
+    },
+    {
+      "sourceOrdinal": 4513,
+      "selectedFile": "course-materials/advanced-native/drafts-books10-16/batch-held-4513-make-more-sense-review-pilot.json",
+      "currentFullFileSha256": "5fe7848b6984c4b6c56e11a7faaa81f492d062e745482d10160d964c1ff310d3",
+      "reviewedFullFileSha256": "64726182d0bbcf2d40aaff94e261782aa3ec5276a2408963e63c1e60de514159",
+      "fullFileHashMatchesReviewed": false,
+      "reviewReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-4513-make-more-sense-b-final-followup.json",
+      "reviewReportSha256": "88267b26e824ce0725a411ca3db67d81c9e9f473956fb1d3db1568f0bc2e0ecb",
+      "selectedManifestMembership": true,
+      "contentRevision": 4,
+      "currentLessonWithoutReviewSha256": "ffbfab0756a3946bd85ebea4fe7df6703e33c29532582f1365f1386dd18b5043",
+      "priorBuildArtifactDir": "/private/tmp/review-4513-final3-b",
+      "priorBuildArtifactBundleSha256": "693a87942c26cb081451fdc858c0b645aa8572d7b10efb32b81533c02c5adea3",
+      "currentBuildArtifactDir": "/private/tmp/postintegration-4513-b",
+      "currentBuildArtifactBundleSha256": "693a87942c26cb081451fdc858c0b645aa8572d7b10efb32b81533c02c5adea3",
+      "allGeneratedArtifactsByteIdentical": true,
+      "sourceChecks": [
+        {
+          "sourceId": "book10-16-2402",
+          "lessonSentence": "For late travel, a car may make more sense.",
+          "inventorySentence": "For late travel, a car may make more sense.",
+          "exactSentenceMatch": true,
+          "fullSentenceTargetMatch": true,
+          "rawRowSha256": "c2743b3656d92a1f6572694e7129a4540fae440e39275ae5e46cbaf1bafedb07"
+        },
+        {
+          "sourceId": "book10-16-2508",
+          "lessonSentence": "For late travel, a car may make more sense.",
+          "inventorySentence": "For late travel, a car may make more sense.",
+          "exactSentenceMatch": true,
+          "fullSentenceTargetMatch": true,
+          "rawRowSha256": "369a62d5f3fc120b250b2b264aa7e3d3612c81f77c69f163e16dff3b460f1d6e"
+        },
+        {
+          "sourceId": "book10-16-2516",
+          "lessonSentence": "For late travel, a car may make more sense.",
+          "inventorySentence": "For late travel, a car may make more sense.",
+          "exactSentenceMatch": true,
+          "fullSentenceTargetMatch": true,
+          "rawRowSha256": "72830e3c84a8751b0eada644c6494dc57e553193c7e7c2961983ecd8419e3cf3"
+        }
+      ],
+      "targetPattern": "\\b(?:make|makes|made|making)\\s+more\\s+sense\\b",
+      "keyIds": {
+        "listening": "a",
+        "scene": "a",
+        "contrast": "a",
+        "dialogue": "a",
+        "reply": "a"
+      },
+      "speakingTargetSpan": "make more sense",
+      "glossarySpansExactAndNonTarget": true,
+      "audioRoleCount": 4,
+      "focusedBuildAndCheck": "pass 1 lesson/6 questions/4 audio roles/0 flags"
+    },
+    {
+      "sourceOrdinal": 3962,
+      "selectedFile": "course-materials/advanced-native/drafts-books10-16/batch-held-3962-three-ring-circus-a-repair.json",
+      "currentFullFileSha256": "df03ea4dfbc818fc297bb4b7ba7d6f6cea2bf836d19413eebdaffbb9c5d5af8f",
+      "reviewedFullFileSha256": "b80e863f92b0d72abe93ee6f6239e8277368034c3c9d37c3c50b353a639068a8",
+      "fullFileHashMatchesReviewed": false,
+      "reviewReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-3962-three-ring-circus-a-repair-review-pilot.json",
+      "reviewReportSha256": "da180af1ff8dd122013b5b1c2f7c8d5ccc37ed32a59a8b0f2082c7c0316329fe",
+      "selectedManifestMembership": true,
+      "contentRevision": 2,
+      "currentLessonWithoutReviewSha256": "b2dc15e284104e26c4d0e6d04f788686b2fc87d0b8761c157478ad5d496ebc48",
+      "priorBuildArtifactDir": "/private/tmp/advanced-native-3962-a-review",
+      "priorBuildArtifactBundleSha256": "4600aa5100b81fc7f3c844856c5af867c7ca3aa6c9efef404dfc8f00b1516686",
+      "currentBuildArtifactDir": "/private/tmp/postintegration-3962a-b",
+      "currentBuildArtifactBundleSha256": "4600aa5100b81fc7f3c844856c5af867c7ca3aa6c9efef404dfc8f00b1516686",
+      "allGeneratedArtifactsByteIdentical": true,
+      "sourceChecks": [
+        {
+          "sourceId": "book10-16-1851",
+          "lessonSentence": "The broadcast felt like a circus with too many rings.",
+          "inventorySentence": "The broadcast felt like a circus with too many rings.",
+          "exactSentenceMatch": true,
+          "fullSentenceTargetMatch": true,
+          "rawRowSha256": "14556ba3b68a9284ec11b29da2ed10b3892dd664cd1cbf0611e2ac0fa18f995a"
+        }
+      ],
+      "targetPattern": "\\b(?:a\\s+)?(?:three[- ]ring circus|circus with too many rings)\\b",
+      "keyIds": {
+        "listening": "a",
+        "scene": "a",
+        "contrast": "b",
+        "dialogue": "a",
+        "reply": "a"
+      },
+      "speakingTargetSpan": "a three-ring circus",
+      "glossarySpansExactAndNonTarget": true,
+      "audioRoleCount": 4,
+      "focusedBuildAndCheck": "pass 1 lesson/6 questions/4 audio roles/0 flags"
+    }
+  ],
+  "selectedDecisionRows": {
+    "4513": {
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-4513",
+      "rowSha256": "9ac6f6681e2916780ab93adb3151f7840e9d7bcff96c13f09c6d5cf14c91827e",
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-4512-4571.jsonl",
+      "fileSha256": "c2c41e34f402c5454c1dc1b6756e77bf3990cceec1d62503c74ddc9295d0b70f"
+    },
+    "4619": {
+      "action": "proposed-alias-new",
+      "canonicalId": "advanced-native-4513",
+      "rowSha256": "6ab084f35d6b3545af45e69c9148c11629f4f7ba38eb41326b5f4e2231895780",
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+      "fileSha256": "bb3184c1be7e31165fb78ea0369a47fcbad4277ed416380147559e717a74fe21"
+    },
+    "4627": {
+      "action": "proposed-alias-new",
+      "canonicalId": "advanced-native-4513",
+      "rowSha256": "91414dbda1347645cad71a1145c4a3aca195832604ef18c8fe66900234021501",
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+      "fileSha256": "bb3184c1be7e31165fb78ea0369a47fcbad4277ed416380147559e717a74fe21"
+    },
+    "3962": {
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-3962",
+      "rowSha256": "3b35a2fa0ca5e99f8ebb8a9441c23385ee588fa7e91ba1e87329e1c703ae196a",
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3912-3971.jsonl",
+      "fileSha256": "427890a32d1e5ad0a9374df82daf65d43d503d585457a10ee71ae6c1e05964ea"
+    },
+    "3849": {
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-3849",
+      "rowSha256": "d228e1fcb4ae136f126ce869d95366ed5d98f7e2a054c164813eb2f0227b745a",
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl",
+      "fileSha256": "1d978520e933ab609accde70f745cbc66564beed597ee555122dac3f83437340"
+    }
+  },
+  "currentManifestVerifier": {
+    "intakeRows": 2604,
+    "decisionRows": 2604,
+    "newLessons": 639,
+    "aliasExisting": 1192,
+    "aliasNew": 195,
+    "holds": 416,
+    "excludedOneOff": 162,
+    "questions": 3834,
+    "audioRoles": 2556,
+    "wholeCatalogueSchemaErrors": 0,
+    "existingAliasExceptions": 0,
+    "draftedNewAliasExceptions": 0,
+    "published": false,
+    "releaseApproved": false
+  },
+  "otherChecks": {
+    "selectedAliasAudit": "1192/1192 matched, 0 exceptions",
+    "newAliasAudit": "195/195 matched, 0 exceptions",
+    "holdAudit": "416 current holds, 0 unaudited"
+  },
+  "hashChainLimitation": "The independently reviewed full JSON SHA-256 values differ from current selected file SHA-256 values because review metadata was edited after content clearance. The prior raw JSON bytes are not retained in a content-addressed repository snapshot. Exact full-file byte equality therefore cannot be independently asserted. All generated learner content, assessment, target and audio artifacts are byte-identical to locally retained pre-integration builds, and current source/keys/spans were checked directly; those /private/tmp baseline builds are not themselves immutable or hash-bound in the prior review reports. A future review should stamp a review-field-excluded lesson-object digest before integration.",
+  "releaseStatus": "Unpublished local draft; no media, browser/device, database or publication approval inferred."
+}

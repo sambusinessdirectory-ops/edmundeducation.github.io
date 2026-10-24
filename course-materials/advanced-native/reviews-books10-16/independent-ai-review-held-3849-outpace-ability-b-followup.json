@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "AI author B",
+  "reviewType": "independent exact-hash scoped follow-up",
+  "draft": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-3849-outpace-ability-review-pilot.json",
+    "sha256": "0e17dbef77dfe11f63afb7527a01a33710742354b122eabde3000cfa4a278705"
+  },
+  "authorAudit": {
+    "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-3849-outpace-ability-review-pilot.json",
+    "sha256": "c754c35c72e6763215cb508b67e093e653fdb5071c06916a915338823f8ce0ae"
+  },
+  "priorReview": {
+    "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-3849-outpace-ability-b.json",
+    "sha256": "22b22221a1307009886c5356eb6fa41f3a56e4900231ce268277ccd2d8ba11f4"
+  },
+  "sourceOrdinal": 3849,
+  "verdict": "accepted-for-provisional-unselected-content",
+  "findings": [
+    {
+      "id": "R3849-01",
+      "status": "resolved",
+      "evidence": "Reply A now says clinic reviews hours before deciding whether it can add appointments; Chinese preserves the same uncertainty. All four replies remain valid."
+    },
+    {
+      "id": "R3849-02",
+      "status": "resolved",
+      "evidence": "Live pattern retains complete guide source and keyed usage, rejects a ability/an ability/a capacity and incomplete ability to. It matches grammatical possessive ability and capacity/supply forms. Speaking span and six revised glossary spans are exact."
+    }
+  ],
+  "focusedBuildCheck": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRequests": 4,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass"
+  },
+  "state": "Unselected; no source decision, selected manifest, media or release change."
+}

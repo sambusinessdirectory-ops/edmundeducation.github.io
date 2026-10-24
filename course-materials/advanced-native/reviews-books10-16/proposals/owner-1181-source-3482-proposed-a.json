@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-read-only-owner-proposal-1181-source-3482-a",
+  "lessons": [
+    {
+      "id": "advanced-native-1181",
+      "number": 1181,
+      "inventoryId": "expr-1181",
+      "titleEn": "(all) rolled into one / roll ... into one",
+      "titleZh": "把多種角色或用途合在一起",
+      "category": "idiom",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:all rolled|roll(?:s|ed|ing)? [^.!?;\\n]{1,100}) into one\\b|\\b(?:a|an|the) (?!all\\b)[a-z-]+(?: (?!all\\b)[a-z-]+){0,3} and (?:a|an|the) (?!all\\b)[a-z-]+(?: (?!all\\b)[a-z-]+){0,3} rolled into one\\b",
+        "glossaryForbidden": [
+          "\\broll(?:s|ed|ing)?\\b",
+          "\\binto one\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p127-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 127,
+          "book": 5,
+          "question": 30,
+          "sample": "S1",
+          "sourceBookPages": "79–81",
+          "sentence": "The event was a celebration and a farewell all rolled into one.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "all rolled into one"
+        },
+        {
+          "occurrenceId": "pdf-2-p249-t1-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 249,
+          "book": 9,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "40–41",
+          "sentence": "The event was a celebration and a farewell all rolled into one.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "all rolled into one"
+        },
+        {
+          "occurrenceId": "pdf-2-p250-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 250,
+          "book": 9,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "42–43",
+          "sentence": "The app rolls conversation, entertainment, and information into one.",
+          "expression": "rolls conversation, entertainment, and information into one",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Exact PDF page250 table1 row2 retained."
+        },
+        {
+          "occurrenceId": "book10-16-1371",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 128,
+          "book": 13,
+          "question": 14,
+          "sample": "S1",
+          "sourceBookPages": "34–37",
+          "locatorNote": "DOCX table 135, row 4; page refers to the locally rendered PDF recorded in intake summary.",
+          "sentence": "The magazine felt like a mirror and a mood board rolled into one.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a mirror and a mood board rolled into one"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Several roles, qualities or purposes combined in one person, thing or occasion.",
+        "meaningZh": "幾種角色、特點或用途，結合在同一個人、事物或場合中。",
+        "grammar": "X and Y (all) rolled into one: all is optional after two named roles or qualities. For example, a teacher and a companion rolled into one combines those roles in one person. The preceding nouns identify what is combined. An active frame is roll X, Y and Z into one, describing one thing combining those functions; rolls/rolled/rolling follow the subject and tense. The combination does not make the named functions indistinguishable.",
+        "register": "Established combination idiom, not necessarily literal rolling or a claim that every possible role is included.",
+        "boundaryZh": "須指出結合了哪兩種角色、特點或用途；all 可省略，省略後仍表示結合，而非只剩一種。結合不等於全能、沒有分別，或一個人必須獨力承擔所有工作。主動式 roll 幾種用途 into one 也表示結合，不表示每種功能都同樣完善。",
+        "misconceptionZh": "兩種用途可以同時存在，不表示參加者感受完全相同，也不表示其他人沒有貢獻。",
+        "outcomeZh": "能用具體功能或角色描述結合，同時保留範圍及實際分工。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "哪兩個目的同時存在？分工怎樣安排？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The afternoon combined launching the book with saying farewell, and the work was shared.",
+            "zh": "那個下午結合新書發表及告別，工作也有分擔。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The group had cancelled the book launch and held only a packing session.",
+            "zh": "小組取消了新書發表，只辦收拾活動。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The tutor did all the reading, refreshments and packing without help.",
+            "zh": "導師獨自完成朗讀、茶點及收拾，沒有幫忙。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The farewell would take place on a different afternoon after the launch.",
+            "zh": "告別會在發表後另一個下午舉行。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "這個下午同時有兩個目的，且工作由不同人分擔；不是只有收拾、由導師獨力做，或分開兩天。",
+        "en": "Our final afternoon was a book launch and a farewell all rolled into one: we showed the stories we had made and thanked the tutor who was leaving, while different people handled reading, refreshments and packing.",
+        "zh": "最後一個下午，把新書發表及告別合在一起：我們展示完成的故事，並感謝即將離開的導師，而朗讀、茶點及收拾由不同人負責。"
+      },
+      "reply": {
+        "promptEn": "Why did you describe the afternoon as having two purposes?",
+        "promptZh": "你為甚麼說那個下午有兩個目的？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It was a launch and a farewell all rolled into one.",
+            "zh": "它把發表及告別合在一起。"
+          },
+          {
+            "id": "choice-2",
+            "en": "We presented our finished stories and thanked the departing tutor in the same gathering.",
+            "zh": "我們在同一次聚會展示完成的故事，也感謝離任導師。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The book and the tutor’s departure both shaped what happened that afternoon.",
+            "zh": "書與導師離開這兩件事，都影響了那個下午的安排。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The occasion marked a completed project as well as the end of our time with that tutor.",
+            "zh": "場合既標誌項目完成，也標誌跟那位導師相處的時間結束。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都用同一場合中的兩項具體作用作解釋，不把結合當成某人獨力包辦。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "小說人物說姊姊既是她的繪畫老師，也是一起散步談心的人；她不是在描述兩位不同的人。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Her sister is a teacher and a companion rolled into one in this account.",
+            "zh": "這段敘述中，姊姊把老師及同伴的角色合在一起。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The teacher and walking companion are two people who have never met.",
+            "zh": "老師及散步同伴是兩位從未見過面的人。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The sister has stopped teaching so that she can only be a companion.",
+            "zh": "姊姊已停止教畫，所以只能是同伴。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "同一個人兼有老師與同伴兩種角色；英文省略 all，仍然表示兩種角色合在一起，不是兩人，也不是一種角色消失。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只從「X and Y all rolled into one」推論出來？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Two named functions occur together in one thing.",
+            "zh": "兩項已指出的功能，同時存在於一件事物中。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The two named purposes have become indistinguishable and cannot be described separately.",
+            "zh": "那兩個已指出的目的，已無法區分，也不能分別描述。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The surrounding nouns explain the combination.",
+            "zh": "前後的名詞說明結合了甚麼。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "結合在同一場合，不表示角色或用途失去各自意義；仍可說明兩者是甚麼。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「既然是發表和告別合一，就讓導師一人準備全部吧？」你們已打算分工。哪個回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It is a launch and a farewell all rolled into one, not one person doing all the work; let us keep the shared jobs clear.",
+            "zh": "這是發表及告別合一，不是一人做全部工作；我們把共同分工說清楚吧。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Then I would give the tutor both organising roles, since the two purposes are combined.",
+            "zh": "既然兩個目的合在一起，我就會把兩項籌備角色都交給導師。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would put the farewell on another day, assuming one afternoon cannot serve both purposes.",
+            "zh": "我會把告別排到另一天，假定一個下午不能同時有兩個目的。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "直接分清結合目的與分擔工作，既保留雙重意義，也說明仍需要安排。"
+      },
+      "speaking": {
+        "en": "This can be a record and a gift all rolled into one, if we explain both purposes rather than expect it to do everything.",
+        "zh": "只要說清楚兩個目的，而不期望它包辦一切，這可以是記錄與禮物合一。",
+        "promptZh": "先聽示範，再說明實際結合的用途。",
+        "targetSpan": {
+          "start": 32,
+          "end": 51
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你把祖母同意分享的三份食譜整理成一本小冊，送給剛搬家的弟弟。你想在扉頁說這既是可用的烹飪指引，也是家人回憶的記錄，不稱它為祖母全部人生。用一至兩句英文寫實際題辭。",
+        "examples": [
+          {
+            "en": "This little book is a cooking guide and a family record all rolled into one. These three recipes carry Grandma’s memories into your new kitchen; I hope they make cooking feel a little more like coming home.",
+            "zh": "這本小冊是烹飪指引與家人回憶記錄合一。這三份食譜，把祖母的回憶帶進你的新廚房；希望它們讓你做飯時，多一點回家的感覺。"
+          },
+          {
+            "en": "A practical guide and a record of shared meals are all rolled into one here. I hope these pages help you cook in your new home and remember the stories Grandma chose to share.",
+            "zh": "實用指引與共同用餐的記錄，在這裏合而為一。希望這些頁面幫你在新家做飯，也記得祖母選擇分享的故事。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "This little book",
+            "zh": "這本小冊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 16
+            }
+          },
+          {
+            "en": "a cooking guide",
+            "zh": "烹飪指引",
+            "exampleIndex": 0,
+            "span": {
+              "start": 20,
+              "end": 35
+            }
+          },
+          {
+            "en": "a family record",
+            "zh": "家人記錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 55
+            }
+          },
+          {
+            "en": "your new kitchen",
+            "zh": "你的新廚房",
+            "exampleIndex": 0,
+            "span": {
+              "start": 127,
+              "end": 143
+            }
+          },
+          {
+            "en": "the stories Grandma chose to share",
+            "zh": "祖母選擇分享的故事",
+            "exampleIndex": 1,
+            "span": {
+              "start": 140,
+              "end": 174
+            }
+          }
+        ],
+        "selfCheckZh": "題辭要有兩種實際用途，以及食譜與新家的連結；不把三份食譜寫成一個人的全部經歷。"
+      },
+      "takeaways": [
+        {
+          "en": "The workshop was a lesson and a reunion all rolled into one, with time both to practise and to catch up.",
+          "zh": "工作坊是課堂與重聚合一，既有練習時間，也有敘舊時間。"
+        },
+        {
+          "en": "Her annotated map was a route guide and a memory book all rolled into one, though she kept private addresses out of it.",
+          "zh": "她加了批註的地圖，是路線指引與回憶冊合一，但沒有放入私人地址。"
+        }
+      ],
+      "review": {
+        "state": "proposal-only",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Fixed combination idiom. Main combined event with shared work; scene one person holds two roles; final actual dedication to a practical family recipe gift changes writing purpose and object."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Read-only proposed owner expansion for source 3482. The no-all passive form is assessed in the scene; existing IDs and all four audio English texts remain unchanged. Requires independent review before any selected-file or decision integration."
+      }
+    }
+  ]
+}

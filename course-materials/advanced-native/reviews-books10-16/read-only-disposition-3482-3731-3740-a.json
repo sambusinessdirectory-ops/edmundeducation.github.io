@@ -1,0 +1,108 @@
+{
+  "reportType": "read-only-source-owner-disposition-3482-3731-3740",
+  "status": "proposal_only_no_source_owner_or_decision_edits",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "selectedManifestSha256": "b8182b8d4ffbc1472e85b95ea644d54dd490461270b47205673346a71dd5cc3c",
+  "ownerFileSha256": {
+    "1181": {
+      "path": "batches/batch-1176-1200.json",
+      "sha256": "eb2624ef3763063cbfd7856c46df27bd9e5a2dccde315b16d0c23c8f9b99823f"
+    },
+    "1841": {
+      "path": "batches/batch-1826-1850.json",
+      "sha256": "1771f9980d893c0cc0ca62d885398ad9216b2dfbe9011dc2ac0fd1f793cf82f7"
+    },
+    "2513": {
+      "path": "drafts-books10-16/batch-held-2513-2627-b.json",
+      "sha256": "24c02d808a49571eb130d58706755e11996fbcf168e9b0215124d24e090dcdc6"
+    },
+    "1904": {
+      "path": "batches/batch-1901-1925.json",
+      "sha256": "2521c473eb19195a298284fd2e28602b387b08d199611bef39d1b71be21fbf89"
+    },
+    "781": {
+      "path": "batches/batch-0776-0800.json",
+      "sha256": "8673bdcba75864c07272cf3876e7cedf138e0d25f7ad69d10093c41fd3def192"
+    }
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 3482,
+      "sourceId": "book10-16-1371",
+      "exactSourceSentence": "The magazine felt like a mirror and a mood board rolled into one.",
+      "sourceMeaning": "Something that reflects identity and inspires taste at once; paired object metaphors.",
+      "expression": "a mirror and a mood board rolled into one",
+      "sourceRawRowSha256": "32f641ebe56feeb1a994e2ac68b9af5162d9a378cb1e2a64c44f893e1a85499a",
+      "decisionFile": "books10-16/editorial-decisions-3432-3491.jsonl",
+      "decisionRawRowSha256": "8ad1c2d0e25c1a38b9dc80b37d8c72f8cf7d78eae51885b012448ff5d798d55f",
+      "currentDecisionAction": "hold-editorial",
+      "provisionalDisposition": "conditional_same_sense_earlier_owner_proposal_only",
+      "ownerId": "advanced-native-1181",
+      "ownerNumber": 1181,
+      "sourceOrderCheck": "1181 precedes 3482",
+      "fullSourceMatchesCurrentOwnerDetector": false,
+      "senseComparison": "The magazine is both an identity-reflecting mirror and an inspiration board; owner 1181 teaches two roles or qualities combined in one thing. This is the same combination decision. Owner 1904 concerns a social-media frame for self-image only and does not capture the two-function combination.",
+      "requiredOwnerWork": "Add the optional-all passive pairing “X and Y rolled into one” with a bounded two-component detector branch. Explicitly assess one no-all pairing without changing question/key IDs, keep the old all-rolled and active forms, and align Chinese. Attach book10-16-1371 exact source provenance. Do not copy the mirror/mood-board source as a learner model.",
+      "illustrativePatternBranch": "\\b(?:a|an|the) [a-z-]+(?: [a-z-]+){0,3} and (?:a|an|the) [a-z-]+(?: [a-z-]+){0,3} rolled into one\\b",
+      "controlExpectations": {
+        "positive": [
+          "The magazine felt like a mirror and a mood board rolled into one.",
+          "A newsletter can be a notice board and a conversation starter rolled into one."
+        ],
+        "negative": [
+          "The magazine felt like a mirror rolled into one.",
+          "The magazine felt like a mirror and a mood board rolled into two."
+        ]
+      },
+      "caveat": "The illustrative detector branch needs a live full-catalogue collision check and independently reviewed owner object before any decision changes. A generic literal object-combination hit still needs editorial context."
+    },
+    {
+      "sourceOrdinal": 3731,
+      "sourceId": "book10-16-1620",
+      "exactSourceSentence": "Every powerful tool casts a shadow when used carelessly.",
+      "sourceMeaning": "Major benefits may have harmful side effects; a shadow metaphor.",
+      "expression": "every powerful tool casts a shadow",
+      "sourceRawRowSha256": "822648c96fb0348991d6de487fd42ad6f309246878f94f3d4e338ad85dc92926",
+      "decisionFile": "books10-16/editorial-decisions-3672-3731.jsonl",
+      "decisionRawRowSha256": "e59474d0e5ba4fcedad9e63bf86d9a6905d1049852cad5cc16d750c1fa6ae108",
+      "currentDecisionAction": "hold-editorial",
+      "provisionalDisposition": "keep_held",
+      "ownerId": null,
+      "fullSourceMatchesCurrentOwnerDetector": false,
+      "senseComparison": "Owner 1841 casts a shadow over a whole experience, meaning a concern makes that experience less positive; this source warns that a powerful tool can have harmful effects when misused. Owner 2513 requires a lasting negative effect (“long shadow”), absent here. Owner 781 is commercial reach, not harm. No safe same-sense owner detector match.",
+      "specificBlocker": "The source omits the usual over/on complement and uses a broad, bespoke aphorism. Broadening 1841 to bare “casts a shadow” would conflate spoiled experience, durable consequence, and tool-misuse harms. A separate seven-step target is not yet shown to have a distinct bounded learner decision.",
+      "duplicateRelation": "Earliest occurrence of the exact repeated sentence; later 3740 remains attached to this unresolved owner decision."
+    },
+    {
+      "sourceOrdinal": 3740,
+      "sourceId": "book10-16-1629",
+      "exactSourceSentence": "Every powerful tool casts a shadow when used carelessly.",
+      "sourceMeaning": "Major benefits may have harmful side effects; a shadow metaphor.",
+      "expression": "every powerful tool casts a shadow",
+      "sourceRawRowSha256": "12126d129938f792f8f2a67efb4ac10cc5c7e22ec97c31083507f88ef8ed17f4",
+      "decisionFile": "books10-16/editorial-decisions-3732-3791.jsonl",
+      "decisionRawRowSha256": "c62bdae8b86d83f3e41e3536936a92441104504365031963d939a00247d0b09e",
+      "currentDecisionAction": "hold-editorial",
+      "provisionalDisposition": "keep_held",
+      "ownerId": null,
+      "fullSourceMatchesCurrentOwnerDetector": false,
+      "senseComparison": "Owner 1841 casts a shadow over a whole experience, meaning a concern makes that experience less positive; this source warns that a powerful tool can have harmful effects when misused. Owner 2513 requires a lasting negative effect (“long shadow”), absent here. Owner 781 is commercial reach, not harm. No safe same-sense owner detector match.",
+      "specificBlocker": "The source omits the usual over/on complement and uses a broad, bespoke aphorism. Broadening 1841 to bare “casts a shadow” would conflate spoiled experience, durable consequence, and tool-misuse harms. A separate seven-step target is not yet shown to have a distinct bounded learner decision.",
+      "duplicateRelation": "Exact sentence repeats earlier held source 3731. If a distinct owner at 3731 is ever approved, 3740 should become its same-sense alias with exact second provenance; it should not become an independent lesson."
+    }
+  ],
+  "counts": {
+    "conditional_same_sense_earlier_owner_proposal_only": 1,
+    "keep_held": 2
+  },
+  "primaryUsageEvidence": [
+    {
+      "claim": "Cambridge lists (all) rolled into one as an idiom meaning combined, with all optional.",
+      "url": "https://dictionary.cambridge.org/es/diccionario/ingles/all-rolled-into-one"
+    },
+    {
+      "claim": "Oxford shows figurative cast a shadow on as spoiling an experience.",
+      "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/shadow_1"
+    }
+  ]
+}

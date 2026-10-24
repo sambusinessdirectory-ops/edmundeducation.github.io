@@ -1,0 +1,121 @@
+{
+  "reportType": "author-proposal-self-audit-owner1181-source3482-a",
+  "status": "proposal_only_no_shared_owner_decision_manifest_edits",
+  "proposalPath": "reviews-books10-16/proposals/owner-1181-source-3482-proposed-a.json",
+  "proposalSha256": "2ec4fda0fdc14c6cde5f2d423441910ad31a031b0fc0d3081ca1c17e89da39ea",
+  "ownerBeforePath": "batches/batch-1176-1200.json",
+  "ownerBeforeSha256": "eb2624ef3763063cbfd7856c46df27bd9e5a2dccde315b16d0c23c8f9b99823f",
+  "manifestSha256": "b8182b8d4ffbc1472e85b95ea644d54dd490461270b47205673346a71dd5cc3c",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceOrdinal": 3482,
+  "sourceId": "book10-16-1371",
+  "exactSourceSentence": "The magazine felt like a mirror and a mood board rolled into one.",
+  "sourceInventoryRowSha256": "32f641ebe56feeb1a994e2ac68b9af5162d9a378cb1e2a64c44f893e1a85499a",
+  "sourceSense": "One magazine serves as both identity-reflecting mirror and style-inspiring mood board; owner1181 already teaches several functions or qualities combined in one thing.",
+  "grammarEvidence": {
+    "primaryDictionary": "https://dictionary.cambridge.org/es/diccionario/ingles/all-rolled-into-one",
+    "conclusion": "Cambridge lists (all) rolled into one with all optional; the no-all passive pairing is natural."
+  },
+  "changedOwnerPaths": [
+    "titleEn",
+    "contentRevision",
+    "target.pattern",
+    "sources",
+    "brief.grammar",
+    "brief.boundaryZh",
+    "scene.options",
+    "scene.explanationZh",
+    "review.state",
+    "review.note"
+  ],
+  "sourceOrder": {
+    "ownerNumber": 1181,
+    "newSourceOrdinal": 3482,
+    "earlierOwner": true
+  },
+  "sourcePatternControls": {
+    "positive": [
+      {
+        "text": "The magazine felt like a mirror and a mood board rolled into one.",
+        "matched": true
+      },
+      {
+        "text": "Her sister is a teacher and a companion rolled into one in this account.",
+        "matched": true
+      },
+      {
+        "text": "A newsletter can be a notice board and a conversation starter rolled into one.",
+        "matched": true
+      },
+      {
+        "text": "The event was a celebration and a farewell all rolled into one.",
+        "matched": true
+      },
+      {
+        "text": "The app rolls conversation, entertainment, and information into one.",
+        "matched": true
+      }
+    ],
+    "negative": [
+      {
+        "text": "A mirror rolled into one.",
+        "matched": false
+      },
+      {
+        "text": "A mirror and a mood board rolled into two.",
+        "matched": false
+      },
+      {
+        "text": "A mirror or a mood board rolled into one.",
+        "matched": false
+      },
+      {
+        "text": "The magazine is a mirror and a mood board, not one object.",
+        "matched": false
+      },
+      {
+        "text": "The mirror and the board were rolled up together.",
+        "matched": false
+      }
+    ],
+    "inheritedPatternCaveat": "The pre-existing active roll ... into one branch is broad and can match some literal rolling strings; this proposal preserves it unchanged and does not claim the full union is a perfect semantic classifier."
+  },
+  "fullGuideSourceCollisionScreen": {
+    "sourceCount": 2604,
+    "beforeHitOrdinals": [],
+    "afterHitOrdinals": [
+      3482
+    ],
+    "newHitOrdinals": [
+      3482
+    ],
+    "unexpectedNewHits": []
+  },
+  "assessmentContracts": {
+    "questionAndOptionIdsUnchanged": true,
+    "keyedSceneUsesNoAll": true,
+    "sceneKeyBefore": "Her sister is a teacher and a companion all rolled into one in this account.",
+    "sceneKeyAfter": "Her sister is a teacher and a companion rolled into one in this account.",
+    "bilingualSceneExplanationUpdated": true
+  },
+  "audioText": {
+    "unchanged": true,
+    "roleCount": 4,
+    "oldSha256": "aeae20fc7f48c002e821cd877ceca682e8998dee20af6cbb105ffab14514fe61",
+    "newSha256": "aeae20fc7f48c002e821cd877ceca682e8998dee20af6cbb105ffab14514fe61"
+  },
+  "focusedBuilder": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRequests": 4,
+    "errors": [],
+    "warnings": [],
+    "buildAndCheckPassed": true
+  },
+  "integrationStatus": "Requires independent exact-hash review; no decision row or selected owner file changed.",
+  "fullCatalogueOwnerCollisionScreen": {
+    "existingAndSelectedLessonsScanned": 2519,
+    "source3482ExistingTargetHits": [],
+    "interpretation": "No current owner detector matches the complete source; the proposed owner1181 branch adds only source3482 among 2604 Books10–16 guide examples."
+  }
+}

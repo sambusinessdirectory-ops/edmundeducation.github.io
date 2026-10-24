@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "AI author B",
+  "reviewType": "independent scoped exact-hash follow-up",
+  "draft": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4513-make-more-sense-review-pilot.json",
+    "sha256": "cfd5f480c5afe6d29734704100bed50b95d18f904c131acaf875c527d87fd008"
+  },
+  "authorAudit": {
+    "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-4513-make-more-sense-review-pilot.json",
+    "sha256": "62ad4080a5e400616ef9327cd3baa25e162f9b43316feb9fbb7970eba1ad5d12"
+  },
+  "priorReview": {
+    "path": "reviews-books10-16/independent-ai-review-held-4513-make-more-sense-b.json",
+    "sha256": "54db8aec3a8fcb75462c11fb32d03900ef2bb127b5ad8ff9412ef1fe1311cf9f"
+  },
+  "verdict": "content-clear-for-provisional-unpublished-selection",
+  "sourceOrdinals": [
+    4513,
+    4619,
+    4627
+  ],
+  "findingFollowup": [
+    {
+      "id": "R4513-01",
+      "status": "resolved",
+      "evidence": "Step 6 now uses heavy display case and rear loading ramp versus front stairs, independent of Step 3 twelve-person hall and reversible booking choice; English/Chinese and target span align."
+    },
+    {
+      "id": "R4513-02",
+      "status": "resolved-with-nonblocking-polish-note",
+      "evidence": "Listening, scene and dialogue foils now include contextual tradeoffs and unsupported timing/attendance claims rather than pure literal/absolute contradictions. One listening foil about catching a bus after joining an online session from home is awkward but cannot displace the unique keyed cause; optional polish if another revision occurs."
+    }
+  ],
+  "checks": {
+    "focusedBuildAndCheck": "1 lesson, 6 questions, 4 audio roles, zero flags",
+    "fullSourceDetectorHits": [
+      4513,
+      4619,
+      4627
+    ],
+    "speakingTargetSpan": "make more sense",
+    "sixExactNonTargetGlossarySpans": true,
+    "assessmentKeyIdsUnchanged": true
+  },
+  "remainingRisk": "The expression is a productive ordinary collocation. Course value depends on maintaining conditional practical-choice sense against comprehension sense; this revision does so. Independent human/media/release approval is not implied.",
+  "state": "Draft remains unselected; repeat decisions remain held."
+}

@@ -1316,12 +1316,12 @@
       "id": "advanced-native-1181",
       "number": 1181,
       "inventoryId": "expr-1181",
-      "titleEn": "all rolled into one / roll ... into one",
+      "titleEn": "(all) rolled into one / roll ... into one",
       "titleZh": "把多種角色或用途合在一起",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\b(?:all rolled|roll(?:s|ed|ing)? [^.!?;\\n]{1,100}) into one\\b",
+        "pattern": "\\b(?:all rolled|roll(?:s|ed|ing)? [^.!?;\\n]{1,100}) into one\\b|\\b(?:a|an|the) (?!all\\b)[a-z-]+(?: (?!all\\b)[a-z-]+){0,3} and (?:a|an|the) (?!all\\b)[a-z-]+(?: (?!all\\b)[a-z-]+){0,3} rolled into one\\b",
         "glossaryForbidden": [
           "\\broll(?:s|ed|ing)?\\b",
           "\\binto one\\b"
@@ -1367,14 +1367,28 @@
           "expression": "rolls conversation, entertainment, and information into one",
           "referenceSentenceKind": "guide_original_example",
           "locatorNote": "Exact PDF page250 table1 row2 retained."
+        },
+        {
+          "occurrenceId": "book10-16-1371",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 128,
+          "book": 13,
+          "question": 14,
+          "sample": "S1",
+          "sourceBookPages": "34–37",
+          "locatorNote": "DOCX table 135, row 4; page refers to the locally rendered PDF recorded in intake summary.",
+          "sentence": "The magazine felt like a mirror and a mood board rolled into one.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a mirror and a mood board rolled into one"
         }
       ],
       "brief": {
         "meaningEn": "Several roles, qualities or purposes combined in one person, thing or occasion.",
         "meaningZh": "幾種角色、特點或用途，結合在同一個人、事物或場合中。",
-        "grammar": "X and Y all rolled into one; a teacher, organiser and friend all rolled into one. The preceding nouns identify what is combined. An active frame is roll X, Y and Z into one, describing something combining those functions; rolls/rolled/rolling follow the subject and tense. This is the same combination meaning, not a claim that the named functions become indistinguishable.",
+        "grammar": "X and Y (all) rolled into one: all is optional after two named roles or qualities. For example, a teacher and a companion rolled into one combines those roles in one person. The preceding nouns identify what is combined. An active frame is roll X, Y and Z into one, describing one thing combining those functions; rolls/rolled/rolling follow the subject and tense. The combination does not make the named functions indistinguishable.",
         "register": "Established combination idiom, not necessarily literal rolling or a claim that every possible role is included.",
-        "boundaryZh": "需要指出結合了甚麼，不等於全能、沒有分別，或一個人必須獨力承擔所有工作。 主動式 roll 幾種用途 into one 也表示結合，不表示每種功能都同樣完善。",
+        "boundaryZh": "須指出結合了哪兩種角色、特點或用途；all 可省略，省略後仍表示結合，而非只剩一種。結合不等於全能、沒有分別，或一個人必須獨力承擔所有工作。主動式 roll 幾種用途 into one 也表示結合，不表示每種功能都同樣完善。",
         "misconceptionZh": "兩種用途可以同時存在，不表示參加者感受完全相同，也不表示其他人沒有貢獻。",
         "outcomeZh": "能用具體功能或角色描述結合，同時保留範圍及實際分工。"
       },
@@ -1442,7 +1456,7 @@
         "options": [
           {
             "id": "choice-1",
-            "en": "Her sister is a teacher and a companion all rolled into one in this account.",
+            "en": "Her sister is a teacher and a companion rolled into one in this account.",
             "zh": "這段敘述中，姊姊把老師及同伴的角色合在一起。"
           },
           {
@@ -1457,7 +1471,7 @@
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "這裏是同一個人兼有兩種角色，不是兩人，也不是一種角色消失。"
+        "explanationZh": "同一個人兼有老師與同伴兩種角色；英文省略 all，仍然表示兩種角色合在一起，不是兩人，也不是一種角色消失。"
       },
       "contrast": {
         "promptEn": "",
@@ -1599,7 +1613,7 @@
           "reviewer": "AI author source_inventory",
           "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
         },
-        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+        "note": "Draft owner expansion for source 3482 independently AI-reviewed at reviews-books10-16/independent-ai-review-owner1181-source3482-root.json; media, browser and release acceptance remain pending."
       }
     },
     {

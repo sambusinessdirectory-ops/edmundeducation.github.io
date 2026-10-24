@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-3849-outpace-ability-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3849",
+      "number": 3849,
+      "inventoryId": "book10-16-1738",
+      "titleEn": "outpace X’s ability to respond",
+      "titleZh": "增長速度超出應對能力",
+      "category": "figurative",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\boutpac(?:e|es|ed|ing)\\s+(?:(?:(?:a|the)\\s+)?[A-Za-z-]+['’]s\\s+ability\\s+to\\s+[A-Za-z]+|(?:(?:the|its|their|our|his|her)\\s+)?ability\\s+to\\s+[A-Za-z]+|(?:(?:the|its|their|our|his|her)\\s+)?(?:capacity|supply|provision))\\b",
+        "glossaryForbidden": [
+          "\\boutpac(?:e|es|ed|ing)\\s+(?:(?:(?:a|the)\\s+)?[A-Za-z-]+['’]s\\s+ability\\s+to\\s+[A-Za-z]+|(?:(?:the|its|their|our|his|her)\\s+)?ability\\s+to\\s+[A-Za-z]+|(?:(?:the|its|their|our|his|her)\\s+)?(?:capacity|supply|provision))\\b",
+          "\\boutpac(?:e|es|ed|ing)\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A need or activity grows faster than a person or service can respond. The comparison concerns rates and capacity; it does not by itself mean that care has stopped.",
+        "meaningZh": "需求或活動增長得比個人或服務的應對能力更快；比較的是增長與處理速度，並不等於已停止照顧。",
+        "grammar": "Transitive outpace/outpaces/outpaced/outpacing + a service’s ability to do something, or + capacity/supply. Put the faster-growing pressure before outpace and the slower response after it. The source’s them refers to residents but lacks an explicit antecedent; name the people clearly in learner-facing writing.",
+        "register": "Neutral in planning or service reporting. A clinic coordinator may explain to residents why more appointments are needed; a team leader may compare requests with available review capacity. Do not use the verb to blame service users.",
+        "boundaryZh": "須有兩個可比較的變化速度：需求增長快於應對能力。不必推斷服務已完全停頓、所有人都被拒，或增加人手後問題必然解決。",
+        "misconceptionZh": "不要把「現在人很多」當成 outpace 的充分證據，也不要倒轉主語與受詞，把較慢的服務說成跑在需求前面。",
+        "outcomeZh": "能交代何種需求增長較快、哪項能力跟不上，並在不同服務情境下提出有根據而不過度承諾的回應。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1738",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 164,
+          "book": 14,
+          "question": 31,
+          "sample": "S2",
+          "sourceBookPages": "68–69",
+          "locatorNote": "DOCX table 175, row 6; page refers to the locally rendered PDF recorded in the intake summary. The source pronoun them has no explicit plural antecedent; learner models name residents.",
+          "sentence": "Population growth can outpace a place's ability to care for them.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "outpace a place's ability to care for them"
+        }
+      ],
+      "listening": {
+        "en": "The museum receives thirty new tour requests each week, up from ten, but its guides can still lead twelve tours. Requests now outpace the team’s ability to offer tours, so it is training more guides.",
+        "zh": "博物館每週新導覽申請由十宗增至三十宗，但導賞員仍只能帶領十二團。申請增長快於團隊提供導覽的能力，因此館方正培訓更多導賞員。",
+        "promptZh": "為甚麼只說「每週有三十宗申請」不足以交代問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Requests have risen faster than the guides’ tour capacity, leaving a gap the museum is addressing.",
+            "zh": "申請增長比導賞能力快，形成館方正設法處理的缺口。"
+          },
+          {
+            "id": "b",
+            "en": "The guides now lead thirty tours a week, so their output matches the new requests.",
+            "zh": "導賞員現時每週帶領三十團，產量與新申請相符。"
+          },
+          {
+            "id": "c",
+            "en": "The gap arose because guides reduced their weekly tours from twelve to ten.",
+            "zh": "缺口是因為導賞員每週帶領的團數由十二團減至十團。"
+          },
+          {
+            "id": "d",
+            "en": "Training more guides means the current request gap has already closed.",
+            "zh": "培訓更多導賞員表示目前的申請缺口已填補。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "要比較申請由十增至三十與目前仍只可帶領十二團；沒有說產量已達三十或跌至十，培訓也尚未證明缺口已消失。"
+      },
+      "reply": {
+        "promptEn": "A neighbour asks why the clinic has a longer wait for appointments. We know requests have risen faster than available visits, and the clinic is reviewing hours. How could you answer without blaming patients or promising a fix?",
+        "promptZh": "鄰居問診所為何預約要等更久。已知申請增長比可提供的診症名額快，診所正在檢討開放時間。你可怎樣回答而不怪責病人或保證問題已解決？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Requests outpace the clinic’s ability to offer visits at present; it is reviewing hours before deciding whether it can add appointments.",
+            "zh": "目前預約申請增長快於診所提供診症的能力；診所正檢討開放時間，才決定能否增加名額。"
+          },
+          {
+            "id": "b",
+            "en": "More people are asking for appointments than the current timetable can handle, and the clinic is reviewing that timetable.",
+            "zh": "要求預約的人比現時時間表能處理的多，診所正檢討時間表。"
+          },
+          {
+            "id": "c",
+            "en": "The longer wait reflects a gap between requests and available visits; the clinic has not announced extra slots yet.",
+            "zh": "輪候較長反映申請與可提供診症之間有缺口；診所尚未公布額外名額。"
+          },
+          {
+            "id": "d",
+            "en": "The clinic is checking its opening hours because requests have grown faster than its visit capacity.",
+            "zh": "診所正檢查開放時間，因為申請增長比診症能力快。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都回應較長輪候與診症能力的差距，沒有責怪病人或聲稱新名額已定；甲自然用出 outpace。"
+      },
+      "scene": {
+        "promptZh": "社區洗衣服務原可每天處理四十袋。新屋苑入住後，每天送來的袋數由三十增至七十；機器和輪班暫時不變，服務仍在運作。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The new laundry demand outpaces the service’s ability to process bags, though the service has not stopped.",
+            "zh": "新的洗衣需求增長快於服務處理衣物袋的能力，但服務並未停頓。"
+          },
+          {
+            "id": "b",
+            "en": "Processing forty bags each day is enough to meet seventy new bags without a queue.",
+            "zh": "每天處理四十袋，足以應付新送來的七十袋而不形成輪候。"
+          },
+          {
+            "id": "c",
+            "en": "Because demand rose, the service has already added a new shift to keep the queue stable.",
+            "zh": "需求上升後，服務已增設輪班，因此輪候保持穩定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每天送來七十袋而現時只能處理四十袋，支持需求快於能力；乙忽略差額，丙與輪班未變的資料不符。"
+      },
+      "contrast": {
+        "promptEn": "Which summary puts the faster-growing pressure before the transitive verb outpace and names the slower capacity after it?",
+        "promptZh": "哪句把增長較快的需求放在及物動詞 outpace 前，並在後面說出增長較慢的應對能力？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Archive requests outpace the team’s ability to review files: requests tripled while staffing stayed level.",
+            "zh": "檔案查閱申請增長快於團隊審閱檔案的能力：申請增至三倍，人手卻不變。"
+          },
+          {
+            "id": "b",
+            "en": "The unchanged review team has overtaken the tripling requests by remaining at its old size.",
+            "zh": "審閱小組人手不變，便已超越增至三倍的申請。"
+          },
+          {
+            "id": "c",
+            "en": "The tripling requests show that every file has already been reviewed by the same team.",
+            "zh": "申請增至三倍，表示同一小組已審閱每份檔案。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲把增長較快的申請作主語，能力作受詞；乙倒轉速度關係，丙把需求增加誤當作全部已完成。"
+      },
+      "dialogue": {
+        "promptEn": "A reporter says, “New housing applications are arriving faster each month, while the council’s review team has stayed the same size. The waiting list is growing. How should I explain this without suggesting staff have stopped reviewing cases?”",
+        "promptZh": "記者說：「每月新房屋申請愈來愈多，議會審核小組人數卻沒變，輪候名單變長。我應怎樣解釋，而不暗示職員已停止審核？」",
+        "options": [
+          {
+            "id": "a",
+            "en": "Applications outpace the council’s ability to review them; say the queue is growing while reviews continue.",
+            "zh": "申請增長快於議會審核能力；可說輪候增加，但審核仍在進行。"
+          },
+          {
+            "id": "b",
+            "en": "Say the council’s review capacity is growing faster than applications because the team is still working.",
+            "zh": "可以說議會審核能力增長快於申請，因為小組仍在工作。"
+          },
+          {
+            "id": "c",
+            "en": "Say the waiting list proves the council has stopped reviewing applications altogether.",
+            "zh": "可以說輪候名單證明議會已完全停止審核申請。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲說清楚申請增長快於處理能力，同時保留審核仍在進行；乙由「仍在工作」錯推能力增長較快，丙把輪候誇大成全面停辦。"
+      },
+      "speaking": {
+        "en": "The clinic's appointment requests now outpace its ability to offer visits, so the team is reviewing hours before promising new slots.",
+        "zh": "診所的預約申請增長快於現時提供診症的能力；團隊正檢討開放時間，未承諾新名額。",
+        "promptZh": "先聽，再說出增長較快的一方與未作出的承諾。",
+        "targetSpan": {
+          "start": 38,
+          "end": 66
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區維修咖啡室的電器檢查申請增長，義工現時未能安全地按需求加快檢查。請寫一至兩句英文公告，比較申請與安全檢查能力，提出預約及培訓措施，但不要保證每件電器立即修好。",
+        "selfCheckZh": "說清楚申請增長快於安全檢查能力；提出預約名單及培訓或分批回覆；不保證即日修好。",
+        "examples": [
+          {
+            "en": "Requests for the neighbourhood repair café now outpace the team’s ability to inspect appliances safely; we will add a booking list and train two more helpers before opening extra sessions.",
+            "zh": "社區維修咖啡室的申請增長快於團隊安全檢查電器的能力；我們會設立預約名單，並先培訓兩位義工，再加開時段。"
+          },
+          {
+            "en": "Appliance requests outpace our capacity to inspect them safely this month. We will use a booking list and train more helpers before expanding hours; we cannot promise same-day repairs.",
+            "zh": "本月電器檢查申請增長快於我們安全檢查的能力。我們會使用預約名單，並在延長開放時間前培訓更多義工；我們不能承諾即日修妥。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "neighbourhood repair café",
+            "zh": "社區維修咖啡室",
+            "exampleIndex": 0,
+            "span": {
+              "start": 17,
+              "end": 42
+            }
+          },
+          {
+            "en": "extra sessions",
+            "zh": "額外時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 173,
+              "end": 187
+            }
+          },
+          {
+            "en": "a booking list",
+            "zh": "預約名單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 116,
+              "end": 130
+            }
+          },
+          {
+            "en": "train two more helpers",
+            "zh": "再培訓兩位義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 135,
+              "end": 157
+            }
+          },
+          {
+            "en": "expanding hours",
+            "zh": "延長開放時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 132,
+              "end": 147
+            }
+          },
+          {
+            "en": "same-day repairs",
+            "zh": "即日修妥",
+            "exampleIndex": 1,
+            "span": {
+              "start": 167,
+              "end": 183
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Rising requests can outpace a team’s ability to respond; a large queue alone does not establish the rate comparison.",
+          "zh": "增加的申請可能超出團隊的應對能力；單有很長的輪候隊伍，不足以證明增長速度的差距。"
+        },
+        {
+          "en": "If requests outpace a team’s ability to respond, name both sides and explain a realistic next step without claiming that all service has stopped.",
+          "zh": "若申請增長快於團隊的應對能力，應說清楚比較雙方及可行下一步，不要說成服務已全面停頓。"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author 3849 pilot",
+          "evidence": "Source and owner590 sense comparison; six keyed decisions and four-valid reply manually checked. Independent AI follow-up cleared the revised content; see reviews-books10-16/independent-ai-review-held-3849-outpace-ability-b-followup.json. Release approval pending."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author 3849 pilot",
+          "evidence": "Every prompt, option, model and takeaway compared for Traditional Chinese fidelity; independent review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "Provisionally selected for Books 10–16 after independent AI content clearance in reviews-books10-16/independent-ai-review-held-3849-outpace-ability-b-followup.json; audio hosting, listening, browser and release acceptance remain pending.",
+          "The source pronoun them has no clear antecedent; learner models name the affected people or service.",
+          "Owner590 teaches keep pace; this lesson assesses transitive outpace and the direction of the capacity comparison."
+        ],
+        "author": "AI author 3849 pilot",
+        "independentHumanApproval": false
+      }
+    }
+  ]
+}

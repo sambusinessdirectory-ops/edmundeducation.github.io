@@ -1,0 +1,29 @@
+{
+  "scope": "Selected 639-lesson Books 10–16 draft, compared with the reviewed 636-lesson post-4224 checkpoint",
+  "result": "The mechanical screen finds zero exact, high, or medium source-sentence copies in 15,777 learner-facing English strings. The 55 near-full/review-near-full hits are byte-for-byte the same hit objects as the previously source-reviewed 636 checkpoint. Exactly one new six-token contiguous hit is the expressly taught target in lesson 3962's takeaway, with zero non-target tokens copied. This is acceptable target identification, not copying a source sentence. The screen does not establish source reuse rights or semantic originality.",
+  "newShortHit": {
+    "lesson": 3962,
+    "field": "takeaways[0].en",
+    "sourceId": "book10-16-1851",
+    "sourceExpression": "a circus with too many rings",
+    "sourceExample": "The broadcast felt like a circus with too many rings.",
+    "sharedText": "a circus with too many rings",
+    "sharedTokens": 6,
+    "targetTokens": 6,
+    "excessTokens": 0,
+    "sourceCoverage": 0.6,
+    "editorialJudgment": "The full takeaway compares the standard idiom a three-ring circus with the source's creative variant. It does not reuse the source's broadcast sentence or claim that the variant is fixed."
+  },
+  "evidence": {
+    "currentScreen": "../originality-639-owner1181.json",
+    "baselineScreen": "../originality-636-4224.json",
+    "addedContiguousHits": 1,
+    "removedContiguousHits": 0,
+    "addedFuzzyHits": 0,
+    "removedFuzzyHits": 0,
+    "exact": 0,
+    "high": 0,
+    "medium": 0,
+    "sourceReusePermission": "unverified"
+  }
+}

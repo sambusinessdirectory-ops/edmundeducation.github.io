@@ -1,0 +1,27 @@
+{
+  "status": "content-clear-unselected",
+  "reviewedDraftPath": "drafts-books10-16/batch-held-3962-three-ring-circus-b.json",
+  "reviewedDraftSha256": "903010e1c19d9a8b4c18bd4390e739f2c3f3abe9478947eeac78f1e470359eeb",
+  "authorAuditSha256": "b64733d191c6dedeb723647495ac6c0cc714ebb90617279573edf940882cfcd1",
+  "sourceOrdinal": 3962,
+  "sourceId": "book10-16-1851",
+  "exactSource": "The broadcast felt like a circus with too many rings.",
+  "priorReview": "reviews-books10-16/independent-ai-review-held-3962-three-ring-circus-review-pilot-followup.json",
+  "oneFieldRecheck": {
+    "id": "R3962-04",
+    "verdict": "resolved",
+    "evidence": "Listening Chinese now says staff changed desk assignments twice while signs retained the old plan; it no longer invents a morning or particular form types. Visitors joining wrong queues and starting over align with English."
+  },
+  "previousFindings": {
+    "R3962_01": "resolved in revision 2: broad busy/confusing sense with non-overlap causes assessed",
+    "R3962_02": "resolved in revision 2: permit-office listening distinct from source broadcast",
+    "R3962_03": "resolved in revision 2: diplomatic dialogue framing"
+  },
+  "checks": [
+    "Exact final file hash verified.",
+    "Listening EN/ZH and keyed answer align.",
+    "The target pattern still matches the exact creative source variant and standard assessed phrase.",
+    "Fresh focused build/check 1 lesson, 6 questions, 4 audio roles, 0 flags at the earlier revision; this final change is Chinese-only and author reran the same check."
+  ],
+  "scope": "AI content clearance only. No selected manifest, editorial decision, audio or publication change."
+}

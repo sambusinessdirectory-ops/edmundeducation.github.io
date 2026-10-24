@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "AI author B",
+  "reviewType": "one-field exact-hash final follow-up",
+  "draft": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4513-make-more-sense-review-pilot.json",
+    "sha256": "64726182d0bbcf2d40aaff94e261782aa3ec5276a2408963e63c1e60de514159"
+  },
+  "authorAudit": {
+    "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-4513-make-more-sense-review-pilot.json",
+    "sha256": "f1af19e168b1b93516ac621678aa9a4daf91c3277f43f9935435a18b9b5bd289"
+  },
+  "priorFollowupSha256": "974fd7ee0ee328be6690d3f499594bcf653f1bd8155b661ad5b69d2dc82dbb74",
+  "verdict": "content-clear-for-provisional-unpublished-selection",
+  "finding": "Listening C now gives a grammatical, plausible but unsupported lower-fee reason. Chinese states the same, and the explanation expressly notes that no lower fee was mentioned. The unique key remains last-bus timing and equivalent content.",
+  "focusedBuildCheck": "1 lesson, 6 questions, 4 audio roles, zero flags; build and --check pass.",
+  "state": "4513 unselected; 4619/4627 remain hold pending owner selection. No release/media approval."
+}

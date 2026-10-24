@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "AI author B",
+  "status": "independent-post-integration-content-check",
+  "sourceOrdinal": 3482,
+  "currentOwnerBatch": {
+    "path": "course-materials/advanced-native/batches/batch-1176-1200.json",
+    "sha256": "bddc747a59ba25ba7d32f96823851443c89989536f9e7bea5a9815dcd7e09db7",
+    "ownerId": "advanced-native-1181",
+    "ownerContentRevision": 2
+  },
+  "currentDecision": {
+    "path": "course-materials/advanced-native/books10-16/editorial-decisions-3432-3491.jsonl",
+    "fileSha256": "f25d3300f8bd13fbc35b5bd9c8f57a935f8c95e42474aedd0491011918f2cd0b",
+    "rowSha256": "459e9cd844a173e3b8ecea0b5219f97f34efb95bf4254eab17fe86cd6e2303bc",
+    "row": {
+      "sourceOrdinal": 3482,
+      "sourceId": "book10-16-1371",
+      "phrase": "a mirror and a mood board rolled into one",
+      "action": "proposed-alias-existing",
+      "canonicalId": "advanced-native-1181",
+      "reason": "The magazine is a mirror and a mood board rolled into one: two functions combined in one object. The earlier owner 1181 teaches the optional-all passive construction with a bounded target pattern and a no-all assessed example; full source sentence matches. Independently AI-reviewed against exact source and stable IDs; unpublished provisional alias."
+    }
+  },
+  "proposal": {
+    "path": "course-materials/advanced-native/reviews-books10-16/proposals/owner-1181-source-3482-proposed-a.json",
+    "sha256": "2ec4fda0fdc14c6cde5f2d423441910ad31a031b0fc0d3081ca1c17e89da39ea",
+    "ownerObjectEqualsExceptReviewMetadata": true
+  },
+  "source": {
+    "sourceId": "book10-16-1371",
+    "sentence": "The magazine felt like a mirror and a mood board rolled into one.",
+    "expression": "a mirror and a mood board rolled into one"
+  },
+  "verdict": "accepted-no-new-blocker",
+  "evidence": {
+    "sense": "Magazine combines reflection of readers with style inspiration; owner1181 combines two named roles/functions in one thing. Optional all is natural and does not alter meaning.",
+    "regexControls": {
+      "The magazine felt like a mirror and a mood board rolled into one.": true,
+      "Her sister is a teacher and a companion rolled into one in this account.": true,
+      "A mirror rolled into one.": false,
+      "A mirror and a mood board rolled into two.": false,
+      "A mirror or a mood board rolled into one.": false,
+      "The mirror and the board were rolled up together.": false
+    },
+    "newSourceOnlyFullInventoryMatch": 3482,
+    "keyedScene": {
+      "id": "choice-1",
+      "en": "Her sister is a teacher and a companion rolled into one in this account.",
+      "zh": "這段敘述中，姊姊把老師及同伴的角色合在一起。"
+    },
+    "allKeyIdsStable": true,
+    "audioRoleEnglishTextUnchanged": true,
+    "chinese": "Scene prompt establishes one sister who both teaches painting and accompanies walks. Key Chinese states both roles; explanation correctly treats all as optional.",
+    "focusedBatchBuildCheck": "22 lessons/132 questions/88 audio requests/0 flags; build and --check pass."
+  },
+  "risk": "Inherited active roll ... into one branch can match literal rolling in unconstrained prose. It was not widened by this integration; no new source or keyed assessment regression found.",
+  "releaseState": "Unpublished draft integration; no browser/device/media or live release approval asserted."
+}

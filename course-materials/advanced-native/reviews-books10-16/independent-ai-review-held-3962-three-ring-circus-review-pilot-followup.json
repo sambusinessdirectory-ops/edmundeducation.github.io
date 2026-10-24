@@ -1,0 +1,42 @@
+{
+  "status": "original-findings-resolved; narrow-bilingual-polish-before-selection",
+  "draftPath": "drafts-books10-16/batch-held-3962-three-ring-circus-b.json",
+  "draftSha256": "5820ec05d1aec69f95018ecf70a0a4eee5dc533405f2ca88fb56cdb41c53fd57",
+  "authorAuditSha256": "460ff1a4cdfbd400159f851f62c97690381e001ab62d224becae671be2e39788",
+  "sourceOrdinal": 3962,
+  "sourceId": "book10-16-1851",
+  "sourceSentence": "The broadcast felt like a circus with too many rings.",
+  "priorFindings": [
+    {
+      "id": "R3962-01",
+      "verdict": "resolved",
+      "evidence": "Brief and Chinese boundary now define broader busy/confusing activity, with simultaneous overlap only one cause. Listening tests shifting desk assignments; dialogue tests late agenda changes; contrast distinguishes orderly busyness from queue changes and interruptions. Four other tasks still use overlap but the seven are no longer identical decisions."
+    },
+    {
+      "id": "R3962-02",
+      "verdict": "resolved",
+      "evidence": "Listening moved from a live broadcast to a permit office and tests repeated wayfinding disruption."
+    },
+    {
+      "id": "R3962-03",
+      "verdict": "resolved",
+      "evidence": "Dialogue key diplomatically says 'This is becoming a three-ring circus' and proposes pausing the vote and settling one agenda question."
+    }
+  ],
+  "newFinding": {
+    "id": "R3962-04",
+    "severity": "minor",
+    "field": "listening.zh",
+    "issue": "Chinese adds '一個早上' and specifies that desks changed the forms they handled ('各櫃位處理的表格'), whereas English says only 'staff changed desk assignments twice'. These details are not needed and could suggest a narrower cause.",
+    "repair": "Align Chinese to the English cue, e.g. '在許可證辦事處，職員兩度改動櫃位分工，指示牌卻仍顯示舊安排。' Preserve the rest of the listening and keyed answer."
+  },
+  "checks": {
+    "focusedBuildCheck": "1 lesson/6 questions/4 audio requests/0 flags",
+    "fullSourceTargetMatch": true,
+    "speakingSpanExact": true,
+    "keyedTargetAndOneBest": "Pass in scene, contrast, dialogue; four reply options remain valid.",
+    "glossary": "Six exact answer-derived non-target spans; no changed spans.",
+    "ownerSense": "The source is explicitly identified as a creative variant; Oxford Advanced Learner's Dictionary documents conventional a three-ring circus as a busy/confusing place or situation."
+  },
+  "changedSharedFiles": []
+}

@@ -1,0 +1,134 @@
+{
+  "reportType": "author-scoped-repair-held-3962-three-ring-circus-a",
+  "status": "unselected_isolated_repair_pending_independent_recheck",
+  "sourceDraft": {
+    "path": "drafts-books10-16/batch-held-3962-three-ring-circus-b.json",
+    "sha256": "903010e1c19d9a8b4c18bd4390e739f2c3f3abe9478947eeac78f1e470359eeb"
+  },
+  "pilotReview": {
+    "path": "reviews-books10-16/independent-ai-review-held-3962-three-ring-circus-review-pilot.json",
+    "sha256": "c2507f2ddbe8de1cd5ffd95b6b2dee37aa60e26129bbc84f69b3b580ef26bb2b",
+    "findings": [
+      "R3962-01",
+      "R3962-02",
+      "R3962-03"
+    ]
+  },
+  "repairedDraft": {
+    "path": "drafts-books10-16/batch-held-3962-three-ring-circus-a-repair.json",
+    "sha256": "b80e863f92b0d72abe93ee6f6239e8277368034c3c9d37c3c50b353a639068a8"
+  },
+  "selectedManifestSha256": "88d0382b26e4fdd60988213f2cfa6e0426de57d26d4b78d20f4668d150bb0818",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceOccurrence": {
+    "sourceOrdinal": 3962,
+    "sourceId": "book10-16-1851",
+    "exactSentence": "The broadcast felt like a circus with too many rings.",
+    "rawRowSha256": "78564396479865c2d48af17e78aef5c5789d6b4379d0da95dce329780df954c5",
+    "targetMatches": true
+  },
+  "senseEvidence": {
+    "url": "https://www.oxfordlearnersdictionaries.com/definition/english/three-ring-circus",
+    "dictionarySense": "Busy and confusing activity in a place or situation; simultaneous strands are not a necessary condition.",
+    "creativeSourceVariantPreserved": true
+  },
+  "repairFindings": {
+    "R3962-01": "Brief, contrast, listening, scene, speaking, final writing and takeaways now teach busy/confusing activity from changing information or interruptions, while reply retains simultaneous interference as one possible cause.",
+    "R3962-02": "Listening moved from live broadcast to clinic check-in.",
+    "R3962-03": "Dialogue key uses diplomatic “This is starting to feel like ...” and a concrete item-by-item procedure."
+  },
+  "sevenDecisions": {
+    "listening": "recognise changing clinic lists, desk switches and interruptions",
+    "reply": "explain overlapping fair announcements and propose staggered safety talk",
+    "scene": "identify conflicting school room maps and propose one current version",
+    "contrast": "distinguish busy but orderly workshop from evidence-backed confusion",
+    "dialogue": "make a diplomatic committee process request",
+    "speaking": "describe shelter intake chaos and bounded triage action",
+    "writing": "write a food-bank debrief tied to conflicting times and queue guidance"
+  },
+  "assessment": {
+    "idsUnchanged": true,
+    "keys": {
+      "listening": "Repeated list changes, desk switches and interruptions left patients unsure where to check in.",
+      "scene": "The arrival area became a three-ring circus because conflicting room information sent families in circles; the team needs one current map.",
+      "contrast": "A busy workshop follows its published timetable, and visitors know where to go for each session.",
+      "dialogue": "This is starting to feel like a three-ring circus. Could we finish the budget item, take the venue question next, and vote on volunteers separately?",
+      "reply": "It is turning into a three-ring circus: three amplified events overlap, so visitors miss the safety talk. Could we stagger the announcements?"
+    },
+    "fourReplyOptionsIndependentlyResponsive": true
+  },
+  "glossary": [
+    {
+      "term": "pickup time",
+      "exampleIndex": 0,
+      "exact": true,
+      "overlapTarget": false
+    },
+    {
+      "term": "two lists",
+      "exampleIndex": 0,
+      "exact": true,
+      "overlapTarget": false
+    },
+    {
+      "term": "different queues",
+      "exampleIndex": 0,
+      "exact": true,
+      "overlapTarget": false
+    },
+    {
+      "term": "one updated schedule",
+      "exampleIndex": 0,
+      "exact": true,
+      "overlapTarget": false
+    },
+    {
+      "term": "conflicting pickup times",
+      "exampleIndex": 1,
+      "exact": true,
+      "overlapTarget": false
+    },
+    {
+      "term": "correct queue signs",
+      "exampleIndex": 1,
+      "exact": true,
+      "overlapTarget": false
+    }
+  ],
+  "audio": [
+    {
+      "role": "listening",
+      "length": 205,
+      "target": true
+    },
+    {
+      "role": "speaking",
+      "length": 203,
+      "target": true
+    },
+    {
+      "role": "takeaway-1",
+      "length": 141,
+      "target": true
+    },
+    {
+      "role": "takeaway-2",
+      "length": 157,
+      "target": true
+    }
+  ],
+  "originality": {
+    "learnerEnglishStrings": 27,
+    "guideExamplesScreened": 2604,
+    "nonOwnSixTokenWindows": []
+  },
+  "validation": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRequests": 4,
+    "errors": [],
+    "warnings": [],
+    "buildAndCheckPassed": true
+  },
+  "limitations": "No human listening, media generation, browser QA, selection or release approval is claimed."
+}

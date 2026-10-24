@@ -1,0 +1,52 @@
+{
+  "status": "repair-before-selection",
+  "draftPath": "drafts-books10-16/batch-held-3962-three-ring-circus-b.json",
+  "draftSha256": "4fce9f05cea67d7715b7e83b8dc52ccda81e04675679c8b62c2f69685e29a29f",
+  "authorAuditSha256": "7fe0acc3770067a147b432a61333b9a73b1a51a3da3d284f674eae1546822e49",
+  "sourceOrdinal": 3962,
+  "sourceId": "book10-16-1851",
+  "exactSource": "The broadcast felt like a circus with too many rings.",
+  "ownerVerdict": "Conditional: the source creatively varies the established 'a three-ring circus' idiom, and the draft names that distinction. A conventional-idiom lesson can be source-faithful if it teaches broad busy/confusing activity rather than treating simultaneous strands as a mandatory condition.",
+  "primaryEvidence": [
+    {
+      "title": "Oxford Advanced Learner's Dictionary",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/three-ring-circus",
+      "relevance": "Defines a place or situation with much busy and confusing activity; simultaneity is a common mechanism, not a necessary condition."
+    },
+    {
+      "title": "Oxford Advanced American Dictionary",
+      "url": "https://www.oxfordlearnersdictionaries.com/us/definition/american_english/three-ring-circus",
+      "relevance": "Recognizes confusing or amusing activity; supports conventional phrase distinct from source's creative wording."
+    }
+  ],
+  "findings": [
+    {
+      "id": "R3962-01",
+      "severity": "major",
+      "field": "brief.meaningEn/grammar/boundaryZh, assessment distribution",
+      "issue": "The lesson makes simultaneous competing strands necessary in its definition and virtually every assessed answer. The conventional idiom covers a broadly busy/confusing situation, while the source's 'too many rings' emphasizes simultaneous strands. This narrows the target's standard meaning and yields repeated decisions rather than seven genuinely distinct ones.",
+      "requiredRepair": "Keep the source variant as provenance, but broaden the conventional target to chaotic or hard-to-follow activity. Preserve one simultaneous-activity task; move at least two other assessed steps to different causal patterns (e.g. rapidly changing plans, many uncoordinated interruptions) and different learner decisions such as register or whether the evidence justifies the criticism. Update EN/ZH and foils together."
+    },
+    {
+      "id": "R3962-02",
+      "severity": "minor",
+      "field": "listening.en/zh and listening options",
+      "issue": "The listening is another confusing live broadcast, closely repeating the source's broadcast domain. It has no six-token copy, but the situation is not a strong changed-context demonstration.",
+      "requiredRepair": "Move listening to a non-broadcast setting, keeping one-best options and a clear reason for the idiom."
+    },
+    {
+      "id": "R3962-03",
+      "severity": "minor",
+      "field": "dialogue.options[0].en/zh",
+      "issue": "The key directly tells the committee chair to 'Call this a three-ring circus', a mildly critical label that may be unnecessarily confrontational for the requested procedural fix. The reply still answers the prompt, so this is a register polish rather than a false key.",
+      "requiredRepair": "Use a natural diplomatic framing ('This is becoming...' or describe the overlap) while retaining the target and the concrete one-at-a-time procedure."
+    }
+  ],
+  "passes": [
+    "Exact source provenance and source-variant regex match.",
+    "No earlier same-target owner found in title/target screen; lexical standard form is documented.",
+    "One-best keys in listening, scene, contrast and dialogue are supportable on current prompts; four reply alternatives are individually responsive and golden option contains target.",
+    "EN/ZH broadly align; six glossary spans are exact answer-derived non-target slices; speaking span matches; focused 1/6/4/0 build/check was reported by author."
+  ],
+  "note": "No selected, decision, manifest, or draft content changed by this independent review."
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "AI author B",
+  "reviewType": "independent focused exact-hash review",
+  "draft": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-3849-outpace-ability-review-pilot.json",
+    "sha256": "7c5551031d62b98e1394c27bb21307ddf46850399e1fb9f50c297f0554046a50"
+  },
+  "authorAudit": {
+    "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-3849-outpace-ability-review-pilot.json",
+    "sha256": "d697e3d2c78f8523e831cbee1921ea5622efc5e9919d2316b5797b263ebf1b1d"
+  },
+  "sourceOrdinal": 3849,
+  "verdict": "repair-before-selection",
+  "ownerBoundary": {
+    "nearestOwner": 590,
+    "assessment": "Provisionally distinct. Owner590 keep pace asks whether a service matches a benchmark; this draft teaches transitive outpace with faster-growing pressure as subject and slower response capacity as object. The lesson must keep that comparative grammar explicit."
+  },
+  "passedChecks": [
+    "Source sentence and ungrounded them pronoun are preserved as provenance; learner-facing cases name the service or people.",
+    "Seven steps cover rate evidence, explanatory reply, still-operating service, transitive subject/object order, queue interpretation, speaking and a changed repair-cafe writing context.",
+    "Scene, contrast and dialogue keys have one defensible answer; EN/ZH convey the same rate/capacity relationship.",
+    "Speaking target span and six answer-derived glossary spans are exact; no target in glossary.",
+    "Fresh focused build and --check pass: 1 lesson, 6 questions, 4 audio roles, 0 flags."
+  ],
+  "findings": [
+    {
+      "id": "R3849-01",
+      "severity": "major",
+      "path": "lessons[0].reply.options[a]",
+      "issue": "Golden reply says the clinic is reviewing hours before adding appointments, which implies appointments will be added; the prompt explicitly asks for an answer without promising a fix, and only says the clinic is reviewing hours. Chinese likewise implies later addition.",
+      "repair": "Use a conditional decision, e.g. it is reviewing hours before deciding whether it can add appointments; align Chinese. Preserve all four independently valid options."
+    },
+    {
+      "id": "R3849-02",
+      "severity": "major",
+      "path": "lessons[0].target.pattern",
+      "issue": "The detector matches malformed `outpace a ability to respond`, `outpace a capacity`, and the incomplete `outpace a place’s ability to.`. This weakens a grammar-focused lesson despite matching the guide source.",
+      "repair": "Pair article and noun forms, and require a bounded verb after ability to; retain the full source sentence, all learner keys, capacity/supply variants only where grammatical. Add these malformed controls as negatives."
+    }
+  ],
+  "contentState": "Unselected; no decision, selected manifest, audio or release change."
+}
