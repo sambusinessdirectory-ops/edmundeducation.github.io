@@ -1,6 +1,4 @@
-2026-10-25: LOCAL RELEASE READY, NOT PUBLISHED.
-Automated approval review rejected full live catalogue DML for lack of explicit authorization.
-Two sync compatibility migrations were applied successfully. Partial batches updated server catalogue metadata; all 203 changed answer keys from these batches were restored to their recorded previousAnswer. No student events were changed.
-Before publication: obtain explicit user approval to update all live Polysemy catalogue questions/keys and deploy the site. Then apply all 55 regenerated batches (2–4 active options, separate legacyOptions), verify every module fingerprint against /private/tmp/polysemy-fairness/expected-server.json, fetch/rebase, push and verify GitHub Pages.
-All SQL is idempotent. Do not assume a batch succeeded; inspect each result.
-Tests passed: full catalogue 1089 modules/48033 questions; 452 corrected keys; historical credit; server auth/idempotency; all five screenshot cases in isolated browser; source text/ID preservation; artwork regression.
+2026-10-25: LIVE DATABASE VERIFIED; SITE RELEASE APPROVED.
+User explicitly approved publication: Push it live.
+All 55 catalogue batches applied successfully. All 1088 imported module fingerprints and 48000 question keys match the tested release; 452 corrected keys; zero invalid active option counts. Active choices are 2–4; legacyOptions is separate. Student events were not modified.
+Website publication is tracked by the GitHub Pages deployment for this release commit.
