@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "kind": "hash-bound-unpublished-selection-integration",
+  "date": "2026-10-24",
+  "status": "integrated-locally-unpublished",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-ten-2165-3952-20261024.json",
+  "proposalSha256": "9197a5a7d62035e6f4693a1541886ebb75eead9f6b24d247092d360cd2d4a467",
+  "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-next80-ten-2165-3952-final-focused-rereview-20261024.json",
+  "independentReviewSha256": "6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634",
+  "authorQaPath": "course-materials/advanced-native/reviews-books10-16/author-qa-current-next80-ten-2165-3952-20261024.json",
+  "authorQaSha256": "85fd6ab93e453b0c38a5d20bc4227df1b61ff1437766f304ed4a071010b0ffa5",
+  "newBatchPath": "course-materials/advanced-native/drafts-books10-16/batch-reviewed-current-next80-ten-2165-3952-selected-20261024.json",
+  "newBatchSha256": "217cdbdc898934b7dfe77f4b9d388c06e4debc24fc47356e7d1ec7aafc02fff3",
+  "ordinals": [
+    2165,
+    2181,
+    2220,
+    2316,
+    2455,
+    2576,
+    2638,
+    2719,
+    2751,
+    3952
+  ],
+  "beforeSelectedManifestSha256": "5248fb9179dd4c316eb5c696d402a5e048771002c9fd287e7fc4f96e13a1948a",
+  "afterSelectedManifestSha256": "afbfd411076b1a69522eb10992f112dbd14e7073b3bddff0f7a6879cfc15ba96",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "decisionFilesChanged": [
+    "course-materials/advanced-native/books10-16/editorial-decisions-2142-2171.jsonl",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3912-3971.jsonl"
+  ],
+  "contentFidelity": "All 10 selected lesson objects equal independently reviewed proposal objects after removing only review metadata.",
+  "publication": {
+    "pushed": false,
+    "deployed": false,
+    "databaseApplied": false,
+    "releaseApproved": false,
+    "liveLessonsAdded": 0
+  }
+}

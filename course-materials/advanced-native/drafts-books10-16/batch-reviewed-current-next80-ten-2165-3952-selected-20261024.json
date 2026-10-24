@@ -1,0 +1,2700 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-current-next80-ten-selected-20261024",
+  "lessons": [
+    {
+      "id": "advanced-native-2165",
+      "number": 2165,
+      "inventoryId": "expr-2165",
+      "titleEn": "set off half-blind",
+      "titleZh": "資訊不足便出發",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:set|sets|setting) off half-blind\\b",
+        "glossaryForbidden": [
+          "\\bset off\\b",
+          "\\bhalf-blind\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Start a journey or task without enough information to make sound choices.",
+        "meaningZh": "在掌握資料不足時便開始旅程或工作。",
+        "grammar": "The source is a creative variant about leaving without a map; it is not a claim about eyesight or the separate idiom go in blind.",
+        "register": "Travel planning and careful extensions to projects.",
+        "boundaryZh": "資訊不足不等於完全不知道任何事；重點是缺少關鍵指引。",
+        "misconceptionZh": "不要拿它取笑視力障礙；此處 half-blind 是對準備不足的比喻。",
+        "outcomeZh": "能指出缺少甚麼資訊以及出發前可如何查證。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0054",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 6,
+          "book": 10,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "13–14",
+          "locatorNote": "DOCX table 5, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Without a map, we would set off half-blind.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "set off half-blind"
+        }
+      ],
+      "listening": {
+        "promptZh": "領隊為何先下載通告？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They needed current route information before leaving.",
+            "zh": "他們出發前需要最新路線資訊。"
+          },
+          {
+            "id": "b",
+            "en": "They had forgotten which town they wanted.",
+            "zh": "他們忘了想去哪個城鎮。"
+          },
+          {
+            "id": "c",
+            "en": "The notice guaranteed clear weather.",
+            "zh": "通告保證天氣晴朗。"
+          },
+          {
+            "id": "d",
+            "en": "They wanted to compare the route with last year’s map only.",
+            "zh": "他們只想把路線與去年的地圖比較。"
+          }
+        ],
+        "explanationZh": "他們知道目的地，但缺少道路封閉資訊。",
+        "answerId": "a",
+        "en": "A cycling group knew the town they wanted to visit but had not checked road closures. Their leader refused to set off half-blind and downloaded the current route notice first.",
+        "zh": "單車隊知道想去的城鎮，卻未查道路封閉情況。領隊不願在資訊不足下出發，先下載最新路線通告。"
+      },
+      "reply": {
+        "promptZh": "（單車隊為何延遲出發？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They needed to check road closures.",
+            "zh": "他們需要查道路封閉情況。"
+          },
+          {
+            "id": "b",
+            "en": "They wanted a current route before riding.",
+            "zh": "他們想在騎車前取得最新路線。"
+          },
+          {
+            "id": "c",
+            "en": "They did not want to set off half-blind.",
+            "zh": "他們不想在資料不足下出發。"
+          },
+          {
+            "id": "d",
+            "en": "They were filling a gap in their travel plan.",
+            "zh": "他們正在補足行程資料。"
+          }
+        ],
+        "explanationZh": "四句都指向出發前補足關鍵資訊；金句使用來源變體。",
+        "promptEn": "Why did the cycling group delay its departure?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "義工知道送餐大概在哪一區，卻未收到樓宇入口及收件人名單；主管叫大家先核對。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They should not set off half-blind with only a rough area name.",
+            "zh": "他們不應只憑大概地區、資料不足便出發。"
+          },
+          {
+            "id": "b",
+            "en": "They already know every delivery address.",
+            "zh": "他們已知道所有送餐地址。"
+          },
+          {
+            "id": "c",
+            "en": "They can leave now and ask for each entrance after arriving.",
+            "zh": "他們可以現在出發，到埗後再逐一查問入口。"
+          }
+        ],
+        "explanationZh": "大概地區不足以完成送餐；先核對入口與名單。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把此片語誤作字面視力描述？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We need a current map before starting the route.",
+            "zh": "開始路線前，我們需要最新地圖。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase proves the riders have damaged eyesight.",
+            "zh": "這片語證明騎車者視力受損。"
+          },
+          {
+            "id": "c",
+            "en": "The group lacks one important piece of route information.",
+            "zh": "隊伍缺少一項重要路線資訊。"
+          }
+        ],
+        "explanationZh": "half-blind 在此形容資料不足，不能推斷任何人的視力。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同伴問：「已知道活動地點，為何不立即出發？」你知道橋樑可能封閉，還未看最新通告。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We would set off half-blind without the bridge notice; let us check it before choosing a route.",
+            "zh": "沒有橋樑通告，我們會在資料不足下出發；先查清楚再選路線吧。"
+          },
+          {
+            "id": "b",
+            "en": "The bridge may be closed today.",
+            "zh": "橋樑今天可能關閉。"
+          },
+          {
+            "id": "c",
+            "en": "Checking the latest notice could save a detour.",
+            "zh": "查看最新通告可避免繞路。"
+          }
+        ],
+        "explanationZh": "金句指出缺哪項資料及具體查證步驟。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Without the delivery addresses, the volunteers would set off half-blind.",
+        "zh": "沒有送餐地址，義工便會在資料不足下出發。",
+        "promptZh": "先聽示範，再說出哪項關鍵資訊缺失。",
+        "targetSpan": {
+          "start": 53,
+          "end": 71
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生正要開始替社區中心製作導覽地圖，卻只知道大樓名稱，尚未取得樓層圖和無障礙入口資料。用一至兩句英文說明為何應先查證。",
+        "selfCheckZh": "把出發比喻延伸到開始工作，說明缺少哪兩項資料；不要說學生完全無知。",
+        "examples": [
+          {
+            "en": "The map team would set off half-blind without the floor plan and accessible-entrance details, so they should request both first.",
+            "zh": "沒有樓層圖和無障礙入口資料，製圖隊便會在資訊不足下開始工作，因此應先索取兩項資料。"
+          },
+          {
+            "en": "Starting the guide with only a building name means setting off half-blind; the students need the floor plan and accessible-entrance details before drawing routes.",
+            "zh": "只憑大樓名稱便開始導覽圖，等於在資訊不足下起步；學生畫路線前需要樓層圖和無障礙入口資料。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The map team",
+            "zh": "製圖隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 12
+            }
+          },
+          {
+            "en": "the floor plan",
+            "zh": "樓層圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 60
+            }
+          },
+          {
+            "en": "accessible-entrance details",
+            "zh": "無障礙入口資料",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 92
+            }
+          },
+          {
+            "en": "a building name",
+            "zh": "大樓名稱",
+            "exampleIndex": 1,
+            "span": {
+              "start": 29,
+              "end": 44
+            }
+          },
+          {
+            "en": "drawing routes",
+            "zh": "畫路線",
+            "exampleIndex": 1,
+            "span": {
+              "start": 147,
+              "end": 161
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Before the hike, they checked the weather so they would not set off half-blind.",
+          "zh": "遠足前他們查看天氣，免得在資料不足下出發。"
+        },
+        {
+          "en": "A team may set off half-blind on a project if it lacks the basic site plan.",
+          "zh": "團隊若缺少基本場地圖，開始項目時便可能資訊不足。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; exact-hash source, English and changed-context content reviewed."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; bilingual prompts, options, glossary and translations reviewed."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis, hosted verification and listening remain pending."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device QA remain pending."
+        },
+        "notes": [
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; audio, browser/device and release gates remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2181",
+      "number": 2181,
+      "inventoryId": "expr-2181",
+      "titleEn": "chopped into pieces",
+      "titleZh": "被切割成零碎時段",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bchopped into pieces\\b",
+        "glossaryForbidden": [
+          "\\bchopped into pieces\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Broken into many small, hard-to-use stretches by repeated interruptions.",
+        "meaningZh": "因反覆中斷而被切成許多難以善用的小段時間。",
+        "grammar": "Study time is figuratively chopped into pieces; no one physically cuts time.",
+        "register": "Study, focused work and scheduling.",
+        "boundaryZh": "一兩次短暫中斷未必構成零碎到無法專注的情況。",
+        "misconceptionZh": "重點是可用時間被反覆切碎，不是說每一分鐘都浪費。",
+        "outcomeZh": "能說明哪些中斷使一段專注時間變得零碎。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0070",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 7,
+          "book": 10,
+          "question": 6,
+          "sample": "S1",
+          "sourceBookPages": "15–17",
+          "locatorNote": "DOCX table 6, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Constant interruptions leave my study time chopped into pieces.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "chopped into pieces"
+        }
+      ],
+      "listening": {
+        "promptZh": "電話和門鈴造成甚麼影響？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They split his planned study hour into short stretches.",
+            "zh": "它們把原定的一小時讀書時間切成短時段。"
+          },
+          {
+            "id": "b",
+            "en": "They gave him an extra uninterrupted hour.",
+            "zh": "它們讓他多了一小時不受干擾的時間。"
+          },
+          {
+            "id": "c",
+            "en": "They prompted him to move to a different chapter.",
+            "zh": "它們促使他改讀另一章。"
+          },
+          {
+            "id": "d",
+            "en": "They made the chapter disappear.",
+            "zh": "它們令那一章消失。"
+          }
+        ],
+        "explanationZh": "反覆中斷使一整段時間變得零碎。",
+        "answerId": "a",
+        "en": "Jules reserved an hour to study one chapter, but four calls and three doorbells kept interrupting him. By the end, his study hour felt chopped into pieces.",
+        "zh": "朱爾斯留了一小時讀一章，但四通電話和三次門鈴反覆打斷他；到最後，這段讀書時間像被切成零碎小段。"
+      },
+      "reply": {
+        "promptZh": "（反覆中斷怎樣影響朱爾斯的讀書時間？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They broke one hour into several short periods.",
+            "zh": "它們把一小時分成幾段短時間。"
+          },
+          {
+            "id": "b",
+            "en": "They prevented him from staying with one chapter continuously.",
+            "zh": "它們令他難以持續讀同一章。"
+          },
+          {
+            "id": "c",
+            "en": "His study time felt chopped into pieces.",
+            "zh": "他的讀書時間像被切成零碎小段。"
+          },
+          {
+            "id": "d",
+            "en": "He had to restart his focus repeatedly.",
+            "zh": "他要一再重新集中精神。"
+          }
+        ],
+        "explanationZh": "四句都描述時間被多次切斷；金句用來源比喻。",
+        "promptEn": "How did the interruptions affect Jules’s study time?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "設計師安排兩小時修改海報，但每十分鐘便有人叫她處理無關的小事。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her work block was chopped into pieces by repeated requests.",
+            "zh": "反覆請求把她的工作時段切成零碎小段。"
+          },
+          {
+            "id": "b",
+            "en": "She completed the poster without any interruption.",
+            "zh": "她毫無中斷地完成海報。"
+          },
+          {
+            "id": "c",
+            "en": "The work block became shorter because the meeting began early.",
+            "zh": "會議提早開始，所以工作時段縮短了。"
+          }
+        ],
+        "explanationZh": "被切碎的是專注工作的時段；情境沒有說會議提早開始。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句屬字面切割，而非時間比喻？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The baker chopped a loaf into pieces.",
+            "zh": "麵包師把一條麵包切成幾塊。"
+          },
+          {
+            "id": "b",
+            "en": "Messages broke an afternoon of writing into fragments.",
+            "zh": "訊息把一下午的寫作切得零零碎碎。"
+          },
+          {
+            "id": "c",
+            "en": "Repeated calls made a lesson hard to finish.",
+            "zh": "反覆來電令一堂課難以完成。"
+          }
+        ],
+        "explanationZh": "麵包真的被切開；時間則只是比喻。",
+        "answerId": "a"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「為何你想把非緊急電話集中到下午四時後？」你原定一段長時間讀文獻，卻常被打斷。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "My reading time keeps getting chopped into pieces by calls, so I need one protected block first.",
+            "zh": "電話不斷把我的閱讀時間切成零碎小段，所以我先需要一段不受打擾的時間。"
+          },
+          {
+            "id": "b",
+            "en": "I need a longer block to read the article.",
+            "zh": "我需要一段較長時間讀文章。"
+          },
+          {
+            "id": "c",
+            "en": "The calls arrive throughout the afternoon.",
+            "zh": "電話在下午不斷打來。"
+          }
+        ],
+        "explanationZh": "金句指出反覆中斷及調整方法。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Without a quiet hour, her preparation time was chopped into pieces.",
+        "zh": "沒有安靜的一小時，她的準備時間被切成零碎小段。",
+        "promptZh": "先聽示範，再說出時間怎樣被反覆打斷。",
+        "targetSpan": {
+          "start": 47,
+          "end": 66
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：急救義工只有一段早上時間練習操作，卻每隔幾分鐘便被叫去做非緊急文書工作。協調員決定把文書工作集中到午飯後。用一至兩句英文解釋安排。",
+        "selfCheckZh": "指出練習時間被切碎，以及集中文書工作的作用。",
+        "examples": [
+          {
+            "en": "The volunteers’ practice time was chopped into pieces by small admin requests, so paperwork was moved to the afternoon.",
+            "zh": "零碎文書請求把義工練習時間切成小段，因此文書工作改到下午處理。"
+          },
+          {
+            "en": "Their morning training kept being chopped into pieces; grouping non-urgent paperwork after lunch gave them a longer practice block.",
+            "zh": "早上的訓練不斷被切得零零碎碎；午飯後集中處理非緊急文書，便可留一段較長的練習時間。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "practice time",
+            "zh": "練習時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 16,
+              "end": 29
+            }
+          },
+          {
+            "en": "admin requests",
+            "zh": "文書請求",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 77
+            }
+          },
+          {
+            "en": "the afternoon",
+            "zh": "下午",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 118
+            }
+          },
+          {
+            "en": "non-urgent paperwork",
+            "zh": "非緊急文書",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 84
+            }
+          },
+          {
+            "en": "a longer practice block",
+            "zh": "較長的練習時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 107,
+              "end": 130
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Repeated doorbells left the planning hour chopped into pieces.",
+          "zh": "反覆響起的門鈴把策劃時間切成零碎小段。"
+        },
+        {
+          "en": "A protected work block can prevent the afternoon from being chopped into pieces.",
+          "zh": "一段不受打擾的工作時間可避免下午被切得零零碎碎。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; exact-hash source, English and changed-context content reviewed."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; bilingual prompts, options, glossary and translations reviewed."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis, hosted verification and listening remain pending."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device QA remain pending."
+        },
+        "notes": [
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; audio, browser/device and release gates remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2220",
+      "number": 2220,
+      "inventoryId": "expr-2220",
+      "titleEn": "swallowed whole by routine",
+      "titleZh": "被日常事務完全吞沒",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bswallowed whole by (?:routine|daily demands|repetitive tasks)\\b",
+        "glossaryForbidden": [
+          "\\bswallowed whole\\b",
+          "\\bby routine\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Feel overwhelmed by repeated daily demands, with no room to pause or choose.",
+        "meaningZh": "被反覆的日常要求壓得喘不過氣，感到沒有停頓或選擇空間。",
+        "grammar": "The person is figuratively swallowed whole by routine; this differs from another image in which an activity swallows time.",
+        "register": "Discussion of workload and well-being.",
+        "boundaryZh": "這是主觀感受，不是說每天所有工作都毫無價值。",
+        "misconceptionZh": "whole 加強被全面淹沒的感受，不能省成只是一項小麻煩。",
+        "outcomeZh": "能描述反覆事務怎樣令人感到被淹沒，以及可能留下休息空間。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0109",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 10,
+          "book": 10,
+          "question": 8,
+          "sample": "S1",
+          "sourceBookPages": "20–21",
+          "locatorNote": "DOCX table 8, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Without a break, people can feel swallowed whole by routine.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "swallowed whole by routine"
+        }
+      ],
+      "listening": {
+        "promptZh": "莉娜的話表達甚麼感受？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Repeated demands left her feeling overwhelmed.",
+            "zh": "反覆的要求令她感到不勝負荷。"
+          },
+          {
+            "id": "b",
+            "en": "She had enjoyed a long break every day.",
+            "zh": "她每天都享受長時間休息。"
+          },
+          {
+            "id": "c",
+            "en": "She thought all household tasks were pointless.",
+            "zh": "她認為所有家務都毫無意義。"
+          },
+          {
+            "id": "d",
+            "en": "One unusually busy day changed her entire schedule.",
+            "zh": "只有一天特別忙，便改變了她整個日程。"
+          }
+        ],
+        "explanationZh": "她談的是數星期沒有停頓的反覆要求，不是單一忙碌日，也沒有否定家務的價值。",
+        "answerId": "a",
+        "en": "For weeks, Leena went from early shifts to household chores without a pause. She told her friend she felt swallowed whole by routine and missed having time to think.",
+        "zh": "數星期來，莉娜從早班工作接着做家務，幾乎沒有停頓。她對朋友說，自己感到被日常事務完全吞沒，連思考的時間也沒有。"
+      },
+      "reply": {
+        "promptZh": "（莉娜怎樣形容數星期的工作與家務？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She felt overwhelmed by a repeating pattern.",
+            "zh": "她感到被重複的安排壓倒。"
+          },
+          {
+            "id": "b",
+            "en": "She had little space to pause or reflect.",
+            "zh": "她幾乎沒有停頓或反思的空間。"
+          },
+          {
+            "id": "c",
+            "en": "She felt swallowed whole by routine.",
+            "zh": "她感到被日常事務完全吞沒。"
+          },
+          {
+            "id": "d",
+            "en": "Her days seemed to leave no time for herself.",
+            "zh": "她的日子似乎沒有留下屬於自己的時間。"
+          }
+        ],
+        "explanationZh": "四句均描述被反覆事務壓得喘不過氣。",
+        "promptEn": "How did Leena describe weeks of work and chores?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "學生每天放學後連續補習、做家務、完成作業，整週沒有休息；他說自己快要沒有喘息空間。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He feels swallowed whole by routine.",
+            "zh": "他感到被日常事務完全吞沒。"
+          },
+          {
+            "id": "b",
+            "en": "He has stopped doing all his work.",
+            "zh": "他已停止所有工作。"
+          },
+          {
+            "id": "c",
+            "en": "He was only tired after one unusually busy afternoon.",
+            "zh": "他只是經歷一個特別忙碌的下午後感到疲倦。"
+          }
+        ],
+        "explanationZh": "多項日常要求接連而來，令他覺得被壓倒。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句更接近「一項工作耗掉很多時間」，而非本課「人被日常事務淹沒」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She feels trapped in a repetitive schedule.",
+            "zh": "她感到被重複日程困住。"
+          },
+          {
+            "id": "b",
+            "en": "Editing one video swallowed the whole afternoon.",
+            "zh": "剪輯一段影片耗掉了整個下午。"
+          },
+          {
+            "id": "c",
+            "en": "He needs a pause from his repeated duties.",
+            "zh": "他需要從反覆職責中休息。"
+          }
+        ],
+        "explanationZh": "這句的主語是單一工作，受影響的是下午時間，與本課的人被 routine 吞沒不同。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「每天只剩工作和家務，我連坐下來想想都沒有時間。」你想提議一段真正休息時間。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You sound swallowed whole by routine; could we protect one free evening this week?",
+            "zh": "你聽起來像被日常事務完全吞沒；我們能否在本週留一晚真正休息？"
+          },
+          {
+            "id": "b",
+            "en": "You have had too much to do lately.",
+            "zh": "你最近要做的事太多。"
+          },
+          {
+            "id": "c",
+            "en": "A free evening might help you pause.",
+            "zh": "一晚空閒或許能讓你停一停。"
+          }
+        ],
+        "explanationZh": "金句回應感受並提出具體休息安排。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "After months without a break, he felt swallowed whole by routine.",
+        "zh": "幾個月沒有休息後，他感到被日常事務完全吞沒。",
+        "promptZh": "先聽示範，再說出反覆事務帶來甚麼感受。",
+        "targetSpan": {
+          "start": 38,
+          "end": 64
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一名教師每天在課後連續處理電郵、評分及會議安排，已很久沒時間準備喜愛的讀書活動；學校讓各科共用一段不安排會議的備課時間。用一至兩句英文說明安排。",
+        "selfCheckZh": "指出被反覆事務淹沒的感受和備課時段的作用；不要說電郵、評分毫無價值。",
+        "examples": [
+          {
+            "en": "The teacher felt swallowed whole by routine after weeks of emails and marking; a meeting-free block gave her time to plan reading activities.",
+            "zh": "數星期不斷處理電郵和評分後，教師感到被日常事務完全吞沒；不安排會議的時段讓她策劃閱讀活動。"
+          },
+          {
+            "en": "Without time to plan lessons she enjoyed, she felt swallowed whole by daily demands; the new planning block gave her room to think.",
+            "zh": "沒有時間策劃喜愛的課堂活動，她感到被日常要求完全吞沒；新增的備課時段給她思考空間。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "weeks of emails and marking",
+            "zh": "數星期的電郵和評分工作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 77
+            }
+          },
+          {
+            "en": "a meeting-free block",
+            "zh": "不安排會議的時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 79,
+              "end": 99
+            }
+          },
+          {
+            "en": "reading activities",
+            "zh": "閱讀活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 122,
+              "end": 140
+            }
+          },
+          {
+            "en": "plan lessons",
+            "zh": "策劃課堂活動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 16,
+              "end": 28
+            }
+          },
+          {
+            "en": "room to think",
+            "zh": "思考空間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 117,
+              "end": 130
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A worker can feel swallowed whole by routine while still valuing the work itself.",
+          "zh": "即使仍重視工作本身，員工也可能感到被日常事務完全吞沒。"
+        },
+        {
+          "en": "A short protected break helped her stop feeling swallowed whole by routine.",
+          "zh": "一段受保障的短暫休息讓她不再覺得被日常事務完全吞沒。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; exact-hash source, English and changed-context content reviewed."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; bilingual prompts, options, glossary and translations reviewed."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis, hosted verification and listening remain pending."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device QA remain pending."
+        },
+        "notes": [
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; audio, browser/device and release gates remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2316",
+      "number": 2316,
+      "inventoryId": "expr-2316",
+      "titleEn": "not the territory itself",
+      "titleZh": "並非實際情況本身",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bnot the territory itself\\b",
+        "glossaryForbidden": [
+          "\\bthe territory itself\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A chart or model represents a place or situation but cannot contain every detail of the real thing.",
+        "meaningZh": "圖表或模型只代表某地或某情況，無法涵蓋現實的所有細節。",
+        "grammar": "Use this phrase after a noun such as chart or model; it is a map–territory metaphor, not a free-standing label.",
+        "register": "Planning, data interpretation and model limitations.",
+        "boundaryZh": "圖表可以有用；指出限制不等於說它錯誤或全無價值。",
+        "misconceptionZh": "territory 指實際情況，不一定是字面的土地。",
+        "outcomeZh": "能指出圖表遺漏了哪項現場資訊。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0205",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 19,
+          "book": 10,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 15, row 16; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A chart is useful, but it is not the territory itself.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "not the territory itself"
+        }
+      ],
+      "listening": {
+        "promptZh": "規劃員為何派人視察？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Today’s street conditions might differ from the chart.",
+            "zh": "今天的街道情況可能與圖表不同。"
+          },
+          {
+            "id": "b",
+            "en": "The chart included every blocked drain today.",
+            "zh": "圖表已列出今天每條堵塞的排水渠。"
+          },
+          {
+            "id": "c",
+            "en": "The chart had no useful information at all.",
+            "zh": "圖表完全沒有有用資訊。"
+          },
+          {
+            "id": "d",
+            "en": "The team needed last year’s rainfall totals before deciding.",
+            "zh": "團隊在決定前需要去年的降雨總量。"
+          }
+        ],
+        "explanationZh": "圖表提供參考，現場情況仍須核對。",
+        "answerId": "a",
+        "en": "A flood chart showed last year’s safe streets, but a new drain was blocked today. The planner said the chart was useful, but not the territory itself, and sent a team to inspect the streets.",
+        "zh": "水浸圖表顯示去年安全的街道，但今天一條新排水渠堵塞了。規劃員說圖表有用，卻並非實際情況本身，於是派隊到街上視察。"
+      },
+      "reply": {
+        "promptZh": "（規劃員為何視察街道？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The chart could miss a recent change.",
+            "zh": "圖表可能漏掉近期變化。"
+          },
+          {
+            "id": "b",
+            "en": "A useful chart still needs a present-day check.",
+            "zh": "有用的圖表仍須配合今天的核查。"
+          },
+          {
+            "id": "c",
+            "en": "The chart was useful but not the territory itself.",
+            "zh": "圖表有用，但並非實際情況本身。"
+          },
+          {
+            "id": "d",
+            "en": "The blocked drain might alter the route.",
+            "zh": "堵塞的排水渠可能改變路線。"
+          }
+        ],
+        "explanationZh": "四句都承認圖表有用而現況可能不同。",
+        "promptEn": "Why did the planner inspect the streets?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "導遊看到舊路線圖，卻得知小徑剛因維修關閉。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The route map is helpful, but not the territory itself.",
+            "zh": "路線圖有幫助，卻並非實際情況本身。"
+          },
+          {
+            "id": "b",
+            "en": "The map proves the path is open today.",
+            "zh": "地圖證明小徑今天開放。"
+          },
+          {
+            "id": "c",
+            "en": "The guide should follow the old map without checking the new closure.",
+            "zh": "導遊應依舊地圖走，不用查最新封閉通告。"
+          }
+        ],
+        "explanationZh": "地圖須與最新現場通告核對。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把這個比喻誤作字面土地爭議？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A model may omit a recent change.",
+            "zh": "模型可能漏掉近期變化。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase means the chart is not a legal owner of land.",
+            "zh": "這片語指圖表不是土地的法律業主。"
+          },
+          {
+            "id": "c",
+            "en": "Field observations can correct an old diagram.",
+            "zh": "實地觀察可修正舊圖。"
+          }
+        ],
+        "explanationZh": "此處 territory 比喻完整現實，並非土地擁有權。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事問：「交通圖顯示巴士準時，何必查看站頭？」你知道施工可能改了站位。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The chart is useful but not the territory itself; let us check the stop after the roadworks.",
+            "zh": "圖表有用，但並非實際情況本身；道路工程後我們先核對站位。"
+          },
+          {
+            "id": "b",
+            "en": "Roadworks may have moved the stop.",
+            "zh": "工程可能令站位改變。"
+          },
+          {
+            "id": "c",
+            "en": "We can check the stop before leaving.",
+            "zh": "出發前我們可以核對站位。"
+          }
+        ],
+        "explanationZh": "金句保留圖表用途，並指出具體核查事項。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The diagram is useful, but not the territory itself after the roadworks.",
+        "zh": "工程後圖示仍有用，但並非實際情況本身。",
+        "promptZh": "先聽示範，再說出圖示可能遺漏甚麼。",
+        "targetSpan": {
+          "start": 27,
+          "end": 51
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：市民依照舊交通應用程式地圖找車站，卻發現路口施工後站位已改。用一至兩句英文建議服務隊怎樣處理。",
+        "selfCheckZh": "說明地圖只是參考，並提出核對最新站位；不要說應用程式完全無用。",
+        "examples": [
+          {
+            "en": "The app map is helpful but not the territory itself; the team should verify the stop after the roadworks.",
+            "zh": "應用程式地圖有幫助，卻並非實際情況本身；團隊應在工程後核對站位。"
+          },
+          {
+            "en": "A map on a screen is not the territory itself when the junction has changed, so staff should check the current stop sign.",
+            "zh": "路口改變後，螢幕上的地圖並非實際情況本身，所以職員應查看現時的站牌。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The app map",
+            "zh": "應用程式地圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 11
+            }
+          },
+          {
+            "en": "verify the stop",
+            "zh": "核對站位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 84
+            }
+          },
+          {
+            "en": "the roadworks",
+            "zh": "道路工程",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 104
+            }
+          },
+          {
+            "en": "the junction",
+            "zh": "路口",
+            "exampleIndex": 1,
+            "span": {
+              "start": 51,
+              "end": 63
+            }
+          },
+          {
+            "en": "the current stop sign",
+            "zh": "現時的站牌",
+            "exampleIndex": 1,
+            "span": {
+              "start": 99,
+              "end": 120
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A weather model is useful, but not the territory itself when local conditions change.",
+          "zh": "天氣模型有用，但當地情況改變時，它並非實際情況本身。"
+        },
+        {
+          "en": "A visitor used the floor plan as a guide, knowing it was not the territory itself.",
+          "zh": "訪客以樓層圖作指引，同時明白它並非實際情況本身。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; exact-hash source, English and changed-context content reviewed."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; bilingual prompts, options, glossary and translations reviewed."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis, hosted verification and listening remain pending."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device QA remain pending."
+        },
+        "notes": [
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; audio, browser/device and release gates remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2455",
+      "number": 2455,
+      "inventoryId": "expr-2455",
+      "titleEn": "convenience has started to replace capability",
+      "titleZh": "方便逐漸取代實際能力",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bconvenience has started to replace capability\\b",
+        "glossaryForbidden": [
+          "\\bconvenience\\b",
+          "\\bcapability\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Ease is beginning to displace people’s ability to perform or check a task themselves.",
+        "meaningZh": "方便開始使人逐漸失去親自完成或核查工作的能力。",
+        "grammar": "A qualified observation about a trend, not a claim that every convenient tool is bad.",
+        "register": "Workplace skills and reliance on tools.",
+        "boundaryZh": "要有技能或核查能力減弱的證據，不能僅因使用工具便作此判斷。",
+        "misconceptionZh": "started to 表示趨勢初現，不等於能力已完全消失。",
+        "outcomeZh": "能說出哪項能力正在被哪種便利取代，以及可如何保留能力。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0344",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 31,
+          "book": 10,
+          "question": 27,
+          "sample": "S1",
+          "sourceBookPages": "66–67",
+          "locatorNote": "DOCX table 27, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "In some offices, convenience has started to replace capability.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "convenience has started to replace capability"
+        }
+      ],
+      "listening": {
+        "promptZh": "主管擔心甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Staff were losing the habit of checking addresses themselves.",
+            "zh": "職員逐漸失去自行核對地址的習慣。"
+          },
+          {
+            "id": "b",
+            "en": "Every automatic address was accurate.",
+            "zh": "每個自動地址都準確。"
+          },
+          {
+            "id": "c",
+            "en": "The office had stopped sending parcels.",
+            "zh": "辦公室已停止寄包裹。"
+          },
+          {
+            "id": "d",
+            "en": "Staff had never learned to use the postal system.",
+            "zh": "職員從未學過使用郵政系統。"
+          }
+        ],
+        "explanationZh": "問題在於過度依賴自動填寫後缺乏核查能力。",
+        "answerId": "a",
+        "en": "At one office, staff used automatic address filling for every parcel. When several entries were wrong, few remembered how to check the postal codes. A supervisor worried that convenience has started to replace capability.",
+        "zh": "一間辦公室每件包裹都使用自動填寫地址。數項資料出錯時，少有職員記得如何核對郵區號碼。主管擔心方便逐漸取代了實際能力。"
+      },
+      "reply": {
+        "promptZh": "（主管提出甚麼擔憂？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Automatic filling was becoming a substitute for checking.",
+            "zh": "自動填寫逐漸取代人手核查。"
+          },
+          {
+            "id": "b",
+            "en": "Some staff struggled to verify wrong entries.",
+            "zh": "部分職員難以核對錯誤資料。"
+          },
+          {
+            "id": "c",
+            "en": "Convenience has started to replace capability.",
+            "zh": "方便逐漸取代實際能力。"
+          },
+          {
+            "id": "d",
+            "en": "Staff might lose an important checking skill.",
+            "zh": "職員可能逐漸失去一項重要核查技能。"
+          }
+        ],
+        "explanationZh": "四句均指出便利可能侵蝕核查能力。",
+        "promptEn": "What concern did the supervisor raise?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "咖啡店每杯飲品都靠程式設定份量，機器故障時，員工不知如何量取基本材料。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Here, convenience has started to replace capability.",
+            "zh": "在這裏，方便逐漸取代了實際能力。"
+          },
+          {
+            "id": "b",
+            "en": "A second machine would remove any need to learn manual measuring.",
+            "zh": "添置第二部機器便毋須學習人手量取份量。"
+          },
+          {
+            "id": "c",
+            "en": "Every convenient machine is harmful.",
+            "zh": "每部方便的機器都有害。"
+          }
+        ],
+        "explanationZh": "無法手動量取是能力減弱的具體證據。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句避免把此批評說得過於絕對？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The tool is convenient, but staff should still know how to verify its output.",
+            "zh": "工具方便，但職員仍應懂得核查結果。"
+          },
+          {
+            "id": "b",
+            "en": "Any use of software destroys every worker’s skills.",
+            "zh": "只要使用軟件，所有員工的技能都會消失。"
+          },
+          {
+            "id": "c",
+            "en": "Automatic filling can never make a mistake.",
+            "zh": "自動填寫絕不會出錯。"
+          }
+        ],
+        "explanationZh": "此批評關乎保留核查能力，不是否定所有工具。",
+        "answerId": "a"
+      },
+      "dialogue": {
+        "promptZh": "同事問：「既然系統會自動填表，為何還要教新人查資料？」你發現系統偶爾把門牌寫錯。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Convenience has started to replace capability here; teach the address check so staff can catch those errors.",
+            "zh": "這裏的方便開始取代實際能力；教職員核對地址，才能發現那些錯誤。"
+          },
+          {
+            "id": "b",
+            "en": "The system sometimes writes the number wrongly.",
+            "zh": "系統有時寫錯門牌號碼。"
+          },
+          {
+            "id": "c",
+            "en": "New staff should learn the check.",
+            "zh": "新職員應學會核查。"
+          }
+        ],
+        "explanationZh": "金句指出趨勢及保留能力的具體做法。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "At the office, convenience has started to replace capability in basic address checks.",
+        "zh": "在那間辦公室，方便開始取代基本地址核查能力。",
+        "promptZh": "先聽示範，再說出哪項能力可能流失。",
+        "targetSpan": {
+          "start": 15,
+          "end": 60
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：小型餐廳用程式自動計算食材份量；程式離線時，廚師發現新人無法量取常用份量。經理安排手動量取練習。用一至兩句英文說明原因。",
+        "selfCheckZh": "指出程式帶來方便，也指出手動量取能力及練習需要；不要一概否定程式。",
+        "examples": [
+          {
+            "en": "The offline app exposed a gap: convenience has started to replace capability among new cooks, who need portion-measuring practice.",
+            "zh": "程式離線暴露了一項缺口：方便開始取代新廚師的實際能力，他們需要練習量取份量。"
+          },
+          {
+            "en": "The app saves time, but convenience has started to replace capability in portion checks, so the manager added manual practice.",
+            "zh": "程式節省時間，但在核對份量方面，方便逐漸取代實際能力，所以經理加上手動練習。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The offline app",
+            "zh": "離線的程式",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "new cooks",
+            "zh": "新廚師",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 92
+            }
+          },
+          {
+            "en": "portion-measuring practice",
+            "zh": "量取份量的練習",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 129
+            }
+          },
+          {
+            "en": "The app",
+            "zh": "程式",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 7
+            }
+          },
+          {
+            "en": "manual practice",
+            "zh": "手動練習",
+            "exampleIndex": 1,
+            "span": {
+              "start": 110,
+              "end": 125
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "At the workshop, convenience has started to replace capability in simple repairs.",
+          "zh": "在工作坊，方便開始取代簡單維修的實際能力。"
+        },
+        {
+          "en": "If no one can check the output, convenience has started to replace capability.",
+          "zh": "如果沒有人能核查結果，方便便可能開始取代實際能力。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; exact-hash source, English and changed-context content reviewed."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; bilingual prompts, options, glossary and translations reviewed."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis, hosted verification and listening remain pending."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device QA remain pending."
+        },
+        "notes": [
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; audio, browser/device and release gates remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2576",
+      "number": 2576,
+      "inventoryId": "expr-2576",
+      "titleEn": "a practical tool rather than just a toy",
+      "titleZh": "不只是玩具，也是實用工具",
+      "category": "natural",
+      "target": {
+        "pattern": "\\ba practical tool rather than just a toy\\b",
+        "glossaryForbidden": [
+          "\\bpractical tool\\b",
+          "\\bjust a toy\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Useful for a real task as well as possible entertainment.",
+        "meaningZh": "除了可能用來娛樂，也能完成實際工作。",
+        "grammar": "The contrast describes a device’s use; it does not claim all play is worthless.",
+        "register": "Everyday technology and purposeful use.",
+        "boundaryZh": "要指出具體實用工作，不能只把電子裝置稱為工具而沒有例子。",
+        "misconceptionZh": "rather than just a toy 不等於完全不能用來玩。",
+        "outcomeZh": "能舉出一項實際用途，解釋為何物件不只是玩具。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0465",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 43,
+          "book": 11,
+          "question": 3,
+          "sample": "S1",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 39, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A basic phone can be a practical tool rather than just a toy.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a practical tool rather than just a toy"
+        }
+      ],
+      "listening": {
+        "promptZh": "手機的實際用途是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It helped her contact the harbour and check the tide.",
+            "zh": "它讓她聯絡港口和查看潮汐。"
+          },
+          {
+            "id": "b",
+            "en": "It made the sea completely safe.",
+            "zh": "它令海面絕對安全。"
+          },
+          {
+            "id": "c",
+            "en": "It replaced the fishing boat.",
+            "zh": "它取代了漁船。"
+          },
+          {
+            "id": "d",
+            "en": "It was only for games on the trip.",
+            "zh": "它在旅途中只用來玩遊戲。"
+          }
+        ],
+        "explanationZh": "聯絡港口和查潮汐都是實際用途。",
+        "answerId": "a",
+        "en": "Nadia took a simple phone on her fishing trips. It let her call the harbour and check the tide before returning. For her, it was a practical tool rather than just a toy.",
+        "zh": "娜迪亞出海捕魚時帶着一部簡單手機；她可以聯絡港口，回航前查看潮汐。對她而言，它不只是玩具，也是實用工具。"
+      },
+      "reply": {
+        "promptZh": "（娜迪亞怎樣看她的手機？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It helped with practical tasks at sea.",
+            "zh": "它有助她在海上處理實際事情。"
+          },
+          {
+            "id": "b",
+            "en": "It offered more than amusement.",
+            "zh": "它的用途不止娛樂。"
+          },
+          {
+            "id": "c",
+            "en": "It was a practical tool rather than just a toy.",
+            "zh": "它不只是玩具，也是實用工具。"
+          },
+          {
+            "id": "d",
+            "en": "It helped her prepare for the return trip.",
+            "zh": "它有助她準備回航。"
+          }
+        ],
+        "explanationZh": "四句均指出手機有實際用途。",
+        "promptEn": "How did Nadia view her phone?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "圖書館學生用平板掃描還書條碼、檢查借閱紀錄，休息時也可玩遊戲。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The tablet is a practical tool rather than just a toy.",
+            "zh": "平板不只是玩具，也是實用工具。"
+          },
+          {
+            "id": "b",
+            "en": "The tablet matters mainly because games keep volunteers occupied between scans.",
+            "zh": "平板主要是讓義工在掃描工作之間玩遊戲，才有價值。"
+          },
+          {
+            "id": "c",
+            "en": "Scanning a barcode has no practical use.",
+            "zh": "掃描條碼沒有實際用途。"
+          }
+        ],
+        "explanationZh": "掃描還書和查紀錄是具體實用用途。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句誤解了 just 一字？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The device may entertain and still support work.",
+            "zh": "裝置可以娛樂，也能支援工作。"
+          },
+          {
+            "id": "b",
+            "en": "It means the device must never be used for play.",
+            "zh": "這表示裝置絕對不能用來玩。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase denies that entertainment is its only role.",
+            "zh": "這片語否定娛樂是它唯一用途。"
+          }
+        ],
+        "explanationZh": "just 限制的是「只是玩具」，並未禁止娛樂。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「為何要把這部平板放在社區借書櫃？」它能掃描借還紀錄。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is a practical tool rather than just a toy; volunteers can scan loans and returns with it.",
+            "zh": "它不只是玩具，也是實用工具；義工可以用它掃描借還紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "Volunteers can scan the book records.",
+            "zh": "義工可以掃描圖書紀錄。"
+          },
+          {
+            "id": "c",
+            "en": "The tablet can help the lending desk.",
+            "zh": "平板可以幫助借書處。"
+          }
+        ],
+        "explanationZh": "金句說明裝置角色及具體用途。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The simple phone became a practical tool rather than just a toy on the fishing boat.",
+        "zh": "在漁船上，簡單手機不只是玩具，也是實用工具。",
+        "promptZh": "先聽示範，再說出手機完成的實際工作。",
+        "targetSpan": {
+          "start": 24,
+          "end": 63
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：維修隊使用小型相機記錄大廈外牆裂縫，讓工程師比較維修前後的照片；休息時它也能拍有趣的照片。用一至兩句英文解釋相機的角色。",
+        "selfCheckZh": "指出相機如何支援維修紀錄；不要說娛樂用途完全消失。",
+        "examples": [
+          {
+            "en": "The camera is a practical tool rather than just a toy because the crew can document cracks before and after repairs.",
+            "zh": "相機不只是玩具，也是實用工具，因為維修隊可以記錄維修前後的裂縫。"
+          },
+          {
+            "en": "It can take playful pictures, but it is a practical tool rather than just a toy for comparing repair records.",
+            "zh": "它可以拍有趣的照片，但用來比較維修紀錄時，不只是玩具，也是實用工具。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the crew",
+            "zh": "維修隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 70
+            }
+          },
+          {
+            "en": "document cracks",
+            "zh": "記錄裂縫",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 90
+            }
+          },
+          {
+            "en": "before and after repairs",
+            "zh": "維修前後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 115
+            }
+          },
+          {
+            "en": "playful pictures",
+            "zh": "有趣的照片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 12,
+              "end": 28
+            }
+          },
+          {
+            "en": "repair records",
+            "zh": "維修紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 94,
+              "end": 108
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A radio can be a practical tool rather than just a toy when it carries weather updates.",
+          "zh": "收音機提供天氣資訊時，不只是玩具，也是實用工具。"
+        },
+        {
+          "en": "For the repair team, the camera was a practical tool rather than just a toy.",
+          "zh": "對維修隊而言，相機不只是玩具，也是實用工具。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; exact-hash source, English and changed-context content reviewed."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; bilingual prompts, options, glossary and translations reviewed."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis, hosted verification and listening remain pending."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device QA remain pending."
+        },
+        "notes": [
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; audio, browser/device and release gates remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2638",
+      "number": 2638,
+      "inventoryId": "expr-2638",
+      "titleEn": "passing trends",
+      "titleZh": "短暫流行",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bpassing trends\\b",
+        "glossaryForbidden": [
+          "\\bpassing trends\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Fashions or interests that attract attention briefly and then fade.",
+        "meaningZh": "短時間受注目，其後便消退的潮流或興趣。",
+        "grammar": "Passing modifies trends as short-lived, not as trends physically moving past.",
+        "register": "Shopping, media, design and planning.",
+        "boundaryZh": "不能因新事物尚未證實長久便斷定它一定轉瞬即逝。",
+        "misconceptionZh": "這片語形容潮流的持續時間，不是說所有新意念都沒有價值。",
+        "outcomeZh": "能說明為何先觀察需求再決定是否長期投入。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0527",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 48,
+          "book": 11,
+          "question": 8,
+          "sample": "S2",
+          "sourceBookPages": "19–21",
+          "locatorNote": "DOCX table 44, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She learned to wait before buying into passing trends.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "passing trends"
+        }
+      ],
+      "listening": {
+        "promptZh": "米娜為何建議先借用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The excitement might fade before the club used the whole set.",
+            "zh": "熱潮可能在學會用完整套器材前便消退。"
+          },
+          {
+            "id": "b",
+            "en": "The gadgets had already broken.",
+            "zh": "器材已經損壞。"
+          },
+          {
+            "id": "c",
+            "en": "Borrowing proved nobody enjoyed science.",
+            "zh": "借用證明沒有人喜歡科學。"
+          },
+          {
+            "id": "d",
+            "en": "Every online interest lasts for years.",
+            "zh": "每種網上興趣都持續多年。"
+          }
+        ],
+        "explanationZh": "她想先測試持續需求，避免受短暫熱潮左右。",
+        "answerId": "a",
+        "en": "A science club considered buying an expensive set of gadgets after a week of online excitement. Mina suggested borrowing one first because some interests are passing trends.",
+        "zh": "科學學會看到網上熱潮持續一星期，正考慮購買一套昂貴器材。米娜建議先借一件試用，因為有些興趣只是短暫流行。"
+      },
+      "reply": {
+        "promptZh": "（米娜為何建議先借用？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She wanted to see whether interest lasted.",
+            "zh": "她想看看興趣能否持續。"
+          },
+          {
+            "id": "b",
+            "en": "She did not want to commit money too early.",
+            "zh": "她不想太早投入金錢。"
+          },
+          {
+            "id": "c",
+            "en": "She wanted to avoid spending on passing trends.",
+            "zh": "她想避免為短暫流行花錢。"
+          },
+          {
+            "id": "d",
+            "en": "The club could test one device before a large purchase.",
+            "zh": "學會可先試一件器材，再決定是否大量購買。"
+          }
+        ],
+        "explanationZh": "四句都指先觀察熱潮是否持續。",
+        "promptEn": "Why did Mina recommend borrowing first?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "校刊編輯發現某個網上話題只有兩天熱度，決定先問讀者是否真的關心，再安排專題。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The editors want to avoid treating passing trends as lasting interests.",
+            "zh": "編輯不想把短暫流行當成持久興趣。"
+          },
+          {
+            "id": "b",
+            "en": "Two busy days prove the topic deserves a permanent column.",
+            "zh": "兩天熱度便證明話題值得設立固定欄目。"
+          },
+          {
+            "id": "c",
+            "en": "They refuse to cover any new topic.",
+            "zh": "他們拒絕報道任何新話題。"
+          }
+        ],
+        "explanationZh": "先查讀者需求是審慎判斷，不是否定所有新題材。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 passing 誤作實際移動？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A brief craze may fade next month.",
+            "zh": "短暫熱潮可能下月消退。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase means fashions walk past the school gate.",
+            "zh": "這片語表示潮流從校門口走過。"
+          },
+          {
+            "id": "c",
+            "en": "Not every new interest becomes a lasting need.",
+            "zh": "並非每項新興趣都成為長久需求。"
+          }
+        ],
+        "explanationZh": "passing 在這裏指短暫，不指實際移動。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "編輯問：「這個話題今早很熱，是否應把全年版面都留給它？」你只看到兩天數據。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It could be one of those passing trends; let us check readers’ interest over time before reserving a full year.",
+            "zh": "它可能只是短暫流行之一；先觀察讀者一段時間的興趣，再預留全年版面吧。"
+          },
+          {
+            "id": "b",
+            "en": "We only have two days of data.",
+            "zh": "我們只有兩天數據。"
+          },
+          {
+            "id": "c",
+            "en": "Let us survey readers next week.",
+            "zh": "下星期先訪問讀者吧。"
+          }
+        ],
+        "explanationZh": "金句指出不確定性並提出合理觀察方法。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The club borrowed a device first to avoid spending heavily on passing trends.",
+        "zh": "學會先借器材，避免為短暫流行花費太多。",
+        "promptZh": "先聽示範，再說出為何先借用。",
+        "targetSpan": {
+          "start": 62,
+          "end": 76
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校刊想決定下學期的長期欄目。編輯看到一個話題在社交平台熱了兩天，但尚未知道學生是否持續關心。用一至兩句英文提出編輯方法。",
+        "selfCheckZh": "把短暫熱潮與持久需求分開；不要武斷說該題材必定失敗。",
+        "examples": [
+          {
+            "en": "The editors should not build a long-running column around passing trends without first asking what readers still care about next month.",
+            "zh": "編輯未問清讀者下月是否仍關心之前，不應只憑短暫流行開設長期欄目。"
+          },
+          {
+            "en": "A two-day spike may reflect passing trends, so the team should survey students before choosing a permanent column.",
+            "zh": "兩天的熱度可能只是短暫流行，所以團隊應在選定固定欄目前訪問學生。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a long-running column",
+            "zh": "長期欄目",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 50
+            }
+          },
+          {
+            "en": "readers",
+            "zh": "讀者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 106
+            }
+          },
+          {
+            "en": "next month",
+            "zh": "下月",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 134
+            }
+          },
+          {
+            "en": "A two-day spike",
+            "zh": "兩天的熱度",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "survey students",
+            "zh": "訪問學生",
+            "exampleIndex": 1,
+            "span": {
+              "start": 63,
+              "end": 78
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A shop may test demand before filling its shelves with passing trends.",
+          "zh": "商店可先測試需求，再決定是否大量進貨迎合短暫流行。"
+        },
+        {
+          "en": "The curator watched passing trends but chose exhibits that would remain useful.",
+          "zh": "策展人留意短暫流行，卻選擇較長久有用的展品。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; exact-hash source, English and changed-context content reviewed."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; bilingual prompts, options, glossary and translations reviewed."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis, hosted verification and listening remain pending."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device QA remain pending."
+        },
+        "notes": [
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; audio, browser/device and release gates remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2719",
+      "number": 2719,
+      "inventoryId": "expr-2719",
+      "titleEn": "land a punch",
+      "titleZh": "產生有力效果",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:land|lands|landed|landing) a punch\\b",
+        "glossaryForbidden": [
+          "\\bland(?:s|ed|ing)? a punch\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Make a line or message have a strong emotional or rhetorical impact.",
+        "meaningZh": "令一句話或訊息產生強烈的情感或說服效果。",
+        "grammar": "Figurative boxing metaphor: the subject can be a sentence or message; no physical hit occurs.",
+        "register": "Writing, speeches, lyrics and communication.",
+        "boundaryZh": "效果須由簡潔、位置或內容支持，不能只因聲量大便說有力。",
+        "misconceptionZh": "不要與 pack a punch 混為完全相同的句法；本課以 line/message land a punch 為主。",
+        "outcomeZh": "能說出哪句話因何時出現而產生效果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0608",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 56,
+          "book": 11,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "40–42",
+          "locatorNote": "DOCX table 51, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A simple line can land a punch in the final verse.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "land a punch"
+        }
+      ],
+      "listening": {
+        "promptZh": "最後一句為何有力？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It connected the closure to people the audience could picture.",
+            "zh": "它把花園關閉與聽眾能想像的人連起來。"
+          },
+          {
+            "id": "b",
+            "en": "It contained a literal boxing move.",
+            "zh": "它含有實際拳擊動作。"
+          },
+          {
+            "id": "c",
+            "en": "It proved the garden would reopen tomorrow.",
+            "zh": "它證明花園明天會重開。"
+          },
+          {
+            "id": "d",
+            "en": "It was the longest sentence in the speech.",
+            "zh": "它是講稿最長的一句。"
+          }
+        ],
+        "explanationZh": "孩子的具體形象令結尾句更有情感力量。",
+        "answerId": "a",
+        "en": "At the end of a short speech about a closed community garden, the speaker named the children who had planted its first trees. That final sentence landed a punch, and the audience fell quiet.",
+        "zh": "一場關於社區花園關閉的短講，講者最後提到種下第一批樹木的孩子。最後一句話產生有力效果，聽眾安靜下來。"
+      },
+      "reply": {
+        "promptZh": "（最後一句話帶來甚麼效果？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It made the loss feel personal.",
+            "zh": "它令失去花園變得切身。"
+          },
+          {
+            "id": "b",
+            "en": "It gave the short speech a memorable ending.",
+            "zh": "它令短講有令人記住的結尾。"
+          },
+          {
+            "id": "c",
+            "en": "It landed a punch.",
+            "zh": "它產生了有力效果。"
+          },
+          {
+            "id": "d",
+            "en": "It made listeners pause and reflect.",
+            "zh": "它令聽眾停下來思考。"
+          }
+        ],
+        "explanationZh": "四句都描述結尾句產生衝擊；金句使用來源比喻。",
+        "promptEn": "What effect did the final sentence have?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "展覽文字最後只寫一句「這些信至今沒有人回覆」，令訪客停下來看失散家庭的照片。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The closing line lands a punch without being long.",
+            "zh": "這句結尾不長，卻產生有力效果。"
+          },
+          {
+            "id": "b",
+            "en": "The line mainly directs visitors to the next room.",
+            "zh": "這句話主要是指示訪客前往下一展室。"
+          },
+          {
+            "id": "c",
+            "en": "The caption is effective only because it is printed in large type.",
+            "zh": "文字有效只因字體很大。"
+          }
+        ],
+        "explanationZh": "有力來自與失散家庭相連的內容及結尾位置，不是指路或字體大小。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句是字面拳擊，並非此課修辭用法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The final sentence changed the room’s mood.",
+            "zh": "最後一句改變了現場氣氛。"
+          },
+          {
+            "id": "b",
+            "en": "The boxer landed a punch on his opponent’s shoulder.",
+            "zh": "拳手一拳打中對手肩膀。"
+          },
+          {
+            "id": "c",
+            "en": "A short warning made readers stop.",
+            "zh": "簡短警告令讀者停下來。"
+          }
+        ],
+        "explanationZh": "拳手實際擊中對手，屬字面動作。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「報告結尾只用一句話，會不會太短？」你想用一句具體發現促請市議會維修飲水機。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A clear final line can land a punch if it shows how many children lacked drinking water; keep the evidence precise.",
+            "zh": "若清楚說明多少孩子缺乏飲用水，結尾一句也能有力；證據要準確。"
+          },
+          {
+            "id": "b",
+            "en": "One sentence can be enough.",
+            "zh": "一句話也可能足夠。"
+          },
+          {
+            "id": "c",
+            "en": "We should include the number of affected children.",
+            "zh": "我們應列出受影響孩子的人數。"
+          }
+        ],
+        "explanationZh": "金句說明具體證據如何令簡短結尾有力。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The final sentence landed a punch because it named the families affected.",
+        "zh": "結尾一句提到受影響的家庭，因而產生有力效果。",
+        "promptZh": "先聽示範，再說出哪個細節令結尾有力。",
+        "targetSpan": {
+          "start": 19,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：市民小組向議會提交公共飲水機維修報告，結尾以一項核實過的數字說明多少孩子要排隊取水。用一至兩句英文解釋結尾的效果。",
+        "selfCheckZh": "指出核實過的人數及其可能令議員採取的行動；不要虛構確切數字或宣稱已觀察到反應。",
+        "examples": [
+          {
+            "en": "The report’s final line could land a punch: a verified figure shows how many children wait for water each day and may prompt council members to schedule repairs.",
+            "zh": "報告的結尾一句可能產生有力效果：核實過的數字顯示每天有多少孩子要排隊取水，或會促使議員安排維修。"
+          },
+          {
+            "en": "A short closing sentence can land a punch when a verified count of children who wait for water each day gives council members a reason to act.",
+            "zh": "簡短的結尾若指出每天等候取水的孩子人數，而且數字經過核實，便可能產生有力效果，給議員採取行動的理由。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a verified figure",
+            "zh": "核實過的數字",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 61
+            }
+          },
+          {
+            "en": "children",
+            "zh": "孩子",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 85
+            }
+          },
+          {
+            "en": "council members",
+            "zh": "議員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 125,
+              "end": 140
+            }
+          },
+          {
+            "en": "A short closing sentence",
+            "zh": "簡短的結尾",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 24
+            }
+          },
+          {
+            "en": "a verified count",
+            "zh": "核實過的人數",
+            "exampleIndex": 1,
+            "span": {
+              "start": 47,
+              "end": 63
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A precise final line can land a punch without shouting.",
+          "zh": "準確的結尾一句毋須吶喊也能產生有力效果。"
+        },
+        {
+          "en": "The warning landed a punch after the audience saw the empty reservoir.",
+          "zh": "聽眾看到空水庫後，警告產生了有力效果。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; exact-hash source, English and changed-context content reviewed."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; bilingual prompts, options, glossary and translations reviewed."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis, hosted verification and listening remain pending."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device QA remain pending."
+        },
+        "notes": [
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; audio, browser/device and release gates remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2751",
+      "number": 2751,
+      "inventoryId": "expr-2751",
+      "titleEn": "niche role",
+      "titleZh": "專門而有限的作用",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bniche role\\b",
+        "glossaryForbidden": [
+          "\\bniche role\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A useful specialised place alongside more common alternatives.",
+        "meaningZh": "與較普遍的選擇並存、用途專門而有限的位置。",
+        "grammar": "Role is a countable noun here: a niche role in a service or alongside another option.",
+        "register": "Markets, services and transport.",
+        "boundaryZh": "小眾不等於無用，也不等於主要選擇。",
+        "misconceptionZh": "不要因某服務有專門用途便說它適合所有人。",
+        "outcomeZh": "能指出服務特別適合哪一群人或哪一種情況。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0640",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 59,
+          "book": 11,
+          "question": 18,
+          "sample": "S2",
+          "sourceBookPages": "47–48",
+          "locatorNote": "DOCX table 54, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Vinyl has a niche role alongside streaming.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "niche role"
+        }
+      ],
+      "listening": {
+        "promptZh": "渡輪為何仍有作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It served a group near the eastern pier.",
+            "zh": "它服務東面碼頭附近的一群居民。"
+          },
+          {
+            "id": "b",
+            "en": "It had replaced every bus on the island.",
+            "zh": "它取代了島上所有巴士。"
+          },
+          {
+            "id": "c",
+            "en": "No residents ever used the ferry.",
+            "zh": "從沒有居民乘渡輪。"
+          },
+          {
+            "id": "d",
+            "en": "It travelled faster than every other service.",
+            "zh": "它比所有其他交通工具都快。"
+          }
+        ],
+        "explanationZh": "渡輪服務特定居民，並非主要交通方式。",
+        "answerId": "a",
+        "en": "Most island residents used the bridge bus, but the small ferry still served families living by the eastern pier. It kept a niche role in local transport.",
+        "zh": "大多數島民乘過橋巴士，但小渡輪仍接載住在東面碼頭附近的家庭。它在本地交通中保留專門而有限的作用。"
+      },
+      "reply": {
+        "promptZh": "（渡輪在本地交通中有甚麼位置？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It helped a particular group of residents.",
+            "zh": "它幫助一群特定居民。"
+          },
+          {
+            "id": "b",
+            "en": "It remained useful beside the bus.",
+            "zh": "它與巴士並存，仍有用途。"
+          },
+          {
+            "id": "c",
+            "en": "It had a niche role.",
+            "zh": "它有專門而有限的作用。"
+          },
+          {
+            "id": "d",
+            "en": "It was not the main route for most residents.",
+            "zh": "它不是大多數居民的主要路線。"
+          }
+        ],
+        "explanationZh": "四句都描述專門但非主流的用途。",
+        "promptEn": "What place did the ferry have in local transport?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "學校大多使用電子教材，但大型字體印本仍方便少數視力較弱學生。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Large-print copies have a niche role alongside digital materials.",
+            "zh": "大型字體印本與電子教材並存，有專門而有限的作用。"
+          },
+          {
+            "id": "b",
+            "en": "The school should replace all digital materials with large-print copies.",
+            "zh": "學校應以大型字體印本取代所有電子教材。"
+          },
+          {
+            "id": "c",
+            "en": "The school has stopped using digital materials.",
+            "zh": "學校已停止使用電子教材。"
+          }
+        ],
+        "explanationZh": "印本服務特定需求，不等於所有人都需改用印本。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句誤解 niche role？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A small service can matter to particular users.",
+            "zh": "小型服務對特定使用者仍可能重要。"
+          },
+          {
+            "id": "b",
+            "en": "It means the service has no users and no purpose.",
+            "zh": "它表示服務沒有用戶，也沒有用途。"
+          },
+          {
+            "id": "c",
+            "en": "A specialised option can coexist with a common one.",
+            "zh": "專門選擇可與普遍選擇並存。"
+          }
+        ],
+        "explanationZh": "小眾並不代表毫無用途。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "居民問：「既然大多數人乘巴士，為何仍保留渡輪？」你知道東面碼頭附近家庭靠它接駁。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The ferry has a niche role: it serves families near the eastern pier even though most residents use the bus.",
+            "zh": "渡輪有專門而有限的作用：雖然大多數居民乘巴士，它仍服務東面碼頭附近的家庭。"
+          },
+          {
+            "id": "b",
+            "en": "Some families still use the ferry.",
+            "zh": "有些家庭仍乘渡輪。"
+          },
+          {
+            "id": "c",
+            "en": "The bus carries most island residents.",
+            "zh": "巴士接載大多數島民。"
+          }
+        ],
+        "explanationZh": "金句同時指出特定用戶與主流替代方式。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The ferry kept a niche role for families near the eastern pier.",
+        "zh": "渡輪為東面碼頭附近的家庭保留專門而有限的作用。",
+        "promptZh": "先聽示範，再說出它服務哪一群人。",
+        "targetSpan": {
+          "start": 17,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：大部分樂器店只賣新品，但一家小店專修舊木管樂器，服務少數仍使用這些樂器的樂手。用一至兩句英文解釋為何它仍有價值。",
+        "selfCheckZh": "指出專門服務及其用戶；不要說它取代所有樂器店。",
+        "examples": [
+          {
+            "en": "The repair shop has a niche role because it helps musicians keep older woodwind instruments in use.",
+            "zh": "維修店有專門而有限的作用，因為它協助樂手繼續使用舊木管樂器。"
+          },
+          {
+            "en": "New-instrument stores serve most buyers, but this small workshop retains a niche role for players with older woodwinds.",
+            "zh": "新品樂器店服務大多數買家，但這間小工作坊對使用舊木管樂器的樂手仍有專門作用。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The repair shop",
+            "zh": "維修店",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "musicians",
+            "zh": "樂手",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 59
+            }
+          },
+          {
+            "en": "older woodwind instruments",
+            "zh": "舊木管樂器",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 91
+            }
+          },
+          {
+            "en": "most buyers",
+            "zh": "大多數買家",
+            "exampleIndex": 1,
+            "span": {
+              "start": 28,
+              "end": 39
+            }
+          },
+          {
+            "en": "this small workshop",
+            "zh": "這間小工作坊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 45,
+              "end": 64
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A specialist repair shop can have a niche role beside large stores.",
+          "zh": "專門維修店可與大型商店並存，發揮專門而有限的作用。"
+        },
+        {
+          "en": "Printed maps retain a niche role for visitors without reliable phone access.",
+          "zh": "對無法穩定使用手機的訪客，印刷地圖仍有專門而有限的作用。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; exact-hash source, English and changed-context content reviewed."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; bilingual prompts, options, glossary and translations reviewed."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis, hosted verification and listening remain pending."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device QA remain pending."
+        },
+        "notes": [
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; audio, browser/device and release gates remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3952",
+      "number": 3952,
+      "inventoryId": "expr-3952",
+      "titleEn": "the body was made to move",
+      "titleZh": "身體需要活動",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bthe body was made to move\\b",
+        "glossaryForbidden": [
+          "\\bthe body was made to move\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "An encouraging way to say movement belongs in everyday life.",
+        "meaningZh": "鼓勵人在日常生活中按能力活動的自然說法。",
+        "grammar": "A memorable general statement, not a literal manufacturing claim or a medical prescription.",
+        "register": "Informal encouragement about accessible movement.",
+        "boundaryZh": "活動方式可因個人能力而異；不應暗示每人都必須做劇烈運動。",
+        "misconceptionZh": "這句不是任何特定運動可治病的證據。",
+        "outcomeZh": "能提出適合情境、可自行調整的日常活動。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1841",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 174,
+          "book": 15,
+          "question": 8,
+          "sample": "S1",
+          "sourceBookPages": "19–20",
+          "locatorNote": "DOCX table 186, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Even gentle walks remind us the body was made to move.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the body was made to move"
+        }
+      ],
+      "listening": {
+        "promptZh": "美想表達甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "People could choose a comfortable way to be active.",
+            "zh": "大家可以選擇舒適的活動方式。"
+          },
+          {
+            "id": "b",
+            "en": "Everyone had to run the same distance.",
+            "zh": "每人都必須跑相同距離。"
+          },
+          {
+            "id": "c",
+            "en": "Seated stretches did not count as movement.",
+            "zh": "坐着伸展不算活動。"
+          },
+          {
+            "id": "d",
+            "en": "The centre had cancelled all its programmes.",
+            "zh": "中心已取消所有活動。"
+          }
+        ],
+        "explanationZh": "她提供不同選擇，沒有要求人人做同一種運動。",
+        "answerId": "a",
+        "en": "At a community centre, Mei offered seated stretches as well as short walks. She said the body was made to move and invited everyone to choose a comfortable option.",
+        "zh": "社區中心裏，美安排了坐着伸展和短步行。她說身體需要活動，邀請大家選擇自己覺得舒適的方式。"
+      },
+      "reply": {
+        "promptZh": "（美為何提供兩種選擇？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "People could move in a way that suited them.",
+            "zh": "大家可以用適合自己的方式活動。"
+          },
+          {
+            "id": "b",
+            "en": "A short walk was not the only option.",
+            "zh": "短步行不是唯一選擇。"
+          },
+          {
+            "id": "c",
+            "en": "She believed the body was made to move, so she offered comfortable ways to do it.",
+            "zh": "她認為身體需要活動，所以提供不同的舒適活動方式。"
+          },
+          {
+            "id": "d",
+            "en": "She wanted everyone to find a comfortable form of movement.",
+            "zh": "她想讓每人找到舒適的活動方式。"
+          }
+        ],
+        "explanationZh": "四句都說明為何提供不同活動選擇；金句保留本課表達。",
+        "promptEn": "Why did Mei offer two options?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "職員久坐後想在休息時間稍作活動；有人選擇站起來伸展，另一人選擇慢步。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The body was made to move, and each person can choose a comfortable option.",
+            "zh": "身體需要活動，每人也可選擇舒適方式。"
+          },
+          {
+            "id": "b",
+            "en": "The group should follow one fixed exercise plan during every break.",
+            "zh": "小組每次休息都應遵循同一套固定運動安排。"
+          },
+          {
+            "id": "c",
+            "en": "Only running counts as movement.",
+            "zh": "只有跑步才算活動。"
+          }
+        ],
+        "explanationZh": "句子鼓勵不同方式的活動，沒有規定小組每次都照同一套做。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把這句話說成它並沒有提出的醫學保證？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A short movement break may feel pleasant.",
+            "zh": "短暫活動休息可能令人舒服。"
+          },
+          {
+            "id": "b",
+            "en": "This phrase proves a daily walk cures every illness.",
+            "zh": "這句話證明每天步行可治好所有疾病。"
+          },
+          {
+            "id": "c",
+            "en": "People can choose movement suited to them.",
+            "zh": "人們可選擇適合自己的活動。"
+          }
+        ],
+        "explanationZh": "這是鼓勵活動的說法，並非醫學證明。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「休息時間太短，動不了。」你知道大家可自行選擇伸展或慢步。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The body was made to move; even a short stretch or slow walk can fit a break if it feels comfortable.",
+            "zh": "身體需要活動；若覺得舒適，短暫伸展或慢步也可安排在休息時間。"
+          },
+          {
+            "id": "b",
+            "en": "A short stretch is one option.",
+            "zh": "短暫伸展是一個選擇。"
+          },
+          {
+            "id": "c",
+            "en": "We have a few minutes before work resumes.",
+            "zh": "復工前還有幾分鐘。"
+          }
+        ],
+        "explanationZh": "金句鼓勵按能力作短暫活動，沒有作醫學保證。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The body was made to move, so she offered a choice of gentle activities.",
+        "zh": "身體需要活動，所以她提供不同的溫和活動選擇。",
+        "promptZh": "先聽示範，再說出有哪些可選活動。",
+        "targetSpan": {
+          "start": 0,
+          "end": 25
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：課堂演讀故事時，教師讓學生自由選擇站着演角色、坐着做手勢，或先觀察再加入。用一至兩句英文說明為何讀書活動可包含動作。",
+        "selfCheckZh": "用這句話鼓勵按能力參與演讀，不要把活動說成治療或強迫每人站起來。",
+        "examples": [
+          {
+            "en": "The body was made to move, so the teacher offered standing roles and seated gestures as two ways to act out the story.",
+            "zh": "身體需要活動，所以教師提供站着演角色和坐着做手勢兩種演讀方法。"
+          },
+          {
+            "en": "Story reading can include movement because the body was made to move; pupils choose a comfortable way to join in.",
+            "zh": "演讀故事可包括動作，因為身體需要活動；學生自行選擇舒適的參與方式。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the teacher",
+            "zh": "教師",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 41
+            }
+          },
+          {
+            "en": "standing roles",
+            "zh": "站着演角色",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 64
+            }
+          },
+          {
+            "en": "seated gestures",
+            "zh": "坐着做手勢",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 84
+            }
+          },
+          {
+            "en": "Story reading",
+            "zh": "演讀故事",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 13
+            }
+          },
+          {
+            "en": "a comfortable way",
+            "zh": "舒適的方式",
+            "exampleIndex": 1,
+            "span": {
+              "start": 84,
+              "end": 101
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The body was made to move, but the pace can differ from person to person.",
+          "zh": "身體需要活動，但每人的步伐可以不同。"
+        },
+        {
+          "en": "A gentle stretch can remind us the body was made to move.",
+          "zh": "溫和伸展可以提醒我們身體需要活動。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; exact-hash source, English and changed-context content reviewed."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-next80-ten-2165-3952-final-focused-rereview-20261024.json SHA-256 6ee5350b48410b927738005477dd021dd85dbe2079b67f5f4157cc8e61b7c634; bilingual prompts, options, glossary and translations reviewed."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis, hosted verification and listening remain pending."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device QA remain pending."
+        },
+        "notes": [
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; audio, browser/device and release gates remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}
