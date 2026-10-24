@@ -1,0 +1,29 @@
+.eddy-first-question-message--homework-completed {
+  font-size: clamp(12px, 2.65vw, 27px);
+  white-space: pre-line;
+}
+
+@media (max-width: 560px) {
+  .eddy-first-question-message--homework-completed {
+    top: 72%;
+    right: 3%;
+    bottom: auto;
+    left: 3%;
+    min-height: 102px;
+    padding: 8px 28px 8px 11px;
+    border: 3px solid #a85729;
+    border-radius: 14px;
+    box-shadow: 0 4px 0 #61301c;
+    font-size: clamp(13px, 3.65vw, 17px);
+    line-height: 1.28;
+  }
+
+  .eddy-first-question-message--homework-completed::after {
+    position: absolute;
+    right: 9px;
+    bottom: 5px;
+    color: #4b200e;
+    content: '▼';
+    font-size: 11px;
+  }
+}

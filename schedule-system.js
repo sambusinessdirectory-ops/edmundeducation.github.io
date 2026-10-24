@@ -765,6 +765,30 @@ function showCompletionCelebration() {
   if (!elements.celebrationDialog.open) elements.celebrationDialog.showModal();
 }
 
+function completedHomeworkCountForDate(date) {
+  return state.weekPayload.entries.filter((entry) => {
+    if (entry.scheduleDate !== date || entry.isCompleted !== true) return false;
+    const homework = parseScheduleMessage(entry.message);
+    return Boolean(homework.text.trim() || homework.resources.length);
+  }).length;
+}
+
+function celebrateHomeworkCompletionMilestones(previousCounts) {
+  if (state.currentUser?.role !== "student") return false;
+  const milestones = [];
+  for (const [date, before] of previousCounts) {
+    const after = completedHomeworkCountForDate(date);
+    for (let count = Math.max(1, before + 1); count <= Math.min(3, after); count += 1) {
+      milestones.push({ date, count });
+    }
+  }
+  if (!milestones.length) return false;
+  document.dispatchEvent(new CustomEvent("edmund:schedule-homework-completed", {
+    detail: { studentId: activeStudent()?.id, milestones }
+  }));
+  return true;
+}
+
 function homeworkTypeDefinition(type) {
   return HOMEWORK_RESOURCE_TYPES.find((item) => item.type === type) || null;
 }
@@ -6365,6 +6389,14 @@ async function batchSetExclusiveStatus(targetStatus) {
   const { property, label } = definition;
   const active = !entries.every((entry) => entry[property] === true);
   const nextStatus = active ? targetStatus : "none";
+  const previousCounts = new Map();
+  if (active && targetStatus === "completed" && state.currentUser?.role === "student") {
+    for (const entry of entries) {
+      if (!previousCounts.has(entry.scheduleDate)) {
+        previousCounts.set(entry.scheduleDate, completedHomeworkCountForDate(entry.scheduleDate));
+      }
+    }
+  }
   setMutationInFlight(true);
   setStatus(elements.calendarStatus, active ? `正在標記所選安排為${label}…` : `正在取消所選安排的${label}標記…`);
   try {
@@ -6385,7 +6417,9 @@ async function batchSetExclusiveStatus(targetStatus) {
       ? `已把 ${entries.length} 項安排標記為${label}。`
       : `已取消 ${entries.length} 項安排的${label}標記。`, "success");
     await loadWeek();
-    if (active && targetStatus === "completed") showCompletionCelebration();
+    if (active && targetStatus === "completed" && !celebrateHomeworkCompletionMilestones(previousCounts)) {
+      showCompletionCelebration();
+    }
   } catch (error) {
     console.warn("Schedule batch status update failed", error);
     if (isConcurrencyError(error)) {
@@ -6975,6 +7009,10 @@ async function toggleEntryCompletion() {
   if (!state.editing?.entry) return;
   const entry = state.editing.entry;
   const completed = !Boolean(entry.isCompleted);
+  const previousCounts = new Map();
+  if (completed && state.currentUser?.role === "student") {
+    previousCounts.set(state.editing.date, completedHomeworkCountForDate(state.editing.date));
+  }
   const focusTarget = {
     date: state.editing.date,
     slotIndex: state.editing.slotIndex
@@ -7001,7 +7039,7 @@ async function toggleEntryCompletion() {
     elements.entryDialog.close();
     showToast(completed ? "這項安排已標記為完成。" : "已取消完成標記。");
     await loadWeek(focusTarget);
-    if (completed) showCompletionCelebration();
+    if (completed && !celebrateHomeworkCompletionMilestones(previousCounts)) showCompletionCelebration();
   } catch (error) {
     console.warn("Schedule completion update failed", error);
     if (isConcurrencyError(error)) {
