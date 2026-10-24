@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile, stat } from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
 import vm from 'node:vm';
+import { createReadingQuestionRenderer } from '../reading-question-controls.mjs';
 import { inventory } from './reading-translations.mjs';
 import { calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink } from '../reading-comprehension-features.mjs';
 
@@ -97,7 +98,7 @@ const rpc = async (name,args) => {
 };
 const context = vm.createContext({
   console,URL,URLSearchParams,Map,Set,Number,String,Date,JSON,
-  calculateAnswerProgress,scanningSections,BOOKMARK_LABELS,bookmarkTarget,readingBookmarkLink,
+  calculateAnswerProgress,scanningSections,BOOKMARK_LABELS,bookmarkTarget,readingBookmarkLink,createReadingQuestionRenderer,
   window:{EDMUND_SUPABASE:{},scrollTo(){}},location,
   history:{replaceState(_s,_t,href){location.href=new URL(href,location.href).href;}},
   document:{body:node('body'),querySelector:node,querySelectorAll:s=>groups.get(s)||[],documentElement:node('html'),getElementById:()=>null},

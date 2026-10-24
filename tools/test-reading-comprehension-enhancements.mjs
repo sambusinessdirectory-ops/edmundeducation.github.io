@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import vm from 'node:vm';
 import { calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink } from '../reading-comprehension-features.mjs';
+import { createReadingQuestionRenderer } from '../reading-question-controls.mjs';
 
 const read = (path) => readFile(new URL(`../${path}`, import.meta.url), 'utf8');
 const [source, html, css, dataText, analysisText, flashcardsHtml, embedCss, professionalCss, professionalHtml] = await Promise.all([
@@ -68,7 +69,7 @@ function node(selector) {
     textContent: '', innerHTML: '', hidden: false, disabled: false, value: '', dataset: {}, attributes: {}, offsetHeight: 70,
     classList: { add() {}, remove() {}, toggle() {} }, style: { setProperty() {} },
     setAttribute(key, value) { this.attributes[key] = value; }, removeAttribute(key) { delete this.attributes[key]; }, getAttribute(key) { return this.attributes[key]; },
-    querySelector: node, querySelectorAll: (key) => groups.get(key) || [], pause() {}, focus() {}, scrollIntoView() {}
+    querySelector: node, querySelectorAll: (key) => groups.get(key) || [], addEventListener() {}, pause() {}, focus() {}, scrollIntoView() {}
   });
   return nodes.get(selector);
 }
@@ -77,7 +78,7 @@ const storage = new Map();
 const calls = [];
 const context = vm.createContext({
   console, URL, URLSearchParams, Map, Set, Number, String, Date, JSON,
-  calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink,
+  calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink, createReadingQuestionRenderer,
   window: { EDMUND_SUPABASE: {}, scrollTo() {} }, location,
   history: { replaceState(_state, _title, href) { location.href = new URL(href, location.href).href; } },
   document: { querySelector: node, querySelectorAll: (selector) => groups.get(selector) || [], documentElement: node('html'), body: node('body'), getElementById: () => null },
