@@ -1,0 +1,118 @@
+{
+  "kind": "read-only-independent-lesson-feasibility",
+  "sourceOfLeads": "course-materials/advanced-native/reviews-books10-16/read-only-current472-holds-ranked201-300-review-pilot.json",
+  "sourceOfLeadsSha256": "20cc7aa212e3ed722c72776480c7de23a856bd64004e88e9404e20797894f0f9",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "selectedManifestSha256": "b8182b8d4ffbc1472e85b95ea644d54dd490461270b47205673346a71dd5cc3c",
+  "earlierOwnerScreen": "Native JavaScript global/case-insensitive matching against all legacy owner and selected draft target patterns returned no full-sentence hit for either source. This is surface evidence only; semantic scope is reviewed below.",
+  "rows": [
+    {
+      "sourceOrdinal": 3381,
+      "sourceId": "book10-16-1270",
+      "sourceSentence": "Their new office is gadget-heavy but easy to use.",
+      "expression": "gadget-heavy",
+      "questionText": "What kinds of products are mostly imported into your country?",
+      "sourceBook": 13,
+      "sourceBookPages": "3–4",
+      "renderedPdfPage": 118,
+      "sourceRawLineSha256": "a292d3a72ef85409ab3239864f878f7e2bb15c0fdbf9bf5db76942b13dfe0a2f",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl",
+      "decisionFileSha256": "a16458e2d1b0ff97eceb59637cb7c4825d18c4dec20c68bcd190a49263865288",
+      "decisionRawLineSha256": "38bd43f27898f25cd026d5d9e44f2e635a11430f0f7a4c1821a41691f9e89df0",
+      "currentDecisionAction": "hold-editorial",
+      "verdict": "keep-hold-no-standalone-lesson-now",
+      "sourceSense": "An office has many gadgets/electronic devices, yet is described as easy to use. The but contrast defeats the inference that high device density automatically means difficult use. The source phrase attaches to the office, not to technologically skilled staff.",
+      "languageEvidence": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/tech-heavy",
+          "point": "Shows a productive -heavy compound, but its listed financial-market sense is not the office/device sense; it is not authority to broaden gadget-heavy to every X-heavy item."
+        }
+      ],
+      "nearestOwnerComparison": [
+        {
+          "ownerId": "advanced-native-153",
+          "ownerTitle": "fast-paced video",
+          "assessmentBoundary": "Another hyphenated modifier but a speed-of-video decision, not device density; no alias."
+        }
+      ],
+      "sevenStepAssessment": "Insufficiently distinct for a full seven-step course lesson on this single attested compound. Quantity-versus-usability, predicate-versus-attributive position, referent, and neutral-versus-negative tone are teachable, but six assessed questions would likely recycle the same high-gadget-count inference. A general X-heavy lesson would overgeneralize from one attested form and mix unrelated senses (for example the financial tech-heavy sense).",
+      "targetSpec": null,
+      "nextGate": "Retain hold. Reconsider only with independent source/usage evidence for a bounded gadget-heavy modifier family and a seven-step storyboard that tests genuinely different decisions without importing unattested X-heavy senses."
+    },
+    {
+      "sourceOrdinal": 3849,
+      "sourceId": "book10-16-1738",
+      "sourceSentence": "Population growth can outpace a place's ability to care for them.",
+      "expression": "outpace a place's ability to care for them",
+      "questionText": "What problems does overpopulation cause?",
+      "sourceBook": 14,
+      "sourceBookPages": "68–69",
+      "renderedPdfPage": 164,
+      "sourceRawLineSha256": "82cfe08c8ddfc90d46faf7c959232e1f180fb4d9c2515d2c9a71ae0add83b93f",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl",
+      "decisionFileSha256": "86f3f6fddb2ebb7c0eff7b18707fccb234ee8cad81d309cd839daa2c6633ada7",
+      "decisionRawLineSha256": "5d4b5fa54dbea20afdc460d2d67870d0b35559daab336b92d0ead7c06ee74d0e",
+      "currentDecisionAction": "hold-editorial",
+      "verdict": "conditional-new-lesson-pilot-viable-not-selected",
+      "sourceSense": "Population growth may increase faster than a locality can provide care for its residents. The source pronoun “them” lacks an explicit plural antecedent in the sentence; learner-facing models should name residents or people, while preserving the exact source occurrence in provenance. Outpace compares rates; it does not by itself establish that care has ceased.",
+      "languageEvidence": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/outpace",
+          "point": "Defines transitive outpace as increase/move/grow faster; includes demand outpacing supply and an aging population outpacing nurse supply."
+        }
+      ],
+      "nearestOwnerComparison": [
+        {
+          "ownerId": "advanced-native-590",
+          "ownerTitle": "keep pace",
+          "ownerFile": "course-materials/advanced-native/batches/batch-0576-0600.json",
+          "ownerFileSha256": "4c974199e92e5b6b5c950ff362ddb16fe1c271a2eb9d34e0b50fc7648fa117dc",
+          "assessmentBoundary": "Owner 590 already teaches the same rate-mismatch inference and even uses “outpaced” incidentally in listening. Its keyed target is keep pace, however, so this source cannot be aliased by its detector. A new lesson is justified only if it assesses transitive outpace grammar, direction, and capacity object rather than retesting whether service kept pace."
+        },
+        {
+          "ownerId": "advanced-native-517",
+          "ownerTitle": "fall behind",
+          "ownerFile": "course-materials/advanced-native/batches/batch-0501-0525.json",
+          "ownerFileSha256": "51e9c7ff6d889ab04d91f85ac2440e8e89f30ad040d3f48de260aff8c7137b6a",
+          "assessmentBoundary": "Relative schedule/progress lag; not necessarily growth exceeding service capacity and different target lexeme."
+        },
+        {
+          "ownerId": "advanced-native-655",
+          "ownerTitle": "keep up",
+          "ownerFile": "course-materials/advanced-native/batches/batch-0651-0675.json",
+          "ownerFileSha256": "64f933fc38aeaafd7739aef626cc33a78ffccbf4fe7b8b1134fbf9586efed01d",
+          "assessmentBoundary": "Maintaining a pace or activity rather than a transitive faster-than comparison."
+        }
+      ],
+      "proposedTargetSpec": {
+        "normalizedUnit": "outpace X’s ability to Y",
+        "category": "natural collocation / figurative rate comparison",
+        "coreHighlight": "outpace (inflected: outpaces, outpaced, outpacing)",
+        "boundedDraftPattern": "\\boutpac(?:e|es|ed|ing)\\b(?=\\s+(?:(?:a|the|its|their|our|his|her)\\s+)?(?:(?:[A-Za-z-]+['’]s)\\s+)?(?:ability\\s+to|capacity|supply|provision)\\b)",
+        "patternStatus": "illustrative proposal only; live JS controls tested, no content edited",
+        "positiveControls": [
+          "Population growth can outpace a place's ability to care for them.",
+          "Rising applications outpace the team's ability to review them.",
+          "Demand outpaces supply.",
+          "Requests outpaced their capacity."
+        ],
+        "negativeControls": [
+          "The runner outpaced her rival.",
+          "The plan outpaces the ability of the team.",
+          "Prices are high but stable."
+        ]
+      },
+      "sevenDistinctDecisionSketch": [
+        "Listening: identify faster growth of need than provision, rather than merely high absolute volume.",
+        "Reply: give four genuinely responsive explanations to a resident, with one using outpace and all qualifying the available evidence.",
+        "Scene: choose the grammatical direction: requests outpace the team’s ability, not the team outpaces requests.",
+        "Contrast: separate faster growth from a claim that the service has stopped caring or that demand is already larger in total.",
+        "Dialogue: distinguish a measured trend from one busy week and name the comparison period.",
+        "Speaking: use an active outpaces construction with an explicit capacity object and a grounded resident referent.",
+        "Writing: transfer to a different institution and propose a capacity response without repeating owner 590’s keep-pace task."
+      ],
+      "nextGate": "Draft one unselected lesson only if the author can keep all seven decisions distinct from owner 590 and repair the source’s unclear them in assessed scenarios; require independent content/regex review before any owner promotion."
+    }
+  ],
+  "limits": "No lesson, decision, manifest, or selected owner was edited. The detector is an illustrative surface proposal, not a semantic classifier. Browser/media/release checks are outside scope."
+}

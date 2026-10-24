@@ -1,0 +1,122 @@
+{
+  "kind": "read-only-three-conditional-owner-leads-2757-2234-2349",
+  "status": "no-owner-decision-manifest-edit",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "inputFirst100Report": "course-materials/advanced-native/reviews-books10-16/read-only-first100-current472-holds-2130-2835-a.json",
+  "inputFirst100ReportSha256": "2846255d4c340c1f8c49b46d07f0d947a01c4b873f12132196f9747d9cb6b529",
+  "summary": {
+    "sameSenseButLaterOwnerBlocked": [
+      2757,
+      2349
+    ],
+    "earlierOwnerSenseMatchButSourceGrammarDetectorBlocked": [
+      2234
+    ],
+    "boundedAliasReady": []
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 2757,
+      "sourceId": "book10-16-0646",
+      "exactExpression": "keep their roots alive",
+      "exactSourceSentence": "Community performances help keep their roots alive.",
+      "sourceMeaningAndReason": "Maintain a connection with cultural origins; a plant metaphor.",
+      "sourceRowSha256": "09754ab7775a060ff744e4d74443a55353fde53918dedf69945c659240e216dc",
+      "currentDecisionAction": "hold-editorial",
+      "currentDecisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+      "currentDecisionRowSha256": "e658ae8a4126f3eb7c30237e59663d82c05d5cd40557291c8d53d7c68722a149",
+      "proposedOwnerId": 4470,
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-4466-4481-a.json",
+      "ownerFileSha256": "b4749ba641ad0a3d0da68568690e29675daf703146200d85a93900ee8059036c",
+      "ownerTitle": "keep its roots",
+      "ownerMeaningEn": "Stay connected to origins or defining traditions over time, including while changing or growing.",
+      "ownerTargetPattern": "\\b(?:keep|keeps|kept|keeping) (?:its|their|our|his|her) roots(?: alive)?\\b",
+      "fullSourceDetectorMatch": "keep their roots alive",
+      "ownerSourceOccurrences": [
+        {
+          "occurrenceId": "book10-16-2359",
+          "sentence": "The town wants to keep its roots while growing.",
+          "expression": "keep its roots"
+        },
+        {
+          "occurrenceId": "book10-16-0646",
+          "sentence": "Community performances help keep their roots alive.",
+          "expression": "keep their roots alive"
+        }
+      ],
+      "sourceSenseVerdict": "same-sense",
+      "detectorVerdict": "matches-full-source",
+      "sourceOrderVerdict": "blocked-by-earlier-source",
+      "ownerComparison": "The exact sentence says community performances preserve connection to cultural origins. Owner4470 teaches keeping roots alive while an identifiable older practice survives; its sources already include this occurrence, brief includes community transfer, and the detector matches “keep their roots alive”. Earlier owners about having/putting down deep roots describe origin or establishment, not the active preservation of roots.",
+      "actionableRoute": "Retain hold. A direct 2757→4470 alias-new violates the earliest-source owner rule because 2757 precedes 4470. The only same-sense route is a coordinated stable-ID/source-order migration (promote 2757 as owner, remap selected 4470 and any aliases/assessments/audio/DB references) or an explicit policy exception; neither is a bounded editorial-row edit. Do not expand an unrelated earlier roots owner just to satisfy order.",
+      "verdict": "retain-hold-pending-identity-migration"
+    },
+    {
+      "sourceOrdinal": 2234,
+      "sourceId": "book10-16-0123",
+      "exactExpression": "a ripple in water",
+      "exactSourceSentence": "One kind gesture created a ripple in water across the team.",
+      "sourceMeaningAndReason": "An effect spreading from a small starting point; a water image.",
+      "sourceRowSha256": "1c55566072ea40d0be8b5c58ed1b1d21776146d0a5a225bb9d328648cd35d566",
+      "currentDecisionAction": "hold-editorial",
+      "currentDecisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl",
+      "currentDecisionRowSha256": "18ca001a6bcbc6c91c9b1d941a130f7dcd7d2616dada286283d8e2a6ccaab28d",
+      "proposedOwnerId": 1692,
+      "ownerFile": "course-materials/advanced-native/batches/batch-1676-1700.json",
+      "ownerFileSha256": "5e88d0ae33a7361af44f64d17ff35c2eb98e382a5222db6cf529531d3223836c",
+      "ownerTitle": "like a ripple in water",
+      "ownerMeaningEn": "Spreading from a small beginning to affect others, through an explicit water-wave comparison.",
+      "ownerTargetPattern": "\\blike a ripple in water\\b",
+      "fullSourceDetectorMatch": null,
+      "ownerSourceOccurrences": [
+        {
+          "occurrenceId": "pdf-2-p202-t2-r04",
+          "sentence": "One kind gesture created a ripple in water across the team.",
+          "expression": "a ripple in water"
+        }
+      ],
+      "sourceSenseVerdict": "same-water-spread-image",
+      "detectorVerdict": "misses-full-source",
+      "sourceOrderVerdict": "earlier-owner-valid",
+      "ownerComparison": "The exact source says a kind gesture created a ripple in water across the team. Owner1692 already records that identical guide sentence as provenance and teaches a small beginning spreading through an explicit “like a ripple in water” simile. The source’s created-a-ripple/across-the-team carrier is awkward and is not a licensed learner model; owner924 “a ripple effect” expresses a related causal chain but not the same water-simile target.",
+      "actionableRoute": "Retain hold. A bounded 1692 owner proposal could be evaluated only after deciding how source-only awkward variants may be represented: preserve the exact sentence in provenance, teach natural “like a ripple in water”, and prove a source-matching detector branch does not invite learners to reproduce “created a ripple in water across the team” or match literal water descriptions. No safe detector-only alias now.",
+      "verdict": "retain-hold-pending-grammar-and-detector-review"
+    },
+    {
+      "sourceOrdinal": 2349,
+      "sourceId": "book10-16-0238",
+      "exactExpression": "all fireworks and not much substance",
+      "exactSourceSentence": "The speech was all fireworks and not much substance.",
+      "sourceMeaningAndReason": "Exciting in appearance but shallow in content; fireworks is a figurative spectacle.",
+      "sourceRowSha256": "aa26e89e5abb51ad09273450d587d9f9a2eb08e532a017183535af8e175f3a7b",
+      "currentDecisionAction": "hold-editorial",
+      "currentDecisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "currentDecisionRowSha256": "b409d3f1209aa6f0ff87c0c8c8941e668ebb81689417ec17ab78b3f948aa1eb0",
+      "proposedOwnerId": 2961,
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-2961-3487-a.json",
+      "ownerFileSha256": "72c19db39d396e0d28855231e242d60a03c5e5e41e5fd6ddf68f75f90cdb8f2b",
+      "ownerTitle": "more show than substance",
+      "ownerMeaningEn": "Impressive presentation or publicity outweighs genuine practical value.",
+      "ownerTargetPattern": "\\bmore show than substance\\b|\\ball glitter and no substance\\b",
+      "fullSourceDetectorMatch": null,
+      "ownerSourceOccurrences": [
+        {
+          "occurrenceId": "book10-16-0850",
+          "sentence": "The costly event felt more show than substance.",
+          "expression": "more show than substance"
+        },
+        {
+          "occurrenceId": "book10-16-0855",
+          "sentence": "The ceremony was all glitter and no substance.",
+          "expression": "all glitter and no substance"
+        }
+      ],
+      "sourceSenseVerdict": "same-surface-versus-substance-judgment",
+      "detectorVerdict": "misses-full-source",
+      "sourceOrderVerdict": "blocked-by-earlier-source",
+      "ownerComparison": "The speech is flashy but shallow. Owner2961 teaches “more show than substance” and “all glitter and no substance” with the same evidence-based judgment; “all fireworks and not much substance” is a separate creative spectacle wording, not one of its taught constructions. Earlier owner1466 “thinner underneath” has a nearby result but different lexical and assessment frame, so it is not an honest direct alias.",
+      "actionableRoute": "Retain hold. Direct 2349→2961 alias-new violates earliest-source order and misses the detector. An owner-number migration plus a reviewed fireworks construction would be a substantial rewrite and may teach nonstandard wording; absent strong independent usage/lesson evidence, consider this exact sentence for the user-rule one-time-image process rather than force an alias.",
+      "verdict": "retain-hold-no-bounded-alias"
+    }
+  ]
+}

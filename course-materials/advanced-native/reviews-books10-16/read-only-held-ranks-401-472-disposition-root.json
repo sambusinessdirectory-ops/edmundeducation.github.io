@@ -1,0 +1,658 @@
+{
+  "snapshotHeld": 472,
+  "slice": "ranks401-472",
+  "counts": {
+    "propose_one_time_exclusion": 27,
+    "keep_held": 45
+  },
+  "rows": [
+    {
+      "rank": 401,
+      "ordinal": 4419,
+      "expression": "say sorry almost as a reflex",
+      "sourceSentence": "Some staff say sorry almost as a reflex at work.",
+      "proposedAction": "keep_held",
+      "rationale": "Saying sorry as a reflex is broad habit imagery rather than a fixed idiom. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 402,
+      "ordinal": 4423,
+      "expression": "acknowledging impact",
+      "sourceSentence": "A real apology begins with acknowledging impact.",
+      "proposedAction": "keep_held",
+      "rationale": "Acknowledging impact is transparent apology vocabulary rather than an idiom. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 403,
+      "ordinal": 4425,
+      "expression": "begin to mend the damage",
+      "sourceSentence": "A private conversation can begin to mend the damage.",
+      "proposedAction": "keep_held",
+      "rationale": "Mend the damage is broad repair imagery, not a stable phrase here. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 404,
+      "ordinal": 4431,
+      "expression": "wear a relationship thin",
+      "sourceSentence": "Repeated cancellations can wear a relationship thin.",
+      "proposedAction": "keep_held",
+      "rationale": "Wear a relationship thin extends wear-thin fabric imagery in an unusual target form. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 405,
+      "ordinal": 4441,
+      "expression": "tension hanging there like a cloud",
+      "sourceSentence": "The silence left tension hanging there like a cloud.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "Cloud simile tailored to the silence in this sentence, not a conventional target expression.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 406,
+      "ordinal": 4451,
+      "expression": "show the touch of the hand",
+      "sourceSentence": "Handmade seals show the touch of the hand.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "Hand-touch image tailored to these handmade seals.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 407,
+      "ordinal": 4452,
+      "expression": "pieces of heritage made tangible",
+      "sourceSentence": "These garments are pieces of heritage made tangible.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "Heritage-made-tangible description tailored to these garments.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 408,
+      "ordinal": 4455,
+      "expression": "feeds the memory",
+      "sourceSentence": "Traditional craft feeds the memory of a community.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "Craft feeding a community’s memory is author-specific imagery.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 409,
+      "ordinal": 4457,
+      "expression": "carry the fingerprints of a culture",
+      "sourceSentence": "Local ceramics carry the fingerprints of a culture.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "Fingerprint metaphor tailored to these local ceramics.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 410,
+      "ordinal": 4460,
+      "expression": "take a little piece of the place home",
+      "sourceSentence": "Tourists hope to take a little piece of the place home.",
+      "proposedAction": "keep_held",
+      "rationale": "Take a little piece of the place home is a vivid source-specific souvenir image, not a stable target unit. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 411,
+      "ordinal": 4463,
+      "expression": "cultural fingerprints",
+      "sourceSentence": "Local crafts are cultural fingerprints worth preserving.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "Cultural-fingerprints metaphor repeats the bespoke craft image.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 412,
+      "ordinal": 4465,
+      "expression": "support livelihoods",
+      "sourceSentence": "Tourist purchases can support livelihoods in the village.",
+      "proposedAction": "keep_held",
+      "rationale": "Support livelihoods is a transparent social-economic collocation; editorial review should assess lesson value. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 413,
+      "ordinal": 4468,
+      "expression": "pass it on",
+      "sourceSentence": "Grandparents can pass it on to their children.",
+      "proposedAction": "keep_held",
+      "rationale": "Pass it on has an unspecified object in this source sentence; review what tradition is transferred before teaching. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 414,
+      "ordinal": 4491,
+      "expression": "rarely arrive unchanged",
+      "sourceSentence": "Shared traditions rarely arrive unchanged.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "Sentence-specific wording about changing traditions, with no distinct expression.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 415,
+      "ordinal": 4493,
+      "expression": "made with a bit more soul",
+      "sourceSentence": "The handmade chair felt made with a bit more soul.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "A subjective one-time comparison of this handmade chair.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 416,
+      "ordinal": 4498,
+      "expression": "win on character",
+      "sourceSentence": "Antique furniture can win on character.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "One-time character comparison of antique furniture against alternatives.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 417,
+      "ordinal": 4502,
+      "expression": "traditions are a bit like roots",
+      "sourceSentence": "Traditions are a bit like roots for a community.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "The roots analogy is explicitly a one-time simile about traditions.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 418,
+      "ordinal": 4503,
+      "expression": "hold everything in place",
+      "sourceSentence": "Shared customs help hold everything in place.",
+      "proposedAction": "keep_held",
+      "rationale": "Hold everything in place is a broad physical image used figuratively here; exact lesson focus needs review. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 419,
+      "ordinal": 4508,
+      "expression": "letting go of the ones that hold people back",
+      "sourceSentence": "Reform means letting go of the ones that hold people back.",
+      "proposedAction": "keep_held",
+      "rationale": "Letting go and hold people back combine two idioms; source does not provide a single clear target unit. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 420,
+      "ordinal": 4512,
+      "expression": "spend a few hours in the air",
+      "sourceSentence": "They would rather spend a few hours in the air than take a ferry.",
+      "proposedAction": "keep_held",
+      "rationale": "Spend a few hours in the air transparently means fly and lacks a distinct figurative or idiomatic teaching unit. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 421,
+      "ordinal": 4513,
+      "expression": "make more sense",
+      "sourceSentence": "For late travel, a car may make more sense.",
+      "proposedAction": "keep_held",
+      "rationale": "Make more sense is a broad ordinary judgement phrase; editorial review should assess distinct course value. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 422,
+      "ordinal": 4514,
+      "expression": "get them there with the least fuss",
+      "sourceSentence": "Travellers pick the route that will get them there with the least fuss.",
+      "proposedAction": "keep_held",
+      "rationale": "Get them there with the least fuss is a compositional travel clause rather than a stable target expression. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 423,
+      "ordinal": 4519,
+      "expression": "the wheels are still turning, but the thinking behind them has shifted",
+      "sourceSentence": "The wheels are still turning, but the thinking behind them has shifted with climate concerns.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "Extended wheels-and-thinking transport metaphor specific to this climate discussion.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 424,
+      "ordinal": 4520,
+      "expression": "mixed travel habit",
+      "sourceSentence": "Her mixed travel habit includes buses and trains.",
+      "proposedAction": "keep_held",
+      "rationale": "Mixed travel habit is a descriptive topic phrase, not a natural idiom with a clear reusable boundary. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 425,
+      "ordinal": 4523,
+      "expression": "half their life stuck in traffic",
+      "sourceSentence": "Commuters feel they spend half their life stuck in traffic.",
+      "proposedAction": "keep_held",
+      "rationale": "Half their life stuck in traffic is hyperbole but a source-specific sentence rather than a stable phrase. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 426,
+      "ordinal": 4524,
+      "expression": "the mother of better transport",
+      "sourceSentence": "Urban congestion can be the mother of better transport.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "One-time adaptation of a proverb to congestion and transport.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 427,
+      "ordinal": 4531,
+      "expression": "a few taps",
+      "sourceSentence": "You can reserve a room with a few taps.",
+      "proposedAction": "keep_held",
+      "rationale": "A few taps is a literal device-action collocation with limited idiomatic teaching value. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 428,
+      "ordinal": 4532,
+      "expression": "the same bones, but it moves to a different rhythm",
+      "sourceSentence": "The network may have the same bones, but it moves to a different rhythm after the update.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "Extended bones-and-rhythm comparison specific to this network update.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 429,
+      "ordinal": 4536,
+      "expression": "less broken up",
+      "sourceSentence": "The new timetable makes trips feel less broken up.",
+      "proposedAction": "keep_held",
+      "rationale": "Less broken up is a transparent comparative adjective; review whether a broader break-up sense warrants teaching. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 430,
+      "ordinal": 4537,
+      "expression": "awkward transfers",
+      "sourceSentence": "The new route avoids awkward transfers.",
+      "proposedAction": "keep_held",
+      "rationale": "Awkward transfers is an ordinary transport collocation; no separate idiomatic meaning is evident. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 431,
+      "ordinal": 4545,
+      "expression": "not standing still",
+      "sourceSentence": "Urban transport is not standing still.",
+      "proposedAction": "keep_held",
+      "rationale": "Not standing still means developing but overlaps standard make-progress patterns; course value needs review. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 432,
+      "ordinal": 4547,
+      "expression": "transport does not improve by magic",
+      "sourceSentence": "Transport does not improve by magic; cities must invest.",
+      "proposedAction": "keep_held",
+      "rationale": "Does not improve by magic is a compositional warning rather than a stable fixed expression. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 433,
+      "ordinal": 4555,
+      "expression": "leave the car at home",
+      "sourceSentence": "The pass encourages drivers to leave the car at home.",
+      "proposedAction": "keep_held",
+      "rationale": "Leave the car at home is transparent transport advice, with no clear idiomatic extension. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 434,
+      "ordinal": 4557,
+      "expression": "first instinct rather than their last option",
+      "sourceSentence": "The city wants buses to be the first instinct rather than their last option.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "Bespoke first-instinct/last-option contrast about buses.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 435,
+      "ordinal": 4559,
+      "expression": "clear path",
+      "sourceSentence": "Signs gave travellers a clear path across town.",
+      "proposedAction": "keep_held",
+      "rationale": "Clear path in this sentence may be an actual route; figurative versus literal sense needs editorial review. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 436,
+      "ordinal": 4560,
+      "expression": "awkward transfers",
+      "sourceSentence": "The new route avoids awkward transfers.",
+      "proposedAction": "keep_held",
+      "rationale": "Awkward transfers repeats the ordinary transport collocation from 4537 and stays held. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 437,
+      "ordinal": 4562,
+      "expression": "smarter in the hand",
+      "sourceSentence": "With live updates, transport becomes smarter in the hand.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "One-time “smarter in the hand” image for live transport updates.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 438,
+      "ordinal": 4570,
+      "expression": "leave the car at home",
+      "sourceSentence": "The pass encourages drivers to leave the car at home.",
+      "proposedAction": "keep_held",
+      "rationale": "Leave the car at home repeats the transparent transport-advice phrase held at 4555. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 439,
+      "ordinal": 4572,
+      "expression": "first instinct rather than their last option",
+      "sourceSentence": "The city wants buses to be the first instinct rather than their last option.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "Duplicate of the bespoke first-instinct/last-option contrast at source 4557.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 440,
+      "ordinal": 4573,
+      "expression": "point-to-point travel",
+      "sourceSentence": "App booking makes point-to-point travel easier.",
+      "proposedAction": "keep_held",
+      "rationale": "Point-to-point travel is a transparent industry transport term rather than an idiom. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 441,
+      "ordinal": 4579,
+      "expression": "nudged the whole system to adapt",
+      "sourceSentence": "The app nudged the whole system to adapt.",
+      "proposedAction": "keep_held",
+      "rationale": "Nudged the whole system to adapt is a transparent figurative verb inside a source-specific clause. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 442,
+      "ordinal": 4584,
+      "expression": "roads would start to breathe",
+      "sourceSentence": "With fewer cars, the roads would start to breathe.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "Roads breathing personifies this specific reduced-traffic scenario.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 443,
+      "ordinal": 4587,
+      "expression": "clear the roads",
+      "sourceSentence": "Better buses may help clear the roads.",
+      "proposedAction": "keep_held",
+      "rationale": "Clear the roads may literally describe reducing traffic; no distinct figurative sense is clear. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 444,
+      "ordinal": 4590,
+      "expression": "a huge chunk of their break",
+      "sourceSentence": "The coach ride used a huge chunk of their break.",
+      "proposedAction": "keep_held",
+      "rationale": "A huge chunk of their break is a generic quantity phrase, not a distinct source sense. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 445,
+      "ordinal": 4591,
+      "expression": "the choice starts to make itself",
+      "sourceSentence": "With only two days off, the choice starts to make itself.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "Choice making itself personifies this two-day-holiday decision.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 446,
+      "ordinal": 4594,
+      "expression": "go farther in less time",
+      "sourceSentence": "People want to go farther in less time.",
+      "proposedAction": "keep_held",
+      "rationale": "Go farther in less time is a literal comparative statement rather than a fixed figurative phrase. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 447,
+      "ordinal": 4595,
+      "expression": "work within tight budgets",
+      "sourceSentence": "Councils must work within tight budgets.",
+      "proposedAction": "keep_held",
+      "rationale": "Work within tight budgets is standard administrative wording with no idiomatic shift. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 448,
+      "ordinal": 4602,
+      "expression": "pass through people's lives",
+      "sourceSentence": "Progress on a map must pass through people's lives.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "One-time map-versus-lives image for transport progress.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 449,
+      "ordinal": 4603,
+      "expression": "the real battle",
+      "sourceSentence": "For the project, the real battle was public trust.",
+      "proposedAction": "keep_held",
+      "rationale": "The real battle is a broad conflict metaphor; sentence does not isolate a stable teachable expression. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 450,
+      "ordinal": 4604,
+      "expression": "pushing through money problems",
+      "sourceSentence": "Officials are pushing through money problems to finish the line.",
+      "proposedAction": "keep_held",
+      "rationale": "Pushing through money problems is nonstandard wording for persevering despite budget issues; review form. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 451,
+      "ordinal": 4610,
+      "expression": "the mental baggage sometimes comes along for the ride",
+      "sourceSentence": "On a short local trip, the mental baggage sometimes comes along for the ride.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "Travel-specific pun combining mental baggage and come along for the ride.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 452,
+      "ordinal": 4614,
+      "expression": "seeing life from a wider angle",
+      "sourceSentence": "Travel can help students with seeing life from a wider angle.",
+      "proposedAction": "keep_held",
+      "rationale": "Seeing life from a wider angle is awkwardly phrased in source; confirm naturalness before lesson. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 453,
+      "ordinal": 4617,
+      "expression": "looked at life through one window",
+      "sourceSentence": "Before travelling, she had looked at life through one window.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "One-window image tailored to limited perspective before travel.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 454,
+      "ordinal": 4619,
+      "expression": "make more sense",
+      "sourceSentence": "For late travel, a car may make more sense.",
+      "proposedAction": "keep_held",
+      "rationale": "Make more sense repeats the broad ordinary judgement phrase held at 4513. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 455,
+      "ordinal": 4623,
+      "expression": "open eyes and an open mind",
+      "sourceSentence": "She explored the city with open eyes and an open mind.",
+      "proposedAction": "keep_held",
+      "rationale": "Open eyes and an open mind is a compositional pairing; separate senses and target span need review. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 456,
+      "ordinal": 4627,
+      "expression": "make more sense",
+      "sourceSentence": "For late travel, a car may make more sense.",
+      "proposedAction": "keep_held",
+      "rationale": "Make more sense repeats the broad ordinary judgement phrase held at 4513 and 4619. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 457,
+      "ordinal": 4628,
+      "expression": "door-to-door convenience",
+      "sourceSentence": "The taxi offers door-to-door convenience.",
+      "proposedAction": "keep_held",
+      "rationale": "Door-to-door convenience is a transparent transport-service compound, not a figurative expression. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 458,
+      "ordinal": 4639,
+      "expression": "shows off the city",
+      "sourceSentence": "The harbour shows off the city at night.",
+      "proposedAction": "keep_held",
+      "rationale": "Shows off the city has an unclear object boundary; compare live show-off senses before release. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 459,
+      "ordinal": 4645,
+      "expression": "a nature trip in disguise",
+      "sourceSentence": "The island break felt like a nature trip in disguise.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "One-time “nature trip in disguise” comparison of this island break.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 460,
+      "ordinal": 4646,
+      "expression": "doesn't put all its beauty in one basket",
+      "sourceSentence": "The region doesn't put all its beauty in one basket.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "One-time adaptation of the eggs-in-one-basket idiom to regional beauty.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 461,
+      "ordinal": 4665,
+      "expression": "chip away at the place",
+      "sourceSentence": "Repeated trampling can chip away at the place.",
+      "proposedAction": "keep_held",
+      "rationale": "Hold: chip away at the place is awkward and underspecified for physical-site damage. Canonical 178 teaches gradual weakening of confidence, stereotypes or resources; the source may be read literally, so sense and naturalness need editorial evidence before owner expansion.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 462,
+      "ordinal": 4668,
+      "expression": "a real boost to the economy",
+      "sourceSentence": "Tourism can be a real boost to the economy.",
+      "proposedAction": "keep_held",
+      "rationale": "A real boost to the economy is an ordinary economic collocation; review course-level distinctiveness. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 463,
+      "ordinal": 4676,
+      "expression": "all in one place",
+      "sourceSentence": "The site shows prices and reviews all in one place.",
+      "proposedAction": "keep_held",
+      "rationale": "All in one place is a transparent convenience description without figurative meaning. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 464,
+      "ordinal": 4677,
+      "expression": "a few taps",
+      "sourceSentence": "You can reserve a room with a few taps.",
+      "proposedAction": "keep_held",
+      "rationale": "A few taps repeats the literal device-action phrase held at 4531. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 465,
+      "ordinal": 4686,
+      "expression": "professionally run",
+      "sourceSentence": "The small hotel felt professionally run.",
+      "proposedAction": "keep_held",
+      "rationale": "Professionally run is a transparent management-quality collocation, not an idiom. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 466,
+      "ordinal": 4688,
+      "expression": "old formula alone",
+      "sourceSentence": "The city cannot rely on its old formula alone.",
+      "proposedAction": "keep_held",
+      "rationale": "Old formula alone is a context-specific recipe metaphor; check stable target and owner overlap. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 467,
+      "ordinal": 4690,
+      "expression": "offer not just convenience, but also soul",
+      "sourceSentence": "A destination should offer not just convenience, but also soul.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "Bespoke convenience-versus-soul contrast for a tourist destination.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 468,
+      "ordinal": 4704,
+      "expression": "a restful hotel is golden",
+      "sourceSentence": "After a long flight, a restful hotel is golden.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "One-off “golden” value judgment about a restful hotel.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 469,
+      "ordinal": 4710,
+      "expression": "plugged into the pulse of the city",
+      "sourceSentence": "The station hotel feels plugged into the pulse of the city.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "Combined pulse/plugged-in metaphor tailored to this station hotel.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 470,
+      "ordinal": 4711,
+      "expression": "space in Hong Kong is precious",
+      "sourceSentence": "Space in Hong Kong is precious, so rooms are compact.",
+      "proposedAction": "keep_held",
+      "rationale": "Space in Hong Kong is precious is a literal scarcity statement with generic precious evaluation. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 471,
+      "ordinal": 4713,
+      "expression": "jump on the MTR",
+      "sourceSentence": "Visitors can jump on the MTR after breakfast.",
+      "proposedAction": "keep_held",
+      "rationale": "Jump on the MTR is colloquial literal boarding and does not show a separate idiomatic sense. Retain for independent source-sense and reusable-expression review.",
+      "independentReviewRequired": true
+    },
+    {
+      "rank": 472,
+      "ordinal": 4715,
+      "expression": "half the holiday",
+      "sourceSentence": "At a resort, the hotel can become half the holiday.",
+      "proposedAction": "propose_one_time_exclusion",
+      "rationale": "Hotel-as-half-the-holiday comparison tailored to this resort example.",
+      "independentReviewRequired": true
+    }
+  ]
+}
