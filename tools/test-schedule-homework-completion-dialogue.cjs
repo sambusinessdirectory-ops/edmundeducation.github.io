@@ -10,6 +10,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
     await page.goto('file://' + path.join(root, 'schedule-calendar.mjs'));
     await page.setContent(`<link rel="stylesheet" href="file://${root}/eddy-first-question-dialogue.css"><link rel="stylesheet" href="file://${root}/eddy-schedule-homework-completion-dialogue.css">`);
     await page.addScriptTag({ path: path.join(root, 'eddy-schedule-homework-completion-dialogue.js') });
+    await page.evaluate(() => { window.celebrationCount = 0; document.addEventListener('edmund:schedule-homework-dialogues-finished', () => { window.celebrationCount += 1; }); });
     const fire = (counts) => page.evaluate((milestones) => document.dispatchEvent(new CustomEvent('edmund:schedule-homework-completed', {
       detail: { studentId: 'student-1', milestones: milestones.map((count) => ({ date: '2026-10-25', count })) }
     })), counts);
@@ -31,6 +32,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
     assert.match(await art.getAttribute('src'), /homework-two-break/);
     await page.keyboard.press('Enter');
     await art.waitFor({ state: 'detached' });
+    assert.equal(await page.evaluate(() => window.celebrationCount), 2);
 
     await fire([3]);
     await art.waitFor();
@@ -39,6 +41,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
     assert.match(await art.getAttribute('src'), /homework-three-celebrate/);
     await page.keyboard.press('Tab');
     await art.waitFor({ state: 'detached' });
+    assert.equal(await page.evaluate(() => window.celebrationCount), 3);
 
     await fire([4]);
     await page.waitForTimeout(100);
@@ -52,6 +55,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
     assert.match(await art.getAttribute('src'), /homework-two\.png/);
     await page.keyboard.press('Escape');
     await art.waitFor({ state: 'detached' });
+    assert.equal(await page.evaluate(() => window.celebrationCount), 4, 'queued milestone dialogues trigger the celebration once');
 
     await page.setViewportSize({ width: 375, height: 667 });
     await fire([3]);
@@ -60,6 +64,24 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
     assert.ok(box.x >= 0 && box.x + box.width <= 375, `mobile copy outside viewport: ${JSON.stringify(box)}`);
     assert.ok((await art.evaluate((img) => img.naturalWidth)) >= 1671);
     await page.screenshot({ path: '/tmp/eddy-homework-completion-mobile.png' });
+    await page.keyboard.press('Tab');
+    await page.keyboard.press('Tab');
+    await art.waitFor({ state: 'detached' });
+    await page.evaluate(() => {
+      const dialog = document.createElement('dialog');
+      dialog.id = 'celebration-test';
+      document.body.append(dialog);
+      document.addEventListener('edmund:schedule-homework-dialogues-finished', () => dialog.showModal(), { once: true });
+    });
+    await fire([2]);
+    await art.waitFor();
+    assert.equal(await page.locator('#celebration-test').evaluate((dialog) => dialog.open), false);
+    await page.keyboard.press('Tab');
+    assert.match(await art.getAttribute('src'), /homework-two-break/);
+    assert.equal(await page.locator('#celebration-test').evaluate((dialog) => dialog.open), false);
+    await page.keyboard.press('Tab');
+    await art.waitFor({ state: 'detached' });
+    assert.equal(await page.locator('#celebration-test').evaluate((dialog) => dialog.open), true, 'hand-up celebration opens after both dialogue images');
     console.log('Eddy schedule homework completion dialogue browser checks passed.');
   } finally {
     await browser.close();

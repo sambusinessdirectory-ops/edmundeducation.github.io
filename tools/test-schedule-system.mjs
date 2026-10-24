@@ -436,6 +436,7 @@ assert.ok((await stat(new URL("../assets/schedule/celebration-message.webp", imp
   "the celebration artwork must remain lightweight enough for an immediate completion popup");
 assert.match(scheduleHtml, /dialog\[data-celebration-dialog\]\s*\{[^}]*background:\s*#fbecdc/s);
 assert.match(scheduleJs, /function showCompletionCelebration\(\)[\s\S]*?state\.currentUser\?\.role !== "student"/);
+assert.match(scheduleJs, /document\.addEventListener\("edmund:schedule-homework-dialogues-finished", showCompletionCelebration\)/);
 assert.match(scheduleJs, /if \(completed && !celebrateHomeworkCompletionMilestones\(previousCounts\)\) showCompletionCelebration\(\)/);
 assert.match(scheduleJs, /active && targetStatus === "completed" && !celebrateHomeworkCompletionMilestones\(previousCounts\)/);
 assert.match(scheduleHtml, /data-copy-week-link/);

@@ -92,7 +92,8 @@
     document.removeEventListener('keydown', onKey, true);
     if (previousFocus?.isConnected) previousFocus.focus({ preventScroll: true });
     previousFocus = null;
-    requestAnimationFrame(showNext);
+    if (queue.length) requestAnimationFrame(showNext);
+    else document.dispatchEvent(new CustomEvent('edmund:schedule-homework-dialogues-finished'));
   }
 
   function advance() {

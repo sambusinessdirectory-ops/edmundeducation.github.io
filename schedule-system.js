@@ -765,6 +765,8 @@ function showCompletionCelebration() {
   if (!elements.celebrationDialog.open) elements.celebrationDialog.showModal();
 }
 
+document.addEventListener("edmund:schedule-homework-dialogues-finished", showCompletionCelebration);
+
 function completedHomeworkCountForDate(date) {
   return state.weekPayload.entries.filter((entry) => {
     if (entry.scheduleDate !== date || entry.isCompleted !== true) return false;
