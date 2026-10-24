@@ -465,6 +465,7 @@
     }
     const question = data.questions[state.question - 1];
     const correct = correctAnswer(question, value);
+    const correctBefore = new Set([...state.remoteCorrect, ...Object.entries(state.attempts).filter(([, attempt]) => attempt.status === 'correct').map(([number]) => Number(number))]).size;
     state.attempts[state.question] = { answer: value, status: correct ? "correct" : "wrong" };
     saveLocal();
     el.feedback.textContent = correct ? "✓ 答案正確！以下逐步解析會說明原因。" : "答案未正確。請按以下步驟看清語境，再試一次。";
@@ -474,8 +475,8 @@
     showExplanation(question, correct);
     updateTotals();
     renderGrid();
-    if (correct && Array.from({ length: 50 }, (_, index) => index + 1).every((number) => state.remoteCorrect.has(number) || state.attempts[number]?.status === 'correct'))
-      document.dispatchEvent(new CustomEvent('edmund:eddy-fifty-complete'));
+    if (correct && correctBefore < data.questions.length && Array.from({ length: data.questions.length }, (_, index) => index + 1).every((number) => state.remoteCorrect.has(number) || state.attempts[number]?.status === 'correct'))
+      document.dispatchEvent(new CustomEvent('edmund:eddy-module-complete'));
     if (correct) void recordCompletion(state.question);
   });
   el.steps.addEventListener("change", (event) => {

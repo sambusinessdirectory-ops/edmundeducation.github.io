@@ -561,6 +561,7 @@
     }
     const question = questions[state.current - 1];
     const correct = isCorrect(question, answer);
+    const correctBefore = correctNumbers().size;
     window.EdmundAnswerSound?.play(correct);
     state.attempts[state.current] = { answer, status: correct ? "correct" : "wrong", checkedAt: new Date().toISOString() };
     saveLocal();
@@ -571,8 +572,8 @@
     updateTotals();
     renderGrid();
     showExplanation(question, correct);
-    if (correct && Array.from({ length: 50 }, (_, index) => index + 1).every((number) => state.remoteCorrect.has(number) || state.attempts[number]?.status === 'correct'))
-      document.dispatchEvent(new CustomEvent('edmund:eddy-fifty-complete'));
+    if (correct && correctBefore < questionCount && correctNumbers().size === questionCount)
+      document.dispatchEvent(new CustomEvent('edmund:eddy-module-complete'));
     if (correct) void recordCompletion(question.number);
   }
 

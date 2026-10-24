@@ -219,6 +219,7 @@ function answer(letter) {
   if (!option) return;
   choice = letter;
   const correct = option.text === q.exercise.answer;
+  const masteredBefore = mastered();
   const old = record(q.id) || {attempts:0,mastered:false};
   progress.answers[q.id] = {attempts:Math.min(10000,old.attempts+1),mastered:Boolean(old.mastered||correct),lastChoice:letter,lastCorrect:correct,answeredAt:new Date().toISOString()};
   if(!correct){
@@ -236,8 +237,8 @@ function answer(letter) {
   saveState = 'saving';
   window.EdmundAnswerSound?.play(correct);
   render(); void syncPending();
-  if (correct && total === 50 && mastered() === 50)
-    document.dispatchEvent(new CustomEvent('edmund:eddy-fifty-complete'));
+  if (correct && masteredBefore < total && mastered() === total)
+    document.dispatchEvent(new CustomEvent('edmund:eddy-module-complete'));
   if (correct) {host.classList.remove('syn-celebrate');void host.offsetWidth;host.classList.add('syn-celebrate');setTimeout(()=>host.classList.remove('syn-celebrate'),900);}
   host.querySelector('.syn-feedback')?.focus({preventScroll:true});
 }
