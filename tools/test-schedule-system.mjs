@@ -431,8 +431,8 @@ assert.match(scheduleHtml, /恭喜您，距離成功又更近了!/);
 assert.match(scheduleHtml, /一步一步，<strong data-celebration-name>同學<\/strong> 便會走到目標~/);
 assert.match(scheduleHtml, /現在先做自己喜歡的事，慶祝一下! 休息夠才繼續~/);
 assert.match(scheduleHtml, /知道了，現在放鬆一下再回來 ~/);
-assert.match(scheduleHtml, /assets\/schedule\/celebration-message\.webp/);
-assert.ok((await stat(new URL("../assets/schedule/celebration-message.webp", import.meta.url))).size < 100_000,
+assert.match(scheduleHtml, /eddy-schedule-celebration\.webp/);
+assert.ok((await stat(new URL("../eddy-schedule-celebration.webp", import.meta.url))).size < 100_000,
   "the celebration artwork must remain lightweight enough for an immediate completion popup");
 assert.match(scheduleHtml, /dialog\[data-celebration-dialog\]\s*\{[^}]*background:\s*#fbecdc/s);
 assert.match(scheduleJs, /function showCompletionCelebration\(\)[\s\S]*?state\.currentUser\?\.role !== "student"/);
