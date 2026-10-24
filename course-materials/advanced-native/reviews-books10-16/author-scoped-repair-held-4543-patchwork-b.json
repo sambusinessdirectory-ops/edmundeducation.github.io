@@ -1,0 +1,86 @@
+{
+  "status": "author-scoped-repair-unselected-independent-recheck-pending",
+  "currentDraft": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4543-patchwork-b.json",
+    "sha256": "a47145b1371e5731a4f738f2b2ecbf79bba34bbb938f1baaf03ff7a60bc428ef",
+    "lessons": [
+      4543
+    ],
+    "contentRevision": 4
+  },
+  "supersededTwoLessonSnapshot": {
+    "path": "course-materials/advanced-native/reviews-books10-16/superseded-draft-snapshots/batch-held-2331-4543-b-initial.json",
+    "sha256": "0cfeeeea6a16ae943b08950732abe0b93b2b363ff507f323b63e721f09754704"
+  },
+  "initialAuthorAudit": {
+    "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-2331-4543-b.json",
+    "sha256": "c14ee4d880155eb3a8af22084af4153b27dd1a69de445e2f0590f27ff7584f71"
+  },
+  "independentInitialReview": {
+    "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-2331-4543-a.json",
+    "sha256": "5b40f73021e6a1e3a4dfdf4c54901ca6caf64f9839fb6fe2a1911dff97650fa0"
+  },
+  "findingsDisposition": [
+    {
+      "id": "R2331-01",
+      "disposition": "withdrawn-from-new-owner-batch",
+      "reason": "Selected 2332 light up the screen already teaches film-performer charisma and even uses engaging screen presence in its listening key. Original 2331/2367 provenance preserved in snapshot. Source decisions remain untouched/held for separate owner adjudication; no claim of alias clearance."
+    },
+    {
+      "id": "R4543-01",
+      "disposition": "repaired",
+      "actualFields": [
+        "scene.promptEn",
+        "scene.promptZh",
+        "scene.options",
+        "scene.explanationZh",
+        "writing.examples[1]",
+        "writing.glossary[3:6]"
+      ],
+      "evidence": "A transport service moves from separate tickets and disconnected timetables to a shared ticket and live connection notices. The keyed assessment uses “less like a patchwork” and Chinese explains improved coordination. Writing model 2 also assesses conflicting forms before versus linked intake after. Source sentence itself is not copied into learner carrier."
+    },
+    {
+      "id": "R2331-4543-02",
+      "disposition": "repaired-for-retained-4543",
+      "actualFields": [
+        "brief.register"
+      ],
+      "evidence": "Register now names a bus passenger speaking to a transport planner or a service coordinator explaining links to the public; 2331 was withdrawn."
+    },
+    {
+      "id": "R4543-02",
+      "disposition": "repaired",
+      "actualFields": [
+        "writing.selfCheckZh",
+        "writing.examples[1].en",
+        "writing.examples[1].zh",
+        "writing.glossary[3:6]"
+      ],
+      "evidence": "The second model now explicitly says students entered the same details on separate forms at different offices, matching the prompt and self-check. Traditional Chinese says 重複填寫相同資料; regenerated glossary spans are exact."
+    }
+  ],
+  "sourceAndOwner": {
+    "exactGuideSourceId": "book10-16-2432",
+    "exactGuideSentence": "The service now feels less like a patchwork.",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "selectedManifestSha256": "8288eb31976993a832f9ce8e35ef6ed4baf0623ccaa3021b2be95de0248537e3",
+    "selectedFullSourceDetectorMatches": 0,
+    "sourceSense": "Less fragmented, better-coordinated transport service; the assessed comparative now directly covers this source decision."
+  },
+  "focusedChecks": {
+    "buildAndCheck": "1 lesson / 6 questions / 4 audio requests / 0 flags; build and --check passed",
+    "learnerEnglishStrings": 28,
+    "sourceExamples": 2604,
+    "sixTokenOverlaps": 0,
+    "nearFullWindowsAtMostTwoMismatches": 0,
+    "glossaryRows": 6,
+    "glossarySpansExactAndTargetExcluded": 6,
+    "speakingTargetSpanExact": true,
+    "sceneAndDialogueKeysTargetBearing": true,
+    "fourReplyOptions": "All four offer coordination suggestions to the after-school coordinator; one golden reply uses target."
+  },
+  "limits": [
+    "Independent review still pending at current exact hash.",
+    "No selected lesson, source decision, canonical owner, manifest, Golden SOP audit, audio asset, hosted site or public release was changed."
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "status": "author-check-only-independent-review-required",
+  "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-held-2398-2714-author-review.json",
+  "batchSha256": "451f616fa1477fca73166adc77b5a7fe447e4380128574fb94f6578b9b48d1fc",
+  "sourceDocxSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "scope": [
+    2181,
+    2398,
+    2714
+  ],
+  "dispositions": {
+    "2181": {
+      "decision": "remain-on-editorial-hold",
+      "sourceSentence": "Constant interruptions leave my study time chopped into pieces.",
+      "reason": "The figurative image is intelligible, but the exact construction is an open-ended literal-to-figurative transfer rather than a sufficiently conventional unit. External checks did not substantiate this exact use, and forcing six assessments would teach a generic word combination rather than a reusable expression. The existing deliberately bite-sized sense is distinct and cannot absorb it as an alias."
+    },
+    "2398": {
+      "decision": "drafted-for-independent-review",
+      "sourceSentence": "The longer format lets the mystery breathe.",
+      "teachingUnit": "let the mystery breathe / let the story breathe",
+      "priorOwner": "advanced-native-307 room to breathe",
+      "distinctness": "Story pacing that allows clues and tension to develop before a reveal differs from relief or freedom under pressure.",
+      "externalUsageEvidence": [
+        "https://ccdn.toastmasters.org/medias/files/department-documents/magazine/magazine-pdfs/2021-magazine-pdfs/magazine-november-2021-s.pdf"
+      ]
+    },
+    "2714": {
+      "decision": "drafted-for-independent-review",
+      "sourceSentence": "Readers often choose what clicks emotionally.",
+      "teachingUnit": "click emotionally",
+      "priorOwner": "advanced-native-1203 things began to click",
+      "distinctness": "Immediate emotional appeal differs from intellectual understanding or a mechanical click.",
+      "externalUsageEvidence": [
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/click_1",
+        "https://blurredculture.com/night-talks-people-pleaser-review/"
+      ],
+      "sourceCaveat": "The source question asks about music while its guide-written example mentions readers; lesson preserves the recorded example as provenance but teaches a bounded response to songs, films or images without claiming it is an exact answer to the source question."
+    }
+  },
+  "mechanicalChecks": {
+    "2398": {
+      "selectedForIndependentReview": true,
+      "sourceSentenceExact": true,
+      "sourceExpressionExact": true,
+      "sourceShaMatchesSuppliedDocx": true,
+      "sevenStepsDistinct": [
+        "source-grounded listening comprehension",
+        "four viable replies, exactly one target-golden",
+        "changed-context scene use",
+        "boundary and misconception contrast",
+        "context-sensitive dialogue continuation",
+        "speaking cloze with exact target span",
+        "new-scenario writing with two examples and answer-derived glossary"
+      ],
+      "sixAssessedQuestions": true,
+      "fourDistinctAudioRoleTexts": true,
+      "targetPositiveCases": 6,
+      "targetNegativeCases": 3,
+      "glossaryRows": 6,
+      "sourceSharedSixOrMoreTokens": 0,
+      "currentReleaseStatus": "draft only, unselected, independent review pending"
+    },
+    "2714": {
+      "selectedForIndependentReview": true,
+      "sourceSentenceExact": true,
+      "sourceExpressionExact": true,
+      "sourceShaMatchesSuppliedDocx": true,
+      "sevenStepsDistinct": [
+        "source-grounded listening comprehension",
+        "four viable replies, exactly one target-golden",
+        "changed-context scene use",
+        "boundary and misconception contrast",
+        "context-sensitive dialogue continuation",
+        "speaking cloze with exact target span",
+        "new-scenario writing with two examples and answer-derived glossary"
+      ],
+      "sixAssessedQuestions": true,
+      "fourDistinctAudioRoleTexts": true,
+      "targetPositiveCases": 6,
+      "targetNegativeCases": 3,
+      "glossaryRows": 6,
+      "sourceSharedSixOrMoreTokens": 0,
+      "currentReleaseStatus": "draft only, unselected, independent review pending"
+    }
+  },
+  "focusedBuild": {
+    "lessons": 2,
+    "questions": 12,
+    "audioRolesRequested": 8,
+    "schemaErrors": 0,
+    "diversityFlags": 0,
+    "byteForByteCheck": "passed"
+  },
+  "limits": [
+    "Neither lesson is selected or live.",
+    "Independent English and Chinese review remains pending.",
+    "No MP3 synthesis, listening, browser QA, upload or deployment has been performed for this batch."
+  ]
+}

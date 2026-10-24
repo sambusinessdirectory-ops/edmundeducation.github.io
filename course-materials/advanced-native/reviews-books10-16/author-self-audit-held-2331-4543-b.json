@@ -1,0 +1,115 @@
+{
+  "status": "author-self-audit-provisional-unselected-independent-review-required",
+  "draft": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-2331-4543-b.json",
+    "sha256": "0cfeeeea6a16ae943b08950732abe0b93b2b363ff507f323b63e721f09754704",
+    "lessonOrdinals": [
+      2331,
+      4543
+    ]
+  },
+  "inputs": {
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    "selectedManifest": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+      "sha256": "e6a9beb2defd46634a66c225fc09d0519b254569ce80c39799cdc8d01f83f1d3"
+    }
+  },
+  "counts": {
+    "lessons": 2,
+    "questions": 12,
+    "audioRequests": 8,
+    "focusedBuildReviewFlags": 0,
+    "sourceExamples": 2604,
+    "learnerEnglishStringsScreened": 56,
+    "sixTokenSourceOverlaps": 0,
+    "nearFullSourceWindowsAtMostTwoMismatches": 0,
+    "glossaryRows": 11
+  },
+  "focusedValidation": {
+    "buildCommand": "node tools/advanced-native-bulk/build.mjs course-materials/advanced-native/drafts-books10-16/batch-held-2331-4543-b.json --out-dir /private/tmp/build-held-2331-4543-b",
+    "checkCommand": "same command plus --check",
+    "result": "2/12/8/0; build and --check passed",
+    "sourceAndTarget": "All three exact source occurrences retained. Each complete source sentence and listening/reply/scene/dialogue/speaking/writing target-bearing field matches its lesson pattern.",
+    "ownerCollision": "Both exact guide sentences had zero target-detector matches among currently selected lessons.",
+    "glossary": "Eleven answer-derived English spans checked exactly against model strings; none contains the target.",
+    "limitations": "Mechanical checks do not establish naturalness, all distractor fairness, Chinese nuance, media approval or final release."
+  },
+  "lessons": [
+    {
+      "sourceOrdinal": 2331,
+      "linkedRepeatOrdinal": 2367,
+      "target": "screen presence",
+      "sourceSense": "A quietly compelling appearance on film; optional source adjectives understated/powerful are evaluative, not fixed target words.",
+      "sourceIds": [
+        "book10-16-0220",
+        "book10-16-0256"
+      ],
+      "ownerBoundary": "Existing screen-use lessons concern viewing/media roles, not a performer holding camera attention.",
+      "decisionContexts": [
+        "casting silent close-up",
+        "filmed science-host recommendation",
+        "oral-history interview assessment",
+        "off-camera charm contrast",
+        "educational-film casting reply",
+        "dancer filmed performance",
+        "cycle-safety presenter writing"
+      ],
+      "fourValidReplies": "All four choose Mei on the filmed demonstration evidence; the golden reply alone says screen presence.",
+      "writingCheck": "Both models recommend the lesser-known male volunteer and cite on-camera evidence tied to the helmet demonstration.",
+      "targetControls": {
+        "positives": [
+          "She has an understated but powerful screen presence.",
+          "The dancer has screen presence.",
+          "A quiet screen presence can hold viewers."
+        ],
+        "negatives": [
+          "Her stage presence held the room.",
+          "The actor appeared on a screen.",
+          "The camera had a screen protector."
+        ]
+      },
+      "reviewState": "pending independent English/Traditional Chinese and semantic review"
+    },
+    {
+      "sourceOrdinal": 4543,
+      "target": "patchwork / less like a patchwork",
+      "sourceSense": "A service that now feels less fragmented; the exact guide has no “of services” complement, so the lesson teaches both source comparative and conventional figurative patchwork-of-services forms.",
+      "sourceIds": [
+        "book10-16-2432"
+      ],
+      "ownerBoundary": "No selected patchwork owner; broad seamless-service language is not the patchwork metaphor.",
+      "decisionContexts": [
+        "clinic booking incompatibility",
+        "after-school club schedule coordination",
+        "flood-aid handoff",
+        "coordinated specialists contrast",
+        "recycling rule boundary",
+        "permit-document inconsistency",
+        "university disability-service intake writing"
+      ],
+      "fourValidReplies": "All four propose a shared schedule/update route for families; golden reply diagnoses the current patchwork.",
+      "writingCheck": "Both models state the previous repeated forms or conflicting instructions and explain how shared intake and updates improve coordination without eliminating specialist offices.",
+      "targetControls": {
+        "positives": [
+          "The service now feels less like a patchwork.",
+          "The aid is a patchwork of services.",
+          "The permit rules feel like a patchwork."
+        ],
+        "negatives": [
+          "The child sewed a patchwork quilt.",
+          "The service has different specialists who share one form.",
+          "The quilt has many fabric squares."
+        ]
+      },
+      "reviewState": "pending independent English/Traditional Chinese and semantic review"
+    }
+  ],
+  "mutations": [
+    "Created one unselected two-lesson draft batch and this author self-audit only.",
+    "No selected lesson, source decision, canonical owner, manifest, Golden SOP audit, media queue or release state changed."
+  ]
+}

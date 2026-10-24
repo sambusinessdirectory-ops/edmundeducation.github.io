@@ -1,0 +1,75 @@
+{
+  "reportType": "unpublished-provisional-two-lesson-integration",
+  "createdUtc": "2026-10-24T00:00:59.138884+00:00",
+  "status": "integrated-pending-technical-checks",
+  "selectedBefore": 619,
+  "selectedAfter": 621,
+  "selectedBatchFilesBefore": 158,
+  "selectedBatchFilesAfter": 159,
+  "sourceOrdinals": [
+    2398,
+    2714
+  ],
+  "sourceIds": [
+    "book10-16-0287",
+    "book10-16-0603"
+  ],
+  "sourceBatchSha256": "c56a3c3b9a80e235bfb251d2b56e8e70a1c88d5bc7be74a321fdfc65755506e1",
+  "independentFollowupSha256": "2a46a4dd0b469fa2ad2cee6ef8a4b528e0a1e072df2abd5ae2cdf0821797ad1b",
+  "selectedLessonObjectsUnchangedFromReviewedBatch": true,
+  "fileHashesBefore": {
+    "course-materials/advanced-native/drafts-books10-16/batch-manifest.json": "e6a9beb2defd46634a66c225fc09d0519b254569ce80c39799cdc8d01f83f1d3",
+    "course-materials/advanced-native/drafts-books10-16/batch-held-2398-2714-author-review.json": "c56a3c3b9a80e235bfb251d2b56e8e70a1c88d5bc7be74a321fdfc65755506e1",
+    "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-2398-2714-b-followup.json": "2a46a4dd0b469fa2ad2cee6ef8a4b528e0a1e072df2abd5ae2cdf0821797ad1b",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl": "07ef699cc1fcfb6fe5e667a2452f1a603901759cea573f56274652e573cb6a2e",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl": "0a852604ba39b203ee405a64b3f12d57f89d0a70fdbf99e05d1c6fa586304955"
+  },
+  "fileHashesAfter": {
+    "course-materials/advanced-native/drafts-books10-16/batch-manifest.json": "b2e2e07c3548422504688173af30b421dadb4e99a63d769be393493562b01431",
+    "course-materials/advanced-native/drafts-books10-16/batch-held-2398-2714-author-review.json": "c56a3c3b9a80e235bfb251d2b56e8e70a1c88d5bc7be74a321fdfc65755506e1",
+    "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-2398-2714-b-followup.json": "2a46a4dd0b469fa2ad2cee6ef8a4b528e0a1e072df2abd5ae2cdf0821797ad1b",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl": "2ec2a2cc13b25cd21d9f1e0a05cd9dee549866c59c0e7bf4936d3b01df34418f",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl": "3ab486f50083d297f6980bb2f4037afcaafe5aa369f3500610b786727a43d1f1"
+  },
+  "decisionRowsBefore": {
+    "2398": {
+      "sourceOrdinal": 2398,
+      "sourceId": "book10-16-0287",
+      "phrase": "lets the mystery breathe",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-2398",
+      "reason": "Reusable figurative narrative-pacing unit: allow an established mystery to develop through clues before a payoff, without merely delaying the reveal. Exact source book10-16-0287 and seven-step lesson independently AI reviewed at final SHA c56a3c3b9a80e235bfb251d2b56e8e70a1c88d5bc7be74a321fdfc65755506e1; provisional unpublished selection."
+    },
+    "2714": {
+      "sourceOrdinal": 2714,
+      "sourceId": "book10-16-0603",
+      "phrase": "what clicks emotionally",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-2714",
+      "reason": "Figurative emotional-connection unit: what clicks emotionally is what feels meaningful or resonates, not simply technical quality or popularity. Exact source book10-16-0603 and seven-step lesson independently AI reviewed at final SHA c56a3c3b9a80e235bfb251d2b56e8e70a1c88d5bc7be74a321fdfc65755506e1; provisional unpublished selection."
+    }
+  },
+  "decisionRowsAfter": {
+    "2398": {
+      "sourceOrdinal": 2398,
+      "sourceId": "book10-16-0287",
+      "phrase": "lets the mystery breathe",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-2398",
+      "reason": "Reusable figurative narrative-pacing unit: allow an established mystery to develop through clues before a payoff, without merely delaying the reveal. Exact source book10-16-0287 and seven-step lesson independently AI reviewed at final SHA c56a3c3b9a80e235bfb251d2b56e8e70a1c88d5bc7be74a321fdfc65755506e1; provisional unpublished selection."
+    },
+    "2714": {
+      "sourceOrdinal": 2714,
+      "sourceId": "book10-16-0603",
+      "phrase": "what clicks emotionally",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-2714",
+      "reason": "Figurative emotional-connection unit: what clicks emotionally is what feels meaningful or resonates, not simply technical quality or popularity. Exact source book10-16-0603 and seven-step lesson independently AI reviewed at final SHA c56a3c3b9a80e235bfb251d2b56e8e70a1c88d5bc7be74a321fdfc65755506e1; provisional unpublished selection."
+    }
+  },
+  "selectedManifestSha256": "b2e2e07c3548422504688173af30b421dadb4e99a63d769be393493562b01431",
+  "publication": false,
+  "databaseWrite": false,
+  "audioGenerated": false,
+  "browserReviewed": false
+}

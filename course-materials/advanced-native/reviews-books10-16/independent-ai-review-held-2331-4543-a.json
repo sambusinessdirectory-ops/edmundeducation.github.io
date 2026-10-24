@@ -1,0 +1,53 @@
+{
+  "reviewType": "independent-ai-exact-hash-content-review",
+  "status": "repairs-required-before-provisional-selection",
+  "input": {
+    "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-2331-4543-b.json",
+    "draftSha256": "0cfeeeea6a16ae943b08950732abe0b93b2b363ff507f323b63e721f09754704",
+    "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-2331-4543-b.json",
+    "authorAuditSha256": "c14ee4d880155eb3a8af22084af4153b27dd1a69de445e2f0590f27ff7584f71"
+  },
+  "scope": "Read both complete seven-step lessons, exact inventory occurrences, source/owner boundaries, six keys, four-valid replies, bilingual fields, writing models and glossary spans. Compared lesson 2331 with selected owner 2332 light up the screen. No draft, decision or manifest edits.",
+  "findings": [
+    {
+      "id": "R2331-01",
+      "severity": "major",
+      "paths": [
+        "lessons[number=2331].reply",
+        "lessons[number=2331].dialogue",
+        "lessons[number=2331].writing"
+      ],
+      "finding": "Three steps repeat the same decision to choose a filmed presenter from a camera test: Mei hosts a science demonstration, Arun hosts an educational film, and a volunteer hosts a cycling-safety film. Selected owner 2332 light up the screen already teaches an engaging performer on film; its listening keyed option explicitly says engaging screen presence, and its quiet-smile/short-film assessments overlap this lesson's evidence. Screen presence remains a natural noun with a potentially teachable distinction from the verb light up the screen, but the current lesson does not sufficiently establish that distinct decision across seven steps.",
+      "requestedRepair": "Keep the exact 2331/2367 source provenance. State a narrow, truthful distinction from 2332 in the brief and change at least the dialogue and final writing situation so they elicit decisions beyond another host-selection recommendation. For example, a director can decide whether to hold a quiet reaction shot, while writing can evaluate how the camera captures a performer's sustained attention. Preserve four independently valid replies, target-bearing keyed dialogue, aligned English/Traditional Chinese and answer-derived glossary. If a distinct seven-step skill still cannot be shown, retain 2331 held for owner adjudication."
+    },
+    {
+      "id": "R4543-01",
+      "severity": "major",
+      "paths": [
+        "lessons[number=4543].scene",
+        "lessons[number=4543].dialogue",
+        "lessons[number=4543].writing"
+      ],
+      "finding": "The source's exact expression is less like a patchwork and means a service has become less fragmented. All six assessed keys and both writing answers describe present or former fragmentation with like a patchwork/a patchwork of; only an unassessed takeaway uses less like a patchwork. Thus the positive before-and-after source decision is not assessed.",
+      "requestedRepair": "Make one assessed task compare a fragmented earlier service with a better-coordinated later service, key a natural less like a patchwork reply, and explain the improvement in Chinese. A transport-service scene would also cover the source question's transport domain, while retaining other changed contexts. Consider using the comparative in one final writing model; update target spans, audio text and glossary if touched."
+    },
+    {
+      "id": "R2331-4543-02",
+      "severity": "minor",
+      "paths": [
+        "lessons[number=2331].brief.register",
+        "lessons[number=4543].brief.register"
+      ],
+      "finding": "Both briefs identify tone and domain but omit an explicit likely speaker and listener, required by Golden SOP P81.",
+      "requestedRepair": "Add tailored speaker/listener pairs without generic boilerplate, such as a casting director to a production team for screen presence and a resident or service coordinator to officials/families for patchwork. Keep the register accurate."
+    }
+  ],
+  "checks": {
+    "independentBuildAndCheck": "2 lessons, 12 questions, 8 audio requests, 0 review flags; both build and --check passed in /private/tmp/review-2331-4543-a",
+    "sourceProvenance": "All three listed inventory occurrence IDs, expressions and example sentences match exactly; each full source sentence matches its lesson target regex.",
+    "targetsAndSpans": "Both listening texts, golden replies, keyed scenes/dialogues, speaking spans and four writing models match their reviewed target patterns. All 11 answer-derived glossary spans are exact and exclude the target.",
+    "answerFairness": "All twelve mechanical keys are present; both four-valid reply sets answer their immediate prompts. No additional unsupported-fact or English/Traditional Chinese mistranslation blocker identified beyond the findings above.",
+    "originality": "Author's 56 learner-English-string by 2,604-source screen reports zero six-token or near-full source reuse; this review did not rerun that whole screen."
+  },
+  "limits": "Independent AI content review only. No human language approval, audio listening, physical-device/browser QA, selection or release approval."
+}

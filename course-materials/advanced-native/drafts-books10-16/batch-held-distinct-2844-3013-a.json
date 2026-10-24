@@ -1,0 +1,572 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-distinct-2844-3013-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2844",
+      "number": 2844,
+      "inventoryId": "expr-2844",
+      "titleEn": "a digital town square",
+      "titleZh": "網上公共討論廣場",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:a |the |our |this |that )?(?:digital|online|virtual|crowded) town square\\b",
+        "glossaryForbidden": [
+          "\\btown square\\b",
+          "\\b(?:digital|online|virtual|crowded) town\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "An online place where many people can openly exchange views, like people gathering to discuss matters in a town square.",
+        "meaningZh": "把容許多人公開交流意見的網上空間，比作居民聚集討論的市鎮廣場。",
+        "grammar": "An online forum, discussion board or platform can be a digital/online town square; the guide calls its forum a crowded town square. Use an article with singular town square. The metaphor needs public, reciprocal discussion, not merely many readers.",
+        "register": "Neutral to vivid media/community commentary; a community organiser may say it to residents, or a journalist may use it for readers.",
+        "boundaryZh": "須容許參與者互相公開回應；單向公告或只有職員看得到的私人意見箱不適用。適度管理討論不會令比喻失效。",
+        "misconceptionZh": "不是指真的廣場，也不保證每個人的聲音都同樣容易被聽見，或討論必然和氣。",
+        "outcomeZh": "能以公開互動作關鍵線索，區分網上公共討論、單向發布及私人回覆。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0733",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 68,
+          "book": 11,
+          "question": 30,
+          "sample": "S1",
+          "sourceBookPages": "74–76",
+          "locatorNote": "DOCX table 66, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The forum became a crowded town square for debate.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a crowded town square"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent sense and language review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "What role does the library board play for residents?",
+        "promptZh": "圖書館的討論板對居民起甚麼作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Many residents exchange views there publicly, even when the debate grows noisy.",
+            "zh": "許多居民在那裏公開交流意見，即使討論有時變得嘈雜。"
+          },
+          {
+            "id": "b",
+            "en": "It sends the final timetable to residents without inviting replies.",
+            "zh": "它只把最終時間表發給居民，不邀請回覆。"
+          },
+          {
+            "id": "c",
+            "en": "It collects private route complaints that only library staff can read.",
+            "zh": "它只收集圖書館職員可讀的私人路線投訴。"
+          },
+          {
+            "id": "d",
+            "en": "It brings residents to a physical plaza beside the library.",
+            "zh": "它安排居民到圖書館旁的實體廣場聚集。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "數十名居民公開辯論、互相回應，即使場面嘈雜仍是廣場式互動；不是單向公告、私人投訴箱或真正的廣場。",
+        "en": "On the library's online board, dozens of residents debated a proposed bus route, sometimes talking over one another. For this issue, the board was a crowded town square; moderators kept replies on topic.",
+        "zh": "在圖書館的網上討論板，數十名居民討論擬議巴士路線，有時同時爭相發言。就這件事而言，討論板像一個擠擁的公共廣場；管理員確保回應不離題。"
+      },
+      "reply": {
+        "promptEn": "The school opens an online forum to all families about lunch changes. Families can post questions and respond to one another. What is the forum becoming?",
+        "promptZh": "學校向所有家庭開設討論午餐變更的網上論壇。家庭可以發問，也可以互相回應。這個論壇正變成甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is becoming a digital town square for discussion about school lunches.",
+            "zh": "它正成為討論學校午餐的網上公共討論廣場。"
+          },
+          {
+            "id": "b",
+            "en": "It is becoming a shared space where families can debate the lunch changes.",
+            "zh": "它正成為家庭可以討論午餐變更的共同空間。"
+          },
+          {
+            "id": "c",
+            "en": "It gives families a visible place to ask questions and answer one another.",
+            "zh": "它讓家庭在公開可見的地方發問及互相回答。"
+          },
+          {
+            "id": "d",
+            "en": "It turns the lunch proposal into an open exchange among families.",
+            "zh": "它讓午餐方案成為家庭之間公開交流的話題。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都回應了公開互動的用途；金句用本課比喻概括網上論壇。"
+      },
+      "scene": {
+        "promptEn": "A museum's public online board lets visitors compare exhibition ideas and respond to one another. Staff join the discussion but do not control every post. Which description best fits?",
+        "promptZh": "博物館的公開網上討論板讓訪客比較展覽構思並互相回應。職員也參與，但不會控制每一則帖文。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The board works as an online town square for visitors' discussion.",
+            "zh": "討論板如同訪客交流的網上公共討論廣場。"
+          },
+          {
+            "id": "b",
+            "en": "The board is a private suggestion box visible only to museum staff.",
+            "zh": "討論板是只有博物館職員可見的私人意見箱。"
+          },
+          {
+            "id": "c",
+            "en": "The board is a one-way noticeboard that visitors can only read.",
+            "zh": "討論板是訪客只能閱讀的單向公告欄。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "關鍵是訪客能公開交流並互相回應；私人意見箱及單向公告都缺少這種互動。"
+      },
+      "contrast": {
+        "promptEn": "Which case is least like a digital town square?",
+        "promptZh": "哪個情況最不像網上公共討論廣場？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A council page publishes completed decisions, but residents cannot post or reply.",
+            "zh": "市議會網頁公布已作出的決定，但居民不能發帖或回應。"
+          },
+          {
+            "id": "b",
+            "en": "A neighbourhood forum requires sign-in and then lets members question proposals in view of the group.",
+            "zh": "社區論壇要求先登入，然後容許成員在群組可見的討論中質疑方案。"
+          },
+          {
+            "id": "c",
+            "en": "A moderated group lets residents debate a park plan while removing personal insults.",
+            "zh": "有人管理的群組容許居民辯論公園方案，同時刪除人身攻擊。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只能閱讀決定，沒有公開互相回應，就欠缺廣場式討論；登入及適度管理並不必然取消互動。"
+      },
+      "dialogue": {
+        "promptEn": "A youth-club volunteer says: “Our open discussion page now has replies attacking people rather than the plan. Should we stop calling it a digital town square?” Which reply is most useful?",
+        "promptZh": "青年中心義工說：「我們的公開討論頁開始出現人身攻擊。我們是否不應再稱它為網上公共討論廣場？」哪句回應最有用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It can still be a digital town square; set ground rules so people debate the plan without attacking one another.",
+            "zh": "它仍可成為網上公共討論廣場；訂明基本規則，讓大家討論方案而非互相攻擊。"
+          },
+          {
+            "id": "b",
+            "en": "Once volunteers ask people to stay on topic, the page can no longer count as a shared public discussion.",
+            "zh": "義工一要求大家不離題，這個頁面便再不能算作公開共享的討論空間。"
+          },
+          {
+            "id": "c",
+            "en": "To keep the discussion open, leave the personal attacks in place and avoid any ground rules.",
+            "zh": "為保持討論開放，應保留人身攻擊，亦不要訂任何基本規則。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "公開互動可與清晰規則並存；管理不等於私人訊息，人身攻擊也不是良好討論的證據。"
+      },
+      "speaking": {
+        "en": "The tenants' online forum became a digital town square when neighbours debated how to use the shared roof.",
+        "zh": "住戶在網上論壇討論如何使用共用天台時，論壇成了網上公共討論廣場。",
+        "promptZh": "先聽示範，再說出甚麼互動令住戶論壇像公共討論廣場。",
+        "targetSpan": {
+          "start": 33,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一間診所開設公開網上論壇，邀請病人討論晚間診症時間。請用一至兩句英文說明病人如何互相交流，以及私人醫療細節應如何處理；用本課比喻描述論壇。",
+        "selfCheckZh": "兩例都指出病人可公開互相討論晚間時段，同時把私人醫療資料留在非公開渠道；不能把單向公告或公開個人病歷當成公共討論。",
+        "examples": [
+          {
+            "en": "The clinic's open forum became a digital town square as patients compared evening appointment ideas; staff kept personal medical details out of the public thread.",
+            "zh": "診所的公開論壇成了網上公共討論廣場，病人在上面比較晚間診症安排；職員則避免在公開討論串談及個人醫療細節。"
+          },
+          {
+            "en": "By letting patients question and answer one another about evening hours, the clinic created an online town square; moderators redirected private health concerns to a confidential channel.",
+            "zh": "診所讓病人就晚間診症時間互相發問及回應，建立了網上公共討論廣場；管理員把個人健康疑問轉到保密渠道。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "evening appointment ideas",
+            "zh": "晚間診症安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 99
+            }
+          },
+          {
+            "en": "personal medical details",
+            "zh": "個人醫療細節",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 136
+            }
+          },
+          {
+            "en": "the public thread",
+            "zh": "公開討論串",
+            "exampleIndex": 0,
+            "span": {
+              "start": 144,
+              "end": 161
+            }
+          },
+          {
+            "en": "evening hours",
+            "zh": "晚間診症時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 58,
+              "end": 71
+            }
+          },
+          {
+            "en": "private health concerns",
+            "zh": "個人健康疑問",
+            "exampleIndex": 1,
+            "span": {
+              "start": 137,
+              "end": 160
+            }
+          },
+          {
+            "en": "a confidential channel",
+            "zh": "保密渠道",
+            "exampleIndex": 1,
+            "span": {
+              "start": 164,
+              "end": 186
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A moderated forum can still be a digital town square if people exchange views in public.",
+          "zh": "只要大家能公開交流意見，有人管理的論壇仍可比作網上公共討論廣場。"
+        },
+        {
+          "en": "A one-way announcement feed is not an online town square, even if many people read it.",
+          "zh": "單向公告動態即使有很多讀者，也不是網上公共討論廣場。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3013",
+      "number": 3013,
+      "inventoryId": "expr-3013",
+      "titleEn": "open one door and close another",
+      "titleZh": "開啟一個選項，同時暫別另一個",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:open one door and close another|opens one door and closes another|opened one door and closed another|opening one door and closing another)\\b",
+        "glossaryForbidden": [
+          "\\bopen(?:s|ed|ing)? one door\\b",
+          "\\bclos(?:e|es|ed|ing) another\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A decision creates one opportunity while giving up or delaying a different option under a real constraint.",
+        "meaningZh": "在資源或時間有限時，一項決定帶來一個機會，同時令另一個選項暫時無法實行或須放棄。",
+        "grammar": "A choice/decision opens one door and closes another; past: opened one door and closed another. The subject is a decision, not a literal door. Opening one door and closing another is also natural as a gerund phrase.",
+        "register": "Reflective, neutral figurative English; a mentor may explain it to a student or a committee member to colleagues.",
+        "boundaryZh": "須有實際取捨，並說清楚得到甚麼、延後或放棄甚麼；不代表另一機會永遠無法重開。若兩項計劃可以同時進行，就不適用。",
+        "misconceptionZh": "不要與「一扇門關上，另一扇門便打開」的安慰說法混淆；本課強調同一次選擇的得與失。",
+        "outcomeZh": "能指出同一決定的即時得益及被延後的替代方案，避免把暫時取捨說成永久失去。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0902",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 84,
+          "book": 12,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "39–40",
+          "locatorNote": "DOCX table 85, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "When planning a career, remember that every choice opens one door and closes another.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "every choice opens one door and closes another"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent sense and language review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "What does the theatre group gain and give up for this term?",
+        "promptZh": "劇團這學期得到甚麼，又暫時放棄甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The children's workshop can run, while the evening show must wait for space.",
+            "zh": "兒童工作坊可以開辦，晚間演出則須等待場地。"
+          },
+          {
+            "id": "b",
+            "en": "Both the workshop and the show can use the same room at the same time.",
+            "zh": "工作坊與演出可以同時使用同一房間。"
+          },
+          {
+            "id": "c",
+            "en": "The show is cancelled because nobody wanted to attend it.",
+            "zh": "演出因為沒有人想參加而取消。"
+          },
+          {
+            "id": "d",
+            "en": "The group has only changed the order of two announcements.",
+            "zh": "劇團只是改變兩份公告的發布次序。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "房間今期只能支持其中一項，選擇工作坊帶來課堂，但晚間演出要等；不是兩者同步進行或因缺乏興趣取消。",
+        "en": "The theatre group has enough rehearsal space for either a weekend children's workshop or a new evening show, not both this term. Choosing the workshop opens one door and closes another: children gain a class, but the show must wait.",
+        "zh": "劇團這學期的排練空間只夠辦週末兒童工作坊或新晚間演出其中一項。選擇工作坊帶來一個機會，也暫時關上另一個：孩子有課可上，演出則須等待。"
+      },
+      "reply": {
+        "promptEn": "A community centre has one Saturday room. It can run a free art class or a repair café this season, not both. What does choosing the art class mean?",
+        "promptZh": "社區中心星期六只有一間房，這季可以開免費美術班或維修咖啡館，但不能同時開辦。選擇美術班意味著甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That choice opens one door and closes another: the art class can begin, while the repair café must wait.",
+            "zh": "這項選擇開啟一個機會，也暫時關上另一個：美術班可以開始，維修咖啡館則須等待。"
+          },
+          {
+            "id": "b",
+            "en": "The class can use the room now, and the café will need a later slot.",
+            "zh": "美術班現在可以用房間，咖啡館則需要日後的時段。"
+          },
+          {
+            "id": "c",
+            "en": "It gives families an art option this season but postpones the repair events.",
+            "zh": "這季家庭多了一個美術活動選擇，維修活動則要延後。"
+          },
+          {
+            "id": "d",
+            "en": "The centre gains an art class this season and gives up the café slot for now.",
+            "zh": "中心這季得到美術班，暫時放棄咖啡館的時段。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都交代這季美術班得以開辦、維修咖啡館須延後；金句用兩扇門比喻這項取捨。"
+      },
+      "scene": {
+        "promptEn": "A school council has one grant for either library books or sports equipment this year. It chooses books, so the equipment waits for another budget. Which description fits?",
+        "promptZh": "學生會今年只有一筆撥款，可買圖書館書籍或體育器材其中一項。它選擇買書，器材須等下一筆預算。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The decision opens one door and closes another: books are possible now, while the equipment must wait.",
+            "zh": "這決定開啟一個機會，也暫時關上另一個：現在可買書，器材則須等待。"
+          },
+          {
+            "id": "b",
+            "en": "The book purchase leaves the equipment equally available from the same grant this year.",
+            "zh": "買書後，仍可用今年同一筆撥款同樣地購買器材。"
+          },
+          {
+            "id": "c",
+            "en": "Choosing books means the equipment idea must be abandoned forever.",
+            "zh": "選擇買書表示器材計劃必須永遠放棄。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "同一筆撥款先用於買書，器材要等新預算；既不能用原撥款同時買兩項，也不能斷言器材計劃永遠取消。"
+      },
+      "contrast": {
+        "promptEn": "Which situation does not support saying a choice opens one door and closes another?",
+        "promptZh": "哪個情況不適合說一項選擇開啟一扇門、同時關上另一扇？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The group has separate funding and people for both projects, so neither prevents the other.",
+            "zh": "團體有分開的經費及人手完成兩項計劃，兩者互不妨礙。"
+          },
+          {
+            "id": "b",
+            "en": "The club uses its only Saturday slot for tutoring, so music rehearsal waits.",
+            "zh": "學會把唯一的星期六時段用於補習，音樂排練因此要等。"
+          },
+          {
+            "id": "c",
+            "en": "A publisher uses its limited printing budget for photographs, delaying the colour cover.",
+            "zh": "出版社用有限的印刷預算加入照片，令彩色封面須延後。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "若兩項計劃可各自同時進行，就沒有本課所說的取捨；另兩例都有資源限制及被延後的選項。"
+      },
+      "dialogue": {
+        "promptEn": "Maya says: “I accepted a paid weekend shift, so I cannot join the Saturday course this term. Was that choice simply a mistake?” Which reply is fairest?",
+        "promptZh": "Maya 說：「我接受了有薪週末班，所以今期無法參加星期六課程。那個決定是否純粹錯了？」哪句回應最公允？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It opened one door and closed another for now: you gained income, but the course must wait. That alone does not make it a mistake.",
+            "zh": "它暫時開啟一個機會，也關上另一個：你得到收入，課程須等；這本身不代表你選錯。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. Missing one course proves that every paid shift is a poor choice.",
+            "zh": "是的。錯過一門課就證明每次接有薪班都是壞選擇。"
+          },
+          {
+            "id": "c",
+            "en": "The course was never important if you wanted to earn money.",
+            "zh": "如果你想賺錢，那門課從來就不重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "回應同時承認收入及課程延後，並沒有武斷判斷對錯；另兩句把可兼顧的價值硬說成非此即彼。"
+      },
+      "speaking": {
+        "en": "Using the only exhibition budget for new lighting opens one door and closes another: the gallery upgrade can start, while the audio tour waits.",
+        "zh": "把唯一的展覽預算用於新照明，開啟了畫廊升級的機會，也令語音導覽須延後。",
+        "promptZh": "先聽示範，再說出畫廊得到甚麼、又延後甚麼。",
+        "targetSpan": {
+          "start": 50,
+          "end": 83
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區團體只有一筆小額撥款，可立即安裝飲水機或開辦週末園藝工作坊其中一項。它選擇飲水機。請用一至兩句英文說明眼前得到甚麼、另一項如何延後；不要聲稱工作坊永遠無法開辦。",
+        "selfCheckZh": "兩例都交代飲水機可以先設置、園藝工作坊要等待下一筆資源，並用兩扇門比喻同一項選擇的得與失；沒有把暫緩說成永遠取消。",
+        "examples": [
+          {
+            "en": "Funding the water fountain opens one door and closes another: visitors gain drinking water this summer, while the garden workshop must wait for another grant.",
+            "zh": "撥款設置飲水機，開啟一個機會，也暫時關上另一個：訪客今夏可飲水，園藝工作坊則須等下一筆撥款。"
+          },
+          {
+            "en": "The group's choice opens one door and closes another. The fountain can be installed now, but the weekend workshop is postponed until more funding is available.",
+            "zh": "團體的選擇開啟一個機會，也暫時關上另一個。飲水機現在可安裝，週末工作坊則延至有更多資金時。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "drinking water",
+            "zh": "飲用水",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 90
+            }
+          },
+          {
+            "en": "this summer",
+            "zh": "今夏",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 102
+            }
+          },
+          {
+            "en": "another grant",
+            "zh": "下一筆撥款",
+            "exampleIndex": 0,
+            "span": {
+              "start": 144,
+              "end": 157
+            }
+          },
+          {
+            "en": "can be installed",
+            "zh": "可安裝",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 83
+            }
+          },
+          {
+            "en": "the weekend workshop",
+            "zh": "週末工作坊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 113
+            }
+          },
+          {
+            "en": "more funding",
+            "zh": "更多資金",
+            "exampleIndex": 1,
+            "span": {
+              "start": 133,
+              "end": 145
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Opening one door and closing another describes a real trade-off, not a promise that the second path is lost forever.",
+          "zh": "「開啟一扇門、關上另一扇」描寫真實取捨，不代表第二條路永遠走不通。"
+        },
+        {
+          "en": "With one available slot, a choice may open one door and close another until more resources arrive.",
+          "zh": "只有一個可用時段時，一項選擇可能開啟一個機會，並讓另一項暫緩至有更多資源。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "reportType": "independent-ai-exact-hash-scoped-followup",
+  "status": "content-clear-unselected",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-4543-patchwork-b.json",
+  "draftSha256": "a47145b1371e5731a4f738f2b2ecbf79bba34bbb938f1baaf03ff7a60bc428ef",
+  "authorRepairAuditPath": "course-materials/advanced-native/reviews-books10-16/author-scoped-repair-held-4543-patchwork-b.json",
+  "authorRepairAuditSha256": "865749943d85ae1e839053cda3d42249690a5a93401f971272283e691b834722",
+  "originalReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-2331-4543-a.json",
+  "resolutions": [
+    {
+      "id": "R4543-01",
+      "status": "resolved",
+      "evidence": "The Step 3 transport scene explicitly contrasts last year's unlinked tickets/timetables with today's shared ticket and connection notices. Its keyed English and aligned Traditional Chinese use less like a patchwork; writing model 2 transfers the before/after comparison to university support."
+    },
+    {
+      "id": "R2331-4543-02-for-4543",
+      "status": "resolved",
+      "evidence": "The 4543 register now names a bus passenger addressing a transport planner and a service coordinator addressing the public, with neutral-to-mildly-critical tone. The withdrawn 2331 draft is not cleared."
+    },
+    {
+      "id": "R4543-followup-writing",
+      "status": "resolved",
+      "evidence": "Writing model 2 no longer invents conflicting forms. It states students repeatedly entered the same details on separate forms at different offices, as the prompt/self-check require; Chinese and glossary were aligned."
+    }
+  ],
+  "checks": {
+    "focusedBuildAndCheck": "1 lesson, 6 questions, 4 audio requests, 0 review flags; both build and --check passed independently in /private/tmp/review-4543-patchwork-a",
+    "sourceAndTarget": "The exact source sentence matches the bounded patchwork target. The comparative keyed scene and both writing examples match the target; speaking target span matches exactly.",
+    "glossary": "All six answer-derived spans match their English models exactly and exclude the target.",
+    "englishChinese": "The changed transport scene, comparative writing model and register align in English and Traditional Chinese.",
+    "reviewScope": "Scoped content follow-up at the recorded SHA, including the changed writing model and prior source-sense findings."
+  },
+  "ownership": "Only lesson 4543 is content-clear in this retained batch. Former proposed lesson 2331 was withdrawn from this batch because of overlap with selected 2332 and remains held pending separate owner adjudication.",
+  "limits": "Unselected AI content clearance only; no human review, audio listening, browser/device QA, manifest decision, upload or release approval."
+}

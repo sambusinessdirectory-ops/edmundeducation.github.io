@@ -1,0 +1,56 @@
+{
+  "reportType": "independent-ai-exact-hash-unselected-lesson-review",
+  "status": "repair-before-provisional-selection",
+  "batchPath": "course-materials/advanced-native/drafts-books10-16/batch-held-2398-2714-author-review.json",
+  "batchSha256": "451f616fa1477fca73166adc77b5a7fe447e4380128574fb94f6578b9b48d1fc",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-held-2181-2398-2714-audit.json",
+  "authorAuditSha256": "2602204924bbe6d4a8077defc44e6a06bd42bea48b4432cabff7b5556263d545",
+  "selectedState": "Both lessons remain unselected; source decisions and manifest were not edited.",
+  "reviews": [
+    {
+      "sourceOrdinal": 2398,
+      "sourceId": "book10-16-0287",
+      "lessonId": "advanced-native-2398",
+      "verdict": "repair",
+      "ownerAssessment": "The source's narrative-pacing metaphor is reusable in novel, podcast, film and stage contexts. It differs from canonical 307's freedom or relief under pressure. The lesson assesses useful clue development before a reveal rather than simple lengthening, so seven-step ownership is defensible.",
+      "passingChecks": "Exact source sentence/expression and full-sentence detector match; the six answer keys are defensible; all four reply options improve pacing and only the golden reply bears the target; changed media contexts remain within narrative pacing; Traditional Chinese generally matches; speaking span, two writing target occurrences, six answer-derived glossary spans and four audio texts check out.",
+      "findings": [
+        {
+          "id": "R2398-01",
+          "severity": "major",
+          "fields": ["writing.examples[0].en/zh", "writing.examples[1].en/zh"],
+          "issue": "The writing prompt says the present school-play draft reveals the thief in the first scene, and selfCheckZh expressly requires both models to state that the reveal is too early. Both examples propose a clue and final-scene reveal but omit the current premature-reveal diagnosis.",
+          "repair": "Make each model explicitly identify the current first-scene reveal as too early, then offer its distinct trophy-related clue and final-act reveal. Keep each model within one or two sentences and recalculate affected answer-derived glossary offsets."
+        }
+      ],
+      "nonblockingNote": "Several incorrect options rely on absolute or unrelated claims; improving at least one listening or dialogue foil would make the advanced-level choice less transparent, but the current key remains fair."
+    },
+    {
+      "sourceOrdinal": 2714,
+      "sourceId": "book10-16-0603",
+      "lessonId": "advanced-native-2714",
+      "verdict": "repair",
+      "ownerAssessment": "The recorded source uses 'what clicks emotionally' for immediate emotional appeal. This differs from canonical 1203's cognitive understanding when things begin to click. Oxford Learner's Dictionary also records figurative click-with-somebody for becoming popular; extending the source's explicit emotional adverb to songs and visual work is defensible, though the phrase should remain conversational rather than a universal technical term.",
+      "passingChecks": "Exact source provenance and full-sentence detector match; all six keys distinguish emotional connection from polish, technical understanding or literal clicking; all four replies choose the same defensible song and only the golden reply bears the target; scene/dialogue keys, speaking span, two writing target occurrences, six answer-derived glossary spans and four audio roles pass mechanical checks.",
+      "findings": [
+        {
+          "id": "R2714-01",
+          "severity": "major",
+          "fields": ["writing.examples[0].en/zh", "writing.examples[1].en/zh", "writing.glossary"],
+          "issue": "The prompt asks the learner and a friend to explain their own music choice for a class reunion, remembering their final interschool performance. Model 1 unexpectedly makes Mei alone choose; model 2 uses an unnamed third-person group. Their English says 'final school performance' or 'final performance', omitting interschool, while the Chinese model/glossary adds 校際. Both models therefore miss the requested speaker viewpoint and EN/ZH event detail.",
+          "repair": "Have both models answer as 'we' or 'I and my friend', choose the old song for the reunion, and name the final interschool performance in English and Traditional Chinese. Keep the emotional-versus-production contrast and regenerate every affected glossary span."
+        },
+        {
+          "id": "R2714-02",
+          "severity": "minor",
+          "fields": ["listening.en", "listening.zh"],
+          "issue": "The audio says the grandmother played music 'beside those old photographs'; the Chinese likewise places her physically beside the photographs. The scene supplies a memory association, not that oddly literal location, so this phrasing distracts from the reason for the song choice.",
+          "repair": "Say the song reminds Mira of music her grandmother played and fits the old photographs, with equivalent Chinese. Recheck the listening key and changed audio synthesis text."
+        }
+      ]
+    }
+  ],
+  "mechanicalScope": "Independently checked source-inventory rows, prior-owner titles/meanings, target matches on full sources and keyed scene/dialogue/speaking/writing/takeaways, exact targetSpan and glossary substrings. Author focused build/check reports 2 lessons/12 questions/8 audio roles/0 structural flags and no six-token non-target source copy. This was a focused semantic review, not a release or full-catalogue audit.",
+  "externalSenseReference": "https://www.oxfordlearnersdictionaries.com/us/definition/english/click_1",
+  "nextGate": "Author repairs exact fields, reruns focused build/check and source originality, then requests scoped independent final-hash follow-up. No selection, source-decision, audio publication or deployment is authorized by this review."
+}

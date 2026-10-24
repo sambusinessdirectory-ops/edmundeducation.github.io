@@ -1,0 +1,142 @@
+{
+  "reportType": "author-self-audit-held-distinct-2844-3013-a",
+  "status": "AI-authored-unselected-for-independent-review",
+  "selectedManifestSha256": "e6a9beb2defd46634a66c225fc09d0519b254569ce80c39799cdc8d01f83f1d3",
+  "selectedCount": 619,
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-2844-3013-a.json",
+  "draftSha256": "f1a4e47db0a9eb232332d6e4088124465a94d34cc2d40b1c2475edf65338ac8d",
+  "sourceDocxSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceOrdinals": [
+    2844,
+    3013
+  ],
+  "review": {
+    "english": "pending independent AI/human",
+    "chinese": "pending independent AI/human",
+    "media": "not generated",
+    "browser": "not run",
+    "publication": "none"
+  },
+  "sourceAndOwnerGate": [
+    {
+      "sourceOrdinal": 2844,
+      "sourceId": "book10-16-0733",
+      "exactSourceSentence": "The forum became a crowded town square for debate.",
+      "decision": "provisional distinct figurative lesson",
+      "proposedLemma": "a digital/online/crowded town square",
+      "sourceSense": "An online forum can function as an open, interactive and sometimes noisy public discussion space.",
+      "ownerComparison": [
+        {
+          "ownerId": "advanced-native-1995",
+          "reason": "Teaches broad roles of social media as playground/marketplace/platform; does not assess public reciprocal debate as a town square."
+        }
+      ],
+      "naturalnessEvidence": [
+        {
+          "url": "https://niemanreports.org/a-newspaper-talks-with-readers-in-a-cyber-town-square/",
+          "scope": "Professional journalism usage of cyber town square for interactive online reader discussion."
+        },
+        {
+          "url": "https://www.heinz.cmu.edu/media/2025/March/deregulating-the-digital-town-square",
+          "scope": "University discussion of digital town square metaphor; crowded is a contextual modifier, not a fixed part of the lemma."
+        }
+      ],
+      "caveat": "The target pattern is a display-form detector, not a semantic classifier; a crowded literal square requires context to exclude."
+    },
+    {
+      "sourceOrdinal": 3013,
+      "sourceId": "book10-16-0902",
+      "exactSourceSentence": "When planning a career, remember that every choice opens one door and closes another.",
+      "decision": "provisional distinct figurative lesson",
+      "proposedLemma": "open one door and close another",
+      "sourceSense": "One constrained decision enables one option while delaying or foregoing another.",
+      "ownerComparison": [
+        {
+          "ownerId": "advanced-native-28",
+          "reason": "Teaches creating access without a paired forgone option."
+        },
+        {
+          "ownerId": "advanced-native-785",
+          "reason": "Teaches preserving several options rather than the result of choosing one."
+        },
+        {
+          "ownerId": "advanced-native-1644",
+          "reason": "Teaches one problem followed by another, not a simultaneous opportunity cost."
+        },
+        {
+          "ownerId": "advanced-native-688",
+          "reason": "Teaches a broad benefit/disadvantage trade-off but not two mutually exclusive paths or the paired door image."
+        }
+      ],
+      "naturalnessEvidence": [
+        {
+          "url": "https://www.projectfinance.law/media/5589/pfn_1020b.pdf",
+          "scope": "Professional analysis uses an opens-one-door/closes-others construction for a decision with mixed opportunity effects; this is figurative usage evidence, not proof of a fixed idiom."
+        }
+      ],
+      "caveat": "This is a productive metaphor rather than an established fixed idiom. Independent reviewer should hold it if the seven decisions collapse into repetition."
+    }
+  ],
+  "sevenDecisions": {
+    "2844": [
+      "Infer a crowded, public online exchange from audio.",
+      "Answer what a family forum becomes with four independently valid descriptions.",
+      "Match a visitor-to-visitor online discussion to the metaphor.",
+      "Reject a one-way council announcement as outside the boundary.",
+      "Continue a conversation by balancing open debate with moderation.",
+      "Speak an original tenant-forum model after listening.",
+      "Describe a health-clinic forum while separating public debate from private medical matters."
+    ],
+    "3013": [
+      "Infer immediate gain and postponed alternative under a room constraint.",
+      "Explain a one-room art-class decision in four independently valid ways.",
+      "Choose the paired-door expression for a single grant and two projects.",
+      "Reject the metaphor where two projects have separate resources and no trade-off.",
+      "Respond without shaming someone who chose income over a course.",
+      "Speak a gallery-budget model after listening.",
+      "Transfer to a fountain-versus-workshop grant without claiming permanent closure."
+    ]
+  },
+  "focusedValidation": {
+    "build": {
+      "lessons": 2,
+      "questions": 12,
+      "audioRequests": 8,
+      "reviewFlags": 0,
+      "outDir": "/private/tmp/advanced-native-held-2844-3013-a"
+    },
+    "check": "pass with identical generated outputs",
+    "exactSourceOccurrenceCount": 2,
+    "sourceExamplesTargetMatched": 2,
+    "keyedSceneAndDialogueTargetMatched": 4,
+    "fourValidReplyManualReview": "All four replies in each task answer the same concrete question; one per lesson uses the target. Independent pragmatic review remains pending.",
+    "glossaryRows": 12,
+    "glossaryAnswerSpansExact": 12,
+    "glossaryTargetLeakage": 0,
+    "speakingTargetSpansExact": 2,
+    "fourDistinctAudioTextsPerLesson": true,
+    "targetPositiveNegativeControls": "Passed for source and assessed forms; rejects bare town square and opposite door order. Literal crowded town square still matches textually, so semantic context review is required.",
+    "originality": {
+      "learnerEnglishFields": 56,
+      "sixTokenGuideHits": 10,
+      "sixTokenHitsAllTargetOrGenericChoicePlusTarget": true,
+      "nearFullGuideHitsWithinTwoTokenChanges": 0
+    }
+  },
+  "risks": [
+    "2844 target form normalises crowded town square to digital/online town square; independent reviewer should verify source-sense coverage and Chinese nuance.",
+    "3013 may be judged a bespoke maxim rather than a settled expression; it remains unselected until the seven decisions and owner distinction pass independent review.",
+    "No human idiomaticity, audio listening, browser, release or rights approval is claimed."
+  ],
+  "mutations": {
+    "newDraftFiles": 1,
+    "newReviewFiles": 1,
+    "editorialDecisions": 0,
+    "selectedManifest": 0,
+    "canonicalOwners": 0,
+    "goldenAudit": 0,
+    "audioAssets": 0,
+    "publishedAssets": 0
+  }
+}

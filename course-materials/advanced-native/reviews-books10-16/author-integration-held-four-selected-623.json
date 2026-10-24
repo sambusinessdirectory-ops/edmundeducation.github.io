@@ -1,0 +1,145 @@
+{
+  "reportType": "unpublished-provisional-four-lesson-integration",
+  "createdUtc": "2026-10-24T00:01:39.934430+00:00",
+  "status": "integrated-technical-checks-pass-unpublished",
+  "selectedCheckpointBefore": 619,
+  "selectedCheckpointAfter": 623,
+  "selectedBatchFilesBefore": 158,
+  "selectedBatchFilesAfter": 160,
+  "sourceOrdinals": [
+    2398,
+    2714,
+    2844,
+    3013
+  ],
+  "sourceIds": [
+    "book10-16-0287",
+    "book10-16-0603",
+    "book10-16-0733",
+    "book10-16-0902"
+  ],
+  "sourceBatches": [
+    {
+      "path": "drafts-books10-16/batch-held-2398-2714-author-review.json",
+      "sha256": "c56a3c3b9a80e235bfb251d2b56e8e70a1c88d5bc7be74a321fdfc65755506e1"
+    },
+    {
+      "path": "drafts-books10-16/batch-held-distinct-2844-3013-a.json",
+      "sha256": "f1a4e47db0a9eb232332d6e4088124465a94d34cc2d40b1c2475edf65338ac8d"
+    }
+  ],
+  "independentReviews": [
+    {
+      "path": "reviews-books10-16/independent-ai-review-held-2398-2714-b-followup.json",
+      "sha256": "2a46a4dd0b469fa2ad2cee6ef8a4b528e0a1e072df2abd5ae2cdf0821797ad1b"
+    },
+    {
+      "path": "reviews-books10-16/independent-ai-review-held-distinct-2844-3013-b.json",
+      "sha256": "20b0ffa24d230a34beadbc74eb7378fee9a5551e13087e4f1599b481b84dc956"
+    }
+  ],
+  "lessonObjectsRemainByteEquivalentToReviewedBatchFiles": true,
+  "firstPairIntermediateIntegrationEvidencePath": "reviews-books10-16/author-integration-held-2398-2714-selected-621.json",
+  "firstPairIntermediateIntegrationEvidenceSha256": "4e8ce097771de13b5f1fb9702dd2c4aafcf2b27bb52b1ad703e0688427f0b610",
+  "secondPairFileHashesBefore": {
+    "course-materials/advanced-native/drafts-books10-16/batch-manifest.json": "b2e2e07c3548422504688173af30b421dadb4e99a63d769be393493562b01431",
+    "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-2844-3013-a.json": "f1a4e47db0a9eb232332d6e4088124465a94d34cc2d40b1c2475edf65338ac8d",
+    "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-distinct-2844-3013-b.json": "20b0ffa24d230a34beadbc74eb7378fee9a5551e13087e4f1599b481b84dc956",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl": "4ae1fcc9d519f0cc5e3d3447b91655d03edbf11e35b18e7f7afb2e6c5076a912",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl": "3ca6ffa3762a6635297ca91c4a3e13080af082ed727d20f1ec2cab820c40bb1d"
+  },
+  "secondPairFileHashesAfter": {
+    "course-materials/advanced-native/drafts-books10-16/batch-manifest.json": "8288eb31976993a832f9ce8e35ef6ed4baf0623ccaa3021b2be95de0248537e3",
+    "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-2844-3013-a.json": "f1a4e47db0a9eb232332d6e4088124465a94d34cc2d40b1c2475edf65338ac8d",
+    "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-distinct-2844-3013-b.json": "20b0ffa24d230a34beadbc74eb7378fee9a5551e13087e4f1599b481b84dc956",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl": "b07aac50ab764f0ab0a35d0813b1e9e10fa8ee4a2203a612d14e2b5d42f2e6ec",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl": "aa7319966cc9901064b0e89a03ece24cf96974fe97efdd1feb2c49881c700b93"
+  },
+  "secondPairDecisionRowsBefore": {
+    "2844": {
+      "sourceOrdinal": 2844,
+      "sourceId": "book10-16-0733",
+      "phrase": "a crowded town square",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-2844",
+      "reason": "Reusable crowded-town-square metaphor for reciprocal public discussion, distinct from a one-way announcement or private exchange; retains exact guide source book10-16-0733. Seven-step EN/ZH lesson independently AI content-cleared at batch SHA f1a4e47db0a9eb232332d6e4088124465a94d34cc2d40b1c2475edf65338ac8d; provisional unpublished selection."
+    },
+    "3013": {
+      "sourceOrdinal": 3013,
+      "sourceId": "book10-16-0902",
+      "phrase": "every choice opens one door and closes another",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-3013",
+      "reason": "Reusable paired-door choice image explains a concrete gained opportunity and a foregone or deferred alternative without treating the choice as a mistake; exact guide source book10-16-0902. Seven-step EN/ZH lesson independently AI content-cleared at batch SHA f1a4e47db0a9eb232332d6e4088124465a94d34cc2d40b1c2475edf65338ac8d; provisional unpublished selection."
+    }
+  },
+  "secondPairDecisionRowsAfter": {
+    "2844": {
+      "sourceOrdinal": 2844,
+      "sourceId": "book10-16-0733",
+      "phrase": "a crowded town square",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-2844",
+      "reason": "Reusable crowded-town-square metaphor for reciprocal public discussion, distinct from a one-way announcement or private exchange; retains exact guide source book10-16-0733. Seven-step EN/ZH lesson independently AI content-cleared at batch SHA f1a4e47db0a9eb232332d6e4088124465a94d34cc2d40b1c2475edf65338ac8d; provisional unpublished selection."
+    },
+    "3013": {
+      "sourceOrdinal": 3013,
+      "sourceId": "book10-16-0902",
+      "phrase": "every choice opens one door and closes another",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-3013",
+      "reason": "Reusable paired-door choice image explains a concrete gained opportunity and a foregone or deferred alternative without treating the choice as a mistake; exact guide source book10-16-0902. Seven-step EN/ZH lesson independently AI content-cleared at batch SHA f1a4e47db0a9eb232332d6e4088124465a94d34cc2d40b1c2475edf65338ac8d; provisional unpublished selection."
+    }
+  },
+  "selectedManifestSha256": "8288eb31976993a832f9ce8e35ef6ed4baf0623ccaa3021b2be95de0248537e3",
+  "publication": false,
+  "databaseWrite": false,
+  "audioGenerated": false,
+  "browserReviewed": false,
+  "verifiedUtc": "2026-10-24T00:02:23.748073+00:00",
+  "selectedExpectedSourceOrdinalsAscending": true,
+  "projectedDisplayRange": "1894–2516",
+  "technicalChecks": {
+    "focusedBuildAndCheck": "4 lessons, 24 questions, 16 audio roles, 0 review flags; both build and --check exit 0",
+    "combinedVerifier": {
+      "sourceRows": 2604,
+      "decisionRows": 2604,
+      "selectedLessons": 623,
+      "questions": 3738,
+      "selectedAudioRoles": 2492,
+      "newLessons": 623,
+      "existingAliases": 1164,
+      "newAliases": 181,
+      "holds": 636,
+      "schemaErrors": 0,
+      "published": false,
+      "releaseApproved": false
+    },
+    "existingAliasPatternMatches": 1164,
+    "existingAliasPatternExceptions": 0,
+    "newAliasMatches": 181,
+    "newAliasExceptions": 0,
+    "holdCoverage": {
+      "currentHolds": 636,
+      "unauditedCurrentHolds": 0,
+      "errors": 0
+    },
+    "originality": {
+      "learnerFacingStrings": 15355,
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "nearFullReviewLeads": 6,
+      "reviewNearFullLeads": 48
+    },
+    "newOwnerDetectorCollisionLeads": 30,
+    "decisionFileContentDigestSha256": "fca8b32385388747fdbc0f0ccd8fbe97e69e6f440b922cc9439f8bbc3c6ce604",
+    "selectedFileContentDigestSha256": "14ccefd2269998e8582bb7bc6dc7fface6efae12794812951feb02098f62caa6"
+  },
+  "remainingGates": [
+    "Exact-current audio synthesis and media QA for new selected roles",
+    "Focused Chromium/WebKit browser QA",
+    "Golden SOP audit refresh",
+    "Publication and live acceptance"
+  ]
+}

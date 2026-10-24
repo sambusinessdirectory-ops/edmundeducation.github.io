@@ -1,0 +1,42 @@
+{
+  "reportType": "independent-ai-scoped-exact-hash-unselected-lesson-followup",
+  "status": "content-clear-unselected",
+  "batchPath": "course-materials/advanced-native/drafts-books10-16/batch-held-2398-2714-author-review.json",
+  "batchSha256": "c56a3c3b9a80e235bfb251d2b56e8e70a1c88d5bc7be74a321fdfc65755506e1",
+  "authorRepairAuditPath": "course-materials/advanced-native/reviews-books10-16/author-held-2398-2714-scoped-repair-followup.json",
+  "authorRepairAuditSha256": "02ca5adccb6d742e0c8d91b518a73954a1e66fd70783c71433fec1fed900d742",
+  "priorIndependentReviewSha256": "5c45a566fbb056632d8720e922b2ffab510fad80b21a880e7c2f97beac4bd80e",
+  "lessons": [
+    {
+      "sourceOrdinal": 2398,
+      "lessonId": "advanced-native-2398",
+      "verdict": "accept-for-provisional-unpublished-selection",
+      "recheckedFinding": {
+        "id": "R2398-01",
+        "result": "resolved",
+        "evidence": "Both EN/ZH writing models now explicitly say the existing first-scene thief reveal is too early, then offer different trophy-related clues and place the answer in the final scene. Each remains two sentences."
+      },
+      "regression": "Both models retain the target. All six answer-derived glossary rows still match their exact English spans and do not include the target; Chinese preserves clue/timing details. Other assessed questions and source/target patterns are unchanged."
+    },
+    {
+      "sourceOrdinal": 2714,
+      "lessonId": "advanced-native-2714",
+      "verdict": "accept-for-provisional-unpublished-selection",
+      "recheckedFindings": [
+        {
+          "id": "R2714-01",
+          "result": "resolved",
+          "evidence": "Both models now choose the old song from the learner-and-friend viewpoint, explicitly name the final interschool performance in EN/ZH, and retain the production-versus-emotional-appeal contrast."
+        },
+        {
+          "id": "R2714-02",
+          "result": "resolved",
+          "evidence": "The listening model now links the song to music Mira's grandmother used to play and separately says its gentle mood suits the photographs; Chinese conveys both reasons without placing the grandmother beside the photographs. The keyed listening option remains supported."
+        }
+      ],
+      "regression": "The revised listening text retains the target; both writing models retain target-bearing English and faithful Chinese. All six regenerated glossary spans are exact and exclude the target. The other assessment keys and four-valid reply are unchanged."
+    }
+  ],
+  "focusedChecks": "Author build/--check reports 2 lessons, 12 questions, 8 audio roles, zero schema/diversity flags and zero non-target six-token source overlaps. Independent recheck verified changed-field target matches, exact glossary substrings, 1–2-sentence writing length, prompt fidelity and Chinese parity; it did not repeat the whole-catalogue audit.",
+  "nextGate": "Both lessons are AI content-clear for separately coordinated provisional unpublished selection. Rebuild exact audio for the changed 2714 listening role and all newly selected roles before media approval; browser, source-decision, manifest and release gates remain separate. No content, decisions or manifest were edited in this review."
+}

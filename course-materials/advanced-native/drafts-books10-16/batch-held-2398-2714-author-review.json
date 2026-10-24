@@ -1,0 +1,571 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-2398-2714-author-review",
+  "lessons": [
+    {
+      "id": "advanced-native-2398",
+      "number": 2398,
+      "inventoryId": "expr-2398",
+      "titleEn": "let the mystery breathe",
+      "titleZh": "讓懸念有空間發展",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\blet(?:s|ting)? (?:the|a|this|that) (?:mystery|story|plot) breathe\\b",
+        "glossaryForbidden": [
+          "\\b(?:mystery|story|plot) breathe\\b",
+          "\\blet(?:s|ting)? (?:the|a|this|that) (?:mystery|story|plot)\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Allow a narrative enough room and time for clues, tension or characters to develop before a payoff.",
+        "meaningZh": "在揭曉或推進情節前，留出足夠篇幅讓線索、懸念或人物自然發展。",
+        "grammar": "Let + the mystery/story/plot + bare infinitive breathe; lets and letting inflect the verb let, while breathe stays in base form. It comments on narrative pacing, not literal breathing.",
+        "register": "Informal to neutral writing and editing discussion; a critic may use it in a review.",
+        "boundaryZh": "重點是讓已有的懸念得到合理鋪墊；不是無限拖延揭曉，也不是隱瞞必要資訊。",
+        "misconceptionZh": "不要把 breathe 解作角色呼吸，亦不要以為多加無關情節就等於鋪墊。",
+        "outcomeZh": "能分辨讓懸念逐步發展、單純拖慢節奏及過早揭曉三種做法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0287",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 26,
+          "book": 10,
+          "question": 22,
+          "sample": "S1",
+          "sourceBookPages": "52–53",
+          "locatorNote": "DOCX table 22, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The longer format lets the mystery breathe.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "lets the mystery breathe"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent sense and language review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "Why does the editor suggest another scene before the reveal?",
+        "promptZh": "編輯為何建議在揭曉前加一場戲？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Readers need time to notice the clue and form their own suspicion.",
+            "zh": "讀者需要時間留意線索，並自行產生懷疑。"
+          },
+          {
+            "id": "b",
+            "en": "The editor wants to remove every clue from the chapter.",
+            "zh": "編輯想刪去章節內所有線索。"
+          },
+          {
+            "id": "c",
+            "en": "The writer has already explained the solution in the first paragraph.",
+            "zh": "作者已在第一段解釋謎底。"
+          },
+          {
+            "id": "d",
+            "en": "The editor wants to add a scene unrelated to the case.",
+            "zh": "編輯想加入一場與案件無關的戲。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "加一場有用的戲，讓讀者有時間留意線索並猜測，才是讓懸念有空間發展。",
+        "en": "The reveal arrives too quickly; let the mystery breathe by showing the torn ticket before the detective explains it.",
+        "zh": "謎底揭曉得太快；先讓讀者看到那張撕破的車票，再由偵探解釋，讓懸念有空間發展。"
+      },
+      "reply": {
+        "promptEn": "The draft reveals the thief as soon as the locked room appears. How could we improve the pacing?",
+        "promptZh": "草稿一出現密室，就立即揭曉小偷身分。我們可以怎樣改善節奏？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let the mystery breathe by giving readers one meaningful clue before the reveal.",
+            "zh": "揭曉前先給讀者一項有用的線索，讓懸念有空間發展。"
+          },
+          {
+            "id": "b",
+            "en": "We could show the key turning up in an unexpected place before naming the thief.",
+            "zh": "我們可以先寫鑰匙在意想不到的地方出現，再指出小偷。"
+          },
+          {
+            "id": "c",
+            "en": "Perhaps the witness should hesitate, allowing readers to compare two possible suspects.",
+            "zh": "也許證人可以遲疑一下，讓讀者比較兩名疑犯。"
+          },
+          {
+            "id": "d",
+            "en": "The detective could examine the window first, then explain what it proves.",
+            "zh": "偵探可以先檢查窗戶，再解釋這能證明甚麼。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四種回應都提供有用的鋪墊；金句直接用本課表達，指出不能過早揭曉。"
+      },
+      "scene": {
+        "promptEn": "A podcast episode names the culprit in its opening minute. The producer adds a short exchange in which listeners hear a meaningful contradiction before the reveal. Which description fits?",
+        "promptZh": "播客一開首便說出犯人是誰。製作人加了一段短對話，讓聽眾在揭曉前先聽出一處關鍵矛盾。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The exchange lets the mystery breathe without adding an unrelated detour.",
+            "zh": "這段對話讓懸念有空間發展，並沒有加入無關的岔題。"
+          },
+          {
+            "id": "b",
+            "en": "The exchange removes the contradiction so listeners cannot assess any evidence.",
+            "zh": "這段對話刪去了矛盾，令聽眾無法判斷證據。"
+          },
+          {
+            "id": "c",
+            "en": "The exchange makes the episode longer only by repeating the opening.",
+            "zh": "這段對話只是重複開場，令節目變長。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新對話提供可供思考的矛盾，為揭曉鋪墊；純粹重複或刪線索都做不到。"
+      },
+      "contrast": {
+        "promptEn": "Which editing choice least helps a story breathe?",
+        "promptZh": "哪項編輯做法最不能讓故事有空間發展？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Allowing a witness to mention an odd receipt before the solution.",
+            "zh": "揭曉前讓證人提及一張可疑收據。"
+          },
+          {
+            "id": "b",
+            "en": "Adding five unrelated descriptions while keeping the same abrupt reveal.",
+            "zh": "加上五段無關描寫，但仍突然揭曉謎底。"
+          },
+          {
+            "id": "c",
+            "en": "Giving readers a moment to compare two conflicting accounts.",
+            "zh": "讓讀者有時間比較兩種互相矛盾的說法。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "無關描寫只會拖慢篇幅；真正的鋪墊須讓線索或疑問逐步發展。"
+      },
+      "dialogue": {
+        "promptEn": "A filmmaker says: “Our short film explains the missing letter as soon as it is found, but I want the audience to wonder who wrote it.” What reply addresses the problem?",
+        "promptZh": "導演說：「短片一找到失蹤的信，就立即解釋它的來歷；但我想觀眾猜想是誰寫的。」哪句回應能解決問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let the mystery breathe: show the handwriting to two characters before revealing the writer.",
+            "zh": "讓懸念有空間發展：先讓兩名角色看見筆跡，再揭曉寫信者。"
+          },
+          {
+            "id": "b",
+            "en": "Delete the letter, since the audience should never see any evidence.",
+            "zh": "把信刪掉，因為觀眾不應看到任何證據。"
+          },
+          {
+            "id": "c",
+            "en": "Keep the immediate explanation and add an unrelated chase afterwards.",
+            "zh": "保留立即解釋的安排，之後再加一場無關的追逐。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "先展示筆跡，讓人物及觀眾有機會推測，再揭曉寫信者；另外兩句未改善懸念的鋪墊。"
+      },
+      "speaking": {
+        "en": "We can let the mystery breathe by showing the photograph before the investigator explains why it matters.",
+        "zh": "我們可以先展示照片，再由調查員解釋它的重要性，讓懸念有空間發展。",
+        "promptZh": "先聽示範，再說出如何留時間讓一項線索發揮作用。",
+        "targetSpan": {
+          "start": 7,
+          "end": 30
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校戲劇在最後一幕才揭曉誰偷走了獎盃。現有草稿在第一場就說出答案。請用一至兩句英文向導演建議一項有用的鋪墊，並說明何時揭曉。",
+        "selfCheckZh": "兩例都指出目前揭曉太早，提出與獎盃有關的線索或人物反應，並保留答案到最後一幕；不可只加無關戲份。",
+        "examples": [
+          {
+            "en": "The first-scene reveal comes too soon. We should let the mystery breathe: let the audience notice a torn costume label beside the empty trophy case before the thief is revealed in the final scene.",
+            "zh": "第一場就揭曉小偷身分太早。我們應讓懸念有空間發展：先讓觀眾留意獎盃空櫃旁一張撕破的戲服標籤，再於最後一幕揭曉小偷身分。"
+          },
+          {
+            "en": "Revealing the thief in the first scene is too early. The play can let the mystery breathe by giving two suspects a short exchange about the missing key, then revealing who took the trophy in the final scene.",
+            "zh": "第一場就揭曉小偷身分太早。戲劇可以讓懸念有空間發展：先安排兩名疑犯簡短談及遺失的鑰匙，再於最後一幕揭曉誰拿走獎盃。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a torn costume label",
+            "zh": "一張撕破的戲服標籤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 98,
+              "end": 118
+            }
+          },
+          {
+            "en": "the empty trophy case",
+            "zh": "空置的獎盃櫃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 126,
+              "end": 147
+            }
+          },
+          {
+            "en": "the thief is revealed",
+            "zh": "揭曉小偷身分",
+            "exampleIndex": 0,
+            "span": {
+              "start": 155,
+              "end": 176
+            }
+          },
+          {
+            "en": "two suspects",
+            "zh": "兩名疑犯",
+            "exampleIndex": 1,
+            "span": {
+              "start": 100,
+              "end": 112
+            }
+          },
+          {
+            "en": "the missing key",
+            "zh": "遺失的鑰匙",
+            "exampleIndex": 1,
+            "span": {
+              "start": 136,
+              "end": 151
+            }
+          },
+          {
+            "en": "the final scene",
+            "zh": "最後一幕",
+            "exampleIndex": 1,
+            "span": {
+              "start": 191,
+              "end": 206
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A useful clue can let the mystery breathe before the final answer arrives.",
+          "zh": "一項有用的線索可讓懸念在謎底揭曉前逐步發展。"
+        },
+        {
+          "en": "Letting the story breathe requires meaningful development, not extra minutes alone.",
+          "zh": "讓故事有空間發展，需要有意義的鋪墊，並非只增加時長。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2714",
+      "number": 2714,
+      "inventoryId": "expr-2714",
+      "titleEn": "click emotionally",
+      "titleZh": "在情感上產生共鳴",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\bclick(?:s|ed|ing)? emotionally\\b",
+        "glossaryForbidden": [
+          "\\bclick(?:s|ed|ing)?\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Feel immediately compelling or resonant at an emotional level, even if another choice is more impressive on technical grounds.",
+        "meaningZh": "某首歌、故事或作品立即在感情上打動人，即使另一選擇在技巧上更出色。",
+        "grammar": "A song, story or image can click emotionally with someone or for someone; click inflects as clicks/clicked/clicking. The phrase is an informal evaluative metaphor, not a mechanical click.",
+        "register": "Conversational and informal criticism, especially when comparing creative choices.",
+        "boundaryZh": "形容個人或某群觀眾的情感連結，不等於所有人都喜歡，也不等於已理性理解作品的全部內容。",
+        "misconceptionZh": "不要與「知識突然弄懂」的 click 混為一談，也不要把音樂的 click 理解成節拍器聲。",
+        "outcomeZh": "能區分情感共鳴、技術水平、知識理解和字面咔嗒聲。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0603",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 56,
+          "book": 11,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "40–42",
+          "locatorNote": "DOCX table 51, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Readers often choose what clicks emotionally.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "what clicks emotionally"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent sense and language review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "Why did Mira choose the quieter song for the exhibition?",
+        "promptZh": "Mira 為何選較安靜的歌曲配合展覽？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It reminded her of her grandmother and fitted the photographs.",
+            "zh": "它令她想起祖母，也與照片相配。"
+          },
+          {
+            "id": "b",
+            "en": "Its tempo was the fastest of all the choices.",
+            "zh": "它是所有選項中節奏最快的一首。"
+          },
+          {
+            "id": "c",
+            "en": "The musician had explained every chord to her.",
+            "zh": "音樂家已向她解釋每個和弦。"
+          },
+          {
+            "id": "d",
+            "en": "The speaker made a clicking noise during playback.",
+            "zh": "播放時揚聲器發出咔嗒聲。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她選歌是因為回憶與照片帶來情感共鳴；節奏、和弦知識及咔嗒聲都不是原因。",
+        "en": "The quieter song clicked emotionally with Mira: it reminded her of music her grandmother used to play, and its gentle mood suited the old photographs.",
+        "zh": "較安靜的歌曲令 Mira 在情感上產生共鳴：它令她想起祖母以前常播放的音樂，而它柔和的氣氛也與舊照片相配。"
+      },
+      "reply": {
+        "promptEn": "Both songs suit the short film, but the second one reminds our team of the neighbourhood where we grew up. Which would you choose?",
+        "promptZh": "兩首歌都適合短片，但第二首令我們想起成長的社區。你會選哪首？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The second song clicks emotionally with us, so I would choose it for this film.",
+            "zh": "第二首歌令我們在情感上產生共鳴，所以我會選它配合短片。"
+          },
+          {
+            "id": "b",
+            "en": "I would use the second song because its memory of the neighbourhood suits our story.",
+            "zh": "我會選第二首，因為它喚起的社區回憶符合我們的故事。"
+          },
+          {
+            "id": "c",
+            "en": "The first song is more polished, but the second carries a feeling our team shares.",
+            "zh": "第一首製作較精緻，但第二首承載了我們共同的感受。"
+          },
+          {
+            "id": "d",
+            "en": "I would choose the second song; the neighbourhood memory makes it more fitting for our film.",
+            "zh": "我會選第二首歌；它喚起的社區回憶更適合我們的短片。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都可作合理回應；金句直接點出第二首歌帶來的情感共鳴。"
+      },
+      "scene": {
+        "promptEn": "A museum chooses a photograph for a community display. It is less polished than another entry, but many residents recognise their old street and become moved. Which description best fits?",
+        "promptZh": "博物館為社區展覽選照片。它不及另一張精緻，但很多居民認出昔日的街道，深受感動。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The photograph clicked emotionally with residents because it brought back a shared memory.",
+            "zh": "照片勾起居民共同的回憶，令他們在情感上產生共鳴。"
+          },
+          {
+            "id": "b",
+            "en": "The photograph is technically sharper than every other entry.",
+            "zh": "照片在技術上比其他作品都清晰。"
+          },
+          {
+            "id": "c",
+            "en": "Residents understood the camera settings for the first time.",
+            "zh": "居民第一次理解相機設定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "居民被共同回憶打動，屬情感共鳴；題目沒有說它最清晰或使人明白相機設定。"
+      },
+      "contrast": {
+        "promptEn": "Which situation is least about a work clicking emotionally?",
+        "promptZh": "哪個情況最不能說作品在情感上產生共鳴？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A song brings back a listener’s childhood and makes her pause.",
+            "zh": "一首歌勾起聽眾的童年回憶，令她停下來。"
+          },
+          {
+            "id": "b",
+            "en": "A student finally understands how to calculate the song’s tempo.",
+            "zh": "學生終於學懂怎樣計算歌曲速度。"
+          },
+          {
+            "id": "c",
+            "en": "A film scene recalls a family ritual and moves its viewers.",
+            "zh": "電影場景令人想起家庭習慣，打動觀眾。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "學懂計算速度屬知識理解，不是作品帶來的情感連結。"
+      },
+      "dialogue": {
+        "promptEn": "Your friend asks why you chose a simple drawing rather than a technically detailed one for a memorial poster. The simple drawing reminds the family of their old garden. How do you reply?",
+        "promptZh": "朋友問你為何選一幅簡單的畫做紀念海報，而不選技術較精細的作品。簡單的畫令家人想起舊花園。你怎樣回答？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The simple drawing clicked emotionally with the family because it recalled their garden.",
+            "zh": "簡單的畫令家人在情感上產生共鳴，因為它喚起舊花園的回憶。"
+          },
+          {
+            "id": "b",
+            "en": "The simple drawing has more precise shading than the detailed one.",
+            "zh": "簡單的畫比精細的作品有更準確的陰影。"
+          },
+          {
+            "id": "c",
+            "en": "I chose it because the printer makes a clicking sound.",
+            "zh": "我選它是因為打印機會發出咔嗒聲。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "家人的回憶是選畫的原因；其他回應改寫了技術優劣或誤解 click 為聲音。"
+      },
+      "speaking": {
+        "en": "The old recording clicked emotionally with our classmates because it brought back the school choir.",
+        "zh": "舊錄音令同學在情感上產生共鳴，因為它使大家想起學校合唱團。",
+        "promptZh": "先聽示範，再說出錄音與同學之間的情感連結。",
+        "targetSpan": {
+          "start": 18,
+          "end": 37
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你與朋友為多年後的班級重聚選背景音樂。一首新歌錄製精良，另一首舊歌令大家想起最後一次校際表演。請用一至兩句英文說明你選哪首歌及原因。",
+        "selfCheckZh": "兩例都指出舊歌喚起最後一次校際表演的共同回憶，故用於重聚；不要把原因寫成音質或節奏較佳。",
+        "examples": [
+          {
+            "en": "The old song clicked emotionally with us because it brought back our final interschool performance, so we chose it for the class reunion.",
+            "zh": "舊歌勾起我們最後一次校際表演的回憶，令我們在情感上產生共鳴，所以我們選它在班級重聚時播放。"
+          },
+          {
+            "en": "Although the new track had cleaner production, the old song clicked emotionally with my friend and me because it recalled our final interschool performance, so we chose it for the reunion.",
+            "zh": "雖然新歌製作較精良，但舊歌喚起我和朋友最後一次校際表演的回憶，令我們在情感上產生共鳴，所以我們選它在重聚時播放。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The old song",
+            "zh": "舊歌",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 12
+            }
+          },
+          {
+            "en": "our final interschool performance",
+            "zh": "我們最後一次校際表演",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 98
+            }
+          },
+          {
+            "en": "the class reunion",
+            "zh": "班級重聚",
+            "exampleIndex": 0,
+            "span": {
+              "start": 119,
+              "end": 136
+            }
+          },
+          {
+            "en": "the new track",
+            "zh": "新歌",
+            "exampleIndex": 1,
+            "span": {
+              "start": 9,
+              "end": 22
+            }
+          },
+          {
+            "en": "cleaner production",
+            "zh": "更精良的製作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 27,
+              "end": 45
+            }
+          },
+          {
+            "en": "for the reunion",
+            "zh": "在重聚時",
+            "exampleIndex": 1,
+            "span": {
+              "start": 172,
+              "end": 187
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A song can click emotionally even when another track is more polished.",
+          "zh": "即使另一首歌製作更精緻，一首歌仍可能更能打動人。"
+        },
+        {
+          "en": "What clicks emotionally for one audience may leave another unmoved.",
+          "zh": "令一群觀眾產生情感共鳴的作品，未必同樣打動另一群人。"
+        }
+      ]
+    }
+  ]
+}

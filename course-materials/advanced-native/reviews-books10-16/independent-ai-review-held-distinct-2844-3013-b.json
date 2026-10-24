@@ -1,0 +1,44 @@
+{
+  "status": "independent-ai-content-review-unselected-no-release-claim",
+  "draft": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-2844-3013-a.json",
+    "sha256": "f1a4e47db0a9eb232332d6e4088124465a94d34cc2d40b1c2475edf65338ac8d"
+  },
+  "authorAudit": {
+    "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-distinct-2844-3013-a.json",
+    "sha256": "5867022cd12bb640d2ab9a9d80175f9562ee6f66812a5e3a2160760d3bc6c356"
+  },
+  "focusedChecks": {
+    "buildAndCheck": "2 lessons / 12 questions / 8 audio requests / 0 flags; independent build and --check passed",
+    "sourceProvenance": "Both complete source examples and expressions match the intake inventory; target patterns match the source sentences.",
+    "selectedFullSentenceDetectorCollisions": 0,
+    "learnerSourceSixTokenHits": 10,
+    "sixTokenHitDisposition": "All 10 are the fixed paired-door target text in lesson 3013, with no copied carrier/context.",
+    "nearFullSourceHits": 0,
+    "speakingSpansExact": 2,
+    "glossaryRowsExactAndTargetExcluded": 12,
+    "replyOptionsPerLesson": 4
+  },
+  "perLesson": [
+    {
+      "sourceOrdinal": 2844,
+      "decision": "accept",
+      "severity": "none",
+      "sourceAndOwner": "The guide forum-as-crowded-town-square sense is retained. Digital/online are taught as variants, not presented as verbatim source. Selected 1995 teaches broader social-platform roles, not reciprocal civic discussion.",
+      "assessmentAndTranslation": "Listening/scene require visible public exchange; contrast rejects one-way publication; dialogue adds the useful moderation boundary; all four replies fit the school-forum prompt. Writing keeps clinic schedule debate public and private medical details nonpublic in both English and Traditional Chinese. Six glossary spans and speaking span are exact.",
+      "courseValue": "Conventional town-square metaphor supports a reusable public-discussion decision across library, school, museum, tenants and clinic contexts.",
+      "remainingLimit": "A literal crowded physical square can match the detector textually; semantic context is still required. Independent content clearance is not selection or media approval."
+    },
+    {
+      "sourceOrdinal": 3013,
+      "decision": "accept",
+      "severity": "none",
+      "sourceAndOwner": "The source’s same-decision gain/foregone-option meaning is intact. Owners 785 and 688 cover keeping options or generic trade-offs, not this paired opportunity-cost image. The full paired-door clause is productive figurative language, not claimed to be a fixed dictionary idiom.",
+      "assessmentAndTranslation": "All assessed contexts name a concrete scarce room, grant, shift, slot or budget; contrast rejects cases without conflict and dialogue rejects calling a balanced choice a mistake. Four replies independently describe art-class gain and delayed café. Both writing models cover fountain now/workshop later, with no permanent-loss claim. EN/ZH, target-bearing keys, speaking and six glossary spans align.",
+      "courseValue": "The source expression sustains distinct decisions about gain, temporary deferral, absence of constraint and nonjudgmental explanation, so provisional figurative lesson ownership is defensible.",
+      "remainingLimit": "If future usage review requires a fixed idiom rather than a reusable metaphor, retain on hold; no such narrower requirement was applied here. Independent content clearance is not selection or media approval."
+    }
+  ],
+  "blockingFindings": [],
+  "mutations": "Review JSON only; no draft, decision, owner, manifest, SOP audit or media changes."
+}

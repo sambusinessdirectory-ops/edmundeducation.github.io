@@ -1,0 +1,55 @@
+{
+  "reportType": "author-scoped-repair-after-independent-review",
+  "status": "ready-for-exact-hash-independent-recheck",
+  "inputIndependentReview": "reviews-books10-16/independent-ai-review-held-2398-2714-b.json",
+  "reviewedInputBatchSha256": "451f616fa1477fca73166adc77b5a7fe447e4380128574fb94f6578b9b48d1fc",
+  "repairedBatchPath": "course-materials/advanced-native/drafts-books10-16/batch-held-2398-2714-author-review.json",
+  "repairedBatchSha256": "c56a3c3b9a80e235bfb251d2b56e8e70a1c88d5bc7be74a321fdfc65755506e1",
+  "repairedFindings": {
+    "R2398-01": {
+      "fields": [
+        "writing.examples[0].en/zh",
+        "writing.examples[1].en/zh",
+        "writing.glossary.span"
+      ],
+      "change": "Both one-to-two-sentence models explicitly diagnose the existing first-scene reveal as premature, then give distinct trophy-related clues and defer the thief reveal to the final scene; glossary offsets recalculated."
+    },
+    "R2714-01": {
+      "fields": [
+        "writing.examples[0].en/zh",
+        "writing.examples[1].en/zh",
+        "writing.glossary"
+      ],
+      "change": "Both models choose the old song from the learner-plus-friend viewpoint, name the final interschool performance in English and Chinese, retain the emotional-versus-production contrast, and use recalculated answer-derived glossary spans."
+    },
+    "R2714-02": {
+      "fields": [
+        "listening.en",
+        "listening.zh"
+      ],
+      "change": "Audio model now says the song reminds Mira of music her grandmother used to play and that its gentle mood suits the old photographs; Chinese conveys the same two links."
+    }
+  },
+  "frozenChecks": {
+    "lessons": 2,
+    "questions": 12,
+    "audioRolesRequested": 8,
+    "schemaErrors": 0,
+    "diversityFlags": 0,
+    "byteForByteBuildCheck": "passed",
+    "learnerEnglishStringsComparedAgainstAll2604SourceExamples": 56,
+    "sixOrMoreContiguousSourceTokens": 0,
+    "targetPositiveChecks": "passed",
+    "replyGoldenOnlyTarget": "passed",
+    "sceneAndDialogueKeyTarget": "passed",
+    "allGlossarySpans": "passed"
+  },
+  "outOfScopeIntact": [
+    "2181 editorial hold remains unchanged",
+    "source occurrences and target regexes unchanged",
+    "selected manifest and source decisions unchanged",
+    "canonical lessons unchanged",
+    "no MP3 synthesis, upload, release or deployment performed"
+  ],
+  "nextGate": "Independent reviewer must assess exact repaired SHA for naturalness, EN/ZH fidelity, keys and same-event writing alignment before selection."
+}

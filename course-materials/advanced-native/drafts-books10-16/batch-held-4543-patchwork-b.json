@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-4543-patchwork-b",
+  "lessons": [
+    {
+      "id": "advanced-native-4543",
+      "number": 4543,
+      "inventoryId": "expr-4543",
+      "titleEn": "a patchwork of services",
+      "titleZh": "零碎拼湊的服務",
+      "category": "figurative",
+      "contentRevision": 4,
+      "target": {
+        "pattern": "\\b(?:(?:(?:less|more) )?like a patchwork|(?:a|the) patchwork of (?:services|rules|schedules|forms|arrangements|policies|systems|procedures|plans)|(?:a|the) patchwork (?:system|service|network|arrangement|policy|process))\\b",
+        "glossaryForbidden": [
+          "\\bpatchwork\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A figurative collection of service parts, rules or arrangements that have been pieced together without enough coordination, leaving gaps or inconsistent experiences. “Less like a patchwork” means those parts now work together more coherently.",
+        "meaningZh": "把服務、規則或安排比作缺乏協調的拼布：各部分湊在一起，卻留下缺口或造成不一致。「較不像零碎拼湊」表示它們如今更連貫。",
+        "grammar": "A patchwork of + plural services/rules/arrangements; a patchwork system is also possible. “Less like a patchwork” compares a better-integrated later state with an earlier fragmented one. A literal patchwork quilt is not this figurative service sense.",
+        "register": "Neutral to mildly critical service commentary: a bus passenger might describe disconnected routes to a transport planner, while a service coordinator might explain new links to the public.",
+        "boundaryZh": "重點是各部分缺乏銜接，並非「有不同服務」本身不好；若多種服務能順暢配合，不應只因種類多便稱為 patchwork。",
+        "misconceptionZh": "不要把拼布的字面意思套在服務上；亦不要把服務變得連貫誤解為所有服務都被取消。",
+        "outcomeZh": "能根據缺口、互相矛盾的規則及改善後的銜接，判斷 patchwork 何時適用。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2432",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 230,
+          "book": 16,
+          "question": 39,
+          "sample": "S2",
+          "sourceBookPages": "94–95",
+          "locatorNote": "DOCX table 254, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The service now feels less like a patchwork.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "less like a patchwork"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "Provisional held-source lesson; independent editorial review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "Why does the caller describe the clinic booking system as a patchwork?",
+        "promptZh": "來電者為何說診所預約系統像零碎拼湊而成？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Branches use conflicting forms and do not share a booking record.",
+            "zh": "各分所使用互相矛盾的表格，也不共用預約紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "The clinics offer several services through one clear booking route.",
+            "zh": "診所透過一條清晰的預約途徑提供多種服務。"
+          },
+          {
+            "id": "c",
+            "en": "The caller dislikes the pattern on a waiting-room blanket.",
+            "zh": "來電者不喜歡候診室毛毯上的圖案。"
+          },
+          {
+            "id": "d",
+            "en": "Every branch has agreed on the same form and appointment rules.",
+            "zh": "所有分所都採用相同表格及預約規則。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "表格規則互相矛盾，預約紀錄又不能共用，才會令系統零碎；多樣化本身不是問題。",
+        "en": "I filled in one form for the north clinic, then the south clinic told me to start again and could not see my booking. The system feels like a patchwork of rules, not one service.",
+        "zh": "我為北區診所填了一份表，南區診所卻叫我從頭再填，還看不到我的預約。這套系統的規則像零碎拼湊，並不像一項連貫服務。"
+      },
+      "reply": {
+        "promptEn": "Parents use four after-school clubs, but each club sends a different timetable and change notice. Several families have missed sessions. What could we suggest to the coordinator?",
+        "promptZh": "家長會用四個課後小組的服務，但每組發放不同時間表及改動通知，已有幾個家庭錯過活動。我們可向統籌員建議甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The notices feel like a patchwork of schedules; let us publish one shared calendar with a named contact for changes.",
+            "zh": "通知像零碎拼湊的時間表；我們可發佈一份共用日曆，並列出改動聯絡人。"
+          },
+          {
+            "id": "b",
+            "en": "Let us put all four timetables in one calendar and update families whenever a session moves.",
+            "zh": "我們把四份時間表放進同一日曆，每次活動改期便通知家庭。"
+          },
+          {
+            "id": "c",
+            "en": "A single change log would help parents see what moved without checking four separate messages.",
+            "zh": "一份共用改動紀錄可讓家長看清哪些活動改期，不用翻查四則不同訊息。"
+          },
+          {
+            "id": "d",
+            "en": "Could each club send its updates to one coordinator, who then posts a consistent notice to families?",
+            "zh": "可否由各小組先把改動交給同一位統籌員，再由他向家長發出一致通知？"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都提出讓四組資訊銜接的可行辦法；金句直接指出目前時間表零碎拼湊。"
+      },
+      "scene": {
+        "promptEn": "Last year, a town's bus routes had separate tickets and unlinked timetables, so passengers often missed connections. Now one ticket works across routes and live notices show connections. Which description fits the change?",
+        "promptZh": "去年一個市鎮的巴士路線使用不同車票，時間表亦不銜接，乘客常因此錯過轉車。現在一張車票可用於各路線，實時通知亦會顯示轉車資訊。哪句最能描述這項改變？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The coordinated ticket and notices make the transport network less like a patchwork.",
+            "zh": "共用車票和互通的通知令交通網絡較不像零碎拼湊。"
+          },
+          {
+            "id": "b",
+            "en": "The service is still a patchwork merely because different routes retain different departure times.",
+            "zh": "只因不同路線仍有不同開車時間，服務便依然是零碎拼湊。"
+          },
+          {
+            "id": "c",
+            "en": "The live notices must eliminate every late bus, so passengers no longer need to plan connections.",
+            "zh": "實時通知必定能杜絕所有巴士延誤，所以乘客再不用計劃轉車。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "舊服務的車票和時間表互不銜接；現在車票共用、轉車資訊清楚，因此交通服務較不像零碎拼湊，而不是因為取消了其他路線。"
+      },
+      "contrast": {
+        "promptEn": "Which situation is least fairly described as a figurative patchwork?",
+        "promptZh": "哪種情況最不宜用比喻的 patchwork 形容？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A council lists several support schemes, but each has a separate form and contradictory deadlines.",
+            "zh": "議會列出多種支援計劃，但每種表格不同，截止日期亦互相矛盾。"
+          },
+          {
+            "id": "b",
+            "en": "Different specialists work through one referral form and keep each other informed.",
+            "zh": "不同專家共用一份轉介表，並互通最新情況。"
+          },
+          {
+            "id": "c",
+            "en": "Three agencies publish different rules for the same parking permit.",
+            "zh": "三個機構為同一停車許可證公佈不同規則。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "專業人員雖然不同，卻能透過共用表格及溝通協作；多樣化不等於零碎拼湊。"
+      },
+      "dialogue": {
+        "promptEn": "A resident says, “On this street the recycling bin is collected on Tuesday, but the next street uses a different form and collection day. Nobody explains the boundary.” What reply identifies the problem accurately?",
+        "promptZh": "居民說：「這條街星期二收回收桶，隔鄰街道卻要填另一份表，而且收集日不同；沒有人解釋分界。」哪句能準確指出問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The rules are a patchwork of arrangements; residents need one clear map and notice.",
+            "zh": "規則像零碎拼湊的安排；居民需要一張清晰地圖及通知。"
+          },
+          {
+            "id": "b",
+            "en": "Since both streets recycle, residents can use one notice without checking the conflicting forms.",
+            "zh": "既然兩條街都有回收，居民毋須核對不同表格，也可只看一份通知。"
+          },
+          {
+            "id": "c",
+            "en": "Residents could follow the next street’s collection day until someone explains the boundary.",
+            "zh": "在有人解釋分界前，居民可暫時按隔鄰街道的收集日處理。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "同樣是回收，兩街卻有不同表格及日子而未解釋分界；金句指出安排不連貫並提出清晰資訊。"
+      },
+      "speaking": {
+        "en": "The permit rules feel like a patchwork because each office asks for a different document.",
+        "zh": "許可證規則像零碎拼湊，因為每個辦事處都要求不同文件。",
+        "promptZh": "先聽示範，再說出一項具體的不一致之處，而不只說服務種類多。",
+        "targetSpan": {
+          "start": 22,
+          "end": 38
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一所大學的無障礙支援原先由幾個辦公室分別處理，學生每到一處都要重新交資料。校方改用單一申請入口，讓相關辦公室共用更新。請用一至兩句英文向學生會說明之前為何像零碎拼湊，以及現在改善了甚麼。",
+        "selfCheckZh": "兩例都指出學生以前要在不同辦公室重交資料，並說明單一入口和共用更新如何改善銜接；不能只說服務種類多，也不能聲稱所有辦公室已取消。",
+        "examples": [
+          {
+            "en": "Support used to feel like a patchwork of services because students repeated the same details at several offices. The shared intake now passes updates to each team without another application.",
+            "zh": "支援服務以前像零碎拼湊，因為學生要在幾個辦公室重複提交同一資料。現在共用申請入口把更新傳給各團隊，毋須重新申請。"
+          },
+          {
+            "en": "Previously, students entered the same details on separate forms at different offices. One entry point and shared updates make the support system less like a patchwork.",
+            "zh": "以前學生要在不同辦公室的不同表格重複填寫相同資料。單一入口和共用更新令支援系統較不像零碎拼湊。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "repeated the same details",
+            "zh": "重複提交同一資料",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 92
+            }
+          },
+          {
+            "en": "The shared intake",
+            "zh": "共用申請入口",
+            "exampleIndex": 0,
+            "span": {
+              "start": 113,
+              "end": 130
+            }
+          },
+          {
+            "en": "without another application",
+            "zh": "毋須重新申請",
+            "exampleIndex": 0,
+            "span": {
+              "start": 163,
+              "end": 190
+            }
+          },
+          {
+            "en": "separate forms",
+            "zh": "各自不同的表格",
+            "exampleIndex": 1,
+            "span": {
+              "start": 49,
+              "end": 63
+            }
+          },
+          {
+            "en": "One entry point",
+            "zh": "單一入口",
+            "exampleIndex": 1,
+            "span": {
+              "start": 86,
+              "end": 101
+            }
+          },
+          {
+            "en": "shared updates",
+            "zh": "共用更新",
+            "exampleIndex": 1,
+            "span": {
+              "start": 106,
+              "end": 120
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A patchwork of services causes trouble when its parts leave gaps or give conflicting instructions.",
+          "zh": "若各部分留下缺口或提供矛盾指示，零碎拼湊的服務就會造成困擾。"
+        },
+        {
+          "en": "A shared intake can make several offices feel less like a patchwork without removing their different roles.",
+          "zh": "共用申請入口可讓多個辦公室的服務更連貫，而毋須取消各自的職能。"
+        }
+      ]
+    }
+  ]
+}

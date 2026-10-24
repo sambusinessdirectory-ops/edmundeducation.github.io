@@ -1,0 +1,575 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-2331-4543-b",
+  "lessons": [
+    {
+      "id": "advanced-native-2331",
+      "number": 2331,
+      "inventoryId": "expr-2331",
+      "titleEn": "screen presence",
+      "titleZh": "鏡頭魅力",
+      "category": "natural",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\bscreen presence\\b",
+        "glossaryForbidden": [
+          "\\bscreen presence\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A performer’s ability to hold viewers’ attention and make an impression on camera, sometimes through quiet expression rather than dramatic movement or fame.",
+        "meaningZh": "表演者在鏡頭前吸引觀眾目光、留下鮮明印象的能力；可以靠細微表情，並非一定要誇張演出或有名氣。",
+        "grammar": "Usually uncountable: have, show or lack screen presence; “a strong/quiet screen presence” evaluates its quality. Use for someone seen on film or video, not simply a person’s physical presence near a screen.",
+        "register": "Neutral film and video criticism; also natural when discussing a filmed presenter or performer.",
+        "boundaryZh": "指觀眾透過鏡頭感受到的吸引力；不等於演員本人有名、外表漂亮、現場健談或影片製作昂貴。",
+        "misconceptionZh": "不要把 screen presence 當作「出現在螢幕上」的事實；需要有吸引觀眾的表現。",
+        "outcomeZh": "能根據鏡頭前的實際表現評價吸引力，並與名氣、外貌、拍攝技術及現場魅力分開。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0220",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 20,
+          "book": 10,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 17, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She has an understated but powerful screen presence.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "understated but powerful screen presence"
+        },
+        {
+          "occurrenceId": "book10-16-0256",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 24,
+          "book": 10,
+          "question": 20,
+          "sample": "S1",
+          "sourceBookPages": "48–49",
+          "locatorNote": "DOCX table 20, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She has an understated but powerful screen presence.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "understated but powerful screen presence"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "Provisional held-source lesson; independent editorial review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "Why does the casting director ask to see another camera test of the quiet actor?",
+        "promptZh": "選角導演為何要求再看那位寡言演員的試鏡片段？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her small reaction made the tense moment compelling on camera.",
+            "zh": "她細微的反應令鏡頭中的緊張一刻引人入勝。"
+          },
+          {
+            "id": "b",
+            "en": "She is already the most famous applicant.",
+            "zh": "她已是最有名的應徵者。"
+          },
+          {
+            "id": "c",
+            "en": "The lighting made every applicant look equally expressive.",
+            "zh": "燈光令所有應徵者看起來同樣生動。"
+          },
+          {
+            "id": "d",
+            "en": "She spoke more loudly than the other actors.",
+            "zh": "她比其他演員說話更響亮。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "導演注意到她在鏡頭前用細微反應抓住觀眾；名氣、燈光或音量都不是錄音所述原因。",
+        "en": "The actor barely speaks in the camera test, but her brief glance at the empty chair holds my attention. She has screen presence; I want to watch that moment again before we cast anyone.",
+        "zh": "那位演員在試鏡片段中幾乎沒有台詞，但她看向空椅子的短暫一瞥令我移不開目光。她有鏡頭魅力；選角前我想再看一遍。"
+      },
+      "reply": {
+        "promptEn": "We need a host for a filmed science demonstration. Mei speaks steadily to the lens and keeps viewers engaged, though she is less well known than the other candidate. What should we tell the team?",
+        "promptZh": "我們要為科學示範短片選主持。Mei 對着鏡頭說話穩定，能留住觀眾注意力，但她不及另一候選人有名。我們該怎樣向團隊建議？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Mei has screen presence; I would choose her because her calm delivery keeps viewers watching.",
+            "zh": "Mei 有鏡頭魅力；她沉穩的表達能留住觀眾，我會選她。"
+          },
+          {
+            "id": "b",
+            "en": "I would choose Mei; the camera test shows that viewers can follow her explanation without losing interest.",
+            "zh": "我會選 Mei；試鏡顯示觀眾能跟上她的解說，亦不會失去興趣。"
+          },
+          {
+            "id": "c",
+            "en": "Her steady delivery works on video, so let us ask Mei to host this demonstration.",
+            "zh": "她在影片中的表達穩定，我們就請 Mei 主持這次示範吧。"
+          },
+          {
+            "id": "d",
+            "en": "Mei draws attention to the experiment rather than herself, and that makes her a good choice on camera.",
+            "zh": "Mei 能把觀眾目光引向實驗而非自己，適合在鏡頭前主持。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都依據 Mei 的鏡頭表現提出選她的合理建議；金句直接使用 screen presence。"
+      },
+      "scene": {
+        "promptEn": "A local history video pairs two interview clips. One speaker is a familiar name but reads stiffly; the other is an unknown woman who holds viewers’ attention with a pause before revealing a family photograph. Which assessment fits the second speaker?",
+        "promptZh": "一段地方歷史影片比較兩段訪問。一位講者很有名，卻讀得生硬；另一位沒有名氣，但展示家庭照片前的一次停頓抓住了觀眾。哪句最能評價第二位講者？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The pause gives the unknown speaker screen presence, regardless of fame.",
+            "zh": "那次停頓令這位沒有名氣的講者在鏡頭前有吸引力，與名氣無關。"
+          },
+          {
+            "id": "b",
+            "en": "The slower delivery alone proves that the second speaker is the better historian.",
+            "zh": "第二位講者說得較慢，單憑這一點便證明她是較好的歷史學家。"
+          },
+          {
+            "id": "c",
+            "en": "The familiar speaker’s name matters more than what viewers actually see in the clip.",
+            "zh": "熟悉的講者名字比觀眾實際看到的片段更重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "第二位講者透過鏡頭前的停頓吸引觀眾；題目沒有說她更有名，也不支持名氣必然帶來吸引力。"
+      },
+      "contrast": {
+        "promptEn": "Which observation is weakest evidence that a performer has screen presence?",
+        "promptZh": "哪項觀察最不能證明表演者有鏡頭魅力？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Viewers stay engaged during a silent close-up of her face.",
+            "zh": "觀眾看她無聲的面部特寫時仍然投入。"
+          },
+          {
+            "id": "b",
+            "en": "She is charming at a dinner after filming, but the camera test feels flat.",
+            "zh": "拍攝後她在晚宴上很有魅力，但試鏡片段顯得平淡。"
+          },
+          {
+            "id": "c",
+            "en": "A small change in her expression makes the scene more tense on video.",
+            "zh": "她表情的微小變化令影片中的場面更緊張。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "鏡頭外的社交魅力不能代替鏡頭前的吸引力；另外兩項都直接描述片中效果。"
+      },
+      "dialogue": {
+        "promptEn": "The producer says, “Our short educational film needs someone the audience will keep watching, but we cannot afford a celebrity.” The audition shows that Arun makes a plain safety explanation engaging. What reply best addresses the producer’s need?",
+        "promptZh": "製作人說：「教育短片需要觀眾願意一直看下去的講者，但我們請不起名人。」試鏡顯示 Arun 能把平實的安全講解說得吸引。哪句最能回應製作人的需要？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Arun shows screen presence in the audition; we can choose Arun without hiring a celebrity.",
+            "zh": "Arun 在試鏡中展現鏡頭魅力；我們毋須請名人也可選 Arun。"
+          },
+          {
+            "id": "b",
+            "en": "The celebrity may attract initial clicks, so choose that applicant despite the flat camera test.",
+            "zh": "名人或可吸引觀眾點開影片，所以即使試鏡表現平淡，也該選那位應徵者。"
+          },
+          {
+            "id": "c",
+            "en": "Let us spend the host budget on more graphics; Arun’s engaging camera test is less relevant than visual polish.",
+            "zh": "不如把主持預算用在更多動畫上；Arun 吸引人的試鏡表現不及畫面精美重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "Arun 的試鏡已顯示他能在鏡頭前留住觀眾；另外兩句忽略影片效果或現有試鏡證據。"
+      },
+      "speaking": {
+        "en": "The dancer has screen presence because her stillness makes the final shot memorable.",
+        "zh": "那位舞者有鏡頭魅力，因為她靜止不動的一刻令最後的鏡頭令人難忘。",
+        "promptZh": "先聽示範，再說出片中一項具體表現如何吸引觀眾。",
+        "targetSpan": {
+          "start": 15,
+          "end": 30
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區單車安全短片要選一位示範員。一位男義工名氣較小，但試鏡中能用眼神和沉穩語氣留住觀眾，清楚帶出戴頭盔的步驟。請用一至兩句英文向導演建議是否選他，並以鏡頭前的證據說明。",
+        "selfCheckZh": "兩例都提出選人建議，指出試鏡中具體的鏡頭表現與頭盔示範效果；不能只說他有名、好看或現場健談。",
+        "examples": [
+          {
+            "en": "I would cast the lesser-known volunteer: his steady look into the lens gives him screen presence, and viewers stay focused as he fastens the helmet strap.",
+            "zh": "我會選那位名氣較小的義工：他穩定地望向鏡頭，展現鏡頭魅力，觀眾也會專注看他扣好頭盔帶。"
+          },
+          {
+            "en": "The volunteer has screen presence in the camera test. His quiet pause before checking the helmet fit draws attention to that safety step, so I would choose him for the video.",
+            "zh": "那位義工在試鏡中有鏡頭魅力。他檢查頭盔是否合身前稍作停頓，令觀眾注意這個安全步驟，因此我會選他拍短片。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the lesser-known volunteer",
+            "zh": "那位名氣較小的義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 13,
+              "end": 39
+            }
+          },
+          {
+            "en": "his steady look into the lens",
+            "zh": "他穩定地望向鏡頭",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 70
+            }
+          },
+          {
+            "en": "fastens the helmet strap",
+            "zh": "扣好頭盔帶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 129,
+              "end": 153
+            }
+          },
+          {
+            "en": "the camera test",
+            "zh": "試鏡",
+            "exampleIndex": 1,
+            "span": {
+              "start": 37,
+              "end": 52
+            }
+          },
+          {
+            "en": "checking the helmet fit",
+            "zh": "檢查頭盔是否合身",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 100
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Screen presence is the ability to hold attention on camera, even through a quiet performance.",
+          "zh": "鏡頭魅力是在鏡頭前留住觀眾注意力的能力，細膩的表演也可以做到。"
+        },
+        {
+          "en": "A newcomer can have screen presence without a famous name or expensive production.",
+          "zh": "新人即使沒有名氣或昂貴製作，也可以有鏡頭魅力。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4543",
+      "number": 4543,
+      "inventoryId": "expr-4543",
+      "titleEn": "a patchwork of services",
+      "titleZh": "零碎拼湊的服務",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:(?:(?:less|more) )?like a patchwork|(?:a|the) patchwork of (?:services|rules|schedules|forms|arrangements|policies|systems|procedures|plans)|(?:a|the) patchwork (?:system|service|network|arrangement|policy|process))\\b",
+        "glossaryForbidden": [
+          "\\bpatchwork\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A figurative collection of service parts, rules or arrangements that have been pieced together without enough coordination, leaving gaps or inconsistent experiences. “Less like a patchwork” means those parts now work together more coherently.",
+        "meaningZh": "把服務、規則或安排比作缺乏協調的拼布：各部分湊在一起，卻留下缺口或造成不一致。「較不像零碎拼湊」表示它們如今更連貫。",
+        "grammar": "A patchwork of + plural services/rules/arrangements; a patchwork system is also possible. “Less like a patchwork” compares a better-integrated later state with an earlier fragmented one. A literal patchwork quilt is not this figurative service sense.",
+        "register": "Neutral to mildly critical in discussions of public services, administration or systems; use evidence of gaps or incompatible parts.",
+        "boundaryZh": "重點是各部分缺乏銜接，並非「有不同服務」本身不好；若多種服務能順暢配合，不應只因種類多便稱為 patchwork。",
+        "misconceptionZh": "不要把拼布的字面意思套在服務上；亦不要把服務變得連貫誤解為所有服務都被取消。",
+        "outcomeZh": "能根據缺口、互相矛盾的規則及改善後的銜接，判斷 patchwork 何時適用。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2432",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 230,
+          "book": 16,
+          "question": 39,
+          "sample": "S2",
+          "sourceBookPages": "94–95",
+          "locatorNote": "DOCX table 254, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The service now feels less like a patchwork.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "less like a patchwork"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "Provisional held-source lesson; independent editorial review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "Why does the caller describe the clinic booking system as a patchwork?",
+        "promptZh": "來電者為何說診所預約系統像零碎拼湊而成？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Branches use conflicting forms and do not share a booking record.",
+            "zh": "各分所使用互相矛盾的表格，也不共用預約紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "The clinics offer several services through one clear booking route.",
+            "zh": "診所透過一條清晰的預約途徑提供多種服務。"
+          },
+          {
+            "id": "c",
+            "en": "The caller dislikes the pattern on a waiting-room blanket.",
+            "zh": "來電者不喜歡候診室毛毯上的圖案。"
+          },
+          {
+            "id": "d",
+            "en": "Every branch has agreed on the same form and appointment rules.",
+            "zh": "所有分所都採用相同表格及預約規則。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "表格規則互相矛盾，預約紀錄又不能共用，才會令系統零碎；多樣化本身不是問題。",
+        "en": "I filled in one form for the north clinic, then the south clinic told me to start again and could not see my booking. The system feels like a patchwork of rules, not one service.",
+        "zh": "我為北區診所填了一份表，南區診所卻叫我從頭再填，還看不到我的預約。這套系統的規則像零碎拼湊，並不像一項連貫服務。"
+      },
+      "reply": {
+        "promptEn": "Parents use four after-school clubs, but each club sends a different timetable and change notice. Several families have missed sessions. What could we suggest to the coordinator?",
+        "promptZh": "家長會用四個課後小組的服務，但每組發放不同時間表及改動通知，已有幾個家庭錯過活動。我們可向統籌員建議甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The notices feel like a patchwork of schedules; let us publish one shared calendar with a named contact for changes.",
+            "zh": "通知像零碎拼湊的時間表；我們可發佈一份共用日曆，並列出改動聯絡人。"
+          },
+          {
+            "id": "b",
+            "en": "Let us put all four timetables in one calendar and update families whenever a session moves.",
+            "zh": "我們把四份時間表放進同一日曆，每次活動改期便通知家庭。"
+          },
+          {
+            "id": "c",
+            "en": "A single change log would help parents see what moved without checking four separate messages.",
+            "zh": "一份共用改動紀錄可讓家長看清哪些活動改期，不用翻查四則不同訊息。"
+          },
+          {
+            "id": "d",
+            "en": "Could each club send its updates to one coordinator, who then posts a consistent notice to families?",
+            "zh": "可否由各小組先把改動交給同一位統籌員，再由他向家長發出一致通知？"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都提出讓四組資訊銜接的可行辦法；金句直接指出目前時間表零碎拼湊。"
+      },
+      "scene": {
+        "promptEn": "During a flood, three aid groups advertise different opening hours and eligibility rules. A family is sent from one desk to another because no group knows which supplies remain. Which description fits?",
+        "promptZh": "水災期間，三個援助團體公佈不同的開放時間及申請資格。一家人被轉介到不同櫃位，因為各團體都不知道還有哪些物資。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The aid is a patchwork of services with gaps between the groups.",
+            "zh": "援助服務零碎拼湊，團體之間出現銜接缺口。"
+          },
+          {
+            "id": "b",
+            "en": "Different opening hours simply show that the groups are matching every family to the right aid.",
+            "zh": "開放時間不同，只表示各團體正把每個家庭配對到合適援助。"
+          },
+          {
+            "id": "c",
+            "en": "The family can solve the problem by checking each desk separately; no shared stock record is needed.",
+            "zh": "那家人只要逐一詢問櫃位便能解決問題，毋須共用物資紀錄。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "時間、資格與物資資料都欠缺協調，令家庭在不同團體之間遇到缺口；其他兩項與題目相反。"
+      },
+      "contrast": {
+        "promptEn": "Which situation is least fairly described as a figurative patchwork?",
+        "promptZh": "哪種情況最不宜用比喻的 patchwork 形容？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A council lists several support schemes, but each has a separate form and contradictory deadlines.",
+            "zh": "議會列出多種支援計劃，但每種表格不同，截止日期亦互相矛盾。"
+          },
+          {
+            "id": "b",
+            "en": "Different specialists work through one referral form and keep each other informed.",
+            "zh": "不同專家共用一份轉介表，並互通最新情況。"
+          },
+          {
+            "id": "c",
+            "en": "Three agencies publish different rules for the same parking permit.",
+            "zh": "三個機構為同一停車許可證公佈不同規則。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "專業人員雖然不同，卻能透過共用表格及溝通協作；多樣化不等於零碎拼湊。"
+      },
+      "dialogue": {
+        "promptEn": "A resident says, “On this street the recycling bin is collected on Tuesday, but the next street uses a different form and collection day. Nobody explains the boundary.” What reply identifies the problem accurately?",
+        "promptZh": "居民說：「這條街星期二收回收桶，隔鄰街道卻要填另一份表，而且收集日不同；沒有人解釋分界。」哪句能準確指出問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The rules are a patchwork of arrangements; residents need one clear map and notice.",
+            "zh": "規則像零碎拼湊的安排；居民需要一張清晰地圖及通知。"
+          },
+          {
+            "id": "b",
+            "en": "Since both streets recycle, residents can use one notice without checking the conflicting forms.",
+            "zh": "既然兩條街都有回收，居民毋須核對不同表格，也可只看一份通知。"
+          },
+          {
+            "id": "c",
+            "en": "Residents could follow the next street’s collection day until someone explains the boundary.",
+            "zh": "在有人解釋分界前，居民可暫時按隔鄰街道的收集日處理。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "同樣是回收，兩街卻有不同表格及日子而未解釋分界；金句指出安排不連貫並提出清晰資訊。"
+      },
+      "speaking": {
+        "en": "The permit rules feel like a patchwork because each office asks for a different document.",
+        "zh": "許可證規則像零碎拼湊，因為每個辦事處都要求不同文件。",
+        "promptZh": "先聽示範，再說出一項具體的不一致之處，而不只說服務種類多。",
+        "targetSpan": {
+          "start": 22,
+          "end": 38
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一所大學的無障礙支援原先由幾個辦公室分別處理，學生每到一處都要重新交資料。校方改用單一申請入口，讓相關辦公室共用更新。請用一至兩句英文向學生會說明之前為何像零碎拼湊，以及現在改善了甚麼。",
+        "selfCheckZh": "兩例都指出之前要重交資料或通知不一致，並說明單一入口和共用更新如何改善銜接；不能只說服務種類多，也不能聲稱所有辦公室已取消。",
+        "examples": [
+          {
+            "en": "Support used to feel like a patchwork of services because students repeated the same details at several offices. The shared intake now passes updates to each team without another application.",
+            "zh": "支援服務以前像零碎拼湊，因為學生要在幾個辦公室重複提交同一資料。現在共用申請入口把更新傳給各團隊，毋須重新申請。"
+          },
+          {
+            "en": "The old arrangement was a patchwork of forms, and students sometimes received conflicting instructions. One entry point and shared updates now make the offices work together more smoothly.",
+            "zh": "舊安排的表格零碎拼湊，學生有時收到互相矛盾的指示。現在單一入口配合共用更新，令各辦公室的工作更順暢地銜接。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "repeated the same details",
+            "zh": "重複提交同一資料",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 92
+            }
+          },
+          {
+            "en": "The shared intake",
+            "zh": "共用申請入口",
+            "exampleIndex": 0,
+            "span": {
+              "start": 113,
+              "end": 130
+            }
+          },
+          {
+            "en": "without another application",
+            "zh": "毋須重新申請",
+            "exampleIndex": 0,
+            "span": {
+              "start": 163,
+              "end": 190
+            }
+          },
+          {
+            "en": "conflicting instructions",
+            "zh": "互相矛盾的指示",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 102
+            }
+          },
+          {
+            "en": "One entry point",
+            "zh": "單一入口",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 119
+            }
+          },
+          {
+            "en": "work together more smoothly",
+            "zh": "更順暢地銜接",
+            "exampleIndex": 1,
+            "span": {
+              "start": 160,
+              "end": 187
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A patchwork of services causes trouble when its parts leave gaps or give conflicting instructions.",
+          "zh": "若各部分留下缺口或提供矛盾指示，零碎拼湊的服務就會造成困擾。"
+        },
+        {
+          "en": "A shared intake can make several offices feel less like a patchwork without removing their different roles.",
+          "zh": "共用申請入口可讓多個辦公室的服務更連貫，而毋須取消各自的職能。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "status": "unpublished-provisional-integration",
+  "sourceOrdinal": 4543,
+  "sourceId": "book10-16-2432",
+  "lessonId": "advanced-native-4543",
+  "lessonFile": "course-materials/advanced-native/drafts-books10-16/batch-held-4543-patchwork-b.json",
+  "lessonFileSha256": "a47145b1371e5731a4f738f2b2ecbf79bba34bbb938f1baaf03ff7a60bc428ef",
+  "independentReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-4543-a-followup.json",
+  "independentReviewSha256": "36d9bba0d0525badd81415deee38c7b38b13c12dd71f3b7016721c1e95312994",
+  "beforeSha256": {
+    "manifest": "8288eb31976993a832f9ce8e35ef6ed4baf0623ccaa3021b2be95de0248537e3",
+    "decision": "3198a975455571953b07dc3fb1c258c0df199235f52ba5d465520a854ca812e0"
+  },
+  "afterSha256": {
+    "manifest": "f04d809c32c1b008ad28cb00a9edc442708b6dec5cf669b5df18c3a7935523c1",
+    "decision": "a72e4b8b9f1892723c220b8b589f0e42fce5e18f3af74540d3d3886bce021a41"
+  },
+  "manifestBatchFilesBefore": 160,
+  "manifestBatchFilesAfter": 161,
+  "preservedHeldOrdinal": 2331,
+  "publicationClaimed": false,
+  "selectedLessonsAfter": 624,
+  "selectedQuestionsAfter": 3744,
+  "selectedAudioRolesAfter": 2496,
+  "holdsAfter": 635,
+  "verification": "Full verifier passed: 2,604 source rows, 624 selected, 3,744 questions, 2,496 selected roles, zero catalogue/schema/alias errors; focused build and --check: 1/6/4/0."
+}
