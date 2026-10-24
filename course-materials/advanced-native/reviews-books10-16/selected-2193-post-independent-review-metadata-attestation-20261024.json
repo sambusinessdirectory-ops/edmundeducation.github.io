@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "kind": "selected-2193-independent-review-metadata-only-attestation",
+  "date": "2026-10-24",
+  "reviewPath": "course-materials/advanced-native/reviews-books10-16/independent-selected-2193-distractor-repair-focused-rereview-20261024.json",
+  "reviewSha256": "e401737c0f188d649d167eb30b534a8198d51bd5d16a45aa32e91937e940596d",
+  "authorRepairAttestationPath": "course-materials/advanced-native/reviews-books10-16/focused-selected-2193-distractor-repair-attestation-20261024.json",
+  "authorRepairAttestationSha256": "cde1187ccf30a5373322f3c66bf17c55c384b430ac63247f4daa9651ab74db1d",
+  "selectedBatchPath": "course-materials/advanced-native/drafts-books10-16/batch-reviewed-retained-holds-twenty-2193-4542-selected-20261024.json",
+  "beforeSelectedBatchSha256": "5f5d5b35a8c002a6f4dfbf3603f5d5d3f2d49d2a2cbd5f8c8a9a204d432b6f76",
+  "afterSelectedBatchSha256": "771c6870a52a4bc3e51824e944dd128f0091a0fd40dee823e8dc7bb5006c73b5",
+  "selectedManifestSha256": "5248fb9179dd4c316eb5c696d402a5e048771002c9fd287e7fc4f96e13a1948a",
+  "changedLessonOrdinal": 2193,
+  "onlyReviewMetadataChanged": true,
+  "all20LearnerContentByteEquivalentAfterRemovingReviewMetadata": true,
+  "allOther19LessonsByteEquivalent": true,
+  "audioSynthesisIdentityChanged": false,
+  "releaseApproved": false
+}

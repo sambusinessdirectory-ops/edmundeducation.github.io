@@ -1,0 +1,577 @@
+{
+  "schemaVersion": 1,
+  "kind": "hash-bound-unpublished-selection-integration",
+  "date": "2026-10-24",
+  "status": "integrated-locally-unpublished",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "decisionManifestPath": "course-materials/advanced-native/books10-16/editorial-decision-manifest.json",
+  "decisionManifestSha256": "b4c210caa55d0c0d410ba3a19338550888fda1318975ff84ff3d6dbc6c9eb47f",
+  "proposalEvidence": [
+    {
+      "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-retained-holds-first-ten-replacement-2193-4636-20261024.json",
+      "proposalSha256": "474ae90a29201f49c9f9c4c18f8154e29d951ccd2243dc3d84a05f545b18a8ae",
+      "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-retained-holds-first-ten-replacement-focused-rereview-20261024.json",
+      "independentReviewSha256": "6f98a87b9175c748442191796f6c17ae9ab5d2f902b1acdc2d6ec372fdd89491",
+      "ordinals": [
+        2193,
+        2461,
+        2493,
+        2526,
+        2570,
+        2577,
+        2732,
+        3189,
+        3373,
+        4636
+      ]
+    },
+    {
+      "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-retained-holds-second-ten-replacement-2555-4542-20261024.json",
+      "proposalSha256": "a9a49bc36db3bfc7ef785ab6ee43116a334c83d1161dbba09201b705899b8380",
+      "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-retained-holds-second-ten-replacement-focused-rereview-20261024.json",
+      "independentReviewSha256": "2b0da170393b99f05fb1ea772f83fb913f84005d5c8c6858ac6d28f8b0a32257",
+      "ordinals": [
+        2175,
+        2303,
+        2401,
+        2464,
+        2544,
+        2555,
+        2798,
+        3320,
+        3969,
+        4542
+      ]
+    }
+  ],
+  "selection": {
+    "newBatchPath": "course-materials/advanced-native/drafts-books10-16/batch-reviewed-retained-holds-twenty-2193-4542-selected-20261024.json",
+    "newBatchSha256": "9a7bc815646e0abe3d89f36d6f9003dc80450e42ec4c4ba95a694263b85cc94f",
+    "newOrdinals": [
+      2175,
+      2193,
+      2303,
+      2401,
+      2461,
+      2464,
+      2493,
+      2526,
+      2544,
+      2555,
+      2570,
+      2577,
+      2732,
+      2798,
+      3189,
+      3320,
+      3373,
+      3969,
+      4542,
+      4636
+    ],
+    "beforeSelectedManifestSha256": "f6ad48beef5b8a397e4e129bf00c0b0525d9efeb7504268e65b2ee39b7920b09",
+    "afterSelectedManifestSha256": "5248fb9179dd4c316eb5c696d402a5e048771002c9fd287e7fc4f96e13a1948a",
+    "selectedFileCountBefore": 182,
+    "selectedFileCountAfter": 183,
+    "lessonCountBefore": 681,
+    "lessonCountAfter": 701,
+    "orderedStepsAfter": 4907,
+    "questionsAfter": 4206,
+    "writingExamplesAfter": 1402,
+    "selectedAudioRolesAfter": 2804
+  },
+  "decisions": {
+    "changedRows": 20,
+    "changedFiles": 14,
+    "beforeCounts": {
+      "proposed-new-lesson": 681,
+      "proposed-alias-existing": 1199,
+      "proposed-alias-new": 206,
+      "hold-editorial": 361,
+      "excluded-one-off": 157
+    },
+    "afterCounts": {
+      "proposed-new-lesson": 701,
+      "proposed-alias-existing": 1199,
+      "proposed-alias-new": 206,
+      "hold-editorial": 341,
+      "excluded-one-off": 157
+    },
+    "files": [
+      {
+        "path": "books10-16/editorial-decisions-2172-2231.jsonl",
+        "beforeSha256": "425bd4d5a305e9a41b3274dc09a441d53e34721f68f4e088e1c814d20987eb68",
+        "afterSha256": "01c7aaeb06a70256d9419b9f79b7397665b9a0dc7bec91ef67feab2792799b0d",
+        "changedOrdinals": [
+          2175,
+          2193
+        ],
+        "untouchedLinesByteExact": 58
+      },
+      {
+        "path": "books10-16/editorial-decisions-2292-2351.jsonl",
+        "beforeSha256": "f0d79e134b3239e3d0081d321230f7de3035f6ebf4d9131062702e66b99c30b3",
+        "afterSha256": "866449611c1cc13a9d8c308fb228031a5dc8345e337374079bdd9f15fcb11924",
+        "changedOrdinals": [
+          2303
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-2352-2411.jsonl",
+        "beforeSha256": "14ec76f20f5438c66056286f5410a415ca3247c4afe6155bb469a0730a78b961",
+        "afterSha256": "a99c5bd331819b6eb55c59325191f058652ead74f88a3a7a431e4a620d3ee9e1",
+        "changedOrdinals": [
+          2401
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-2412-2471.jsonl",
+        "beforeSha256": "b78c8af77f48846c6a16ddfc410b3512e3ee71ca57f8c53e7737f7fcc4bba83c",
+        "afterSha256": "a8b7d8b77db24622744f8ecb00d23c4c394778511dcfe8a4acd067611deeb280",
+        "changedOrdinals": [
+          2461,
+          2464
+        ],
+        "untouchedLinesByteExact": 58
+      },
+      {
+        "path": "books10-16/editorial-decisions-2472-2531.jsonl",
+        "beforeSha256": "881ebe00ada587da00fc22134c662f6b9caed6409bf65fb90381f97b11c00353",
+        "afterSha256": "c012b9a81fa927a1ea23029f98f8682798f81befd9f2bd669e0937c782a799b1",
+        "changedOrdinals": [
+          2493,
+          2526
+        ],
+        "untouchedLinesByteExact": 58
+      },
+      {
+        "path": "books10-16/editorial-decisions-2532-2591.jsonl",
+        "beforeSha256": "234b41ba255100dea7f3e828bac4aa31befb7f25f9b26904c18983c4c1bc2763",
+        "afterSha256": "5cc5812616c51dccdf8e993cdf7c7cc7127301bd5e520f51d39bd1c3fed2d326",
+        "changedOrdinals": [
+          2544,
+          2555,
+          2570,
+          2577
+        ],
+        "untouchedLinesByteExact": 56
+      },
+      {
+        "path": "books10-16/editorial-decisions-2712-2771.jsonl",
+        "beforeSha256": "11a377e7e085e226cdc3f5941b3dabaca6bf8a4f1015798b36033cf56be7b2d2",
+        "afterSha256": "03681a217b4a537b7c9e6bf5121e5eb210ad3157776085d481859b00b4e3a1d1",
+        "changedOrdinals": [
+          2732
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-2772-2831.jsonl",
+        "beforeSha256": "ab46f7cf47dfbee8988551cf70a87f110dec02ff60451a5c7dab75ae71a12ece",
+        "afterSha256": "30bf9af94650f3e4f4ec3c4f7789df0cce0460a5df3f21b41bb6bb06a4c5914c",
+        "changedOrdinals": [
+          2798
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-3132-3191.jsonl",
+        "beforeSha256": "5840ba6ec7d9782b588d65da784469df4b16edba3e4c2f2ee50d326c74cb5516",
+        "afterSha256": "4dadc97300a549e8bdf5be89fc135cdf75bd0cbb1328631265e1298419427eca",
+        "changedOrdinals": [
+          3189
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-3312-3371.jsonl",
+        "beforeSha256": "7d683b669ee534b7caed1fafdc86f4e1181416e439ded35261e9f03a21d5adb7",
+        "afterSha256": "3463ed274b503e30c9b1d721a0d83fabe1420088f6ea5d71b9d17b5cfc3f9557",
+        "changedOrdinals": [
+          3320
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-3372-3431.jsonl",
+        "beforeSha256": "5b886b72cd30f2322ea59dc868382888412d1cf6d34aed7a4921fec4ac46b492",
+        "afterSha256": "79c644538e0367cb9a982b6946fea1096c0042dd02259f716f3581988b3ac13a",
+        "changedOrdinals": [
+          3373
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-3912-3971.jsonl",
+        "beforeSha256": "2ee48e3c8706c3ed98574d05323adf84542a2ec19bb65db23ceaeaea6691b223",
+        "afterSha256": "cd00d1da00f204a15491d2d7d6a4dbdfa3a837ce18d53906d3a15f17c1536a72",
+        "changedOrdinals": [
+          3969
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-4512-4571.jsonl",
+        "beforeSha256": "5ec1fb57049cc54c4fd93b00dc29e84aa401aef3f1c98bdf89faae419b0d3f91",
+        "afterSha256": "65c68c778dd76952ed71dfbf68e1c6159326c890951e9b11b1b0f19a370ec147",
+        "changedOrdinals": [
+          4542
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-4632-4691.jsonl",
+        "beforeSha256": "814c0f62da12dbb920d3d4f738162ed53b9c75767116abf75c281cac1c39d9c2",
+        "afterSha256": "19676037e395f7c86a5737d967588cbb916d88938ac7d6ae692ff7b1ad9e0742",
+        "changedOrdinals": [
+          4636
+        ],
+        "untouchedLinesByteExact": 59
+      }
+    ],
+    "unchangedRowsByteExact": true,
+    "sourceSpecificHoldsUnchanged": [
+      2130,
+      2302
+    ]
+  },
+  "contentFidelity": "All 20 selected lesson objects equal their independently reviewed proposals after removing only review metadata. No source provenance, target, options, translations, writing or glossary changed during selection.",
+  "verification": {
+    "verify-books10-16.mjs": {
+      "status": "passed",
+      "result": {
+        "intakeRows": 2604,
+        "books": 7,
+        "sourcePageGaps": 0,
+        "editorialDecisionRows": 2604,
+        "provisionalEditorialTriage": {
+          "proposed-new-lesson": 701,
+          "proposed-alias-existing": 1199,
+          "proposed-alias-new": 206,
+          "hold-editorial": 341,
+          "excluded-one-off": 157
+        },
+        "exactPriorAliasSuggestions": 816,
+        "exactSuggestionEditorialExceptions": 0,
+        "selectedExistingAliasPatternExceptions": 0,
+        "draftedNewAliasPatternMatches": 206,
+        "undraftedNewAliasOwnerRows": 0,
+        "existingCanonical": 1893,
+        "pilotDrafts": 701,
+        "pilotQuestions": 4206,
+        "pilotAudioRequests": 2804,
+        "projectedDisplayRange": "1894–2594",
+        "wholeCatalogueSchemaErrors": 0,
+        "exactGuideSentenceCopies": 0,
+        "pilotNearDuplicateFlags": 0,
+        "published": false,
+        "releaseApproved": false
+      }
+    },
+    "audit-provisional-decisions.mjs": {
+      "status": "passed",
+      "result": {
+        "decisionFiles": 45,
+        "decisionRows": 2604,
+        "firstOrdinal": 2112,
+        "throughOrdinal": 4715,
+        "counts": {
+          "proposed-new-lesson": 701,
+          "proposed-alias-existing": 1199,
+          "proposed-alias-new": 206,
+          "hold-editorial": 341,
+          "excluded-one-off": 157
+        },
+        "errorCount": 0,
+        "errors": []
+      }
+    },
+    "audit-new-alias-owners.mjs": {
+      "status": "passed",
+      "result": {
+        "scope": "selected-manifests",
+        "decisionFiles": 45,
+        "draftFiles": 183,
+        "aliasNewRows": 206,
+        "matchedDrafts": 206,
+        "awaitingDrafts": 0,
+        "exceptionCount": 0,
+        "exceptions": []
+      }
+    },
+    "audit-existing-alias-patterns.mjs": {
+      "status": "passed",
+      "result": {
+        "scope": "selected-manifest",
+        "selectedDecisionFiles": [
+          "editorial-decisions-2112-2141.jsonl",
+          "editorial-decisions-2142-2171.jsonl",
+          "editorial-decisions-2172-2231.jsonl",
+          "editorial-decisions-2232-2291.jsonl",
+          "editorial-decisions-2292-2351.jsonl",
+          "editorial-decisions-2352-2411.jsonl",
+          "editorial-decisions-2412-2471.jsonl",
+          "editorial-decisions-2472-2531.jsonl",
+          "editorial-decisions-2532-2591.jsonl",
+          "editorial-decisions-2592-2651.jsonl",
+          "editorial-decisions-2652-2711.jsonl",
+          "editorial-decisions-2712-2771.jsonl",
+          "editorial-decisions-2772-2831.jsonl",
+          "editorial-decisions-2832-2891.jsonl",
+          "editorial-decisions-2892-2951.jsonl",
+          "editorial-decisions-2952-3011.jsonl",
+          "editorial-decisions-3012-3071.jsonl",
+          "editorial-decisions-3072-3131.jsonl",
+          "editorial-decisions-3132-3191.jsonl",
+          "editorial-decisions-3192-3251.jsonl",
+          "editorial-decisions-3252-3311.jsonl",
+          "editorial-decisions-3312-3371.jsonl",
+          "editorial-decisions-3372-3431.jsonl",
+          "editorial-decisions-3432-3491.jsonl",
+          "editorial-decisions-3492-3551.jsonl",
+          "editorial-decisions-3552-3611.jsonl",
+          "editorial-decisions-3612-3671.jsonl",
+          "editorial-decisions-3672-3731.jsonl",
+          "editorial-decisions-3732-3791.jsonl",
+          "editorial-decisions-3792-3851.jsonl",
+          "editorial-decisions-3852-3911.jsonl",
+          "editorial-decisions-3912-3971.jsonl",
+          "editorial-decisions-3972-4031.jsonl",
+          "editorial-decisions-4032-4091.jsonl",
+          "editorial-decisions-4092-4151.jsonl",
+          "editorial-decisions-4152-4211.jsonl",
+          "editorial-decisions-4212-4271.jsonl",
+          "editorial-decisions-4272-4331.jsonl",
+          "editorial-decisions-4332-4391.jsonl",
+          "editorial-decisions-4392-4451.jsonl",
+          "editorial-decisions-4452-4511.jsonl",
+          "editorial-decisions-4512-4571.jsonl",
+          "editorial-decisions-4572-4631.jsonl",
+          "editorial-decisions-4632-4691.jsonl",
+          "editorial-decisions-4692-4715.jsonl"
+        ],
+        "selectedDecisionRows": 2604,
+        "selectedAliasDecisions": 1199,
+        "matchingAliases": 1199,
+        "exceptionCount": 0,
+        "exceptions": []
+      }
+    },
+    "audit-one-off-exclusions.mjs": {
+      "status": "passed",
+      "result": {
+        "excludedOneOff": 157,
+        "sourceRows": 2604,
+        "registeredOrdinals": [
+          2207,
+          2244,
+          2405,
+          2468,
+          2496,
+          2532,
+          2536,
+          2543,
+          2546,
+          2609,
+          2632,
+          2640,
+          2647,
+          2653,
+          2654,
+          2688,
+          2727,
+          2771,
+          2781,
+          2794,
+          2802,
+          2807,
+          2835,
+          2839,
+          2840,
+          2843,
+          2850,
+          2866,
+          2869,
+          2881,
+          2885,
+          2902,
+          2903,
+          2906,
+          2907,
+          2911,
+          2926,
+          2938,
+          2964,
+          2971,
+          2976,
+          3005,
+          3020,
+          3024,
+          3041,
+          3045,
+          3080,
+          3123,
+          3128,
+          3130,
+          3133,
+          3137,
+          3144,
+          3170,
+          3187,
+          3206,
+          3208,
+          3216,
+          3256,
+          3265,
+          3271,
+          3295,
+          3358,
+          3362,
+          3363,
+          3368,
+          3386,
+          3392,
+          3396,
+          3415,
+          3417,
+          3433,
+          3476,
+          3522,
+          3530,
+          3553,
+          3561,
+          3562,
+          3576,
+          3578,
+          3588,
+          3592,
+          3607,
+          3608,
+          3613,
+          3667,
+          3674,
+          3697,
+          3755,
+          3758,
+          3762,
+          3774,
+          3776,
+          3783,
+          3790,
+          3805,
+          3863,
+          3891,
+          3902,
+          3921,
+          3953,
+          3957,
+          3962,
+          3970,
+          3989,
+          3994,
+          4013,
+          4037,
+          4099,
+          4104,
+          4137,
+          4145,
+          4168,
+          4187,
+          4286,
+          4297,
+          4300,
+          4312,
+          4313,
+          4316,
+          4318,
+          4321,
+          4323,
+          4334,
+          4343,
+          4346,
+          4347,
+          4352,
+          4354,
+          4394,
+          4404,
+          4441,
+          4455,
+          4461,
+          4472,
+          4486,
+          4490,
+          4507,
+          4509,
+          4519,
+          4524,
+          4532,
+          4534,
+          4558,
+          4562,
+          4582,
+          4596,
+          4602,
+          4613,
+          4617,
+          4646,
+          4647,
+          4654,
+          4663,
+          4675,
+          4690,
+          4715
+        ],
+        "errorCount": 0,
+        "errors": []
+      }
+    },
+    "audit-hold-coverage.mjs": {
+      "status": "passed",
+      "result": {
+        "reportFiles": 5,
+        "originallyAuditedHolds": 966,
+        "currentHolds": 341,
+        "excludedOneOff": 157,
+        "provisionallyReclassified": 626,
+        "newlyHeldReviewed": 1,
+        "unauditedCurrentHolds": 0,
+        "errorCount": 0,
+        "errors": []
+      }
+    },
+    "audit-hold-triage-coverage.mjs": {
+      "status": "passed",
+      "result": {
+        "currentHolds": 341,
+        "excludedOneOff": 157,
+        "triageRows": 681,
+        "closedSinceTriage": 340,
+        "untriagedCurrentHolds": 0,
+        "reports": 3,
+        "categories": {
+          "documented-exclusion-candidate": 337,
+          "defensible-new-reusable-lesson": 16,
+          "likely-same-sense-alias": 12,
+          "unresolved": 102,
+          "high-confidence-same-sense-alias": 2,
+          "exclusion-candidate": 189,
+          "alias-candidate": 22,
+          "new-lesson-candidate": 1
+        },
+        "errorCount": 0,
+        "errors": []
+      }
+    }
+  },
+  "mediaAndBrowser": "Audio roles are planned but not generated or hosted for these 20; integrated browser/device QA remains pending.",
+  "publication": {
+    "pushed": false,
+    "deployed": false,
+    "databaseApplied": false,
+    "releaseApproved": false,
+    "liveLessonsAdded": 0
+  }
+}

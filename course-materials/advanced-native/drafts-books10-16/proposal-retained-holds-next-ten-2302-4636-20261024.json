@@ -1,0 +1,2696 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-retained-holds-next-ten-proposal-20261024",
+  "lessons": [
+    {
+      "id": "advanced-native-2302",
+      "number": 2302,
+      "inventoryId": "expr-2302",
+      "titleEn": "cut away",
+      "titleZh": "剪去影片片段",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:cut|cuts|cutting) away\\b",
+        "glossaryForbidden": [
+          "\\bcut away\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Remove a section of footage in an editing context; the source applies this removal sense to an introduction.",
+        "meaningZh": "在剪輯語境中移除一段影像；來源把這個移除意思用於開場介紹。",
+        "grammar": "The source uses cut away + object for removal. In ordinary editing English, cut out or edit out is often more usual; cut away can also mean switch camera view to another shot. Teach this bounded source wording, not a general replacement for cut out.",
+        "register": "Source-specific film or video editing usage.",
+        "boundaryZh": "只在清楚的影片剪輯語境中練習來源的移除用法；一般寫作或口語改稿宜用 cut out／remove。",
+        "misconceptionZh": "cut away to another shot 指鏡頭切換，不是本課「剪去某段影像」。",
+        "outcomeZh": "能說明剪去影片哪一段，並分清它與鏡頭切換。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0191",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 18,
+          "book": 10,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 15, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The editor chose to cut away the long introduction.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "cut away"
+        }
+      ],
+      "listening": {
+        "promptZh": "剪輯師刪去了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The repeated second opening sequence.",
+            "zh": "重複的第二段開場影像。"
+          },
+          {
+            "id": "b",
+            "en": "The finish-line footage.",
+            "zh": "衝線畫面。"
+          },
+          {
+            "id": "c",
+            "en": "All footage from the sports day.",
+            "zh": "運動會的全部影像。"
+          },
+          {
+            "id": "d",
+            "en": "The first opening sequence as well as the second.",
+            "zh": "第一和第二段開場影像。"
+          }
+        ],
+        "explanationZh": "剪去的只有重複的第二段開場。",
+        "answerId": "a",
+        "en": "A short film about the sports day repeated the same start twice. The editor cut away the second opening sequence but kept the finish-line footage.",
+        "zh": "運動會短片重複了兩次同一個開頭；剪輯師剪去第二段開場影像，保留衝線畫面。"
+      },
+      "reply": {
+        "promptZh": "（哪項改動縮短了運動會短片？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The editor removed a repeated opening.",
+            "zh": "剪輯師刪去重複開場。"
+          },
+          {
+            "id": "b",
+            "en": "She shortened it by dropping the extra copy of its opening.",
+            "zh": "她省去多餘的開場影像來縮短短片。"
+          },
+          {
+            "id": "c",
+            "en": "The editor cut away the second opening sequence.",
+            "zh": "剪輯師剪去第二段開場影像。"
+          },
+          {
+            "id": "d",
+            "en": "One duplicate sequence was left out of the final cut.",
+            "zh": "最終版本省去一段重複影像。"
+          }
+        ],
+        "explanationZh": "四句均描述縮短後影片的改動；金句使用來源的影像剪輯用法。",
+        "promptEn": "Which change shortened the sports-day film?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "校園短片重複展示兩段相同的頒獎影像，片尾訪問提供新資料。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Cut away one repeated awards sequence, but keep the interview.",
+            "zh": "剪去一段重複的頒獎影像，保留訪問。"
+          },
+          {
+            "id": "b",
+            "en": "Cut away the interview because it adds new information.",
+            "zh": "訪問提供新資料，所以要剪去訪問。"
+          },
+          {
+            "id": "c",
+            "en": "Remove every awards scene and every interview.",
+            "zh": "刪去所有頒獎和訪問影像。"
+          }
+        ],
+        "explanationZh": "影片中重複的是頒獎影像，訪問應保留。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句的 cut away 是「切換鏡頭」而非「移除片段」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The editor cut away a duplicated opening from the final video.",
+            "zh": "剪輯師在最終影片剪去重複開場。"
+          },
+          {
+            "id": "b",
+            "en": "The camera cut away to the audience during the speaker’s pause.",
+            "zh": "講者停頓時，鏡頭切到觀眾。"
+          },
+          {
+            "id": "c",
+            "en": "The editor cut away one repeated clip before export.",
+            "zh": "匯出前，剪輯師剪去一段重複影像。"
+          }
+        ],
+        "explanationZh": "cut away to the audience 指切換畫面，不是移除影像。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事問：「短片超時了，但得獎者訪問要保留，怎樣改？」你看到一段重複的進場影像。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Cut away the repeated entrance footage and keep the winner’s interview in the final film.",
+            "zh": "剪去重複的進場影像，並在最終短片保留得獎者訪問。"
+          },
+          {
+            "id": "b",
+            "en": "Keep the winner’s interview in the short film.",
+            "zh": "在短片保留得獎者訪問。"
+          },
+          {
+            "id": "c",
+            "en": "Remove one of the duplicated entrance clips.",
+            "zh": "刪去一段重複的進場影像。"
+          }
+        ],
+        "explanationZh": "金句同時指出剪去重複片段和保留必要訪問。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The editor cut away the duplicated rehearsal footage and kept the final performance.",
+        "zh": "剪輯師剪去重複的排練影像，保留最後演出。",
+        "promptZh": "先聽示範，再指出剪去的是哪一段影片。",
+        "targetSpan": {
+          "start": 11,
+          "end": 19
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：科學展回顧短片連續播放兩次相同的機械人示範，結尾訪問說明學到甚麼。用一至兩句英文提出影片剪輯方法。",
+        "selfCheckZh": "明確指出只剪去一段重複影像，保留結尾訪問；不要把此用法泛化到普通作文。",
+        "examples": [
+          {
+            "en": "Cut away one duplicated robot demonstration from the video, but retain the closing interview.",
+            "zh": "在短片剪去一段重複的機械人示範影像，但保留片尾訪問。"
+          },
+          {
+            "en": "The editor can cut away the extra demonstration footage while leaving the students’ closing comments in place.",
+            "zh": "剪輯師可剪去多餘的示範影像，同時保留學生的片尾感言。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "one duplicated robot demonstration",
+            "zh": "一段重複的機械人示範影像",
+            "exampleIndex": 0,
+            "span": {
+              "start": 9,
+              "end": 43
+            }
+          },
+          {
+            "en": "the video",
+            "zh": "短片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 58
+            }
+          },
+          {
+            "en": "the closing interview",
+            "zh": "片尾訪問",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 92
+            }
+          },
+          {
+            "en": "the extra demonstration footage",
+            "zh": "多餘的示範影像",
+            "exampleIndex": 1,
+            "span": {
+              "start": 24,
+              "end": 55
+            }
+          },
+          {
+            "en": "the students’ closing comments",
+            "zh": "學生的片尾感言",
+            "exampleIndex": 1,
+            "span": {
+              "start": 70,
+              "end": 100
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "For this video, the editor cut away a duplicated clip without touching the final interview.",
+          "zh": "就這段影片而言，剪輯師剪去重複片段，保留最後訪問。"
+        },
+        {
+          "en": "Cut away here names removed footage; cut away to the crowd would name a camera switch.",
+          "zh": "這裏 cut away 指剪去影像；cut away to the crowd 則指鏡頭切到觀眾。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2461",
+      "number": 2461,
+      "inventoryId": "expr-2461",
+      "titleEn": "a puzzle to crack",
+      "titleZh": "一道待解的難題",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba puzzle to crack\\b",
+        "glossaryForbidden": [
+          "\\bpuzzle to crack\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "An interesting problem that invites sustained thought and experimentation.",
+        "meaningZh": "一個值得思考和嘗試解決的難題。",
+        "grammar": "Call a problem a puzzle to crack; crack is figurative for finding a solution, not breaking an object.",
+        "register": "Casual discussion of software, research and creative challenges.",
+        "boundaryZh": "可帶有好奇或挑戰感，不保證問題易解，也不表示真要敲碎物件。",
+        "misconceptionZh": "playground 是另一種比喻，不是本片語必備的一半。",
+        "outcomeZh": "能說明哪個問題吸引人嘗試解決，以及下一步要試甚麼。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0350",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 32,
+          "book": 10,
+          "question": 28,
+          "sample": "S1",
+          "sourceBookPages": "68–71",
+          "locatorNote": "DOCX table 28, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "To her, the new software was a playground or a puzzle to crack.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "playground or a puzzle to crack"
+        }
+      ],
+      "listening": {
+        "promptZh": "娜迪雅如何面對新工具？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She experimented with its controls to understand them.",
+            "zh": "她試用各種控制功能來理解工具。"
+          },
+          {
+            "id": "b",
+            "en": "She waited for a colleague to choose all the settings.",
+            "zh": "她等同事替她選好所有設定。"
+          },
+          {
+            "id": "c",
+            "en": "She broke the tool after trying the first setting.",
+            "zh": "她試第一項設定後把工具弄壞了。"
+          },
+          {
+            "id": "d",
+            "en": "She used only the settings she already knew.",
+            "zh": "她只用自己原本熟悉的設定。"
+          }
+        ],
+        "explanationZh": "她把控制功能視為可探索的難題並試了三種設定；沒有逃避或弄壞工具。",
+        "answerId": "a",
+        "en": "Nadia had never used the new design tool. Instead of avoiding it, she treated its layout controls as a puzzle to crack and tried three settings.",
+        "zh": "娜迪雅從未用過新的設計工具；她沒有避開它，而是把版面控制當作一道待解難題，試了三種設定。"
+      },
+      "reply": {
+        "promptZh": "（娜迪雅怎樣看待不熟悉的控制功能？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She saw a challenge worth exploring.",
+            "zh": "她視之為值得探索的挑戰。"
+          },
+          {
+            "id": "b",
+            "en": "She wanted to work out how the layout worked.",
+            "zh": "她想弄清版面功能如何運作。"
+          },
+          {
+            "id": "c",
+            "en": "She treated them as a puzzle to crack.",
+            "zh": "她把它們當作一道待解的難題。"
+          },
+          {
+            "id": "d",
+            "en": "She was willing to try several settings to understand them.",
+            "zh": "她願意試幾種設定來理解功能。"
+          }
+        ],
+        "explanationZh": "四句都描述她的探索態度；金句用本課比喻。",
+        "promptEn": "How did Nadia see the unfamiliar controls?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "圖書館的舊分類碼令義工找不到一批照片；義工開始比對索引、日期和箱號。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They see the catalogue problem as a puzzle to crack.",
+            "zh": "他們把分類問題視為一道待解難題。"
+          },
+          {
+            "id": "b",
+            "en": "They have already proved that every photograph is missing.",
+            "zh": "他們已證明所有照片都遺失了。"
+          },
+          {
+            "id": "c",
+            "en": "They plan to replace the photographs with new ones.",
+            "zh": "他們打算用新照片取代原有照片。"
+          }
+        ],
+        "explanationZh": "比對線索是嘗試解決分類問題，不代表照片已遺失。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 a puzzle to crack？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A researcher compares conflicting dates to identify one event.",
+            "zh": "研究員比較互相矛盾的日期，以確認一宗事件。"
+          },
+          {
+            "id": "b",
+            "en": "A student follows a fully worked answer without facing an unresolved problem.",
+            "zh": "學生照着完整示範答案做，沒有遇到未解難題。"
+          },
+          {
+            "id": "c",
+            "en": "A programmer tests why two screens show different totals.",
+            "zh": "程式設計員測試兩個畫面為何顯示不同總數。"
+          }
+        ],
+        "explanationZh": "已有完整答案而不用解難，便欠缺「待解」的一面。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這個新軟件的報表總數對不上，現在怎辦？」你想先比較資料來源。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is a puzzle to crack; let us compare the two data sources before changing the formula.",
+            "zh": "這是一道待解難題；先比較兩個資料來源，再改公式。"
+          },
+          {
+            "id": "b",
+            "en": "We can compare the two data sources first.",
+            "zh": "我們可以先比較兩個資料來源。"
+          },
+          {
+            "id": "c",
+            "en": "The formula may need another check.",
+            "zh": "公式可能需要再檢查。"
+          }
+        ],
+        "explanationZh": "金句把差異視為待解問題，並提出有根據的第一步。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The mismatched totals became a puzzle to crack for the reporting team.",
+        "zh": "不一致的總數成了報告團隊一道待解難題。",
+        "promptZh": "先聽示範，再說出哪個問題需要解決。",
+        "targetSpan": {
+          "start": 29,
+          "end": 46
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：科學社兩個感應器讀數不同，但同學尚未知道原因，正準備核對校準紀錄。用一至兩句英文描述難題和下一步。",
+        "selfCheckZh": "指出讀數差異與可驗證的下一步；不要說原因已確定。",
+        "examples": [
+          {
+            "en": "The different sensor readings are a puzzle to crack, so the club will check the calibration records first.",
+            "zh": "感應器讀數不同是一道待解難題，因此學會會先核對校準紀錄。"
+          },
+          {
+            "en": "The club has a puzzle to crack: two sensors disagree, and members need to compare their calibration logs.",
+            "zh": "學會有一道難題要解：兩個感應器讀數不符，社員需要比較校準紀錄。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "sensor readings",
+            "zh": "感應器讀數",
+            "exampleIndex": 0,
+            "span": {
+              "start": 14,
+              "end": 29
+            }
+          },
+          {
+            "en": "calibration records",
+            "zh": "校準紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 99
+            }
+          },
+          {
+            "en": "the club",
+            "zh": "學會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 64
+            }
+          },
+          {
+            "en": "two sensors disagree",
+            "zh": "兩個感應器讀數不符",
+            "exampleIndex": 1,
+            "span": {
+              "start": 32,
+              "end": 52
+            }
+          },
+          {
+            "en": "calibration logs",
+            "zh": "校準紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 88,
+              "end": 104
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A missing date in the archive became a puzzle to crack, not proof that the record was false.",
+          "zh": "檔案缺了一個日期，成了一道待解難題，卻不能證明紀錄是假的。"
+        },
+        {
+          "en": "She enjoyed having a puzzle to crack while learning the new software.",
+          "zh": "學習新軟件時，她喜歡有一道難題可以鑽研。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2493",
+      "number": 2493,
+      "inventoryId": "expr-2493",
+      "titleEn": "keep life running smoothly",
+      "titleZh": "讓日常生活運作順暢",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping) life running smoothly\\b",
+        "glossaryForbidden": [
+          "\\bkeep life running smoothly\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Help everyday routines proceed with fewer avoidable disruptions.",
+        "meaningZh": "幫助日常安排順利進行，減少可避免的混亂。",
+        "grammar": "Keep life running smoothly describes the practical effect of a tool or habit, not a promise that nothing ever goes wrong.",
+        "register": "Everyday organisation, schedules and household routines.",
+        "boundaryZh": "重點是安排較順暢，不表示生活永不出錯，也不是上油比喻。",
+        "misconceptionZh": "一份時間表可以有幫助，但不能單憑它存在便保證每件事順利。",
+        "outcomeZh": "能指出具體安排如何減少日常衝突，同時避免絕對化。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0382",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 35,
+          "book": 10,
+          "question": 31,
+          "sample": "S1",
+          "sourceBookPages": "77–78",
+          "locatorNote": "DOCX table 31, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A calendar helps keep life running smoothly.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep life running smoothly"
+        }
+      ],
+      "listening": {
+        "promptZh": "共享日曆帶來甚麼好處？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It helped the family coordinate two recurring commitments.",
+            "zh": "它幫助家人協調兩項定期安排。"
+          },
+          {
+            "id": "b",
+            "en": "It guaranteed that no appointment would be delayed.",
+            "zh": "它保證所有預約都不會延誤。"
+          },
+          {
+            "id": "c",
+            "en": "It replaced the need to check the school pickup time.",
+            "zh": "它令家人不用再核對接送時間。"
+          },
+          {
+            "id": "d",
+            "en": "It showed that the clinic cancelled every visit.",
+            "zh": "它顯示診所取消了所有覆診。"
+          }
+        ],
+        "explanationZh": "日曆幫忙協調預約和接送，但沒有消除意外延誤。",
+        "answerId": "a",
+        "en": "Mina put the clinic appointments and school pickups on one shared calendar. It helped keep life running smoothly, though unexpected delays still happened.",
+        "zh": "米娜把診所預約和接送放在同一份共享日曆；這有助日常安排順暢，雖然仍會遇到意外延誤。"
+      },
+      "reply": {
+        "promptZh": "（共享日曆怎樣幫助這家人？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It puts appointments and pickups in one place.",
+            "zh": "它把預約和接送安排放在同一處。"
+          },
+          {
+            "id": "b",
+            "en": "It helps them see possible timing clashes.",
+            "zh": "它幫他們看出時間可能相撞。"
+          },
+          {
+            "id": "c",
+            "en": "It helps keep life running smoothly.",
+            "zh": "它幫助日常生活運作順暢。"
+          },
+          {
+            "id": "d",
+            "en": "It gives everyone the same updated schedule.",
+            "zh": "它讓每個人看到同一份更新後的時間表。"
+          }
+        ],
+        "explanationZh": "四句都指出共享日曆的實際作用；金句概括其對日常安排的幫助。",
+        "promptEn": "What does the shared calendar do for the family?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一家人把長者覆診與孩子課外活動寫在共用表上，每晚花五分鐘核對翌日接送。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shared plan helps keep life running smoothly.",
+            "zh": "共用安排有助日常生活運作順暢。"
+          },
+          {
+            "id": "b",
+            "en": "The family has removed the need for any future changes.",
+            "zh": "這家人已不需要再作任何變更。"
+          },
+          {
+            "id": "c",
+            "en": "The appointments no longer require travel time.",
+            "zh": "覆診不再需要交通時間。"
+          }
+        ],
+        "explanationZh": "共用表和每日核對有助協調，不保證沒有變動。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個說法把 keep life running smoothly 誇大了？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A reminder can reduce missed appointments.",
+            "zh": "提醒可以減少錯過預約。"
+          },
+          {
+            "id": "b",
+            "en": "A calendar guarantees that no unexpected problem will occur.",
+            "zh": "日曆保證不會出現任何意外問題。"
+          },
+          {
+            "id": "c",
+            "en": "A weekly check can help family members notice clashes.",
+            "zh": "每週核對可幫助家人發現安排相撞。"
+          }
+        ],
+        "explanationZh": "有助運作順暢不等於完全消除意外。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「接送與覆診又撞時間，我們怎樣減少混亂？」你想提出共用日程和每晚核對。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us use one shared schedule and check it nightly to keep life running smoothly.",
+            "zh": "我們用一份共用日程，每晚核對，讓日常安排更順暢。"
+          },
+          {
+            "id": "b",
+            "en": "We could put both commitments on the same calendar.",
+            "zh": "我們可以把兩項安排放進同一份日曆。"
+          },
+          {
+            "id": "c",
+            "en": "A short check each evening may reveal clashes earlier.",
+            "zh": "每晚簡短核對或可提早發現撞期。"
+          }
+        ],
+        "explanationZh": "金句提出兩項具體做法，並說明目的。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "A clear pickup plan can keep life running smoothly during a busy school week.",
+        "zh": "在繁忙上學週，清楚的接送計劃可讓日常安排更順暢。",
+        "promptZh": "先聽示範，再說出安排如何幫助日常生活。",
+        "targetSpan": {
+          "start": 24,
+          "end": 50
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一家人同時要接送小孩和陪長者覆診。他們把時間與負責人記在共用日曆，每晚核對翌日安排。用一至兩句英文說明日曆怎樣幫助日常生活，同時承認仍可能變動。",
+        "selfCheckZh": "指出接送與覆診的協調作用；不要寫成意外永不發生。",
+        "examples": [
+          {
+            "en": "The shared calendar lists school pickups and clinic visits, helping keep life running smoothly even when one appointment changes.",
+            "zh": "共用日曆列出接送與覆診安排；即使一項預約變動，也有助日常生活運作順暢。"
+          },
+          {
+            "en": "Checking who handles each pickup and clinic visit every evening can keep life running smoothly, although delays may still arise.",
+            "zh": "每晚核對誰負責接送及陪同覆診，可讓日常生活較順暢，雖然仍可能延誤。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The shared calendar",
+            "zh": "共用日曆",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 19
+            }
+          },
+          {
+            "en": "school pickups and clinic visits",
+            "zh": "接送與覆診安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 26,
+              "end": 58
+            }
+          },
+          {
+            "en": "one appointment changes",
+            "zh": "一項預約變動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 128
+            }
+          },
+          {
+            "en": "each pickup",
+            "zh": "每次接送",
+            "exampleIndex": 1,
+            "span": {
+              "start": 21,
+              "end": 32
+            }
+          },
+          {
+            "en": "clinic visit",
+            "zh": "覆診",
+            "exampleIndex": 1,
+            "span": {
+              "start": 37,
+              "end": 49
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A simple checklist can keep life running smoothly when several people share one room.",
+          "zh": "幾個人共用一個房間時，簡單清單可讓日常安排較順暢。"
+        },
+        {
+          "en": "The timetable kept life running smoothly most days, but it could not prevent every delay.",
+          "zh": "時間表令大部分日子較順暢，卻不能防止所有延誤。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2526",
+      "number": 2526,
+      "inventoryId": "expr-2526",
+      "titleEn": "live in your head",
+      "titleZh": "牢記在腦海中",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:live|lives|lived|living) in (?:your|my|his|her|their|our) heads?\\b",
+        "glossaryForbidden": [
+          "\\blive in .* head\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Remain readily remembered and available when needed, especially instructions or safety steps.",
+        "meaningZh": "把步驟或指引牢記在心，需要時能想起來。",
+        "grammar": "A step can live in your head figuratively; the same wording in other contexts may refer to intrusive thoughts or songs.",
+        "register": "Remembered procedures, safety and prepared responses.",
+        "boundaryZh": "本課指記得可用的步驟，不表示資訊真住在頭裏，也不等於反覆困擾的念頭。",
+        "misconceptionZh": "背出字句不一定等於理解；應能在需要時正確運用。",
+        "outcomeZh": "能說明哪些基本步驟應熟記及何時會用到。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0415",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 38,
+          "book": 10,
+          "question": 34,
+          "sample": "S2",
+          "sourceBookPages": "83–84",
+          "locatorNote": "DOCX table 34, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Basic safety steps should live in your head.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "live in your head"
+        }
+      ],
+      "listening": {
+        "promptZh": "導遊希望大家做到甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Remember the emergency order without looking it up.",
+            "zh": "不用查閱也能記起緊急求援次序。"
+          },
+          {
+            "id": "b",
+            "en": "Keep their phones switched on throughout the trip.",
+            "zh": "全程保持手機開機。"
+          },
+          {
+            "id": "c",
+            "en": "Write the emergency order down only after it rains.",
+            "zh": "下雨後才寫下緊急求援次序。"
+          },
+          {
+            "id": "d",
+            "en": "Use different call orders for each person.",
+            "zh": "每個人使用不同的求援次序。"
+          }
+        ],
+        "explanationZh": "她讓大家事先練習，是希望需要時能直接想起步驟。",
+        "answerId": "a",
+        "en": "Before the river trip, the guide practised the emergency call order with everyone twice. “The call order should live in your head before we set off,” she said, so no one had to search a phone in the rain.",
+        "zh": "河流旅行前，導遊讓大家練習緊急求援次序兩次。她說：「出發前應把求援次序牢記在心。」這樣下雨時就不用翻找手機。"
+      },
+      "reply": {
+        "promptZh": "（導遊為何帶大家練習求援次序？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She wanted them to remember it before the trip.",
+            "zh": "她希望大家出發前記住次序。"
+          },
+          {
+            "id": "b",
+            "en": "She wanted the steps to live in their heads when needed.",
+            "zh": "她希望大家需要時能牢記這些步驟。"
+          },
+          {
+            "id": "c",
+            "en": "She wanted everyone to know which call comes first.",
+            "zh": "她希望大家知道應先打哪個電話。"
+          },
+          {
+            "id": "d",
+            "en": "She wanted them to use the procedure without searching a phone.",
+            "zh": "她希望大家不用翻找手機也能按程序行事。"
+          }
+        ],
+        "explanationZh": "四句都說明練習的目的；金句運用本課比喻。",
+        "promptEn": "Why did the guide practise the call order with the group?",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "學校急救隊反覆練習報告位置、求援和等待成人指示；隊員未必隨身帶手冊。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The basic response order should live in their heads.",
+            "zh": "基本應對次序應牢記在他們腦海中。"
+          },
+          {
+            "id": "b",
+            "en": "The team should replace every adult instruction with memory alone.",
+            "zh": "團隊應只靠記憶，取代所有成人指示。"
+          },
+          {
+            "id": "c",
+            "en": "The handbook has become unnecessary for every situation.",
+            "zh": "手冊對所有情況都已不再需要。"
+          }
+        ],
+        "explanationZh": "熟記基本次序有幫助，卻不取代現場指示或完整手冊。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不是本課 live in your head 的「熟記步驟」意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A cyclist recalls the signal sequence before turning.",
+            "zh": "單車手轉彎前想起打燈次序。"
+          },
+          {
+            "id": "b",
+            "en": "A catchy advertisement tune keeps returning uninvited.",
+            "zh": "一段洗腦廣告曲不請自來地反覆在腦中響起。"
+          },
+          {
+            "id": "c",
+            "en": "A volunteer can repeat the first-aid call order from memory.",
+            "zh": "義工能憑記憶說出急救求援次序。"
+          }
+        ],
+        "explanationZh": "洗腦歌反覆浮現是另一種用法，不是準備好可用的步驟。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「如果網絡斷了，義工怎樣找到緊急求援次序？」你已帶他們練習。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They practised the call order until it lived in their heads, and the printed card remains a backup.",
+            "zh": "他們練到把求援次序牢記在心，印刷卡仍可作後備。"
+          },
+          {
+            "id": "b",
+            "en": "They can recall the first number from the practice session.",
+            "zh": "他們可以想起練習時的第一個號碼。"
+          },
+          {
+            "id": "c",
+            "en": "We will also leave a printed card at the front desk.",
+            "zh": "我們也會把印刷卡放在接待處。"
+          }
+        ],
+        "explanationZh": "金句同時指出熟記與後備資料，不把記憶視為唯一保障。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The emergency order should live in your head before you enter the training area.",
+        "zh": "進入訓練區前，你應把緊急應對次序牢記在心。",
+        "promptZh": "先聽示範，再說出需要牢記甚麼步驟。",
+        "targetSpan": {
+          "start": 27,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：划艇隊出發前練習三個求救手勢和靠岸程序，還有印刷卡可作後備。用一至兩句英文說明應熟記甚麼和原因。",
+        "selfCheckZh": "指出求救手勢及靠岸程序，並保留印刷卡後備；不要說記憶完全取代指引。",
+        "examples": [
+          {
+            "en": "The three rescue signals should live in their heads before launch, while the printed card remains a backup for landing steps.",
+            "zh": "出發前，隊員應熟記三個求救手勢；印刷卡仍可作靠岸步驟的後備。"
+          },
+          {
+            "en": "The three rescue signals and landing procedure should live in their heads so they can act quickly, but they should keep the printed rescue card too.",
+            "zh": "隊員應熟記三個求救手勢及靠岸程序，以便迅速行動，但也應保留印刷求救卡。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "three rescue signals",
+            "zh": "三個求救手勢",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 24
+            }
+          },
+          {
+            "en": "before launch",
+            "zh": "出發前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 52,
+              "end": 65
+            }
+          },
+          {
+            "en": "printed card",
+            "zh": "印刷卡",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 89
+            }
+          },
+          {
+            "en": "landing procedure",
+            "zh": "靠岸程序",
+            "exampleIndex": 1,
+            "span": {
+              "start": 29,
+              "end": 46
+            }
+          },
+          {
+            "en": "act quickly",
+            "zh": "迅速行動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 86,
+              "end": 97
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The fire drill order lived in her head because she had practised it repeatedly.",
+          "zh": "她反覆練習，所以把火警演習次序記得很牢。"
+        },
+        {
+          "en": "Useful steps can live in your head without replacing a written safety guide.",
+          "zh": "有用的步驟可以牢記在心，卻不會取代書面安全指引。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2570",
+      "number": 2570,
+      "inventoryId": "expr-2570",
+      "titleEn": "stop being a simple X",
+      "titleZh": "不再只是單一用途",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:stop|stops|stopped|stopping) being a simple (?:contact device|noticeboard|calendar|map|tool|menu|tracker)\\b",
+        "glossaryForbidden": [
+          "\\bstop.*being a simple\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Acquire a broader role beyond one basic function without necessarily losing that original function.",
+        "meaningZh": "除了原有基本用途，還擔當更廣的角色，但未必失去原本功能。",
+        "grammar": "Stop being a simple + noun marks a change in role; not simply means the original use disappears.",
+        "register": "Discussion of technology, services and changing roles.",
+        "boundaryZh": "「不再只是」表示用途擴大，不表示原有用途完全停止。",
+        "misconceptionZh": "一部手機仍能聯絡人，即使它也成為娛樂工具。",
+        "outcomeZh": "能比較原來和新增的功能，避免說原功能已消失。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0459",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 42,
+          "book": 11,
+          "question": 2,
+          "sample": "S1",
+          "sourceBookPages": "5–7",
+          "locatorNote": "DOCX table 38, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The phone stops being a simple contact device when games dominate its use.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "phone stops being a simple contact device"
+        }
+      ],
+      "listening": {
+        "promptZh": "告示板的角色如何改變？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It now provides several kinds of timely information as well as notices.",
+            "zh": "它除了通告，還提供多種即時資訊。"
+          },
+          {
+            "id": "b",
+            "en": "Residents can no longer put paper notices on it.",
+            "zh": "居民已不能在上面張貼紙本通告。"
+          },
+          {
+            "id": "c",
+            "en": "The clinic has taken control of all community announcements.",
+            "zh": "診所已接管所有社區公告。"
+          },
+          {
+            "id": "d",
+            "en": "It displays only the next bus arrival time.",
+            "zh": "它只顯示下一班巴士抵達時間。"
+          }
+        ],
+        "explanationZh": "告示板新增多種用途，但紙本通告仍可張貼。",
+        "answerId": "a",
+        "en": "The community noticeboard now shows bus times, clinic hours and live event updates. It has stopped being a simple noticeboard, although residents still post paper notices.",
+        "zh": "社區告示板現在顯示巴士時間、診所辦公時間和活動即時消息；它已不再只是普通告示板，雖然居民仍會張貼紙本通告。"
+      },
+      "reply": {
+        "promptZh": "（社區告示板現在有甚麼更廣的用途？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gives residents live local information as well as notices.",
+            "zh": "它除了通告，也向居民提供本地即時資訊。"
+          },
+          {
+            "id": "b",
+            "en": "It helps people check buses and clinic hours.",
+            "zh": "它幫人查閱巴士和診所時間。"
+          },
+          {
+            "id": "c",
+            "en": "It has stopped being a simple noticeboard and now gives live local updates.",
+            "zh": "它已不再只是普通告示板，現在還提供本地即時消息。"
+          },
+          {
+            "id": "d",
+            "en": "It brings several everyday updates into one place.",
+            "zh": "它把幾類日常消息放在同一處。"
+          }
+        ],
+        "explanationZh": "四句都說明新增功能；金句概括角色不再單一。",
+        "promptEn": "How has the community noticeboard’s role changed?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一張校園地圖原本只標示課室，現在還顯示無障礙路線和即時電梯狀態；課室位置仍可查。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The map has stopped being a simple map because it now guides access in real time.",
+            "zh": "這張地圖已不再只是普通地圖，還可即時指引無障礙通道。"
+          },
+          {
+            "id": "b",
+            "en": "The map no longer shows any classrooms.",
+            "zh": "地圖已完全不顯示課室。"
+          },
+          {
+            "id": "c",
+            "en": "The school has stopped using elevators.",
+            "zh": "學校已停止使用升降機。"
+          }
+        ],
+        "explanationZh": "地圖保留原有查找功能，也提供新增的即時無障礙資訊。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 stop being a simple X 誤解為原用途完全消失？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The calendar now gives reminders as well as dates.",
+            "zh": "日曆除了日期，也提供提醒。"
+          },
+          {
+            "id": "b",
+            "en": "Because the calendar offers reminders, it cannot show dates anymore.",
+            "zh": "因為日曆提供提醒，它已不能顯示日期。"
+          },
+          {
+            "id": "c",
+            "en": "The device can still make calls while offering games.",
+            "zh": "裝置仍能打電話，也能玩遊戲。"
+          }
+        ],
+        "explanationZh": "新功能不必取代原用途。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「這份餐廳菜單還算普通菜單嗎？它可顯示過敏原並即時翻譯，但仍可看價格。」哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It has stopped being a simple menu: it still lists prices, but it also translates dishes and flags allergens.",
+            "zh": "它已不再只是普通菜單：仍列出價格，也能翻譯菜式及標示致敏原。"
+          },
+          {
+            "id": "b",
+            "en": "It now helps diners check allergens and read translated names.",
+            "zh": "它現在讓食客查看致敏原和翻譯後的菜名。"
+          },
+          {
+            "id": "c",
+            "en": "It still lists the prices of dishes.",
+            "zh": "它仍列出菜式價格。"
+          }
+        ],
+        "explanationZh": "金句同時指出保留原用途和新增功能。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The school map stopped being a simple map when it began showing live lift updates.",
+        "zh": "校園地圖開始顯示升降機即時消息後，就不再只是普通地圖。",
+        "promptZh": "先聽示範，再說出原有和新增的用途。",
+        "targetSpan": {
+          "start": 15,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：圖書館借閱紀錄頁原本只列出到期日，現在也提醒續借、顯示館藏位置；到期日仍可查。用一至兩句英文說明角色變化。",
+        "selfCheckZh": "同時指出原有到期日功能與新增提醒或位置功能；不要說原功能不見了。",
+        "examples": [
+          {
+            "en": "The borrowing page has stopped being a simple tracker: it still shows due dates but now sends renewal reminders.",
+            "zh": "借閱頁已不再只是普通追蹤頁：它仍顯示到期日，還會發出續借提醒。"
+          },
+          {
+            "en": "The page stopped being a simple tool when it began showing shelf locations as well as due dates.",
+            "zh": "借閱頁開始同時顯示書架位置和到期日後，就不再只是單一工具。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The borrowing page",
+            "zh": "借閱頁",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "due dates",
+            "zh": "到期日",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 79
+            }
+          },
+          {
+            "en": "renewal reminders",
+            "zh": "續借提醒",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 111
+            }
+          },
+          {
+            "en": "shelf locations",
+            "zh": "書架位置",
+            "exampleIndex": 1,
+            "span": {
+              "start": 59,
+              "end": 74
+            }
+          },
+          {
+            "en": "as well as due dates",
+            "zh": "以及到期日",
+            "exampleIndex": 1,
+            "span": {
+              "start": 75,
+              "end": 95
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The app stopped being a simple calendar when it added shared reminders.",
+          "zh": "這個應用程式加入共用提醒後，便不再只是普通日曆。"
+        },
+        {
+          "en": "A phone can stop being a simple contact device without losing its calling function.",
+          "zh": "手機可以不再只是聯絡裝置，卻仍保有通話功能。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2577",
+      "number": 2577,
+      "inventoryId": "expr-2577",
+      "titleEn": "feel connected to home",
+      "titleZh": "感到與家人和家鄉保持聯繫",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:feel|feels|felt|feeling) connected to home\\b",
+        "glossaryForbidden": [
+          "\\bconnected to home\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Feel linked to familiar people and daily life at home despite being away.",
+        "meaningZh": "人在外地仍感到與家人及熟悉的家庭生活保持聯繫。",
+        "grammar": "Feel connected to home refers to emotional and social connection; a device can help through contact but cannot guarantee the feeling.",
+        "register": "Family contact during trips, study and time away.",
+        "boundaryZh": "此處的 home 指熟悉的人與生活，不要求身在家中，也不單指手機訊號。",
+        "misconceptionZh": "有網絡連線不代表必然感到親近；要說明實際聯繫方式。",
+        "outcomeZh": "能指出哪種交流讓離家的人感到親近，同時不作過度保證。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0466",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 43,
+          "book": 11,
+          "question": 3,
+          "sample": "S1",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 39, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A phone helps children feel connected to home.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "connected to home"
+        }
+      ],
+      "listening": {
+        "promptZh": "甚麼幫助伊莎感到與家裏親近？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A regular call in which she shared her day with family.",
+            "zh": "她定期致電家人，分享當天經歷。"
+          },
+          {
+            "id": "b",
+            "en": "A faster internet plan for everyone at camp.",
+            "zh": "營地所有人都轉用更快的上網計劃。"
+          },
+          {
+            "id": "c",
+            "en": "A promise that she could leave camp early.",
+            "zh": "有人答應讓她提早離開營地。"
+          },
+          {
+            "id": "d",
+            "en": "A daily message from a stranger at camp.",
+            "zh": "營地陌生人每天發給她的訊息。"
+          }
+        ],
+        "explanationZh": "實際令她有聯繫感的是與家人的定期交流，不是單有網絡。",
+        "answerId": "a",
+        "en": "During her first week at camp, Isha called her family each evening and shared one small story about the day. The routine helped her feel connected to home.",
+        "zh": "伊莎參加營地活動的第一週，每晚都致電家人並分享一件當天的小事；這習慣讓她感到與家裏保持聯繫。"
+      },
+      "reply": {
+        "promptZh": "（晚間通話怎樣幫助伊莎？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They let her share small details with her family.",
+            "zh": "它們讓她與家人分享小事。"
+          },
+          {
+            "id": "b",
+            "en": "They helped her feel connected to home.",
+            "zh": "它們讓她感到與家裏保持聯繫。"
+          },
+          {
+            "id": "c",
+            "en": "They gave her a familiar routine while she was away.",
+            "zh": "離家期間，它們為她帶來熟悉的日常習慣。"
+          },
+          {
+            "id": "d",
+            "en": "They let her tell her family one small story each evening.",
+            "zh": "它們讓她每晚向家人分享一件小事。"
+          }
+        ],
+        "explanationZh": "四句都說明通話的幫助；金句概括離家仍感親近的感受。",
+        "promptEn": "How did the evening calls help Isha at camp?",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "一名交換生每週與祖母視像做一道家常菜，互相分享近況；他身處另一個城市。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The weekly cooking call helps him feel connected to home.",
+            "zh": "每週一起煮菜的視像通話讓他感到與家裏保持聯繫。"
+          },
+          {
+            "id": "b",
+            "en": "The call proves he will never miss his family.",
+            "zh": "這通話證明他永遠不會想念家人。"
+          },
+          {
+            "id": "c",
+            "en": "He must be physically at home whenever they cook.",
+            "zh": "每次煮菜時他必定身在家中。"
+          }
+        ],
+        "explanationZh": "共同做熟悉的事能帶來聯繫感，但不能保證沒有思念。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 feel connected to home 誤解成技術連線本身？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Sharing family stories may help someone feel close while away.",
+            "zh": "離家時分享家庭故事或可令人感到親近。"
+          },
+          {
+            "id": "b",
+            "en": "A strong mobile signal automatically gives every traveller a sense of belonging.",
+            "zh": "手機訊號強便會自動讓每位旅客都有歸屬感。"
+          },
+          {
+            "id": "c",
+            "en": "Regular contact can help maintain a familiar relationship.",
+            "zh": "定期交流有助維持熟悉的關係。"
+          }
+        ],
+        "explanationZh": "訊號只是工具；聯繫感來自交流與關係。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「弟弟第一次住宿舍，有時覺得陌生。我們可以怎樣幫他？」你知道他喜歡聽家裏的日常消息。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us call him regularly and share family news so he can feel connected to home.",
+            "zh": "我們定期致電並分享家裏消息，讓他感到與家裏保持聯繫。"
+          },
+          {
+            "id": "b",
+            "en": "We can send him news about our week.",
+            "zh": "我們可以告訴他這星期家裏的近況。"
+          },
+          {
+            "id": "c",
+            "en": "A short weekly call may give him something familiar.",
+            "zh": "每週一次簡短通話或能讓他感到熟悉。"
+          }
+        ],
+        "explanationZh": "金句提出符合他的習慣的交流方式及其作用。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The Sunday video call helped the student feel connected to home during her first month abroad.",
+        "zh": "到外地的第一個月，星期日的視像通話讓這名學生感到與家裏保持聯繫。",
+        "promptZh": "先聽示範，再說出哪種交流帶來親近感。",
+        "targetSpan": {
+          "start": 41,
+          "end": 63
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：船員連續三週在外工作，每週收到家人錄下的晚餐談話，並在休息時回覆。用一至兩句英文描述這種交流的作用。",
+        "selfCheckZh": "指出雙向交流和與家人生活的連繫；不要說單靠訊號便足夠。",
+        "examples": [
+          {
+            "en": "The recorded dinner conversations and his replies help the sailor feel connected to home during three weeks at sea.",
+            "zh": "錄下的晚餐談話及他的回覆，讓船員在海上工作的三星期裏感到與家裏保持聯繫。"
+          },
+          {
+            "en": "By replying to the family’s recorded dinner conversations, he can feel connected to home even while working at sea.",
+            "zh": "他回覆家人錄下的晚餐談話，即使在海上工作，仍能感到與家裏保持聯繫。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "recorded dinner conversations",
+            "zh": "錄下的晚餐談話",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 33
+            }
+          },
+          {
+            "en": "his replies",
+            "zh": "他的回覆",
+            "exampleIndex": 0,
+            "span": {
+              "start": 38,
+              "end": 49
+            }
+          },
+          {
+            "en": "three weeks at sea",
+            "zh": "在海上的三星期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 114
+            }
+          },
+          {
+            "en": "By replying",
+            "zh": "藉着回覆",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 11
+            }
+          },
+          {
+            "en": "working at sea",
+            "zh": "在海上工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 100,
+              "end": 114
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A letter from her sister helped her feel connected to home while she was away.",
+          "zh": "離家期間，妹妹的來信讓她感到與家裏保持聯繫。"
+        },
+        {
+          "en": "He felt connected to home through regular conversations, not merely through a working phone.",
+          "zh": "定期談話令他感到與家裏保持聯繫，並非只因手機可用。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2732",
+      "number": 2732,
+      "inventoryId": "expr-2732",
+      "titleEn": "hum the same tune",
+      "titleZh": "哼唱同一首曲調",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:hum|hums|hummed|humming) the same tune\\b",
+        "glossaryForbidden": [
+          "\\b(?:hum|hums|hummed|humming) the same tune\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Hum the same melody that other people are humming, here showing a song becoming widely familiar.",
+        "meaningZh": "與其他人哼唱同一段旋律，這裏反映歌曲廣為人熟悉。",
+        "grammar": "Hum the same tune is literal shared melody here; do not import the agreement sense of sing the same tune.",
+        "register": "Music, performances and songs spreading through a community.",
+        "boundaryZh": "重點是同一旋律被不同人哼唱，不代表每個人同意彼此的看法。",
+        "misconceptionZh": "也不一定表示大家同一時間、同一地點唱歌。",
+        "outcomeZh": "能描述一首曲如何傳開，並避免誤讀成意見一致。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0621",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 57,
+          "book": 11,
+          "question": 16,
+          "sample": "S2",
+          "sourceBookPages": "43–44",
+          "locatorNote": "DOCX table 52, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "By summer, the whole city is humming the same tune.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the whole city is humming the same tune"
+        }
+      ],
+      "listening": {
+        "promptZh": "兩週後有甚麼情況？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The melody had become familiar to people in different places.",
+            "zh": "不同地方的人都熟悉那段旋律。"
+          },
+          {
+            "id": "b",
+            "en": "The shops and buses played the band’s full concert.",
+            "zh": "商店和巴士播放了樂隊的整場演出。"
+          },
+          {
+            "id": "c",
+            "en": "Everyone agreed with the band’s views.",
+            "zh": "所有人都同意樂隊的看法。"
+          },
+          {
+            "id": "d",
+            "en": "The band stopped playing the melody after the fair.",
+            "zh": "樂隊在市集後停止演奏那段旋律。"
+          }
+        ],
+        "explanationZh": "不同地方的人哼唱同一旋律，顯示歌曲傳開；沒有提及意見一致。",
+        "answerId": "a",
+        "en": "A local band played a short melody at the summer fair. Two weeks later, people in shops and on buses were humming the same tune.",
+        "zh": "本地樂隊在夏季市集演奏一段短旋律。兩週後，商店和巴士上的人都在哼唱同一首曲調。"
+      },
+      "reply": {
+        "promptZh": "（市集那段旋律傳得有多廣？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "People were repeating it around town.",
+            "zh": "鎮上不少人都在重複那段旋律。"
+          },
+          {
+            "id": "b",
+            "en": "It could be heard from shoppers and passengers.",
+            "zh": "可聽到顧客和乘客哼唱。"
+          },
+          {
+            "id": "c",
+            "en": "People in different places were humming the same tune.",
+            "zh": "不同地方的人在哼唱同一首曲調。"
+          },
+          {
+            "id": "d",
+            "en": "The short melody became familiar beyond the fair.",
+            "zh": "短旋律在市集以外也廣為人知。"
+          }
+        ],
+        "explanationZh": "四句都描述旋律傳播；金句保留實際哼唱的意思。",
+        "promptEn": "How widely did the fair melody spread?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "學校合唱團在運動會唱一段副歌；隔天，不同年級的學生在走廊都哼着那段副歌。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Students in different years are humming the same tune.",
+            "zh": "不同年級的學生都在哼唱同一段旋律。"
+          },
+          {
+            "id": "b",
+            "en": "Students now agree on every school decision.",
+            "zh": "學生現在同意學校的每個決定。"
+          },
+          {
+            "id": "c",
+            "en": "The choir must have held another concert in the corridor.",
+            "zh": "合唱團一定在走廊再辦了一場演出。"
+          }
+        ],
+        "explanationZh": "情境直接描述同一旋律被多組學生哼唱。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不能證明有人在 hum the same tune？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Two neighbours independently hum the fair’s chorus.",
+            "zh": "兩位鄰居各自哼唱市集副歌。"
+          },
+          {
+            "id": "b",
+            "en": "Two classmates agree on a rule but neither knows any song.",
+            "zh": "兩名同學同意一項規則，卻都不知道任何歌曲。"
+          },
+          {
+            "id": "c",
+            "en": "A bus passenger hums the chorus another shopper hummed earlier.",
+            "zh": "巴士乘客哼着另一位顧客早前哼唱的副歌。"
+          }
+        ],
+        "explanationZh": "意見一致不是本課的「哼唱同一曲調」。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「那首節日歌真的傳開了嗎？」你聽到街市和渡輪上的人都在哼唱。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes, people at the market and on the ferry are humming the same tune now.",
+            "zh": "有，現在街市和渡輪上的人都在哼唱同一首曲調。"
+          },
+          {
+            "id": "b",
+            "en": "I heard people at the market humming it.",
+            "zh": "我聽見街市有人哼唱。"
+          },
+          {
+            "id": "c",
+            "en": "The chorus seems familiar to several passengers.",
+            "zh": "幾位乘客似乎熟悉副歌。"
+          }
+        ],
+        "explanationZh": "金句指出兩個地方有人實際哼唱同一旋律。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "By Friday, the whole market was humming the same tune from the festival.",
+        "zh": "到了星期五，整個街市都在哼唱節日裏那段旋律。",
+        "promptZh": "先聽示範，再說出歌曲如何傳開。",
+        "targetSpan": {
+          "start": 32,
+          "end": 53
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：圖書館活動播出一段短歌；數天後，咖啡店和公園裏的人都哼唱副歌。用一至兩句英文描述旋律如何傳開。",
+        "selfCheckZh": "指出兩個地方及同一段旋律；不要把「同曲」解成意見一致。",
+        "examples": [
+          {
+            "en": "Days after the library event, people in the café and park were humming the same tune.",
+            "zh": "圖書館活動數天後，咖啡店和公園的人都在哼唱同一段旋律。"
+          },
+          {
+            "en": "The song became familiar beyond the library: visitors at the café and in the park hummed the same tune.",
+            "zh": "短歌傳出圖書館：咖啡店與公園的訪客都在哼唱同一段旋律。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the library event",
+            "zh": "圖書館活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 11,
+              "end": 28
+            }
+          },
+          {
+            "en": "the café and park",
+            "zh": "咖啡店和公園",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 57
+            }
+          },
+          {
+            "en": "Days after",
+            "zh": "數天後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 10
+            }
+          },
+          {
+            "en": "beyond the library",
+            "zh": "在圖書館以外",
+            "exampleIndex": 1,
+            "span": {
+              "start": 25,
+              "end": 43
+            }
+          },
+          {
+            "en": "visitors at the café",
+            "zh": "咖啡店的訪客",
+            "exampleIndex": 1,
+            "span": {
+              "start": 45,
+              "end": 65
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Children on two streets hummed the same tune after the school concert.",
+          "zh": "學校音樂會後，兩條街上的孩子都哼唱同一段旋律。"
+        },
+        {
+          "en": "Humming the same tune here shows a shared melody, not a shared opinion.",
+          "zh": "這裏哼唱同一曲調指的是共同旋律，不是相同意見。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3189",
+      "number": 3189,
+      "inventoryId": "expr-3189",
+      "titleEn": "impatient with the problem, but patient with the solution",
+      "titleZh": "急於解決問題，耐心打磨方案",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bimpatient with the (?:problem|delay|fault|error),? but patient with the (?:solution|repair|fix|answer)\\b",
+        "glossaryForbidden": [
+          "\\bimpatient with.*patient with\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Act promptly against a problem while allowing enough time to develop and test a sound response.",
+        "meaningZh": "面對問題要迅速行動，制定和驗證方案時則要有耐性。",
+        "grammar": "Impatient with the problem, but patient with the solution balances urgency and care; it does not excuse delay or rash fixes.",
+        "register": "Engineering, service recovery and careful problem-solving.",
+        "boundaryZh": "急於處理問題不等於草率推出未驗證方案；耐心修正亦不等於拖延。",
+        "misconceptionZh": "兩半須同時成立，不能只寫急躁或只寫等待。",
+        "outcomeZh": "能說明先迅速辨認問題、後耐心測試修復的兩階段。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1078",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 100,
+          "book": 12,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "80–81",
+          "locatorNote": "DOCX table 103, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Good engineers are impatient with the problem, but patient with the solution.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "impatient with the problem, but patient with the solution"
+        }
+      ],
+      "listening": {
+        "promptZh": "工程師如何平衡速度與審慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They reported the fault quickly but tested the repair before reopening.",
+            "zh": "他們迅速通報故障，但重新開放前先測試維修。"
+          },
+          {
+            "id": "b",
+            "en": "They reopened the lift immediately without testing.",
+            "zh": "他們沒有測試便立即重開升降機。"
+          },
+          {
+            "id": "c",
+            "en": "They waited to report the fault until every part was replaced.",
+            "zh": "他們等到全部零件換好後才通報故障。"
+          },
+          {
+            "id": "d",
+            "en": "They decided the lift could not be repaired.",
+            "zh": "他們認定升降機無法維修。"
+          }
+        ],
+        "explanationZh": "通報問題很快，驗證修復則沒有省略。",
+        "answerId": "a",
+        "en": "The lift kept stopping between floors. The engineers reported the fault immediately, then tested each replacement part before reopening it. They were impatient with the problem, but patient with the solution.",
+        "zh": "升降機不斷在樓層之間停下。工程師立即通報故障，再逐件測試替換零件，才重新開放；他們急於處理問題，卻耐心驗證方案。"
+      },
+      "reply": {
+        "promptZh": "（工程師怎樣應對升降機故障？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They acted quickly to flag the problem.",
+            "zh": "他們迅速指出問題。"
+          },
+          {
+            "id": "b",
+            "en": "They checked each new part before reopening the lift.",
+            "zh": "重新開放前，他們檢查每件新零件。"
+          },
+          {
+            "id": "c",
+            "en": "They were impatient with the problem, but patient with the solution.",
+            "zh": "他們急於處理問題，卻耐心驗證方案。"
+          },
+          {
+            "id": "d",
+            "en": "They treated the danger as urgent without rushing the repair.",
+            "zh": "他們重視危險的迫切性，但沒有草率維修。"
+          }
+        ],
+        "explanationZh": "四句都反映迅速報告與耐心測試；金句完整表達對比。",
+        "promptEn": "How did the engineers respond to the lift fault?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "網站出現錯價，團隊立即暫停結帳，卻逐項核對資料後才重開。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They were impatient with the error, but patient with the fix.",
+            "zh": "他們急於處理錯價，卻耐心核對修正方法。"
+          },
+          {
+            "id": "b",
+            "en": "They ignored the incorrect prices until customers complained.",
+            "zh": "他們一直忽略錯價，直到顧客投訴。"
+          },
+          {
+            "id": "c",
+            "en": "They reopened checkout before checking any figures.",
+            "zh": "他們未核對數字便重開結帳。"
+          }
+        ],
+        "explanationZh": "立即控制錯價並審慎測試，符合兩半對比。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個做法最不能體現這種平衡？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Flag the fault now, then test the replacement carefully.",
+            "zh": "現在通報故障，再仔細測試替換零件。"
+          },
+          {
+            "id": "b",
+            "en": "Publish the first untested fix immediately because the issue is urgent.",
+            "zh": "因問題迫切，立即推出未測試的第一個修正。"
+          },
+          {
+            "id": "c",
+            "en": "Protect users first while the repair is checked.",
+            "zh": "先保護使用者，同時檢查維修結果。"
+          }
+        ],
+        "explanationZh": "迫切不代表可跳過必要測試。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「付款頁有問題，我們要快，但改動還沒測試。」你會怎樣回應最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Be impatient with the problem, but patient with the solution: pause payments now and test the fix before release.",
+            "zh": "急於處理問題，卻耐心驗證方案：現在暫停付款，上線前測試修正。"
+          },
+          {
+            "id": "b",
+            "en": "Pause payments now so customers do not see the wrong total.",
+            "zh": "現在暫停付款，免得顧客看到錯誤總額。"
+          },
+          {
+            "id": "c",
+            "en": "Test the proposed change before making it public.",
+            "zh": "公開改動前先測試方案。"
+          }
+        ],
+        "explanationZh": "金句同時要求即時控制風險與審慎驗證修正。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The team was impatient with the fault, but patient with the repair before opening the service again.",
+        "zh": "團隊急於處理故障，但重新開放服務前耐心測試維修。",
+        "promptZh": "先聽示範，再說出問題與方案需要不同速度。",
+        "targetSpan": {
+          "start": 13,
+          "end": 66
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校報名表把出生日期顯示錯。職員即時關閉表格，技術員逐項測試更新後才重開。用一至兩句英文描述兩階段處理。",
+        "selfCheckZh": "指出即時止錯及耐心測試；不要說未測試已上線。",
+        "examples": [
+          {
+            "en": "They were impatient with the error, but patient with the fix: staff closed the form quickly and tested each update before reopening.",
+            "zh": "他們急於處理錯誤，卻耐心驗證修正：職員迅速關閉表格，重新開放前逐項測試更新。"
+          },
+          {
+            "en": "The team was impatient with the problem, but patient with the solution, pausing sign-ups at once and checking the corrected dates carefully.",
+            "zh": "團隊急於處理問題，卻耐心驗證方案，立即暫停報名並仔細核對修正後的日期。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "staff closed the form quickly",
+            "zh": "職員迅速關閉表格",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 91
+            }
+          },
+          {
+            "en": "tested each update",
+            "zh": "逐項測試更新",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 114
+            }
+          },
+          {
+            "en": "before reopening",
+            "zh": "重新開放前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 131
+            }
+          },
+          {
+            "en": "pausing sign-ups at once",
+            "zh": "立即暫停報名",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 96
+            }
+          },
+          {
+            "en": "checking the corrected dates",
+            "zh": "核對修正後的日期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 129
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A good repair team is impatient with the delay, but patient with the solution it tests.",
+          "zh": "好的維修團隊急於處理延誤，卻耐心測試方案。"
+        },
+        {
+          "en": "The team was impatient with the fault, but patient with the repair, even under time pressure.",
+          "zh": "即使時間緊迫，團隊仍急於處理故障，卻耐心測試維修。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3373",
+      "number": 3373,
+      "inventoryId": "expr-3373",
+      "titleEn": "distinguish guidance and control",
+      "titleZh": "分清引導與控制",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:distinguish|distinguishes|distinguished|distinguishing) guidance (?:and|from) control\\b",
+        "glossaryForbidden": [
+          "\\bguidance (?:and|from) control\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Separate advice that supports someone’s choice from taking the choice away from them.",
+        "meaningZh": "分辨協助對方作選擇的引導與替對方決定的控制。",
+        "grammar": "Distinguish guidance and control can be followed by examples of who explains options and who makes the final choice.",
+        "register": "Parenting, teaching, mentoring and leadership.",
+        "boundaryZh": "給予建議不等於控制；但要求對方只能按自己的決定行事，就可能越界。",
+        "misconceptionZh": "控制也不等於任何限制；要看是否真正留下選擇與商量空間。",
+        "outcomeZh": "能用具體行動解釋誰提供意見、誰作最後決定。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1262",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 117,
+          "book": 12,
+          "question": 51,
+          "sample": "S2",
+          "sourceBookPages": "118–120",
+          "locatorNote": "DOCX table 121, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Parents need to distinguish guidance and control.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "guidance and control"
+        }
+      ],
+      "listening": {
+        "promptZh": "兩位長輩的做法有何不同？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her father offered information and choice; her aunt made the decision for her.",
+            "zh": "父親提供資料並讓她選擇；姨媽則代她作決定。"
+          },
+          {
+            "id": "b",
+            "en": "Both relatives let Maya choose after comparing costs.",
+            "zh": "兩位長輩都在比較費用後讓瑪雅選擇。"
+          },
+          {
+            "id": "c",
+            "en": "Her father refused to name any courses.",
+            "zh": "父親拒絕提出任何課程。"
+          },
+          {
+            "id": "d",
+            "en": "Her aunt only asked Maya which course she preferred.",
+            "zh": "姨媽只是問瑪雅喜歡哪門課。"
+          }
+        ],
+        "explanationZh": "父親協助評估，姨媽代為決定，差別在於選擇權。",
+        "answerId": "a",
+        "en": "Maya’s father described three training courses and their costs, then let her choose. Her aunt chose a course for her and refused to discuss it. Maya could distinguish guidance and control.",
+        "zh": "瑪雅的父親介紹三門訓練課程及費用，再讓她選擇；姨媽替她選定課程，不願商量。瑪雅能分清引導與控制。"
+      },
+      "reply": {
+        "promptZh": "（瑪雅從兩位長輩的做法學到甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Advice can help without removing the learner’s choice.",
+            "zh": "建議可以幫忙而不奪走學習者的選擇。"
+          },
+          {
+            "id": "b",
+            "en": "Deciding for someone is different from explaining options.",
+            "zh": "代人決定與解釋選項並不相同。"
+          },
+          {
+            "id": "c",
+            "en": "She learned to distinguish guidance and control.",
+            "zh": "她學會分清引導與控制。"
+          },
+          {
+            "id": "d",
+            "en": "She saw why the final decision should be discussed with her.",
+            "zh": "她明白為何最後決定應與她商量。"
+          }
+        ],
+        "explanationZh": "四句都指出提供資訊與代人決定的差別；金句直接表達分辨。",
+        "promptEn": "What did Maya learn from the two adults’ approaches?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "導師列出三種研究方法的利弊，讓學生選；另一位導師只准用自己指定的一種。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "This contrast helps students distinguish guidance and control.",
+            "zh": "這種對比讓學生分清引導與控制。"
+          },
+          {
+            "id": "b",
+            "en": "Both tutors have given students the same freedom.",
+            "zh": "兩位導師給學生同樣的自由。"
+          },
+          {
+            "id": "c",
+            "en": "The first tutor made every decision for the students.",
+            "zh": "第一位導師替學生作了所有決定。"
+          }
+        ],
+        "explanationZh": "第一位解釋後留下選擇，另一位限制了選擇。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個做法較接近 control 而不是 guidance？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Explain the options, then ask for the student’s reasons.",
+            "zh": "解釋選項，再詢問學生的理由。"
+          },
+          {
+            "id": "b",
+            "en": "Reject every alternative and order the student to choose one named option.",
+            "zh": "拒絕所有替代方案，命令學生只可選指定選項。"
+          },
+          {
+            "id": "c",
+            "en": "Share the risks and let the learner decide.",
+            "zh": "說明風險，讓學習者決定。"
+          }
+        ],
+        "explanationZh": "只准選指定答案而不容商量，是代對方決定。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「我想幫妹妹選科，但不想替她決定。」你會怎樣回答最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Distinguish guidance and control: explain the course options, then let her make the final choice.",
+            "zh": "要分清引導與控制：解釋選科選項，再讓她作最後決定。"
+          },
+          {
+            "id": "b",
+            "en": "You can compare the courses with her before she chooses.",
+            "zh": "她作決定前，你可以和她比較各科。"
+          },
+          {
+            "id": "c",
+            "en": "Ask which subjects she enjoys and why.",
+            "zh": "問問她喜歡哪些科目以及原因。"
+          }
+        ],
+        "explanationZh": "金句既說明界線，也提出有用的協助方式。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Good mentors distinguish guidance and control by explaining choices without taking them away.",
+        "zh": "好的導師會解釋選項而不奪走選擇權，從而分清引導與控制。",
+        "promptZh": "先聽示範，再說出建議與代人決定的分別。",
+        "targetSpan": {
+          "start": 13,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區工作坊的第一位教練示範兩種接待方法、解釋各自適用時機，並讓義工選擇；第二位教練只准用她指定的方法，不容商量。用一至兩句英文比較引導與控制。",
+        "selfCheckZh": "指出第一位教練留下選擇、第二位教練代人決定；不要只描述其中一人。",
+        "examples": [
+          {
+            "en": "The volunteers can distinguish guidance and control: one coach explains both methods and lets them choose, while the other dictates one method.",
+            "zh": "義工可以分清引導與控制：一位教練解釋兩種方法並讓他們選擇，另一位只准用指定方法。"
+          },
+          {
+            "en": "We can distinguish guidance from control here: the first coach leaves the choice to volunteers, whereas the second refuses alternatives.",
+            "zh": "這裏可以分清引導與控制：第一位教練讓義工選擇，第二位則拒絕其他方法。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "both methods",
+            "zh": "兩種方法",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 84
+            }
+          },
+          {
+            "en": "lets them choose",
+            "zh": "讓他們選擇",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 105
+            }
+          },
+          {
+            "en": "the other",
+            "zh": "另一位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 113,
+              "end": 122
+            }
+          },
+          {
+            "en": "the first coach",
+            "zh": "第一位教練",
+            "exampleIndex": 1,
+            "span": {
+              "start": 47,
+              "end": 62
+            }
+          },
+          {
+            "en": "refuses alternatives",
+            "zh": "拒絕其他方法",
+            "exampleIndex": 1,
+            "span": {
+              "start": 115,
+              "end": 135
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A teacher can distinguish guidance and control by offering feedback without dictating every choice.",
+          "zh": "教師可以提出回饋而不主宰每個選擇，藉此分清引導與控制。"
+        },
+        {
+          "en": "The adviser distinguished guidance from control when she let the applicant choose the course.",
+          "zh": "顧問讓申請者自己選課，便分清了引導與控制。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4636",
+      "number": 4636,
+      "inventoryId": "expr-4636",
+      "titleEn": "mistake X for Y",
+      "titleZh": "把一回事誤當成另一回事",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:mistake|mistakes|mistook|mistaken|mistaking) (?:convenience|speed|comfort|ease|a familiar route|a quick booking|a quick rental|a clear sign) for (?:invincibility|safety|a guarantee(?: of safety)?|proof of safety)\\b",
+        "glossaryForbidden": [
+          "\\bmistak(?:e|es|ing|en).*\\bfor\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Wrongly treat one attractive quality as proof of a stronger quality that it does not establish.",
+        "meaningZh": "把一項便利或表面優點誤當成已證實的安全保障。",
+        "grammar": "Mistake X for Y identifies a false inference; here convenience must not be equated with invincibility or safety.",
+        "register": "Travel planning, risk assessment and everyday decisions.",
+        "boundaryZh": "方便可是真的，卻不足以證明安全無虞；不要否定便利本身。",
+        "misconceptionZh": "不要把「尚未證實安全」誇大成「一定危險」。",
+        "outcomeZh": "能指出哪一項證據不足以支持哪個過強結論。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2525",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 239,
+          "book": 16,
+          "question": 51,
+          "sample": "S2",
+          "sourceBookPages": "120–121",
+          "locatorNote": "DOCX table 266, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Travel safety means not mistaking convenience for invincibility.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "not mistaking convenience for invincibility"
+        }
+      ],
+      "listening": {
+        "promptZh": "領隊為何仍作安全檢查？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An easy booking did not prove the journey had no risks.",
+            "zh": "預訂方便不代表旅程沒有風險。"
+          },
+          {
+            "id": "b",
+            "en": "The bus booking had failed completely.",
+            "zh": "巴士預訂完全失敗。"
+          },
+          {
+            "id": "c",
+            "en": "The weather report had guaranteed clear skies.",
+            "zh": "天氣報告保證天晴。"
+          },
+          {
+            "id": "d",
+            "en": "The route was impossible to travel by bus.",
+            "zh": "這條路線不可能乘巴士前往。"
+          }
+        ],
+        "explanationZh": "交通方便不等於對風險免疫，檢查仍有必要。",
+        "answerId": "a",
+        "en": "A direct bus route made the mountain trip easy to book. The leader still checked weather and equipment, warning the group not to mistake convenience for invincibility.",
+        "zh": "直達巴士令山區旅行容易預訂，但領隊仍檢查天氣與裝備，提醒大家別把方便誤當成不會遇險。"
+      },
+      "reply": {
+        "promptZh": "（領隊提醒大家避免甚麼誤判？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They should not assume an easy route is risk-free.",
+            "zh": "他們不應以為路線方便便沒有風險。"
+          },
+          {
+            "id": "b",
+            "en": "They should not think an easy booking makes the trip risk-free.",
+            "zh": "他們不應以為預訂容易便代表旅程無風險。"
+          },
+          {
+            "id": "c",
+            "en": "They should not mistake convenience for invincibility.",
+            "zh": "他們不應把便利誤當成不會遇險。"
+          },
+          {
+            "id": "d",
+            "en": "A simple booking process is no substitute for preparation.",
+            "zh": "預訂程序簡單不能取代準備工作。"
+          }
+        ],
+        "explanationZh": "四句都回應警告；金句指出把便利當作無風險的錯誤推論。",
+        "promptEn": "What mistake did the leader warn the group against?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "旅客因常走某條遠足路便沒有查看當天天氣；同行者提醒她路線熟悉也可能遇到突變。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She must not mistake a familiar route for safety.",
+            "zh": "她不應把熟悉路線誤當成安全保障。"
+          },
+          {
+            "id": "b",
+            "en": "The familiar route is certain to be dangerous today.",
+            "zh": "那條熟悉路線今天一定危險。"
+          },
+          {
+            "id": "c",
+            "en": "She has never walked that route before.",
+            "zh": "她以前從未走過那條路線。"
+          }
+        ],
+        "explanationZh": "熟悉不保證當天安全，也不等於路線必然危險。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句最明顯把一項優點誤當成安全證據？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The booking is quick, but we still need to check the forecast.",
+            "zh": "預訂很快，但仍須查看天氣預報。"
+          },
+          {
+            "id": "b",
+            "en": "The booking takes only one click, so the trip must be safe.",
+            "zh": "只須按一下便完成預訂，所以旅程一定安全。"
+          },
+          {
+            "id": "c",
+            "en": "A convenient route can still require planning.",
+            "zh": "方便的路線仍可能需要規劃。"
+          }
+        ],
+        "explanationZh": "一鍵預訂只是方便，不能證明旅程安全。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這款頭盔戴起來很舒服，所以一定能保護我們吧？」你還未看過安全認證。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Do not mistake comfort for safety; let us check its certification before relying on it.",
+            "zh": "不要把舒適誤當成安全；依賴它前先查核認證。"
+          },
+          {
+            "id": "b",
+            "en": "We should read the safety label before choosing it.",
+            "zh": "選用前應閱讀安全標籤。"
+          },
+          {
+            "id": "c",
+            "en": "Comfort matters, but we need more information about protection.",
+            "zh": "舒適很重要，但我們還需要防護資料。"
+          }
+        ],
+        "explanationZh": "金句指出舒適並非安全證據，並提出可驗證的下一步。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Do not mistake convenience for invincibility when planning a remote trip.",
+        "zh": "計劃偏遠旅程時，不要把方便誤當成不會遇險。",
+        "promptZh": "先聽示範，再說出被誤當成證據的是甚麼。",
+        "targetSpan": {
+          "start": 7,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：海邊租用站提供一分鐘租到的浮具；一名遊客因此說不用看海況。救生員要求先查風浪及器材狀態。用一至兩句英文糾正錯誤推論。",
+        "selfCheckZh": "指出快速租用不等於安全，並說出具體查核；不要斷言浮具一定危險。",
+        "examples": [
+          {
+            "en": "Do not mistake speed for safety: a quick rental does not replace checking the waves and the equipment.",
+            "zh": "不要把速度誤當成安全：快速租用不能取代檢查風浪和器材。"
+          },
+          {
+            "en": "The easy rental should not make visitors mistake convenience for a guarantee of safety; they still need to check the gear and sea conditions.",
+            "zh": "租用方便不應令遊客把便利誤當成安全保證；他們仍須檢查裝備與海況。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a quick rental",
+            "zh": "快速租用",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 47
+            }
+          },
+          {
+            "en": "checking the waves",
+            "zh": "檢查風浪",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 83
+            }
+          },
+          {
+            "en": "the equipment",
+            "zh": "器材",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 101
+            }
+          },
+          {
+            "en": "check the gear",
+            "zh": "檢查裝備",
+            "exampleIndex": 1,
+            "span": {
+              "start": 107,
+              "end": 121
+            }
+          },
+          {
+            "en": "sea conditions",
+            "zh": "海況",
+            "exampleIndex": 1,
+            "span": {
+              "start": 126,
+              "end": 140
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A clear sign is helpful, but do not mistake a clear sign for proof of safety.",
+          "zh": "清楚告示有幫助，但不要把它誤當成安全證據。"
+        },
+        {
+          "en": "The group mistook convenience for safety until they checked the weather report.",
+          "zh": "團隊查看天氣報告前，一直把便利誤當成安全。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "source-bound-author-self-check-proposal-only",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-retained-holds-next-ten-2302-4636-20261024.json",
+  "proposalSha256": "4dcdd8ae99ecdc001a81adf25fc70b6d9a0e72e81796556484b94aa571be55b1",
+  "sourceScreenPath": "course-materials/advanced-native/reviews-books10-16/independent-48-retained-holds-user-rule-reassessment-20261024.json",
+  "sourceScreenSha256": "11ab02eafd746f9b557bc3e128465659499df9997257cbf940d6ac33274bba89",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "f6ad48beef5b8a397e4e129bf00c0b0525d9efeb7504268e65b2ee39b7920b09",
+  "lessonCount": 10,
+  "sourceChecks": [
+    {
+      "sourceOrdinal": 2302,
+      "sourceId": "book10-16-0191",
+      "sourceRawRowSha256": "09e3be3a50258681215866d5f1cc87e271b7401b858f8e99075e9d31d12167f0",
+      "decisionFile": "editorial-decisions-2292-2351.jsonl",
+      "decisionRawRowSha256": "502a26fb400d21c7d102852bbd2cd88f790d51c767ed683c028a2ba4dc2eb625",
+      "sourceExpression": "cut away",
+      "boundedTargetOrOwner": "cut away",
+      "guideSentence": "The editor chose to cut away the long introduction.",
+      "guideMeaning": "Remove an unnecessary section during editing; a useful phrasal verb.",
+      "sourcePage": 18,
+      "sourceBook": 10,
+      "sourceQuestion": 15,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2461,
+      "sourceId": "book10-16-0350",
+      "sourceRawRowSha256": "6f269f775149ab53b718f36dfbdb6a583cf15d880a3c8b07af90e9dddb6bcf9a",
+      "decisionFile": "editorial-decisions-2412-2471.jsonl",
+      "decisionRawRowSha256": "d6e6e9100c5308bcde7e26089e2f601d66a1c4c9fe3665a3110482dae1f76ff1",
+      "sourceExpression": "playground or a puzzle to crack",
+      "boundedTargetOrOwner": "a puzzle to crack",
+      "guideSentence": "To her, the new software was a playground or a puzzle to crack.",
+      "guideMeaning": "A space for experimentation or a challenge to solve; two images frame technology.",
+      "sourcePage": 32,
+      "sourceBook": 10,
+      "sourceQuestion": 28,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2493,
+      "sourceId": "book10-16-0382",
+      "sourceRawRowSha256": "183d4b06910f444f66e047a9d5941d1012166c3c93ce2f7da16c4bc713f574c7",
+      "decisionFile": "editorial-decisions-2472-2531.jsonl",
+      "decisionRawRowSha256": "52e4e4373011334123553e1411944ff92fd23cc201bd48a6d834ed8d7732e814",
+      "sourceExpression": "keep life running smoothly",
+      "boundedTargetOrOwner": "keep life running smoothly",
+      "guideSentence": "A calendar helps keep life running smoothly.",
+      "guideMeaning": "Help everyday routines function without trouble; a machinery metaphor.",
+      "sourcePage": 35,
+      "sourceBook": 10,
+      "sourceQuestion": 31,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2526,
+      "sourceId": "book10-16-0415",
+      "sourceRawRowSha256": "723a72dc95cc80182c09e3e122a3360e0f5380964c136fa193c358b7955bea8e",
+      "decisionFile": "editorial-decisions-2472-2531.jsonl",
+      "decisionRawRowSha256": "1c538dd7a4dcaaed1591912eca9dafb70ebb463e30ea72fc97c67bd98265742d",
+      "sourceExpression": "live in your head",
+      "boundedTargetOrOwner": "live in your head",
+      "guideSentence": "Basic safety steps should live in your head.",
+      "guideMeaning": "Be remembered rather than only stored externally; a spatial metaphor.",
+      "sourcePage": 38,
+      "sourceBook": 10,
+      "sourceQuestion": 34,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2570,
+      "sourceId": "book10-16-0459",
+      "sourceRawRowSha256": "f432711ebca9750a380d51f15658433459f6f0dd45c4590fe0cb769ab00e0984",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "decisionRawRowSha256": "30e946b976b6979e68afc58c88d5528ee82e21b0a71906d19a8dc92ffde1c816",
+      "sourceExpression": "phone stops being a simple contact device",
+      "boundedTargetOrOwner": "stop being a simple X",
+      "guideSentence": "The phone stops being a simple contact device when games dominate its use.",
+      "guideMeaning": "A natural contrast showing how a tool's role expands; useful in a qualified answer.",
+      "sourcePage": 42,
+      "sourceBook": 11,
+      "sourceQuestion": 2,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2577,
+      "sourceId": "book10-16-0466",
+      "sourceRawRowSha256": "1baaa16bbc08235a6df9e5660d128c0cdaf77db2e959e29b4493371d7c37cf8e",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "decisionRawRowSha256": "c3c3354a993ad52be2bb38f73c7fdbedbda5734c7f42cd3aae637e3da886b2ac",
+      "sourceExpression": "connected to home",
+      "boundedTargetOrOwner": "feel connected to home",
+      "guideSentence": "A phone helps children feel connected to home.",
+      "guideMeaning": "Still able to communicate with family; a connection metaphor.",
+      "sourcePage": 43,
+      "sourceBook": 11,
+      "sourceQuestion": 3,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2732,
+      "sourceId": "book10-16-0621",
+      "sourceRawRowSha256": "f1cf55fc1be737ce5f90730549cdf928aee036738cf08e7cbbc22242f9fde462",
+      "decisionFile": "editorial-decisions-2712-2771.jsonl",
+      "decisionRawRowSha256": "4d3e6b59e5ae6323d657a0570823bb29722395de754a8cebf8d315e98f033533",
+      "sourceExpression": "the whole city is humming the same tune",
+      "boundedTargetOrOwner": "hum the same tune",
+      "guideSentence": "By summer, the whole city is humming the same tune.",
+      "guideMeaning": "Many people share an interest in one song; a musical image.",
+      "sourcePage": 57,
+      "sourceBook": 11,
+      "sourceQuestion": 16,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 3189,
+      "sourceId": "book10-16-1078",
+      "sourceRawRowSha256": "d4e6be8600579a8a345a9408e78d70cb1d90d41a8af55b5186367872be2650c0",
+      "decisionFile": "editorial-decisions-3132-3191.jsonl",
+      "decisionRawRowSha256": "b8c6d52e054c8baca5e6ba6320ccf5192c9ad27034402d935b57541f8d5ecb48",
+      "sourceExpression": "impatient with the problem, but patient with the solution",
+      "boundedTargetOrOwner": "impatient with X, but patient with Y",
+      "guideSentence": "Good engineers are impatient with the problem, but patient with the solution.",
+      "guideMeaning": "Urgently seek improvement while carefully developing it; a balanced contrast.",
+      "sourcePage": 100,
+      "sourceBook": 12,
+      "sourceQuestion": 33,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 3373,
+      "sourceId": "book10-16-1262",
+      "sourceRawRowSha256": "e5f0f664aaa46facf97158f9e26caa69f0be6aee4c196abdda68974af2de6100",
+      "decisionFile": "editorial-decisions-3372-3431.jsonl",
+      "decisionRawRowSha256": "e20c3db78f476946524074e191fcc23105fcc0c4901117ef5c1a5a5b95c71ffe",
+      "sourceExpression": "guidance and control",
+      "boundedTargetOrOwner": "distinguish guidance and control",
+      "guideSentence": "Parents need to distinguish guidance and control.",
+      "guideMeaning": "A useful distinction between helping someone choose and choosing for them; a natural spoken way to qualify or connect ideas.",
+      "sourcePage": 117,
+      "sourceBook": 12,
+      "sourceQuestion": 51,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 4636,
+      "sourceId": "book10-16-2525",
+      "sourceRawRowSha256": "6104e2d074168f32a42942cbcb592d9741567ec39d9c061b1b2df01f8d2aeda9",
+      "decisionFile": "editorial-decisions-4632-4691.jsonl",
+      "decisionRawRowSha256": "456d7faf5e82cc0f029b7a101b89c60f60b52a7cc5c6cfe004d36be6f0199cd2",
+      "sourceExpression": "not mistaking convenience for invincibility",
+      "boundedTargetOrOwner": "mistake X for Y",
+      "guideSentence": "Travel safety means not mistaking convenience for invincibility.",
+      "guideMeaning": "Not assuming an easy system removes all risk; a figurative contrast.",
+      "sourcePage": 239,
+      "sourceBook": 16,
+      "sourceQuestion": 51,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    }
+  ],
+  "structuralValidation": {
+    "errors": [],
+    "warnings": [],
+    "compiled": [
+      {
+        "id": "advanced-native-2302",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2461",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2493",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2526",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2570",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2577",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2732",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3189",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3373",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-4636",
+        "steps": 7,
+        "questions": 6
+      }
+    ]
+  },
+  "authorSelfCheck": {
+    "sourceSenseAndBoundary": "Ten source senses and their limits are reflected in the briefs and assessments.",
+    "distinctSevenStepContract": "Each proposal has listening, four-valid reply, scene, boundary, dialogue, speaking and independent writing content.",
+    "translationPairing": "English options, models and suggested answers have paired Traditional Chinese.",
+    "writingSupport": "Two changed-context examples and five exact answer-derived target-excluded glossary spans per lesson.",
+    "selectionAndRelease": "No selected manifest, source decision, release index, audio asset or SOP audit modified."
+  },
+  "independentEnglishReview": "pending",
+  "independentChineseReview": "pending",
+  "mediaReview": "pending",
+  "browserDeviceQA": "pending",
+  "releaseApproval": false,
+  "knownIssues": [
+    "These are unselected hold-editorial proposals pending independent editorial, media and browser review."
+  ]
+}

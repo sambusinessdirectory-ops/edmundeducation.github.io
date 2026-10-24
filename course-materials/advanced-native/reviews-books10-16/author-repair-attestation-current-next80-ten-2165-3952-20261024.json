@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "recordKind": "author-editorial-repair-attestation-unselected",
+  "date": "2026-10-24",
+  "priorReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-next80-ten-2165-3952-20261024.json",
+  "priorReviewSha256": "a646d739fe1200290f044fb209131a08a9188c5b1aef2b3824a60636794d60fd",
+  "priorProposalSha256": "fa13da7e09eb604b3e80bd9f37c9c4c516c7a484338d37e0ca0d8be16c226983",
+  "repairedProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-ten-2165-3952-20261024.json",
+  "repairedProposalSha256": "9197a5a7d62035e6f4693a1541886ebb75eead9f6b24d247092d360cd2d4a467",
+  "authorQaPath": "course-materials/advanced-native/reviews-books10-16/author-qa-current-next80-ten-2165-3952-20261024.json",
+  "authorQaSha256": "85fd6ab93e453b0c38a5d20bc4227df1b61ff1437766f304ed4a071010b0ffa5",
+  "originalityPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-current-next80-ten-2165-3952-20261024.json",
+  "originalitySha256": "cc3c557cd98ca417b76dfe47e35d1c2587fed30a0f2ea4247660ca8c39e23100",
+  "selectedManifestSha256": "5248fb9179dd4c316eb5c696d402a5e048771002c9fd287e7fc4f96e13a1948a",
+  "repairedBlockers": {
+    "2165": "Second writing model now names floor plan and accessible-entrance details in both English and Chinese.",
+    "2719": "Both writing models name a verified count/figure and an intended possible council response without inventing a numeric value or claiming an observed reaction; glossary spans recomputed.",
+    "3952": "Golden reply now connects the target expression to offering multiple comfortable ways to move."
+  },
+  "advisoriesAddressed": "Replaced at least one obvious scene or listening foil per reviewed lesson with a closer context-specific near miss; aligned affected explanations. Reworded 2455 reply prompt and option d as a concern.",
+  "verification": {
+    "lessonCount": 10,
+    "steps": 70,
+    "questions": 60,
+    "schemaErrors": 0,
+    "schemaWarnings": 0,
+    "originalityExact": 0,
+    "originalityHigh": 0,
+    "originalityMedium": 0,
+    "originalityNearFull": 0,
+    "originalityReviewNearFull": 0,
+    "selectionOrDecisionModified": false
+  },
+  "independentFocusedRereview": "pending",
+  "secondFocusedRepair": {
+    "priorProposalSha256": "7f2afb8c86ef9ad079af2c70fa185cd6f20538e6a92e7a3cffb22c966c851d08",
+    "lesson": 2719,
+    "field": "writing.examples[1].en and zh",
+    "reason": "Count children who wait for water each day, rather than count the wait itself; exact answer-derived glossary remains valid."
+  }
+}

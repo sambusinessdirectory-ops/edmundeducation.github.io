@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-exact-hash-focused-rereview-retained-holds-next-ten",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-retained-holds-next-ten-2302-4636-20261024.json",
+  "proposalSha256": "4dcdd8ae99ecdc001a81adf25fc70b6d9a0e72e81796556484b94aa571be55b1",
+  "priorIndependentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-retained-holds-next-ten-2302-4636-20261024.json",
+  "priorIndependentReviewSha256": "c4a3511debebce10df71e4187ef235d64970cc929ebc55e0d5305dd301ec2ede",
+  "authorQaPath": "course-materials/advanced-native/reviews-books10-16/author-qa-retained-holds-next-ten-2302-4636-20261024.json",
+  "authorQaSha256": "4092dfe96167f0cb049ae41bed1a32ab4f8002f283909043815499cbb69e2ed3",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "originalityScreenPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-retained-next-ten-2302-4636-20261024.json",
+  "originalityScreenSha256": "e42c32bebc79e498a41af9ee0c2433182dce956826498fdf0208c3b61abfec4e",
+  "selectedManifestPathAtReview": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256AtReview": "f6ad48beef5b8a397e4e129bf00c0b0525d9efeb7504268e65b2ee39b7920b09",
+  "mechanicalChecks": {
+    "lessons": 10,
+    "orderedSteps": 70,
+    "questions": 60,
+    "sourceRowsExactHashMatched": 10,
+    "unchangedHoldDecisionRowsExactHashMatched": 10,
+    "writingExamples": 20,
+    "answerDerivedTargetExcludedGlossaryRows": 50,
+    "schemaErrors": 0,
+    "schemaWarnings": 0,
+    "originalityExact": 0,
+    "originalityHigh": 0,
+    "originalityMedium": 0,
+    "originalityNearFull": 0,
+    "selectedLessonsAtReview": 681,
+    "proposalIdsAlreadySelected": 0
+  },
+  "editorialSummary": {
+    "passes": 6,
+    "passesWithAdvisory": 2,
+    "holds": 2,
+    "selectionApproved": false
+  },
+  "items": [
+    {
+      "sourceOrdinal": 2302,
+      "sourceId": "book10-16-0191",
+      "sourceRawRowSha256": "09e3be3a50258681215866d5f1cc87e271b7401b858f8e99075e9d31d12167f0",
+      "decisionRawRowSha256": "502a26fb400d21c7d102852bbd2cd88f790d51c767ed683c028a2ba4dc2eb625",
+      "previousVerdict": "hold-lexical-fidelity",
+      "verdict": "hold-lexical-fidelity",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed mechanically; instructional target held for naturalness",
+      "findings": [
+        {
+          "severity": "blocker",
+          "field": "brief.grammar / target across seven steps",
+          "finding": "The revision narrows the lesson to video footage and warns that cut out/edit out are more usual, but still models transitive “cut away” as the preferred way to delete a duplicated opening, scene and robot-demonstration footage. The source sentence is preserved, yet primary learner dictionaries do not establish this as normal editing usage; Oxford defines cut something away as removing something by cutting, while film cutaway refers to switching shots. Repeated learner production of “cut away the extra footage” is not justified simply by adding a caveat. Keep held until a source-specific usage reference supports the construction or the instructional target is repaired and independently reviewed.",
+          "reference": "https://www.oxfordlearnersdictionaries.com/definition/english/cut-away"
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2461,
+      "sourceId": "book10-16-0350",
+      "sourceRawRowSha256": "6f269f775149ab53b718f36dfbdb6a583cf15d880a3c8b07af90e9dddb6bcf9a",
+      "decisionRawRowSha256": "d6e6e9100c5308bcde7e26089e2f601d66a1c4c9fe3665a3110482dae1f76ff1",
+      "previousVerdict": "editorial-pass",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": []
+    },
+    {
+      "sourceOrdinal": 2493,
+      "sourceId": "book10-16-0382",
+      "sourceRawRowSha256": "183d4b06910f444f66e047a9d5941d1012166c3c93ce2f7da16c4bc713f574c7",
+      "decisionRawRowSha256": "52e4e4373011334123553e1411944ff92fd23cc201bd48a6d834ed8d7732e814",
+      "previousVerdict": "hold-writing-source-sense",
+      "verdict": "hold-writing-transfer",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "blocker",
+          "field": "writing.promptZh / writing.examples[0..1] / listening.en",
+          "finding": "The revision fixes the earlier theatre/life mismatch but makes the final new-context writing almost the same exercise as listening: a family uses a shared calendar for school pickups and clinic visits, with possible delays or changes. Both model answers repeat the same planning mechanism. CUR08 requires a genuine change of setting, task or communicative goal, not a near duplicate of the lesson’s listening. Use a different everyday-routine setting and rederive the glossary."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2526,
+      "sourceId": "book10-16-0415",
+      "sourceRawRowSha256": "723a72dc95cc80182c09e3e122a3360e0f5380964c136fa193c358b7955bea8e",
+      "decisionRawRowSha256": "1c538dd7a4dcaaed1591912eca9dafb70ebb463e30ea72fc97c67bd98265742d",
+      "previousVerdict": "editorial-pass-with-advisory",
+      "verdict": "editorial-pass-with-advisory",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "advisory",
+          "field": "brief.boundaryZh / register",
+          "finding": "Retain the source-specific memory-of-usable-procedures boundary; do not generalise this reading to intrusive thoughts or earworms."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2570,
+      "sourceId": "book10-16-0459",
+      "sourceRawRowSha256": "f432711ebca9750a380d51f15658433459f6f0dd45c4590fe0cb769ab00e0984",
+      "decisionRawRowSha256": "30e946b976b6979e68afc58c88d5528ee82e21b0a71906d19a8dc92ffde1c816",
+      "previousVerdict": "hold-reply-validity",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "reply.promptEn / reply.options[c] / writing.glossary[4]",
+          "finding": "The prompt now asks how the board’s role changed, the golden answer names the added updates, and the glossary translation no longer imports a verb outside its English span."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2577,
+      "sourceId": "book10-16-0466",
+      "sourceRawRowSha256": "1baaa16bbc08235a6df9e5660d128c0cdaf77db2e959e29b4493371d7c37cf8e",
+      "decisionRawRowSha256": "c3c3354a993ad52be2bb38f73c7fdbedbda5734c7f42cd3aae637e3da886b2ac",
+      "previousVerdict": "hold-reply-validity",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "reply.options[d] / writing.examples / glossary",
+          "finding": "The fourth reply now reflects Isha telling her family a story, and the writing/glossary use natural, aligned dinner-conversation wording."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2732,
+      "sourceId": "book10-16-0621",
+      "sourceRawRowSha256": "f1cf55fc1be737ce5f90730549cdf928aee036738cf08e7cbbc22242f9fde462",
+      "decisionRawRowSha256": "4d3e6b59e5ae6323d657a0570823bb29722395de754a8cebf8d315e98f033533",
+      "previousVerdict": "editorial-pass-with-advisory",
+      "verdict": "editorial-pass-with-advisory",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "writing.examples[0]",
+          "finding": "The redundant “same tune from its chorus” wording is removed."
+        },
+        {
+          "severity": "advisory",
+          "field": "writing.transfer",
+          "finding": "The library-to-café/park scenario changes location but still closely resembles the listening’s melody spreading from an event to other public places. It meets the literal changed-setting gate, though a different communicative purpose would strengthen transfer."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 3189,
+      "sourceId": "book10-16-1078",
+      "sourceRawRowSha256": "d4e6be8600579a8a345a9408e78d70cb1d90d41a8af55b5186367872be2650c0",
+      "decisionRawRowSha256": "b8c6d52e054c8baca5e6ba6320ccf5192c9ad27034402d935b57541f8d5ecb48",
+      "previousVerdict": "editorial-pass",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": []
+    },
+    {
+      "sourceOrdinal": 3373,
+      "sourceId": "book10-16-1262",
+      "sourceRawRowSha256": "e5f0f664aaa46facf97158f9e26caa69f0be6aee4c196abdda68974af2de6100",
+      "decisionRawRowSha256": "e20c3db78f476946524074e191fcc23105fcc0c4901117ef5c1a5a5b95c71ffe",
+      "previousVerdict": "hold-writing-naturalness",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "writing.promptZh / writing.examples",
+          "finding": "The revised scene now contrasts a choice-supporting coach with a controlling coach, making both model uses of distinguish guidance and control semantically grounded."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 4636,
+      "sourceId": "book10-16-2525",
+      "sourceRawRowSha256": "6104e2d074168f32a42942cbcb592d9741567ec39d9c061b1b2df01f8d2aeda9",
+      "decisionRawRowSha256": "456d7faf5e82cc0f029b7a101b89c60f60b52a7cc5c6cfe004d36be6f0199cd2",
+      "previousVerdict": "hold-reply-and-translation",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "reply.options[b] / writing.examples / glossary",
+          "finding": "The repaired reply states the mistaken inference, rental is consistently distinguished from booking in writing, and the second model specifies a guarantee of safety and checking sea conditions."
+        }
+      ]
+    }
+  ],
+  "releaseGate": "Focused read-only review of the repaired frozen proposal SHA. Two lessons remain held: 2302 lexical/naturalness support and 2493 near-duplicate writing transfer. Repair and independently review new exact hashes before selection. The eight non-held proposals still require remaining media/browser/publication gates; this report makes no selection or release claim."
+}

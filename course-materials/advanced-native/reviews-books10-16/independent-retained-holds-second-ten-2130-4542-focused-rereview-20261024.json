@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-exact-hash-focused-rereview-retained-holds-second-ten",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-retained-holds-second-ten-2130-4542-20261024.json",
+  "proposalSha256": "e03c9c0432c509f1c83a0d003bc8dbc133735cbaceedcf7178c8da76ea9120d5",
+  "priorIndependentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-retained-holds-second-ten-2130-4542-20261024.json",
+  "priorIndependentReviewSha256": "303d70a6dfb6cfebb6012dad05d38f48341b42e3a8fd8088c5fc243ac4581349",
+  "authorQaPath": "course-materials/advanced-native/reviews-books10-16/author-qa-retained-holds-second-ten-2130-4542-20261024.json",
+  "authorQaSha256": "7f83691ebaa48278a9514d5eaad0cbab27222c491e2cf1ac9d02cd1a88582fe6",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "originalityScreenPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-retained-second-ten-2130-4542-20261024.json",
+  "originalityScreenSha256": "6b123e58152ec222f81af97f79d9c1afa548b0af23344b59b14a5df30fefd49d",
+  "selectedManifestPathAtReview": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256AtReview": "f6ad48beef5b8a397e4e129bf00c0b0525d9efeb7504268e65b2ee39b7920b09",
+  "mechanicalChecks": {
+    "lessons": 10,
+    "orderedSteps": 70,
+    "questions": 60,
+    "sourceRowsExactHashMatched": 10,
+    "unchangedHoldDecisionRowsExactHashMatched": 10,
+    "sourceTargetPatternMatchesExactGuideSentence": 9,
+    "sourceTargetPatternExceptions": [
+      2130
+    ],
+    "writingExamples": 20,
+    "answerDerivedTargetExcludedGlossaryRows": 50,
+    "schemaErrors": 0,
+    "schemaWarnings": 0,
+    "originalityExact": 0,
+    "originalityHigh": 0,
+    "originalityMedium": 0,
+    "originalityNearFull": 0,
+    "selectedLessonsAtReview": 681,
+    "proposalIdsAlreadySelected": 0
+  },
+  "editorialSummary": {
+    "passes": 4,
+    "passesWithAdvisory": 5,
+    "holds": 1,
+    "selectionApproved": false
+  },
+  "items": [
+    {
+      "sourceOrdinal": 2130,
+      "sourceId": "book10-16-0019",
+      "sourceRawRowSha256": "02e3719280593df4fa1308d8e762c452f3376bdd739e0a5b8bdf9424fff76b62",
+      "decisionRawRowSha256": "d8b9f5247d12fe33595e0a4643e8361b66eaa17c614050bb6b7a7ae55d707e14",
+      "previousVerdict": "hold-target-grammar",
+      "verdict": "hold-source-grammar-detector-conflict",
+      "sourceTargetPatternMatchesExactGuideSentence": false,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "blocker",
+          "field": "source.example / target.pattern / brief.grammar",
+          "finding": "The repaired detector correctly rejects “settle my minds”, “settle his minds” and similar ungrammatical learner forms, but it no longer matches the exact source sentence “A quiet walk helped the group settle their mind before the test.” The source refers to multiple group members yet uses singular mind. The proposal’s caveat does not resolve the owner’s source-target fidelity conflict. Keep this source occurrence on editorial hold; do not broaden the detector to accept bad learner forms, select this owner, or relabel it as a one-time exclusion. Record the source-specific anomaly and seek an independently justified teaching treatment or replace this candidate."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2175,
+      "sourceId": "book10-16-0064",
+      "sourceRawRowSha256": "41725bb1b4862ce43bddaf075a601a7065df613cdd78f1a8c3d2b000e6ba564a",
+      "decisionRawRowSha256": "9b88b019d1c3213bb4a520c5f96a975bc863996c72c6fbd06fb5c2b720442851",
+      "previousVerdict": "editorial-pass-with-advisory",
+      "verdict": "editorial-pass-with-advisory",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "advisory",
+          "field": "brief.register / owner boundary",
+          "finding": "Retain this as a source-specific planning metaphor rather than advertising it as a fixed idiom, and preserve separation from canonical owner 1569’s emotional “hold it together”."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2303,
+      "sourceId": "book10-16-0192",
+      "sourceRawRowSha256": "53810d5554b74c1705e4a73fc0653360b893d76ff8dc423be3a44734f45af666",
+      "decisionRawRowSha256": "9a0593f74d894483e4ebdd970e4d3808dd2ea6d816bb0d42cb18567109d28d37",
+      "previousVerdict": "editorial-pass-with-advisory",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "reply.options[b]",
+          "finding": "The reply now says “More details emerged step by step,” which is directly supported by the camera and radio call; the earlier unsupported claim about a clearer event sequence is gone."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2401,
+      "sourceId": "book10-16-0290",
+      "sourceRawRowSha256": "6c96f24610dc4eb1d7e6566d3e80e206605f14985446aa85a5d2d0a987488bcb",
+      "decisionRawRowSha256": "69444fb732d16cd5476dbcb993b38fc7eec9cb5535cadfdf6bd8593cf3e98d3c",
+      "previousVerdict": "hold-writing-transfer",
+      "verdict": "editorial-pass-with-advisory",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "writing.promptZh / writing.examples",
+          "finding": "The new publisher/design-team negotiation changes the task and uses the idiom in its conventional interpersonal-pressure sense rather than repeating the source’s staged-suspense reveal."
+        },
+        {
+          "severity": "advisory",
+          "field": "brief.meaningEn / listening.en",
+          "finding": "Continue to mark the source’s theatrical suspense meaning as a creative extension. Standard learner-dictionary usage centers on putting or tightening the screws on someone to pressure that person.",
+          "reference": "https://dictionary.cambridge.org/dictionary/english/put-tighten-the-screws-on"
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2464,
+      "sourceId": "book10-16-0353",
+      "sourceRawRowSha256": "6d514ce9eb570bb57c9f8c0c581abd6d6d1a27694920ff23a7265c982340339c",
+      "decisionRawRowSha256": "69a04405ede1169b949e0f8b31510b808fcadfb4fef28afd7a7a1092c7e4c26b",
+      "previousVerdict": "hold-writing-naturalness",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "writing.examples[0..1] / glossary",
+          "finding": "The revised models now name a habit or practice being gradually absorbed rather than a reminder being absorbed; Chinese and answer-derived glossary were updated."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2544,
+      "sourceId": "book10-16-0433",
+      "sourceRawRowSha256": "0a885fead6ca1778fca27eb20dfd05f48b0658e92a896540c59699a6f2a2b93a",
+      "decisionRawRowSha256": "bd62ec873931ba4c2fd10b317ab809e7074b7d4f867a242921f6dc847fb6a437",
+      "previousVerdict": "editorial-pass",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": []
+    },
+    {
+      "sourceOrdinal": 2798,
+      "sourceId": "book10-16-0687",
+      "sourceRawRowSha256": "82470fcb58c9f0e37e9a046761b6a8e9206100e79cb5adb2b822f4c6023e753f",
+      "decisionRawRowSha256": "9a59c33367a108ae0815b7a6e38124e72d528fd8fb33cdbe78363ad9180dd4df",
+      "previousVerdict": "editorial-pass-with-advisory",
+      "verdict": "editorial-pass-with-advisory",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "advisory",
+          "field": "writing.transfer",
+          "finding": "The noisy-lift post is a different incident with a stop-use action, but it still closely follows listening’s post → building-service concern → investigation → unknown cause sequence. A later revision could move to a more distinct information setting."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 3320,
+      "sourceId": "book10-16-1209",
+      "sourceRawRowSha256": "82289d84efa69cf061b02ede3b03d59b93fdf9106ceb309d7edc1a9d7aebc4d8",
+      "decisionRawRowSha256": "5de57c8b11d9177577d8a87b580de4f4f3e290501295c729745c024ff6cf3349",
+      "previousVerdict": "hold-productive-target",
+      "verdict": "editorial-pass-with-advisory",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "titleEn / target.pattern / writing.examples",
+          "finding": "The target is now a bounded good-for / often-necessary contrast and the two model answers adapt subjects and purposes rather than repeating the 89-character source sentence."
+        },
+        {
+          "severity": "advisory",
+          "field": "target.pattern",
+          "finding": "The middle span [^.]{3,95}? is intentionally broad for productive phrasing and can match semantically poor continuations. Do not treat a regex hit as proof that the student’s contrast is meaningful; retain semantic review of the whole reply."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 3969,
+      "sourceId": "book10-16-1858",
+      "sourceRawRowSha256": "5c477b06cfe5387ce9aa2f498edc36ff9ab47df5f67f461300cc9dcf3991fd29",
+      "decisionRawRowSha256": "200024bdf9c6f8873afc1f11c19f775c4c71e5d63ab85d8c1b754ffab9781bfd",
+      "previousVerdict": "hold-writing-naturalness",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "writing.examples / glossary",
+          "finding": "The revised coaching models use natural expressions such as “work on speed”, “take turns leading the warm-up” and “review race mistakes”, with aligned glossary spans."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 4542,
+      "sourceId": "book10-16-2431",
+      "sourceRawRowSha256": "109b7ec3f6f3a210679fba82ae03441ac48b7e50c513ac1e386f3b417e106f2c",
+      "decisionRawRowSha256": "bef0aa4695da023e12da518538fbdfe2181ec393346850635d5bb5aa6c16e720",
+      "previousVerdict": "hold-writing-naturalness",
+      "verdict": "editorial-pass-with-advisory",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "writing.examples[0..1]",
+          "finding": "The models now frame “less fuss and more flow” as families’ aim or the redesign goal, avoiding the earlier unnatural gave/brought collocations."
+        },
+        {
+          "severity": "advisory",
+          "field": "brief.grammar / register",
+          "finding": "Keep this as rhythmic service-design wording in the passenger-flow context, not an established universal idiom."
+        }
+      ]
+    }
+  ],
+  "releaseGate": "Independent focused read-only review of frozen SHA. Source 2130 remains held because its exact guide sentence conflicts with a grammatical learner detector. The other nine have no remaining editorial blockers, with listed advisories. None is selected, excluded, released, or certified for media/browser/live gates by this report."
+}

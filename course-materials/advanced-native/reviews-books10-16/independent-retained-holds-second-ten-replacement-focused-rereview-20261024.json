@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-exact-hash-focused-review-retained-holds-replacement",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-retained-holds-second-ten-replacement-2555-4542-20261024.json",
+  "proposalSha256": "a9a49bc36db3bfc7ef785ab6ee43116a334c83d1161dbba09201b705899b8380",
+  "previousProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-retained-holds-second-ten-2130-4542-20261024.json",
+  "previousIndependentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-retained-holds-second-ten-2130-4542-focused-rereview-20261024.json",
+  "previousIndependentReviewSha256": "caf6f15eb20eac68ab746eca1f3dd5d33242fb88f024ee75e0b55e7969235c20",
+  "authorQaPath": "course-materials/advanced-native/reviews-books10-16/author-qa-retained-holds-second-ten-replacement-2555-4542-20261024.json",
+  "authorQaSha256": "5e26ba497785ca7e1352dbedd6c4a912d875f2b459a317b28175f39c1c4aa7d3",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "originalityScreenPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-retained-second-ten-replacement-2555-4542-20261024.json",
+  "originalityScreenSha256": "53c88ba25fe5d9f8819d5f878f060ebfc1e7dc1eeefa9d03f10eb20f225cd381",
+  "selectedManifestPathAtReview": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256AtReview": "f6ad48beef5b8a397e4e129bf00c0b0525d9efeb7504268e65b2ee39b7920b09",
+  "mechanicalChecks": {
+    "lessons": 10,
+    "orderedSteps": 70,
+    "questions": 60,
+    "audioRequestsPlanned": 40,
+    "sourceRowsExactHashMatched": 10,
+    "sourceTargetPatternMatchesExactGuideSentence": 10,
+    "writingExamples": 20,
+    "answerDerivedTargetExcludedGlossaryRows": 50,
+    "schemaErrors": 0,
+    "schemaWarnings": 0,
+    "unchangedLessonsInheritedFromPreviousIndependentReview": [
+      2175,
+      2303,
+      2401,
+      2464,
+      2544,
+      2798,
+      3320,
+      3969,
+      4542
+    ],
+    "newOrChangedLessonOrdinals": [
+      2555
+    ]
+  },
+  "editorialSummary": {
+    "passes": 4,
+    "passesWithAdvisory": 6,
+    "holds": 0,
+    "editorialGatePassed": true,
+    "selected": false,
+    "releaseCertified": false
+  },
+  "items": [
+    {
+      "sourceOrdinal": 2555,
+      "sourceId": "book10-16-0444",
+      "sourceRawRowSha256": "02266e1feab530717f8f821fec4273133503a015cabad9f6b62815cd53ee5706",
+      "decisionRawRowSha256": "ece8420c6d8ca94bed1d073f03ef03833750af0de5594346b8bca4475e9554c4",
+      "verdict": "editorial-pass-with-advisory",
+      "lessonCanonicalSha256": "3905ec2c1abdc0c667c9829abe71509a77312ffbe31712dc226220f46a2dc6f7",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "fourReplyOptionsResponsive": "passed",
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "writing.promptZh / writing.examples / writing.glossary",
+          "finding": "The revised final task is live sign-language interpretation at a school assembly with non-urgent stage-manager changes grouped between rehearsal runs. This changes task, interruption source and mitigation strategy from writing an exhibition label and muting group-chat alerts. Both English models, Traditional Chinese translations and answer-derived glossary align."
+        },
+        {
+          "severity": "advisory",
+          "field": "speaking.en / writing.transfer",
+          "finding": "A one-sentence speaking demonstration also uses rehearsal and repeated watch alerts. The final task remains materially distinct through the interpreting role and grouped operational updates, but future revisions could diversify that speaking sentence to reduce surface resemblance."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2175,
+      "sourceId": "book10-16-0064",
+      "sourceRawRowSha256": "41725bb1b4862ce43bddaf075a601a7065df613cdd78f1a8c3d2b000e6ba564a",
+      "decisionRawRowSha256": "9b88b019d1c3213bb4a520c5f96a975bc863996c72c6fbd06fb5c2b720442851",
+      "previousVerdict": "editorial-pass-with-advisory",
+      "verdict": "editorial-pass-with-advisory",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "advisory",
+          "field": "brief.register / owner boundary",
+          "finding": "Retain this as a source-specific planning metaphor rather than advertising it as a fixed idiom, and preserve separation from canonical owner 1569’s emotional “hold it together”."
+        }
+      ],
+      "evidence": "Lesson object byte-equivalent after canonical JSON serialization to previously independently reviewed proposal; prior verdict inherited without re-review.",
+      "lessonCanonicalSha256": "f4855f806dbf9bb6528f7795a761108a4b53e91fb5f827f4d2d76bd625958c83"
+    },
+    {
+      "sourceOrdinal": 2303,
+      "sourceId": "book10-16-0192",
+      "sourceRawRowSha256": "53810d5554b74c1705e4a73fc0653360b893d76ff8dc423be3a44734f45af666",
+      "decisionRawRowSha256": "9a0593f74d894483e4ebdd970e4d3808dd2ea6d816bb0d42cb18567109d28d37",
+      "previousVerdict": "editorial-pass-with-advisory",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "reply.options[b]",
+          "finding": "The reply now says “More details emerged step by step,” which is directly supported by the camera and radio call; the earlier unsupported claim about a clearer event sequence is gone."
+        }
+      ],
+      "evidence": "Lesson object byte-equivalent after canonical JSON serialization to previously independently reviewed proposal; prior verdict inherited without re-review.",
+      "lessonCanonicalSha256": "a7d80f95a8a68219205f1d4c354e58532d98afa20c3c0552785513ce7171a594"
+    },
+    {
+      "sourceOrdinal": 2401,
+      "sourceId": "book10-16-0290",
+      "sourceRawRowSha256": "6c96f24610dc4eb1d7e6566d3e80e206605f14985446aa85a5d2d0a987488bcb",
+      "decisionRawRowSha256": "69444fb732d16cd5476dbcb993b38fc7eec9cb5535cadfdf6bd8593cf3e98d3c",
+      "previousVerdict": "hold-writing-transfer",
+      "verdict": "editorial-pass-with-advisory",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "writing.promptZh / writing.examples",
+          "finding": "The new publisher/design-team negotiation changes the task and uses the idiom in its conventional interpersonal-pressure sense rather than repeating the source’s staged-suspense reveal."
+        },
+        {
+          "severity": "advisory",
+          "field": "brief.meaningEn / listening.en",
+          "finding": "Continue to mark the source’s theatrical suspense meaning as a creative extension. Standard learner-dictionary usage centers on putting or tightening the screws on someone to pressure that person.",
+          "reference": "https://dictionary.cambridge.org/dictionary/english/put-tighten-the-screws-on"
+        }
+      ],
+      "evidence": "Lesson object byte-equivalent after canonical JSON serialization to previously independently reviewed proposal; prior verdict inherited without re-review.",
+      "lessonCanonicalSha256": "a0ea5ff131f9afd077c85ee71d47eeb1c568be3ee52952c9cc4ec24014969867"
+    },
+    {
+      "sourceOrdinal": 2464,
+      "sourceId": "book10-16-0353",
+      "sourceRawRowSha256": "6d514ce9eb570bb57c9f8c0c581abd6d6d1a27694920ff23a7265c982340339c",
+      "decisionRawRowSha256": "69a04405ede1169b949e0f8b31510b808fcadfb4fef28afd7a7a1092c7e4c26b",
+      "previousVerdict": "hold-writing-naturalness",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "writing.examples[0..1] / glossary",
+          "finding": "The revised models now name a habit or practice being gradually absorbed rather than a reminder being absorbed; Chinese and answer-derived glossary were updated."
+        }
+      ],
+      "evidence": "Lesson object byte-equivalent after canonical JSON serialization to previously independently reviewed proposal; prior verdict inherited without re-review.",
+      "lessonCanonicalSha256": "22dd35a1114f42a5d5ad4c1ebdb6750f35bc6ae3d3dff24538d5f901a0c82f9e"
+    },
+    {
+      "sourceOrdinal": 2544,
+      "sourceId": "book10-16-0433",
+      "sourceRawRowSha256": "0a885fead6ca1778fca27eb20dfd05f48b0658e92a896540c59699a6f2a2b93a",
+      "decisionRawRowSha256": "bd62ec873931ba4c2fd10b317ab809e7074b7d4f867a242921f6dc847fb6a437",
+      "previousVerdict": "editorial-pass",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [],
+      "evidence": "Lesson object byte-equivalent after canonical JSON serialization to previously independently reviewed proposal; prior verdict inherited without re-review.",
+      "lessonCanonicalSha256": "a0f3bdfd92e450f9f480b3027e3916d4ee5daa1c53936e94fa033fbbeff25be9"
+    },
+    {
+      "sourceOrdinal": 2798,
+      "sourceId": "book10-16-0687",
+      "sourceRawRowSha256": "82470fcb58c9f0e37e9a046761b6a8e9206100e79cb5adb2b822f4c6023e753f",
+      "decisionRawRowSha256": "9a59c33367a108ae0815b7a6e38124e72d528fd8fb33cdbe78363ad9180dd4df",
+      "previousVerdict": "editorial-pass-with-advisory",
+      "verdict": "editorial-pass-with-advisory",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "advisory",
+          "field": "writing.transfer",
+          "finding": "The noisy-lift post is a different incident with a stop-use action, but it still closely follows listening’s post → building-service concern → investigation → unknown cause sequence. A later revision could move to a more distinct information setting."
+        }
+      ],
+      "evidence": "Lesson object byte-equivalent after canonical JSON serialization to previously independently reviewed proposal; prior verdict inherited without re-review.",
+      "lessonCanonicalSha256": "51a0cd020d044233aa324a1a02e80676ca50cc72f1beeb0bf6496371ed7280b9"
+    },
+    {
+      "sourceOrdinal": 3320,
+      "sourceId": "book10-16-1209",
+      "sourceRawRowSha256": "82289d84efa69cf061b02ede3b03d59b93fdf9106ceb309d7edc1a9d7aebc4d8",
+      "decisionRawRowSha256": "5de57c8b11d9177577d8a87b580de4f4f3e290501295c729745c024ff6cf3349",
+      "previousVerdict": "hold-productive-target",
+      "verdict": "editorial-pass-with-advisory",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "titleEn / target.pattern / writing.examples",
+          "finding": "The target is now a bounded good-for / often-necessary contrast and the two model answers adapt subjects and purposes rather than repeating the 89-character source sentence."
+        },
+        {
+          "severity": "advisory",
+          "field": "target.pattern",
+          "finding": "The middle span [^.]{3,95}? is intentionally broad for productive phrasing and can match semantically poor continuations. Do not treat a regex hit as proof that the student’s contrast is meaningful; retain semantic review of the whole reply."
+        }
+      ],
+      "evidence": "Lesson object byte-equivalent after canonical JSON serialization to previously independently reviewed proposal; prior verdict inherited without re-review.",
+      "lessonCanonicalSha256": "c4719a36e69bbeb41ba00086a5c0dc9628154ed807e25d07fa386018ed826b95"
+    },
+    {
+      "sourceOrdinal": 3969,
+      "sourceId": "book10-16-1858",
+      "sourceRawRowSha256": "5c477b06cfe5387ce9aa2f498edc36ff9ab47df5f67f461300cc9dcf3991fd29",
+      "decisionRawRowSha256": "200024bdf9c6f8873afc1f11c19f775c4c71e5d63ab85d8c1b754ffab9781bfd",
+      "previousVerdict": "hold-writing-naturalness",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "writing.examples / glossary",
+          "finding": "The revised coaching models use natural expressions such as “work on speed”, “take turns leading the warm-up” and “review race mistakes”, with aligned glossary spans."
+        }
+      ],
+      "evidence": "Lesson object byte-equivalent after canonical JSON serialization to previously independently reviewed proposal; prior verdict inherited without re-review.",
+      "lessonCanonicalSha256": "ac89f67bc584e111fbddf03b7ca578d9ca80eb7a3766a77289f5b6432b45f64b"
+    },
+    {
+      "sourceOrdinal": 4542,
+      "sourceId": "book10-16-2431",
+      "sourceRawRowSha256": "109b7ec3f6f3a210679fba82ae03441ac48b7e50c513ac1e386f3b417e106f2c",
+      "decisionRawRowSha256": "bef0aa4695da023e12da518538fbdfe2181ec393346850635d5bb5aa6c16e720",
+      "previousVerdict": "hold-writing-naturalness",
+      "verdict": "editorial-pass-with-advisory",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "writing.examples[0..1]",
+          "finding": "The models now frame “less fuss and more flow” as families’ aim or the redesign goal, avoiding the earlier unnatural gave/brought collocations."
+        },
+        {
+          "severity": "advisory",
+          "field": "brief.grammar / register",
+          "finding": "Keep this as rhythmic service-design wording in the passenger-flow context, not an established universal idiom."
+        }
+      ],
+      "evidence": "Lesson object byte-equivalent after canonical JSON serialization to previously independently reviewed proposal; prior verdict inherited without re-review.",
+      "lessonCanonicalSha256": "4fbfa47015c9e580a08a8646ad2d56d19ff867681288d154751fd79d1f3bdc2e"
+    }
+  ],
+  "releaseGate": "Independent text review of this exact proposal only. No selected-manifest mutation, media generation, browser/device QA, or live publication is claimed."
+}

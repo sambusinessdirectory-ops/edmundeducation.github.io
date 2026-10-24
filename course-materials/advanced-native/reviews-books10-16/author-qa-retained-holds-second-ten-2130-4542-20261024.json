@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "source-bound-author-self-check-proposal-only",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-retained-holds-second-ten-2130-4542-20261024.json",
+  "proposalSha256": "e03c9c0432c509f1c83a0d003bc8dbc133735cbaceedcf7178c8da76ea9120d5",
+  "sourceScreenPath": "course-materials/advanced-native/reviews-books10-16/independent-48-retained-holds-user-rule-reassessment-20261024.json",
+  "sourceScreenSha256": "11ab02eafd746f9b557bc3e128465659499df9997257cbf940d6ac33274bba89",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "f6ad48beef5b8a397e4e129bf00c0b0525d9efeb7504268e65b2ee39b7920b09",
+  "lessonCount": 10,
+  "sourceChecks": [
+    {
+      "sourceOrdinal": 2130,
+      "sourceId": "book10-16-0019",
+      "sourceRawRowSha256": "02e3719280593df4fa1308d8e762c452f3376bdd739e0a5b8bdf9424fff76b62",
+      "decisionFile": "editorial-decisions-2112-2141.jsonl",
+      "decisionRawRowSha256": "d8b9f5247d12fe33595e0a4643e8361b66eaa17c614050bb6b7a7ae55d707e14",
+      "sourceExpression": "settle their mind",
+      "boundedTargetOrOwner": "settle one’s mind",
+      "guideSentence": "A quiet walk helped the group settle their mind before the test.",
+      "guideMeaning": "Calm their thoughts enough to concentrate; a natural mental-state collocation.",
+      "sourcePage": 3,
+      "sourceBook": 10,
+      "sourceQuestion": 2,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2175,
+      "sourceId": "book10-16-0064",
+      "sourceRawRowSha256": "41725bb1b4862ce43bddaf075a601a7065df613cdd78f1a8c3d2b000e6ba564a",
+      "decisionFile": "editorial-decisions-2172-2231.jsonl",
+      "decisionRawRowSha256": "9b88b019d1c3213bb4a520c5f96a975bc863996c72c6fbd06fb5c2b720442851",
+      "sourceExpression": "hold the day together",
+      "boundedTargetOrOwner": "hold the day together",
+      "guideSentence": "A written plan helped hold the day together.",
+      "guideMeaning": "Keep daily activities organised and manageable; an image of physical cohesion.",
+      "sourcePage": 7,
+      "sourceBook": 10,
+      "sourceQuestion": 5,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2303,
+      "sourceId": "book10-16-0192",
+      "sourceRawRowSha256": "53810d5554b74c1705e4a73fc0653360b893d76ff8dc423be3a44734f45af666",
+      "decisionFile": "editorial-decisions-2292-2351.jsonl",
+      "decisionRawRowSha256": "9a0593f74d894483e4ebdd970e4d3808dd2ea6d816bb0d42cb18567109d28d37",
+      "sourceExpression": "unfold in a clear and purposeful order",
+      "boundedTargetOrOwner": "unfold",
+      "guideSentence": "The evidence began to unfold in a clear and purposeful order.",
+      "guideMeaning": "Develop step by step in an orderly sequence; unfold is figurative.",
+      "sourcePage": 18,
+      "sourceBook": 10,
+      "sourceQuestion": 15,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2401,
+      "sourceId": "book10-16-0290",
+      "sourceRawRowSha256": "6c96f24610dc4eb1d7e6566d3e80e206605f14985446aa85a5d2d0a987488bcb",
+      "decisionFile": "editorial-decisions-2352-2411.jsonl",
+      "decisionRawRowSha256": "69444fb732d16cd5476dbcb993b38fc7eec9cb5535cadfdf6bd8593cf3e98d3c",
+      "sourceExpression": "tighten the screws",
+      "boundedTargetOrOwner": "tighten the screws",
+      "guideSentence": "The director used silence to tighten the screws.",
+      "guideMeaning": "Increase pressure or tension; a fixed mechanical metaphor.",
+      "sourcePage": 26,
+      "sourceBook": 10,
+      "sourceQuestion": 22,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2464,
+      "sourceId": "book10-16-0353",
+      "sourceRawRowSha256": "6d514ce9eb570bb57c9f8c0c581abd6d6d1a27694920ff23a7265c982340339c",
+      "decisionFile": "editorial-decisions-2412-2471.jsonl",
+      "decisionRawRowSha256": "69a04405ede1169b949e0f8b31510b808fcadfb4fef28afd7a7a1092c7e4c26b",
+      "sourceExpression": "absorbed over time",
+      "boundedTargetOrOwner": "absorbed over time",
+      "guideSentence": "The habits were absorbed over time at school.",
+      "guideMeaning": "Taken in gradually through experience; absorbed is figurative.",
+      "sourcePage": 32,
+      "sourceBook": 10,
+      "sourceQuestion": 28,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2544,
+      "sourceId": "book10-16-0433",
+      "sourceRawRowSha256": "0a885fead6ca1778fca27eb20dfd05f48b0658e92a896540c59699a6f2a2b93a",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "decisionRawRowSha256": "bd62ec873931ba4c2fd10b317ab809e7074b7d4f867a242921f6dc847fb6a437",
+      "sourceExpression": "a little blurry",
+      "boundedTargetOrOwner": "a little blurry",
+      "guideSentence": "The memory is a little blurry after many years.",
+      "guideMeaning": "Somewhat imprecise or unclear; a visual blur describes memory figuratively.",
+      "sourcePage": 40,
+      "sourceBook": 10,
+      "sourceQuestion": 36,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2798,
+      "sourceId": "book10-16-0687",
+      "sourceRawRowSha256": "82470fcb58c9f0e37e9a046761b6a8e9206100e79cb5adb2b822f4c6023e753f",
+      "decisionFile": "editorial-decisions-2772-2831.jsonl",
+      "decisionRawRowSha256": "9a59c33367a108ae0815b7a6e38124e72d528fd8fb33cdbe78363ad9180dd4df",
+      "sourceExpression": "a first alert rather than a final answer",
+      "boundedTargetOrOwner": "a first alert rather than a final answer",
+      "guideSentence": "Treat the post as a first alert rather than a final answer.",
+      "guideMeaning": "A concise contrast between early notice and verified explanation; a useful media-literacy pattern.",
+      "sourcePage": 63,
+      "sourceBook": 11,
+      "sourceQuestion": 24,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 3320,
+      "sourceId": "book10-16-1209",
+      "sourceRawRowSha256": "82289d84efa69cf061b02ede3b03d59b93fdf9106ceb309d7edc1a9d7aebc4d8",
+      "decisionFile": "editorial-decisions-3312-3371.jsonl",
+      "decisionRawRowSha256": "5de57c8b11d9177577d8a87b580de4f4f3e290501295c729745c024ff6cf3349",
+      "sourceExpression": "general plans are good for movement, but detailed plans are often necessary for precision",
+      "boundedTargetOrOwner": "good for X, but necessary for Y",
+      "guideSentence": "The project taught us that general plans are good for movement, but detailed plans are often necessary for precision.",
+      "guideMeaning": "A balanced contrast between broad direction and exact execution; a natural spoken way to qualify or connect ideas.",
+      "sourcePage": 112,
+      "sourceBook": 12,
+      "sourceQuestion": 46,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 3969,
+      "sourceId": "book10-16-1858",
+      "sourceRawRowSha256": "5c477b06cfe5387ce9aa2f498edc36ff9ab47df5f67f461300cc9dcf3991fd29",
+      "decisionFile": "editorial-decisions-3912-3971.jsonl",
+      "decisionRawRowSha256": "200024bdf9c6f8873afc1f11c19f775c4c71e5d63ab85d8c1b754ffab9781bfd",
+      "sourceExpression": "train the person, not just the body",
+      "boundedTargetOrOwner": "train the person, not just the body",
+      "guideSentence": "A good academy aims to train the person, not just the body.",
+      "guideMeaning": "Develop wider education and wellbeing alongside sport; a precise contrast.",
+      "sourcePage": 175,
+      "sourceBook": 15,
+      "sourceQuestion": 10,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 4542,
+      "sourceId": "book10-16-2431",
+      "sourceRawRowSha256": "109b7ec3f6f3a210679fba82ae03441ac48b7e50c513ac1e386f3b417e106f2c",
+      "decisionFile": "editorial-decisions-4512-4571.jsonl",
+      "decisionRawRowSha256": "bef0aa4695da023e12da518538fbdfe2181ec393346850635d5bb5aa6c16e720",
+      "sourceExpression": "less fuss and more flow",
+      "boundedTargetOrOwner": "less fuss and more flow",
+      "guideSentence": "Passengers want less fuss and more flow.",
+      "guideMeaning": "Fewer hassles and smoother movement; a rhythmic contrast.",
+      "sourcePage": 229,
+      "sourceBook": 16,
+      "sourceQuestion": 39,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    }
+  ],
+  "structuralValidation": {
+    "errors": [],
+    "warnings": [],
+    "compiled": [
+      {
+        "id": "advanced-native-2130",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2175",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2303",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2401",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2464",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2544",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2798",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3320",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3969",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-4542",
+        "steps": 7,
+        "questions": 6
+      }
+    ]
+  },
+  "authorSelfCheck": {
+    "sourceSenseAndBoundary": "Ten source senses and their limits are reflected in the briefs and assessments.",
+    "distinctSevenStepContract": "Each proposal has listening, four-valid reply, scene, boundary, dialogue, speaking and independent writing content.",
+    "translationPairing": "English options, models and suggested answers have paired Traditional Chinese.",
+    "writingSupport": "Two changed-context examples and five exact answer-derived target-excluded glossary spans per lesson.",
+    "selectionAndRelease": "No selected manifest, source decision, release index, audio asset or SOP audit modified."
+  },
+  "independentEnglishReview": "pending",
+  "independentChineseReview": "pending",
+  "mediaReview": "pending",
+  "browserDeviceQA": "pending",
+  "releaseApproval": false,
+  "knownIssues": [
+    "These are unselected hold-editorial proposals pending independent editorial, media and browser review."
+  ],
+  "sourceTargetPatternExceptions": [
+    {
+      "sourceOrdinal": 2130,
+      "exactSourceSentence": "A quiet walk helped the group settle their mind before the test.",
+      "reason": "The source combines plural-group referent with singular mind; provenance remains exact, while learner-facing target detection accepts only unambiguous person-number pairings.",
+      "expectedSourcePatternMatch": false
+    }
+  ]
+}

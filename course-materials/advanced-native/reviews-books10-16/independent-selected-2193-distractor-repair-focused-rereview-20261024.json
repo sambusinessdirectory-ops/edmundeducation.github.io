@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-exact-hash-focused-rereview-selected-2193-option-translation-repair",
+  "reviewDate": "2026-10-24",
+  "selectedBatchPath": "course-materials/advanced-native/drafts-books10-16/batch-reviewed-retained-holds-twenty-2193-4542-selected-20261024.json",
+  "selectedBatchSha256Reviewed": "5f5d5b35a8c002a6f4dfbf3603f5d5d3f2d49d2a2cbd5f8c8a9a204d432b6f76",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "5248fb9179dd4c316eb5c696d402a5e048771002c9fd287e7fc4f96e13a1948a",
+  "authorRepairAttestationPath": "course-materials/advanced-native/reviews-books10-16/focused-selected-2193-distractor-repair-attestation-20261024.json",
+  "authorRepairAttestationSha256": "cde1187ccf30a5373322f3c66bf17c55c384b430ac63247f4daa9651ab74db1d",
+  "priorIndependentProposalReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-retained-holds-first-ten-replacement-focused-rereview-20261024.json",
+  "priorIndependentProposalReviewSha256": "6f98a87b9175c748442191796f6c17ae9ab5d2f902b1acdc2d6ec372fdd89491",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceRawRowSha256": "259ab10f6b0fe4843c13a9c25abd4198b165949b16b9c0c4d9446352c3147f74",
+  "sourceOrdinal": 2193,
+  "sourceId": "book10-16-0082",
+  "sourceSentence": "Daily practice helped the runners hold their rhythm.",
+  "targetPatternMatchesSourceSentence": true,
+  "scope": "Only listening.options[0..3] EN/ZH, listening.explanationZh, scene.options[1..2] EN/ZH and scene.explanationZh changed after prior independent review; source, target, lesson brief, four-valid reply, writing, glossary and all audio-bearing English texts remain unchanged.",
+  "verdict": "editorial-pass-with-advisory",
+  "blockers": [],
+  "checks": [
+    {
+      "field": "listening.options[a] / answerId",
+      "result": "pass",
+      "reason": "The keyed answer paraphrases maintained cadence and the explicit refusal to sprint to make up time after headwind."
+    },
+    {
+      "field": "listening.options[b]",
+      "result": "pass",
+      "reason": "A plausible training interpretation, but directly contradicts the passage’s rather-than-sprint clause."
+    },
+    {
+      "field": "listening.options[c]",
+      "result": "pass",
+      "reason": "The training path appears in the passage, but no claim says the charity route is that path or route recall was the training benefit."
+    },
+    {
+      "field": "listening.options[d]",
+      "result": "pass",
+      "reason": "Finishing-position inference is unsupported; the passage gives no overtaking or ranking information."
+    },
+    {
+      "field": "scene.options[a] / answerId",
+      "result": "pass",
+      "reason": "Breathing and stroke checks over a long swim support maintaining rhythm, not acceleration."
+    },
+    {
+      "field": "scene.options[b]",
+      "result": "pass",
+      "reason": "Checking strokes every two lengths is stated; accelerating each pair is an unsupported motive."
+    },
+    {
+      "field": "scene.options[c]",
+      "result": "pass",
+      "reason": "An opening sprint contradicts the Chinese scene’s explicit rather-than-sprint condition."
+    },
+    {
+      "field": "changed Chinese translations and feedback",
+      "result": "pass",
+      "reason": "Each Chinese option preserves its English claim and feedback distinguishes source-supported cadence from unsupported route, ranking and speed claims."
+    },
+    {
+      "field": "audio text identity",
+      "result": "pass",
+      "reason": "Listening.en, speaking.en and both takeaways are byte-identical to the prior independently reviewed lesson."
+    }
+  ],
+  "advisory": "Keep the source-category metadata note from the earlier review: the inventory labels this use Figurative while the bounded lesson teaches a natural physical-cadence collocation. This does not affect answer validity.",
+  "releaseGate": "Independent text review only. Media, browser/device, current SQL and public release remain pending."
+}

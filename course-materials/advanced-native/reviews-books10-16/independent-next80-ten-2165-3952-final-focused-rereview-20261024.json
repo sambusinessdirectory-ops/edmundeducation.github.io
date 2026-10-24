@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-final-focused-rereview-next80-ten-exact-hash",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-ten-2165-3952-20261024.json",
+  "proposalSha256": "9197a5a7d62035e6f4693a1541886ebb75eead9f6b24d247092d360cd2d4a467",
+  "priorIndependentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-next80-ten-2165-3952-20261024.json",
+  "priorIndependentReviewSha256": "a646d739fe1200290f044fb209131a08a9188c5b1aef2b3824a60636794d60fd",
+  "authorRepairAttestationPath": "course-materials/advanced-native/reviews-books10-16/author-repair-attestation-current-next80-ten-2165-3952-20261024.json",
+  "authorRepairAttestationSha256": "f06416dfa3b4d4870ebc17e82018816cc2033da953ae2635e4bdda9dbc8944a8",
+  "authorQaPath": "course-materials/advanced-native/reviews-books10-16/author-qa-current-next80-ten-2165-3952-20261024.json",
+  "authorQaSha256": "85fd6ab93e453b0c38a5d20bc4227df1b61ff1437766f304ed4a071010b0ffa5",
+  "originalityScreenPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-current-next80-ten-2165-3952-20261024.json",
+  "originalityScreenSha256": "cc3c557cd98ca417b76dfe47e35d1c2587fed30a0f2ea4247660ca8c39e23100",
+  "selectedManifestSha256AtReview": "5248fb9179dd4c316eb5c696d402a5e048771002c9fd287e7fc4f96e13a1948a",
+  "checks": {
+    "lessonCount": 10,
+    "orderedSteps": 70,
+    "questions": 60,
+    "audioRoles": 40,
+    "isolatedBuildErrors": 0,
+    "isolatedBuildWarnings": 0,
+    "sourceSentenceAndExpressionExactMatches": 10,
+    "targetDetectorsMatchExactSource": 10,
+    "glossarySpansExtractAnswerText": "all passed",
+    "originalityClaimFromExactCurrentAuthorScreen": "zero exact/high/medium/near-full/review-near-full; not a substitute for linguistic review"
+  },
+  "focusedItems": [
+    {
+      "sourceOrdinal": 2165,
+      "verdict": "pass",
+      "finding": "Both writing models now specify floor plan and accessible-entrance details, in English and Traditional Chinese; glossary spans extract answer text exactly."
+    },
+    {
+      "sourceOrdinal": 2719,
+      "verdict": "pass",
+      "finding": "Both models include a verified count/figure and a possible council action, no invented number or observed reaction. The final second model counts children who wait each day, not their wait; Chinese and glossary align."
+    },
+    {
+      "sourceOrdinal": 3952,
+      "verdict": "pass",
+      "finding": "Golden reply now connects the target to offering comfortable forms of movement, directly responsive to the two-option prompt while all four replies remain context-valid."
+    },
+    {
+      "sourceOrdinal": "batch",
+      "verdict": "pass-with-advisory",
+      "finding": "Revised listening/scene foils include context-compatible partial or over-generalised alternatives in each affected lesson. Some easy contrast distractors remain, but no remaining unique-key or source-sense blocker was found in the focused rereview."
+    }
+  ],
+  "remainingBlockers": [],
+  "verdict": "focused-independent-pass",
+  "selectionApprovedByEditorialReview": true,
+  "releaseApproved": false,
+  "scope": "Read-only exact-current independent review. Proposal remains unselected; no editorial decisions, selected content, audio, deployment, or release state changed."
+}

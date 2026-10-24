@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-exact-hash-second-ten-retained-hold-proposal-editorial-review",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-retained-holds-second-ten-2130-4542-20261024.json",
+  "proposalSha256": "7ec5c50b91b0c8df5dbc8ddf7730bf36265bfcfb1950f33a19de664ee5cc1346",
+  "sourceScreenPath": "course-materials/advanced-native/reviews-books10-16/independent-48-retained-holds-user-rule-reassessment-20261024.json",
+  "sourceScreenSha256": "11ab02eafd746f9b557bc3e128465659499df9997257cbf940d6ac33274bba89",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "authorQaPath": "course-materials/advanced-native/reviews-books10-16/author-qa-retained-holds-second-ten-2130-4542-20261024.json",
+  "authorQaSha256": "a90d1861410c9dd4e146f27b0b63c60313b7dff63005a3f03f7465f833a7e856",
+  "originalityScreenPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-retained-second-ten-2130-4542-20261024.json",
+  "originalityScreenSha256": "db175c2f641ec17c9328e2b07bb1528c426a65be8d9967ac536bad4494d4c5da",
+  "selectedManifestPathAtReview": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256AtReview": "f6ad48beef5b8a397e4e129bf00c0b0525d9efeb7504268e65b2ee39b7920b09",
+  "mechanicalChecks": {
+    "lessons": 10,
+    "orderedSteps": 70,
+    "questions": 60,
+    "sourceRowsExactHashMatched": 10,
+    "unchangedHoldDecisionRowsExactHashMatched": 10,
+    "writingExamples": 20,
+    "answerDerivedTargetExcludedGlossaryRows": 50,
+    "schemaErrors": 0,
+    "schemaWarnings": 0,
+    "originalityExact": 0,
+    "originalityHigh": 0,
+    "originalityMedium": 0,
+    "originalityNearFull": 0,
+    "selectedLessonsAtReview": 681,
+    "proposalIdsAlreadySelected": 0
+  },
+  "editorialSummary": {
+    "passes": 1,
+    "passesWithAdvisory": 3,
+    "holds": 6,
+    "selectionApproved": false
+  },
+  "items": [
+    {
+      "sourceOrdinal": 2130,
+      "sourceId": "book10-16-0019",
+      "sourceRawRowSha256": "02e3719280593df4fa1308d8e762c452f3376bdd739e0a5b8bdf9424fff76b62",
+      "decisionRawRowSha256": "d8b9f5247d12fe33595e0a4643e8361b66eaa17c614050bb6b7a7ae55d707e14",
+      "verdict": "hold-target-grammar",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "sourceProvenanceAndExistingSelection": "exact source row and unchanged editorial hold verified; proposed lesson ID unselected",
+      "sevenStepAndKeyCheck": "mechanically passed; editorial exceptions listed in findings",
+      "fourReplyOptionsPlausibleAndAllResponsive": "passed",
+      "traditionalChineseAndAnswerDerivedWritingGlossary": "mechanical offsets and target exclusion passed; any model-language issue is listed in findings",
+      "findings": [
+        {
+          "severity": "blocker",
+          "field": "target.pattern / brief.grammar",
+          "finding": "The grammar lesson explicitly distinguishes one mind from several minds, yet its target regex accepts “settle my minds”, “settle his minds” and “settle our mind” as valid target uses. Preserve the exact, anomalous source quote in provenance, but constrain learner target detection to grammatical person/number pairings; treat the source quotation as a documented exception to source-pattern matching if needed."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2175,
+      "sourceId": "book10-16-0064",
+      "sourceRawRowSha256": "41725bb1b4862ce43bddaf075a601a7065df613cdd78f1a8c3d2b000e6ba564a",
+      "decisionRawRowSha256": "9b88b019d1c3213bb4a520c5f96a975bc863996c72c6fbd06fb5c2b720442851",
+      "verdict": "editorial-pass-with-advisory",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "sourceProvenanceAndExistingSelection": "exact source row and unchanged editorial hold verified; proposed lesson ID unselected",
+      "sevenStepAndKeyCheck": "mechanically passed; editorial exceptions listed in findings",
+      "fourReplyOptionsPlausibleAndAllResponsive": "passed",
+      "traditionalChineseAndAnswerDerivedWritingGlossary": "mechanical offsets and target exclusion passed; any model-language issue is listed in findings",
+      "findings": [
+        {
+          "severity": "advisory",
+          "field": "brief.register / owner boundary",
+          "finding": "“Hold the day together” is a source-specific planning metaphor, not a separately established fixed idiom. The lesson correctly distinguishes schedule cohesion from canonical owner 1569’s emotional “hold it together”; keep that qualification in publication metadata."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2303,
+      "sourceId": "book10-16-0192",
+      "sourceRawRowSha256": "53810d5554b74c1705e4a73fc0653360b893d76ff8dc423be3a44734f45af666",
+      "decisionRawRowSha256": "9a0593f74d894483e4ebdd970e4d3808dd2ea6d816bb0d42cb18567109d28d37",
+      "verdict": "editorial-pass-with-advisory",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "sourceProvenanceAndExistingSelection": "exact source row and unchanged editorial hold verified; proposed lesson ID unselected",
+      "sevenStepAndKeyCheck": "mechanically passed; editorial exceptions listed in findings",
+      "fourReplyOptionsPlausibleAndAllResponsive": "passed with advisory",
+      "traditionalChineseAndAnswerDerivedWritingGlossary": "mechanical offsets and target exclusion passed; any model-language issue is listed in findings",
+      "findings": [
+        {
+          "severity": "advisory",
+          "field": "reply.options[b]",
+          "finding": "“The sequence became clearer step by step” is slightly more specific than the listening, which says a camera and radio call added details but never supplies an actual event sequence. “More details emerged step by step” would be fully evidenced."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2401,
+      "sourceId": "book10-16-0290",
+      "sourceRawRowSha256": "6c96f24610dc4eb1d7e6566d3e80e206605f14985446aa85a5d2d0a987488bcb",
+      "decisionRawRowSha256": "69444fb732d16cd5476dbcb993b38fc7eec9cb5535cadfdf6bd8593cf3e98d3c",
+      "verdict": "hold-writing-transfer",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "sourceProvenanceAndExistingSelection": "exact source row and unchanged editorial hold verified; proposed lesson ID unselected",
+      "sevenStepAndKeyCheck": "mechanically passed; editorial exceptions listed in findings",
+      "fourReplyOptionsPlausibleAndAllResponsive": "passed",
+      "traditionalChineseAndAnswerDerivedWritingGlossary": "mechanical offsets and target exclusion passed; any model-language issue is listed in findings",
+      "findings": [
+        {
+          "severity": "blocker",
+          "field": "writing.promptZh / writing.examples[0..1]",
+          "finding": "The source and listening both use a director’s deliberate pause before revealing a missing letter. Final writing only changes this to a theatre blackout before revealing a stolen object, with the same suspense mechanism and almost the same communicative purpose. This is a near scene swap, not a meaningful new-context transfer. Use a distinct interpersonal-pressure setting, or a materially different suspense task, and rederive glossaries."
+        },
+        {
+          "severity": "advisory",
+          "field": "brief.meaningEn / listening.en",
+          "finding": "Primary learner-dictionary usage is putting/tightening the screws on someone to pressure a person. The source’s suspense use is a creative extension. “The pause tightened the screws for the audience” is less natural than the conventional construction; keep the source usage explicitly marked as an extension and avoid presenting it as default.",
+          "reference": "https://dictionary.cambridge.org/dictionary/english/put-tighten-the-screws-on"
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2464,
+      "sourceId": "book10-16-0353",
+      "sourceRawRowSha256": "6d514ce9eb570bb57c9f8c0c581abd6d6d1a27694920ff23a7265c982340339c",
+      "decisionRawRowSha256": "69a04405ede1169b949e0f8b31510b808fcadfb4fef28afd7a7a1092c7e4c26b",
+      "verdict": "hold-writing-naturalness",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "sourceProvenanceAndExistingSelection": "exact source row and unchanged editorial hold verified; proposed lesson ID unselected",
+      "sevenStepAndKeyCheck": "mechanically passed; editorial exceptions listed in findings",
+      "fourReplyOptionsPlausibleAndAllResponsive": "passed",
+      "traditionalChineseAndAnswerDerivedWritingGlossary": "mechanical offsets and target exclusion passed; any model-language issue is listed in findings",
+      "findings": [
+        {
+          "severity": "blocker",
+          "field": "writing.examples[0] / glossary[0]",
+          "finding": "“The accessible-route reminder was absorbed over time” makes a reminder, rather than a habit or practice, the thing absorbed; that is not natural English for gradual learning. Model volunteers absorbing the habit of pointing out the accessible route, then update Chinese and exact glossary spans."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2544,
+      "sourceId": "book10-16-0433",
+      "sourceRawRowSha256": "0a885fead6ca1778fca27eb20dfd05f48b0658e92a896540c59699a6f2a2b93a",
+      "decisionRawRowSha256": "bd62ec873931ba4c2fd10b317ab809e7074b7d4f867a242921f6dc847fb6a437",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "sourceProvenanceAndExistingSelection": "exact source row and unchanged editorial hold verified; proposed lesson ID unselected",
+      "sevenStepAndKeyCheck": "mechanically passed; editorial exceptions listed in findings",
+      "fourReplyOptionsPlausibleAndAllResponsive": "passed",
+      "traditionalChineseAndAnswerDerivedWritingGlossary": "mechanical offsets and target exclusion passed; any model-language issue is listed in findings",
+      "findings": []
+    },
+    {
+      "sourceOrdinal": 2798,
+      "sourceId": "book10-16-0687",
+      "sourceRawRowSha256": "82470fcb58c9f0e37e9a046761b6a8e9206100e79cb5adb2b822f4c6023e753f",
+      "decisionRawRowSha256": "9a59c33367a108ae0815b7a6e38124e72d528fd8fb33cdbe78363ad9180dd4df",
+      "verdict": "editorial-pass-with-advisory",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "sourceProvenanceAndExistingSelection": "exact source row and unchanged editorial hold verified; proposed lesson ID unselected",
+      "sevenStepAndKeyCheck": "mechanically passed; editorial exceptions listed in findings",
+      "fourReplyOptionsPlausibleAndAllResponsive": "passed",
+      "traditionalChineseAndAnswerDerivedWritingGlossary": "mechanical offsets and target exclusion passed; any model-language issue is listed in findings",
+      "findings": [
+        {
+          "severity": "advisory",
+          "field": "writing.transfer",
+          "finding": "The new noisy-lift post is a different incident and adds a stop-use action, so it is not a mere name swap. It still closely follows the listening’s post → building-service concern → investigation → unknown cause sequence. A later revision could move to a different information setting to strengthen transfer."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 3320,
+      "sourceId": "book10-16-1209",
+      "sourceRawRowSha256": "82289d84efa69cf061b02ede3b03d59b93fdf9106ceb309d7edc1a9d7aebc4d8",
+      "decisionRawRowSha256": "5de57c8b11d9177577d8a87b580de4f4f3e290501295c729745c024ff6cf3349",
+      "verdict": "hold-productive-target",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "sourceProvenanceAndExistingSelection": "exact source row and unchanged editorial hold verified; proposed lesson ID unselected",
+      "sevenStepAndKeyCheck": "mechanically passed; editorial exceptions listed in findings",
+      "fourReplyOptionsPlausibleAndAllResponsive": "passed",
+      "traditionalChineseAndAnswerDerivedWritingGlossary": "mechanical offsets and target exclusion passed; any model-language issue is listed in findings",
+      "findings": [
+        {
+          "severity": "blocker",
+          "field": "titleEn / target.pattern / writing.examples[0..1]",
+          "finding": "The independent source screen recommended the transferable bounded contrast “good for X, but necessary for Y”, retaining the source’s general/detailed and good/often-necessary strength. This proposal instead makes the entire 89-character source sentence the fixed target and repeats it verbatim as the opening of both model answers; learners cannot adapt the contrast productively. Refactor to a bounded target with naturally varied models, preserving the exact source quote as provenance."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 3969,
+      "sourceId": "book10-16-1858",
+      "sourceRawRowSha256": "5c477b06cfe5387ce9aa2f498edc36ff9ab47df5f67f461300cc9dcf3991fd29",
+      "decisionRawRowSha256": "200024bdf9c6f8873afc1f11c19f775c4c71e5d63ab85d8c1b754ffab9781bfd",
+      "verdict": "hold-writing-naturalness",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "sourceProvenanceAndExistingSelection": "exact source row and unchanged editorial hold verified; proposed lesson ID unselected",
+      "sevenStepAndKeyCheck": "mechanically passed; editorial exceptions listed in findings",
+      "fourReplyOptionsPlausibleAndAllResponsive": "passed",
+      "traditionalChineseAndAnswerDerivedWritingGlossary": "mechanical offsets and target exclusion passed; any model-language issue is listed in findings",
+      "findings": [
+        {
+          "severity": "blocker",
+          "field": "writing.examples[0..1] / glossary",
+          "finding": "“Runners practise speed”, “warm-up roles” and “mistake reviews” are stilted or ambiguous collocations in the learner models. Use natural coaching language such as “work on speed”, “take turns leading the warm-up” and “review race mistakes”; update the corresponding Traditional Chinese and answer-derived glossary spans."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 4542,
+      "sourceId": "book10-16-2431",
+      "sourceRawRowSha256": "109b7ec3f6f3a210679fba82ae03441ac48b7e50c513ac1e386f3b417e106f2c",
+      "decisionRawRowSha256": "bef0aa4695da023e12da518538fbdfe2181ec393346850635d5bb5aa6c16e720",
+      "verdict": "hold-writing-naturalness",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "sourceProvenanceAndExistingSelection": "exact source row and unchanged editorial hold verified; proposed lesson ID unselected",
+      "sevenStepAndKeyCheck": "mechanically passed; editorial exceptions listed in findings",
+      "fourReplyOptionsPlausibleAndAllResponsive": "passed",
+      "traditionalChineseAndAnswerDerivedWritingGlossary": "mechanical offsets and target exclusion passed; any model-language issue is listed in findings",
+      "findings": [
+        {
+          "severity": "blocker",
+          "field": "writing.examples[0..1]",
+          "finding": "“Gave families less fuss and more flow” and “brought less fuss and more flow” force a compact source slogan into unnatural result collocations. Frame the phrase as what visitors want or what the redesign means for their passage through the venue, then write two natural complete answers and rederive the glossary."
+        },
+        {
+          "severity": "advisory",
+          "field": "brief.grammar",
+          "finding": "Describe “less fuss and more flow” as rhythmic source wording for this passenger-service context, not an established universal idiom. This is not an approved one-time-comparison exclusion; it remains a held teachability question until the model usage is repaired."
+        }
+      ]
+    }
+  ],
+  "releaseGate": "Independent read-only review of frozen proposal SHA. Six lessons have editorial blockers requiring repair and new exact-hash re-review. Four may proceed through remaining release gates after advisories. No one-time exclusion, alias, selection, audio generation, browser/device check, deployment or live verification is made by this report."
+}

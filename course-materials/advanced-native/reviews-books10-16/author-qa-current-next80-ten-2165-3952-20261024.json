@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "source-bound-author-self-check-proposal-only",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-ten-2165-3952-20261024.json",
+  "proposalSha256": "9197a5a7d62035e6f4693a1541886ebb75eead9f6b24d247092d360cd2d4a467",
+  "sourceScreenPath": "course-materials/advanced-native/reviews-books10-16/read-only-next80-current361-holds-source-owner-screen-20261024.json",
+  "sourceScreenSha256": "65deae1273ec80df2d5a9d8edefc42bec56b2745f8b631bd0112d9ed769d2321",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "5248fb9179dd4c316eb5c696d402a5e048771002c9fd287e7fc4f96e13a1948a",
+  "lessonCount": 10,
+  "sourceChecks": [
+    {
+      "sourceOrdinal": 2165,
+      "sourceId": "book10-16-0054",
+      "sourceRawRowSha256": "3c9621488d5092cfab66ebd8ab52759bade6d4058af1ce96bccb9046e8864eb5",
+      "decisionFile": "books10-16/editorial-decisions-2142-2171.jsonl",
+      "decisionRawRowSha256": "81b3b6684aab0cdb08241bc71945471df95e6cd7fdab2c4df75f8c1a75f9e0cf",
+      "sourceExpression": "set off half-blind",
+      "guideSentence": "Without a map, we would set off half-blind.",
+      "guideMeaning": "Begin a journey with too little information; a figurative description of poor preparation.",
+      "sourcePage": 6,
+      "sourceBook": 10,
+      "sourceQuestion": 5,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2181,
+      "sourceId": "book10-16-0070",
+      "sourceRawRowSha256": "a9cf487ea85f242f85cfaf8690c0ab062feed70526b0c83b22f51a9ef3fe8019",
+      "decisionFile": "books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionRawRowSha256": "c34d714c42082d832abfb08cc543b2d6a2ef9b3a4c1e97ce50d7e0ea7a9262c3",
+      "sourceExpression": "chopped into pieces",
+      "guideSentence": "Constant interruptions leave my study time chopped into pieces.",
+      "guideMeaning": "Broken into many small fragments; a physical cutting image describes lost concentration.",
+      "sourcePage": 7,
+      "sourceBook": 10,
+      "sourceQuestion": 6,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2220,
+      "sourceId": "book10-16-0109",
+      "sourceRawRowSha256": "129f23e84fcf1cbef533732d2ed42f2938fcee714453e432730c6d2a95573fc8",
+      "decisionFile": "books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionRawRowSha256": "02b8b23a6593af0be1976067ed812f6ead2abba483099b4f10e5b5ca878025bd",
+      "sourceExpression": "swallowed whole by routine",
+      "guideSentence": "Without a break, people can feel swallowed whole by routine.",
+      "guideMeaning": "Overwhelmed completely by repeated daily demands; a vivid consumption metaphor.",
+      "sourcePage": 10,
+      "sourceBook": 10,
+      "sourceQuestion": 8,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2316,
+      "sourceId": "book10-16-0205",
+      "sourceRawRowSha256": "70d7860c4b82fc688114ef3b01dcf216beafdc6730328aa2ad6e6a5d11aa3b98",
+      "decisionFile": "books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionRawRowSha256": "c21ba15bf78a4176b8324fdba4c3e8d7155ef3da2dc8aac4fb9ee05f27d6c222",
+      "sourceExpression": "not the territory itself",
+      "guideSentence": "A chart is useful, but it is not the territory itself.",
+      "guideMeaning": "Only a representation, not the full reality; part of the map-territory metaphor.",
+      "sourcePage": 19,
+      "sourceBook": 10,
+      "sourceQuestion": 15,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2455,
+      "sourceId": "book10-16-0344",
+      "sourceRawRowSha256": "12a8c10fa9a58ac5bfb38e0b83fed0af4642e5c7b003ef099064e9d192e2f6e1",
+      "decisionFile": "books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionRawRowSha256": "0c0d0fe9b13e3abe0b7ad9d70e364ac3a1d88212c55d4a8385a158cd5be0c05b",
+      "sourceExpression": "convenience has started to replace capability",
+      "guideSentence": "In some offices, convenience has started to replace capability.",
+      "guideMeaning": "A concise contrast between ease and retained skill; useful for qualified criticism.",
+      "sourcePage": 31,
+      "sourceBook": 10,
+      "sourceQuestion": 27,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2576,
+      "sourceId": "book10-16-0465",
+      "sourceRawRowSha256": "f4d7cb642bfd98f68f6c87c7eeabd2ba5b6429b903dc73cece8bd3b83dcb0696",
+      "decisionFile": "books10-16/editorial-decisions-2532-2591.jsonl",
+      "decisionRawRowSha256": "9650eb7e568d83e0999fd90ccd40e354e68d2716419b53afb62c3c99a4f4921e",
+      "sourceExpression": "a practical tool rather than just a toy",
+      "guideSentence": "A basic phone can be a practical tool rather than just a toy.",
+      "guideMeaning": "Something useful for real tasks, beyond entertainment; a useful contrast phrase.",
+      "sourcePage": 43,
+      "sourceBook": 11,
+      "sourceQuestion": 3,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2638,
+      "sourceId": "book10-16-0527",
+      "sourceRawRowSha256": "e53e321b53c908a02a244fd18b4396e318ad750f5102de687c4e3b2f6fcd6963",
+      "decisionFile": "books10-16/editorial-decisions-2592-2651.jsonl",
+      "decisionRawRowSha256": "82f64d71c9f9475b5904c3252cba105c6916f3b49e80c32bd9446302e8e183b6",
+      "sourceExpression": "passing trends",
+      "guideSentence": "She learned to wait before buying into passing trends.",
+      "guideMeaning": "Short-lived fashions; a natural collocation.",
+      "sourcePage": 48,
+      "sourceBook": 11,
+      "sourceQuestion": 8,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2719,
+      "sourceId": "book10-16-0608",
+      "sourceRawRowSha256": "66d50196cf91b15299d2a4fbba94b318677eeb44d0d5c10f435a356c8df320b8",
+      "decisionFile": "books10-16/editorial-decisions-2712-2771.jsonl",
+      "decisionRawRowSha256": "f2e25f0c1f55c77863e3ef0074a667c7207e612809350c946e236ab1e59c2903",
+      "sourceExpression": "land a punch",
+      "guideSentence": "A simple line can land a punch in the final verse.",
+      "guideMeaning": "Have a strong impact; a fixed boxing metaphor.",
+      "sourcePage": 56,
+      "sourceBook": 11,
+      "sourceQuestion": 15,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2751,
+      "sourceId": "book10-16-0640",
+      "sourceRawRowSha256": "1f4936d710d5d73d73190768abd35e11ddf109b08421400f158a428686b8b084",
+      "decisionFile": "books10-16/editorial-decisions-2712-2771.jsonl",
+      "decisionRawRowSha256": "94b065eb8627ae427aa8207bf2d3745e4d7a77e0dac3b0894351eb84f11c2b96",
+      "sourceExpression": "niche role",
+      "guideSentence": "Vinyl has a niche role alongside streaming.",
+      "guideMeaning": "A specialised but limited place in a market; a natural collocation.",
+      "sourcePage": 59,
+      "sourceBook": 11,
+      "sourceQuestion": 18,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 3952,
+      "sourceId": "book10-16-1841",
+      "sourceRawRowSha256": "0ff963dbf108933136aded0bda206b2e4e21b0eeb6de15e50c67c58ec76396cf",
+      "decisionFile": "books10-16/editorial-decisions-3912-3971.jsonl",
+      "decisionRawRowSha256": "26756642b1ae71d115bf714730c1832633f4b69ce9f61516632a27b208cd9f8f",
+      "sourceExpression": "the body was made to move",
+      "guideSentence": "Even gentle walks remind us the body was made to move.",
+      "guideMeaning": "A memorable natural statement supporting regular activity; a natural spoken way to qualify or connect ideas.",
+      "sourcePage": 174,
+      "sourceBook": 15,
+      "sourceQuestion": 8,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    }
+  ],
+  "structuralValidation": {
+    "errors": [],
+    "warnings": [],
+    "compiled": [
+      {
+        "id": "advanced-native-2165",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2181",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2220",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2316",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2455",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2576",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2638",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2719",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2751",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3952",
+        "steps": 7,
+        "questions": 6
+      }
+    ]
+  },
+  "authorSelfCheck": {
+    "sourceSenseAndBoundary": "Source senses, evidence limits and use boundaries are specified in the briefs and questions.",
+    "distinctSevenStepContract": "Each proposal contains listening, four-valid reply, scene, boundary, dialogue, speaking and independent writing content.",
+    "translationPairing": "English source contexts, choices, models and suggested answers have paired Traditional Chinese.",
+    "writingSupport": "Two changed-context examples and five exact answer-derived target-free glossary spans per lesson.",
+    "selectionAndRelease": "No selected manifest, source decision, release index, audio asset or SOP audit modified."
+  },
+  "independentEnglishReview": "pending",
+  "independentChineseReview": "pending",
+  "mediaReview": "pending",
+  "browserDeviceQA": "pending",
+  "releaseApproval": false,
+  "knownIssues": [
+    "Unselected hold-editorial proposals awaiting independent review."
+  ]
+}

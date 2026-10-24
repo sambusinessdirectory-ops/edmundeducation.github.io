@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "kind": "unselected-proposal-replacement-attestation",
+  "date": "2026-10-24",
+  "reason": "2302 remained unsupported as a default transitive cut-away video-editing lesson; 2130 source pronoun/number anomaly could not both match exact quote and enforce grammatical learner examples. Both remain editorial holds, not one-time-comparison exclusions. 2493 writing transfer was revised after independent review.",
+  "replacements": [
+    {
+      "batch": "first",
+      "priorProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-retained-holds-next-ten-2302-4636-20261024.json",
+      "priorProposalSha256": "4dcdd8ae99ecdc001a81adf25fc70b6d9a0e72e81796556484b94aa571be55b1",
+      "replacementProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-retained-holds-first-ten-replacement-2193-4636-20261024.json",
+      "replacementProposalSha256": "474ae90a29201f49c9f9c4c18f8154e29d951ccd2243dc3d84a05f545b18a8ae",
+      "removedSourceOrdinal": 2302,
+      "addedSourceOrdinal": 2193,
+      "unchangedCommonOrdinals": [
+        2461,
+        2526,
+        2570,
+        2577,
+        2732,
+        3189,
+        3373,
+        4636
+      ],
+      "changedCommonOrdinals": [
+        {
+          "sourceOrdinal": 2493,
+          "changedSections": [
+            "writing"
+          ]
+        }
+      ],
+      "replacementAuthorQaSha256": "de0108e66875337bf0cb21815b01a207c5ef7a8df052deb1606b884e6ed50520",
+      "replacementOriginalitySha256": "106d1e2fbcaa1fafa989116f0940fc9b98359201ea1f4b7df997bec94af8a7ba",
+      "independentFocusedReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-retained-holds-first-ten-replacement-focused-rereview-20261024.json",
+      "independentFocusedReviewSha256": "6f98a87b9175c748442191796f6c17ae9ab5d2f902b1acdc2d6ec372fdd89491",
+      "editorialGatePassed": true,
+      "selected": false,
+      "releaseCertified": false
+    },
+    {
+      "batch": "second",
+      "priorProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-retained-holds-second-ten-2130-4542-20261024.json",
+      "priorProposalSha256": "e03c9c0432c509f1c83a0d003bc8dbc133735cbaceedcf7178c8da76ea9120d5",
+      "replacementProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-retained-holds-second-ten-replacement-2555-4542-20261024.json",
+      "replacementProposalSha256": "a9a49bc36db3bfc7ef785ab6ee43116a334c83d1161dbba09201b705899b8380",
+      "removedSourceOrdinal": 2130,
+      "addedSourceOrdinal": 2555,
+      "unchangedCommonOrdinals": [
+        2175,
+        2303,
+        2401,
+        2464,
+        2544,
+        2798,
+        3320,
+        3969,
+        4542
+      ],
+      "changedCommonOrdinals": [],
+      "replacementAuthorQaSha256": "5e26ba497785ca7e1352dbedd6c4a912d875f2b459a317b28175f39c1c4aa7d3",
+      "replacementOriginalitySha256": "53c88ba25fe5d9f8819d5f878f060ebfc1e7dc1eeefa9d03f10eb20f225cd381",
+      "changedAfterFirstReplacementFreeze": [
+        "2555 writing prompt/examples/glossary revised for genuinely distinct CUR08 transfer"
+      ],
+      "independentFocusedReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-retained-holds-second-ten-replacement-focused-rereview-20261024.json",
+      "independentFocusedReviewSha256": "2b0da170393b99f05fb1ea772f83fb913f84005d5c8c6858ac6d28f8b0a32257",
+      "editorialGatePassed": true,
+      "selected": false,
+      "releaseCertified": false
+    }
+  ],
+  "selectedManifestSha256": "f6ad48beef5b8a397e4e129bf00c0b0525d9efeb7504268e65b2ee39b7920b09",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceReviewSha256": "11ab02eafd746f9b557bc3e128465659499df9997257cbf940d6ac33274bba89",
+  "selectedManifestEdited": false,
+  "sourceDecisionsEdited": false,
+  "publicationStatus": "both replacement batches passed independent editorial gate; not selected or released",
+  "heldSourceRows": [
+    {
+      "sourceOrdinal": 2302,
+      "status": "hold-editorial",
+      "reason": "Source-specific transitive cut away as default deletion verb lacks support; no learner lesson selected."
+    },
+    {
+      "sourceOrdinal": 2130,
+      "status": "hold-editorial",
+      "reason": "Exact source uses group/their mind agreement anomaly; grammatical learner detector cannot also match that source quote."
+    },
+    {
+      "sourceOrdinal": 2493,
+      "status": "source-decision-still-hold-editorial; replacement-proposal-editorial-pass",
+      "reason": "Source decision was not modified. Revised everyday-supplies writing passed focused independent review; selection and release remain pending."
+    }
+  ]
+}

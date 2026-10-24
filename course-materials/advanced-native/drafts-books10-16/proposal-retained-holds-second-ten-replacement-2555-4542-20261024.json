@@ -1,0 +1,2701 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-retained-holds-second-ten-replacement-proposal-20261024",
+  "lessons": [
+    {
+      "id": "advanced-native-2555",
+      "number": 2555,
+      "inventoryId": "expr-2555",
+      "titleEn": "a constant tug on attention",
+      "titleZh": "持續拉扯注意力",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba constant tug on (?:people's|his|her|their|our|your|my) attention\\b",
+        "glossaryForbidden": [
+          "\\bconstant tug\\b",
+          "\\battention\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A repeated demand that keeps drawing focus away from the main task.",
+        "meaningZh": "反覆出現的訊息或要求持續把注意力從主要工作拉走。",
+        "grammar": "Tug is a physical-pull metaphor; the source says alerts can become such a demand, not that every notification necessarily does. This source wording is a reusable descriptive image, not a fixed idiom.",
+        "register": "Repeated digital alerts and interruptions.",
+        "boundaryZh": "重點是反覆分心，不是偶爾一則通知；也不是兩個責任在 tug-of-war。",
+        "misconceptionZh": "不能說有通知便必然工作失敗，應描述具體中斷。",
+        "outcomeZh": "能指出哪些反覆訊息打斷專注，以及如何減少干擾。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0444",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 41,
+          "book": 11,
+          "question": 1,
+          "sample": "S1",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 37, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Alerts can become a constant tug on people's attention.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a constant tug on people's attention"
+        }
+      ],
+      "listening": {
+        "promptZh": "提示聲怎樣影響諾拉？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It repeatedly interrupted her writing.",
+            "zh": "它反覆打斷她寫作。"
+          },
+          {
+            "id": "b",
+            "en": "It completed the label for her.",
+            "zh": "它替她完成了標籤。"
+          },
+          {
+            "id": "c",
+            "en": "It told her that the exhibition had closed.",
+            "zh": "它告訴她展覽已關閉。"
+          },
+          {
+            "id": "d",
+            "en": "It made her finish every sentence without pausing.",
+            "zh": "它令她一氣呵成寫完每句。"
+          }
+        ],
+        "explanationZh": "幾分鐘一次的提示令她反覆中斷；沒有代她完成工作。",
+        "answerId": "a",
+        "en": "Nora was writing an exhibition label when her group-chat alert sounded every few minutes. She kept returning to the same sentence; the notifications became a constant tug on her attention.",
+        "zh": "諾拉正在寫展品標籤，但群組聊天每隔幾分鐘便響起提示；她反覆回到同一句，通知持續拉扯她的注意力。"
+      },
+      "reply": {
+        "promptZh": "（諾拉寫作時，反覆的群組提示帶來甚麼影響？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They kept breaking her concentration.",
+            "zh": "它們不斷打斷她的專注。"
+          },
+          {
+            "id": "b",
+            "en": "They pulled her focus away from the sentence.",
+            "zh": "它們把她的注意力從句子拉走。"
+          },
+          {
+            "id": "c",
+            "en": "They became a constant tug on her attention.",
+            "zh": "它們持續拉扯她的注意力。"
+          },
+          {
+            "id": "d",
+            "en": "They made it hard for her to stay with one line of text.",
+            "zh": "它們令她難以持續專注一行文字。"
+          }
+        ],
+        "explanationZh": "四句都描述反覆分心；金句運用來源比喻。",
+        "promptEn": "What did the repeated group-chat alerts do while Nora wrote?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "學生要核對考察報告的數字，手機每兩分鐘便彈出遊戲提示；她多次看手機後要重頭核對。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The game alerts became a constant tug on her attention.",
+            "zh": "遊戲提示持續拉扯她的注意力。"
+          },
+          {
+            "id": "b",
+            "en": "The alerts proved every number in the report was wrong.",
+            "zh": "提示證明報告中每個數字都錯了。"
+          },
+          {
+            "id": "c",
+            "en": "She had finished checking before the alerts began.",
+            "zh": "提示出現前她已完成核對。"
+          }
+        ],
+        "explanationZh": "反覆查看手機使她多次重頭核對，符合持續分心。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合 a constant tug on attention？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A phone flashes every few minutes during a long task.",
+            "zh": "手機在長時間工作中每幾分鐘便閃動。"
+          },
+          {
+            "id": "b",
+            "en": "One silent reminder appears after the task is already complete.",
+            "zh": "工作完成後才出現一則無聲提醒。"
+          },
+          {
+            "id": "c",
+            "en": "Repeated message alerts keep pulling a reader away from a page.",
+            "zh": "反覆訊息提示使讀者一再離開書頁。"
+          }
+        ],
+        "explanationZh": "完成工作後只出現一則無聲提醒，沒有反覆拉走注意力。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「為何你寫圖書館展板時暫停群組提示？」你原本每幾分鐘就被打斷一次。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I muted the alerts because they were a constant tug on my attention while I wrote the label.",
+            "zh": "我寫標籤時，提示不斷拉扯我的注意力，所以把它們靜音。"
+          },
+          {
+            "id": "b",
+            "en": "I muted the chat to finish the label.",
+            "zh": "我把群組靜音，好完成標籤。"
+          },
+          {
+            "id": "c",
+            "en": "The alerts interrupted me several times.",
+            "zh": "提示打斷了我好幾次。"
+          }
+        ],
+        "explanationZh": "金句同時說出反覆分心與具體處理方法。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "During the rehearsal, repeated watch alerts became a constant tug on his attention.",
+        "zh": "綵排期間，手錶提示反覆出現，持續拉扯他的注意力。",
+        "promptZh": "先聽示範，再說出甚麼反覆打斷主要工作。",
+        "targetSpan": {
+          "start": 51,
+          "end": 82
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：啟正在為學校集會練習手語傳譯。舞台監督每幾分鐘便傳來一項非緊急流程變更，令他反覆失去節奏；他請對方在每輪排練之間一次過告知變更。用一至兩句英文解釋安排的原因。",
+        "selfCheckZh": "指出反覆訊息如何打斷手語傳譯排練，以及集中更新如何幫助專注；不要說所有緊急訊息都應延後。",
+        "examples": [
+          {
+            "en": "During the assembly rehearsal, stage-manager updates became a constant tug on his attention, so Kai asked for one combined update between runs.",
+            "zh": "集會排練期間，舞台監督的訊息持續拉扯啟的注意力，所以他請對方在每輪排練之間一次過告知變更。"
+          },
+          {
+            "en": "Repeated non-urgent messages were a constant tug on his attention as he practised signing; he asked the team to group changes between rehearsals.",
+            "zh": "啟練習手語時，反覆的非緊急訊息持續拉扯他的注意力；他請團隊在每輪排練之間集中告知變更。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the assembly rehearsal",
+            "zh": "集會排練",
+            "exampleIndex": 0,
+            "span": {
+              "start": 7,
+              "end": 29
+            }
+          },
+          {
+            "en": "stage-manager updates",
+            "zh": "舞台監督的訊息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 52
+            }
+          },
+          {
+            "en": "between runs",
+            "zh": "每輪排練之間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 130,
+              "end": 142
+            }
+          },
+          {
+            "en": "non-urgent messages",
+            "zh": "非緊急訊息",
+            "exampleIndex": 1,
+            "span": {
+              "start": 9,
+              "end": 28
+            }
+          },
+          {
+            "en": "practised signing",
+            "zh": "練習手語",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 89
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Frequent pop-ups became a constant tug on their attention during the training session.",
+          "zh": "訓練期間，頻繁彈出視窗持續拉扯他們的注意力。"
+        },
+        {
+          "en": "A single message need not be a constant tug on your attention; repeated alerts may be.",
+          "zh": "單一訊息未必持續拉扯注意力；反覆提示則可能如此。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2175",
+      "number": 2175,
+      "inventoryId": "expr-2175",
+      "titleEn": "hold the day together",
+      "titleZh": "讓一天的安排不散亂",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:hold|holds|held|holding) (?:the|our|their) day together\\b",
+        "glossaryForbidden": [
+          "\\bhold.*day together\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Coordinate several daily commitments so the schedule remains workable.",
+        "meaningZh": "把一天內幾項安排協調好，讓日程仍可運作。",
+        "grammar": "A plan or reminder can hold the day together figuratively; this is schedule coordination, not the emotional idiom hold it together.",
+        "register": "Planning errands, transport and family routines.",
+        "boundaryZh": "可以承認仍有小延誤；重點是主要安排沒有互相撞散。",
+        "misconceptionZh": "不要把本課解作某人強忍情緒，也不要把時間表當成成功保證。",
+        "outcomeZh": "能說明一份計劃如何把多項任務銜接起來。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0064",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 7,
+          "book": 10,
+          "question": 5,
+          "sample": "S2",
+          "sourceBookPages": "13–14",
+          "locatorNote": "DOCX table 5, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A written plan helped hold the day together.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hold the day together"
+        }
+      ],
+      "listening": {
+        "promptZh": "卡片的主要作用是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It helped him coordinate three commitments despite a delay.",
+            "zh": "即使遇上延誤，它仍幫他協調三項安排。"
+          },
+          {
+            "id": "b",
+            "en": "It made the bus arrive on time.",
+            "zh": "它令巴士準時抵達。"
+          },
+          {
+            "id": "c",
+            "en": "It cancelled the parcel pickup.",
+            "zh": "它取消了取包裹安排。"
+          },
+          {
+            "id": "d",
+            "en": "It replaced the clinic appointment.",
+            "zh": "它取代了覆診。"
+          }
+        ],
+        "explanationZh": "卡片協調時間和路線，卻沒有令巴士準時。",
+        "answerId": "a",
+        "en": "On Saturday, Luis had a clinic visit, a parcel pickup and his daughter’s rehearsal. He wrote one route and three times on a card; the card helped hold the day together even when the bus was late.",
+        "zh": "星期六，路易斯要覆診、取包裹和送女兒排練。他在卡上寫下一條路線和三個時間；即使巴士遲到，卡片也讓一天的安排仍可銜接。"
+      },
+      "reply": {
+        "promptZh": "（卡片星期六怎樣幫助路易斯？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It listed the three times in one place.",
+            "zh": "它把三個時間列在同一處。"
+          },
+          {
+            "id": "b",
+            "en": "It helped him plan the route between tasks.",
+            "zh": "它幫他規劃幾項任務之間的路線。"
+          },
+          {
+            "id": "c",
+            "en": "It helped hold the day together.",
+            "zh": "它幫他把一天的安排銜接起來。"
+          },
+          {
+            "id": "d",
+            "en": "It gave him a way to adjust after the bus delay.",
+            "zh": "巴士延誤後，它讓他有依據調整安排。"
+          }
+        ],
+        "explanationZh": "四句都說明卡片的協調作用；金句用本課比喻。",
+        "promptEn": "How did the card help Luis on Saturday?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "社區活動日要先收貨、再佈置、最後接待訪客；一張共用時間表讓三隊人知道何時交接。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shared timetable helps hold the day together.",
+            "zh": "共用時間表有助把一天的安排銜接起來。"
+          },
+          {
+            "id": "b",
+            "en": "The timetable guarantees that no visitor will arrive late.",
+            "zh": "時間表保證沒有訪客遲到。"
+          },
+          {
+            "id": "c",
+            "en": "The teams have stopped needing any handover.",
+            "zh": "三隊人已完全不需要交接。"
+          }
+        ],
+        "explanationZh": "時間表把多個步驟連起來，不保證所有人準時。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 hold the day together 誤當成另一種情緒意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The plan links deliveries, setup and visitor arrival.",
+            "zh": "計劃連接收貨、佈置和訪客到場。"
+          },
+          {
+            "id": "b",
+            "en": "She hid her tears so nobody saw her upset.",
+            "zh": "她強忍眼淚，不讓人看出難過。"
+          },
+          {
+            "id": "c",
+            "en": "The route card keeps several appointments manageable.",
+            "zh": "路線卡讓幾項預約較易安排。"
+          }
+        ],
+        "explanationZh": "強忍眼淚近於 hold it together 的情緒意思，本課講日程協調。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事問：「三隊人都在同一天工作，怎樣避免交接混亂？」你想用共享時間表。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us use one shared timetable to hold the day together and mark each handover clearly.",
+            "zh": "我們用一份共用時間表把一天的安排串起來，清楚標示每次交接。"
+          },
+          {
+            "id": "b",
+            "en": "We can mark each team’s handover time on the sheet.",
+            "zh": "我們可以在表上標示每隊的交接時間。"
+          },
+          {
+            "id": "c",
+            "en": "Each team should see the same updated plan.",
+            "zh": "每隊都應看到同一份更新後的計劃。"
+          }
+        ],
+        "explanationZh": "金句指出工具、協調作用和具體做法。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The route card held the day together when three appointments ran close to one another.",
+        "zh": "三項預約時間相近時，路線卡讓一天的安排仍可銜接。",
+        "promptZh": "先聽示範，再說出甚麼把日程連起來。",
+        "targetSpan": {
+          "start": 15,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校嘉年華上午要送貨，午間換場，下午開放給家長；義工用共用表列明交接。用一至兩句英文描述它如何幫助日程。",
+        "selfCheckZh": "指出至少兩項環節與交接安排；不要說一切意外都不會發生。",
+        "examples": [
+          {
+            "en": "The shared schedule helps hold the day together by linking morning deliveries with the midday room change.",
+            "zh": "共用時間表把上午送貨和午間換場銜接起來，讓一天的安排不散亂。"
+          },
+          {
+            "en": "Clear handover times can hold the day together as volunteers move from setup to the afternoon family visit.",
+            "zh": "義工由佈置轉入下午家長入場時，清楚的交接時間可讓安排維持順暢。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The shared schedule",
+            "zh": "共用時間表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 19
+            }
+          },
+          {
+            "en": "morning deliveries",
+            "zh": "上午送貨",
+            "exampleIndex": 0,
+            "span": {
+              "start": 59,
+              "end": 77
+            }
+          },
+          {
+            "en": "the midday room change",
+            "zh": "午間換場",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 105
+            }
+          },
+          {
+            "en": "handover times",
+            "zh": "交接時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 6,
+              "end": 20
+            }
+          },
+          {
+            "en": "the afternoon family visit",
+            "zh": "下午家長入場",
+            "exampleIndex": 1,
+            "span": {
+              "start": 80,
+              "end": 106
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "During the busy festival, volunteers used a checklist to hold the day together.",
+          "zh": "繁忙節日期間，義工利用清單把一天的安排串起來。"
+        },
+        {
+          "en": "A plan can hold the day together without preventing every delay.",
+          "zh": "計劃可讓一天的安排保持連貫，卻未必防止所有延誤。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2303",
+      "number": 2303,
+      "inventoryId": "expr-2303",
+      "titleEn": "unfold",
+      "titleZh": "逐步展開或顯現",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:unfold|unfolds|unfolded|unfolding)\\b",
+        "glossaryForbidden": [
+          "\\bunfold\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Develop or become clear gradually as successive details emerge.",
+        "meaningZh": "隨着細節陸續出現而逐步展開或變得清楚。",
+        "grammar": "Events or an explanation can unfold; do not imply evidence itself intentionally arranges a purposeful order.",
+        "register": "Reports, investigations and explanations over time.",
+        "boundaryZh": "逐步顯現不保證最後答案已確定，也不表示證據有自己的意圖。",
+        "misconceptionZh": "不能把 unfold 解作把紙張攤開，除非上下文真的談實物。",
+        "outcomeZh": "能按時間順序描述細節如何逐步出現。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0192",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 18,
+          "book": 10,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 15, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The evidence began to unfold in a clear and purposeful order.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "unfold in a clear and purposeful order"
+        }
+      ],
+      "listening": {
+        "promptZh": "新資料令事情有甚麼變化？",
+        "options": [
+          {
+            "id": "a",
+            "en": "More of the sequence became clear, though one key fact remained unknown.",
+            "zh": "事情經過漸漸清楚，但一項關鍵資料仍未知。"
+          },
+          {
+            "id": "b",
+            "en": "The team found the boat before hearing the radio call.",
+            "zh": "救援隊在接到無線電通話前已找到船。"
+          },
+          {
+            "id": "c",
+            "en": "The camera recording answered every question.",
+            "zh": "鏡頭錄像回答了所有問題。"
+          },
+          {
+            "id": "d",
+            "en": "The radio call proved the first report was false.",
+            "zh": "無線電通話證明最初報告是假的。"
+          }
+        ],
+        "explanationZh": "線索逐步補足經過，但位置仍未確認。",
+        "answerId": "a",
+        "en": "At first the rescue team knew only that a boat was missing. A harbour camera, then a radio call, gave them more detail; the story began to unfold, but the boat’s location was still unknown.",
+        "zh": "起初救援隊只知道一艘船失蹤；港口鏡頭和其後的無線電通話帶來更多細節，事情逐步明朗，但船隻位置仍未知。"
+      },
+      "reply": {
+        "promptZh": "（上午救援情況的描述如何變化？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gained new details from a camera and a radio call.",
+            "zh": "它從鏡頭和無線電通話得到新細節。"
+          },
+          {
+            "id": "b",
+            "en": "More details emerged step by step.",
+            "zh": "更多細節逐步出現。"
+          },
+          {
+            "id": "c",
+            "en": "The account began to unfold as more details arrived.",
+            "zh": "更多細節出現後，事情逐漸展開。"
+          },
+          {
+            "id": "d",
+            "en": "The team could describe more than it knew at first.",
+            "zh": "救援隊能說出的資訊比起初更多。"
+          }
+        ],
+        "explanationZh": "四句都描述資訊逐步出現；金句使用 unfold。",
+        "promptEn": "How did the rescue account change during the morning?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "展覽籌辦者先知道三箱文物遲到，之後才收到運輸紀錄與倉庫確認；仍未知道確切到貨時間。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The account of the delay is unfolding as records arrive.",
+            "zh": "隨着紀錄送到，延誤的經過逐步清楚。"
+          },
+          {
+            "id": "b",
+            "en": "Every item has already been delivered.",
+            "zh": "所有文物已送達。"
+          },
+          {
+            "id": "c",
+            "en": "The records deliberately arranged themselves into a plan.",
+            "zh": "紀錄有意自行排成一份計劃。"
+          }
+        ],
+        "explanationZh": "紀錄帶來逐步了解，不代表貨物已送達或資料有意圖。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不支持「the explanation is unfolding」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A new witness adds another part of the timeline.",
+            "zh": "新證人補充時間線另一部分。"
+          },
+          {
+            "id": "b",
+            "en": "No new detail appears and the account remains exactly as it was.",
+            "zh": "沒有新細節出現，說法完全沒有變化。"
+          },
+          {
+            "id": "c",
+            "en": "Two records clarify what happened before the call.",
+            "zh": "兩份紀錄釐清通話前發生甚麼。"
+          }
+        ],
+        "explanationZh": "沒有新增細節或進展，就談不上逐步顯現。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「現在知道為何活動取消嗎？」你只看到新證詞陸續出現，仍無最後結論。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The explanation is still unfolding as witnesses speak; we should wait before claiming a final cause.",
+            "zh": "證人陸續發言，解釋仍在逐步形成；現在不宜斷言最後原因。"
+          },
+          {
+            "id": "b",
+            "en": "New witness accounts are adding to the timeline.",
+            "zh": "新證詞正在補充時間線。"
+          },
+          {
+            "id": "c",
+            "en": "The final cause has not yet been confirmed.",
+            "zh": "最後原因尚未確認。"
+          }
+        ],
+        "explanationZh": "金句保留資訊逐步出現與結論未定兩點。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The full account unfolded over several days as the missing records arrived.",
+        "zh": "隨着缺失紀錄送到，完整經過在數天內逐步明朗。",
+        "promptZh": "先聽示範，再說出細節如何逐步出現。",
+        "targetSpan": {
+          "start": 17,
+          "end": 25
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：戲劇社原本只知排練室漏水；上午收到清潔報告，下午收到維修照片，仍未確定何時重開。用一至兩句英文描述資訊如何逐步明朗。",
+        "selfCheckZh": "按先後提到兩項新資料，並保留重開時間未定。",
+        "examples": [
+          {
+            "en": "The account of the leak unfolded as the cleaning report and repair photos arrived, though reopening remains uncertain.",
+            "zh": "清潔報告和維修照片陸續送到後，漏水經過逐步清楚，但重開時間仍未定。"
+          },
+          {
+            "en": "The explanation is unfolding: the morning report and afternoon photos add detail, but the room has no confirmed reopening time.",
+            "zh": "事情仍在逐步明朗：上午的報告與下午的照片補充了細節，但房間尚無確定的重開時間。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the cleaning report",
+            "zh": "清潔報告",
+            "exampleIndex": 0,
+            "span": {
+              "start": 36,
+              "end": 55
+            }
+          },
+          {
+            "en": "repair photos",
+            "zh": "維修照片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 73
+            }
+          },
+          {
+            "en": "reopening remains uncertain",
+            "zh": "重開時間仍未定",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 117
+            }
+          },
+          {
+            "en": "the morning report",
+            "zh": "上午的報告",
+            "exampleIndex": 1,
+            "span": {
+              "start": 30,
+              "end": 48
+            }
+          },
+          {
+            "en": "afternoon photos",
+            "zh": "下午的照片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 69
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The sequence unfolded gradually as three witnesses shared different parts of it.",
+          "zh": "三名證人各自補充一部分後，事情經過逐步顯現。"
+        },
+        {
+          "en": "A developing story may unfold without giving a final answer immediately.",
+          "zh": "事情可以逐步明朗，卻未必立即得出最後答案。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2401",
+      "number": 2401,
+      "inventoryId": "expr-2401",
+      "titleEn": "tighten the screws",
+      "titleZh": "逐步加強壓力",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:tighten|tightens|tightened|tightening) the screws\\b",
+        "glossaryForbidden": [
+          "\\btighten.*screws\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Increase pressure on someone; in the source, prolonged silence creatively heightens suspense for an audience.",
+        "meaningZh": "逐步加強對人的壓力；來源用沉默加深觀眾的懸念，屬延伸用法。",
+        "grammar": "Tighten the screws normally describes growing pressure on a person or group; staging and silence can extend it to suspense.",
+        "register": "Negotiations, deadlines and creative discussion of suspense.",
+        "boundaryZh": "不要把導演的沉默誤解成真的扭緊螺絲，也不要把懸念用法當作唯一常見意思。",
+        "misconceptionZh": "加壓可以是時間或要求增加，未必代表威脅或懲罰。",
+        "outcomeZh": "能分清對人施壓的常見意思與劇場懸念的創意延伸。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0290",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 26,
+          "book": 10,
+          "question": 22,
+          "sample": "S2",
+          "sourceBookPages": "52–53",
+          "locatorNote": "DOCX table 22, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The director used silence to tighten the screws.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "tighten the screws"
+        }
+      ],
+      "listening": {
+        "promptZh": "那段沉默有甚麼作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It increased suspense before the reveal.",
+            "zh": "它在揭曉前加深了懸念。"
+          },
+          {
+            "id": "b",
+            "en": "It told the audience the letter had been found.",
+            "zh": "它告訴觀眾信件已找到。"
+          },
+          {
+            "id": "c",
+            "en": "It shortened the scene by five seconds.",
+            "zh": "它令該場戲縮短五秒。"
+          },
+          {
+            "id": "d",
+            "en": "It made the actors tighten physical screws on stage.",
+            "zh": "它讓演員在台上扭緊實際螺絲。"
+          }
+        ],
+        "explanationZh": "沉默延長等待，產生懸念；這是比喻延伸。",
+        "answerId": "a",
+        "en": "The theatre director left five seconds of silence before revealing the missing letter. With each silent second, she seemed to tighten the screws, keeping the audience in suspense.",
+        "zh": "劇場導演在揭示失蹤信件前留了五秒沉默；每一秒的沉默都讓懸念加深，觀眾焦急地等候答案。"
+      },
+      "reply": {
+        "promptZh": "（信件揭曉前的停頓有甚麼效果？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It made the audience wait longer for the answer.",
+            "zh": "它令觀眾等答案等得更久。"
+          },
+          {
+            "id": "b",
+            "en": "It raised tension in the scene.",
+            "zh": "它提高了該場戲的緊張感。"
+          },
+          {
+            "id": "c",
+            "en": "It tightened the screws before the reveal.",
+            "zh": "它在揭曉前進一步加深懸念。"
+          },
+          {
+            "id": "d",
+            "en": "It made the eventual reveal feel more dramatic.",
+            "zh": "它令其後揭曉更有戲劇效果。"
+          }
+        ],
+        "explanationZh": "四句都描述停頓如何增加懸念；金句用來源的延伸用法。",
+        "promptEn": "What did the pause do before the letter was revealed?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "談判最後一天，買方縮短答覆期限並要求對方再減價。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The buyer is tightening the screws on the seller.",
+            "zh": "買方正逐步加強對賣方的壓力。"
+          },
+          {
+            "id": "b",
+            "en": "The buyer has accepted every term without discussion.",
+            "zh": "買方已不經討論接受所有條款。"
+          },
+          {
+            "id": "c",
+            "en": "The seller has already left the negotiation.",
+            "zh": "賣方已退出談判。"
+          }
+        ],
+        "explanationZh": "縮短期限兼要求減價是對對方加壓的常見用法。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句屬於本課片語的字面動作，而不是比喻？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The examiner reduces the time allowed for a decision.",
+            "zh": "考官縮短作決定的時間。"
+          },
+          {
+            "id": "b",
+            "en": "The mechanic uses a tool to tighten screws on a bicycle.",
+            "zh": "機械師用工具扭緊單車上的螺絲。"
+          },
+          {
+            "id": "c",
+            "en": "A director extends silence before an answer.",
+            "zh": "導演在答案前延長沉默。"
+          }
+        ],
+        "explanationZh": "機械師真的扭緊螺絲；其他情況屬加壓或加深懸念。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「為甚麼導演在答案揭曉前突然停下來？」你知道她想延長等待。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She used the silence to tighten the screws and make the audience wait for the answer.",
+            "zh": "她以沉默加深懸念，讓觀眾等候答案。"
+          },
+          {
+            "id": "b",
+            "en": "The silence left the audience waiting longer.",
+            "zh": "沉默讓觀眾等得更久。"
+          },
+          {
+            "id": "c",
+            "en": "She delayed the reveal for dramatic effect.",
+            "zh": "她延遲揭曉以增加戲劇效果。"
+          }
+        ],
+        "explanationZh": "金句同時說出方法與懸念效果，沒有誤解成字面動作。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The director tightened the screws with a long pause before the final answer.",
+        "zh": "導演在最後答案前長時間停頓，讓懸念進一步加深。",
+        "promptZh": "先聽示範，再說出壓力或懸念如何增加。",
+        "targetSpan": {
+          "start": 13,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一間出版社要在星期五前決定是否採購設計公司的方案。採購方把回覆期限提早一天，又要求設計公司補交詳細報價。用一至兩句英文描述對設計公司的壓力。",
+        "selfCheckZh": "指出提早期限與補交報價怎樣加壓；這次要用對人施壓的常見意思，不要寫劇場懸念。",
+        "examples": [
+          {
+            "en": "The publisher tightened the screws on the design team by moving the deadline forward and asking for a detailed quote.",
+            "zh": "出版社提前期限，又要求詳細報價，進一步向設計團隊施壓。"
+          },
+          {
+            "en": "By demanding a revised price list a day earlier, the buyer tightened the screws on the designers before Friday’s decision.",
+            "zh": "採購方要求提早一天提交修訂價目表，在星期五決定前向設計師加壓。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The publisher",
+            "zh": "出版社",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 13
+            }
+          },
+          {
+            "en": "the design team",
+            "zh": "設計團隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 38,
+              "end": 53
+            }
+          },
+          {
+            "en": "a detailed quote",
+            "zh": "詳細報價",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 116
+            }
+          },
+          {
+            "en": "a revised price list",
+            "zh": "修訂價目表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 13,
+              "end": 33
+            }
+          },
+          {
+            "en": "Friday’s decision",
+            "zh": "星期五的決定",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 121
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The manager tightened the screws by moving the deadline forward.",
+          "zh": "經理把期限提前，進一步加大壓力。"
+        },
+        {
+          "en": "The final silence tightened the screws for the audience before the result appeared.",
+          "zh": "結果出現前的最後一段沉默，令觀眾更感緊張。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2464",
+      "number": 2464,
+      "inventoryId": "expr-2464",
+      "titleEn": "absorbed over time",
+      "titleZh": "隨時間逐漸學會",
+      "category": "natural",
+      "target": {
+        "pattern": "\\babsorbed over time\\b",
+        "glossaryForbidden": [
+          "\\babsorbed over time\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Learn or take in habits gradually through repeated experience.",
+        "meaningZh": "透過反覆經驗，隨時間逐漸學會習慣或做法。",
+        "grammar": "Habits can be absorbed over time; this passive construction does not imply a single intentional lesson.",
+        "register": "Learning routines in school, work or community life.",
+        "boundaryZh": "重點是漸進，不表示第一天就完全掌握，也不是液體被吸收。",
+        "misconceptionZh": "反覆參與可能幫助學習，但應保留個別人的差異。",
+        "outcomeZh": "能描述一項習慣如何在多次參與後逐步形成。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0353",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 32,
+          "book": 10,
+          "question": 28,
+          "sample": "S1",
+          "sourceBookPages": "68–71",
+          "locatorNote": "DOCX table 28, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The habits were absorbed over time at school.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "absorbed over time"
+        }
+      ],
+      "listening": {
+        "promptZh": "義工如何學會洗手習慣？",
+        "options": [
+          {
+            "id": "a",
+            "en": "By watching and practising it across several Saturdays.",
+            "zh": "透過多個星期六的觀察與練習。"
+          },
+          {
+            "id": "b",
+            "en": "By hearing one lecture and never practising.",
+            "zh": "只聽一次講解，從不練習。"
+          },
+          {
+            "id": "c",
+            "en": "By reading a single notice without joining the kitchen.",
+            "zh": "不參與廚房，只看一張告示。"
+          },
+          {
+            "id": "d",
+            "en": "By absorbing soap into their hands.",
+            "zh": "讓肥皂被雙手吸收。"
+          }
+        ],
+        "explanationZh": "習慣來自多次觀察和練習，不是一次講解或字面吸收。",
+        "answerId": "a",
+        "en": "New volunteers joined the community kitchen each Saturday. They watched the hand-washing routine and practised it repeatedly; the habit was absorbed over time, not learned in one lecture.",
+        "zh": "新義工每星期六參與社區廚房，看着洗手程序並反覆練習；這習慣是逐漸學會的，不是聽一次講解便掌握。"
+      },
+      "reply": {
+        "promptZh": "（洗手程序怎樣讓義工變得熟悉？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They saw the routine each week.",
+            "zh": "他們每週都看到程序。"
+          },
+          {
+            "id": "b",
+            "en": "They tried the steps repeatedly.",
+            "zh": "他們反覆練習步驟。"
+          },
+          {
+            "id": "c",
+            "en": "The habit was absorbed over time.",
+            "zh": "這習慣是隨時間逐漸學會的。"
+          },
+          {
+            "id": "d",
+            "en": "Several sessions helped them remember the process.",
+            "zh": "多次活動幫他們記住流程。"
+          }
+        ],
+        "explanationZh": "四句都反映反覆經驗；金句概括漸進吸收。",
+        "promptEn": "How did the hand-washing routine become familiar to volunteers?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "新同事每週跟資深員工整理檔案，逐步學會命名規則；第一天仍會弄錯。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The naming habit was absorbed over time through practice.",
+            "zh": "命名習慣透過練習隨時間逐漸學會。"
+          },
+          {
+            "id": "b",
+            "en": "She mastered every rule on the first morning.",
+            "zh": "她第一天早上就完全掌握每條規則。"
+          },
+          {
+            "id": "c",
+            "en": "The files physically absorbed the labels.",
+            "zh": "檔案在字面上吸收了標籤。"
+          }
+        ],
+        "explanationZh": "反覆整理帶來漸進學習，並非即時完全掌握。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合 absorbed over time？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A pupil gradually adopts a checking habit after weeks of practice.",
+            "zh": "學生練習數週後逐漸養成核對習慣。"
+          },
+          {
+            "id": "b",
+            "en": "A worker attends one briefing and instantly masters every procedure.",
+            "zh": "員工只聽一次簡介就即時完全掌握所有程序。"
+          },
+          {
+            "id": "c",
+            "en": "A trainee becomes familiar with greetings through repeated shifts.",
+            "zh": "見習生經多次輪班逐漸熟悉招呼方式。"
+          }
+        ],
+        "explanationZh": "一次活動就立刻掌握全部程序，不符合逐步吸收。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「新義工怎樣學會整理收據？我們只講解過一次。」你知道他們其後連續幾週一起實做。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The routine was absorbed over time through the weekly practice, not just that first explanation.",
+            "zh": "這做法是經每週實做逐漸學會的，不只是靠第一次講解。"
+          },
+          {
+            "id": "b",
+            "en": "They practised the receipt routine together for several weeks.",
+            "zh": "他們連續幾週一起練習整理收據。"
+          },
+          {
+            "id": "c",
+            "en": "The first explanation gave them a starting point.",
+            "zh": "第一次講解讓他們有個起點。"
+          }
+        ],
+        "explanationZh": "金句區分起初講解與後續反覆實做。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The filing habit was absorbed over time through many ordinary workdays.",
+        "zh": "這種歸檔習慣是在許多平常工作日中逐漸學會的。",
+        "promptZh": "先聽示範，再說出重複經驗如何形成習慣。",
+        "targetSpan": {
+          "start": 21,
+          "end": 39
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校園導覽新義工每週帶訪客走同一條路線，一開始常忘記無障礙入口，幾星期後自然會提醒訪客。用一至兩句英文說明習慣如何形成。",
+        "selfCheckZh": "指出每週實做及數週後改善；不要說一次講解已足夠。",
+        "examples": [
+          {
+            "en": "The habit of pointing out the accessible entrance was absorbed over time as volunteers guided visitors each week.",
+            "zh": "義工每週帶訪客後，主動指出無障礙入口的習慣是隨時間逐漸學會的。"
+          },
+          {
+            "en": "The practice was absorbed over time through repeated tours; after several weeks, volunteers remembered the accessible entrance.",
+            "zh": "這種做法透過反覆導覽逐漸養成；數週後，義工記得無障礙入口。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The habit of pointing out the accessible entrance",
+            "zh": "主動指出無障礙入口的習慣",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 49
+            }
+          },
+          {
+            "en": "guided visitors each week",
+            "zh": "每週帶訪客",
+            "exampleIndex": 0,
+            "span": {
+              "start": 87,
+              "end": 112
+            }
+          },
+          {
+            "en": "The practice",
+            "zh": "這種做法",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 12
+            }
+          },
+          {
+            "en": "repeated tours",
+            "zh": "反覆導覽",
+            "exampleIndex": 1,
+            "span": {
+              "start": 44,
+              "end": 58
+            }
+          },
+          {
+            "en": "the accessible entrance",
+            "zh": "無障礙入口",
+            "exampleIndex": 1,
+            "span": {
+              "start": 103,
+              "end": 126
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A careful checking habit was absorbed over time during the training programme.",
+          "zh": "細心核對的習慣在訓練期間逐漸養成。"
+        },
+        {
+          "en": "The greeting routine was absorbed over time, not mastered after one demonstration.",
+          "zh": "招呼程序是隨時間逐漸學會的，不是看一次示範便掌握。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2544",
+      "number": 2544,
+      "inventoryId": "expr-2544",
+      "titleEn": "a little blurry",
+      "titleZh": "記憶有點模糊",
+      "category": "natural",
+      "target": {
+        "pattern": "\\ba little blurry\\b",
+        "glossaryForbidden": [
+          "\\ba little blurry\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Not entirely clear in someone’s memory.",
+        "meaningZh": "某段記憶並不十分清晰。",
+        "grammar": "Blurry can describe a picture literally or a memory figuratively; this source concerns a memory after many years.",
+        "register": "Recollections of past events.",
+        "boundaryZh": "記憶模糊不等於確定記錯，也不等於整件事完全忘記。",
+        "misconceptionZh": "不要把 a little 誇大成完全沒有印象。",
+        "outcomeZh": "能審慎描述仍有印象但細節未清的往事。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0433",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 40,
+          "book": 10,
+          "question": 36,
+          "sample": "S2",
+          "sourceBookPages": "87–88",
+          "locatorNote": "DOCX table 36, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The memory is a little blurry after many years.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a little blurry"
+        }
+      ],
+      "listening": {
+        "promptZh": "麗娜對音樂會記得甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She remembers taking part but not the song order.",
+            "zh": "她記得曾參與，卻記不起歌曲次序。"
+          },
+          {
+            "id": "b",
+            "en": "She knows the exact order of every song.",
+            "zh": "她知道每首歌的準確次序。"
+          },
+          {
+            "id": "c",
+            "en": "She has forgotten that the concert happened.",
+            "zh": "她連音樂會曾舉行也忘了。"
+          },
+          {
+            "id": "d",
+            "en": "She now believes she attended a different school.",
+            "zh": "她現在相信自己讀過另一所學校。"
+          }
+        ],
+        "explanationZh": "她記得參與，只有歌曲次序不清楚。",
+        "answerId": "a",
+        "en": "Lena remembers singing at the old school concert, but she cannot recall which song came first. After twelve years, that part of the memory is a little blurry.",
+        "zh": "麗娜記得曾在舊校音樂會唱歌，但想不起哪首歌先唱；十二年後，這部分記憶有點模糊。"
+      },
+      "reply": {
+        "promptZh": "（麗娜對舊音樂會的記憶有多確定？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She recalls singing there, although some details are unclear.",
+            "zh": "她記得在場唱歌，但部分細節不清楚。"
+          },
+          {
+            "id": "b",
+            "en": "She cannot name the first song with confidence.",
+            "zh": "她不能肯定地說出第一首歌。"
+          },
+          {
+            "id": "c",
+            "en": "Her memory of the sequence is a little blurry.",
+            "zh": "她對先後次序的記憶有點模糊。"
+          },
+          {
+            "id": "d",
+            "en": "She remembers the event more clearly than its order.",
+            "zh": "她對活動本身的記憶比次序清楚。"
+          }
+        ],
+        "explanationZh": "四句都保留部分記得、部分不清；金句使用目標表達。",
+        "promptEn": "How certain is Lena about the old concert?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "訪問者問十年前旅行第一天吃了甚麼；志明記得餐廳在海邊，卻不敢肯定菜式。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "His memory of the meal is a little blurry.",
+            "zh": "他對那餐飯的記憶有點模糊。"
+          },
+          {
+            "id": "b",
+            "en": "He can list every dish in order.",
+            "zh": "他能依次列出每道菜。"
+          },
+          {
+            "id": "c",
+            "en": "He is sure the trip never happened.",
+            "zh": "他確定那次旅行從未發生。"
+          }
+        ],
+        "explanationZh": "他仍記得餐廳位置，只是不肯定菜式。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把「有點模糊」說得過於絕對？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I recall the venue, but not the exact date.",
+            "zh": "我記得地點，但不記得確切日期。"
+          },
+          {
+            "id": "b",
+            "en": "I remember nothing at all about the event.",
+            "zh": "我對整件事完全沒有印象。"
+          },
+          {
+            "id": "c",
+            "en": "The order of events is not fully clear to me.",
+            "zh": "我對事情先後並不完全清楚。"
+          }
+        ],
+        "explanationZh": "完全沒有印象比 a little blurry 強得多。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「你肯定那次演出是星期五嗎？」你記得演出，卻未查到日期。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I remember the performance, but the date is a little blurry, so I would check the programme.",
+            "zh": "我記得那場演出，但日期有點模糊，所以會查節目單。"
+          },
+          {
+            "id": "b",
+            "en": "I remember seeing the performance.",
+            "zh": "我記得看過那場演出。"
+          },
+          {
+            "id": "c",
+            "en": "The programme might have the date.",
+            "zh": "節目單可能有日期。"
+          }
+        ],
+        "explanationZh": "金句清楚標示不確定之處和核實方法。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The trip itself stands out, but the order of our stops is a little blurry.",
+        "zh": "旅程本身印象深刻，但各站的先後次序有點模糊。",
+        "promptZh": "先聽示範，再說出哪部分記得、哪部分未確定。",
+        "targetSpan": {
+          "start": 58,
+          "end": 73
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：畢業生記得十年前參加過校園義賣，也記得一位老師幫忙，卻想不起當日攤位的排列。用一至兩句英文審慎描述記憶。",
+        "selfCheckZh": "同時保留已記得的事實和未確定的細節；不要說全忘了。",
+        "examples": [
+          {
+            "en": "I remember the school sale and the teacher who helped, but the layout of the stalls is a little blurry.",
+            "zh": "我記得校園義賣和幫忙的老師，但攤位排列的記憶有點模糊。"
+          },
+          {
+            "en": "Even now, the sale feels familiar, yet the order of the stalls is a little blurry.",
+            "zh": "即使到了現在，我仍對義賣有印象，但攤位次序有點模糊。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the school sale",
+            "zh": "校園義賣",
+            "exampleIndex": 0,
+            "span": {
+              "start": 11,
+              "end": 26
+            }
+          },
+          {
+            "en": "the teacher who helped",
+            "zh": "幫忙的老師",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 53
+            }
+          },
+          {
+            "en": "the layout of the stalls",
+            "zh": "攤位排列",
+            "exampleIndex": 0,
+            "span": {
+              "start": 59,
+              "end": 83
+            }
+          },
+          {
+            "en": "the sale",
+            "zh": "義賣",
+            "exampleIndex": 1,
+            "span": {
+              "start": 10,
+              "end": 18
+            }
+          },
+          {
+            "en": "the order of the stalls",
+            "zh": "攤位次序",
+            "exampleIndex": 1,
+            "span": {
+              "start": 39,
+              "end": 62
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "I recall the meeting, but the exact time is a little blurry.",
+          "zh": "我記得那次會議，但確切時間有點模糊。"
+        },
+        {
+          "en": "Her memory of the first rehearsal is a little blurry after so many years.",
+          "zh": "這麼多年後，她對首次綵排的記憶有點模糊。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2798",
+      "number": 2798,
+      "inventoryId": "expr-2798",
+      "titleEn": "a first alert rather than a final answer",
+      "titleZh": "初步警示而非最後答案",
+      "category": "natural",
+      "target": {
+        "pattern": "\\ba first alert rather than a final answer\\b",
+        "glossaryForbidden": [
+          "\\bfirst alert\\b",
+          "\\bfinal answer\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Treat a message as an early warning that warrants checking, not a conclusive explanation.",
+        "meaningZh": "把訊息視為值得查證的初步警示，而非已有定論。",
+        "grammar": "The source is a contextual contrast, not an established fixed idiom; first alert and final answer may be adapted to the situation.",
+        "register": "Posts, reports and early incident notices.",
+        "boundaryZh": "初步警示值得留意，但不能單憑它下最後判斷。",
+        "misconceptionZh": "不是說初步訊息一定錯誤；只是證據尚未足夠。",
+        "outcomeZh": "能區分需要跟進的訊號和經查證的結論。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0687",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 63,
+          "book": 11,
+          "question": 24,
+          "sample": "S2",
+          "sourceBookPages": "59–60",
+          "locatorNote": "DOCX table 60, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Treat the post as a first alert rather than a final answer.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a first alert rather than a final answer"
+        }
+      ],
+      "listening": {
+        "promptZh": "辦事處為何安排測試？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The photo raised a concern but did not establish the cause.",
+            "zh": "照片引起關注，卻未能確定成因。"
+          },
+          {
+            "id": "b",
+            "en": "The photo proved exactly which pipe was broken.",
+            "zh": "照片已證明哪條水管壞了。"
+          },
+          {
+            "id": "c",
+            "en": "The resident had already completed a laboratory test.",
+            "zh": "居民已完成化驗。"
+          },
+          {
+            "id": "d",
+            "en": "The office had decided the water was safe without checking.",
+            "zh": "辦事處未檢查便斷定食水安全。"
+          }
+        ],
+        "explanationZh": "貼文提供線索，成因仍須測試。",
+        "answerId": "a",
+        "en": "A resident posted a photo of cloudy tap water. For the housing office, the image was a first alert rather than a final answer; staff arranged a water test before naming a cause.",
+        "zh": "居民上載了一張混濁自來水照片；對房屋辦事處而言，照片是初步警示，而非最後答案，職員先安排水質測試才判斷成因。"
+      },
+      "reply": {
+        "promptZh": "（房屋辦事處應如何運用居民的貼文？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Use it to identify a concern worth investigating.",
+            "zh": "用它找出值得調查的疑慮。"
+          },
+          {
+            "id": "b",
+            "en": "Arrange a test before drawing a firm conclusion.",
+            "zh": "在作出確定結論前安排測試。"
+          },
+          {
+            "id": "c",
+            "en": "Treat it as a first alert rather than a final answer.",
+            "zh": "把它視為初步警示，而非最後答案。"
+          },
+          {
+            "id": "d",
+            "en": "Follow up on the report while leaving the cause open.",
+            "zh": "跟進報告，同時暫不判定成因。"
+          }
+        ],
+        "explanationZh": "四句都主張跟進而不倉卒定論；金句表達來源對比。",
+        "promptEn": "How should the housing office use the resident’s post?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一位家長報稱課室有異味，校方尚未檢查通風設備。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The report is a first alert rather than a final answer about the cause.",
+            "zh": "報告是成因的初步警示，而非最後答案。"
+          },
+          {
+            "id": "b",
+            "en": "The report proves the air-conditioning unit is faulty.",
+            "zh": "報告已證明冷氣機故障。"
+          },
+          {
+            "id": "c",
+            "en": "There is no reason to inspect the classroom.",
+            "zh": "沒有理由檢查課室。"
+          }
+        ],
+        "explanationZh": "報告值得查證，但未確定來源。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個做法最符合「初步警示」與「最後答案」的分別？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Publish a definite cause from one untested photograph.",
+            "zh": "單憑一張未核實照片公布確定成因。"
+          },
+          {
+            "id": "b",
+            "en": "Record the report, investigate it, then state what the evidence supports.",
+            "zh": "記錄報告、展開調查，再按證據說明結果。"
+          },
+          {
+            "id": "c",
+            "en": "Discard the report before anyone checks it.",
+            "zh": "未經查證就把報告丟掉。"
+          }
+        ],
+        "explanationZh": "先跟進，再根據證據作結論，符合兩階段分別。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事問：「社交平台貼文是否已解釋停電原因？」你只知道工程隊正在檢查。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The post is a first alert rather than a final answer; the engineers are still checking the cause.",
+            "zh": "貼文是初步警示，而非最後答案；工程人員仍在查證成因。"
+          },
+          {
+            "id": "b",
+            "en": "The engineers are checking the site.",
+            "zh": "工程人員正在現場檢查。"
+          },
+          {
+            "id": "c",
+            "en": "The post drew attention to the outage.",
+            "zh": "貼文讓人注意到停電。"
+          }
+        ],
+        "explanationZh": "金句同時保留貼文作用和成因未定。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "For our team, the message was a first alert rather than a final answer, so we checked the equipment.",
+        "zh": "對我們團隊而言，這訊息是初步警示而非最後答案，因此我們檢查了設備。",
+        "promptZh": "先聽示範，再說出警示與查證的先後。",
+        "targetSpan": {
+          "start": 30,
+          "end": 70
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：有人在網上說社區中心的升降機有異響；職員立即停用並安排技工檢查，但仍未知哪個零件有問題。用一至兩句英文說明如何看待貼文。",
+        "selfCheckZh": "寫出貼文促使採取行動，卻未能確定故障零件。",
+        "examples": [
+          {
+            "en": "The online post was a first alert rather than a final answer; staff stopped the lift and asked a technician to inspect it.",
+            "zh": "網上貼文是初步警示而非最後答案；職員停用升降機，並請技工檢查。"
+          },
+          {
+            "en": "Staff treated the noise report as a first alert rather than a final answer, since the faulty part was still unknown.",
+            "zh": "職員把異響報告視為初步警示而非最後答案，因為故障零件仍未知。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The online post",
+            "zh": "網上貼文",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "stopped the lift",
+            "zh": "停用升降機",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 84
+            }
+          },
+          {
+            "en": "a technician",
+            "zh": "技工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 95,
+              "end": 107
+            }
+          },
+          {
+            "en": "the noise report",
+            "zh": "異響報告",
+            "exampleIndex": 1,
+            "span": {
+              "start": 14,
+              "end": 30
+            }
+          },
+          {
+            "en": "the faulty part",
+            "zh": "故障零件",
+            "exampleIndex": 1,
+            "span": {
+              "start": 82,
+              "end": 97
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A complaint can be a first alert rather than a final answer while an inspection is pending.",
+          "zh": "檢查尚未完成時，投訴可以是初步警示，而非最後答案。"
+        },
+        {
+          "en": "The first report was a first alert rather than a final answer, so the team sought more evidence.",
+          "zh": "首份報告是初步警示而非最後答案，因此團隊繼續蒐證。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3320",
+      "number": 3320,
+      "inventoryId": "expr-3320",
+      "titleEn": "good for X, but often necessary for Y",
+      "titleZh": "有助起步，但精準執行通常需要細節",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bgood for (?:movement|getting started), but [^.]{3,95}?often necessary for (?:precision|accuracy|accurate [a-z ]+)\\b",
+        "glossaryForbidden": [
+          "\\bgood for\\b",
+          "\\boften necessary for\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A broad plan helps a group start, while detailed planning is often needed for exact execution.",
+        "meaningZh": "概略計劃幫團隊開始行動，細節計劃通常令執行更準確。",
+        "grammar": "The source makes an unequal contrast: good for movement versus often necessary for precision, not an absolute rule for every task.",
+        "register": "Projects requiring both momentum and accuracy.",
+        "boundaryZh": "不是說概略計劃毫無用處，也不是說每項小事都必須有繁複文件。",
+        "misconceptionZh": "要保留 often，避免把「通常必要」說成所有情況無例外。",
+        "outcomeZh": "能解釋起步和精準執行需要不同程度的規劃。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1209",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 112,
+          "book": 12,
+          "question": 46,
+          "sample": "S2",
+          "sourceBookPages": "108–109",
+          "locatorNote": "DOCX table 116, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The project taught us that general plans are good for movement, but detailed plans are often necessary for precision.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "general plans are good for movement, but detailed plans are often necessary for precision"
+        }
+      ],
+      "listening": {
+        "promptZh": "為何印標籤前要核對細節？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The broad theme helped them begin, but labels required exact facts.",
+            "zh": "大方向讓他們開始，標籤卻需要準確資料。"
+          },
+          {
+            "id": "b",
+            "en": "The exhibition theme meant dates no longer mattered.",
+            "zh": "有展覽主題後，日期便不重要。"
+          },
+          {
+            "id": "c",
+            "en": "The team could not begin gathering objects until every label was printed.",
+            "zh": "所有標籤印好前，團隊不能開始蒐集展品。"
+          },
+          {
+            "id": "d",
+            "en": "Precise spelling was needed only to choose the theme.",
+            "zh": "準確拼寫只用於選擇主題。"
+          }
+        ],
+        "explanationZh": "大方向推動開始；出版標籤需核對精確資料。",
+        "answerId": "a",
+        "en": "The museum team agreed on a broad exhibition theme and could start gathering objects. Before printing labels, it drew up exact dates and spellings: general plans are good for movement, but detailed plans are often necessary for precision.",
+        "zh": "博物館團隊先定展覽大方向，便能開始蒐集展品；印製標籤前，他們核對確切日期和拼寫：概略計劃有助起步，但準確執行通常需要詳細計劃。"
+      },
+      "reply": {
+        "promptZh": "（博物館團隊為何既定大方向，又製作詳細清單？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The theme gave the work a starting direction.",
+            "zh": "主題為工作提供起步方向。"
+          },
+          {
+            "id": "b",
+            "en": "The list helped them check dates and spellings.",
+            "zh": "清單幫他們核對日期和拼寫。"
+          },
+          {
+            "id": "c",
+            "en": "General plans are good for movement, but detailed plans are often necessary for precision.",
+            "zh": "概略計劃有助起步，細節計劃通常對準確執行不可少。"
+          },
+          {
+            "id": "d",
+            "en": "They needed to begin work and avoid factual errors.",
+            "zh": "他們需要開始工作，也要避免事實錯誤。"
+          }
+        ],
+        "explanationZh": "四句均說明大方向與細節各有作用；金句保留 often。",
+        "promptEn": "Why did the museum team use both a broad theme and a detailed list?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "活動團隊已定義賣目標並招募義工；發送訂購表前，要核對價錢、數量和截止時間。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "General plans are good for movement, but detailed plans are often necessary for precision; check the order form now.",
+            "zh": "概略計劃有助起步，但準確執行通常需要詳細計劃；現在應核對訂購表。"
+          },
+          {
+            "id": "b",
+            "en": "The goal makes every figure on the form optional.",
+            "zh": "有了目標，表上的數字都可有可無。"
+          },
+          {
+            "id": "c",
+            "en": "They should cancel the sale until every future detail is known.",
+            "zh": "所有未來細節都知道前，應取消義賣。"
+          }
+        ],
+        "explanationZh": "開始籌備與準確發表資料是不同要求。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把來源對比說得過於絕對？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A rough outline can help a team start.",
+            "zh": "粗略大綱可幫團隊起步。"
+          },
+          {
+            "id": "b",
+            "en": "Every task without exception needs a long written plan.",
+            "zh": "任何工作毫無例外都需要一份冗長書面計劃。"
+          },
+          {
+            "id": "c",
+            "en": "Exact figures usually matter before publication.",
+            "zh": "公布前通常要核對準確數字。"
+          }
+        ],
+        "explanationZh": "來源只說詳細計劃 often necessary for precision，不作無例外主張。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「既然已有活動方向，還要做細節表嗎？」你知道週五要公布集合時間和路線。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "General plans are good for movement, but detailed plans are often necessary for precision; check the time and route before Friday’s notice.",
+            "zh": "概略計劃有助起步，詳細計劃通常令執行更準確；星期五公布前要核對時間與路線。"
+          },
+          {
+            "id": "b",
+            "en": "The general direction helped us start.",
+            "zh": "大方向幫我們開始。"
+          },
+          {
+            "id": "c",
+            "en": "The time and route should be checked.",
+            "zh": "應核對時間與路線。"
+          }
+        ],
+        "explanationZh": "金句連結來源對比與具體待核對事項。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "General plans are good for movement, but detailed plans are often necessary for precision.",
+        "zh": "概略計劃有助起步，但準確執行通常需要詳細計劃。",
+        "promptZh": "先聽示範，再留意 good 與 often necessary 的分別。",
+        "targetSpan": {
+          "start": 0,
+          "end": 89
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生先用簡短構想獲准辦科學展；印海報前，他們要核對日期、房間號碼和安全規則。用一至兩句英文說明兩種規劃的作用。",
+        "selfCheckZh": "寫出構想幫助起步，以及公布前核對細節；保留「有助」與「通常需要」的強弱差別。",
+        "examples": [
+          {
+            "en": "A rough outline is good for getting started, but a detailed checklist is often necessary for accuracy; the students checked the date before printing.",
+            "zh": "粗略大綱有助起步，但詳細清單通常是確保準確所需的；學生印製前核對了日期。"
+          },
+          {
+            "en": "A short proposal is good for getting started, but exact room and safety details are often necessary for accurate posters; the team checked the room before printing.",
+            "zh": "簡短提案有助起步，但要做出資料準確的海報，通常還需要確切的房間及安全資訊；團隊印製前核對了房間。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "A rough outline",
+            "zh": "粗略大綱",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "the students",
+            "zh": "學生",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 115
+            }
+          },
+          {
+            "en": "before printing",
+            "zh": "印製前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 133,
+              "end": 148
+            }
+          },
+          {
+            "en": "A short proposal",
+            "zh": "簡短提案",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 16
+            }
+          },
+          {
+            "en": "the team",
+            "zh": "團隊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 122,
+              "end": 130
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "General plans are good for movement, but detailed plans are often necessary for precision when a timetable goes public.",
+          "zh": "時間表公布時，概略計劃有助起步，但準確執行通常需要詳細計劃。"
+        },
+        {
+          "en": "General plans are good for movement, but detailed plans are often necessary for precision in a safety drill.",
+          "zh": "安全演習中，概略計劃有助起步，但準確執行通常需要詳細計劃。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3969",
+      "number": 3969,
+      "inventoryId": "expr-3969",
+      "titleEn": "train the person, not just the body",
+      "titleZh": "培養整個人，而不只練體能",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\btrain(?:s|ed|ing)? (?:the|a) person, not just the body\\b",
+        "glossaryForbidden": [
+          "\\btrain.*person\\b",
+          "\\bthe body\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Develop judgment, character and cooperation as well as physical skills.",
+        "meaningZh": "訓練判斷力、品格和合作能力，同時重視身體技能。",
+        "grammar": "The source contrasts whole-person development with body-only training; it does not reject physical practice.",
+        "register": "Coaching and education.",
+        "boundaryZh": "不只是身體訓練，不等於停止體能訓練。",
+        "misconceptionZh": "「person」指學員作為完整的人，並非另有一名人士接受訓練。",
+        "outcomeZh": "能描述教練如何兼顧體能與判斷、合作。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1858",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 175,
+          "book": 15,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "24–25",
+          "locatorNote": "DOCX table 188, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A good academy aims to train the person, not just the body.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "train the person, not just the body"
+        }
+      ],
+      "listening": {
+        "promptZh": "教練希望學員有甚麼成長？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They should build physical skill and sound judgment together.",
+            "zh": "他們應同時培養體能技巧和良好判斷。"
+          },
+          {
+            "id": "b",
+            "en": "They should stop all physical training.",
+            "zh": "他們應停止所有體能訓練。"
+          },
+          {
+            "id": "c",
+            "en": "They should make decisions without listening to teammates.",
+            "zh": "他們應不聽隊友意見便作決定。"
+          },
+          {
+            "id": "d",
+            "en": "They should focus only on rowing speed.",
+            "zh": "他們應只重視划艇速度。"
+          }
+        ],
+        "explanationZh": "俱樂部仍練體能，同時培養合作和判斷。",
+        "answerId": "a",
+        "en": "At the rowing club, trainees still practised strength and balance. They also learned to listen to teammates and make safe decisions: the coaches wanted to train the person, not just the body.",
+        "zh": "划艇會的學員仍練力量和平衡，也學聆聽隊友及作安全決定；教練希望培養整個人，而不只練體能。"
+      },
+      "reply": {
+        "promptZh": "（划艇會希望培養學員哪些能力？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They want stronger rowing skills and safer decisions.",
+            "zh": "他們希望學員划艇更好，決定也更安全。"
+          },
+          {
+            "id": "b",
+            "en": "They teach trainees to work with teammates.",
+            "zh": "他們教學員與隊友合作。"
+          },
+          {
+            "id": "c",
+            "en": "They aim to train the person, not just the body.",
+            "zh": "他們希望培養整個人，而不只練體能。"
+          },
+          {
+            "id": "d",
+            "en": "They value both physical practice and judgment.",
+            "zh": "他們同時重視體能練習和判斷力。"
+          }
+        ],
+        "explanationZh": "四句都涵蓋體能以外的培養；金句使用來源對比。",
+        "promptEn": "What is the rowing club trying to develop?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "籃球教練除了練投籃，還讓隊員討論公平競賽和衝突處理。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The coach aims to train the person, not just the body.",
+            "zh": "教練希望培養整個人，而不只練體能。"
+          },
+          {
+            "id": "b",
+            "en": "The coach has cancelled shooting practice.",
+            "zh": "教練已取消投籃練習。"
+          },
+          {
+            "id": "c",
+            "en": "The team is learning only how to run faster.",
+            "zh": "球隊只在學習如何跑得更快。"
+          }
+        ],
+        "explanationZh": "新增公平與衝突討論，不代表取消體能訓練。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句誤解了 not just 的意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Physical training remains part of the programme.",
+            "zh": "體能訓練仍是課程一部分。"
+          },
+          {
+            "id": "b",
+            "en": "The programme should abandon exercise entirely.",
+            "zh": "課程應完全放棄運動。"
+          },
+          {
+            "id": "c",
+            "en": "Coaches can also develop judgment and teamwork.",
+            "zh": "教練也能培養判斷與團隊合作。"
+          }
+        ],
+        "explanationZh": "not just 增添其他範疇，並不否定身體訓練。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "家長問：「為何游泳班還教學生照顧較年幼隊友？」你知道課程同時教水中安全。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The academy wants to train the person, not just the body, by teaching safety and responsibility alongside swimming.",
+            "zh": "學院希望培養整個人，而不只練體能，所以在游泳以外也教安全與責任。"
+          },
+          {
+            "id": "b",
+            "en": "The class includes water-safety lessons.",
+            "zh": "課堂包括水中安全。"
+          },
+          {
+            "id": "c",
+            "en": "Older pupils can help younger teammates.",
+            "zh": "年長學生可以幫較年幼隊友。"
+          }
+        ],
+        "explanationZh": "金句保留游泳課並解釋安全、責任的加入。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Through practice and reflection, coaches can train the person, not just the body.",
+        "zh": "透過練習與反思，教練可以培養整個人，而不只鍛鍊身體。",
+        "promptZh": "先聽示範，再說出體能以外還培養甚麼。",
+        "targetSpan": {
+          "start": 45,
+          "end": 80
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：田徑隊每週練速度，同時讓隊員輪流帶熱身、照顧新生並討論比賽失誤。用一至兩句英文說明教練理念。",
+        "selfCheckZh": "保留速度訓練，並指出責任或判斷等體能以外的培養。",
+        "examples": [
+          {
+            "en": "The coach wants to train the person, not just the body, so runners work on speed while learning to lead and support newcomers.",
+            "zh": "教練希望培養整個人，而不只練體能，所以隊員提升速度之餘，也學帶領和照顧新生。"
+          },
+          {
+            "en": "To train the person, not just the body, the coach asks runners to take turns leading the warm-up and review race mistakes.",
+            "zh": "為了培養整個人而不只練體能，教練讓隊員輪流帶熱身，並檢討比賽失誤。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The coach",
+            "zh": "教練",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 9
+            }
+          },
+          {
+            "en": "runners work on speed",
+            "zh": "隊員提升速度",
+            "exampleIndex": 0,
+            "span": {
+              "start": 59,
+              "end": 80
+            }
+          },
+          {
+            "en": "support newcomers",
+            "zh": "照顧新生",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 125
+            }
+          },
+          {
+            "en": "take turns leading the warm-up",
+            "zh": "輪流帶熱身",
+            "exampleIndex": 1,
+            "span": {
+              "start": 66,
+              "end": 96
+            }
+          },
+          {
+            "en": "review race mistakes",
+            "zh": "檢討比賽失誤",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 121
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The youth club trains the person, not just the body, through teamwork and sport.",
+          "zh": "青年會藉團隊合作和運動培養整個人，而不只練體能。"
+        },
+        {
+          "en": "Training the person, not just the body, means building judgment alongside strength.",
+          "zh": "培養整個人而不只練體能，意指在力量以外也培養判斷力。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4542",
+      "number": 4542,
+      "inventoryId": "expr-4542",
+      "titleEn": "less fuss and more flow",
+      "titleZh": "少些麻煩，更加順暢",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bless fuss and more flow\\b",
+        "glossaryForbidden": [
+          "\\bless fuss\\b",
+          "\\bmore flow\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A simpler process with fewer hassles and smoother movement.",
+        "meaningZh": "流程少些麻煩，通行更順暢。",
+        "grammar": "The source is about passengers; flow refers to their movement through a service, not liquid.",
+        "register": "Transport, queues and service design.",
+        "boundaryZh": "少些麻煩不等於完全沒有規則，也不保證每個人都不用排隊。",
+        "misconceptionZh": "要把措施與旅客體驗連起來，不能只用押韻口號。",
+        "outcomeZh": "能描述一項流程改變如何減少阻滯並改善通行。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2431",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 229,
+          "book": 16,
+          "question": 39,
+          "sample": "S2",
+          "sourceBookPages": "94–95",
+          "locatorNote": "DOCX table 254, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Passengers want less fuss and more flow.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "less fuss and more flow"
+        }
+      ],
+      "listening": {
+        "promptZh": "增設指示牌和隊列有甚麼作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They made it easier for passengers to keep moving.",
+            "zh": "它們令乘客較容易繼續前行。"
+          },
+          {
+            "id": "b",
+            "en": "They removed the need to show tickets.",
+            "zh": "它們免去了出示船票的需要。"
+          },
+          {
+            "id": "c",
+            "en": "They guaranteed no queue at any time.",
+            "zh": "它們保證任何時候都毋須排隊。"
+          },
+          {
+            "id": "d",
+            "en": "They sent prepaid passengers to a different pier.",
+            "zh": "它們把預購票乘客送到另一個碼頭。"
+          }
+        ],
+        "explanationZh": "措施減少停下問路的阻滯，但仍需驗票和排隊。",
+        "answerId": "a",
+        "en": "At the ferry pier, staff put signs before the ticket gates and opened a second queue for prepaid tickets. Passengers wanted less fuss and more flow, so fewer people had to stop and ask for directions.",
+        "zh": "碼頭職員在驗票閘前增設指示牌，並為預購船票者開第二條隊；乘客希望少些麻煩、通行更順暢，因此較少人要停下來問路。"
+      },
+      "reply": {
+        "promptZh": "（渡輪乘客希望有甚麼改善？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They wanted clearer directions before the gates.",
+            "zh": "他們希望閘前指示更清楚。"
+          },
+          {
+            "id": "b",
+            "en": "They wanted the ticket lines to move smoothly.",
+            "zh": "他們希望驗票隊列走得更順暢。"
+          },
+          {
+            "id": "c",
+            "en": "They wanted less fuss and more flow.",
+            "zh": "他們希望少些麻煩，通行更順暢。"
+          },
+          {
+            "id": "d",
+            "en": "They wanted fewer unnecessary stops on the way in.",
+            "zh": "他們希望入閘途中少些不必要的停頓。"
+          }
+        ],
+        "explanationZh": "四句都指向減少阻滯；金句完整表達來源口號。",
+        "promptEn": "What improvement did ferry passengers want?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "巴士站把付款指示移到候車入口，並保留拍卡程序；乘客較少在車門前找零。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The new signs give passengers less fuss and more flow when boarding.",
+            "zh": "新指示令乘客上車時少些麻煩，通行更順暢。"
+          },
+          {
+            "id": "b",
+            "en": "Passengers no longer need to pay a fare.",
+            "zh": "乘客不再需要付車資。"
+          },
+          {
+            "id": "c",
+            "en": "Every bus now arrives early.",
+            "zh": "所有巴士現在都提早到站。"
+          }
+        ],
+        "explanationZh": "付款程序仍在，但上車阻滯減少。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 less fuss 誤說成完全取消必要程序？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The signs help people find the right line.",
+            "zh": "指示牌幫人找到正確隊列。"
+          },
+          {
+            "id": "b",
+            "en": "Nobody has to present a ticket anymore.",
+            "zh": "所有人都不再需要出示車票。"
+          },
+          {
+            "id": "c",
+            "en": "A second line may reduce stopping at the gate.",
+            "zh": "第二條隊可減少閘前停頓。"
+          }
+        ],
+        "explanationZh": "減少麻煩不等於免除驗票。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「為何車站把路線圖移到入閘前？」你知道不少人原本在閘口才停下找路。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gives passengers less fuss and more flow: they can choose a route before reaching the gate.",
+            "zh": "這讓乘客少些麻煩、通行更順暢：他們可在到達閘口前先選路線。"
+          },
+          {
+            "id": "b",
+            "en": "The map now stands before the gate.",
+            "zh": "路線圖現在放在閘前。"
+          },
+          {
+            "id": "c",
+            "en": "Passengers can check the route earlier.",
+            "zh": "乘客可以更早查看路線。"
+          }
+        ],
+        "explanationZh": "金句指出位置調整如何改善通行。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Clear signs can give passengers less fuss and more flow through a busy station.",
+        "zh": "清楚指示可令乘客在繁忙車站少些麻煩、走得更順暢。",
+        "promptZh": "先聽示範，再說出哪個改動令通行更順暢。",
+        "targetSpan": {
+          "start": 32,
+          "end": 55
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校園開放日原本只有一個登記桌，家長常堵在門口問路；校方加設預先登記隊列和入口地圖。用一至兩句英文解釋改善。",
+        "selfCheckZh": "指出登記和找路的阻滯減少，不要說完全沒有隊列。",
+        "examples": [
+          {
+            "en": "Families wanted less fuss and more flow at check-in; the extra registration line and entrance map helped them find the right place.",
+            "zh": "家長希望登記時少些麻煩、通行更順暢；額外登記隊列和入口地圖幫他們找到正確位置。"
+          },
+          {
+            "en": "The aim was less fuss and more flow: registered visitors used a separate line instead of stopping at the door for directions.",
+            "zh": "目標是減少麻煩、讓通行更順暢：已登記訪客使用另一條隊，不用在門口停下問路。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "at check-in",
+            "zh": "登記時",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 51
+            }
+          },
+          {
+            "en": "the extra registration line",
+            "zh": "額外登記隊列",
+            "exampleIndex": 0,
+            "span": {
+              "start": 53,
+              "end": 80
+            }
+          },
+          {
+            "en": "entrance map",
+            "zh": "入口地圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 97
+            }
+          },
+          {
+            "en": "registered visitors",
+            "zh": "已登記訪客",
+            "exampleIndex": 1,
+            "span": {
+              "start": 37,
+              "end": 56
+            }
+          },
+          {
+            "en": "a separate line",
+            "zh": "另一條隊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 77
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The new gate layout offers travellers less fuss and more flow without skipping security checks.",
+          "zh": "新閘口布局讓旅客少些麻煩、通行更順暢，同時仍須安檢。"
+        },
+        {
+          "en": "A clearer boarding lane gave passengers less fuss and more flow at the terminal.",
+          "zh": "更清楚的登船通道令碼頭乘客少些麻煩、通行更順暢。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

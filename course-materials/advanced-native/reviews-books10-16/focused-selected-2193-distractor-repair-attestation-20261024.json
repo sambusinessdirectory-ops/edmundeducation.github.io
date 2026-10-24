@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "kind": "selected-2193-focused-distractor-repair-attestation",
+  "reviewDate": "2026-10-24",
+  "selectedBatchPath": "drafts-books10-16/batch-reviewed-retained-holds-twenty-2193-4542-selected-20261024.json",
+  "selectedBatchSha256Before": "9a7bc815646e0abe3d89f36d6f9003dc80450e42ec4c4ba95a694263b85cc94f",
+  "selectedBatchSha256After": "5f5d5b35a8c002a6f4dfbf3603f5d5d3f2d49d2a2cbd5f8c8a9a204d432b6f76",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceRawRowSha256": "259ab10f6b0fe4843c13a9c25abd4198b165949b16b9c0c4d9446352c3147f74",
+  "sourceSentence": "Daily practice helped the runners hold their rhythm.",
+  "decisionRawRowSha256": "572d337f3f6bfa6d760b09fd402697f471411488c7a524e3c88e8897d38a2560",
+  "priorFrozenProposalPath": "drafts-books10-16/proposal-retained-holds-first-ten-replacement-2193-4636-20261024.json",
+  "priorFrozenProposalSha256": "474ae90a29201f49c9f9c4c18f8154e29d951ccd2243dc3d84a05f545b18a8ae",
+  "priorIndependentReviewPath": "reviews-books10-16/independent-retained-holds-first-ten-replacement-focused-rereview-20261024.json",
+  "priorIndependentReviewSha256": "6f98a87b9175c748442191796f6c17ae9ab5d2f902b1acdc2d6ec372fdd89491",
+  "finding": "Listening B/D and scene B/C were too obviously impossible or unrelated to the source situation. The revised foils are realistic running/swimming misunderstandings: sprinting after headwind, route familiarity, overtaking rivals, pace acceleration, and an opening sprint. The key remains uniquely grounded in sustained cadence and explicit avoidance of a sprint.",
+  "changedFields": [
+    {
+      "field": "listening.options[0].en",
+      "before": "It helped them keep a steady pace despite the wind.",
+      "after": "It helped them keep their cadence rather than sprint to recover lost ground."
+    },
+    {
+      "field": "listening.options[0].zh",
+      "before": "它幫他們在逆風中保持穩定步調。",
+      "after": "它幫他們保持步頻，而不是突然衝刺追回落後距離。"
+    },
+    {
+      "field": "listening.options[1].en",
+      "before": "It guaranteed that they finished first.",
+      "after": "It helped them sprint whenever the wind slowed them down."
+    },
+    {
+      "field": "listening.options[1].zh",
+      "before": "它保證他們得第一名。",
+      "after": "它幫他們在逆風令速度減慢時立即衝刺。"
+    },
+    {
+      "field": "listening.options[2].en",
+      "before": "It taught them to sprint whenever they slowed down.",
+      "after": "It helped them follow the path they used in training."
+    },
+    {
+      "field": "listening.options[2].zh",
+      "before": "它教他們每次慢下來就全速衝刺。",
+      "after": "它幫他們沿着練習時走過的路線跑。"
+    },
+    {
+      "field": "listening.options[3].en",
+      "before": "It removed all wind from the route.",
+      "after": "It helped them overtake the quickest runners near the finish."
+    },
+    {
+      "field": "listening.options[3].zh",
+      "before": "它令路線上完全沒有風。",
+      "after": "它幫他們在終點前超越跑得最快的人。"
+    },
+    {
+      "field": "listening.explanationZh",
+      "before": "訓練幫助維持節奏，沒有保證名次或消除逆風。",
+      "after": "訓練幫他們維持步頻，不用逆風後突然衝刺；熟悉路線和超越最快跑者都不是文中所說的作用。"
+    },
+    {
+      "field": "scene.options[1].en",
+      "before": "They have already won the race.",
+      "after": "They are checking their strokes to make each pair of lengths faster."
+    },
+    {
+      "field": "scene.options[1].zh",
+      "before": "他們已贏得比賽。",
+      "after": "他們核對划水動作，好令每兩趟都游得更快。"
+    },
+    {
+      "field": "scene.options[2].en",
+      "before": "They are avoiding all physical effort.",
+      "after": "They are trying an opening sprint before settling into their distance pace."
+    },
+    {
+      "field": "scene.options[2].zh",
+      "before": "他們完全避免體力活動。",
+      "after": "他們先在開段衝刺，之後才回到長距離步調。"
+    },
+    {
+      "field": "scene.explanationZh",
+      "before": "核對呼吸與划水節拍有助維持節奏，不代表比賽已結束。",
+      "after": "核對呼吸與划水節拍是為了維持長距離節奏；題幹沒有說要逐段加速，並明確排除了開段衝刺。"
+    }
+  ],
+  "keyFairness": {
+    "listeningAnswerId": "a",
+    "listeningRationale": "A alone paraphrases keeping cadence instead of sprinting. B contradicts the explicit rather-than-sprint clause; C transfers the practice-path detail to the charity route without evidence; D invents a finishing position.",
+    "sceneAnswerId": "a",
+    "sceneRationale": "A alone captures sustained stroke/breath rhythm across a long-distance swim. B infers increasing speed from two-length checks without support; C contradicts the stated refusal to sprint at the start."
+  },
+  "translationAssessment": "Each changed Chinese option preserves its English claim, including unsupported route/ranking and contradicted sprint/acceleration cues. Feedback explains the exact source-supported distinction.",
+  "otherSelectedLessonsLearnerContentIdenticalToReviewedProposals": 19,
+  "unchangedAudioBearingFields": [
+    "listening.en",
+    "speaking.en",
+    "takeaways[0].en",
+    "takeaways[1].en"
+  ],
+  "audioSynthesisIdentityChanged": false,
+  "contentRevisionAfter": 2,
+  "reviewMetadata": "Changed English and Chinese options are pending exact-current independent rereview; prior proposal review still covers unchanged source, meaning, writing and audio text.",
+  "verification": {
+    "fullSourceSchemaAliasNearDuplicate": {
+      "selectedLessons": 701,
+      "questions": 4206,
+      "errors": 0,
+      "exactGuideSentenceCopies": 0,
+      "nearDuplicateFlags": 0
+    },
+    "wholeGuideOriginalityPath": "../originality-701-after2193-foil-repair.json",
+    "wholeGuideOriginalitySha256": "6dd2f75b13954aa1160b7dc416178bc4bd4be3608a9ff43f3ddbd863df1598ed",
+    "wholeGuideOriginalityCounts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "new2193Hits": 0,
+      "new2193FuzzyHits": 0
+    }
+  },
+  "releaseApproved": false
+}

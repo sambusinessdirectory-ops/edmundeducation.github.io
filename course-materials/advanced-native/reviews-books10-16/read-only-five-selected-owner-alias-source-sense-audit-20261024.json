@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "read-only-five-selected-owner-alias-candidate-source-sense-audit",
+  "reviewDate": "2026-10-24",
+  "sourceInventoryPath": "books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "selectedManifestPath": "drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "5248fb9179dd4c316eb5c696d402a5e048771002c9fd287e7fc4f96e13a1948a",
+  "priorScreenPath": "reviews-books10-16/read-only-next80-current361-holds-source-owner-screen-20261024.json",
+  "priorScreenSha256": "65deae1273ec80df2d5a9d8edefc42bec56b2745f8b631bd0112d9ed769d2321",
+  "scope": "Five recommendations only; no editorial decisions, selected lessons, manifests, assessed answers, or media edited. A matching regex is not proof of same sense.",
+  "counts": {
+    "readyDecisionOnlyAlias": 1,
+    "conditionalAliasAfterBoundedDetectorAndProvenance": 1,
+    "hold": 3
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 2147,
+      "sourceId": "book10-16-0036",
+      "sourceRawRowSha256": "83b2b77488342324f59ee655c48a6f54de769777ea28f4525f4bdd7d96e6af54",
+      "decisionRawRowSha256": "1d4f1e19e3644d15d10d38e6a287fdf2cc1904f18306a34726d2682565087ed3",
+      "decisionPath": "books10-16/editorial-decisions-2142-2171.jsonl",
+      "decisionFileSha256": "3844379b53dea2194b2ad78a0e24231f740f304295a960f43c1235da9625ebde",
+      "currentDecisionAction": "hold-editorial",
+      "exactSourceSentence": "Preparing tonight keeps us one step ahead of the clock tomorrow.",
+      "sourceExpression": "one step ahead of the clock",
+      "sourceMeaning": "Better prepared than the time pressure demands; a vivid extension of being ahead.",
+      "sourceQuestion": "Can you suggest some ways to make sure you are not late for anything?",
+      "ownerId": "advanced-native-2171",
+      "ownerTitle": "stay one step ahead of delays",
+      "ownerMeaning": "Anticipate likely delays and adjust plans before they disrupt you.",
+      "ownerBatchPath": "drafts-books10-16/batch-2168-2171-a.json",
+      "ownerBatchSha256": "4377014681d7381b3e52c309d7671c5b890207898a18ea9f32cf77aacf347d58",
+      "ownerObjectSha256": "abbe8df3dd018ec715d30d9b2d58ff5001ac43b442737db5c561f77c549d7e06",
+      "learnerContentSha256": "e3d73211569010fb24889ce57f9795db9a593dcdd1ef155669228bba87b64722",
+      "targetPattern": "\\b(?:stay|stays|stayed|staying) one step ahead of delays\\b",
+      "currentDetectorMatchesSource": false,
+      "existingOwnerSourceMatchResults": [
+        {
+          "sourceId": "book10-16-0060",
+          "sentence": "Checking the forecast helps us stay one step ahead of delays.",
+          "detectorMatches": true
+        }
+      ],
+      "exactSourceAlreadyAttached": false,
+      "proposedBoundedDetector": null,
+      "recommendation": "hold",
+      "rationale": "Target 2171 teaches anticipated delays; source says being ahead of tomorrow’s clock, an ad hoc timing-pressure blend. The selected regex does not match and the lesson would need a broader sense. Keep source on editorial hold pending idiomaticity and source-bound target review; do not alias directly.",
+      "assessmentAndAudioImpact": "No change recommended."
+    },
+    {
+      "sourceOrdinal": 2164,
+      "sourceId": "book10-16-0053",
+      "sourceRawRowSha256": "7626f299486c24911bc7a387e7134cc6d5361a6e06b4ec6677a1163fec878645",
+      "decisionRawRowSha256": "46d7585bf727d7a5c2baef9c2737c98c8a3127828f518db7c4c42099c34478e0",
+      "decisionPath": "books10-16/editorial-decisions-2142-2171.jsonl",
+      "decisionFileSha256": "3844379b53dea2194b2ad78a0e24231f740f304295a960f43c1235da9625ebde",
+      "currentDecisionAction": "hold-editorial",
+      "exactSourceSentence": "Phones can be excellent servants during a busy workday.",
+      "sourceExpression": "excellent servants",
+      "sourceMeaning": "Useful tools when kept under human control; a personification that contrasts with masters in context.",
+      "sourceQuestion": "Let's move on to how modern technology influences the way that people manage time. Do you think computers make it easier or more difficult to manage time?",
+      "ownerId": "advanced-native-2457",
+      "ownerTitle": "a brilliant servant, but a poor master",
+      "ownerMeaning": "Money or a tool can help when people direct it, but can harm when allowed to govern their choices.",
+      "ownerBatchPath": "drafts-books10-16/batch-2449-2458-a.json",
+      "ownerBatchSha256": "0a74f26230b4dc589ecae3b86df563ff3da0b02f2dfad00a269a02450e2b8da0",
+      "ownerObjectSha256": "16a4597d7a70e6094408a4221620f0bee50c0ffe01f7fa4b03cd0343d6eb5bfd",
+      "learnerContentSha256": "1412544f3f459d1bd0daf18786927e7aa7294f2217458a8c1a144d86547792a5",
+      "targetPattern": "\\ba (?:good|brilliant) servant,?\\s+but a poor master\\b",
+      "currentDetectorMatchesSource": false,
+      "existingOwnerSourceMatchResults": [
+        {
+          "sourceId": "book10-16-0346",
+          "sentence": "Technology can be a brilliant servant, but a poor master.",
+          "detectorMatches": true
+        },
+        {
+          "sourceId": "book10-16-0483",
+          "sentence": "My grandfather believed money is a good servant, but a poor master in family life.",
+          "detectorMatches": true
+        }
+      ],
+      "exactSourceAlreadyAttached": false,
+      "proposedBoundedDetector": null,
+      "recommendation": "hold",
+      "rationale": "The source gives only the positive “excellent servants” half of a personification. Owner 2457 teaches the two-sided servant/poor-master warning, which the source sentence does not state. Keep held; do not add a detector branch that pretends the missing contrast is present.",
+      "assessmentAndAudioImpact": "No change recommended."
+    },
+    {
+      "sourceOrdinal": 2305,
+      "sourceId": "book10-16-0194",
+      "sourceRawRowSha256": "922f4520a26e4daf9e6e24ca1d600168b6a7d2d70c0089986482476be53f9233",
+      "decisionRawRowSha256": "bf32015ebe76090eb49f5fb7ef4ca83ef17935be78e3f2107f4d28e2780af998",
+      "decisionPath": "books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionFileSha256": "866449611c1cc13a9d8c308fb228031a5dc8345e337374079bdd9f15fcb11924",
+      "currentDecisionAction": "hold-editorial",
+      "exactSourceSentence": "Life rarely comes with a script, so we must adapt.",
+      "sourceExpression": "life rarely comes with a script",
+      "sourceMeaning": "Real events do not follow a neat predetermined plot; a stage metaphor.",
+      "sourceQuestion": "How are movies and real life different?",
+      "ownerId": "advanced-native-3308",
+      "ownerTitle": "life does not follow a script",
+      "ownerMeaning": "Events do not necessarily unfold according to a plan or expected sequence.",
+      "ownerBatchPath": "drafts-books10-16/batch-held-reviewed-3142-3394-review-pilot.json",
+      "ownerBatchSha256": "a7a153a820c948a7d759463fc461162cc2fd877f506016b0ae307e57fa06433a",
+      "ownerObjectSha256": "cee1ca6abb8c39773f149e47285b8b096d03d1c81130ac1507fb8e09d98eadfd",
+      "learnerContentSha256": "20a4152dbbc4bd2ecf32254782f3ad53e4bb053e08fce1e76bcae40dc679a925",
+      "targetPattern": "\\b(?:life|the day|the trip|events?|reality) (?:does not|doesn\\x27t|did not|didn\\x27t|rarely|never) (?:always )?follow a script\\b|\\blife rarely sticks to the script\\b",
+      "currentDetectorMatchesSource": false,
+      "existingOwnerSourceMatchResults": [
+        {
+          "sourceId": "book10-16-1197",
+          "sentence": "Even careful planners know life does not always follow a script.",
+          "detectorMatches": true
+        },
+        {
+          "sourceId": "book10-16-1202",
+          "sentence": "Travellers learn that life rarely sticks to the script.",
+          "detectorMatches": true
+        }
+      ],
+      "exactSourceAlreadyAttached": false,
+      "proposedBoundedDetector": {
+        "appendExactBranch": "\\blife rarely comes with a script\\b",
+        "proposedPattern": "\\b(?:life|the day|the trip|events?|reality) (?:does not|doesn\\x27t|did not|didn\\x27t|rarely|never) (?:always )?follow a script\\b|\\blife rarely sticks to the script\\b|\\blife rarely comes with a script\\b",
+        "sourceMatches": true,
+        "existingSourcesAllStillMatch": true,
+        "needsSameBranchInGlossaryForbidden": true
+      },
+      "recommendation": "conditional-alias",
+      "rationale": "The stage-script metaphor and adaptation meaning align with owner 3308. Add the exact source-form branch to target pattern and glossaryForbidden, attach exact provenance, then rerun source/schema/assessment/audio-queue checks. Learner-facing answers and speech text need no change.",
+      "assessmentAndAudioImpact": "Proposed future pattern/provenance edit only; preserve assessed answers and audio text, then verify byte-exact learner-content fingerprint."
+    },
+    {
+      "sourceOrdinal": 2407,
+      "sourceId": "book10-16-0296",
+      "sourceRawRowSha256": "98efa57dbb7efb2bf4c217d0cff3d886d3c382b33c2d56d684db1bb7def6dfdc",
+      "decisionRawRowSha256": "1eabff0616ab19a80258ca31f972abbfced6c182bf16e8ee8c796751ab91958a",
+      "decisionPath": "books10-16/editorial-decisions-2352-2411.jsonl",
+      "decisionFileSha256": "a99c5bd331819b6eb55c59325191f058652ead74f88a3a7a431e4a620d3ee9e1",
+      "currentDecisionAction": "hold-editorial",
+      "exactSourceSentence": "The lights went out at once during the storm.",
+      "sourceExpression": "at once",
+      "sourceMeaning": "Suddenly, in one moment; a fixed time expression.",
+      "sourceQuestion": "Which do you think is better, a detective movie or its original novel?",
+      "ownerId": "advanced-native-3142",
+      "ownerTitle": "at once (immediately)",
+      "ownerMeaning": "Immediately after a trigger, without delay; this is the time-sequence sense, not simultaneous actions.",
+      "ownerBatchPath": "drafts-books10-16/batch-held-reviewed-3142-3394-review-pilot.json",
+      "ownerBatchSha256": "a7a153a820c948a7d759463fc461162cc2fd877f506016b0ae307e57fa06433a",
+      "ownerObjectSha256": "1387800eccaf420f7d862a0a15783afef13778ba9f140c4b831d52b310a476c7",
+      "learnerContentSha256": "637367f78db47b06a53024eb5c90d7008a294bcb91c98cf431ab9b68eba90d68",
+      "targetPattern": "\\bat once\\b",
+      "currentDetectorMatchesSource": true,
+      "existingOwnerSourceMatchResults": [
+        {
+          "sourceId": "book10-16-1031",
+          "sentence": "The room became quiet at once.",
+          "detectorMatches": true
+        },
+        {
+          "sourceId": "book10-16-1874",
+          "sentence": "Do not give up at once after a mistake.",
+          "detectorMatches": true
+        },
+        {
+          "sourceId": "book10-16-2030",
+          "sentence": "The picture caught her attention at once.",
+          "detectorMatches": true
+        }
+      ],
+      "exactSourceAlreadyAttached": false,
+      "proposedBoundedDetector": null,
+      "recommendation": "hold",
+      "rationale": "Although the regex matches, “The lights went out at once during the storm” may mean all lights simultaneously. No after-trigger event fixes the immediate-without-delay sense of owner 3142. Check full source context and simultaneous-sense owner before aliasing.",
+      "assessmentAndAudioImpact": "No change recommended."
+    },
+    {
+      "sourceOrdinal": 2757,
+      "sourceId": "book10-16-0646",
+      "sourceRawRowSha256": "e426b143b0f0ecd984b955428aa6f591f27e8e7440dd1592c640849437307a00",
+      "decisionRawRowSha256": "5b92e1eee50bfee4eade1425f59bd252c670e773d24327de41adbcc62d5d328d",
+      "decisionPath": "books10-16/editorial-decisions-2712-2771.jsonl",
+      "decisionFileSha256": "03681a217b4a537b7c9e6bf5121e5eb210ad3157776085d481859b00b4e3a1d1",
+      "currentDecisionAction": "hold-editorial",
+      "exactSourceSentence": "Community performances help keep their roots alive.",
+      "sourceExpression": "keep their roots alive",
+      "sourceMeaning": "Maintain a connection with cultural origins; a plant metaphor.",
+      "sourceQuestion": "In your country, do people prefer to listen to traditional music or foreign music?",
+      "ownerId": "advanced-native-4470",
+      "ownerTitle": "keep its roots",
+      "ownerMeaning": "Stay connected to origins or defining traditions over time, including while changing or growing.",
+      "ownerBatchPath": "drafts-books10-16/batch-4466-4481-a.json",
+      "ownerBatchSha256": "b4749ba641ad0a3d0da68568690e29675daf703146200d85a93900ee8059036c",
+      "ownerObjectSha256": "00fe2888679d931756fb28dbdebb8852d5f3a0a6090257741911cd5c3416793f",
+      "learnerContentSha256": "c4e908e8a1aa438997db0c2860a4df63aae052274fc0bcbd8438d16e4c3305c4",
+      "targetPattern": "\\b(?:keep|keeps|kept|keeping) (?:its|their|our|his|her) roots(?: alive)?\\b",
+      "currentDetectorMatchesSource": true,
+      "existingOwnerSourceMatchResults": [
+        {
+          "sourceId": "book10-16-2359",
+          "sentence": "The town wants to keep its roots while growing.",
+          "detectorMatches": true
+        },
+        {
+          "sourceId": "book10-16-0646",
+          "sentence": "Community performances help keep their roots alive.",
+          "detectorMatches": true
+        }
+      ],
+      "exactSourceAlreadyAttached": true,
+      "proposedBoundedDetector": null,
+      "recommendation": "ready-decision-only-alias",
+      "rationale": "The exact source occurrence is already attached to owner 4470 and the target pattern matches “keep their roots alive.” Both refer to preserving cultural origins. Reconcile the still-held decision row to the selected owner; no lesson content or media change is needed.",
+      "assessmentAndAudioImpact": "No content mutation in this review; owner learner-content fingerprint recorded above. Decision-only alias has zero lesson/audio text impact."
+    }
+  ]
+}

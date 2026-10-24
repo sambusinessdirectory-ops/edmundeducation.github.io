@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-exact-hash-next80-ten-source-sense-seven-step-review",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-ten-2165-3952-20261024.json",
+  "proposalSha256": "fa13da7e09eb604b3e80bd9f37c9c4c516c7a484338d37e0ca0d8be16c226983",
+  "sourceScreenPath": "course-materials/advanced-native/reviews-books10-16/read-only-next80-current361-holds-source-owner-screen-20261024.json",
+  "sourceScreenSha256": "65deae1273ec80df2d5a9d8edefc42bec56b2745f8b631bd0112d9ed769d2321",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "authorQaPath": "course-materials/advanced-native/reviews-books10-16/author-qa-current-next80-ten-2165-3952-20261024.json",
+  "authorQaSha256": "ad656e76813f267832728871b1b1bd2793e9c24b50595265792b2fa4e11241b6",
+  "originalityScreenPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-current-next80-ten-2165-3952-20261024.json",
+  "originalityScreenSha256": "e0a08196d9b9fb6ae3302a7d4fd4ff2f490fa05adf4f71fed5f1ad3e656acaef",
+  "selectedManifestPathAtReview": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256AtReview": "5248fb9179dd4c316eb5c696d402a5e048771002c9fd287e7fc4f96e13a1948a",
+  "mechanicalChecks": {
+    "lessons": 10,
+    "orderedSteps": 70,
+    "questions": 60,
+    "audioRoles": 40,
+    "sourceRowsExactHashMatched": 10,
+    "unchangedHoldDecisionRowsExactHashMatched": 10,
+    "sourceTargetRegexMatches": 10,
+    "proposalIdsAlreadySelected": 0,
+    "isolatedBuild": "10 lessons, 60 questions, 40 audio requests, 0 review flags; draft-only",
+    "authorOriginalityScreenClaim": "zero exact/high/medium/near-full; independent linguistic review is separate"
+  },
+  "editorialSummary": {
+    "passes": 0,
+    "passesWithAdvisory": 7,
+    "holds": 3,
+    "blockingIssues": 3,
+    "selectionApproved": false,
+    "batchWideAdvisory": "Many comprehension/scene wrong options are absolute, literal, or fantastical; targeted examples are listed per lesson. Improve at least one plausible near-miss in each affected set before final release review."
+  },
+  "items": [
+    {
+      "sourceOrdinal": 2165,
+      "sourceId": "book10-16-0054",
+      "sourceRawRowSha256": "3c9621488d5092cfab66ebd8ab52759bade6d4058af1ce96bccb9046e8864eb5",
+      "decisionRawRowSha256": "81b3b6684aab0cdb08241bc71945471df95e6cd7fdab2c4df75f8c1a75f9e0cf",
+      "decisionPath": "books10-16/editorial-decisions-2142-2171.jsonl",
+      "sourceSentence": "Without a map, we would set off half-blind.",
+      "guideMeaning": "Begin a journey with too little information; a figurative description of poor preparation.",
+      "exactSourceAndUnchangedHoldBinding": true,
+      "targetDetectorMatchesExactGuideSentence": true,
+      "alreadySelected": false,
+      "sevenStepAndStructuralKeyCheck": "passed by isolated build; editorial exceptions below",
+      "fourReplyValidity": "passed",
+      "writingAndGlossary": "hold",
+      "verdict": "hold-editorial-repair",
+      "findings": [
+        {
+          "severity": "blocker",
+          "field": "writing.examples[1] / writing.selfCheckZh",
+          "finding": "The self-check requires both the floor plan and accessible-entrance information, but the second model mentions only the floor plan. Add the entrance detail to the English/Chinese second answer, or revise the self-check/prompt consistently; rederive glossary spans after any answer edit."
+        },
+        {
+          "severity": "advisory",
+          "field": "listening.options[b..d] / scene.options[b..c]",
+          "finding": "Most wrong choices are remote or absolute (forgotten town, bicycles unable to move without phone, cancelling all future deliveries). Replace at least one scene foil and one listening foil with a plausible partial-information or timing inference while preserving one best target answer."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2181,
+      "sourceId": "book10-16-0070",
+      "sourceRawRowSha256": "a9cf487ea85f242f85cfaf8690c0ab062feed70526b0c83b22f51a9ef3fe8019",
+      "decisionRawRowSha256": "c34d714c42082d832abfb08cc543b2d6a2ef9b3a4c1e97ce50d7e0ea7a9262c3",
+      "decisionPath": "books10-16/editorial-decisions-2172-2231.jsonl",
+      "sourceSentence": "Constant interruptions leave my study time chopped into pieces.",
+      "guideMeaning": "Broken into many small fragments; a physical cutting image describes lost concentration.",
+      "exactSourceAndUnchangedHoldBinding": true,
+      "targetDetectorMatchesExactGuideSentence": true,
+      "alreadySelected": false,
+      "sevenStepAndStructuralKeyCheck": "passed by isolated build; editorial exceptions below",
+      "fourReplyValidity": "passed",
+      "writingAndGlossary": "passed mechanically; editorial advisories below",
+      "verdict": "editorial-pass-with-advisory",
+      "findings": [
+        {
+          "severity": "advisory",
+          "field": "listening.options[c..d] / scene.options[c]",
+          "finding": "Physical textbook damage, a vanished chapter and cutting a printed poster are conspicuous literal/absurd distractors. At least one near-miss should reflect interrupted study/work without fully meeting the target phrase."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2220,
+      "sourceId": "book10-16-0109",
+      "sourceRawRowSha256": "129f23e84fcf1cbef533732d2ed42f2938fcee714453e432730c6d2a95573fc8",
+      "decisionRawRowSha256": "02b8b23a6593af0be1976067ed812f6ead2abba483099b4f10e5b5ca878025bd",
+      "decisionPath": "books10-16/editorial-decisions-2172-2231.jsonl",
+      "sourceSentence": "Without a break, people can feel swallowed whole by routine.",
+      "guideMeaning": "Overwhelmed completely by repeated daily demands; a vivid consumption metaphor.",
+      "exactSourceAndUnchangedHoldBinding": true,
+      "targetDetectorMatchesExactGuideSentence": true,
+      "alreadySelected": false,
+      "sevenStepAndStructuralKeyCheck": "passed by isolated build; editorial exceptions below",
+      "fourReplyValidity": "passed",
+      "writingAndGlossary": "passed mechanically; editorial advisories below",
+      "verdict": "editorial-pass-with-advisory",
+      "findings": [
+        {
+          "severity": "advisory",
+          "field": "listening.options[d] / scene.options[c]",
+          "finding": "Being literally eaten and a school disappearing are too remote from the repeated-demands context; consider a plausible alternative about a single busy day versus an ongoing routine."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2316,
+      "sourceId": "book10-16-0205",
+      "sourceRawRowSha256": "70d7860c4b82fc688114ef3b01dcf216beafdc6730328aa2ad6e6a5d11aa3b98",
+      "decisionRawRowSha256": "c21ba15bf78a4176b8324fdba4c3e8d7155ef3da2dc8aac4fb9ee05f27d6c222",
+      "decisionPath": "books10-16/editorial-decisions-2292-2351.jsonl",
+      "sourceSentence": "A chart is useful, but it is not the territory itself.",
+      "guideMeaning": "Only a representation, not the full reality; part of the map-territory metaphor.",
+      "exactSourceAndUnchangedHoldBinding": true,
+      "targetDetectorMatchesExactGuideSentence": true,
+      "alreadySelected": false,
+      "sevenStepAndStructuralKeyCheck": "passed by isolated build; editorial exceptions below",
+      "fourReplyValidity": "passed",
+      "writingAndGlossary": "passed mechanically; editorial advisories below",
+      "verdict": "editorial-pass-with-advisory",
+      "findings": [
+        {
+          "severity": "advisory",
+          "field": "listening.options[d] / scene.options[c]",
+          "finding": "Redrawing last year’s weather and “no map can ever help” are implausible or absolute. A closer foil could trust the chart despite a potentially changed drain/path, allowing the student to evaluate map versus current conditions."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2455,
+      "sourceId": "book10-16-0344",
+      "sourceRawRowSha256": "12a8c10fa9a58ac5bfb38e0b83fed0af4642e5c7b003ef099064e9d192e2f6e1",
+      "decisionRawRowSha256": "0c0d0fe9b13e3abe0b7ad9d70e364ac3a1d88212c55d4a8385a158cd5be0c05b",
+      "decisionPath": "books10-16/editorial-decisions-2412-2471.jsonl",
+      "sourceSentence": "In some offices, convenience has started to replace capability.",
+      "guideMeaning": "A concise contrast between ease and retained skill; useful for qualified criticism.",
+      "exactSourceAndUnchangedHoldBinding": true,
+      "targetDetectorMatchesExactGuideSentence": true,
+      "alreadySelected": false,
+      "sevenStepAndStructuralKeyCheck": "passed by isolated build; editorial exceptions below",
+      "fourReplyValidity": "advisory",
+      "writingAndGlossary": "passed mechanically; editorial advisories below",
+      "verdict": "editorial-pass-with-advisory",
+      "findings": [
+        {
+          "severity": "advisory",
+          "field": "reply.promptEn / reply.options[d]",
+          "finding": "The prompt asks what the supervisor noticed; option d gives a policy conclusion (“needed to preserve an important skill”) rather than an observed fact. Ask what concern the supervisor raised, or make d an evidenced observation. Current gold c still carries the intended target."
+        },
+        {
+          "severity": "advisory",
+          "field": "scene.options[b..c]",
+          "finding": "“Nobody can learn measurement” and “every convenient machine is harmful” are absolutes; replace at least one with a plausible explanation that overlooks the lost manual skill."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2576,
+      "sourceId": "book10-16-0465",
+      "sourceRawRowSha256": "f4d7cb642bfd98f68f6c87c7eeabd2ba5b6429b903dc73cece8bd3b83dcb0696",
+      "decisionRawRowSha256": "9650eb7e568d83e0999fd90ccd40e354e68d2716419b53afb62c3c99a4f4921e",
+      "decisionPath": "books10-16/editorial-decisions-2532-2591.jsonl",
+      "sourceSentence": "A basic phone can be a practical tool rather than just a toy.",
+      "guideMeaning": "Something useful for real tasks, beyond entertainment; a useful contrast phrase.",
+      "exactSourceAndUnchangedHoldBinding": true,
+      "targetDetectorMatchesExactGuideSentence": true,
+      "alreadySelected": false,
+      "sevenStepAndStructuralKeyCheck": "passed by isolated build; editorial exceptions below",
+      "fourReplyValidity": "passed",
+      "writingAndGlossary": "passed mechanically; editorial advisories below",
+      "verdict": "editorial-pass-with-advisory",
+      "findings": [
+        {
+          "severity": "advisory",
+          "field": "scene.options[b..c]",
+          "finding": "“Never be used for games” and “scanning has no practical use” are over-obvious negations. A plausible near miss can acknowledge the scanner but miss that it has both practical and recreational roles."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2638,
+      "sourceId": "book10-16-0527",
+      "sourceRawRowSha256": "e53e321b53c908a02a244fd18b4396e318ad750f5102de687c4e3b2f6fcd6963",
+      "decisionRawRowSha256": "82f64d71c9f9475b5904c3252cba105c6916f3b49e80c32bd9446302e8e183b6",
+      "decisionPath": "books10-16/editorial-decisions-2592-2651.jsonl",
+      "sourceSentence": "She learned to wait before buying into passing trends.",
+      "guideMeaning": "Short-lived fashions; a natural collocation.",
+      "exactSourceAndUnchangedHoldBinding": true,
+      "targetDetectorMatchesExactGuideSentence": true,
+      "alreadySelected": false,
+      "sevenStepAndStructuralKeyCheck": "passed by isolated build; editorial exceptions below",
+      "fourReplyValidity": "passed",
+      "writingAndGlossary": "passed mechanically; editorial advisories below",
+      "verdict": "editorial-pass-with-advisory",
+      "findings": [
+        {
+          "severity": "advisory",
+          "field": "scene.options[b..c]",
+          "finding": "“Every reader will forget tomorrow” and refusing every new topic are over-absolute. Add a plausible short-term editorial choice that still overcommits to a two-day trend."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2719,
+      "sourceId": "book10-16-0608",
+      "sourceRawRowSha256": "66d50196cf91b15299d2a4fbba94b318677eeb44d0d5c10f435a356c8df320b8",
+      "decisionRawRowSha256": "f2e25f0c1f55c77863e3ef0074a667c7207e612809350c946e236ab1e59c2903",
+      "decisionPath": "books10-16/editorial-decisions-2712-2771.jsonl",
+      "sourceSentence": "A simple line can land a punch in the final verse.",
+      "guideMeaning": "Have a strong impact; a fixed boxing metaphor.",
+      "exactSourceAndUnchangedHoldBinding": true,
+      "targetDetectorMatchesExactGuideSentence": true,
+      "alreadySelected": false,
+      "sevenStepAndStructuralKeyCheck": "passed by isolated build; editorial exceptions below",
+      "fourReplyValidity": "passed",
+      "writingAndGlossary": "hold",
+      "verdict": "hold-editorial-repair",
+      "findings": [
+        {
+          "severity": "blocker",
+          "field": "writing.selfCheckZh / writing.examples[0..1]",
+          "finding": "The self-check requires a verified figure and audience reaction. Example 1 names a verified figure but no audience response; example 2 supplies neither a verified figure nor a response. Include both elements in each English/Chinese model without inventing a numeric value, or narrow the self-check if audience reaction is not required. Recompute any changed glossary spans."
+        },
+        {
+          "severity": "advisory",
+          "field": "scene.options[b..c]",
+          "finding": "Literal striking and font size alone are easy eliminations. One closer foil should address the caption’s emotional effect but miss why the final concise line has impact."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2751,
+      "sourceId": "book10-16-0640",
+      "sourceRawRowSha256": "1f4936d710d5d73d73190768abd35e11ddf109b08421400f158a428686b8b084",
+      "decisionRawRowSha256": "94b065eb8627ae427aa8207bf2d3745e4d7a77e0dac3b0894351eb84f11c2b96",
+      "decisionPath": "books10-16/editorial-decisions-2712-2771.jsonl",
+      "sourceSentence": "Vinyl has a niche role alongside streaming.",
+      "guideMeaning": "A specialised but limited place in a market; a natural collocation.",
+      "exactSourceAndUnchangedHoldBinding": true,
+      "targetDetectorMatchesExactGuideSentence": true,
+      "alreadySelected": false,
+      "sevenStepAndStructuralKeyCheck": "passed by isolated build; editorial exceptions below",
+      "fourReplyValidity": "passed",
+      "writingAndGlossary": "passed mechanically; editorial advisories below",
+      "verdict": "editorial-pass-with-advisory",
+      "findings": [
+        {
+          "severity": "advisory",
+          "field": "scene.options[b..c]",
+          "finding": "The alternatives claim every student needs print or digital materials have stopped altogether; a partial but plausible foil would better test the limited-specialist meaning."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 3952,
+      "sourceId": "book10-16-1841",
+      "sourceRawRowSha256": "0ff963dbf108933136aded0bda206b2e4e21b0eeb6de15e50c67c58ec76396cf",
+      "decisionRawRowSha256": "26756642b1ae71d115bf714730c1832633f4b69ce9f61516632a27b208cd9f8f",
+      "decisionPath": "books10-16/editorial-decisions-3912-3971.jsonl",
+      "sourceSentence": "Even gentle walks remind us the body was made to move.",
+      "guideMeaning": "A memorable natural statement supporting regular activity; a natural spoken way to qualify or connect ideas.",
+      "exactSourceAndUnchangedHoldBinding": true,
+      "targetDetectorMatchesExactGuideSentence": true,
+      "alreadySelected": false,
+      "sevenStepAndStructuralKeyCheck": "passed by isolated build; editorial exceptions below",
+      "fourReplyValidity": "hold",
+      "writingAndGlossary": "passed mechanically; editorial advisories below",
+      "verdict": "hold-editorial-repair",
+      "findings": [
+        {
+          "severity": "blocker",
+          "field": "reply.promptEn / reply.options[c]",
+          "finding": "“Why did Mei offer two options?” asks why there were choices. Gold c (“She believed the body was made to move”) supports movement generally but does not explain offering two forms; a and d answer the question more directly. Rewrite the prompt to ask for the guiding idea, or make gold explicitly tie the target sentence to different comfortable ways of moving. Keep all four replies valid and uniquely target-bearing."
+        },
+        {
+          "severity": "advisory",
+          "field": "scene.options[b..c]",
+          "finding": "Uniform intensity and only running count are absolute, easy eliminations; a nearer alternative could allow movement but overlook the learner’s choice of comfortable form."
+        }
+      ]
+    }
+  ],
+  "scope": "Read-only independent review of frozen proposal. No selection, decision, lesson, audio, deployment or release changes."
+}

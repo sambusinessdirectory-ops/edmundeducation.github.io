@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-exact-hash-focused-review-retained-holds-replacement",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-retained-holds-first-ten-replacement-2193-4636-20261024.json",
+  "proposalSha256": "474ae90a29201f49c9f9c4c18f8154e29d951ccd2243dc3d84a05f545b18a8ae",
+  "previousProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-retained-holds-next-ten-2302-4636-20261024.json",
+  "previousIndependentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-retained-holds-next-ten-2302-4636-focused-rereview-20261024.json",
+  "previousIndependentReviewSha256": "462a11c6c5d64fd2313d22500b4d68d0a94c8b13d80437bd9d3b1e0326794fb8",
+  "authorQaPath": "course-materials/advanced-native/reviews-books10-16/author-qa-retained-holds-first-ten-replacement-2193-4636-20261024.json",
+  "authorQaSha256": "de0108e66875337bf0cb21815b01a207c5ef7a8df052deb1606b884e6ed50520",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "originalityScreenPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-retained-first-ten-replacement-2193-4636-20261024.json",
+  "originalityScreenSha256": "106d1e2fbcaa1fafa989116f0940fc9b98359201ea1f4b7df997bec94af8a7ba",
+  "selectedManifestPathAtReview": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256AtReview": "f6ad48beef5b8a397e4e129bf00c0b0525d9efeb7504268e65b2ee39b7920b09",
+  "mechanicalChecks": {
+    "lessons": 10,
+    "orderedSteps": 70,
+    "questions": 60,
+    "audioRequestsPlanned": 40,
+    "sourceRowsExactHashMatched": 10,
+    "sourceTargetPatternMatchesExactGuideSentence": 10,
+    "writingExamples": 20,
+    "answerDerivedTargetExcludedGlossaryRows": 50,
+    "schemaErrors": 0,
+    "schemaWarnings": 0,
+    "unchangedLessonsInheritedFromPreviousIndependentReview": [
+      2461,
+      2526,
+      2570,
+      2577,
+      2732,
+      3189,
+      3373,
+      4636
+    ],
+    "newOrChangedLessonOrdinals": [
+      2193,
+      2493
+    ]
+  },
+  "editorialSummary": {
+    "passes": 7,
+    "passesWithAdvisory": 3,
+    "holds": 0,
+    "editorialGatePassed": true,
+    "selected": false,
+    "releaseCertified": false
+  },
+  "items": [
+    {
+      "sourceOrdinal": 2193,
+      "sourceId": "book10-16-0082",
+      "sourceRawRowSha256": "259ab10f6b0fe4843c13a9c25abd4198b165949b16b9c0c4d9446352c3147f74",
+      "decisionRawRowSha256": "5fc2650ad052c47029550ab69753bfd6589d809eb75a2a4dd125941bea7d00c3",
+      "verdict": "editorial-pass-with-advisory",
+      "lessonCanonicalSha256": "83b178709543320f1882ebce13eaa736fd5aa0ad0b99559219df9b28d342e125",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "fourReplyOptionsResponsive": "passed",
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "findings": [
+        {
+          "severity": "advisory",
+          "field": "category / source inventory category",
+          "finding": "Inventory calls the runner-cadence use Figurative use, while lesson classifies the bounded physical-pace collocation as natural. The teaching sense stays faithful to the exact runner sentence; retain this category rationale in metadata rather than silently implying the source was labelled natural."
+        },
+        {
+          "severity": "resolved",
+          "field": "writing.transfer",
+          "finding": "Rowing to a drumbeat in a changing current is a genuine new activity and task relative to the runner/headwind listening. Both models naturally use held/hold their rhythm; Chinese translations and answer-derived glossary align."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2461,
+      "sourceId": "book10-16-0350",
+      "sourceRawRowSha256": "6f269f775149ab53b718f36dfbdb6a583cf15d880a3c8b07af90e9dddb6bcf9a",
+      "decisionRawRowSha256": "d6e6e9100c5308bcde7e26089e2f601d66a1c4c9fe3665a3110482dae1f76ff1",
+      "previousVerdict": "editorial-pass",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [],
+      "evidence": "Lesson object byte-equivalent after canonical JSON serialization to previously independently reviewed proposal; prior verdict inherited without re-review.",
+      "lessonCanonicalSha256": "948223bdbcaacaffd0bd66816164811d8b82c924af48832e2043c00c16e929eb"
+    },
+    {
+      "sourceOrdinal": 2493,
+      "sourceId": "book10-16-0382",
+      "sourceRawRowSha256": "183d4b06910f444f66e047a9d5941d1012166c3c93ce2f7da16c4bc713f574c7",
+      "decisionRawRowSha256": "52e4e4373011334123553e1411944ff92fd23cc201bd48a6d834ed8d7732e814",
+      "verdict": "editorial-pass",
+      "lessonCanonicalSha256": "3e6d6191c45376b9248fb6852549ff991148b254763c4c4ebc1b7a4cd66ce9cf",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "fourReplyOptionsResponsive": "passed",
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "writing.promptZh / writing.examples / writing.glossary",
+          "finding": "The final production task now uses shared-flat supplies, a labelled shelf and weekly stock checks, rather than the listening family calendar, clinic and school pickups. Models describe how a repeatable household practice reduces disruption without guaranteeing no shortages; glossary spans are exact and exclude the target."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2526,
+      "sourceId": "book10-16-0415",
+      "sourceRawRowSha256": "723a72dc95cc80182c09e3e122a3360e0f5380964c136fa193c358b7955bea8e",
+      "decisionRawRowSha256": "1c538dd7a4dcaaed1591912eca9dafb70ebb463e30ea72fc97c67bd98265742d",
+      "previousVerdict": "editorial-pass-with-advisory",
+      "verdict": "editorial-pass-with-advisory",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "advisory",
+          "field": "brief.boundaryZh / register",
+          "finding": "Retain the source-specific memory-of-usable-procedures boundary; do not generalise this reading to intrusive thoughts or earworms."
+        }
+      ],
+      "evidence": "Lesson object byte-equivalent after canonical JSON serialization to previously independently reviewed proposal; prior verdict inherited without re-review.",
+      "lessonCanonicalSha256": "2ed87b2d48abbd8b9931df0eeb1b9317b4d7c1daaac1cbb0b328a8dc5f9689a7"
+    },
+    {
+      "sourceOrdinal": 2570,
+      "sourceId": "book10-16-0459",
+      "sourceRawRowSha256": "f432711ebca9750a380d51f15658433459f6f0dd45c4590fe0cb769ab00e0984",
+      "decisionRawRowSha256": "30e946b976b6979e68afc58c88d5528ee82e21b0a71906d19a8dc92ffde1c816",
+      "previousVerdict": "hold-reply-validity",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "reply.promptEn / reply.options[c] / writing.glossary[4]",
+          "finding": "The prompt now asks how the board’s role changed, the golden answer names the added updates, and the glossary translation no longer imports a verb outside its English span."
+        }
+      ],
+      "evidence": "Lesson object byte-equivalent after canonical JSON serialization to previously independently reviewed proposal; prior verdict inherited without re-review.",
+      "lessonCanonicalSha256": "cbf09505bd31f0de605f3869dda6a737344a2f4a6f0b068570703203cf954d0a"
+    },
+    {
+      "sourceOrdinal": 2577,
+      "sourceId": "book10-16-0466",
+      "sourceRawRowSha256": "1baaa16bbc08235a6df9e5660d128c0cdaf77db2e959e29b4493371d7c37cf8e",
+      "decisionRawRowSha256": "c3c3354a993ad52be2bb38f73c7fdbedbda5734c7f42cd3aae637e3da886b2ac",
+      "previousVerdict": "hold-reply-validity",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "reply.options[d] / writing.examples / glossary",
+          "finding": "The fourth reply now reflects Isha telling her family a story, and the writing/glossary use natural, aligned dinner-conversation wording."
+        }
+      ],
+      "evidence": "Lesson object byte-equivalent after canonical JSON serialization to previously independently reviewed proposal; prior verdict inherited without re-review.",
+      "lessonCanonicalSha256": "01080d0af5d22149d33322e230b0a39358f3a5acb32cb331009c5764c503ddf0"
+    },
+    {
+      "sourceOrdinal": 2732,
+      "sourceId": "book10-16-0621",
+      "sourceRawRowSha256": "f1cf55fc1be737ce5f90730549cdf928aee036738cf08e7cbbc22242f9fde462",
+      "decisionRawRowSha256": "4d3e6b59e5ae6323d657a0570823bb29722395de754a8cebf8d315e98f033533",
+      "previousVerdict": "editorial-pass-with-advisory",
+      "verdict": "editorial-pass-with-advisory",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "writing.examples[0]",
+          "finding": "The redundant “same tune from its chorus” wording is removed."
+        },
+        {
+          "severity": "advisory",
+          "field": "writing.transfer",
+          "finding": "The library-to-café/park scenario changes location but still closely resembles the listening’s melody spreading from an event to other public places. It meets the literal changed-setting gate, though a different communicative purpose would strengthen transfer."
+        }
+      ],
+      "evidence": "Lesson object byte-equivalent after canonical JSON serialization to previously independently reviewed proposal; prior verdict inherited without re-review.",
+      "lessonCanonicalSha256": "2171be487a8b2f5ba4c927207f2d768e7d1fd56cda24c5ce89c9c952029055d0"
+    },
+    {
+      "sourceOrdinal": 3189,
+      "sourceId": "book10-16-1078",
+      "sourceRawRowSha256": "d4e6be8600579a8a345a9408e78d70cb1d90d41a8af55b5186367872be2650c0",
+      "decisionRawRowSha256": "b8c6d52e054c8baca5e6ba6320ccf5192c9ad27034402d935b57541f8d5ecb48",
+      "previousVerdict": "editorial-pass",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [],
+      "evidence": "Lesson object byte-equivalent after canonical JSON serialization to previously independently reviewed proposal; prior verdict inherited without re-review.",
+      "lessonCanonicalSha256": "a1ca3884923c8edf92a17669cfd741dcc1ef92897e95a337c56204f7dee1584e"
+    },
+    {
+      "sourceOrdinal": 3373,
+      "sourceId": "book10-16-1262",
+      "sourceRawRowSha256": "e5f0f664aaa46facf97158f9e26caa69f0be6aee4c196abdda68974af2de6100",
+      "decisionRawRowSha256": "e20c3db78f476946524074e191fcc23105fcc0c4901117ef5c1a5a5b95c71ffe",
+      "previousVerdict": "hold-writing-naturalness",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "writing.promptZh / writing.examples",
+          "finding": "The revised scene now contrasts a choice-supporting coach with a controlling coach, making both model uses of distinguish guidance and control semantically grounded."
+        }
+      ],
+      "evidence": "Lesson object byte-equivalent after canonical JSON serialization to previously independently reviewed proposal; prior verdict inherited without re-review.",
+      "lessonCanonicalSha256": "15001ce0141992f1fd2f6310b1611b5de2c9a44a4e0e40c52ba0db9d2dc8a568"
+    },
+    {
+      "sourceOrdinal": 4636,
+      "sourceId": "book10-16-2525",
+      "sourceRawRowSha256": "6104e2d074168f32a42942cbcb592d9741567ec39d9c061b1b2df01f8d2aeda9",
+      "decisionRawRowSha256": "456d7faf5e82cc0f029b7a101b89c60f60b52a7cc5c6cfe004d36be6f0199cd2",
+      "previousVerdict": "hold-reply-and-translation",
+      "verdict": "editorial-pass",
+      "sourceTargetPatternMatchesExactGuideSentence": true,
+      "exactGlossarySpansAndTargetExclusion": "passed",
+      "fourReplyOptionsResponsive": "passed",
+      "findings": [
+        {
+          "severity": "resolved",
+          "field": "reply.options[b] / writing.examples / glossary",
+          "finding": "The repaired reply states the mistaken inference, rental is consistently distinguished from booking in writing, and the second model specifies a guarantee of safety and checking sea conditions."
+        }
+      ],
+      "evidence": "Lesson object byte-equivalent after canonical JSON serialization to previously independently reviewed proposal; prior verdict inherited without re-review.",
+      "lessonCanonicalSha256": "0a098f60e362e20190c07ec07b71d33799cc62cf644a9ad39ce8010705f9288f"
+    }
+  ],
+  "releaseGate": "Independent text review of this exact proposal only. No selected-manifest mutation, media generation, browser/device QA, or live publication is claimed."
+}
