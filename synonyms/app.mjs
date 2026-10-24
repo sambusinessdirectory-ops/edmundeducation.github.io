@@ -232,13 +232,14 @@ function answer(letter) {
     progress.order.splice(at,0,q.id);
   }
   pending.set(q.id,progress.answers[q.id]);
+  const previousStreak = streak;
   streak = correct ? streak+1 : 0;
   saveLocal();
   saveState = 'saving';
   window.EdmundAnswerSound?.play(correct);
   render(); void syncPending();
   document.dispatchEvent(new CustomEvent('edmund:eddy-streak-answer', {
-    detail: { scope: `synonyms:${owner}:${moduleId}`, correct, streak }
+    detail: { scope: `synonyms:${owner}:${moduleId}`, correct, streak, previousStreak }
   }));
   if (correct && masteredBefore < total && mastered() === total)
     document.dispatchEvent(new CustomEvent('edmund:eddy-module-complete'));
