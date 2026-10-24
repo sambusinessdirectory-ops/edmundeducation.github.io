@@ -14,6 +14,7 @@ await context.route('**/rest/v1/**',async route=>{const name=route.request().url
 
 // Isolate this grading test from the separately tested milestone dialogue.
 await context.route('**/eddy-first-question-dialogue.js*',r=>r.fulfill({contentType:'application/javascript',body:''}));
+await context.route('**/eddy-five-streak-dialogue.js*',r=>r.fulfill({contentType:'application/javascript',body:''}));
 await page.clock.install({time:new Date('2026-10-25T04:00:00Z')});
 const spend=(await import('../polysemy-lab/content/spend.mjs')).default;
 const labels=new Map([...spend.senses,...spend.mcqMeanings||[]].map(s=>[s.id,s.title]));
@@ -26,7 +27,7 @@ for(const [i,text] of ['strength','three weeks','too much money','months working
  await page.locator('[name=username]').fill('homework');await page.locator('[name=password]').fill('correct');await page.locator('[data-login-form] [type=submit]').click();}
  await page.locator('[data-app]').waitFor({state:'visible'});await page.getByText('已儲存至學生帳戶',{exact:true}).waitFor();
  await page.locator('[data-mode=practice]').click();await page.locator('.sentence').filter({hasText:q.en}).waitFor();
- assert.equal(await page.locator('[data-answer]').count(),q.options.length);
+ assert.equal(await page.locator('[data-answer]').count(),q.options.length);assert.equal(await page.locator('.module-numbers strong').nth(2).innerText(),`${Math.min(...spend.questions.map(q=>q.options.length))}–${Math.max(...spend.questions.map(q=>q.options.length))}`);
  const answer=q.correctOption||q.sense;const chosen=i%2?answer:q.options.find(x=>x!==answer);
  await page.keyboard.press('Escape');await page.locator('[data-answer="'+chosen+'"]').click();
  assert.equal(await page.locator('.answer-grid .correct').count(),1);

@@ -73,7 +73,7 @@ async function changeModule(id,push=true){
 function renderDirectory(){
  $('.module-heading .eyebrow').textContent=`MODULE ${String(showModule.number).padStart(2,'0')} / 詞義與用法`;
  $('.module-heading h1').textContent=showModule.word;
- const counts=$$('.module-numbers strong');counts[0].textContent=showModule.senses.length;counts[1].textContent=questions.length;
+ const counts=$$('.module-numbers strong');counts[0].textContent=showModule.senses.length;counts[1].textContent=questions.length;const optionCounts=questions.map(q=>q.options.length),minOptions=Math.min(...optionCounts),maxOptions=Math.max(...optionCounts);counts[2].textContent=minOptions===maxOptions?String(minOptions):`${minOptions}–${maxOptions}`;
  const manual=$('[data-manual]');manual.hidden=!showModule.source;manual.href=showModule.source?'polysemy-lab/'+showModule.source.path:'#';
 
  $('[data-meanings]').innerHTML=showModule.senses.map((s,i)=>`<details class="meaning" data-sense="${s.id}"><summary><span class="meaning-number">${String(i+1).padStart(2,'0')}</span><span class="meaning-title">${esc(s.title)}<small lang="en">${esc(s.form)}</small></span><span class="seen"></span></summary><div class="meaning-body"><p lang="en">${esc(s.en)}</p><p>${esc(s.zh)}</p>${s.examples.map(([en,zh])=>`<div class="example"><p lang="en">${highlighted(en)}</p><small>${esc(zh)}</small></div>`).join('')}<p class="note">${esc(s.note)}</p></div></details>`).join('');
