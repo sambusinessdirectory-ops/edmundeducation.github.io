@@ -1,0 +1,38 @@
+{
+  "reportType": "read-only-source-owner-detector-diagnosis",
+  "status": "retain-hold; no-safe-bounded-detector-repair",
+  "sourceOrdinal": 2234,
+  "sourceId": "book10-16-0123",
+  "exactSourceExpression": "a ripple in water",
+  "exactSourceSentence": "One kind gesture created a ripple in water across the team.",
+  "sourceMeaning": "An effect spreading from one kind gesture across other people; the water image is figurative.",
+  "inputs": {
+    "inventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "inventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "decisionPath": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl",
+    "decisionSha256": "b202df5370c9c6f31910c00b517be4c44696ade70814a34a445d9c9d049dcccf",
+    "owner1692Path": "course-materials/advanced-native/batches/batch-1676-1700.json",
+    "owner1692Sha256": "280c5e64c82eb599e6133220365de33416945b55dab668d35651de7f46667ed2",
+    "owner924Path": "course-materials/advanced-native/batches/batch-0901-0925.json",
+    "owner924Sha256": "26fab020a7ca963798367f3c0f66cbf2eb9c68593de83dfb279b02fea1bedfb8"
+  },
+  "findings": [
+    "Source2234 explicitly names expr-1692 as an exact prior-phrase match. Owner1692's sole provenance is the identical sentence from Book 8 (pdf-2-p202-t2-r04); the later Books10–16 occurrence repeats it exactly under a different source ID. The provenance is a truthful citation of the wording that inspired the owner, not an accidental insertion.",
+    "Owner1692 explicitly notes that the guide's created a ripple in water across the team wording is awkward and normalizes learner-facing content to the simile like a ripple in water. Its target pattern only detects that simile, so it does not match either the earlier cited example or the current full source2234 sentence.",
+    "Owner924 a ripple effect teaches the same spreading causal chain in a conventional noun construction, but its bounded pattern also does not match source2234. Its presence strengthens the case against creating another separate lesson for the awkward source carrier.",
+    "The current Books10–16 drafted-new-alias verifier requires the complete guide sentence to match the proposed owner's target pattern. Marking source2234 as alias-existing to1692 without a detector change would violate that invariant; merely citing it as a source does not satisfy the matcher.",
+    "Adding a regex branch for created a ripple in water would endorse the awkward guide carrier as a learner target; broadening to ripple in water would also admit literal water descriptions and lose the explicit like comparison. Neither is a safe bounded repair."
+  ],
+  "externalUsageEvidence": [
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/ripple-effect",
+      "relevance": "Oxford defines ripple effect as one action causing further effects, a conventional way to express the source meaning."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/american_english/ripple_2",
+      "relevance": "Oxford records figurative ripple through a group; this supports the spreading image but not the exact created a ripple in water across the team carrier."
+    }
+  ],
+  "recommendation": "Keep source2234 hold-editorial. Retain owner1692's exact earlier source citation and its explicit normalization note for now; do not expand its detector solely to force alias coverage. Any future disposition should be a separate documented editorial decision about normalized awkward guide wording or exclusion, not a claimed exact-form alias. A later selected-owner cleanup may examine owner1692's overlap with owner924 and its inherited Chinese-only English-option fields, but that is outside this source decision.",
+  "mutations": "Read-only diagnosis report only; no selected owner, decision, manifest, SOP audit, media or release file changed."
+}

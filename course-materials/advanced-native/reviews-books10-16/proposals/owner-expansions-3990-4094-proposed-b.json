@@ -1,0 +1,574 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-read-only-owner-proposal-3990-4094-b",
+  "lessons": [
+    {
+      "id": "advanced-native-913",
+      "number": 913,
+      "inventoryId": "expr-0913",
+      "titleEn": "think a few steps ahead",
+      "titleZh": "行動前多想幾步後果",
+      "category": "idiom",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:think|thinks|thinking|thought) a few steps ahead\\b|\\b(?:look|looks|looked|looking) ahead before (?:moving|choosing|planning|acting|setting up)\\b",
+        "glossaryForbidden": [
+          "\\ba few steps ahead\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p086-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 86,
+          "book": 4,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "14–15",
+          "sentence": "Good planners think a few steps ahead.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "think a few steps ahead"
+        },
+        {
+          "occurrenceId": "book10-16-1879",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 177,
+          "book": 15,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "30–31",
+          "locatorNote": "DOCX table 191, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Good players look ahead before moving.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "look ahead"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Consider likely next consequences or needs before acting; look ahead or think a few steps ahead describes this forward planning, not certain prediction.",
+        "meaningZh": "行動前考慮下一步可能後果或需要；look ahead 和 think a few steps ahead 都可表示向前規劃，而非準確預言。",
+        "grammar": "Think a few steps ahead, or look ahead before + action (moving, choosing, planning, acting or setting up). Thought/looked mark past time. Ahead refers to later needs, not necessarily a literal direction of gaze or footsteps.",
+        "register": "Neutral planning advice: a puzzle player considers the next move before acting, or an organiser anticipates how the next group will use a shared room. Name the later need; leave room for revision.",
+        "boundaryZh": "look ahead 在此指預想下一步，不是單純把眼睛望向前方；不等於知道未來，也不要求把每種可能都規劃完才動。",
+        "misconceptionZh": "規劃需留調整，不把一個預計當一定發生。",
+        "outcomeZh": "能指出當前行動與後續需要，並準備可行緩衝。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "多想幾步在此做了甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Considered the next users before changing the tools’ location.",
+            "zh": "改工具位置前，考慮下一批使用者。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The next users’ plans had already been confirmed unchanged for the rest of the term.",
+            "zh": "下一批使用者計劃，已確認學期餘下時段都不變。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Moved the tools without asking who would use them next.",
+            "zh": "沒問下一批誰用，就搬工具。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The group checked only where to put the tools now, leaving the next use unexamined.",
+            "zh": "小組只查現在工具放哪，未查下次使用。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先查下一使用者，好讓下午知道去哪取，屬考慮後續需要；不是只顧眼前、不查就搬，或確定整學期安排不變。",
+        "en": "Before moving the shared tools, we thought a few steps ahead and checked who would need them next, so the afternoon group would know where to collect them.",
+        "zh": "搬共用工具前，我們多想幾步，查下一批誰需用，好讓下午小組知道去哪取。"
+      },
+      "reply": {
+        "promptEn": "Why did you check the afternoon group’s needs before moving the tools?",
+        "promptZh": "搬工具前，你為甚麼查下午小組需要？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The next users would need to know where to collect them.",
+            "zh": "下一批使用者需知道去哪取。"
+          },
+          {
+            "id": "choice-2",
+            "en": "We wanted to think a few steps ahead so the move would not create confusion later.",
+            "zh": "我們想多想幾步，免得搬動帶來後來混亂。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The location change affected another group’s next task.",
+            "zh": "位置改動影響另一組下一工作。"
+          },
+          {
+            "id": "choice-4",
+            "en": "We could arrange the handover before the afternoon session began.",
+            "zh": "我們可在下午活動前安排交接。"
+          }
+        ],
+        "goldenId": "choice-2",
+        "explanationZh": "四句都交代搬動與後續取用的關係，不只是泛稱有計劃。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "你要借教室做展覽，先想撤展後下一班怎上課，留時間復原桌椅，日期仍可再查。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We can look ahead before setting up the exhibition: the next class will need the tables restored.",
+            "zh": "我們可在佈置展覽前先想想下一班的需要：我們須在他們上課前把桌椅恢復原位。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I will choose the layout first and ask the next teacher about restoring the room afterwards.",
+            "zh": "我先選布局，之後才問下一位老師怎樣還原房間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I will leave the exhibition layout in place and expect the next class to adapt.",
+            "zh": "我會保留展覽布局，預期下一班自行適應。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先顧及下一班上課需要並預留復原時間，才是向前規劃；這不等於日期或其他安排不用再查。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪個推論不宜由 think a few steps ahead 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The person considers relevant later needs.",
+            "zh": "當事人考慮相關後續需要。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The person can accurately predict each future event.",
+            "zh": "當事人能準確預測每件未來事。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Plans may need revision when new information arrives.",
+            "zh": "有新資料時，計劃可能需修。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "規劃後續不是預知所有結果。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "同伴說既預想下午要用，就不用再確認；時間表後來有更改。哪句較好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We did think a few steps ahead, but the changed timetable means we should confirm the handover again.",
+            "zh": "我們確有多想幾步，但時間表改了，需再確認交接。"
+          },
+          {
+            "id": "choice-2",
+            "en": "So our earlier plan should override the updated time without checking?",
+            "zh": "所以原計劃應不用查，就凌駕更新時間？"
+          },
+          {
+            "id": "choice-3",
+            "en": "Let us keep the old collection details because planning ahead means they cannot change.",
+            "zh": "多想幾步就表示詳情不能改，所以留舊取用資料。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "提前規劃仍需按新資料確認，不讓舊預計代替更新。"
+      },
+      "speaking": {
+        "en": "I want to think a few steps ahead and prepare for the next need, while leaving room to adjust.",
+        "zh": "我想多想幾步，為下一需要準備，同時留調整空間。",
+        "promptZh": "你想表達規劃而非保證未來。先聽，再說。",
+        "targetSpan": {
+          "start": 10,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你想在花園拍一段訪問，先想到錄完後要聽清楚再剪輯，因此準備先錄短測試、確認聲音，再正式問；不是只看畫面好不好。用一至兩句英文說明。",
+        "examples": [
+          {
+            "en": "We should think a few steps ahead: if the sound is unclear, editing the interview later will be difficult. Let us record and listen to a short test before the full conversation.",
+            "zh": "我們應多想幾步：若聲音不清，稍後剪訪問會難。正式對話前，先錄短測試並聽吧。"
+          },
+          {
+            "en": "Thinking a few steps ahead means checking that the garden recording will be usable in the edit, not just that the picture looks attractive.",
+            "zh": "多想幾步，意味查花園錄音是否可用於剪輯，不只畫面好看。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "sound is unclear",
+            "zh": "聲音不清",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 58
+            }
+          },
+          {
+            "en": "editing the interview",
+            "zh": "剪輯訪問",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 81
+            }
+          },
+          {
+            "en": "short test",
+            "zh": "短測試",
+            "exampleIndex": 0,
+            "span": {
+              "start": 137,
+              "end": 147
+            }
+          },
+          {
+            "en": "full conversation",
+            "zh": "正式完整對話",
+            "exampleIndex": 0,
+            "span": {
+              "start": 159,
+              "end": 176
+            }
+          },
+          {
+            "en": "garden recording",
+            "zh": "花園錄製",
+            "exampleIndex": 1,
+            "span": {
+              "start": 51,
+              "end": 67
+            }
+          }
+        ],
+        "selfCheckZh": "把現場收音與後續剪輯需要連起來，提出短測試；不以畫面好看代替聲音可用，也不保證測後所有事都順利。"
+      },
+      "takeaways": [
+        {
+          "en": "She thought a few steps ahead and checked how the next group would use the materials.",
+          "zh": "她多想幾步，查下一組怎用材料。"
+        },
+        {
+          "en": "Before printing the form, I thought a few steps ahead about how the answers would be compared.",
+          "zh": "印表前，我多想幾步，考慮答案之後怎比較。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Anticipatory planning idiom, contextual stages not literal footsteps or exact forecasting. Final writing shifts from shared-space handover to production capture affecting later editing."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+      }
+    },
+    {
+      "id": "advanced-native-1916",
+      "number": 1916,
+      "inventoryId": "expr-1916",
+      "contentRevision": 4,
+      "titleEn": "grope in the dark",
+      "titleZh": "缺乏資訊或指引，摸索着進行",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bgrop(?:e|es|ed|ing) in the dark\\b|\\bguess(?:es|ed|ing)? in the dark\\b|\\b(?:work|works|worked|working) in the dark\\b|\\b(?:feel|feels|felt|feeling) like (?:I (?:am|was)|you (?:are|were)|we (?:are|were)|they (?:are|were)|he (?:is|was)|she (?:is|was)) stumbling around in the dark(?=[,.!?;:]|$)"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p238-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 238,
+          "book": 9,
+          "question": 3,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Without examples, learners can grope in the dark.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "grope in the dark",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-1185",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 110,
+          "book": 12,
+          "question": 44,
+          "sample": "S1",
+          "sourceBookPages": "104–105",
+          "locatorNote": "DOCX table 114, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The notes stop students guessing in the dark.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "guessing in the dark"
+        },
+        {
+          "occurrenceId": "book10-16-0738",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 68,
+          "book": 11,
+          "question": 31,
+          "sample": "S1",
+          "sourceBookPages": "77–78",
+          "locatorNote": "DOCX table 67, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Investigators were working in the dark until the records arrived.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "working in the dark"
+        },
+        {
+          "occurrenceId": "book10-16-1983",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 187,
+          "book": 15,
+          "question": 25,
+          "sample": "S1",
+          "sourceBookPages": "59–61",
+          "locatorNote": "DOCX table 203, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "At first, I felt like I was stumbling around in the dark.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stumbling around in the dark"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Try to understand, answer or proceed without enough information, examples or guidance. Stumbling around in the dark can also stress the uncertain early stage of learning.",
+        "meaningZh": "缺乏足夠資訊、例子或指引時，嘗試理解、作答或繼續做；stumbling around in the dark 亦可強調初學時摸索不定。",
+        "grammar": "Grope, guess, or work in the dark describes proceeding without needed information. The source simile uses feel/felt like + subject + be + stumbling around in the dark; pair the subject and be form grammatically. Specify what guidance is missing rather than implying a lack of ability.",
+        "register": "Neutral figurative wording. A learner may say they felt like they were stumbling around in the dark at first without examples; investigators may be working in the dark until records arrive. Literal physical darkness is separate.",
+        "boundaryZh": "不熟悉或摸索不等於能力差，也不保證一定失敗；已有部分資料時，應說清仍欠哪一部分。",
+        "misconceptionZh": "不熟悉或摸索不等於能力差，也不保證一定失敗；已有部分資料時，應說清仍欠哪一部分。",
+        "outcomeZh": "理解「缺乏資訊或指引，摸索着進行」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Without knowing how the sample had been assessed, we were groping in the dark about what to change; a marked example would have helped more than another instruction to try harder.",
+        "zh": "不知道樣本怎樣評核時，我們只能摸索該改甚麼；一個有註記的例子，會比再叫人努力更有幫助。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The group lacked the assessment criteria, so they did not know which changes to make.",
+            "zh": "小組欠缺評核依據，所以不知道修改方向。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The group fully understood the assessment criteria but did not want to revise its work.",
+            "zh": "小組已完全理解評核依據，只是不願修改。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The teacher had demonstrated every change, and the group was following those steps.",
+            "zh": "老師已逐項示範所有改動，小組正在照做。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The group had an annotated sample and was only deciding how to divide the revisions.",
+            "zh": "小組已有註記樣本，現在只在商議怎樣分工修改。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "without knowing assessment/marked example 說實際指引缺口，不是單憑努力或動機。"
+      },
+      "reply": {
+        "promptEn": "What information would have helped the group?",
+        "promptZh": "甚麼資料會幫助小組？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "A marked example could have stopped us groping in the dark about how the work was assessed.",
+            "zh": "有註記的例子，可讓我們不用再摸索作品怎樣評核。"
+          },
+          {
+            "id": "reply-2",
+            "en": "We needed to see how the criteria were applied to an actual sample.",
+            "zh": "我們需要看到準則怎樣用在實際樣本。"
+          },
+          {
+            "id": "reply-3",
+            "en": "An explanation of the assessment would have given the revisions a clearer direction.",
+            "zh": "解釋評核方式，可給修改較清楚方向。"
+          },
+          {
+            "id": "reply-4",
+            "en": "We wanted evidence of what to change, not only a general demand for more effort.",
+            "zh": "我們想有該改甚麼的依據，不只有籠統要求更努力。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "新人已懂正常登記，卻不知道破損物品要報哪一欄，手冊也沒例子。他想準確提出局部指引需要。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Without a damaged-item example, I feel like I am stumbling around in the dark, even though ordinary registration is clear to me.",
+            "zh": "沒有破損物品的例子，我在這類情況上仍只能摸索，雖然我已明白一般登記。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I could put the damaged item in the ordinary-item field, since I know that part of the form.",
+            "zh": "我可把破損物品填進一般物品欄，因為我熟悉表格這部分。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I could ask for another walkthrough of the whole form before trying the damaged-item entry.",
+            "zh": "我可先請人再講解整份表格，然後才嘗試填寫破損物品資料。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "新人已懂一般登記，卻欠缺破損項目的具體例子；他只在這部分摸索，並非所有登記都不懂。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 groping in the dark 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They are trying to proceed without enough guidance.",
+            "zh": "缺乏足夠指引而在摸索。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The expression mainly judges the person’s ability, rather than the information available.",
+            "zh": "這個描述主要在評判本人的能力，而不是可用資訊。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They could ask which example or information would help.",
+            "zh": "可問哪種例子或資料會幫助。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "資訊缺口不等於能力的終身判定。"
+      },
+      "dialogue": {
+        "promptZh": "你是剛學填表的新人。朋友說你只需更有信心，不必問破損項目怎樣填；你仍不清楚那個類別，想問具體指引。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Confidence alone will not stop me groping in the dark about that category; could we ask for one worked example?",
+            "zh": "信心本身不能讓我不再摸索那類別；我們可否問一個完成的例子？"
+          },
+          {
+            "id": "choice-2",
+            "en": "I thought the missing category rule could be replaced by feeling more certain about my guess.",
+            "zh": "我原以為，對猜測更有把握，就可代替缺少的分類規則。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would repeat the normal-entry instructions rather than ask about the case that is still unclear.",
+            "zh": "我會重複普通項目指示，不問仍未清楚的情況。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "真正需要的是可應用的類別資訊，不是把握程度或重播已會內容。"
+      },
+      "speaking": {
+        "en": "We are groping in the dark about the missing stage, so I would like to see an example of how it is completed.",
+        "zh": "缺少的階段我們仍在摸索，所以我想看它怎樣完成的例子。",
+        "targetSpan": {
+          "start": 7,
+          "end": 26
+        },
+        "promptZh": "先聽示範，再提出針對缺口的資料請求。"
+      },
+      "writing": {
+        "promptZh": "新情境：故事中一群朋友推測一封舊信為何突然中斷，卻還不知道信件是否缺頁。你要寫閱讀札記，指出目前推論缺資料，建議先看編者對手稿的說明，不把猜測直接寫成角色動機。用一至兩句英文記下下一步查讀。",
+        "examples": [
+          {
+            "en": "We are groping in the dark about the sudden ending until we know whether a page is missing. I would check the editor’s note on the manuscript before treating the break as evidence of the writer’s intention.",
+            "zh": "知道有沒有缺頁前，我們對突然結尾仍在摸索。我會先查編者對手稿的說明，不把中斷直接當成寫信者意圖的證據。"
+          },
+          {
+            "en": "Without the manuscript information, we may be groping in the dark when we explain the unfinished sentence. Let’s distinguish a possible missing page from a deliberate silence before choosing an interpretation.",
+            "zh": "缺少手稿資料時，解釋未完句可能仍是摸索。選解讀前，讓我們分清可能缺頁與刻意沉默。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the sudden ending",
+            "zh": "突然的結尾",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 50
+            }
+          },
+          {
+            "en": "a page is missing",
+            "zh": "缺了一頁",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 90
+            }
+          },
+          {
+            "en": "the editor’s note",
+            "zh": "編者說明",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 123
+            }
+          },
+          {
+            "en": "the manuscript",
+            "zh": "手稿",
+            "exampleIndex": 0,
+            "span": {
+              "start": 127,
+              "end": 141
+            }
+          },
+          {
+            "en": "a deliberate silence",
+            "zh": "刻意的沉默",
+            "exampleIndex": 1,
+            "span": {
+              "start": 154,
+              "end": 174
+            }
+          }
+        ],
+        "selfCheckZh": "以文本資料缺口檢查推論，提出可查來源；不把缺資訊當角色動機已明，也不因尚在摸索便否定所有閱讀能力。"
+      },
+      "takeaways": [
+        {
+          "en": "The organisers were groping in the dark about attendance because the replies had been kept in several separate chats.",
+          "zh": "回覆分散在幾個群組，籌委對出席人數仍在摸索。"
+        },
+        {
+          "en": "Without the meter readings, the repair team would be working in the dark about which pipe failed.",
+          "zh": "沒有儀表讀數，維修隊便無從判斷哪條喉管出了問題，只能摸索。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review completed: all bilingual learner fields, keys, four valid replies, original audio-role examples and answer-derived glossary spans reread. Independent editorial, human, audio, browser and release approvals remain separate."
+      }
+    }
+  ]
+}

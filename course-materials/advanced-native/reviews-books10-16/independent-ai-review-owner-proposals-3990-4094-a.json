@@ -1,0 +1,63 @@
+{
+  "reportType": "independent-exact-hash-owner-expansion-review",
+  "status": "source-sense-accepted; content-repairs-required-before-integration",
+  "proposal": {
+    "path": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-3990-4094-proposed-b.json",
+    "sha256": "1bc40c4eacdb3358793a8e47c96ec942a58ce248e75fb934bfc7f0113954fe99"
+  },
+  "authorAudit": {
+    "path": "course-materials/advanced-native/reviews-books10-16/author-held-reconciliation-3928-4480-ten-b.json",
+    "sha256": "670d1b26889b4dc75f8bc7bac5c1ad4410738e535e03671e683993807a5b85a9"
+  },
+  "focusedValidation": {
+    "buildAndCheck": "2 lessons, 12 questions, 8 audio requests, 0 schema flags",
+    "owner913FullSourceHits": [3990],
+    "owner1916FullSourceHits": [2849, 3296, 4094],
+    "allOriginalAndAddedSourcesMatchTarget": true,
+    "bothRevisedSceneKeysMatchTarget": true,
+    "allFiveAssessmentAnswerIdsPerOwnerPreserved": true,
+    "reviewedPositiveAndNegativeRegexControls": "Source and revised-key positives pass; sampled malformed pronoun/be, literal-dark-room, literal board-gaze, and unrelated-direction controls reject."
+  },
+  "perSource": [
+    {
+      "sourceOrdinal": 3990,
+      "sourceId": "book10-16-1879",
+      "proposedOwner": 913,
+      "sourceSenseVerdict": "same sense: a puzzle player anticipates later moves, as owner913 plans for later needs before acting; the guide question makes literal looking forward unlikely",
+      "status": "repair keyed Chinese before content clearance",
+      "findings": ["R3990-01"]
+    },
+    {
+      "sourceOrdinal": 4094,
+      "sourceId": "book10-16-1983",
+      "proposedOwner": 1916,
+      "sourceSenseVerdict": "same information-gap metaphor: an early learner feels they are proceeding uncertainly; the source-style feel like + pronoun + be + stumbling around in the dark is grammatical and distinct from literal unmodified stumbling",
+      "status": "repair inherited bilingual options and revised-scene distractors before content clearance",
+      "findings": ["R4094-01", "R4094-02"]
+    }
+  ],
+  "findings": [
+    {
+      "id": "R3990-01",
+      "severity": "major",
+      "path": "lessons[number=913].scene.options[id=choice-1].zh",
+      "evidence": "English says the next class will need the tables already restored; Chinese says 他們上課時要把桌椅復原, assigning the restoration work to the next class during its lesson. The prompt says the exhibition team leaves time to restore the room.",
+      "repair": "Use Chinese such as 下一班上課前，桌椅需恢復原位, preserving the planning and actor relationship. Keep answer ID and English key."
+    },
+    {
+      "id": "R4094-01",
+      "severity": "major",
+      "path": "lessons[number=1916].listening.options[*].en/.zh; lessons[number=1916].contrast.options[*].en/.zh",
+      "evidence": "Four listening choices and three contrast choices still put Traditional Chinese text in .en with an empty .zh. The focused builder passes this inherited legacy defect, but each assessed question requires a genuine English/Traditional Chinese pair.",
+      "repair": "Translate each of the seven existing choices into natural English in .en and move/preserve its faithful Traditional Chinese in .zh. Do not change option IDs or keys."
+    },
+    {
+      "id": "R4094-02",
+      "severity": "minor",
+      "path": "lessons[number=1916].scene.options[id=choice-2,choice-3]",
+      "evidence": "Both newly written foils are extreme or metalinguistic contradictions of the prompt: one says no registration part is understood although ordinary entries are clear; the other says the account already supplied the missing example. They are too easy to dismiss without distinguishing targeted missing guidance from general uncertainty.",
+      "repair": "Use plausible learner responses that still fail the targeted-guidance decision, such as putting damaged items under the familiar ordinary category without checking or asking for a full replay of already-understood basics instead of a worked damaged-item example. Keep the keyed option and ID stable."
+    }
+  ],
+  "scopeLimit": "Read-only independent AI review of proposal content and exact source/owner fit. Neither proposal is approved for selected integration until the findings are repaired and rechecked. No human, media-listening, or release approval is implied."
+}

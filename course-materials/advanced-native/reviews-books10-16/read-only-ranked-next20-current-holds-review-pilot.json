@@ -1,0 +1,665 @@
+{
+  "status": "read-only-ranked-candidates-no-editorial-approval",
+  "createdUtc": "2026-10-24T01:19:00.732657+00:00",
+  "scope": {
+    "currentHoldCount": 627,
+    "rankedInvestigations": 20,
+    "sourceRowsCovered": 22,
+    "selectionRule": "Ranked source-grounded same-sense owner variants; weak lexical-only, ambiguous literal and bespoke new-lesson leads were excluded. Lower ranks are conditional and are not safe automatic aliases."
+  },
+  "inputHashes": {
+    "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "selectedManifestSha256": "7928f7c6e19bfd703c122c03ecd6e04fc789a407cca8be34e36f93632eb8c497",
+    "decisionFileDigestSha256": "8b820425cee240ee09dc9fe3516b3db0af88f1427adba1558e91468bf3484989"
+  },
+  "rankedCases": [
+    {
+      "rank": 1,
+      "confidence": "high",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 4564,
+          "sourceId": "book10-16-2453",
+          "sourceExpression": "work that out",
+          "exactSourceSentence": "I can work that out with the route app.",
+          "sourceSense": "Determine an answer or solution; a natural phrasal verb.",
+          "currentHoldReason": "Work that out means determine a route with an app; broad phrasal verb sense needs owner comparison. Provisional editorial decision; independent review remains open.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4512-4571.jsonl",
+          "decisionFileSha256": "a72e4b8b9f1892723c220b8b589f0e42fce5e18f3af74540d3d3886bce021a41",
+          "decisionRowCanonicalSha256": "7d6aba470c3e4f557be352e9fe76809f1691c58e6c1d878236db7c388abdd9da",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-1849",
+      "ownerTitle": "work out",
+      "ownerMeaning": "Find a solution, explanation or workable arrangement through thought or discussion.",
+      "ownerTargetPattern": "\\bwork(?:s|ed|ing)? (?:out|(?:it|them) out)\\b",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1826-1850.json",
+      "ownerFileSha256": "84c2d6c322e0dadf5532be17e7584893bab9fd35691b77347a671d5a935c809c",
+      "ownerObjectCanonicalSha256": "72f2d73da4c03aaa305077c7754c0ba705e31d822682ca1d01accb680c33de3e",
+      "sourceToOwnerSenseEvidence": "Work that out means determine a solution with a route app, exactly the owner’s transitive problem-solving sense.",
+      "blockerOrNextGate": "Owner target accepts it/them but not that. Add a bounded demonstrative-object form and keep the route-app result conditional on the app actually supplying enough information."
+    },
+    {
+      "rank": 2,
+      "confidence": "high",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 4517,
+          "sourceId": "book10-16-2406",
+          "sourceExpression": "transport has had to keep pace",
+          "exactSourceSentence": "As cities grow, transport has had to keep pace.",
+          "sourceSense": "Transport has needed to adapt as fast as life changes; a fixed motion idiom.",
+          "currentHoldReason": "Elliptical keep pace here means adapt as fast as urban growth and overlaps canonical 590 keep pace with demand. Existing detector requires with demand, so hold for a reviewed pattern variant or distinct construction; do not create a duplicate lesson or force an uncovered alias.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4512-4571.jsonl",
+          "decisionFileSha256": "a72e4b8b9f1892723c220b8b589f0e42fce5e18f3af74540d3d3886bce021a41",
+          "decisionRowCanonicalSha256": "a7a8d8ce384ce63c2bff4b8b23520665b8d47539c40aec404ee44536193d74aa",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-590",
+      "ownerTitle": "keep pace with demand",
+      "ownerMeaning": "Match the rate of a relevant change: a service may meet rising demand, while rules may be updated as new inventions create new uses and risks.",
+      "ownerTargetPattern": "\\b(?:keep(?:s|ing)?|kept)\\s+pace\\s+with\\s+(?:demand|human\\s+invention)\\b",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0576-0600.json",
+      "ownerFileSha256": "9b6da03c001fc0bf732bcd2b45a09e3ef877a2d02df218e92d6602ea1de9413f",
+      "ownerObjectCanonicalSha256": "f8f926623e3a4c2e83ad256816f931bb101af09cc2626a199f3372d9b929cf72",
+      "sourceToOwnerSenseEvidence": "Transport keeping pace as cities grow is matching the rate of changing demand, the owner’s adaptation decision.",
+      "blockerOrNextGate": "Source omits with + explicit demand; a bounded elliptical form must retain an antecedent for what transport keeps pace with."
+    },
+    {
+      "rank": 3,
+      "confidence": "high",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 4581,
+          "sourceId": "book10-16-2470",
+          "sourceExpression": "ripples have spread much more widely",
+          "exactSourceSentence": "From one trial, the ripples have spread much more widely.",
+          "sourceSense": "Secondary effects have extended far beyond the original action; a water metaphor.",
+          "currentHoldReason": "Ripples spreading more widely after one trial conveys downstream effects and overlaps canonical 772/924 ripple-effect expressions. Hold for a source-specific variant/owner decision; avoid a same-sense duplicate lesson.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+          "decisionFileSha256": "de2d36a570e829023a5b60f8a53b96248143acb0337a5fd1096c8a6f697757d1",
+          "decisionRowCanonicalSha256": "82d8d3c092f1477da25a8998e45f16795d8f5a5266f0c5615528d8a6165f0f71",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-772",
+      "ownerTitle": "ripple out / outward",
+      "ownerMeaning": "Spread from an initial event or group to affect others; news can also ripple through a city as people relay it.",
+      "ownerTargetPattern": "\\b(?:rippl(?:e|es|ed|ing)\\s+(?:out(?:ward)?|through\\s+(?:(?:the|a)\\s+)?(?:whole\\s+)?family)|(?:send|sends|sent|sending)\\s+ripples\\s+far\\s+beyond)\\b|\\brippl(?:e|es|ed|ing)\\s+through\\s+the\\s+city\\b",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0751-0775.json",
+      "ownerFileSha256": "0834ced512d7a2de3fe5332af52954c48ca8e8bb0bea26a977978ed81d36459d",
+      "ownerObjectCanonicalSha256": "a3f5dc3a364dfdd67a8a19e68d53fe842fdcb6b16c6be3fcf54364ea8ea7a9c9",
+      "sourceToOwnerSenseEvidence": "Ripples spreading from one trial to a wider area are downstream effects from an initial cause, as in the owner.",
+      "blockerOrNextGate": "Target currently uses ripple out/through/send ripples; test a bounded ripples spread variant with a clear initial cause and affected group."
+    },
+    {
+      "rank": 4,
+      "confidence": "high",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 2757,
+          "sourceId": "book10-16-0646",
+          "sourceExpression": "keep their roots alive",
+          "exactSourceSentence": "Community performances help keep their roots alive.",
+          "sourceSense": "Maintain a connection with cultural origins; a plant metaphor.",
+          "currentHoldReason": "Same-sense later owner 4470 was reviewed, but the alias contract requires an earlier canonical source ordinal. Retain this hold until ownership can be resolved without changing existing IDs.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+          "decisionFileSha256": "3ab486f50083d297f6980bb2f4037afcaafe5aa369f3500610b786727a43d1f1",
+          "decisionRowCanonicalSha256": "0d88185c3ee84b72c7b05a5379aba9738db289d912b5cfa78d6b603eb6da3e00",
+          "currentOwnerPatternMatchesFullSource": true,
+          "currentOwnerMatchedSpan": "keep their roots alive"
+        }
+      ],
+      "proposedOwnerId": "advanced-native-4470",
+      "ownerTitle": "keep its roots",
+      "ownerMeaning": "Stay connected to origins or defining traditions over time, including while changing or growing.",
+      "ownerTargetPattern": "\\b(?:keep|keeps|kept|keeping) (?:its|their|our|his|her) roots(?: alive)?\\b",
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-4466-4481-a.json",
+      "ownerFileSha256": "b4749ba641ad0a3d0da68568690e29675daf703146200d85a93900ee8059036c",
+      "ownerObjectCanonicalSha256": "00fe2888679d931756fb28dbdebb8852d5f3a0a6090257741911cd5c3416793f",
+      "sourceToOwnerSenseEvidence": "Keeping cultural roots alive through performances matches the owner’s preservation-of-origins sense and near-exact target form.",
+      "blockerOrNextGate": "The later owner number creates a source-order/alias-contract issue; also clarify whether their means the community or performers before adding provenance."
+    },
+    {
+      "rank": 5,
+      "confidence": "high",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 4480,
+          "sourceId": "book10-16-2369",
+          "sourceExpression": "tell its story",
+          "exactSourceSentence": "A museum helps the city tell its story.",
+          "sourceSense": "Present its history and identity; a fixed storytelling metaphor.",
+          "currentHoldReason": "Tell its story is a broad storytelling metaphor for a city; review overlap with tell a story and course value. Provisional editorial decision; independent review remains open.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+          "decisionFileSha256": "bbccfbd136984523d970102b31c7b35fb4bfc8c8071a3bcc0ea961e5b639311e",
+          "decisionRowCanonicalSha256": "4d2ef3cbf2ff89d274dbf78762203be9636a7f27f46f6c694d12b04d36481d39",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        },
+        {
+          "sourceOrdinal": 4653,
+          "sourceId": "book10-16-2542",
+          "sourceExpression": "tell its story",
+          "exactSourceSentence": "A museum helps the city tell its story.",
+          "sourceSense": "Present its history and identity; a fixed storytelling metaphor.",
+          "currentHoldReason": "Tell its story repeats the broad storytelling metaphor held at 4480 pending owner and sense review. Provisional editorial decision; independent review remains open.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl",
+          "decisionFileSha256": "a80ffdfb9a14164ac01782e1c46d0a70b0e3246993e4968c765a51b98d34cfee",
+          "decisionRowCanonicalSha256": "a532f86c45221925a57b672452775ae4774c9710a498174878fa055815477f01",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-672",
+      "ownerTitle": "tell a story",
+      "ownerMeaning": "Reveal or suggest a history, experience or meaning through the details of an object or collection.",
+      "ownerTargetPattern": "\\btell(?:s|ing)? a story\\b|\\btold a story\\b",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0651-0675.json",
+      "ownerFileSha256": "581672263430bc0bc00fe16c57173a2cfe950474f7c5ffa089e0c37ef5a2c945",
+      "ownerObjectCanonicalSha256": "e51b1d0f18223fa3c4861284577564f0c8b9acf9c4ce63363a1100a87b30dcf8",
+      "sourceToOwnerSenseEvidence": "A museum helping a city tell its story uses details to present the city’s history and identity, the owner’s object-based storytelling sense.",
+      "blockerOrNextGate": "Owner target currently says tell a story; add possessive story without licensing literal speech or claiming the museum gives a complete history."
+    },
+    {
+      "rank": 6,
+      "confidence": "medium-high",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 2305,
+          "sourceId": "book10-16-0194",
+          "sourceExpression": "life rarely comes with a script",
+          "exactSourceSentence": "Life rarely comes with a script, so we must adapt.",
+          "sourceSense": "Real events do not follow a neat predetermined plot; a stage metaphor.",
+          "currentHoldReason": "Life rarely comes with a script is a creative complete aphorism, not obviously an established expression; identify a transferable target. Provisional editorial decision; independent review remains open.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+          "decisionFileSha256": "3deeb54dc9cb42f947e5793bd0588f93c47d88d67c01c0d9f124e456b921cacd",
+          "decisionRowCanonicalSha256": "e4b8f134a771633101991eb2eac3890fe6f34a0779173d132aae5d55252532a3",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-3308",
+      "ownerTitle": "life does not follow a script",
+      "ownerMeaning": "Events do not necessarily unfold according to a plan or expected sequence.",
+      "ownerTargetPattern": "\\b(?:life|the day|the trip|events?|reality) (?:does not|doesn\\x27t|did not|didn\\x27t|rarely|never) (?:always )?follow a script\\b|\\blife rarely sticks to the script\\b",
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3142-3394-review-pilot.json",
+      "ownerFileSha256": "a7a153a820c948a7d759463fc461162cc2fd877f506016b0ae307e57fa06433a",
+      "ownerObjectCanonicalSha256": "cee1ca6abb8c39773f149e47285b8b096d03d1c81130ac1507fb8e09d98eadfd",
+      "sourceToOwnerSenseEvidence": "Life rarely coming with a script expresses unpredictable events that require adaptation, matching the owner’s planned-script contrast.",
+      "blockerOrNextGate": "Comes with a script is an alternate, more aphoristic construction; verify naturalness and source-order policy because owner 3308 is later."
+    },
+    {
+      "rank": 7,
+      "confidence": "medium-high",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 3010,
+          "sourceId": "book10-16-0899",
+          "sourceExpression": "the roads they did not take",
+          "exactSourceSentence": "People sometimes wonder about the roads they did not take.",
+          "sourceSense": "Alternative life choices they never pursued; a familiar road metaphor.",
+          "currentHoldReason": "The roads they did not take is broad literary choice imagery; source may need attribution and scope review. Provisional editorial decision; independent review remains open.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2952-3011.jsonl",
+          "decisionFileSha256": "04aa7bf80d4920dcfd3755ee85e864439561c7221fa68624d7aa2c21166842cb",
+          "decisionRowCanonicalSha256": "b002780e421b25955d7c93dcbacdb298552a93d77a631e6370c229619f405283",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-3014",
+      "ownerTitle": "the road not taken",
+      "ownerMeaning": "A meaningful alternative life path that someone did not choose.",
+      "ownerTargetPattern": "\\bthe road not taken\\b",
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-3006-3057-a.json",
+      "ownerFileSha256": "df6d4cc414c04cc48bb1618b6c216e866733439a1901fac171e35aeb7a02f40c",
+      "ownerObjectCanonicalSha256": "2d63708db2264e336aedddadc869a24a29274fdcf3d37c3a2b56cf349e8010db",
+      "sourceToOwnerSenseEvidence": "Roads a person did not take are unchosen life paths, the owner’s road-not-taken decision.",
+      "blockerOrNextGate": "Plural and relative-clause form differs from the fixed literary noun phrase; check attribution and avoid detector hits on literal roads."
+    },
+    {
+      "rank": 8,
+      "confidence": "medium-high",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 2966,
+          "sourceId": "book10-16-0855",
+          "sourceExpression": "all glitter and no substance",
+          "exactSourceSentence": "The ceremony was all glitter and no substance.",
+          "sourceSense": "Attractive on the surface but lacking real value; a conventional contrast.",
+          "currentHoldReason": "All glitter and no substance overlaps proposed 2961 semantically but uses a different surface image; owner scope needs review. Provisional editorial decision; independent review remains open.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2952-3011.jsonl",
+          "decisionFileSha256": "04aa7bf80d4920dcfd3755ee85e864439561c7221fa68624d7aa2c21166842cb",
+          "decisionRowCanonicalSha256": "bd604db6b29abc10c70a47f1b2dd56c26af77fe5c5878b9de5eab02b02929831",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-2961",
+      "ownerTitle": "more show than substance",
+      "ownerMeaning": "Impressive presentation or publicity outweighs genuine practical value.",
+      "ownerTargetPattern": "\\bmore show than substance\\b",
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-2961-3487-a.json",
+      "ownerFileSha256": "f7f0711035af3841ed60c015b39478b429ff1770dfbfd11337b8f99bb668ff97",
+      "ownerObjectCanonicalSha256": "a47c3002daaeb1f4e5aebcf507d41fc5149f728656a1421a47ea069e48ec90d5",
+      "sourceToOwnerSenseEvidence": "A glittering ceremony lacking substance makes the same spectacle-versus-value judgment as the owner.",
+      "blockerOrNextGate": "The fixed glitter wording differs from more show than substance; assess whether course policy supports one broader owner and add a constrained variant."
+    },
+    {
+      "rank": 9,
+      "confidence": "medium-high",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 2349,
+          "sourceId": "book10-16-0238",
+          "sourceExpression": "all fireworks and not much substance",
+          "exactSourceSentence": "The speech was all fireworks and not much substance.",
+          "sourceSense": "Exciting in appearance but shallow in content; fireworks is a figurative spectacle.",
+          "currentHoldReason": "All fireworks and not much substance is a creative spectacle-versus-content blend; verify whether a standard reusable contrast exists. Provisional editorial decision; independent review remains open.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+          "decisionFileSha256": "3deeb54dc9cb42f947e5793bd0588f93c47d88d67c01c0d9f124e456b921cacd",
+          "decisionRowCanonicalSha256": "c6e73e03508b0d86206f94c05c0b30880be6b3452abae9800f78ac28a4e65d61",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-2961",
+      "ownerTitle": "more show than substance",
+      "ownerMeaning": "Impressive presentation or publicity outweighs genuine practical value.",
+      "ownerTargetPattern": "\\bmore show than substance\\b",
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-2961-3487-a.json",
+      "ownerFileSha256": "f7f0711035af3841ed60c015b39478b429ff1770dfbfd11337b8f99bb668ff97",
+      "ownerObjectCanonicalSha256": "a47c3002daaeb1f4e5aebcf507d41fc5149f728656a1421a47ea069e48ec90d5",
+      "sourceToOwnerSenseEvidence": "A fireworks-like speech with little substance likewise contrasts excitement of presentation with shallow content.",
+      "blockerOrNextGate": "Creative fireworks phrasing and later owner number require idiomaticity, source-order and separate-target checks before an alias."
+    },
+    {
+      "rank": 10,
+      "confidence": "medium-high",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 4154,
+          "sourceId": "book10-16-2043",
+          "sourceExpression": "switch off",
+          "exactSourceSentence": "During a dull lecture, the mind can switch off.",
+          "sourceSense": "Stop paying attention or thinking actively; a figurative phrasal verb.",
+          "currentHoldReason": "Mind switching off during a dull lecture means losing attention, distinct from canonical relax-after-work sense. Provisional editorial decision; independent review remains open.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4152-4211.jsonl",
+          "decisionFileSha256": "bc2f35af779a85244c45e5ad62bcf423d1fcc1ad3b23242a58e1471fc267216c",
+          "decisionRowCanonicalSha256": "0d4695ea4635c68720619594a05c16b6e89cf292c6c7977c04e8d25aa018ab77",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-1487",
+      "ownerTitle": "switch off straight away",
+      "ownerMeaning": "Stop paying attention or engaging almost immediately.",
+      "ownerTargetPattern": "\\bswitch(?:es|ed|ing)?\\s+off\\s+straight\\s+away\\b",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1476-1500.json",
+      "ownerFileSha256": "3d5d7386d7821e2478d695698bd04cfe56a29896d60e9849285833a3f121e08c",
+      "ownerObjectCanonicalSha256": "edec9a717276b988c8c817b441f469b5e98c502004ca7a67788b57161761c6de",
+      "sourceToOwnerSenseEvidence": "A mind switching off during a dull lecture is loss of attention, the owner’s disengagement sense.",
+      "blockerOrNextGate": "Owner requires straight away; source does not. Broaden only the timing boundary, not the separate deliberate-relaxation sense."
+    },
+    {
+      "rank": 11,
+      "confidence": "medium-high",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 3388,
+          "sourceId": "book10-16-1277",
+          "sourceExpression": "a small window to another culture",
+          "exactSourceSentence": "Imported food can be a small window to another culture.",
+          "sourceSense": "A limited but appealing view into another way of life; a window metaphor.",
+          "currentHoldReason": "Hold: a small window to another culture may be a valid window-to variant of canonical 305 a window into, both describing insight or access. The preposition falls outside 305’s detector; resolve variant naturalness and owner scope before release.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl",
+          "decisionFileSha256": "de6453f80a20615f4cd48297cb5e288a7b2eefadb1694a45cb19a85885d355e5",
+          "decisionRowCanonicalSha256": "f31684a45baf4779b3afa8c1dca1afbf9d65f4ebcadf15f006128195fb97c20e",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-305",
+      "ownerTitle": "a window into",
+      "ownerMeaning": "A way of gaining insight into a subject, experience or way of life.",
+      "ownerTargetPattern": "\\ba window (?:into|onto)\\b",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0301-0325.json",
+      "ownerFileSha256": "a27ef6e055b8dd34a51a93438c21d6c4f2e6022ef2a90432c6ac2325027b4698",
+      "ownerObjectCanonicalSha256": "328d44ab1669323550d0f797237c64d3086fe6742b34b4ced5ae24eec709cf20",
+      "sourceToOwnerSenseEvidence": "Food giving a small view of another culture is the same limited-insight window metaphor taught by the owner.",
+      "blockerOrNextGate": "Source window to is less standard than owner window into/onto; preserve the exact source but teach a natural learner-facing form."
+    },
+    {
+      "rank": 12,
+      "confidence": "medium-high",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 3823,
+          "sourceId": "book10-16-1712",
+          "sourceExpression": "social fabric",
+          "exactSourceSentence": "Volunteers strengthen the social fabric.",
+          "sourceSense": "The network of relationships that holds a society together; a fixed fabric metaphor.",
+          "currentHoldReason": "Social fabric is conventional but existing owner teaches it inside a longer knit-back-together phrase; scope review. Provisional editorial decision; independent review remains open.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl",
+          "decisionFileSha256": "68fc4397f3a42e0dad00a1324935c27b6be15c3c817e8f233de149db56382952",
+          "decisionRowCanonicalSha256": "95f5342f7c52df5bf0c9d9e91790812f259c139ad2015870cbeaa1b089ac0cea",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        },
+        {
+          "sourceOrdinal": 3928,
+          "sourceId": "book10-16-1817",
+          "sourceExpression": "social fabric",
+          "exactSourceSentence": "Volunteers strengthen the social fabric.",
+          "sourceSense": "The network of relationships that holds a society together; a fixed fabric metaphor.",
+          "currentHoldReason": "Social fabric is conventional but current owners teach it only in longer constructions; scope review. Provisional editorial decision; independent review remains open.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3912-3971.jsonl",
+          "decisionFileSha256": "1cd256bb57c09ccca9017daa811d650ae13cb0594cd78dafda2a6e73c478410f",
+          "decisionRowCanonicalSha256": "562ceb419d27a2aeda790fdd1a94776c04490be320753bcb6389bd655450f394",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-1717",
+      "ownerTitle": "keeps the social fabric from coming apart",
+      "ownerMeaning": "Help maintain the relationships and cooperation that hold a community together.",
+      "ownerTargetPattern": "\\bkeep(?:s|ing)? the social fabric from coming apart\\b|\\bkept the social fabric from coming apart\\b",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1701-1725.json",
+      "ownerFileSha256": "be64c87c9f9394ad39b20111f2c70ce8613a670d5418e980c4662767b2751b6f",
+      "ownerObjectCanonicalSha256": "d654993205b81c7a14bc645f7d4c40958f9d281ba7cf0eecb6a1a5148779b572",
+      "sourceToOwnerSenseEvidence": "Volunteers strengthening the social fabric maintain community relationships and cohesion, the owner’s social-fabric meaning.",
+      "blockerOrNextGate": "Current target requires keeping it from coming apart; source has the positive strengthen construction. Broaden only if assessment can cover both prevention and strengthening."
+    },
+    {
+      "rank": 13,
+      "confidence": "medium-high",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 4623,
+          "sourceId": "book10-16-2512",
+          "sourceExpression": "open eyes and an open mind",
+          "exactSourceSentence": "She explored the city with open eyes and an open mind.",
+          "sourceSense": "Attentive observation combined with willingness to reconsider; a fixed paired phrase.",
+          "currentHoldReason": "Open eyes and an open mind is a compositional pairing; separate senses and target span need review. Provisional editorial decision; independent review remains open.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+          "decisionFileSha256": "de2d36a570e829023a5b60f8a53b96248143acb0337a5fd1096c8a6f697757d1",
+          "decisionRowCanonicalSha256": "212a77b58d8c0442b508af8b84e78de257c7159e7f7028853325d0895c7fecbc",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-423",
+      "ownerTitle": "go in with an open mind",
+      "ownerMeaning": "Begin an experience willing to consider what it offers rather than fixing the judgement in advance.",
+      "ownerTargetPattern": "\\b(?:go|goes|going|went|gone) in with an open mind\\b",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0401-0425.json",
+      "ownerFileSha256": "fe8bbc3493367e7b4afde479d988c39dc0fbef0b831a14e844eb07573f667805",
+      "ownerObjectCanonicalSha256": "2b649139bfaed3e6099a46016d98f829672207404c2daf896fc0be6c21d58bd4",
+      "sourceToOwnerSenseEvidence": "Exploring with an open mind signals willingness to reconsider before judgment, the owner’s attitude decision.",
+      "blockerOrNextGate": "Source pairs open eyes with an open mind; distinguish attentive observation from openness and avoid accepting a bare open-mind substring without context."
+    },
+    {
+      "rank": 14,
+      "confidence": "medium-high",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 4697,
+          "sourceId": "book10-16-2586",
+          "sourceExpression": "evolve with the times",
+          "exactSourceSentence": "Hotels must evolve with the times.",
+          "sourceSense": "Adapt to changing conditions; a fixed expression.",
+          "currentHoldReason": "Evolve with the times has the same adapt-to-change outcome as provisional owner 3715 move with the times. Hold for lexical-variant or distinct-construction decision before creating a second lesson.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4692-4715.jsonl",
+          "decisionFileSha256": "481e53fc19077be362fdbee8a227c7b38b41c1b5805b28c5e4b83d8e4d249c22",
+          "decisionRowCanonicalSha256": "4c58b20683906ae434fd3b0e5acc4e6c214265a3a729e225e9c1197093d250ee",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-3715",
+      "ownerTitle": "move with the times",
+      "ownerMeaning": "Adapt one’s practices to changing technology, needs or social expectations while keeping the underlying purpose.",
+      "ownerTargetPattern": "\\b(?:move|moves|moved|moving) with the times\\b",
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-3702-3715-a.json",
+      "ownerFileSha256": "f6b121e19a42ca0a3ca0098a304a870db137eddd2bf2356c7ce49c80ff536673",
+      "ownerObjectCanonicalSha256": "f90c3afac8249d6b2e922a9e4332e3528d1d175a8c42a112ee609f7053f0addb",
+      "sourceToOwnerSenseEvidence": "Hotels evolving with the times and the owner’s move with the times both mean adapting practice to changed conditions.",
+      "blockerOrNextGate": "Different fixed verbs may merit distinct lexical teaching; check course ownership policy and inflection before broadening the owner."
+    },
+    {
+      "rank": 15,
+      "confidence": "medium-high",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 4693,
+          "sourceId": "book10-16-2582",
+          "sourceExpression": "live on reputation forever",
+          "exactSourceSentence": "A city cannot live on reputation forever.",
+          "sourceSense": "Rely indefinitely on past fame; a fixed sustenance metaphor.",
+          "currentHoldReason": "Live on reputation forever extends a sustenance metaphor in bespoke phrasing; check stable target. Provisional editorial decision; independent review remains open.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4692-4715.jsonl",
+          "decisionFileSha256": "481e53fc19077be362fdbee8a227c7b38b41c1b5805b28c5e4b83d8e4d249c22",
+          "decisionRowCanonicalSha256": "00be577f0b452d6bbceeb7cf0d88dc9d7231a50a20f923133fa49f73b187b18a",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-2009",
+      "ownerTitle": "live on reputation alone",
+      "ownerMeaning": "Depend on an established reputation for continuing support, rather than demonstrate the current work on which that support could also be based.",
+      "ownerTargetPattern": "\\bliv(?:e|es|ed|ing) on reputation alone\\b",
+      "ownerFile": "course-materials/advanced-native/batches/batch-2001-2025.json",
+      "ownerFileSha256": "818f2f78501c23aa1b9ce1f2df10f3d2cdc61242376faa028b291e0b94968077",
+      "ownerObjectCanonicalSha256": "fe8162518251ba62f9f880d6fca9e2369c2889f05ca4bbb4afc9e9cdc0e9e1db",
+      "sourceToOwnerSenseEvidence": "A city unable to live on reputation forever warns that past fame cannot substitute indefinitely for current work, close to the owner’s reliance warning.",
+      "blockerOrNextGate": "Forever concerns duration while owner alone concerns exclusive dependence. Preserve this nuance; do not equate a good reputation with zero current value."
+    },
+    {
+      "rank": 16,
+      "confidence": "medium-high",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 3993,
+          "sourceId": "book10-16-1882",
+          "sourceExpression": "more rounded rather than one-dimensional",
+          "exactSourceSentence": "The resulting training becomes more rounded rather than one-dimensional.",
+          "sourceSense": "Developing several abilities rather than only one; a shape metaphor.",
+          "currentHoldReason": "Rounded rather than one-dimensional is descriptive quality contrast with unclear idiom unit. Provisional editorial decision; independent review remains open.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3972-4031.jsonl",
+          "decisionFileSha256": "173adb496634bc355f677c8699e2e43fa795bddc36856d6eab8d6d9ffb2d5b72",
+          "decisionRowCanonicalSha256": "9d0ff2ce58eb8d976abdbe5d347671438be6efe99c78bc2deadaed32656117b7",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-313",
+      "ownerTitle": "well-rounded",
+      "ownerMeaning": "Developed in several useful abilities, interests or aspects rather than only one.",
+      "ownerTargetPattern": "\\bwell[- ]rounded\\b",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0301-0325.json",
+      "ownerFileSha256": "a27ef6e055b8dd34a51a93438c21d6c4f2e6022ef2a90432c6ac2325027b4698",
+      "ownerObjectCanonicalSha256": "74f165d5a9e50c49dff1cc72c1b87e9488483700000f504b65015221fd3b23d4",
+      "sourceToOwnerSenseEvidence": "More rounded training develops several abilities rather than one, the owner’s well-rounded quality decision.",
+      "blockerOrNextGate": "Source uses rounded without well and contrasts one-dimensional; test a bounded adjective variant without matching literal rounded shapes."
+    },
+    {
+      "rank": 17,
+      "confidence": "conditional",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 2759,
+          "sourceId": "book10-16-0648",
+          "sourceExpression": "something electric about",
+          "exactSourceSentence": "There is something electric about a small live concert.",
+          "sourceSense": "An exciting quality that feels energetic; electricity is figurative.",
+          "currentHoldReason": "Potential overlap with canonical 1062 the electricity of the moment in an exciting event sense; compare adjective construction and general quality versus a charged moment before assigning owner.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+          "decisionFileSha256": "3ab486f50083d297f6980bb2f4037afcaafe5aa369f3500610b786727a43d1f1",
+          "decisionRowCanonicalSha256": "b940c061a2e2d093168e23b603e4e20a3a3dc7389c86e743d457135a6585cd1f",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-1062",
+      "ownerTitle": "the electricity of the moment",
+      "ownerMeaning": "The intense shared excitement or charged feeling of a particular event as it happens.",
+      "ownerTargetPattern": "\\bthe electricity of the moment\\b",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1051-1075.json",
+      "ownerFileSha256": "54f8b2f982f99cba4cc50ef6c380c010e7300c9a70a2c4e3718411b9bd20bc44",
+      "ownerObjectCanonicalSha256": "f448f7506051d6bf2a1e23f9848abf252099c55f3cb4020f8d57eabb9efa6df2",
+      "sourceToOwnerSenseEvidence": "Something electric about a small concert describes the charged shared excitement taught by the owner.",
+      "blockerOrNextGate": "Adjective construction and noun electricity of the moment differ; require a stable target and ensure the source is experiential rather than electrical."
+    },
+    {
+      "rank": 18,
+      "confidence": "conditional",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 2946,
+          "sourceId": "book10-16-0835",
+          "sourceExpression": "family ties alive",
+          "exactSourceSentence": "The annual meal keeps family ties alive.",
+          "sourceSense": "Continuing connections among relatives; ties and life are figurative.",
+          "currentHoldReason": "Family ties alive overlaps canonical warm-ties sense with different imagery; a distinct lesson seems doubtful. Provisional editorial decision; independent review remains open.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+          "decisionFileSha256": "a7011b8b9a3350e6f5f207e7a550d3387c22ee9c8990ef822b29da759b7549cc",
+          "decisionRowCanonicalSha256": "8a5046e4c64ba1e0549c6b13ab4073f050307408ffc74126024083c21e964ce1",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-1523",
+      "ownerTitle": "keep relationships / family ties warm",
+      "ownerMeaning": "Maintain affection or emotional closeness in personal relationships, including family ties.",
+      "ownerTargetPattern": "(?:\\b(?:keep(?:ing|s)?|kept)\\s+(?:their\\s+relationships|family\\s+ties)\\s+warm\\b)|(?:\\b(?:keep|keeps|keeping|kept) relationships warm\\b)",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "ownerFileSha256": "71a1a0c3969ea1dd0b3a43a0e1a530a10ba61f0e57a4b767dad929a567403a63",
+      "ownerObjectCanonicalSha256": "a57e9ffd4bb19158c582a61799477ecb10e0bed8f896cbe9848d5e09915761d1",
+      "sourceToOwnerSenseEvidence": "An annual meal keeping family ties alive preserves personal closeness, the owner’s relationship-maintenance outcome.",
+      "blockerOrNextGate": "Warm and alive are different images; make this a single learner decision only if assessed scenes can teach both without generic metaphor overreach."
+    },
+    {
+      "rank": 19,
+      "confidence": "conditional",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 3005,
+          "sourceId": "book10-16-0894",
+          "sourceExpression": "more like a wall than a bridge",
+          "exactSourceSentence": "Their conversation felt more like a wall than a bridge.",
+          "sourceSense": "Creating separation instead of understanding; paired building metaphors.",
+          "currentHoldReason": "More like a wall than a bridge is a bespoke comparison of separation and connection, not one fixed unit. Provisional editorial decision; independent review remains open.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2952-3011.jsonl",
+          "decisionFileSha256": "04aa7bf80d4920dcfd3755ee85e864439561c7221fa68624d7aa2c21166842cb",
+          "decisionRowCanonicalSha256": "2fd936550f0a1f03c19a1b270315b172c7914e74edfc16705adaa36a6fffc712",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-992",
+      "ownerTitle": "less like a wall and more like a bridge",
+      "ownerMeaning": "Describe something as becoming less of a barrier and more of a way to connect or make progress.",
+      "ownerTargetPattern": "\\bless like a wall and more like a bridge\\b",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0976-1000.json",
+      "ownerFileSha256": "0d5948ebc90c8b6daa9c329e04cdf0cbb62f0b81297d7f2d33e2d7b50c9bf636",
+      "ownerObjectCanonicalSha256": "d2ea66af0e288cba1d0aa19dd6b03462d3aea9bf8b5cd444470d1e3b3391bf2c",
+      "sourceToOwnerSenseEvidence": "A conversation felt like a wall rather than a bridge: separation rather than connection, the inverse of the owner’s wall-to-bridge judgment.",
+      "blockerOrNextGate": "Source is a bespoke reversed comparison; verify a natural fixed unit and do not claim an actual transition toward connection."
+    },
+    {
+      "rank": 20,
+      "confidence": "conditional",
+      "proposedAction": "same-sense owner variant review; no alias approved",
+      "sources": [
+        {
+          "sourceOrdinal": 4483,
+          "sourceId": "book10-16-2372",
+          "sourceExpression": "given the chance to breathe",
+          "exactSourceSentence": "Traditional makers should be given the chance to breathe.",
+          "sourceSense": "Allowed room to adapt and develop; a breathing metaphor.",
+          "currentHoldReason": "Given the chance to breathe is an extended personification of traditional makers; confirm reusable wording. Provisional editorial decision; independent review remains open.",
+          "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+          "decisionFileSha256": "bbccfbd136984523d970102b31c7b35fb4bfc8c8071a3bcc0ea961e5b639311e",
+          "decisionRowCanonicalSha256": "93b0aa91662ea7da3a26bd859a74f16daa06075b008fcb791979e743b67b6c78",
+          "currentOwnerPatternMatchesFullSource": false,
+          "currentOwnerMatchedSpan": null
+        }
+      ],
+      "proposedOwnerId": "advanced-native-307",
+      "ownerTitle": "room to breathe",
+      "ownerMeaning": "Enough time, freedom or space to ease pressure and act without feeling overly constrained.",
+      "ownerTargetPattern": "(?:\\broom to breathe\\b)|(?:\\bspace to breathe\\b)",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0301-0325.json",
+      "ownerFileSha256": "a27ef6e055b8dd34a51a93438c21d6c4f2e6022ef2a90432c6ac2325027b4698",
+      "ownerObjectCanonicalSha256": "a18104d12265b20437a57794cc9f8e47dbe771b48e52cb49dd3e02ce2bd7dbdc",
+      "sourceToOwnerSenseEvidence": "Giving traditional makers a chance to breathe implies room or freedom to adapt, the owner’s relief-from-pressure sense.",
+      "blockerOrNextGate": "Source is personification, not the exact room-to-breathe idiom; require a supported pressure/constraint context and a bounded natural target."
+    }
+  ],
+  "summary": {
+    "high": 5,
+    "mediumHigh": 11,
+    "conditional": 4,
+    "directAliasesApproved": 0,
+    "newLessonsRecommendedWithoutFurtherGate": 0,
+    "currentFullSourceDetectorMatches": 1,
+    "currentFullSourceDetectorMisses": 21
+  },
+  "excludedExamples": [
+    {
+      "sourceOrdinal": 2322,
+      "reason": "Source paint it in black and white is not a standard binary-judgment construction despite overlapping owner meaning."
+    },
+    {
+      "sourceOrdinal": 2234,
+      "reason": "Created a ripple in water across the team is awkward syntax; lexical ripple overlap is insufficient."
+    },
+    {
+      "sourceOrdinal": 3634,
+      "reason": "Holding a child’s hand on a school journey can be literal, unlike the owner’s figurative guidance."
+    },
+    {
+      "sourceOrdinal": 3390,
+      "reason": "Local flavour of pastries may be literal taste; cannot infer the owner’s place-character sense."
+    },
+    {
+      "sourceOrdinal": 3860,
+      "reason": "Symptoms and roots mixes images; target unit and seven distinct decisions remain unresolved."
+    },
+    {
+      "sourceOrdinal": 4596,
+      "reason": "Long roof/occupied-house image is a bespoke analogy, not an established independent teaching unit."
+    }
+  ],
+  "limitations": [
+    "This is an AI read-only prioritization, not human editorial approval or release clearance.",
+    "A full-source regex match is a technical signal only and cannot settle sense; every variant needs bounded detector, answer-key and bilingual review before decision mutation.",
+    "No selected lesson, source decision, SOP audit or public site was modified."
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "reportType": "author-read-only-ten-held-source-reconciliation",
+  "createdUtc": "2026-10-24T01:05:51.283123+00:00",
+  "scope": [
+    3928,
+    3990,
+    4094,
+    4154,
+    4308,
+    4389,
+    4431,
+    4468,
+    4473,
+    4480
+  ],
+  "selectedManifestSha256": "7928f7c6e19bfd703c122c03ecd6e04fc789a407cca8be34e36f93632eb8c497",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "counts": {
+    "reviewed": 10,
+    "conditionalOwnerProposals": 2,
+    "retainedHolds": 8,
+    "newLessonsDrafted": 0
+  },
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-3990-4094-proposed-b.json",
+  "proposalSha256": "1bc40c4eacdb3358793a8e47c96ec942a58ce248e75fb934bfc7f0113954fe99",
+  "proposalBuildAndCheck": "2 lessons, 12 questions, 8 audio requests, 0 flags",
+  "primaryUsageEvidence": {
+    "wearThin": "https://dictionary.cambridge.org/dictionary/english/wear-thin",
+    "stumbleLiteral": "https://dictionary.cambridge.org/dictionary/english/stumble"
+  },
+  "items": [
+    {
+      "sourceOrdinal": 3928,
+      "sourceId": "book10-16-1817",
+      "sourceQuestion": "Do you think the types of sports that are popular will change in the future?",
+      "expression": "social fabric",
+      "exactSourceSentence": "Volunteers strengthen the social fabric.",
+      "sourceMeaning": "The network of relationships that holds a society together; a fixed fabric metaphor.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3912-3971.jsonl",
+      "decisionFileSha256": "1cd256bb57c09ccca9017daa811d650ae13cb0594cd78dafda2a6e73c478410f",
+      "recommendation": "retain-hold-editorial",
+      "comparedOwners": [
+        {
+          "id": 1357,
+          "title": "knit the social fabric back together",
+          "path": "course-materials/advanced-native/batches/batch-1351-1375.json",
+          "sha256": "892cc4d158497385839e2189591cf47fed2002c60ab4e0bf5728e0cc888e89e4",
+          "targetPattern": "\\bknit(?:s|ted|ting)? the social fabric back together\\b",
+          "fullSourceMatch": false
+        },
+        {
+          "id": 1717,
+          "title": "keeps the social fabric from coming apart",
+          "path": "course-materials/advanced-native/batches/batch-1701-1725.json",
+          "sha256": "be64c87c9f9394ad39b20111f2c70ce8613a670d5418e980c4662767b2751b6f",
+          "targetPattern": "\\bkeep(?:s|ing)? the social fabric from coming apart\\b|\\bkept the social fabric from coming apart\\b",
+          "fullSourceMatch": false
+        }
+      ],
+      "reason": "Bare social fabric means community ties. Owner1357 restores cohesion after division; owner1717 prevents ties from coming apart. Strengthen is improvement rather than either restoration or preservation; simply adding a noun detector would erase the action distinction."
+    },
+    {
+      "sourceOrdinal": 3990,
+      "sourceId": "book10-16-1879",
+      "sourceQuestion": "What kind of puzzles improve people's intelligence?",
+      "expression": "look ahead",
+      "exactSourceSentence": "Good players look ahead before moving.",
+      "sourceMeaning": "Consider future moves or consequences; a natural phrasal verb.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3972-4031.jsonl",
+      "decisionFileSha256": "20c6f2125ee3f9c243bb81bd2b1c6a6ed1aec8a780899918d2ae903e5e0dde5c",
+      "recommendation": "conditional-owner-proposal",
+      "comparedOwners": [
+        {
+          "id": 913,
+          "title": "think a few steps ahead",
+          "path": "course-materials/advanced-native/batches/batch-0901-0925.json",
+          "sha256": "11d397334d3a108e586ba2081fa51e754571b9914c15a02966d16cdd0587571a",
+          "targetPattern": "\\b(?:think|thinks|thinking|thought) a few steps ahead\\b",
+          "fullSourceMatch": false
+        }
+      ],
+      "reason": "Puzzle players look ahead before moving to anticipate future moves, the same planning decision as owner913. The proposal teaches the shorter phrasal form and assesses it in a different room-use context; source is not mere literal gaze in its puzzle question.",
+      "proposalLessonSha256": "88709f49b0637fc86c3e6c7a0d51fbae088d202378b9e0ad0222383c71591604",
+      "proposalTargetPattern": "\\b(?:think|thinks|thinking|thought) a few steps ahead\\b|\\b(?:look|looks|looked|looking) ahead before (?:moving|choosing|planning|acting|setting up)\\b",
+      "proposalFullSourceMatch": true,
+      "changedAudioRoles": "none; assessed scene and brief/provenance only"
+    },
+    {
+      "sourceOrdinal": 4094,
+      "sourceId": "book10-16-1983",
+      "sourceQuestion": "Is it hard for students to learn new skills?",
+      "expression": "stumbling around in the dark",
+      "exactSourceSentence": "At first, I felt like I was stumbling around in the dark.",
+      "sourceMeaning": "Proceeding with little knowledge or confidence; a darkness metaphor.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl",
+      "decisionFileSha256": "a943469ab3dce749726bb8c56af9e3076f369917475f8cbb9d46aeb61d174345",
+      "recommendation": "conditional-owner-proposal",
+      "comparedOwners": [
+        {
+          "id": 1916,
+          "title": "grope in the dark",
+          "path": "course-materials/advanced-native/batches/batch-1901-1925.json",
+          "sha256": "2c2785448554a725dcf005ce1d7866d26abd89005c1023cce371f3512122af0b",
+          "targetPattern": "\\bgrop(?:e|es|ed|ing) in the dark\\b|\\bguess(?:es|ed|ing)? in the dark\\b|\\b(?:work|works|worked|working) in the dark\\b",
+          "fullSourceMatch": false
+        }
+      ],
+      "reason": "Source simile describes early uncertain learning with too little guidance, within owner1916’s information-gap metaphor. Proposal retains the felt-like simile and pairs pronoun/be grammar, avoiding the standalone literal stumbled in darkness.",
+      "proposalLessonSha256": "df53913011ff168d55e6d4dfdc6bf0cf5769e572c8cce49359c564ed7ca1281a",
+      "proposalTargetPattern": "\\bgrop(?:e|es|ed|ing) in the dark\\b|\\bguess(?:es|ed|ing)? in the dark\\b|\\b(?:work|works|worked|working) in the dark\\b|\\b(?:feel|feels|felt|feeling) like (?:I (?:am|was)|you (?:are|were)|we (?:are|were)|they (?:are|were)|he (?:is|was)|she (?:is|was)) stumbling around in the dark(?=[,.!?;:]|$)",
+      "proposalFullSourceMatch": true,
+      "changedAudioRoles": "none; assessed scene and brief/provenance only"
+    },
+    {
+      "sourceOrdinal": 4154,
+      "sourceId": "book10-16-2043",
+      "sourceQuestion": "Can technology help people remember things better? How?",
+      "expression": "switch off",
+      "exactSourceSentence": "During a dull lecture, the mind can switch off.",
+      "sourceMeaning": "Stop paying attention or thinking actively; a figurative phrasal verb.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4152-4211.jsonl",
+      "decisionFileSha256": "bc2f35af779a85244c45e5ad62bcf423d1fcc1ad3b23242a58e1471fc267216c",
+      "recommendation": "retain-hold-editorial",
+      "comparedOwners": [
+        {
+          "id": 1487,
+          "title": "switch off straight away",
+          "path": "course-materials/advanced-native/batches/batch-1476-1500.json",
+          "sha256": "3d5d7386d7821e2478d695698bd04cfe56a29896d60e9849285833a3f121e08c",
+          "targetPattern": "\\bswitch(?:es|ed|ing)?\\s+off\\s+straight\\s+away\\b",
+          "fullSourceMatch": false
+        },
+        {
+          "id": 375,
+          "title": "switch off",
+          "path": "course-materials/advanced-native/batches/batch-0351-0375.json",
+          "sha256": "54f81bdf9c3bece9553c930afe857ad5ce6854f3ecbd117c605a3e641f631763",
+          "targetPattern": "\\bswitch(?:es|ed|ing)? off\\b",
+          "fullSourceMatch": true
+        }
+      ],
+      "reason": "This source mind switches off from a dull lecture: attention lapses without any straight-away onset. Owner1487 teaches immediate disengagement; owner375 teaches relaxation after work. A bare switch-off detector would collide with the relaxation sense; a substantial timing/attention rewrite needs separate editorial acceptance."
+    },
+    {
+      "sourceOrdinal": 4308,
+      "sourceId": "book10-16-2197",
+      "sourceQuestion": "What influence can international cooperation in science bring about?",
+      "expression": "plant the seeds of long-term cooperation",
+      "exactSourceSentence": "Student exchanges plant the seeds of long-term cooperation.",
+      "sourceMeaning": "Create conditions for future partnership; a fixed gardening metaphor.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4272-4331.jsonl",
+      "decisionFileSha256": "d4ae9a6867cf2a6f343089e1b5c007dc4288596787dd2045874f8024a51e2c25",
+      "recommendation": "retain-hold-editorial",
+      "comparedOwners": [
+        {
+          "id": 22,
+          "title": "plant a seed in their mind",
+          "path": "course-materials/advanced-native/batches/batch-0011-0025.json",
+          "sha256": "0cb2202b5e60a0b17c3b2d844953ff1f3ae5f2e7d0334119f9adcd3438b70deb",
+          "targetPattern": "\\b(?:plant|plants|planted|planting) (?:a|the) seed(?: in (?:my|your|his|her|our|their) minds?)?\\b",
+          "fullSourceMatch": false
+        },
+        {
+          "id": 1733,
+          "title": "small seeds often grow into strong habits",
+          "path": "course-materials/advanced-native/batches/batch-1726-1750.json",
+          "sha256": "95472b588c7cbe056856681c7156c38c282b15e94ef928357d9dc3bbb7aeb9de",
+          "targetPattern": "\\bsmall seeds often grow into strong habits\\b",
+          "fullSourceMatch": false
+        }
+      ],
+      "reason": "Plant seeds of cooperation means establish conditions for later partnership. Owner22 plants an idea in a mind; owner1733 describes small acts becoming habits. Shared gardening image alone does not make the same learner decision."
+    },
+    {
+      "sourceOrdinal": 4389,
+      "sourceId": "book10-16-2278",
+      "sourceQuestion": "What may happen when someone listens to very loud music using headphones while they are running or hiking?",
+      "expression": "cut them off from",
+      "exactSourceSentence": "Loud music can cut them off from birdsong.",
+      "sourceMeaning": "Separate them from an experience; a natural phrasal verb.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4332-4391.jsonl",
+      "decisionFileSha256": "29fd435ab9750dbc40a553bb3c0aa5d6144fe9eea4bd1bfcfad1a2631703d639",
+      "recommendation": "retain-hold-editorial",
+      "comparedOwners": [
+        {
+          "id": 648,
+          "title": "cut off from opportunity",
+          "path": "course-materials/advanced-native/batches/batch-0626-0650.json",
+          "sha256": "5d8bb571c91e79e4dc504e28e9a2d244f0abfd50069c5269591ea362c95a7881",
+          "targetPattern": "\\bcut(?:s|ting)? off from (?:the |an )?opportunit(?:y|ies)\\b",
+          "fullSourceMatch": false
+        },
+        {
+          "id": 1347,
+          "title": "cut off from others",
+          "path": "course-materials/advanced-native/batches/batch-1326-1350.json",
+          "sha256": "0b36e3369eb92464d25bb6ebb1064147d13e6a0af43c6d48a43741725df9306d",
+          "targetPattern": "\\bcut off from (?:others|the world|the digital world)\\b",
+          "fullSourceMatch": false
+        }
+      ],
+      "reason": "Music cuts people off from hearing birdsong, a sensory-experience loss. Owner648 blocks opportunities; owner1347 concerns social/digital disconnection. Broader cut-off form is idiomatic but would erase the distinct lost object without a reviewed new teaching design."
+    },
+    {
+      "sourceOrdinal": 4431,
+      "sourceId": "book10-16-2320",
+      "sourceQuestion": "In what situations do you think people need to, or should, apologise?",
+      "expression": "wear a relationship thin",
+      "exactSourceSentence": "Repeated cancellations can wear a relationship thin.",
+      "sourceMeaning": "Gradually weaken a relationship; a fabric metaphor.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4392-4451.jsonl",
+      "decisionFileSha256": "ea25bb1eec6c5374159fe0cce1038e0337ac53f794f2d811e4c3396af64a4039",
+      "recommendation": "retain-hold-editorial",
+      "comparedOwners": [
+        {
+          "id": 1863,
+          "title": "wear thin",
+          "path": "course-materials/advanced-native/batches/batch-1851-1875.json",
+          "sha256": "2a945c4d4699d6735bdf2c27429f7c7560c9df0d5829948bc0b88118adca166c",
+          "targetPattern": "\\b(?:wear(?:s|ing)?|wore|worn) thin\\b",
+          "fullSourceMatch": false
+        }
+      ],
+      "reason": "Source wears a relationship thin transitively. Owner1863 and Cambridge wear-thin entry are intransitive: patience, a joke or an excuse wears thin. The source is an unusual creative causative application; a detector change would certify unnatural grammar."
+    },
+    {
+      "sourceOrdinal": 4468,
+      "sourceId": "book10-16-2357",
+      "sourceQuestion": "Do you think there are benefits of traditional products to locals?",
+      "expression": "pass it on",
+      "exactSourceSentence": "Grandparents can pass it on to their children.",
+      "sourceMeaning": "Transfer a tradition or item to others; a natural phrasal verb.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionFileSha256": "bbccfbd136984523d970102b31c7b35fb4bfc8c8071a3bcc0ea961e5b639311e",
+      "recommendation": "retain-hold-editorial",
+      "comparedOwners": [
+        {
+          "id": 1326,
+          "title": "pass on values and stories",
+          "path": "course-materials/advanced-native/batches/batch-1326-1350.json",
+          "sha256": "0b36e3369eb92464d25bb6ebb1064147d13e6a0af43c6d48a43741725df9306d",
+          "targetPattern": "\\bpass(?:es|ed|ing)? on (?:our |their |his |her |the )?(?:values|experience and tradition|stories)\\b|\\bpass(?:es|ed|ing)? (?:our |their |his |her |the )?(?:values|experience and tradition) on\\b|\\bpass(?:es|ed|ing)? (?:those |the )stories on\\b|\\bpass(?:es|ed|ing)? (?:knowledge on|on knowledge)\\b",
+          "fullSourceMatch": false
+        }
+      ],
+      "reason": "Pass it on can mean a tradition, an item, or knowledge, but the source sentence does not resolve it. Owner1326 teaches transmission of values/stories/knowledge with specified object. Without an identified antecedent, a generic it branch is not a grounded same-sense alias."
+    },
+    {
+      "sourceOrdinal": 4473,
+      "sourceId": "book10-16-2362",
+      "sourceQuestion": "Do you think the government should help in the promotion of traditional products?",
+      "expression": "pushed aside by cheap mass-produced goods",
+      "exactSourceSentence": "Local crafts can be pushed aside by cheap mass-produced goods.",
+      "sourceMeaning": "Displaced by inexpensive factory items; a natural phrasal verb.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionFileSha256": "bbccfbd136984523d970102b31c7b35fb4bfc8c8071a3bcc0ea961e5b639311e",
+      "recommendation": "retain-hold-editorial",
+      "comparedOwners": [
+        {
+          "id": 287,
+          "title": "pushed to the margins",
+          "path": "course-materials/advanced-native/batches/batch-0276-0300.json",
+          "sha256": "9d89b133bfc56577e7529b966a3d3d43f2f3a6e6cd778cc0c668158d99cacaff",
+          "targetPattern": "\\b(?:push|pushes|pushed|pushing)(?: quietly)? to the (?:margins|sidelines|side)\\b",
+          "fullSourceMatch": false
+        }
+      ],
+      "reason": "Local crafts being pushed aside by cheaper goods is market displacement. Owner287 teaches loss of voice/attention in a discussion or cultural programme. Related marginalisation image, but different mechanism and object; do not merge through a broad pushed-aside detector."
+    },
+    {
+      "sourceOrdinal": 4480,
+      "sourceId": "book10-16-2369",
+      "sourceQuestion": "Do you think the government should help in the promotion of traditional products?",
+      "expression": "tell its story",
+      "exactSourceSentence": "A museum helps the city tell its story.",
+      "sourceMeaning": "Present its history and identity; a fixed storytelling metaphor.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionFileSha256": "bbccfbd136984523d970102b31c7b35fb4bfc8c8071a3bcc0ea961e5b639311e",
+      "recommendation": "retain-hold-editorial",
+      "comparedOwners": [
+        {
+          "id": 672,
+          "title": "tell a story",
+          "path": "course-materials/advanced-native/batches/batch-0651-0675.json",
+          "sha256": "581672263430bc0bc00fe16c57173a2cfe950474f7c5ffa089e0c37ef5a2c945",
+          "targetPattern": "\\btell(?:s|ing)? a story\\b|\\btold a story\\b",
+          "fullSourceMatch": false
+        },
+        {
+          "id": 2002,
+          "title": "tell a different story",
+          "path": "course-materials/advanced-native/batches/batch-2001-2025.json",
+          "sha256": "818f2f78501c23aa1b9ce1f2df10f3d2cdc61242376faa028b291e0b94968077",
+          "targetPattern": "\\btell(?:s|ing)? a different story\\b|\\btold a different story\\b",
+          "fullSourceMatch": false
+        }
+      ],
+      "reason": "Museum helps a city tell its story, a curatorial account of history and identity. Owner672 has objects/details themselves suggest a story; owner2002 contrasts data with an earlier claim. None teaches this agentive city/museum construction; no bounded same-sense alias is ready."
+    }
+  ],
+  "mutations": "Only the read-only proposal and this author audit were written; selected canonical files, decisions, manifest, audit, media and release unchanged.",
+  "proposalDetectorControls": {
+    "owner913": {
+      "positive": [
+        "Good planners think a few steps ahead.",
+        "Good players look ahead before moving.",
+        "We can look ahead before setting up the exhibition."
+      ],
+      "negative": [
+        "Look ahead at the road before moving.",
+        "Looked ahead in the car.",
+        "Think two steps ahead."
+      ],
+      "results": "3/3 positive matched, 3/3 negative rejected; full Books 10–16 source hit only 3990."
+    },
+    "owner1916": {
+      "positive": [
+        "At first, I felt like I was stumbling around in the dark.",
+        "Without an example, I feel like I am stumbling around in the dark.",
+        "Investigators were working in the dark until the records arrived."
+      ],
+      "negative": [
+        "He stumbled around in the dark hallway.",
+        "I felt like I was stumbling around in the dark bedroom.",
+        "I feel like she are stumbling around in the dark."
+      ],
+      "results": "3/3 positive matched, 3/3 negative rejected; full source hits prior 0738/1185 and new 4094."
+    }
+  },
+  "proposalLimitations": "Owner913 source puzzle context establishes future-move planning; a decontextualized look ahead before moving can still describe physical gaze. Owner1916 new branch requires the source-style felt-like simile and grammatical subject/be pair, but figurative-vs-literal sense remains a contextual editorial judgment."
+}

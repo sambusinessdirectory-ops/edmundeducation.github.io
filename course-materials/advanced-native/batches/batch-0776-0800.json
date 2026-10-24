@@ -2137,9 +2137,9 @@
       "titleEn": "keep more doors open",
       "titleZh": "保留更多未來選擇",
       "category": "idiom",
-      "contentRevision": 3,
+      "contentRevision": 4,
       "target": {
-        "pattern": "(?:\\b(?:keep|keeps|keeping|kept) more doors open\\b)|(?:\\b(?:leave|leaves|left|leaving) the door open\\b)|(?:\\bmore doors (?:stay|stays|stayed) open\\b)",
+        "pattern": "(?:\\b(?:keep|keeps|keeping|kept) more doors open\\b)|(?:\\b(?:leave|leaves|left|leaving) the door open\\b)|(?:\\bmore doors (?:stay|stays|stayed) open\\b)|(?:\\b(?:keep|keeps|keeping|kept) (?:the|that) door wide open\\b)",
         "glossaryForbidden": [
           "\\bdoors open\\b"
         ]
@@ -2199,16 +2199,30 @@
           "sentence": "Strong basic skills mean more doors stay open.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "more doors stay open"
+        },
+        {
+          "occurrenceId": "book10-16-0563",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 52,
+          "book": 11,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "28–29",
+          "locatorNote": "DOCX table 47, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The school should keep that door wide open for beginners.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep that door wide open"
         }
       ],
       "brief": {
-        "meaningEn": "Preserve one or several possible future choices rather than deciding every option now.",
-        "meaningZh": "保留一個或多個未來選擇，而非現在就把所有可能性定死。",
-        "grammar": "Keep more doors open or let more doors stay open describes preserving several future options. Leave the door open for something preserves one particular possibility; none guarantees success or means leaving physical doors unlocked.",
-        "register": "Figurative option-preservation pattern, distinct from opening a new door to a particular opportunity.",
-        "boundaryZh": "不是拖延每項決定，也不保證將來每條路都有成果；要解釋保留哪些選擇。",
-        "misconceptionZh": "學得較廣可能保留方向，但仍須顧及時間及必要先修條件。",
-        "outcomeZh": "能把具體選擇與保留的未來方向連起來。"
+        "meaningEn": "Preserve one or several possible future choices or routes of access rather than closing them now.",
+        "meaningZh": "保留一個或多個未來選擇或參與途徑，而非現在就把它們關閉。",
+        "grammar": "Keep more doors open or let more doors stay open describes preserving several future options. Leave the door open for something and keep the/that door wide open for someone preserve one particular option or access route; wide emphasizes access, not a guarantee of a place. This differs from opening a new door to create an opportunity.",
+        "register": "Figurative option-preservation pattern. A course adviser may discuss several future paths; a community workshop organiser may discuss keeping one beginner route available. Neither expression means leaving a physical door unlocked.",
+        "boundaryZh": "保留一條現有途徑與開創新機會不同；門繼續敞開不保證人人獲得名額。若保留多條路，也要說明實際入門條件。",
+        "misconceptionZh": "保留選擇不等於無限期拖延決定；維持新手途徑亦須核實課程仍有合適名額與支援。",
+        "outcomeZh": "能區分保留多個未來選擇與維持一條已有的參與途徑，並避免把途徑當成成果保證。"
       },
       "listening": {
         "promptEn": "",
@@ -2269,27 +2283,27 @@
         "explanationZh": "四句均合理解釋暫時保留兩科；金句不表示永不決定。"
       },
       "scene": {
-        "promptEn": "",
-        "promptZh": "學生仍考慮兩個相關學位，選擇兩者都接受的先修科，並定期檢視負擔。哪句貼切？",
+        "promptEn": "A community repair workshop has long offered an introductory session that requires no previous tool experience. Its organisers consider replacing that session with an advanced class, but decide to retain one beginner session each month. Which sentence best describes the decision?",
+        "promptZh": "社區維修工作坊一直設有毋須先有工具使用經驗的入門課。主辦方考慮以進階班取代它，但最後決定每月保留一節新手班。哪句最能描述這個決定？",
         "options": [
           {
             "id": "choice-1",
-            "en": "The plan helps her keep more doors open while she explores the two paths.",
-            "zh": "這個計劃幫她探索兩條路時，保留更多選擇。"
+            "en": "They keep the door wide open for newcomers by retaining a session that needs no prior experience.",
+            "zh": "他們保留毋須先有經驗的課堂，讓新來者仍有參與途徑。"
           },
           {
             "id": "choice-2",
-            "en": "The plan closes off both degree routes before she can compare them.",
-            "zh": "這個計劃在她比較前，就關閉兩個學位路向。"
+            "en": "Keeping an introductory session means every newcomer is guaranteed a place, regardless of capacity.",
+            "zh": "保留入門課就代表不論名額限制，每位新來者都保證有位。"
           },
           {
             "id": "choice-3",
-            "en": "She has already chosen one degree and removed all preparation for the other.",
-            "zh": "她已選定一個學位，並取消另一個的所有準備。"
+            "en": "The workshop now requires previous tool experience before any newcomer can join.",
+            "zh": "工作坊現在要求每位新來者先有工具使用經驗，才可參加。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "共同先修科保留兩條路，不是關閉路向或已刪除其中一條。"
+        "explanationZh": "保留入門課令新來者仍有參與途徑，但不保證所有人都有名額；也沒有改成一律要求先有經驗。"
       },
       "contrast": {
         "promptEn": "",
@@ -2413,8 +2427,8 @@
           "zh": "彈性培訓可幫畢業生保留更多選擇。"
         },
         {
-          "en": "With broad basic training, more doors stay open while learners compare possible careers.",
-          "zh": "有較廣泛的基礎訓練，學員比較不同職業時便可保留更多選擇。"
+          "en": "Keeping the door wide open for beginners preserves a route into the workshop without promising every applicant a place.",
+          "zh": "為新手保留參與途徑，不等於承諾每位申請者都有名額。"
         }
       ],
       "review": {

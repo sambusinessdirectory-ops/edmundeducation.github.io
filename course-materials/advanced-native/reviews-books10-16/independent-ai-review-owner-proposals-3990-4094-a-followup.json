@@ -1,0 +1,31 @@
+{
+  "reportType": "independent-exact-hash-scoped-followup",
+  "status": "both-owner-proposals-content-clear-for-coordinated-integration",
+  "proposal": {
+    "path": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-3990-4094-proposed-b.json",
+    "sha256": "b5a6a5402aa50a8149f53c51e666f3023f08cf104174950af9ce0da83f7f05a4"
+  },
+  "authorRepairAudit": {
+    "path": "course-materials/advanced-native/reviews-books10-16/author-scoped-repair-owner-proposals-3990-4094-b.json",
+    "sha256": "c8b99a7223dbb06c6e46ccdea07e392491fc25766cb8347059827f836f3a9c4d"
+  },
+  "priorIndependentReportSha256": "fde3db94a0086f372c2ad01bb52c224f8c84ba5e89f6784d3424d5598a9d5b62",
+  "closedFindings": [
+    {
+      "id": "R3990-01",
+      "evidence": "Owner913 scene.key Chinese now says the exhibition team restores tables before the next class starts, matching the English key and prompt."
+    },
+    {
+      "id": "R4094-01",
+      "evidence": "All four owner1916 listening choices and three contrast choices now have English in .en and faithful Traditional Chinese in .zh; IDs and keyed choices are unchanged."
+    },
+    {
+      "id": "R4094-02",
+      "evidence": "Owner1916's two revised scene foils are plausible but inferior local decisions: incorrectly using the ordinary-item field or replaying already understood basics instead of seeking the missing damaged-item example. Both align with Chinese."
+    }
+  ],
+  "unchangedSourceAndDetectorVerdict": "3990 look ahead before moving fits owner913 forward planning; 4094 felt like I was stumbling around in the dark fits owner1916's uncertainty from insufficient knowledge or guidance. All recorded source sentences and both scene keys match their bounded target patterns; no new source/owner concern emerged.",
+  "validation": "Fresh independent focused build and --check: 2 lessons, 12 questions, 8 audio requests, 0 review flags.",
+  "integrationBoundary": "Proposal content clearance only. Source decisions, selected owner files, manifest and media remain unchanged. Assessed scene and bilingual option text changed, but no proposed audio text changed; exact combined queue should determine any later media delta.",
+  "reviewLimit": "AI source/content review, not human approval, physical-device QA, actual listening, or release certification."
+}

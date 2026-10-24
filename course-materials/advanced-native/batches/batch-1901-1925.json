@@ -3087,12 +3087,12 @@
       "id": "advanced-native-1916",
       "number": 1916,
       "inventoryId": "expr-1916",
-      "contentRevision": 3,
+      "contentRevision": 4,
       "titleEn": "grope in the dark",
       "titleZh": "缺乏資訊或指引，摸索着進行",
       "category": "idiom",
       "target": {
-        "pattern": "\\bgrop(?:e|es|ed|ing) in the dark\\b|\\bguess(?:es|ed|ing)? in the dark\\b|\\b(?:work|works|worked|working) in the dark\\b"
+        "pattern": "\\bgrop(?:e|es|ed|ing) in the dark\\b|\\bguess(?:es|ed|ing)? in the dark\\b|\\b(?:work|works|worked|working) in the dark\\b|\\b(?:feel|feels|felt|feeling) like (?:I (?:am|was)|you (?:are|were)|we (?:are|were)|they (?:are|were)|he (?:is|was)|she (?:is|was)) stumbling around in the dark(?=[,.!?;:]|$)"
       },
       "sources": [
         {
@@ -3136,13 +3136,27 @@
           "sentence": "Investigators were working in the dark until the records arrived.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "working in the dark"
+        },
+        {
+          "occurrenceId": "book10-16-1983",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 187,
+          "book": 15,
+          "question": 25,
+          "sample": "S1",
+          "sourceBookPages": "59–61",
+          "locatorNote": "DOCX table 203, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "At first, I felt like I was stumbling around in the dark.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stumbling around in the dark"
         }
       ],
       "brief": {
-        "meaningEn": "Try to understand, answer or proceed without enough information, examples or guidance.",
-        "meaningZh": "缺乏足夠資訊、例子或指引時，嘗試理解、作答或繼續做。",
-        "grammar": "Grope, guess or work in the dark can describe proceeding without needed information or guidance. Work in the dark stresses continuing a task despite the gap; guessing stresses an attempted answer without evidence. Specify what information is missing rather than implying the person lacks ability.",
-        "register": "Neutral figurative wording. A teacher may say students are guessing in the dark when notes omit examples; investigators can be working in the dark until records arrive. Literal darkness is a separate context.",
+        "meaningEn": "Try to understand, answer or proceed without enough information, examples or guidance. Stumbling around in the dark can also stress the uncertain early stage of learning.",
+        "meaningZh": "缺乏足夠資訊、例子或指引時，嘗試理解、作答或繼續做；stumbling around in the dark 亦可強調初學時摸索不定。",
+        "grammar": "Grope, guess, or work in the dark describes proceeding without needed information. The source simile uses feel/felt like + subject + be + stumbling around in the dark; pair the subject and be form grammatically. Specify what guidance is missing rather than implying a lack of ability.",
+        "register": "Neutral figurative wording. A learner may say they felt like they were stumbling around in the dark at first without examples; investigators may be working in the dark until records arrive. Literal physical darkness is separate.",
         "boundaryZh": "不熟悉或摸索不等於能力差，也不保證一定失敗；已有部分資料時，應說清仍欠哪一部分。",
         "misconceptionZh": "不熟悉或摸索不等於能力差，也不保證一定失敗；已有部分資料時，應說清仍欠哪一部分。",
         "outcomeZh": "理解「缺乏資訊或指引，摸索着進行」的語境及用法，並在新情境寫出自然句子。"
@@ -3154,23 +3168,23 @@
         "options": [
           {
             "id": "choice-1",
-            "en": "小組欠缺評核依據，所以不知道修改方向。",
-            "zh": ""
+            "en": "The group lacked the assessment criteria, so they did not know which changes to make.",
+            "zh": "小組欠缺評核依據，所以不知道修改方向。"
           },
           {
             "id": "choice-2",
-            "en": "小組已完全理解評核依據，只是不願修改。",
-            "zh": ""
+            "en": "The group fully understood the assessment criteria but did not want to revise its work.",
+            "zh": "小組已完全理解評核依據，只是不願修改。"
           },
           {
             "id": "choice-3",
-            "en": "老師已逐項示範所有改動，小組正在照做。",
-            "zh": ""
+            "en": "The teacher had demonstrated every change, and the group was following those steps.",
+            "zh": "老師已逐項示範所有改動，小組正在照做。"
           },
           {
             "id": "choice-4",
-            "en": "小組已有註記樣本，現在只在商議怎樣分工修改。",
-            "zh": ""
+            "en": "The group had an annotated sample and was only deciding how to divide the revisions.",
+            "zh": "小組已有註記樣本，現在只在商議怎樣分工修改。"
           }
         ],
         "answerId": "choice-1",
@@ -3209,40 +3223,40 @@
         "options": [
           {
             "id": "choice-1",
-            "en": "I am still working in the dark on damaged-item cases, even though the ordinary registration is clear to me.",
-            "zh": "雖然普通登記我已明白，破損物品個案方面我仍因缺少資料而摸索。"
+            "en": "Without a damaged-item example, I feel like I am stumbling around in the dark, even though ordinary registration is clear to me.",
+            "zh": "沒有破損物品的例子，我在這類情況上仍只能摸索，雖然我已明白一般登記。"
           },
           {
             "id": "choice-2",
-            "en": "I have not understood any part of the registration, including the ordinary entries.",
-            "zh": "我沒有理解任何登記部分，包括普通項目。"
+            "en": "I could put the damaged item in the ordinary-item field, since I know that part of the form.",
+            "zh": "我可把破損物品填進一般物品欄，因為我熟悉表格這部分。"
           },
           {
             "id": "choice-3",
-            "en": "The account says the damaged-item example has already been provided and understood.",
-            "zh": "敘述說破損物品例子已提供，也已被理解。"
+            "en": "I could ask for another walkthrough of the whole form before trying the damaged-item entry.",
+            "zh": "我可先請人再講解整份表格，然後才嘗試填寫破損物品資料。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "限定實際缺口，不抹去已有理解，也不把未有例子說成已示範。"
+        "explanationZh": "新人已懂一般登記，卻欠缺破損項目的具體例子；他只在這部分摸索，並非所有登記都不懂。"
       },
       "contrast": {
         "promptZh": "哪種推論不宜由 groping in the dark 得出？",
         "options": [
           {
             "id": "choice-1",
-            "en": "缺乏足夠指引而在摸索。",
-            "zh": ""
+            "en": "They are trying to proceed without enough guidance.",
+            "zh": "缺乏足夠指引而在摸索。"
           },
           {
             "id": "choice-2",
-            "en": "這個描述主要在評判本人的能力，而不是可用資訊。",
-            "zh": ""
+            "en": "The expression mainly judges the person’s ability, rather than the information available.",
+            "zh": "這個描述主要在評判本人的能力，而不是可用資訊。"
           },
           {
             "id": "choice-3",
-            "en": "可問哪種例子或資料會幫助。",
-            "zh": ""
+            "en": "They could ask which example or information would help.",
+            "zh": "可問哪種例子或資料會幫助。"
           }
         ],
         "answerId": "choice-2",

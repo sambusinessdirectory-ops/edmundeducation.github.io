@@ -2689,9 +2689,9 @@
       "titleEn": "think a few steps ahead",
       "titleZh": "行動前多想幾步後果",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\b(?:think|thinks|thinking|thought) a few steps ahead\\b",
+        "pattern": "\\b(?:think|thinks|thinking|thought) a few steps ahead\\b|\\b(?:look|looks|looked|looking) ahead before (?:moving|choosing|planning|acting|setting up)\\b",
         "glossaryForbidden": [
           "\\ba few steps ahead\\b"
         ]
@@ -2709,14 +2709,28 @@
           "sentence": "Good planners think a few steps ahead.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "think a few steps ahead"
+        },
+        {
+          "occurrenceId": "book10-16-1879",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 177,
+          "book": 15,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "30–31",
+          "locatorNote": "DOCX table 191, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Good players look ahead before moving.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "look ahead"
         }
       ],
       "brief": {
-        "meaningEn": "Consider likely next consequences or needs before acting.",
-        "meaningZh": "行動前考慮接下來可能後果或需要。",
-        "grammar": "think a few steps ahead before + action; thought for past; steps represent stages, not necessarily literal footsteps.",
-        "register": "Conventional planning metaphor; a few is approximate and does not promise exact prediction.",
-        "boundaryZh": "不等於知道未來，也不要求把每種可能都規劃完才動；應指出相關下一步。",
+        "meaningEn": "Consider likely next consequences or needs before acting; look ahead or think a few steps ahead describes this forward planning, not certain prediction.",
+        "meaningZh": "行動前考慮下一步可能後果或需要；look ahead 和 think a few steps ahead 都可表示向前規劃，而非準確預言。",
+        "grammar": "Think a few steps ahead, or look ahead before + action (moving, choosing, planning, acting or setting up). Thought/looked mark past time. Ahead refers to later needs, not necessarily a literal direction of gaze or footsteps.",
+        "register": "Neutral planning advice: a puzzle player considers the next move before acting, or an organiser anticipates how the next group will use a shared room. Name the later need; leave room for revision.",
+        "boundaryZh": "look ahead 在此指預想下一步，不是單純把眼睛望向前方；不等於知道未來，也不要求把每種可能都規劃完才動。",
         "misconceptionZh": "規劃需留調整，不把一個預計當一定發生。",
         "outcomeZh": "能指出當前行動與後續需要，並準備可行緩衝。"
       },
@@ -2784,8 +2798,8 @@
         "options": [
           {
             "id": "choice-1",
-            "en": "I am thinking a few steps ahead by allowing time to restore the classroom.",
-            "zh": "我預留復原課室時間，多想幾步後果。"
+            "en": "We can look ahead before setting up the exhibition: the next class will need the tables restored.",
+            "zh": "我們可在佈置展覽前先想想下一班的需要：我們須在他們上課前把桌椅恢復原位。"
           },
           {
             "id": "choice-2",
@@ -2799,7 +2813,7 @@
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "先考慮下一班需要，才可安排還原；不是先定布局後才問，也不是留下現場等別人適應。"
+        "explanationZh": "先顧及下一班上課需要並預留復原時間，才是向前規劃；這不等於日期或其他安排不用再查。"
       },
       "contrast": {
         "promptEn": "",

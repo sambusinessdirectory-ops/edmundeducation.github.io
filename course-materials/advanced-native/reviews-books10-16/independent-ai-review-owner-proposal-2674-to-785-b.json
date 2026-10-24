@@ -1,0 +1,20 @@
+{
+  "reportType": "independent-ai-read-only-owner-proposal-review",
+  "createdUtc": "2026-10-24T01:05:15.849619+00:00",
+  "authorProposal": "course-materials/advanced-native/reviews-books10-16/proposals/owner-785-source-2674-proposed-a.json",
+  "authorProposalSha256": "3bd2b88f553b5530b4f7a77436c15c4267cc1e0dd2fe0bbf141f38dec9f9839e",
+  "authorAudit": "course-materials/advanced-native/reviews-books10-16/author-owner-proposal-2234-2966-a.json",
+  "authorAuditSha256": "4b3b17083012c61e03598d0609e56f09b0c5848102c2903115dda58c65184464",
+  "selectedOwnerBeforePath": "course-materials/advanced-native/batches/batch-0776-0800.json",
+  "selectedOwnerBeforeSha256": "072206c7097689ac85077c2861cf78233e8655bcdb79b2ba341ec6e847a911cb",
+  "sourceOrdinal": 2674,
+  "sourceId": "book10-16-0563",
+  "exactSourceSentence": "The school should keep that door wide open for beginners.",
+  "verdict": "accept-proposal-content-only",
+  "sense": "In the music-school question, the figurative door is an existing beginner route kept accessible. Owner785 already contrasts preserving future options with guaranteeing outcomes, and its prior singular leave-the-door-open branch also preserves one route. Owner28 creates a new opening, so it is not the better owner.",
+  "detector": "The proposed keep/keeps/keeping/kept + the/that door wide open branch matches the full source and changed scene/takeaway. Three author negatives reject; prior owner source forms still match. A physically open door can also match, as with the pre-existing leave the door open branch, so the surrounding figurative access context remains essential.",
+  "assessments": "Scene key describes retention of a beginner class and avoids guaranteeing places. English/Traditional Chinese prompt, options, explanation and takeaway preserve the same access-versus-guarantee distinction; answer IDs unchanged. One takeaway-2 audio role changes if integrated.",
+  "provenance": "Exact source occurrence, sentence, expression and DOCX locator are appended.",
+  "limits": "Read-only proposal clearance; no selected canonical or decision edit, audio generation, listening, release or publication claim.",
+  "blockers": []
+}

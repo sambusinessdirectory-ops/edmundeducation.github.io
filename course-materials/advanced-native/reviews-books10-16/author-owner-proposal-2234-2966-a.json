@@ -1,0 +1,85 @@
+{
+  "reportType": "scoped-held-source-owner-reconciliation",
+  "status": "one-read-only-proposal; seven-retain-hold; independent-review-pending",
+  "scope": {
+    "sourceOrdinals": [2234, 2322, 2349, 2674, 2759, 2942, 2946, 2966],
+    "sourceInventory": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "ownerScreen": "All discovered canonical and draft target patterns were tested against each complete source sentence. The only live hit before proposal was owner309 on embedded black and white in source2322; the carrier itself is not taught there."
+  },
+  "proposedMerge": {
+    "sourceOrdinal": 2674,
+    "sourceId": "book10-16-0563",
+    "exactSourceSentence": "The school should keep that door wide open for beginners.",
+    "ownerId": "advanced-native-785",
+    "ownerTitle": "keep more doors open",
+    "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-785-source-2674-proposed-a.json",
+    "proposalSha256": "3bd2b88f553b5530b4f7a77436c15c4267cc1e0dd2fe0bbf141f38dec9f9839e",
+    "originalOwnerPath": "course-materials/advanced-native/batches/batch-0776-0800.json",
+    "originalOwnerSha256": "072206c7097689ac85077c2861cf78233e8655bcdb79b2ba341ec6e847a911cb",
+    "senseComparison": "The source preserves an existing beginner access route. Owner785 already includes the singular leave the door open for one future possibility as well as plural future paths. Both require identifying what remains possible rather than claiming an outcome; owner28 instead concerns creating a new opportunity.",
+    "boundedChange": "Add only keep/keeps/keeping/kept + the/that door wide open, with exact source provenance. Brief distinguishes one existing access route from several future options and from a guaranteed place. A new keyed scene assesses the single-route case in an original workshop setting while retaining the five assessment answer IDs. Takeaway 2 supplies a second non-source teaching example.",
+    "validation": {
+      "focusedBuildAndCheck": "1 lesson, 6 questions, 4 audio roles, 0 flags",
+      "fullSourceHits": [2674, 3223, 3356, 3880],
+      "newBranchHitsOnlySource": [2674],
+      "sourceAndKeyAndTakeawayMatched": true,
+      "negativeControls": ["The teacher opened the door to science.", "The programme kept every door partly open.", "We keep that window wide open."],
+      "unchangedAnswerIds": true
+    },
+    "mediaDeltaIfIntegrated": "takeaway-2 English changes; regenerate/check its exact audio key after integration",
+    "caveat": "A target detector cannot alone disambiguate a physical door; the assessed context explicitly establishes figurative access. Independent reviewer should check whether the singular-route form belongs in owner785 despite its plural title."
+  },
+  "retainedHolds": [
+    {
+      "sourceOrdinal": 2234,
+      "sourceId": "book10-16-0123",
+      "exactSourceSentence": "One kind gesture created a ripple in water across the team.",
+      "nearOwner": "advanced-native-1692",
+      "reason": "Owner1692 teaches a natural explicit like a ripple in water simile; the source mixes created a ripple in water with across the team. Its full sentence misses the owner detector, and adding that awkward carrier would certify an unsupported form. Notably, the source sentence is already listed in owner1692 provenance despite this unresolved ownership; review that inconsistency separately."
+    },
+    {
+      "sourceOrdinal": 2322,
+      "sourceId": "book10-16-0211",
+      "exactSourceSentence": "We should not paint it in black and white when both plans have merits.",
+      "nearOwner": "advanced-native-309",
+      "reason": "The binary-judgment sense resembles owner309 and its regex hits embedded black and white, but paint it in black and white is an awkward carrier that can suggest literal painting. Owner309 assesses be/not be black and white and black-and-white before a noun, not this construction; a substring hit is insufficient for an alias."
+    },
+    {
+      "sourceOrdinal": 2349,
+      "sourceId": "book10-16-0238",
+      "exactSourceSentence": "The speech was all fireworks and not much substance.",
+      "nearOwner": "advanced-native-2961",
+      "reason": "The show-versus-value judgment overlaps owner2961, but all fireworks and not much substance is a different creative spectacle image and is absent from its detector and assessments. Neither source nor owner establishes the full wording as a stable variant; do not merge by paraphrase alone."
+    },
+    {
+      "sourceOrdinal": 2759,
+      "sourceId": "book10-16-0648",
+      "exactSourceSentence": "There is something electric about a small live concert.",
+      "nearOwner": "advanced-native-1062",
+      "reason": "The source attributes an exciting quality to the concert generally. Owner1062 teaches the intense shared electricity of a particular moment, including a quiet anticipation. Related image and domain, but different adjective/noun construction and time scope; the source misses the bounded detector."
+    },
+    {
+      "sourceOrdinal": 2942,
+      "sourceId": "book10-16-0831",
+      "exactSourceSentence": "If the food is late, the mood can unravel.",
+      "nearOwner": "advanced-native-1425",
+      "reason": "Owner1425 covers a plan, arrangement or partnership starting to unravel as connected parts fail. The source uses an unusual mood subject and lacks start; neither the construction nor the same concrete coherence decision is established. Keep held rather than broaden the detector to bare unravel."
+    },
+    {
+      "sourceOrdinal": 2946,
+      "sourceId": "book10-16-0835",
+      "exactSourceSentence": "The annual meal keeps family ties alive.",
+      "nearOwner": "advanced-native-1523",
+      "reason": "Keeping ties alive establishes continued contact or existence; owner1523 keep family ties warm specifically requires affection and emotional closeness. The annual meal does not itself establish warmth, so a warm/alive merge would erase an assessed distinction."
+    },
+    {
+      "sourceOrdinal": 2966,
+      "sourceId": "book10-16-0855",
+      "exactSourceSentence": "The ceremony was all glitter and no substance.",
+      "nearOwner": "advanced-native-2961",
+      "reason": "The attractive-surface-versus-value judgment resembles owner2961, but all glitter and no substance is a different image not taught or detected by more show than substance. It might merit a separate naturalness/teachable-unit review, but no safe alias follows from semantic paraphrase alone."
+    }
+  ],
+  "mutations": "Only this author audit and the read-only proposal JSON were written; no selected owner, editorial decision, manifest, audio, Golden SOP audit, or release file was changed."
+}

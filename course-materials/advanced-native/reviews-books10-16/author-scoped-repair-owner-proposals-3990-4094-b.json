@@ -1,0 +1,46 @@
+{
+  "reportType": "proposal-only-scoped-author-repair",
+  "createdUtc": "2026-10-24T01:13:37.922396+00:00",
+  "status": "ready-for-independent-exact-hash-followup",
+  "proposal": {
+    "path": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-3990-4094-proposed-b.json",
+    "sha256": "b5a6a5402aa50a8149f53c51e666f3023f08cf104174950af9ce0da83f7f05a4",
+    "previousSha256": "1bc40c4eacdb3358793a8e47c96ec942a58ce248e75fb934bfc7f0113954fe99"
+  },
+  "basis": {
+    "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-proposals-3990-4094-a.json",
+    "independentReviewSha256": "fde3db94a0086f372c2ad01bb52c224f8c84ba5e89f6784d3424d5598a9d5b62"
+  },
+  "repairs": [
+    {
+      "finding": "R3990-01",
+      "owner": 913,
+      "path": "scene.options[choice-1].zh",
+      "result": "Chinese now says exhibition team must restore desks before the next class starts; English key and answer ID unchanged."
+    },
+    {
+      "finding": "R4094-01",
+      "owner": 1916,
+      "path": "listening.options[*].en/.zh; contrast.options[*].en/.zh",
+      "result": "All seven inherited Chinese-in-English options now have natural English text and faithful Traditional Chinese; IDs and answer keys unchanged."
+    },
+    {
+      "finding": "R4094-02",
+      "owner": 1916,
+      "path": "scene.options[choice-2,choice-3].en/.zh",
+      "result": "Foils now give plausible but inferior local guidance decisions: using familiar ordinary-item field or replaying the whole form instead of requesting a damaged-item example."
+    }
+  ],
+  "validation": {
+    "focusedBuild": "2 lessons, 12 questions, 8 audio requests, 0 flags",
+    "focusedCheck": "passed",
+    "sourcePatternChecks": {
+      "owner913AllRecordedSources": true,
+      "owner1916AllRecordedSources": true,
+      "revisedSceneKeysMatch": true
+    },
+    "bilingualAssessedOptions": "all seven repaired pairs have non-empty English and Chinese; no CJK text remains in their .en fields",
+    "audioTextDeltaFromPreviousProposal": false
+  },
+  "scope": "Proposal only. No selected owner, decision, manifest, audio, release or audit-checklist mutation."
+}
