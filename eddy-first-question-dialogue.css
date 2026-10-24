@@ -2,7 +2,7 @@
   position: fixed;
   inset: 0;
   z-index: 2147483000;
-  background: rgba(12, 17, 28, .38);
+  background: rgba(10, 15, 27, .58);
 }
 .eddy-first-question-dismiss {
   display: flex;
