@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "batchId": "proposal-owner-873-source-3239-a",
+  "lessons": [
+    {
+      "id": "advanced-native-873",
+      "number": 873,
+      "inventoryId": "expr-0873",
+      "titleEn": "think straight",
+      "titleZh": "清楚有條理地思考",
+      "category": "idiom",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:think|thinks|thinking|thought)\\s+straight(?:er)?\\b",
+        "glossaryForbidden": [
+          "\\bstraight\\b",
+          "\\bstraighter\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p080-t2-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 80,
+          "book": 3,
+          "question": 49,
+          "sample": "S1",
+          "sourceBookPages": "135–136",
+          "sentence": "A short break helps me think straight.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "think straight"
+        },
+        {
+          "occurrenceId": "book10-16-1128",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 105,
+          "book": 12,
+          "question": 38,
+          "sample": "S2",
+          "sourceBookPages": "91–93",
+          "locatorNote": "DOCX table 108, row 13; page refers to locally rendered PDF in intake summary. Source question: What kind of advice do friends give each other?",
+          "sentence": "A calm conversation helped me think straighter.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "think straighter"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Think clearly and make sense of a situation, especially when pressure or emotion makes that difficult; think straighter compares improved clarity with an earlier, less clear state.",
+        "meaningZh": "清楚思考、理解情況，尤其在壓力或情緒令這點較難時；think straighter 表示比先前想得較清楚。",
+        "grammar": "Can/cannot think straight; was not thinking straight. Use think/thinks/thought/are thinking straighter for a comparative improvement in mental clarity after a pause, explanation or calm exchange; it does not mean the final decision is necessarily correct.",
+        "register": "Conventional spoken clarity expression; straight refers to mental clarity, not necessarily agreement or honesty.",
+        "boundaryZh": "think straight 描述清楚思考；think straighter 只表示比先前較清楚，不保證已知道正確答案。暫時想不清楚也不等於永遠能力差或故意說謊。",
+        "misconceptionZh": "要分清目前心情、資料及長期能力，不能只因不同意就指人想不清楚。",
+        "outcomeZh": "能分清當下思路不清與其後比較清楚的變化，並在改善後仍審慎查證和決定。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "說話者遇到甚麼困難？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The conflicting information made it hard to organise thoughts at that moment.",
+            "zh": "衝突資料令當時難整理思路。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The speaker had already established that one particular person was lying.",
+            "zh": "說話者已確立某個特定人說謊。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Every arrangement was clear and agreed, so no clarification was needed.",
+            "zh": "每項安排都清楚議定，不需釐清。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The speaker is refusing to consider the messages because a final answer has already been chosen.",
+            "zh": "說話者因最後答案早已選定，就拒絕考慮訊息。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "衝突訊息令當時難整理，所以暫停列出已確認安排；不是已選答案而拒看、安排本來全清楚，或已確立誰說謊。",
+        "en": "With three conflicting messages arriving at once, I could not think straight, so I paused and wrote down which arrangements had actually been confirmed.",
+        "zh": "三則互相衝突訊息同時到來，我無法清楚思考，所以停一停，寫下哪些安排真正已確認。"
+      },
+      "reply": {
+        "promptEn": "Why did you pause before answering the conflicting messages?",
+        "promptZh": "回覆互相衝突訊息前，你為甚麼停一停？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I needed to separate confirmed arrangements from inconsistent claims.",
+            "zh": "我需把已確認安排與不一致說法分開。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I could not think straight with all three messages arriving together.",
+            "zh": "三則訊息一起到，我無法清楚思考。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I wanted to organise what I actually knew before replying.",
+            "zh": "回覆前，我想整理真正知道甚麼。"
+          },
+          {
+            "id": "choice-4",
+            "en": "A written list could help me see which details still needed checking.",
+            "zh": "清單可幫我看哪些詳情仍需核對。"
+          }
+        ],
+        "goldenId": "choice-2",
+        "explanationZh": "四句都給暫停與整理的理由，不把不同說法直接判成說謊。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "米拉受到意外批評後，原本把兩項活動的安排混在一起。她和同伴冷靜談過、列出各自時段後，現在較能比較兩個方案，但仍未作最後決定。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Mira can think straighter about the two plans now, though she still needs to choose between them.",
+            "zh": "米拉現在能較清楚比較兩個方案，但仍需在兩者之間作出選擇。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The calmer exchange proves that one plan is already the right choice.",
+            "zh": "這次較冷靜的談話證明其中一個方案已是正確選擇。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Listing the times made no difference to how clearly she could compare the plans.",
+            "zh": "列出時段後，她比較方案時的思路並沒有變得較清楚。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "冷靜談話及列出時段後，她比先前較能比較方案；think straighter 表示相對改善，不表示已選定或證明某方案正確。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪個推論不宜只憑 cannot think straight 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A person is struggling to organise thoughts in the current situation.",
+            "zh": "當事人在目前情況，難整理思路。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The speaker has deliberately withheld facts from the other people.",
+            "zh": "說話者故意向其他人隱瞞事實。"
+          },
+          {
+            "id": "choice-3",
+            "en": "More context is needed to understand what is making the situation difficult.",
+            "zh": "要更多情境，才了解困難原因。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "想不清楚描述思路狀態，不單憑它確立故意隱瞞；仍需情境了解困難。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "同伴因你說「暫時想不清楚」，就要你立刻承諾一個影響全組的答案。你想先查衝突安排。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I cannot think straight with these conflicting details; let me confirm the arrangements before I promise an answer for everyone.",
+            "zh": "資料互相衝突，我想不清楚；讓我先確認安排，再替全組承諾答案。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Treat the most recent message as correct simply because it arrived last.",
+            "zh": "只因最後到，就把最新訊息當正確。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Make a firm commitment now and leave the conflicting details for someone else to discover later.",
+            "zh": "現在先作確實承諾，把衝突詳情留給別人稍後發現。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先釐清再承諾，回應已知資料衝突；到達先後或先答應，都不能替代查核。"
+      },
+      "speaking": {
+        "en": "I need a moment to think straight before I give an answer that affects the whole group.",
+        "zh": "給影響全組的答案前，我需一點時間清楚思考。",
+        "promptZh": "你想禮貌爭取整理思路的空間。先聽，再說。",
+        "targetSpan": {
+          "start": 19,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：熱鬧派對仍有幾組人同時交談，你想替翌日表演比較兩段開場音樂，卻因聲音太多難理清差別。你請同伴到安靜處再聽，不直接選聲量最大的一段。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "I cannot think straight with several conversations going on around us. Could we move somewhere quiet and compare the two pieces before choosing the opening music?",
+            "zh": "周圍幾組對話同時進行，我無法清楚思考。可否到安靜處，比較兩段音樂，再選開場曲？"
+          },
+          {
+            "en": "I need a quieter place to think straight about the opening music. Let us listen to both pieces instead of choosing whichever sounds loudest here.",
+            "zh": "我需較安靜地方，清楚思考開場音樂。讓我們聽兩段，而非選在這裏聽來最大聲的。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "several conversations",
+            "zh": "幾組對話",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 50
+            }
+          },
+          {
+            "en": "somewhere quiet",
+            "zh": "安靜地方",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 100
+            }
+          },
+          {
+            "en": "compare the two pieces",
+            "zh": "比較兩段音樂",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 127
+            }
+          },
+          {
+            "en": "opening music",
+            "zh": "開場音樂",
+            "exampleIndex": 0,
+            "span": {
+              "start": 148,
+              "end": 161
+            }
+          },
+          {
+            "en": "listen to both pieces",
+            "zh": "聽兩段音樂",
+            "exampleIndex": 1,
+            "span": {
+              "start": 73,
+              "end": 94
+            }
+          }
+        ],
+        "selfCheckZh": "說明環境多重對話令當時難比較，請求安靜處重新聆聽；不把最大聲當最合適，也不從一時分心推論永久能力。"
+      },
+      "takeaways": [
+        {
+          "en": "I could not think straight until I separated the confirmed facts from the guesses.",
+          "zh": "分開已確認事實及猜測前，我無法清楚思考。"
+        },
+        {
+          "en": "Give me a moment to think straight before I answer.",
+          "zh": "回答前，給我一點時間清楚思考。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Think-straight clarity sense self-reviewed, separating current thought organisation from dishonesty or permanent ability. Final writing concerns noisy party conversations interfering with comparing opening music, requesting a quieter place and listening to both pieces; exact glossary spans checked."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Proposal-only comparative source variant; original owner/decision files unchanged. Existing audio text and keyed IDs retained; independent review required before integration."
+      }
+    }
+  ]
+}

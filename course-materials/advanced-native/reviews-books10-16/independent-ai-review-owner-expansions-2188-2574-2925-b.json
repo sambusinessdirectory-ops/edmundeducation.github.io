@@ -1,0 +1,52 @@
+{
+  "reportType": "independent-proposal-only-owner-expansion-review",
+  "proposalFile": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-2188-2574-2925-proposed-a.json",
+  "proposalSha256": "f4ac4d88910622102b27d1e6116776636d90b53bf7cef3fa479f4ec4c641e7b9",
+  "authorAuditFile": "course-materials/advanced-native/reviews-books10-16/author-proposal-owner-expansions-2188-2574-2925-a.json",
+  "authorAuditSha256": "61ffcb726be7f2191fd2f4d610dad7f1394e9971f7b95a82e83b6650453bf710",
+  "overallVerdict": "content-clear-proposal-only",
+  "focusedBuildAndCheck": {
+    "lessons": 3,
+    "questions": 18,
+    "audioRoles": 12,
+    "reviewFlags": 0,
+    "passed": true
+  },
+  "checks": {
+    "allThreeOwnerBaselineFileHashesMatchedAuthorAudit": true,
+    "allThreeFullSourceSentencesMatchedProposedDetectors": true,
+    "allExistingAssessedOptionIdsAndCorrectIdsPreserved": true,
+    "allFourEnglishAudioRoleTextsPerOwnerUnchanged": true,
+    "sourceProvenanceAppendedExactly": true,
+    "decisionAndManifestFilesEditedByReviewer": false
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 2188,
+      "ownerId": "advanced-native-463",
+      "sourceSentence": "A freelancer who draws a line around their time can protect evenings for family.",
+      "verdict": "accept-with-nonblocking-usage-note",
+      "reason": "The source-attested around-their-time extension sets an availability boundary, which is the same practical boundary decision as the earlier between construction. The new club teaching-hour scene specifies the protected family time; its keyed English and Chinese express that limit without implying all club contact ends. The dialogue keeps the established between construction and an urgent-contact exception. The detector matches the full new source and bounded possessive-time controls while rejecting the tested literal clock/calendar forms.",
+      "usageNote": "Draw a line around my time is less conventional than draw a line between work and family. The proposed brief correctly labels it a source-attested extension rather than a general fixed idiom. The inherited between branch still matches a literal geometric line and therefore continues to require context review; this proposal does not introduce that false positive.",
+      "blockingFindings": []
+    },
+    {
+      "sourceOrdinal": 2574,
+      "ownerId": "advanced-native-2458",
+      "sourceSentence": "Parents should not let a device run the child's day.",
+      "verdict": "accept",
+      "reason": "Run the child's day and run their life both describe a tool displacing human choice. The proposed scene establishes compelled rescheduling of family dinner, so the keyed schedule-running-her-day inference is grounded; Chinese conveys the same loss of control. The detector covers the source's transitive day variant while excluding the tested literal run-all-day/day-camp forms. Key and audio identities remain stable.",
+      "blockingFindings": []
+    },
+    {
+      "sourceOrdinal": 2925,
+      "ownerId": "advanced-native-1468",
+      "sourceSentence": "A small dinner can mark a moment beautifully.",
+      "verdict": "accept",
+      "reason": "Mark a moment and mark something meaningful both refer to commemorating a valued occasion. The proposed scene establishes a completed family milestone and the keyed gathering, with faithful Traditional Chinese. The detector matches the complete source and rejects the tested grading, calendar, page-marking and mark-time controls. Question IDs, correct IDs and English audio remain unchanged.",
+      "nonblockingNote": "The two scene foils are fairly easy, but they remain coherent wrong readings of the completed milestone and do not alter the existing grading contract.",
+      "blockingFindings": []
+    }
+  ],
+  "scope": "Independent review of proposal data only. This is AI content clearance for coordinated integration, not selection, media approval, database application or publication."
+}

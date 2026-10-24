@@ -1,0 +1,829 @@
+{
+  "schemaVersion": 1,
+  "batchId": "proposal-owner-expansions-2188-2574-2925-a",
+  "lessons": [
+    {
+      "id": "advanced-native-463",
+      "number": 463,
+      "inventoryId": "expr-0463",
+      "titleEn": "draw a line between",
+      "titleZh": "在兩者之間訂明界線",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:draw(?:s|ing)?|drew|drawn)\\s+a\\s+line\\s+(?:between\\b|around\\s+(?:my|your|his|her|our|their)\\s+time\\b(?!\\s+on\\s+(?:(?:a|the)\\s+)?(?:chart|calendar)\\b))",
+        "glossaryForbidden": [
+          "\\ba line between\\b",
+          "\\ba line around\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Set a boundary that keeps two areas of life or activity from intruding on one another.",
+        "meaningZh": "訂明界線，避免生活或活動的兩個範圍互相侵佔。",
+        "grammar": "Draw a line between two named areas of life or draw a line around my/your/his/her/our/their time to set a practical limit on availability; drew/has drawn. In the around form, say what time is protected and from which demand.",
+        "register": "Established boundary metaphor. Around their time is a source-attested extension for protecting availability; it is not a literal line around a clock or a claim that all contact must stop.",
+        "boundaryZh": "between 可分清兩項活動的界線；around their time 強調保護可用時間。兩者都需交代具體安排，也可保留真正急事的聯絡途徑，不表示完全切斷聯繫。",
+        "misconceptionZh": "可明定回訊息時段及真正急事的處理，不必把界線說成所有聯絡都禁止。",
+        "outcomeZh": "能清楚提出具體界線及必要安排。"
+      },
+      "sources": [
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 23,
+          "expression": "draw a line between",
+          "sentence": "She had to draw a line between work and family time.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 2,
+          "question": 23,
+          "sample": "S2",
+          "locatorNote": "PDF page 23, table 1, row 10; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p023-t1-r10"
+        },
+        {
+          "occurrenceId": "book10-16-0077",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 8,
+          "book": 10,
+          "question": 6,
+          "sample": "S2",
+          "sourceBookPages": "15–17",
+          "locatorNote": "DOCX table 6, row 11; page refers to locally rendered PDF in intake summary. Source question: Do you think it is easy to manage your time in the modern world?",
+          "sentence": "A freelancer who draws a line around their time can protect evenings for family.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "draws a line around their time"
+        }
+      ],
+      "listening": {
+        "en": "I drew a line between work and family time by leaving routine messages until the next morning, while giving the duty colleague a separate number for urgent problems.",
+        "zh": "我把例行訊息留翌晨，為工作與家庭時間訂明界線；同時給當值同事另一號碼處理急事。",
+        "promptZh": "說話者怎樣實際訂界線？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Routine messages wait; urgent problems have a separate contact route.",
+            "zh": "例行訊息等候，急事另有聯絡途徑。"
+          },
+          {
+            "id": "b",
+            "en": "All work contact is refused regardless of urgency.",
+            "zh": "不論急不急，所有工作聯絡都拒絕。"
+          },
+          {
+            "id": "c",
+            "en": "Family time is used to clear routine messages before urgent calls.",
+            "zh": "家庭時間先清例行訊息，再接急事電話。"
+          },
+          {
+            "id": "d",
+            "en": "The colleague takes over all of the speaker’s work permanently.",
+            "zh": "同事永久接手說話者全部工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "例行留翌晨，急事有另一號碼，界線具體而非完全斷聯。"
+      },
+      "reply": {
+        "promptZh": "你怎樣避免例行工作佔去家庭時間？",
+        "promptEn": "How do you stop routine work from taking over family time?",
+        "options": [
+          {
+            "id": "a",
+            "en": "I leave routine messages until morning and provide a separate route for urgent matters.",
+            "zh": "例行訊息留早上，急事另有途徑。"
+          },
+          {
+            "id": "b",
+            "en": "I draw a line between work and family time by separating routine replies from urgent contact.",
+            "zh": "我把例行回覆與急事聯絡分開，為工作與家庭時間訂界線。"
+          },
+          {
+            "id": "c",
+            "en": "I do not clear the ordinary message queue during family time.",
+            "zh": "家庭時間不清一般訊息隊列。"
+          },
+          {
+            "id": "d",
+            "en": "The duty colleague knows how to reach me for urgent issues without using the routine message stream.",
+            "zh": "當值同事知道怎樣為急事聯絡我，不用例行訊息串。"
+          }
+        ],
+        "explanationZh": "四句都交代具體時間及聯絡安排。",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "你答應課後教社團一小時，結束後需照顧家人，將額外個別問題改約下次，不是拒絕再教。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I need to draw a line around my time for the club: the agreed teaching hour ends before my family commitments.",
+            "zh": "我需要為給社團的時間訂界線：按約定教一小時後，我要履行家庭責任。"
+          },
+          {
+            "id": "b",
+            "en": "I am ending all involvement with the club after this lesson.",
+            "zh": "這課後我會結束與社團所有關係。"
+          },
+          {
+            "id": "c",
+            "en": "The agreed hour includes individual questions for the rest of the evening.",
+            "zh": "約定一小時包括餘下整晚個別問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已約定一小時，之後另約額外問題，正是為社團所佔用的時間訂界線；不是完全退出或無限延伸。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以展現本課 draw a line between 的實際界線？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Agreeing when routine requests will receive replies.",
+            "zh": "議定甚麼時候回覆例行請求。"
+          },
+          {
+            "id": "b",
+            "en": "Saying two activities have different names without setting any limit on their overlap.",
+            "zh": "只說兩活動名稱不同，沒訂交疊的限制。"
+          },
+          {
+            "id": "c",
+            "en": "Separating scheduled support from additional appointments.",
+            "zh": "分開原定支援與額外預約。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "本課需實際範圍或安排，不只命名分類。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說「有界線就連急事都不能聯絡你」，但你已留急事號碼。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can draw a line between routine messages and urgent contact: urgent calls have a separate number.",
+            "zh": "我們可為例行訊息與緊急聯絡訂界線：急事另有專用號碼。"
+          },
+          {
+            "id": "b",
+            "en": "The separate number means routine replies should also continue throughout family time.",
+            "zh": "另有號碼，表示家庭時間也應繼續例行回覆。"
+          },
+          {
+            "id": "c",
+            "en": "The urgent number replaces the need to agree on when ordinary messages are answered.",
+            "zh": "急事號碼可取代議定一般訊息回覆時段。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "例行訊息與急事有不同安排；為兩者訂界線不等於急事不能聯絡，也不延伸成例行無時限回覆。"
+      },
+      "speaking": {
+        "en": "I want to draw a line between agreed support time and extra requests, while keeping a clear route for urgent issues.",
+        "zh": "我想在約定支援時間與額外請求間訂界線，同時保留清楚急事途徑。",
+        "promptZh": "先聽，再說具體界線。",
+        "targetSpan": {
+          "start": 10,
+          "end": 29
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你與朋友合租製作室，一人想把共同桌面當私人長期存放區，令你無法工作；你想議定共同桌面每日收清、私人未完作品放各自架，不是結束合作。用一至兩句英文提出安排。",
+        "selfCheckZh": "以每日收清桌面、個人物品放架提出可執行界線，保留合作與共同使用，不只泛說私人物品不同。",
+        "examples": [
+          {
+            "en": "We should draw a line between shared working space and personal storage: let us clear the main table each day and keep unfinished pieces on our own shelves. That would let us both keep working here.",
+            "zh": "我們應為共同工作空間與私人存放訂界線：每天收清大桌，未完成作品放各自架，讓彼此都可繼續在這裏工作。"
+          },
+          {
+            "en": "I want to draw a line between using the shared table and leaving work there overnight. Could we agree to use our separate shelves for unfinished pieces?",
+            "zh": "我想在使用共同桌面與把作品留過夜間訂界線；可否議定未完作品放各自架？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "shared working space",
+            "zh": "共同工作空間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 50
+            }
+          },
+          {
+            "en": "personal storage",
+            "zh": "私人存放",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 71
+            }
+          },
+          {
+            "en": "clear the main table",
+            "zh": "收清大桌",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 100
+            }
+          },
+          {
+            "en": "our own shelves",
+            "zh": "各自架子",
+            "exampleIndex": 0,
+            "span": {
+              "start": 140,
+              "end": 155
+            }
+          },
+          {
+            "en": "overnight",
+            "zh": "過夜",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 85
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "She drew a line between the agreed rehearsal time and extra coaching that needed another appointment.",
+          "zh": "她在約定排練時間與需另約的額外指導間訂界線。"
+        },
+        {
+          "en": "We need to draw a line between shared supplies and items people have brought for their own projects.",
+          "zh": "我們需在共用材料與各人為私人項目帶來的物品間訂界線。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Proposal-only source-variant expansion; owner/decision files unchanged; independent review required before integration."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2458",
+      "number": 2458,
+      "inventoryId": "expr-2458",
+      "titleEn": "running their life",
+      "titleZh": "主導他們的生活",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:run|runs|ran|running)\\s+(?:(?:my|your|his|her|our|their|its|the)\\s+(?:life|lives)|(?:(?:my|your|his|her|our|their)\\s+|the\\s+child[\\u0027\\u2019]s\\s+)day)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Control a person’s daily choices or routine instead of merely assisting them.",
+        "meaningZh": "主導某人的日常安排或選擇，而不只是提供協助。",
+        "grammar": "X runs/ran/is running someone’s life or day when a device, schedule, habit or demand dictates ordinary choices. A day form names the routine being controlled; the child’s day is source-attested. A tool merely organising or reminding someone is not enough.",
+        "register": "Figurative criticism: a friend or counsellor tells someone that an app, schedule or habit has begun dictating everyday decisions instead of serving the person.",
+        "boundaryZh": "run someone’s life/day 重點是外在安排左右日常選擇；日程表提供提醒、有人主持活動，或家長自願訂時段，本身都不等於被主導。",
+        "misconceptionZh": "不要誤把 run 解作真的奔跑；也不要因任何規律生活就斷定失去自主權。",
+        "outcomeZh": "能指出哪項外在安排如何左右人的具體日常選擇。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0347",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 32,
+          "book": 10,
+          "question": 27,
+          "sample": "S2",
+          "sourceBookPages": "66–67",
+          "locatorNote": "DOCX table 27, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The schedule ended up running their life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "running their life"
+        },
+        {
+          "occurrenceId": "book10-16-0463",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 43,
+          "book": 11,
+          "question": 2,
+          "sample": "S2",
+          "sourceBookPages": "5–7",
+          "locatorNote": "DOCX table 38, row 11; page refers to locally rendered PDF in intake summary. Source question: What do you think of primary school students owning a mobile phone?",
+          "sentence": "Parents should not let a device run the child's day.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "run the child's day"
+        }
+      ],
+      "listening": {
+        "en": "At first, the fitness tracker helped Eli remember walks. Then he began cancelling family visits whenever it ordered another workout. The alerts were running his life.",
+        "zh": "起初，健身追蹤器幫艾利記得散步；後來它一提醒多做運動，他便取消探望家人的安排。那些提示逐漸主導了他的生活。",
+        "promptZh": "為何說提示 were running his life？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He let the alerts override his own family plans.",
+            "zh": "他讓提示凌駕自己原有的家庭安排。"
+          },
+          {
+            "id": "b",
+            "en": "He used the tracker to count his walks while choosing the rest of his day.",
+            "zh": "他用追蹤器計算步數，其他日常安排仍由自己決定。"
+          },
+          {
+            "id": "c",
+            "en": "He changed the device settings after noticing a problem.",
+            "zh": "他發現問題後更改了裝置設定。"
+          },
+          {
+            "id": "d",
+            "en": "He enjoyed a regular exercise routine without cancelling plans.",
+            "zh": "他享受規律運動，沒有取消原有安排。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "提示令他取消家庭探訪，已在左右日常決定；單純記錄運動或保留自主選擇不同。"
+      },
+      "reply": {
+        "promptEn": "What changed when Eli began following every fitness alert instead of choosing his own schedule?",
+        "promptZh": "（艾利不再自行安排時間，而是遵從每項健身提示後，有甚麼改變？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He started moving family visits to make room for extra workouts.",
+            "zh": "他開始改動探望家人的安排，騰出時間多做運動。"
+          },
+          {
+            "id": "b",
+            "en": "His daily plans were shaped by the device rather than by his own priorities.",
+            "zh": "他的每日計劃由裝置而非自己的優先次序決定。"
+          },
+          {
+            "id": "c",
+            "en": "The tracker began running his life by deciding when he could see his family.",
+            "zh": "追蹤器開始主導他的生活，甚至決定他何時能見家人。"
+          },
+          {
+            "id": "d",
+            "en": "He let exercise notifications interrupt plans he had made with others.",
+            "zh": "他讓運動通知打斷與別人約好的安排。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都描述提示主導生活後的具體改變；金句直指裝置取代他的日常選擇。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The schedule is running her day instead of just reminding her about meetings.",
+            "zh": "日程表在主導她每天的安排，而不只是提醒她開會。"
+          },
+          {
+            "id": "b",
+            "en": "The schedule is useful because it sends meeting reminders she can ignore or change.",
+            "zh": "日程表只提供她可忽略或更改的會議提醒，因此很有用。"
+          },
+          {
+            "id": "c",
+            "en": "She has chosen a fixed dinner time but can adjust the app whenever needed.",
+            "zh": "她自行訂下固定晚餐時間，仍可隨時調整程式。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "程式建議已凌駕她與家人的安排，顯示它主導她每天的選擇；可自行忽略或調整的提醒只是協助。",
+        "promptZh": "某人原本只用日程程式提醒開會，後來連與家人吃飯也必須按程式建議改期，否則便感到不能拒絕。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A person misses family events repeatedly to obey an app’s alerts.",
+            "zh": "某人反覆因遵從程式提示而錯過家庭活動。"
+          },
+          {
+            "id": "b",
+            "en": "A person sets reminders and freely changes them when priorities shift.",
+            "zh": "某人設定提醒，優先次序改變時仍可自由調整。"
+          },
+          {
+            "id": "c",
+            "en": "A person lets a tracker decide meals and refuses invitations that conflict with it.",
+            "zh": "某人讓追蹤器決定膳食，並拒絕與其安排衝突的邀約。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "提醒仍受本人控制，不能說工具主導生活；另外兩項都顯示日常選擇受工具支配。",
+        "promptZh": "哪個情況最不適合說某個工具 is running their life？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds as if the tracker is running your life; perhaps adjust the alerts so you can keep your plans.",
+            "zh": "聽起來追蹤器正在主導你的生活；或許可調整提示，保留與朋友的安排。"
+          },
+          {
+            "id": "b",
+            "en": "You should keep every tracker goal even when it regularly disrupts friendships.",
+            "zh": "即使目標經常影響友誼，你仍應遵從追蹤器每項要求。"
+          },
+          {
+            "id": "c",
+            "en": "The tracker is only recording numbers, so it cannot affect your choices.",
+            "zh": "追蹤器只是記錄數字，所以不可能影響你的選擇。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友已多次為目標取消約會，顯示工具開始主導生活；調整提示比盲從或否認影響更合適。",
+        "promptZh": "朋友說：「我為了追蹤器目標，已經幾次臨時取消跟朋友的晚餐。」你怎樣回應較貼切？"
+      },
+      "speaking": {
+        "en": "The study timetable was running her life when she stopped seeing friends just to satisfy every reminder.",
+        "zh": "她為了遵從每項提醒而不再見朋友時，溫習時間表已在主導她的生活。",
+        "promptZh": "先聽示範，再指出哪種日常選擇被時間表取代。",
+        "targetSpan": {
+          "start": 24,
+          "end": 40
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一名學生的音樂練習程式在家庭晚飯時不斷發任務；她每次都立即練習，常錯過與家人用餐。她其後關掉用餐時的通知，自行決定練習時間。用一至兩句英文描述問題及改善。",
+        "selfCheckZh": "指出程式通知令她常錯過家庭晚飯，並說出關掉用餐時通知、恢復自行安排練習；不要把一般提醒本身當成問題。",
+        "examples": [
+          {
+            "en": "The practice app was running her life when its dinner-time tasks kept her away from family meals; she turned off those alerts and chose her own practice hours.",
+            "zh": "練習程式在晚飯時發任務，令她常錯過與家人用餐，當時已主導她的生活；她關掉那些通知，改由自己決定練習時間。"
+          },
+          {
+            "en": "She realised the app was running her life because she always obeyed its dinner alerts instead of eating with her family, so she reset the schedule and practised later.",
+            "zh": "她每次都遵從用餐時的提示，不跟家人吃飯，才發現程式主導了生活；於是她重設時間表，改在稍後練習。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "dinner-time tasks",
+            "zh": "晚飯時的任務",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 64
+            }
+          },
+          {
+            "en": "family meals",
+            "zh": "家庭用餐",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 96
+            }
+          },
+          {
+            "en": "turned off those alerts",
+            "zh": "關掉那些通知",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 125
+            }
+          },
+          {
+            "en": "obeyed its dinner alerts",
+            "zh": "遵從用餐時的提示",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 85
+            }
+          },
+          {
+            "en": "reset the schedule",
+            "zh": "重設時間表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 146
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The reminder app began running his life when it replaced choices he wanted to make himself.",
+          "zh": "提醒程式取代了他原本想自行作出的決定時，便開始主導他的生活。"
+        },
+        {
+          "en": "A timetable can help, but it should not end up running your life.",
+          "zh": "時間表可以幫忙，但不應最終主導你的生活。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending.",
+          "Proposal-only source-variant expansion; owner/decision files unchanged; independent review required before integration."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-1468",
+      "number": 1468,
+      "inventoryId": "expr-1468",
+      "contentRevision": 2,
+      "titleEn": "mark something meaningful",
+      "titleZh": "紀念有意義的事情",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bmark(?:s|ed|ing)?\\s+(?:something\\s+meaningful|(?:a|the|this|that)\\s+moment\\b(?!\\s+on\\s+(?:(?:my|your|his|her|our|their|a|the)\\s+)?calendar\\b))"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p168-t1-r10",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 168,
+          "book": 6,
+          "question": 35,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Families gather to mark something meaningful.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "mark something meaningful",
+          "sourceCategory": "Natural English"
+        },
+        {
+          "occurrenceId": "book10-16-0814",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 75,
+          "book": 12,
+          "question": 6,
+          "sample": "S1",
+          "sourceBookPages": "16–17",
+          "locatorNote": "DOCX table 76, row 3; page refers to locally rendered PDF in intake summary. Source question: When do people usually have parties in your country?",
+          "sentence": "A small dinner can mark a moment beautifully.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "mark a moment"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Recognise or commemorate an event, achievement or moment that matters.",
+        "meaningZh": "以某種方式確認或紀念值得重視的事情。",
+        "grammar": "Mark something meaningful or mark a/the/this/that moment with a modest event or gesture. Mark means recognise or commemorate an occasion, not give a score or draw a visible mark. Name the moment and why it matters.",
+        "register": "neutral",
+        "boundaryZh": "mark a moment 和 mark something meaningful 都指以行動紀念或肯定重要時刻；可由具體事件說明意義，不必昂貴或公開，也不是只在紙上作標記。",
+        "misconceptionZh": "something meaningful 可由具體事件說明；本課 mark 不是評分或畫記號。重點是意義，不必昂貴或公開。",
+        "outcomeZh": "理解「紀念有意義的事情」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The family planted a tree to mark something meaningful: their grandparents’ fiftieth wedding anniversary.",
+        "zh": "家人種樹來紀念有意義的事：祖父母結婚五十週年。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "種樹是紀念一個重要家庭時刻。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "種樹只是因為樹木價格便宜，沒有紀念目的。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "活動主要為開始一個新園藝計劃，而不是紀念已有的重要時刻。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "家人想先把這件事低調放下，尚未決定是否要表達紀念。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "種樹用來紀念結婚五十週年，不只是園藝計劃或仍未決定表達紀念。"
+      },
+      "reply": {
+        "promptEn": "Why are you gathering for a simple meal with your friend Maya this weekend?",
+        "promptZh": "你們這週末為甚麼和朋友 Maya 聚在一起吃頓簡單的飯？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "We want to mark something meaningful: our friend’s recovery.",
+            "zh": "我們想紀念有意義的事：朋友康復。"
+          },
+          {
+            "id": "reply-2",
+            "en": "We want to recognise an important moment in her life.",
+            "zh": "我們想重視她生命中的重要時刻。"
+          },
+          {
+            "id": "reply-3",
+            "en": "It is a small way to celebrate how far she has come.",
+            "zh": "這是小小慶祝她進展的方法。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The meal gives us time to show that her recovery matters.",
+            "zh": "這頓飯讓我們有時間表達她康復的重要。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "一位家人完成漫長訓練，大家辦小聚會，認真肯定這個里程碑。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They gathered to mark a moment that mattered to their family.",
+            "zh": "他們聚在一起，紀念對全家有意義的一刻。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They met only to choose which training course to begin.",
+            "zh": "他們見面只是要選開始哪個訓練課程。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They treated the completed training as unworthy of any recognition.",
+            "zh": "他們認為完成訓練不值得任何肯定。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "已完成的訓練是全家重視的里程碑，小聚會可用來紀念這個時刻；不是事前選課或不予肯定。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解不符合本課 mark something meaningful？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "用簡單活動紀念重要成就。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "認真肯定家庭的重要時刻。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "只有花大筆錢公開慶祝，才算重視重要事件。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "紀念方式可以簡單私人，詞義沒有費用或公開的條件。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說小型聚會不夠隆重，不能紀念重要時刻。哪句較合理？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A quiet gathering can mark something meaningful when the people involved understand why it matters.",
+            "zh": "只要參與者明白其重要，安靜聚會也能紀念有意義的事。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Move the gathering to a more impressive venue before asking what the occasion means to the people involved.",
+            "zh": "先把聚會搬到更盛大場地，再問場合對參與者有何意義。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Make the guest list larger as the main way to show that the personal achievement matters.",
+            "zh": "主要以擴大賓客名單來表達個人成就的重要。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "紀念看參與者的理解和心意，不是先加場地或人數。"
+      },
+      "speaking": {
+        "en": "We gathered to mark something meaningful in our family’s life.",
+        "zh": "我們聚在一起，紀念家庭生活中有意義的事。",
+        "targetSpan": {
+          "start": 15,
+          "end": 40
+        },
+        "promptZh": "你想說明聚會有紀念目的。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：朋友完成長期復健，你們安排小小茶聚，認真肯定她的努力。用一至兩句英文表達聚會目的。",
+        "examples": [
+          {
+            "en": "We planned a small tea gathering to mark something meaningful: our friend’s progress after months of recovery.",
+            "zh": "我們安排小茶聚，紀念有意義的事：朋友幾個月康復後的進展。"
+          },
+          {
+            "en": "A simple gathering can mark something meaningful and recognise her hard work.",
+            "zh": "簡單聚會能紀念有意義的事，並肯定她的努力。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a small tea gathering",
+            "zh": "小茶聚",
+            "exampleIndex": 0,
+            "span": {
+              "start": 11,
+              "end": 32
+            }
+          },
+          {
+            "en": "our friend’s progress",
+            "zh": "朋友的進展",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 84
+            }
+          },
+          {
+            "en": "months of recovery",
+            "zh": "幾個月的康復",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 109
+            }
+          },
+          {
+            "en": "recognise her hard work",
+            "zh": "肯定她的努力",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 76
+            }
+          }
+        ],
+        "selfCheckZh": "指出具體值得重視的事情，並用紀念意思的 mark，不寫成評分。"
+      },
+      "takeaways": [
+        {
+          "en": "We can mark something meaningful with a simple gathering.",
+          "zh": "我們能以簡單聚會紀念有意義的事。"
+        },
+        {
+          "en": "The family met to mark something meaningful together.",
+          "zh": "家人見面，一起紀念有意義的事。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed.",
+        "notes": [
+          "Proposal-only source-variant expansion; owner/decision files unchanged; independent review required before integration."
+        ]
+      }
+    }
+  ]
+}

@@ -2775,17 +2775,18 @@
     "titleZh": "在兩者之間訂明界線",
     "category": "idiom",
     "target": {
-      "pattern": "\\b(?:draw(?:s|ing)?|drew|drawn) a line between\\b",
+      "pattern": "\\b(?:draw(?:s|ing)?|drew|drawn)\\s+a\\s+line\\s+(?:between\\b|around\\s+(?:my|your|his|her|our|their)\\s+time\\b(?!\\s+on\\s+(?:(?:a|the)\\s+)?(?:chart|calendar)\\b))",
       "glossaryForbidden": [
-        "\\ba line between\\b"
+        "\\ba line between\\b",
+        "\\ba line around\\b"
       ]
     },
     "brief": {
       "meaningEn": "Set a boundary that keeps two areas of life or activity from intruding on one another.",
       "meaningZh": "訂明界線，避免生活或活動的兩個範圍互相侵佔。",
-      "grammar": "draw a line between work and family time; drew/has drawn; name both areas and explain the practical boundary.",
-      "register": "Established line metaphor. Here it concerns limits on activity or time; another use distinguishes categories conceptually.",
-      "boundaryZh": "本課重點是時間或行動界線，不只指出兩種事物不同；界線可按情況協商，不代表完全切斷聯繫。",
+      "grammar": "Draw a line between two named areas of life or draw a line around my/your/his/her/our/their time to set a practical limit on availability; drew/has drawn. In the around form, say what time is protected and from which demand.",
+      "register": "Established boundary metaphor. Around their time is a source-attested extension for protecting availability; it is not a literal line around a clock or a claim that all contact must stop.",
+      "boundaryZh": "between 可分清兩項活動的界線；around their time 強調保護可用時間。兩者都需交代具體安排，也可保留真正急事的聯絡途徑，不表示完全切斷聯繫。",
       "misconceptionZh": "可明定回訊息時段及真正急事的處理，不必把界線說成所有聯絡都禁止。",
       "outcomeZh": "能清楚提出具體界線及必要安排。"
     },
@@ -2802,6 +2803,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 23, table 1, row 10; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p023-t1-r10"
+      },
+      {
+        "occurrenceId": "book10-16-0077",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 8,
+        "book": 10,
+        "question": 6,
+        "sample": "S2",
+        "sourceBookPages": "15–17",
+        "locatorNote": "DOCX table 6, row 11; page refers to locally rendered PDF in intake summary. Source question: Do you think it is easy to manage your time in the modern world?",
+        "sentence": "A freelancer who draws a line around their time can protect evenings for family.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "draws a line around their time"
       }
     ],
     "listening": {
@@ -2866,8 +2881,8 @@
       "options": [
         {
           "id": "a",
-          "en": "I need to draw a line between the agreed teaching hour and my family commitments afterwards.",
-          "zh": "我需在約定教學一小時與之後家庭責任間訂界線。"
+          "en": "I need to draw a line around my time for the club: the agreed teaching hour ends before my family commitments.",
+          "zh": "我需要為給社團的時間訂界線：按約定教一小時後，我要履行家庭責任。"
         },
         {
           "id": "b",
@@ -2881,7 +2896,7 @@
         }
       ],
       "answerId": "a",
-      "explanationZh": "明定結束及另約，不是完全退出或無限延伸。"
+      "explanationZh": "已約定一小時，之後另約額外問題，正是為社團所佔用的時間訂界線；不是完全退出或無限延伸。"
     },
     "contrast": {
       "promptZh": "哪項最不足以展現本課 draw a line between 的實際界線？",
@@ -2910,8 +2925,8 @@
       "options": [
         {
           "id": "a",
-          "en": "The boundary concerns routine messages; urgent contact has its own route.",
-          "zh": "界線針對例行訊息；急事有本身途徑。"
+          "en": "We can draw a line between routine messages and urgent contact: urgent calls have a separate number.",
+          "zh": "我們可為例行訊息與緊急聯絡訂界線：急事另有專用號碼。"
         },
         {
           "id": "b",
@@ -2925,7 +2940,7 @@
         }
       ],
       "answerId": "a",
-      "explanationZh": "兩類聯絡需分清；急事途徑不延伸成例行無時限回覆，也不取代普通時段安排。"
+      "explanationZh": "例行訊息與急事有不同安排；為兩者訂界線不等於急事不能聯絡，也不延伸成例行無時限回覆。"
     },
     "speaking": {
       "en": "I want to draw a line between agreed support time and extra requests, while keeping a clear route for urgent issues.",
@@ -3029,9 +3044,11 @@
         "reviewer": "",
         "evidence": ""
       },
-      "notes": []
+      "notes": [
+        "Source 2188 owner expansion independently AI-reviewed at reviews-books10-16/independent-ai-review-owner-expansions-2188-2574-2925-b.json; local browser, hosted audio and release acceptance remain separate."
+      ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-464",

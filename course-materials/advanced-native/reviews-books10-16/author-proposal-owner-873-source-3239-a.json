@@ -1,0 +1,96 @@
+{
+  "reportType": "author-proposal-self-audit-owner-873-source-3239",
+  "status": "proposal-only-unselected",
+  "createdAtUtc": "2026-10-24T06:20:15.987564+00:00",
+  "inputTriageFile": "course-materials/advanced-native/reviews-books10-16/read-only-current412-held30-owner-links-b.json",
+  "inputTriageSha256": "dc6aee3472d5f373e2fa8bf0613dfefecf9f4052718956c4af35fee6a54d0628",
+  "proposalFile": "course-materials/advanced-native/reviews-books10-16/proposals/owner-873-source-3239-proposed-a.json",
+  "proposalSha256": "a39961296ea7941ff4c1cc21c40660bb04186f56d19513891556ed3e1f585c63",
+  "selectedOwnerFile": "course-materials/advanced-native/batches/batch-0851-0875.json",
+  "selectedOwnerFileBeforeSha256": "c88f6c0ba128739cd198c52ca7e7a7f4a508757c2022b9d8c00775107ea49b86",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceDecisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3192-3251.jsonl",
+  "sourceDecisionFileBeforeSha256": "520e2589ade2079d0dd192393692cf7fb90a643e9a9942b7e4cdf664917325dd",
+  "sourceOrdinal": 3239,
+  "sourceId": "book10-16-1128",
+  "exactSourceSentence": "A calm conversation helped me think straighter.",
+  "exactSourceExpression": "think straighter",
+  "sourceMeaning": "Reason more clearly; straightness is figurative.",
+  "currentDecisionAction": "hold-editorial",
+  "ownerId": "advanced-native-873",
+  "ownerMeaningFit": "Owner 873 concerns mental clarity under pressure; the source comparative straighter describes improved clarity after a calm conversation, not a new sense. Proposed scene assesses relative improvement without claiming a final correct decision.",
+  "proposedChanges": [
+    "Add bounded think/thinks/thinking/thought straighter comparative branch while preserving all existing straight forms.",
+    "Append exact 3239 occurrence provenance.",
+    "Expand bilingual brief to explain comparative rather than absolute clarity.",
+    "Revise one keyed scene and bilingual foils to test partial improvement.",
+    "Extend glossaryForbidden to straighter."
+  ],
+  "assessedQuestionIdsAndAnswerIdsUnchanged": true,
+  "allFourAudioTextsByteIdentical": true,
+  "glossaryExactCount": 5,
+  "glossaryTargetExcluded": true,
+  "focusedBuild": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRequests": 4,
+    "flags": 0,
+    "buildPassed": true,
+    "checkPassed": true
+  },
+  "liveJsTargetControls": {
+    "positive": [
+      {
+        "sentence": "A short break helps me think straight.",
+        "matchedSpan": "think straight"
+      },
+      {
+        "sentence": "A calm conversation helped me think straighter.",
+        "matchedSpan": "think straighter"
+      },
+      {
+        "sentence": "Mira can think straighter about the two plans now.",
+        "matchedSpan": "think straighter"
+      },
+      {
+        "sentence": "She thinks straight under pressure.",
+        "matchedSpan": "thinks straight"
+      },
+      {
+        "sentence": "We are thinking straighter after the break.",
+        "matchedSpan": "thinking straighter"
+      },
+      {
+        "sentence": "After the discussion, I thought straighter about the options.",
+        "matchedSpan": "thought straighter"
+      }
+    ],
+    "negative": [
+      "The road runs straighter after the bridge.",
+      "Draw a straight line.",
+      "I think the answer is straight ahead.",
+      "The bike goes straight.",
+      "She thought straightening the frame would help."
+    ]
+  },
+  "fullBooks1016SourceScreen": {
+    "sourceExamples": 2604,
+    "matches": [
+      {
+        "sourceId": "book10-16-1128",
+        "matchedSpan": "think straighter"
+      }
+    ],
+    "unexpectedMatches": 0
+  },
+  "caveat": "A lexical detector cannot prove mental rather than literal context, but its verb+adverb construction excludes sampled physical-straightness negatives. Independent content review remains pending.",
+  "selectedOwnerEdited": false,
+  "decisionEdited": false,
+  "manifestEdited": false,
+  "integrationApproved": false,
+  "scopedRepair": {
+    "finding": "R3239-01",
+    "change": "Comparative target and grammar now cover natural past thought straighter.",
+    "independentFollowupPending": true
+  }
+}

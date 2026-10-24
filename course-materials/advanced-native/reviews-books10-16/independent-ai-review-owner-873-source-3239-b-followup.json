@@ -1,0 +1,26 @@
+{
+  "reportType": "independent-proposal-only-owner-expansion-followup",
+  "priorReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-873-source-3239-b.json",
+  "priorReviewSha256": "5e5d695993dc7f9e7787b437460d4554d92a3d55af3aa53c8fd4e2634c6b474b",
+  "proposalFile": "course-materials/advanced-native/reviews-books10-16/proposals/owner-873-source-3239-proposed-a.json",
+  "proposalSha256": "a39961296ea7941ff4c1cc21c40660bb04186f56d19513891556ed3e1f585c63",
+  "authorAuditFile": "course-materials/advanced-native/reviews-books10-16/author-proposal-owner-873-source-3239-a.json",
+  "authorAuditSha256": "e1cab024715c200a2951a414bb40ef3492969cc9e21f827a4d9bd28ab1337131",
+  "sourceOrdinal": 3239,
+  "ownerId": "advanced-native-873",
+  "verdict": "content-clear-proposal-only",
+  "finding": {
+    "id": "R3239-01",
+    "status": "resolved",
+    "evidence": "Live JS matches the source's think straighter and natural past/perfect thought straighter; physical road and frame-straightening controls do not match. Brief grammar lists thought, and the revised keyed scene still assesses partial mental clarity without claiming a final correct choice."
+  },
+  "validation": {
+    "positiveControls": 6,
+    "negativeControls": 5,
+    "fullGuideSourceMatches": ["book10-16-1128"],
+    "focusedBuildAndCheck": "1 lesson / 6 questions / 4 audio roles / 0 review flags",
+    "questionAndAnswerIdsUnchanged": true,
+    "englishAudioTextsUnchanged": true
+  },
+  "scope": "No selected owner, editorial decision, manifest, media, database or release edit by reviewer."
+}

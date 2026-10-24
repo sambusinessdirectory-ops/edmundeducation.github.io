@@ -174,8 +174,7 @@
     "batch-held-3312-handcuff-review-pilot.json",
     "batch-held-3073-4308-b.json",
     "batch-held-3849-outpace-ability-review-pilot.json",
-    "batch-held-4513-make-more-sense-review-pilot.json",
-    "batch-held-3962-three-ring-circus-a-repair.json"
+    "batch-held-4513-make-more-sense-review-pilot.json"
   ],
   "expectedSourceOrdinals": [
     2112,
@@ -649,7 +648,6 @@
     3941,
     3947,
     3961,
-    3962,
     3963,
     3964,
     3968,

@@ -1,0 +1,251 @@
+{
+  "reportType": "author-proposal-self-audit-owner-expansions-2188-2574-2925",
+  "status": "proposal-only-unselected",
+  "createdAtUtc": "2026-10-24T06:13:56.501657+00:00",
+  "proposalFile": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-2188-2574-2925-proposed-a.json",
+  "proposalSha256": "f4ac4d88910622102b27d1e6116776636d90b53bf7cef3fa479f4ec4c641e7b9",
+  "selectedManifest": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "0119b8adb94fb81216b690dfc4afc7da852249f6ea4b4ea8eeed49ffefb35d8c",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "summary": {
+    "owners": 3,
+    "sourceOccurrences": 3,
+    "focusedBuildLessons": 3,
+    "focusedBuildQuestions": 18,
+    "focusedBuildAudioRoles": 12,
+    "focusedBuildReviewFlags": 0,
+    "focusedCheckPassed": true,
+    "positiveControlsPassed": 12,
+    "negativeControlsPassed": 11,
+    "inheritedNegativeCaveat": 1,
+    "allSourceSentencesMatched": true,
+    "allQuestionAndOptionIdsPreserved": true,
+    "allAudioTextsUnchanged": true
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 2188,
+      "sourceId": "book10-16-0077",
+      "ownerId": "advanced-native-463",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0451-0475.json",
+      "ownerFileBeforeSha256": "a4261348a61501550d40ca96d4d4cc6c8126e5bf33d655048d091ee70b53e7b1",
+      "ownerObjectBeforeSha256": "45b65df022303cfbc4e42aaee65228e5e4286755ee126939f6af54e34654bd6a",
+      "proposalObjectSha256": "435fff211b3006f1a86ab3960f7d3aba25c18fdc68fbd7d9b402bf9616942d55",
+      "contentRevisionBefore": 1,
+      "contentRevisionProposed": 2,
+      "sourceSentence": "A freelancer who draws a line around their time can protect evenings for family.",
+      "sourceProvenanceExact": true,
+      "changedPaths": [
+        ".brief.boundaryZh",
+        ".brief.grammar",
+        ".brief.register",
+        ".contentRevision",
+        ".dialogue.explanationZh",
+        ".dialogue.options[0].en",
+        ".dialogue.options[0].zh",
+        ".review.notes length",
+        ".scene.explanationZh",
+        ".scene.options[0].en",
+        ".scene.options[0].zh",
+        ".sources length",
+        ".target.glossaryForbidden length",
+        ".target.pattern"
+      ],
+      "optionIdAndKeyContractUnchanged": true,
+      "audioTextByteIdentical": true,
+      "glossaryExactCount": 5,
+      "positiveControls": [
+        {
+          "s": "She had to draw a line between work and family time.",
+          "match": true
+        },
+        {
+          "s": "A freelancer who draws a line around their time can protect evenings for family.",
+          "match": true
+        },
+        {
+          "s": "I draw a line around my time for the club.",
+          "match": true
+        },
+        {
+          "s": "They drew a line between training and family care.",
+          "match": true
+        }
+      ],
+      "negativeControls": [
+        {
+          "s": "Draw a line around the clock face.",
+          "match": false
+        },
+        {
+          "s": "Draw a line around their times on the chart.",
+          "match": false
+        },
+        {
+          "s": "She draws a line between two points on a map.",
+          "match": true
+        },
+        {
+          "s": "They drew lines around their time slots.",
+          "match": false
+        }
+      ],
+      "fullSourceMatches": [
+        {
+          "sourceId": "book10-16-0077",
+          "example": "A freelancer who draws a line around their time can protect evenings for family."
+        }
+      ],
+      "caveat": "Inherited between branch can match a literal geometric line; new around-time branch is bounded but lexical regex still needs editorial context."
+    },
+    {
+      "sourceOrdinal": 2574,
+      "sourceId": "book10-16-0463",
+      "ownerId": "advanced-native-2458",
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-2449-2458-a.json",
+      "ownerFileBeforeSha256": "72ad4155beb78cbb31b142ef73dc9c1153d4012a574ff6fd42f3498451da4c3d",
+      "ownerObjectBeforeSha256": "c152f176e9a7788ca3a67c381e48bf4e4179a7a2e68189a9a7f1c5a6b59f7d4e",
+      "proposalObjectSha256": "b2da5f3d1b730f89ea7303fd35c3c335fd74c1798cc5341874e6f9f3f6de8fac",
+      "contentRevisionBefore": 2,
+      "contentRevisionProposed": 3,
+      "sourceSentence": "Parents should not let a device run the child's day.",
+      "sourceProvenanceExact": true,
+      "changedPaths": [
+        ".brief.boundaryZh",
+        ".brief.grammar",
+        ".contentRevision",
+        ".review.notes length",
+        ".scene.explanationZh",
+        ".scene.options[0].en",
+        ".scene.options[0].zh",
+        ".sources length",
+        ".target.pattern"
+      ],
+      "optionIdAndKeyContractUnchanged": true,
+      "audioTextByteIdentical": true,
+      "glossaryExactCount": 5,
+      "positiveControls": [
+        {
+          "s": "The schedule ended up running their life.",
+          "match": true
+        },
+        {
+          "s": "Parents should not let a device run the child's day.",
+          "match": true
+        },
+        {
+          "s": "The app is running her day.",
+          "match": true
+        },
+        {
+          "s": "The fitness tracker runs his life.",
+          "match": true
+        }
+      ],
+      "negativeControls": [
+        {
+          "s": "The coach runs the day camp.",
+          "match": false
+        },
+        {
+          "s": "The printer runs all day.",
+          "match": false
+        },
+        {
+          "s": "The manager ran the child to school.",
+          "match": false
+        },
+        {
+          "s": "The app runs the diary.",
+          "match": false
+        }
+      ],
+      "fullSourceMatches": [
+        {
+          "sourceId": "book10-16-0347",
+          "example": "The schedule ended up running their life."
+        },
+        {
+          "sourceId": "book10-16-0463",
+          "example": "Parents should not let a device run the child's day."
+        }
+      ],
+      "caveat": "The day variant is bounded to possessive day, but external control must be inferred from context rather than token matching."
+    },
+    {
+      "sourceOrdinal": 2925,
+      "sourceId": "book10-16-0814",
+      "ownerId": "advanced-native-1468",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1451-1475.json",
+      "ownerFileBeforeSha256": "9f7a3a610d2603d2bb37ae05b78acd1e0f17b24266d022f671ec362a7b94ffe4",
+      "ownerObjectBeforeSha256": "ea22c71cf27f56a921993f5124507dd4cc0e3ca57b60d532ee4f853f6de1e723",
+      "proposalObjectSha256": "891f6df4d888b19b65f03cf100169cb5c45f68bd1acefe547ee11d8d985c7d39",
+      "contentRevisionBefore": 1,
+      "contentRevisionProposed": 2,
+      "sourceSentence": "A small dinner can mark a moment beautifully.",
+      "sourceProvenanceExact": true,
+      "changedPaths": [
+        ".brief.boundaryZh",
+        ".brief.grammar",
+        ".contentRevision",
+        ".review.notes",
+        ".scene.explanationZh",
+        ".scene.options[0].en",
+        ".scene.options[0].zh",
+        ".sources length",
+        ".target.pattern"
+      ],
+      "optionIdAndKeyContractUnchanged": true,
+      "audioTextByteIdentical": true,
+      "glossaryExactCount": 4,
+      "positiveControls": [
+        {
+          "s": "Families gather to mark something meaningful.",
+          "match": true
+        },
+        {
+          "s": "A small dinner can mark a moment beautifully.",
+          "match": true
+        },
+        {
+          "s": "They gathered to mark a moment that mattered.",
+          "match": true
+        },
+        {
+          "s": "The gathering marked something meaningful.",
+          "match": true
+        }
+      ],
+      "negativeControls": [
+        {
+          "s": "The teacher marked the essay.",
+          "match": false
+        },
+        {
+          "s": "He marked the moment on his calendar.",
+          "match": false
+        },
+        {
+          "s": "The painter marked a page.",
+          "match": false
+        },
+        {
+          "s": "They marked time until lunch.",
+          "match": false
+        }
+      ],
+      "fullSourceMatches": [
+        {
+          "sourceId": "book10-16-0814",
+          "example": "A small dinner can mark a moment beautifully."
+        }
+      ],
+      "caveat": "A literal calendar use of mark a moment is guarded only for the direct on-calendar wording; other literal contexts require editorial sense review."
+    }
+  ],
+  "integrationApproved": false,
+  "selectedOwnerFilesEdited": false,
+  "decisionsEdited": false,
+  "manifestEdited": false,
+  "independentReviewPending": true
+}

@@ -825,15 +825,15 @@
       "titleZh": "主導他們的生活",
       "category": "figurative",
       "target": {
-        "pattern": "\\b(?:run|runs|ran|running) (?:my|your|his|her|our|their|its|the) (?:life|lives)\\b",
+        "pattern": "\\b(?:run|runs|ran|running)\\s+(?:(?:my|your|his|her|our|their|its|the)\\s+(?:life|lives)|(?:(?:my|your|his|her|our|their)\\s+|the\\s+child[\\u0027\\u2019]s\\s+)day)\\b",
         "glossaryForbidden": []
       },
       "brief": {
         "meaningEn": "Control a person’s daily choices or routine instead of merely assisting them.",
         "meaningZh": "主導某人的日常安排或選擇，而不只是提供協助。",
-        "grammar": "Pattern: X runs/ran/is running someone’s life. The subject is an app, schedule, habit or demand; the possessive identifies whose choices are being dictated.",
+        "grammar": "X runs/ran/is running someone’s life or day when a device, schedule, habit or demand dictates ordinary choices. A day form names the routine being controlled; the child’s day is source-attested. A tool merely organising or reminding someone is not enough.",
         "register": "Figurative criticism: a friend or counsellor tells someone that an app, schedule or habit has begun dictating everyday decisions instead of serving the person.",
-        "boundaryZh": "重點是控制日常選擇；日程表提供提醒或有人主持活動，不等於 running someone’s life。",
+        "boundaryZh": "run someone’s life/day 重點是外在安排左右日常選擇；日程表提供提醒、有人主持活動，或家長自願訂時段，本身都不等於被主導。",
         "misconceptionZh": "不要誤把 run 解作真的奔跑；也不要因任何規律生活就斷定失去自主權。",
         "outcomeZh": "能指出哪項外在安排如何左右人的具體日常選擇。"
       },
@@ -851,6 +851,20 @@
           "sentence": "The schedule ended up running their life.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "running their life"
+        },
+        {
+          "occurrenceId": "book10-16-0463",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 43,
+          "book": 11,
+          "question": 2,
+          "sample": "S2",
+          "sourceBookPages": "5–7",
+          "locatorNote": "DOCX table 38, row 11; page refers to locally rendered PDF in intake summary. Source question: What do you think of primary school students owning a mobile phone?",
+          "sentence": "Parents should not let a device run the child's day.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "run the child's day"
         }
       ],
       "listening": {
@@ -914,8 +928,8 @@
         "options": [
           {
             "id": "a",
-            "en": "The schedule is running her life rather than simply helping her remember meetings.",
-            "zh": "日程表在主導她的生活，而不只是幫她記得開會。"
+            "en": "The schedule is running her day instead of just reminding her about meetings.",
+            "zh": "日程表在主導她每天的安排，而不只是提醒她開會。"
           },
           {
             "id": "b",
@@ -929,7 +943,7 @@
           }
         ],
         "answerId": "a",
-        "explanationZh": "程式建議已凌駕她與家人的安排，顯示主導日常選擇；可自行忽略或調整的提醒只是協助。",
+        "explanationZh": "程式建議已凌駕她與家人的安排，顯示它主導她每天的選擇；可自行忽略或調整的提醒只是協助。",
         "promptZh": "某人原本只用日程程式提醒開會，後來連與家人吃飯也必須按程式建議改期，否則便感到不能拒絕。哪句最貼切？"
       },
       "contrast": {
@@ -1079,10 +1093,11 @@
           "evidence": ""
         },
         "notes": [
-          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending.",
+          "Source 2574 owner expansion independently AI-reviewed at reviews-books10-16/independent-ai-review-source2574-selected-owner2458-classification-b.json; local browser, hosted audio and release acceptance remain separate."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     }
   ]
 }

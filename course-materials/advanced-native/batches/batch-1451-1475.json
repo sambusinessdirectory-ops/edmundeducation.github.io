@@ -4174,12 +4174,12 @@
       "id": "advanced-native-1468",
       "number": 1468,
       "inventoryId": "expr-1468",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "mark something meaningful",
       "titleZh": "紀念有意義的事情",
       "category": "natural",
       "target": {
-        "pattern": "\\bmark(?:s|ed|ing)?\\s+something\\s+meaningful\\b"
+        "pattern": "\\bmark(?:s|ed|ing)?\\s+(?:something\\s+meaningful|(?:a|the|this|that)\\s+moment\\b(?!\\s+on\\s+(?:(?:my|your|his|her|our|their|a|the)\\s+)?calendar\\b))"
       },
       "sources": [
         {
@@ -4195,14 +4195,28 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "mark something meaningful",
           "sourceCategory": "Natural English"
+        },
+        {
+          "occurrenceId": "book10-16-0814",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 75,
+          "book": 12,
+          "question": 6,
+          "sample": "S1",
+          "sourceBookPages": "16–17",
+          "locatorNote": "DOCX table 76, row 3; page refers to locally rendered PDF in intake summary. Source question: When do people usually have parties in your country?",
+          "sentence": "A small dinner can mark a moment beautifully.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "mark a moment"
         }
       ],
       "brief": {
         "meaningEn": "Recognise or commemorate an event, achievement or moment that matters.",
         "meaningZh": "以某種方式確認或紀念值得重視的事情。",
-        "grammar": "gather / plan an activity to mark something meaningful; mark means commemorate",
+        "grammar": "Mark something meaningful or mark a/the/this/that moment with a modest event or gesture. Mark means recognise or commemorate an occasion, not give a score or draw a visible mark. Name the moment and why it matters.",
         "register": "neutral",
-        "boundaryZh": "something meaningful 可由具體事件說明；本課 mark 不是評分或畫記號。重點是意義，不必昂貴或公開。",
+        "boundaryZh": "mark a moment 和 mark something meaningful 都指以行動紀念或肯定重要時刻；可由具體事件說明意義，不必昂貴或公開，也不是只在紙上作標記。",
         "misconceptionZh": "something meaningful 可由具體事件說明；本課 mark 不是評分或畫記號。重點是意義，不必昂貴或公開。",
         "outcomeZh": "理解「紀念有意義的事情」的語境及用法，並在新情境寫出自然句子。"
       },
@@ -4268,8 +4282,8 @@
         "options": [
           {
             "id": "choice-1",
-            "en": "They gathered to mark something meaningful.",
-            "zh": "他們聚在一起，紀念有意義的事。"
+            "en": "They gathered to mark a moment that mattered to their family.",
+            "zh": "他們聚在一起，紀念對全家有意義的一刻。"
           },
           {
             "id": "choice-2",
@@ -4283,7 +4297,7 @@
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "已完成的里程碑和肯定目的，區分事前選課及不予重視。"
+        "explanationZh": "已完成的訓練是全家重視的里程碑，小聚會可用來紀念這個時刻；不是事前選課或不予肯定。"
       },
       "contrast": {
         "promptZh": "哪個理解不符合本課 mark something meaningful？",
@@ -4408,7 +4422,7 @@
           "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
         },
         "independentHumanApproval": false,
-        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+        "note": "Source 2925 owner expansion independently AI-reviewed at reviews-books10-16/independent-ai-review-owner-expansions-2188-2574-2925-b.json; local browser, hosted audio and release acceptance remain separate."
       }
     },
     {

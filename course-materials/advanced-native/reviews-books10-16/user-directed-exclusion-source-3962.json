@@ -1,0 +1,15 @@
+{
+  "sourceOrdinal": 3962,
+  "sourceId": "book10-16-1851",
+  "phrase": "a circus with too many rings",
+  "exactSourceSentence": "The broadcast felt like a circus with too many rings.",
+  "sourceBook": 15,
+  "sourceQuestion": 9,
+  "renderedPdfPage": 175,
+  "oldAction": "proposed-new-lesson",
+  "newAction": "excluded-one-off",
+  "sourceSpecificReason": "One-time, source-specific simile: “The broadcast felt like a circus with too many rings” describes the busy Olympic broadcast. The wording is a creative variation of the conventional “a three-ring circus,” not itself a reusable expression. A separate seven-step lesson for the source variant would teach a different fixed idiom and overstate the source phrase’s currency. Excluded under the user’s explicit example-based instruction; the exact source remains in inventory.",
+  "userDirection": "Skip one-time comparisons; record why",
+  "finding": "The source sentence itself was the example quoted in the question the user answered. The conventional three-ring-circus expression can be taught from a suitable source elsewhere, but this one-time wording does not warrant a standalone lesson.",
+  "lessonFileDisposition": "Unselected historical draft retained for audit; removed from selected manifest and all generated release/audio outputs."
+}

@@ -1,0 +1,182 @@
+{
+  "reportType": "author-strict-new-unit-screen-current414",
+  "status": "read-only-strict-screen-no-surviving-new-unit",
+  "createdAtUtc": "2026-10-24T06:08:03.217729+00:00",
+  "scope": {
+    "historicallyFlaggedHeldSourceOrdinals": [
+      2188,
+      2302,
+      2356,
+      2574,
+      2676,
+      2925
+    ],
+    "selectedManifest": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "selectedManifestSha256": "0119b8adb94fb81216b690dfc4afc7da852249f6ea4b4ea8eeed49ffefb35d8c",
+    "sourceInventory": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "selectedLessonCountAtTask": 639,
+    "heldCountAtTask": 414
+  },
+  "summary": {
+    "screened": 6,
+    "drafted": 0,
+    "sameSenseEarlierOwnerLeads": 3,
+    "keepHeldNaturalnessOrScope": 3,
+    "oneTimeComparisonExclusionsProposed": 0
+  },
+  "method": "Compared exact source expression/sentence/meaning and current hold decision with candidate selected owner brief, target pattern and seven-step purpose. A historical medium-confidence label was not treated as authorisation to create a duplicate or awkward lesson.",
+  "rows": [
+    {
+      "sourceOrdinal": 2188,
+      "sourceId": "book10-16-0077",
+      "exactSourceSentence": "A freelancer who draws a line around their time can protect evenings for family.",
+      "exactSourceExpression": "draws a line around their time",
+      "sourceMeaning": "Sets a firm boundary on when time is available; drawing a line is figurative.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionFileSha256": "ca1ccfac8c79f8db7db88cfa4e60bb7ef9a7eac76517db07e60ab59e32aae8c8",
+      "historicalTriage": "defensible-new-reusable-lesson",
+      "historicalConfidence": "medium",
+      "currentVerdict": "same-sense-owner-lead",
+      "specificReason": "Owner 463 explicitly teaches practical time boundaries between work and family commitments; a freelancer protecting evenings makes the same learner decision. The around-their-time syntax would need a bounded owner variant, not a duplicate seven-step lesson.",
+      "comparedOwners": [
+        {
+          "ownerId": "advanced-native-463",
+          "file": "course-materials/advanced-native/batches/batch-0451-0475.json",
+          "fileSha256": "a4261348a61501550d40ca96d4d4cc6c8126e5bf33d655048d091ee70b53e7b1",
+          "titleEn": "draw a line between",
+          "meaningEn": "Set a boundary that keeps two areas of life or activity from intruding on one another.",
+          "targetPattern": "\\b(?:draw(?:s|ing)?|drew|drawn) a line between\\b"
+        }
+      ],
+      "newLessonAuthored": false
+    },
+    {
+      "sourceOrdinal": 2302,
+      "sourceId": "book10-16-0191",
+      "exactSourceSentence": "The editor chose to cut away the long introduction.",
+      "exactSourceExpression": "cut away",
+      "sourceMeaning": "Remove an unnecessary section during editing; a useful phrasal verb.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionFileSha256": "da36798833ea08474ced492210448ac0251fd8fb60cbbf0a2660a3c154aecd4d",
+      "historicalTriage": "defensible-new-reusable-lesson",
+      "historicalConfidence": "medium",
+      "currentVerdict": "keep-held-naturalness",
+      "specificReason": "The exact guide uses cut away the long introduction for deletion. That object is more naturally cut or cut out; cut away also has a separate camera/scene-shift use. A target broad enough to cover the source would conflate senses; no stable source-faithful seven-step unit established.",
+      "comparedOwners": [],
+      "newLessonAuthored": false
+    },
+    {
+      "sourceOrdinal": 2356,
+      "sourceId": "book10-16-0245",
+      "exactSourceSentence": "The story can speak different emotional languages to children and parents.",
+      "exactSourceExpression": "speak different emotional languages",
+      "sourceMeaning": "Connect with different groups through different feelings; language is figurative.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+      "decisionFileSha256": "5b312a65962dcf2ae74d7473dc5cde526b41e4c1b560107418686d0f4b071ef1",
+      "historicalTriage": "defensible-new-reusable-lesson",
+      "historicalConfidence": "medium",
+      "currentVerdict": "keep-held-unit-scope",
+      "specificReason": "The story speaking different emotional languages to children and parents is a crafted audience-response metaphor. Owner 1577 instead teaches people understanding each other by speaking the same emotional language. The source is distinct from that owner, but a fixed transferable target and six varied assessed decisions have not been substantiated.",
+      "comparedOwners": [
+        {
+          "ownerId": "advanced-native-1577",
+          "file": "course-materials/advanced-native/batches/batch-1576-1600.json",
+          "fileSha256": "af0154ce3c391e5806899be9c6c3e7f6e00d0640df24c825dfb3ecbed9ac96b0",
+          "titleEn": "speak the same emotional language",
+          "meaningEn": "Understand and respond to one another’s feelings in a familiar, compatible way.",
+          "targetPattern": "\\b(?:speak|speaks|spoke|spoken|speaking)\\s+the\\s+same\\s+emotional\\s+language\\b"
+        }
+      ],
+      "newLessonAuthored": false
+    },
+    {
+      "sourceOrdinal": 2574,
+      "sourceId": "book10-16-0463",
+      "exactSourceSentence": "Parents should not let a device run the child's day.",
+      "exactSourceExpression": "run the child's day",
+      "sourceMeaning": "Control a child's routine; running is figurative.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "decisionFileSha256": "9d032f11062e956ddf05d041a28553eca5b90df9c70540af1ab3224a579aa018",
+      "historicalTriage": "defensible-new-reusable-lesson",
+      "historicalConfidence": "medium",
+      "currentVerdict": "same-sense-owner-lead",
+      "specificReason": "Owner 2458 teaches an app or schedule dictating a person’s daily choices rather than assisting. Letting a device run the child’s day is the same agency/control decision with a narrower day object; assess a bounded owner variant, not a duplicate lesson.",
+      "comparedOwners": [
+        {
+          "ownerId": "advanced-native-2458",
+          "file": "course-materials/advanced-native/drafts-books10-16/batch-2449-2458-a.json",
+          "fileSha256": "72ad4155beb78cbb31b142ef73dc9c1153d4012a574ff6fd42f3498451da4c3d",
+          "titleEn": "running their life",
+          "meaningEn": "Control a person’s daily choices or routine instead of merely assisting them.",
+          "targetPattern": "\\b(?:run|runs|ran|running) (?:my|your|his|her|our|their|its|the) (?:life|lives)\\b"
+        }
+      ],
+      "newLessonAuthored": false
+    },
+    {
+      "sourceOrdinal": 2676,
+      "sourceId": "book10-16-0565",
+      "exactSourceSentence": "The community worked to stitch it back together.",
+      "exactSourceExpression": "stitch it back together",
+      "sourceMeaning": "Restore something that was fragmented; a fabric metaphor.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+      "decisionFileSha256": "f63928eb76d71b9b264ecf0ddd0fef0c94b8b2b647f1ab5fe92828623c72ca66",
+      "historicalTriage": "defensible-new-reusable-lesson",
+      "historicalConfidence": "medium",
+      "currentVerdict": "keep-held-owner-and-antecedent",
+      "specificReason": "Owner 1357 already teaches repairing a fractured community by knitting its social fabric back together; selected owner 3823 separately teaches the network noun. Stitch it back together refers only to it, with no named antecedent in the exact source, so a separate lesson risks duplicating restoration and inventing its object.",
+      "comparedOwners": [
+        {
+          "ownerId": "advanced-native-1357",
+          "file": "course-materials/advanced-native/batches/batch-1351-1375.json",
+          "fileSha256": "892cc4d158497385839e2189591cf47fed2002c60ab4e0bf5728e0cc888e89e4",
+          "titleEn": "knit the social fabric back together",
+          "meaningEn": "Help restore the relationships and cooperation that connect a community after strain or division.",
+          "targetPattern": "\\bknit(?:s|ted|ting)? the social fabric back together\\b"
+        },
+        {
+          "ownerId": "advanced-native-3823",
+          "file": "course-materials/advanced-native/drafts-books10-16/batch-held-3823-social-fabric-a.json",
+          "fileSha256": "4e4da7dbdbdfb72a3db3a130348a57ddea1d98099760ddeb1d113e6ffbc21b72",
+          "titleEn": "the social fabric",
+          "meaningEn": "The network of relationships and cooperation that connects members of a community or society.",
+          "targetPattern": "\\bthe social fabric\\b(?!\\s+(?:back together|from coming apart)\\b)"
+        }
+      ],
+      "newLessonAuthored": false
+    },
+    {
+      "sourceOrdinal": 2925,
+      "sourceId": "book10-16-0814",
+      "exactSourceSentence": "A small dinner can mark a moment beautifully.",
+      "exactSourceExpression": "mark a moment",
+      "sourceMeaning": "Recognise an occasion as significant; a natural celebratory collocation.",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+      "decisionFileSha256": "ab5da92de4c9ac51be50fbad0b4df17f380386596265cd5a29727bfc82cf93d1",
+      "historicalTriage": "defensible-new-reusable-lesson",
+      "historicalConfidence": "medium",
+      "currentVerdict": "same-sense-owner-lead",
+      "specificReason": "Owner 1468 already teaches recognising or commemorating a meaningful event with a small gathering; the source small dinner marking a moment requires the same decision. Mark a moment is transparent wording and does not justify a new seven-step owner.",
+      "comparedOwners": [
+        {
+          "ownerId": "advanced-native-1468",
+          "file": "course-materials/advanced-native/batches/batch-1451-1475.json",
+          "fileSha256": "9f7a3a610d2603d2bb37ae05b78acd1e0f17b24266d022f671ec362a7b94ffe4",
+          "titleEn": "mark something meaningful",
+          "meaningEn": "Recognise or commemorate an event, achievement or moment that matters.",
+          "targetPattern": "\\bmark(?:s|ed|ing)?\\s+something\\s+meaningful\\b"
+        }
+      ],
+      "newLessonAuthored": false
+    }
+  ],
+  "filesChangedBeyondThisReport": false,
+  "manifestOrDecisionsEdited": false
+}

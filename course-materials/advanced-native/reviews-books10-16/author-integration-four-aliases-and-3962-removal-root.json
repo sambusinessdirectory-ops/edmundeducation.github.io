@@ -1,0 +1,70 @@
+{
+  "status": "local-reviewed-integration-only",
+  "sources": [
+    {
+      "sourceOrdinal": 2188,
+      "ownerId": "advanced-native-463",
+      "action": "proposed-alias-existing",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0451-0475.json",
+      "ownerFileSha256": "9d0b41d1b63fe6e60cd44e58f3cd3c9011a75833fbaead8cceca4bb72d2372df",
+      "reviewedProposal": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-2188-2574-2925-proposed-a.json",
+      "reviewedProposalSha256": "f4ac4d88910622102b27d1e6116776636d90b53bf7cef3fa479f4ec4c641e7b9",
+      "learnerContentEqualsReviewedProposalExcludingReviewMetadata": true,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionFileSha256": "425bd4d5a305e9a41b3274dc09a441d53e34721f68f4e088e1c814d20987eb68"
+    },
+    {
+      "sourceOrdinal": 2574,
+      "ownerId": "advanced-native-2458",
+      "action": "proposed-alias-new",
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-2449-2458-a.json",
+      "ownerFileSha256": "0a74f26230b4dc589ecae3b86df563ff3da0b02f2dfad00a269a02450e2b8da0",
+      "reviewedProposal": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-2188-2574-2925-proposed-a.json",
+      "reviewedProposalSha256": "f4ac4d88910622102b27d1e6116776636d90b53bf7cef3fa479f4ec4c641e7b9",
+      "learnerContentEqualsReviewedProposalExcludingReviewMetadata": true,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "decisionFileSha256": "3b3eefdbd04be0f33d877fc252c590703591944165ea722998dfa947b393b036"
+    },
+    {
+      "sourceOrdinal": 2925,
+      "ownerId": "advanced-native-1468",
+      "action": "proposed-alias-existing",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1451-1475.json",
+      "ownerFileSha256": "220684d0d4d49b08cf6fb92ff833254c820b2de1f6fb70635bdaee25ae8b8c4f",
+      "reviewedProposal": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-2188-2574-2925-proposed-a.json",
+      "reviewedProposalSha256": "f4ac4d88910622102b27d1e6116776636d90b53bf7cef3fa479f4ec4c641e7b9",
+      "learnerContentEqualsReviewedProposalExcludingReviewMetadata": true,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+      "decisionFileSha256": "f67d00e5535f7bce22d1bfdb652b3643b300f479fc7eb94d3e4a5e230c28d8be"
+    },
+    {
+      "sourceOrdinal": 3239,
+      "ownerId": "advanced-native-873",
+      "action": "proposed-alias-existing",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0851-0875.json",
+      "ownerFileSha256": "8230027749fddbbf09612c9c17318770f1df28a751999a26a1ba1e9cb4d0689f",
+      "reviewedProposal": "course-materials/advanced-native/reviews-books10-16/proposals/owner-873-source-3239-proposed-a.json",
+      "reviewedProposalSha256": "a39961296ea7941ff4c1cc21c40660bb04186f56d19513891556ed3e1f585c63",
+      "learnerContentEqualsReviewedProposalExcludingReviewMetadata": true,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3192-3251.jsonl",
+      "decisionFileSha256": "610ac287765455d6acf7dd8b81091bef4b0036200e20331be78329e82ab71b91"
+    }
+  ],
+  "independentReviewEvidence": [
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-expansions-2188-2574-2925-b.json",
+      "sha256": "24215d85323e9ee52e3a32ed2fe15808fed30b140b4cf95344acec9f8d47b486"
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-source2574-selected-owner2458-classification-b.json",
+      "sha256": "1f8e3eacf0df34ef85586a3c1926120636a3573ec094c0a3775ef5ea33e9b2db"
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-873-source-3239-b-followup.json",
+      "sha256": "9a90959b49b7f540aaf9675d70eb2689d9710fcd66f0eb30d588a2192db3bf74"
+    }
+  ],
+  "exactCurrentAliasVerifier": "1197/1197 existing and 196/196 new match; zero schema/source/alias errors",
+  "currentAudio": "2,679 exact roles identical to previously verified 2,683-role queue after removing source3962 clips",
+  "publicReleased": false
+}

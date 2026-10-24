@@ -5618,11 +5618,12 @@
       "titleEn": "think straight",
       "titleZh": "清楚有條理地思考",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\b(?:think|thinks|thinking|thought) straight\\b",
+        "pattern": "\\b(?:think|thinks|thinking|thought)\\s+straight(?:er)?\\b",
         "glossaryForbidden": [
-          "\\bstraight\\b"
+          "\\bstraight\\b",
+          "\\bstraighter\\b"
         ]
       },
       "sources": [
@@ -5638,16 +5639,30 @@
           "sentence": "A short break helps me think straight.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "think straight"
+        },
+        {
+          "occurrenceId": "book10-16-1128",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 105,
+          "book": 12,
+          "question": 38,
+          "sample": "S2",
+          "sourceBookPages": "91–93",
+          "locatorNote": "DOCX table 108, row 13; page refers to locally rendered PDF in intake summary. Source question: What kind of advice do friends give each other?",
+          "sentence": "A calm conversation helped me think straighter.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "think straighter"
         }
       ],
       "brief": {
-        "meaningEn": "Think clearly and make sense of a situation, especially when pressure or emotion makes that difficult.",
-        "meaningZh": "清楚思考、理解情況，尤其在壓力或情緒令這點較難時。",
-        "grammar": "can/cannot think straight; was not thinking straight; often used in negative statements about a current state.",
+        "meaningEn": "Think clearly and make sense of a situation, especially when pressure or emotion makes that difficult; think straighter compares improved clarity with an earlier, less clear state.",
+        "meaningZh": "清楚思考、理解情況，尤其在壓力或情緒令這點較難時；think straighter 表示比先前想得較清楚。",
+        "grammar": "Can/cannot think straight; was not thinking straight. Use think/thinks/thought/are thinking straighter for a comparative improvement in mental clarity after a pause, explanation or calm exchange; it does not mean the final decision is necessarily correct.",
         "register": "Conventional spoken clarity expression; straight refers to mental clarity, not necessarily agreement or honesty.",
-        "boundaryZh": "當時難清楚思考不等於永遠能力差，也不表示一定說謊；稍作整理也不保證每個判斷正確。",
+        "boundaryZh": "think straight 描述清楚思考；think straighter 只表示比先前較清楚，不保證已知道正確答案。暫時想不清楚也不等於永遠能力差或故意說謊。",
         "misconceptionZh": "要分清目前心情、資料及長期能力，不能只因不同意就指人想不清楚。",
-        "outcomeZh": "能表達暫時難集中思考，並提出合適的暫停或釐清。"
+        "outcomeZh": "能分清當下思路不清與其後比較清楚的變化，並在改善後仍審慎查證和決定。"
       },
       "listening": {
         "promptEn": "",
@@ -5709,26 +5724,26 @@
       },
       "scene": {
         "promptEn": "",
-        "promptZh": "人物收到意外批評，心情太亂，暫時難把理由及回應排清楚，想稍後再談。哪句貼切？",
+        "promptZh": "米拉受到意外批評後，原本把兩項活動的安排混在一起。她和同伴冷靜談過、列出各自時段後，現在較能比較兩個方案，但仍未作最後決定。哪句最準確？",
         "options": [
           {
             "id": "choice-1",
-            "en": "I cannot think straight right now and need a little time before I respond.",
-            "zh": "我現在無法清楚思考，回應前需一點時間。"
+            "en": "Mira can think straighter about the two plans now, though she still needs to choose between them.",
+            "zh": "米拉現在能較清楚比較兩個方案，但仍需在兩者之間作出選擇。"
           },
           {
             "id": "choice-2",
-            "en": "I understand every point clearly and have already weighed the response carefully.",
-            "zh": "我清楚明白每點，也已細衡回應。"
+            "en": "The calmer exchange proves that one plan is already the right choice.",
+            "zh": "這次較冷靜的談話證明其中一個方案已是正確選擇。"
           },
           {
             "id": "choice-3",
-            "en": "Disagreeing with the criticism proves I am being dishonest.",
-            "zh": "不同意批評，證明我不誠實。"
+            "en": "Listing the times made no difference to how clearly she could compare the plans.",
+            "zh": "列出時段後，她比較方案時的思路並沒有變得較清楚。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "當時心亂、難整理，是思路狀態，不是已細想或由分歧證明不誠實。"
+        "explanationZh": "冷靜談話及列出時段後，她比先前較能比較方案；think straighter 表示相對改善，不表示已選定或證明某方案正確。"
       },
       "contrast": {
         "promptEn": "",
@@ -5870,7 +5885,7 @@
           "reviewer": "AI author source_inventory",
           "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
         },
-        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+        "note": "Source 3239 owner expansion independently AI-reviewed at reviews-books10-16/independent-ai-review-owner-873-source-3239-b-followup.json; local browser, hosted audio and release acceptance remain separate."
       }
     },
     {
