@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "kind": "author-repair-attestation-nine-held-owner-proposals",
+  "date": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-owner-nine-3909-4081-20261024.json",
+  "priorProposalSha256": "2737b080332063359807ba1e117092baa1beb99d4e95118a75f631581042a8e8",
+  "repairedProposalSha256": "841064d8ace5bee3199a45f5a14f9c2d910fa4775073cbe955b96c13c3696492",
+  "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-nine-owner-proposals-3909-4081-20261024.json",
+  "independentReviewSha256": "7bcdfd0c445b788adf1082c4bc093a80ec6fd57b4a05f125638d06d5fb628a2f",
+  "triagePath": "course-materials/advanced-native/reviews-books10-16/independent-prioritized-25-current-holds-owner-screen-20261024.json",
+  "triageSha256": "85d76678b55aa68707b3a960c541cd23d495b572386b958343757d270d318152",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256BeforeAndAfter": "c840a735158c64eaaaee9845ee67318e5f77b30a99067f28b5a243be792526dc",
+  "lessonOrdinals": [
+    3909,
+    3942,
+    3944,
+    3981,
+    4028,
+    4029,
+    4055,
+    4070,
+    4081
+  ],
+  "independentReviewBlockersAddressed": 20,
+  "independentReviewAdvisoriesAddressed": 5,
+  "validation": {
+    "errors": [],
+    "warnings": [],
+    "compiled": [
+      {
+        "id": "advanced-native-3909",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3942",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3944",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3981",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-4028",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-4029",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-4055",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-4070",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-4081",
+        "steps": 7,
+        "questions": 6
+      }
+    ]
+  },
+  "sourceDecisionsChanged": false,
+  "selectedManifestChanged": false,
+  "selectedReleaseChanged": false,
+  "independentReReview": "pending",
+  "releaseApproval": false,
+  "initialIndependentReviewSha256": "06c6776d8c18a421b46860955089d200451f6aeaec044dfd8672a32dab2cd15c"
+}

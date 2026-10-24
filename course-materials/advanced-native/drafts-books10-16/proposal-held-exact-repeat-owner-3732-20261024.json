@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-held-exact-repeat-owner-3732-proposal",
+  "lessons": [
+    {
+      "id": "advanced-native-3732",
+      "number": 3732,
+      "inventoryId": "expr-3732",
+      "titleEn": "mentally lazier",
+      "titleZh": "思考上變得較懶惰",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bmentally lazier\\b",
+        "glossaryForbidden": [
+          "\\bmentally\\b",
+          "\\blazier\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Less willing to think through problems independently than before.",
+        "meaningZh": "與之前相比，較不願意自己動腦思考問題。",
+        "grammar": "Mentally modifies lazier, the comparative of lazy; say X may make someone mentally lazier than before and name the thinking habit at issue.",
+        "register": "Cautious evaluative language: a teacher, coach or colleague raises a concern about changed thinking habits with learners or peers, not a proven universal effect.",
+        "boundaryZh": "指獨立思考的意願相對下降，不是體力活動減少，也不等於使用工具本身有問題。",
+        "misconceptionZh": "不能只見到有人使用工具就斷定他思考上變懶；要有前後比較及具體行為。",
+        "outcomeZh": "能有分寸地描述思考習慣可能變差的證據與比較基準。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1621",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 152,
+          "book": 14,
+          "question": 18,
+          "sample": "S1",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 162, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Excessive automation could make us mentally lazier.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "mentally lazier"
+        }
+      ],
+      "listening": {
+        "en": "At first, the puzzle club checked the clues before asking for hints. Now several members open the answer app immediately and rarely test an idea. Their coach worries that this habit could make them mentally lazier.",
+        "zh": "起初，解謎學會的成員會先檢查線索才求提示。現在有幾人立即打開答案程式，很少自行驗證想法；教練擔心這種習慣可能使他們在思考上變得較懶惰。",
+        "promptZh": "教練為甚麼擔心成員變得 mentally lazier？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They now rely on instant hints before trying to reason through clues.",
+            "zh": "他們現在還未嘗試推理線索，便依賴即時提示。"
+          },
+          {
+            "id": "b",
+            "en": "They exercise less after joining the club.",
+            "zh": "加入學會後，他們的運動量變少。"
+          },
+          {
+            "id": "c",
+            "en": "They solve more puzzles independently than they used to.",
+            "zh": "與以前相比，他們更常獨立解謎。"
+          },
+          {
+            "id": "d",
+            "en": "The app has proved that all club members cannot think.",
+            "zh": "程式證明所有成員都不會思考。"
+          }
+        ],
+        "explanationZh": "擔心來自思考習慣的前後改變：成員未先試解，便立即看提示；這不是體力問題，也不是對所有人的定論。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "（你為甚麼擔心他們現在做數學題的方式？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They ask the calculator for every answer before estimating it themselves.",
+            "zh": "他們還未自己估算，就請計算機給出每個答案。"
+          },
+          {
+            "id": "b",
+            "en": "They used to check their reasoning, but now often skip that step.",
+            "zh": "以前他們會檢查推理過程，現在卻常常略過。"
+          },
+          {
+            "id": "c",
+            "en": "Relying on instant answers may be making them mentally lazier.",
+            "zh": "依賴即時答案可能令他們在思考上變得較懶惰。"
+          },
+          {
+            "id": "d",
+            "en": "I want them to attempt a method before using the tool.",
+            "zh": "我希望他們先嘗試方法，再使用工具。"
+          }
+        ],
+        "explanationZh": "四句都切合對做題習慣的擔憂；只有金句用本課表達，審慎指出依賴即時答案可能令他們較不願意動腦。",
+        "goldenId": "c",
+        "promptEn": "Why are you worried about how they do maths now?"
+      },
+      "scene": {
+        "promptZh": "編輯曾逐條核對訪問錄音；最近幾次，她只看軟件摘要，連關鍵引語也不回聽。哪句最準確地提出擔憂？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shortcut may be making her mentally lazier about checking evidence.",
+            "zh": "這種捷徑可能使她在核對證據時較不願意動腦。"
+          },
+          {
+            "id": "b",
+            "en": "The software helps her locate recordings more quickly.",
+            "zh": "軟件幫助她更快找到錄音。"
+          },
+          {
+            "id": "c",
+            "en": "She is busier now and may need a better schedule for reviewing interviews.",
+            "zh": "她現在更忙，也許需要更好的時間安排來審閱訪問。"
+          }
+        ],
+        "explanationZh": "另兩句或許有道理，但沒有指出她由親自核對轉為依賴摘要的思考習慣變化。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不支持「mentally lazier」這項比較？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A learner now copies hints before attempting any problem, unlike last month.",
+            "zh": "與上月不同，學員現在未嘗試解題便照抄提示。"
+          },
+          {
+            "id": "b",
+            "en": "A writer now accepts every automated suggestion without checking its logic.",
+            "zh": "作家現在不核對邏輯便接受所有自動建議。"
+          },
+          {
+            "id": "c",
+            "en": "A student uses a dictionary, then tests each new word in her own sentence.",
+            "zh": "學生查字典後，會用自己的句子檢驗每個新詞。"
+          }
+        ],
+        "explanationZh": "查字典後仍主動檢驗用法，沒有顯示獨立思考意願下降；另外兩項有較明顯的依賴變化。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「我們用自動排班程式，會不會令大家不再思考？」你發現隊員仍會檢查例外情況。怎樣回應較審慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It need not make us mentally lazier if we still review unusual shifts and explain our choices.",
+            "zh": "只要我們仍檢查特殊班次並解釋決定，它未必會令我們在思考上變得較懶惰。"
+          },
+          {
+            "id": "b",
+            "en": "The program saves time, so we should keep using it for now.",
+            "zh": "程式節省時間，所以我們目前應繼續使用。"
+          },
+          {
+            "id": "c",
+            "en": "We should compare the schedules with staff feedback before judging the change.",
+            "zh": "作判斷前，我們應把時間表與員工意見比較。"
+          }
+        ],
+        "explanationZh": "另兩句是合理的時間或評估建議，卻未直接回答「使用程式是否令大家不再思考」；金句以具體檢查習慣限制擔憂。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "If we stop checking the reasons behind each answer, quick hints could make us mentally lazier.",
+        "zh": "如果我們不再檢查每個答案背後的理由，即時提示可能令我們在思考上變得較懶惰。",
+        "promptZh": "先聽示範，再指出甚麼習慣改變才值得擔心。",
+        "targetSpan": {
+          "start": 78,
+          "end": 93
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：棋藝學會試用一個推薦走法的程式。以前新會員會討論每步棋的利弊；這個月有幾人直接照程式建議落子，卻說不出原因。教練仍讓大家使用程式，但要求先提出自己的理由。用一至兩句英文審慎說明教練的擔心和做法。",
+        "selfCheckZh": "比較以前與現在的推理習慣，用 may 或 could 表示擔憂而非必然結果，並寫出先自行提出理由的做法。",
+        "examples": [
+          {
+            "en": "The coach worries that copying suggested moves without explaining them could make new players mentally lazier than before, so she asks them to give a reason first.",
+            "zh": "教練擔心新會員照抄建議走法卻說不出理由，可能比以前較不願意動腦；因此她要求他們先提出自己的理由。"
+          },
+          {
+            "en": "If the players stop weighing the risks of each move, the app may make them mentally lazier; the coach therefore asks for their own reasoning before they follow its advice.",
+            "zh": "如果棋手不再衡量每步棋的風險，程式可能令他們在思考上變得較懶惰；因此教練要求他們先說出自己的推理，再採納它的建議。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "copying suggested moves",
+            "zh": "照抄建議走法",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 46
+            }
+          },
+          {
+            "en": "give a reason first",
+            "zh": "先提出理由",
+            "exampleIndex": 0,
+            "span": {
+              "start": 143,
+              "end": 162
+            }
+          },
+          {
+            "en": "weighing the risks",
+            "zh": "衡量風險",
+            "exampleIndex": 1,
+            "span": {
+              "start": 20,
+              "end": 38
+            }
+          },
+          {
+            "en": "their own reasoning",
+            "zh": "自己的推理",
+            "exampleIndex": 1,
+            "span": {
+              "start": 121,
+              "end": 140
+            }
+          },
+          {
+            "en": "follow its advice",
+            "zh": "採納它的建議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 153,
+              "end": 170
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A shortcut may make us mentally lazier only if we stop evaluating its answers.",
+          "zh": "只有不再評估答案，捷徑才可能令我們在思考上變得較懶惰。"
+        },
+        {
+          "en": "Using a tool need not make us mentally lazier when we still explain our reasoning.",
+          "zh": "如果仍能解釋推理，使用工具未必會令我們在思考上變得較懶惰。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

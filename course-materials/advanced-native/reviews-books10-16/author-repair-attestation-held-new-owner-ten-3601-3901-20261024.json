@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "kind": "source-bound-author-repair-attestation-unselected-ten-owner-proposals",
+  "date": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-new-owner-ten-3601-3901-20261024.json",
+  "originalProposalSha256": "145435f72ead6e2352b9b6048838184a392d66e79e0985a2a164651607c18a52",
+  "repairedProposalSha256": "d8eeeed012c31c6a2c1e6fda2a0a6214d5d98d0f2a0dbfab7086b9a6bd33f9cb",
+  "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-review-held-owner-ten-3601-3901-20261024.json",
+  "independentReviewSha256": "35918a7da8b9a99e4a69f6188aa2a44971323445eeea95109a06efa191c45fd5",
+  "historicalAuthorQaPath": "course-materials/advanced-native/reviews-books10-16/author-qa-held-new-owner-ten-3601-3901-20261024.json",
+  "sourceTriagePath": "course-materials/advanced-native/reviews-books10-16/independent-prioritized-25-current-holds-owner-screen-20261024.json",
+  "sourceTriageSha256": "85d76678b55aa68707b3a960c541cd23d495b572386b958343757d270d318152",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "count": 10,
+  "repairByOrdinal": {
+    "3601": "Rewrote reply b and d as direct current-control answers; all four identify the committee or its few members.",
+    "3694": "Rewrote reply d as a direct patient-access effect of the evening booking system.",
+    "3725": "Added actual school and college outcomes plus scholarship travel/fee support to the bilingual reply prompt; changed d to a student prospect effect and aligned a/b tense and support facts.",
+    "3775": "Rewrote a/c/d as completed or submitted meal-booking methods, not pickup or mere checking.",
+    "3839": "Rewrote d as a weekend visitor effect; documented deliberate plural magnet frame and singular counterpart in draft review notes.",
+    "3844": "Rewrote c/d as actual waiting-list trends, not recommendations or future plans.",
+    "3850": "Rewrote b/d as recent service-performance observations; aligned Hong Kong Chinese prompt to 巴士.",
+    "3893": "Rewrote a/b/d as effects on viewers; broadened stir desire from necessarily first-ever to arouse or evoke, while making the prior-wish amplification distinction evidence-based in bilingual brief and contrast.",
+    "3901": "Clarified bilingual boundary that only amplify requires prior desire; changed reply d into a direct viewer effect."
+  },
+  "checks": {
+    "sourceAndUnchangedHoldDecisionBindings": [
+      {
+        "sourceOrdinal": 3601,
+        "sourceId": "book10-16-1490",
+        "sourceRawRowSha256": "c08355554b8fe722ee37493a76af1b5860820ee5ac716b4c195373d93215af3d",
+        "decisionRawRowSha256": "ec8390652812020f7827c23bf9b912d521595e17bd81ed342764585658510f90",
+        "decisionStillHold": true,
+        "sourcePatternMatch": true,
+        "oneTargetBearingGoldenReply": true,
+        "answerDerivedTargetFreeGlossary": true
+      },
+      {
+        "sourceOrdinal": 3694,
+        "sourceId": "book10-16-1583",
+        "sourceRawRowSha256": "3d88120fc0423d15ac70e7c9259cd072473c8c3d97e4e04455b4f811d31f6bf2",
+        "decisionRawRowSha256": "d1a62b88adffeb3f2f78f8f5d3728180088ac38e03570fc8c02d96e75a3560aa",
+        "decisionStillHold": true,
+        "sourcePatternMatch": true,
+        "oneTargetBearingGoldenReply": true,
+        "answerDerivedTargetFreeGlossary": true
+      },
+      {
+        "sourceOrdinal": 3723,
+        "sourceId": "book10-16-1612",
+        "sourceRawRowSha256": "f02c8f9dbc2e5e802d2244786e91f9173b1135c38e9a0185643f1f687e96e75d",
+        "decisionRawRowSha256": "303d5751e3a334dfd08adf54bd66b4111daea5e9767202b7edb0b3c251d00511",
+        "decisionStillHold": true,
+        "sourcePatternMatch": true,
+        "oneTargetBearingGoldenReply": true,
+        "answerDerivedTargetFreeGlossary": true
+      },
+      {
+        "sourceOrdinal": 3725,
+        "sourceId": "book10-16-1614",
+        "sourceRawRowSha256": "24f2f07ecd42e3c68e65cb7913f5a4c226ba8d996fc5ab965c04b068f5d9c639",
+        "decisionRawRowSha256": "fb14eadb14e40371360214092cda3368679b45d820f4a7e77615b26c38aff1d6",
+        "decisionStillHold": true,
+        "sourcePatternMatch": true,
+        "oneTargetBearingGoldenReply": true,
+        "answerDerivedTargetFreeGlossary": true
+      },
+      {
+        "sourceOrdinal": 3775,
+        "sourceId": "book10-16-1664",
+        "sourceRawRowSha256": "a34f3e9b1db52f44d7b9f6fdb71e621bc7e5afc221f96e50cf3fa25ae59057d3",
+        "decisionRawRowSha256": "133aa88cf2a42cce89b1c9eab5454ae4dc9231360933a6626800b274e139fc1f",
+        "decisionStillHold": true,
+        "sourcePatternMatch": true,
+        "oneTargetBearingGoldenReply": true,
+        "answerDerivedTargetFreeGlossary": true
+      },
+      {
+        "sourceOrdinal": 3839,
+        "sourceId": "book10-16-1728",
+        "sourceRawRowSha256": "803f2a2b90840ef5532503f8c9c5100da6622f88e01a69827cc06a9f6682f01b",
+        "decisionRawRowSha256": "3625baa2389be5bb09dc25df83828339c69bb53e49f6bf2dbbcebae16c602e8c",
+        "decisionStillHold": true,
+        "sourcePatternMatch": true,
+        "oneTargetBearingGoldenReply": true,
+        "answerDerivedTargetFreeGlossary": true
+      },
+      {
+        "sourceOrdinal": 3844,
+        "sourceId": "book10-16-1733",
+        "sourceRawRowSha256": "55a173f6387344ebd2555fd7c4194068431a754c2ddbb7bd9d417adcaa6ad4bc",
+        "decisionRawRowSha256": "9ed6b2c927238963b30483a277f268d6ed95fcfd877571dd53e07af68a508adb",
+        "decisionStillHold": true,
+        "sourcePatternMatch": true,
+        "oneTargetBearingGoldenReply": true,
+        "answerDerivedTargetFreeGlossary": true
+      },
+      {
+        "sourceOrdinal": 3850,
+        "sourceId": "book10-16-1739",
+        "sourceRawRowSha256": "4e2e945796dc2231eb9609964aeb92bbe99740fb428d85a286901641a9dcdc4f",
+        "decisionRawRowSha256": "5218f7ce3ed0c312c7de086b9c500750e546ea203b3b41a58abf7a2cff1dce11",
+        "decisionStillHold": true,
+        "sourcePatternMatch": true,
+        "oneTargetBearingGoldenReply": true,
+        "answerDerivedTargetFreeGlossary": true
+      },
+      {
+        "sourceOrdinal": 3893,
+        "sourceId": "book10-16-1782",
+        "sourceRawRowSha256": "e474cb8ac1d0aa38f852d3838896472199342d128b6c890ea71ac4b458691bb5",
+        "decisionRawRowSha256": "baaf54ae8e3a5517cc4a7b4eaeca722410279447e05752d492ede04b80d1aae4",
+        "decisionStillHold": true,
+        "sourcePatternMatch": true,
+        "oneTargetBearingGoldenReply": true,
+        "answerDerivedTargetFreeGlossary": true
+      },
+      {
+        "sourceOrdinal": 3901,
+        "sourceId": "book10-16-1790",
+        "sourceRawRowSha256": "a535c2d172d685aa193fd14aefd7aa0f76276460c629a39cf143d912b7873dfc",
+        "decisionRawRowSha256": "3cf66729226d430021c72d3690d41814515715fe51edf774f9cf2607b74d7352",
+        "decisionStillHold": true,
+        "sourcePatternMatch": true,
+        "oneTargetBearingGoldenReply": true,
+        "answerDerivedTargetFreeGlossary": true
+      }
+    ],
+    "validateCatalogueErrors": 0,
+    "validateCatalogueWarnings": 0,
+    "compileRecordSuccesses": 10,
+    "audioQueueRolesPlanned": 40,
+    "sixTokenSourceOverlapHighOrMediumFlags": 0,
+    "authorFourValidReplyRecheck": 10,
+    "note": "Automated checks and author recheck are bound to the repaired proposal hash; a fresh independent editorial review remains required."
+  },
+  "unresolvedGates": [
+    "Fresh independent exact-hash review of all repaired replies and 3893/3901 sense boundary.",
+    "Audio synthesis and verification, browser/device QA, selection/aliases, publication and full SOP audit."
+  ],
+  "mutations": {
+    "proposalOnly": true,
+    "selectedManifest": false,
+    "sourceDecisions": false,
+    "sopAudit": false
+  },
+  "selectionApproved": false,
+  "releaseApproval": false
+}

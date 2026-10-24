@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "kind": "author-focused-final-repair-attestation-ten-unselected-owners",
+  "date": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-new-owner-ten-3601-3901-20261024.json",
+  "priorProposalSha256": "d8eeeed012c31c6a2c1e6fda2a0a6214d5d98d0f2a0dbfab7086b9a6bd33f9cb",
+  "repairedProposalSha256": "cb85fa9e9b2cb0b284f462ee327e259b018945bcd984a769b272bf60237cf474",
+  "independentPostrepairReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-postrepair-held-owner-ten-3601-3901-20261024.json",
+  "independentPostrepairReviewSha256": "ba0a428df046206c2a04d46f45357cb55d694f19e5c51deb06503717928ba716",
+  "sourceTriagePath": "course-materials/advanced-native/reviews-books10-16/independent-prioritized-25-current-holds-owner-screen-20261024.json",
+  "sourceTriageSha256": "85d76678b55aa68707b3a960c541cd23d495b572386b958343757d270d318152",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "focusedFixes": [
+    {
+      "sourceOrdinal": 3601,
+      "field": "reply.promptZh",
+      "before": "誰能決定研究資料是否公開？",
+      "after": "誰能決定誰可以查閱這些研究資料？",
+      "reason": "Align the Chinese question about controlled consultation with the English question, instead of asking about public release."
+    },
+    {
+      "sourceOrdinal": 3725,
+      "field": "reply.options[c]",
+      "beforeEn": "It changed the fate of students who otherwise had no route to further study.",
+      "afterEn": "It changed the fate of several students by helping them finish school and enter college.",
+      "afterZh": "它幫助幾名學生完成學業並升讀大學，改變了他們的前途。",
+      "reason": "Keep the substantial observed education effect and target expression without asserting that no alternative route had existed."
+    }
+  ],
+  "checks": {
+    "sourceAndUnchangedHoldDecisionBindings": 10,
+    "schemaErrors": 0,
+    "schemaWarnings": 0,
+    "compiledSevenStepLessons": 10,
+    "audioRolesPlanned": 40,
+    "highOrMediumSixTokenSourceOverlapFlags": 0,
+    "oneTargetBearingGoldenReplyEach": true
+  },
+  "remainingGates": [
+    "Independent exact-hash focused rereview of these two fixes.",
+    "Audio, browser/device, selection, publication and complete SOP audit are pending."
+  ],
+  "mutations": {
+    "proposalOnly": true,
+    "selectedManifest": false,
+    "sourceDecisions": false,
+    "sopAudit": false
+  },
+  "selectionApproved": false,
+  "releaseApproval": false
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-final-focused-AI-rereview-ten-unselected-proposals",
+  "date": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-new-owner-ten-3601-3901-20261024.json",
+  "proposalSha256": "cb85fa9e9b2cb0b284f462ee327e259b018945bcd984a769b272bf60237cf474",
+  "authorFinalRepairAttestationPath": "course-materials/advanced-native/reviews-books10-16/author-final-repair-attestation-held-new-owner-ten-3601-3901-20261024.json",
+  "authorFinalRepairAttestationSha256": "7279fd7430aeb82c37b19156138356e35edb6601ebd20082f3b8135321f29a11",
+  "priorIndependentPostrepairReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-postrepair-held-owner-ten-3601-3901-20261024.json",
+  "priorIndependentPostrepairReviewSha256": "ba0a428df046206c2a04d46f45357cb55d694f19e5c51deb06503717928ba716",
+  "sourceTriagePath": "course-materials/advanced-native/reviews-books10-16/independent-prioritized-25-current-holds-owner-screen-20261024.json",
+  "sourceTriageSha256": "85d76678b55aa68707b3a960c541cd23d495b572386b958343757d270d318152",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "originalityScreenPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-ten-3601-3901-20261024.json",
+  "originalityScreenSha256": "05a435cb9a6237622e7e4e393b78f0638d7dd3093d5beaf81d2334c3cd1d3d65",
+  "selectedManifestSha256AtReview": "c840a735158c64eaaaee9845ee67318e5f77b30a99067f28b5a243be792526dc",
+  "sourceBindingsPassed": 10,
+  "structuralValidation": {
+    "errors": [],
+    "warnings": [],
+    "compiled": [
+      {
+        "id": "advanced-native-3601",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3694",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3723",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3725",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3775",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3839",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3844",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3850",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3893",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3901",
+        "steps": 7,
+        "questions": 6
+      }
+    ]
+  },
+  "focusedFindings": [
+    {
+      "ordinal": 3601,
+      "field": "reply.promptZh",
+      "verdict": "pass",
+      "reason": "Now asks who may decide access/consultation, matching English; no public-release conflation."
+    },
+    {
+      "ordinal": 3725,
+      "field": "reply.options[c]",
+      "verdict": "pass",
+      "reason": "Now summarizes actual school-completion and college-entry outcomes without asserting absence of every alternative route."
+    }
+  ],
+  "remainingReleaseBlockingFindings": 0,
+  "editorialVerdict": "pass-for-these-ten-AI-editorial-review",
+  "selectionApproved": false,
+  "releaseApproval": false,
+  "limits": [
+    "This AI source/content review clears the identified editorial blockers only. Media, browser/device, selection and live publication remain separate gates.",
+    "No author proposal, source decision or selected manifest was edited by this review."
+  ]
+}

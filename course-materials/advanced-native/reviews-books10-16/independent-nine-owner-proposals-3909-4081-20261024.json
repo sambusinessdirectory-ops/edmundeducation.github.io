@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-source-and-exact-hash-bound-editorial-review-nine-unselected-owner-proposals",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-owner-nine-3909-4081-20261024.json",
+  "proposalSha256": "2737b080332063359807ba1e117092baa1beb99d4e95118a75f631581042a8e8",
+  "triagePath": "course-materials/advanced-native/reviews-books10-16/independent-prioritized-25-current-holds-owner-screen-20261024.json",
+  "triageSha256": "85d76678b55aa68707b3a960c541cd23d495b572386b958343757d270d318152",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "scope": {
+    "proposalCount": 9,
+    "sourceOrdinals": [
+      3909,
+      3942,
+      3944,
+      3981,
+      4028,
+      4029,
+      4055,
+      4070,
+      4081
+    ],
+    "steps": 63,
+    "assessedQuestions": 54,
+    "expectedAudioRoles": 36
+  },
+  "automatedChecks": {
+    "validateCatalogueErrors": 0,
+    "validateCatalogueWarnings": 0,
+    "compileRecordSuccesses": 9,
+    "audioQueueRoles": 36,
+    "note": "Checks were run on the exact proposal hash above; editorial judgment is separate from schema validity.",
+    "sourceRawRowsVerified": 9,
+    "holdDecisionRawRowsVerified": 9,
+    "sourceSentenceMatchesInventory": 9
+  },
+  "overallVerdict": "needs-revision",
+  "summary": "All nine draft owners match a teachable source sense and pass structural validation. All nine have scene and/or listening distractors that are literal, contradictory, absolute, or off-task rather than credible near misses; 3909 also has a reply that does not answer its own prompt, and 4029 closely mirrors the source sentence. Re-review after revisions with a new proposal hash.",
+  "items": [
+    {
+      "sourceOrdinal": 3909,
+      "lessonId": "advanced-native-3909",
+      "target": "built with X in mind",
+      "sourceId": "book10-16-1798",
+      "sourceRawRowSha256": "40f861bae948ebd663fe80443278273807032cb9e09ac96d926d14440f993181",
+      "decisionFile": "editorial-decisions-3852-3911.jsonl",
+      "decisionRawRowSha256": "f2f69c6034db0ddd7c062159461afe96584ebdd9a4c4901743011fc89cdfa39d",
+      "exactGuideSentence": "The app was built with speed in mind rather than clarity.",
+      "guideMeaning": "Designed for quick use at the expense of ease of understanding; a natural spoken way to qualify or connect ideas.",
+      "verdict": "needs-revision",
+      "verifiedPasses": [
+        "Reusable target sense fits the exact source and source-specific triage.",
+        "Seven-step shape compiles, with four reply options, six keyed assessments, Traditional Chinese fields, two writing examples, and answer-span-bound target-excluded glossary.",
+        "The writing scenario differs from the exact guide scene; source uncertainty and key nuance are generally preserved."
+      ],
+      "blockers": [
+        {
+          "field": "reply.options[b]",
+          "issue": "The prompt asks what the library wanted to achieve, but asking regular visitors to test the page is a method, not an achieved design goal. Replace with a valid goal so all four answers genuinely answer the same question."
+        },
+        {
+          "field": "listening.en",
+          "issue": "“enlarged its directions” is unnatural English. Name what was enlarged (for example, route text or symbols) and keep the Chinese aligned."
+        },
+        {
+          "field": "scene.options[b,c]",
+          "issue": "Buying more books and a large-screen-only page are unsupported/off-task, rather than plausible interpretations of the design evidence. Use context-compatible near misses while retaining one best target answer."
+        }
+      ],
+      "advisories": []
+    },
+    {
+      "sourceOrdinal": 3942,
+      "lessonId": "advanced-native-3942",
+      "target": "a shared language",
+      "sourceId": "book10-16-1831",
+      "sourceRawRowSha256": "59381409b90357d85b9d528322017155798e7e896dfabf726f44ba7e9d4f8a9f",
+      "decisionFile": "editorial-decisions-3912-3971.jsonl",
+      "decisionRawRowSha256": "72e66c2e9ad45dbf3abcebbef13fb9737907862c06076eb03cf0cc24aa0906ac",
+      "exactGuideSentence": "Football creates a shared language that does not depend entirely on words.",
+      "guideMeaning": "Common understanding through sport despite linguistic differences; a language metaphor.",
+      "verdict": "needs-revision",
+      "verifiedPasses": [
+        "Reusable target sense fits the exact source and source-specific triage.",
+        "Seven-step shape compiles, with four reply options, six keyed assessments, Traditional Chinese fields, two writing examples, and answer-span-bound target-excluded glossary.",
+        "The writing scenario differs from the exact guide scene; source uncertainty and key nuance are generally preserved."
+      ],
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "issue": "Option b directly contradicts the stated lack of a common language; option c claims no coordination is needed, which is implausible. Replace with plausible but incomplete readings of the shared rehearsal."
+        },
+        {
+          "field": "listening.options[b,c,d]",
+          "issue": "The wrong answers claim identical pronunciation, the end of every disagreement, or no speech in any situation. These absolutes are too easy to eliminate; use realistic partial interpretations."
+        }
+      ],
+      "advisories": []
+    },
+    {
+      "sourceOrdinal": 3944,
+      "lessonId": "advanced-native-3944",
+      "target": "the distance between them shrinks",
+      "sourceId": "book10-16-1833",
+      "sourceRawRowSha256": "b1329e7110fdfc634bc8cdef515be6a5d5a90342fdcd90065cbd9962ce9a17cb",
+      "decisionFile": "editorial-decisions-3912-3971.jsonl",
+      "decisionRawRowSha256": "61aea110a31b5f8b53696361e90127a827c935e740f10e5b4463e8b095c2514c",
+      "exactGuideSentence": "After playing together, the distance between them often shrinks.",
+      "guideMeaning": "Cultural separation feels smaller; physical distance is figurative.",
+      "verdict": "needs-revision",
+      "verifiedPasses": [
+        "Reusable target sense fits the exact source and source-specific triage.",
+        "Seven-step shape compiles, with four reply options, six keyed assessments, Traditional Chinese fields, two writing examples, and answer-span-bound target-excluded glossary.",
+        "The writing scenario differs from the exact guide scene; source uncertainty and key nuance are generally preserved."
+      ],
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "issue": "Moving tables near a door is irrelevant physical-distance bait; every disagreement disappearing is an implausible absolute. Use social-relationship near misses supported by the practice setting."
+        },
+        {
+          "field": "listening.options[b,c,d]",
+          "issue": "Chair measurement and total cessation of rehearsal or disagreement are conspicuously false. Supply plausible but incomplete social interpretations."
+        }
+      ],
+      "advisories": [
+        {
+          "field": "writing.glossary",
+          "issue": "Rows such as “the volunteers” and “for advice” are exact answer spans but weak as advanced phrase support; prefer useful answer-derived chunks on revision."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 3981,
+      "lessonId": "advanced-native-3981",
+      "target": "a workout for the brain",
+      "sourceId": "book10-16-1870",
+      "sourceRawRowSha256": "593f842148c48f31533013b0bc2f1823f40ce94aff2cd2894d18905e91f6b482",
+      "decisionFile": "editorial-decisions-3972-4031.jsonl",
+      "decisionRawRowSha256": "b5e91f2899a38388b480a4c0ff5f25a1c93082350ec98ea999f37d26f49b8c63",
+      "exactGuideSentence": "A puzzle is a little workout for the brain.",
+      "guideMeaning": "A small mental exercise; a body-training metaphor.",
+      "verdict": "needs-revision",
+      "verifiedPasses": [
+        "Reusable target sense fits the exact source and source-specific triage.",
+        "Seven-step shape compiles, with four reply options, six keyed assessments, Traditional Chinese fields, two writing examples, and answer-span-bound target-excluded glossary.",
+        "The writing scenario differs from the exact guide scene; source uncertainty and key nuance are generally preserved."
+      ],
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "issue": "A one-hour run and turning everyone into a genius are cartoonish alternatives; replace with plausible near-miss interpretations of the clue task."
+        },
+        {
+          "field": "listening.options[b,c,d]",
+          "issue": "Heavy lifting, guaranteed permanent intelligence gain, and answering without thinking are obvious foils. Make at least some wrong answers credible partial readings."
+        }
+      ],
+      "advisories": [
+        {
+          "field": "scene.options[a]",
+          "issue": "“The clue puzzle is a workout for the brain” tracks the source “A puzzle is a little workout for the brain” very closely. Keep the target but make the surrounding sentence more distinctive."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 4028,
+      "lessonId": "advanced-native-4028",
+      "target": "the road narrows",
+      "sourceId": "book10-16-1917",
+      "sourceRawRowSha256": "6a3eeb9ab0433a26fe029efc8c247a74347bc60bcfacd5859580d1a11709429f",
+      "decisionFile": "editorial-decisions-3972-4031.jsonl",
+      "decisionRawRowSha256": "1fcdfbe56df010e94afb0832e252d99957e5c9157bbe113b89a147b37bc8268e",
+      "exactGuideSentence": "At the professional level, the road narrows sharply.",
+      "guideMeaning": "The available route to success becomes more selective; a road metaphor.",
+      "verdict": "needs-revision",
+      "verifiedPasses": [
+        "Reusable target sense fits the exact source and source-specific triage.",
+        "Seven-step shape compiles, with four reply options, six keyed assessments, Traditional Chinese fields, two writing examples, and answer-span-bound target-excluded glossary.",
+        "The writing scenario differs from the exact guide scene; source uncertainty and key nuance are generally preserved."
+      ],
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "issue": "The literal narrow road and a guarantee for every singer are conspicuously wrong. Use selection-stage near misses with the same professional audition facts."
+        },
+        {
+          "field": "listening.options[b,c,d]",
+          "issue": "A narrower rehearsal room, universal guaranteed places, and no beginners at all are far-fetched or absolute. Replace with plausible misreadings of the six-place selection."
+        }
+      ],
+      "advisories": []
+    },
+    {
+      "sourceOrdinal": 4029,
+      "lessonId": "advanced-native-4029",
+      "target": "promise may never fully bloom",
+      "sourceId": "book10-16-1918",
+      "sourceRawRowSha256": "f2fa903cd38ec780159a2804aedaf935aa3c7dad6407ac358fd932ace3c9095f",
+      "decisionFile": "editorial-decisions-3972-4031.jsonl",
+      "decisionRawRowSha256": "f6532eb77055bbcb6cf3a285b6c52e0a6572d61475889a19388b6cf4e243f10e",
+      "exactGuideSentence": "Without support, that early promise may never fully bloom.",
+      "guideMeaning": "Potential may never fully develop; a growth metaphor.",
+      "verdict": "needs-revision",
+      "verifiedPasses": [
+        "Reusable target sense fits the exact source and source-specific triage.",
+        "Seven-step shape compiles, with four reply options, six keyed assessments, Traditional Chinese fields, two writing examples, and answer-span-bound target-excluded glossary.",
+        "The writing scenario differs from the exact guide scene; source uncertainty and key nuance are generally preserved."
+      ],
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "issue": "Permanent loss of writing ability and literal theatre flowers are implausible. Replace with plausible but overconfident or incomplete interpretations of interrupted development."
+        },
+        {
+          "field": "listening.options[b,c,d]",
+          "issue": "All skills lost, guaranteed professional success, and a real flower are too easy to discard. Use credible uncertainties around support and potential."
+        },
+        {
+          "field": "reply.options[c], takeaways[0]",
+          "issue": "These echo the guide’s early-promise/may-never-fully-bloom/without-support construction too closely. Preserve the target expression but substantially recast surrounding wording and circumstance."
+        }
+      ],
+      "advisories": [
+        {
+          "field": "writing.glossary",
+          "issue": "“the teacher” and “a local course” are exact answer spans but relatively weak writing support; use more transferable answer-derived chunks if revising."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 4055,
+      "lessonId": "advanced-native-4055",
+      "target": "hunt for",
+      "sourceId": "book10-16-1944",
+      "sourceRawRowSha256": "9737725a3a9abdc17fe9fbb5b87f6712f80c71bf92f5093225abfdc44952a3c2",
+      "decisionFile": "editorial-decisions-4032-4091.jsonl",
+      "decisionRawRowSha256": "7e95cdaee2311b19d84ee2da476fc8b9c57a887161a750b95db31e2633f92be9",
+      "exactGuideSentence": "She spent Saturday hunting for a repair shop.",
+      "guideMeaning": "Searching actively for somewhere to repair an item; a hunting metaphor.",
+      "verdict": "needs-revision",
+      "verifiedPasses": [
+        "Reusable target sense fits the exact source and source-specific triage.",
+        "Seven-step shape compiles, with four reply options, six keyed assessments, Traditional Chinese fields, two writing examples, and answer-span-bound target-excluded glossary.",
+        "The writing scenario differs from the exact guide scene; source uncertainty and key nuance are generally preserved."
+      ],
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "issue": "Replacing every light and hunting animals are not credible alternatives to the stated bulb search. Use plausible near misses that differ in search effort, outcome, or object."
+        },
+        {
+          "field": "listening.options[b,c,d]",
+          "issue": "Found already, animal tracking, and waiting without asking are obvious contradictions/literal bait. Use believable partial readings of the supplier calls and storeroom check."
+        }
+      ],
+      "advisories": [
+        {
+          "field": "reply.options[c]",
+          "issue": "Repair-shop object repeats the guide object; the new printer context makes it distinct, but consider another repair target if tightening originality."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 4070,
+      "lessonId": "advanced-native-4070",
+      "target": "a snapshot of someone’s priorities",
+      "sourceId": "book10-16-1959",
+      "sourceRawRowSha256": "b8ad8e7e476757d0ac973813f2b273dd6d2badd9c963d439bc020a3733317fa0",
+      "decisionFile": "editorial-decisions-4032-4091.jsonl",
+      "decisionRawRowSha256": "e9112007060e115e50375aca96b7391e06dcea9c187889a470fe9f75c6277b7f",
+      "exactGuideSentence": "A shopping list can be a snapshot of someone's priorities.",
+      "guideMeaning": "A quick revealing picture of what matters to someone; a camera metaphor.",
+      "verdict": "needs-revision",
+      "verifiedPasses": [
+        "Reusable target sense fits the exact source and source-specific triage.",
+        "Seven-step shape compiles, with four reply options, six keyed assessments, Traditional Chinese fields, two writing examples, and answer-span-bound target-excluded glossary.",
+        "The writing scenario differs from the exact guide scene; source uncertainty and key nuance are generally preserved."
+      ],
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "issue": "“Never cared about publicity” is an extreme claim and literal storeroom photograph is implausible. Use realistic limits on what the monthly purchase order can reveal."
+        },
+        {
+          "field": "listening.options[b,c,d]",
+          "issue": "Never buying decoration again, a literal photo of all members, and knowledge of everyone’s lifelong values are conspicuous foils. Use plausible but overstated interpretations of the budget."
+        }
+      ],
+      "advisories": []
+    },
+    {
+      "sourceOrdinal": 4081,
+      "lessonId": "advanced-native-4081",
+      "target": "like an extra limb",
+      "sourceId": "book10-16-1970",
+      "sourceRawRowSha256": "2634337c6b15602b64ff0b739250c8677c89840c0e10c5283dd39bf702a57287",
+      "decisionFile": "editorial-decisions-4032-4091.jsonl",
+      "decisionRawRowSha256": "0ade519aeb1868b5d66dec301934a9f2cbc71bae8af9196791e694f9db1bbf8a",
+      "exactGuideSentence": "For some commuters, a phone feels like an extra limb.",
+      "guideMeaning": "So closely used that it seems part of the body; a simile.",
+      "verdict": "needs-revision",
+      "verifiedPasses": [
+        "Reusable target sense fits the exact source and source-specific triage.",
+        "Seven-step shape compiles, with four reply options, six keyed assessments, Traditional Chinese fields, two writing examples, and answer-span-bound target-excluded glossary.",
+        "The writing scenario differs from the exact guide scene; source uncertainty and key nuance are generally preserved."
+      ],
+      "blockers": [
+        {
+          "field": "scene.options[b,c]",
+          "issue": "Growing a new hand and inferring a medical condition from a recorder are cartoonish alternatives. Use credible degrees of familiarity or dependence."
+        },
+        {
+          "field": "listening.options[b,c,d]",
+          "issue": "A physical extra arm, diagnosed addiction, and inability to use the camera are too easy to reject. Use realistic partial readings of frequent camera use."
+        }
+      ],
+      "advisories": [
+        {
+          "field": "takeaways[1]",
+          "issue": "This is phrased as an explanation about the expression rather than a natural contextual use. Replace with an original sentence that models the phrase in use."
+        }
+      ]
+    }
+  ],
+  "mutations": {
+    "proposals": false,
+    "selectedManifest": false,
+    "sourceDecisions": false,
+    "sopAudit": false
+  },
+  "releaseApproval": false
+}

@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-AI-source-and-editorial-review-unselected-proposals",
+  "date": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-new-owner-eight-2356-3351-20261024.json",
+  "proposalSha256": "6b4931afacf2f0cfae0a496125fe8013f1ba6ef69db43448cdf38e69454926a1",
+  "sourceScreenPath": "course-materials/advanced-native/reviews-books10-16/independent-next40-current-holds-source-sense-screen-20261024.json",
+  "sourceScreenSha256": "20d069875a014606ce918ce6b6833a007e6a1bffb1ab53355bec9a9f2ade45b0",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "originalityScreenPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-eight-2356-3351-20261024.json",
+  "originalityScreenSha256": "9d9afb3017a1b92dafc82b522f4c8f35c978e14d1f16d7067bdd0b3a2ecf7f3a",
+  "selectedManifestSha256AtReview": "30e272889792acfc0658608835dec5add98563f517f62faaec0f255fb03e16b5",
+  "lessonCount": 8,
+  "sourceBindingsPassed": 8,
+  "structuralValidation": {
+    "errors": [],
+    "warnings": [],
+    "compiled": [
+      {
+        "id": "advanced-native-2356",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2579",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2712",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3086",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3275",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3321",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3346",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3351",
+        "steps": 7,
+        "questions": 6
+      }
+    ]
+  },
+  "originalityCounts": {
+    "exact": 0,
+    "high": 0,
+    "medium": 0,
+    "target-or-short-overlap": 5
+  },
+  "originalityNearCounts": {
+    "near-full": 0,
+    "review-near-full": 0
+  },
+  "releaseBlockingFindings": 9,
+  "editorialChecks": 3,
+  "rows": [
+    {
+      "lessonId": "advanced-native-2356",
+      "sourceId": "book10-16-0245",
+      "sourceRawRowSha256": "674646a4b0520e87bd325c9664fa6da62fa0f36fba26a54ae53e159bda007982",
+      "decisionRawRowSha256": "ba0cc7157cc6a48e76cd6e2204554d821f7d35f9f7656bf7649e9da79db7e2b4",
+      "sourceSentence": "The story can speak different emotional languages to children and parents.",
+      "sourceSenseBoundary": "Prior owner 1577, speak the same emotional language, is mutual emotional compatibility between people; this source is one story affecting two audiences differently.",
+      "sevenStepsReviewed": [
+        "listening",
+        "reply",
+        "scene",
+        "contrast",
+        "dialogue",
+        "speaking",
+        "writing"
+      ],
+      "takeawaysReviewed": true,
+      "bilingualOptionsPresent": true,
+      "replyOptionCount": 4,
+      "answerDerivedGlossarySpansValid": true,
+      "targetFreeGlossary": true,
+      "findings": [
+        {
+          "severity": "release-blocking",
+          "location": "reply.options[a]",
+          "finding": "The question asks how the play affected younger and older viewers, but the older viewers merely “recognised the closing song”; recognition alone does not state an emotional effect. This weakens the requirement that all four replies answer the same question.",
+          "suggestedRepair": "Make the older viewers feel nostalgic or otherwise state the emotional response; preserve the separate younger response."
+        }
+      ],
+      "verdict": "revise"
+    },
+    {
+      "lessonId": "advanced-native-2579",
+      "sourceId": "book10-16-0468",
+      "sourceRawRowSha256": "2231cc031985e870958a4ad66ab97951143a7d172ddf9918826595ee9ca439a9",
+      "decisionRawRowSha256": "7a94e4b89af50714ee329cb5f25b311f1e3a7e477fd6cebc13ce9c6ff359a561",
+      "sourceSentence": "A quick update can save a lot of worry.",
+      "sourceSenseBoundary": "Teach prevention of concern, not saving money or guaranteeing that no further problem will occur; no exact prior owner was found in the existing source-label index.",
+      "sevenStepsReviewed": [
+        "listening",
+        "reply",
+        "scene",
+        "contrast",
+        "dialogue",
+        "speaking",
+        "writing"
+      ],
+      "takeawaysReviewed": true,
+      "bilingualOptionsPresent": true,
+      "replyOptionCount": 4,
+      "answerDerivedGlossarySpansValid": true,
+      "targetFreeGlossary": true,
+      "findings": [
+        {
+          "severity": "release-blocking",
+          "location": "writing.examples[1]",
+          "finding": "The writing prompt/self-check requires both confirmed market arrangements and a still-unknown detail. This model mentions the schedule but omits that the market weather plan is still pending.",
+          "suggestedRepair": "Add the pending weather arrangement to this answer, while retaining the confirmed stall/unloading detail and target use."
+        }
+      ],
+      "verdict": "revise"
+    },
+    {
+      "lessonId": "advanced-native-2712",
+      "sourceId": "book10-16-0601",
+      "sourceRawRowSha256": "245b3a797324cd65dedc030effe7c0c56d2e6d1ed360114c2815cc16afeb8984",
+      "decisionRawRowSha256": "99849c7d8fc73041c11ceed49f612ec258f5f7a7fa4467a339cd33cd853207a0",
+      "sourceSentence": "She does not stay in one musical lane for long.",
+      "sourceSenseBoundary": "Prior owner 1509 stuck in one lane describes being constrained to a type of activity/approach; voluntary genre choice and being stuck are distinct.",
+      "sevenStepsReviewed": [
+        "listening",
+        "reply",
+        "scene",
+        "contrast",
+        "dialogue",
+        "speaking",
+        "writing"
+      ],
+      "takeawaysReviewed": true,
+      "bilingualOptionsPresent": true,
+      "replyOptionCount": 4,
+      "answerDerivedGlossarySpansValid": true,
+      "targetFreeGlossary": true,
+      "findings": [
+        {
+          "severity": "release-blocking",
+          "location": "reply.options[d]",
+          "finding": "The situation says Leo knows other genres well; it does not establish that he owns or has set aside other records. As a factual answer to how he is choosing music, this fourth “valid” reply invents a detail.",
+          "suggestedRepair": "Replace with an answer grounded in his stated one-genre choice, such as deliberately not playing other genres this month."
+        }
+      ],
+      "verdict": "revise"
+    },
+    {
+      "lessonId": "advanced-native-3086",
+      "sourceId": "book10-16-0975",
+      "sourceRawRowSha256": "193b7b0a684714ce664afd328256d0a235bf35c70e1802a9abe9a1a0facd91a1",
+      "decisionRawRowSha256": "624430208f87cce881b2c085ed3b8d42fb8ab2a65169eef90540f8a8b36cf0cb",
+      "sourceSentence": "With time, her stance may gradually soften.",
+      "sourceSenseBoundary": "This is reconsidering a view, not becoming physically soft or surrendering the position entirely; no same-sense stance-softening owner appears in the prior labels.",
+      "sevenStepsReviewed": [
+        "listening",
+        "reply",
+        "scene",
+        "contrast",
+        "dialogue",
+        "speaking",
+        "writing"
+      ],
+      "takeawaysReviewed": true,
+      "bilingualOptionsPresent": true,
+      "replyOptionCount": 4,
+      "answerDerivedGlossarySpansValid": true,
+      "targetFreeGlossary": true,
+      "findings": [
+        {
+          "severity": "editorial-check",
+          "location": "listening.options[c,d]",
+          "finding": "The furniture-only motive is irrelevant to the stated proposal, while withdrawing the request before any discussion directly contradicts the audio chronology. These foils are conspicuously remote compared with the intended may-versus-has distinction.",
+          "suggestedRepair": "Use credible near-miss interpretations, e.g. a partial trial treated as final approval, or a change in view stated with too much certainty."
+        }
+      ],
+      "verdict": "pass-with-editorial-check"
+    },
+    {
+      "lessonId": "advanced-native-3275",
+      "sourceId": "book10-16-1164",
+      "sourceRawRowSha256": "9b9b60017405c0f704070f286e533b57f98e43f134fc4b90788501497acd2424",
+      "decisionRawRowSha256": "b5b29dc2127a628da23c2e6a26e57d7ea8510c88dfdfddf007e38eb7006cd331",
+      "sourceSentence": "Without follow-through, the lesson can lose its teeth.",
+      "sourceSenseBoundary": "Owner 193 the law has real teeth concerns legal penalties; this source transfers the same teeth image to a lesson, so do not silently treat it as legal enforcement or claim a law changed.",
+      "sevenStepsReviewed": [
+        "listening",
+        "reply",
+        "scene",
+        "contrast",
+        "dialogue",
+        "speaking",
+        "writing"
+      ],
+      "takeawaysReviewed": true,
+      "bilingualOptionsPresent": true,
+      "replyOptionCount": 4,
+      "answerDerivedGlossarySpansValid": true,
+      "targetFreeGlossary": true,
+      "findings": [
+        {
+          "severity": "release-blocking",
+          "location": "listening.en / listening.zh",
+          "finding": "“A three-warning attendance rule” conventionally describes a rule about three warnings; the Chinese says a warning follows three absences (缺席三次會受警告). The triggering event and count do not align across languages.",
+          "suggestedRepair": "Specify in English that a warning follows three missed sessions, or change the Chinese to match the actual intended warning rule; keep all answer evidence consistent."
+        },
+        {
+          "severity": "release-blocking",
+          "location": "writing.examples[0]",
+          "finding": "The prompt asks students to explain how the sorting requirement loses force and what follow-up to take. The first suggested answer explains the problem but proposes no follow-up action.",
+          "suggestedRepair": "Add a concrete next step, such as bin checks or feedback, to this answer."
+        }
+      ],
+      "verdict": "revise"
+    },
+    {
+      "lessonId": "advanced-native-3321",
+      "sourceId": "book10-16-1210",
+      "sourceRawRowSha256": "dd72839ca152b8012deed42330de1f3cb4236845a45082c1482c130c2ee77cd9",
+      "decisionRawRowSha256": "46d42f3133335535c78810f2f73244eb44a93093a0eb4cda409c1d6ed48e664b",
+      "sourceSentence": "Without a schedule, we are left saying we'll sort it out somehow.",
+      "sourceSenseBoundary": "Do not equate the promise with a completed solution; no exact sort-it-out owner appears in the prior labels.",
+      "sevenStepsReviewed": [
+        "listening",
+        "reply",
+        "scene",
+        "contrast",
+        "dialogue",
+        "speaking",
+        "writing"
+      ],
+      "takeawaysReviewed": true,
+      "bilingualOptionsPresent": true,
+      "replyOptionCount": 4,
+      "answerDerivedGlossarySpansValid": true,
+      "targetFreeGlossary": true,
+      "findings": [
+        {
+          "severity": "editorial-check",
+          "location": "reply.promptEn / reply.options[b,d]",
+          "finding": "The prompt asks what the organiser will do, while the source situation only commits to checking both groups’ times. Contacting a room manager today and sending updated room numbers are plausible plans, but not established future actions.",
+          "suggestedRepair": "Make the prompt ask what she could do, or ground all four replies in the stated plan rather than asserting unconfirmed steps."
+        }
+      ],
+      "verdict": "pass-with-editorial-check"
+    },
+    {
+      "lessonId": "advanced-native-3346",
+      "sourceId": "book10-16-1235",
+      "sourceRawRowSha256": "54bc31b38ad8eb6f1ba92e29b6b76ffe9310559958839199ff8737aa464757a0",
+      "decisionRawRowSha256": "d283d0f3a073fa4522a7656f7c231e2f8eda76c49362938e70a19cfacab61906",
+      "sourceSentence": "A career plan gives graduates something to aim at.",
+      "sourceSenseBoundary": "Prior owner 995 aim higher means set a more ambitious standard; something to aim at provides a target without implying it is higher.",
+      "sevenStepsReviewed": [
+        "listening",
+        "reply",
+        "scene",
+        "contrast",
+        "dialogue",
+        "speaking",
+        "writing"
+      ],
+      "takeawaysReviewed": true,
+      "bilingualOptionsPresent": true,
+      "replyOptionCount": 4,
+      "answerDerivedGlossarySpansValid": true,
+      "targetFreeGlossary": true,
+      "findings": [
+        {
+          "severity": "release-blocking",
+          "location": "listening.en/zh, listening.promptZh/options, reply.promptEn/zh",
+          "finding": "“Forty completed laps” and “forty-lap goal” are rendered as 四十個來回. “Lap” can denote a pool length or a circuit and does not safely guarantee a round trip; the numerical target changes under the translation.",
+          "suggestedRepair": "Disambiguate the English unit (e.g. forty pool lengths) and use a matching Chinese unit throughout the lesson, or state explicitly that each lap is a round trip."
+        },
+        {
+          "severity": "release-blocking",
+          "location": "writing.examples[0]",
+          "finding": "The model gives the $500 target but omits the $120 already raised, despite the writing prompt and self-check requiring both target and progress.",
+          "suggestedRepair": "Add the current $120 amount, clearly distinct from the $500 goal."
+        },
+        {
+          "severity": "release-blocking",
+          "location": "writing.examples[1]",
+          "finding": "The model gives the $120 progress but says only “the shelter’s goal”; it omits the $500 target required by the writing prompt and self-check.",
+          "suggestedRepair": "Name the $500 target explicitly while retaining the current $120 progress."
+        },
+        {
+          "severity": "editorial-check",
+          "location": "listening.options[c]",
+          "finding": "Using the forty-lap figure to decide which stroke to use is unrelated to the goal/progress distinction and is a weak distractor.",
+          "suggestedRepair": "Replace with a plausible mistaken reading of the figure as progress or an already-reached result."
+        }
+      ],
+      "verdict": "revise"
+    },
+    {
+      "lessonId": "advanced-native-3351",
+      "sourceId": "book10-16-1240",
+      "sourceRawRowSha256": "5455501eebb84ce864c7e2680f3670f6332ab69b8bc7de461062e0d1fb49ab94",
+      "decisionRawRowSha256": "fa395cac49a8e71705677b6ab01dec857190542c548533abd1bec5b8eaf7f6fe",
+      "sourceSentence": "He was busy without really getting anywhere until he chose a direction.",
+      "sourceSenseBoundary": "Physical travel is not at issue; do not infer laziness from activity that lacks direction.",
+      "sevenStepsReviewed": [
+        "listening",
+        "reply",
+        "scene",
+        "contrast",
+        "dialogue",
+        "speaking",
+        "writing"
+      ],
+      "takeawaysReviewed": true,
+      "bilingualOptionsPresent": true,
+      "replyOptionCount": 4,
+      "answerDerivedGlossarySpansValid": true,
+      "targetFreeGlossary": true,
+      "findings": [
+        {
+          "severity": "release-blocking",
+          "location": "writing.examples[0]",
+          "finding": "The prompt asks for the gap between busy work and real progress and a next step. This suggested answer identifies the gap but stops without a next step; the second model does include one.",
+          "suggestedRepair": "Add a concrete step such as measuring the cast or placing the fabric order."
+        }
+      ],
+      "verdict": "revise"
+    }
+  ],
+  "overallVerdict": "revise-before-selection",
+  "selectionApproved": false,
+  "limits": [
+    "AI-only editorial review, not browser/device/audio/live QA.",
+    "No proposal, editorial decision, selected manifest, or SOP audit was edited by this independent review.",
+    "The mechanical originality screen detects substantial English source overlap but does not prove literary originality or pedagogical quality."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-focused-rereview-exact-hash-4468-source-fidelity",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-new-owner-seven-3442-4468-20261024.json",
+  "proposalSha256": "b6c18d5debe466520a3e9b3018848cd5bdcbfbe759ba418ee6493511c6b4d39b",
+  "priorIndependentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-seven-new-owner-proposals-3442-4468-exact-hash-review-20261024.json",
+  "priorIndependentReviewSha256": "52ddc1655919cfc4fdf60015b6a3305cda39ffcdf340efe39293b09ba737a18c",
+  "authorRepairAttestationPath": "course-materials/advanced-native/reviews-books10-16/author-source-fidelity-repair-attestation-seven-4468-20261024.json",
+  "authorRepairAttestationSha256": "7691aae3408defb64b20f2406eef770acb4c2c3073528a8ade2dc409477521c4",
+  "originalityScreenPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-seven-3442-4468-20261024.json",
+  "originalityScreenSha256": "f703424e9ca13454a2002476bc09677eec251a828bac01fabb358c0564a50861",
+  "scope": "Focused rereview of 4468 source-target fidelity and learning consequences; other six lessons were editorial-passed or passed with one advisory at prior frozen hash and unchanged learner text.",
+  "sourceRow": "book10-16-2357",
+  "sourceSentence": "Grandparents can pass it on to their children.",
+  "sourceMeaning": "Transfer a tradition or item to others; source pronoun antecedent remains unspecified.",
+  "checks": [
+    {
+      "name": "exact source form",
+      "result": "pass",
+      "evidence": "Lesson title is source-exact pass it on, and reviewed target regex matches the exact source sentence including split pronoun form."
+    },
+    {
+      "name": "meaning boundary",
+      "result": "pass",
+      "evidence": "Brief explicitly allows item, skill, knowledge or custom and warns that source it does not prove a tradition. Contrast distinguishes transfer of an object from teaching a custom."
+    },
+    {
+      "name": "seven-step bilingual exercise",
+      "result": "pass",
+      "evidence": "All four reply options are responsive and true to the named lantern custom; listening, scene, contrast and dialogue retain unique keyed interpretations. English and Traditional Chinese meanings align."
+    },
+    {
+      "name": "writing and audio text",
+      "result": "pass",
+      "evidence": "Both writing models use the target with named custom; five glossary rows are exact answer spans and target-free. Listening, speaking and both takeaways match the widened target pattern; second takeaway models transfer of an object."
+    },
+    {
+      "name": "schema/originality",
+      "result": "pass",
+      "evidence": "Seven-lesson schema and compile have zero errors/warnings, 49 steps and 42 questions. Exact-current originality screen reports zero exact/high/medium/near-full overlaps."
+    }
+  ],
+  "editorialVerdict": "4468-fix-passed",
+  "overallSevenBatchVerdict": "6 editorial passes, 1 earlier detector-scope advisory for 3817, zero remaining release-blocking editorial findings in this focused review",
+  "limits": [
+    "Unselected proposals only; no audio synthesis, browser/device QA or live publication.",
+    "The original author QA file remains bound to the prior seven-proposal SHA; the new exact-current repair attestation and originality report supply the new version binding. Refresh author QA before selection."
+  ],
+  "selectionApproved": false
+}

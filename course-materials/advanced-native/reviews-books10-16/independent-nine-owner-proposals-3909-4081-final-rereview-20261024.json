@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-final-rereview-exact-current-nine-unselected-owner-proposals",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-owner-nine-3909-4081-20261024.json",
+  "proposalSha256": "30c96c4df879a99c9dbc1e1423dbc9abd58be9241479d7f0ac89629634d8fb06",
+  "priorIndependentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-nine-owner-proposals-3909-4081-20261024.json",
+  "priorIndependentReviewSha256": "7bcdfd0c445b788adf1082c4bc093a80ec6fd57b4a05f125638d06d5fb628a2f",
+  "authorFinalAttestationPath": "course-materials/advanced-native/reviews-books10-16/author-final-nine-held-owner-proposals-3909-4081-20261024.json",
+  "authorFinalAttestationSha256": "8b73433a6ef5921921e3e215f7e0e00f1b72751f1a409a9cc21029e3e392ef77",
+  "originalityScreenPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-nine-3909-4081-20261024.json",
+  "originalityScreenSha256": "299061bcade0a0aa6a1e7defa470ed9bbc3ab89a03151fb1b6b269b633b6922c",
+  "triagePath": "course-materials/advanced-native/reviews-books10-16/independent-prioritized-25-current-holds-owner-screen-20261024.json",
+  "triageSha256": "85d76678b55aa68707b3a960c541cd23d495b572386b958343757d270d318152",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "scope": {
+    "lessons": 9,
+    "sevenStepModules": 9,
+    "assessmentQuestions": 54,
+    "plannedAudioRoles": 36
+  },
+  "automatedChecks": {
+    "validateCatalogueErrors": 0,
+    "validateCatalogueWarnings": 0,
+    "compileRecordSuccesses": 9,
+    "audioQueueRoles": 36,
+    "rawSourceRowsVerified": 9,
+    "unchangedHoldDecisionRowsVerified": 9,
+    "originalityExactHighMediumOrNearFull": 0,
+    "targetOrShortOverlap": 1
+  },
+  "overallVerdict": "three-lessons-need-targeted-distractor-revision",
+  "passCount": 6,
+  "needsRevisionCount": 3,
+  "blockingFindingCount": 3,
+  "nonblockingAdvisoryCount": 1,
+  "items": [
+    {
+      "sourceOrdinal": 3909,
+      "lessonId": "advanced-native-3909",
+      "target": "built with X in mind",
+      "sourceId": "book10-16-1798",
+      "sourceRawRowSha256": "40f861bae948ebd663fe80443278273807032cb9e09ac96d926d14440f993181",
+      "decisionRawRowSha256": "f2f69c6034db0ddd7c062159461afe96584ebdd9a4c4901743011fc89cdfa39d",
+      "exactGuideSentence": "The app was built with speed in mind rather than clarity.",
+      "verdict": "needs-targeted-distractor-revision",
+      "previousIssuesResolved": [
+        "Goal-question reply b now states a goal; listening specifies enlarged route text; scene alternatives remain within the design setting."
+      ],
+      "nonblockingAdvisories": [],
+      "remainingFindings": [
+        "Scene option c combines the observed icon change with an unsupported design recommendation (“still needs a clear search goal”), rather than offering a parallel design-purpose interpretation. Replace it with a plausible but inferior design goal for the same page."
+      ]
+    },
+    {
+      "sourceOrdinal": 3942,
+      "lessonId": "advanced-native-3942",
+      "target": "a shared language",
+      "sourceId": "book10-16-1831",
+      "sourceRawRowSha256": "59381409b90357d85b9d528322017155798e7e896dfabf726f44ba7e9d4f8a9f",
+      "decisionRawRowSha256": "72e66c2e9ad45dbf3abcebbef13fb9737907862c06076eb03cf0cc24aa0906ac",
+      "exactGuideSentence": "Football creates a shared language that does not depend entirely on words.",
+      "verdict": "editorial-pass-for-proposal",
+      "previousIssuesResolved": [
+        "Shared-language key is uniquely best; listening and scene foils are plausible partial activity or language interpretations."
+      ],
+      "nonblockingAdvisories": []
+    },
+    {
+      "sourceOrdinal": 3944,
+      "lessonId": "advanced-native-3944",
+      "target": "the distance between them shrinks",
+      "sourceId": "book10-16-1833",
+      "sourceRawRowSha256": "b1329e7110fdfc634bc8cdef515be6a5d5a90342fdcd90065cbd9962ce9a17cb",
+      "decisionRawRowSha256": "61aea110a31b5f8b53696361e90127a827c935e740f10e5b4463e8b095c2514c",
+      "exactGuideSentence": "After playing together, the distance between them often shrinks.",
+      "verdict": "editorial-pass-for-proposal",
+      "previousIssuesResolved": [
+        "The options distinguish relationship change from rehearsal logistics without literal-distance or impossible-absolute bait."
+      ],
+      "nonblockingAdvisories": [
+        "Glossary rows “the volunteers” and “for advice” are answer-derived and target-free but relatively weak advanced writing support."
+      ]
+    },
+    {
+      "sourceOrdinal": 3981,
+      "lessonId": "advanced-native-3981",
+      "target": "a workout for the brain",
+      "sourceId": "book10-16-1870",
+      "sourceRawRowSha256": "593f842148c48f31533013b0bc2f1823f40ce94aff2cd2894d18905e91f6b482",
+      "decisionRawRowSha256": "b5e91f2899a38388b480a4c0ff5f25a1c93082350ec98ea999f37d26f49b8c63",
+      "exactGuideSentence": "A puzzle is a little workout for the brain.",
+      "verdict": "needs-targeted-distractor-revision",
+      "previousIssuesResolved": [
+        "Near-source takeaway was recast; listening and scene foils now resemble realistic recall, method and reading-speed confusions; revised keyed scene English/Chinese both express inferring the lost item’s location."
+      ],
+      "nonblockingAdvisories": [],
+      "remainingFindings": [
+        "Listening option c says Mina used one answer without testing alternatives, the direct negation of the audio’s explicit “test several possible answers”; this is too easy to discard. Replace with a plausible partial or misconstrued account of what the puzzle exercised."
+      ]
+    },
+    {
+      "sourceOrdinal": 4028,
+      "lessonId": "advanced-native-4028",
+      "target": "the road narrows",
+      "sourceId": "book10-16-1917",
+      "sourceRawRowSha256": "6a3eeb9ab0433a26fe029efc8c247a74347bc60bcfacd5859580d1a11709429f",
+      "decisionRawRowSha256": "1fcdfbe56df010e94afb0832e252d99957e5c9157bbe113b89a147b37bc8268e",
+      "exactGuideSentence": "At the professional level, the road narrows sharply.",
+      "verdict": "editorial-pass-for-proposal",
+      "previousIssuesResolved": [
+        "Wrong options are plausible selection-process hypotheses rather than literal-road or guaranteed-success claims."
+      ],
+      "nonblockingAdvisories": []
+    },
+    {
+      "sourceOrdinal": 4029,
+      "lessonId": "advanced-native-4029",
+      "target": "promise may never fully bloom",
+      "sourceId": "book10-16-1918",
+      "sourceRawRowSha256": "f2fa903cd38ec780159a2804aedaf935aa3c7dad6407ac358fd932ace3c9095f",
+      "decisionRawRowSha256": "f6532eb77055bbcb6cf3a285b6c52e0a6572d61475889a19388b6cf4e243f10e",
+      "exactGuideSentence": "Without support, that early promise may never fully bloom.",
+      "verdict": "editorial-pass-for-proposal",
+      "previousIssuesResolved": [
+        "Reply, writing and takeaways preserve uncertainty with original contexts; listening/scene foils are plausible; revised listening Chinese now agrees that teacher practice had not begun."
+      ],
+      "nonblockingAdvisories": []
+    },
+    {
+      "sourceOrdinal": 4055,
+      "lessonId": "advanced-native-4055",
+      "target": "hunt for",
+      "sourceId": "book10-16-1944",
+      "sourceRawRowSha256": "9737725a3a9abdc17fe9fbb5b87f6712f80c71bf92f5093225abfdc44952a3c2",
+      "decisionRawRowSha256": "7e95cdaee2311b19d84ee2da476fc8b9c57a887161a750b95db31e2633f92be9",
+      "exactGuideSentence": "She spent Saturday hunting for a repair shop.",
+      "verdict": "editorial-pass-for-proposal",
+      "previousIssuesResolved": [
+        "Reply searches for a technician rather than repeating the guide repair-shop object; wrong choices remain in the equipment search/repair setting."
+      ],
+      "nonblockingAdvisories": []
+    },
+    {
+      "sourceOrdinal": 4070,
+      "lessonId": "advanced-native-4070",
+      "target": "a snapshot of someone’s priorities",
+      "sourceId": "book10-16-1959",
+      "sourceRawRowSha256": "b8ad8e7e476757d0ac973813f2b273dd6d2badd9c963d439bc020a3733317fa0",
+      "decisionRawRowSha256": "e9112007060e115e50375aca96b7391e06dcea9c187889a470fe9f75c6277b7f",
+      "exactGuideSentence": "A shopping list can be a snapshot of someone's priorities.",
+      "verdict": "editorial-pass-for-proposal",
+      "previousIssuesResolved": [
+        "Budget and purchase-list foils test realistic overgeneralization, unsupported attribution and alternative explanations."
+      ],
+      "nonblockingAdvisories": []
+    },
+    {
+      "sourceOrdinal": 4081,
+      "lessonId": "advanced-native-4081",
+      "target": "like an extra limb",
+      "sourceId": "book10-16-1970",
+      "sourceRawRowSha256": "2634337c6b15602b64ff0b739250c8677c89840c0e10c5283dd39bf702a57287",
+      "decisionRawRowSha256": "0ade519aeb1868b5d66dec301934a9f2cbc71bae8af9196791e694f9db1bbf8a",
+      "exactGuideSentence": "For some commuters, a phone feels like an extra limb.",
+      "verdict": "needs-targeted-distractor-revision",
+      "previousIssuesResolved": [
+        "The camera/recorder foils test plausible partial readings; second takeaway models the simile in a natural setting."
+      ],
+      "nonblockingAdvisories": [],
+      "remainingFindings": [
+        "Scene option c claims the recorder replaced “any need” for handwritten notes. This unsupported absolute is too easy to reject. Replace with a plausible limited note-taking or workflow interpretation."
+      ]
+    }
+  ],
+  "limits": [
+    "This exact-hash AI editorial re-review does not cover generated audio, browser layout, physical devices, or publication.",
+    "Source decisions and selected manifest were not changed; these remain unselected draft lessons."
+  ],
+  "mutations": {
+    "proposal": false,
+    "selectedManifest": false,
+    "decisions": false,
+    "sopAudit": false
+  },
+  "selectionApproved": false,
+  "releaseApproval": false,
+  "reviewerNote": "A final stricter distractor pass found three remaining scene/listening foils that are advisory rather than parallel, a direct negation, or an unsupported absolute. This supersedes the provisional pass count recorded during the initial rereview of the same proposal hash."
+}

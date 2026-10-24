@@ -1,0 +1,93 @@
+{
+  "status": "mechanical-source-overlap-screen-not-editorial-approval",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-new-owner-eight-2356-3351-20261024.json",
+  "proposalSha256": "6b4931afacf2f0cfae0a496125fe8013f1ba6ef69db43448cdf38e69454926a1",
+  "inventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "inventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "lessons": 8,
+  "sourceExamples": 2604,
+  "learnerFacingStrings": 192,
+  "counts": {
+    "exact": 0,
+    "high": 0,
+    "medium": 0,
+    "target-or-short-overlap": 5
+  },
+  "nearCounts": {
+    "near-full": 0,
+    "review-near-full": 0
+  },
+  "hits": [
+    {
+      "lesson": 2356,
+      "field": "scene.options[0].en",
+      "sourceId": "book10-16-0245",
+      "sourceExpression": "speak different emotional languages",
+      "sourceExample": "The story can speak different emotional languages to children and parents.",
+      "learnerText": "The exhibition speaks different emotional languages to children and older residents.",
+      "sharedText": "different emotional languages to children and",
+      "sharedTokens": 6,
+      "targetTokens": 4,
+      "excessTokens": 2,
+      "sourceCoverage": 0.545,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 2356,
+      "field": "takeaways[0].en",
+      "sourceId": "book10-16-0245",
+      "sourceExpression": "speak different emotional languages",
+      "sourceExample": "The story can speak different emotional languages to children and parents.",
+      "learnerText": "The same photograph can speak different emotional languages to a newcomer and a former resident.",
+      "sharedText": "can speak different emotional languages to",
+      "sharedTokens": 6,
+      "targetTokens": 4,
+      "excessTokens": 2,
+      "sourceCoverage": 0.545,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 2579,
+      "field": "takeaways[0].en",
+      "sourceId": "book10-16-0468",
+      "sourceExpression": "save a lot of worry",
+      "sourceExample": "A quick update can save a lot of worry.",
+      "learnerText": "A precise collection time can save a lot of worry for someone waiting at home.",
+      "sharedText": "can save a lot of worry",
+      "sharedTokens": 6,
+      "targetTokens": 5,
+      "excessTokens": 1,
+      "sourceCoverage": 0.667,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 2712,
+      "field": "listening.en",
+      "sourceId": "book10-16-0601",
+      "sourceExpression": "stay in one musical lane",
+      "sourceExample": "She does not stay in one musical lane for long.",
+      "learnerText": "For this month’s radio set, Leo chooses only acoustic folk songs, even though he knows other genres well. He is choosing to stay in one musical lane for now.",
+      "sharedText": "stay in one musical lane for",
+      "sharedTokens": 6,
+      "targetTokens": 5,
+      "excessTokens": 1,
+      "sourceCoverage": 0.6,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 2712,
+      "field": "takeaways[1].en",
+      "sourceId": "book10-16-0601",
+      "sourceExpression": "stay in one musical lane",
+      "sourceExample": "She does not stay in one musical lane for long.",
+      "learnerText": "She did not stay in one musical lane: her next set moved from jazz to traditional songs.",
+      "sharedText": "not stay in one musical lane",
+      "sharedTokens": 6,
+      "targetTokens": 5,
+      "excessTokens": 1,
+      "sourceCoverage": 0.6,
+      "severity": "target-or-short-overlap"
+    }
+  ],
+  "nearHits": []
+}

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-24",
+  "kind": "author-source-fidelity-repair-attestation-unselected-only",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-new-owner-seven-3442-4468-20261024.json",
+  "priorProposalSha256": "38b9a909bb6b1846d95cfe5f5f4adc67963b62793fd213a99a7d551854a4bf66",
+  "repairedProposalSha256": "b6c18d5debe466520a3e9b3018848cd5bdcbfbe759ba418ee6493511c6b4d39b",
+  "priorIndependentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-seven-new-owner-proposals-3442-4468-exact-hash-review-20261024.json",
+  "priorIndependentReviewSha256": "52ddc1655919cfc4fdf60015b6a3305cda39ffcdf340efe39293b09ba737a18c",
+  "sourceScreenPath": "course-materials/advanced-native/reviews-books10-16/independent-next40-current-holds-source-sense-screen-20261024.json",
+  "sourceScreenSha256": "20d069875a014606ce918ce6b6833a007e6a1bffb1ab53355bec9a9f2ade45b0",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "originalityScreenPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-seven-3442-4468-20261024.json",
+  "originalityScreenSha256": "f703424e9ca13454a2002476bc09677eec251a828bac01fabb358c0564a50861",
+  "sourceAndHoldDecisionBindingsPassed": 7,
+  "structuralValidation": {
+    "errors": [],
+    "warnings": [],
+    "compiled": [
+      {
+        "id": "advanced-native-3442",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3614",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3817",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3820",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-4327",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-4365",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-4468",
+        "steps": 7,
+        "questions": 6
+      }
+    ]
+  },
+  "sourceTargetPatternMatchesExactGuideSentence": true,
+  "repairSummary": [
+    "4468 title and sense widened from pass on a tradition to source-exact pass it on, covering item or custom without guessing the source pronoun antecedent.",
+    "Detector now accepts the exact source split-pronoun form, split named item, and unsplit named custom while avoiding glossary overlap.",
+    "Contrast distinguishes transfer of an item from teaching the associated custom; takeaway models the item-transfer sense."
+  ],
+  "originalityCounts": {
+    "exact": 0,
+    "high": 0,
+    "medium": 0,
+    "target-or-short-overlap": 8
+  },
+  "originalityNearCounts": {
+    "near-full": 0,
+    "review-near-full": 0
+  },
+  "selectionApproved": false,
+  "limits": [
+    "Unselected proposal; independent focused editorial rereview remains pending.",
+    "No selected manifest, editorial decision, source inventory or release audit was changed."
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "scope": "Provisional unpublished selection of 19 independently AI-reviewed Books 10–16 lessons",
+  "priorManifestSha256": "c840a735158c64eaaaee9845ee67318e5f77b30a99067f28b5a243be792526dc",
+  "selectedManifestSha256": "30e272889792acfc0658608835dec5add98563f517f62faaec0f255fb03e16b5",
+  "selectedBatchPath": "course-materials/advanced-native/drafts-books10-16/batch-reviewed-new-owner-nineteen-3601-4081-20261024.json",
+  "selectedBatchSha256": "d26eb64000cf8a1f406d5f757c962a234a0ede990a04f29f6b1d3bfa59a53258",
+  "sourceOrdinals": [
+    3601,
+    3694,
+    3723,
+    3725,
+    3775,
+    3839,
+    3844,
+    3850,
+    3893,
+    3901,
+    3909,
+    3942,
+    3944,
+    3981,
+    4028,
+    4029,
+    4055,
+    4070,
+    4081
+  ],
+  "proposalAndReviewEvidence": [
+    {
+      "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-new-owner-ten-3601-3901-20261024.json",
+      "proposalSha256": "cb85fa9e9b2cb0b284f462ee327e259b018945bcd984a769b272bf60237cf474",
+      "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-final-focused-held-owner-ten-3601-3901-20261024.json",
+      "independentReviewSha256": "8c9703f8ec9b9a4b1599a46965b35e251ae60921a821270f04955be262ced9c5",
+      "lessonCount": 10
+    },
+    {
+      "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-owner-nine-3909-4081-20261024.json",
+      "proposalSha256": "6cf965dd21a0f480740590615d4421ce6a7c4838fb3ba6fdc5190a075589d0fe",
+      "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-nine-owner-proposals-3909-4081-final-focused-rereview-20261024.json",
+      "independentReviewSha256": "09e7ffbdfb0073bc6a6a114b5a75c527b8c5425cc2cdbbadd56f6f73269be3dd",
+      "lessonCount": 9
+    }
+  ],
+  "priorDecisions": {
+    "3601": {
+      "decisionFile": "editorial-decisions-3552-3611.jsonl",
+      "prior": {
+        "sourceOrdinal": 3601,
+        "sourceId": "book10-16-1490",
+        "phrase": "stays in the hands of only a few people",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Knowledge remaining in few hands is productive control imagery rather than a fixed expression. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "3694": {
+      "decisionFile": "editorial-decisions-3672-3731.jsonl",
+      "prior": {
+        "sourceOrdinal": 3694,
+        "sourceId": "book10-16-1583",
+        "phrase": "rewriting the rules of society",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Rewriting the rules of society is a broad change metaphor; stable unit and scope need review. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "3723": {
+      "decisionFile": "editorial-decisions-3672-3731.jsonl",
+      "prior": {
+        "sourceOrdinal": 3723,
+        "sourceId": "book10-16-1612",
+        "phrase": "dazzle people for a moment",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Dazzle people for a moment is broad light imagery with no stable idiom boundary. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "3725": {
+      "decisionFile": "editorial-decisions-3672-3731.jsonl",
+      "prior": {
+        "sourceOrdinal": 3725,
+        "sourceId": "book10-16-1614",
+        "phrase": "changed the fate of millions",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Changed the fate of millions is broad rhetorical consequence language, not a fixed idiom. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "3775": {
+      "decisionFile": "editorial-decisions-3732-3791.jsonl",
+      "prior": {
+        "sourceOrdinal": 3775,
+        "sourceId": "book10-16-1664",
+        "phrase": "place an order",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Place an order is ordinary transactional retail language rather than idiomatic usage. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "3839": {
+      "decisionFile": "editorial-decisions-3792-3851.jsonl",
+      "prior": {
+        "sourceOrdinal": 3839,
+        "sourceId": "book10-16-1728",
+        "phrase": "cities pull people in like magnets",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Cities drawing people like magnets is a productive attraction simile, not a fixed bounded expression. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "3844": {
+      "decisionFile": "editorial-decisions-3792-3851.jsonl",
+      "prior": {
+        "sourceOrdinal": 3844,
+        "sourceId": "book10-16-1733",
+        "phrase": "cities keep swelling",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Cities swelling is a productive bodily growth metaphor for population increase. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "3850": {
+      "decisionFile": "editorial-decisions-3792-3851.jsonl",
+      "prior": {
+        "sourceOrdinal": 3850,
+        "sourceId": "book10-16-1739",
+        "phrase": "quality of life begins to slide",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Quality of life beginning to slide is a broad worsening metaphor, not a fixed expression. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "3893": {
+      "decisionFile": "editorial-decisions-3852-3911.jsonl",
+      "prior": {
+        "sourceOrdinal": 3893,
+        "sourceId": "book10-16-1782",
+        "phrase": "stirs desire",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Stirs desire is productive movement imagery for advertising influence. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "3901": {
+      "decisionFile": "editorial-decisions-3852-3911.jsonl",
+      "prior": {
+        "sourceOrdinal": 3901,
+        "sourceId": "book10-16-1790",
+        "phrase": "amplifying an existing desire",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Amplifying desire is a broad signal metaphor and not a bounded idiomatic unit. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "3909": {
+      "decisionFile": "editorial-decisions-3852-3911.jsonl",
+      "prior": {
+        "sourceOrdinal": 3909,
+        "sourceId": "book10-16-1798",
+        "phrase": "built with speed in mind rather than clarity",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Built with speed in mind rather than clarity is a transparent design-purpose contrast. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "3942": {
+      "decisionFile": "editorial-decisions-3912-3971.jsonl",
+      "prior": {
+        "sourceOrdinal": 3942,
+        "sourceId": "book10-16-1831",
+        "phrase": "shared language that does not depend entirely on words",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Sport as a shared language without words is a broad conceptual metaphor. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "3944": {
+      "decisionFile": "editorial-decisions-3912-3971.jsonl",
+      "prior": {
+        "sourceOrdinal": 3944,
+        "sourceId": "book10-16-1833",
+        "phrase": "distance between them often shrinks",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Distance between people shrinking is productive proximity imagery for social connection. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "3981": {
+      "decisionFile": "editorial-decisions-3972-4031.jsonl",
+      "prior": {
+        "sourceOrdinal": 3981,
+        "sourceId": "book10-16-1870",
+        "phrase": "a little workout for the brain",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Little workout for the brain is a bespoke exercise simile for a puzzle. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "4028": {
+      "decisionFile": "editorial-decisions-3972-4031.jsonl",
+      "prior": {
+        "sourceOrdinal": 4028,
+        "sourceId": "book10-16-1917",
+        "phrase": "the road narrows sharply",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Road narrowing sharply is a bespoke route metaphor for fewer professional opportunities. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "4029": {
+      "decisionFile": "editorial-decisions-3972-4031.jsonl",
+      "prior": {
+        "sourceOrdinal": 4029,
+        "sourceId": "book10-16-1918",
+        "phrase": "promise may never fully bloom",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Promise blooming is productive flower imagery with no bounded fixed expression. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "4055": {
+      "decisionFile": "editorial-decisions-4032-4091.jsonl",
+      "prior": {
+        "sourceOrdinal": 4055,
+        "sourceId": "book10-16-1944",
+        "phrase": "hunting for a repair shop",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Hunting for a repair shop is broad search imagery, not a fixed idiom. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "4070": {
+      "decisionFile": "editorial-decisions-4032-4091.jsonl",
+      "prior": {
+        "sourceOrdinal": 4070,
+        "sourceId": "book10-16-1959",
+        "phrase": "a snapshot of someone's priorities",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Shopping list as snapshot of priorities is a broad image, not a fixed target. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "4081": {
+      "decisionFile": "editorial-decisions-4032-4091.jsonl",
+      "prior": {
+        "sourceOrdinal": 4081,
+        "sourceId": "book10-16-1970",
+        "phrase": "like an extra limb",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Phone as an extra limb is a bespoke bodily simile for habitual attachment. Provisional editorial decision; independent review remains open."
+      }
+    }
+  },
+  "learnerFacingProposalFieldsUnchanged": true,
+  "changedSelectedFields": [
+    "review.english",
+    "review.chinese",
+    "review.notes",
+    "independentHumanApproval"
+  ],
+  "releaseApproved": false,
+  "published": false
+}

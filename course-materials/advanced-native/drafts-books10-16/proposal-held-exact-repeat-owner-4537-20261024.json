@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-held-exact-repeat-owner-4537-proposal",
+  "lessons": [
+    {
+      "id": "advanced-native-4537",
+      "number": 4537,
+      "inventoryId": "expr-4537",
+      "titleEn": "awkward transfers",
+      "titleZh": "不便的轉乘",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bawkward transfers\\b",
+        "glossaryForbidden": [
+          "\\bawkward\\b",
+          "\\btransfers?\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Inconvenient changes between transport services, such as a long walk, poor timing or difficult access.",
+        "meaningZh": "交通工具之間轉乘不便，例如要走遠路、接駁時間不佳或出入口難用。",
+        "grammar": "Use awkward transfers as a plural noun phrase for inconvenient changes between buses, trains or other services; awkward describes the transfer, not a person’s social embarrassment.",
+        "register": "Everyday route-planning language: a passenger, journey planner or transport officer explains practical interchange difficulties to another traveller.",
+        "boundaryZh": "必須有交通服務之間不便的接駁；單純車程長或在車上坐得不舒服，不一定是轉乘問題。",
+        "misconceptionZh": "awkward 在這裏不指社交尷尬；要指出轉車的距離、時間或通行障礙。",
+        "outcomeZh": "能說明哪一段接駁造成不便，以及另一條路線如何改善。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2426",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 229,
+          "book": 16,
+          "question": 39,
+          "sample": "S1",
+          "sourceBookPages": "94–95",
+          "locatorNote": "DOCX table 254, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new route avoids awkward transfers.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "awkward transfers"
+        }
+      ],
+      "listening": {
+        "en": "The clinic route looks short on a map, but Mina must cross a busy road to change from train to bus, then wait ten minutes for another bus. With a stroller, she finds those awkward transfers tiring.",
+        "zh": "往診所的路線在地圖上看似很短，但米娜要橫過繁忙道路，從列車轉巴士，再等十分鐘轉另一班巴士。她推著嬰兒車，覺得這些不便的轉乘很累。",
+        "promptZh": "這裏的 awkward transfers 指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The train-to-bus change requires a road crossing, and the later bus change adds a wait.",
+            "zh": "從列車轉巴士時要過馬路，之後再次轉巴士時還須等候。"
+          },
+          {
+            "id": "b",
+            "en": "The passenger is embarrassed to speak to the driver.",
+            "zh": "乘客不好意思跟司機說話。"
+          },
+          {
+            "id": "c",
+            "en": "The clinic appointment itself lasts too long.",
+            "zh": "診症時間本身太長。"
+          },
+          {
+            "id": "d",
+            "en": "The bus seats are uncomfortable even on a direct journey.",
+            "zh": "即使乘坐直達車，巴士座位仍不舒服。"
+          }
+        ],
+        "explanationZh": "這段旅程有兩次不便的接駁：先要過馬路從列車轉巴士，之後再等候另一班巴士；不是社交尷尬、診症或車廂座位的問題。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "（你為甚麼選擇直達醫院的路線？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The other route makes me cross a large station between services.",
+            "zh": "另一條路線要我在兩班車之間穿過大站。"
+          },
+          {
+            "id": "b",
+            "en": "This bus avoids awkward transfers when I travel with my father.",
+            "zh": "和父親同行時，這班巴士讓我避開不便的轉乘。"
+          },
+          {
+            "id": "c",
+            "en": "I do not have to rush from one platform to another.",
+            "zh": "我毋須匆忙從一個月台趕到另一個。"
+          },
+          {
+            "id": "d",
+            "en": "It has one continuous ride, which is easier with his wheelchair.",
+            "zh": "全程只坐一班車，推他的輪椅較方便。"
+          }
+        ],
+        "explanationZh": "四句都回答為何選直達路線；金句以本課表達概括免除的不便。",
+        "goldenId": "b",
+        "promptEn": "Why did you choose the direct route to the hospital?"
+      },
+      "scene": {
+        "promptZh": "一名乘客要推行李，原路線須在五分鐘內由地下月台走到街對面的巴士站；新路線可在同一月台轉車。哪句最完整比較？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Keeping the connection on one platform spares travellers awkward transfers.",
+            "zh": "在同一月台接駁，讓旅客免於不便的轉乘。"
+          },
+          {
+            "id": "b",
+            "en": "The traveller has a shorter walk between the two services.",
+            "zh": "旅客在兩班車之間要走的路縮短了。"
+          },
+          {
+            "id": "c",
+            "en": "The traveller no longer needs to cross the street with luggage.",
+            "zh": "旅客不用再提著行李橫過馬路。"
+          }
+        ],
+        "explanationZh": "後兩句指出走路較少及不用過馬路，都是局部改善；金句完整概括原本不便的轉乘如何被同月台接駁取代。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合稱為 awkward transfers？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The connection requires a long walk up stairs with heavy bags.",
+            "zh": "接駁要提著重行李走很遠的樓梯。"
+          },
+          {
+            "id": "b",
+            "en": "Two buses arrive at adjacent stops with enough time to change.",
+            "zh": "兩班巴士停在相鄰站位，轉乘時間充裕。"
+          },
+          {
+            "id": "c",
+            "en": "The train arrives just after the bus leaves, forcing a long wait.",
+            "zh": "列車到站時巴士剛開走，乘客須久候。"
+          }
+        ],
+        "explanationZh": "相鄰站位且時間充裕，沒有明顯轉乘不便；另外兩項分別有通行和時間問題。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「帶著輪椅從舊線轉車很辛苦；新線是直達診所的巴士，不用轉車，車站就在電梯旁。」你怎樣評價？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The new route removes the awkward transfers that made the old journey difficult.",
+            "zh": "新路線免除了舊旅程中不便的轉乘。"
+          },
+          {
+            "id": "b",
+            "en": "The lift makes the station easier to navigate, even if we still need to check the timetable.",
+            "zh": "電梯令車站較易通行，不過仍要查看時間表。"
+          },
+          {
+            "id": "c",
+            "en": "The bus stop is closer to the lift, so the final walk should be shorter.",
+            "zh": "巴士站較近電梯，因此最後一段路應較短。"
+          }
+        ],
+        "explanationZh": "新線既直達診所，又靠近電梯，因此免除了舊線的不便轉乘；另兩句只指出電梯或步行距離帶來的局部改善。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The direct shuttle saves patients from awkward transfers at the crowded station.",
+        "zh": "直達接駁車讓病人免於在擁擠車站不便地轉乘。",
+        "promptZh": "先聽示範，再指出哪段接駁對旅客造成麻煩。",
+        "targetSpan": {
+          "start": 39,
+          "end": 56
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：志工要帶一群長者到海濱展館。甲線須從地鐵出站、步行七分鐘到另一個巴士站，還常常趕不上接駁；乙線只需在同一月台換車，總車程多五分鐘。用一至兩句英文說明你為何建議乙線。",
+        "selfCheckZh": "指出甲線的步行和接駁時間問題，以及乙線雖然車程稍長，卻在同一月台換車；不要只說甲線慢。",
+        "examples": [
+          {
+            "en": "I would choose route B for the older visitors because it avoids awkward transfers: they can change on the same platform instead of walking seven minutes and risking a missed bus.",
+            "zh": "我會替長者選乙線，因為它避免了不便的轉乘：他們可在同一月台換車，不用走七分鐘路，也不用冒錯過巴士的風險。"
+          },
+          {
+            "en": "Although route B takes five minutes longer overall, its same-platform connection is easier for the group than route A’s awkward transfers and uncertain bus timing.",
+            "zh": "雖然乙線全程多五分鐘，但同月台接駁比甲線不便的轉乘和不穩定的巴士接駁時間更適合這群長者。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "older visitors",
+            "zh": "長者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 45
+            }
+          },
+          {
+            "en": "change on the same platform",
+            "zh": "在同一月台換車",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 119
+            }
+          },
+          {
+            "en": "walking seven minutes",
+            "zh": "走七分鐘路",
+            "exampleIndex": 0,
+            "span": {
+              "start": 131,
+              "end": 152
+            }
+          },
+          {
+            "en": "a missed bus",
+            "zh": "錯過巴士",
+            "exampleIndex": 0,
+            "span": {
+              "start": 165,
+              "end": 177
+            }
+          },
+          {
+            "en": "uncertain bus timing",
+            "zh": "不穩定的巴士接駁時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 142,
+              "end": 162
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Awkward transfers can outweigh a small saving in total travel time.",
+          "zh": "不便的轉乘可能抵消車程稍短的好處。"
+        },
+        {
+          "en": "A same-platform change may avoid awkward transfers for travellers with limited mobility.",
+          "zh": "同月台換車可讓行動不便的旅客避開不便的轉乘。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

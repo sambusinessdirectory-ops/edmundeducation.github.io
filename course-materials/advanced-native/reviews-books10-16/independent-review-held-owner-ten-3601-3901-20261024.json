@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-AI-editorial-review-proposal-only",
+  "reviewDate": "2026-10-24",
+  "authorProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-new-owner-ten-3601-3901-20261024.json",
+  "authorProposalSha256": "145435f72ead6e2352b9b6048838184a392d66e79e0985a2a164651607c18a52",
+  "sourceReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-prioritized-25-current-holds-owner-screen-20261024.json",
+  "sourceReviewSha256": "85d76678b55aa68707b3a960c541cd23d495b572386b958343757d270d318152",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "selectedManifestSha256AtReview": "c840a735158c64eaaaee9845ee67318e5f77b30a99067f28b5a243be792526dc",
+  "lessonCount": 10,
+  "sourceBindingsPassed": 10,
+  "schemaErrors": [],
+  "schemaWarnings": [],
+  "compiledSevenStepSixQuestionCount": 10,
+  "releaseBlockingFindingCount": 8,
+  "editorialCheckFindingCount": 4,
+  "rows": [
+    {
+      "lessonId": "advanced-native-3601",
+      "sourceId": "book10-16-1490",
+      "sourceRawRowSha256": "c08355554b8fe722ee37493a76af1b5860820ee5ac716b4c195373d93215af3d",
+      "decisionRawRowSha256": "ec8390652812020f7827c23bf9b912d521595e17bd81ed342764585658510f90",
+      "sourceBinding": "pass",
+      "schemaSevenStepSixQuestionGlossary": "pass",
+      "editorialRecommendation": "revise-before-selection",
+      "findings": [
+        {
+          "severity": "release-blocking",
+          "location": "reply option d",
+          "finding": "Publishing a catalogue would let more people discover records does not identify who currently controls access, which is what the prompt asks. The four-valid-reply contract therefore fails.",
+          "repair": "Replace with a truthful direct answer about current control, without the target phrase."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-3694",
+      "sourceId": "book10-16-1583",
+      "sourceRawRowSha256": "3d88120fc0423d15ac70e7c9259cd072473c8c3d97e4e04455b4f811d31f6bf2",
+      "decisionRawRowSha256": "d1a62b88adffeb3f2f78f8f5d3728180088ac38e03570fc8c02d96e75a3560aa",
+      "sourceBinding": "pass",
+      "schemaSevenStepSixQuestionGlossary": "pass",
+      "editorialRecommendation": "revise-before-selection",
+      "findings": [
+        {
+          "severity": "release-blocking",
+          "location": "reply option d",
+          "finding": "Staff can explain the booking process is a possible staff action, not a difference the new clinic system makes.",
+          "repair": "Give a direct effect of the system on access or appointments."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-3723",
+      "sourceId": "book10-16-1612",
+      "sourceRawRowSha256": "f02c8f9dbc2e5e802d2244786e91f9173b1135c38e9a0185643f1f687e96e75d",
+      "decisionRawRowSha256": "303d5751e3a334dfd08adf54bd66b4111daea5e9767202b7edb0b3c251d00511",
+      "sourceBinding": "pass",
+      "schemaSevenStepSixQuestionGlossary": "pass",
+      "editorialRecommendation": "provisionally-sound-pending-usual-review",
+      "findings": []
+    },
+    {
+      "lessonId": "advanced-native-3725",
+      "sourceId": "book10-16-1614",
+      "sourceRawRowSha256": "24f2f07ecd42e3c68e65cb7913f5a4c226ba8d996fc5ab965c04b068f5d9c639",
+      "decisionRawRowSha256": "fb14eadb14e40371360214092cda3368679b45d820f4a7e77615b26c38aff1d6",
+      "sourceBinding": "pass",
+      "schemaSevenStepSixQuestionGlossary": "pass",
+      "editorialRecommendation": "revise-before-selection",
+      "findings": [
+        {
+          "severity": "release-blocking",
+          "location": "reply option d",
+          "finding": "It should be reviewed after the first year does not answer how the scholarship has affected students.",
+          "repair": "Use another concrete student effect; preserve exactly one target-bearing option."
+        },
+        {
+          "severity": "editorial-check",
+          "location": "reply option c and scene",
+          "finding": "Changed the fate describes a substantial actual alteration. The reply prompt supplies no facts that establish the claimed long-term outcome; the scene has stronger evidence.",
+          "repair": "Add the eligibility/outcome fact to the prompt or use could change where the effect is prospective."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-3775",
+      "sourceId": "book10-16-1664",
+      "sourceRawRowSha256": "a34f3e9b1db52f44d7b9f6fdb71e621bc7e5afc221f96e50cf3fa25ae59057d3",
+      "decisionRawRowSha256": "133aa88cf2a42cce89b1c9eab5454ae4dc9231360933a6626800b274e139fc1f",
+      "sourceBinding": "pass",
+      "schemaSevenStepSixQuestionGlossary": "pass",
+      "editorialRecommendation": "revise-before-selection",
+      "findings": [
+        {
+          "severity": "release-blocking",
+          "location": "reply option d",
+          "finding": "Collecting the meal after the event does not tell the listener how to book lunch.",
+          "repair": "Replace with a valid booking method, such as submitting the meal request before a deadline."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-3839",
+      "sourceId": "book10-16-1728",
+      "sourceRawRowSha256": "803f2a2b90840ef5532503f8c9c5100da6622f88e01a69827cc06a9f6682f01b",
+      "decisionRawRowSha256": "3625baa2389be5bb09dc25df83828339c69bb53e49f6bf2dbbcebae16c602e8c",
+      "sourceBinding": "pass",
+      "schemaSevenStepSixQuestionGlossary": "pass",
+      "editorialRecommendation": "revise-before-selection",
+      "findings": [
+        {
+          "severity": "release-blocking",
+          "location": "reply option d",
+          "finding": "The district should publish a clearer travel map is a recommendation, not an answer to how it affects weekend crowds.",
+          "repair": "Replace with another plausible effect on visitors."
+        },
+        {
+          "severity": "editorial-check",
+          "location": "title, target pattern and all seven steps",
+          "finding": "The conventional magnet simile is reusable, but the proposal fixes the learner to plural attractors and the exact plural wording pull people in like magnets. Every current model uses a plural subject, so agreement is internally consistent. The narrower phrase may make future singular examples unnatural or exclude the common like a magnet form.",
+          "repair": "Decide whether this lesson deliberately teaches the plural source variant or a broader magnet simile. If broadened, author a separate singular subject/model and revise target spans; do not silently change the fixed source sense."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-3844",
+      "sourceId": "book10-16-1733",
+      "sourceRawRowSha256": "55a173f6387344ebd2555fd7c4194068431a754c2ddbb7bd9d417adcaa6ad4bc",
+      "decisionRawRowSha256": "9ed6b2c927238963b30483a277f268d6ed95fcfd877571dd53e07af68a508adb",
+      "sourceBinding": "pass",
+      "schemaSevenStepSixQuestionGlossary": "pass",
+      "editorialRecommendation": "revise-before-selection",
+      "findings": [
+        {
+          "severity": "release-blocking",
+          "location": "reply options c and d",
+          "finding": "Publishing waiting times and planning evening sessions are proposed actions, not answers to what has been happening to the waiting list.",
+          "repair": "Use two distinct truthful trend descriptions, while keeping only the golden option target-bearing."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-3850",
+      "sourceId": "book10-16-1739",
+      "sourceRawRowSha256": "4e2e945796dc2231eb9609964aeb92bbe99740fb428d85a286901641a9dcdc4f",
+      "decisionRawRowSha256": "5218f7ce3ed0c312c7de086b9c500750e546ea203b3b41a58abf7a2cff1dce11",
+      "sourceBinding": "pass",
+      "schemaSevenStepSixQuestionGlossary": "pass",
+      "editorialRecommendation": "revise-before-selection",
+      "findings": [
+        {
+          "severity": "release-blocking",
+          "location": "reply options b and d",
+          "finding": "A suggested route and ordered ticket machines do not answer how the bus service has been performing recently.",
+          "repair": "Use direct service-performance observations. Recheck that only one option contains begin to slide."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-3893",
+      "sourceId": "book10-16-1782",
+      "sourceRawRowSha256": "e474cb8ac1d0aa38f852d3838896472199342d128b6c890ea71ac4b458691bb5",
+      "decisionRawRowSha256": "baaf54ae8e3a5517cc4a7b4eaeca722410279447e05752d492ede04b80d1aae4",
+      "sourceBinding": "pass",
+      "schemaSevenStepSixQuestionGlossary": "pass",
+      "editorialRecommendation": "revise-before-selection",
+      "findings": [
+        {
+          "severity": "release-blocking",
+          "location": "reply options a and d",
+          "finding": "The film shows a route and explains what to pack are descriptions of content, not clearly effects on viewers as the question asks. Option b and the golden option describe effects.",
+          "repair": "Rewrite a and d as effects, such as helping viewers understand the route and prepare appropriate clothing."
+        },
+        {
+          "severity": "editorial-check",
+          "location": "brief, contrast and dialogue boundary with 3901",
+          "finding": "The proposal treats stir desire as necessarily a first-ever wish. Stir can evoke or bring a feeling into awareness without proving no latent desire existed. The specific first-time scenarios are valid, but the general rule is too exclusive.",
+          "repair": "Teach stir desire as evoking/arousing desire; use explicit prior-wish evidence to reserve amplify an existing desire for strengthening it. Keep the contrast task tied to its stated facts, not an absolute ban on stir with an existing wish."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-3901",
+      "sourceId": "book10-16-1790",
+      "sourceRawRowSha256": "a535c2d172d685aa193fd14aefd7aa0f76276460c629a39cf143d912b7873dfc",
+      "decisionRawRowSha256": "3cf66729226d430021c72d3690d41814515715fe51edf774f9cf2607b74d7352",
+      "sourceBinding": "pass",
+      "schemaSevenStepSixQuestionGlossary": "pass",
+      "editorialRecommendation": "revise-before-selection",
+      "findings": [
+        {
+          "severity": "editorial-check",
+          "location": "pairwise boundary with 3893",
+          "finding": "The existing-wish evidence is clear in the listening, scene and writing contexts; amplify an existing desire requires it. The neighboring 3893 lesson overstates exclusivity, so the pair needs a shared corrected boundary note before selection.",
+          "repair": "Keep the explicit before-and-after evidence here. Reword the paired rule so stir is not taught as impossible when a desire already exists."
+        }
+      ]
+    }
+  ],
+  "externalSenseReferences": [
+    {
+      "topic": "magnet simile",
+      "url": "https://www.collinsdictionary.com/english-language-learning/magnet",
+      "note": "Collins records the conventional figurative sense of a magnet or like a magnet as something people are attracted to; this supports the metaphor, not necessarily this exact plural sentence frame."
+    },
+    {
+      "topic": "stir emotional sense",
+      "url": "https://dictionary.cambridge.org/dictionary/english/stir",
+      "note": "Cambridge defines stir as causing feelings/emotions to be felt; the entry does not impose a first-ever-wish condition."
+    },
+    {
+      "topic": "amplify sense",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/amplify",
+      "note": "Cambridge describes increasing size or effect; the proposal’s existing desire supplies the pre-existing object explicitly."
+    }
+  ],
+  "limits": [
+    "This is a separate AI editorial review, not human, media, browser, device or live approval.",
+    "No author proposal, decision, selection manifest or SOP audit was edited by this review."
+  ],
+  "selectionApproved": false
+}

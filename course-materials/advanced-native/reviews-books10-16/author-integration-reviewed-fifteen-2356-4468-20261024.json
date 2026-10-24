@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "kind": "hash-bound-unpublished-selection-integration",
+  "date": "2026-10-24",
+  "status": "integrated-locally-unpublished",
+  "previewReportPath": "/private/tmp/advanced-native-fifteen-integration-preview/integration-readiness-report.json",
+  "previewReportSha256": "671af796ae83c22cfaff5c36e1134eac3298392d086e0b03826475ba3624cdaa",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "decisionManifestSha256": "b4c210caa55d0c0d410ba3a19338550888fda1318975ff84ff3d6dbc6c9eb47f",
+  "proposalEvidence": {
+    "eightProposalSha256": "2b217ea30a011d8eccede16b189cdc4d2c49ff0b1310a3db9cf9453c730eb6ce",
+    "eightIndependentFinalReviewSha256": "0a438d29fd4aaab9c5059a42c1edb0887a1013fad61dd4aa85fb49ef6afb2e83",
+    "sevenProposalSha256": "b6c18d5debe466520a3e9b3018848cd5bdcbfbe759ba418ee6493511c6b4d39b",
+    "sevenInitialIndependentReviewSha256": "52ddc1655919cfc4fdf60015b6a3305cda39ffcdf340efe39293b09ba737a18c",
+    "sevenFocused4468ReviewSha256": "c3c8a4b14ca3bf74f6a828533999bb036b3738016ecdf29b251b2558a39cc4a9"
+  },
+  "selection": {
+    "newBatchPath": "course-materials/advanced-native/drafts-books10-16/batch-reviewed-held-new-owners-15-selected-20261024.json",
+    "newBatchSha256": "a6867ea027e279c0c702d501e556e563979643cf6950deb8cc8f42369dbd19b3",
+    "newOrdinals": [
+      2356,
+      2579,
+      2712,
+      3086,
+      3275,
+      3321,
+      3346,
+      3351,
+      3442,
+      3614,
+      3817,
+      3820,
+      4327,
+      4365,
+      4468
+    ],
+    "beforeSelectedManifestSha256": "30e272889792acfc0658608835dec5add98563f517f62faaec0f255fb03e16b5",
+    "afterSelectedManifestSha256": "f6ad48beef5b8a397e4e129bf00c0b0525d9efeb7504268e65b2ee39b7920b09",
+    "selectedFileContentDigest": "c36a4fa4d6f25df55a46491eddba95dbedff6e8f70a1c48133c212b2f7ae404a",
+    "selectedFileCount": 182,
+    "lessonCountBefore": 666,
+    "lessonCountAfter": 681,
+    "orderedStepsAfter": 4767,
+    "questionsAfter": 4086,
+    "writingExamplesAfter": 1362,
+    "selectedAudioRolesAfter": 2724
+  },
+  "decisions": {
+    "changedRows": 15,
+    "changedFiles": 12,
+    "beforeCounts": {
+      "proposed-new-lesson": 666,
+      "hold-editorial": 376,
+      "proposed-alias-existing": 1199,
+      "proposed-alias-new": 206,
+      "excluded-one-off": 157
+    },
+    "afterCounts": {
+      "proposed-new-lesson": 681,
+      "proposed-alias-existing": 1199,
+      "proposed-alias-new": 206,
+      "hold-editorial": 361,
+      "excluded-one-off": 157
+    },
+    "decisionFileContentDigest": "470959193e2c687b66b7ce3a52386b390f0b534920accc8bfe37158ab8f23a0d",
+    "decisionFileCount": 45,
+    "files": [
+      {
+        "path": "books10-16/editorial-decisions-2352-2411.jsonl",
+        "beforeSha256": "939f05e158a86d38b4a99963d6594d86ad350de79a02249c067ca65276bdcd56",
+        "afterSha256": "14ec76f20f5438c66056286f5410a415ca3247c4afe6155bb469a0730a78b961",
+        "changedOrdinals": [
+          2356
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-2532-2591.jsonl",
+        "beforeSha256": "a45368bdbb4b442481ac66b7ee557689d2dccbd9d175b5ef829d651e0875387c",
+        "afterSha256": "234b41ba255100dea7f3e828bac4aa31befb7f25f9b26904c18983c4c1bc2763",
+        "changedOrdinals": [
+          2579
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-2712-2771.jsonl",
+        "beforeSha256": "f1a6030b8a7ca89b0daf1287d1ed42a89ec9c4bff1255664e39fba70e2ee9e1f",
+        "afterSha256": "11a377e7e085e226cdc3f5941b3dabaca6bf8a4f1015798b36033cf56be7b2d2",
+        "changedOrdinals": [
+          2712
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-3072-3131.jsonl",
+        "beforeSha256": "2a978166e4d8ad85276d2231f3d96c83882f26687924ae60bb3d44a916585834",
+        "afterSha256": "520f2ff881287c1a70652caae85452a81ece22792923c75488332df6e74af7c1",
+        "changedOrdinals": [
+          3086
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-3252-3311.jsonl",
+        "beforeSha256": "e04c43abd850a21bf033da95bbdba9e62c84cd9b8db0a17abcbb7cb01735aeba",
+        "afterSha256": "b45269be53245db1ab537035efff099441fd0c59c5feeed70617c26aa0ab9c78",
+        "changedOrdinals": [
+          3275
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-3312-3371.jsonl",
+        "beforeSha256": "f99194591bbe75834e4642861a8cb4c724e9838c7657aafef3020b06c6fdc829",
+        "afterSha256": "7d683b669ee534b7caed1fafdc86f4e1181416e439ded35261e9f03a21d5adb7",
+        "changedOrdinals": [
+          3321,
+          3346,
+          3351
+        ],
+        "untouchedLinesByteExact": 57
+      },
+      {
+        "path": "books10-16/editorial-decisions-3432-3491.jsonl",
+        "beforeSha256": "32d7127e65331cbe9ba51fc735ff1d8723f19ad7a11e90b74345a916e5b1c051",
+        "afterSha256": "0814aedc6dccc38a4e66d1e0969572e943a52dbed0e390216375e181fe612217",
+        "changedOrdinals": [
+          3442
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-3612-3671.jsonl",
+        "beforeSha256": "e68c93fb442802ec159970aa417b00b1897d3a7b142f7410826e972d47983367",
+        "afterSha256": "5bb3a440d531d2c86baa493220b1dfeed5ccc0e77a2878e0f8ed9081a1eb1ff2",
+        "changedOrdinals": [
+          3614
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-3792-3851.jsonl",
+        "beforeSha256": "79d16975d820c7c824883f24662d3967c1824465ab9e14e2f5096578e621cd92",
+        "afterSha256": "2085d27f7186434e8854862f6b84d103d56629a3454e37c7516a3e26d10094e5",
+        "changedOrdinals": [
+          3817,
+          3820
+        ],
+        "untouchedLinesByteExact": 58
+      },
+      {
+        "path": "books10-16/editorial-decisions-4272-4331.jsonl",
+        "beforeSha256": "f70e66930a627b6c4853e79dd53f9e81ae6fcf4d2423d093029517bd8ee2ee00",
+        "afterSha256": "441b232a6f749aceeff2623e820ddb568298c689fac11f92f64262fb638dbc3d",
+        "changedOrdinals": [
+          4327
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-4332-4391.jsonl",
+        "beforeSha256": "ed4d109b67253315accdba13eff17bd606715ba9c6d6d6369d0c44c0e9d9e211",
+        "afterSha256": "1b0978e6a82e23286429c3be134c1730763475bf494685c77dd49a7932040a07",
+        "changedOrdinals": [
+          4365
+        ],
+        "untouchedLinesByteExact": 59
+      },
+      {
+        "path": "books10-16/editorial-decisions-4452-4511.jsonl",
+        "beforeSha256": "9b9c7ff98267abd61dde98e50ed87f82dddffa1808711266d5a4e08975ad38a2",
+        "afterSha256": "03e0dcc5545b8814e1b847b1150236b8e8b3dfecc20974ee8b3b69fad4a3165c",
+        "changedOrdinals": [
+          4468
+        ],
+        "untouchedLinesByteExact": 59
+      }
+    ],
+    "unchangedRowsByteExact": true
+  },
+  "contentFidelity": "All 15 selected learner objects equal their independently reviewed proposals after removing only review metadata; no source provenance or teaching field changed during selection.",
+  "verification": {
+    "verifyBooks10to16": "passed; 2,604 source rows, 681 drafts, 4,086 questions, 2,724 planned audio roles, zero schema/source/alias errors",
+    "auditProvisionalDecisions": "passed; 2,604 rows and zero errors",
+    "auditNewAliasOwners": "passed; 206/206 matched",
+    "auditExistingAliasPatterns": "passed; 1,199/1,199 matched",
+    "auditOneOffExclusions": "passed; 157 source-bound",
+    "auditHoldCoverage": "passed; 361 current holds, zero unaudited",
+    "auditHoldTriageCoverage": "passed; 361 current holds, zero gaps",
+    "mergedSchemaAndCompile": "passed; 681 lessons, 4,767 steps, 4,086 questions, zero errors/warnings",
+    "sopAudit": "pending text/hash refresh immediately after integration"
+  },
+  "mediaAndBrowser": "The 666 predecessor had scoped local browser/audio evidence. The new 15 have no generated or hosted audio, no 681 browser/device run, and no live release.",
+  "publication": {
+    "pushed": false,
+    "deployed": false,
+    "databaseApplied": false,
+    "releaseApproved": false,
+    "liveLessonsAdded": 0
+  }
+}

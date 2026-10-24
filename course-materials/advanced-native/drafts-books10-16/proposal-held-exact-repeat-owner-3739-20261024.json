@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-held-exact-repeat-owner-3739-proposal",
+  "lessons": [
+    {
+      "id": "advanced-native-3739",
+      "number": 3739,
+      "inventoryId": "expr-3739",
+      "titleEn": "stay in control of the change",
+      "titleZh": "掌握變革的主導權",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:stay|stays|stayed|staying) in control of the change\\b",
+        "glossaryForbidden": [
+          "\\bin control\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Keep meaningful influence over how a transition is planned and carried out.",
+        "meaningZh": "在變革的規劃和推行過程中，持續保有實際影響力。",
+        "grammar": "Use stay in control of the change with the people guiding a specific transition as subject; it expresses meaningful agency, not total control of every result.",
+        "register": "Practical change-management language: a team lead, staff representative or organiser discusses a transition with colleagues affected by it.",
+        "boundaryZh": "需能參與決定、調整步驟或提出回饋；只被通知或被迫適應，不算掌握變革。",
+        "misconceptionZh": "保有主導權不等於能保證所有結果，也不等於拒絕任何改變。",
+        "outcomeZh": "能指出團隊透過哪些具體決策與回饋，保有對變革的實際影響。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1628",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 153,
+          "book": 14,
+          "question": 18,
+          "sample": "S2",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 162, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Training helps staff stay in control of the change.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stay in control of the change"
+        }
+      ],
+      "listening": {
+        "en": "The workshop is replacing its paper rota with a shared calendar. Staff first test it on one shift, report problems and vote on the final layout. Those choices help them stay in control of the change.",
+        "zh": "工作坊正把紙本更表改成共用行事曆。員工先在一個班次試用，報告問題，再表決最後的版面；這些決定讓他們在變革中保有主導權。",
+        "promptZh": "員工怎樣 stay in control of the change？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They test the calendar and help decide how it will be used.",
+            "zh": "他們試用行事曆，並參與決定使用方式。"
+          },
+          {
+            "id": "b",
+            "en": "They receive the new schedule only after every choice is final.",
+            "zh": "所有決定落實後，他們才收到新時間表。"
+          },
+          {
+            "id": "c",
+            "en": "They prevent the workshop from changing any schedule at all.",
+            "zh": "他們阻止工作坊更改任何時間表。"
+          },
+          {
+            "id": "d",
+            "en": "They know exactly what every future problem will be.",
+            "zh": "他們準確知道將來會出現的每個問題。"
+          }
+        ],
+        "explanationZh": "先試用、回報並參與決定，讓員工對推行方式有實際影響；這不是拒絕改變或保證結果。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "（團隊如何面對即將更改的服務流程？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are piloting one stage and collecting staff feedback.",
+            "zh": "他們正試行一個階段並收集員工意見。"
+          },
+          {
+            "id": "b",
+            "en": "They keep the right to adjust the timetable as problems emerge.",
+            "zh": "遇到問題時，他們仍可調整時間表。"
+          },
+          {
+            "id": "c",
+            "en": "They stay in control of the change by reviewing each stage before it expands.",
+            "zh": "他們在擴大推行前檢視每個階段，從而掌握變革的主導權。"
+          },
+          {
+            "id": "d",
+            "en": "They let the affected staff help decide the next step.",
+            "zh": "他們讓受影響的員工參與決定下一步。"
+          }
+        ],
+        "explanationZh": "四句都描述團隊如何參與流程更改；金句使用本課表達，概括這種持續的決策權。",
+        "goldenId": "c",
+        "promptEn": "How is the team handling the coming change to its service process?"
+      },
+      "scene": {
+        "promptZh": "一間劇院改用流動售票。前台員工提出先在週末試行、每週檢視投訴，再決定何時全面推行。哪句最完整描述他們的角色？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Staff can stay in control of the change by setting trial and review points.",
+            "zh": "員工可訂立試行和檢視時點，從而掌握變革的主導權。"
+          },
+          {
+            "id": "b",
+            "en": "The new system may reduce the time spent printing tickets.",
+            "zh": "新系統或許會減少列印門票所需的時間。"
+          },
+          {
+            "id": "c",
+            "en": "The staff have been told the system will arrive next month.",
+            "zh": "員工已獲通知系統將於下月推出。"
+          }
+        ],
+        "explanationZh": "節省列印時間和獲知日期都可能是真的，但未說明員工如何影響試行與推行。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合 stay in control of the change？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Volunteers test a new rota, suggest changes and approve the next version.",
+            "zh": "義工試用新更表、提出修改並審批下一版。"
+          },
+          {
+            "id": "b",
+            "en": "A manager announces a fixed policy after launch and allows no feedback.",
+            "zh": "經理在推出後宣布不可更改的政策，也不接納意見。"
+          },
+          {
+            "id": "c",
+            "en": "Staff review weekly results and can pause the rollout if errors appear.",
+            "zh": "員工每週檢視結果，若出現錯誤可暫停推行。"
+          }
+        ],
+        "explanationZh": "單方面宣布且沒有回饋或調整渠道，受影響者難以保有實際影響。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「新登記方法已定，我們能做的只剩照辦嗎？」你知道仍可選擇試行範圍並每週修改。哪句最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can stay in control of the change by choosing the pilot group and revising the process each week.",
+            "zh": "我們可選定試行組別並每週修改流程，藉此掌握變革的主導權。"
+          },
+          {
+            "id": "b",
+            "en": "We may not choose the system itself, but we can still report which steps cause delays.",
+            "zh": "我們未必能選系統本身，但仍可回報哪些步驟導致延誤。"
+          },
+          {
+            "id": "c",
+            "en": "We should document the delays before deciding how widely to use the new method.",
+            "zh": "決定擴大使用新方法前，我們應記錄延誤情況。"
+          }
+        ],
+        "explanationZh": "另兩句提出有用的回報和記錄方式，但金句同時指出團隊仍可決定試行範圍並持續調整。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "A small trial and regular feedback help the team stay in control of the change.",
+        "zh": "小規模試行及定期回饋，幫助團隊在變革中保有主導權。",
+        "promptZh": "先聽示範，再指出團隊怎樣影響推行過程。",
+        "targetSpan": {
+          "start": 49,
+          "end": 78
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區運動會要由固定場地改成輪流使用三所學校。義工擔心交通和器材安排。籌委會讓義工試行一個週末、提出修訂，並在每月會議決定下一個場地。用一至兩句英文說明他們如何仍能掌握這項變動，而非只是被動接受。",
+        "selfCheckZh": "寫出試行、提出修訂及參與決定下一個場地的具體作用；不要說義工能控制所有意外結果。",
+        "examples": [
+          {
+            "en": "The volunteers can stay in control of the change by testing one weekend, reporting equipment problems and helping choose the next school site.",
+            "zh": "義工先試行一個週末、回報器材問題，再參與選擇下一所學校場地，便能保有對這項變動的實際影響。"
+          },
+          {
+            "en": "By reviewing transport issues each month and voting on the next venue, the volunteers stay in control of the change instead of simply accepting a fixed rotation.",
+            "zh": "義工每月檢視交通問題，並表決下一個場地，便能掌握變動的主導權，而非只接受固定的輪換安排。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "testing one weekend",
+            "zh": "試行一個週末",
+            "exampleIndex": 0,
+            "span": {
+              "start": 52,
+              "end": 71
+            }
+          },
+          {
+            "en": "equipment problems",
+            "zh": "器材問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 101
+            }
+          },
+          {
+            "en": "the next school site",
+            "zh": "下一所學校場地",
+            "exampleIndex": 0,
+            "span": {
+              "start": 121,
+              "end": 141
+            }
+          },
+          {
+            "en": "transport issues",
+            "zh": "交通問題",
+            "exampleIndex": 1,
+            "span": {
+              "start": 13,
+              "end": 29
+            }
+          },
+          {
+            "en": "a fixed rotation",
+            "zh": "固定的輪換安排",
+            "exampleIndex": 1,
+            "span": {
+              "start": 144,
+              "end": 160
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Feedback helps people stay in control of the change when it can alter the next step.",
+          "zh": "回饋若能改變下一步，就能幫助人們掌握變革。"
+        },
+        {
+          "en": "A trial lets volunteers stay in control of the change without promising a perfect result.",
+          "zh": "試行讓義工保有對變革的影響，但不保證結果完美。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

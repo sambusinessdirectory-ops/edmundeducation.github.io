@@ -1,0 +1,37 @@
+{
+  "status": "mechanical-source-overlap-screen-not-editorial-approval",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-owner-nine-3909-4081-20261024.json",
+  "proposalSha256": "6cf965dd21a0f480740590615d4421ce6a7c4838fb3ba6fdc5190a075589d0fe",
+  "inventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "inventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "lessons": 9,
+  "sourceExamples": 2604,
+  "learnerFacingStrings": 216,
+  "counts": {
+    "exact": 0,
+    "high": 0,
+    "medium": 0,
+    "target-or-short-overlap": 1
+  },
+  "nearCounts": {
+    "near-full": 0,
+    "review-near-full": 0
+  },
+  "hits": [
+    {
+      "lesson": 3981,
+      "field": "reply.options[2].en",
+      "sourceId": "book10-16-1870",
+      "sourceExpression": "a little workout for the brain",
+      "sourceExample": "A puzzle is a little workout for the brain.",
+      "learnerText": "It was a little workout for the brain before the main lesson.",
+      "sharedText": "a little workout for the brain",
+      "sharedTokens": 6,
+      "targetTokens": 6,
+      "excessTokens": 0,
+      "sourceCoverage": 0.667,
+      "severity": "target-or-short-overlap"
+    }
+  ],
+  "nearHits": []
+}

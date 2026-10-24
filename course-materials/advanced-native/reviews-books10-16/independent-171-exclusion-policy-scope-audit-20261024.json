@@ -1,0 +1,1089 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-171-exclusion-user-policy-scope-audit",
+  "reviewDate": "2026-10-24",
+  "userApprovalScope": "Skip one-time comparisons; record why. This audit tests whether each recorded source-specific reason actually establishes that narrow premise.",
+  "registerPath": "course-materials/advanced-native/books10-16/one-off-exclusion-register.jsonl",
+  "registerSha256": "cf654735cf57d727391489624e362c5ea282c5b3985898c7351f90545408efc7",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "decisionManifestPath": "course-materials/advanced-native/books10-16/editorial-decision-manifest.json",
+  "decisionManifestSha256": "b4c210caa55d0c0d410ba3a19338550888fda1318975ff84ff3d6dbc6c9eb47f",
+  "checkedCount": 171,
+  "flaggedCount": 14,
+  "notFlaggedOnThisPass": 157,
+  "recommendationCounts": {
+    "restore-hold-for-new-editorial-decision": 14
+  },
+  "interpretation": "A flagged row may still be too ordinary or unclear for a lesson, but that would require a different explicit editorial ground. The recommendation is to restore hold, not to publish or automatically author it. Nonflagged rows are only free of a clear scope mismatch on this pass, not certified as correct on every other SOP axis.",
+  "rowScopeVerdicts": [
+    {
+      "sourceOrdinal": 2207,
+      "registerRawRowSha256": "d455a9b591f4d9776ff97d8e9301f40e5af6868b9dae6344193e790289852f4a",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2244,
+      "registerRawRowSha256": "dc6c7e104e49a3b100e0bc57e0b4c93f15cf431dfc1262df9b3dfc43fd976bd6",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2405,
+      "registerRawRowSha256": "5d38eb07aa1e02d246134ed3995271c80641a3e7bd3cb170cefa1bcebd3a66ba",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2468,
+      "registerRawRowSha256": "b69876999108d61d11d622eed0870e9cb70c64bb53bc59163d0a0e2936e61467",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2496,
+      "registerRawRowSha256": "d92a9ede85b43756a53c9fe25641a2400d99c0fe583b2eb02f6cf42a18d11879",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2532,
+      "registerRawRowSha256": "7f707f6ac65a740f507027581496846b97de0a6af2fcffef11c6e2f56a36dee2",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2536,
+      "registerRawRowSha256": "f7dc496971e3eac5a1bc6977d8c78055e8f5ab8427304e567be5e0ad6a3e9931",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2543,
+      "registerRawRowSha256": "ef77336b84d486d0b35fa0a50e99304045cc71fe9a2f9be5e1822a5839c30519",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2546,
+      "registerRawRowSha256": "3ea674ee512589d83a0184c2d6efb0e801871cc555fe9744d8ea0f92bbecd0f7",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2570,
+      "registerRawRowSha256": "02703ad44c505e63926ae262c27484c69daf12a1d500b1f642d64b23a2eccf21",
+      "scopeVerdict": "reason-does-not-establish-one-time-comparison"
+    },
+    {
+      "sourceOrdinal": 2609,
+      "registerRawRowSha256": "93c8e63fda860808f9e7a5ed4c9be41cee38eb34740fc762718d31ff0417b529",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2632,
+      "registerRawRowSha256": "bfa48a259cfbdb9825872a7534eeeca133c2caaa3247e00eea427d00018ca2e6",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2640,
+      "registerRawRowSha256": "a49313792496ded8e73dfbcc5a9fdc6766c9233c89d1991b926137a0574862da",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2647,
+      "registerRawRowSha256": "2a3ecda703d14dd5a806e816658bef66fec0707e905d9d44829802de8534a20d",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2653,
+      "registerRawRowSha256": "aedf740e9916fb0e9777e1f70a1073c8c6fc7e5ef554070b4b19224f57554385",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2654,
+      "registerRawRowSha256": "1e2cfdaf214d3634259d53a6acffec35ae6b719a9880a4bb8934d9e017f4a337",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2688,
+      "registerRawRowSha256": "e9638b8cb9ce96baf523127bd9d9b22090af9f4f61aeae947d04b5026e4d047c",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2719,
+      "registerRawRowSha256": "5707c5d89b950ec13ad84440f102dd66b77d6111f7d93ce16aa57145834e40b9",
+      "scopeVerdict": "reason-does-not-establish-one-time-comparison"
+    },
+    {
+      "sourceOrdinal": 2727,
+      "registerRawRowSha256": "65f58e3283fd3507ae070fad193a34834247a634838476cc40e5aa475c1acbfe",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2732,
+      "registerRawRowSha256": "5539e3d724158498d50daa815aee560a612bef85c1caf0883db886ebf47bea9f",
+      "scopeVerdict": "reason-does-not-establish-one-time-comparison"
+    },
+    {
+      "sourceOrdinal": 2771,
+      "registerRawRowSha256": "36e37090a46c18335eed3ceb09bbec2f2f505b3cbb3507c19301134c97b62368",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2781,
+      "registerRawRowSha256": "2053253cf62163b344f6311156270059cc01d8e06025e428b375e6675194932b",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2794,
+      "registerRawRowSha256": "f4f32d53109c053506b185224d4e5d1c735adb32587de2e6018bf93ed65496b5",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2798,
+      "registerRawRowSha256": "a4f7df2ff29ea49c5bfa2b509788e770482fee7314791c14c86a57ecdf76ef2a",
+      "scopeVerdict": "reason-does-not-establish-one-time-comparison"
+    },
+    {
+      "sourceOrdinal": 2802,
+      "registerRawRowSha256": "41b3e368094b8cb64ee1b06d0e8a467ddc94b0a93e7db8acaf0a73ebf2fe9630",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2807,
+      "registerRawRowSha256": "1b433f488d2b64da52c455d5691bd0bf5af34e78c22c0d924de81b800be4dfde",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2835,
+      "registerRawRowSha256": "a38c813525681037d7a0cc6c6f7a98d4d3cccdda6108a9dc4f679cd6d07874bd",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2839,
+      "registerRawRowSha256": "93ae0dfc196fcc17d342f2648155bd101286a1f15653934b934d1742e538efa2",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2840,
+      "registerRawRowSha256": "54af50ee458bd4bca2ec90fe4c15bf96bdc478db8786cc6f8c80f3c87d0c7ac8",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2843,
+      "registerRawRowSha256": "55c33d30a2fe73c92bd59ff104e59275278daa4f34da33b145403a12b109604a",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2850,
+      "registerRawRowSha256": "72f41b7919650b8920096a69b5daddebeb620fcf47da78fde17291d003c4d69b",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2866,
+      "registerRawRowSha256": "be08abfe01f564914c9229af1f2350414162e20c7d76e3b45d7cb385d584acf0",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2869,
+      "registerRawRowSha256": "6ad485c88ee6842d73919329498866efc921d7168a8187b1db74c7422227b09a",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2881,
+      "registerRawRowSha256": "01a3d765173870711284e2375650123cc65a4e792efe1284a7e1b18b6b52c708",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2885,
+      "registerRawRowSha256": "8e3f2e731de2f195801c0992877c82390b83a437324df8a528ceeda7c945791e",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2902,
+      "registerRawRowSha256": "b0a177b16565418be8e916b6e95c311348960a3322ff509307bd956385e655dc",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2903,
+      "registerRawRowSha256": "8a6534069909b4cee5c55211246eb056014f6f1e473aeb869d8d04563baaf999",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2906,
+      "registerRawRowSha256": "51ac22e77b3d7289dc589a35f583ffabb1979d2bdb6b2fded74d9c758c895a03",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2907,
+      "registerRawRowSha256": "5ee3f1f9dace1ab12da5510ea93d1a0fbc508bc2c2b8734cd9f4ce3e9d60a810",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2911,
+      "registerRawRowSha256": "81a066c018edc1d0923f2efea6669900283daef6a3115e26c40aa5212a8a3771",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2926,
+      "registerRawRowSha256": "c7352c82fdd978a5d0aee718c06b72e768f67b19d28c214bc7e26163728e6232",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2938,
+      "registerRawRowSha256": "db613d5772a981e7b1bf0764d04d6dc8c75d94cced45e7f26e2b7b4e7ab31937",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2964,
+      "registerRawRowSha256": "6c6b845e0dd779a1ee5040ee60f15c0ef0db1710d154574c7d71a30162ca5f29",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2971,
+      "registerRawRowSha256": "e7d82782f2e7adad511c8aa1c75f948e79086acdcb716c5927df97749012cee3",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 2976,
+      "registerRawRowSha256": "4104b9380e121826d3bb36684a10bdbfcd2ce5e8086868046c9180be5c1737cd",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3005,
+      "registerRawRowSha256": "068182a8562564ec647af77bfd928772f2270824e4cd95ebb2c8c7f8258ba037",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3020,
+      "registerRawRowSha256": "f37db9cde4db3c659f7f9c52ddc620e65d21de591e306a4974a942e54971fb70",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3024,
+      "registerRawRowSha256": "c4461aac22de90183c23396d4265a034b98cb32bbdf996dd9a757c3649960513",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3041,
+      "registerRawRowSha256": "de6b1056c025e841c5d885705acb9a72b629fe21ec230cf58d4eaef5495f2d02",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3045,
+      "registerRawRowSha256": "d4d05201818016e5d3149a2d2229c37ecf17b95a392e3c8380f242e469ac67b7",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3080,
+      "registerRawRowSha256": "9c346ebfd44cef08529242ede1582d0050daac117c19e4e3a5181b1cac79525a",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3123,
+      "registerRawRowSha256": "c22b8659d3ba767943a1cfd86482be3f4a1866671b91d2e1276b15ef744b5457",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3128,
+      "registerRawRowSha256": "433ed50eb2b2bace4d80899e6f5d2558de9cbf93907f5a9254a8724a41a5bd13",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3130,
+      "registerRawRowSha256": "74bba76811cf24cc4bc49ba0a8845ff5d4f693a15a7902cfa59bef6e5a9339be",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3133,
+      "registerRawRowSha256": "1e98e6b3a0dd681f8c362a96833246f7f17bf02cfc4972104cd8269c5c079b63",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3137,
+      "registerRawRowSha256": "3814ba16cb93ace60bcaf993545453ea02d644f776e63ba327a51ffe14f427ac",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3144,
+      "registerRawRowSha256": "5b63f27d3f7d262ed8c74776464577ee5afa8fcd21033d201656c6eb6822d4b0",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3170,
+      "registerRawRowSha256": "eb60d1ed06ca797fbbf67e9e25156fbe33c4426053d5dbb2ac7d8998d330da04",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3187,
+      "registerRawRowSha256": "39d3c71380f42bbdb3619160a3ef1d1dbd044a1a986633bfe4f3299a3794d57d",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3189,
+      "registerRawRowSha256": "c5114db5c5c72105035b5148dea38e4028fd57377346c732fa2103322caeef8e",
+      "scopeVerdict": "reason-does-not-establish-one-time-comparison"
+    },
+    {
+      "sourceOrdinal": 3206,
+      "registerRawRowSha256": "2209736bbf79833080d394d23bb062a21e044b29d1cb9efc4d6a3b284476900c",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3208,
+      "registerRawRowSha256": "ce7700b2032215444d7c96abe2db965aba33263880f18f110bfc4237c3918adb",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3216,
+      "registerRawRowSha256": "ea4d66363c770f3694cb5cc06a1dd5e14dc5910cce1de3ababa20cef8d1aedab",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3256,
+      "registerRawRowSha256": "5eda63043f5a6b1eaf5cf18e4e336d0ff6e8db4a53eafc9a6b38454fd656dff4",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3265,
+      "registerRawRowSha256": "ad2149b2902626c47b7249176072e3c3c7faa3a398a687ae669f0b221662ded6",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3271,
+      "registerRawRowSha256": "c7d734119f41e7862d9a62ff3c5dd5089ff91f9ee443c1888951d945121e243d",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3295,
+      "registerRawRowSha256": "fa51e70df568921e3fe69505c857c45e689f44282c9abeeeb437b0de41da79ba",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3320,
+      "registerRawRowSha256": "8a45a1cf7a3319abefa4fd842d29c044e8e45d027f60dc00158843c672526677",
+      "scopeVerdict": "reason-does-not-establish-one-time-comparison"
+    },
+    {
+      "sourceOrdinal": 3358,
+      "registerRawRowSha256": "c98b5a2deade3f1e97107822c9ce8a089b80e4e8d20be0a3d4e25a6d2627235d",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3362,
+      "registerRawRowSha256": "99902f386b7d52462a0c4fed08583a0683d2cef8a9b1937a33c839cb16c1cac9",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3363,
+      "registerRawRowSha256": "855c7a6c37a1cad45b01d5499b29481a0728dd80e96b66880fdfd7c81d29710a",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3368,
+      "registerRawRowSha256": "88027f24c67f3f11785e925a34cd3df9d04a15198de6038e8c3d282d33bd5e03",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3373,
+      "registerRawRowSha256": "c8056113bb906928a47f7fc1516b2d583d35f9d776f52b2749e4d12342da1162",
+      "scopeVerdict": "reason-does-not-establish-one-time-comparison"
+    },
+    {
+      "sourceOrdinal": 3386,
+      "registerRawRowSha256": "ea329e10b3b4f592c9cbfe38b2eb045076e888c426fa5f026a597559e4595dbb",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3392,
+      "registerRawRowSha256": "7de222677d0b7d00d50baa56824fe00b03f22fda8802797a3f5e3f9acce717c7",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3396,
+      "registerRawRowSha256": "61358cc7ff076c8744db72b9005aa6248dcca0aa1681e5d282fad6924b21ccee",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3415,
+      "registerRawRowSha256": "0def3bae6db0294e786851d6cb6541c4029ff64e0e1e4b976dec54ab32a513d0",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3417,
+      "registerRawRowSha256": "ab48b9401af193ffc1b95b0f3483eb4cef959d6105c9f5ab7de328c6aa04fb23",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3433,
+      "registerRawRowSha256": "f7a63c4b658a3ea5d38549a4516445e72b35c899b1df3f23c82ade81d03ab978",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3476,
+      "registerRawRowSha256": "a4917b688081bcf081c5622cf0bddec413926982ac4b06742430fbba2c129d15",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3522,
+      "registerRawRowSha256": "584f261065c5ebc51a9f40cf394ca8c68d124c762b3d5db0d44c747d6feecce9",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3530,
+      "registerRawRowSha256": "a1200e0c2d3b16d490e077833de4842c171eff70a7b3ca257e21fa005dbddb49",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3553,
+      "registerRawRowSha256": "88bff6919f2fa456fbde9ea40d31e3ad8bbf01765d19336f60d24042159d5545",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3561,
+      "registerRawRowSha256": "a5a45e654f2ebbdb4e0fc873cd9ce9f2f31d5238a1567283be5cac2604d3ceaa",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3562,
+      "registerRawRowSha256": "ef1a50dadbef39034a150315d85e44b45a8da7bc16a13a1f75285f4720d54edf",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3576,
+      "registerRawRowSha256": "46eb8660014d5556190d58f484fbec13c8765483d7e10088e30a6a05a6cd9c7d",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3578,
+      "registerRawRowSha256": "59c6ed5f2f8774452b9cb98e80738dc6e24c0de446183091ff4bfb658b55930c",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3588,
+      "registerRawRowSha256": "b58f42e7edc06047b61f7c7327d9ac2fc2fe9e1716d233e90b1fd3456b2a5779",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3592,
+      "registerRawRowSha256": "05d4fbf0c106dd1152146c6c40810cc6a1afbd76e3ea4aa114229f80ae1c4d66",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3607,
+      "registerRawRowSha256": "f97df3b45a55e5e947acfbadb6871c3e70698b606eaab02ac7ec99380c189a32",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3608,
+      "registerRawRowSha256": "8903609df1771c2dcf695eaf531ab076a8944aa21081499307dcc492056583cf",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3613,
+      "registerRawRowSha256": "b4e6ce41675ff485906b94851ab1e4652a01d277f4e9e3e6a52a4f3abee0770c",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3667,
+      "registerRawRowSha256": "97fb02d2f4174b258217d62455276e734a0f782cd1a32bc1af221e269e40d9dc",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3674,
+      "registerRawRowSha256": "28e59edbdc60e3fc5417b018278f3ee934b5343e613dcef8c51338e336dc0d66",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3697,
+      "registerRawRowSha256": "4e1e0ddaf280a94b36d3a02ac3c841b375c19abb4fa53c69995568f188c3e622",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3755,
+      "registerRawRowSha256": "a54d853a66b8d39a7698e36d1286d29a320bbaf32f3abdddc1c562475195d11e",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3758,
+      "registerRawRowSha256": "7d97c6995be2b3e55aad371b0cf58c62ea0979fd136cd4bd58afe3df06f80a72",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3762,
+      "registerRawRowSha256": "9e4d49e94f78bcadfbedf391f6730e2aaa6c584a20ee334eabb11b68d2c1da91",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3774,
+      "registerRawRowSha256": "1105642870027d9958b55788ee9cf2537a0ee03e911c58fcbba6a2e4769dbd7b",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3776,
+      "registerRawRowSha256": "c8822df0315879df017641877afff0f5162ec75c851cca98dac57c620cbc7a09",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3783,
+      "registerRawRowSha256": "b2c75b5b6423f32060323663de435fcd2b015a6e04944ff6891cdce3d4abfdfa",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3790,
+      "registerRawRowSha256": "5b6e013abb43a11ea1a3284ba1ca44bea795b348ac717bf32a9f6e92d898314e",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3805,
+      "registerRawRowSha256": "e2f34d7fe42d6fd2bd09fae2c5912b89083992e47bdf3d6156c0a2b2b6cd9c08",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3863,
+      "registerRawRowSha256": "f5635951a92bf57a8b3e3a712e127ba9314cf420405ae13cac63fbf7676f91e4",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3891,
+      "registerRawRowSha256": "ce8ea0d26688f280e13a2c616406397db94fb605c93eb12b1a87929f5ed6eb67",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3902,
+      "registerRawRowSha256": "4f55c05feb4311a33d014e224d8ca9072217d40e850c3b941db49212af5a828e",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3921,
+      "registerRawRowSha256": "8b501afca2dc93d9c286c7f5f79ba4d9a55ed58555e1ecccd273d278fdbbe132",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3952,
+      "registerRawRowSha256": "16962bb495e673d92929d204aed0ff7b3bb883b612cc1f9d5af0971f21d825b7",
+      "scopeVerdict": "reason-does-not-establish-one-time-comparison"
+    },
+    {
+      "sourceOrdinal": 3953,
+      "registerRawRowSha256": "be886986bb809915a859a368e59a074b871db23327cce7bd0c8a682c9fa282dd",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3956,
+      "registerRawRowSha256": "e52e9e7d6d0863d7ea998a528e73a8929013e18292e448efc8756aa1fb440ac1",
+      "scopeVerdict": "reason-does-not-establish-one-time-comparison"
+    },
+    {
+      "sourceOrdinal": 3957,
+      "registerRawRowSha256": "7e163174a87ac40720796a055a77c61890f89e74bfce477fc21a0bced4492937",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3962,
+      "registerRawRowSha256": "6d8e5213d7d4c0ac124206c4132ae99d9f3b5dd4ef0d73c39286c00e83d64a75",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3969,
+      "registerRawRowSha256": "d22a5062fce9bd9c4af86936cd01eb7d8cf06ab57eaa320daae45e6503ec075a",
+      "scopeVerdict": "reason-does-not-establish-one-time-comparison"
+    },
+    {
+      "sourceOrdinal": 3970,
+      "registerRawRowSha256": "9b1f561c3ed6070c23df53a23118bc946c90c7d3c095a941fd66b45875520c67",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3989,
+      "registerRawRowSha256": "1af537d512e6d39443024a96e587259b95ba0610fcbc1915c404cde9bd5cd80b",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 3994,
+      "registerRawRowSha256": "319729f25fbc5b5af474f5fd58d726bb2d1b654577a18c5a4f3dbd255c6ba4bc",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4013,
+      "registerRawRowSha256": "70f440aa4ba06bdab4b1c1ab5174485ebe2f991ecde25dcb3f7abcd5b396055c",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4037,
+      "registerRawRowSha256": "eb35387ef4253b1879c62a947a967bb3a457a60253a66ba06e6264a3c4631699",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4099,
+      "registerRawRowSha256": "3e3c16ffe64a48bd834d5df4d50aa2d0feb28ae709bac801feaf36164b342282",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4104,
+      "registerRawRowSha256": "5d0635a5501cf869ce1bbee828920926f1a1d6aadbf17a3a0044b209edee6eb9",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4137,
+      "registerRawRowSha256": "2cb9e0b32c11c3521c669ee45b02feb207b76df50fad6cd24d1c50abd0b9bdbe",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4145,
+      "registerRawRowSha256": "c028fbd4c54523c2ff2a2903d8fffeecf86b8e9bbbefa5f3afe205facf215e58",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4168,
+      "registerRawRowSha256": "dc245886d5fe9a150102b1f9a934a8c1909cf379e0a6139b3e0a450e86e8fd14",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4187,
+      "registerRawRowSha256": "185552c5f530748a485d0b962505c2138b2a1b06407eccc6db3c1271788ed01c",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4286,
+      "registerRawRowSha256": "87a1b6e730ffbc8e713b17077182138dc2a2f740c35abcde24f986f389dd995a",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4297,
+      "registerRawRowSha256": "c8c361f14752050a4cc6d82d902bd39ce80d52df72eed4f632e3fc8dd2868629",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4300,
+      "registerRawRowSha256": "50d4a02df8ecd5441398c56b7b6ca5544c29b066c963e349f0c5bd05f8754dcd",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4312,
+      "registerRawRowSha256": "ee649f5ce2141af775e3aa6f8ccd9be5bf5848b06367e7296db4ef7761d5479f",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4313,
+      "registerRawRowSha256": "53f1c195e2f86be5bfce8d7eb15f4f41f52afb9bc9f198bbc980db0e4497f97f",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4316,
+      "registerRawRowSha256": "91e9a971905397a6487ad955662ec900c69c571f6b353899a793189f8ab001cb",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4318,
+      "registerRawRowSha256": "2f09f1df029c0dc20ccf7db66f3c1755773597ec31e81fc7bf59875531767473",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4321,
+      "registerRawRowSha256": "1e9a5fca8201fbcbc6901076c67c322a9f18d4d65919c253aa58fb823498e48c",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4323,
+      "registerRawRowSha256": "3b6196295604552be079a5432ca177c1e0a90db6e2a5575dafd72b673d556981",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4334,
+      "registerRawRowSha256": "bc494ae4406d01af634bd6b6f1b11814ee83ec9917ca3baa141c33de874012eb",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4343,
+      "registerRawRowSha256": "3dc43632769a6d11ced28e4f889926bfca72c27096d829dd0d518f5e4cbcfc1f",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4346,
+      "registerRawRowSha256": "569210d66a60f5cce5cc4f99f03b0c3427c35818b96996a3f2b095f79ef3c9a2",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4347,
+      "registerRawRowSha256": "f894c9d6c21eb0283dbdce8c065633310dff5a3533e2851feeb3e12f1d3fba94",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4352,
+      "registerRawRowSha256": "27c5019a15f1b121008ce4bca5fd02150f3b4c57cd659d2f906bbf8c4a8f586a",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4354,
+      "registerRawRowSha256": "7931d16e511494dbe56f9864d92bf7511eeb5253bb9e4d86aaf155a038cba494",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4394,
+      "registerRawRowSha256": "2cf232bf7eacb6abf850cb3728448739449d67ff6f3a7ff7c44bb4584c21b299",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4404,
+      "registerRawRowSha256": "ac595383579df76d44c25f0f2dc65ed54be849d41dbb23e55bbcb3530dae3b57",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4441,
+      "registerRawRowSha256": "f45dfdee64590046c30f3c4bfd643043ad1ff2b14942bf0ca877be6c3265b727",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4451,
+      "registerRawRowSha256": "6ad818519a7758bb261b5b37fdf66e34fc9f11041663880ce6f7bba792c3c2d8",
+      "scopeVerdict": "reason-does-not-establish-one-time-comparison"
+    },
+    {
+      "sourceOrdinal": 4455,
+      "registerRawRowSha256": "f75f316dfe3de8b0c59918086e836beff495131200033dac136942e073c4124a",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4461,
+      "registerRawRowSha256": "fda542d1f41605426d12e16c3fb89366ea0bf6fd7d64a3fd3dfbd965a3348770",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4472,
+      "registerRawRowSha256": "c316288d2ad7e6023a33dfcddfc5ea84239e814eaaae337ef070e479799cbc43",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4486,
+      "registerRawRowSha256": "b36683400a3171d2410c2e9844198ce63294acdc54df5dbd56a4ec15e96100d5",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4490,
+      "registerRawRowSha256": "e94fb897b8803072b075b59c49cefac5d36ba0655355bddca9befbc7096fb9aa",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4507,
+      "registerRawRowSha256": "f49b4cb6bbc20f96208b8e624662993c10bdc79347546f514b52ef1ca0e50322",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4509,
+      "registerRawRowSha256": "ed3bf22a8bb480be8ca7cb9e02498349e6e797cabbf72ab6b78e688182d301f4",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4519,
+      "registerRawRowSha256": "86118ed2a6c7e85da913d149a0140cff81a2c8d8c5b8d96f6947d15926ee3b23",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4524,
+      "registerRawRowSha256": "fb23793ae62ab5f78cc2cbdcbdbb6b1858cb749f155ca785ca79cb54567a101f",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4532,
+      "registerRawRowSha256": "05d640293eaba10a7b7fc94809f0839193e06ecd1da6f1761f6a1702be6b0ad3",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4534,
+      "registerRawRowSha256": "7daed458e26ea29e0b1da570f47c10e6243991d339aaa84429b64ad01e09ce69",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4542,
+      "registerRawRowSha256": "4fcc9f50774d58d9fdd661b58dbf6e332a25d4c60c36a1a889483f2047e27d39",
+      "scopeVerdict": "reason-does-not-establish-one-time-comparison"
+    },
+    {
+      "sourceOrdinal": 4558,
+      "registerRawRowSha256": "575168993c82c6c07d6e095f0f9e79e813da90f309a2492a5e00bd07198bde3f",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4562,
+      "registerRawRowSha256": "6659eeb73dc8fc269356e0abc6e34ac888787bbf96223c8860a2f1f2fbee03d2",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4582,
+      "registerRawRowSha256": "195638146538fa646aea72c19a0c0517a3f1aedb461a6b8833c136f7c68b26e8",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4585,
+      "registerRawRowSha256": "fda77165aff6b2f3eb8bc25a79c7074499791ec56cbb348c1429330d941acde3",
+      "scopeVerdict": "reason-does-not-establish-one-time-comparison"
+    },
+    {
+      "sourceOrdinal": 4596,
+      "registerRawRowSha256": "783b28b4d3ddf6b19585c603b3a355ace3f1dbf4596a1589ceec985640f55b79",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4602,
+      "registerRawRowSha256": "adfd1458ddaeb01b572f8654870874d07e6d755fb52817c94be00998210233aa",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4613,
+      "registerRawRowSha256": "ecc82715e2fa730394cab2016d73b41efd77c2d764b8620fd6ee5b1977034e88",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4617,
+      "registerRawRowSha256": "6b840b06bc193dcc8bca73f5b00c8c6353c9722976215dccb3e4811b9932a6e7",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4636,
+      "registerRawRowSha256": "68a734db27b71579cb55c1896275040390df37756bb7935e38b553e517c0ec16",
+      "scopeVerdict": "reason-does-not-establish-one-time-comparison"
+    },
+    {
+      "sourceOrdinal": 4646,
+      "registerRawRowSha256": "ccb00c4a0108233df4b7942345801f453ded62f82b97c612ec85c477e6b8ea2c",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4647,
+      "registerRawRowSha256": "2ed1608ceeec3bbed79a06e1418cbb89a6d89f49e61932d1acc9186223f268d7",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4654,
+      "registerRawRowSha256": "5effb9fb234ba70d011a7e292a5faa52ba312cc8f176cd6ffe145269fc1556a3",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4663,
+      "registerRawRowSha256": "dc26995a3fba284d96564ba346db79005495200e64ea46eeb242ac495ce67b74",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4675,
+      "registerRawRowSha256": "e420f4468774f8ecb78db10014f66db3bfea800b5d40e69a38898411f4680c88",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4690,
+      "registerRawRowSha256": "c2cd5143147deb957eb453851e1af27172b11458fe255c78b335e1b9a2ced7a0",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    },
+    {
+      "sourceOrdinal": 4715,
+      "registerRawRowSha256": "a71fa81300039a00511bae41ef72e9ed7c3fbb8c8c37101e00a11f04a7149ec6",
+      "scopeVerdict": "no-clear-scope-defect-on-this-pass"
+    }
+  ],
+  "flaggedRows": [
+    {
+      "sourceOrdinal": 2570,
+      "sourceId": "book10-16-0459",
+      "sourceRawRowSha256": "f432711ebca9750a380d51f15658433459f6f0dd45c4590fe0cb769ab00e0984",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "excludedDecisionRawRowSha256": "7c97a14bf611ac38a0fd018ca4e057ed0fb223f5f29cc667efe38e1c01ec176b",
+      "registerRawRowSha256": "02703ad44c505e63926ae262c27484c69daf12a1d500b1f642d64b23a2eccf21",
+      "expression": "phone stops being a simple contact device",
+      "exactGuideSentence": "The phone stops being a simple contact device when games dominate its use.",
+      "guideMeaning": "A natural contrast showing how a tool's role expands; useful in a qualified answer.",
+      "recordedSourceSpecificReason": "The sentence makes a literal, context-specific change-of-device-use claim: games now dominate a phone once used chiefly for contact. “Stops being a simple contact device” is transparent syntax, not a bounded collocation or separate teachable figurative unit.",
+      "scopeFinding": "The register itself calls this a literal change in how a phone is used; no source-specific analogy or one-time comparison is identified.",
+      "recommendation": "restore-hold-for-new-editorial-decision",
+      "nextEditorialAction": "Restore hold. Decide separately whether transparent ordinary wording belongs in this course; do not cite the comparison waiver."
+    },
+    {
+      "sourceOrdinal": 2719,
+      "sourceId": "book10-16-0608",
+      "sourceRawRowSha256": "66d50196cf91b15299d2a4fbba94b318677eeb44d0d5c10f435a356c8df320b8",
+      "decisionFile": "editorial-decisions-2712-2771.jsonl",
+      "excludedDecisionRawRowSha256": "d29c9ff2cdf9c465dd0d833c63ca294ab5050b5ee2ca20567c44e0f1779f2e17",
+      "registerRawRowSha256": "5707c5d89b950ec13ad84440f102dd66b77d6111f7d93ce16aa57145834e40b9",
+      "expression": "land a punch",
+      "exactGuideSentence": "A simple line can land a punch in the final verse.",
+      "guideMeaning": "Have a strong impact; a fixed boxing metaphor.",
+      "recordedSourceSpecificReason": "Figurative lyric-line \"land a punch\" is a one-time extension of literal boxing language in \"A simple line can land a punch in the final verse.\" The conventional reusable strong-impact idiom is \"pack a punch\"; teaching that would change the exact source target. This line is excluded as a standalone seven-step lesson under the user-approved one-time-comparison rule, with its exact source retained in the inventory and exclusion register.",
+      "scopeFinding": "The reason calls land a punch a figurative extension and contrasts pack a punch, but it does not show the source itself is a one-time comparison rather than a potentially teachable impact phrase.",
+      "recommendation": "restore-hold-for-new-editorial-decision",
+      "nextEditorialAction": "Restore hold for a bounded lexical/idiomaticity check; do not silently substitute pack a punch."
+    },
+    {
+      "sourceOrdinal": 2732,
+      "sourceId": "book10-16-0621",
+      "sourceRawRowSha256": "f1cf55fc1be737ce5f90730549cdf928aee036738cf08e7cbbc22242f9fde462",
+      "decisionFile": "editorial-decisions-2712-2771.jsonl",
+      "excludedDecisionRawRowSha256": "630baf33be550d618cccbab366de2dfe467e7975d51ecf8a7c987c19158d81aa",
+      "registerRawRowSha256": "5539e3d724158498d50daa815aee560a612bef85c1caf0883db886ebf47bea9f",
+      "expression": "the whole city is humming the same tune",
+      "exactGuideSentence": "By summer, the whole city is humming the same tune.",
+      "guideMeaning": "Many people share an interest in one song; a musical image.",
+      "recordedSourceSpecificReason": "In the music-question context, city residents are literally humming one popular tune. “The whole city” is hyperbole for its reach; the source does not teach the agreement idiom “sing the same tune.” The combined wording is a one-song image, not a separate reusable target.",
+      "scopeFinding": "The reason says city residents are literally humming a popular tune, with the whole city as hyperbole. That is a popularity claim, not a one-time comparison.",
+      "recommendation": "restore-hold-for-new-editorial-decision",
+      "nextEditorialAction": "Restore hold for a source-phrase and teachability ruling; no lesson or alias is approved by this audit."
+    },
+    {
+      "sourceOrdinal": 2798,
+      "sourceId": "book10-16-0687",
+      "sourceRawRowSha256": "82470fcb58c9f0e37e9a046761b6a8e9206100e79cb5adb2b822f4c6023e753f",
+      "decisionFile": "editorial-decisions-2772-2831.jsonl",
+      "excludedDecisionRawRowSha256": "2c2f083e1d0df478cb7468acf7c1c3967692644f5a3ae62c7f8e4632b8b7e0ef",
+      "registerRawRowSha256": "a4f7df2ff29ea49c5bfa2b509788e770482fee7314791c14c86a57ecdf76ef2a",
+      "expression": "a first alert rather than a final answer",
+      "exactGuideSentence": "Treat the post as a first alert rather than a final answer.",
+      "guideMeaning": "A concise contrast between early notice and verified explanation; a useful media-literacy pattern.",
+      "recordedSourceSpecificReason": "The first-alert/final-answer contrast is advice tailored to judging this one social-media post. It does not supply a bounded reusable expression beyond ordinary comparison.",
+      "scopeFinding": "First alert rather than final answer is ordinary advice about how to treat a social post. The reason identifies a topical contrast, not a bespoke analogy or one-time figurative comparison.",
+      "recommendation": "restore-hold-for-new-editorial-decision",
+      "nextEditorialAction": "Restore hold for a separate ordinary-language/target-boundary decision."
+    },
+    {
+      "sourceOrdinal": 3189,
+      "sourceId": "book10-16-1078",
+      "sourceRawRowSha256": "d4e6be8600579a8a345a9408e78d70cb1d90d41a8af55b5186367872be2650c0",
+      "decisionFile": "editorial-decisions-3132-3191.jsonl",
+      "excludedDecisionRawRowSha256": "03da22546404b1c7a7d5f13e43fd338944709da5504a2339ad8f5005435abbf4",
+      "registerRawRowSha256": "c5114db5c5c72105035b5148dea38e4028fd57377346c732fa2103322caeef8e",
+      "expression": "impatient with the problem, but patient with the solution",
+      "exactGuideSentence": "Good engineers are impatient with the problem, but patient with the solution.",
+      "guideMeaning": "Urgently seek improvement while carefully developing it; a balanced contrast.",
+      "recordedSourceSpecificReason": "Impatient with the problem, but patient with the solution is a crafted balanced maxim about engineers, not one complete reusable expression; the two adjectives are ordinary productive language.",
+      "scopeFinding": "The problem-versus-solution sentence is a balanced piece of advice using ordinary impatient/patient adjectives; its reason establishes a maxim, not a one-time image or comparison of unlike things.",
+      "recommendation": "restore-hold-for-new-editorial-decision",
+      "nextEditorialAction": "Restore hold for a distinct-target decision under the normal editorial rules."
+    },
+    {
+      "sourceOrdinal": 3320,
+      "sourceId": "book10-16-1209",
+      "sourceRawRowSha256": "82289d84efa69cf061b02ede3b03d59b93fdf9106ceb309d7edc1a9d7aebc4d8",
+      "decisionFile": "editorial-decisions-3312-3371.jsonl",
+      "excludedDecisionRawRowSha256": "05138c09c018ae11376a8bc4fec1bcf315b3f3eda3eb8613dcb500d79c14f798",
+      "registerRawRowSha256": "8a45a1cf7a3319abefa4fd842d29c044e8e45d027f60dc00158843c672526677",
+      "expression": "general plans are good for movement, but detailed plans are often necessary for precision",
+      "exactGuideSentence": "The project taught us that general plans are good for movement, but detailed plans are often necessary for precision.",
+      "guideMeaning": "A balanced contrast between broad direction and exact execution; a natural spoken way to qualify or connect ideas.",
+      "recordedSourceSpecificReason": "General plans for movement and detailed plans for precision is a complete project-specific qualification, not a reusable phrase with stable wording.",
+      "scopeFinding": "The reason explicitly calls this a complete project-specific qualification about general and detailed plans. No one-time comparison image or simile is identified.",
+      "recommendation": "restore-hold-for-new-editorial-decision",
+      "nextEditorialAction": "Restore hold; a no-lesson decision would need its own ordinary-prose authority."
+    },
+    {
+      "sourceOrdinal": 3373,
+      "sourceId": "book10-16-1262",
+      "sourceRawRowSha256": "e5f0f664aaa46facf97158f9e26caa69f0be6aee4c196abdda68974af2de6100",
+      "decisionFile": "editorial-decisions-3372-3431.jsonl",
+      "excludedDecisionRawRowSha256": "c62f15e7b3e0945df8ffd432060f609ef211238b84885c5ecadf593bbca501b0",
+      "registerRawRowSha256": "c8056113bb906928a47f7fc1516b2d583d35f9d776f52b2749e4d12342da1162",
+      "expression": "guidance and control",
+      "exactGuideSentence": "Parents need to distinguish guidance and control.",
+      "guideMeaning": "A useful distinction between helping someone choose and choosing for them; a natural spoken way to qualify or connect ideas.",
+      "recordedSourceSpecificReason": "The paired abstract nouns are this source’s parenting distinction between guidance and control. Ordinary distinguish X and Y syntax is reusable, but no distinct figurative or lexical target warrants a separate seven-step lesson here.",
+      "scopeFinding": "The reason explicitly says the source consists of paired abstract nouns and ordinary distinguish X and Y syntax. This is the clearest noncomparison scope mismatch.",
+      "recommendation": "restore-hold-for-new-editorial-decision",
+      "nextEditorialAction": "Restore hold and reconsider whether an ordinary paired-noun entry merits any lesson, under a separate rule."
+    },
+    {
+      "sourceOrdinal": 3952,
+      "sourceId": "book10-16-1841",
+      "sourceRawRowSha256": "0ff963dbf108933136aded0bda206b2e4e21b0eeb6de15e50c67c58ec76396cf",
+      "decisionFile": "editorial-decisions-3912-3971.jsonl",
+      "excludedDecisionRawRowSha256": "fb5b72e5fbc2a888a9b7f92ac4a35d349918445a1b28f15ac8d94f2ba2cd4da7",
+      "registerRawRowSha256": "16962bb495e673d92929d204aed0ff7b3bb883b612cc1f9d5af0971f21d825b7",
+      "expression": "the body was made to move",
+      "exactGuideSentence": "Even gentle walks remind us the body was made to move.",
+      "guideMeaning": "A memorable natural statement supporting regular activity; a natural spoken way to qualify or connect ideas.",
+      "recordedSourceSpecificReason": "“The body was made to move” is a source-specific fitness maxim. It states the speaker’s belief about exercise; no bounded expression or contrastive learner decision survives transfer beyond that slogan.",
+      "scopeFinding": "The body was made to move is described as a fitness maxim; it compares nothing in this source sentence.",
+      "recommendation": "restore-hold-for-new-editorial-decision",
+      "nextEditorialAction": "Restore hold for a source/target decision without relying on the one-time-comparison waiver."
+    },
+    {
+      "sourceOrdinal": 3956,
+      "sourceId": "book10-16-1845",
+      "sourceRawRowSha256": "24452b31b6b5bac23d8380fcbbd89512e3faf60806cfcbb319e659c4f586c1fb",
+      "decisionFile": "editorial-decisions-3912-3971.jsonl",
+      "excludedDecisionRawRowSha256": "df25c7d4088480d4ba95ca27f93c180c421e3e3bc295cac12b3c0cf155c0269d",
+      "registerRawRowSha256": "e52e9e7d6d0863d7ea998a528e73a8929013e18292e448efc8756aa1fb440ac1",
+      "expression": "move wisely than to push recklessly",
+      "exactGuideSentence": "After the injury, she learned it was better to move wisely than to push recklessly.",
+      "guideMeaning": "Choose safe activity over excessive effort; a balanced contrast.",
+      "recordedSourceSpecificReason": "The after-injury sentence sets up a tailored wise-versus-reckless comparison. “Move wisely” and “push recklessly” are ordinary verbal choices, while the contrast is the one-time teaching point.",
+      "scopeFinding": "Better to move wisely than push recklessly is an ordinary recommendation after injury. The presence of better than alone is not the bespoke figurative comparison the user elected to skip.",
+      "recommendation": "restore-hold-for-new-editorial-decision",
+      "nextEditorialAction": "Restore hold for a normal editorial decision about transparent wording."
+    },
+    {
+      "sourceOrdinal": 3969,
+      "sourceId": "book10-16-1858",
+      "sourceRawRowSha256": "5c477b06cfe5387ce9aa2f498edc36ff9ab47df5f67f461300cc9dcf3991fd29",
+      "decisionFile": "editorial-decisions-3912-3971.jsonl",
+      "excludedDecisionRawRowSha256": "41665ee07cefa5660328ff437ebf1060121c43a8d6d7f0c6e4efd85f62d44c15",
+      "registerRawRowSha256": "d22a5062fce9bd9c4af86936cd01eb7d8cf06ab57eaa320daae45e6503ec075a",
+      "expression": "train the person, not just the body",
+      "exactGuideSentence": "A good academy aims to train the person, not just the body.",
+      "guideMeaning": "Develop wider education and wellbeing alongside sport; a precise contrast.",
+      "recordedSourceSpecificReason": "“Train the person, not just the body” is a tailored academy mission contrast between whole-person education and physical training. The whole contrast, rather than a reusable lexical unit, conveys the source point.",
+      "scopeFinding": "Train the person, not just the body is an academy mission contrast using ordinary words; the reason provides no one-time analogy.",
+      "recommendation": "restore-hold-for-new-editorial-decision",
+      "nextEditorialAction": "Restore hold for a normal distinction between teachable phrase and source-specific prose."
+    },
+    {
+      "sourceOrdinal": 4451,
+      "sourceId": "book10-16-2340",
+      "sourceRawRowSha256": "4ed0f8e11fdb0c577a7bb88befc0fa2a85af337e923f61dde8882786ea79a124",
+      "decisionFile": "editorial-decisions-4392-4451.jsonl",
+      "excludedDecisionRawRowSha256": "877d30e57a1fa3d01b4992c9b522e44310b2acf0405d8660a99a2b422a04a450",
+      "registerRawRowSha256": "6ad818519a7758bb261b5b37fdf66e34fc9f11041663880ce6f7bba792c3c2d8",
+      "expression": "show the touch of the hand",
+      "exactGuideSentence": "Handmade seals show the touch of the hand.",
+      "guideMeaning": "Reveal human craftsmanship; a touch metaphor.",
+      "recordedSourceSpecificReason": "“Show the touch of the hand” describes the visual evidence of handmaking on these seals, but the exact wording is not a stable expression distinct from ordinary “handmade” or “human touch”.",
+      "scopeFinding": "The reason describes literal visual signs of handmaking on seals. It does not establish an analogy or one-time comparison.",
+      "recommendation": "restore-hold-for-new-editorial-decision",
+      "nextEditorialAction": "Restore hold; adjudicate source naturalness and literal-vs-figurative target separately."
+    },
+    {
+      "sourceOrdinal": 4542,
+      "sourceId": "book10-16-2431",
+      "sourceRawRowSha256": "109b7ec3f6f3a210679fba82ae03441ac48b7e50c513ac1e386f3b417e106f2c",
+      "decisionFile": "editorial-decisions-4512-4571.jsonl",
+      "excludedDecisionRawRowSha256": "c7a386f883debfd628002641422e35a8d96dd9ad2072b4a1c3529489828afe74",
+      "registerRawRowSha256": "4fcc9f50774d58d9fdd661b58dbf6e332a25d4c60c36a1a889483f2047e27d39",
+      "expression": "less fuss and more flow",
+      "exactGuideSentence": "Passengers want less fuss and more flow.",
+      "guideMeaning": "Fewer hassles and smoother movement; a rhythmic contrast.",
+      "recordedSourceSpecificReason": "Less fuss and more flow is a source-specific rhythmic slogan, not a stable expression. In this source, the whole one-time image means: Fewer hassles and smoother movement; a rhythmic contrast. No shorter source-matched reusable expression has been established, so this exact image is not a standalone seven-step lesson.",
+      "scopeFinding": "Less fuss and more flow is identified as a rhythmic slogan. Rhyming/descriptive contrast is not, by itself, a one-time comparison image.",
+      "recommendation": "restore-hold-for-new-editorial-decision",
+      "nextEditorialAction": "Restore hold for a separate slogan-versus-collocation decision."
+    },
+    {
+      "sourceOrdinal": 4585,
+      "sourceId": "book10-16-2474",
+      "sourceRawRowSha256": "585cef20d47a5fad226145115076868dc3059b530a414ce0cbae20e55e78b451",
+      "decisionFile": "editorial-decisions-4572-4631.jsonl",
+      "excludedDecisionRawRowSha256": "f525feba513bf6010a974a44050b4b2f541c8d49f82e0636afeca26fde252682",
+      "registerRawRowSha256": "fda77165aff6b2f3eb8bc25a79c7074499791ec56cbb348c1429330d941acde3",
+      "expression": "a free seat on a bad system is still a bad ride",
+      "exactGuideSentence": "A free seat on a bad system is still a bad ride for commuters.",
+      "guideMeaning": "Price alone does not make poor service attractive; a pointed transport phrase.",
+      "recordedSourceSpecificReason": "A free seat on a bad system is still a bad ride is a source-specific aphorism rather than an idiom. In this source, the whole one-time image means: Price alone does not make poor service attractive; a pointed transport phrase. No shorter source-matched reusable expression has been established, so this exact image is not a standalone seven-step lesson.",
+      "scopeFinding": "A free seat on a bad transit system can still be a bad ride is a service-value observation in the source domain. The reason calls it an aphorism, not a comparison.",
+      "recommendation": "restore-hold-for-new-editorial-decision",
+      "nextEditorialAction": "Restore hold; decide whether this is merely source-specific prose under normal editorial criteria."
+    },
+    {
+      "sourceOrdinal": 4636,
+      "sourceId": "book10-16-2525",
+      "sourceRawRowSha256": "6104e2d074168f32a42942cbcb592d9741567ec39d9c061b1b2df01f8d2aeda9",
+      "decisionFile": "editorial-decisions-4632-4691.jsonl",
+      "excludedDecisionRawRowSha256": "effe16a99d556de71a8636f09d2c38df02ba7ddbbe88c0109e4ae1441eee2ff3",
+      "registerRawRowSha256": "68a734db27b71579cb55c1896275040390df37756bb7935e38b553e517c0ec16",
+      "expression": "not mistaking convenience for invincibility",
+      "exactGuideSentence": "Travel safety means not mistaking convenience for invincibility.",
+      "guideMeaning": "Not assuming an easy system removes all risk; a figurative contrast.",
+      "recordedSourceSpecificReason": "Convenience versus invincibility is a source-specific warning rather than a stable target expression. In this source, the whole one-time image means: Not assuming an easy system removes all risk; a figurative contrast. No shorter source-matched reusable expression has been established, so this exact image is not a standalone seven-step lesson.",
+      "scopeFinding": "Not mistaking convenience for invincibility is a safety warning in ordinary abstract wording. The reason does not establish a one-time simile or paired image.",
+      "recommendation": "restore-hold-for-new-editorial-decision",
+      "nextEditorialAction": "Restore hold for target/sense review; do not treat the comparison waiver as exclusion authority."
+    }
+  ],
+  "mutationsMade": false
+}

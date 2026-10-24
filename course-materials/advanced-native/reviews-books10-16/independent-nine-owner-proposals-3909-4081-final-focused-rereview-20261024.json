@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-final-focused-rereview-nine-unselected-owner-proposals",
+  "date": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-owner-nine-3909-4081-20261024.json",
+  "proposalSha256": "6cf965dd21a0f480740590615d4421ce6a7c4838fb3ba6fdc5190a075589d0fe",
+  "priorIndependentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-nine-owner-proposals-3909-4081-final-rereview-20261024.json",
+  "priorIndependentReviewSha256": "ed259ffc657d091fccf8239697ae949b251177a431944d9e4ac00c8858864862",
+  "authorFinalAttestationPath": "course-materials/advanced-native/reviews-books10-16/author-final-nine-held-owner-proposals-3909-4081-20261024.json",
+  "authorFinalAttestationSha256": "0ae565ce0bc294a4473b8268c5ed9d2ced2acd209c13ebe8fd6d6c3cbb907b00",
+  "originalityScreenPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-nine-3909-4081-20261024.json",
+  "originalityScreenSha256": "66e7ca192ad639b13352ed24e0208c6db19a2b1cecde53a20ae9b8215aa4b346",
+  "sourceTriagePath": "course-materials/advanced-native/reviews-books10-16/independent-prioritized-25-current-holds-owner-screen-20261024.json",
+  "sourceTriageSha256": "85d76678b55aa68707b3a960c541cd23d495b572386b958343757d270d318152",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "scope": {
+    "lessons": 9,
+    "sevenStepModules": 9,
+    "assessmentQuestions": 54,
+    "plannedAudioRoles": 36
+  },
+  "checks": {
+    "schemaErrors": 0,
+    "schemaWarnings": 0,
+    "compiledLessons": 9,
+    "audioQueueRoles": 36,
+    "rawSourceRowsVerified": 9,
+    "unchangedHoldDecisionRowsVerified": 9,
+    "sourceOverlapExactHighMediumNearFull": 0,
+    "targetOrShortOverlap": 1,
+    "targetOrShortOverlapNote": "3981 reply golden contains the target itself; no surrounding source sentence copy."
+  },
+  "overallVerdict": "editorial-pass-for-nine-unselected-proposals",
+  "passCount": 9,
+  "blockingFindings": 0,
+  "items": [
+    {
+      "sourceOrdinal": 3909,
+      "lessonId": "advanced-native-3909",
+      "sourceRawRowSha256": "40f861bae948ebd663fe80443278273807032cb9e09ac96d926d14440f993181",
+      "decisionRawRowSha256": "f2f69c6034db0ddd7c062159461afe96584ebdd9a4c4901743011fc89cdfa39d",
+      "verdict": "editorial-pass-for-unselected-proposal",
+      "focusedFindingResolved": "Scene c is now a parallel, plausible design goal for the same page; the younger-user key remains uniquely best."
+    },
+    {
+      "sourceOrdinal": 3942,
+      "lessonId": "advanced-native-3942",
+      "sourceRawRowSha256": "59381409b90357d85b9d528322017155798e7e896dfabf726f44ba7e9d4f8a9f",
+      "decisionRawRowSha256": "72e66c2e9ad45dbf3abcebbef13fb9737907862c06076eb03cf0cc24aa0906ac",
+      "verdict": "editorial-pass-for-unselected-proposal",
+      "focusedFindingResolved": "Prior independent review already passed this source-bound lesson; no new blocker on focused re-review."
+    },
+    {
+      "sourceOrdinal": 3944,
+      "lessonId": "advanced-native-3944",
+      "sourceRawRowSha256": "b1329e7110fdfc634bc8cdef515be6a5d5a90342fdcd90065cbd9962ce9a17cb",
+      "decisionRawRowSha256": "61aea110a31b5f8b53696361e90127a827c935e740f10e5b4463e8b095c2514c",
+      "verdict": "editorial-pass-for-unselected-proposal",
+      "focusedFindingResolved": "Writing glossary now uses more transferable answer-derived chunks, including “asking one another for advice” and “new and experienced volunteers”; target remains excluded."
+    },
+    {
+      "sourceOrdinal": 3981,
+      "lessonId": "advanced-native-3981",
+      "sourceRawRowSha256": "593f842148c48f31533013b0bc2f1823f40ce94aff2cd2894d18905e91f6b482",
+      "decisionRawRowSha256": "b5e91f2899a38388b480a4c0ff5f25a1c93082350ec98ea999f37d26f49b8c63",
+      "verdict": "editorial-pass-for-unselected-proposal",
+      "focusedFindingResolved": "Listening c is now a plausible explanation-practice interpretation, no longer the explicit negation of testing alternatives."
+    },
+    {
+      "sourceOrdinal": 4028,
+      "lessonId": "advanced-native-4028",
+      "sourceRawRowSha256": "6a3eeb9ab0433a26fe029efc8c247a74347bc60bcfacd5859580d1a11709429f",
+      "decisionRawRowSha256": "1fcdfbe56df010e94afb0832e252d99957e5c9157bbe113b89a147b37bc8268e",
+      "verdict": "editorial-pass-for-unselected-proposal",
+      "focusedFindingResolved": "Prior independent review already passed this source-bound lesson; no new blocker on focused re-review."
+    },
+    {
+      "sourceOrdinal": 4029,
+      "lessonId": "advanced-native-4029",
+      "sourceRawRowSha256": "f2fa903cd38ec780159a2804aedaf935aa3c7dad6407ac358fd932ace3c9095f",
+      "decisionRawRowSha256": "f6532eb77055bbcb6cf3a285b6c52e0a6572d61475889a19388b6cf4e243f10e",
+      "verdict": "editorial-pass-for-unselected-proposal",
+      "focusedFindingResolved": "Prior independent review already passed this source-bound lesson; no new blocker on focused re-review."
+    },
+    {
+      "sourceOrdinal": 4055,
+      "lessonId": "advanced-native-4055",
+      "sourceRawRowSha256": "9737725a3a9abdc17fe9fbb5b87f6712f80c71bf92f5093225abfdc44952a3c2",
+      "decisionRawRowSha256": "7e95cdaee2311b19d84ee2da476fc8b9c57a887161a750b95db31e2633f92be9",
+      "verdict": "editorial-pass-for-unselected-proposal",
+      "focusedFindingResolved": "Prior independent review already passed this source-bound lesson; no new blocker on focused re-review."
+    },
+    {
+      "sourceOrdinal": 4070,
+      "lessonId": "advanced-native-4070",
+      "sourceRawRowSha256": "b8ad8e7e476757d0ac973813f2b273dd6d2badd9c963d439bc020a3733317fa0",
+      "decisionRawRowSha256": "e9112007060e115e50375aca96b7391e06dcea9c187889a470fe9f75c6277b7f",
+      "verdict": "editorial-pass-for-unselected-proposal",
+      "focusedFindingResolved": "Prior independent review already passed this source-bound lesson; no new blocker on focused re-review."
+    },
+    {
+      "sourceOrdinal": 4081,
+      "lessonId": "advanced-native-4081",
+      "sourceRawRowSha256": "2634337c6b15602b64ff0b739250c8677c89840c0e10c5283dd39bf702a57287",
+      "decisionRawRowSha256": "0ade519aeb1868b5d66dec301934a9f2cbc71bae8af9196791e694f9db1bbf8a",
+      "verdict": "editorial-pass-for-unselected-proposal",
+      "focusedFindingResolved": "Scene c is now a limited note-taking motive rather than the unsupported claim that the recorder removes any need for notes."
+    }
+  ],
+  "limits": [
+    "AI editorial and local structural review only; audio generation, browser/device checks, selection, publication and full SOP audit remain pending."
+  ],
+  "mutations": {
+    "proposal": false,
+    "selectedManifest": false,
+    "sourceDecisions": false,
+    "sopAudit": false
+  },
+  "selectionApproved": false,
+  "releaseApproval": false
+}

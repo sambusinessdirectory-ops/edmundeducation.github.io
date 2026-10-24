@@ -1,0 +1,2436 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-held-owner-nine-proposal-20261024",
+  "lessons": [
+    {
+      "id": "advanced-native-3909",
+      "number": 3909,
+      "inventoryId": "expr-3909",
+      "titleEn": "built with X in mind",
+      "titleZh": "以特定需要為設計考量",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:built|build|builds|building)(?: (?:the|a|an|this|that) [a-z-]+(?: [a-z-]+){0,2})? with [a-z-]+(?: [a-z-]+){0,2} in mind\\b",
+        "glossaryForbidden": [
+          "\\bwith\\b.*\\bin mind\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Designed while deliberately considering a particular user, purpose or constraint.",
+        "meaningZh": "設計時特別考慮某類使用者、用途或條件。",
+        "grammar": "Use be built with X in mind; X names a priority, not an automatic sacrifice of every other quality.",
+        "register": "Product and service design, said by a designer, user or reviewer.",
+        "boundaryZh": "需有證據顯示該需要影響設計；不必同時犧牲清晰度。",
+        "misconceptionZh": "不能只見到成品速度快，就斷言設計時必然忽略其他需要。",
+        "outcomeZh": "能說明設計重點，並分清重點與附帶取捨。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1798",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 170,
+          "book": 15,
+          "question": 3,
+          "sample": "S2",
+          "sourceBookPages": "8–10",
+          "locatorNote": "DOCX table 181, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The app was built with speed in mind rather than clarity.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "built with speed in mind rather than clarity"
+        }
+      ],
+      "listening": {
+        "promptZh": "為何中心放大告示上的路線指示？",
+        "options": [
+          {
+            "id": "a",
+            "en": "To make the directions easier for first-time visitors to follow.",
+            "zh": "為了讓首次到訪者更容易看懂路線指示。"
+          },
+          {
+            "id": "b",
+            "en": "To reduce how often staff need to answer routine route questions.",
+            "zh": "為了減少職員回答一般路線問題的次數。"
+          },
+          {
+            "id": "c",
+            "en": "To make the sign match the centre’s other notices.",
+            "zh": "為了讓告示與中心其他告示的風格一致。"
+          },
+          {
+            "id": "d",
+            "en": "To fit more destinations onto one sign.",
+            "zh": "為了在同一塊告示上放進更多目的地。"
+          }
+        ],
+        "explanationZh": "中心讓新訪客試看並放大指示，說明清晰度是設計考量；沒有證據指所有訪客能力相同。",
+        "answerId": "a",
+        "en": "The community centre tested its new wayfinding sign with first-time visitors and enlarged the route text. It was built with clarity in mind.",
+        "zh": "社區中心請首次到訪者試看新路線告示，並放大路線文字；告示設計特別重視清晰易懂。"
+      },
+      "reply": {
+        "promptZh": "（圖書館設計新的預約頁面時，想達到甚麼目的？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It wanted readers to find available rooms quickly.",
+            "zh": "它希望讀者能迅速找到有空的房間。"
+          },
+          {
+            "id": "b",
+            "en": "It wanted frequent visitors to finish bookings with fewer clicks.",
+            "zh": "它希望常客能以較少步驟完成預約。"
+          },
+          {
+            "id": "c",
+            "en": "The page was built with older users in mind, so the text is easier to read.",
+            "zh": "頁面設計時顧及年長使用者，因此文字較易閱讀。"
+          },
+          {
+            "id": "d",
+            "en": "It put the booking steps in a clearer order.",
+            "zh": "它把預約步驟排得更清楚。"
+          }
+        ],
+        "explanationZh": "四句都可以回答設計目標；金句以本課句型指出被考慮的使用者。",
+        "promptEn": "What was the library trying to achieve with its new booking page?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一所學校請低年級學生試用新的圖書搜尋頁，並依他們的反應放大圖示。哪句最能概括設計方向？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The page was built with younger children in mind.",
+            "zh": "頁面設計時特別考慮年幼學生。"
+          },
+          {
+            "id": "b",
+            "en": "The school designed the page mainly for older pupils who read quickly.",
+            "zh": "學校主要為閱讀速度快的高年級學生設計這個頁面。"
+          },
+          {
+            "id": "c",
+            "en": "The school wanted searches to take fewer steps for pupils of every age.",
+            "zh": "學校希望各年齡層學生都能以較少步驟完成搜尋。"
+          }
+        ],
+        "explanationZh": "試用者是低年級學生，修改亦回應他們的反應；其他說法轉而強調年長學生或所有年齡層的搜尋速度，不能準確概括此設計重點。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不能證明產品是 built with accessibility in mind？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team tests the form with screen-reader users and revises its labels.",
+            "zh": "設計團隊與使用螢幕閱讀器的人測試表格，然後修改標籤。"
+          },
+          {
+            "id": "b",
+            "en": "The team calls the site accessible but never checks keyboard access or text alternatives.",
+            "zh": "團隊只把網站稱為「無障礙」，卻沒有檢查鍵盤操作或文字替代。"
+          },
+          {
+            "id": "c",
+            "en": "Developers make every button usable by keyboard after user feedback.",
+            "zh": "開發者根據使用者回報，讓所有按鈕都能用鍵盤操作。"
+          }
+        ],
+        "explanationZh": "口號不能代替設計或測試證據；實際修訂才可支持「顧及無障礙」的說法。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「這個新候車亭為何有較大的路線字體？」你知道團隊訪問過視力較弱的乘客。你怎樣回答最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It was built with low-vision passengers in mind after the team heard their feedback.",
+            "zh": "團隊聽取視力較弱乘客的意見後，設計候車亭時特別顧及他們。"
+          },
+          {
+            "id": "b",
+            "en": "The team asked passengers which signs were difficult to read.",
+            "zh": "團隊詢問乘客哪些指示牌難以閱讀。"
+          },
+          {
+            "id": "c",
+            "en": "The larger type should make the route names easier to see.",
+            "zh": "較大的字體應能讓路線名稱更易看見。"
+          }
+        ],
+        "explanationZh": "金句同時指出設計對象和根據回饋作出的改動；另外兩句只說其中一方面。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The new timetable was built with busy commuters in mind, so the next bus time is easy to find.",
+        "zh": "新時間表的設計顧及忙碌的通勤者，因此下一班車的時間容易找到。",
+        "promptZh": "先聽完整示範，再說明時間表為誰而設。",
+        "targetSpan": {
+          "start": 22,
+          "end": 55
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區泳池要重印入場須知。家長反映舊告示文字太密，小孩也看不懂。新版用簡短句子和清楚圖示。用一至兩句英文說明設計考量及具體改動。",
+        "selfCheckZh": "指出設計對象或目的，以及新告示的實際改動；不要斷言舊告示沒有任何用途。",
+        "examples": [
+          {
+            "en": "The new pool notice was built with families in mind: it uses short sentences and clear pictures.",
+            "zh": "新的泳池告示在設計時顧及家庭使用者，採用簡短句子和清楚的圖示。"
+          },
+          {
+            "en": "After parents said the old notice was hard to read, the centre built the replacement with children in mind and added simple icons.",
+            "zh": "家長反映舊告示難以閱讀後，中心設計新告示時顧及兒童，並加入簡單圖示。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The new pool notice",
+            "zh": "新的泳池告示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 19
+            }
+          },
+          {
+            "en": "short sentences",
+            "zh": "簡短句子",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 76
+            }
+          },
+          {
+            "en": "clear pictures",
+            "zh": "清楚的圖示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 95
+            }
+          },
+          {
+            "en": "hard to read",
+            "zh": "難以閱讀",
+            "exampleIndex": 1,
+            "span": {
+              "start": 38,
+              "end": 50
+            }
+          },
+          {
+            "en": "simple icons",
+            "zh": "簡單圖示",
+            "exampleIndex": 1,
+            "span": {
+              "start": 117,
+              "end": 129
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The guide was built with first-time visitors in mind, so each step is clearly numbered.",
+          "zh": "這份指南的設計顧及首次到訪者，因此每個步驟都有清楚編號。"
+        },
+        {
+          "en": "A product can be built with speed in mind and still be easy to understand.",
+          "zh": "產品可以在設計時重視速度，同時仍然易於理解。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending.",
+          "Author revised against the exact-hash independent nine-owner review; independent re-review remains pending."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-3942",
+      "number": 3942,
+      "inventoryId": "expr-3942",
+      "titleEn": "a shared language",
+      "titleZh": "不靠共同語言也能互相理解",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba shared language\\b",
+        "glossaryForbidden": [
+          "\\bshared language\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A common way of understanding or connecting through an activity, even when people do not share spoken words.",
+        "meaningZh": "透過共同活動建立理解與連繫，即使彼此不說同一種語言。",
+        "grammar": "Use a shared language figuratively for a common activity or practice; do not claim the people literally speak one language.",
+        "register": "Cross-cultural teamwork, arts or sport; a participant describes how people connect.",
+        "boundaryZh": "共同活動能提供互相理解的起點，卻不保證所有分歧都消失。",
+        "misconceptionZh": "這裡的 language 是比喻，不是指大家突然學會同一種口語。",
+        "outcomeZh": "能指出共同活動如何成為跨語言的交流途徑。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1831",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 173,
+          "book": 15,
+          "question": 7,
+          "sample": "S1",
+          "sourceBookPages": "17–18",
+          "locatorNote": "DOCX table 185, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Football creates a shared language that does not depend entirely on words.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "shared language that does not depend entirely on words"
+        }
+      ],
+      "listening": {
+        "promptZh": "象棋在這裏如何幫助兩位學生？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It lets them connect through the rules and moves despite a language gap.",
+            "zh": "即使有語言隔閡，他們仍能透過規則和棋步交流。"
+          },
+          {
+            "id": "b",
+            "en": "It gave them a familiar activity to discuss after the game.",
+            "zh": "它給了他們一項賽後可以談論的共同活動。"
+          },
+          {
+            "id": "c",
+            "en": "It helped them practise a few chess terms in one language.",
+            "zh": "它幫助他們練習某一種語言中的少量象棋術語。"
+          },
+          {
+            "id": "d",
+            "en": "It meant they understood each other’s ideas equally well outside the game.",
+            "zh": "它表示他們在遊戲以外也同樣能理解彼此的想法。"
+          }
+        ],
+        "explanationZh": "共同下棋讓兩人透過規則和棋步交流；講者沒有說他們學會術語，或在遊戲以外也同樣理解彼此。",
+        "answerId": "a",
+        "en": "Two exchange students could not explain every chess move in the same language, but they understood each other through the game. Chess gave them a shared language.",
+        "zh": "兩位交流生無法用同一種語言解釋每步棋，卻能透過對弈互相理解；象棋成了他們共同的交流方式。"
+      },
+      "reply": {
+        "promptZh": "（來訪學生與本地學生在藝術工作坊中如何建立連繫？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They took turns showing each other how to mix the colours.",
+            "zh": "他們輪流示範如何調配顏色。"
+          },
+          {
+            "id": "b",
+            "en": "They used drawing as a shared language when words were difficult.",
+            "zh": "言語溝通有困難時，他們以繪畫作為共同的交流方式。"
+          },
+          {
+            "id": "c",
+            "en": "They compared their sketches and asked simple questions.",
+            "zh": "他們比較彼此的素描，並提出簡單問題。"
+          },
+          {
+            "id": "d",
+            "en": "They completed one picture together by sharing the brushes.",
+            "zh": "他們輪流用畫筆，合力完成一幅畫。"
+          }
+        ],
+        "explanationZh": "四句都描述建立連繫的方法；金句用比喻概括繪畫如何跨越口語障礙。",
+        "promptEn": "How did the visiting students and local students connect during the art workshop?",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "兩隊來自不同地區的學生沒有共通語言，卻透過共同排練舞蹈理解彼此的節奏。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The dance became a shared language for the two groups.",
+            "zh": "舞蹈成了兩組學生共同的交流方式。"
+          },
+          {
+            "id": "b",
+            "en": "The groups became familiar with the same sequence of dance steps.",
+            "zh": "兩組學生逐漸熟悉相同的舞步次序。"
+          },
+          {
+            "id": "c",
+            "en": "The groups followed the instructor’s cues during rehearsal.",
+            "zh": "兩組學生在排練時跟隨導師的提示。"
+          }
+        ],
+        "explanationZh": "共同排練讓兩組學生跨越語言差異來交流；熟悉舞步或跟隨導師提示，只描述了排練的一部分。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合把活動稱為 a shared language？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The students use a common rhythm to coordinate without many words.",
+            "zh": "學生不用說太多話，也能依共同節奏協調。"
+          },
+          {
+            "id": "b",
+            "en": "The groups never meet or practise together and cannot follow each other’s signals.",
+            "zh": "兩組從未見面或一起練習，也讀不懂彼此的訊號。"
+          },
+          {
+            "id": "c",
+            "en": "Players from two places learn to communicate through the same game rules.",
+            "zh": "來自兩地的玩家學會透過相同遊戲規則交流。"
+          }
+        ],
+        "explanationZh": "沒有共同活動或可辨識的訊號，便缺乏支撐這個比喻的共同理解。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我們不太懂對方的口語，要怎樣一起完成壁畫？」你知道大家都能先畫草圖並互相指示。哪句最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Our sketches can become a shared language while we plan the mural together.",
+            "zh": "一起規劃壁畫時，草圖可以成為我們共同的交流方式。"
+          },
+          {
+            "id": "b",
+            "en": "We can each draw a small draft and show it to the group.",
+            "zh": "我們可各自畫一張小草圖，展示給小組看。"
+          },
+          {
+            "id": "c",
+            "en": "Let us agree on the main shapes before we paint the wall.",
+            "zh": "在牆上作畫前，我們先商定主要形狀吧。"
+          }
+        ],
+        "explanationZh": "金句直接回答跨語言合作的疑問，另外兩句提供有用步驟，但沒有概括共同理解。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "In the cooking workshop, preparing the same dish gave the visitors a shared language.",
+        "zh": "在烹飪工作坊中，一起準備同一道菜讓訪客有了共同的交流方式。",
+        "promptZh": "先聽示範，再說明共同活動如何促進理解。",
+        "targetSpan": {
+          "start": 67,
+          "end": 84
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：來自三所學校的學生一起製作木偶劇。有些人不熟悉彼此的口語，但可透過排練動作和表情協調。用一至兩句英文說明木偶劇如何幫助他們合作，並保留可能仍需討論的空間。",
+        "selfCheckZh": "寫出共同活動帶來的理解，同時不要聲稱所有語言障礙已完全消失。",
+        "examples": [
+          {
+            "en": "The puppet play gave the students a shared language through movement and expression, even when some words needed explaining.",
+            "zh": "木偶劇讓學生透過動作和表情建立共同的交流方式，雖然某些詞語仍需解釋。"
+          },
+          {
+            "en": "During rehearsals, gestures became a shared language for the three schools, but the students still checked important details aloud.",
+            "zh": "排練期間，手勢成了三所學校學生共同的交流方式，但他們仍會口頭確認重要細節。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "movement and expression",
+            "zh": "動作和表情",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 83
+            }
+          },
+          {
+            "en": "some words needed explaining",
+            "zh": "某些詞語仍需解釋",
+            "exampleIndex": 0,
+            "span": {
+              "start": 95,
+              "end": 123
+            }
+          },
+          {
+            "en": "During rehearsals",
+            "zh": "排練期間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "the three schools",
+            "zh": "三所學校",
+            "exampleIndex": 1,
+            "span": {
+              "start": 57,
+              "end": 74
+            }
+          },
+          {
+            "en": "important details",
+            "zh": "重要細節",
+            "exampleIndex": 1,
+            "span": {
+              "start": 107,
+              "end": 124
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A game can offer a shared language before its players know many of the same words.",
+          "zh": "玩家尚未掌握許多相同詞語時，遊戲也能提供共同的交流方式。"
+        },
+        {
+          "en": "For the visiting group, music became a shared language, not proof that every misunderstanding had ended.",
+          "zh": "對訪客團體來說，音樂成了共同的交流方式，但不代表所有誤會都已消失。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending.",
+          "Author revised against the exact-hash independent nine-owner review; independent re-review remains pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3944",
+      "number": 3944,
+      "inventoryId": "expr-3944",
+      "titleEn": "the distance between them shrinks",
+      "titleZh": "彼此的隔閡逐漸縮小",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthe distance between them (?:shrinks|shrank|has shrunk|(?:is|was) shrinking)\\b",
+        "glossaryForbidden": [
+          "\\bdistance between them\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "The social or cultural gap between people becomes smaller as they interact.",
+        "meaningZh": "人們交流之後，社交或文化上的隔閡縮小。",
+        "grammar": "Use the distance between them shrinks or its natural past/perfect forms after identifying two people or groups; distance is figurative.",
+        "register": "Students, neighbours or visiting groups discussing growing familiarity.",
+        "boundaryZh": "要有互動或理解增加的線索；不表示從此毫無分歧。",
+        "misconceptionZh": "不是量度兩人站立位置，也不是只因坐近了便能推斷關係變好。",
+        "outcomeZh": "能用具體互動解釋隔閡如何縮小，同時不誇大結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1833",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 173,
+          "book": 15,
+          "question": 7,
+          "sample": "S1",
+          "sourceBookPages": "17–18",
+          "locatorNote": "DOCX table 185, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "After playing together, the distance between them often shrinks.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "distance between them often shrinks"
+        }
+      ],
+      "listening": {
+        "promptZh": "合唱團員之間有甚麼改變？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They became more familiar through shared practice.",
+            "zh": "他們透過共同練習，逐漸熟悉彼此。"
+          },
+          {
+            "id": "b",
+            "en": "They became more confident performing each other’s songs.",
+            "zh": "他們演唱對方的歌曲時變得更有信心。"
+          },
+          {
+            "id": "c",
+            "en": "They found it easier to plan rehearsals around a shared song list.",
+            "zh": "有了共同曲目表後，他們更容易安排排練。"
+          },
+          {
+            "id": "d",
+            "en": "They settled on a programme for their next concert.",
+            "zh": "他們決定了下次音樂會的曲目。"
+          }
+        ],
+        "explanationZh": "講者指出一起交換歌曲和排練後，兩組成員的隔閡縮小；其他選項只推測技能或排練安排。",
+        "answerId": "a",
+        "en": "The local and visiting choir members began by rehearsing separately. After they exchanged songs and practised together, the distance between them shrank.",
+        "zh": "本地與來訪合唱團員起初分開排練；互相分享歌曲並一同練習後，彼此的隔閡縮小了。"
+      },
+      "reply": {
+        "promptZh": "（兩個社區小組一起打理花園後，發生了甚麼事？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They learned one another’s names and began to talk more often.",
+            "zh": "他們記住彼此的名字，開始更常交談。"
+          },
+          {
+            "id": "b",
+            "en": "The distance between them shrank as they planned the planting together.",
+            "zh": "一起規劃種植工作時，他們之間的隔閡縮小了。"
+          },
+          {
+            "id": "c",
+            "en": "They agreed on a timetable for watering the plants.",
+            "zh": "他們商定了澆水時間表。"
+          },
+          {
+            "id": "d",
+            "en": "They found a way to share the tools fairly.",
+            "zh": "他們找到公平共用工具的方法。"
+          }
+        ],
+        "explanationZh": "四句都描述合作後的結果；金句用本課比喻概括關係上的改變。",
+        "promptEn": "What happened after the two neighbourhood groups worked together on the garden?",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "兩所學校的辯論隊起初互有戒心；共同練習兩週後，隊員開始主動交換意見。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The distance between them shrank through their joint practice.",
+            "zh": "一起練習讓他們之間的隔閡縮小了。"
+          },
+          {
+            "id": "b",
+            "en": "The teams found a debate format that both could follow.",
+            "zh": "兩隊找到雙方都能依循的辯論形式。"
+          },
+          {
+            "id": "c",
+            "en": "Their arguments became more similar after the joint practice.",
+            "zh": "一起練習後，兩隊的論點變得較相似。"
+          }
+        ],
+        "explanationZh": "主動交換意見顯示彼此關係拉近；形式或論點的改變只涉及辯論安排與內容。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不支持「the distance between them shrank」這種說法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The groups begin sharing ideas after several joint sessions.",
+            "zh": "幾次共同活動後，兩組開始交換意見。"
+          },
+          {
+            "id": "b",
+            "en": "They stand one metre closer for a photograph but never interact.",
+            "zh": "他們拍照時站近了一米，卻完全沒有交流。"
+          },
+          {
+            "id": "c",
+            "en": "Neighbours who once avoided each other begin organising a meal together.",
+            "zh": "本來互相迴避的鄰居開始一起籌辦聚餐。"
+          }
+        ],
+        "explanationZh": "只是站得較近，卻沒有關係或理解上的改變，不足以支持這個比喻。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同學說：「兩個班之前很生疏，現在卻一起設計展板。」你怎樣描述這段變化最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The distance between them shrank as they worked on the display.",
+            "zh": "他們一起製作展板時，彼此的隔閡縮小了。"
+          },
+          {
+            "id": "b",
+            "en": "They had more chances to discuss their designs.",
+            "zh": "他們有更多機會討論設計。"
+          },
+          {
+            "id": "c",
+            "en": "The display gave the classes a shared task.",
+            "zh": "展板讓兩個班有了共同任務。"
+          }
+        ],
+        "explanationZh": "共同製作展板提供關係改善的線索；金句把線索連到隔閡縮小。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "After the teams cooked together twice, the distance between them shrank.",
+        "zh": "兩隊一起煮食兩次後，彼此的隔閡縮小了。",
+        "promptZh": "先聽示範，再說出關係如何改變。",
+        "targetSpan": {
+          "start": 39,
+          "end": 71
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：新舊義工在社區農墟起初很少交談。經過幾次共同佈置攤位，他們開始互相請教和分享做法。用一至兩句英文描述關係變化及其原因。",
+        "selfCheckZh": "指出共同做事及交流增加，不要寫成他們從此毫無分歧。",
+        "examples": [
+          {
+            "en": "The distance between them shrank after several shared market shifts, when the volunteers began asking one another for advice.",
+            "zh": "幾次一起在農墟當值後，義工開始互相請教，彼此的隔閡縮小了。"
+          },
+          {
+            "en": "By setting up stalls together and exchanging tips, the new and experienced volunteers found that the distance between them was shrinking.",
+            "zh": "新舊義工一起佈置攤位並交換心得，發現彼此的隔閡正逐漸縮小。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "shared market shifts",
+            "zh": "一起在農墟當值的班次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 67
+            }
+          },
+          {
+            "en": "asking one another for advice",
+            "zh": "互相徵求意見",
+            "exampleIndex": 0,
+            "span": {
+              "start": 95,
+              "end": 124
+            }
+          },
+          {
+            "en": "new and experienced volunteers",
+            "zh": "新舊義工",
+            "exampleIndex": 1,
+            "span": {
+              "start": 55,
+              "end": 85
+            }
+          },
+          {
+            "en": "setting up stalls",
+            "zh": "佈置攤位",
+            "exampleIndex": 1,
+            "span": {
+              "start": 3,
+              "end": 20
+            }
+          },
+          {
+            "en": "exchanging tips",
+            "zh": "交換心得",
+            "exampleIndex": 1,
+            "span": {
+              "start": 34,
+              "end": 49
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The distance between them shrank when the neighbours began planning together.",
+          "zh": "鄰居開始一起規劃後，彼此的隔閡縮小了。"
+        },
+        {
+          "en": "The distance between them is shrinking, though they still disagree about some details.",
+          "zh": "彼此的隔閡正在縮小，雖然他們對某些細節仍有分歧。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending.",
+          "Author revised against the exact-hash independent nine-owner review; independent re-review remains pending."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-3981",
+      "number": 3981,
+      "inventoryId": "expr-3981",
+      "titleEn": "a workout for the brain",
+      "titleZh": "讓腦筋動一動的練習",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:a|the) (?:little )?workout for the brain\\b",
+        "glossaryForbidden": [
+          "\\bworkout for the brain\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "An activity that exercises thinking, like physical exercise works the body.",
+        "meaningZh": "把需要思考的活動比作鍛鍊身體，表示它讓人動腦筋。",
+        "grammar": "Use a workout for the brain of a specific thinking task; the metaphor does not prove a lasting rise in intelligence.",
+        "register": "Informal discussion of puzzles, strategy games or learning tasks.",
+        "boundaryZh": "須涉及思考或解題；不等於有科學證據證明智力必然提高。",
+        "misconceptionZh": "不是指真的在健身房鍛鍊大腦，也不是只要玩一次便會變聰明。",
+        "outcomeZh": "能指出活動中具體的思考工作，避免誇大成效。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1870",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 176,
+          "book": 15,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "28–29",
+          "locatorNote": "DOCX table 190, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A puzzle is a little workout for the brain.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a little workout for the brain"
+        }
+      ],
+      "listening": {
+        "promptZh": "美娜為何這樣形容邏輯題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It made her compare possibilities and reason through a problem.",
+            "zh": "它讓她比較不同可能性，逐步思考問題。"
+          },
+          {
+            "id": "b",
+            "en": "It helped her memorise the puzzle’s wording for a later quiz.",
+            "zh": "它幫助她記住題目字眼，以便之後的小測使用。"
+          },
+          {
+            "id": "c",
+            "en": "It gave her practice in explaining a solution to other people.",
+            "zh": "它讓她練習向其他人解釋解法。"
+          },
+          {
+            "id": "d",
+            "en": "It let her practise a familiar solving method she already knew.",
+            "zh": "它讓她練習自己早已熟悉的解題方法。"
+          }
+        ],
+        "explanationZh": "她嘗試並比較幾個答案，因此這是推理練習；講者沒有提到之後的小測、向別人解釋解法，或既有解題方法。",
+        "answerId": "a",
+        "en": "Mina tried a logic puzzle that made her test several possible answers before finding one that worked. She called it a workout for the brain.",
+        "zh": "美娜做了一道邏輯題，反覆檢驗幾種可能答案才找到可行的一個；她說這是讓腦筋動一動的練習。"
+      },
+      "reply": {
+        "promptZh": "（老師為甚麼給全班一道簡短的規律題？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She wanted the class to compare several possible patterns.",
+            "zh": "她希望全班比較幾種可能的規律。"
+          },
+          {
+            "id": "b",
+            "en": "She wanted students to explain how they reached an answer.",
+            "zh": "她希望學生解釋如何得出答案。"
+          },
+          {
+            "id": "c",
+            "en": "It was a little workout for the brain before the main lesson.",
+            "zh": "正式課堂前，那是一道讓腦筋動一動的小練習。"
+          },
+          {
+            "id": "d",
+            "en": "It gave the class a brief task to solve together.",
+            "zh": "它讓全班一起解決一項簡短任務。"
+          }
+        ],
+        "explanationZh": "四句都可說明老師安排題目的目的；金句用本課比喻概括思考練習。",
+        "promptEn": "Why did the teacher give the class a short pattern puzzle?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "讀書會讓成員根據短文線索推測失物的位置，再解釋排除其他地點的原因。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Using the clues to locate the missing item gave the members a workout for the brain.",
+            "zh": "根據線索推斷失物在哪裏，讓成員好好動了一番腦筋。"
+          },
+          {
+            "id": "b",
+            "en": "The activity mainly checked how much of the passage members could recall.",
+            "zh": "活動主要測試成員記得短文多少內容。"
+          },
+          {
+            "id": "c",
+            "en": "The club was comparing members’ reading speeds.",
+            "zh": "讀書會正在比較成員的閱讀速度。"
+          }
+        ],
+        "explanationZh": "比較不同線索並解釋排除理由，正是動腦分析；記憶短文或比較閱讀速度並非重點。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合稱為 a workout for the brain？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A child compares clues and explains a solution.",
+            "zh": "孩子比較線索並解釋解法。"
+          },
+          {
+            "id": "b",
+            "en": "A player chooses moves by weighing several risks.",
+            "zh": "玩家衡量幾種風險後選擇走法。"
+          },
+          {
+            "id": "c",
+            "en": "Someone copies a printed answer without reading the question.",
+            "zh": "有人連題目也沒看，就照抄印好的答案。"
+          }
+        ],
+        "explanationZh": "不看題目直接抄答案，沒有顯示需要實際思考。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這道題只有五分鐘，應該沒有甚麼用吧？」你知道它要比較三條線索。哪句最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Even a short puzzle can be a workout for the brain if it asks us to compare clues.",
+            "zh": "即使題目很短，只要要比較線索，也能讓腦筋動一動。"
+          },
+          {
+            "id": "b",
+            "en": "We can try it and explain why we reject two of the clues.",
+            "zh": "我們可以試做，並解釋為何排除其中兩條線索。"
+          },
+          {
+            "id": "c",
+            "en": "Its value depends on what we actually have to think through.",
+            "zh": "它的價值取決於我們實際要思考甚麼。"
+          }
+        ],
+        "explanationZh": "金句把短題目與具體推理連起來；另外兩句也合理，但沒有使用本課比喻。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Comparing the clues was a workout for the brain, even though the puzzle was short.",
+        "zh": "比較線索讓腦筋動了一動，雖然這道題很短。",
+        "promptZh": "先聽示範，再說明活動如何讓人思考。",
+        "targetSpan": {
+          "start": 24,
+          "end": 47
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校午休設計了一個桌上解謎遊戲。學生要比較地圖、時間表和三張便條，找出圖書館藏書的位置。用一至兩句英文說明為何它是思考練習，避免誇大長期效果。",
+        "selfCheckZh": "寫出學生需要比較哪些線索；不要聲稱玩一次就能永久提升智力。",
+        "examples": [
+          {
+            "en": "The lunchtime puzzle is a workout for the brain because students compare a map, a timetable and three notes before choosing an answer.",
+            "zh": "這道午休解謎題讓腦筋動一動，因為學生要比較地圖、時間表和三張便條才選出答案。"
+          },
+          {
+            "en": "Checking the different clues makes the game a workout for the brain, but one round does not prove a lasting change in anyone’s ability.",
+            "zh": "檢查不同線索讓這遊戲成為思考練習，但玩一回並不能證明任何人的能力會長期改變。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The lunchtime puzzle",
+            "zh": "午休解謎題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 20
+            }
+          },
+          {
+            "en": "a map",
+            "zh": "一張地圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 78
+            }
+          },
+          {
+            "en": "a timetable",
+            "zh": "一份時間表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 91
+            }
+          },
+          {
+            "en": "the different clues",
+            "zh": "不同線索",
+            "exampleIndex": 1,
+            "span": {
+              "start": 9,
+              "end": 28
+            }
+          },
+          {
+            "en": "a lasting change",
+            "zh": "長期改變",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 114
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A new strategy question can be a workout for the brain when it asks us to weigh alternatives.",
+          "zh": "新的策略題若要求我們衡量不同方案，就能讓腦筋動一動。"
+        },
+        {
+          "en": "Before the exam, a brief reasoning game gave the class a workout for the brain.",
+          "zh": "考試前，簡短的推理遊戲讓全班動了動腦筋。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending.",
+          "Author revised against the exact-hash independent nine-owner review; independent re-review remains pending."
+        ]
+      },
+      "contentRevision": 5
+    },
+    {
+      "id": "advanced-native-4028",
+      "number": 4028,
+      "inventoryId": "expr-4028",
+      "titleEn": "the road narrows",
+      "titleZh": "前進道路變得更窄",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthe road narrows(?: sharply)?\\b",
+        "glossaryForbidden": [
+          "\\broad narrows\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "The route towards a demanding goal has fewer places or opportunities at a later stage.",
+        "meaningZh": "朝高要求目標前進時，後期可用的名額或機會變少。",
+        "grammar": "Use the road narrows for a specified pathway with increasing selection pressure; sharply adds degree.",
+        "register": "Education, arts or sport selection discussed by a coach, adviser or applicant.",
+        "boundaryZh": "要有後段名額或機會收窄的證據；不等於某個人必定失敗。",
+        "misconceptionZh": "不是道路施工變窄，也不是只要遇到困難便必然可用。",
+        "outcomeZh": "能解釋選拔後期機會縮小，而不替個別申請者預言結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1917",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 181,
+          "book": 15,
+          "question": 17,
+          "sample": "S2",
+          "sourceBookPages": "39–40",
+          "locatorNote": "DOCX table 195, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "At the professional level, the road narrows sharply.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the road narrows sharply"
+        }
+      ],
+      "listening": {
+        "promptZh": "講者說 the road narrows sharply，意思是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Later selection has far fewer available places.",
+            "zh": "後期選拔可用的名額少得多。"
+          },
+          {
+            "id": "b",
+            "en": "The orchestra is changing how it judges the remaining players.",
+            "zh": "樂團正在改變評審餘下樂手的方式。"
+          },
+          {
+            "id": "c",
+            "en": "The youth programme as a whole is accepting fewer players.",
+            "zh": "整個青年培訓計劃都在減少取錄樂手。"
+          },
+          {
+            "id": "d",
+            "en": "The finalists have less time to prepare their pieces.",
+            "zh": "決賽樂手準備樂曲的時間減少了。"
+          }
+        ],
+        "explanationZh": "比喻指最終合奏團只有六個名額；並非整個青年計劃收生縮減，也沒有提及評審或準備時間改變。",
+        "answerId": "a",
+        "en": "The regional orchestra welcomes many young players, but only six places are available in its final ensemble. At that stage, the road narrows sharply.",
+        "zh": "地區樂團接納很多年輕樂手，但最終合奏團只有六個名額；到那一階段，可走的路就明顯變窄。"
+      },
+      "reply": {
+        "promptZh": "（申請者進入設計比賽最後階段後，有甚麼變化？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Only a small number of project places remain.",
+            "zh": "只餘少量項目名額。"
+          },
+          {
+            "id": "b",
+            "en": "The judges compare the remaining proposals more closely.",
+            "zh": "評審更仔細比較餘下提案。"
+          },
+          {
+            "id": "c",
+            "en": "The road narrows when the field is reduced to a few finalists.",
+            "zh": "參賽者減至少數決賽者時，前進的道路就變窄了。"
+          },
+          {
+            "id": "d",
+            "en": "Finalists must explain their designs in more detail.",
+            "zh": "決賽者須更詳細解釋自己的設計。"
+          }
+        ],
+        "explanationZh": "四句都可描述決賽階段；金句用比喻概括名額收窄。",
+        "promptEn": "What changes after applicants reach the final design competition?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "學生合唱團有四十人參加初選，但巡演只設五個獨唱名額。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The road narrows sharply before the soloist places are awarded.",
+            "zh": "在分配獨唱名額前，可走的路明顯變窄。"
+          },
+          {
+            "id": "b",
+            "en": "The choir will use a more detailed second audition for soloists.",
+            "zh": "合唱團將為獨唱者舉行更仔細的第二輪遴選。"
+          },
+          {
+            "id": "c",
+            "en": "Experience is now the main factor in choosing the soloists.",
+            "zh": "經驗現在是挑選獨唱者的主要因素。"
+          }
+        ],
+        "explanationZh": "四十人競逐五個名額，後期獲選機會較少；情境沒有說遴選方式或主要評審準則改變。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合用 the road narrows 形容？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A school offers ten final places after an open first round.",
+            "zh": "學校在公開首輪後只提供十個最終名額。"
+          },
+          {
+            "id": "b",
+            "en": "The number of available roles falls at the professional stage.",
+            "zh": "到專業階段，可用的角色數目減少。"
+          },
+          {
+            "id": "c",
+            "en": "A street loses a traffic lane during repairs, but no selection is involved.",
+            "zh": "街道維修時少了一條行車線，卻沒有任何選拔。"
+          }
+        ],
+        "explanationZh": "這裏教的是機會變少的比喻；純粹道路施工屬字面情況。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "同學說：「初選開放給所有人，為何最後只有幾人能演出？」你知道舞台角色只有四個。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The road narrows because the final production has only four stage roles.",
+            "zh": "最終演出只有四個舞台角色，所以可走的路變窄了。"
+          },
+          {
+            "id": "b",
+            "en": "There are fewer roles than people in the first round.",
+            "zh": "角色數目比首輪參加者少。"
+          },
+          {
+            "id": "c",
+            "en": "The final decision will depend on the auditions.",
+            "zh": "最後決定取決於遴選表現。"
+          }
+        ],
+        "explanationZh": "金句指出後期名額限制；它沒有斷言任何特定同學必定落選。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Many people enter the open auditions, but the road narrows when only three parts remain.",
+        "zh": "很多人參加公開遴選，但只剩三個角色時，可走的路就變窄了。",
+        "promptZh": "先聽示範，再說明名額如何改變。",
+        "targetSpan": {
+          "start": 42,
+          "end": 58
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校際短片比賽首輪收下三十部作品，決賽只邀請四組進行現場展示。用一至兩句英文描述進入決賽的機會如何改變，並避免預言某組的結果。",
+        "selfCheckZh": "指出首輪與決賽的名額差異；不要說任何一組一定會落選。",
+        "examples": [
+          {
+            "en": "The road narrows sharply after the first round, as only four teams can present their films live.",
+            "zh": "首輪後可走的路明顯變窄，因為只有四隊可以現場展示短片。"
+          },
+          {
+            "en": "Although thirty films entered, the road narrows at the final stage with just four presentation places.",
+            "zh": "雖然有三十部短片參賽，但決賽只有四個展示名額，可走的路因而變窄。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the first round",
+            "zh": "首輪",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 46
+            }
+          },
+          {
+            "en": "four teams",
+            "zh": "四隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 66
+            }
+          },
+          {
+            "en": "their films",
+            "zh": "他們的短片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 79,
+              "end": 90
+            }
+          },
+          {
+            "en": "thirty films",
+            "zh": "三十部短片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 9,
+              "end": 21
+            }
+          },
+          {
+            "en": "presentation places",
+            "zh": "展示名額",
+            "exampleIndex": 1,
+            "span": {
+              "start": 82,
+              "end": 101
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The road narrows when the number of available places falls in the final round.",
+          "zh": "最後一輪名額減少時，前進的道路就變窄。"
+        },
+        {
+          "en": "The road narrows sharply for applicants, but the result for any one person is still open.",
+          "zh": "申請者面對的道路明顯變窄，但任何個人的結果仍未確定。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending.",
+          "Author revised against the exact-hash independent nine-owner review; independent re-review remains pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-4029",
+      "number": 4029,
+      "inventoryId": "expr-4029",
+      "titleEn": "promise may never fully bloom",
+      "titleZh": "潛質可能無法充分發展",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:early )?promise (?:may|might) never (?:fully )?bloom\\b",
+        "glossaryForbidden": [
+          "\\bpromise\\b.*\\bbloom\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Early potential might not fully develop if conditions or support are lacking.",
+        "meaningZh": "早期展現的潛質若缺乏適當條件，可能無法充分發展。",
+        "grammar": "Promise means potential here; may or might never fully bloom keeps the outcome uncertain.",
+        "register": "Teachers, mentors or organisers discussing opportunities for a learner or artist.",
+        "boundaryZh": "必須保留可能性，而非斷言某人必定無法發展。",
+        "misconceptionZh": "promise 在此不是承諾；bloom 是成長比喻，不是花朵開放。",
+        "outcomeZh": "能指出潛質與發展條件，並正確保留不確定性。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1918",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 181,
+          "book": 15,
+          "question": 17,
+          "sample": "S2",
+          "sourceBookPages": "39–40",
+          "locatorNote": "DOCX table 195, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Without support, that early promise may never fully bloom.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "promise may never fully bloom"
+        }
+      ],
+      "listening": {
+        "promptZh": "講者擔心這位小提琴手甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her potential might not develop fully without further opportunities.",
+            "zh": "若沒有更多機會，她的潛質可能無法充分發展。"
+          },
+          {
+            "id": "b",
+            "en": "She may need a different teacher before she can continue practising.",
+            "zh": "她可能要另找老師才能繼續練習。"
+          },
+          {
+            "id": "c",
+            "en": "Her ability is likely to stay at exactly the same level until the old programme returns.",
+            "zh": "在原有課程恢復前，她的能力大概會維持在完全相同的水平。"
+          },
+          {
+            "id": "d",
+            "en": "She is probably ready to perform professionally without more guidance.",
+            "zh": "即使沒有進一步指導，她大概已可作專業演出。"
+          }
+        ],
+        "explanationZh": "講者擔心課程提早結束會妨礙她發揮潛質，而非確定能力不再變化或已足以作專業演出。",
+        "answerId": "a",
+        "en": "A young violinist showed skill, but the local programme ended before she could practise with a teacher. Her promise may never fully bloom if she cannot find another chance to train.",
+        "zh": "一位年輕小提琴手展現了能力，但本地課程在她能跟老師練習前便結束；若找不到新的訓練機會，她的潛質可能無法充分發展。"
+      },
+      "reply": {
+        "promptZh": "（教練為甚麼希望年輕跑手有較長的訓練課程？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They need more time to build on their early ability.",
+            "zh": "他們需要更多時間發展早期展現的能力。"
+          },
+          {
+            "id": "b",
+            "en": "The current course ends before many can explore their strengths.",
+            "zh": "目前課程在很多人有機會發掘長處前便結束。"
+          },
+          {
+            "id": "c",
+            "en": "If the training stops here, their promise may never fully bloom.",
+            "zh": "若訓練就此停止，他們的潛質可能無法充分發展。"
+          },
+          {
+            "id": "d",
+            "en": "The coach wants them to practise under regular guidance.",
+            "zh": "教練希望他們在定期指導下練習。"
+          }
+        ],
+        "explanationZh": "四句都能解釋教練的想法；金句用本課比喻並保留「可能」的語氣。",
+        "promptEn": "Why does the coach want a longer training programme for the young runners?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一位學生擅長寫劇本，但學校戲劇組暫停，她也找不到其他演出或指導機會。哪句最準確表達憂慮？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her promise may never fully bloom now that the drama group has closed and she has nowhere to test her scripts.",
+            "zh": "戲劇組停辦後，她沒有地方試演劇本，潛質可能無法充分發展。"
+          },
+          {
+            "id": "b",
+            "en": "She may have to develop her scripts independently until the drama group returns.",
+            "zh": "在戲劇組恢復前，她可能要自行改進劇本。"
+          },
+          {
+            "id": "c",
+            "en": "She will probably improve at the same pace without rehearsal or feedback.",
+            "zh": "即使沒有排練或回饋，她的進步速度大概也會一樣。"
+          }
+        ],
+        "explanationZh": "停辦戲劇組和缺少試演、指導機會，令潛質能否充分發展存疑；不能斷言她的能力會原地踏步。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句最不符合 promise may never fully bloom 的原意？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A promising learner might need more opportunities to practise.",
+            "zh": "有潛質的學生可能需要更多練習機會。"
+          },
+          {
+            "id": "b",
+            "en": "Limited support could prevent ability from developing fully.",
+            "zh": "支援不足可能阻礙能力充分發展。"
+          },
+          {
+            "id": "c",
+            "en": "The learner is certain to fail, no matter what support becomes available.",
+            "zh": "不管日後有甚麼支援，這名學生都一定會失敗。"
+          }
+        ],
+        "explanationZh": "原句的 may 表示不確定，不能改寫成無論條件如何都必然失敗。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「她展現了很強的繪畫能力，但課室下月就關了。」你想建議尋找其他練習機會。哪句最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her promise may never fully bloom if she loses every place to practise; let us look for another studio.",
+            "zh": "若她失去所有練習場所，潛質可能無法充分發展；我們一起找另一間畫室吧。"
+          },
+          {
+            "id": "b",
+            "en": "We could ask another studio whether she may join its weekly sessions.",
+            "zh": "我們可問另一間畫室，她能否參加每週課堂。"
+          },
+          {
+            "id": "c",
+            "en": "Let us find out what support she would actually like.",
+            "zh": "我們先了解她實際希望得到甚麼支援。"
+          }
+        ],
+        "explanationZh": "金句保留不確定性，並提出具體可行的下一步；另兩句也是合適建議。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Her promise may never fully bloom if the workshop closes before she can build her skills.",
+        "zh": "如果工作坊在她能進一步磨練技藝前結束，她的潛質可能無法充分發展。",
+        "promptZh": "先聽示範，再說明潛質和所需的條件。",
+        "targetSpan": {
+          "start": 4,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一位初中生在攝影社展現眼光，但社團停辦。附近文化中心或有課程，教師準備幫他查詢。用一至兩句英文表達對潛質的擔心及可能的下一步，不要把結果說死。",
+        "selfCheckZh": "保留「可能」的語氣，並指出可查詢的後續機會；不要預言他必定失敗。",
+        "examples": [
+          {
+            "en": "His promise may never fully bloom if the cancelled club was his only place to practise; the teacher is looking for a different workshop.",
+            "zh": "若停辦的社團是他唯一的練習機會，他的潛質可能無法充分發展；老師正尋找其他工作坊。"
+          },
+          {
+            "en": "The teacher is asking about an arts-centre course because the student’s promise may never fully bloom if he stops creating new work.",
+            "zh": "老師正查詢藝術中心的課程，因為若學生停止創作新作品，他的潛質可能無法充分發展。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the cancelled club",
+            "zh": "停辦的社團",
+            "exampleIndex": 0,
+            "span": {
+              "start": 37,
+              "end": 55
+            }
+          },
+          {
+            "en": "his only place to practise",
+            "zh": "他唯一的練習機會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 86
+            }
+          },
+          {
+            "en": "a different workshop",
+            "zh": "其他工作坊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 135
+            }
+          },
+          {
+            "en": "an arts-centre course",
+            "zh": "藝術中心的課程",
+            "exampleIndex": 1,
+            "span": {
+              "start": 28,
+              "end": 49
+            }
+          },
+          {
+            "en": "stops creating new work",
+            "zh": "停止創作新作品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 108,
+              "end": 131
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The young inventor’s promise may never fully bloom if she cannot test her designs.",
+          "zh": "若無法測試設計，這位年輕發明家的潛質可能無法充分發展。"
+        },
+        {
+          "en": "His promise may never fully bloom while he is shut out of performances, though another chance could change that.",
+          "zh": "如果他一直沒有演出機會，潛質可能無法充分發展；不過，新機會仍可能改變結果。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending.",
+          "Author revised against the exact-hash independent nine-owner review; independent re-review remains pending."
+        ]
+      },
+      "contentRevision": 4
+    },
+    {
+      "id": "advanced-native-4055",
+      "number": 4055,
+      "inventoryId": "expr-4055",
+      "titleEn": "hunt for",
+      "titleZh": "積極尋找",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:hunt|hunts|hunted|hunting) for\\b",
+        "glossaryForbidden": [
+          "\\bhunt(?:s|ed|ing)?\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Search actively and persistently for something needed or hard to find.",
+        "meaningZh": "為了找到所需或不易找到的東西而積極搜尋。",
+        "grammar": "Hunt for takes an object such as a repair shop or missing receipt; it is figurative here, with no animal chase.",
+        "register": "Everyday problem solving: a customer, parent or organiser describing a search.",
+        "boundaryZh": "表示努力尋找，不保證最後找到了。",
+        "misconceptionZh": "不是打獵，也不是只等別人把東西送來。",
+        "outcomeZh": "能用具體搜尋行動表達努力尋找，同時不虛構結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1944",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 183,
+          "book": 15,
+          "question": 20,
+          "sample": "S1",
+          "sourceBookPages": "46–47",
+          "locatorNote": "DOCX table 198, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She spent Saturday hunting for a repair shop.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hunting for a repair shop"
+        }
+      ],
+      "listening": {
+        "promptZh": "諾拉當時在做甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She was actively looking in several places for a cable.",
+            "zh": "她在幾個地方積極尋找電線。"
+          },
+          {
+            "id": "b",
+            "en": "She was comparing prices for several types of cable.",
+            "zh": "她正在比較幾種電線的價格。"
+          },
+          {
+            "id": "c",
+            "en": "She was arranging a repair for the projector itself.",
+            "zh": "她正在安排維修投影機本身。"
+          },
+          {
+            "id": "d",
+            "en": "She was asking suppliers about a backup projector.",
+            "zh": "她正在向供應商查詢後備投影機。"
+          }
+        ],
+        "explanationZh": "她向多個供應商查詢並翻查儲物室，目的是找替換電線；未提及比較價格或維修投影機。",
+        "answerId": "a",
+        "en": "The projector stopped working before the talk, so Nora called three suppliers and checked the storeroom. She was hunting for a replacement cable.",
+        "zh": "講座前投影機故障，諾拉打電話給三家供應商，又檢查儲物室；她正在積極尋找替換電線。"
+      },
+      "reply": {
+        "promptZh": "（工作坊的舊打印機壞了，米婭做了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She called local shops to ask whether they could repair it.",
+            "zh": "她致電本地店舖，詢問能否維修。"
+          },
+          {
+            "id": "b",
+            "en": "She searched several directories for a suitable service.",
+            "zh": "她查閱幾份名錄，尋找合適服務。"
+          },
+          {
+            "id": "c",
+            "en": "She hunted for a technician who could handle that printer model.",
+            "zh": "她積極尋找能維修該型號打印機的技師。"
+          },
+          {
+            "id": "d",
+            "en": "She asked neighbours whether they knew a reliable technician.",
+            "zh": "她問鄰居是否認識可靠的維修技師。"
+          }
+        ],
+        "explanationZh": "四句都可描述尋找維修服務；金句使用本課動詞片語，並沒有聲稱已找到。",
+        "promptEn": "What did Mia do when the workshop’s old printer failed?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一所小學演出前遺失了特製舞台燈泡；老師翻查儲物箱、致電供應商，再詢問鄰校。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The teacher hunted for a replacement bulb before the performance.",
+            "zh": "老師在演出前積極尋找替換燈泡。"
+          },
+          {
+            "id": "b",
+            "en": "The teacher was comparing prices for a complete set of stage lights.",
+            "zh": "老師正在比較整套舞台燈具的價格。"
+          },
+          {
+            "id": "c",
+            "en": "The teacher was arranging a lighting test for a later show.",
+            "zh": "老師正在安排稍後另一場演出的燈光測試。"
+          }
+        ],
+        "explanationZh": "老師翻找、致電、詢問鄰校，是在積極尋找眼前演出所需的替換燈泡；沒有比較整套燈具或籌備之後的演出。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合 hunt for 的本課意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A student checks several shelves for a missing notebook.",
+            "zh": "學生翻查幾個書架尋找遺失的筆記本。"
+          },
+          {
+            "id": "b",
+            "en": "A neighbour phones different stores to locate an uncommon part.",
+            "zh": "鄰居致電不同店舖尋找少見零件。"
+          },
+          {
+            "id": "c",
+            "en": "A customer receives the exact part without asking or looking for it.",
+            "zh": "顧客沒有詢問或尋找，就收到所需零件。"
+          }
+        ],
+        "explanationZh": "完全沒有尋找行動，不適合稱為 hunt for。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我找不到適合這部舊收音機的零件，但附近或許還有幾間店。」你怎樣回應最自然？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us hunt for the right part by calling those shops before they close.",
+            "zh": "我們在店舖關門前逐一致電，積極尋找合適零件吧。"
+          },
+          {
+            "id": "b",
+            "en": "We can make a list of the shops and their opening times.",
+            "zh": "我們可列出店舖及營業時間。"
+          },
+          {
+            "id": "c",
+            "en": "I can help you ask which models their parts fit.",
+            "zh": "我可以幫你詢問零件適用於哪些型號。"
+          }
+        ],
+        "explanationZh": "金句提出具體搜尋方法；另外兩句也是合適協助，但沒有使用本課片語。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "They hunted for a spare microphone by calling nearby schools and checking the storage room.",
+        "zh": "他們致電附近學校並查看儲物室，積極尋找備用麥克風。",
+        "promptZh": "先聽示範，再說明他們如何尋找。",
+        "targetSpan": {
+          "start": 5,
+          "end": 15
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區放映會前，播放機的遙控器不見了。義工會檢查器材箱、詢問上次使用的團隊，必要時借另一個。用一至兩句英文描述搜尋及備用計劃，不要說已找到。",
+        "selfCheckZh": "寫出實際搜尋步驟和可行備案；不要把尚未找到的遙控器說成已找回。",
+        "examples": [
+          {
+            "en": "The volunteers are hunting for the missing remote by checking the equipment box and asking the last team who used it.",
+            "zh": "義工正查看器材箱，並詢問上次使用的團隊，積極尋找遺失的遙控器。"
+          },
+          {
+            "en": "They will hunt for the remote first; if it stays missing, they can borrow another one before the screening.",
+            "zh": "他們會先積極尋找遙控器；若仍找不到，可在放映前借用另一個。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the missing remote",
+            "zh": "遺失的遙控器",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 49
+            }
+          },
+          {
+            "en": "the equipment box",
+            "zh": "器材箱",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 79
+            }
+          },
+          {
+            "en": "the last team",
+            "zh": "上次使用的團隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 104
+            }
+          },
+          {
+            "en": "borrow another one",
+            "zh": "借用另一個",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 85
+            }
+          },
+          {
+            "en": "before the screening",
+            "zh": "放映前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 86,
+              "end": 106
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "We hunted for a spare key in the places where it was last used.",
+          "zh": "我們在最後使用備用鑰匙的地方積極尋找。"
+        },
+        {
+          "en": "They are hunting for a replacement part, but they have not found one yet.",
+          "zh": "他們正積極尋找替換零件，但尚未找到。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending.",
+          "Author revised against the exact-hash independent nine-owner review; independent re-review remains pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-4070",
+      "number": 4070,
+      "inventoryId": "expr-4070",
+      "titleEn": "a snapshot of someone’s priorities",
+      "titleZh": "反映某人當下重視甚麼",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba snapshot of (?:someone[’\\x27]s|their|her|his|our|the group[’\\x27]s|the club[’\\x27]s|the school[’\\x27]s|a family[’\\x27]s) priorities\\b",
+        "glossaryForbidden": [
+          "\\bsnapshot of\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A limited, momentary view of what someone appears to value, inferred from a particular choice or record.",
+        "meaningZh": "從某項選擇或紀錄，看出一個人當下可能重視甚麼的有限片段。",
+        "grammar": "Use a snapshot of someone’s priorities with evidence; snapshot is partial and time-bound, not a complete personality diagnosis.",
+        "register": "A teacher, organiser or friend cautiously interpreting a list, budget or choice.",
+        "boundaryZh": "只能從有限資料作審慎推測，不可當作完整或永久的人格判斷。",
+        "misconceptionZh": "不是實際拍攝的照片，也不能單靠一張清單斷言一生價值觀。",
+        "outcomeZh": "能用具體資料作有限推論，並指出它可能漏掉其他因素。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1959",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 185,
+          "book": 15,
+          "question": 22,
+          "sample": "S1",
+          "sourceBookPages": "52–53",
+          "locatorNote": "DOCX table 200, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A shopping list can be a snapshot of someone's priorities.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a snapshot of someone's priorities"
+        }
+      ],
+      "listening": {
+        "promptZh": "這份預算計劃能說明甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "For this event, accessible transport appears to matter more than decoration.",
+            "zh": "在這次活動中，無障礙交通似乎比裝飾更重要。"
+          },
+          {
+            "id": "b",
+            "en": "The club values accessible travel over decoration at every event.",
+            "zh": "社團在每次活動中都把無障礙交通放在裝飾之前。"
+          },
+          {
+            "id": "c",
+            "en": "The plan tells us which individual members wanted transport funding.",
+            "zh": "這份計劃告訴我們哪些個別成員想資助交通。"
+          },
+          {
+            "id": "d",
+            "en": "The club plans to cut decoration spending in future years.",
+            "zh": "社團計劃在未來幾年削減裝飾開支。"
+          }
+        ],
+        "explanationZh": "預算顯示這次活動較重視無障礙交通；不能推至每次活動、每位成員或未來幾年。",
+        "answerId": "a",
+        "en": "The club spent most of its small budget on accessible transport rather than decorations. This plan is a snapshot of the club’s priorities for this event.",
+        "zh": "社團把大部分有限預算用在無障礙交通，而非裝飾；這份計劃反映了社團對這次活動的部分優先考量。"
+      },
+      "reply": {
+        "promptZh": "（這個月的活動預算能讓我們了解籌辦者甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They have allocated more money to transport than to banners.",
+            "zh": "他們撥給交通的款項比橫額多。"
+          },
+          {
+            "id": "b",
+            "en": "Their budget is a snapshot of their priorities for this event.",
+            "zh": "這份預算反映他們對這次活動的部分優先考量。"
+          },
+          {
+            "id": "c",
+            "en": "They have chosen to fund travel for participants first.",
+            "zh": "他們選擇優先資助參加者的交通。"
+          },
+          {
+            "id": "d",
+            "en": "They may be trying to make the venue easier to reach.",
+            "zh": "他們可能希望讓場地更易到達。"
+          }
+        ],
+        "explanationZh": "四句都能根據預算作合理描述；金句明確指出這只是一個當下的片段。",
+        "promptEn": "What can the event budget tell us about the organisers this month?",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "社區小組的本月採購單先列出飲水和遮陽設備，再列出宣傳物品。哪句最審慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The list is a snapshot of the group’s priorities for this month, not its whole history.",
+            "zh": "這張清單只反映小組本月部分優先考量，不代表它的全部歷史。"
+          },
+          {
+            "id": "b",
+            "en": "The order shows that water and shade always come before publicity in every project.",
+            "zh": "採購單顯示，在每項計劃中飲水和遮陽設備都一定比宣傳優先。"
+          },
+          {
+            "id": "c",
+            "en": "The order mainly tells us which items were cheapest this month.",
+            "zh": "採購單主要告訴我們本月哪些物品最便宜。"
+          }
+        ],
+        "explanationZh": "本月清單可反映這段時間的部分優先考量；不能推斷所有項目都一樣，也沒有價格比較資料。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪種說法最超出 a snapshot of someone’s priorities 所能支持的範圍？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A single list may show what mattered for this week’s task.",
+            "zh": "一張清單或可反映本週任務的重點。"
+          },
+          {
+            "id": "b",
+            "en": "The budget offers one limited view of the club’s current choices.",
+            "zh": "預算提供了觀察社團目前選擇的一個有限角度。"
+          },
+          {
+            "id": "c",
+            "en": "One shopping list proves exactly what the person values for life.",
+            "zh": "一張購物清單準確證明這個人一生重視甚麼。"
+          }
+        ],
+        "explanationZh": "snapshot 是片段；一張清單不能證明終生不變的價值觀。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「她為活動先買急救用品，再買裝飾，我們可以從中看出甚麼？」你怎樣回答最審慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is a snapshot of her priorities for this event, though we would need more context to know why.",
+            "zh": "這反映她對這次活動的部分優先考量，但要知道原因，仍需更多背景。"
+          },
+          {
+            "id": "b",
+            "en": "She chose first-aid supplies before decorations on this list.",
+            "zh": "在這張清單上，她先選了急救用品，才選裝飾。"
+          },
+          {
+            "id": "c",
+            "en": "We could ask her what shaped the order of those purchases.",
+            "zh": "我們可問她是甚麼影響了購買次序。"
+          }
+        ],
+        "explanationZh": "金句保留資料的局限；另外兩句也是合適的觀察或下一步。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The volunteer budget offers a snapshot of their priorities for this weekend.",
+        "zh": "義工預算反映了他們對這個週末的部分優先考量。",
+        "promptZh": "先聽示範，再說明這份資料能支持多大推論。",
+        "targetSpan": {
+          "start": 28,
+          "end": 58
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校園遊會的採購單先列出飲水站和無障礙坡道，最後才列出舞台裝飾。用一至兩句英文審慎描述清單透露的當前重點，並指出它不是對學校所有價值的完整判斷。",
+        "selfCheckZh": "從清單提出有限推論；不要把一時的採購次序當成永遠不變的價值觀。",
+        "examples": [
+          {
+            "en": "The fair’s shopping list is a snapshot of the school’s priorities for this event: drinking water and step-free access come before stage decorations.",
+            "zh": "園遊會採購單反映學校對這次活動的部分優先考量：飲水和無障礙通道排在舞台裝飾之前。"
+          },
+          {
+            "en": "This budget gives a snapshot of their priorities today, with access and water near the top, but it cannot describe everything the school values.",
+            "zh": "這份預算反映他們今天的部分優先考量，無障礙設施和飲水排在前列，但它不能說明學校重視的所有事情。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The fair’s shopping list",
+            "zh": "園遊會採購單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 24
+            }
+          },
+          {
+            "en": "drinking water",
+            "zh": "飲水",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 96
+            }
+          },
+          {
+            "en": "step-free access",
+            "zh": "無障礙通道",
+            "exampleIndex": 0,
+            "span": {
+              "start": 101,
+              "end": 117
+            }
+          },
+          {
+            "en": "near the top",
+            "zh": "排在前列",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 90
+            }
+          },
+          {
+            "en": "everything the school values",
+            "zh": "學校重視的所有事情",
+            "exampleIndex": 1,
+            "span": {
+              "start": 115,
+              "end": 143
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A spending plan can be a snapshot of their priorities for one project.",
+          "zh": "一份開支計劃可以反映他們對某個項目的部分優先考量。"
+        },
+        {
+          "en": "The list gives a snapshot of her priorities today, not a complete account of her values.",
+          "zh": "這張清單反映她今天的部分優先考量，並不是對她價值觀的完整描述。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending.",
+          "Author revised against the exact-hash independent nine-owner review; independent re-review remains pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-4081",
+      "number": 4081,
+      "inventoryId": "expr-4081",
+      "titleEn": "like an extra limb",
+      "titleZh": "像身體一部分般離不開",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\blike an extra limb\\b",
+        "glossaryForbidden": [
+          "\\bextra limb\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "So constantly close and useful that an object feels almost like part of the body.",
+        "meaningZh": "一件物品經常隨身使用，感覺彷彿成了身體的一部分。",
+        "grammar": "Use feel like an extra limb of a habitually used object; this is a simile, not an anatomical claim or diagnosis.",
+        "register": "Informal description of a phone, camera or tool in someone’s daily routine.",
+        "boundaryZh": "須有長期隨身使用的線索；不能直接推斷醫學上的成癮。",
+        "misconceptionZh": "不是長出了新的肢體，也不是單憑常用便能確診依賴症。",
+        "outcomeZh": "能指出物件在日常活動中的貼身用途，避免過度診斷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1970",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 186,
+          "book": 15,
+          "question": 23,
+          "sample": "S2",
+          "sourceBookPages": "54–55",
+          "locatorNote": "DOCX table 201, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "For some commuters, a phone feels like an extra limb.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "like an extra limb"
+        }
+      ],
+      "listening": {
+        "promptZh": "拉維這樣形容相機，意思是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He had become used to keeping it close and using it often.",
+            "zh": "他已習慣把相機帶在身邊，並經常使用。"
+          },
+          {
+            "id": "b",
+            "en": "He found the camera useful for collecting interview material.",
+            "zh": "他覺得相機有助收集訪問資料。"
+          },
+          {
+            "id": "c",
+            "en": "He chose it because it was light enough to carry all day.",
+            "zh": "他選用這部相機，是因為它夠輕，可整天攜帶。"
+          },
+          {
+            "id": "d",
+            "en": "He intends to use the same camera on every later trip.",
+            "zh": "他打算之後每次外出都用同一部相機。"
+          }
+        ],
+        "explanationZh": "他用相機記錄路線、標誌和訪問，習慣頻繁使用；只說訪問用途並不完整，選用原因及未來計劃也未交代。",
+        "answerId": "a",
+        "en": "During the field trip, Ravi used his small camera to record routes, signs and interviews. By the end of the week, it felt like an extra limb.",
+        "zh": "實地考察期間，拉維用小相機記錄路線、標誌和訪問；到了週末，相機對他來說幾乎像身體的一部分。"
+      },
+      "reply": {
+        "promptZh": "（莉娜怎樣形容每次排練都會用的平板電腦？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She keeps her scores and notes on it throughout practice.",
+            "zh": "她整場練習都用它存放樂譜和筆記。"
+          },
+          {
+            "id": "b",
+            "en": "It feels like an extra limb when she is directing the choir.",
+            "zh": "她指揮合唱團時，感覺它彷彿成了身體的一部分。"
+          },
+          {
+            "id": "c",
+            "en": "She reaches for it whenever she needs to check a cue.",
+            "zh": "每當要核對提示，她便會拿起平板電腦。"
+          },
+          {
+            "id": "d",
+            "en": "She rarely rehearses without having it beside her.",
+            "zh": "她排練時很少不把它放在身旁。"
+          }
+        ],
+        "explanationZh": "四句都描述平板電腦的日常作用；金句用本課比喻概括貼身使用的感覺。",
+        "promptEn": "How does Lena describe the tablet she uses for every rehearsal?",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "記者連續一週用錄音筆記下每次訪問和備忘，出門時總會摸一摸口袋確認它在。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The recorder feels like an extra limb during her reporting week.",
+            "zh": "採訪的那一週，錄音筆對她來說彷彿成了身體的一部分。"
+          },
+          {
+            "id": "b",
+            "en": "She uses the recorder mainly when an interview is unusually difficult.",
+            "zh": "她主要在訪問特別困難時才使用錄音筆。"
+          },
+          {
+            "id": "c",
+            "en": "She uses it mainly to avoid writing notes during interviews.",
+            "zh": "她主要用錄音筆來代替採訪時手寫筆記。"
+          }
+        ],
+        "explanationZh": "她在密集採訪時反覆使用並隨身確認錄音筆，適合用貼身的比喻；其他句子只推測某項特定用途，或縮窄了使用情況。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合用 like an extra limb 形容？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A student uses the same stylus throughout every drawing lesson.",
+            "zh": "學生每堂繪畫課都使用同一支觸控筆。"
+          },
+          {
+            "id": "b",
+            "en": "A guide checks the same handheld map repeatedly during each walk.",
+            "zh": "導賞員每次帶團都會反覆查看手持地圖。"
+          },
+          {
+            "id": "c",
+            "en": "Someone borrows a tool once, returns it immediately and never uses it again.",
+            "zh": "有人借用工具一次，隨即歸還，往後再沒使用。"
+          }
+        ],
+        "explanationZh": "只用過一次的工具，缺乏經常貼身使用的線索。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「她帶團時總把小地圖握在手中，轉彎便會看一眼。」你怎樣自然描述這個習慣？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That map seems like an extra limb during her tours because she keeps using it to guide the group.",
+            "zh": "帶團時她不斷用地圖引路，地圖對她來說彷彿成了身體的一部分。"
+          },
+          {
+            "id": "b",
+            "en": "She checks the map often to guide the group.",
+            "zh": "她經常查看地圖，為小組引路。"
+          },
+          {
+            "id": "c",
+            "en": "She clearly likes having the route close at hand.",
+            "zh": "她顯然喜歡把路線資訊放在手邊。"
+          }
+        ],
+        "explanationZh": "金句把習慣和比喻連起來，沒有推斷她患有疾病。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "After months of sketching on the same tablet, it felt like an extra limb to her.",
+        "zh": "在同一部平板電腦上畫了幾個月後，它對她來說彷彿成了身體的一部分。",
+        "promptZh": "先聽示範，再說明物件為何感覺貼身。",
+        "targetSpan": {
+          "start": 54,
+          "end": 72
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校攝影社的學生整個學期都用一部小相機記錄練習，拍攝時經常下意識伸手去拿。用一至兩句英文描述這種熟悉感，不要推斷醫學問題。",
+        "selfCheckZh": "指出反覆使用和自然伸手取用；不要聲稱有身體變化或成癮診斷。",
+        "examples": [
+          {
+            "en": "After a term of recording every practice, the small camera felt like an extra limb to the student, always close at hand.",
+            "zh": "一學期來每次練習都用小相機記錄後，學生覺得它彷彿成了身體的一部分，總在手邊。"
+          },
+          {
+            "en": "The student reached for the camera without thinking during shoots; it was like an extra limb after months of daily use.",
+            "zh": "拍攝時學生會不假思索地伸手拿相機；經過數月每天使用，它彷彿成了身體的一部分。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "every practice",
+            "zh": "每次練習",
+            "exampleIndex": 0,
+            "span": {
+              "start": 26,
+              "end": 40
+            }
+          },
+          {
+            "en": "the small camera",
+            "zh": "小相機",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 58
+            }
+          },
+          {
+            "en": "close at hand",
+            "zh": "就在手邊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 119
+            }
+          },
+          {
+            "en": "without thinking",
+            "zh": "不假思索地",
+            "exampleIndex": 1,
+            "span": {
+              "start": 35,
+              "end": 51
+            }
+          },
+          {
+            "en": "daily use",
+            "zh": "每天使用",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 118
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Her camera felt like an extra limb during the long reporting project.",
+          "zh": "在長期採訪項目中，相機對她來說彷彿成了身體的一部分。"
+        },
+        {
+          "en": "By the third week, the interpreter’s headset felt like an extra limb during long interviews.",
+          "zh": "到了第三週，長時間訪談時，耳機對傳譯員來說彷彿成了身體的一部分。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending.",
+          "Author revised against the exact-hash independent nine-owner review; independent re-review remains pending."
+        ]
+      },
+      "contentRevision": 3
+    }
+  ]
+}

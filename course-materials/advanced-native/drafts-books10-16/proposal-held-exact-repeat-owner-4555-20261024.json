@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-held-exact-repeat-owner-4555-proposal",
+  "lessons": [
+    {
+      "id": "advanced-native-4555",
+      "number": 4555,
+      "inventoryId": "expr-4555",
+      "titleEn": "leave the car at home",
+      "titleZh": "這趟不開車",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:leave|leaves|left|leaving) the car at home\\b",
+        "glossaryForbidden": [
+          "\\bcar\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Choose not to drive one’s car for a particular trip and use another way of travelling.",
+        "meaningZh": "這一趟選擇不開私家車，改用其他交通方式。",
+        "grammar": "Leave/left the car at home uses the car as the object and at home as a conventional location phrase; it can be advice or a report of a specific non-driving choice.",
+        "register": "Everyday transport advice: a friend, event organiser or commuter explains to another traveller why public transport, walking or cycling suits a trip.",
+        "boundaryZh": "表示這一趟選擇不用私家車，不代表當事人沒有車，也不等於永遠不駕車。",
+        "misconceptionZh": "乘車到車站才轉地鐵，並非整趟把車留在家裏；要分清是否真的從家出發便不開車。",
+        "outcomeZh": "能依據具體旅程，說明為何選擇不用私家車及改用甚麼交通方式。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2444",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 231,
+          "book": 16,
+          "question": 41,
+          "sample": "S2",
+          "sourceBookPages": "98–99",
+          "locatorNote": "DOCX table 256, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The pass encourages drivers to leave the car at home.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "leave the car at home"
+        }
+      ],
+      "listening": {
+        "en": "The stadium car park will close before the evening match. Priya will leave the car at home and take the train from her neighbourhood station instead.",
+        "zh": "晚間球賽開始前，體育場停車場會關閉。普莉雅這一趟會把車留在家裏，從住所附近的車站乘火車前往。",
+        "promptZh": "Priya 打算 leave the car at home，意思是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She will take the train for this trip instead of driving.",
+            "zh": "這趟她會乘火車，而不是開車。"
+          },
+          {
+            "id": "b",
+            "en": "She has sold her car and will never drive again.",
+            "zh": "她賣掉了車，以後再也不開車。"
+          },
+          {
+            "id": "c",
+            "en": "She will drive to the station and park there before taking the train.",
+            "zh": "她會開車到車站停泊，再轉乘火車。"
+          },
+          {
+            "id": "d",
+            "en": "She will stay home and miss the match.",
+            "zh": "她會留在家裏，不看球賽。"
+          }
+        ],
+        "explanationZh": "她仍會去看比賽，但從家附近車站乘火車，不用私家車完成這趟旅程。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "（週末市集附近沒有停車位，你打算怎樣去？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I will catch the tram from the stop beside my flat.",
+            "zh": "我會在住所旁的車站乘電車。"
+          },
+          {
+            "id": "b",
+            "en": "I am leaving the car at home and taking the tram.",
+            "zh": "這趟我不開車，改乘電車。"
+          },
+          {
+            "id": "c",
+            "en": "I can walk to the stop and avoid looking for parking.",
+            "zh": "我可以步行到車站，毋須找車位。"
+          },
+          {
+            "id": "d",
+            "en": "The tram will take me straight to the market entrance.",
+            "zh": "電車會直接把我送到市集入口。"
+          }
+        ],
+        "explanationZh": "四句都回答如何前往市集；金句直接使用本課表達，指出這趟改乘電車而非開車。",
+        "goldenId": "b",
+        "promptEn": "There is no parking near the weekend market. How will you get there?"
+      },
+      "scene": {
+        "promptZh": "學校開放日附近道路封閉，但校門旁有電車站。家長從住處步行到電車站，全程沒有開車。哪句最完整描述這次選擇？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They left the car at home and took the tram to the open day.",
+            "zh": "他們這趟沒有開車，改乘電車到開放日。"
+          },
+          {
+            "id": "b",
+            "en": "The tram stops close to the school gate.",
+            "zh": "電車站很接近校門。"
+          },
+          {
+            "id": "c",
+            "en": "Walking to the tram stop saved them time searching for parking.",
+            "zh": "步行到電車站替他們省下找車位的時間。"
+          }
+        ],
+        "explanationZh": "另外兩句只說部分便利；金句指出整趟行程不用私家車，並交代改乘電車。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 leave the car at home？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A commuter walks from home to the bus stop and rides to work.",
+            "zh": "通勤者從家步行到巴士站，再乘車上班。"
+          },
+          {
+            "id": "b",
+            "en": "A family drives to a park-and-ride lot and then takes the train.",
+            "zh": "一家人開車到轉乘停車場，再乘火車。"
+          },
+          {
+            "id": "c",
+            "en": "A visitor cycles from home to the gallery instead of driving.",
+            "zh": "訪客從家踩單車到畫廊，而沒有開車。"
+          }
+        ],
+        "explanationZh": "一家人已開車到轉乘停車場，車並沒有留在家裏；其餘兩項全程未開車。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「演唱會散場時，停車場總是擠塞；你會怎樣去？」你打算從家附近乘巴士。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I will leave the car at home and catch the bus near my flat.",
+            "zh": "這趟我不開車，會在住所附近乘巴士。"
+          },
+          {
+            "id": "b",
+            "en": "The bus stop is near my flat, so the first part of the trip should be easy.",
+            "zh": "巴士站在住所附近，所以頭一段路應該方便。"
+          },
+          {
+            "id": "c",
+            "en": "The bus will probably avoid the queue at the car park after the show.",
+            "zh": "演出後乘巴士大概能避開停車場的車龍。"
+          }
+        ],
+        "explanationZh": "後兩句分別說站點和散場好處；金句直接回答這趟不用車、改乘巴士的選擇。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "For the street festival, we can leave the car at home, take the train and walk from the station.",
+        "zh": "去街頭節慶時，我們可以這趟不開車，改乘火車，再從車站步行過去。",
+        "promptZh": "先聽示範，再說出改用甚麼交通方式。",
+        "targetSpan": {
+          "start": 32,
+          "end": 53
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區藝術展的場地旁只能停十輛車，週末又有道路工程。你和朋友住在巴士站附近，巴士可直達展館。用一至兩句英文向朋友建議這次怎樣去，並說明具體原因。",
+        "selfCheckZh": "指出場地泊車位少、道路工程，以及從家附近乘直達巴士；不要說你們沒有車或永遠不開車。",
+        "examples": [
+          {
+            "en": "Let us leave the car at home for the art exhibition and take the direct bus near our flats; parking is limited and roadworks may slow drivers down.",
+            "zh": "這次去藝術展，我們把車留在家裏，從住所附近乘直達巴士吧；場地泊車位少，道路工程又可能令駕駛者受阻。"
+          },
+          {
+            "en": "Since only ten parking spaces are available and the road is being repaired, we should leave the car at home and use the bus that stops by the exhibition hall.",
+            "zh": "場地只有十個泊車位，而且道路正在維修；我們這次應不開車，乘坐在展館旁停站的巴士。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the art exhibition",
+            "zh": "藝術展",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 51
+            }
+          },
+          {
+            "en": "the direct bus",
+            "zh": "直達巴士",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 75
+            }
+          },
+          {
+            "en": "parking is limited",
+            "zh": "泊車位少",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 110
+            }
+          },
+          {
+            "en": "roadworks may slow drivers down",
+            "zh": "道路工程可能令駕駛者受阻",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 146
+            }
+          },
+          {
+            "en": "ten parking spaces",
+            "zh": "十個泊車位",
+            "exampleIndex": 1,
+            "span": {
+              "start": 11,
+              "end": 29
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "We can leave the car at home when a direct bus serves the event.",
+          "zh": "活動有直達巴士時，我們可以這趟不開車。"
+        },
+        {
+          "en": "Leaving the car at home for one trip does not mean giving up driving forever.",
+          "zh": "某趟不開車，不等於永遠放棄駕駛。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

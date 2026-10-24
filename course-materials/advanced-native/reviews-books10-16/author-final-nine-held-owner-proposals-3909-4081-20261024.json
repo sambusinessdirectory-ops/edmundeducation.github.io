@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "kind": "author-post-review-originality-repair-attestation",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-owner-nine-3909-4081-20261024.json",
+  "proposalSha256": "6cf965dd21a0f480740590615d4421ce6a7c4838fb3ba6fdc5190a075589d0fe",
+  "previousRepairAttestationPath": "course-materials/advanced-native/reviews-books10-16/author-repair-nine-held-owner-proposals-3909-4081-20261024.json",
+  "previousRepairAttestationSha256": "b11a3dc021a68497285fcc3ebbf6d86798c352e84ab0fb49bf9b588e8d69a7b5",
+  "mechanicalOriginalityScreenPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-nine-3909-4081-20261024.json",
+  "mechanicalOriginalityScreenSha256": "66e7ca192ad639b13352ed24e0208c6db19a2b1cecde53a20ae9b8215aa4b346",
+  "additionalCorrections": [
+    "3981 takeaway recast to avoid near-full source example overlap",
+    "4029 listening, dialogue and speaking recast to remove source-adjacent early-promise wording while retaining intended target sense and paired Traditional Chinese",
+    "3981 keyed scene English/Chinese aligned with inferring the location of a lost item",
+    "4029 listening Chinese corrected to avoid falsely implying prior teacher practice",
+    "3909 scene c changed from advice to a parallel but unsubstantiated design goal",
+    "3981 listening c changed from direct negation of audio to a plausible but unmentioned outcome",
+    "4081 scene c changed from absolute claim to a plausible narrower purpose",
+    "3944 glossary replaced two weak spans with transferable exact answer-derived chunks"
+  ],
+  "structuralValidation": {
+    "errors": [],
+    "warnings": [],
+    "compiled": [
+      {
+        "id": "advanced-native-3909",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3942",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3944",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3981",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-4028",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-4029",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-4055",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-4070",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-4081",
+        "steps": 7,
+        "questions": 6
+      }
+    ]
+  },
+  "selectedManifestSha256BeforeAndAfter": "c840a735158c64eaaaee9845ee67318e5f77b30a99067f28b5a243be792526dc",
+  "independentReReview": "pending",
+  "releaseApproval": false,
+  "preFinalOriginalityScreenSha256": "54b63e4e95821fd1b2ad543ad33f3b3fddc411d5e08cdd8273d1b4f91e0a1297",
+  "finalOriginalityCounts": {
+    "exact": 0,
+    "high": 0,
+    "medium": 0,
+    "target-or-short-overlap": 1
+  },
+  "finalNearFullCounts": {
+    "near-full": 0,
+    "review-near-full": 0
+  },
+  "focusedIndependentRereviewPath": "course-materials/advanced-native/reviews-books10-16/independent-nine-owner-proposals-3909-4081-final-rereview-20261024.json",
+  "focusedIndependentRereviewSha256": "ed259ffc657d091fccf8239697ae949b251177a431944d9e4ac00c8858864862"
+}

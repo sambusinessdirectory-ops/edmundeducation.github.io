@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "kind": "exact-hash-author-repair-attestation-unselected-eight",
+  "date": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-new-owner-eight-2356-3351-20261024.json",
+  "previousProposalSha256": "6b4931afacf2f0cfae0a496125fe8013f1ba6ef69db43448cdf38e69454926a1",
+  "repairedProposalSha256": "2b217ea30a011d8eccede16b189cdc4d2c49ff0b1310a3db9cf9453c730eb6ce",
+  "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-review-held-new-owner-eight-2356-3351-20261024.json",
+  "independentReviewSha256": "766f1452cb161f1055baeec9b766609a561e5e0a1bd53cf1d6ac1dc88ba758d9",
+  "sourceTriagePath": "course-materials/advanced-native/reviews-books10-16/independent-next40-current-holds-source-sense-screen-20261024.json",
+  "sourceTriageSha256": "20d069875a014606ce918ce6b6833a007e6a1bffb1ab53355bec9a9f2ade45b0",
+  "sourceBoundAuthorQaPath": "course-materials/advanced-native/reviews-books10-16/author-qa-held-new-owner-eight-2356-3351-20261024.json",
+  "sourceBoundAuthorQaSha256": "e7b6e54bd81bbecaa07ab37f909e95dcd9bed667a67a7c2193278d66f8e99720",
+  "repairedOriginalityScreenPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-new-owner-eight-2356-3351-repaired-20261024.json",
+  "repairedOriginalityScreenSha256": "1e3acd1d8ddcd9d849a5a49811d92f1303f3d1f807533f655c76e279b2380672",
+  "repairDetails": [
+    {
+      "lesson": 2356,
+      "fields": [
+        "reply.options[a].en",
+        "reply.options[a].zh"
+      ],
+      "resolution": "Both age groups now have explicit emotional responses."
+    },
+    {
+      "lesson": 2579,
+      "fields": [
+        "writing.examples[1].en",
+        "writing.examples[1].zh",
+        "writing.glossary"
+      ],
+      "resolution": "Second model includes confirmed stall and unloading time plus still-pending weather plan; glossaries re-anchored to exact answer spans."
+    },
+    {
+      "lesson": 2712,
+      "fields": [
+        "reply.options[d].en",
+        "reply.options[d].zh"
+      ],
+      "resolution": "Fourth valid reply describes stated one-genre choice without inventing physical records."
+    },
+    {
+      "lesson": 3086,
+      "fields": [
+        "listening.options[c,d].en/zh"
+      ],
+      "resolution": "Foils are contextual overconfident interpretations of the possible stance change."
+    },
+    {
+      "lesson": 3275,
+      "fields": [
+        "listening.en",
+        "writing.examples[0].en/zh"
+      ],
+      "resolution": "English now states that three absences trigger a warning, matching Chinese; first model includes weekly bin checks."
+    },
+    {
+      "lesson": 3321,
+      "fields": [
+        "reply.promptEn/zh",
+        "reply.options.en/zh"
+      ],
+      "resolution": "Four replies describe possible actions rather than claiming unconfirmed future acts."
+    },
+    {
+      "lesson": 3346,
+      "fields": [
+        "listening.en/zh/promptZh/options[b,c].en/zh",
+        "reply.promptEn/zh",
+        "writing.examples[0,1].en/zh",
+        "writing.glossary"
+      ],
+      "resolution": "Forty pool lengths now align with forty one-way swims; distractor c is a plausible mistaken progress reading; both models include $500 target and $120 progress; glossaries re-anchored."
+    },
+    {
+      "lesson": 3351,
+      "fields": [
+        "writing.examples[0].en/zh"
+      ],
+      "resolution": "First writing model now names a practical next step, measuring the cast today."
+    },
+    {
+      "lesson": 3321,
+      "fields": [
+        "reply.options[b].zh"
+      ],
+      "resolution": "Chinese modal now says 可以, matching English could rather than asserting will."
+    }
+  ],
+  "checks": {
+    "schemaErrors": 0,
+    "schemaWarnings": 0,
+    "compiledLessons": 8,
+    "orderedSteps": 56,
+    "compiledQuestions": 48,
+    "plannedAudioRoles": 32,
+    "sourceRawRowsStillBound": 8,
+    "holdDecisionsStillUnchanged": 8,
+    "originalityExact": 0,
+    "originalityHigh": 0,
+    "originalityMedium": 0,
+    "originalityNearFull": 0
+  },
+  "limits": "Unselected proposals only; independent focused rereview, media, browser/device and publication remain pending.",
+  "focusedReviewFollowUp": "Corrected one modal mismatch identified in independent focused rereview of the first repair SHA 994cab5522f7f89db54a6e99a398f85ef60da39e6b008549512a996c7146eaf1; final focused rereview remains pending."
+}

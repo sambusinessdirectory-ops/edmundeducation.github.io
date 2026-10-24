@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-final-focused-rereview-of-eight-unselected-proposals",
+  "date": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-held-new-owner-eight-2356-3351-20261024.json",
+  "proposalSha256": "2b217ea30a011d8eccede16b189cdc4d2c49ff0b1310a3db9cf9453c730eb6ce",
+  "priorIndependentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-review-held-new-owner-eight-2356-3351-20261024.json",
+  "priorIndependentReviewSha256": "766f1452cb161f1055baeec9b766609a561e5e0a1bd53cf1d6ac1dc88ba758d9",
+  "authorRepairAttestationPath": "course-materials/advanced-native/reviews-books10-16/author-repair-attestation-held-new-owner-eight-2356-3351-20261024.json",
+  "authorRepairAttestationSha256": "5fabb5afc0ef2d171b968bcad0dcfcb43b3d395a3d0eaf2f2fdcb6d435a36bb3",
+  "authorSourceQaPath": "course-materials/advanced-native/reviews-books10-16/author-qa-held-new-owner-eight-2356-3351-20261024.json",
+  "authorSourceQaSha256": "e7b6e54bd81bbecaa07ab37f909e95dcd9bed667a67a7c2193278d66f8e99720",
+  "sourceScreenPath": "course-materials/advanced-native/reviews-books10-16/independent-next40-current-holds-source-sense-screen-20261024.json",
+  "sourceScreenSha256": "20d069875a014606ce918ce6b6833a007e6a1bffb1ab53355bec9a9f2ade45b0",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "originalityScreenPath": "course-materials/advanced-native/reviews-books10-16/originality-screen-held-owner-eight-2356-3351-final-rereview-20261024.json",
+  "originalityScreenSha256": "c82aff8dbb8b43311e7597af80d32493a54ce1f59bd7249c03ab9fbb3a54910f",
+  "selectedManifestSha256AtReview": "30e272889792acfc0658608835dec5add98563f517f62faaec0f255fb03e16b5",
+  "lessonCount": 8,
+  "exactSourceAndHoldDecisionBindingsPassed": 8,
+  "structuralValidation": {
+    "errors": [],
+    "warnings": [],
+    "compiled": [
+      {
+        "id": "advanced-native-2356",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2579",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2712",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3086",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3275",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3321",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3346",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-3351",
+        "steps": 7,
+        "questions": 6
+      }
+    ]
+  },
+  "priorBlockingFindingsResolved": 9,
+  "priorEditorialChecksResolved": 3,
+  "additionalPostrepairModalMismatchResolved": 1,
+  "currentBlockingFindings": 0,
+  "currentAdvisories": 0,
+  "mechanicalOriginalityCounts": {
+    "exact": 0,
+    "high": 0,
+    "medium": 0,
+    "target-or-short-overlap": 5
+  },
+  "mechanicalNearCounts": {
+    "near-full": 0,
+    "review-near-full": 0
+  },
+  "rows": [
+    {
+      "lessonId": "advanced-native-2356",
+      "sourceId": "book10-16-0245",
+      "sourceRawRowSha256": "674646a4b0520e87bd325c9664fa6da62fa0f36fba26a54ae53e159bda007982",
+      "decisionRawRowSha256": "ba0cc7157cc6a48e76cd6e2204554d821f7d35f9f7656bf7649e9da79db7e2b4",
+      "priorFindings": 1,
+      "priorFindingsResolved": [
+        {
+          "location": "reply.options[a]",
+          "severity": "release-blocking",
+          "disposition": "resolved-in-final-proposal"
+        }
+      ],
+      "newPostrepairBilingualModalIssue": null,
+      "currentBlockers": [],
+      "editorialVerdict": "pass"
+    },
+    {
+      "lessonId": "advanced-native-2579",
+      "sourceId": "book10-16-0468",
+      "sourceRawRowSha256": "2231cc031985e870958a4ad66ab97951143a7d172ddf9918826595ee9ca439a9",
+      "decisionRawRowSha256": "7a94e4b89af50714ee329cb5f25b311f1e3a7e477fd6cebc13ce9c6ff359a561",
+      "priorFindings": 1,
+      "priorFindingsResolved": [
+        {
+          "location": "writing.examples[1]",
+          "severity": "release-blocking",
+          "disposition": "resolved-in-final-proposal"
+        }
+      ],
+      "newPostrepairBilingualModalIssue": null,
+      "currentBlockers": [],
+      "editorialVerdict": "pass"
+    },
+    {
+      "lessonId": "advanced-native-2712",
+      "sourceId": "book10-16-0601",
+      "sourceRawRowSha256": "245b3a797324cd65dedc030effe7c0c56d2e6d1ed360114c2815cc16afeb8984",
+      "decisionRawRowSha256": "99849c7d8fc73041c11ceed49f612ec258f5f7a7fa4467a339cd33cd853207a0",
+      "priorFindings": 1,
+      "priorFindingsResolved": [
+        {
+          "location": "reply.options[d]",
+          "severity": "release-blocking",
+          "disposition": "resolved-in-final-proposal"
+        }
+      ],
+      "newPostrepairBilingualModalIssue": null,
+      "currentBlockers": [],
+      "editorialVerdict": "pass"
+    },
+    {
+      "lessonId": "advanced-native-3086",
+      "sourceId": "book10-16-0975",
+      "sourceRawRowSha256": "193b7b0a684714ce664afd328256d0a235bf35c70e1802a9abe9a1a0facd91a1",
+      "decisionRawRowSha256": "624430208f87cce881b2c085ed3b8d42fb8ab2a65169eef90540f8a8b36cf0cb",
+      "priorFindings": 1,
+      "priorFindingsResolved": [
+        {
+          "location": "listening.options[c,d]",
+          "severity": "editorial-check",
+          "disposition": "resolved-in-final-proposal"
+        }
+      ],
+      "newPostrepairBilingualModalIssue": null,
+      "currentBlockers": [],
+      "editorialVerdict": "pass"
+    },
+    {
+      "lessonId": "advanced-native-3275",
+      "sourceId": "book10-16-1164",
+      "sourceRawRowSha256": "9b9b60017405c0f704070f286e533b57f98e43f134fc4b90788501497acd2424",
+      "decisionRawRowSha256": "b5b29dc2127a628da23c2e6a26e57d7ea8510c88dfdfddf007e38eb7006cd331",
+      "priorFindings": 2,
+      "priorFindingsResolved": [
+        {
+          "location": "listening.en / listening.zh",
+          "severity": "release-blocking",
+          "disposition": "resolved-in-final-proposal"
+        },
+        {
+          "location": "writing.examples[0]",
+          "severity": "release-blocking",
+          "disposition": "resolved-in-final-proposal"
+        }
+      ],
+      "newPostrepairBilingualModalIssue": null,
+      "currentBlockers": [],
+      "editorialVerdict": "pass"
+    },
+    {
+      "lessonId": "advanced-native-3321",
+      "sourceId": "book10-16-1210",
+      "sourceRawRowSha256": "dd72839ca152b8012deed42330de1f3cb4236845a45082c1482c130c2ee77cd9",
+      "decisionRawRowSha256": "46d42f3133335535c78810f2f73244eb44a93093a0eb4cda409c1d6ed48e664b",
+      "priorFindings": 1,
+      "priorFindingsResolved": [
+        {
+          "location": "reply.promptEn / reply.options[b,d]",
+          "severity": "editorial-check",
+          "disposition": "resolved-in-final-proposal"
+        }
+      ],
+      "newPostrepairBilingualModalIssue": "resolved",
+      "currentBlockers": [],
+      "editorialVerdict": "pass"
+    },
+    {
+      "lessonId": "advanced-native-3346",
+      "sourceId": "book10-16-1235",
+      "sourceRawRowSha256": "54bc31b38ad8eb6f1ba92e29b6b76ffe9310559958839199ff8737aa464757a0",
+      "decisionRawRowSha256": "d283d0f3a073fa4522a7656f7c231e2f8eda76c49362938e70a19cfacab61906",
+      "priorFindings": 4,
+      "priorFindingsResolved": [
+        {
+          "location": "listening.en/zh, listening.promptZh/options, reply.promptEn/zh",
+          "severity": "release-blocking",
+          "disposition": "resolved-in-final-proposal"
+        },
+        {
+          "location": "writing.examples[0]",
+          "severity": "release-blocking",
+          "disposition": "resolved-in-final-proposal"
+        },
+        {
+          "location": "writing.examples[1]",
+          "severity": "release-blocking",
+          "disposition": "resolved-in-final-proposal"
+        },
+        {
+          "location": "listening.options[c]",
+          "severity": "editorial-check",
+          "disposition": "resolved-in-final-proposal"
+        }
+      ],
+      "newPostrepairBilingualModalIssue": null,
+      "currentBlockers": [],
+      "editorialVerdict": "pass"
+    },
+    {
+      "lessonId": "advanced-native-3351",
+      "sourceId": "book10-16-1240",
+      "sourceRawRowSha256": "5455501eebb84ce864c7e2680f3670f6332ab69b8bc7de461062e0d1fb49ab94",
+      "decisionRawRowSha256": "fa395cac49a8e71705677b6ab01dec857190542c548533abd1bec5b8eaf7f6fe",
+      "priorFindings": 1,
+      "priorFindingsResolved": [
+        {
+          "location": "writing.examples[0]",
+          "severity": "release-blocking",
+          "disposition": "resolved-in-final-proposal"
+        }
+      ],
+      "newPostrepairBilingualModalIssue": null,
+      "currentBlockers": [],
+      "editorialVerdict": "pass"
+    }
+  ],
+  "independentEditorialPass": true,
+  "editorialSelectionReady": true,
+  "selected": false,
+  "releaseReady": false,
+  "limits": [
+    "Prior independent review covered all seven learner steps and takeaways; this is a focused exact-current rereview of changed fields plus fresh source/schema/glossary/originality checks.",
+    "AI-only editorial pass; no audio synthesis, browser/device or live publication QA is claimed.",
+    "No author proposal, source decision, selected manifest or SOP audit was edited by this independent review."
+  ]
+}

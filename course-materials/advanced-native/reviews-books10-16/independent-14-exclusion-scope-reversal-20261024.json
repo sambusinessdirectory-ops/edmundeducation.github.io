@@ -1,0 +1,635 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "conservative-restoration-of-14-out-of-scope-exclusions",
+  "reviewDate": "2026-10-24",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "scopeAuditPath": "course-materials/advanced-native/reviews-books10-16/independent-171-exclusion-policy-scope-audit-20261024.json",
+  "scopeAuditSha256": "ee93e0669387e56ce0aab25d18363a81bb173d5ef0e91bb2c421f27b45a18590",
+  "priorActiveExclusionCount": 171,
+  "restoredToEditorialHold": 14,
+  "currentActiveExclusionCount": 157,
+  "priorActiveExclusionRegisterSha256": "cf654735cf57d727391489624e362c5ea282c5b3985898c7351f90545408efc7",
+  "currentActiveExclusionRegisterSha256": "322e031bfce8d693c0f65bfecb2e6dcd1c0c43d0b5bee64c91e87352821a0e2d",
+  "decisionFileHashesBefore": {
+    "editorial-decisions-2532-2591.jsonl": "3b3eefdbd04be0f33d877fc252c590703591944165ea722998dfa947b393b036",
+    "editorial-decisions-2712-2771.jsonl": "ba1c4a19c522d63cd2be66a17d03d14bf922c1a2a42644bdce359477faba24ef",
+    "editorial-decisions-2772-2831.jsonl": "be9ee757027ea0455ff155ee4cde51f350393dfc850b4a27e1c70324efe326da",
+    "editorial-decisions-3132-3191.jsonl": "af05b1a6147cdb76e1641bce14c8ddaad6d1bd2c5d6a0f92dbe37c89a2895de2",
+    "editorial-decisions-3312-3371.jsonl": "c621ff54f93ac4391b29a156c739026868b53267497248108157208a3d536531",
+    "editorial-decisions-3372-3431.jsonl": "6776a0640197d8dca08b29fd2a53ed367071bf6ef60e01f0e8359179a183fda6",
+    "editorial-decisions-3912-3971.jsonl": "0e3471f97009433ad74902c7f9200d28fa690f3e1d86fd2dab7acce335a42482",
+    "editorial-decisions-4392-4451.jsonl": "bb1727eff6a22259bc0497a0e00c4af80cfb031382ed41b8e2f6578cbac0cf3c",
+    "editorial-decisions-4512-4571.jsonl": "e9cbe45cc6ac34c221af5841f59ac4c75d4b3b4b8761cc76d048d764cef26bf8",
+    "editorial-decisions-4572-4631.jsonl": "bb3184c1be7e31165fb78ea0369a47fcbad4277ed416380147559e717a74fe21",
+    "editorial-decisions-4632-4691.jsonl": "8634582365051f5b9db1fb15b3de0ac856f181e15ea3c75db717fce8618d2265"
+  },
+  "decisionFileHashesAfter": {
+    "editorial-decisions-2532-2591.jsonl": "a45368bdbb4b442481ac66b7ee557689d2dccbd9d175b5ef829d651e0875387c",
+    "editorial-decisions-2712-2771.jsonl": "f1a6030b8a7ca89b0daf1287d1ed42a89ec9c4bff1255664e39fba70e2ee9e1f",
+    "editorial-decisions-2772-2831.jsonl": "ab46f7cf47dfbee8988551cf70a87f110dec02ff60451a5c7dab75ae71a12ece",
+    "editorial-decisions-3132-3191.jsonl": "5840ba6ec7d9782b588d65da784469df4b16edba3e4c2f2ee50d326c74cb5516",
+    "editorial-decisions-3312-3371.jsonl": "f99194591bbe75834e4642861a8cb4c724e9838c7657aafef3020b06c6fdc829",
+    "editorial-decisions-3372-3431.jsonl": "5b886b72cd30f2322ea59dc868382888412d1cf6d34aed7a4921fec4ac46b492",
+    "editorial-decisions-3912-3971.jsonl": "bf5d1935463523cee37fb4c6d98a3b5e2c0c7949bc2c8eb266884787527d320b",
+    "editorial-decisions-4392-4451.jsonl": "c5680dc821553fd6297665a33aa7ccba38e2506273c3ec1978e597d83e4b2ff0",
+    "editorial-decisions-4512-4571.jsonl": "5ec1fb57049cc54c4fd93b00dc29e84aa401aef3f1c98bdf89faae419b0d3f91",
+    "editorial-decisions-4572-4631.jsonl": "1f46e71559b4d0e6f45951ae03eaf8e68f47715e31fc156ab94dcc48afa47f5d",
+    "editorial-decisions-4632-4691.jsonl": "814c0f62da12dbb920d3d4f738162ed53b9c75767116abf75c281cac1c39d9c2"
+  },
+  "restoredRows": [
+    {
+      "sourceOrdinal": 2570,
+      "sourceId": "book10-16-0459",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "sourceRawRowSha256": "f432711ebca9750a380d51f15658433459f6f0dd45c4590fe0cb769ab00e0984",
+      "priorDecisionRawRowSha256": "7c97a14bf611ac38a0fd018ca4e057ed0fb223f5f29cc667efe38e1c01ec176b",
+      "restoredDecisionRawRowSha256": "30e946b976b6979e68afc58c88d5528ee82e21b0a71906d19a8dc92ffde1c816",
+      "priorDecision": {
+        "sourceOrdinal": 2570,
+        "sourceId": "book10-16-0459",
+        "phrase": "phone stops being a simple contact device",
+        "action": "excluded-one-off",
+        "canonicalId": null,
+        "reason": "One-time comparison/image without a reusable English expression: The sentence makes a literal, context-specific change-of-device-use claim: games now dominate a phone once used chiefly for contact. “Stops being a simple contact device” is transparent syntax, not a bounded collocation or separate teachable figurative unit. Excluded from a standalone seven-step lesson under the user-approved rule; exact source sentence retained in inventory and exclusion register.",
+        "exclusionApproval": {
+          "authority": "user",
+          "reference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+        }
+      },
+      "restoredDecision": {
+        "sourceOrdinal": 2570,
+        "sourceId": "book10-16-0459",
+        "phrase": "phone stops being a simple contact device",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Restored to editorial hold after independent review found the prior rationale did not establish a one-time comparison under the user-approved exclusion rule. Reassess source wording, teachability and owner/sense boundary; no lesson or alias approved. Prior exclusion rationale is preserved in the reversal attestation."
+      },
+      "priorRegisterEntry": {
+        "sourceOrdinal": 2570,
+        "sourceId": "book10-16-0459",
+        "expression": "phone stops being a simple contact device",
+        "exactSourceSentence": "The phone stops being a simple contact device when games dominate its use.",
+        "decisionFile": "editorial-decisions-2532-2591.jsonl",
+        "priorDecisionRowSha256": "fd0abe66e46149693738a5b4926ae799ad0e64ef5de55ac01bc1203778d160d5",
+        "excludedDecisionRowSha256": "7c97a14bf611ac38a0fd018ca4e057ed0fb223f5f29cc667efe38e1c01ec176b",
+        "reviewEvidencePath": "course-materials/advanced-native/reviews-books10-16/independent-readonly-validation-root-first100-fourteen-exclusions-a.json",
+        "reviewEvidenceSha256": "3d4c5e3e577444f4633275fada93561e51e5fed9393b3da39972fbacea1fda51",
+        "sourceSpecificReason": "The sentence makes a literal, context-specific change-of-device-use claim: games now dominate a phone once used chiefly for contact. “Stops being a simple contact device” is transparent syntax, not a bounded collocation or separate teachable figurative unit.",
+        "userApprovalReference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+      },
+      "priorRegisterRawRowSha256": "02703ad44c505e63926ae262c27484c69daf12a1d500b1f642d64b23a2eccf21"
+    },
+    {
+      "sourceOrdinal": 2719,
+      "sourceId": "book10-16-0608",
+      "decisionFile": "editorial-decisions-2712-2771.jsonl",
+      "sourceRawRowSha256": "66d50196cf91b15299d2a4fbba94b318677eeb44d0d5c10f435a356c8df320b8",
+      "priorDecisionRawRowSha256": "d29c9ff2cdf9c465dd0d833c63ca294ab5050b5ee2ca20567c44e0f1779f2e17",
+      "restoredDecisionRawRowSha256": "f2e25f0c1f55c77863e3ef0074a667c7207e612809350c946e236ab1e59c2903",
+      "priorDecision": {
+        "sourceOrdinal": 2719,
+        "sourceId": "book10-16-0608",
+        "phrase": "land a punch",
+        "action": "excluded-one-off",
+        "canonicalId": null,
+        "reason": "Figurative lyric-line \"land a punch\" is a one-time extension of literal boxing language in \"A simple line can land a punch in the final verse.\" The conventional reusable strong-impact idiom is \"pack a punch\"; teaching that would change the exact source target. This line is excluded as a standalone seven-step lesson under the user-approved one-time-comparison rule, with its exact source retained in the inventory and exclusion register.",
+        "exclusionApproval": {
+          "authority": "user",
+          "reference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+        }
+      },
+      "restoredDecision": {
+        "sourceOrdinal": 2719,
+        "sourceId": "book10-16-0608",
+        "phrase": "land a punch",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Restored to editorial hold after independent review found the prior rationale did not establish a one-time comparison under the user-approved exclusion rule. Reassess source wording, teachability and owner/sense boundary; no lesson or alias approved. Prior exclusion rationale is preserved in the reversal attestation."
+      },
+      "priorRegisterEntry": {
+        "sourceOrdinal": 2719,
+        "sourceId": "book10-16-0608",
+        "expression": "land a punch",
+        "exactSourceSentence": "A simple line can land a punch in the final verse.",
+        "decisionFile": "editorial-decisions-2712-2771.jsonl",
+        "priorDecisionRowSha256": "8b70de537f40270fc95632a86e15cc80fad5a375c588e5a0161c8540c02b6ce3",
+        "excludedDecisionRowSha256": "d29c9ff2cdf9c465dd0d833c63ca294ab5050b5ee2ca20567c44e0f1779f2e17",
+        "reviewEvidencePath": "course-materials/advanced-native/reviews-books10-16/read-only-held-3720-2719-eligibility-b.json",
+        "reviewEvidenceSha256": "3e29f90628d4d06e214a006b92e9c408e500a7565d7ad7acb4d91218509cc698",
+        "sourceSpecificReason": "Figurative lyric-line \"land a punch\" is a one-time extension of literal boxing language in \"A simple line can land a punch in the final verse.\" The conventional reusable strong-impact idiom is \"pack a punch\"; teaching that would change the exact source target. This line is excluded as a standalone seven-step lesson under the user-approved one-time-comparison rule, with its exact source retained in the inventory and exclusion register.",
+        "userApprovalReference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+      },
+      "priorRegisterRawRowSha256": "5707c5d89b950ec13ad84440f102dd66b77d6111f7d93ce16aa57145834e40b9"
+    },
+    {
+      "sourceOrdinal": 2732,
+      "sourceId": "book10-16-0621",
+      "decisionFile": "editorial-decisions-2712-2771.jsonl",
+      "sourceRawRowSha256": "f1cf55fc1be737ce5f90730549cdf928aee036738cf08e7cbbc22242f9fde462",
+      "priorDecisionRawRowSha256": "630baf33be550d618cccbab366de2dfe467e7975d51ecf8a7c987c19158d81aa",
+      "restoredDecisionRawRowSha256": "4d3e6b59e5ae6323d657a0570823bb29722395de754a8cebf8d315e98f033533",
+      "priorDecision": {
+        "sourceOrdinal": 2732,
+        "sourceId": "book10-16-0621",
+        "phrase": "the whole city is humming the same tune",
+        "action": "excluded-one-off",
+        "canonicalId": null,
+        "reason": "One-time comparison/image without a reusable English expression: In the music-question context, city residents are literally humming one popular tune. “The whole city” is hyperbole for its reach; the source does not teach the agreement idiom “sing the same tune.” The combined wording is a one-song image, not a separate reusable target. Excluded from a standalone seven-step lesson under the user-approved rule; exact source sentence retained in inventory and exclusion register.",
+        "exclusionApproval": {
+          "authority": "user",
+          "reference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+        }
+      },
+      "restoredDecision": {
+        "sourceOrdinal": 2732,
+        "sourceId": "book10-16-0621",
+        "phrase": "the whole city is humming the same tune",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Restored to editorial hold after independent review found the prior rationale did not establish a one-time comparison under the user-approved exclusion rule. Reassess source wording, teachability and owner/sense boundary; no lesson or alias approved. Prior exclusion rationale is preserved in the reversal attestation."
+      },
+      "priorRegisterEntry": {
+        "sourceOrdinal": 2732,
+        "sourceId": "book10-16-0621",
+        "expression": "the whole city is humming the same tune",
+        "exactSourceSentence": "By summer, the whole city is humming the same tune.",
+        "decisionFile": "editorial-decisions-2712-2771.jsonl",
+        "priorDecisionRowSha256": "9b2656561943c1fc5c045b53875322ab240234489e78118b658f392c640c4ac4",
+        "excludedDecisionRowSha256": "630baf33be550d618cccbab366de2dfe467e7975d51ecf8a7c987c19158d81aa",
+        "reviewEvidencePath": "course-materials/advanced-native/reviews-books10-16/independent-readonly-validation-root-first100-fourteen-exclusions-a.json",
+        "reviewEvidenceSha256": "3d4c5e3e577444f4633275fada93561e51e5fed9393b3da39972fbacea1fda51",
+        "sourceSpecificReason": "In the music-question context, city residents are literally humming one popular tune. “The whole city” is hyperbole for its reach; the source does not teach the agreement idiom “sing the same tune.” The combined wording is a one-song image, not a separate reusable target.",
+        "userApprovalReference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+      },
+      "priorRegisterRawRowSha256": "5539e3d724158498d50daa815aee560a612bef85c1caf0883db886ebf47bea9f"
+    },
+    {
+      "sourceOrdinal": 2798,
+      "sourceId": "book10-16-0687",
+      "decisionFile": "editorial-decisions-2772-2831.jsonl",
+      "sourceRawRowSha256": "82470fcb58c9f0e37e9a046761b6a8e9206100e79cb5adb2b822f4c6023e753f",
+      "priorDecisionRawRowSha256": "2c2f083e1d0df478cb7468acf7c1c3967692644f5a3ae62c7f8e4632b8b7e0ef",
+      "restoredDecisionRawRowSha256": "9a59c33367a108ae0815b7a6e38124e72d528fd8fb33cdbe78363ad9180dd4df",
+      "priorDecision": {
+        "sourceOrdinal": 2798,
+        "sourceId": "book10-16-0687",
+        "phrase": "a first alert rather than a final answer",
+        "action": "excluded-one-off",
+        "canonicalId": null,
+        "reason": "One-time or source-specific comparison without a distinct teachable expression: The first-alert/final-answer contrast is advice tailored to judging this one social-media post. It does not supply a bounded reusable expression beyond ordinary comparison. Excluded from a standalone seven-step lesson under the user-approved rule; exact source sentence retained in inventory and exclusion register.",
+        "exclusionApproval": {
+          "authority": "user",
+          "reference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+        }
+      },
+      "restoredDecision": {
+        "sourceOrdinal": 2798,
+        "sourceId": "book10-16-0687",
+        "phrase": "a first alert rather than a final answer",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Restored to editorial hold after independent review found the prior rationale did not establish a one-time comparison under the user-approved exclusion rule. Reassess source wording, teachability and owner/sense boundary; no lesson or alias approved. Prior exclusion rationale is preserved in the reversal attestation."
+      },
+      "priorRegisterEntry": {
+        "sourceOrdinal": 2798,
+        "sourceId": "book10-16-0687",
+        "expression": "a first alert rather than a final answer",
+        "exactSourceSentence": "Treat the post as a first alert rather than a final answer.",
+        "decisionFile": "editorial-decisions-2772-2831.jsonl",
+        "priorDecisionRowSha256": "487b2dfd77682143649a680dccd34e545d3f3ab6bef8383a34606ed619f965da",
+        "excludedDecisionRowSha256": "2c2f083e1d0df478cb7468acf7c1c3967692644f5a3ae62c7f8e4632b8b7e0ef",
+        "reviewEvidencePath": "course-materials/advanced-native/reviews-books10-16/independent-readonly-exclusion-next30-a.json",
+        "reviewEvidenceSha256": "f9b7bb3f19d52cff7e586249effcab7dc66b1e0da3cec0afcb447019aa45c497",
+        "sourceSpecificReason": "The first-alert/final-answer contrast is advice tailored to judging this one social-media post. It does not supply a bounded reusable expression beyond ordinary comparison.",
+        "userApprovalReference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+      },
+      "priorRegisterRawRowSha256": "a4f7df2ff29ea49c5bfa2b509788e770482fee7314791c14c86a57ecdf76ef2a"
+    },
+    {
+      "sourceOrdinal": 3189,
+      "sourceId": "book10-16-1078",
+      "decisionFile": "editorial-decisions-3132-3191.jsonl",
+      "sourceRawRowSha256": "d4e6be8600579a8a345a9408e78d70cb1d90d41a8af55b5186367872be2650c0",
+      "priorDecisionRawRowSha256": "03da22546404b1c7a7d5f13e43fd338944709da5504a2339ad8f5005435abbf4",
+      "restoredDecisionRawRowSha256": "b8c6d52e054c8baca5e6ba6320ccf5192c9ad27034402d935b57541f8d5ecb48",
+      "priorDecision": {
+        "sourceOrdinal": 3189,
+        "sourceId": "book10-16-1078",
+        "phrase": "impatient with the problem, but patient with the solution",
+        "action": "excluded-one-off",
+        "canonicalId": null,
+        "reason": "One-time comparison/image without a reusable English expression: Impatient with the problem, but patient with the solution is a crafted balanced maxim about engineers, not one complete reusable expression; the two adjectives are ordinary productive language. Excluded from a standalone seven-step lesson under the user-approved rule; exact source sentence retained in inventory and exclusion register.",
+        "exclusionApproval": {
+          "authority": "user",
+          "reference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+        }
+      },
+      "restoredDecision": {
+        "sourceOrdinal": 3189,
+        "sourceId": "book10-16-1078",
+        "phrase": "impatient with the problem, but patient with the solution",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Restored to editorial hold after independent review found the prior rationale did not establish a one-time comparison under the user-approved exclusion rule. Reassess source wording, teachability and owner/sense boundary; no lesson or alias approved. Prior exclusion rationale is preserved in the reversal attestation."
+      },
+      "priorRegisterEntry": {
+        "sourceOrdinal": 3189,
+        "sourceId": "book10-16-1078",
+        "expression": "impatient with the problem, but patient with the solution",
+        "exactSourceSentence": "Good engineers are impatient with the problem, but patient with the solution.",
+        "decisionFile": "editorial-decisions-3132-3191.jsonl",
+        "priorDecisionRowSha256": "50b5b85a5153551c6d26553cb60739e0c2c0db7a09f96f30941091281c76ed11",
+        "excludedDecisionRowSha256": "03da22546404b1c7a7d5f13e43fd338944709da5504a2339ad8f5005435abbf4",
+        "reviewEvidencePath": "course-materials/advanced-native/reviews-books10-16/independent-readonly-review-b-39-one-time-exclusions-a.json",
+        "reviewEvidenceSha256": "56d03829f9d9bd3d25663b87fe4af54a09c8e0a27057906d1cf7deb34d0340fc",
+        "sourceSpecificReason": "Impatient with the problem, but patient with the solution is a crafted balanced maxim about engineers, not one complete reusable expression; the two adjectives are ordinary productive language.",
+        "userApprovalReference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+      },
+      "priorRegisterRawRowSha256": "c5114db5c5c72105035b5148dea38e4028fd57377346c732fa2103322caeef8e"
+    },
+    {
+      "sourceOrdinal": 3320,
+      "sourceId": "book10-16-1209",
+      "decisionFile": "editorial-decisions-3312-3371.jsonl",
+      "sourceRawRowSha256": "82289d84efa69cf061b02ede3b03d59b93fdf9106ceb309d7edc1a9d7aebc4d8",
+      "priorDecisionRawRowSha256": "05138c09c018ae11376a8bc4fec1bcf315b3f3eda3eb8613dcb500d79c14f798",
+      "restoredDecisionRawRowSha256": "5de57c8b11d9177577d8a87b580de4f4f3e290501295c729745c024ff6cf3349",
+      "priorDecision": {
+        "sourceOrdinal": 3320,
+        "sourceId": "book10-16-1209",
+        "phrase": "general plans are good for movement, but detailed plans are often necessary for precision",
+        "action": "excluded-one-off",
+        "canonicalId": null,
+        "reason": "One-time source comparison/image without a reusable English expression: General plans for movement and detailed plans for precision is a complete project-specific qualification, not a reusable phrase with stable wording. Excluded from a standalone seven-step lesson under the user-approved rule; exact source sentence retained in inventory and exclusion register.",
+        "exclusionApproval": {
+          "authority": "user",
+          "reference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+        }
+      },
+      "restoredDecision": {
+        "sourceOrdinal": 3320,
+        "sourceId": "book10-16-1209",
+        "phrase": "general plans are good for movement, but detailed plans are often necessary for precision",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Restored to editorial hold after independent review found the prior rationale did not establish a one-time comparison under the user-approved exclusion rule. Reassess source wording, teachability and owner/sense boundary; no lesson or alias approved. Prior exclusion rationale is preserved in the reversal attestation."
+      },
+      "priorRegisterEntry": {
+        "sourceOrdinal": 3320,
+        "sourceId": "book10-16-1209",
+        "expression": "general plans are good for movement, but detailed plans are often necessary for precision",
+        "exactSourceSentence": "The project taught us that general plans are good for movement, but detailed plans are often necessary for precision.",
+        "decisionFile": "editorial-decisions-3312-3371.jsonl",
+        "priorDecisionRowSha256": "873ebe8989044c974b979345cae6908541b088c41e55aff0d0c22f2bd4cecbe1",
+        "excludedDecisionRowSha256": "05138c09c018ae11376a8bc4fec1bcf315b3f3eda3eb8613dcb500d79c14f798",
+        "reviewEvidencePath": "course-materials/advanced-native/reviews-books10-16/read-only-first60-one-time-independent-review-a.json",
+        "reviewEvidenceSha256": "f22857461387763e251f59dc8fb1c54b31b37721a767f9c6c6f71b26b2b2e511",
+        "sourceSpecificReason": "General plans for movement and detailed plans for precision is a complete project-specific qualification, not a reusable phrase with stable wording.",
+        "userApprovalReference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+      },
+      "priorRegisterRawRowSha256": "8a45a1cf7a3319abefa4fd842d29c044e8e45d027f60dc00158843c672526677"
+    },
+    {
+      "sourceOrdinal": 3373,
+      "sourceId": "book10-16-1262",
+      "decisionFile": "editorial-decisions-3372-3431.jsonl",
+      "sourceRawRowSha256": "e5f0f664aaa46facf97158f9e26caa69f0be6aee4c196abdda68974af2de6100",
+      "priorDecisionRawRowSha256": "c62f15e7b3e0945df8ffd432060f609ef211238b84885c5ecadf593bbca501b0",
+      "restoredDecisionRawRowSha256": "e20c3db78f476946524074e191fcc23105fcc0c4901117ef5c1a5a5b95c71ffe",
+      "priorDecision": {
+        "sourceOrdinal": 3373,
+        "sourceId": "book10-16-1262",
+        "phrase": "guidance and control",
+        "action": "excluded-one-off",
+        "canonicalId": null,
+        "reason": "One-time or source-specific comparison without a distinct teachable expression: The paired abstract nouns are this source’s parenting distinction between guidance and control. Ordinary distinguish X and Y syntax is reusable, but no distinct figurative or lexical target warrants a separate seven-step lesson here. Excluded from a standalone seven-step lesson under the user-approved rule; exact source sentence retained in inventory and exclusion register.",
+        "exclusionApproval": {
+          "authority": "user",
+          "reference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+        }
+      },
+      "restoredDecision": {
+        "sourceOrdinal": 3373,
+        "sourceId": "book10-16-1262",
+        "phrase": "guidance and control",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Restored to editorial hold after independent review found the prior rationale did not establish a one-time comparison under the user-approved exclusion rule. Reassess source wording, teachability and owner/sense boundary; no lesson or alias approved. Prior exclusion rationale is preserved in the reversal attestation."
+      },
+      "priorRegisterEntry": {
+        "sourceOrdinal": 3373,
+        "sourceId": "book10-16-1262",
+        "expression": "guidance and control",
+        "exactSourceSentence": "Parents need to distinguish guidance and control.",
+        "decisionFile": "editorial-decisions-3372-3431.jsonl",
+        "priorDecisionRowSha256": "7128629b9e16586187fd6ceb8a252b8b5339b401fe97072ffaef16decffac3bf",
+        "excludedDecisionRowSha256": "c62f15e7b3e0945df8ffd432060f609ef211238b84885c5ecadf593bbca501b0",
+        "reviewEvidencePath": "course-materials/advanced-native/reviews-books10-16/independent-readonly-exclusion-next30-a.json",
+        "reviewEvidenceSha256": "f9b7bb3f19d52cff7e586249effcab7dc66b1e0da3cec0afcb447019aa45c497",
+        "sourceSpecificReason": "The paired abstract nouns are this source’s parenting distinction between guidance and control. Ordinary distinguish X and Y syntax is reusable, but no distinct figurative or lexical target warrants a separate seven-step lesson here.",
+        "userApprovalReference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+      },
+      "priorRegisterRawRowSha256": "c8056113bb906928a47f7fc1516b2d583d35f9d776f52b2749e4d12342da1162"
+    },
+    {
+      "sourceOrdinal": 3952,
+      "sourceId": "book10-16-1841",
+      "decisionFile": "editorial-decisions-3912-3971.jsonl",
+      "sourceRawRowSha256": "0ff963dbf108933136aded0bda206b2e4e21b0eeb6de15e50c67c58ec76396cf",
+      "priorDecisionRawRowSha256": "fb5b72e5fbc2a888a9b7f92ac4a35d349918445a1b28f15ac8d94f2ba2cd4da7",
+      "restoredDecisionRawRowSha256": "26756642b1ae71d115bf714730c1832633f4b69ce9f61516632a27b208cd9f8f",
+      "priorDecision": {
+        "sourceOrdinal": 3952,
+        "sourceId": "book10-16-1841",
+        "phrase": "the body was made to move",
+        "action": "excluded-one-off",
+        "canonicalId": null,
+        "reason": "One-time comparison/image without a reusable English expression: “The body was made to move” is a source-specific fitness maxim. It states the speaker’s belief about exercise; no bounded expression or contrastive learner decision survives transfer beyond that slogan. Excluded from a standalone seven-step lesson under the user-approved rule; exact source sentence retained in inventory and exclusion register.",
+        "exclusionApproval": {
+          "authority": "user",
+          "reference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+        }
+      },
+      "restoredDecision": {
+        "sourceOrdinal": 3952,
+        "sourceId": "book10-16-1841",
+        "phrase": "the body was made to move",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Restored to editorial hold after independent review found the prior rationale did not establish a one-time comparison under the user-approved exclusion rule. Reassess source wording, teachability and owner/sense boundary; no lesson or alias approved. Prior exclusion rationale is preserved in the reversal attestation."
+      },
+      "priorRegisterEntry": {
+        "sourceOrdinal": 3952,
+        "sourceId": "book10-16-1841",
+        "expression": "the body was made to move",
+        "exactSourceSentence": "Even gentle walks remind us the body was made to move.",
+        "decisionFile": "editorial-decisions-3912-3971.jsonl",
+        "priorDecisionRowSha256": "b552babe207eb684225783fcf6c70273a1a8fbdea94c71cdb0e9bae8606665a5",
+        "excludedDecisionRowSha256": "fb5b72e5fbc2a888a9b7f92ac4a35d349918445a1b28f15ac8d94f2ba2cd4da7",
+        "reviewEvidencePath": "course-materials/advanced-native/reviews-books10-16/independent-one-time-cross-review-held-ranks-301-400-review-pilot.json",
+        "reviewEvidenceSha256": "1355283e3b3aa6327a334dec1117eb2396fba3a586ce429129d0359be153a494",
+        "sourceSpecificReason": "“The body was made to move” is a source-specific fitness maxim. It states the speaker’s belief about exercise; no bounded expression or contrastive learner decision survives transfer beyond that slogan.",
+        "userApprovalReference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+      },
+      "priorRegisterRawRowSha256": "16962bb495e673d92929d204aed0ff7b3bb883b612cc1f9d5af0971f21d825b7"
+    },
+    {
+      "sourceOrdinal": 3956,
+      "sourceId": "book10-16-1845",
+      "decisionFile": "editorial-decisions-3912-3971.jsonl",
+      "sourceRawRowSha256": "24452b31b6b5bac23d8380fcbbd89512e3faf60806cfcbb319e659c4f586c1fb",
+      "priorDecisionRawRowSha256": "df25c7d4088480d4ba95ca27f93c180c421e3e3bc295cac12b3c0cf155c0269d",
+      "restoredDecisionRawRowSha256": "1f6f98508ee00e2ca211cba5f33f141ca3e8c7e80a3825a5c810707bb15ba0e3",
+      "priorDecision": {
+        "sourceOrdinal": 3956,
+        "sourceId": "book10-16-1845",
+        "phrase": "move wisely than to push recklessly",
+        "action": "excluded-one-off",
+        "canonicalId": null,
+        "reason": "One-time comparison/image without a reusable English expression: The after-injury sentence sets up a tailored wise-versus-reckless comparison. “Move wisely” and “push recklessly” are ordinary verbal choices, while the contrast is the one-time teaching point. Excluded from a standalone seven-step lesson under the user-approved rule; exact source sentence retained in inventory and exclusion register.",
+        "exclusionApproval": {
+          "authority": "user",
+          "reference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+        }
+      },
+      "restoredDecision": {
+        "sourceOrdinal": 3956,
+        "sourceId": "book10-16-1845",
+        "phrase": "move wisely than to push recklessly",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Restored to editorial hold after independent review found the prior rationale did not establish a one-time comparison under the user-approved exclusion rule. Reassess source wording, teachability and owner/sense boundary; no lesson or alias approved. Prior exclusion rationale is preserved in the reversal attestation."
+      },
+      "priorRegisterEntry": {
+        "sourceOrdinal": 3956,
+        "sourceId": "book10-16-1845",
+        "expression": "move wisely than to push recklessly",
+        "exactSourceSentence": "After the injury, she learned it was better to move wisely than to push recklessly.",
+        "decisionFile": "editorial-decisions-3912-3971.jsonl",
+        "priorDecisionRowSha256": "37d3e7f16478a7692e8d4fb04f815f1879ec1487f96838eb4ef2a593708a750a",
+        "excludedDecisionRowSha256": "df25c7d4088480d4ba95ca27f93c180c421e3e3bc295cac12b3c0cf155c0269d",
+        "reviewEvidencePath": "course-materials/advanced-native/reviews-books10-16/independent-one-time-cross-review-held-ranks-301-400-review-pilot.json",
+        "reviewEvidenceSha256": "1355283e3b3aa6327a334dec1117eb2396fba3a586ce429129d0359be153a494",
+        "sourceSpecificReason": "The after-injury sentence sets up a tailored wise-versus-reckless comparison. “Move wisely” and “push recklessly” are ordinary verbal choices, while the contrast is the one-time teaching point.",
+        "userApprovalReference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+      },
+      "priorRegisterRawRowSha256": "e52e9e7d6d0863d7ea998a528e73a8929013e18292e448efc8756aa1fb440ac1"
+    },
+    {
+      "sourceOrdinal": 3969,
+      "sourceId": "book10-16-1858",
+      "decisionFile": "editorial-decisions-3912-3971.jsonl",
+      "sourceRawRowSha256": "5c477b06cfe5387ce9aa2f498edc36ff9ab47df5f67f461300cc9dcf3991fd29",
+      "priorDecisionRawRowSha256": "41665ee07cefa5660328ff437ebf1060121c43a8d6d7f0c6e4efd85f62d44c15",
+      "restoredDecisionRawRowSha256": "200024bdf9c6f8873afc1f11c19f775c4c71e5d63ab85d8c1b754ffab9781bfd",
+      "priorDecision": {
+        "sourceOrdinal": 3969,
+        "sourceId": "book10-16-1858",
+        "phrase": "train the person, not just the body",
+        "action": "excluded-one-off",
+        "canonicalId": null,
+        "reason": "One-time comparison/image without a reusable English expression: “Train the person, not just the body” is a tailored academy mission contrast between whole-person education and physical training. The whole contrast, rather than a reusable lexical unit, conveys the source point. Excluded from a standalone seven-step lesson under the user-approved rule; exact source sentence retained in inventory and exclusion register.",
+        "exclusionApproval": {
+          "authority": "user",
+          "reference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+        }
+      },
+      "restoredDecision": {
+        "sourceOrdinal": 3969,
+        "sourceId": "book10-16-1858",
+        "phrase": "train the person, not just the body",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Restored to editorial hold after independent review found the prior rationale did not establish a one-time comparison under the user-approved exclusion rule. Reassess source wording, teachability and owner/sense boundary; no lesson or alias approved. Prior exclusion rationale is preserved in the reversal attestation."
+      },
+      "priorRegisterEntry": {
+        "sourceOrdinal": 3969,
+        "sourceId": "book10-16-1858",
+        "expression": "train the person, not just the body",
+        "exactSourceSentence": "A good academy aims to train the person, not just the body.",
+        "decisionFile": "editorial-decisions-3912-3971.jsonl",
+        "priorDecisionRowSha256": "09a8901437c189da6343512f6d364ac9319ea998491dfe89cef0804f10dc5c07",
+        "excludedDecisionRowSha256": "41665ee07cefa5660328ff437ebf1060121c43a8d6d7f0c6e4efd85f62d44c15",
+        "reviewEvidencePath": "course-materials/advanced-native/reviews-books10-16/independent-one-time-cross-review-held-ranks-301-400-review-pilot.json",
+        "reviewEvidenceSha256": "1355283e3b3aa6327a334dec1117eb2396fba3a586ce429129d0359be153a494",
+        "sourceSpecificReason": "“Train the person, not just the body” is a tailored academy mission contrast between whole-person education and physical training. The whole contrast, rather than a reusable lexical unit, conveys the source point.",
+        "userApprovalReference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+      },
+      "priorRegisterRawRowSha256": "d22a5062fce9bd9c4af86936cd01eb7d8cf06ab57eaa320daae45e6503ec075a"
+    },
+    {
+      "sourceOrdinal": 4451,
+      "sourceId": "book10-16-2340",
+      "decisionFile": "editorial-decisions-4392-4451.jsonl",
+      "sourceRawRowSha256": "4ed0f8e11fdb0c577a7bb88befc0fa2a85af337e923f61dde8882786ea79a124",
+      "priorDecisionRawRowSha256": "877d30e57a1fa3d01b4992c9b522e44310b2acf0405d8660a99a2b422a04a450",
+      "restoredDecisionRawRowSha256": "f880783e4ba02c15b23ac57e301c305131ffd87dcaab85b4f482bfe7e92a9002",
+      "priorDecision": {
+        "sourceOrdinal": 4451,
+        "sourceId": "book10-16-2340",
+        "phrase": "show the touch of the hand",
+        "action": "excluded-one-off",
+        "canonicalId": null,
+        "reason": "One-time comparison/image without a reusable English expression: “Show the touch of the hand” describes the visual evidence of handmaking on these seals, but the exact wording is not a stable expression distinct from ordinary “handmade” or “human touch”. Excluded from a standalone seven-step lesson under the user-approved rule; exact source sentence retained in inventory and exclusion register.",
+        "exclusionApproval": {
+          "authority": "user",
+          "reference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+        }
+      },
+      "restoredDecision": {
+        "sourceOrdinal": 4451,
+        "sourceId": "book10-16-2340",
+        "phrase": "show the touch of the hand",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Restored to editorial hold after independent review found the prior rationale did not establish a one-time comparison under the user-approved exclusion rule. Reassess source wording, teachability and owner/sense boundary; no lesson or alias approved. Prior exclusion rationale is preserved in the reversal attestation."
+      },
+      "priorRegisterEntry": {
+        "sourceOrdinal": 4451,
+        "sourceId": "book10-16-2340",
+        "expression": "show the touch of the hand",
+        "exactSourceSentence": "Handmade seals show the touch of the hand.",
+        "decisionFile": "editorial-decisions-4392-4451.jsonl",
+        "priorDecisionRowSha256": "7474f4978e611553f27e876fc346490115929fd4c43463c7e38f6ae35de2592c",
+        "excludedDecisionRowSha256": "877d30e57a1fa3d01b4992c9b522e44310b2acf0405d8660a99a2b422a04a450",
+        "reviewEvidencePath": "course-materials/advanced-native/reviews-books10-16/independent-review-held-ranks-401-472-one-offs-b.json",
+        "reviewEvidenceSha256": "58ad6fd9706c0eefa95b724c767126394ccdd21d1531f156517e80463d047e6f",
+        "sourceSpecificReason": "“Show the touch of the hand” describes the visual evidence of handmaking on these seals, but the exact wording is not a stable expression distinct from ordinary “handmade” or “human touch”.",
+        "userApprovalReference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+      },
+      "priorRegisterRawRowSha256": "6ad818519a7758bb261b5b37fdf66e34fc9f11041663880ce6f7bba792c3c2d8"
+    },
+    {
+      "sourceOrdinal": 4542,
+      "sourceId": "book10-16-2431",
+      "decisionFile": "editorial-decisions-4512-4571.jsonl",
+      "sourceRawRowSha256": "109b7ec3f6f3a210679fba82ae03441ac48b7e50c513ac1e386f3b417e106f2c",
+      "priorDecisionRawRowSha256": "c7a386f883debfd628002641422e35a8d96dd9ad2072b4a1c3529489828afe74",
+      "restoredDecisionRawRowSha256": "bef0aa4695da023e12da518538fbdfe2181ec393346850635d5bb5aa6c16e720",
+      "priorDecision": {
+        "sourceOrdinal": 4542,
+        "sourceId": "book10-16-2431",
+        "phrase": "less fuss and more flow",
+        "action": "excluded-one-off",
+        "canonicalId": null,
+        "reason": "Less fuss and more flow is a source-specific rhythmic slogan, not a stable expression. In this source, the whole one-time image means: Fewer hassles and smoother movement; a rhythmic contrast. No shorter source-matched reusable expression has been established, so this exact image is not a standalone seven-step lesson.",
+        "exclusionApproval": {
+          "authority": "user",
+          "reference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+        }
+      },
+      "restoredDecision": {
+        "sourceOrdinal": 4542,
+        "sourceId": "book10-16-2431",
+        "phrase": "less fuss and more flow",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Restored to editorial hold after independent review found the prior rationale did not establish a one-time comparison under the user-approved exclusion rule. Reassess source wording, teachability and owner/sense boundary; no lesson or alias approved. Prior exclusion rationale is preserved in the reversal attestation."
+      },
+      "priorRegisterEntry": {
+        "sourceOrdinal": 4542,
+        "sourceId": "book10-16-2431",
+        "expression": "less fuss and more flow",
+        "exactSourceSentence": "Passengers want less fuss and more flow.",
+        "decisionFile": "editorial-decisions-4512-4571.jsonl",
+        "priorDecisionRowSha256": "4d2453925f4718c7aa49704679e910da98cf321603abba0f4e0a9e0ad26e0d48",
+        "excludedDecisionRowSha256": "c7a386f883debfd628002641422e35a8d96dd9ad2072b4a1c3529489828afe74",
+        "reviewEvidencePath": "course-materials/advanced-native/reviews-books10-16/independent-one-time-review-wave-b-3561-4675.json",
+        "reviewEvidenceSha256": "5f9ce3d10c5a9e8c4164a74ffdf8e04c1e88355d1869d0973621c9b555b46f52",
+        "sourceSpecificReason": "Less fuss and more flow is a source-specific rhythmic slogan, not a stable expression. In this source, the whole one-time image means: Fewer hassles and smoother movement; a rhythmic contrast. No shorter source-matched reusable expression has been established, so this exact image is not a standalone seven-step lesson.",
+        "userApprovalReference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+      },
+      "priorRegisterRawRowSha256": "4fcc9f50774d58d9fdd661b58dbf6e332a25d4c60c36a1a889483f2047e27d39"
+    },
+    {
+      "sourceOrdinal": 4585,
+      "sourceId": "book10-16-2474",
+      "decisionFile": "editorial-decisions-4572-4631.jsonl",
+      "sourceRawRowSha256": "585cef20d47a5fad226145115076868dc3059b530a414ce0cbae20e55e78b451",
+      "priorDecisionRawRowSha256": "f525feba513bf6010a974a44050b4b2f541c8d49f82e0636afeca26fde252682",
+      "restoredDecisionRawRowSha256": "5199a6b22f96b4b0a0057e2c6d8a39af7c5e0ad1cc1fea20fe738bb2df756e09",
+      "priorDecision": {
+        "sourceOrdinal": 4585,
+        "sourceId": "book10-16-2474",
+        "phrase": "a free seat on a bad system is still a bad ride",
+        "action": "excluded-one-off",
+        "canonicalId": null,
+        "reason": "A free seat on a bad system is still a bad ride is a source-specific aphorism rather than an idiom. In this source, the whole one-time image means: Price alone does not make poor service attractive; a pointed transport phrase. No shorter source-matched reusable expression has been established, so this exact image is not a standalone seven-step lesson.",
+        "exclusionApproval": {
+          "authority": "user",
+          "reference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+        }
+      },
+      "restoredDecision": {
+        "sourceOrdinal": 4585,
+        "sourceId": "book10-16-2474",
+        "phrase": "a free seat on a bad system is still a bad ride",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Restored to editorial hold after independent review found the prior rationale did not establish a one-time comparison under the user-approved exclusion rule. Reassess source wording, teachability and owner/sense boundary; no lesson or alias approved. Prior exclusion rationale is preserved in the reversal attestation."
+      },
+      "priorRegisterEntry": {
+        "sourceOrdinal": 4585,
+        "sourceId": "book10-16-2474",
+        "expression": "a free seat on a bad system is still a bad ride",
+        "exactSourceSentence": "A free seat on a bad system is still a bad ride for commuters.",
+        "decisionFile": "editorial-decisions-4572-4631.jsonl",
+        "priorDecisionRowSha256": "7adc7f0a9cd7376bea95d56336e4384f359232ad935df5a10a65d39fd5811398",
+        "excludedDecisionRowSha256": "f525feba513bf6010a974a44050b4b2f541c8d49f82e0636afeca26fde252682",
+        "reviewEvidencePath": "course-materials/advanced-native/reviews-books10-16/independent-one-time-review-wave-b-3561-4675.json",
+        "reviewEvidenceSha256": "5f9ce3d10c5a9e8c4164a74ffdf8e04c1e88355d1869d0973621c9b555b46f52",
+        "sourceSpecificReason": "A free seat on a bad system is still a bad ride is a source-specific aphorism rather than an idiom. In this source, the whole one-time image means: Price alone does not make poor service attractive; a pointed transport phrase. No shorter source-matched reusable expression has been established, so this exact image is not a standalone seven-step lesson.",
+        "userApprovalReference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+      },
+      "priorRegisterRawRowSha256": "fda77165aff6b2f3eb8bc25a79c7074499791ec56cbb348c1429330d941acde3"
+    },
+    {
+      "sourceOrdinal": 4636,
+      "sourceId": "book10-16-2525",
+      "decisionFile": "editorial-decisions-4632-4691.jsonl",
+      "sourceRawRowSha256": "6104e2d074168f32a42942cbcb592d9741567ec39d9c061b1b2df01f8d2aeda9",
+      "priorDecisionRawRowSha256": "effe16a99d556de71a8636f09d2c38df02ba7ddbbe88c0109e4ae1441eee2ff3",
+      "restoredDecisionRawRowSha256": "456d7faf5e82cc0f029b7a101b89c60f60b52a7cc5c6cfe004d36be6f0199cd2",
+      "priorDecision": {
+        "sourceOrdinal": 4636,
+        "sourceId": "book10-16-2525",
+        "phrase": "not mistaking convenience for invincibility",
+        "action": "excluded-one-off",
+        "canonicalId": null,
+        "reason": "Convenience versus invincibility is a source-specific warning rather than a stable target expression. In this source, the whole one-time image means: Not assuming an easy system removes all risk; a figurative contrast. No shorter source-matched reusable expression has been established, so this exact image is not a standalone seven-step lesson.",
+        "exclusionApproval": {
+          "authority": "user",
+          "reference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+        }
+      },
+      "restoredDecision": {
+        "sourceOrdinal": 4636,
+        "sourceId": "book10-16-2525",
+        "phrase": "not mistaking convenience for invincibility",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Restored to editorial hold after independent review found the prior rationale did not establish a one-time comparison under the user-approved exclusion rule. Reassess source wording, teachability and owner/sense boundary; no lesson or alias approved. Prior exclusion rationale is preserved in the reversal attestation."
+      },
+      "priorRegisterEntry": {
+        "sourceOrdinal": 4636,
+        "sourceId": "book10-16-2525",
+        "expression": "not mistaking convenience for invincibility",
+        "exactSourceSentence": "Travel safety means not mistaking convenience for invincibility.",
+        "decisionFile": "editorial-decisions-4632-4691.jsonl",
+        "priorDecisionRowSha256": "df5bbd37253b4531375904b8ebd477f83c32b8d3e40ede6bf92b1e1c8dbeda0a",
+        "excludedDecisionRowSha256": "effe16a99d556de71a8636f09d2c38df02ba7ddbbe88c0109e4ae1441eee2ff3",
+        "reviewEvidencePath": "course-materials/advanced-native/reviews-books10-16/independent-one-time-review-wave-b-3561-4675.json",
+        "reviewEvidenceSha256": "5f9ce3d10c5a9e8c4164a74ffdf8e04c1e88355d1869d0973621c9b555b46f52",
+        "sourceSpecificReason": "Convenience versus invincibility is a source-specific warning rather than a stable target expression. In this source, the whole one-time image means: Not assuming an easy system removes all risk; a figurative contrast. No shorter source-matched reusable expression has been established, so this exact image is not a standalone seven-step lesson.",
+        "userApprovalReference": "User reply on 2026-10-24: Skip one-time comparisons; record why."
+      },
+      "priorRegisterRawRowSha256": "68a734db27b71579cb55c1896275040390df37756bb7935e38b553e517c0ec16"
+    }
+  ],
+  "limits": [
+    "Each prior exclusion decision and source-specific reason is preserved verbatim in priorDecision and priorRegisterEntry.",
+    "This action restores hold-editorial only. It selects no new lesson, approves no alias, changes no learner content or audio, and authorizes no release.",
+    "The remaining 157 exclusions remain active but this reversal does not certify their other SOP axes."
+  ]
+}

@@ -1,0 +1,1372 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-distinct-3901-4715-batch-held-3903-4257-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3903",
+      "number": 3903,
+      "inventoryId": "expr-3903",
+      "titleEn": "half-formed",
+      "titleZh": "尚未成形的想法",
+      "category": "figurative",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\bhalf-formed\\b",
+        "glossaryForbidden": [
+          "\\bhalf-formed\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Partly developed but not yet clear or settled, especially of an idea, wish or plan.",
+        "meaningZh": "想法、願望或計劃已出現輪廓，但內容仍未清楚或定案。",
+        "grammar": "Half-formed is a hyphenated adjective before a noun or after be: a half-formed desire, a half-formed plan; the idea is half-formed. An emerging desire need not be a proposal or be awaiting approval.",
+        "register": "Neutral reflective description. A student may tell an adviser about a plan; an editor may describe a writer’s early idea to a colleague.",
+        "boundaryZh": "已有一些方向，但細節仍未完整；不等於完全沒有想法，也不等於計劃已定。",
+        "misconceptionZh": "不要把初步念頭當作承諾或已可執行的方案。",
+        "outcomeZh": "能區分剛萌生但未明確的願望、尚未完整的計劃、完全沒有想法和已定案的決定。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1792",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 169,
+          "book": 15,
+          "question": 2,
+          "sample": "S2",
+          "sourceBookPages": "5–7",
+          "locatorNote": "DOCX table 180, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The images made half-formed desires feel urgent.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "half-formed desires"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "What is the status of Nadia’s plan?",
+        "promptZh": "Nadia 的計劃目前處於甚麼階段？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It has a basic direction but important details remain undecided.",
+            "zh": "已有基本方向，但重要細節仍未定。"
+          },
+          {
+            "id": "b",
+            "en": "The club has booked a venue and announced its first date.",
+            "zh": "小組已訂場並公布首次活動日期。"
+          },
+          {
+            "id": "c",
+            "en": "She has rejected the idea and does not intend to invite anyone.",
+            "zh": "她已否定構想，也不打算邀請任何人。"
+          },
+          {
+            "id": "d",
+            "en": "The only missing detail is how to repair a specific chair.",
+            "zh": "唯一未定的是怎樣修理一張特定椅子。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她知道要邀誰，卻未定地點與日期，所以是初步成形而非已安排好。",
+        "en": "Nadia has a half-formed plan for a weekend repair club: she knows whom she wants to invite, but has not chosen a place or date.",
+        "zh": "Nadia 初步想辦周末維修小組，也知道想邀請誰，但還未選定地點和日期。"
+      },
+      "reply": {
+        "promptEn": "I have an early idea for a student radio programme, but I have not chosen a topic or schedule. What should I tell the teacher?",
+        "promptZh": "我初步想辦學生電台節目，但還未定主題或時間表。我應怎樣告訴老師？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I have a half-formed idea and would like to discuss the topic and schedule before making a proposal.",
+            "zh": "我只有初步構想，想先討論主題和時間表，再提出正式建議。"
+          },
+          {
+            "id": "b",
+            "en": "I can explain what first made me interested and ask what information the teacher needs.",
+            "zh": "我可以說明最初為何有興趣，並問老師需要哪些資料。"
+          },
+          {
+            "id": "c",
+            "en": "I could bring two possible topics so we can compare them together.",
+            "zh": "我可以帶來兩個可能的主題，方便一起比較。"
+          },
+          {
+            "id": "d",
+            "en": "I should be honest that I need more time before promising a launch date.",
+            "zh": "我應坦白說明，承諾啟播日期前還需要時間。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都坦白呈現初步構想並提出合理下一步；金句直接用 half-formed。"
+      },
+      "scene": {
+        "promptEn": "After helping in a community orchard for one morning, Miri feels drawn to outdoor work. She cannot yet say what kind of work would suit her or whether she wants to change jobs. Which description fits?",
+        "promptZh": "Miri 在社區果園幫忙一個早上後，開始嚮往戶外工作，但仍說不清哪類工作適合自己，也未決定是否轉職。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Miri has a half-formed desire to work outdoors, without a settled career decision.",
+            "zh": "Miri 剛萌生從事戶外工作的願望，但尚未有確定的職涯決定。"
+          },
+          {
+            "id": "b",
+            "en": "Miri has accepted a full-time outdoor job and agreed on a start date.",
+            "zh": "Miri 已接受一份全職戶外工作，並議定開工日期。"
+          },
+          {
+            "id": "c",
+            "en": "Miri wants to keep only her current indoor work and has no interest in outdoor work.",
+            "zh": "Miri 只想繼續現時的室內工作，對戶外工作沒有興趣。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她開始嚮往戶外工作，願望已有雛形，但尚未選定職業或作出轉職決定；這不是待批的計劃。"
+      },
+      "contrast": {
+        "promptEn": "Which situation is least suitable for half-formed?",
+        "promptZh": "哪個情況最不適合用 half-formed？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A sketch identifies the main layout but leaves room sizes open.",
+            "zh": "草圖顯示主要布局，但未定房間大小。"
+          },
+          {
+            "id": "b",
+            "en": "A committee has signed and published the complete plan with dates and costs.",
+            "zh": "委員會已簽署及公布包含日期和費用的完整方案。"
+          },
+          {
+            "id": "c",
+            "en": "A writer knows the central character but has not worked out the ending.",
+            "zh": "作者已想好主角，但還未構思結局。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "已簽署並公布的完整方案不是未成形；草圖及故事均有輪廓但留有重要空白。"
+      },
+      "dialogue": {
+        "promptEn": "A friend asks if your initial garden idea is ready to announce. You have chosen the plants but not checked the site’s water supply. What is a fair reply?",
+        "promptZh": "朋友問你的花園構想是否可以公布。你已選植物，但未查清場地供水。怎樣回答較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is still half-formed; I will check the water supply before we announce the planting plan.",
+            "zh": "構想仍未完整；我會先查清供水，再公布種植計劃。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, tell everyone the site is fully ready, including water.",
+            "zh": "可以，告訴大家場地包括供水都已準備妥當。"
+          },
+          {
+            "id": "c",
+            "en": "I never considered any plants, so there is nothing to discuss.",
+            "zh": "我從未考慮任何植物，所以沒有甚麼可談。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "答話承認已有植物選擇，並保留供水未查的事實，不虛報完成度。"
+      },
+      "speaking": {
+        "en": "The proposal is half-formed: we know who could help, but we still need to agree on a safe place to meet.",
+        "zh": "建議仍未完整：我們知道誰可以幫忙，但仍需商定安全的聚會地點。",
+        "promptZh": "先聽示範，再區分已有方向與尚未決定的細節。",
+        "targetSpan": {
+          "start": 16,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你想在公寓建立舊書交換角，已有兩位鄰居願意幫忙，但尚未取得管理處許可，也未訂借還規則。寫一至兩句英文向居民說明構想現況及下一步，不要當作已開放。",
+        "selfCheckZh": "兩例都要寫出兩位鄰居願意幫忙、管理處許可與借還規則尚未定，並交代下一步；不可說交換角已啟用。",
+        "examples": [
+          {
+            "en": "Our book-swap corner is half-formed: two neighbours have offered to help, but we still need management approval and borrowing rules before opening it.",
+            "zh": "舊書交換角仍是初步構想：兩位鄰居願意幫忙，但啟用前仍須取得管理處批准並訂借還規則。"
+          },
+          {
+            "en": "Two neighbours are ready to help with a half-formed book-swap plan; I will ask the management office for permission and draft the borrowing rules before inviting residents.",
+            "zh": "兩位鄰居願意協助這個尚未成形的舊書交換計劃；我會先向管理處申請許可並擬訂借還規則，再邀請居民。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "two neighbours have offered to help",
+            "zh": "兩位鄰居願意幫忙",
+            "exampleIndex": 0,
+            "span": {
+              "start": 37,
+              "end": 72
+            }
+          },
+          {
+            "en": "management approval",
+            "zh": "管理處批准",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 111
+            }
+          },
+          {
+            "en": "borrowing rules",
+            "zh": "借還規則",
+            "exampleIndex": 0,
+            "span": {
+              "start": 116,
+              "end": 131
+            }
+          },
+          {
+            "en": "ask the management office for permission",
+            "zh": "向管理處申請許可",
+            "exampleIndex": 1,
+            "span": {
+              "start": 75,
+              "end": 115
+            }
+          },
+          {
+            "en": "before inviting residents",
+            "zh": "邀請居民之前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 146,
+              "end": 171
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A half-formed idea deserves questions before it becomes a promise.",
+          "zh": "尚未成形的想法，在變成承諾前值得先問清楚。"
+        },
+        {
+          "en": "Calling a plan half-formed need not dismiss it; it names the work still to be done.",
+          "zh": "稱一項計劃尚未成形並非否定它，而是指出仍需完成的工作。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3963",
+      "number": 3963,
+      "inventoryId": "expr-3963",
+      "titleEn": "in smaller doses",
+      "titleZh": "分次、每次少量",
+      "category": "idiom",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\bin (?:small|smaller) doses\\b",
+        "glossaryForbidden": [
+          "\\bin (?:small|smaller) doses\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "For short periods or in limited amounts at a time, when taking in the whole experience at once would be too much.",
+        "meaningZh": "每次只用一小段時間，或只接觸少量內容；避免一次承受整個體驗。",
+        "grammar": "Enjoy, read, watch or try something in small/smaller doses. The plural doses is fixed in this figurative use; smaller needs an understood earlier or proposed larger amount. It can describe shorter periods as well as less content per session.",
+        "register": "Conversational recommendation. A friend may suggest it to another viewer or learner; unlike a literal medicine dose, it paces time or content for an experience.",
+        "boundaryZh": "可以縮短每次時間或減少每次內容；不一定減少總量，也不等於內容有害或永遠不能完成。",
+        "misconceptionZh": "不要把短時間分次接觸誤作完全放棄；smaller 要有原先較大的份量作比較。",
+        "outcomeZh": "能按時間或內容建議分次接觸，說明每次份量及是否仍會繼續。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1852",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 175,
+          "book": 15,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "21–23",
+          "locatorNote": "DOCX table 187, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I enjoy the highlights in smaller doses.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "in smaller doses"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending.",
+          "AI scoped revision: short-period Cambridge idiom sense, realistic alternatives and source-grounded comparison; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "What does Priya change?",
+        "promptZh": "Priya 改變的是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She limits how much she hears on each visit while still using the tour.",
+            "zh": "她限制每次聽的份量，但仍繼續使用導賞。"
+          },
+          {
+            "id": "b",
+            "en": "She removes ten sections permanently from the museum tour.",
+            "zh": "她永久刪除導賞中的十段。"
+          },
+          {
+            "id": "c",
+            "en": "She plays all twelve sections faster in one visit.",
+            "zh": "她在一次參觀中加速聽完十二段。"
+          },
+          {
+            "id": "d",
+            "en": "She switches to a different museum without any audio guide.",
+            "zh": "她轉去另一間沒有語音導賞的博物館。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每次聽兩段，是調整每次份量而非刪除內容或加速聽完。",
+        "en": "The museum audio tour has twelve dense sections. Priya enjoys it in smaller doses: she listens to two sections in a short visit, then comes back another day for more.",
+        "zh": "博物館語音導賞有十二段密集內容。Priya 分次欣賞：每次短暫參觀只聽兩段，另一天再回來聽更多。"
+      },
+      "reply": {
+        "promptEn": "I like this demanding podcast, but a full season in one evening leaves me tired. What could I try?",
+        "promptZh": "我喜歡這個內容密集的播客，但一晚聽完整季令我疲累。我可以怎樣做？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You could listen in smaller doses, perhaps one episode at a time.",
+            "zh": "你可以分較少份量聽，例如每次一集。"
+          },
+          {
+            "id": "b",
+            "en": "You could leave a day between episodes and see whether that helps.",
+            "zh": "你可以每集之間隔一天，看看有沒有幫助。"
+          },
+          {
+            "id": "c",
+            "en": "Try choosing two episodes for tonight and saving the rest for another evening.",
+            "zh": "今晚可以先選兩集，其餘留待另一晚再聽。"
+          },
+          {
+            "id": "d",
+            "en": "You could stop when you feel tired and return later.",
+            "zh": "覺得累時可先停下，之後再聽。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都可讓聽者按精力調節節奏；金句用較少份量表達。"
+      },
+      "scene": {
+        "promptEn": "A student can follow ten new technical terms in a week but not all ten in one sitting. The tutor schedules two terms each day. Which description fits?",
+        "promptZh": "學生一星期能學懂十個新技術詞，但一次學十個太多。導師每天安排兩個。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The tutor presents the terms in smaller doses across the week.",
+            "zh": "導師把詞語分成較少份量，在一星期內逐步教。"
+          },
+          {
+            "id": "b",
+            "en": "The tutor removes two terms from the course and teaches the other eight this week.",
+            "zh": "導師從課程刪去兩個詞，這星期只教其餘八個。"
+          },
+          {
+            "id": "c",
+            "en": "The tutor gives a briefer explanation of all ten terms in one sitting.",
+            "zh": "導師在一次課堂中簡略講解全部十個詞。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "學生仍會學齊十個，但每天只接觸兩個；刪去兩個會改變總量，一次簡述十個則仍是一次接觸全部。"
+      },
+      "contrast": {
+        "promptEn": "Which use is a literal medical dose rather than figurative pacing of an experience?",
+        "promptZh": "哪項說的是字面上的藥物劑量，而非比喻地分次接觸一種體驗？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A reader takes a long article in smaller doses, returning for a few pages each day.",
+            "zh": "讀者把長文章分次閱讀，每天回來讀幾頁。"
+          },
+          {
+            "id": "b",
+            "en": "A runner tries a demanding drill in small doses, practising for five minutes at a time.",
+            "zh": "跑手把吃力的練習分次做，每次練五分鐘。"
+          },
+          {
+            "id": "c",
+            "en": "After reviewing the prescription, a doctor tells a patient to take the medicine in smaller doses.",
+            "zh": "醫生覆核處方後，叫病人每次服用較少藥量。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "醫生指的是實際藥量；閱讀和練習中的 doses 則比喻每次接觸內容或投入的時間。"
+      },
+      "dialogue": {
+        "promptEn": "A friend says, “If I read only ten pages today, I will never finish the book.” You plan to return tomorrow. What is the best response?",
+        "promptZh": "朋友說：「今天只讀十頁，就永遠讀不完這本書。」你打算明天繼續。哪個回應最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Reading it in smaller doses means I still continue tomorrow; it does not mean giving up the book.",
+            "zh": "分較少份量閱讀，是明天仍會繼續，並非放棄整本書。"
+          },
+          {
+            "id": "b",
+            "en": "I could skim the remaining pages tonight, though I might miss the details.",
+            "zh": "我今晚可以略讀餘下頁數，但可能會漏看細節。"
+          },
+          {
+            "id": "c",
+            "en": "I could set this book aside for a week and start a shorter one instead.",
+            "zh": "我可以把這本書擱置一星期，先讀另一本較短的。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友擔心分次閱讀等於永遠讀不完；金句說明明天仍會繼續。今晚略讀會犧牲細節，改讀別的書則偏離原定明天續讀的計劃。"
+      },
+      "speaking": {
+        "en": "I will study the new vocabulary in smaller doses so I can check each group before moving on.",
+        "zh": "我會把新詞彙分較少份量學，逐組核對後才繼續。",
+        "promptZh": "先聽示範，再說出每次接觸的份量如何改變。",
+        "targetSpan": {
+          "start": 32,
+          "end": 48
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區電影會原定一晚討論四部短片。義工說這樣太趕；你建議分兩次聚會，每次討論兩部，仍保留四部。用一至兩句英文向義工解釋。",
+        "selfCheckZh": "兩例都要說明原定四部、改為兩次每次兩部，以及四部仍保留；不可說取消其中兩部。",
+        "examples": [
+          {
+            "en": "Rather than discuss all four short films in one evening, we can take them in smaller doses: two films at each of two meetings, with none removed.",
+            "zh": "與其一晚討論四部短片，不如分較少份量：兩次聚會各談兩部，沒有刪去任何一部。"
+          },
+          {
+            "en": "Let us watch the four short films in smaller doses by meeting twice and discussing two each time; that leaves room for questions without dropping a film.",
+            "zh": "讓我們分兩次看四部短片，每次討論兩部，這樣有時間提問，也不用刪去任何短片。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "all four short films",
+            "zh": "全部四部短片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 20,
+              "end": 40
+            }
+          },
+          {
+            "en": "one evening",
+            "zh": "一個晚上",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 55
+            }
+          },
+          {
+            "en": "two films at each of two meetings",
+            "zh": "兩次聚會各談兩部",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 125
+            }
+          },
+          {
+            "en": "room for questions",
+            "zh": "提問的空間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 110,
+              "end": 128
+            }
+          },
+          {
+            "en": "without dropping a film",
+            "zh": "而不刪去任何短片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 129,
+              "end": 152
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "In smaller doses describes the amount taken at one time, not necessarily the final total.",
+          "zh": "分較少份量指每次接觸的多少，不一定改變最後總量。"
+        },
+        {
+          "en": "Taking demanding material in smaller doses can make it easier to return to.",
+          "zh": "合適的節奏可使內容密集的材料更容易繼續學習。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4122",
+      "number": 4122,
+      "inventoryId": "expr-4122",
+      "titleEn": "keep showing up",
+      "titleZh": "持續到場並投入",
+      "category": "phrasal-verb",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping) showing up\\b",
+        "glossaryForbidden": [
+          "\\b(?:keep|keeps|kept|keeping) showing up\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Continue returning and making an effort over time, even when improvement is not immediate.",
+        "meaningZh": "即使進步未即時出現，仍持續回來並付出努力。",
+        "grammar": "Keep/keeps/kept/keeping showing up; keep marks continuation, while show up marks attendance or presence. Unlike a single show up, this phrase implies repeated occasions.",
+        "register": "Encouraging conversational phrase. A coach may tell a trainee, or a study partner may encourage another learner; it should not dismiss illness, care duties or access barriers.",
+        "boundaryZh": "重點是多次回來與投入，不是只出現一次；亦不保證只靠到場就一定進步。",
+        "misconceptionZh": "不要把合理缺席說成不努力，也不要把重複到場當成已完成練習。",
+        "outcomeZh": "能辨認持續參與與單次到場，並說明練習及支援仍有甚麼作用。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2011",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 190,
+          "book": 15,
+          "question": 28,
+          "sample": "S1",
+          "sourceBookPages": "66–67",
+          "locatorNote": "DOCX table 206, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Progress begins when you keep showing up.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep showing up"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "What supports the description of Tariq?",
+        "promptZh": "甚麼支持這句對 Tariq 的描述？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He returned repeatedly and practised, despite one illness-related absence.",
+            "zh": "他雖因病缺席一次，仍反覆回來練習。"
+          },
+          {
+            "id": "b",
+            "en": "He attended once and then immediately made perfect bowls.",
+            "zh": "他只來一次，便立即做出完美陶碗。"
+          },
+          {
+            "id": "c",
+            "en": "The teacher made all his later bowls for him.",
+            "zh": "後來的陶碗全由老師替他製作。"
+          },
+          {
+            "id": "d",
+            "en": "He never returned after the illness.",
+            "zh": "生病後他再沒有回來。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆回來並重試，才是持續參與；因病缺席一次不推翻這點。",
+        "en": "Tariq missed one pottery session when he was ill, then returned each week and tried the wheel again. He kept showing up, and his bowls gradually became steadier.",
+        "zh": "Tariq 生病時缺席了一節陶藝課，之後每周回來再試拉坯。他持續參與，陶碗漸漸更穩。"
+      },
+      "reply": {
+        "promptEn": "I am learning sign language. My progress is slow, but I can attend the weekly practice group and ask for corrections. What might help?",
+        "promptZh": "我在學手語，進步較慢，但每周可到練習小組並請人糾正。我可以怎樣做？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Keep showing up and asking for corrections, while giving yourself time to learn.",
+            "zh": "繼續參與並請人糾正，同時給自己時間學習。"
+          },
+          {
+            "id": "b",
+            "en": "Practise a few signs with a partner after each meeting.",
+            "zh": "每次聚會後和同伴練習幾個手語。"
+          },
+          {
+            "id": "c",
+            "en": "Notice which signs you mix up and ask the group to demonstrate them again.",
+            "zh": "留意哪些手語容易混淆，請小組再示範。"
+          },
+          {
+            "id": "d",
+            "en": "Set a manageable goal for the next session and review it afterward.",
+            "zh": "為下一節定一個可行目標，之後再檢視。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都在可行參與及練習上給建議；金句用持續回來表達，不承諾即時掌握。"
+      },
+      "scene": {
+        "promptEn": "A swimmer returns to training every Tuesday for six weeks, follows feedback, and improves slowly. Which description fits?",
+        "promptZh": "泳手連續六星期逢星期二回來練習，依照意見調整，慢慢進步。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She kept showing up and working on the corrections over time.",
+            "zh": "她持續回來，逐步按糾正意見練習。"
+          },
+          {
+            "id": "b",
+            "en": "She arrived for one trial and never came back.",
+            "zh": "她只來試一次，此後沒有再回來。"
+          },
+          {
+            "id": "c",
+            "en": "Every session produced an immediate perfect result.",
+            "zh": "每次練習都立即有完美成果。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "連續六星期回來且按意見練習，支持持續參與，不等於次次完美。"
+      },
+      "contrast": {
+        "promptEn": "Which fact alone does least to show that someone kept showing up?",
+        "promptZh": "哪項事實單獨最不足以說明一個人一直持續參與？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They returned to the workshop on several later dates.",
+            "zh": "他們在之後多個日期再回工作坊。"
+          },
+          {
+            "id": "b",
+            "en": "They attended the opening meeting once, with no later attendance known.",
+            "zh": "只知道他們出席過一次開幕會，沒有之後的出席資料。"
+          },
+          {
+            "id": "c",
+            "en": "They joined the group’s weekly practice over a term.",
+            "zh": "他們一整個學期參加小組每周練習。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "一次出席只證明單次到場，不能證明 keep 所表示的持續。"
+      },
+      "dialogue": {
+        "promptEn": "A classmate says, “I missed last week because I cared for my father. Does that mean I cannot make progress?” You know she plans to return and can practise at home. Which reply is most considerate?",
+        "promptZh": "同學說：「上周我照顧爸爸而缺席，這是否代表我不會進步？」你知道她打算回來，也可在家練習。哪句最體貼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Missing a week for care does not erase your effort; you can keep showing up when possible and practise at home too.",
+            "zh": "因照顧家人缺席一周，不會抹去你的努力；可行時繼續回來，也可在家練習。"
+          },
+          {
+            "id": "b",
+            "en": "If you missed once, there is no point in returning or practising.",
+            "zh": "只要缺席一次，回來或練習都沒有意義。"
+          },
+          {
+            "id": "c",
+            "en": "You must never miss a meeting again, even for family care.",
+            "zh": "即使要照顧家人，也絕不可再缺席。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "回應沒有把合理缺席等同放棄，並提出可行的持續參與與練習。"
+      },
+      "speaking": {
+        "en": "I can keep showing up for the choir rehearsals and practise the difficult passage between meetings.",
+        "zh": "我可以繼續參加合唱團排練，並在聚會之間練習難唱的段落。",
+        "promptZh": "先聽示範，再說明多次參與與額外練習如何配合。",
+        "targetSpan": {
+          "start": 6,
+          "end": 21
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你參加社區繪圖課，最初線條不穩；你可在接下來四個星期每周參加一次，也會在家練習陰影。寫一至兩句英文給朋友，說明你的持續計劃而不保證四周後變成專家。",
+        "selfCheckZh": "兩例都要提及未來四周每周一次、在家練習陰影，以及不保證變專家；不可把初期線條不穩說成毫無能力。",
+        "examples": [
+          {
+            "en": "My lines are still uneven, but I will keep showing up each week for the next four weeks and practise shading at home; I do not expect to become an expert overnight.",
+            "zh": "我的線條仍不穩，但接下來四周我會每周上課並在家練習陰影；我不指望一夜之間變成專家。"
+          },
+          {
+            "en": "For four more weeks, I plan to keep showing up at the drawing class once a week and work on shading at home. Better lines are a goal, not a promise of instant expertise.",
+            "zh": "未來四周我打算每周參加一次繪圖課，也在家練習陰影。線條更好是目標，不代表立即成為專家。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "My lines are still uneven",
+            "zh": "我的線條仍不穩",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 25
+            }
+          },
+          {
+            "en": "practise shading at home",
+            "zh": "在家練習陰影",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 116
+            }
+          },
+          {
+            "en": "become an expert overnight",
+            "zh": "一夜之間變成專家",
+            "exampleIndex": 0,
+            "span": {
+              "start": 137,
+              "end": 163
+            }
+          },
+          {
+            "en": "once a week",
+            "zh": "每周一次",
+            "exampleIndex": 1,
+            "span": {
+              "start": 68,
+              "end": 79
+            }
+          },
+          {
+            "en": "a goal, not a promise",
+            "zh": "是目標，不是承諾",
+            "exampleIndex": 1,
+            "span": {
+              "start": 126,
+              "end": 147
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Keep showing up describes repeated participation, not flawless attendance.",
+          "zh": "持續參與指多次回來，不等於從不缺席。"
+        },
+        {
+          "en": "When people keep showing up and practising, they create chances to improve without a guaranteed schedule.",
+          "zh": "回來並練習可帶來進步機會，但不能保證按時間表進步。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4207",
+      "number": 4207,
+      "inventoryId": "expr-4207",
+      "titleEn": "unpack a task",
+      "titleZh": "拆解任務以便理解",
+      "category": "figurative",
+      "contentRevision": 3,
+      "target": {
+        "pattern": "\\b(?:unpack(?:s|ed|ing)?\\s+(?:(?:(?:the|this|that|our|your|their|his|her|its|my)\\s+(?:task|idea|problem|brief|instruction|argument|plan)|a\\s+(?:task|problem|brief|plan)|an\\s+(?:idea|instruction|argument))|(?:(?:(?:the|these|those|our|your|their|his|her|its|my)\\s+)?(?:tasks|ideas|problems|briefs|instructions|arguments|plans)))|(?:(?:(?:the|this|that|our|your|their|his|her|its|my)\\s+(?:task|idea|problem|brief|instruction|argument|plan)|a\\s+(?:task|problem|brief|plan)|an\\s+(?:idea|instruction|argument))\\s+(?:is|was|gets|got)|(?:(?:(?:the|these|those|our|your|their|his|her|its|my)\\s+)?(?:tasks|ideas|problems|briefs|instructions|arguments|plans))\\s+(?:are|were|get|got))\\s+unpacked)\\b",
+        "glossaryForbidden": [
+          "\\b(?:unpack(?:s|ed|ing)?\\s+(?:(?:(?:the|this|that|our|your|their|his|her|its|my)\\s+(?:task|idea|problem|brief|instruction|argument|plan)|a\\s+(?:task|problem|brief|plan)|an\\s+(?:idea|instruction|argument))|(?:(?:(?:the|these|those|our|your|their|his|her|its|my)\\s+)?(?:tasks|ideas|problems|briefs|instructions|arguments|plans)))|(?:(?:(?:the|this|that|our|your|their|his|her|its|my)\\s+(?:task|idea|problem|brief|instruction|argument|plan)|a\\s+(?:task|problem|brief|plan)|an\\s+(?:idea|instruction|argument))\\s+(?:is|was|gets|got)|(?:(?:(?:the|these|those|our|your|their|his|her|its|my)\\s+)?(?:tasks|ideas|problems|briefs|instructions|arguments|plans))\\s+(?:are|were|get|got))\\s+unpacked)\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Explain a complicated task or idea by identifying its parts and their order so someone can act on it.",
+        "meaningZh": "把複雜任務或想法分出組成部分及次序，讓人理解並能實行。",
+        "grammar": "Unpack a task/idea/plan; the task is unpacked. This figurative verb takes an abstract object, unlike physically unpacking a bag.",
+        "register": "Neutral teaching/workplace metaphor. A tutor may unpack a brief for learners; a manager may unpack a plan with a team.",
+        "boundaryZh": "要交代任務的部分或步驟，不是只重複指示，也不是字面把物品從袋裏取出。",
+        "misconceptionZh": "把問題拆開不代表已完成每個步驟；仍需實際練習或決定。",
+        "outcomeZh": "能辨識拆解後更清楚的部分與次序，並區分說明與完成。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2096",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 197,
+          "book": 15,
+          "question": 37,
+          "sample": "S1",
+          "sourceBookPages": "89–90",
+          "locatorNote": "DOCX table 215, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Once the task is unpacked, beginners can practise it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "unpacked"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "What did the coordinator do?",
+        "promptZh": "統籌做了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She divided the work into ordered actions people could follow.",
+            "zh": "她把工作分成有次序、可跟隨的行動。"
+          },
+          {
+            "id": "b",
+            "en": "She finished checking and labelling every box alone.",
+            "zh": "她獨自核對並標好所有箱子。"
+          },
+          {
+            "id": "c",
+            "en": "She removed the work from the volunteers entirely.",
+            "zh": "她完全取消義工的工作。"
+          },
+          {
+            "id": "d",
+            "en": "She opened a suitcase to take out the brief.",
+            "zh": "她打開行李箱取出簡報。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "先核對、再貼標籤、最後記錄，是把工作拆成步驟；沒有說她已替大家完成。",
+        "en": "The volunteer brief sounded confusing until the coordinator unpacked the task: first check the list, then label each box, and finally record anything missing.",
+        "zh": "義工簡報原本令人困惑，直到統籌把任務拆解：先核對清單，再為每箱貼標籤，最後記下缺少的物品。"
+      },
+      "reply": {
+        "promptEn": "The science fair instructions are hard to follow because they mix safety, timing and display rules. What can I do for the team?",
+        "promptZh": "科學展覽指引把安全、時間和展示規則混在一起，團隊難以跟上。我可以怎樣幫忙？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I can unpack the instructions into safety, schedule and display steps for the team.",
+            "zh": "我可以把指引拆成安全、時間和展示步驟，讓團隊跟進。"
+          },
+          {
+            "id": "b",
+            "en": "I can put the safety rules in one section and check them with everyone.",
+            "zh": "我可以把安全規則放在同一部分，和大家逐項核對。"
+          },
+          {
+            "id": "c",
+            "en": "I can make a timeline of the deadlines before we build the display.",
+            "zh": "我可以先列出限期時間線，再開始製作展示。"
+          },
+          {
+            "id": "d",
+            "en": "I can ask the organiser which rule applies to our exhibit before we choose materials.",
+            "zh": "選材料前，我可以問主辦方哪條規則適用於我們的展品。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都能令混在一起的要求變清楚；金句用 unpack 指整體拆解。"
+      },
+      "scene": {
+        "promptEn": "A housing adviser takes a long application and separates it into identity documents, income evidence and the submission date. Which description fits?",
+        "promptZh": "房屋顧問把冗長申請分成身份文件、收入證明及提交日期三部分。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The adviser unpacked the task so applicants could see what to prepare first.",
+            "zh": "顧問把任務拆解，讓申請人知道先準備甚麼。"
+          },
+          {
+            "id": "b",
+            "en": "The adviser submitted each applicant’s completed form without their knowledge.",
+            "zh": "顧問未告知申請人便替每人提交已填妥表格。"
+          },
+          {
+            "id": "c",
+            "en": "The adviser said the application had no document requirements.",
+            "zh": "顧問說申請不需要任何文件。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "分出文件種類與日期令步驟可見；沒有表示顧問已代填或取消要求。"
+      },
+      "contrast": {
+        "promptEn": "Which action alone would least count as unpacking a task?",
+        "promptZh": "哪項做法單獨最不像拆解任務？",
+        "options": [
+          {
+            "id": "a",
+            "en": "List the necessary parts and explain their sequence.",
+            "zh": "列出必要部分並說明次序。"
+          },
+          {
+            "id": "b",
+            "en": "Repeat “finish the project” without naming any step or requirement.",
+            "zh": "只重複「完成項目」，不說任何步驟或要求。"
+          },
+          {
+            "id": "c",
+            "en": "Separate equipment checks from the later report-writing stage.",
+            "zh": "把器材檢查與之後撰寫報告的階段分開。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "空泛重複目標，沒有把複雜任務變成可理解的部分；另兩項提供結構。"
+      },
+      "dialogue": {
+        "promptEn": "A colleague says, “The grant form still feels impossible.” You have identified three sections but have not filled them in. What is accurate?",
+        "promptZh": "同事說：「資助申請表仍覺得不可能完成。」你已找出三部分，但還未填寫。怎樣回應準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can unpack the instructions section by section, then decide what evidence each part of the form needs.",
+            "zh": "我們可逐部分拆解指引，再決定表格各部分需要甚麼證據。"
+          },
+          {
+            "id": "b",
+            "en": "I have already finished and submitted the three sections for us.",
+            "zh": "我已替我們填妥並提交三部分。"
+          },
+          {
+            "id": "c",
+            "en": "There is no need to read any section because it only looks long.",
+            "zh": "表格只是看似長，不必閱讀任何部分。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "回應把理解與完成分開，並提出下一步；尚未填表，不可宣稱已提交。"
+      },
+      "speaking": {
+        "en": "Before we start rehearsing, let us unpack the plan into who speaks first, where we stand, and when the lights change.",
+        "zh": "排練前，讓我們把計劃拆成誰先發言、站在哪裏，以及燈光何時轉變。",
+        "promptZh": "先聽示範，再說出拆解後的具體部分和先後。",
+        "targetSpan": {
+          "start": 35,
+          "end": 50
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區合唱團收到演出安排，裏面混着報到、器材檢查及登台時間。你要寫給新團員，先分清三部分；你尚未替他們完成報到或檢查。用一至兩句英文說明。",
+        "selfCheckZh": "兩例都要列出報到、器材檢查及登台時間，並清楚說這只是說明安排，不代表已完成報到或檢查。",
+        "examples": [
+          {
+            "en": "I will unpack the plan for new singers into check-in, equipment checks and stage time; this explains the order but does not complete anyone’s check-in or checks.",
+            "zh": "我會把新團員的安排拆成報到、器材檢查及登台時間；這只是說明次序，沒有替任何人完成報到或檢查。"
+          },
+          {
+            "en": "Let us unpack the instructions: first check in, next test the equipment, and then be ready for the stage time. We still have to do each step ourselves.",
+            "zh": "讓我們拆解指引：先報到，再測試器材，然後按登台時間準備。我們仍須親自完成每一步。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "new singers",
+            "zh": "新團員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 27,
+              "end": 38
+            }
+          },
+          {
+            "en": "equipment checks",
+            "zh": "器材檢查",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 70
+            }
+          },
+          {
+            "en": "stage time",
+            "zh": "登台時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 85
+            }
+          },
+          {
+            "en": "test the equipment",
+            "zh": "測試器材",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 71
+            }
+          },
+          {
+            "en": "do each step ourselves",
+            "zh": "親自完成每一步",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 150
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Unpacking a task makes its parts visible; it does not complete them.",
+          "zh": "拆解任務可使各部分清楚，但不會自動把它們完成。"
+        },
+        {
+          "en": "When you unpack the plan, name what comes first and what each person still needs to do.",
+          "zh": "有用的說明會指出先後次序，以及各人仍須做甚麼。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4257",
+      "number": 4257,
+      "inventoryId": "expr-4257",
+      "titleEn": "attention drifts",
+      "titleZh": "注意力逐漸飄走",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:attention|focus)\\s+(?:(?:can|may|might|will|sometimes|often)\\s+)?drift(?:s|ed|ing)?\\b",
+        "glossaryForbidden": [
+          "\\b(?:attention|focus)\\s+(?:(?:can|may|might|will|sometimes|often)\\s+)?drift(?:s|ed|ing)?\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Attention gradually moves away from the intended subject, often without a deliberate decision to stop listening.",
+        "meaningZh": "注意力漸漸離開原本要專注的事，通常不是刻意決定不聽。",
+        "grammar": "Attention/focus can drift; attention drifts/drifted. The intransitive verb has no object in this lesson; a person may then bring attention back.",
+        "register": "Neutral everyday description. A learner may tell a tutor, or a speaker may plan pauses for an audience; it is not a medical diagnosis.",
+        "boundaryZh": "指注意力逐步偏離，不等於當事人睡着、刻意拒聽或完全不知道內容。",
+        "misconceptionZh": "不要把走神當成品格判斷；留意環境與任務長度，也可提出重新聚焦方法。",
+        "outcomeZh": "能指出偏離焦點的具體線索及幫助重新聚焦的做法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2146",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 202,
+          "book": 16,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "12–13",
+          "locatorNote": "DOCX table 220, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "During a long lecture, attention can drift.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "attention can drift"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "What happened to Chen’s focus?",
+        "promptZh": "Chen 的注意力發生甚麼變化？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It moved away from the route for a while, then he refocused.",
+            "zh": "注意力暫時離開路線，之後他重新集中。"
+          },
+          {
+            "id": "b",
+            "en": "He deliberately refused to hear any route information.",
+            "zh": "他刻意拒絕聽任何路線資料。"
+          },
+          {
+            "id": "c",
+            "en": "He slept through the whole briefing.",
+            "zh": "他睡過了整場簡介。"
+          },
+          {
+            "id": "d",
+            "en": "The route itself moved to a different part of the city.",
+            "zh": "路線本身移到城市另一區。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他被窗外噪音帶走注意，停頓後又找到站點；沒有證據說他刻意拒聽或睡着。",
+        "en": "During the long map briefing, Chen noticed that his attention drifted from the route to the noise outside. He asked for a short pause, then found the marked stop on the map again.",
+        "zh": "漫長的路線簡介期間，Chen 發現注意力由路線飄到窗外噪音。他要求短暫停頓，然後重新在地圖上找到標示的站點。"
+      },
+      "reply": {
+        "promptEn": "I lose track during long staff briefings, but a written agenda and a quick pause help me return to the topic. How could I explain this to my manager?",
+        "promptZh": "冗長職員簡介時我有時跟不上，但書面議程和短暫停頓能幫我回到議題。我可怎樣向經理解釋？",
+        "options": [
+          {
+            "id": "a",
+            "en": "My attention can drift in a long briefing; the agenda and a brief pause help me refocus.",
+            "zh": "冗長簡介時我的注意力可能飄走；議程和短暫停頓有助重新集中。"
+          },
+          {
+            "id": "b",
+            "en": "A written agenda helps me see which point we are discussing.",
+            "zh": "書面議程幫我知道正在談哪一點。"
+          },
+          {
+            "id": "c",
+            "en": "A short pause lets me check my notes before we continue.",
+            "zh": "短暫停頓讓我在繼續前核對筆記。"
+          },
+          {
+            "id": "d",
+            "en": "I can ask for a recap when I have lost the thread of the discussion.",
+            "zh": "跟不上討論時，我可以請人簡單重述。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都誠實交代跟進方法，不把注意力偏離說成拒絕工作。"
+      },
+      "scene": {
+        "promptEn": "At a bird survey, Mira starts counting calls but soon follows a distant conversation instead. She notices and returns to the count. Which description fits?",
+        "promptZh": "鳥類調查時，Mira 起初數鳥鳴，後來聽着遠處談話。她察覺後再回去數。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her attention drifted and she brought it back to the bird count.",
+            "zh": "她的注意力飄走，之後重新集中數鳥鳴。"
+          },
+          {
+            "id": "b",
+            "en": "She chose to abandon the survey and leave the site.",
+            "zh": "她決定放棄調查並離開現場。"
+          },
+          {
+            "id": "c",
+            "en": "The birds stopped calling before she began to count.",
+            "zh": "在她開始數之前，鳥已停止鳴叫。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "轉而注意遠處談話又回來數，顯示短暫走神；沒有離開或放棄。"
+      },
+      "contrast": {
+        "promptEn": "Which observation alone is least evidence that attention drifted?",
+        "promptZh": "哪項觀察單獨最不足以說明注意力飄走？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A listener starts looking at an unrelated message and misses the next step.",
+            "zh": "聽者改看無關訊息，錯過下一個步驟。"
+          },
+          {
+            "id": "b",
+            "en": "A listener asks a question directly about the point just explained.",
+            "zh": "聽者就剛才解釋的要點提出直接相關的問題。"
+          },
+          {
+            "id": "c",
+            "en": "A reader realises she has followed a side thought and must reread the paragraph.",
+            "zh": "讀者發現自己跟着旁的念頭走，需要重讀段落。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "直接相關的提問可顯示仍在跟進；另兩項有焦點離開原任務的線索。"
+      },
+      "dialogue": {
+        "promptEn": "A workshop participant says, “I missed the last instruction when the corridor became noisy. Could you repeat it?” Which reply is most helpful?",
+        "promptZh": "工作坊參加者說：「走廊變吵時，我漏聽了最後一項指示，可否重說？」哪個回應最有幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Of course. Attention can drift when it is noisy; the last step is to label each sample.",
+            "zh": "當然。吵雜時注意力可能飄走；最後一步是為每個樣本貼標籤。"
+          },
+          {
+            "id": "b",
+            "en": "You missed it because you never care about the workshop.",
+            "zh": "你漏聽是因為你從不重視工作坊。"
+          },
+          {
+            "id": "c",
+            "en": "There was no last step, so you do not need a label.",
+            "zh": "根本沒有最後一步，你不需要貼標籤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "回應不替對方判斷動機，並確實重述最後一步。"
+      },
+      "speaking": {
+        "en": "When my attention drifts during a long reading session, I mark the last paragraph I understood and start again there.",
+        "zh": "長時間閱讀時若注意力飄走，我會標記最後一段讀懂的文字，再從那裏繼續。",
+        "promptZh": "先聽示範，再說明走神後如何找回任務位置。",
+        "targetSpan": {
+          "start": 8,
+          "end": 24
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你和朋友準備舞蹈排練。四十分鐘後有人開始看別處，記不起下一個隊形；你建議休息三分鐘，再從已學會的隊形接下去，不責怪他們。寫一至兩句英文向領隊說明。",
+        "selfCheckZh": "兩例都要交代四十分鐘後的走神線索、三分鐘休息、從已學會的隊形接續，且不責怪參加者。",
+        "examples": [
+          {
+            "en": "After forty minutes, some dancers’ attention drifted and they lost the next formation. A three-minute break could help us resume from the formation everyone already knows without blaming anyone.",
+            "zh": "四十分鐘後，有些舞者注意力飄走，忘記下一個隊形。休息三分鐘後，可從大家已懂的隊形接續，而不責怪任何人。"
+          },
+          {
+            "en": "The dancers began looking away after forty minutes, so their focus drifted before the next formation. Let us pause for three minutes and restart at the familiar formation, rather than blame them.",
+            "zh": "四十分鐘後舞者開始望向別處，下一個隊形前注意力已飄走。我們先休息三分鐘，再從熟悉的隊形開始，而不是責怪他們。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "After forty minutes",
+            "zh": "四十分鐘後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 19
+            }
+          },
+          {
+            "en": "the next formation",
+            "zh": "下一個隊形",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 85
+            }
+          },
+          {
+            "en": "A three-minute break",
+            "zh": "三分鐘休息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 87,
+              "end": 107
+            }
+          },
+          {
+            "en": "restart at the familiar formation",
+            "zh": "從熟悉的隊形開始",
+            "exampleIndex": 1,
+            "span": {
+              "start": 137,
+              "end": 170
+            }
+          },
+          {
+            "en": "rather than blame them",
+            "zh": "而不是責怪他們",
+            "exampleIndex": 1,
+            "span": {
+              "start": 172,
+              "end": 194
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Attention can drift without a decision to give up.",
+          "zh": "注意力可能不經意飄走，並不代表決定放棄。"
+        },
+        {
+          "en": "When attention drifts, a pause and a clear return point can help a group refocus.",
+          "zh": "短暫停頓和清楚的接續位置，可幫小組重新集中。"
+        }
+      ]
+    }
+  ]
+}

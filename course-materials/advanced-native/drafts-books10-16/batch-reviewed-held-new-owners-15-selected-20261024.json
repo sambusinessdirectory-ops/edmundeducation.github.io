@@ -1,0 +1,4048 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-reviewed-held-new-owners-15-selected-20261024",
+  "lessons": [
+    {
+      "id": "advanced-native-2356",
+      "number": 2356,
+      "inventoryId": "expr-2356",
+      "titleEn": "speak different emotional languages",
+      "titleZh": "對不同人喚起不同情感",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:speak|speaks|spoke|speaking) different emotional languages\\b",
+        "glossaryForbidden": [
+          "\\bdifferent emotional languages\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Evoke different feelings in different audiences through the same work or event.",
+        "meaningZh": "同一作品或活動令不同觀眾產生不同感受。",
+        "grammar": "A story, performance or image can speak different emotional languages to two named audiences; the languages are figurative.",
+        "register": "Discussion of art, stories and audience response.",
+        "boundaryZh": "須指出至少兩組觀眾及各自的情感反應；不是說他們使用不同口語，也不表示兩組人互不理解。",
+        "misconceptionZh": "與「兩人有相同情感語言」不同；這裏是一件作品對不同群體產生不同情緒效果。",
+        "outcomeZh": "能指出同一作品如何分別觸動兩組觀眾，並自然運用情感語言的比喻。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0245",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 23,
+          "book": 10,
+          "question": 18,
+          "sample": "S2",
+          "sourceBookPages": "43–45",
+          "locatorNote": "DOCX table 18, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The story can speak different emotional languages to children and parents.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "speak different emotional languages"
+        }
+      ],
+      "listening": {
+        "en": "At the puppet show, children cheered for the daring journey, while grandparents grew quiet at a song from their youth. The show spoke different emotional languages to the two groups.",
+        "zh": "木偶劇中，孩子為勇敢的旅程歡呼，祖父母聽到年輕時的歌曲則安靜下來；同一齣劇對兩組人喚起不同情感。",
+        "promptZh": "木偶劇對兩組觀眾有甚麼不同作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It excited the children but stirred memories in the grandparents.",
+            "zh": "它令孩子興奮，卻喚起祖父母的回憶。"
+          },
+          {
+            "id": "b",
+            "en": "Both groups enjoyed the puppet craft for the same reason.",
+            "zh": "兩組人都因相同原因欣賞木偶製作。"
+          },
+          {
+            "id": "c",
+            "en": "The grandparents were mainly reacting to the children’s cheering.",
+            "zh": "祖父母主要是對孩子的歡呼作出反應。"
+          },
+          {
+            "id": "d",
+            "en": "The song gave children and grandparents the same feeling.",
+            "zh": "那首歌令孩子和祖父母產生相同感受。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "孩子歡呼與長輩沉靜回憶是不同情感反應；不能推斷他們的興趣或反應完全相同。"
+      },
+      "reply": {
+        "promptEn": "How did the play affect the younger and older viewers?",
+        "promptZh": "（這齣劇怎樣影響年輕和年長觀眾？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The children enjoyed the chase, while the closing song made older viewers nostalgic.",
+            "zh": "孩子喜歡追逐情節，片尾曲則令年長觀眾感到懷念。"
+          },
+          {
+            "id": "b",
+            "en": "It spoke different emotional languages to younger and older viewers.",
+            "zh": "它對年輕和年長觀眾喚起不同情感。"
+          },
+          {
+            "id": "c",
+            "en": "The younger audience felt excited, whereas the older audience felt nostalgic.",
+            "zh": "年輕觀眾感到興奮，年長觀眾則感到懷念。"
+          },
+          {
+            "id": "d",
+            "en": "Different scenes gave the two age groups different feelings to take away.",
+            "zh": "不同場景令兩個年齡層觀眾留下不同感受。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四句都可描述觀眾反應；金句概括同一作品如何觸動不同年齡層。"
+      },
+      "scene": {
+        "promptZh": "一個社區展覽同時展示孩子畫的未來街道和長者拍的舊街照片；孩子充滿好奇，長者感到懷念。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The exhibition speaks different emotional languages to children and older residents.",
+            "zh": "展覽對孩子和年長居民喚起不同情感。"
+          },
+          {
+            "id": "b",
+            "en": "The exhibition gives both groups a chance to compare old and new streets.",
+            "zh": "展覽讓兩組人有機會比較新舊街道。"
+          },
+          {
+            "id": "c",
+            "en": "Children were nostalgic about the old shops, while older residents focused on the new art.",
+            "zh": "孩子懷念舊店，年長居民則較留意新的藝術作品。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "好奇與懷念分屬不同情感；比較街道只是活動內容，沒有概括兩組人的感受。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不支持「speaks different emotional languages」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One song makes children dance and adults remember an old friend.",
+            "zh": "同一首歌令孩子起舞，亦令成年人想起舊友。"
+          },
+          {
+            "id": "b",
+            "en": "A film prompts one group to laugh and another to feel uneasy.",
+            "zh": "一齣電影令一組人發笑，另一組人感到不安。"
+          },
+          {
+            "id": "c",
+            "en": "Everyone in the audience reports the same feeling for the same reason.",
+            "zh": "所有觀眾都因同一原因報告相同感受。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "若觀眾的情緒與原因都相同，便沒有「不同情感語言」的對比。"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「為甚麼孩子覺得這部短片有趣，家長卻看得眼泛淚光？」你怎樣回答最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It speaks different emotional languages to them: the children see adventure, while the parents recall their own childhood.",
+            "zh": "它對兩組人喚起不同情感：孩子看見冒險，家長則想起自己的童年。"
+          },
+          {
+            "id": "b",
+            "en": "The children noticed the comic scenes more quickly.",
+            "zh": "孩子較快留意到滑稽的場景。"
+          },
+          {
+            "id": "c",
+            "en": "The parents may have recognised a place from their childhood.",
+            "zh": "家長可能認出童年熟悉的地方。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句同時解釋兩組人的不同感受；其他回答只提一組人的反應。"
+      },
+      "speaking": {
+        "en": "The mural spoke different emotional languages to the pupils and their grandparents.",
+        "zh": "這幅壁畫對學生和他們的祖父母喚起不同情感。",
+        "promptZh": "先聽示範，再說出同一作品如何觸動兩組人。",
+        "targetSpan": {
+          "start": 10,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一張社區口述歷史地圖標出昔日商店與今天的街頭藝術。青少年想探索新作品，老街坊想起已結業的店。用一至兩句英文描述同一張地圖帶來的不同情感。",
+        "selfCheckZh": "清楚指出兩組人及各自的感受；不要說他們使用不同口語。",
+        "examples": [
+          {
+            "en": "The history map speaks different emotional languages to teenagers and older neighbours: one group feels curious, while the other remembers lost shops.",
+            "zh": "口述歷史地圖對青少年和老街坊喚起不同情感：前者感到好奇，後者想起已結業的店。"
+          },
+          {
+            "en": "Street-art markers excite younger visitors, but the old shop names stir memories among longtime residents; the map speaks different emotional languages to them.",
+            "zh": "街頭藝術標記令年輕訪客興奮，舊店名稱則勾起老街坊的回憶；地圖對兩組人喚起不同情感。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The history map",
+            "zh": "口述歷史地圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "teenagers and older neighbours",
+            "zh": "青少年和老街坊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 86
+            }
+          },
+          {
+            "en": "lost shops",
+            "zh": "已結業的店",
+            "exampleIndex": 0,
+            "span": {
+              "start": 139,
+              "end": 149
+            }
+          },
+          {
+            "en": "Street-art markers",
+            "zh": "街頭藝術標記",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "stir memories",
+            "zh": "勾起回憶",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 80
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The same photograph can speak different emotional languages to a newcomer and a former resident.",
+          "zh": "同一張照片可以令新來者和昔日居民產生不同感受。"
+        },
+        {
+          "en": "A performance spoke different emotional languages to the two families without dividing them.",
+          "zh": "一場表演令兩個家庭產生不同感受，但沒有令他們疏遠。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-final-focused-held-new-owner-eight-2356-3351-20261024.json SHA-256 0a438d29fd4aaab9c5059a42c1edb0887a1013fad61dd4aa85fb49ef6afb2e83; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-final-focused-held-new-owner-eight-2356-3351-20261024.json SHA-256 0a438d29fd4aaab9c5059a42c1edb0887a1013fad61dd4aa85fb49ef6afb2e83; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis and file verification not yet complete."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device checks remain pending."
+        },
+        "notes": [
+          "Unselected source-bound author proposal; independent editorial, audio, browser/device and release gates pending.",
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; no audio, browser/device or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2579",
+      "number": 2579,
+      "inventoryId": "expr-2579",
+      "titleEn": "save a lot of worry",
+      "titleZh": "省卻許多擔憂",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:save|saves|saved|saving)(?: (?:[A-Za-z]+|the [A-Za-z]+))? a lot of worry\\b",
+        "glossaryForbidden": [
+          "\\ba lot of worry\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Prevent considerable anxiety by giving timely, useful reassurance or information.",
+        "meaningZh": "藉及時而有用的訊息，免去不少擔憂。",
+        "grammar": "Save someone a lot of worry takes a person or group object; save a lot of worry is also possible without naming the person.",
+        "register": "Everyday discussion of updates, planning and reassurance.",
+        "boundaryZh": "重點是減少不必要的擔心，不保證事情完全沒有風險或已全部解決。",
+        "misconceptionZh": "這裏的 save 不是省錢；一句空泛安慰未必能省卻擔憂，訊息應具體可信。",
+        "outcomeZh": "能說明哪項及時資訊如何減少某人的擔憂，同時保留尚未確定的部分。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0468",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 43,
+          "book": 11,
+          "question": 3,
+          "sample": "S1",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 39, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A quick update can save a lot of worry.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "save a lot of worry"
+        }
+      ],
+      "listening": {
+        "en": "Before the school trip, the coach sent parents a message confirming that the delayed bus had been replaced. The update saved them a lot of worry, although arrival would still be late.",
+        "zh": "學校旅行前，教練通知家長延誤的巴士已獲替換；雖然仍會遲到，這則消息讓家長少了許多擔憂。",
+        "promptZh": "這則消息帶來甚麼作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It reassured parents about the bus while leaving the delay clear.",
+            "zh": "它讓家長知道已有巴士接替，同時沒有隱瞞延誤。"
+          },
+          {
+            "id": "b",
+            "en": "The message gave parents an exact revised arrival time.",
+            "zh": "訊息向家長提供了確切的更新後抵達時間。"
+          },
+          {
+            "id": "c",
+            "en": "It meant the replacement bus was not needed after all.",
+            "zh": "這表示最終不需要替換巴士。"
+          },
+          {
+            "id": "d",
+            "en": "It told parents to use a different pickup point.",
+            "zh": "它通知家長改用另一個接送地點。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "替換巴士的具體資訊可減少焦慮，但不能消除已知的延誤。"
+      },
+      "reply": {
+        "promptEn": "Why was the early transport update useful to parents?",
+        "promptZh": "（提早通知交通安排為何對家長有用？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It told them a replacement bus was ready.",
+            "zh": "它讓家長知道替換巴士已準備好。"
+          },
+          {
+            "id": "b",
+            "en": "It saved the parents a lot of worry while they waited.",
+            "zh": "它讓等待中的家長少了許多擔憂。"
+          },
+          {
+            "id": "c",
+            "en": "It helped them adjust their pickup time.",
+            "zh": "它幫助家長調整接送時間。"
+          },
+          {
+            "id": "d",
+            "en": "It meant they did not have to keep calling for the same update.",
+            "zh": "它令家長不用為同一消息反覆致電。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四句都說明通知的好處；金句以本課搭配指出擔憂減少。"
+      },
+      "scene": {
+        "promptZh": "獸醫診所先通知主人血液樣本已安全送抵實驗室，但結果仍要兩天才出。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That confirmation may save the owner a lot of worry about the sample being lost.",
+            "zh": "這項確認可讓主人少擔心樣本會遺失。"
+          },
+          {
+            "id": "b",
+            "en": "The confirmation tells the owner that the test result will be favourable.",
+            "zh": "這項確認告訴主人檢驗結果一定理想。"
+          },
+          {
+            "id": "c",
+            "en": "The clinic has reduced the waiting time for the result to a few hours.",
+            "zh": "診所已把等候結果的時間縮短至數小時。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "主人得知樣本已送達，可免去一部分擔心；檢驗結果仍未知。"
+      },
+      "contrast": {
+        "promptZh": "哪句最不能支持「save a lot of worry」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A confirmed schedule lets families arrange collection in advance.",
+            "zh": "經確認的時間表讓家庭預先安排接送。"
+          },
+          {
+            "id": "b",
+            "en": "A clear status report tells a customer what has been checked and what remains.",
+            "zh": "清楚的進度報告告訴顧客已檢查甚麼，以及還欠甚麼。"
+          },
+          {
+            "id": "c",
+            "en": "A vague message says “do not worry” but gives no information about the missing parcel.",
+            "zh": "空泛訊息只說「別擔心」，卻沒有提供遺失包裹的資訊。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "缺乏具體資訊的空泛安慰，難以證明已消除擔憂的原因。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「家長還在問巴士是否有接替安排。」你已收到替換巴士的確認。哪句最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Send the confirmed bus details now; that could save them a lot of worry, even if we still need to update the arrival time.",
+            "zh": "現在傳送已確認的巴士資料吧；即使稍後仍要更新到達時間，也能讓家長少擔心。"
+          },
+          {
+            "id": "b",
+            "en": "We should wait until every minute of the route is certain before saying anything.",
+            "zh": "等路程每分鐘都確定後，我們才公布消息吧。"
+          },
+          {
+            "id": "c",
+            "en": "Tell them the bus number first and promise a later arrival-time update.",
+            "zh": "先告訴家長巴士號碼，再承諾稍後更新到達時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句提出具體及時資訊，並沒有假裝全部細節已確定。"
+      },
+      "speaking": {
+        "en": "A confirmed pickup message could save the parents a lot of worry during the delay.",
+        "zh": "延誤期間，一則已確認的接送消息可以令家長少了許多擔憂。",
+        "promptZh": "先聽示範，再說出哪項消息可減少誰的擔心。",
+        "targetSpan": {
+          "start": 33,
+          "end": 64
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：農墟主辦方提早兩天確認一名檔主的攤位和卸貨時間，但天氣安排仍待公布。用一至兩句英文說明及時確認如何幫助檔主，並保留尚未確定的事。",
+        "selfCheckZh": "指出具體已確認事項與仍待公布的資訊；不要說所有問題都已解決。",
+        "examples": [
+          {
+            "en": "Confirming the stall number and unloading time saved the vendor a lot of worry, although the weather plan is still pending.",
+            "zh": "提早確認攤位號碼與卸貨時間，讓檔主少了許多擔憂，雖然天氣安排仍待公布。"
+          },
+          {
+            "en": "The organiser confirmed the stall number and unloading time two days early, which could save the vendor a lot of worry; the weather plan is still pending.",
+            "zh": "主辦方提早兩天確認攤位號碼和卸貨時間，可讓檔主少了許多擔憂；天氣安排仍待公布。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the stall number",
+            "zh": "攤位號碼",
+            "exampleIndex": 0,
+            "span": {
+              "start": 11,
+              "end": 27
+            }
+          },
+          {
+            "en": "unloading time",
+            "zh": "卸貨時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 32,
+              "end": 46
+            }
+          },
+          {
+            "en": "the weather plan",
+            "zh": "天氣安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 105
+            }
+          },
+          {
+            "en": "two days early",
+            "zh": "提早兩天",
+            "exampleIndex": 1,
+            "span": {
+              "start": 60,
+              "end": 74
+            }
+          },
+          {
+            "en": "is still pending",
+            "zh": "仍待公布",
+            "exampleIndex": 1,
+            "span": {
+              "start": 137,
+              "end": 153
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A precise collection time can save a lot of worry for someone waiting at home.",
+          "zh": "確切的領取時間可令在家等候的人少了許多擔憂。"
+        },
+        {
+          "en": "The nurse’s short status update saved the family a lot of worry without promising a diagnosis.",
+          "zh": "護士的簡短進度消息令家人少了許多擔憂，卻沒有預先保證診斷結果。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-final-focused-held-new-owner-eight-2356-3351-20261024.json SHA-256 0a438d29fd4aaab9c5059a42c1edb0887a1013fad61dd4aa85fb49ef6afb2e83; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-final-focused-held-new-owner-eight-2356-3351-20261024.json SHA-256 0a438d29fd4aaab9c5059a42c1edb0887a1013fad61dd4aa85fb49ef6afb2e83; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis and file verification not yet complete."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device checks remain pending."
+        },
+        "notes": [
+          "Unselected source-bound author proposal; independent editorial, audio, browser/device and release gates pending.",
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; no audio, browser/device or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2712",
+      "number": 2712,
+      "inventoryId": "expr-2712",
+      "titleEn": "stay in one musical lane",
+      "titleZh": "只聽一類音樂",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:stay|stays|stayed|staying) in one musical lane\\b",
+        "glossaryForbidden": [
+          "\\bone musical lane\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Keep choosing one musical genre or tradition instead of exploring other styles.",
+        "meaningZh": "一直選擇同一類音樂，而較少接觸其他風格。",
+        "grammar": "Stay in one musical lane is a figurative choice about music; negatives such as does not stay in one musical lane express variety.",
+        "register": "Casual talk about listening, DJ sets and musical tastes.",
+        "boundaryZh": "重點是音樂類型的選擇，未必表示能力不足或被迫局限；也不是指道路上的車道。",
+        "misconceptionZh": "只選一類音樂不等於這類音樂品質較差；不應推斷某人永遠不能嘗試別的風格。",
+        "outcomeZh": "能分辨自願維持同一音樂風格與跨類型探索，並用比喻描述選擇。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0601",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 55,
+          "book": 11,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "40–42",
+          "locatorNote": "DOCX table 51, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She does not stay in one musical lane for long.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stay in one musical lane"
+        }
+      ],
+      "listening": {
+        "en": "For this month’s radio set, Leo chooses only acoustic folk songs, even though he knows other genres well. He is choosing to stay in one musical lane for now.",
+        "zh": "本月的電台歌單中，利奧只選木結他民謠，雖然他也熟悉其他類型；目前他主動選擇只播放一類音樂。",
+        "promptZh": "利奧本月的選曲方式是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He is deliberately focusing on one style for this set.",
+            "zh": "他刻意在這輯歌單集中選用一種風格。"
+          },
+          {
+            "id": "b",
+            "en": "He chose folk because the station had no other records available.",
+            "zh": "他選民謠是因為電台沒有其他可用唱片。"
+          },
+          {
+            "id": "c",
+            "en": "He was introducing a different genre alongside folk each week.",
+            "zh": "他每週都在民謠以外加入不同音樂類型。"
+          },
+          {
+            "id": "d",
+            "en": "He planned to use folk for one show and then switch styles the next day.",
+            "zh": "他打算只在一集節目播民謠，翌日便轉換風格。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他明知其他類型，仍暫時選擇集中於民謠；不能推斷能力或永久限制。"
+      },
+      "reply": {
+        "promptEn": "How is the host choosing music for this month’s programme?",
+        "promptZh": "（主持人本月的節目怎樣選曲？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He is focusing on acoustic folk songs.",
+            "zh": "他集中選擇木結他民謠。"
+          },
+          {
+            "id": "b",
+            "en": "He plans to keep the set within one genre.",
+            "zh": "他打算讓歌單維持在一個類型之內。"
+          },
+          {
+            "id": "c",
+            "en": "He is staying in one musical lane for this month’s programme.",
+            "zh": "他本月節目暫時只選一類音樂。"
+          },
+          {
+            "id": "d",
+            "en": "He is deliberately leaving other genres out of this month’s programme.",
+            "zh": "他刻意不把其他音樂類型放進本月節目。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都可描述選曲方式；金句運用音樂車道的比喻。"
+      },
+      "scene": {
+        "promptZh": "社區合唱團這季只排練爵士改編曲，雖有民謠和古典曲譜可選；領隊說這是本季主題。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The choir is staying in one musical lane this season by choice.",
+            "zh": "合唱團這季自行選擇集中於一種音樂風格。"
+          },
+          {
+            "id": "b",
+            "en": "The season focuses on jazz because the choir has no other scores.",
+            "zh": "這一季集中爵士，是因為合唱團沒有其他曲譜。"
+          },
+          {
+            "id": "c",
+            "en": "The choir plans to add folk songs to every rehearsal this season.",
+            "zh": "合唱團計劃這季每次排練都加入民謠。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "本季專注爵士是明確的主題選擇，不表示其他風格不能唱。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合 stay in one musical lane？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A DJ plays only soul records for a themed evening.",
+            "zh": "唱片騎師在主題之夜只播放騷靈樂唱片。"
+          },
+          {
+            "id": "b",
+            "en": "A listener tries classical, hip-hop and traditional music each week.",
+            "zh": "聽眾每週都接觸古典、嘻哈和傳統音樂。"
+          },
+          {
+            "id": "c",
+            "en": "A choir chooses only jazz pieces for one season.",
+            "zh": "合唱團一季只選爵士樂曲。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "每週主動嘗試多種風格，正好與只待在一個音樂類型相反。"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「她有很多類型的唱片，為甚麼今晚卻只播藍調？」你知道今晚是專題分享。哪句最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is staying in one musical lane tonight because the session is devoted to blues, not because she dislikes other music.",
+            "zh": "今晚她只播藍調，是因為這場分享有特定主題，不代表她討厭其他音樂。"
+          },
+          {
+            "id": "b",
+            "en": "She chose blues songs that fit the evening’s topic.",
+            "zh": "她選了符合今晚主題的藍調歌曲。"
+          },
+          {
+            "id": "c",
+            "en": "The rest of her collection can be featured another night.",
+            "zh": "她其他唱片可留待另一晚介紹。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句解釋暫時集中於一類音樂，也避免誤判她對其他類型的態度。"
+      },
+      "speaking": {
+        "en": "For the festival set, the group stayed in one musical lane and played only folk songs.",
+        "zh": "這組人在音樂節的演出集中於一種風格，只唱民謠。",
+        "promptZh": "先聽示範，再說出選曲如何集中於一個類型。",
+        "targetSpan": {
+          "start": 32,
+          "end": 58
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個新播客擁有大量不同風格的唱片，但第一季決定只介紹城市藍調；主持人說往後仍可能做其他主題。用一至兩句英文描述這個暫時選擇。",
+        "selfCheckZh": "指出第一季專注哪一類音樂，並避免說主持人不懂或討厭其他風格。",
+        "examples": [
+          {
+            "en": "The podcast is staying in one musical lane for its first season, focusing on urban blues even though its archive holds other genres.",
+            "zh": "播客第一季暫時只介紹一類音樂，集中於城市藍調，儘管資料庫還有其他類型。"
+          },
+          {
+            "en": "For now, the host stays in one musical lane with blues records, but a later season could explore a different tradition.",
+            "zh": "目前主持人只介紹藍調唱片，但往後一季可以探索另一種音樂傳統。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "its first season",
+            "zh": "第一季",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 63
+            }
+          },
+          {
+            "en": "urban blues",
+            "zh": "城市藍調",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 88
+            }
+          },
+          {
+            "en": "other genres",
+            "zh": "其他類型",
+            "exampleIndex": 0,
+            "span": {
+              "start": 119,
+              "end": 131
+            }
+          },
+          {
+            "en": "blues records",
+            "zh": "藍調唱片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 49,
+              "end": 62
+            }
+          },
+          {
+            "en": "a different tradition",
+            "zh": "另一種音樂傳統",
+            "exampleIndex": 1,
+            "span": {
+              "start": 97,
+              "end": 118
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A themed playlist can stay in one musical lane without limiting its maker forever.",
+          "zh": "主題歌單可以暫時集中於一種風格，卻不會永久限制製作人。"
+        },
+        {
+          "en": "She did not stay in one musical lane: her next set moved from jazz to traditional songs.",
+          "zh": "她沒有只停留在一種音樂風格：下一輯歌單從爵士轉到傳統歌曲。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-final-focused-held-new-owner-eight-2356-3351-20261024.json SHA-256 0a438d29fd4aaab9c5059a42c1edb0887a1013fad61dd4aa85fb49ef6afb2e83; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-final-focused-held-new-owner-eight-2356-3351-20261024.json SHA-256 0a438d29fd4aaab9c5059a42c1edb0887a1013fad61dd4aa85fb49ef6afb2e83; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis and file verification not yet complete."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device checks remain pending."
+        },
+        "notes": [
+          "Unselected source-bound author proposal; independent editorial, audio, browser/device and release gates pending.",
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; no audio, browser/device or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3086",
+      "number": 3086,
+      "inventoryId": "expr-3086",
+      "titleEn": "soften one’s stance",
+      "titleZh": "放鬆原有立場",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:(?:soften|softens|softened|softening) (?:his|her|their|our|my|your|its|the|a) stance|(?:his|her|their|our|my|your|its|the|a) stance (?:may |might |could |will |can |has |had |is |was |gradually )*(?:soften|softens|softened))\\b",
+        "glossaryForbidden": [
+          "\\bstance\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Become less rigid about an opinion or policy without necessarily reversing it.",
+        "meaningZh": "對某立場不再那麼堅持，但未必完全改變看法。",
+        "grammar": "Use soften one’s stance or one’s stance may soften; identify the view and evidence behind a possible shift.",
+        "register": "Discussion of decisions, negotiations and evolving opinions.",
+        "boundaryZh": "表示立場有可能變得較不強硬，不等於已完全同意對方；若只談實物變軟，便不是本課意思。",
+        "misconceptionZh": "聽取新證據不保證一定讓步；may、might 等語氣須如實保留。",
+        "outcomeZh": "能描述一方在聽取理由後可能放鬆立場，同時避免誇大為已完全改變決定。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0975",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 91,
+          "book": 12,
+          "question": 22,
+          "sample": "S2",
+          "sourceBookPages": "55–56",
+          "locatorNote": "DOCX table 92, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "With time, her stance may gradually soften.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "gradually soften"
+        }
+      ],
+      "listening": {
+        "en": "The head teacher first rejected a later library closing time. After hearing how it would help working families, her stance may soften, though she has not decided yet.",
+        "zh": "校長起初反對圖書館延遲關門；聽到這樣可幫助在職家庭後，她的立場可能會放鬆，但仍未作決定。",
+        "promptZh": "校長的立場目前有甚麼可能變化？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She may become less opposed, although no decision has been made.",
+            "zh": "她可能不再那麼反對，但尚未作決定。"
+          },
+          {
+            "id": "b",
+            "en": "She has agreed to a permanent later closing time.",
+            "zh": "她已同意永久延遲關門。"
+          },
+          {
+            "id": "c",
+            "en": "She has promised a short trial of later hours, though not a permanent change.",
+            "zh": "她已答應短期試行延遲關門，但未同意永久改動。"
+          },
+          {
+            "id": "d",
+            "en": "She has decided that the existing closing time works best for working families.",
+            "zh": "她已認定現行關門時間最能配合在職家庭。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "聽取理由後可能較不強硬，但「可能」不等於已批准。"
+      },
+      "reply": {
+        "promptEn": "How might the head teacher respond after hearing the families’ reasons?",
+        "promptZh": "（聽過家庭提出的理由後，校長可能怎樣回應？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She may become more open to a trial period.",
+            "zh": "她可能更願意考慮試行一段時間。"
+          },
+          {
+            "id": "b",
+            "en": "She could ask for more details before deciding.",
+            "zh": "她可以要求更多資料才作決定。"
+          },
+          {
+            "id": "c",
+            "en": "She may soften her stance on the closing time.",
+            "zh": "她可能會放鬆對關門時間的原有立場。"
+          },
+          {
+            "id": "d",
+            "en": "She might consider one later evening each week.",
+            "zh": "她可能考慮每週有一晚延遲關門。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是合理的可能回應；金句明確表達立場變得較不強硬。"
+      },
+      "scene": {
+        "promptZh": "住戶代表原本反對在大廈設單車停泊處；看過不阻塞通道的設計後，願意討論試行三個月，但尚未表態支持。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The representative has softened her stance enough to discuss a trial.",
+            "zh": "代表的立場已有所放鬆，願意討論試行安排。"
+          },
+          {
+            "id": "b",
+            "en": "The representative has given unconditional final approval.",
+            "zh": "代表已無條件作出最後批准。"
+          },
+          {
+            "id": "c",
+            "en": "She has offered a different rack location without discussing a trial.",
+            "zh": "她沒有討論試行安排，只提出另一個停泊處位置。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "願意討論試行顯示態度變得較開放，卻不等於已全盤支持。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不能證明 someone has softened their stance？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A member who once rejected every proposal now considers a short trial.",
+            "zh": "原本拒絕所有提案的成員現在願意考慮短期試行。"
+          },
+          {
+            "id": "b",
+            "en": "A leader listens to new evidence and becomes less opposed.",
+            "zh": "領袖聽取新證據後不再那麼反對。"
+          },
+          {
+            "id": "c",
+            "en": "A manager repeats the same absolute refusal without considering any new facts.",
+            "zh": "經理沒有考慮新資料，只重複原本的絕對拒絕。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "沒有任何態度或判斷變化，不能說立場有所放鬆。"
+      },
+      "dialogue": {
+        "promptZh": "同事問：「委員聽了居民的交通數據後，是不是已支持新路線？」你知道他只答應再開一次會。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He has softened his stance enough to meet again, but he has not endorsed the route.",
+            "zh": "他的立場已放鬆到願意再開會，但尚未支持這條路線。"
+          },
+          {
+            "id": "b",
+            "en": "He agreed to another meeting to examine the figures.",
+            "zh": "他同意再開會審視數據。"
+          },
+          {
+            "id": "c",
+            "en": "We should wait for his formal decision before announcing support.",
+            "zh": "在宣布他支持前，我們應等候正式決定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句同時指出態度轉變與尚未批准的界線。"
+      },
+      "speaking": {
+        "en": "After seeing the revised plan, the chair softened her stance but requested another review.",
+        "zh": "看過修訂方案後，主席放鬆了原有立場，但要求再次檢視。",
+        "promptZh": "先聽示範，再說明立場如何有限度地改變。",
+        "targetSpan": {
+          "start": 41,
+          "end": 60
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：體育會主席原本堅持所有課程費用一律不退。家長出示因重傷而無法上課的證明後，主席願意討論特殊情況，但尚未改規章。用一至兩句英文描述她的態度。",
+        "selfCheckZh": "說明她願意考慮例外及仍未作正式決定；不要寫成規章已經修改。",
+        "examples": [
+          {
+            "en": "The chair softened her stance after seeing the injury evidence and agreed to discuss a limited exception.",
+            "zh": "主席看過受傷證明後放鬆原有立場，同意討論有限度例外。"
+          },
+          {
+            "en": "Her stance may soften further if the club reviews similar cases, but its refund rule has not changed yet.",
+            "zh": "若體育會再檢視同類個案，她的立場可能進一步放鬆，但退款規章尚未改動。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the injury evidence",
+            "zh": "受傷證明",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 62
+            }
+          },
+          {
+            "en": "a limited exception",
+            "zh": "有限度例外",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 104
+            }
+          },
+          {
+            "en": "similar cases",
+            "zh": "同類個案",
+            "exampleIndex": 1,
+            "span": {
+              "start": 50,
+              "end": 63
+            }
+          },
+          {
+            "en": "its refund rule",
+            "zh": "退款規章",
+            "exampleIndex": 1,
+            "span": {
+              "start": 69,
+              "end": 84
+            }
+          },
+          {
+            "en": "has not changed yet",
+            "zh": "尚未改動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 85,
+              "end": 104
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The council softened its stance after residents presented a workable alternative.",
+          "zh": "居民提出可行替代方案後，議會的立場有所放鬆。"
+        },
+        {
+          "en": "Their stance may soften with more evidence, but agreement is not guaranteed.",
+          "zh": "有更多證據後，他們的立場可能放鬆，但不保證會同意。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-final-focused-held-new-owner-eight-2356-3351-20261024.json SHA-256 0a438d29fd4aaab9c5059a42c1edb0887a1013fad61dd4aa85fb49ef6afb2e83; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-final-focused-held-new-owner-eight-2356-3351-20261024.json SHA-256 0a438d29fd4aaab9c5059a42c1edb0887a1013fad61dd4aa85fb49ef6afb2e83; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis and file verification not yet complete."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device checks remain pending."
+        },
+        "notes": [
+          "Unselected source-bound author proposal; independent editorial, audio, browser/device and release gates pending.",
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; no audio, browser/device or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3275",
+      "number": 3275,
+      "inventoryId": "expr-3275",
+      "titleEn": "lose its teeth",
+      "titleZh": "失去實際約束力",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:lose|loses|lost|losing) (?:its|their) teeth\\b",
+        "glossaryForbidden": [
+          "\\bteeth\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Lose practical force or effectiveness when a warning, lesson or rule is not followed through.",
+        "meaningZh": "警告、教訓或規則因缺乏後續行動而失去實際作用。",
+        "grammar": "Use a warning, lesson, consequence or rule as the subject of lose its teeth; plural subjects take their teeth.",
+        "register": "Discussion of follow-through, discipline and practical impact.",
+        "boundaryZh": "這裏的「牙齒」是效力的比喻，不是實際牙齒，也不表示法例文字必然已改動。",
+        "misconceptionZh": "只有宣布規則而沒有執行，可能使它失去作用；不能只憑規則存在就認定它有效。",
+        "outcomeZh": "能說明缺乏跟進如何削弱警告或規則的效力，並自然使用比喻。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1164",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 108,
+          "book": 12,
+          "question": 42,
+          "sample": "S2",
+          "sourceBookPages": "100–101",
+          "locatorNote": "DOCX table 112, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Without follow-through, the lesson can lose its teeth.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the lesson can lose its teeth"
+        }
+      ],
+      "listening": {
+        "en": "The chess club announced that missing three sessions would trigger a warning, but nobody recorded absences. Soon the rule began to lose its teeth.",
+        "zh": "象棋學會宣布缺席三次會受警告，但沒有人記錄缺席；這項規則很快開始失去約束力。",
+        "promptZh": "這項出席規則發生了甚麼變化？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It became less effective because no one kept track of absences.",
+            "zh": "因為沒有人記錄缺席，它變得較沒有作用。"
+          },
+          {
+            "id": "b",
+            "en": "The club replaced the rule with a new written penalty.",
+            "zh": "學會用一項新的書面懲罰取代原有規則。"
+          },
+          {
+            "id": "c",
+            "en": "Fewer members missed sessions after the rule was announced.",
+            "zh": "規則公布後，缺席的會員減少了。"
+          },
+          {
+            "id": "d",
+            "en": "Members now know exactly who has received three warnings.",
+            "zh": "會員現在清楚知道誰已收到三次警告。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有記錄和跟進會削弱規則效力，卻不等於規則已正式刪除。"
+      },
+      "reply": {
+        "promptEn": "What happens to the attendance rule when missed sessions are never recorded?",
+        "promptZh": "（如果從不記錄缺席，出席規則會怎樣？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Members may stop taking the warning seriously.",
+            "zh": "會員可能不再認真看待警告。"
+          },
+          {
+            "id": "b",
+            "en": "The rule loses its teeth without any follow-through.",
+            "zh": "沒有後續跟進，這項規則便失去實際約束力。"
+          },
+          {
+            "id": "c",
+            "en": "The club cannot show who has missed three sessions.",
+            "zh": "學會無法指出誰缺席了三次。"
+          },
+          {
+            "id": "d",
+            "en": "Its stated consequence becomes harder to apply fairly.",
+            "zh": "規則訂明的後果變得更難公平執行。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四句都描述沒有記錄的後果；金句用本課比喻概括效力流失。"
+      },
+      "scene": {
+        "promptZh": "博物館貼出禁止閃光燈的告示，但職員每次看見閃光都不處理；參觀者逐漸不再理會告示。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The no-flash rule is losing its teeth because nobody follows it up.",
+            "zh": "因為沒有人跟進，禁止閃光燈的規則正失去約束力。"
+          },
+          {
+            "id": "b",
+            "en": "The museum has officially withdrawn every photography restriction.",
+            "zh": "博物館已正式撤銷所有攝影限制。"
+          },
+          {
+            "id": "c",
+            "en": "The staff are considering a clearer sign rather than checking breaches.",
+            "zh": "職員正考慮換用更清楚的告示，卻仍未查核違規情況。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "告示仍在，卻因沒有執行而逐漸失效；不能說規則已正式撤銷。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不支持「the warning loses its teeth」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A warning is repeated, but the promised follow-up never happens.",
+            "zh": "警告反覆出現，但承諾的跟進從未實行。"
+          },
+          {
+            "id": "b",
+            "en": "Staff check every report and consistently apply the stated consequence.",
+            "zh": "職員查核每宗報告，並一致執行已說明的後果。"
+          },
+          {
+            "id": "c",
+            "en": "People realise that nobody checks whether the rule is followed.",
+            "zh": "大家發現沒有人檢查規則有否被遵守。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "若職員一致跟進並執行，便沒有足夠理由說警告失去效力。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「我們已提醒過大家遲交器材的後果，為何仍有人不理會？」你知道沒有人核對歸還紀錄。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The warning has lost its teeth because we never check the return log; we should start following it up.",
+            "zh": "我們從不核對歸還紀錄，警告已失去作用；應開始跟進。"
+          },
+          {
+            "id": "b",
+            "en": "We can ask someone to check the return log each week.",
+            "zh": "我們可請人每週核對歸還紀錄。"
+          },
+          {
+            "id": "c",
+            "en": "The reminder might need a clearer deadline.",
+            "zh": "提醒可能需要更清楚的截止時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指出缺乏跟進是警告失效的原因，亦提出改善方向。"
+      },
+      "speaking": {
+        "en": "Without regular checks, the equipment rule may lose its teeth even if the sign remains.",
+        "zh": "即使告示仍在，若沒有定期檢查，器材規則也可能失去約束力。",
+        "promptZh": "先聽示範，再說明甚麼令一項規則變得無力。",
+        "targetSpan": {
+          "start": 47,
+          "end": 61
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區回收活動要求檔主分類廢物，但主辦方從不檢查分類結果，也不回應違規情況。用一至兩句英文說明這項要求可能怎樣失效，以及可做甚麼跟進。",
+        "selfCheckZh": "寫出缺乏檢查與效力減弱之間的關係；不要說規則已正式取消。",
+        "examples": [
+          {
+            "en": "The sorting requirement may lose its teeth if organisers never check the bins or respond to mistakes; they should inspect the bins each week.",
+            "zh": "若主辦方從不檢查回收箱或回應分類錯誤，分類要求可能失去作用；他們應每週檢查回收箱。"
+          },
+          {
+            "en": "Without regular bin checks, the recycling rule could lose its teeth; the team should give vendors clear feedback.",
+            "zh": "若沒有定期檢查回收箱，回收規則可能失去約束力；團隊應給檔主清楚回饋。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The sorting requirement",
+            "zh": "分類要求",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 23
+            }
+          },
+          {
+            "en": "check the bins",
+            "zh": "檢查回收箱",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 77
+            }
+          },
+          {
+            "en": "respond to mistakes",
+            "zh": "回應分類錯誤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 100
+            }
+          },
+          {
+            "en": "regular bin checks",
+            "zh": "定期檢查回收箱",
+            "exampleIndex": 1,
+            "span": {
+              "start": 8,
+              "end": 26
+            }
+          },
+          {
+            "en": "clear feedback",
+            "zh": "清楚回饋",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 112
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A safety warning can lose its teeth when the promised inspection never happens.",
+          "zh": "若承諾的檢查從未進行，安全警告便可能失去作用。"
+        },
+        {
+          "en": "The club’s code lost its teeth after leaders stopped responding to repeated breaches.",
+          "zh": "領導人停止回應一再違規後，社團守則失去了約束力。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-final-focused-held-new-owner-eight-2356-3351-20261024.json SHA-256 0a438d29fd4aaab9c5059a42c1edb0887a1013fad61dd4aa85fb49ef6afb2e83; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-final-focused-held-new-owner-eight-2356-3351-20261024.json SHA-256 0a438d29fd4aaab9c5059a42c1edb0887a1013fad61dd4aa85fb49ef6afb2e83; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis and file verification not yet complete."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device checks remain pending."
+        },
+        "notes": [
+          "Unselected source-bound author proposal; independent editorial, audio, browser/device and release gates pending.",
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; no audio, browser/device or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3321",
+      "number": 3321,
+      "inventoryId": "expr-3321",
+      "titleEn": "sort it out",
+      "titleZh": "把問題處理好",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:sort|sorts|sorted|sorting) it out\\b",
+        "glossaryForbidden": [
+          "\\bsort\\b.*\\bout\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Resolve a practical problem or disagreement; in the future tense it can be a promise rather than a completed fix.",
+        "meaningZh": "處理並解決實際問題或分歧；用將來式時只是承諾，未必已解決。",
+        "grammar": "Sort it out is a separable phrasal verb with it between sort and out; tense signals whether resolution is planned or complete.",
+        "register": "Everyday speech about plans, mix-ups and practical problems.",
+        "boundaryZh": "說「we will sort it out」不代表已找到方案；若再加 somehow，語氣可能顯得欠具體。",
+        "misconceptionZh": "不要把日後處理的承諾當成問題已解決的證據，亦不要把 sort it out 解作把物件分類。",
+        "outcomeZh": "能用本課片語提出處理問題的承諾，並交代下一步及未解決狀態。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1210",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 112,
+          "book": 12,
+          "question": 46,
+          "sample": "S2",
+          "sourceBookPages": "108–109",
+          "locatorNote": "DOCX table 116, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Without a schedule, we are left saying we'll sort it out somehow.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "we'll sort it out somehow"
+        }
+      ],
+      "listening": {
+        "en": "Two groups were booked into the same meeting room. The organiser said, “We will sort it out after checking both groups’ times,” but neither group had moved yet.",
+        "zh": "兩組人獲安排使用同一會議室。主辦者說：「查核兩組人的時間後，我們會處理好。」但當時兩組都尚未改地方。",
+        "promptZh": "主辦者這句話表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They intend to resolve the booking clash after checking the times.",
+            "zh": "他們打算查核時間後處理預約衝突。"
+          },
+          {
+            "id": "b",
+            "en": "The organiser had already assigned both groups separate rooms.",
+            "zh": "主辦者已分別為兩組人安排不同房間。"
+          },
+          {
+            "id": "c",
+            "en": "The organiser asked the groups to resolve the clash without help.",
+            "zh": "主辦者要求兩組人自行解決衝突。"
+          },
+          {
+            "id": "d",
+            "en": "The organiser was making a new schedule for later bookings only.",
+            "zh": "主辦者只是在為日後預約制定新時間表。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "這是未來處理問題的承諾；當時仍未完成換房安排。"
+      },
+      "reply": {
+        "promptEn": "How could the organiser handle the double booking?",
+        "promptZh": "（主辦者可以怎樣處理重複預約？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She could check both groups’ requested times.",
+            "zh": "她可以核對兩組人要求的時間。"
+          },
+          {
+            "id": "b",
+            "en": "She could contact the room manager today.",
+            "zh": "她今天可以聯絡房間管理員。"
+          },
+          {
+            "id": "c",
+            "en": "She could sort it out after confirming which room is free.",
+            "zh": "確認哪間房有空後，她可以把問題處理好。"
+          },
+          {
+            "id": "d",
+            "en": "She could send each group an updated room number.",
+            "zh": "她可以向兩組人發送更新後的房間號碼。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都可描述處理方法；金句使用本課片語，仍是將來安排。"
+      },
+      "scene": {
+        "promptZh": "兩份活動訂單都寫了同一批椅子；義工表示會先打電話給倉庫核對數量，再通知兩組人，目前尚未確認。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The volunteers will sort it out after checking the warehouse order.",
+            "zh": "義工查核倉庫訂單後會把問題處理好。"
+          },
+          {
+            "id": "b",
+            "en": "The chairs have already been delivered to both groups.",
+            "zh": "椅子已分別送到兩組人手上。"
+          },
+          {
+            "id": "c",
+            "en": "The volunteers will offer more chairs without checking the duplicate order.",
+            "zh": "義工會提供更多椅子，卻不會查核重複訂單。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "核對訂單是即將採取的步驟，不代表重複訂單已獲處理。"
+      },
+      "contrast": {
+        "promptZh": "哪句把「we will sort it out」誤當成已完成的事？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We still need to check the booking record before promising a room.",
+            "zh": "承諾提供房間前，我們仍要查核預約紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "Because someone said “we will sort it out”, the room clash must already be fixed.",
+            "zh": "因為有人說「我們會處理好」，房間衝突一定已經解決。"
+          },
+          {
+            "id": "c",
+            "en": "The team has promised a solution but has not confirmed it yet.",
+            "zh": "團隊承諾會解決，但尚未確認安排。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "將來式表達承諾，不足以證明衝突已解決。"
+      },
+      "dialogue": {
+        "promptZh": "同事問：「兩組人都要同一部投影機，現在有決定嗎？」你正準備查用量時間表。哪句最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Not yet; let us check the timetable and sort it out before we notify either group.",
+            "zh": "還沒有；我們先查時間表，再處理好這件事，然後通知兩組人。"
+          },
+          {
+            "id": "b",
+            "en": "We can compare the two groups’ booked times first.",
+            "zh": "我們可以先比較兩組人預約的時間。"
+          },
+          {
+            "id": "c",
+            "en": "I will tell both groups that the decision is still pending.",
+            "zh": "我會告訴兩組人，決定仍待確認。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句坦白指出尚未解決，並提出查核時間表這個具體下一步。"
+      },
+      "speaking": {
+        "en": "We have not resolved the clash yet, but we can sort it out after checking the schedule.",
+        "zh": "我們尚未解決衝突，但可在查核時間表後處理好。",
+        "promptZh": "先聽示範，再說出尚未完成的處理安排。",
+        "targetSpan": {
+          "start": 47,
+          "end": 58
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：劇團發現兩組演員領了同一套戲服標籤。服裝主任會先核對清單，再重新貼標，今晚才通知演員。用一至兩句英文說明目前問題與處理計劃。",
+        "selfCheckZh": "清楚說明尚未處理完成及具體下一步；不要把承諾寫成已完成。",
+        "examples": [
+          {
+            "en": "The costume labels are mixed up, but the manager will sort it out by checking the list before calling the actors.",
+            "zh": "戲服標籤弄混了，但主任會先核對清單，再聯絡演員處理好問題。"
+          },
+          {
+            "en": "We have not fixed the duplicate labels yet; we will sort it out tonight after comparing the two costume lists.",
+            "zh": "我們尚未處理好重複標籤；今晚會比較兩份戲服清單，然後解決。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The costume labels",
+            "zh": "戲服標籤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "mixed up",
+            "zh": "弄混",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 31
+            }
+          },
+          {
+            "en": "checking the list",
+            "zh": "核對清單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 86
+            }
+          },
+          {
+            "en": "duplicate labels",
+            "zh": "重複標籤",
+            "exampleIndex": 1,
+            "span": {
+              "start": 22,
+              "end": 38
+            }
+          },
+          {
+            "en": "comparing the two costume lists",
+            "zh": "比較兩份戲服清單",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 109
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "If the forms conflict, we will sort it out after checking the original requests.",
+          "zh": "若表格資料互相矛盾，我們會查核原始申請後處理好。"
+        },
+        {
+          "en": "The team sorted it out by confirming both delivery dates with the supplier.",
+          "zh": "團隊與供應商確認兩個送貨日期後，把問題處理好了。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-final-focused-held-new-owner-eight-2356-3351-20261024.json SHA-256 0a438d29fd4aaab9c5059a42c1edb0887a1013fad61dd4aa85fb49ef6afb2e83; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-final-focused-held-new-owner-eight-2356-3351-20261024.json SHA-256 0a438d29fd4aaab9c5059a42c1edb0887a1013fad61dd4aa85fb49ef6afb2e83; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis and file verification not yet complete."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device checks remain pending."
+        },
+        "notes": [
+          "Unselected source-bound author proposal; independent editorial, audio, browser/device and release gates pending.",
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; no audio, browser/device or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3346",
+      "number": 3346,
+      "inventoryId": "expr-3346",
+      "titleEn": "something to aim at",
+      "titleZh": "有明確目標可追",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bsomething to aim at\\b",
+        "glossaryForbidden": [
+          "\\baim at\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A concrete goal that guides effort and lets people gauge progress.",
+        "meaningZh": "可引導努力及衡量進度的具體目標。",
+        "grammar": "Give someone something to aim at commonly pairs a plan or target with the people it helps; at is figurative, not literal shooting.",
+        "register": "Planning, training and progress discussions.",
+        "boundaryZh": "強調目標夠清楚可供努力，不暗示目標一定比以前更高，也不保證能達成。",
+        "misconceptionZh": "空泛地說「做得更好」未必提供可追的具體目標；本課亦不是向物件投擲。",
+        "outcomeZh": "能指出一項計劃如何提供具體目標，並區分目標與已達成的結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1235",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 115,
+          "book": 12,
+          "question": 49,
+          "sample": "S1",
+          "sourceBookPages": "114–115",
+          "locatorNote": "DOCX table 119, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A career plan gives graduates something to aim at.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "something to aim at"
+        }
+      ],
+      "listening": {
+        "en": "The swimming club set a goal of forty pool lengths by June. The number gives beginners something to aim at, though no one has reached it yet.",
+        "zh": "游泳會訂下六月前游畢泳池四十趟單程的目標；這數字讓初學者有明確目標可追，雖然尚未有人達成。",
+        "promptZh": "四十趟單程的數字有甚麼作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gives beginners a concrete target for their practice.",
+            "zh": "它為初學者提供具體的練習目標。"
+          },
+          {
+            "id": "b",
+            "en": "Forty pool lengths was the beginners’ average last month.",
+            "zh": "四十趟單程是初學者上月游畢的平均數。"
+          },
+          {
+            "id": "c",
+            "en": "The figure records how many pool lengths one beginner has already completed.",
+            "zh": "這數字記錄一名初學者目前已游畢多少趟單程。"
+          },
+          {
+            "id": "d",
+            "en": "The club has raised the target above last season’s level.",
+            "zh": "游泳會把目標提高至高於上季的水平。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "數字提供可追求的目標，不表示會員已達成或需要破紀錄。"
+      },
+      "reply": {
+        "promptEn": "What does the club’s goal of forty pool lengths give beginners?",
+        "promptZh": "（游泳會訂下游畢泳池四十趟單程的目標，對初學者有甚麼幫助？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It tells them what result they are working towards.",
+            "zh": "它告訴初學者正在努力爭取甚麼成果。"
+          },
+          {
+            "id": "b",
+            "en": "It gives them something to aim at during practice.",
+            "zh": "它讓他們在練習時有明確目標可追。"
+          },
+          {
+            "id": "c",
+            "en": "It lets them measure how close they are to the target.",
+            "zh": "它讓他們衡量自己離目標還有多遠。"
+          },
+          {
+            "id": "d",
+            "en": "It helps them plan their training across several weeks.",
+            "zh": "它幫助他們安排幾週的訓練。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四句都描述明確數字的用途；金句使用本課比喻。"
+      },
+      "scene": {
+        "promptZh": "食物銀行義工決定月底前包好一百個物資箱，目前只完成三十個。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The hundred-box goal gives the volunteers something to aim at.",
+            "zh": "一百箱的目標讓義工有明確方向可努力。"
+          },
+          {
+            "id": "b",
+            "en": "The hundred-box figure records what volunteers packed last month.",
+            "zh": "一百箱是義工上月已包好的數目。"
+          },
+          {
+            "id": "c",
+            "en": "The target sets the exact number each volunteer must pack today.",
+            "zh": "這項目標訂明每名義工今天必須包好的確切箱數。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一百箱是清楚的目標，三十箱是目前進度；目標並不保證完成。"
+      },
+      "contrast": {
+        "promptZh": "哪個說法最缺乏 something to aim at 所需的具體目標？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The choir wants to learn three new songs by Friday.",
+            "zh": "合唱團想在星期五前學會三首新歌。"
+          },
+          {
+            "id": "b",
+            "en": "The team hopes to “do better someday” but sets no measure or deadline.",
+            "zh": "團隊只希望「有天做得更好」，卻沒有訂下標準或期限。"
+          },
+          {
+            "id": "c",
+            "en": "The class plans to finish four practice essays this month.",
+            "zh": "全班計劃本月完成四篇練習文章。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "沒有可辨認的標準或期限，難以成為清楚的追求目標。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這個新計劃怎樣幫助讀書會？它寫明每週讀完二十頁。」你怎樣回答最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The weekly page target gives members something to aim at, even if they do not always reach it.",
+            "zh": "每週的頁數目標讓會員有明確方向可努力，即使未必次次做到。"
+          },
+          {
+            "id": "b",
+            "en": "Members can compare their reading with the weekly page target.",
+            "zh": "會員可以對照每週的頁數目標檢視進度。"
+          },
+          {
+            "id": "c",
+            "en": "The plan makes it easier to choose how much to read each day.",
+            "zh": "這項計劃令會員較易安排每天的閱讀量。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指出二十頁提供努力方向，沒有把目標當成已完成的事。"
+      },
+      "speaking": {
+        "en": "The small weekly target gave the new members something to aim at without guaranteeing success.",
+        "zh": "每週的小目標讓新會員有明確方向可努力，卻不保證成功。",
+        "promptZh": "先聽示範，再說出具體目標如何引導努力。",
+        "targetSpan": {
+          "start": 45,
+          "end": 64
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：動物收容所希望在學期結束前募得五百元，用來購買冬季毛毯。義工目前募得一百二十元。用一至兩句英文說明金額目標的作用，並區分目標與進度。",
+        "selfCheckZh": "指出具體金額和目前已募得的款項；不要把希望寫成已達標。",
+        "examples": [
+          {
+            "en": "The $500 target gives volunteers something to aim at, though they have raised only $120 for winter blankets so far.",
+            "zh": "五百元的目標讓義工有明確方向可努力，但他們至今只為冬季毛毯募得一百二十元。"
+          },
+          {
+            "en": "The shelter has raised $120 towards its $500 goal; that clear target gives volunteers something to aim at before term ends.",
+            "zh": "收容所目前已募得一百二十元，朝五百元目標努力；這個明確目標讓義工在學期結束前有方向可追。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The $500 target",
+            "zh": "五百元的目標",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "raised only $120",
+            "zh": "只募得一百二十元",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 87
+            }
+          },
+          {
+            "en": "winter blankets",
+            "zh": "冬季毛毯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 107
+            }
+          },
+          {
+            "en": "towards its $500 goal",
+            "zh": "朝五百元目標努力",
+            "exampleIndex": 1,
+            "span": {
+              "start": 28,
+              "end": 49
+            }
+          },
+          {
+            "en": "before term ends",
+            "zh": "學期結束前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 106,
+              "end": 122
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A clear delivery date gives the team something to aim at during the project.",
+          "zh": "清楚的交付日期讓團隊在項目期間有明確目標可追。"
+        },
+        {
+          "en": "The score target gave the players something to aim at, not proof they had reached it.",
+          "zh": "得分目標讓球員有明確方向可努力，卻不能證明他們已達標。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-final-focused-held-new-owner-eight-2356-3351-20261024.json SHA-256 0a438d29fd4aaab9c5059a42c1edb0887a1013fad61dd4aa85fb49ef6afb2e83; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-final-focused-held-new-owner-eight-2356-3351-20261024.json SHA-256 0a438d29fd4aaab9c5059a42c1edb0887a1013fad61dd4aa85fb49ef6afb2e83; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis and file verification not yet complete."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device checks remain pending."
+        },
+        "notes": [
+          "Unselected source-bound author proposal; independent editorial, audio, browser/device and release gates pending.",
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; no audio, browser/device or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3351",
+      "number": 3351,
+      "inventoryId": "expr-3351",
+      "titleEn": "not get anywhere",
+      "titleZh": "忙碌卻沒有實質進展",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:(?:without|not|never) (?:really )?getting|(?:don\\'t|doesn\\'t|didn\\'t|won\\'t|can\\'t) (?:really )?get|(?:isn\\'t|aren\\'t|wasn\\'t|weren\\'t) (?:really )?getting) anywhere\\b",
+        "glossaryForbidden": [
+          "\\bget(?:ting)? anywhere\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Make little or no meaningful progress despite activity or effort.",
+        "meaningZh": "雖然一直忙碌或努力，卻沒有取得實質進展。",
+        "grammar": "Get anywhere is figurative progress; negative forms such as are not getting anywhere or without getting anywhere carry the target sense.",
+        "register": "Everyday reflection on work, planning and stalled projects.",
+        "boundaryZh": "本課說的是進展，不是實際行程；忙碌但欠方向不等於懶惰或完全沒有做事。",
+        "misconceptionZh": "活動數量多不一定代表朝目標邁進；應指出哪些關鍵成果仍未出現。",
+        "outcomeZh": "能分辨忙碌與實質進展，並描述缺乏方向如何令工作停滯。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1240",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 115,
+          "book": 12,
+          "question": 49,
+          "sample": "S1",
+          "sourceBookPages": "114–115",
+          "locatorNote": "DOCX table 119, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "He was busy without really getting anywhere until he chose a direction.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "busy without really getting anywhere"
+        }
+      ],
+      "listening": {
+        "en": "The exhibition team held four planning meetings and changed the poster twice, but it still had no venue. “We are not getting anywhere,” the leader said.",
+        "zh": "展覽團隊開了四次策劃會，又兩次改動海報，但仍未找到場地。負責人說：「我們沒有實質進展。」",
+        "promptZh": "負責人為何這樣說？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team has been active but has not secured a key requirement.",
+            "zh": "團隊一直有工作，卻未確定一項關鍵安排。"
+          },
+          {
+            "id": "b",
+            "en": "The main problem is that the team dislikes its poster design.",
+            "zh": "主要問題是團隊不喜歡海報設計。"
+          },
+          {
+            "id": "c",
+            "en": "A venue has been confirmed, but the poster still needs work.",
+            "zh": "場地已經確定，但海報仍需修改。"
+          },
+          {
+            "id": "d",
+            "en": "The poster changes show that the key planning decision is complete.",
+            "zh": "海報的改動表明關鍵的策劃決定已完成。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "開會和改海報是活動，但場地仍未確定，所以核心籌備沒有進展。"
+      },
+      "reply": {
+        "promptEn": "How is the exhibition planning going despite all the meetings?",
+        "promptZh": "（雖然開了多次會，展覽籌備進展如何？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team is still missing a confirmed venue.",
+            "zh": "團隊仍未確定場地。"
+          },
+          {
+            "id": "b",
+            "en": "They are not getting anywhere on the venue decision.",
+            "zh": "他們在場地決定上仍沒有實質進展。"
+          },
+          {
+            "id": "c",
+            "en": "Several discussions have ended without a final booking.",
+            "zh": "幾次討論結束後仍沒有完成預約。"
+          },
+          {
+            "id": "d",
+            "en": "The main practical decision remains unresolved.",
+            "zh": "最主要的實際決定仍未解決。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四句都指出場地尚未落實；金句用本課比喻描述停滯。"
+      },
+      "scene": {
+        "promptZh": "應用程式團隊一週內反覆改按鈕顏色，卻始終沒有修好讓使用者無法登入的問題。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team is busy without getting anywhere on the login problem.",
+            "zh": "團隊雖然忙碌，卻沒有在登入問題上取得進展。"
+          },
+          {
+            "id": "b",
+            "en": "The new button colours may make the screen easier to read.",
+            "zh": "新的按鈕顏色可能令畫面更易閱讀。"
+          },
+          {
+            "id": "c",
+            "en": "The login failure appears to affect only new users.",
+            "zh": "登入故障似乎只影響新使用者。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "改顏色沒有解決核心登入障礙；忙碌不等於目標有進展。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不能稱為 not getting anywhere？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A group revises its title repeatedly but never chooses a venue.",
+            "zh": "小組反覆修改標題，卻始終未選定場地。"
+          },
+          {
+            "id": "b",
+            "en": "A team completes a working prototype and tests it with users.",
+            "zh": "團隊完成可運作的原型，並請使用者測試。"
+          },
+          {
+            "id": "c",
+            "en": "Workers hold daily meetings while the essential repair remains untouched.",
+            "zh": "員工每天開會，關鍵維修卻一直沒有動工。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "完成並測試可運作的原型，是可見的實質進展。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「我們很忙，為甚麼截止日期仍愈來愈近？」你知道團隊一直討論標誌，卻沒有完成訂票頁。哪句最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We are not getting anywhere on the booking page because we keep returning to the logo; let us finish the form first.",
+            "zh": "我們不斷回頭討論標誌，訂票頁卻沒有實質進展；先完成表格吧。"
+          },
+          {
+            "id": "b",
+            "en": "We can pause the logo debate and assign someone to the form.",
+            "zh": "我們可暫停標誌討論，指派一人處理表格。"
+          },
+          {
+            "id": "c",
+            "en": "The booking page is still the key unfinished task.",
+            "zh": "訂票頁仍是最重要的未完成工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句區分忙碌與核心工作停滯，並提出具體下一步。"
+      },
+      "speaking": {
+        "en": "They were not getting anywhere with the booking form until they agreed on one design.",
+        "zh": "他們的訂票表格一直沒有進展，直到大家同意一個設計。",
+        "promptZh": "先聽示範，再說明哪項核心工作停滯。",
+        "targetSpan": {
+          "start": 10,
+          "end": 30
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校戲劇組已討論三次服裝顏色，卻一直未量度演員尺碼或訂購布料。演出日期將近。用一至兩句英文描述忙碌與進展之間的落差，並提出下一步。",
+        "selfCheckZh": "指出有做過甚麼及哪項關鍵工作仍未開始；不要指責大家懶惰。",
+        "examples": [
+          {
+            "en": "The drama group is not getting anywhere on costumes: it keeps debating colours but has not measured the actors; it should measure the cast today.",
+            "zh": "戲劇組在服裝工作上沒有實質進展：他們不斷討論顏色，卻尚未量度演員尺碼；今天應量度演員。"
+          },
+          {
+            "en": "They have held three meetings without getting anywhere on the fabric order, so someone should measure the cast today.",
+            "zh": "他們開了三次會，布料訂購仍沒有進展，因此今天應先量度演員尺碼。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "keeps debating colours",
+            "zh": "不斷討論顏色",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 78
+            }
+          },
+          {
+            "en": "has not measured the actors",
+            "zh": "尚未量度演員尺碼",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 110
+            }
+          },
+          {
+            "en": "the fabric order",
+            "zh": "布料訂購",
+            "exampleIndex": 1,
+            "span": {
+              "start": 58,
+              "end": 74
+            }
+          },
+          {
+            "en": "someone should measure the cast today",
+            "zh": "今天應有人量度演員尺碼",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 116
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The volunteers are not getting anywhere with the timetable until someone confirms the venue.",
+          "zh": "在有人確認場地前，義工在時間表上沒有實質進展。"
+        },
+        {
+          "en": "We worked all morning without really getting anywhere because the key decision was missing.",
+          "zh": "我們忙了整個上午，卻因缺乏關鍵決定而沒有實質進展。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-final-focused-held-new-owner-eight-2356-3351-20261024.json SHA-256 0a438d29fd4aaab9c5059a42c1edb0887a1013fad61dd4aa85fb49ef6afb2e83; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-final-focused-held-new-owner-eight-2356-3351-20261024.json SHA-256 0a438d29fd4aaab9c5059a42c1edb0887a1013fad61dd4aa85fb49ef6afb2e83; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis and file verification not yet complete."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device checks remain pending."
+        },
+        "notes": [
+          "Unselected source-bound author proposal; independent editorial, audio, browser/device and release gates pending.",
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; no audio, browser/device or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3442",
+      "number": 3442,
+      "inventoryId": "expr-3442",
+      "titleEn": "another hurdle to get over",
+      "titleZh": "又一道要克服的難關",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:a|another) hurdle to get over\\b",
+        "glossaryForbidden": [
+          "\\bhurdle\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "An additional difficulty that someone feels they must deal with before moving on.",
+        "meaningZh": "又一項要先處理才能繼續前進的困難。",
+        "grammar": "Use feel/seem like another hurdle to get over when the burden is someone’s assessment; another signals an additional obstacle, not the first one.",
+        "register": "Everyday planning, school or work after earlier tasks have already been handled.",
+        "boundaryZh": "可說當事人覺得難辦；別把主觀感受寫成必然失敗。",
+        "misconceptionZh": "another 不等於 at the first hurdle，也不表示這件事永遠無法完成。",
+        "outcomeZh": "能說出新增的障礙、此前已完成的工作，以及語氣上的不確定性。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1331",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 124,
+          "book": 13,
+          "question": 9,
+          "sample": "S1",
+          "sourceBookPages": "23–24",
+          "locatorNote": "DOCX table 130, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "After a long shift, cooking seemed like another hurdle to get over.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "another hurdle to get over"
+        }
+      ],
+      "listening": {
+        "promptZh": "為何小組把安全計劃看成一道難關？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It added work after they thought the venue arrangements were settled.",
+            "zh": "他們原以為場地安排已妥當，現在卻要多做一項工作。"
+          },
+          {
+            "id": "b",
+            "en": "It made them check whether the hall could still meet the event’s needs.",
+            "zh": "它讓他們核對禮堂是否仍符合活動需要。"
+          },
+          {
+            "id": "c",
+            "en": "It gave them more information about possible risks at the event.",
+            "zh": "它讓他們更了解活動可能出現的風險。"
+          },
+          {
+            "id": "d",
+            "en": "It helped them decide which volunteers would welcome visitors.",
+            "zh": "它幫他們決定哪些義工負責迎接訪客。"
+          }
+        ],
+        "explanationZh": "他們先前已完成場地預約，新增的安全計劃讓進度多了一項要處理的要求；其他說法只推測計劃可能帶來的附帶作用。",
+        "answerId": "a",
+        "en": "The student group had booked the hall, but the school office then requested a new safety plan. To them, it felt like another hurdle to get over.",
+        "zh": "學生小組已訂好禮堂，但其後校方要求補交新的安全計劃；對他們來說，這似乎又是一道要克服的難關。"
+      },
+      "reply": {
+        "promptZh": "（新增的翻譯檢查對指南推出有甚麼影響？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It adds a review stage before the guide can be released.",
+            "zh": "指南推出前要多經過一道審核程序。"
+          },
+          {
+            "id": "b",
+            "en": "It may push the release date back while the wording is checked.",
+            "zh": "核對措辭期間，推出日期可能要延後。"
+          },
+          {
+            "id": "c",
+            "en": "It feels like another hurdle to get over before we can publish.",
+            "zh": "在我們能出版前，這感覺又是一道要克服的難關。"
+          },
+          {
+            "id": "d",
+            "en": "It gives us a chance to correct unclear phrases before launch.",
+            "zh": "它讓我們有機會在推出前修改含糊的措辭。"
+          }
+        ],
+        "explanationZh": "四句均回應新增檢查的影響；金句以本課比喻表達團隊對額外程序的感受。",
+        "promptEn": "How does the extra translation check affect the guide launch?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "應徵者已交齊作品集，又收到額外的身分核實要求。哪句最貼切表達她此刻的感受？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The new verification feels like another hurdle to get over before the interview.",
+            "zh": "新增核實要求讓她覺得面試前又多了一道要克服的難關。"
+          },
+          {
+            "id": "b",
+            "en": "The extra check may delay when she can confirm the interview.",
+            "zh": "額外檢查可能延遲她確認面試的時間。"
+          },
+          {
+            "id": "c",
+            "en": "Her portfolio may still need a separate review by the employer.",
+            "zh": "僱主可能仍需另行審閱她的作品集。"
+          }
+        ],
+        "explanationZh": "她已完成一項申請工作，又遇上額外要求；另兩句只是可能的程序後果，沒有表達主觀難關。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句最清楚顯示 another hurdle 而非第一項障礙？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team finished the permit forms, then learned it needed a separate insurance certificate.",
+            "zh": "團隊完成許可表格後，才知道還要另交保險證明。"
+          },
+          {
+            "id": "b",
+            "en": "The team has just received the project brief and has not begun any requirements.",
+            "zh": "團隊才剛收到計劃簡介，尚未開始處理任何要求。"
+          },
+          {
+            "id": "c",
+            "en": "The team has already cleared several requirements and is waiting for the final decision.",
+            "zh": "團隊已完成幾項要求，正等待最後決定。"
+          }
+        ],
+        "explanationZh": "先完成許可表格、後來又新增保險證明，才明確是「另一道」障礙；等待結果本身未必是新增難關。",
+        "answerId": "a"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我們已預訂車輛，現在又要申請臨時停車許可，怎麼辦？」哪句最能同時回應新要求和實際下一步？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The permit feels like another hurdle to get over; let us ask the office what documents it needs.",
+            "zh": "許可申請感覺又是一道難關；我們問問辦事處需要甚麼文件吧。"
+          },
+          {
+            "id": "b",
+            "en": "We can ask the office what documents the permit needs.",
+            "zh": "我們可以問辦事處申請許可需要甚麼文件。"
+          },
+          {
+            "id": "c",
+            "en": "The parking rules may affect where the vehicle can stop.",
+            "zh": "停車規則可能影響車輛可在哪裏停泊。"
+          }
+        ],
+        "explanationZh": "金句承認新增要求帶來的負擔，同時提出可行查詢；另外兩句只談其中一方面。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "After arranging the speakers, the missing caption file felt like another hurdle to get over.",
+        "zh": "安排好講者後，缺少字幕檔感覺又成了一道要克服的難關。",
+        "promptZh": "先聽示範，再說出新增的障礙。",
+        "targetSpan": {
+          "start": 65,
+          "end": 91
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區電影放映會已借好場地、確認影片，但主辦者發現還要取得無障礙字幕檔。用一至兩句英文說明新增難題和下一步；保留「感覺上」而非斷言無法舉辦。",
+        "selfCheckZh": "指出此前已完成甚麼、新要求是甚麼，以及可以採取的下一步；不要說活動必然取消。",
+        "examples": [
+          {
+            "en": "The venue is booked, but getting a caption file feels like another hurdle to get over; we can ask the distributor for one.",
+            "zh": "場地已訂好，但取得字幕檔感覺又是一道要克服的難關；我們可以向發行商索取。"
+          },
+          {
+            "en": "With the film confirmed, the caption request seems like another hurdle to get over, so the organisers will contact the distributor today.",
+            "zh": "影片已確認，字幕要求似乎又是一道難關，因此主辦者今天會聯絡發行商。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The venue is booked",
+            "zh": "場地已訂好",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 19
+            }
+          },
+          {
+            "en": "getting a caption file",
+            "zh": "取得字幕檔",
+            "exampleIndex": 0,
+            "span": {
+              "start": 25,
+              "end": 47
+            }
+          },
+          {
+            "en": "ask the distributor",
+            "zh": "向發行商索取",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 113
+            }
+          },
+          {
+            "en": "the caption request",
+            "zh": "字幕要求",
+            "exampleIndex": 1,
+            "span": {
+              "start": 25,
+              "end": 44
+            }
+          },
+          {
+            "en": "contact the distributor today",
+            "zh": "今天聯絡發行商",
+            "exampleIndex": 1,
+            "span": {
+              "start": 107,
+              "end": 136
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "After the budget was approved, the new insurance form felt like another hurdle to get over.",
+          "zh": "預算獲批後，新增的保險表格感覺又成了一道要克服的難關。"
+        },
+        {
+          "en": "Another hurdle to get over may delay the launch, but it does not mean the launch is impossible.",
+          "zh": "又一道難關可能令推出時間延後，但不等於計劃無法推出。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-seven-new-owner-proposals-3442-4468-exact-hash-review-20261024.json SHA-256 52ddc1655919cfc4fdf60015b6a3305cda39ffcdf340efe39293b09ba737a18c; 4468 focused repair independent-seven-new-owner-proposals-4468-focused-rereview-20261024.json SHA-256 c3c8a4b14ca3bf74f6a828533999bb036b3738016ecdf29b251b2558a39cc4a9; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-seven-new-owner-proposals-3442-4468-exact-hash-review-20261024.json SHA-256 52ddc1655919cfc4fdf60015b6a3305cda39ffcdf340efe39293b09ba737a18c; 4468 focused repair independent-seven-new-owner-proposals-4468-focused-rereview-20261024.json SHA-256 c3c8a4b14ca3bf74f6a828533999bb036b3738016ecdf29b251b2558a39cc4a9; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis and file verification not yet complete."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device checks remain pending."
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending.",
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; no audio, browser/device or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3614",
+      "number": 3614,
+      "inventoryId": "expr-3614",
+      "titleEn": "raw intelligence",
+      "titleZh": "未經磨練的天資",
+      "category": "natural",
+      "target": {
+        "pattern": "\\braw intelligence\\b",
+        "glossaryForbidden": [
+          "\\bintelligence\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Natural mental ability before experience, habits or practice have shaped how it is used.",
+        "meaningZh": "尚未經經驗、習慣或練習磨練的天生思考能力。",
+        "grammar": "Raw modifies intelligence as unrefined potential; it does not mean rude behaviour or an unchangeable intelligence score.",
+        "register": "Education, work and skill development when comparing ability with training.",
+        "boundaryZh": "天資可幫助起步，但是否取得成果也受練習、方法和環境影響。",
+        "misconceptionZh": "不能說有天資的人不需努力，也不能因此貶低天資。",
+        "outcomeZh": "能把起步能力與後天培養分開描述。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1503",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 141,
+          "book": 14,
+          "question": 6,
+          "sample": "S1",
+          "sourceBookPages": "16–17",
+          "locatorNote": "DOCX table 150, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Steady work can matter more than raw intelligence.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "raw intelligence"
+        }
+      ],
+      "listening": {
+        "promptZh": "甚麼讓伊瑪妮的證明更完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Checking the missing steps carefully after spotting the pattern.",
+            "zh": "看出規律後，仔細核對原本漏掉的步驟。"
+          },
+          {
+            "id": "b",
+            "en": "Remembering a theorem she had used in an earlier exercise.",
+            "zh": "想起她在之前練習用過的定理。"
+          },
+          {
+            "id": "c",
+            "en": "Discussing her first idea with another student after class.",
+            "zh": "課後與另一位學生討論最初的想法。"
+          },
+          {
+            "id": "d",
+            "en": "Writing a clearer introduction before submitting the proof.",
+            "zh": "交證明前把引言寫得更清楚。"
+          }
+        ],
+        "explanationZh": "天資讓她迅速看出規律，但補足證明靠核對；其他做法可能有幫助，卻不是講者指出的關鍵。",
+        "answerId": "a",
+        "en": "Imani could spot a mathematical pattern quickly, but her first proof left out key steps. Her raw intelligence helped her begin; careful checking made the argument sound.",
+        "zh": "伊瑪妮很快看出數學規律，但第一版證明漏了關鍵步驟；她的天資幫她起步，細心檢查才令論證完整。"
+      },
+      "reply": {
+        "promptZh": "（甚麼幫助瑪雅迅速學會這項程式挑戰？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She already understood some of the mathematical ideas behind it.",
+            "zh": "她原本就理解其中部分數學概念。"
+          },
+          {
+            "id": "b",
+            "en": "Her raw intelligence helped her grasp the pattern, and practice helped her apply it.",
+            "zh": "她的天資幫她掌握規律，練習則幫她運用。"
+          },
+          {
+            "id": "c",
+            "en": "She tested her code against several examples and fixed mistakes.",
+            "zh": "她用幾個例子測試程式並修正錯誤。"
+          },
+          {
+            "id": "d",
+            "en": "A mentor showed her how to break the task into smaller parts.",
+            "zh": "導師教她把任務拆成較小部分。"
+          }
+        ],
+        "explanationZh": "四句都能說明學習的助力；金句把天資與練習的不同作用一併交代。",
+        "promptEn": "What helped Maya learn the coding challenge so quickly?",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "一名新棋手很快看出攻勢，卻常忽略後續防守；教練安排她逐局覆盤。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Raw intelligence may help her spot moves, while reviewing games can strengthen her judgement.",
+            "zh": "天資可幫她看出走法，覆盤則能加強判斷。"
+          },
+          {
+            "id": "b",
+            "en": "Her quick tactical vision may matter more than reviewing defensive mistakes.",
+            "zh": "她迅速看出戰術的能力或許比檢討防守失誤更重要。"
+          },
+          {
+            "id": "c",
+            "en": "The coach’s reviews will mainly improve her opening moves.",
+            "zh": "教練安排的覆盤主要會改善她的開局走法。"
+          }
+        ],
+        "explanationZh": "快速看出攻勢和忽略防守可同時存在；覆盤有助運用天資，不能只重攻勢或假設覆盤主要改善開局。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 raw intelligence 的意思說得過於絕對？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It can be a useful starting point for learning a difficult skill.",
+            "zh": "它可以是學習困難技能的一個有利起點。"
+          },
+          {
+            "id": "b",
+            "en": "It guarantees expert performance without experience or correction.",
+            "zh": "即使沒有經驗或修正，它也保證專家級表現。"
+          },
+          {
+            "id": "c",
+            "en": "It may become more effective when paired with good study habits.",
+            "zh": "配合良好的學習習慣，天資可能發揮得更好。"
+          }
+        ],
+        "explanationZh": "天資不保證不經磨練便有專家表現；它和習慣、練習可以互相配合。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同學說：「他第一次試做便找到解題方向，但解說還不清楚。」你如何公允地回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "His raw intelligence gave him a quick start, but he still needs to practise explaining each step.",
+            "zh": "他的天資讓他迅速起步，但仍需練習清楚解釋每一步。"
+          },
+          {
+            "id": "b",
+            "en": "He saw a possible solution early, so we could ask him to explain it again.",
+            "zh": "他很早看出一種可能解法，我們可以請他再解釋一次。"
+          },
+          {
+            "id": "c",
+            "en": "Working through the reasoning aloud may help him make the idea clearer.",
+            "zh": "把推理過程說出來，可能幫他把想法講得更清楚。"
+          }
+        ],
+        "explanationZh": "金句肯定他的起步能力，也指出需要磨練的部分；沒有把天資視為萬能。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Raw intelligence helped her notice the pattern, but repeated tests made her conclusion reliable.",
+        "zh": "天資幫她留意到規律，但反覆測試才令結論可靠。",
+        "promptZh": "先聽示範，再說明天資與練習各起甚麼作用。",
+        "targetSpan": {
+          "start": 0,
+          "end": 16
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校機械人隊有位新成員很快想出導航方法，但測試時常漏看障礙物。隊友帶他做多輪測試。用一至兩句英文平衡描述他的天資和後續練習。",
+        "selfCheckZh": "既肯定快速想法，也說明測試如何改善成果；不要斷言天資沒有用或保證成功。",
+        "examples": [
+          {
+            "en": "His raw intelligence gave the robot team an early idea, while repeated trials helped them spot obstacles.",
+            "zh": "他的天資讓機械人隊很早有了想法，而反覆測試幫他們發現障礙物。"
+          },
+          {
+            "en": "Raw intelligence helped him design a route quickly, but checking the sensors made the robot move more safely.",
+            "zh": "天資幫他迅速設計路線，但檢查感應器才令機械人行動更安全。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "an early idea",
+            "zh": "早期想法",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 54
+            }
+          },
+          {
+            "en": "repeated trials",
+            "zh": "反覆測試",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 77
+            }
+          },
+          {
+            "en": "spot obstacles",
+            "zh": "發現障礙物",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 104
+            }
+          },
+          {
+            "en": "design a route quickly",
+            "zh": "迅速設計路線",
+            "exampleIndex": 1,
+            "span": {
+              "start": 28,
+              "end": 50
+            }
+          },
+          {
+            "en": "checking the sensors",
+            "zh": "檢查感應器",
+            "exampleIndex": 1,
+            "span": {
+              "start": 56,
+              "end": 76
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Raw intelligence gave the apprentice a promising start, but feedback sharpened her method.",
+          "zh": "天資令學徒有個好開始，但回饋讓她的方法更成熟。"
+        },
+        {
+          "en": "The team valued raw intelligence without mistaking it for finished expertise.",
+          "zh": "團隊重視天資，卻沒有把它誤當成已磨練完成的專業能力。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-seven-new-owner-proposals-3442-4468-exact-hash-review-20261024.json SHA-256 52ddc1655919cfc4fdf60015b6a3305cda39ffcdf340efe39293b09ba737a18c; 4468 focused repair independent-seven-new-owner-proposals-4468-focused-rereview-20261024.json SHA-256 c3c8a4b14ca3bf74f6a828533999bb036b3738016ecdf29b251b2558a39cc4a9; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-seven-new-owner-proposals-3442-4468-exact-hash-review-20261024.json SHA-256 52ddc1655919cfc4fdf60015b6a3305cda39ffcdf340efe39293b09ba737a18c; 4468 focused repair independent-seven-new-owner-proposals-4468-focused-rereview-20261024.json SHA-256 c3c8a4b14ca3bf74f6a828533999bb036b3738016ecdf29b251b2558a39cc4a9; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis and file verification not yet complete."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device checks remain pending."
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending.",
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; no audio, browser/device or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3817",
+      "number": 3817,
+      "inventoryId": "expr-3817",
+      "titleEn": "the charity scene",
+      "titleZh": "本地慈善界的活動網絡",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:the|an?) (?:[a-z-]+ )?(?:charity|music|arts|food) scene\\b",
+        "glossaryForbidden": [
+          "\\b(?:charity|music|arts|food) scene\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "The network of organisations, people and activities in a local field, here charitable work.",
+        "meaningZh": "某地一個領域的團體、人員及活動網絡；本課以慈善工作為例。",
+        "grammar": "In the local charity scene, scene names an active social sector; other fields can form the X scene pattern when context supports it.",
+        "register": "Community reporting, volunteering and discussion of a local sector.",
+        "boundaryZh": "scene 指整個界別的活動情況，不等於單一活動或舞台背景。",
+        "misconceptionZh": "不能只憑一間機構存在，就斷言全市慈善網絡很活躍。",
+        "outcomeZh": "能用本課表達概括多個組織之間的活動與連繫。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1706",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 161,
+          "book": 14,
+          "question": 28,
+          "sample": "S1",
+          "sourceBookPages": "62–63",
+          "locatorNote": "DOCX table 172, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The city has an active charity scene.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "charity scene"
+        }
+      ],
+      "listening": {
+        "promptZh": "講者說新義工現在較容易做甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Find a suitable group and see when it needs help.",
+            "zh": "找到合適團體，並了解它何時需要幫忙。"
+          },
+          {
+            "id": "b",
+            "en": "Compare how much each organisation spends on volunteer training.",
+            "zh": "比較各機構在義工培訓上的開支。"
+          },
+          {
+            "id": "c",
+            "en": "See which group has the shortest waiting list for help.",
+            "zh": "查看哪個團體的求助輪候名單最短。"
+          },
+          {
+            "id": "d",
+            "en": "Find out how the different groups make funding decisions.",
+            "zh": "了解不同團體如何作出資助決定。"
+          }
+        ],
+        "explanationZh": "共用日程與不同團體的合作，讓新義工較容易找到適合自己的參與方式；講者沒有提供開支、輪候或資助決策資料。",
+        "answerId": "a",
+        "en": "In Harbourtown, food banks and tutoring groups now use a shared volunteer calendar. The local charity scene has become easier for newcomers to navigate.",
+        "zh": "在港灣鎮，食物銀行和補習團體現在共用義工日程；新加入的人更容易了解當地慈善界的運作。"
+      },
+      "reply": {
+        "promptZh": "（這個地區的義工服務有甚麼轉變？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Several groups now share training dates and sign-up information.",
+            "zh": "幾個團體現在共用培訓日期和報名資料。"
+          },
+          {
+            "id": "b",
+            "en": "New volunteers can compare opportunities before joining a group.",
+            "zh": "新義工加入團體前可以比較不同機會。"
+          },
+          {
+            "id": "c",
+            "en": "The local charity scene is more connected because groups coordinate their events.",
+            "zh": "各團體協調活動，令本地慈善界的活動網絡更緊密。"
+          },
+          {
+            "id": "d",
+            "en": "The town’s volunteer website lists more projects than last year.",
+            "zh": "市鎮的義工網站列出的計劃比去年更多。"
+          }
+        ],
+        "explanationZh": "四句都回應地區義工服務的變化；金句概括多個團體共同構成的慈善界網絡。",
+        "promptEn": "How has volunteering changed across the district?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一個地區有多個互相合作的食物援助、長者探訪和學生導師團體，每月共用義工簡介會。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The local charity scene is active and connected across several groups.",
+            "zh": "本地慈善界有多個團體積極活動，彼此亦有聯繫。"
+          },
+          {
+            "id": "b",
+            "en": "The monthly meeting helps new volunteers learn the schedule.",
+            "zh": "每月簡介會幫助新義工了解時間安排。"
+          },
+          {
+            "id": "c",
+            "en": "One group may specialise in visits to older residents.",
+            "zh": "其中一個團體可能專門探訪長者。"
+          }
+        ],
+        "explanationZh": "情境同時呈現多個團體及合作網絡，適合用 scene 概括；另兩句只描述其中一項安排。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句最不適合用來證明一個地方有活躍的 charity scene？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Several aid groups share volunteers and hold regular community events.",
+            "zh": "幾個援助團體共用義工，並定期舉辦社區活動。"
+          },
+          {
+            "id": "b",
+            "en": "A single office has a charity poster, but no local groups or activities are known.",
+            "zh": "一間辦公室貼有慈善海報，但未見任何本地團體或活動。"
+          },
+          {
+            "id": "c",
+            "en": "Different organisations run food, mentoring and housing projects in the area.",
+            "zh": "區內不同機構開展食物、導師和房屋項目。"
+          }
+        ],
+        "explanationZh": "一張海報本身不足以顯示當地有組織網絡或持續活動。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「為甚麼這個新居民容易找到義工工作？」你知道當地多個慈善團體共用活動日程。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The local charity scene is well connected, so newcomers can see opportunities across groups.",
+            "zh": "本地慈善界聯繫緊密，新居民可以看到不同團體的參與機會。"
+          },
+          {
+            "id": "b",
+            "en": "The shared calendar shows when different groups need help.",
+            "zh": "共用日程列出不同團體何時需要幫忙。"
+          },
+          {
+            "id": "c",
+            "en": "They can ask each group which task fits their available time.",
+            "zh": "他們可以向各團體查詢哪項工作配合自己的時間。"
+          }
+        ],
+        "explanationZh": "金句概括網絡如何幫助新居民；另兩句只指出其中兩種具體做法。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The local charity scene grew more connected when groups began sharing volunteers.",
+        "zh": "不同團體開始共用義工後，本地慈善界的聯繫更緊密。",
+        "promptZh": "先聽示範，再說明 scene 包括甚麼。",
+        "targetSpan": {
+          "start": 0,
+          "end": 23
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個山區市鎮有幾個青年支援、食物分享和長者探訪團體，今年開始共用培訓和招募資料。用一至兩句英文概括這個地區的慈善界變化。",
+        "selfCheckZh": "指出多個團體與活動網絡，不要把 scene 誤作舞台或單一機構。",
+        "examples": [
+          {
+            "en": "The local charity scene is becoming more connected as youth, food and elder-support groups share training.",
+            "zh": "青年、食物援助和長者支援團體共用培訓，本地慈善界的聯繫逐漸更緊密。"
+          },
+          {
+            "en": "With a shared volunteer calendar, the charity scene now gives residents clearer ways to help different groups.",
+            "zh": "有了共用義工日程，慈善界現在讓居民更清楚如何協助不同團體。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "youth, food and elder-support groups",
+            "zh": "青年、食物援助和長者支援團體",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 90
+            }
+          },
+          {
+            "en": "share training",
+            "zh": "共用培訓",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 105
+            }
+          },
+          {
+            "en": "more connected",
+            "zh": "聯繫更緊密",
+            "exampleIndex": 0,
+            "span": {
+              "start": 36,
+              "end": 50
+            }
+          },
+          {
+            "en": "a shared volunteer calendar",
+            "zh": "共用義工日程",
+            "exampleIndex": 1,
+            "span": {
+              "start": 5,
+              "end": 32
+            }
+          },
+          {
+            "en": "clearer ways to help",
+            "zh": "更清楚的協助途徑",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 92
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The local charity scene expanded when three small groups began planning together.",
+          "zh": "三個小團體開始共同策劃後，本地慈善界的活動網絡擴大了。"
+        },
+        {
+          "en": "A busy charity scene involves people and organisations, not merely one fundraising poster.",
+          "zh": "活躍的慈善界涉及人員與機構，不只是一張籌款海報。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-seven-new-owner-proposals-3442-4468-exact-hash-review-20261024.json SHA-256 52ddc1655919cfc4fdf60015b6a3305cda39ffcdf340efe39293b09ba737a18c; 4468 focused repair independent-seven-new-owner-proposals-4468-focused-rereview-20261024.json SHA-256 c3c8a4b14ca3bf74f6a828533999bb036b3738016ecdf29b251b2558a39cc4a9; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-seven-new-owner-proposals-3442-4468-exact-hash-review-20261024.json SHA-256 52ddc1655919cfc4fdf60015b6a3305cda39ffcdf340efe39293b09ba737a18c; 4468 focused repair independent-seven-new-owner-proposals-4468-focused-rereview-20261024.json SHA-256 c3c8a4b14ca3bf74f6a828533999bb036b3738016ecdf29b251b2558a39cc4a9; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis and file verification not yet complete."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device checks remain pending."
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending.",
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; no audio, browser/device or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3820",
+      "number": 3820,
+      "inventoryId": "expr-3820",
+      "titleEn": "public-facing",
+      "titleZh": "直接面向公眾的",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bpublic-facing\\b",
+        "glossaryForbidden": [
+          "\\bpublic-facing\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Visible to, or directly interacting with, members of the public as part of a role or service.",
+        "meaningZh": "職務或服務會讓公眾看見，或直接與公眾互動。",
+        "grammar": "Public-facing is a hyphenated adjective before a noun or after be; contrast with back-office work.",
+        "register": "Workplace, charity and service descriptions of roles with direct external contact.",
+        "boundaryZh": "面向公眾不等於由政府出資，亦不自動表示財務資料公開。",
+        "misconceptionZh": "幕後職位可以同樣重要，只是工作對象不同。",
+        "outcomeZh": "能根據實際接觸對象判斷職位是否面向公眾。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1709",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 161,
+          "book": 14,
+          "question": 28,
+          "sample": "S2",
+          "sourceBookPages": "62–63",
+          "locatorNote": "DOCX table 172, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Some charities are highly public-facing.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "public-facing"
+        }
+      ],
+      "listening": {
+        "promptZh": "為何蕾拉的職位屬於 public-facing？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She speaks with visitors as part of her regular duties.",
+            "zh": "她日常職務包括與訪客交談。"
+          },
+          {
+            "id": "b",
+            "en": "She prepares information sheets for visitors to take home.",
+            "zh": "她準備資料單張供訪客帶回家。"
+          },
+          {
+            "id": "c",
+            "en": "She designs the appointment timetable for the service desk.",
+            "zh": "她設計服務櫃檯的預約時間表。"
+          },
+          {
+            "id": "d",
+            "en": "She writes public health updates for the centre’s website.",
+            "zh": "她為中心網站撰寫公共健康資訊。"
+          }
+        ],
+        "explanationZh": "接待訪客和回答問題都涉及直接對外互動；其他工作可能面向公眾，但不是講者說明其職位的直接依據。",
+        "answerId": "a",
+        "en": "At the health centre, Leila greets visitors and answers their questions, while another team handles grant reports. Her job is public-facing.",
+        "zh": "在健康中心，蕾拉接待訪客並回答問題，另一團隊則處理資助報告；她的職位直接面向公眾。"
+      },
+      "reply": {
+        "promptZh": "（博物館的外展員每天做甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She welcomes visiting school groups and answers their questions.",
+            "zh": "她迎接到訪的學校團體並解答問題。"
+          },
+          {
+            "id": "b",
+            "en": "She runs short demonstrations for families at the entrance.",
+            "zh": "她在入口為家庭舉行簡短示範。"
+          },
+          {
+            "id": "c",
+            "en": "She has a public-facing role, explaining exhibits directly to visitors.",
+            "zh": "她的職位直接面向公眾，親自向訪客講解展品。"
+          },
+          {
+            "id": "d",
+            "en": "She replies to visitors who ask about upcoming workshops.",
+            "zh": "她回覆訪客對即將舉行的工作坊的查詢。"
+          }
+        ],
+        "explanationZh": "四句都是日常對外工作；金句以本課形容詞概括她的職位性質。",
+        "promptEn": "What does the museum’s outreach worker do each day?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一間動物收容所的甲組每天接待領養家庭並回答照顧問題，乙組在辦公室整理捐款收據。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The adoption team has a public-facing role because it meets prospective families.",
+            "zh": "領養組會接觸有意領養的家庭，因此其職務直接面向公眾。"
+          },
+          {
+            "id": "b",
+            "en": "The receipt team prepares records used in the organisation’s accounts.",
+            "zh": "收據組準備機構帳目所需的紀錄。"
+          },
+          {
+            "id": "c",
+            "en": "Both teams contribute to the shelter’s work in different ways.",
+            "zh": "兩組都以不同方式支持收容所的工作。"
+          }
+        ],
+        "explanationZh": "甲組每天與公眾互動，最能顯示 public-facing；乙組重要但屬幕後行政。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪項資料最不足以證明一個職位是 public-facing？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The worker speaks with families who visit the service desk.",
+            "zh": "職員與到服務櫃檯的家庭交談。"
+          },
+          {
+            "id": "b",
+            "en": "The worker is paid from a government grant but prepares internal spreadsheets only.",
+            "zh": "職員薪酬來自政府資助，但只整理內部試算表。"
+          },
+          {
+            "id": "c",
+            "en": "The worker hosts weekly question sessions open to residents.",
+            "zh": "職員每週主持居民可參加的答問會。"
+          }
+        ],
+        "explanationZh": "資金來源無法證明工作會直接接觸公眾；工作內容才是判斷依據。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「我們要找一位能向到訪家庭解釋領養程序的人。」你如何描述這個職位？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is a public-facing role, so the person should be comfortable answering families’ questions.",
+            "zh": "這是直接面向公眾的職位，應徵者要樂於回答家庭的問題。"
+          },
+          {
+            "id": "b",
+            "en": "The person will explain the steps to families at the shelter.",
+            "zh": "這個人會在收容所向家庭解釋程序。"
+          },
+          {
+            "id": "c",
+            "en": "Clear answers will help visitors understand the adoption process.",
+            "zh": "清楚的回答有助訪客了解領養程序。"
+          }
+        ],
+        "explanationZh": "金句指出職位性質及所需能力；沒有把資助來源與對外接觸混淆。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Her public-facing work includes greeting visitors and answering questions at the help desk.",
+        "zh": "她直接面向公眾的工作包括在服務櫃檯接待訪客及解答問題。",
+        "promptZh": "先聽示範，再指出直接接觸公眾的工作。",
+        "targetSpan": {
+          "start": 4,
+          "end": 17
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區圖書館一名職員在服務台協助讀者找書，也回答活動報名問題；另一位同事只在辦公室編目。用一至兩句英文指出前者的職務性質，並說明理由。",
+        "selfCheckZh": "以直接接觸讀者為依據，不要把 public-facing 解作由公帑支付或披露財務資料。",
+        "examples": [
+          {
+            "en": "The desk librarian has a public-facing role because she helps readers find books and answers event enquiries.",
+            "zh": "服務台館員直接面向公眾，因為她協助讀者找書，並回答活動查詢。"
+          },
+          {
+            "en": "Her public-facing duties include guiding visitors through the catalogue, while her colleague handles records in the back office.",
+            "zh": "她直接面向公眾的職責包括指導訪客使用目錄，另一位同事則在後台處理紀錄。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "helps readers find books",
+            "zh": "協助讀者找書",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 80
+            }
+          },
+          {
+            "en": "answers event enquiries",
+            "zh": "回答活動查詢",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 108
+            }
+          },
+          {
+            "en": "guiding visitors through the catalogue",
+            "zh": "指導訪客使用目錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 33,
+              "end": 71
+            }
+          },
+          {
+            "en": "handles records",
+            "zh": "處理紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 108
+            }
+          },
+          {
+            "en": "in the back office",
+            "zh": "在後台",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 127
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The reception volunteer had a public-facing role during the open day.",
+          "zh": "開放日當天，接待義工的職位直接面向公眾。"
+        },
+        {
+          "en": "A public-facing job involves direct contact; it need not be publicly funded.",
+          "zh": "直接面向公眾的工作涉及對外接觸，但不一定由公帑資助。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-seven-new-owner-proposals-3442-4468-exact-hash-review-20261024.json SHA-256 52ddc1655919cfc4fdf60015b6a3305cda39ffcdf340efe39293b09ba737a18c; 4468 focused repair independent-seven-new-owner-proposals-4468-focused-rereview-20261024.json SHA-256 c3c8a4b14ca3bf74f6a828533999bb036b3738016ecdf29b251b2558a39cc4a9; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-seven-new-owner-proposals-3442-4468-exact-hash-review-20261024.json SHA-256 52ddc1655919cfc4fdf60015b6a3305cda39ffcdf340efe39293b09ba737a18c; 4468 focused repair independent-seven-new-owner-proposals-4468-focused-rereview-20261024.json SHA-256 c3c8a4b14ca3bf74f6a828533999bb036b3738016ecdf29b251b2558a39cc4a9; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis and file verification not yet complete."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device checks remain pending."
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending.",
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; no audio, browser/device or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4327",
+      "number": 4327,
+      "inventoryId": "expr-4327",
+      "titleEn": "reach out",
+      "titleZh": "主動聯絡尋求連繫",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:reach|reaches|reached|reaching) out\\b",
+        "glossaryForbidden": [
+          "\\breach(?:es|ed|ing)? out\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Initiate contact with someone, often for support, conversation or human connection.",
+        "meaningZh": "主動與人聯絡，通常是為了尋求支持、交談或建立連繫。",
+        "grammar": "Use reach out to someone or reach out for help; contact is the action, while being understood is only a possible result.",
+        "register": "Everyday personal and support contexts, spoken or written.",
+        "boundaryZh": "主動聯絡不保證對方即時回覆或完全理解。",
+        "misconceptionZh": "不能把發訊息等同已獲理解；對方可能需要時間回應。",
+        "outcomeZh": "能說明主動聯絡的對象、原因及尚未確定的結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2216",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 209,
+          "book": 16,
+          "question": 13,
+          "sample": "S2",
+          "sourceBookPages": "31–32",
+          "locatorNote": "DOCX table 228, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "People still want to reach out and be understood.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "reach out and be understood"
+        }
+      ],
+      "listening": {
+        "promptZh": "西奧做了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He contacted his cousin because he wanted someone to talk to.",
+            "zh": "他因為想找人交談而聯絡了表親。"
+          },
+          {
+            "id": "b",
+            "en": "He planned to call his cousin but waited until the next day.",
+            "zh": "他打算致電表親，但等到翌日才行動。"
+          },
+          {
+            "id": "c",
+            "en": "He contacted a colleague to ask about local activities.",
+            "zh": "他聯絡同事，詢問本地活動。"
+          },
+          {
+            "id": "d",
+            "en": "He asked his cousin for practical advice about housing.",
+            "zh": "他向表親請教住屋方面的實際建議。"
+          }
+        ],
+        "explanationZh": "reach out 指他已主動聯絡表親想交談；其他選項改變了行動時間、對象或目的。",
+        "answerId": "a",
+        "en": "After moving to another city, Theo felt isolated and reached out to his cousin for a chat. He had not yet heard back, but sending the message was a first step.",
+        "zh": "搬到另一個城市後，西奧感到孤單，便主動聯絡表親想聊一聊；對方尚未回覆，但他已踏出第一步。"
+      },
+      "reply": {
+        "promptZh": "（瑪雅在新學校感到孤單時做了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She sent an old friend a message asking whether they could talk.",
+            "zh": "她傳訊息給舊朋友，問可否聊一聊。"
+          },
+          {
+            "id": "b",
+            "en": "She reached out to her former classmate for a conversation.",
+            "zh": "她主動聯絡舊同學，想與對方交談。"
+          },
+          {
+            "id": "c",
+            "en": "She asked the school adviser for a time to meet.",
+            "zh": "她請學校輔導員安排見面時間。"
+          },
+          {
+            "id": "d",
+            "en": "She wrote to her cousin to say she was having a difficult week.",
+            "zh": "她寫信給表親，說自己這星期過得很辛苦。"
+          }
+        ],
+        "explanationZh": "四句都描述她主動尋求連繫的行動；金句用本課片語概括。",
+        "promptEn": "What did Maya do when she felt alone at her new school?",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "一名新職員連續幾週不敢問問題，後來主動傳訊息給導師，希望討論工作上的困難；導師尚未回覆。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She reached out to her mentor, though she has not received an answer yet.",
+            "zh": "她主動聯絡導師，但尚未收到回覆。"
+          },
+          {
+            "id": "b",
+            "en": "Her mentor may suggest a way forward once they have spoken.",
+            "zh": "他們談過之後，導師或許會提出下一步做法。"
+          },
+          {
+            "id": "c",
+            "en": "She may still need to arrange time to explain the problem in detail.",
+            "zh": "她可能仍要另約時間，詳細說明問題。"
+          }
+        ],
+        "explanationZh": "傳訊息本身就是主動聯絡，尚未收到回覆；其他句子只推測接下來可能發生甚麼。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪種說法把 reach out 的結果說得過於肯定？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He reached out to a neighbour to ask whether she could talk.",
+            "zh": "他主動聯絡鄰居，問對方能否談談。"
+          },
+          {
+            "id": "b",
+            "en": "He reached out, so the neighbour must already understand exactly how he feels.",
+            "zh": "他已主動聯絡，因此鄰居必定已完全明白他的感受。"
+          },
+          {
+            "id": "c",
+            "en": "He can reach out now and wait for a reply before making other plans.",
+            "zh": "他現在可以主動聯絡，等回覆後再作其他安排。"
+          }
+        ],
+        "explanationZh": "主動聯絡是行動，對方是否回覆或理解仍未確定。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「阿健最近不太說話，我想知道他是否需要有人陪。」你怎樣提出一個不替對方作保證的建議？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You could reach out to him with a short message and let him decide when to reply.",
+            "zh": "你可以發短訊主動聯絡他，讓他自己決定何時回覆。"
+          },
+          {
+            "id": "b",
+            "en": "You could send him a brief message saying you are available to talk.",
+            "zh": "你可以傳一則短訊，告訴他你願意交談。"
+          },
+          {
+            "id": "c",
+            "en": "It may help to ask whether he wants company this week.",
+            "zh": "你可以問他這星期是否想有人陪伴。"
+          }
+        ],
+        "explanationZh": "金句提出體貼的主動聯絡方式，也保留對方選擇與回覆的空間。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "When she felt stuck, she reached out to a former teammate and asked if they could talk.",
+        "zh": "她感到受困時，主動聯絡一位舊隊友，問對方可否聊聊。",
+        "promptZh": "先聽示範，再說出她採取的主動聯絡行動。",
+        "targetSpan": {
+          "start": 25,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一名學生轉校後想念舊朋友，但不知道對方何時有空。她打算傳簡短訊息問能否週末談談。用一至兩句英文描述她的行動，並保留回覆仍未確定。",
+        "selfCheckZh": "寫出主動聯絡的對象及目的；不要斷言朋友已回覆或完全理解。",
+        "examples": [
+          {
+            "en": "She reached out to an old friend with a short message asking if they could talk at the weekend.",
+            "zh": "她傳簡短訊息主動聯絡舊朋友，問週末能否談談。"
+          },
+          {
+            "en": "She can reach out and suggest a weekend call, while giving her friend time to reply.",
+            "zh": "她可以主動聯絡並建議週末通話，同時讓朋友有時間回覆。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "an old friend",
+            "zh": "舊朋友",
+            "exampleIndex": 0,
+            "span": {
+              "start": 19,
+              "end": 32
+            }
+          },
+          {
+            "en": "a short message",
+            "zh": "一則簡短訊息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 38,
+              "end": 53
+            }
+          },
+          {
+            "en": "talk at the weekend",
+            "zh": "週末談談",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 94
+            }
+          },
+          {
+            "en": "suggest a weekend call",
+            "zh": "建議週末通話",
+            "exampleIndex": 1,
+            "span": {
+              "start": 22,
+              "end": 44
+            }
+          },
+          {
+            "en": "time to reply",
+            "zh": "回覆的時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 70,
+              "end": 83
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The new volunteer reached out to the coordinator before the first shift.",
+          "zh": "新義工在第一次當值前主動聯絡統籌員。"
+        },
+        {
+          "en": "Reaching out starts a conversation; it does not guarantee the other person can answer immediately.",
+          "zh": "主動聯絡可開啟對話，但不保證對方能立即回答。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-seven-new-owner-proposals-3442-4468-exact-hash-review-20261024.json SHA-256 52ddc1655919cfc4fdf60015b6a3305cda39ffcdf340efe39293b09ba737a18c; 4468 focused repair independent-seven-new-owner-proposals-4468-focused-rereview-20261024.json SHA-256 c3c8a4b14ca3bf74f6a828533999bb036b3738016ecdf29b251b2558a39cc4a9; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-seven-new-owner-proposals-3442-4468-exact-hash-review-20261024.json SHA-256 52ddc1655919cfc4fdf60015b6a3305cda39ffcdf340efe39293b09ba737a18c; 4468 focused repair independent-seven-new-owner-proposals-4468-focused-rereview-20261024.json SHA-256 c3c8a4b14ca3bf74f6a828533999bb036b3738016ecdf29b251b2558a39cc4a9; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis and file verification not yet complete."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device checks remain pending."
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending.",
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; no audio, browser/device or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4365",
+      "number": 4365,
+      "inventoryId": "expr-4365",
+      "titleEn": "anchor a family",
+      "titleZh": "為家庭提供穩定依靠",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:anchor|anchors|anchored|anchoring) (?:a|the|their|our|his|her) famil(?:y|ies)\\b",
+        "glossaryForbidden": [
+          "\\banchor\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Give a family stability, continuity or a shared point of connection.",
+        "meaningZh": "為家庭帶來穩定感、延續性或共同連繫。",
+        "grammar": "Anchor is a stability metaphor with family as object; the thing that anchors may be a shared practice, place or person.",
+        "register": "Family history, community and reflection on continuity through change.",
+        "boundaryZh": "有穩定依靠不等於家人永不爭執，或不會再搬遷。",
+        "misconceptionZh": "錨是比喻，不是說真的用船錨固定家人。",
+        "outcomeZh": "能指出甚麼讓家人在變化中保持連繫，也保留限制。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2254",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 213,
+          "book": 16,
+          "question": 18,
+          "sample": "S2",
+          "sourceBookPages": "43–45",
+          "locatorNote": "DOCX table 233, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "An inherited home can anchor a family.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "anchor a family"
+        }
+      ],
+      "listening": {
+        "promptZh": "星期日的通話對家庭有甚麼作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gives relatives a regular way to stay connected across cities.",
+            "zh": "它讓住在不同城市的親人定期保持聯繫。"
+          },
+          {
+            "id": "b",
+            "en": "It helps them settle practical plans for the coming week.",
+            "zh": "它幫助他們商定下星期的實際安排。"
+          },
+          {
+            "id": "c",
+            "en": "It gives the eldest sibling a chance to share new stories.",
+            "zh": "它讓長兄姊有機會分享新故事。"
+          },
+          {
+            "id": "d",
+            "en": "It lets them replace occasional visits with calls.",
+            "zh": "它讓他們以通話取代偶爾探訪。"
+          }
+        ],
+        "explanationZh": "定期通話帶來跨城市的穩定連繫；講者沒有特別提及下週安排、哪位親人說故事或是否減少探訪。",
+        "answerId": "a",
+        "en": "The siblings live in three cities, yet their Sunday story call has continued for years. The call anchors the family when their schedules change.",
+        "zh": "兄弟姊妹住在三個城市，但多年來每逢星期日仍會通話說故事；即使各人日程有變，這通電話也為家庭帶來穩定連繫。"
+      },
+      "reply": {
+        "promptZh": "（分居不同地方後，每週聚餐怎樣幫助這家人？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gives them a familiar time to meet and share news.",
+            "zh": "它給他們一個熟悉的時間見面和交換近況。"
+          },
+          {
+            "id": "b",
+            "en": "It helps younger relatives hear stories from older ones.",
+            "zh": "它讓年輕親人聽到長輩的故事。"
+          },
+          {
+            "id": "c",
+            "en": "The meal anchors the family by keeping a shared routine alive.",
+            "zh": "這頓聚餐延續共同習慣，為家庭提供穩定依靠。"
+          },
+          {
+            "id": "d",
+            "en": "It makes it easier to arrange a visit when everyone is free.",
+            "zh": "它讓大家有空時較容易安排見面。"
+          }
+        ],
+        "explanationZh": "四句都說明聚餐的幫助；金句以本課比喻概括共同習慣帶來的穩定感。",
+        "promptEn": "How has the weekly meal helped the family since they moved apart?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一個家庭搬離舊社區後，仍保留每月一起製作家族食譜的習慣，藉此分享不同世代的回憶。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The recipe-making routine anchors the family through their move.",
+            "zh": "一起寫食譜的習慣，在搬遷變化中為家庭提供穩定連繫。"
+          },
+          {
+            "id": "b",
+            "en": "The family may publish the recipes in a small booklet one day.",
+            "zh": "這家人或許有一天會把食譜出版成小冊子。"
+          },
+          {
+            "id": "c",
+            "en": "The recipes make it easier to remember what they cooked last month.",
+            "zh": "食譜讓他們更容易記得上個月煮過甚麼。"
+          }
+        ],
+        "explanationZh": "共同習慣連起不同世代與搬遷前後的生活；其他選項只談可能的成果或實用紀錄。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個推論超出了 anchor a family 的意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A regular gathering can give relatives a stable point of contact.",
+            "zh": "定期聚會可以讓親人有穩定的聯絡機會。"
+          },
+          {
+            "id": "b",
+            "en": "A shared tradition can anchor a family even when members sometimes disagree.",
+            "zh": "即使家人偶有分歧，共同傳統仍可提供穩定連繫。"
+          },
+          {
+            "id": "c",
+            "en": "A family that is anchored by one tradition can never have disagreements again.",
+            "zh": "只要有一個共同傳統作依靠，家人就永遠不會再有分歧。"
+          }
+        ],
+        "explanationZh": "穩定感不代表消除一切分歧；比喻不能被理解成絕對保證。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我們家分居兩地，但祖母仍每月主持線上故事夜。」你如何概括這個傳統，同時避免過度承諾？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That story night helps anchor the family, even if they cannot all join every time.",
+            "zh": "那個故事夜有助為家庭提供穩定連繫，即使大家未必每次都能參加。"
+          },
+          {
+            "id": "b",
+            "en": "It gives relatives a chance to hear their grandmother’s stories.",
+            "zh": "它讓親人有機會聽祖母說故事。"
+          },
+          {
+            "id": "c",
+            "en": "Online meetings can help some members stay in touch despite the distance.",
+            "zh": "線上聚會可幫助部分家人跨越距離保持聯繫。"
+          }
+        ],
+        "explanationZh": "金句指出傳統的穩定作用，同時承認出席未必每次齊全。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The monthly story night anchored the family while its members lived in different cities.",
+        "zh": "家人分居不同城市時，每月的故事夜為家庭提供了穩定連繫。",
+        "promptZh": "先聽示範，再指出讓家人保持連繫的事物。",
+        "targetSpan": {
+          "start": 24,
+          "end": 43
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一家人因工作分住不同城市，仍每月合寫一份家庭新聞信，分享照片和近況。用一至兩句英文說明這個做法如何帶來穩定連繫，不要聲稱家人從此沒有分歧。",
+        "selfCheckZh": "點出共同做法與持續連繫，並避免絕對保證。",
+        "examples": [
+          {
+            "en": "Their monthly newsletter helps anchor the family by giving relatives a regular way to share news and photos.",
+            "zh": "每月新聞信讓親人定期分享近況和照片，有助為家庭提供穩定連繫。"
+          },
+          {
+            "en": "The newsletter anchors the family across different cities, although they still need to discuss important decisions separately.",
+            "zh": "這份新聞信讓分居各地的家人保持連繫，但重要決定仍需另行商討。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a regular way to share news",
+            "zh": "定期分享近況的方法",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 96
+            }
+          },
+          {
+            "en": "monthly newsletter",
+            "zh": "每月新聞信",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 24
+            }
+          },
+          {
+            "en": "news and photos",
+            "zh": "近況和照片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 107
+            }
+          },
+          {
+            "en": "across different cities",
+            "zh": "跨越不同城市",
+            "exampleIndex": 1,
+            "span": {
+              "start": 34,
+              "end": 57
+            }
+          },
+          {
+            "en": "discuss important decisions separately",
+            "zh": "另行商討重要決定",
+            "exampleIndex": 1,
+            "span": {
+              "start": 87,
+              "end": 125
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A shared calendar anchored the family during a year of changing work shifts.",
+          "zh": "工作時間不斷變動的一年裏，共用日程為家庭提供了穩定安排。"
+        },
+        {
+          "en": "A familiar routine can anchor a family without settling every disagreement.",
+          "zh": "熟悉的日常習慣可讓家庭有依靠，卻不能解決所有分歧。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-seven-new-owner-proposals-3442-4468-exact-hash-review-20261024.json SHA-256 52ddc1655919cfc4fdf60015b6a3305cda39ffcdf340efe39293b09ba737a18c; 4468 focused repair independent-seven-new-owner-proposals-4468-focused-rereview-20261024.json SHA-256 c3c8a4b14ca3bf74f6a828533999bb036b3738016ecdf29b251b2558a39cc4a9; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-seven-new-owner-proposals-3442-4468-exact-hash-review-20261024.json SHA-256 52ddc1655919cfc4fdf60015b6a3305cda39ffcdf340efe39293b09ba737a18c; 4468 focused repair independent-seven-new-owner-proposals-4468-focused-rereview-20261024.json SHA-256 c3c8a4b14ca3bf74f6a828533999bb036b3738016ecdf29b251b2558a39cc4a9; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis and file verification not yet complete."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device checks remain pending."
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending.",
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; no audio, browser/device or release approval."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4468",
+      "number": 4468,
+      "inventoryId": "expr-4468",
+      "titleEn": "pass it on",
+      "titleZh": "把事物或做法傳給別人",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:pass|passes|passed|passing) (?:(?:it|them|this|that)|(?:a|an|the|their|our|his|her) (?:[a-z-]+ ){0,3}(?:tradition|custom|skill|recipe|item|story|drum|knowledge)) on\\b|\\b(?:pass|passes|passed|passing) on (?:(?:a|an|the|their|our|his|her) (?:[a-z-]+ ){0,3}(?:tradition|custom|skill|recipe|item|story|drum|knowledge)|it|them)\\b",
+        "glossaryForbidden": [
+          "\\b(?:pass|passes|passed|passing)\\b.*\\bon\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Transfer an item, skill, knowledge or custom to someone else so they can possess, use or continue it.",
+        "meaningZh": "把物件、技能、知識或習俗傳給別人，讓對方擁有、運用或延續。",
+        "grammar": "Pass it on uses a clear prior referent for it; pass an item on and pass on a tradition show the split and unsplit forms. Name what is being transferred when the pronoun would be unclear.",
+        "register": "Everyday talk about family objects, skills and customs shared with others.",
+        "boundaryZh": "原句的 it 沒有明說指甚麼；可以是傳統，也可以是物件。教會做法與單純交出成品是兩種不同的傳遞，要按情境說清楚。",
+        "misconceptionZh": "不要把來源中的 it 直接認定為傳統；也不要以為轉交一件成品便證明對方已學會製作。",
+        "outcomeZh": "能清楚說明傳給別人的是物件還是做法，並正確使用 pass it on、pass an item on 或 pass on a custom。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2357",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 223,
+          "book": 16,
+          "question": 30,
+          "sample": "S2",
+          "sourceBookPages": "72–74",
+          "locatorNote": "DOCX table 245, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Grandparents can pass it on to their children.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pass it on"
+        }
+      ],
+      "listening": {
+        "promptZh": "阿瑪爾希望孩子學到甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "How to continue the annual paper-star custom themselves.",
+            "zh": "如何自己延續每年編紙星的習俗。"
+          },
+          {
+            "id": "b",
+            "en": "How to decorate the windows for this year’s gathering.",
+            "zh": "如何為今年的聚會佈置窗戶。"
+          },
+          {
+            "id": "c",
+            "en": "How to finish enough stars before the winter event.",
+            "zh": "如何在冬季活動前完成足夠的紙星。"
+          },
+          {
+            "id": "d",
+            "en": "How to make stars that look similar to Amal’s examples.",
+            "zh": "如何製作與阿瑪爾的示範相似的紙星。"
+          }
+        ],
+        "explanationZh": "她親自教孩子製作，目的是讓他們日後能延續這項年度做法；其他選項只聚焦今年的製作或外觀。",
+        "answerId": "a",
+        "en": "Every winter, Amal shows the younger children how to weave paper stars for the neighbourhood windows. This year they made stars together so she could pass on the tradition.",
+        "zh": "每年冬天，阿瑪爾都教年幼孩子為鄰里窗戶編紙星；今年她與孩子一起製作，藉此把這項傳統傳下去。"
+      },
+      "reply": {
+        "promptZh": "（主辦者如何延續家族製作燈籠的傳統？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They invite children to make a lantern with older relatives each year.",
+            "zh": "他們每年邀請孩子與長輩一起做燈籠。"
+          },
+          {
+            "id": "b",
+            "en": "They pass on the tradition by teaching the younger generation each step.",
+            "zh": "他們逐步教導年輕一代，把這項傳統傳下去。"
+          },
+          {
+            "id": "c",
+            "en": "They record the pattern and explain what each design means.",
+            "zh": "他們記錄圖樣，並解釋各種設計的意思。"
+          },
+          {
+            "id": "d",
+            "en": "They hold an annual workshop where families practise together.",
+            "zh": "他們每年舉辦工作坊，讓各家庭一起練習。"
+          }
+        ],
+        "explanationZh": "四句都說明延續做法的方法；金句以本課片語概括跨代傳承。",
+        "promptEn": "How do the organisers keep the family lantern-making custom alive?",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "一位阿姨不只送侄女剪紙成品，還每週教她折紙、畫樣和剪出節慶圖案。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is passing on the paper-cutting tradition by teaching the method.",
+            "zh": "她教授製作方法，把剪紙傳統傳給侄女。"
+          },
+          {
+            "id": "b",
+            "en": "She has given her niece several finished paper decorations.",
+            "zh": "她送了侄女幾件完成的紙製裝飾。"
+          },
+          {
+            "id": "c",
+            "en": "Her niece may choose a new design for the next festival.",
+            "zh": "侄女下次過節時或許會選用新圖案。"
+          }
+        ],
+        "explanationZh": "教會步驟才讓侄女有機會繼續剪紙傳統；送出成品只是情境的一部分。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個做法只能證明物件已轉交，卻不足以證明傳統做法也已教會對方？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An elder teaches the children why their community sings the song each spring.",
+            "zh": "長輩教孩子明白社區為何每年春天唱那首歌。"
+          },
+          {
+            "id": "b",
+            "en": "Someone gives a child a finished festival decoration but never explains or teaches the custom.",
+            "zh": "有人送小孩一件現成節日裝飾，卻沒有解釋或教授相關習俗。"
+          },
+          {
+            "id": "c",
+            "en": "A craft worker demonstrates the same technique and lets apprentices practise it.",
+            "zh": "工匠示範同一種技法，並讓學徒親自練習。"
+          }
+        ],
+        "explanationZh": "現成裝飾可以被傳給小孩，但若沒有解釋或教導，便不能說相關做法也已傳承。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「祖父把舊鼓送了給孫兒，還每星期教他節慶演奏的節奏。」你怎樣突出傳承而非只說送禮？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He is passing on the drumming tradition by teaching his grandson the festival rhythms.",
+            "zh": "他教授孫兒節慶鼓樂節奏，把擊鼓傳統傳下去。"
+          },
+          {
+            "id": "b",
+            "en": "The grandson now has his grandfather’s old drum to practise on.",
+            "zh": "孫兒現在有祖父的舊鼓可以練習。"
+          },
+          {
+            "id": "c",
+            "en": "Their weekly lessons give the grandson time to learn the rhythms.",
+            "zh": "每週課堂讓孫兒有時間學習節奏。"
+          }
+        ],
+        "explanationZh": "金句說明被傳承的是節慶鼓樂做法，並點出長輩教導的行動。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The aunt passed on the paper-cutting tradition by teaching the children the festival patterns.",
+        "zh": "阿姨教孩子節慶圖案，把剪紙傳統傳了下去。",
+        "promptZh": "先聽示範，再說出傳承的是甚麼以及如何傳承。",
+        "targetSpan": {
+          "start": 9,
+          "end": 46
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區長者每年教青少年製作手繪節日牌匾，並解說圖案的由來。用一至兩句英文說明傳承的具體做法；不要只說牌匾被送出。",
+        "selfCheckZh": "明確指出被傳的是節慶牌匾製作傳統，並寫出教導或練習。",
+        "examples": [
+          {
+            "en": "The elders pass on the sign-painting tradition by showing teenagers the patterns and explaining their history.",
+            "zh": "長者示範圖案並講解其由來，把手繪牌匾的傳統傳給青少年。"
+          },
+          {
+            "en": "By painting signs together each year, the community passes on the tradition and gives teenagers a chance to practise.",
+            "zh": "社區每年一起繪製牌匾，把傳統延續下去，也讓青少年有機會練習。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "showing teenagers the patterns",
+            "zh": "向青少年示範圖案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 80
+            }
+          },
+          {
+            "en": "explaining their history",
+            "zh": "講解其由來",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 109
+            }
+          },
+          {
+            "en": "painting signs together",
+            "zh": "一起繪製牌匾",
+            "exampleIndex": 1,
+            "span": {
+              "start": 3,
+              "end": 26
+            }
+          },
+          {
+            "en": "each year",
+            "zh": "每年",
+            "exampleIndex": 1,
+            "span": {
+              "start": 27,
+              "end": 36
+            }
+          },
+          {
+            "en": "a chance to practise",
+            "zh": "練習的機會",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 116
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The baker passed on the festival bread tradition by teaching apprentices the recipe.",
+          "zh": "麵包師傅教學徒食譜，把節日麵包傳統傳了下去。"
+        },
+        {
+          "en": "Grandfather passed the old drum on to his grandson; he also taught him the festival rhythm.",
+          "zh": "祖父把舊鼓傳給孫兒，也教他節慶演奏的節奏。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-seven-new-owner-proposals-3442-4468-exact-hash-review-20261024.json SHA-256 52ddc1655919cfc4fdf60015b6a3305cda39ffcdf340efe39293b09ba737a18c; 4468 focused repair independent-seven-new-owner-proposals-4468-focused-rereview-20261024.json SHA-256 c3c8a4b14ca3bf74f6a828533999bb036b3738016ecdf29b251b2558a39cc4a9; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI source-and-editorial review",
+          "evidence": "independent-seven-new-owner-proposals-3442-4468-exact-hash-review-20261024.json SHA-256 52ddc1655919cfc4fdf60015b6a3305cda39ffcdf340efe39293b09ba737a18c; 4468 focused repair independent-seven-new-owner-proposals-4468-focused-rereview-20261024.json SHA-256 c3c8a4b14ca3bf74f6a828533999bb036b3738016ecdf29b251b2558a39cc4a9; source, meaning, bilingual options and writing reviewed at exact proposal hash."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four planned audio roles; synthesis and file verification not yet complete."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent editorial checks pass; integrated browser and device checks remain pending."
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending.",
+          "Source-fidelity repair: target broadened to source pass it on; object versus custom is explicit and both split/unsplit forms are modeled. Independent rereview pending.",
+          "Provisionally selected as an unpublished lesson after exact-hash independent editorial review; no audio, browser/device or release approval."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

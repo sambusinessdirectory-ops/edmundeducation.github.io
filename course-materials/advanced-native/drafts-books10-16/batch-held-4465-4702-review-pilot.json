@@ -1,0 +1,1371 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-distinct-3901-4715-batch-held-4465-4702-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-4465",
+      "number": 4465,
+      "inventoryId": "expr-4465",
+      "titleEn": "support livelihoods",
+      "titleZh": "支持人們維持生計",
+      "category": "natural",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:support|supports|supported|supporting)\\s+(?:(?:local|rural|family|several|many)\\s+)?livelihoods\\b",
+        "glossaryForbidden": [
+          "\\b(?:support|supports|supported|supporting)\\s+(?:(?:local|rural|family|several|many)\\s+)?livelihoods\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Help people earn the income needed to maintain their work and daily living, without guaranteeing prosperity.",
+        "meaningZh": "幫助人們取得維持工作及日常生活所需收入，但不保證富裕。",
+        "grammar": "Support livelihoods; supports/supported/supporting livelihoods. A buyer, policy, market or service can be the subject; livelihoods refers to people’s means of earning a living, not one specific salary.",
+        "register": "Neutral social-economic collocation. A cooperative organiser may explain it to donors; a reporter may describe the effect of a fair market to readers.",
+        "boundaryZh": "須有收入或工作機會的連結；支持生計不等於每人都賺很多，也不只指免費送物資。",
+        "misconceptionZh": "不要由一宗銷售推斷全村富裕；應交代受益者和取得收入的途徑。",
+        "outcomeZh": "能指出誰獲得收入機會、途徑是甚麼，以及不能由此推斷甚麼。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2354",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 222,
+          "book": 16,
+          "question": 30,
+          "sample": "S1",
+          "sourceBookPages": "72–74",
+          "locatorNote": "DOCX table 245, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Tourist purchases can support livelihoods in the village.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "support livelihoods"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "How does the contract help?",
+        "promptZh": "這份合約怎樣提供幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gives local binders paid work during the winter.",
+            "zh": "它在冬季為本地裝訂工提供有薪工作。"
+          },
+          {
+            "id": "b",
+            "en": "It proves every binder has become wealthy.",
+            "zh": "它證明每位裝訂工都變得富裕。"
+          },
+          {
+            "id": "c",
+            "en": "It replaces payment with unpaid volunteer work.",
+            "zh": "它以無薪義工工作取代酬勞。"
+          },
+          {
+            "id": "d",
+            "en": "It stops the library from repairing any books.",
+            "zh": "它令圖書館停止修復所有書籍。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "圖書館按修復冊數付款，直接提供收入；沒有資料可說人人富裕。",
+        "en": "A town library hires local binders to repair its old books and pays them for each completed volume. The contract supports livelihoods by giving the binders paid work through the winter.",
+        "zh": "鎮圖書館聘請本地裝訂工修復舊書，每完成一本便付款。這份合約在冬季為裝訂工提供有薪工作，幫助他們維持生計。"
+      },
+      "reply": {
+        "promptEn": "Our community bakery wants to buy flour from nearby growers at a fair price. Why might that matter?",
+        "promptZh": "社區麵包店想以公平價格向附近農戶買麵粉。這有甚麼作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Regular fair-price orders can support livelihoods for the growers.",
+            "zh": "定期以公平價格訂貨可幫助農戶維持生計。"
+          },
+          {
+            "id": "b",
+            "en": "The growers can receive income from what they produce.",
+            "zh": "農戶可從自己生產的東西取得收入。"
+          },
+          {
+            "id": "c",
+            "en": "A predictable buyer may help them plan the next crop.",
+            "zh": "穩定買家可能幫他們規劃下一季作物。"
+          },
+          {
+            "id": "d",
+            "en": "The bakery can explain where its flour comes from while paying the suppliers.",
+            "zh": "麵包店可說明麵粉來源，同時向供應者付款。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句均就公平購買與農戶收入作合理回答；金句用目標詞概括生計作用。"
+      },
+      "scene": {
+        "promptEn": "A council commissions local seamstresses to make reusable festival banners and pays them at the agreed rate. Which description fits?",
+        "promptZh": "議會委託本地裁縫製作可重用節慶橫額，並按議定費用付款。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The paid commission can support livelihoods for the seamstresses.",
+            "zh": "有薪委託可幫助裁縫維持生計。"
+          },
+          {
+            "id": "b",
+            "en": "The seamstresses are required to work without payment.",
+            "zh": "裁縫被要求無薪工作。"
+          },
+          {
+            "id": "c",
+            "en": "The commission proves the seamstresses will never need another job.",
+            "zh": "這項委託證明裁縫以後不用再工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有薪委託帶來收入，但不保證永久收入或富裕。"
+      },
+      "contrast": {
+        "promptEn": "Which evidence would least support a claim that an event supports livelihoods?",
+        "promptZh": "哪項證據最不足以支持「活動幫助人維持生計」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Vendors receive payment for food they sell at the event.",
+            "zh": "攤販在活動出售食物後收到款項。"
+          },
+          {
+            "id": "b",
+            "en": "The organiser posts attractive photographs but buys nothing from local workers.",
+            "zh": "主辦方上載吸引照片，卻沒有向本地工人購買任何東西。"
+          },
+          {
+            "id": "c",
+            "en": "Local technicians are paid to set up and remove the stage.",
+            "zh": "本地技術員獲酬安裝和拆卸舞台。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "漂亮照片本身沒有顯示收入或工作機會；另外兩項均有具體有薪工作。"
+      },
+      "dialogue": {
+        "promptEn": "A donor says, “One weekend market made everyone in the district rich.” You know several makers were paid, but do not know their total income. What should you say?",
+        "promptZh": "捐助者說：「一個周末市集令區內人人致富。」你知道數位手作者收了款，但不知道他們的總收入。應怎樣說？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The market supported livelihoods for several makers through paid sales, but we cannot claim everyone became rich.",
+            "zh": "市集透過有酬銷售幫幾位手作者維持生計，但不能說人人致富。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, the market proves every household has enough money forever.",
+            "zh": "對，市集證明每戶人家從此永遠有足夠金錢。"
+          },
+          {
+            "id": "c",
+            "en": "No maker received payment, so the sales did nothing for anyone.",
+            "zh": "沒有手作者收款，所以銷售對誰也沒有作用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "答話保留已知付款效果，同時拒絕沒有證據的全區致富推論。"
+      },
+      "speaking": {
+        "en": "Buying the woven mats from the makers at a fair rate can support livelihoods without claiming that one order solves every problem.",
+        "zh": "以公平價格向手作者購買編織墊可幫助他們維持生計，但不能說一張訂單解決所有問題。",
+        "promptZh": "先聽示範，再交代付款途徑與推論界線。",
+        "targetSpan": {
+          "start": 57,
+          "end": 76
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一所學校向三位本地木匠付費訂造書架，校長想寫新聞稿。你須說明這筆訂單提供有薪工作，但沒有資料可說全鎮已富裕。用一至兩句英文建議寫法。",
+        "selfCheckZh": "兩例都要提及學校付費、三位本地木匠訂造書架，以及不能推斷全鎮富裕。",
+        "examples": [
+          {
+            "en": "The school’s paid order for bookshelves can support livelihoods for three local carpenters by giving them work; it does not prove that the whole town is wealthy.",
+            "zh": "學校付費訂造書架，為三位本地木匠提供工作，可幫助他們維持生計；這不證明全鎮富裕。"
+          },
+          {
+            "en": "We can say that paying three local carpenters to build bookshelves supports livelihoods through a specific job, while avoiding any claim that everyone in town has grown rich.",
+            "zh": "我們可說，付費請三位本地木匠製作書架，透過具體工作幫助人維持生計，同時避免聲稱全鎮人人致富。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "paid order for bookshelves",
+            "zh": "付費訂造書架",
+            "exampleIndex": 0,
+            "span": {
+              "start": 13,
+              "end": 39
+            }
+          },
+          {
+            "en": "three local carpenters",
+            "zh": "三位本地木匠",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 90
+            }
+          },
+          {
+            "en": "the whole town is wealthy",
+            "zh": "全鎮富裕",
+            "exampleIndex": 0,
+            "span": {
+              "start": 135,
+              "end": 160
+            }
+          },
+          {
+            "en": "through a specific job",
+            "zh": "透過具體工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 88,
+              "end": 110
+            }
+          },
+          {
+            "en": "avoiding any claim",
+            "zh": "避免任何聲稱",
+            "exampleIndex": 1,
+            "span": {
+              "start": 118,
+              "end": 136
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Paid work can support livelihoods without making a whole community wealthy.",
+          "zh": "有薪工作可支持生計，但不等於整個社區都富裕。"
+        },
+        {
+          "en": "To explain how purchases support livelihoods, name the people and the income route.",
+          "zh": "聲稱有經濟效益前，先指出受益的人與取得收入的途徑。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4511",
+      "number": 4511,
+      "inventoryId": "expr-4511",
+      "titleEn": "default choice",
+      "titleZh": "通常會先選的選項",
+      "category": "natural",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\bdefault choice\\b",
+        "glossaryForbidden": [
+          "\\bdefault choice\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "The option normally selected unless a reason calls for another one; it is not necessarily compulsory or best in every case.",
+        "meaningZh": "通常先選、除非有其他理由才改選的選項；不一定是強制，也未必適合每種情況。",
+        "grammar": "The/a/default choice for a task or group; X is the default choice when a condition holds. Default is an adjective modifying choice.",
+        "register": "Neutral practical planning language. A coordinator may tell a team how they usually proceed, while inviting exceptions.",
+        "boundaryZh": "指一般慣常選擇，不表示毫無例外，也不等於已由法律或規則強制。",
+        "misconceptionZh": "不要把常用選項說成唯一合法或永遠最好的選項；留意適用條件。",
+        "outcomeZh": "能說明常用選項、適用條件，以及甚麼情況要改選。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2400",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 226,
+          "book": 16,
+          "question": 35,
+          "sample": "S1",
+          "sourceBookPages": "84–85",
+          "locatorNote": "DOCX table 250, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "For a long trip, rail is the default choice.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "default choice"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "What does “default choice” mean here?",
+        "promptZh": "這裏「通常首選」是甚麼意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Email is usually used for routine notices, with a different channel for urgent alerts.",
+            "zh": "一般通告通常用電郵，緊急通知則改用另一渠道。"
+          },
+          {
+            "id": "b",
+            "en": "All notices must be sent by email under a law with no exception.",
+            "zh": "法律規定所有通告都必須用電郵，毫無例外。"
+          },
+          {
+            "id": "c",
+            "en": "Text messages are never sent by the library.",
+            "zh": "圖書館從不發短訊。"
+          },
+          {
+            "id": "d",
+            "en": "Readers have all refused to receive emails.",
+            "zh": "所有讀者都拒絕收電郵。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音指出一般通告用電郵，緊急休館改用短訊；不是強制唯一渠道。",
+        "en": "For routine library notices, the team sends an email by default because most readers have opted in. Urgent closure alerts still go by text message. Email is the default choice, not the only channel.",
+        "zh": "圖書館一般通告通常以電郵發送，因大多讀者已同意收取；緊急休館通知仍用短訊。電郵是通常首選，不是唯一渠道。"
+      },
+      "reply": {
+        "promptEn": "Our group usually meets online, but members with poor connections may use the community room. How should I describe the arrangement?",
+        "promptZh": "小組通常網上開會，但網絡不穩的成員可用社區房間。應怎樣描述這安排？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Online meetings are the default choice, while the community room remains available when needed.",
+            "zh": "網上會議是通常首選；有需要時仍可使用社區房間。"
+          },
+          {
+            "id": "b",
+            "en": "We normally meet online but can provide a room for connection problems.",
+            "zh": "我們一般網上開會，但網絡有問題時可提供房間。"
+          },
+          {
+            "id": "c",
+            "en": "Members can tell us early if they need the community room.",
+            "zh": "成員如需社區房間可提早告知。"
+          },
+          {
+            "id": "d",
+            "en": "The online format works for many people, though we should keep an accessible alternative.",
+            "zh": "網上形式適合不少人，但仍應保留可用的替代方案。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都如實描述慣常做法與例外；金句用 default choice。"
+      },
+      "scene": {
+        "promptEn": "A café prints receipts only when customers ask, while digital receipts are normally sent by email. Which sentence fits?",
+        "promptZh": "咖啡店只在客人提出時列印收據；平常收據以電郵寄送。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A digital receipt is the default choice, but a printed one is available on request.",
+            "zh": "電子收據是通常首選，客人要求時仍可列印。"
+          },
+          {
+            "id": "b",
+            "en": "The café is legally forbidden to print any receipt.",
+            "zh": "法律禁止咖啡店列印任何收據。"
+          },
+          {
+            "id": "c",
+            "en": "Every customer receives paper before asking.",
+            "zh": "每位客人提出要求前已收到紙本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一般寄電子版，但仍有紙本選項，正符合慣常選擇而非唯一選擇。"
+      },
+      "contrast": {
+        "promptEn": "Which claim does not follow from “This is our default choice”?",
+        "promptZh": "由「這是我們的通常首選」，最不能推出哪句？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is what we normally select when no special condition applies.",
+            "zh": "沒有特殊條件時通常會選它。"
+          },
+          {
+            "id": "b",
+            "en": "No one may ever choose an alternative, even when conditions change.",
+            "zh": "即使情況變了，任何人也絕不能選其他選項。"
+          },
+          {
+            "id": "c",
+            "en": "We may need to explain when another option is appropriate.",
+            "zh": "我們可能要說明何時適宜選其他方案。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "default 表示慣常或預設，不自行禁止任何例外；另外兩項與此一致。"
+      },
+      "dialogue": {
+        "promptEn": "A new volunteer asks whether the centre always uses the same pickup point. Most events start at the main gate, but wheelchair access is better at the side entrance. What should you say?",
+        "promptZh": "新義工問中心是否總用同一集合點。大部分活動由正門開始，但輪椅使用者從側門較方便。應怎樣說？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The main gate is our default choice, but we use the side entrance when it provides better access.",
+            "zh": "正門是我們的通常首選，但側門無障礙通行較好時會改用側門。"
+          },
+          {
+            "id": "b",
+            "en": "Everyone must use the main gate regardless of access needs.",
+            "zh": "不論通行需要，所有人都必須用正門。"
+          },
+          {
+            "id": "c",
+            "en": "The side entrance does not exist, so there is no alternative.",
+            "zh": "側門不存在，因此沒有其他選項。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "正門是一般安排，側門是有根據的例外；不能抹去無障礙需要。"
+      },
+      "speaking": {
+        "en": "For ordinary questions, the help desk is the default choice, but an emergency should go straight to the duty officer.",
+        "zh": "一般問題通常先到服務台，但緊急情況應直接找當值主管。",
+        "promptZh": "先聽示範，再說出通常選項和明確例外。",
+        "targetSpan": {
+          "start": 45,
+          "end": 59
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區廚房一般在星期三送餐，但醫療覆診者可申請星期二取餐。你要向新義工解釋通常安排和這項例外，不要說星期三強制適用於所有人。用一至兩句英文說明。",
+        "selfCheckZh": "兩例都要寫出星期三為通常送餐安排、醫療覆診者可星期二取餐，以及不是人人都必須星期三。",
+        "examples": [
+          {
+            "en": "Wednesday delivery is the default choice for the community kitchen, but people with medical appointments can request Tuesday collection instead.",
+            "zh": "社區廚房通常星期三送餐，但有醫療覆診的人可改為星期二取餐。"
+          },
+          {
+            "en": "The kitchen normally delivers meals on Wednesday; that is the default choice, not a rule for everyone. Someone attending a medical appointment may collect on Tuesday.",
+            "zh": "廚房一般星期三送餐；這是通常首選，不是所有人的硬性規定。有醫療覆診的人可在星期二取餐。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "community kitchen",
+            "zh": "社區廚房",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 66
+            }
+          },
+          {
+            "en": "medical appointments",
+            "zh": "醫療覆診",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 104
+            }
+          },
+          {
+            "en": "Tuesday collection",
+            "zh": "星期二取餐",
+            "exampleIndex": 0,
+            "span": {
+              "start": 117,
+              "end": 135
+            }
+          },
+          {
+            "en": "not a rule for everyone",
+            "zh": "不是適用於所有人的硬性規定",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 101
+            }
+          },
+          {
+            "en": "collect on Tuesday",
+            "zh": "星期二取餐",
+            "exampleIndex": 1,
+            "span": {
+              "start": 147,
+              "end": 165
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A default choice describes usual practice, not a ban on exceptions.",
+          "zh": "通常首選描述一般做法，不是禁止例外。"
+        },
+        {
+          "en": "Name the condition that justifies switching away from the default choice.",
+          "zh": "指出甚麼條件可支持改選另一方案。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4539",
+      "number": 4539,
+      "inventoryId": "expr-4539",
+      "titleEn": "fumble with",
+      "titleZh": "手忙腳亂地處理",
+      "category": "natural",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:fumble|fumbles|fumbled|fumbling)\\s+with\\s+(?:(?:the|a|his|her|their|my|your|our)\\s+)?(?:payment|tickets?|keys?|latch|envelope|phone|badge|card|receipt)\\b",
+        "glossaryForbidden": [
+          "\\b(?:fumble|fumbles|fumbled|fumbling)\\s+with\\s+(?:(?:the|a|his|her|their|my|your|our)\\s+)?(?:payment|tickets?|keys?|latch|envelope|phone|badge|card|receipt)\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Handle an object awkwardly, often while trying to find, open, pay or use it under pressure.",
+        "meaningZh": "在尋找、打開、付款或使用物件時，手忙腳亂地處理它。",
+        "grammar": "Fumble/fumbles/fumbled/fumbling with + a handled object. The subject is the person struggling with the object, not the object itself.",
+        "register": "Conversational description. A traveller may explain a delay to a companion; a cashier may describe a customer gently without mocking them.",
+        "boundaryZh": "有實際處理物件時的笨拙動作；不等於沒有錢、刻意拖延或完全不懂規則。",
+        "misconceptionZh": "不要把一時手忙腳亂推斷成能力差；也不要用它描述純粹思考上猶豫而沒有處理物件。",
+        "outcomeZh": "能指出人正處理哪件物品、哪裏不順，以及不能由此推斷甚麼。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2428",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 229,
+          "book": 16,
+          "question": 39,
+          "sample": "S2",
+          "sourceBookPages": "94–95",
+          "locatorNote": "DOCX table 254, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Drivers no longer need to fumble with payment at toll booths.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "fumble with payment"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "What happened to Sam?",
+        "promptZh": "Sam 當時發生了甚麼事？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He handled his ticket awkwardly while his hands were occupied.",
+            "zh": "他雙手忙着拿東西，處理門票時手忙腳亂。"
+          },
+          {
+            "id": "b",
+            "en": "He refused to show any ticket because he disliked the play.",
+            "zh": "他因不喜歡戲劇而拒絕出示任何門票。"
+          },
+          {
+            "id": "c",
+            "en": "He had no money to buy a ticket.",
+            "zh": "他沒有錢買票。"
+          },
+          {
+            "id": "d",
+            "en": "The usher had already scanned his ticket before he arrived.",
+            "zh": "他到達前，引座員已掃描門票。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "雨傘佔了一隻手，他處理門票不順；沒有說他拒絕、沒錢或已掃票。",
+        "en": "At the theatre entrance, Sam fumbled with his ticket while holding a wet umbrella. The usher waited, then pointed to the barcode on his phone.",
+        "zh": "劇院入口處，Sam 一手拿着濕雨傘，另一手忙腳亂地找票。引座員等了一會，再指向他手機上的條碼。"
+      },
+      "reply": {
+        "promptEn": "I am trying to open the storeroom while carrying two boxes, and I cannot get the key into the lock smoothly. What can I say?",
+        "promptZh": "我抱着兩箱東西要開儲物室，鑰匙一直插不順。可以怎樣說？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I am fumbling with the key; could you hold one box for a moment?",
+            "zh": "我拿鑰匙時手忙腳亂；你可否暫時幫我拿一箱？"
+          },
+          {
+            "id": "b",
+            "en": "Could you take one box so I have a free hand for the lock?",
+            "zh": "你可否拿一箱，讓我空出一隻手開鎖？"
+          },
+          {
+            "id": "c",
+            "en": "I need a moment to put these boxes down before opening the door.",
+            "zh": "開門前我需要片刻把箱子放下。"
+          },
+          {
+            "id": "d",
+            "en": "Please wait while I check which key fits this lock.",
+            "zh": "請等一下，我先查哪把鑰匙配這把鎖。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都按手忙腳亂的當下情況提出合理辦法；金句自然使用 fumble with。"
+      },
+      "scene": {
+        "promptEn": "At a small concert, Lina tries to find the right pass in a stack while the queue moves. She drops two cards and picks them up. Which description fits?",
+        "promptZh": "小型音樂會入場時，Lina 在一疊證件中找正確通行證，隊伍正前進。她掉了兩張卡，又拾起來。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She fumbled with her card while trying to enter.",
+            "zh": "她入場時手忙腳亂地處理通行證。"
+          },
+          {
+            "id": "b",
+            "en": "She deliberately threw the cards away to avoid the concert.",
+            "zh": "她刻意丟掉卡片以避開音樂會。"
+          },
+          {
+            "id": "c",
+            "en": "She had already entered before the queue began to move.",
+            "zh": "隊伍移動前她已入場。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "翻找並掉卡支持手忙腳亂；不是刻意丟掉，也未顯示已入場。"
+      },
+      "contrast": {
+        "promptEn": "Which situation least fits fumble with an object?",
+        "promptZh": "哪個情況最不適合用 fumble with 描述處理物件？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A traveller drops the receipt while trying to fold it into a wallet.",
+            "zh": "旅客想把收據摺進錢包時掉了收據。"
+          },
+          {
+            "id": "b",
+            "en": "A reader quietly considers two opinions without touching or handling anything.",
+            "zh": "讀者安靜思考兩種意見，沒有觸碰或處理任何物品。"
+          },
+          {
+            "id": "c",
+            "en": "A parent has difficulty opening the latch while balancing a bag.",
+            "zh": "家長拿着袋子時不順手地開門閂。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "本課的 fumble with 指手上處理物件不順；純粹思考兩種意見並無此動作。"
+      },
+      "dialogue": {
+        "promptEn": "A visitor apologises for delaying the line while looking for a card. You saw the card slip behind a folded map. Which response is both accurate and kind?",
+        "promptZh": "訪客找卡時拖慢隊伍並道歉。你看到卡滑到摺起的地圖後面。怎樣回答既準確又體貼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "No problem; you were fumbling with the card because it slipped behind the map. It is just there.",
+            "zh": "沒關係；卡滑到地圖後面，你才手忙腳亂地找。它就在那裏。"
+          },
+          {
+            "id": "b",
+            "en": "You must have lost the card permanently, so you cannot enter.",
+            "zh": "你一定永久遺失卡片，所以不能入場。"
+          },
+          {
+            "id": "c",
+            "en": "You are delaying us on purpose, although I can see the card.",
+            "zh": "雖然我看見卡片，但你是故意拖延我們。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "回應指出卡的位置與一時不順，不把失誤誇大成永久遺失或惡意。"
+      },
+      "speaking": {
+        "en": "I fumbled with the envelope at the counter until I set down my bag and could use both hands.",
+        "zh": "我在櫃位手忙腳亂地處理信封，直到放下袋子，騰出雙手。",
+        "promptZh": "先聽示範，再說出物品和令動作不順的因素。",
+        "targetSpan": {
+          "start": 2,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校展覽開幕前，你一手拿着海報，一手找門禁卡；卡在袋底。朋友幫你托海報後，你拿出卡開門。寫一至兩句英文描述，不說自己沒卡或故意拖延。",
+        "selfCheckZh": "兩例都要提海報佔手、卡在袋底、朋友托海報後才取出卡開門；不可說沒卡或故意拖延。",
+        "examples": [
+          {
+            "en": "I fumbled with my card because one hand held the poster and the card was at the bottom of my bag; once my friend held the poster, I found the card and opened the door.",
+            "zh": "我一手拿海報，卡又在袋底，因此找卡時手忙腳亂；朋友幫我托海報後，我找出卡開了門。"
+          },
+          {
+            "en": "With the poster in one hand and the card deep in my bag, I was fumbling with the card. My friend held the poster, so I could take out the card and unlock the door.",
+            "zh": "我一手拿海報，卡又在袋底，所以處理卡時手忙腳亂。朋友托着海報，我便能拿出卡開門。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "one hand held the poster",
+            "zh": "一手拿海報",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 55
+            }
+          },
+          {
+            "en": "at the bottom of my bag",
+            "zh": "在袋底",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 96
+            }
+          },
+          {
+            "en": "opened the door",
+            "zh": "開了門",
+            "exampleIndex": 0,
+            "span": {
+              "start": 151,
+              "end": 166
+            }
+          },
+          {
+            "en": "deep in my bag",
+            "zh": "在袋底深處",
+            "exampleIndex": 1,
+            "span": {
+              "start": 41,
+              "end": 55
+            }
+          },
+          {
+            "en": "unlock the door",
+            "zh": "把門打開",
+            "exampleIndex": 1,
+            "span": {
+              "start": 147,
+              "end": 162
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Fumbling with a ticket shows awkward handling, not a lack of money or a bad motive.",
+          "zh": "fumble with 指處理物件時不順，不表示沒錢或有惡意。"
+        },
+        {
+          "en": "A free hand can help someone who is fumbling with a key.",
+          "zh": "一個小小實際調整，可讓人騰出需要的一隻手。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4589",
+      "number": 4589,
+      "inventoryId": "expr-4589",
+      "titleEn": "drawn-out",
+      "titleZh": "拖得過久的",
+      "category": "natural",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\bdrawn[- ]out\\b",
+        "glossaryForbidden": [
+          "\\bdrawn[- ]out\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Taking longer than is comfortable or necessary, often with frustration caused by delays or an extended process.",
+        "meaningZh": "因延誤或過程拉長而耗時過久，令人感到不便或厭煩。",
+        "grammar": "Drawn-out is a hyphenated adjective before a noun or after a linking verb: a drawn-out meeting; the process became drawn-out. Without the hyphen, was drawn out may be a passive verb construction.",
+        "register": "Neutral evaluative adjective. A customer may describe a delayed repair to a service desk; a colleague may suggest a shorter meeting.",
+        "boundaryZh": "不只指距離遠或時數長；須有相對預期過度延長或令人難受的過程。",
+        "misconceptionZh": "不要把本來就安排兩小時而順利完成的活動，自動說成拖得過久。",
+        "outcomeZh": "能指出延長的原因、原有預期與實際影響，而不把長度直接等同拖延。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2478",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 234,
+          "book": 16,
+          "question": 46,
+          "sample": "S1",
+          "sourceBookPages": "108–109",
+          "locatorNote": "DOCX table 261, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "They wanted to avoid a drawn-out journey by road.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "drawn-out journey"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "Why did the customer use that description?",
+        "promptZh": "顧客為何這樣形容？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The appointment lasted far beyond the expected time because checks were repeated.",
+            "zh": "預約因重複檢查而遠超原定時間。"
+          },
+          {
+            "id": "b",
+            "en": "The repair was scheduled as a four-hour visit from the beginning.",
+            "zh": "維修一開始就安排為四小時。"
+          },
+          {
+            "id": "c",
+            "en": "The repair was cancelled before the customer arrived.",
+            "zh": "顧客到達前維修已取消。"
+          },
+          {
+            "id": "d",
+            "en": "The customer travelled a long distance but the repair took exactly forty minutes.",
+            "zh": "顧客路程遠，但維修恰好用了四十分鐘。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "四十分鐘變四小時，且有重複檢查造成的延誤；不是單純路程遠。",
+        "en": "The repair appointment was meant to take forty minutes, but three repeated checks stretched it to four hours. The customer called it a drawn-out visit and asked what caused the delays.",
+        "zh": "維修預約原定四十分鐘，但三次重複檢查令它延至四小時。顧客稱這次到訪拖得過久，並詢問延誤原因。"
+      },
+      "reply": {
+        "promptEn": "Our rehearsal review was planned for half an hour, but we keep returning to the same resolved point. What could we do?",
+        "promptZh": "排練檢討原定半小時，卻一直回到已解決的同一點。我們可怎樣做？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We could prevent a drawn-out meeting by recording the agreed point and moving to unresolved questions.",
+            "zh": "我們可記下已同意的要點，再轉向未解決問題，避免會議拖得過久。"
+          },
+          {
+            "id": "b",
+            "en": "We could write down what has already been agreed before we continue.",
+            "zh": "繼續前可寫下已同意的內容。"
+          },
+          {
+            "id": "c",
+            "en": "Let us set a time for the remaining questions.",
+            "zh": "讓我們為餘下問題定個時間。"
+          },
+          {
+            "id": "d",
+            "en": "We can ask which issue still needs a decision rather than repeat the settled one.",
+            "zh": "我們可問哪件事仍須決定，而不是重複已解決事項。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都針對重複已解決議題的延誤提出可行做法。"
+      },
+      "scene": {
+        "promptEn": "A permit normally takes one week, but this application is sent back four times for the same missing signature and takes eight weeks. Which description fits?",
+        "promptZh": "許可申請通常一星期完成，但這次因同一處漏簽名被退回四次，拖到八星期。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It became a drawn-out process because the repeated returns greatly extended it.",
+            "zh": "重複退件令程序大幅延長，成為拖得過久的過程。"
+          },
+          {
+            "id": "b",
+            "en": "It finished within the normal one-week period.",
+            "zh": "它在正常的一星期內完成。"
+          },
+          {
+            "id": "c",
+            "en": "The application needed no signature at any point.",
+            "zh": "申請從頭到尾不需要簽名。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一星期變八星期且四次重複退件，支持「過程拖得過久」。"
+      },
+      "contrast": {
+        "promptEn": "Which case least justifies calling an event drawn-out?",
+        "promptZh": "哪個情況最不宜稱為 drawn-out？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A hearing lasts twice the planned time because the same evidence is reread repeatedly.",
+            "zh": "聆訊因反覆重讀同一證據，用了計劃時間兩倍。"
+          },
+          {
+            "id": "b",
+            "en": "A two-hour concert runs for its advertised two hours without interruption.",
+            "zh": "兩小時音樂會按公布時間順利演出，沒有中斷。"
+          },
+          {
+            "id": "c",
+            "en": "A simple refund takes months because the form is repeatedly returned without explanation.",
+            "zh": "簡單退款因表格不斷無故退回而拖了數月。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "按預告時長順利完成，單憑兩小時不能說它拖得過久；另兩項有無謂延長。"
+      },
+      "dialogue": {
+        "promptEn": "A parent asks why the school trip took six hours when the route normally takes two. You know traffic diversions caused long waits but everyone arrived safely. What is a fair answer?",
+        "promptZh": "家長問學校旅行為何用了六小時，平常路線只需兩小時。你知道改道令大家久等，但所有人安全抵達。怎樣回答公允？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It was a drawn-out journey because diversions added long waits; everyone arrived safely, and we should explain the route change.",
+            "zh": "改道使大家久等，旅程拖得過久；所有人安全抵達，我們應說明路線改動。"
+          },
+          {
+            "id": "b",
+            "en": "The journey took the normal two hours, so there was no delay.",
+            "zh": "旅程用了正常的兩小時，沒有延誤。"
+          },
+          {
+            "id": "c",
+            "en": "Because the trip was long, nobody could have arrived safely.",
+            "zh": "因旅程長，所以不可能有人安全抵達。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "回應同時保留六小時延誤原因與安全抵達的事實，不以一項抹去另一項。"
+      },
+      "speaking": {
+        "en": "The drawn-out registration process took three days rather than one because applicants had to submit the same form twice.",
+        "zh": "登記程序因申請人要重交同一表格，由原定一天拖到三天。",
+        "promptZh": "先聽示範，再比較預期與實際時間及延誤原因。",
+        "targetSpan": {
+          "start": 4,
+          "end": 13
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區展覽原定四十分鐘完成場地檢查，卻因同一份照明清單被重做三次而用了三小時。你向義工報告，指出過久的原因，同時不要聲稱展覽已取消。寫一至兩句英文。",
+        "selfCheckZh": "兩例都要交代原定四十分鐘、實際三小時、照明清單重做三次，並避免說展覽取消。",
+        "examples": [
+          {
+            "en": "The site check became drawn-out: it took three hours instead of forty minutes because the lighting list was redone three times. The exhibition has not been cancelled.",
+            "zh": "場地檢查拖得過久：照明清單重做三次，令原定四十分鐘的工作用了三小時。展覽並未取消。"
+          },
+          {
+            "en": "Our drawn-out site check lasted three hours rather than the planned forty minutes after we repeated the lighting list three times; the exhibition is still going ahead.",
+            "zh": "場地檢查因重做照明清單三次，由原定四十分鐘延至三小時；展覽仍會如期舉行。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "three hours instead of forty minutes",
+            "zh": "三小時而非四十分鐘",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 77
+            }
+          },
+          {
+            "en": "the lighting list",
+            "zh": "照明清單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 86,
+              "end": 103
+            }
+          },
+          {
+            "en": "three times",
+            "zh": "三次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 126
+            }
+          },
+          {
+            "en": "site check",
+            "zh": "場地檢查",
+            "exampleIndex": 1,
+            "span": {
+              "start": 14,
+              "end": 24
+            }
+          },
+          {
+            "en": "still going ahead",
+            "zh": "仍會如期舉行",
+            "exampleIndex": 1,
+            "span": {
+              "start": 149,
+              "end": 166
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Drawn-out adds the idea of unwelcome prolonging, not merely length.",
+          "zh": "drawn-out 帶有不理想地拖長的意思，不只是時間長。"
+        },
+        {
+          "en": "For a drawn-out process, name the original expectation and what extended it.",
+          "zh": "公允描述應說明原先預期及令過程延長的原因。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4702",
+      "number": 4702,
+      "inventoryId": "expr-4702",
+      "titleEn": "a haven",
+      "titleZh": "令人安心休息的地方",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:a|an|the)\\s+(?:(?:little|quiet|small|peaceful)\\s+)?haven\\b",
+        "glossaryForbidden": [
+          "\\b(?:a|an|the)\\s+(?:(?:little|quiet|small|peaceful)\\s+)?haven\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A place that feels like a refuge from pressure, noise or difficulty, without necessarily being perfectly safe or permanent.",
+        "meaningZh": "讓人暫時避開壓力、噪音或困難，感到可以休息的地方；不一定永久或絕對安全。",
+        "grammar": "A haven; a little/quiet/small haven; a haven for someone. Haven is a noun, often modified by an adjective. The refuge can be practical or emotional.",
+        "register": "Warm neutral-to-literary description. A visitor may describe a library corner to a friend; a community organiser may explain why a room matters to users.",
+        "boundaryZh": "須有相對外界壓力的休息或庇護感，不只是裝修漂亮；也不保證完全沒有危險。",
+        "misconceptionZh": "不要把短暫安心說成永久安全，也不要單靠安靜推斷人人都喜歡該處。",
+        "outcomeZh": "能指出讓某人感到可休息的具體條件，以及這種感受的界線。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2591",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 245,
+          "book": 16,
+          "question": 59,
+          "sample": "S1",
+          "sourceBookPages": "136–137",
+          "locatorNote": "DOCX table 274, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The quiet room felt like a little haven.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a little haven"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "Why did Jo call the room a haven?",
+        "promptZh": "Jo 為何稱閱覽室為可休息的地方？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gave Jo a temporary quiet space after a stressful appointment.",
+            "zh": "艱難約見後，它暫時提供安靜空間。"
+          },
+          {
+            "id": "b",
+            "en": "It guaranteed that Jo would never face another difficult appointment.",
+            "zh": "它保證 Jo 以後不會再有艱難約見。"
+          },
+          {
+            "id": "c",
+            "en": "It was the busiest part of the building, with no place to sit.",
+            "zh": "它是大樓最繁忙的地方，而且無處可坐。"
+          },
+          {
+            "id": "d",
+            "en": "Jo had bought the room and could stay there permanently.",
+            "zh": "Jo 已買下房間，可永久住在那裏。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "遠離走廊並可安靜看書，支持短暫庇護感；沒有永久保證或所有權。",
+        "en": "The family shelter has a small reading room away from the busy corridor. After a difficult appointment, Jo sat there with a book and called it a haven for an hour of quiet.",
+        "zh": "家庭庇護中心有間小閱覽室，遠離忙碌走廊。一次艱難的約見後，Jo 坐在那裏看書，稱它是可安靜休息一小時的地方。"
+      },
+      "reply": {
+        "promptEn": "My colleague has had a noisy week and asks why I go to the small garden at lunch. It has benches and shade, and I can rest there before returning to work. What could I say?",
+        "promptZh": "同事度過嘈吵的一周，問我為何午飯時去小花園。那裏有長椅和樹蔭，我可以休息後再工作。我可怎樣回答？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is a little haven for me at lunchtime, with a quiet seat before I return to work.",
+            "zh": "對我來說，它是午飯時可短暫休息的地方；坐一會兒再回去工作。"
+          },
+          {
+            "id": "b",
+            "en": "The benches give me somewhere comfortable to sit for a short break.",
+            "zh": "長椅讓我短暫休息時有個舒服座位。"
+          },
+          {
+            "id": "c",
+            "en": "The shade helps me relax away from the office noise.",
+            "zh": "樹蔭讓我暫離辦公室噪音，放鬆一下。"
+          },
+          {
+            "id": "d",
+            "en": "I can have a calm lunch there and return when my break ends.",
+            "zh": "我可以在那裏安靜吃午飯，休息完便回來。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都按長椅、樹蔭及短暫休息作真實回答；金句使用 haven。"
+      },
+      "scene": {
+        "promptEn": "A public clinic sets aside a quiet room where carers can sit after difficult news. It offers water and privacy for a short time. Which description fits?",
+        "promptZh": "公共診所留有一間安靜房間，讓照顧者聽到難受消息後短暫坐下。房間有水和私隱空間。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The room can be a haven for carers during a difficult hour.",
+            "zh": "艱難的一小時裏，房間可讓照顧者暫時安心休息。"
+          },
+          {
+            "id": "b",
+            "en": "The room solves every problem that brought the carers to the clinic.",
+            "zh": "房間解決照顧者到診所的所有問題。"
+          },
+          {
+            "id": "c",
+            "en": "The room is open only for loud meetings, with no place to sit.",
+            "zh": "房間只供嘈吵會議，沒有座位。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "安靜、私隱和短暫停留支持庇護感，但不會解決全部難題。"
+      },
+      "contrast": {
+        "promptEn": "Which detail alone is least enough to call a place a haven in this sense?",
+        "promptZh": "哪項資料單獨最不足以稱某處為 haven？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A visitor can sit away from the crowd and recover after a hard conversation.",
+            "zh": "訪客可遠離人群坐下，在艱難對話後稍作休息。"
+          },
+          {
+            "id": "b",
+            "en": "A room has attractive paint, but the person seeking quiet cannot enter it.",
+            "zh": "房間顏色漂亮，但想安靜休息的人不能進入。"
+          },
+          {
+            "id": "c",
+            "en": "A worker can take a short private break there after a stressful shift.",
+            "zh": "工人緊張輪班後可在那裏短暫私下休息。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "漂亮牆色而無法進入，不足以提供休息或庇護；另兩項均有具體使用經驗。"
+      },
+      "dialogue": {
+        "promptEn": "A friend says, “The upstairs room felt peaceful yesterday. Does that mean the whole building is always safe and quiet?” You know only the room was quiet at that time. What should you say?",
+        "promptZh": "朋友說：「昨天樓上房間讓人平靜，是否代表整幢樓永遠安全又安靜？」你只知道當時房間安靜。應怎樣說？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It may have been a haven for you yesterday, but that does not prove the whole building is always quiet or safe.",
+            "zh": "它昨天或許是你可休息的地方，但不能證明整幢樓永遠安靜或安全。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, one quiet hour proves every floor is always safe.",
+            "zh": "對，一小時安靜證明每層永遠安全。"
+          },
+          {
+            "id": "c",
+            "en": "No, feeling peaceful yesterday means the room cannot help anyone.",
+            "zh": "不，昨天感到平靜代表房間對誰也沒有幫助。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "回應保留昨日短暫感受，同時拒絕擴大到整幢樓和永久安全。"
+      },
+      "speaking": {
+        "en": "For the night-shift volunteers, the small tea room became a haven where they could rest quietly between calls.",
+        "zh": "對夜班義工來說，小茶水間成了可以在來電之間安靜休息的地方。",
+        "promptZh": "先聽示範，再指出誰需要暫時休息以及地方提供甚麼。",
+        "targetSpan": {
+          "start": 58,
+          "end": 65
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區體育館為等候家人復健的人留了一角，備有椅子、飲水及較柔和燈光；他們可短暫坐下，但療程和照顧壓力仍在。用一至兩句英文向管理員說明這角落的作用，不保證它解決所有問題。",
+        "selfCheckZh": "兩例都要提等候家人復健的人、椅子飲水和柔和燈光中的具體條件、短暫休息，以及不能解決全部照顧壓力。",
+        "examples": [
+          {
+            "en": "The corner can be a haven for people waiting during family rehabilitation: chairs, water and softer light offer a short rest, though they do not remove the strain of care.",
+            "zh": "這角落可讓等候家人復健的人短暫安心休息：椅子、飲水和柔和燈光提供片刻喘息，但不會消除照顧壓力。"
+          },
+          {
+            "en": "With chairs, drinking water and gentle lighting, the gym corner offers a quiet haven to those waiting for a family member’s rehabilitation. It cannot solve every care problem, but it gives them a place to pause.",
+            "zh": "體育館角落有椅子、飲水和柔和燈光，讓等候家人復健的人安靜休息。它不能解決所有照顧難題，但給他們一個短暫停下的地方。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "family rehabilitation",
+            "zh": "家人復健",
+            "exampleIndex": 0,
+            "span": {
+              "start": 52,
+              "end": 73
+            }
+          },
+          {
+            "en": "softer light",
+            "zh": "柔和燈光",
+            "exampleIndex": 0,
+            "span": {
+              "start": 93,
+              "end": 105
+            }
+          },
+          {
+            "en": "the strain of care",
+            "zh": "照顧壓力",
+            "exampleIndex": 0,
+            "span": {
+              "start": 152,
+              "end": 170
+            }
+          },
+          {
+            "en": "drinking water",
+            "zh": "飲水",
+            "exampleIndex": 1,
+            "span": {
+              "start": 13,
+              "end": 27
+            }
+          },
+          {
+            "en": "a place to pause",
+            "zh": "短暫停下的地方",
+            "exampleIndex": 1,
+            "span": {
+              "start": 194,
+              "end": 210
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A haven offers a felt refuge from pressure; it need not remove the pressure forever.",
+          "zh": "haven 提供暫避壓力的感受，不必永久消除壓力。"
+        },
+        {
+          "en": "A little haven works for someone when its actual conditions allow them to rest.",
+          "zh": "指出需要休息的人，以及令地方對他們有用的條件。"
+        }
+      ]
+    }
+  ]
+}
