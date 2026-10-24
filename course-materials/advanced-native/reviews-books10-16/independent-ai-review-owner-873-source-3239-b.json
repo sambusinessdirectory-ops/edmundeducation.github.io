@@ -1,0 +1,31 @@
+{
+  "reportType": "independent-proposal-only-owner-expansion-review",
+  "proposalFile": "course-materials/advanced-native/reviews-books10-16/proposals/owner-873-source-3239-proposed-a.json",
+  "proposalSha256": "89eccc6dfd303198822e47d2e922582210e9ac87a5d95c484214ddff61ce2f8d",
+  "authorAuditFile": "course-materials/advanced-native/reviews-books10-16/author-proposal-owner-873-source-3239-a.json",
+  "authorAuditSha256": "41a576373be16f087e4ff82b65eb3dcc33862f7283525079469ca1a01210ee46",
+  "ownerId": "advanced-native-873",
+  "sourceOrdinal": 3239,
+  "sourceSentence": "A calm conversation helped me think straighter.",
+  "verdict": "repair-before-integration",
+  "acceptedChecks": {
+    "sameSenseComparativeImprovementInMentalClarity": true,
+    "sourceAndKeyedSceneMatchCurrentDetector": true,
+    "keyedSceneDoesNotClaimFinalCorrectDecision": true,
+    "keyedEnglishAndTraditionalChineseAligned": true,
+    "sourceProvenanceExact": true,
+    "questionAndAnswerIdsPreserved": true,
+    "fourEnglishAudioTextsUnchanged": true,
+    "focusedBuildAndCheck": "1 lesson / 6 questions / 4 audio roles / 0 review flags"
+  },
+  "findings": [
+    {
+      "id": "R3239-01",
+      "severity": "minor-required",
+      "path": "lessons[0].target.pattern and lessons[0].brief.grammar",
+      "issue": "The new comparative branch matches think/thinks/thinking straighter but omits the natural past form thought straighter. Live JS rejects 'After a calm conversation, I thought straighter.' and 'We have thought straighter since the pause.' The preexisting absolute branch already accepts thought straight, so the asymmetry is avoidable.",
+      "requestedRepair": "Include thought in the bounded comparative branch, mention it in grammar if listing forms, and add positive and negative detector controls. Preserve the complete-source and assessed-key matches."
+    }
+  ],
+  "scope": "Proposal-only review; no selected owner, decision, manifest, audio or release edit."
+}

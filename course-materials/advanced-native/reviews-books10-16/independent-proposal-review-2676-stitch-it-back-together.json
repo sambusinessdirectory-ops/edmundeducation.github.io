@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-seven-step-editorial-review",
+  "scope": "Unselected proposal only; no lesson, manifest, decision, upload, migration or release change",
+  "proposalFile": "course-materials/advanced-native/drafts-books10-16/batch-held-2676-stitch-it-back-together-proposal-a.json",
+  "proposalSha256": "0e0f22bd885dae5f728b216e259ca0099e88693ed1943142a1a7b8ed3aac3789",
+  "source": {
+    "sourceId": "book10-16-0565",
+    "sourceOrdinal": 2676,
+    "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+    "book": 11,
+    "question": 12,
+    "renderedPdfPage": 52,
+    "questionText": "Do you think the government needs to do more to preserve traditional music? What could they do?",
+    "exactExpression": "stitch it back together",
+    "exactGuideExample": "The community worked to stitch it back together.",
+    "guideMeaning": "Restore something that was fragmented; a fabric metaphor.",
+    "sourceInventoryRawRowSha256": "9bc3408d2b3bb4895e549eb5e19b6f3f1abc9edab519b087a1ef1b11810ce4e3",
+    "currentDecision": "hold-editorial",
+    "currentDecisionRawRowSha256": "a53435349f27edf35d777ba757ce5d78b32d8b7934548598885bab70ab19e8d1",
+    "ambiguityFinding": "The guide example does not name the antecedent of it. The proposal quotes it accurately, explicitly labels that uncertainty and presents its new orchestra/music/theatre scenes as invented practice rather than facts about the guide community."
+  },
+  "ownerBoundary": {
+    "advanced-native-1357": "Knit the social fabric back together is limited to community relationships; stitch it back together is a different verb frame whose object can be a programme or divided group. A same-sense alias is not established by the source, because it leaves it unnamed.",
+    "advanced-native-3823": "The social fabric is a noun target, not the source verb frame.",
+    "recommendation": "A separate bounded lesson is defensible after the learner-facing defects below are fixed; do not claim the source specifies a music network."
+  },
+  "technicalChecks": {
+    "validateRecordErrors": 0,
+    "validateRecordWarnings": 0,
+    "targetMatchesExactGuideSentence": true,
+    "targetMatchesListeningSpeakingWritingTakeaways": true,
+    "replyHasFourPlausibleCorrectOptions": true,
+    "replyGoldenId": "c",
+    "replyOnlyGoldenUsesTarget": true,
+    "sceneKey": "a",
+    "contrastKey": "b",
+    "dialogueKey": "a",
+    "finalAssessment": "open-self-reviewed-with-two-examples",
+    "speakingSpanExactText": "stitch the theatre back together",
+    "glossaryRows": 5,
+    "glossaryAllExactAnswerSpans": true,
+    "glossaryCurrentRowsExcludeTarget": true,
+    "fourAudioTextLengths": [
+      180,
+      149,
+      103,
+      103
+    ],
+    "fourAudioTextsDistinctAndUnder240": true,
+    "learnerFacingEnglishFieldsScreened": 25,
+    "sourceExamplesScreened": 2604,
+    "sixOrMoreContiguousWordSourceOverlaps": 0,
+    "originalityLimit": "Mechanical six-word screen only; semantic originality and third-party reuse rights are not certified.",
+    "audioLimit": "Texts and settings are structurally ready; no clip is generated, heard, hosted or playback-tested for this unselected proposal."
+  },
+  "assessedSteps": [
+    {
+      "step": "listening",
+      "key": "a",
+      "verdict": "pass-with-minor-distractor-advisory",
+      "reason": "The hall loss, split groups and joint rehearsals establish a previously connected orchestra and a concrete restoration. A is the sole supported interpretation. B/C conflict with the model; D literal curtains is intentionally wrong but too easy."
+    },
+    {
+      "step": "four-valid-replies",
+      "goldenId": "c",
+      "verdict": "pass-with-exact-form-gap",
+      "reason": "All four answers are natural, constructive replies to the reopened music programme, and only C uses the reviewed target. No learner-facing example uses the title form stitch it back together with a named antecedent; C can do so without ambiguity."
+    },
+    {
+      "step": "scene",
+      "key": "a",
+      "verdict": "revise-distractors",
+      "reason": "A models the target in a newly reconnected reading programme. B denies the stated shared history and C denies the stated current shared hosts/timetable; both are direct contradictions rather than plausible near misses."
+    },
+    {
+      "step": "contrast",
+      "key": "b",
+      "verdict": "pass",
+      "reason": "A new choir has no earlier whole to restore. A and C both describe reconnection of a prior group. The back/restoration boundary is supported rather than invented."
+    },
+    {
+      "step": "dialogue",
+      "key": "a",
+      "verdict": "revise-distractors-and-small-clarity",
+      "reason": "A is the only natural next turn that uses the expression and proposes joint rehearsals. B tells willing groups to remain apart and C cancels the choir; both are implausible in context. The line about three leaders wanting to sing together can more clearly say their singers want to sing together."
+    },
+    {
+      "step": "optional-speaking",
+      "key": null,
+      "verdict": "pass",
+      "reason": "Exact UTF-16 span covers the target and the model explicitly names the youth theatre and earlier split; no assessed key or recording requirement is implied."
+    },
+    {
+      "step": "changed-context-writing",
+      "key": null,
+      "verdict": "must-rewrite-scenario",
+      "reason": "The writing prompt repeats the speaking model’s theatre/stage-closure/separate-casts/joint-rehearsals restoration pattern. Changing youth theatre to community theatre and stage to hall does not satisfy the Golden SOP requirement for a changed setting, task or communicative goal. Both examples and the answer-derived glossary must be regenerated for a genuinely different setting."
+    }
+  ],
+  "chineseReview": {
+    "verdict": "mostly-pass-after-writing-repair",
+    "finding": "All English models, options, writing answers and takeaways have intelligible Traditional Chinese counterparts; no material key or polarity mistranslation was found. The rebuilt writing task and any revised options need corresponding Chinese review. For smoother usage, group/programme contexts may say 重新凝聚 or 重新串連 where repeated 重新連起來 sounds literal."
+  },
+  "requiredFixesBeforeSelection": [
+    "Replace the final writing task with a materially different non-music, non-theatre situation and regenerate two complete model answers plus 4–6 exact answer-derived, target-excluding glossary rows.",
+    "Show the exact title form stitch it back together at least once in learner-facing material immediately after an explicit antecedent; the current new lesson uses only named-object variants.",
+    "Replace the scene and dialogue distractors with plausible timing, scope or outcome near misses that do not contradict the prompt outright; preserve one uniquely defensible keyed answer and target match.",
+    "Broaden glossaryForbidden from bare stitch to the inflected family stitch/stitches/stitched/stitching, while retaining back together, so future glossary edits cannot leak a target fragment."
+  ],
+  "postFixRecheck": [
+    "Freeze new proposal SHA and rerun validateRecord/compileRecord, all target/key/glossary/audio-length checks, bilingual review and source-overlap screen.",
+    "If any of the four English audio texts change, regenerate and independently verify their exact voice/text clips before release.",
+    "Run the seven-step bilingual desktop/mobile preview after content repair; this report contains no browser or live acceptance."
+  ],
+  "verdict": "not-ready-for-selection; fix writing transfer, exact-form modelling and distractor quality, then re-review",
+  "decisionMutation": false
+}

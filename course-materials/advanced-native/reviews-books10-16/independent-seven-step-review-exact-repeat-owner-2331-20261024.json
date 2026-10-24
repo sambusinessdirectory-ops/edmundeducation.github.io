@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-seven-step-proposal-review",
+  "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-held-exact-repeat-owner-2331-20261024.json",
+  "proposalSha256": "41a775daf86db5aecd217efc2ef701ef020ce1d74b33e96bcb2d7826470b0dab",
+  "selected": false,
+  "source": {
+    "sourceId": "book10-16-0220",
+    "sourceOrdinal": 2331,
+    "sourceInventoryRawRowSha256": "ca1e15a0bf5619cbcb722af9883e4ec98cbb27939e72455c51389911e9b9cd55",
+    "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+    "guideQuestion": "Do you like any particular film star?",
+    "exactSourceExpression": "understated but powerful screen presence",
+    "exactGuideSentence": "She has an understated but powerful screen presence.",
+    "guideMeaning": "A quietly compelling appearance on film; a natural critical phrase.",
+    "laterExactRepeatOrdinals": [
+      2367
+    ],
+    "sourceFidelity": "The proposal retains the exact guide example as guide_original_example and labels its practice scenes as new situations; no source-question answer is asserted from the guide example."
+  },
+  "technicalChecks": {
+    "validateRecordErrors": 0,
+    "validateRecordWarnings": 0,
+    "sevenStepsCompile": true,
+    "sixAssessedQuestionsCompile": true,
+    "assessedKeysInOrder": [
+      "a",
+      "b",
+      "a",
+      "c",
+      "a",
+      "open self-review"
+    ],
+    "fourReplyOptionsAccepted": true,
+    "goldenReplyOnlyTargetBearing": true,
+    "sourceSentenceTargetDetectorMatches": true,
+    "sceneAndDialogueKeysTargetBearing": true,
+    "writingSuggestedAnswers": 2,
+    "glossaryRows": 5,
+    "glossaryRowsExactSpansFromSuggestedAnswers": true,
+    "glossaryCurrentRowsExcludeTarget": true,
+    "audioRoleTextLengths": [
+      186,
+      88,
+      59,
+      78
+    ],
+    "fourAudioTextsDistinctAndAtMost240": true,
+    "guideSourceExamplesScreened": 2604,
+    "learnerFacingEnglishFieldsScreened": 24,
+    "sixWordContiguousSourceOverlapHits": 0
+  },
+  "sevenStepEditorialReview": [
+    {
+      "step": "listening",
+      "status": "pass",
+      "reason": "A alone describes restrained acting that holds attention; Chinese tracks the model and answer."
+    },
+    {
+      "step": "four-valid reply",
+      "status": "pass",
+      "reason": "A–D are four defensible responses to a silent close-up; B alone uses screen presence."
+    },
+    {
+      "step": "scene",
+      "status": "revise",
+      "reason": "B invents a loud speech and C credits lighting although the scene explicitly says a small reaction held the audience. They are contradictions, not plausible near misses."
+    },
+    {
+      "step": "contrast",
+      "status": "pass",
+      "reason": "C supplies no remembered performer, so the scene does not support screen presence; A/B do."
+    },
+    {
+      "step": "dialogue",
+      "status": "revise",
+      "reason": "B asserts every long reaction shot is too slow and C says louder music makes acting irrelevant. Neither is a credible alternative reply to the director’s actual concern."
+    },
+    {
+      "step": "optional speaking",
+      "status": "pass",
+      "reason": "The exact cloze span is screen presence; the model and Chinese are aligned."
+    },
+    {
+      "step": "changed-context writing",
+      "status": "fail",
+      "reason": "The prompt repeats the listening/scene/speaking pattern of a nearly silent close-up, tiny facial change and viewers continuing to watch. Naming recovery news and eight seconds is added detail, not a materially new setting, task or goal; it also resembles selected 2332’s small-smile film example."
+    }
+  ],
+  "traditionalChinese": "All question prompts, options, model sentences, writing answers and takeaways have intelligible Traditional Chinese with no decisive key or polarity mismatch. Any revised content needs a fresh bilingual check; rendered line wrapping has not been assessed.",
+  "existingOwnerComparison": [
+    {
+      "id": "advanced-native-2332",
+      "file": "drafts-books10-16/batch-2332-2350-a.json",
+      "relationship": "Selected light up the screen lesson already explains a performer drawing attention, including quiet scenes and a small smile. The new noun collocation can be separate, but the proposed claimed contrast is overstated and its examples strongly duplicate that owner.",
+      "fileSha256": "c82eb1ef9d1e5089bb30823a851787df269c479ac5c618c6fb84c76ba5334e8b"
+    }
+  ],
+  "requiredFixes": [
+    "Re-author final writing as a different communicative task, such as a casting or review decision across a performance rather than another silent close-up; regenerate two complete examples and exact answer-derived glossary.",
+    "Replace scene/dialogue distractors with plausible partial explanations of the same footage.",
+    "Reword the owner boundary: screen presence describes a quality; light up the screen describes an effect, and restrained performances can satisfy both. Do not claim a mutually exclusive quiet-versus-vivid distinction."
+  ],
+  "verdict": "REVISE — failed changed-context writing and weak scene/dialogue; resolve overlap with selected 2332 before selection.",
+  "limits": "This is an editorial/source review of the exact local proposal. No audio clips were generated or heard; no browser, physical-device, backend, publication or rights-clearance gate was run.",
+  "decisionMutation": false,
+  "lessonMutation": false
+}

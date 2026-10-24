@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-revised-seven-step-review",
+  "sourceOrdinal": 2694,
+  "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-held-exact-repeat-owner-2694-20261024.json",
+  "proposalSha256": "ab86f0fb86240820e762a87f07e7a74b3cfbe67968e7c8e9fba5f9e47f64fe75",
+  "priorReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-seven-step-review-exact-repeat-owner-2694-20261024.json",
+  "priorReviewSha256": "43f7e36a1f9b7a41823dd30ee2157d3a0b9d519a77482bb253eac3ca98aa3a3f",
+  "priorProposalSha256": "c56f510f5dad2db1675882d8bfae35e64110ea75b57d6d9ecd4d79e462167e4a",
+  "sourceExactness": {
+    "sourceId": "book10-16-0583",
+    "inventoryExpressionExact": true,
+    "inventoryGuideExampleExact": true,
+    "bookQuestionSampleAndRenderedPageExact": true,
+    "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012"
+  },
+  "technicalChecks": {
+    "schemaValidationErrors": 0,
+    "schemaValidationWarnings": 0,
+    "compiledSteps": 7,
+    "compiledAssessedQuestions": 6,
+    "requiredAudioRoles": 4,
+    "writingSuggestedAnswers": 2,
+    "glossaryRows": 5,
+    "glossaryRowsExactAnswerSpans": true,
+    "answerKeys": {
+      "listening": "a",
+      "reply": "b",
+      "scene": "a",
+      "contrast": "c",
+      "dialogue": "a"
+    },
+    "audioRoleTexts": {
+      "listening": "Mara opens the library app, chooses a study room and confirms the time. She books the room with a few taps on her phone instead of queueing at the desk.",
+      "speaking": "The museum app lets visitors choose a tour with a few taps on the screen.",
+      "takeaway-1": "A few taps can replace a phone call for a simple booking.",
+      "takeaway-2": "The phrase a few taps describes the screen actions, not the whole activity afterwards."
+    },
+    "audioGeneratedOrHeard": false
+  },
+  "priorBlockerFollowup": {
+    "sceneDistractors": "partly fixed: C now tests an overbroad inference about the activity, but B says registration is unfinished despite the prompt explicitly saying success is displayed",
+    "dialogueDistractors": "not fully fixed: B/C both say the speaker does not know later pages, although the scenario says they have used the app and know that slot plus confirmation completes booking"
+  },
+  "sevenStepEditorialReview": {
+    "listening": "pass: A distinguishes short screen touches from desk, voice and paper",
+    "fourValidReplies": "pass: four usable booking replies, B alone uses target",
+    "scene": "revise: B directly contradicts completed registration; C is a plausible scope error",
+    "contrast": "pass: C uses voice without screen taps",
+    "dialogue": "revise: both alternatives are nearly the same uncertainty claim and conflict with the speaker’s firsthand knowledge",
+    "speaking": "pass: exact target span and Chinese match",
+    "changedContextWriting": "pass: garden volunteer registration transfers the screen-action meaning and avoids claiming the shift itself is easy"
+  },
+  "bilingualAccuracy": "The revised English/Traditional-Chinese prompts, options, explanations, models and writing answers are semantically aligned in this read-only review. No rendered wrapping or physical-device acceptance is claimed.",
+  "advisories": [
+    "The revised glossaryForbidden includes tap/taps/tapped/tapping, which closes the prior inflection-leak concern."
+  ],
+  "blockingIssues": [
+    "Make scene B a true but incomplete description of the three-operation signup instead of denying the stated successful registration.",
+    "Make dialogue B/C distinct, contextually credible partial replies from someone who has used the app; do not have that speaker claim ignorance of later pages."
+  ],
+  "verdict": "REVISE_DISTRACTORS",
+  "selected": false,
+  "decisionMutation": false,
+  "lessonMutation": false,
+  "limits": "Exact local JSON/source and editorial review only. No audio synthesis/listening, browser, physical-device, backend, public hosting or release gate."
+}

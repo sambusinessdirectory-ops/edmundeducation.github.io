@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-revised-seven-step-review",
+  "sourceOrdinal": 2495,
+  "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-held-exact-repeat-owner-2495-20261024.json",
+  "proposalSha256": "5705afd9be0034e81fa9bcfc1662ea5563168d55b23127e3b0ee9917253776b5",
+  "priorReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-seven-step-review-exact-repeat-owner-2495-20261024.json",
+  "priorReviewSha256": "2fdb545719dd02e140874e037f9af5eaad0d928cb7574b017b18f602bc3baf3e",
+  "priorProposalSha256": "bed95cd63d960d4a0551146ecd7a59e2c150643bde7ae4574948ef79df6c2373",
+  "sourceExactness": {
+    "sourceId": "book10-16-0384",
+    "inventoryExpressionExact": true,
+    "inventoryGuideExampleExact": true,
+    "bookQuestionSampleAndRenderedPageExact": true,
+    "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012"
+  },
+  "technicalChecks": {
+    "schemaValidationErrors": 0,
+    "schemaValidationWarnings": 0,
+    "compiledSteps": 7,
+    "compiledAssessedQuestions": 6,
+    "requiredAudioRoles": 4,
+    "writingSuggestedAnswers": 2,
+    "glossaryRows": 5,
+    "glossaryRowsExactAnswerSpans": true,
+    "answerKeys": {
+      "listening": "a",
+      "reply": "c",
+      "scene": "a",
+      "contrast": "c",
+      "dialogue": "a"
+    },
+    "audioRoleTexts": {
+      "listening": "At the busy repair desk, Nia remembers which parts fit each model. She finds the right replacement quickly, so her memory is a real advantage when customers are waiting.",
+      "speaking": "Knowing two routes is a real advantage when the main road is blocked.",
+      "takeaway-1": "Reliable evidence can be a real advantage when preparation time is short.",
+      "takeaway-2": "A skill is a real advantage only when it helps with the task at hand."
+    },
+    "audioGeneratedOrHeard": false
+  },
+  "priorBlockerFollowup": {
+    "sceneDistractors": "partly fixed: B is a plausible narrower tour role, but C is merely about visitors enjoying seeing sign language and does not compete as an explanation of the stated practical advantage",
+    "dialogueDistractors": "partly fixed: B is a plausible partial benefit, but C explicitly asks staff to skip the route-clearance check that the prompt says they still must perform"
+  },
+  "sevenStepEditorialReview": {
+    "listening": "pass: A states the concrete repair-desk benefit",
+    "fourValidReplies": "pass: all four answers fit the route question; C alone contains target",
+    "scene": "revise: B is a near miss, C is a weak off-task reaction rather than a competing benefit",
+    "contrast": "pass: C is decorative without task benefit",
+    "dialogue": "revise: B is a partial answer; C is a direct contradiction of the stated safety constraint, making A too obvious",
+    "speaking": "pass: target span and situation align",
+    "changedContextWriting": "pass: debate-preparation setting, two full answers and answer-derived glossary"
+  },
+  "bilingualAccuracy": "The revised English/Traditional-Chinese prompts, options, explanations, models and writing answers are semantically aligned in this read-only review. No rendered wrapping or physical-device acceptance is claimed.",
+  "advisories": [],
+  "blockingIssues": [
+    "Replace scene C with a credible but narrower task benefit of the same sign-language ability.",
+    "Replace dialogue C with a credible limited benefit that still acknowledges the need to check route clearance; retain only one best fully concrete answer."
+  ],
+  "verdict": "REVISE_DISTRACTORS",
+  "selected": false,
+  "decisionMutation": false,
+  "lessonMutation": false,
+  "limits": "Exact local JSON/source and editorial review only. No audio synthesis/listening, browser, physical-device, backend, public hosting or release gate."
+}

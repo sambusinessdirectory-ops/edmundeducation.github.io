@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-held-exact-repeat-owner-2495-proposal",
+  "lessons": [
+    {
+      "id": "advanced-native-2495",
+      "number": 2495,
+      "inventoryId": "expr-2495",
+      "titleEn": "a real advantage",
+      "titleZh": "真正的優勢",
+      "category": "natural",
+      "target": {
+        "pattern": "\\ba real advantage\\b",
+        "glossaryForbidden": [
+          "\\badvantage\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A substantial, practical benefit in a specific situation.",
+        "meaningZh": "在具體情況中能帶來實際幫助的明顯優勢。",
+        "grammar": "Use a real advantage, often with be or give somebody, and explain the task or comparison: X is a real advantage when...; X gives her a real advantage over....",
+        "register": "Neutral evaluative language: a colleague, coach or adviser explains a concrete benefit to a team or learner, rather than offering vague praise.",
+        "boundaryZh": "必須指出能力或條件怎樣在特定任務中帶來實際好處；單純「很好」不足以構成優勢。",
+        "misconceptionZh": "不要由「有良好記憶力」直接推論任何工作都受益；要交代它對當前任務的作用。",
+        "outcomeZh": "能說明某項能力在甚麼情境下帶來甚麼具體好處。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0384",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 35,
+          "book": 10,
+          "question": 31,
+          "sample": "S1",
+          "sourceBookPages": "77–78",
+          "locatorNote": "DOCX table 31, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A strong memory is a real advantage at work.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a real advantage"
+        }
+      ],
+      "listening": {
+        "en": "At the busy repair desk, Nia remembers which parts fit each model. She finds the right replacement quickly, so her memory is a real advantage when customers are waiting.",
+        "zh": "維修櫃檯忙碌時，妮雅記得各型號適用的零件。她能迅速找出合適的替換零件，因此顧客等候時，她的記憶力確實帶來優勢。",
+        "promptZh": "為甚麼記憶力在這裏是 a real advantage？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It helps her find the correct part quickly for waiting customers.",
+            "zh": "它幫助她迅速為等候的顧客找對零件。"
+          },
+          {
+            "id": "b",
+            "en": "It means she never needs to check whether a part fits.",
+            "zh": "它表示她永遠不必核對零件是否合用。"
+          },
+          {
+            "id": "c",
+            "en": "It proves every repair is easy for her.",
+            "zh": "它證明每項維修對她都很容易。"
+          },
+          {
+            "id": "d",
+            "en": "It matters because the workshop has no customers.",
+            "zh": "它之所以重要，是因為維修店沒有顧客。"
+          }
+        ],
+        "explanationZh": "記住零件配搭讓她在繁忙時更快找到合適零件；句子沒有說她不用核對或所有維修都容易。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "（為甚麼讓阿琳帶領新員工熟習路線？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She remembers the difficult turns and can warn them before they set off.",
+            "zh": "她記得難走的轉彎處，能在他們出發前提醒。"
+          },
+          {
+            "id": "b",
+            "en": "Her knowledge of the back streets saves the team time.",
+            "zh": "她熟悉小街，能為團隊節省時間。"
+          },
+          {
+            "id": "c",
+            "en": "Her route knowledge is a real advantage when the roads are closed.",
+            "zh": "道路封閉時，她熟悉路線確實是個優勢。"
+          },
+          {
+            "id": "d",
+            "en": "She can show them an alternative route around the closure.",
+            "zh": "她能向他們示範繞過封路的替代路線。"
+          }
+        ],
+        "explanationZh": "四句都說明阿琳熟悉路線的實際作用；金句以本課表達概括這項好處。",
+        "promptEn": "Why did you ask Arin to guide the new drivers?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一位義工懂手語，能直接向聾人訪客解釋展品；其他義工需要等待翻譯。哪句最完整地指出她在這次參觀中的實際優勢？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her sign-language skills are a real advantage because she can explain exhibits without making visitors wait for an interpreter.",
+            "zh": "她的手語能力確實是優勢，因為她不用讓訪客等候傳譯員，便能解釋展品。"
+          },
+          {
+            "id": "b",
+            "en": "She can help translate a few exhibit labels, which is one useful role on the tour.",
+            "zh": "她可以幫忙翻譯幾個展品標籤，這是參觀活動中的一項有用工作。"
+          },
+          {
+            "id": "c",
+            "en": "She can answer a deaf visitor’s short question directly during the tour.",
+            "zh": "參觀時，她可以直接回答聾人訪客一個簡短問題。"
+          }
+        ],
+        "explanationZh": "她能即時解釋展品，省卻等候傳譯員的時間；翻譯少量標籤或回答單一問題，只說出部分用途。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個描述最不適合稱作 a real advantage？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A bilingual assistant explains the instructions without delaying the queue.",
+            "zh": "雙語助理即時解釋指示，沒有令隊伍延誤。"
+          },
+          {
+            "id": "b",
+            "en": "A spare battery keeps the field camera working all afternoon.",
+            "zh": "備用電池令戶外攝影機整個下午都能運作。"
+          },
+          {
+            "id": "c",
+            "en": "A decorative badge looks attractive but changes nothing about the task.",
+            "zh": "裝飾徽章好看，卻不影響任務。"
+          }
+        ],
+        "explanationZh": "裝飾徽章沒有帶來與任務相關的實際好處；另外兩項則解決了明確問題。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「隊員都熟悉緊急出口；但疏散時仍要確認路線是否暢通。這項知識究竟有甚麼用？」哪句最具體又不誇大？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is a real advantage: they can identify a suitable exit quickly, then check that the route is clear before guiding visitors.",
+            "zh": "這確實是優勢：他們能迅速找出合適出口，再確認路線暢通，然後引導訪客。"
+          },
+          {
+            "id": "b",
+            "en": "It may make staff feel more confident about the layout, though it tells us little about how they would guide visitors.",
+            "zh": "它或許令隊員對布局更有信心，但未能說明他們如何引導訪客。"
+          },
+          {
+            "id": "c",
+            "en": "They can point out the exits on the map, but they still need to check that the routes are clear.",
+            "zh": "他們能在地圖上指出出口，但仍須確認路線暢通。"
+          }
+        ],
+        "explanationZh": "熟悉出口有助迅速選擇路線、確認安全後引導訪客；只談信心或在地圖上指出出口，都未完整說明疏散時的實際好處。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Knowing two routes is a real advantage when the main road is blocked.",
+        "zh": "主要道路受阻時，熟悉兩條路線確實是個優勢。",
+        "promptZh": "先聽示範，再說出優勢在哪個情境下發揮作用。",
+        "targetSpan": {
+          "start": 22,
+          "end": 38
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校辯論隊只有五分鐘準備。一名隊員事前整理了與題目相關的數據，現在能立即找出可靠例子，讓隊友騰出時間練習反駁。用一至兩句英文說明她的準備帶來甚麼好處。",
+        "selfCheckZh": "指出只有五分鐘、她迅速找出可靠例子，以及隊友因此有更多時間練習；不要只說她很聰明。",
+        "examples": [
+          {
+            "en": "Her organised data is a real advantage in a five-minute preparation round: she finds reliable examples at once, leaving the team more time to practise rebuttals.",
+            "zh": "只有五分鐘準備時，她整理好的數據確實是個優勢：她立即找到可靠例子，令團隊有更多時間練習反駁。"
+          },
+          {
+            "en": "The team gains a real advantage from her preparation because she can locate sound evidence immediately and let the others focus on their rebuttals.",
+            "zh": "她能立刻找出可靠證據，讓其他人專注練習反駁；團隊因她的準備而獲得實際優勢。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "organised data",
+            "zh": "整理好的數據",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 18
+            }
+          },
+          {
+            "en": "a five-minute preparation round",
+            "zh": "五分鐘的準備環節",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 73
+            }
+          },
+          {
+            "en": "reliable examples",
+            "zh": "可靠例子",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 102
+            }
+          },
+          {
+            "en": "practise rebuttals",
+            "zh": "練習反駁",
+            "exampleIndex": 0,
+            "span": {
+              "start": 142,
+              "end": 160
+            }
+          },
+          {
+            "en": "sound evidence",
+            "zh": "可靠證據",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 90
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Reliable evidence can be a real advantage when preparation time is short.",
+          "zh": "準備時間短時，可靠證據可以成為真正的優勢。"
+        },
+        {
+          "en": "A skill is a real advantage only when it helps with the task at hand.",
+          "zh": "只有對眼前任務有幫助，能力才是真正的優勢。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

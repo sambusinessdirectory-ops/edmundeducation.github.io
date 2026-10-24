@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-final-targeted-editorial-followup",
+  "sourceOrdinal": 3454,
+  "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-held-exact-repeat-owner-3454-20261024.json",
+  "proposalSha256": "4414e0b74b0d08b89dc52b88f9162216724a64e784cad4f87e9c09f9e435e428",
+  "priorReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-seven-step-review-exact-repeat-owner-3454-revised-followup-20261024.json",
+  "priorReviewSha256": "44c5ee984c5c58634bf978eeeae6e6dc9baab5df8d025e1c672d90ea1b9b2bc2",
+  "sourceExactness": {
+    "sourceId": "book10-16-1343",
+    "expressionAndGuideSentenceMatchInventory": true,
+    "bookQuestionSampleAndRenderedPageMatchInventory": true,
+    "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012"
+  },
+  "technicalAndContinuityChecks": {
+    "schemaErrors": 0,
+    "schemaWarnings": 0,
+    "compiledSevenSteps": true,
+    "compiledAssessedQuestions": 6,
+    "audioRoles": 4,
+    "audioTextTupleUnchangedFromPriorExactHashReview": true,
+    "answerKeysUnchangedFromPriorExactHashReview": true,
+    "writingSuggestedAnswers": 2,
+    "glossaryRows": 5,
+    "glossaryRowsExactSpansFromSuggestedAnswers": true,
+    "glossaryRowsExcludeTargetAndForbiddenFragments": true
+  },
+  "previousBlockersResolved": {
+    "sceneDistractors": "B tests the plausible misconception that reheating ready-made food counts as home cooking. C tests the plausible home-style-recipe misconception without claiming café food was cooked in Chi’s own home. A alone has food cooked by family at home.",
+    "dialogueDistractors": "Existing alternatives contrast home-style taste and reheating against preparation in a home kitchen; A alone respects the boundary.",
+    "listeningCoherence": "Jun is explicitly the one who packs and eats the family-prepared lunch at school in English and Chinese; unchanged from the preceding fixed revision."
+  },
+  "sevenStepEditorialDisposition": {
+    "listening": "pass; prior reviewed content unchanged",
+    "fourValidReplies": "pass; prior reviewed content unchanged",
+    "scene": "pass; revised distractors are plausible partial or bounded misconceptions and the keyed option remains uniquely best",
+    "contrast": "pass; prior reviewed content unchanged",
+    "dialogue": "pass; revised distractors are relevant partial replies and the keyed option remains uniquely best",
+    "speaking": "pass; target span and bilingual model unchanged",
+    "changedContextWriting": "pass; two complete answers and answer-derived glossary unchanged"
+  },
+  "traditionalChinese": "The café-recipe Chinese now exactly matches the English conditional and no longer asserts a home cooking location. Jun is explicitly the student packing/eating lunch in both languages.",
+  "verdict": "PASS_EDITORIAL_TARGETED",
+  "blockingIssues": [],
+  "selected": false,
+  "decisionMutation": false,
+  "lessonMutation": false,
+  "limits": "Exact local proposal and targeted editorial review. Does not certify generated/heard audio, browser/device rendering, database migration, hosting, publication or full-course SOP release."
+}

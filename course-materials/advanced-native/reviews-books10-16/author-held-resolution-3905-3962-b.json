@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "scope": "Read-only source resolution for 3905 and isolated unselected 3962 lesson",
+  "sourceInventory": {
+    "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "sourceRows": {
+    "3905": {
+      "sourceId": "book10-16-1794",
+      "example": "For many users, the rules keep changing while they are still learning the game.",
+      "expression": "rules keep changing while they are still learning the game",
+      "meaningAndReason": "Digital systems change before some users master them; a game metaphor.",
+      "rawRowSha256": "8ea0014afdca8613f188b5b8f35eebe52bb74a4a4911609e159d472b9a2aa65d"
+    },
+    "3962": {
+      "sourceId": "book10-16-1851",
+      "example": "The broadcast felt like a circus with too many rings.",
+      "expression": "a circus with too many rings",
+      "meaningAndReason": "An event so busy that it feels overwhelming; a circus simile.",
+      "rawRowSha256": "14556ba3b68a9284ec11b29da2ed10b3892dd664cd1cbf0611e2ac0fa18f995a"
+    }
+  },
+  "currentDecisions": {
+    "3905": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3852-3911.jsonl",
+      "fileSha256": "d6fe0d9ed23145c7645992ba9341ab6ca425b729f67273a472cef8b69b86cb58",
+      "rowSha256": "9830fc3ae989e10d79f772e1fb3150fc5d114ce2d7d9677351b069c2fe489d40",
+      "row": {
+        "sourceOrdinal": 3905,
+        "sourceId": "book10-16-1794",
+        "phrase": "rules keep changing while they are still learning the game",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Rules changing during the game is an extended metaphor for fast-changing digital norms. Provisional editorial decision; independent review remains open."
+      }
+    },
+    "3962": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3912-3971.jsonl",
+      "fileSha256": "873366d76cbf1d3924a760e7e086d96ff56b1a9abd92fe745d68759261f03ab4",
+      "rowSha256": "7b703108bc6bfff3b63d49255702836815496bdf6177af91d4f8ad3d77d7b7c2",
+      "row": {
+        "sourceOrdinal": 3962,
+        "sourceId": "book10-16-1851",
+        "phrase": "a circus with too many rings",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Circus with too many rings is a bespoke image for an overbusy broadcast. Provisional editorial decision; independent review remains open."
+      }
+    }
+  },
+  "existingOwners": [
+    {
+      "id": 541,
+      "file": "course-materials/advanced-native/batches/batch-0526-0550.json",
+      "sha256": "e911bb517e1a1d6ad5c61f09c11609657628cf24e6af4d6bc80a7daee0c7395f",
+      "boundary": "learn the ropes teaches practical procedures of a new activity; does not convey changing rules during learning"
+    },
+    {
+      "id": 979,
+      "file": "course-materials/advanced-native/batches/batch-0976-1000.json",
+      "sha256": "0d5948ebc90c8b6daa9c329e04cdf0cbb62f0b81297d7f2d33e2d7b50c9bf636",
+      "boundary": "the goalposts have moved teaches changed criteria or expectations; not the source’s continuing digital adaptation plus learning-game image"
+    }
+  ],
+  "dispositions": [
+    {
+      "sourceOrdinal": 3905,
+      "recommendation": "retain-hold",
+      "reason": "The exact sentence combines a changing-rules game metaphor with users still learning how to use digital systems. Owner541 covers learning procedures; owner979 covers changed expectations; neither same-sense target matches the whole source. A separate seven-step target would need to teach a full bespoke clause rather than a stable unit. Do not regex-route or exclude as one-time without a separate editorial decision."
+    },
+    {
+      "sourceOrdinal": 3962,
+      "recommendation": "provisional-distinct-new-lesson-unselected",
+      "reason": "The guide’s a circus with too many rings is a creative variant of conventional chiefly North American a three-ring circus, a confusing event with simultaneous strands. No current circus owner; a seven-step learner decision tests overlap-caused confusion versus busy orderly activity. Independent content review still required."
+    }
+  ],
+  "dictionaryEvidence": [
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/three-ring-circus",
+      "use": "figurative confusing variety of simultaneous events; US/Canadian"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/learn-the-ropes",
+      "use": "learning how to do a job or activity, not changing rules"
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/goalposts",
+      "use": "adjacent changing criteria image; owner meaning from local file is decisive"
+    }
+  ],
+  "draft": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-3962-three-ring-circus-b.json",
+    "sha256": "903010e1c19d9a8b4c18bd4390e739f2c3f3abe9478947eeac78f1e470359eeb",
+    "lessonCount": 1,
+    "questionCount": 6,
+    "audioRoleCount": 4,
+    "selected": false,
+    "sourceDecisionChanged": false
+  },
+  "detector": {
+    "pattern": "\\b(?:a\\s+)?(?:three[- ]ring circus|circus with too many rings)\\b",
+    "fullSourceMatches": [
+      {
+        "sourceOrdinal": 3962,
+        "match": "a circus with too many rings"
+      }
+    ],
+    "controls": {
+      "positive": [
+        {
+          "sentence": "The meeting became a three-ring circus.",
+          "match": true
+        },
+        {
+          "sentence": "The opening was a three ring circus.",
+          "match": true
+        },
+        {
+          "sentence": "It felt like a circus with too many rings.",
+          "match": true
+        }
+      ],
+      "negative": [
+        {
+          "sentence": "The circus had three rings.",
+          "match": false
+        },
+        {
+          "sentence": "She bought a three-ring binder.",
+          "match": false
+        },
+        {
+          "sentence": "The three performers moved in a ring.",
+          "match": false
+        }
+      ]
+    },
+    "scopeNote": "The creative source variant can also denote a literal circus in unconstrained prose; semantic boundary in brief is required. Full 2604 source scan only hits source3962."
+  },
+  "spanChecks": {
+    "speakingSpan": "a three-ring circus",
+    "speakingExactTarget": true,
+    "glossary": [
+      {
+        "en": "volunteer briefing",
+        "exact": true,
+        "targetExcluded": true
+      },
+      {
+        "en": "accessible seating",
+        "exact": true,
+        "targetExcluded": true
+      },
+      {
+        "en": "evacuation training",
+        "exact": true,
+        "targetExcluded": true
+      },
+      {
+        "en": "overlapping demonstrations",
+        "exact": true,
+        "targetExcluded": true
+      },
+      {
+        "en": "Please stagger",
+        "exact": true,
+        "targetExcluded": true
+      },
+      {
+        "en": "evacuation sessions",
+        "exact": true,
+        "targetExcluded": true
+      }
+    ]
+  },
+  "originality": {
+    "learnerEnglishStrings": 34,
+    "sourceExamples": 2604,
+    "nonTargetSixPlusTokenHits": 0,
+    "hits": []
+  },
+  "focusedBuildCheck": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRequests": 4,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass",
+    "outputDir": "/private/tmp/qa-3962-circus-b"
+  },
+  "releaseState": "Unselected exploratory content; 3905 and 3962 remain hold-editorial; no selected manifest, decision, canonical, audio, or release change.",
+  "repairAfterIndependentReview": {
+    "initialIndependentReviewSha256": "c2507f2ddbe8de1cd5ffd95b6b2dee37aa60e26129bbc84f69b3b580ef26bb2b",
+    "firstFollowupSha256": "f0497a4fce5dba6aea3f694e3f070e24c8dc60addcd3b7c27636e5be6e1ba546",
+    "revision": 3,
+    "R3962-01": "Broadened standard idiom to busy confusing activity; listening changing desk plans, contrast orderly busyness vs misdirection/interruptions, dialogue changing agenda; overlap retained as one cause.",
+    "R3962-02": "Listening moved from broadcast to permit office; 229-character audio text.",
+    "R3962-03": "Dialogue key now diplomatic This is becoming..., with concrete agenda clarification.",
+    "listeningChineseFollowup": "Removed unsaid one-morning and form-type details; Chinese now states only changed desk assignments twice and old signs."
+  }
+}

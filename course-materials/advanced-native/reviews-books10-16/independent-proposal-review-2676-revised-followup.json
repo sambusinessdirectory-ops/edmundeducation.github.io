@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-exact-hash-proposal-follow-up",
+  "proposalFile": "course-materials/advanced-native/drafts-books10-16/batch-held-2676-stitch-it-back-together-proposal-a.json",
+  "proposalSha256": "e0426a0645f44c4ed5f1810d2e454b89a6c522fa5d0b919da8594c241ca41a8c",
+  "priorReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-proposal-review-2676-stitch-it-back-together.json",
+  "priorReviewSha256": "d5746b7bb8f929de2d0afa4306a2456ab45668b24841ac8e1bc1eaa680258c58",
+  "source": {
+    "sourceId": "book10-16-0565",
+    "sourceOrdinal": 2676,
+    "exactGuideExample": "The community worked to stitch it back together.",
+    "guideMeaning": "Restore something that was fragmented; a fabric metaphor.",
+    "sourceInventoryRawRowSha256": "9bc3408d2b3bb4895e549eb5e19b6f3f1abc9edab519b087a1ef1b11810ce4e3",
+    "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+    "antecedentStatus": "it remains unnamed in the guide example; the proposal records this and does not claim its new scenes are source facts."
+  },
+  "fourPriorFindings": [
+    {
+      "finding": "Final writing repeats speaking scenario",
+      "status": "fixed",
+      "evidence": "Writing now uses a divided school science-fair committee, shared planning meeting and exhibit plan. Speaking remains a youth theatre reunited after stage loss. The setting, task and concrete reconnection mechanism are materially different."
+    },
+    {
+      "finding": "No sentence model with exact stitch it back together and explicit antecedent",
+      "status": "fixed",
+      "evidence": "Writing example 1 names the science-fair committee before could stitch it back together; takeaway 2 names the school music programme before could stitch it back together. The pronouns are unambiguous."
+    },
+    {
+      "finding": "Scene/dialogue wrong options merely contradict prompt",
+      "status": "fixed",
+      "evidence": "Scene B/C describe true but partial reader benefits of shared hosts/timetable; A uniquely describes reunifying the existing programme. Dialogue B manages a shared hall and C offers a single welcome concert; both plausible limited proposals, while A uniquely restores ongoing joint rehearsals and a shared concert."
+    },
+    {
+      "finding": "glossaryForbidden misses inflected stitch forms",
+      "status": "fixed",
+      "evidence": "The forbidden pattern is now \\bstitch(?:es|ed|ing)?\\b plus \\bback together\\b; all five current answer-derived glossary spans remain free of these forms."
+    }
+  ],
+  "sevenStepReview": [
+    {
+      "step": "listening",
+      "key": "a",
+      "status": "pass",
+      "reason": "The orchestra has split and the conductor sets up joint rehearsals; A uniquely captures reunification. Four options have intelligible matching Chinese. Literal sewing is a simple but acceptable trap."
+    },
+    {
+      "step": "reply",
+      "key": "all four accepted; golden c",
+      "status": "pass",
+      "reason": "Each reply proposes a viable reconnection of the school music programme; C alone uses the target construction."
+    },
+    {
+      "step": "scene",
+      "key": "a",
+      "status": "pass",
+      "reason": "A gives the most complete meaning, while B and C are context-compatible partial benefits."
+    },
+    {
+      "step": "contrast",
+      "key": "b",
+      "status": "pass",
+      "reason": "A new choir cannot be put back together when there is no earlier whole; the other two cases restore prior groups."
+    },
+    {
+      "step": "dialogue",
+      "key": "a",
+      "status": "pass",
+      "reason": "A is a natural next turn proposing ongoing joint rehearsal and concert; B/C solve only logistics or a single event."
+    },
+    {
+      "step": "speaking",
+      "key": "unscored optional",
+      "status": "pass",
+      "reason": "Exact target span covers stitch the theatre back together and the earlier split has an explicit referent."
+    },
+    {
+      "step": "writing",
+      "key": "open, self-reviewed",
+      "status": "pass",
+      "reason": "Changed-context science-fair prompt, two complete target-bearing suggested answers, self-check and five useful answer-derived glossary rows."
+    }
+  ],
+  "technicalChecks": {
+    "validateRecordErrors": 0,
+    "validateRecordWarnings": 0,
+    "compiledQuestionCount": 6,
+    "replyAcceptedCount": 4,
+    "replyTargetBearingOptionIds": [
+      "c"
+    ],
+    "sourceDetectorMatches": true,
+    "sceneTargetBearingKey": "a",
+    "dialogueTargetBearingKey": "a",
+    "speakingTargetSpan": "stitch the theatre back together",
+    "writingExamples": 2,
+    "glossaryRows": 5,
+    "allGlossaryOffsetsExact": true,
+    "allGlossaryRowsTargetExcluded": true,
+    "audioRoles": [
+      "listening",
+      "speaking",
+      "takeaway-1",
+      "takeaway-2"
+    ],
+    "audioTextLengths": [
+      180,
+      149,
+      103,
+      107
+    ],
+    "audioTextsDistinctAndWithin240": true,
+    "learnerEnglishFieldsScreened": 25,
+    "guideSourceExamplesScreened": 2604,
+    "sixWordExactGuideOverlaps": 0
+  },
+  "traditionalChineseReview": {
+    "status": "pass",
+    "evidence": "Prompts, all options, models, writing examples and takeaways have aligned Traditional Chinese. No material sense, polarity or keyed-answer mismatch found. Runtime wrapping of bracketed translations still requires a browser check."
+  },
+  "ownerBoundary": "A separate stitch + object + back together verb-frame lesson is defensible. Owner 1357 teaches knit the social fabric back together for community relationships; the guide leaves it unnamed, so do not alias or invent a community relationship as the source referent.",
+  "audioAndReleaseLimits": "Four audio text roles and voice settings are valid, but this unselected proposal has no generated or hosted clips or end-user playback check. Source-phrase originality screen is limited to six contiguous words; no semantic or third-party rights clearance is claimed. No browser, physical-device, database or publication gate is certified here.",
+  "verdict": "PASS independent editorial re-review for this exact proposal hash; candidate for selection subject to integration and outstanding media/browser/release gates",
+  "decisionMutation": false,
+  "lessonMutation": false
+}

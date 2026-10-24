@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-seven-step-proposal-review",
+  "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-held-exact-repeat-owner-2495-20261024.json",
+  "proposalSha256": "bed95cd63d960d4a0551146ecd7a59e2c150643bde7ae4574948ef79df6c2373",
+  "selected": false,
+  "source": {
+    "sourceId": "book10-16-0384",
+    "sourceOrdinal": 2495,
+    "sourceInventoryRawRowSha256": "bce1d85874363df0bfedebe7099bea92c9ced64ea7e2f9912c2c4b7cf5c5e969",
+    "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+    "guideQuestion": "Do you think it's important to have a good memory?",
+    "exactSourceExpression": "a real advantage",
+    "exactGuideSentence": "A strong memory is a real advantage at work.",
+    "guideMeaning": "A meaningful practical benefit; a reusable evaluation phrase.",
+    "laterExactRepeatOrdinals": [
+      4110
+    ],
+    "sourceFidelity": "The proposal retains the exact guide example as guide_original_example and labels its practice scenes as new situations; no source-question answer is asserted from the guide example."
+  },
+  "technicalChecks": {
+    "validateRecordErrors": 0,
+    "validateRecordWarnings": 0,
+    "sevenStepsCompile": true,
+    "sixAssessedQuestionsCompile": true,
+    "assessedKeysInOrder": [
+      "a",
+      "c",
+      "a",
+      "c",
+      "a",
+      "open self-review"
+    ],
+    "fourReplyOptionsAccepted": true,
+    "goldenReplyOnlyTargetBearing": true,
+    "sourceSentenceTargetDetectorMatches": true,
+    "sceneAndDialogueKeysTargetBearing": true,
+    "writingSuggestedAnswers": 2,
+    "glossaryRows": 5,
+    "glossaryRowsExactSpansFromSuggestedAnswers": true,
+    "glossaryCurrentRowsExcludeTarget": true,
+    "audioRoleTextLengths": [
+      169,
+      69,
+      73,
+      69
+    ],
+    "fourAudioTextsDistinctAndAtMost240": true,
+    "guideSourceExamplesScreened": 2604,
+    "learnerFacingEnglishFieldsScreened": 24,
+    "sixWordContiguousSourceOverlapHits": 0
+  },
+  "sevenStepEditorialReview": [
+    {
+      "step": "listening",
+      "status": "pass",
+      "reason": "A uniquely explains the repair-desk benefit; distractors overstate what memory guarantees or contradict the queue."
+    },
+    {
+      "step": "four-valid reply",
+      "status": "pass",
+      "reason": "All four options constructively explain why Arin can guide drivers; only C contains a real advantage."
+    },
+    {
+      "step": "scene",
+      "status": "revise",
+      "reason": "B denies the sign-language communication benefit and C absurdly says visitors understand only without signing; both directly conflict with the scene, making A trivial."
+    },
+    {
+      "step": "contrast",
+      "status": "pass",
+      "reason": "C’s decorative badge confers no task benefit; A/B show practical benefit."
+    },
+    {
+      "step": "dialogue",
+      "status": "revise",
+      "reason": "B claims evacuation can never be dangerous and C says exits help only in an empty building; the latter is unrelated and implausible. A is too obvious."
+    },
+    {
+      "step": "optional speaking",
+      "status": "pass",
+      "reason": "Exact target span and task-specific road-blocked sense are correct."
+    },
+    {
+      "step": "changed-context writing",
+      "status": "pass",
+      "reason": "Debate preparation and evidence retrieval transfer the practical-benefit sense away from repair work and route guidance; two complete answers and five source-answer glossary rows fit."
+    }
+  ],
+  "traditionalChinese": "All question prompts, options, model sentences, writing answers and takeaways have intelligible Traditional Chinese with no decisive key or polarity mismatch. Any revised content needs a fresh bilingual check; rendered line wrapping has not been assessed.",
+  "existingOwnerComparison": [],
+  "requiredFixes": [
+    "Replace scene alternatives with plausible but narrower benefits or incomplete explanations of the sign-language skill, preserving one best answer.",
+    "Replace dialogue alternatives with credible overbroad or partial claims about emergency-exit knowledge, not impossibilities or irrelevant assertions."
+  ],
+  "verdict": "REVISE — source-faithful lesson and writing pass, but scene/dialogue distractor quality fails the SOP.",
+  "limits": "This is an editorial/source review of the exact local proposal. No audio clips were generated or heard; no browser, physical-device, backend, publication or rights-clearance gate was run.",
+  "decisionMutation": false,
+  "lessonMutation": false
+}

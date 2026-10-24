@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-revised-seven-step-review",
+  "sourceOrdinal": 3454,
+  "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-held-exact-repeat-owner-3454-20261024.json",
+  "proposalSha256": "72b3cd926f6e44a28c0e285a285e022ceba0d42daae39d06dec804f2b5dee153",
+  "priorReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-seven-step-review-exact-repeat-owner-3454-20261024.json",
+  "priorReviewSha256": "79c482e134fcf9b8dc7b81c6df4e7903628162d8ce1c1304fd5357ac4e3f62ac",
+  "priorProposalSha256": "25e08bcc98cb62d7a8ab082a8f9841ac646c6ee41abf2e3e5052e5c1a020f68a",
+  "sourceExactness": {
+    "sourceId": "book10-16-1343",
+    "inventoryExpressionExact": true,
+    "inventoryGuideExampleExact": true,
+    "bookQuestionSampleAndRenderedPageExact": true,
+    "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012"
+  },
+  "technicalChecks": {
+    "schemaValidationErrors": 0,
+    "schemaValidationWarnings": 0,
+    "compiledSteps": 7,
+    "compiledAssessedQuestions": 6,
+    "requiredAudioRoles": 4,
+    "writingSuggestedAnswers": 2,
+    "glossaryRows": 5,
+    "glossaryRowsExactAnswerSpans": true,
+    "answerKeys": {
+      "listening": "a",
+      "reply": "b",
+      "scene": "a",
+      "contrast": "b",
+      "dialogue": "a"
+    },
+    "audioRoleTexts": {
+      "listening": "On weekdays, Jun’s parents chop vegetables and cook rice in their own kitchen. Jun packs the home-cooked food and eats it for lunch at school.",
+      "speaking": "They brought home-cooked food to the picnic after preparing it in their kitchen.",
+      "takeaway-1": "Home-cooked food can be shared somewhere other than home.",
+      "takeaway-2": "Takeaway eaten at home is not automatically home-cooked food."
+    },
+    "audioGeneratedOrHeard": false
+  },
+  "priorBlockerFollowup": {
+    "listeningCoherence": "fixed: Jun is explicitly the person who packs and eats the lunch at school, in both languages and the listening audio text",
+    "sceneDistractors": "partly fixed: B tests the plausible reheat-versus-cook confusion, but C says a café label proves noodles were cooked in Chi’s own home, an implausible inference"
+  },
+  "sevenStepEditorialReview": {
+    "listening": "pass: Jun referent fixed in English and Chinese; A alone identifies preparation at home",
+    "fourValidReplies": "pass: four natural lunch-source answers; B carries target",
+    "scene": "revise: B is a realistic near miss, C remains a strained claim about Chi’s home",
+    "contrast": "pass: restaurant takeaway eaten at home is not home-cooked",
+    "dialogue": "pass: B/C express common preparation-versus-taste/eating-place misconceptions",
+    "speaking": "pass: target span and bilingual preparation location align",
+    "changedContextWriting": "pass: community dinner, two complete answers and answer-derived glossary"
+  },
+  "bilingualAccuracy": "The revised English/Traditional-Chinese prompts, options, explanations, models and writing answers are semantically aligned in this read-only review. No rendered wrapping or physical-device acceptance is claimed.",
+  "advisories": [
+    "The corrected listening role text would need a new synthesis key and fresh audio verification if this proposal is selected."
+  ],
+  "blockingIssues": [
+    "Rewrite scene C as a plausible “home-style flavour or label” misconception without claiming the café label establishes that food was cooked in Chi’s own home."
+  ],
+  "verdict": "REVISE_SCENE_DISTRACTOR",
+  "selected": false,
+  "decisionMutation": false,
+  "lessonMutation": false,
+  "limits": "Exact local JSON/source and editorial review only. No audio synthesis/listening, browser, physical-device, backend, public hosting or release gate."
+}

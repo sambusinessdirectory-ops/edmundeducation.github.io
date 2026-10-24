@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-held-exact-repeat-owner-2331-proposal",
+  "lessons": [
+    {
+      "id": "advanced-native-2331",
+      "number": 2331,
+      "inventoryId": "expr-2331",
+      "titleEn": "understated but powerful screen presence",
+      "titleZh": "低調而富感染力的銀幕氣質",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bscreen presence\\b",
+        "glossaryForbidden": [
+          "\\bscreen\\b",
+          "\\bpresence\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A performer’s ability to hold the viewer’s attention on camera, even with restrained acting.",
+        "meaningZh": "演員即使表演內斂，仍能在鏡頭前自然吸引觀眾的氣質。",
+        "grammar": "Screen presence is normally an uncountable noun phrase: have screen presence; an actor has understated but powerful screen presence. The adjectives are descriptive, not a fixed idiom.",
+        "register": "In a measured film review, a critic may tell a director or readers why a quiet performance holds attention; this need not praise energetic or flamboyant acting.",
+        "boundaryZh": "Screen presence 指演員在鏡頭前持續吸引觀眾的特質；light up the screen 描述表演吸引觀眾的效果。內斂演出可以同時符合兩種說法，不能把它們當成互斥。",
+        "misconceptionZh": "「低調」不等於毫無吸引力；「有銀幕氣質」也不等於角色說話很多或燈光很亮。",
+        "outcomeZh": "能根據不同場面的表演證據，評價演員在鏡頭前持續吸引觀眾的特質。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0220",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 20,
+          "book": 10,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 17, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She has an understated but powerful screen presence.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "understated but powerful screen presence"
+        },
+        {
+          "occurrenceId": "book10-16-0256",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 24,
+          "book": 10,
+          "question": 20,
+          "sample": "S1",
+          "sourceBookPages": "48–49",
+          "locatorNote": "Exact same-sense repeat of source 2331, independently screened as an alias; DOCX table 20, row 2.",
+          "sentence": "She has an understated but powerful screen presence.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "understated but powerful screen presence"
+        }
+      ],
+      "listening": {
+        "en": "The actor barely speaks during the long close-up, but the camera holds on her face. Her stillness and small changes of expression give her a quiet screen presence that keeps us watching.",
+        "zh": "在長時間的特寫裏，演員幾乎沒有對白，但鏡頭一直對準她的臉。她安靜的神態和細微的表情變化，展現出令人持續注視的銀幕氣質。",
+        "promptZh": "這段評語中的 screen presence 指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her restrained on-camera performance continues to hold the viewer’s attention.",
+            "zh": "她內斂的鏡頭前演出仍持續吸引觀眾。"
+          },
+          {
+            "id": "b",
+            "en": "She has more lines of dialogue than anyone else in the scene.",
+            "zh": "她在場面中的對白比任何人都多。"
+          },
+          {
+            "id": "c",
+            "en": "The camera uses brighter lighting whenever she appears.",
+            "zh": "她出場時鏡頭總會使用較明亮的燈光。"
+          },
+          {
+            "id": "d",
+            "en": "Her expression never changes, so the viewer loses interest.",
+            "zh": "她的表情從不改變，觀眾因此失去興趣。"
+          }
+        ],
+        "explanationZh": "評語指出她幾乎不說話，卻憑細微表情讓觀眾一直看下去。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "（你覺得她在那段無對白的特寫中表現如何？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her small changes of expression kept me watching.",
+            "zh": "她細微的表情變化令我一直看下去。"
+          },
+          {
+            "id": "b",
+            "en": "She has understated but powerful screen presence in that close-up.",
+            "zh": "她在那段特寫中展現低調而富感染力的銀幕氣質。"
+          },
+          {
+            "id": "c",
+            "en": "I could tell what she was thinking without a speech.",
+            "zh": "沒有對白，我仍能看出她的心思。"
+          },
+          {
+            "id": "d",
+            "en": "The scene stayed compelling because of her restrained performance.",
+            "zh": "她內斂的演出使那場戲始終吸引人。"
+          }
+        ],
+        "explanationZh": "四句都能回答對特寫演出的看法；金句以本課表達概括她內斂而持續吸引人的鏡頭前表現。",
+        "promptEn": "What did you think of her silent close-up?",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "剪接師重看片段：演員得知壞消息後沒有說話，只以呼吸和眼神作出細微反應；試映觀眾一直留意她。哪句最能評價演員在鏡頭前的貢獻？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The long shot reveals her understated screen presence.",
+            "zh": "那個長鏡頭展現了她內斂而吸引人的銀幕氣質。"
+          },
+          {
+            "id": "b",
+            "en": "The long take gives viewers time to absorb the bad news.",
+            "zh": "那個長鏡頭讓觀眾有時間消化壞消息。"
+          },
+          {
+            "id": "c",
+            "en": "The framing brings her face closer to the viewers.",
+            "zh": "鏡頭構圖讓觀眾更清楚看到她的臉。"
+          }
+        ],
+        "explanationZh": "長鏡頭和構圖或許有幫助，但題目要評價演員本身；她細微的反應仍使觀眾持續注視。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不支持評語「她有內斂但強烈的 screen presence」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A silent reaction shot keeps the audience interested in her thoughts.",
+            "zh": "無聲反應鏡頭令觀眾一直關注她的心思。"
+          },
+          {
+            "id": "b",
+            "en": "Her restrained gaze draws attention without a dramatic gesture.",
+            "zh": "她克制的眼神沒有誇張動作仍能吸引目光。"
+          },
+          {
+            "id": "c",
+            "en": "The viewer notices only the scenery and cannot remember her performance.",
+            "zh": "觀眾只留意風景，完全記不起她的演出。"
+          }
+        ],
+        "explanationZh": "若觀眾只記得風景而對她的表演毫無印象，便欠缺所說的銀幕吸引力。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "導演說：「那個無對白的反應鏡頭很長，但試映觀眾一直留意她的眼神；我怕節奏還是太慢。」哪句回應最能評價演員是否撐得起這個鏡頭？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Keep it; her screen presence holds the scene even while she says nothing.",
+            "zh": "保留吧；即使她不說話，她的銀幕氣質仍撐得起那場戲。"
+          },
+          {
+            "id": "b",
+            "en": "The pause clarifies the story, though we could still trim a second.",
+            "zh": "停頓有助交代故事，但我們仍可考慮剪短一秒。"
+          },
+          {
+            "id": "c",
+            "en": "The close framing makes her eyes easier to read; we should check the pacing too.",
+            "zh": "近鏡讓她的眼神更清晰；我們也應檢查節奏。"
+          }
+        ],
+        "explanationZh": "後兩句都是合理的剪接或構圖意見，卻未直接評估演員在無對白的長鏡頭中能否持續吸引目光。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Even in silence, the performer has screen presence that gives the long shot its tension.",
+        "zh": "即使沒有對白，演員仍以銀幕氣質為長鏡頭帶來張力。",
+        "promptZh": "先聽示範，再說出安靜鏡頭如何仍能吸引觀眾。",
+        "targetSpan": {
+          "start": 35,
+          "end": 50
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你為電影節寫短評。一位配角在三個相距很遠的場面中出現：開場的爭論、中段的排練，以及結尾的重逢。她的演法一直克制，對白不多，卻能用傾聽時的姿態和不同的表情，讓觀眾每次都留意她。用一至兩句英文評價她貫穿整部電影的銀幕表現，並舉出至少兩個場面。",
+        "selfCheckZh": "以至少兩個不同場面支持評價；指出演員持續吸引觀眾的特質，不要只重述單一安靜特寫或把它說成燈光效果。",
+        "examples": [
+          {
+            "en": "Across the argument and the final reunion, her understated screen presence draws attention through her listening posture and changing expressions, even with few lines.",
+            "zh": "從開場爭論到結尾重逢，她對別人說話時的姿態和變化的表情一直吸引觀眾；即使對白不多，她仍展現內斂的銀幕氣質。"
+          },
+          {
+            "en": "She has screen presence throughout the film: in the rehearsal and the reunion, small shifts in her expression keep the audience focused on her without a grand speech.",
+            "zh": "她在整部電影中都展現銀幕氣質：無論排練還是重逢場面，她細微的表情變化都能留住觀眾目光，毋須發表激昂演說。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the final reunion",
+            "zh": "結尾的重逢",
+            "exampleIndex": 0,
+            "span": {
+              "start": 24,
+              "end": 41
+            }
+          },
+          {
+            "en": "draws attention",
+            "zh": "吸引觀眾目光",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 90
+            }
+          },
+          {
+            "en": "listening posture",
+            "zh": "傾聽時的姿態",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 120
+            }
+          },
+          {
+            "en": "few lines",
+            "zh": "對白不多",
+            "exampleIndex": 0,
+            "span": {
+              "start": 157,
+              "end": 166
+            }
+          },
+          {
+            "en": "small shifts in her expression",
+            "zh": "細微的表情變化",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 109
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Her quiet screen presence makes the close-up worth holding.",
+          "zh": "她低調的銀幕氣質使那個特寫值得保留。"
+        },
+        {
+          "en": "Screen presence can come from a small reaction rather than a loud performance.",
+          "zh": "銀幕氣質可以來自細微反應，而非響亮的演出。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI repeat-owner review",
+          "evidence": "Exact learner-content proposal passed independent-seven-step-review-exact-repeat-owner-2331-revised-followup-20261024.json; no blocking issues."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI repeat-owner review",
+          "evidence": "Bilingual prompt, options, answer polarity, examples and glossary checked in independent-seven-step-review-exact-repeat-owner-2331-revised-followup-20261024.json."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four exact audio roles are queued; generation, file checks and hosting remain pending."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema/independent editorial pass; integrated browser/device checks remain pending."
+        },
+        "notes": [
+          "Selected as unpublished draft after exact-hash independent editorial review independent-seven-step-review-exact-repeat-owner-2331-revised-followup-20261024.json; later identical source occurrences [2367] are attached as provenance and aliases. No release approval.",
+          "AI-authored provisional proposal; independent English, Chinese, media and QA review remain pending.",
+          "Scope: source expression includes understated but powerful; this lesson teaches the reusable screen presence noun phrase with the source modifier retained in title and provenance. Owner 2332 teaches the evaluative effect of a performance; both can co-occur without being identical lessons."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

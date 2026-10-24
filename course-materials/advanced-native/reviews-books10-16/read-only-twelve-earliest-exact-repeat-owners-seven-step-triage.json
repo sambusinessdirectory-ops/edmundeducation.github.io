@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "kind": "read-only-twelve-earliest-exact-repeat-owners-seven-step-triage",
+  "status": "review-only-no-source-decision-lesson-or-publication-mutation",
+  "snapshot": {
+    "exactRepeatReportFile": "read-only-exact-repeated-sentences-current403-holds.json",
+    "exactRepeatReportSha256": "90d97589acacd827eb824a151cca9ed4eabddcffc07c10eff0e421c50644a98b",
+    "currentDecisionManifestSha256": "b4c210caa55d0c0d410ba3a19338550888fda1318975ff84ff3d6dbc6c9eb47f",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "method": "Read the exact source sentence, phrase, meaning, guide question and individual current hold reason for the earliest held occurrence in each byte-exact repeated-sentence group. Assess whether a source-faithful seven-step contrast and changed-context writing lesson is defensible. A duplicate source line is not independent idiom evidence. The user permits exclusion only of a one-time comparison with no distinct reusable core; therefore ordinary collocations are not excluded for being transparent. Dictionary links support narrow form/sense cautions, not provenance claims.",
+  "counts": {
+    "earliestHeldOwners": 12,
+    "laterExactRepeats": 17,
+    "sevenStepLessonDefensible": 8,
+    "laterRepeatsThoseLessonsCouldResolve": 10,
+    "formOrSenseOrBoundaryHold": 4,
+    "laterRepeatsStillBlockedByThoseHolds": 7,
+    "safeOneTimeExclusions": 0
+  },
+  "items": [
+    {
+      "earliestHeldOrdinal": 2331,
+      "sourceId": "book10-16-0220",
+      "book": 10,
+      "question": 17,
+      "sample": "S1",
+      "exactQuestionText": "Do you like any particular film star?",
+      "exactSourceSentence": "She has an understated but powerful screen presence.",
+      "exactTargetSpelling": "understated but powerful screen presence",
+      "exactMeaningAndReason": "A quietly compelling appearance on film; a natural critical phrase.",
+      "sourceCategory": "Natural English",
+      "laterExactRepeats": [
+        2367
+      ],
+      "laterRepeatCount": 1,
+      "sameSenseAliasOnlyAfterApprovedEarliestLesson": true,
+      "safeToExcludeAsOneTimeComparisonNow": false,
+      "verdict": "seven-step-lesson-defensible",
+      "reason": "The whole review description coherently contrasts restrained acting with a strong effect on viewers. Screen presence is the transferable critical core; the exact longer source phrase can remain the source label and model. An exercise can distinguish subtle but compelling acting from merely quiet or visually imposing acting. Do not present the full adjective string as a fixed idiom.",
+      "teachingBoundary": "An actor can be understated in delivery yet still hold attention; powerful need not mean loud or theatrical."
+    },
+    {
+      "earliestHeldOrdinal": 2472,
+      "sourceId": "book10-16-0361",
+      "book": 10,
+      "question": 29,
+      "sample": "S1",
+      "exactQuestionText": "Finally, let's talk about the impact of technology on employment. How have developments in technology affected employment in your country?",
+      "exactSourceSentence": "A patient explanation can make the topic open up.",
+      "exactTargetSpelling": "open up",
+      "exactMeaningAndReason": "Become accessible or understandable; a natural phrasal verb.",
+      "sourceCategory": "Phrasal verb",
+      "laterExactRepeats": [
+        2541,
+        3670,
+        3681,
+        4112
+      ],
+      "laterRepeatCount": 4,
+      "sameSenseAliasOnlyAfterApprovedEarliestLesson": true,
+      "safeToExcludeAsOneTimeComparisonNow": false,
+      "verdict": "form-and-sense-hold",
+      "reason": "The exact guide sentence “A patient explanation can make the topic open up” is awkward for the claimed become-understandable sense. A standard open up sense is making a situation less limited or making opportunities available, which does not automatically justify this sentence. The separate disclosure sense of open up must not be imported. Repair needs a source-faithful target/sense decision before any seven-step lesson.",
+      "teachingBoundary": "Do not silently rewrite the guide sentence as if it had said clarify the topic, or merge it with the disclosure owner.",
+      "externalReference": "https://dictionary.cambridge.org/dictionary/english/open-up"
+    },
+    {
+      "earliestHeldOrdinal": 2495,
+      "sourceId": "book10-16-0384",
+      "book": 10,
+      "question": 31,
+      "sample": "S1",
+      "exactQuestionText": "Do you think it's important to have a good memory?",
+      "exactSourceSentence": "A strong memory is a real advantage at work.",
+      "exactTargetSpelling": "a real advantage",
+      "exactMeaningAndReason": "A meaningful practical benefit; a reusable evaluation phrase.",
+      "sourceCategory": "Natural English",
+      "laterExactRepeats": [
+        4110
+      ],
+      "laterRepeatCount": 1,
+      "sameSenseAliasOnlyAfterApprovedEarliestLesson": true,
+      "safeToExcludeAsOneTimeComparisonNow": false,
+      "verdict": "seven-step-lesson-defensible",
+      "reason": "A real advantage is an ordinary but reusable evaluation phrase: it says the memory has a meaningful practical benefit, not merely that it is good. A natural-English seven-step lesson can test the concrete benefit, what the advantage is over, and cases with no actual gain. Its transparency is not the user’s one-time-comparison exclusion rule.",
+      "teachingBoundary": "A real advantage needs a relevant practical benefit; do not assert that every good memory always gives one."
+    },
+    {
+      "earliestHeldOrdinal": 2694,
+      "sourceId": "book10-16-0583",
+      "book": 11,
+      "question": 13,
+      "sample": "S2",
+      "exactQuestionText": "There's a lot of pirated music. Do you agree that we should support official music?",
+      "exactSourceSentence": "You can reserve a room with a few taps.",
+      "exactTargetSpelling": "a few taps",
+      "exactMeaningAndReason": "A small number of phone-screen actions; a natural digital collocation.",
+      "sourceCategory": "Natural English",
+      "laterExactRepeats": [
+        4531,
+        4677
+      ],
+      "laterRepeatCount": 2,
+      "sameSenseAliasOnlyAfterApprovedEarliestLesson": true,
+      "safeToExcludeAsOneTimeComparisonNow": false,
+      "verdict": "seven-step-lesson-defensible",
+      "reason": "A few taps is a reusable digital collocation for a short touchscreen sequence and commonly signals convenience. Seven steps can contrast a small number of screen touches with many steps, voice-only booking, and literal physical tapping. The example about reserving a room is a guide-written example attached to a music question, not proof the source answer discussed room booking.",
+      "teachingBoundary": "A tap is a screen action in this sense; “a few” describes a short process, not an exact fixed number."
+    },
+    {
+      "earliestHeldOrdinal": 3454,
+      "sourceId": "book10-16-1343",
+      "book": 13,
+      "question": 10,
+      "sample": "S2",
+      "exactQuestionText": "Do many people eat in restaurants in your country?",
+      "exactSourceSentence": "Many families prefer home-cooked food during the week.",
+      "exactTargetSpelling": "home-cooked food",
+      "exactMeaningAndReason": "Meals prepared at home; a useful natural compound.",
+      "sourceCategory": "Natural English",
+      "laterExactRepeats": [
+        3475,
+        3477
+      ],
+      "laterRepeatCount": 2,
+      "sameSenseAliasOnlyAfterApprovedEarliestLesson": true,
+      "safeToExcludeAsOneTimeComparisonNow": false,
+      "verdict": "seven-step-lesson-defensible",
+      "reason": "Home-cooked food is a reusable compound with a clear learner trap: food eaten at home can still be takeaway, while the relevant condition is preparation in a home kitchen. That supports distinct scene, contrast and writing checks even though the compound is literal.",
+      "teachingBoundary": "Where the meal is prepared matters; where it is eaten alone does not."
+    },
+    {
+      "earliestHeldOrdinal": 3731,
+      "sourceId": "book10-16-1620",
+      "book": 14,
+      "question": 18,
+      "sample": "S1",
+      "exactQuestionText": "Do you think there will be any negative effects resulting from future technology?",
+      "exactSourceSentence": "Every powerful tool casts a shadow when used carelessly.",
+      "exactTargetSpelling": "every powerful tool casts a shadow",
+      "exactMeaningAndReason": "Major benefits may have harmful side effects; a shadow metaphor.",
+      "sourceCategory": "Figurative use",
+      "laterExactRepeats": [
+        3740
+      ],
+      "laterRepeatCount": 1,
+      "sameSenseAliasOnlyAfterApprovedEarliestLesson": true,
+      "safeToExcludeAsOneTimeComparisonNow": false,
+      "verdict": "form-and-sense-hold",
+      "reason": "The full every-powerful-tool-casts-a-shadow warning appears to be a tailored aphorism, even though the guide repeats it. Yet cast a shadow over/on something is an established negative-impact construction, so a smaller reusable core exists. The source omits the usual over/on object and applies the image to side effects. Determine whether a source-faithful target/sense can be taught before either authoring or excluding. Repetition does not establish conventionality.",
+      "teachingBoundary": "Do not teach this particular full warning as a standard idiom or silently change the source to cast a shadow over something.",
+      "externalReference": "https://dictionary.cambridge.org/dictionary/english/cast-a-shadow-cloud-over-on"
+    },
+    {
+      "earliestHeldOrdinal": 3732,
+      "sourceId": "book10-16-1621",
+      "book": 14,
+      "question": 18,
+      "sample": "S1",
+      "exactQuestionText": "Do you think there will be any negative effects resulting from future technology?",
+      "exactSourceSentence": "Excessive automation could make us mentally lazier.",
+      "exactTargetSpelling": "mentally lazier",
+      "exactMeaningAndReason": "Less inclined to think independently; a precise natural comparison.",
+      "sourceCategory": "Natural English",
+      "laterExactRepeats": [
+        3741
+      ],
+      "laterRepeatCount": 1,
+      "sameSenseAliasOnlyAfterApprovedEarliestLesson": true,
+      "safeToExcludeAsOneTimeComparisonNow": false,
+      "verdict": "seven-step-lesson-defensible",
+      "reason": "Mentally lazier is a natural comparative assessment with a distinct mental-versus-physical contrast and a baseline implied by lazier. A seven-step lesson can frame it as a concern about relying on automation, not as a proven universal effect. It is a reusable descriptive phrase, not a one-time comparison image.",
+      "teachingBoundary": "The claim concerns willingness to think independently; do not equate it with physical inactivity or assert causation without context."
+    },
+    {
+      "earliestHeldOrdinal": 3739,
+      "sourceId": "book10-16-1628",
+      "book": 14,
+      "question": 18,
+      "sample": "S2",
+      "exactQuestionText": "Do you think there will be any negative effects resulting from future technology?",
+      "exactSourceSentence": "Training helps staff stay in control of the change.",
+      "exactTargetSpelling": "stay in control of the change",
+      "exactMeaningAndReason": "Guide a transition rather than be passively affected; a natural governance phrase.",
+      "sourceCategory": "Natural English",
+      "laterExactRepeats": [
+        3748
+      ],
+      "laterRepeatCount": 1,
+      "sameSenseAliasOnlyAfterApprovedEarliestLesson": true,
+      "safeToExcludeAsOneTimeComparisonNow": false,
+      "verdict": "seven-step-lesson-defensible",
+      "reason": "Stay in control of the change is a reusable agency construction: staff guide a transition rather than merely endure it. Exercises can distinguish planning, training and feedback that preserve agency from passive adaptation or total control over every outcome.",
+      "teachingBoundary": "In control means having meaningful influence over the transition, not absolute control of all consequences."
+    },
+    {
+      "earliestHeldOrdinal": 3815,
+      "sourceId": "book10-16-1704",
+      "book": 14,
+      "question": 27,
+      "sample": "S2",
+      "exactQuestionText": "What can be done to alleviate poverty?",
+      "exactSourceSentence": "A good policy tackles both the symptoms and the roots of the problem.",
+      "exactTargetSpelling": "tackles both the symptoms and the roots of the problem",
+      "exactMeaningAndReason": "Addresses immediate effects and underlying causes; medical and plant metaphors.",
+      "sourceCategory": "Figurative use",
+      "laterExactRepeats": [
+        3860
+      ],
+      "laterRepeatCount": 1,
+      "sameSenseAliasOnlyAfterApprovedEarliestLesson": true,
+      "safeToExcludeAsOneTimeComparisonNow": false,
+      "verdict": "target-boundary-hold",
+      "reason": "The guide sentence combines symptoms and roots of the problem to contrast immediate effects with underlying causes. The two images come from different metaphor families, and the exact long expression is a full proposition rather than a clear reusable single unit. A smaller target such as symptoms versus roots may be defensible, but it must be bounded to the exact guide wording and not silently rewritten as root causes.",
+      "teachingBoundary": "Choose whether the lesson teaches the immediate-effects/underlying-causes contrast or an attested smaller construction before writing six questions."
+    },
+    {
+      "earliestHeldOrdinal": 4537,
+      "sourceId": "book10-16-2426",
+      "book": 16,
+      "question": 39,
+      "sample": "S1",
+      "exactQuestionText": "What kinds of improvement have there been in transport in your country in recent years?",
+      "exactSourceSentence": "The new route avoids awkward transfers.",
+      "exactTargetSpelling": "awkward transfers",
+      "exactMeaningAndReason": "Inconvenient changes between vehicles; a useful travel collocation.",
+      "sourceCategory": "Natural English",
+      "laterExactRepeats": [
+        4560
+      ],
+      "laterRepeatCount": 1,
+      "sameSenseAliasOnlyAfterApprovedEarliestLesson": true,
+      "safeToExcludeAsOneTimeComparisonNow": false,
+      "verdict": "seven-step-lesson-defensible",
+      "reason": "Awkward transfers is a natural transport collocation for inconvenient changes between vehicles; it can support concrete contrasts with a direct service, a smooth timed change, or an uncomfortable connection. Ordinary composition alone does not meet the user’s one-time-comparison exclusion rule.",
+      "teachingBoundary": "The transfer itself is inconvenient; awkward here need not mean social embarrassment."
+    },
+    {
+      "earliestHeldOrdinal": 4555,
+      "sourceId": "book10-16-2444",
+      "book": 16,
+      "question": 41,
+      "sample": "S2",
+      "exactQuestionText": "What is your take on introducing transportation passes?",
+      "exactSourceSentence": "The pass encourages drivers to leave the car at home.",
+      "exactTargetSpelling": "leave the car at home",
+      "exactMeaningAndReason": "Choose another transport option instead of driving; a fixed phrase.",
+      "sourceCategory": "Idiom or set phrase",
+      "laterExactRepeats": [
+        4570
+      ],
+      "laterRepeatCount": 1,
+      "sameSenseAliasOnlyAfterApprovedEarliestLesson": true,
+      "safeToExcludeAsOneTimeComparisonNow": false,
+      "verdict": "seven-step-lesson-defensible",
+      "reason": "Leave the car at home is reusable transport advice for choosing a non-driving option. A seven-step lesson can contrast public transport, walking and cycling with driving a car for some or all of the trip. The guide uses a real transport-pass context, and no source repair is needed.",
+      "teachingBoundary": "The phrase means choose not to drive the car for this trip; do not infer the speaker does not own a car."
+    },
+    {
+      "earliestHeldOrdinal": 4557,
+      "sourceId": "book10-16-2446",
+      "book": 16,
+      "question": 41,
+      "sample": "S2",
+      "exactQuestionText": "What is your take on introducing transportation passes?",
+      "exactSourceSentence": "The city wants buses to be the first instinct rather than their last option.",
+      "exactTargetSpelling": "first instinct rather than their last option",
+      "exactMeaningAndReason": "A preferred automatic choice instead of a reluctant fallback; a contrast metaphor.",
+      "sourceCategory": "Figurative use",
+      "laterExactRepeats": [
+        4572
+      ],
+      "laterRepeatCount": 1,
+      "sameSenseAliasOnlyAfterApprovedEarliestLesson": true,
+      "safeToExcludeAsOneTimeComparisonNow": false,
+      "verdict": "target-boundary-hold",
+      "reason": "The complete first-instinct-rather-than-last-option contrast is source-specific; repeated guide wording is not evidence that the whole contrast is a fixed expression. First instinct is an established reusable core, and last option is independently understandable, so the narrow one-time-comparison exclusion test is not met. Decide whether a lesson may teach first instinct in a transport-choice sense while retaining the exact source sentence.",
+      "teachingBoundary": "Do not advertise the whole sentence-specific contrast as a conventional idiom; first instinct refers to an immediate preference, not an involuntary reflex.",
+      "externalReference": "https://dictionary.cambridge.org/dictionary/english/instinct"
+    }
+  ],
+  "mutations": []
+}

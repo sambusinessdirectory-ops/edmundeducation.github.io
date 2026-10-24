@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "scope": "read-only-after-selection-comparison",
+  "proposalFile": "course-materials/advanced-native/drafts-books10-16/batch-held-2676-stitch-it-back-together-proposal-a.json",
+  "proposalSha256": "e0426a0645f44c4ed5f1810d2e454b89a6c522fa5d0b919da8594c241ca41a8c",
+  "selectedFile": "course-materials/advanced-native/drafts-books10-16/batch-held-2676-stitch-it-back-together-selected.json",
+  "selectedSha256": "a583b296e4f2c099093fddbc90341beaf654672329bee8d6302d4cfa5fc5ef05",
+  "independentReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-proposal-review-2676-revised-followup.json",
+  "independentReviewSha256": "c621cd9d526940664dc0a6c1bcc557e248048b18e22eb7f9e644d4804522b9bf",
+  "learnerContentIdenticalAfterRemovingReviewMetadata": true,
+  "lessonId": "advanced-native-2676",
+  "sourceOrdinal": 2676,
+  "selectionState": "unpublished-draft",
+  "audioHosted": false,
+  "published": false
+}

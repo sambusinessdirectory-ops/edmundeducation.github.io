@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "sourceOwner": 2331,
+  "aliases": [
+    2367
+  ],
+  "proposalSha256": "8cd6039602eb38adc628f50779c41486a5c6b317d577a2726366d44d76d3768b",
+  "reviewFile": "course-materials/advanced-native/reviews-books10-16/independent-seven-step-review-exact-repeat-owner-2331-revised-followup-20261024.json",
+  "reviewSha256": "dcf9e551eda06b50a3f88b5ba6fa3533e178190e7fb607afdfacb04bcbbea774",
+  "selectedFile": "course-materials/advanced-native/drafts-books10-16/batch-held-exact-repeat-owner-2331-selected.json",
+  "selectedSha256": "5908a3eec9b954f86c0096f2b5796c657d347e258ee9a789499cb6789d4fb472",
+  "learnerContentIdenticalAfterRemovingReviewAndSources": true,
+  "state": "unpublished-draft"
+}

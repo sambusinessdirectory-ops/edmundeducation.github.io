@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-held-exact-repeat-owner-3454-proposal",
+  "lessons": [
+    {
+      "id": "advanced-native-3454",
+      "number": 3454,
+      "inventoryId": "expr-3454",
+      "titleEn": "home-cooked food",
+      "titleZh": "家中烹製的食物",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bhome-cooked food\\b",
+        "glossaryForbidden": [
+          "\\bhome-cooked\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Food prepared in a home kitchen, whether eaten there or taken elsewhere.",
+        "meaningZh": "在家中廚房烹製的食物，不論最後在哪裏吃。",
+        "grammar": "Home-cooked is a hyphenated adjective before food; say home-cooked food or a home-cooked meal. The location of preparation, not eating, is decisive.",
+        "register": "Everyday food and family-life language: a parent, colleague or student contrasts cooking at home with bought prepared food.",
+        "boundaryZh": "重點是食物在家中烹製；買回家的外賣即使在家吃，也不是家中烹製的食物。",
+        "misconceptionZh": "不要把 home-cooked 誤解成「在家吃的」或「看起來像家常菜的」。",
+        "outcomeZh": "能根據烹製地點辨別家中烹製的食物與外賣、餐廳餐點。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1343",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 125,
+          "book": 13,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "25–26",
+          "locatorNote": "DOCX table 131, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Many families prefer home-cooked food during the week.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "home-cooked food"
+        }
+      ],
+      "listening": {
+        "en": "On weekdays, Jun’s parents chop vegetables and cook rice in their own kitchen. Jun packs the home-cooked food and eats it for lunch at school.",
+        "zh": "平日，俊的父母在自家廚房切菜煮飯。俊把家中烹製的食物放進飯盒，帶到學校當午餐。",
+        "promptZh": "為甚麼午餐可稱為 home-cooked food？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The family prepared it in their own kitchen before taking it to school.",
+            "zh": "家人在自家廚房煮好，才帶到學校。"
+          },
+          {
+            "id": "b",
+            "en": "They bought it from a restaurant and ate it at school.",
+            "zh": "他們從餐廳買來，在學校吃。"
+          },
+          {
+            "id": "c",
+            "en": "It was served on a plate that belongs to their home.",
+            "zh": "食物放在一隻屬於家裏的碟子上。"
+          },
+          {
+            "id": "d",
+            "en": "Every lunch eaten away from home receives that name.",
+            "zh": "所有不在家裏吃的午餐都叫這個名稱。"
+          }
+        ],
+        "explanationZh": "是否在家中烹製是判斷關鍵；在學校吃不會改變食物的製作來源。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "（你今天帶來的午餐是從哪裏來的？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "My father made it in our kitchen this morning.",
+            "zh": "爸爸今早在我們的廚房煮的。"
+          },
+          {
+            "id": "b",
+            "en": "It is home-cooked food; we packed it after making it at home.",
+            "zh": "這是家中烹製的食物；我們煮好後帶出來。"
+          },
+          {
+            "id": "c",
+            "en": "We cooked it before leaving and put it in a lunch box.",
+            "zh": "我們出門前煮好，再放進飯盒。"
+          },
+          {
+            "id": "d",
+            "en": "It came from a pot on our stove, not a takeaway shop.",
+            "zh": "它是在我們家爐上煮的，不是外賣店買的。"
+          }
+        ],
+        "explanationZh": "四句都回答午餐來源；金句用本課複合形容詞說明食物在家煮好。",
+        "promptEn": "Where did the lunch you brought today come from?",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "野餐時，安帶來母親在家煮的麵；博把買來的現成麵在家加熱；芝帶來咖啡店標榜「家常風味」的麵。哪一份最符合 home-cooked food 的意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Ann brought home-cooked food because her mother made the noodles at home.",
+            "zh": "安帶來家中烹製的食物，因為麵是她母親在家煮的。"
+          },
+          {
+            "id": "b",
+            "en": "Bo’s noodles count because reheating a ready-made meal at home makes it homemade.",
+            "zh": "博的麵也算，因為把現成餐點帶回家加熱，就等於在家煮的。"
+          },
+          {
+            "id": "c",
+            "en": "Chi’s café noodles count as home-cooked food if the café follows a home-style recipe.",
+            "zh": "如果咖啡店採用家常菜食譜，芝買來的麵也算家中烹製的食物。"
+          }
+        ],
+        "explanationZh": "安的麵由家人在家煮好；把買來的現成麵加熱，或採用家常食譜，都不能代替在家中烹製這個條件。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合叫 home-cooked food？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A family cooks soup at home and takes it to a neighbour.",
+            "zh": "一家人在家煮湯，帶給鄰居。"
+          },
+          {
+            "id": "b",
+            "en": "A student eats restaurant takeaway at the kitchen table.",
+            "zh": "學生在家中餐桌吃餐廳外賣。"
+          },
+          {
+            "id": "c",
+            "en": "A parent cooks noodles at home for a school trip.",
+            "zh": "家長在家為學校旅行煮麵。"
+          }
+        ],
+        "explanationZh": "餐廳外賣由餐廳製作，在家吃不會令它變成家中烹製的食物。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「那家店賣的飯菜像家常菜，所以就是 home-cooked food 吧？」你怎樣回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It may taste homely, but it is not home-cooked food if the shop prepared it.",
+            "zh": "味道可能像家常菜，但若由店舖烹製，就不是家中烹製的食物。"
+          },
+          {
+            "id": "b",
+            "en": "If the flavour reminds you of a family meal, calling it home-cooked seems close enough.",
+            "zh": "如果味道令你想起家庭晚餐，把它叫作家中烹製的食物似乎也差不多。"
+          },
+          {
+            "id": "c",
+            "en": "Perhaps taking it home and reheating it would make it a home-cooked meal.",
+            "zh": "或許把它帶回家加熱，就能稱為家中烹製的餐點。"
+          }
+        ],
+        "explanationZh": "家常口味或回家加熱，均不能取代「在家煮好」這個條件；要看食物由誰在甚麼地方烹製。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "They brought home-cooked food to the picnic after preparing it in their kitchen.",
+        "zh": "他們在自家廚房煮好食物，再把家中烹製的食物帶去野餐。",
+        "promptZh": "先聽示範，再說出食物在哪裏烹製、在哪裏吃。",
+        "targetSpan": {
+          "start": 13,
+          "end": 29
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個社區中心辦晚餐分享會。美玲在自家廚房煮了蔬菜湯，帶到中心分給鄰居；另一名參加者帶來餐廳外賣。用一至兩句英文指出美玲帶來的是甚麼，並說明為何與外賣不同。",
+        "selfCheckZh": "寫出美玲在自家廚房煮湯、帶到中心分享，並與餐廳外賣區分；不要只根據進食地點判斷。",
+        "examples": [
+          {
+            "en": "Mei Ling brought home-cooked food to the community dinner: she made vegetable soup in her own kitchen and shared it with neighbours, unlike the restaurant takeaway.",
+            "zh": "美玲把家中烹製的食物帶到社區晚餐分享會：她在自家廚房煮蔬菜湯，再與鄰居分享；這與餐廳外賣不同。"
+          },
+          {
+            "en": "The vegetable soup is home-cooked food because Mei Ling prepared it at home before bringing it to the centre, while the other guest bought a ready-made meal.",
+            "zh": "那鍋蔬菜湯是在家煮的，因為美玲在家準備好才帶到中心；另一名參加者帶來的則是買回來的現成餐點。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "community dinner",
+            "zh": "社區晚餐分享會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 57
+            }
+          },
+          {
+            "en": "vegetable soup",
+            "zh": "蔬菜湯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 82
+            }
+          },
+          {
+            "en": "shared it with neighbours",
+            "zh": "與鄰居分享",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 131
+            }
+          },
+          {
+            "en": "restaurant takeaway",
+            "zh": "餐廳外賣",
+            "exampleIndex": 0,
+            "span": {
+              "start": 144,
+              "end": 163
+            }
+          },
+          {
+            "en": "ready-made meal",
+            "zh": "現成餐點",
+            "exampleIndex": 1,
+            "span": {
+              "start": 141,
+              "end": 156
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Home-cooked food can be shared somewhere other than home.",
+          "zh": "家中烹製的食物也可以帶到別處分享。"
+        },
+        {
+          "en": "Takeaway eaten at home is not automatically home-cooked food.",
+          "zh": "在家吃的外賣不會自動變成家中烹製的食物。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

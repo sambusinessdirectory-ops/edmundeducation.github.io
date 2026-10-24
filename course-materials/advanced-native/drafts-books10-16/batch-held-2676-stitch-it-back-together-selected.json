@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-held-2676-stitch-it-back-together-proposal-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2676",
+      "number": 2676,
+      "inventoryId": "expr-2676",
+      "contentRevision": 2,
+      "titleEn": "stitch it back together",
+      "titleZh": "把分散的部分重新連起來",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bstitch(?:es|ed|ing)?\\s+(?:(?:it|them)|(?:the|a|our|their)\\s+(?:[a-z]+\\s+){0,4}[a-z]+)\\s+back\\s+together\\b",
+        "glossaryForbidden": [
+          "\\bstitch(?:es|ed|ing)?\\b",
+          "\\bback together\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Reconnect the separated parts of an existing group, programme or working arrangement so that it can function as a whole again.",
+        "meaningZh": "把原本屬於同一整體、後來分散的群體或安排重新連起來，令它再次協同運作。",
+        "grammar": "Use stitch + an identifiable object + back together. The object can be it if the fragmented whole has already been named. Back points to restoration; without a previously connected whole, stitch something together may simply mean assembling a new arrangement, sometimes hastily.",
+        "register": "A reflective, moderately informal metaphor for rebuilding a divided group or interrupted programme. It suits community, school and workplace accounts when concrete reconnection is described.",
+        "boundaryZh": "須先指出哪個原有整體分散了，再說明如何把其成員或部分重新連起來。純粹建立新項目，或只讓各部分繼續各自運作，都不足以表達 back together。",
+        "misconceptionZh": "這裏不是字面上用針線縫合；it 也不能在沒有清楚前文時任由讀者猜測所指。原書例句沒有交代 it 指甚麼，本課不替原書補寫背景。",
+        "outcomeZh": "能說出原本完整的是甚麼、它如何分散，以及哪些實際行動令各部分重新合作。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0565",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 52,
+          "book": 11,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "30–32",
+          "locatorNote": "DOCX table 48, row 2; page is the locally rendered PDF page recorded in the intake summary. The guide's example leaves the antecedent of 'it' unstated; the new practice scenes below are invented and do not supply historical facts about the guide's community.",
+          "sentence": "The community worked to stitch it back together.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stitch it back together"
+        }
+      ],
+      "listening": {
+        "en": "The town orchestra had split into three rehearsal groups after losing its hall. When a new hall opened, the conductor set up joint rehearsals to stitch the orchestra back together.",
+        "zh": "鎮上的樂團失去排練場地後分成三組排練。新場地啟用後，指揮安排聯合排練，希望把樂團重新連起來。",
+        "promptZh": "指揮想把甚麼重新連起來？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The orchestra's separated rehearsal groups would play together again.",
+            "zh": "樂團分開排練的幾組成員會再次一起演奏。"
+          },
+          {
+            "id": "b",
+            "en": "The orchestra would replace every musician with a new recruit.",
+            "zh": "樂團會把所有樂手換成新成員。"
+          },
+          {
+            "id": "c",
+            "en": "Each rehearsal group would remain separate and stop sharing music.",
+            "zh": "各排練小組會繼續分開，不再共用樂譜。"
+          },
+          {
+            "id": "d",
+            "en": "The conductor would sew the damaged curtains in the old hall.",
+            "zh": "指揮會縫補舊場地破損的窗簾。"
+          }
+        ],
+        "explanationZh": "原有樂團分開排練，聯合排練讓同一樂團的成員再次合作；這是重新連起來的意思。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptEn": "A school music programme split into separate groups when its two venues closed. Both venues have reopened, and the teachers want a shared timetable and concert again. What could they say about their plan?",
+        "promptZh": "學校音樂計劃的兩個場地關閉後，各組分開活動。兩個場地現已重開，老師想恢復共同時間表和音樂會。他們可以怎樣介紹計劃？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We'll give the groups a shared rehearsal timetable and bring back their joint concert.",
+            "zh": "我們會讓各組共用排練時間表，恢復聯合音樂會。"
+          },
+          {
+            "id": "b",
+            "en": "Our plan is to reconnect the groups through rehearsals and a concert they organise together.",
+            "zh": "我們計劃透過排練和合辦音樂會，讓各組重新合作。"
+          },
+          {
+            "id": "c",
+            "en": "We can stitch the school music programme back together with shared rehearsals and a joint concert.",
+            "zh": "我們可以透過共同排練和聯合音樂會，把學校音樂計劃重新連起來。"
+          },
+          {
+            "id": "d",
+            "en": "We want the separate groups to work as one music programme again.",
+            "zh": "我們希望分開活動的各組再次以一個音樂計劃的形式合作。"
+          }
+        ],
+        "explanationZh": "四句都合理地提出共同排練和音樂會；金句以本課表達概括修復原有計劃的過程。",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "原本一起辦活動的社區圖書館讀書會，因時間表衝突分成幾組。兩間分館現共用主持人和活動時間表。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shared hosts and timetable can stitch the library reading programme back together.",
+            "zh": "共用主持人和時間表可把圖書館讀書計劃重新連起來。"
+          },
+          {
+            "id": "b",
+            "en": "The shared hosts may give readers a familiar face at meetings in either branch.",
+            "zh": "共用主持人可能讓讀者在兩間分館的聚會都見到熟悉的面孔。"
+          },
+          {
+            "id": "c",
+            "en": "The common timetable makes it easier for readers to choose a convenient session.",
+            "zh": "共用時間表讓讀者更容易選擇合適的聚會時段。"
+          }
+        ],
+        "explanationZh": "熟悉的主持人和方便的時段都是合理好處，但只有金句完整說出原有讀書計劃如何從分散變回一個整體。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合用 stitch ... back together 形容？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A divided dance company resumes full-cast rehearsals after its members have worked in separate groups.",
+            "zh": "舞蹈團成員分組活動後，恢復全團排練。"
+          },
+          {
+            "id": "b",
+            "en": "A brand-new choir forms for the first time, with no earlier group to reunite.",
+            "zh": "一個全新的合唱團首次成立，並沒有原有團體需要重新連起來。"
+          },
+          {
+            "id": "c",
+            "en": "A paused youth club reconnects its former teams through a shared weekly meeting.",
+            "zh": "暫停活動的青年中心透過每週共同聚會，讓原有各組重新合作。"
+          }
+        ],
+        "explanationZh": "全新合唱團沒有曾經連成一體又分散的背景，因此 back together 不合適；另外兩項都描述原有整體的修復。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptEn": "A: Our neighbourhood choir split into three rehearsal groups when its hall closed. The hall is open again, and all three leaders want to sing together. What plan would rebuild our choir as one group?\nWhat should B say?",
+        "promptZh": "甲：社區合唱團的場地關閉後，團員分成三組排練。場地現已重開，三組負責人都想一起唱歌。哪個計劃能讓合唱團重新成為一個整體？\n乙應如何回答？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let's stitch the choir back together with joint rehearsals and one shared concert.",
+            "zh": "我們安排聯合排練和一場共同音樂會，把合唱團重新連起來吧。"
+          },
+          {
+            "id": "b",
+            "en": "Let each group use the reopened hall on a different night and share the booking list.",
+            "zh": "讓每組在不同晚上使用重開的場地，並共用場地預約表。"
+          },
+          {
+            "id": "c",
+            "en": "Hold one welcome concert for all three groups, but keep their rehearsal plans separate afterwards.",
+            "zh": "讓三組合辦一場歡迎音樂會，但之後仍各自安排排練。"
+          }
+        ],
+        "explanationZh": "分別預約場地只處理後勤；一次合辦音樂會也未能恢復持續合作。共同排練加聯合音樂會，才真正把原有合唱團重新連起來。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The youth theatre split into separate casts after losing its stage. Joint rehearsals helped stitch the theatre back together when the stage reopened.",
+        "zh": "青年劇團失去舞台後分成不同演出組別。舞台重開時，聯合排練幫助劇團重新凝聚。",
+        "promptZh": "先聽示範，再指出原有劇團如何分散，以及聯合排練如何令團員重新合作。",
+        "targetSpan": {
+          "start": 92,
+          "end": 124
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校科學展覽的籌委會因展期爭議分成兩組，停止協調展品。雙方現同意重新共用展覽時間表及分工。用英文寫一至兩句，說明他們如何恢復為同一個籌委會。",
+        "selfCheckZh": "先指出原有籌委會分成兩組，再寫清楚共同會議、時間表或分工如何讓兩組重新合作；不要只說展覽成立。",
+        "examples": [
+          {
+            "en": "After the science fair committee split over its timetable, a shared planning meeting could stitch it back together by reconnecting the two teams.",
+            "zh": "科學展覽籌委會因展期分成兩組後，共同策劃會議可讓兩組重新合作，把籌委會重新連起來。"
+          },
+          {
+            "en": "A joint exhibit plan helped stitch the science fair committee back together: both teams agreed on the same timetable and assigned tasks together.",
+            "zh": "共同展品計劃幫助科學展覽籌委會重新凝聚：兩組同意共用時間表，並一起分配工作。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "split over its timetable",
+            "zh": "因時間表起爭議而分開",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 57
+            }
+          },
+          {
+            "en": "shared planning meeting",
+            "zh": "共同策劃會議",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 84
+            }
+          },
+          {
+            "en": "reconnecting the two teams",
+            "zh": "讓兩組重新連繫",
+            "exampleIndex": 0,
+            "span": {
+              "start": 118,
+              "end": 144
+            }
+          },
+          {
+            "en": "joint exhibit plan",
+            "zh": "共同展品計劃",
+            "exampleIndex": 1,
+            "span": {
+              "start": 2,
+              "end": 20
+            }
+          },
+          {
+            "en": "assigned tasks together",
+            "zh": "一起分配工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 121,
+              "end": 144
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "After the debate club split into separate teams, a shared project helped stitch the club back together.",
+          "zh": "辯論社分成不同隊伍後，一個共同項目幫助成員重新合作。"
+        },
+        {
+          "en": "The school's music programme had split into separate clubs; joint rehearsals could stitch it back together.",
+          "zh": "學校音樂計劃曾分成不同社團；聯合排練可把原有計劃重新連起來。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI editorial review 2676",
+          "evidence": "Exact learner-content proposal passed independent-proposal-review-2676-revised-followup.json; source sense, answer keys, distractors, target pattern and distinct contexts reviewed."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI editorial review 2676",
+          "evidence": "Exact bilingual proposal passed independent-proposal-review-2676-revised-followup.json; translations and key polarity aligned; browser wrap remains separate."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four role texts passed queue validation; synthesis, file verification, listening and hosting remain pending."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema and independent seven-step editorial review passed; current integrated browser/device QA remains pending."
+        },
+        "notes": [
+          "Selected for unpublished draft after independent AI editorial review in independent-proposal-review-2676-revised-followup.json; source 2676 remains exactly attributed. No audio, device or release gate is certified by this selection.",
+          "The source guide sentence leaves 'it' unnamed. Every newly authored practice scene names its fragmented whole; none is presented as a fact about the guide's community.",
+          "This broad restoration sense differs from owner 1357, which specifically teaches knitting the social fabric back together."
+        ]
+      }
+    }
+  ]
+}

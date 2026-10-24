@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-revised-seven-step-review",
+  "sourceOrdinal": 2331,
+  "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-held-exact-repeat-owner-2331-20261024.json",
+  "proposalSha256": "8cd6039602eb38adc628f50779c41486a5c6b317d577a2726366d44d76d3768b",
+  "priorReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-seven-step-review-exact-repeat-owner-2331-20261024.json",
+  "priorReviewSha256": "a0694ae189c22e0f1410a122a79e8cbcf43f648092b112f00c32d842b5d2b4f9",
+  "priorProposalSha256": "41a775daf86db5aecd217efc2ef701ef020ce1d74b33e96bcb2d7826470b0dab",
+  "sourceExactness": {
+    "sourceId": "book10-16-0220",
+    "inventoryExpressionExact": true,
+    "inventoryGuideExampleExact": true,
+    "bookQuestionSampleAndRenderedPageExact": true,
+    "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012"
+  },
+  "technicalChecks": {
+    "schemaValidationErrors": 0,
+    "schemaValidationWarnings": 0,
+    "compiledSteps": 7,
+    "compiledAssessedQuestions": 6,
+    "requiredAudioRoles": 4,
+    "writingSuggestedAnswers": 2,
+    "glossaryRows": 5,
+    "glossaryRowsExactAnswerSpans": true,
+    "answerKeys": {
+      "listening": "a",
+      "reply": "b",
+      "scene": "a",
+      "contrast": "c",
+      "dialogue": "a"
+    },
+    "audioRoleTexts": {
+      "listening": "The actor barely speaks during the long close-up, but the camera holds on her face. Her stillness and small changes of expression give her a quiet screen presence that keeps us watching.",
+      "speaking": "Even in silence, the performer has screen presence that gives the long shot its tension.",
+      "takeaway-1": "Her quiet screen presence makes the close-up worth holding.",
+      "takeaway-2": "Screen presence can come from a small reaction rather than a loud performance."
+    },
+    "audioGeneratedOrHeard": false
+  },
+  "priorBlockerFollowup": {
+    "changedContextWriting": "fixed: a festival review synthesises three scenes across the film rather than another isolated silent close-up",
+    "sceneDistractors": "fixed: shot duration and framing are plausible partial explanations of the same footage",
+    "dialogueDistractors": "fixed: pacing and framing are plausible partial responses to the director’s concern",
+    "owner2332Boundary": "fixed: screen presence is a performer quality; light up the screen is an effect and the two are not presented as mutually exclusive"
+  },
+  "sevenStepEditorialReview": {
+    "listening": "pass: quiet acting still holds attention; A alone matches",
+    "fourValidReplies": "pass: all four answer the close-up question; B alone carries the target",
+    "scene": "pass: B/C describe filming choices that might help, while A directly evaluates performer quality",
+    "contrast": "pass: C lacks evidence of remembered performer",
+    "dialogue": "pass: B/C are relevant editorial alternatives, but A alone evaluates the performer’s ability to sustain the shot",
+    "speaking": "pass: target span is exact and bilingual meaning aligns",
+    "changedContextWriting": "pass: the task now asks for a film-festival review across separate argument, rehearsal and reunion scenes, with two distinct supporting examples"
+  },
+  "bilingualAccuracy": "The revised English/Traditional-Chinese prompts, options, explanations, models and writing answers are semantically aligned in this read-only review. No rendered wrapping or physical-device acceptance is claimed.",
+  "advisories": [
+    "The title quotes the full source description “understated but powerful screen presence” while the detector and second writing model teach the reusable noun “screen presence”. This is defensible as a variable adjective construction, but the final course card should not claim the adjectives are mandatory.",
+    "This remains in the same film domain as owner 2332; the multiscene review task provides the new communicative context, but the two lessons should be presented as adjacent rather than mutually exclusive senses."
+  ],
+  "blockingIssues": [],
+  "verdict": "PASS_EDITORIAL_WITH_SCOPE_ADVISORY",
+  "selected": false,
+  "decisionMutation": false,
+  "lessonMutation": false,
+  "limits": "Exact local JSON/source and editorial review only. No audio synthesis/listening, browser, physical-device, backend, public hosting or release gate."
+}

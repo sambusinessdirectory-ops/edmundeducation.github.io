@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-seven-step-proposal-review",
+  "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-held-exact-repeat-owner-2694-20261024.json",
+  "proposalSha256": "c56f510f5dad2db1675882d8bfae35e64110ea75b57d6d9ecd4d79e462167e4a",
+  "selected": false,
+  "source": {
+    "sourceId": "book10-16-0583",
+    "sourceOrdinal": 2694,
+    "sourceInventoryRawRowSha256": "f3d3d231ac7d1ed280069cdbe003f2b9dd821b63ed6af5d223eb248ff2cc00ba",
+    "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+    "guideQuestion": "There's a lot of pirated music. Do you agree that we should support official music?",
+    "exactSourceExpression": "a few taps",
+    "exactGuideSentence": "You can reserve a room with a few taps.",
+    "guideMeaning": "A small number of phone-screen actions; a natural digital collocation.",
+    "laterExactRepeatOrdinals": [
+      4531,
+      4677
+    ],
+    "sourceFidelity": "The proposal retains the exact guide example as guide_original_example and labels its practice scenes as new situations; no source-question answer is asserted from the guide example."
+  },
+  "technicalChecks": {
+    "validateRecordErrors": 0,
+    "validateRecordWarnings": 0,
+    "sevenStepsCompile": true,
+    "sixAssessedQuestionsCompile": true,
+    "assessedKeysInOrder": [
+      "a",
+      "b",
+      "a",
+      "c",
+      "a",
+      "open self-review"
+    ],
+    "fourReplyOptionsAccepted": true,
+    "goldenReplyOnlyTargetBearing": true,
+    "sourceSentenceTargetDetectorMatches": true,
+    "sceneAndDialogueKeysTargetBearing": true,
+    "writingSuggestedAnswers": 2,
+    "glossaryRows": 5,
+    "glossaryRowsExactSpansFromSuggestedAnswers": true,
+    "glossaryCurrentRowsExcludeTarget": true,
+    "audioRoleTextLengths": [
+      152,
+      73,
+      57,
+      86
+    ],
+    "fourAudioTextsDistinctAndAtMost240": true,
+    "guideSourceExamplesScreened": 2604,
+    "learnerFacingEnglishFieldsScreened": 24,
+    "sixWordContiguousSourceOverlapHits": 0
+  },
+  "sevenStepEditorialReview": [
+    {
+      "step": "listening",
+      "status": "pass",
+      "reason": "A captures brief touchscreen booking; B/C/D test literal desk taps, voice-only use and paper workflow."
+    },
+    {
+      "step": "four-valid reply",
+      "status": "pass",
+      "reason": "A–D are four natural app-booking answers; B alone says a few taps."
+    },
+    {
+      "step": "scene",
+      "status": "revise",
+      "reason": "B requires a voice call and C several paper pages despite the prompt explicitly specifying three screen actions. Neither is a plausible competing account of the stated process."
+    },
+    {
+      "step": "contrast",
+      "status": "pass",
+      "reason": "C is voice-only and contains no taps; A/B involve brief screen touches."
+    },
+    {
+      "step": "dialogue",
+      "status": "revise",
+      "reason": "B infers the workshop is free and C speculates that it is full, neither addressing the friend’s worry about too many form pages. A wins without requiring the target’s nuance."
+    },
+    {
+      "step": "optional speaking",
+      "status": "pass",
+      "reason": "Exact a few taps span and museum-app screen context are correct."
+    },
+    {
+      "step": "changed-context writing",
+      "status": "pass",
+      "reason": "Garden volunteer shift registration changes the service/task from room booking and tests the boundary that a short registration does not make the shift itself easy."
+    }
+  ],
+  "traditionalChinese": "All question prompts, options, model sentences, writing answers and takeaways have intelligible Traditional Chinese with no decisive key or polarity mismatch. Any revised content needs a fresh bilingual check; rendered line wrapping has not been assessed.",
+  "existingOwnerComparison": [
+    {
+      "id": "advanced-native-829",
+      "file": "batches/batch-0826-0850.json",
+      "relationship": "Earlier owner teaches a single tap triggering information/action; this proposal teaches a short multi-touch sequence. Distinct target form and a bounded convenience claim.",
+      "fileSha256": "17c798f9e2f0187363422d38551c30a9b23c07d2f7692af5745bedf671fa514e"
+    },
+    {
+      "id": "advanced-native-1044",
+      "file": "batches/batch-1026-1050.json",
+      "relationship": "Earlier owner teaches the paired navigation verbs tap and scroll, not a small number of taps completing one booking.",
+      "fileSha256": "56485c9b12055b43569b50621d5bac875b40a8a331be653c7cb7cebc2bf13cd5"
+    }
+  ],
+  "requiredFixes": [
+    "Replace scene distractors with plausible partial descriptions of the same three-screen-action signup, one of which misses completion or overstates downstream convenience.",
+    "Replace dialogue distractors with credible replies to the page-count worry that differ in scope/timing, rather than price or unverified availability.",
+    "For scalable leakage protection, broaden glossaryForbidden beyond tap/taps to tapped/tapping if those forms appear in future answer-derived rows."
+  ],
+  "verdict": "REVISE — distinct source target, but scene/dialogue distractors are not credible alternatives.",
+  "limits": "This is an editorial/source review of the exact local proposal. No audio clips were generated or heard; no browser, physical-device, backend, publication or rights-clearance gate was run.",
+  "decisionMutation": false,
+  "lessonMutation": false
+}

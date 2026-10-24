@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-final-targeted-editorial-followup",
+  "sourceOrdinal": 2694,
+  "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-held-exact-repeat-owner-2694-20261024.json",
+  "proposalSha256": "8742d12338b860ddd2fc0a563bdcb8155878da3033462b7f899db7347445f33b",
+  "priorReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-seven-step-review-exact-repeat-owner-2694-revised-followup-20261024.json",
+  "priorReviewSha256": "3deabe6d75448622e297dacd6f9165e61fa6077ddce6108ee1a48f91b3c6c50d",
+  "sourceExactness": {
+    "sourceId": "book10-16-0583",
+    "expressionAndGuideSentenceMatchInventory": true,
+    "bookQuestionSampleAndRenderedPageMatchInventory": true,
+    "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012"
+  },
+  "technicalAndContinuityChecks": {
+    "schemaErrors": 0,
+    "schemaWarnings": 0,
+    "compiledSevenSteps": true,
+    "compiledAssessedQuestions": 6,
+    "audioRoles": 4,
+    "audioTextTupleUnchangedFromPriorExactHashReview": true,
+    "answerKeysUnchangedFromPriorExactHashReview": true,
+    "writingSuggestedAnswers": 2,
+    "glossaryRows": 5,
+    "glossaryRowsExactSpansFromSuggestedAnswers": true,
+    "glossaryRowsExcludeTargetAndForbiddenFragments": true
+  },
+  "previousBlockersResolved": {
+    "sceneDistractors": "B truthfully describes the first two screen actions but omits confirmation and completed signup. C overextends brief taps to the activity itself. A alone summarises successful signup.",
+    "dialogueDistractors": "B truthfully mentions visible time slots, and C truthfully mentions completed booking/no office visit. Both are relevant but partial. A alone specifies only slot selection and confirmation, directly answering the fear of many pages. The prior contradictory uncertainty claims are gone."
+  },
+  "sevenStepEditorialDisposition": {
+    "listening": "pass; prior reviewed content unchanged",
+    "fourValidReplies": "pass; prior reviewed content unchanged",
+    "scene": "pass; revised distractors are plausible partial or bounded misconceptions and the keyed option remains uniquely best",
+    "contrast": "pass; prior reviewed content unchanged",
+    "dialogue": "pass; revised distractors are relevant partial replies and the keyed option remains uniquely best",
+    "speaking": "pass; target span and bilingual model unchanged",
+    "changedContextWriting": "pass; two complete answers and answer-derived glossary unchanged"
+  },
+  "traditionalChinese": "The new Chinese matches the English partial steps, completed booking and no-office-visit statements. No polarity or key drift.",
+  "verdict": "PASS_EDITORIAL_TARGETED",
+  "blockingIssues": [],
+  "selected": false,
+  "decisionMutation": false,
+  "lessonMutation": false,
+  "limits": "Exact local proposal and targeted editorial review. Does not certify generated/heard audio, browser/device rendering, database migration, hosting, publication or full-course SOP release."
+}

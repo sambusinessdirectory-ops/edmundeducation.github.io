@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-seven-step-proposal-review",
+  "proposalFile": "course-materials/advanced-native/drafts-books10-16/proposal-held-exact-repeat-owner-3454-20261024.json",
+  "proposalSha256": "25e08bcc98cb62d7a8ab082a8f9841ac646c6ee41abf2e3e5052e5c1a020f68a",
+  "selected": false,
+  "source": {
+    "sourceId": "book10-16-1343",
+    "sourceOrdinal": 3454,
+    "sourceInventoryRawRowSha256": "f5cd2e2698362e133a834db10d8af308d94ddc49f8c3aeac3f718fc05cbb8226",
+    "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+    "guideQuestion": "Do many people eat in restaurants in your country?",
+    "exactSourceExpression": "home-cooked food",
+    "exactGuideSentence": "Many families prefer home-cooked food during the week.",
+    "guideMeaning": "Meals prepared at home; a useful natural compound.",
+    "laterExactRepeatOrdinals": [
+      3475,
+      3477
+    ],
+    "sourceFidelity": "The proposal retains the exact guide example as guide_original_example and labels its practice scenes as new situations; no source-question answer is asserted from the guide example."
+  },
+  "technicalChecks": {
+    "validateRecordErrors": 0,
+    "validateRecordWarnings": 0,
+    "sevenStepsCompile": true,
+    "sixAssessedQuestionsCompile": true,
+    "assessedKeysInOrder": [
+      "a",
+      "b",
+      "a",
+      "b",
+      "a",
+      "open self-review"
+    ],
+    "fourReplyOptionsAccepted": true,
+    "goldenReplyOnlyTargetBearing": true,
+    "sourceSentenceTargetDetectorMatches": true,
+    "sceneAndDialogueKeysTargetBearing": true,
+    "writingSuggestedAnswers": 2,
+    "glossaryRows": 5,
+    "glossaryRowsExactSpansFromSuggestedAnswers": true,
+    "glossaryCurrentRowsExcludeTarget": true,
+    "audioRoleTextLengths": [
+      171,
+      80,
+      57,
+      61
+    ],
+    "fourAudioTextsDistinctAndAtMost240": true,
+    "guideSourceExamplesScreened": 2604,
+    "learnerFacingEnglishFieldsScreened": 24,
+    "sixWordContiguousSourceOverlapHits": 0
+  },
+  "sevenStepEditorialReview": [
+    {
+      "step": "listening",
+      "status": "pass-with-clarity-fix",
+      "reason": "A uniquely identifies preparation in the family kitchen; B/C/D do not. The English then says they eat the packed lunch at school, making the entire family seem to attend school; Chinese repeats that implication. Name Jun as the person who packs/eats it."
+    },
+    {
+      "step": "four-valid reply",
+      "status": "pass",
+      "reason": "A–D all plausibly explain where the packed lunch came from; B alone contains home-cooked food."
+    },
+    {
+      "step": "scene",
+      "status": "revise",
+      "reason": "The prompt explicitly says the student cooked pasta at home. B says outdoors means it cannot be home-made and C says a lunch box proves restaurant origin. Both directly deny facts given, so the selection is trivial."
+    },
+    {
+      "step": "contrast",
+      "status": "pass",
+      "reason": "Restaurant takeaway eaten at home is not home-cooked; A/C are prepared at home."
+    },
+    {
+      "step": "dialogue",
+      "status": "pass-with-advisory",
+      "reason": "A correctly distinguishes homely taste from preparation in a home kitchen. B/C represent common but overstated misconceptions; C could be made closer without changing the key."
+    },
+    {
+      "step": "optional speaking",
+      "status": "pass",
+      "reason": "Exact target span and bilingual distinction between cooking location and picnic location are correct."
+    },
+    {
+      "step": "changed-context writing",
+      "status": "pass",
+      "reason": "A community dinner compares home-prepared soup with restaurant takeaway, changing the task from packed school lunch; two complete answers and five answer-derived glossary rows fit."
+    }
+  ],
+  "traditionalChinese": "All question prompts, options, model sentences, writing answers and takeaways have intelligible Traditional Chinese with no decisive key or polarity mismatch. Any revised content needs a fresh bilingual check; rendered line wrapping has not been assessed.",
+  "existingOwnerComparison": [
+    {
+      "id": "advanced-native-1532",
+      "file": "batches/batch-1526-1550.json",
+      "relationship": "Earlier owner is the whole sit down to a simple home-cooked dinner meal construction. This proposal isolates where the food was prepared, including food later eaten away from home; a distinct learner decision is supportable.",
+      "fileSha256": "2bb8e267715a9739e24102cffae84bb402f101aefeac269467e9773bb89d2a1c"
+    }
+  ],
+  "requiredFixes": [
+    "Repair listening pronoun/coherence: Jun, not an unspecified whole family, packs and eats the food at school; update matching Chinese and regenerate that listening audio role if integrated.",
+    "Replace scene distractors with more credible near misses, such as food bought ready-made and reheated at home or food prepared at home but served elsewhere, while retaining one best answer.",
+    "Optional: make dialogue’s wrong options less absolute while still testing preparation versus familiar taste and eating place."
+  ],
+  "verdict": "REVISE — scene distractors fail plausible-alternative gate; listening family/school referent also needs correction.",
+  "limits": "This is an editorial/source review of the exact local proposal. No audio clips were generated or heard; no browser, physical-device, backend, publication or rights-clearance gate was run.",
+  "decisionMutation": false,
+  "lessonMutation": false
+}

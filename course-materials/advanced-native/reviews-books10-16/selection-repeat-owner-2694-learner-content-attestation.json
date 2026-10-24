@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "sourceOwner": 2694,
+  "aliases": [
+    4531,
+    4677
+  ],
+  "proposalSha256": "8742d12338b860ddd2fc0a563bdcb8155878da3033462b7f899db7347445f33b",
+  "reviewFile": "course-materials/advanced-native/reviews-books10-16/independent-seven-step-review-exact-repeat-owner-2694-final-followup-20261024.json",
+  "reviewSha256": "ceab5bb88489eb8e244adbb4f27faa7b9e1aedc7eeb0796c07f99d84232e90c5",
+  "selectedFile": "course-materials/advanced-native/drafts-books10-16/batch-held-exact-repeat-owner-2694-selected.json",
+  "selectedSha256": "0e874e87843280b5fccbfea8c4221ddd3ebcd25342bb8e0e7e3594a7c0e37da1",
+  "state": "unpublished-draft",
+  "onlyLearnerContentDifferenceFromReviewedProposal": "dialogue.options[0] en/zh exact pair in post-selection-originality-repair-2694-dialogue-option.json",
+  "allOtherLearnerContentIdenticalAfterRemovingReviewAndSources": true,
+  "postRepairIndependentReviewSha256": "37d8046723204b6742deca335e4a199e0ed7f1ccdf9c33355a3cb95203831670"
+}

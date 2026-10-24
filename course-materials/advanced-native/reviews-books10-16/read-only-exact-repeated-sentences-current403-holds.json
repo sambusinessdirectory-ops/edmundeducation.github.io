@@ -1,0 +1,696 @@
+{
+  "schemaVersion": 1,
+  "kind": "read-only-exact-repeated-sentences-among-current-403-holds",
+  "status": "review-only-no-source-decision-lesson-or-publication-mutation",
+  "snapshot": {
+    "currentHoldCount": 403,
+    "decisionManifestSha256": "b4c210caa55d0c0d410ba3a19338550888fda1318975ff84ff3d6dbc6c9eb47f",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "screenReports": [
+      {
+        "file": "read-only-current408-first100-one-time-source-screen-held-exclusion-408.json",
+        "sha256": "88fd310ac63e4d672f1d8c07bcec67623030fad64923aec512ac60fc22d256fa"
+      },
+      {
+        "file": "read-only-current408-second100-one-time-source-screen-held-exclusion-408.json",
+        "sha256": "cd6760de48761c342ae4c2da58a7339d4cb6c321488d719870cdb276cdef7d7a"
+      },
+      {
+        "file": "read-only-next100-current-holds-3479-4085-source-screen.json",
+        "sha256": "402ca2568450e9b75d8e0bcc9f3b97403ea1271a6153acd4335ed4962cf00dd3"
+      },
+      {
+        "file": "read-only-remaining-current-holds-4088-4713-source-screen.json",
+        "sha256": "c66186cc0fd2afe500bb57d1a904d270959e70e5a2150af124399d78bd77faed"
+      }
+    ],
+    "screenCoverage": {
+      "screenUnionCount": 406,
+      "currentHoldsMissingFromScreens": [],
+      "historicalScreenRowsNoLongerHeld": [
+        4104,
+        4347,
+        4394
+      ]
+    }
+  },
+  "method": "Group current hold-editorial rows by byte-exact guide example sentence, then compare exact target spelling and meaning, source order, and current individual hold reasons. Conditional same-sense aliases require the earliest owner to become an approved source-faithful lesson; this report approves neither lessons nor links. A sentence repeated in the guide is not independent evidence that its phrase is a conventional idiom.",
+  "counts": {
+    "exactSentenceGroups": 12,
+    "heldRowsInGroups": 29,
+    "potentialLaterAliasesIfAllEarliestLessonsApproved": 17,
+    "heldRowsWithoutExactHeldSentenceRepeat": 374
+  },
+  "groups": [
+    {
+      "earliestHeldOrdinal": 2331,
+      "exactSourceSentence": "She has an understated but powerful screen presence.",
+      "exactTargetSpelling": "understated but powerful screen presence",
+      "exactMeaningAndReason": "A quietly compelling appearance on film; a natural critical phrase.",
+      "sourceOrder": [
+        {
+          "sourceOrdinal": 2331,
+          "sourceId": "book10-16-0220",
+          "book": 10,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "41–42",
+          "docxTable": 17,
+          "docxRow": 2,
+          "renderedPdfPage": 20,
+          "exactTargetSpelling": "understated but powerful screen presence",
+          "exactMeaningAndReason": "A quietly compelling appearance on film; a natural critical phrase.",
+          "sourceRawRowSha256": "ca1e15a0bf5619cbcb722af9883e4ec98cbb27939e72455c51389911e9b9cd55",
+          "currentDecisionFile": "editorial-decisions-2292-2351.jsonl",
+          "currentDecisionRawRowSha256": "203fb70bef76e3cfbccafab497455f425e2a1d6aa6a3fb17d5164009179b86ea"
+        },
+        {
+          "sourceOrdinal": 2367,
+          "sourceId": "book10-16-0256",
+          "book": 10,
+          "question": 20,
+          "sample": "S1",
+          "sourceBookPages": "48–49",
+          "docxTable": 20,
+          "docxRow": 2,
+          "renderedPdfPage": 24,
+          "exactTargetSpelling": "understated but powerful screen presence",
+          "exactMeaningAndReason": "A quietly compelling appearance on film; a natural critical phrase.",
+          "sourceRawRowSha256": "a0319becf4ed5f6897270727df6172c7530dd67ef612f6e3c613601ac20090f3",
+          "currentDecisionFile": "editorial-decisions-2352-2411.jsonl",
+          "currentDecisionRawRowSha256": "09aee4c500c36fc17c590a48820b0c9e10af492350886bebf9ef3420f3c444a0"
+        }
+      ],
+      "laterHeldOrdinals": [
+        2367
+      ],
+      "laterSameSenseIfEarliestApproved": true,
+      "conditionalAliasAssessment": "conditional-yes",
+      "individualReason": "The two guide rows reproduce the same critical description. First decide whether the teachable unit is screen presence or the entire adjective-heavy description; if 2331 becomes a source-faithful lesson at that scope, 2367 can link to it.",
+      "currentDecision": "all hold-editorial; no link approved"
+    },
+    {
+      "earliestHeldOrdinal": 2472,
+      "exactSourceSentence": "A patient explanation can make the topic open up.",
+      "exactTargetSpelling": "open up",
+      "exactMeaningAndReason": "Become accessible or understandable; a natural phrasal verb.",
+      "sourceOrder": [
+        {
+          "sourceOrdinal": 2472,
+          "sourceId": "book10-16-0361",
+          "book": 10,
+          "question": 29,
+          "sample": "S1",
+          "sourceBookPages": "72–73",
+          "docxTable": 29,
+          "docxRow": 2,
+          "renderedPdfPage": 33,
+          "exactTargetSpelling": "open up",
+          "exactMeaningAndReason": "Become accessible or understandable; a natural phrasal verb.",
+          "sourceRawRowSha256": "3a90d3eb30e9d97be9f73b8d020e527bdebe1c97ccde7de26b3432f64dd73b7b",
+          "currentDecisionFile": "editorial-decisions-2472-2531.jsonl",
+          "currentDecisionRawRowSha256": "1f8ad109ca57f002407684469fc8e03bffc13ad56dded55a929fdc202d205761"
+        },
+        {
+          "sourceOrdinal": 2541,
+          "sourceId": "book10-16-0430",
+          "book": 10,
+          "question": 36,
+          "sample": "S1",
+          "sourceBookPages": "87–88",
+          "docxTable": 36,
+          "docxRow": 5,
+          "renderedPdfPage": 40,
+          "exactTargetSpelling": "open up",
+          "exactMeaningAndReason": "Become accessible or understandable; a natural phrasal verb.",
+          "sourceRawRowSha256": "469ea84a3ce97f6ad4fbbd39ee8750aac72cb247ddf5e64f1c15d96f5102778c",
+          "currentDecisionFile": "editorial-decisions-2532-2591.jsonl",
+          "currentDecisionRawRowSha256": "7721a44f68779165c784150bee1d7ffc493a6738c0d1c668890791a68ecadbff"
+        },
+        {
+          "sourceOrdinal": 3670,
+          "sourceId": "book10-16-1559",
+          "book": 14,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "26–27",
+          "docxTable": 155,
+          "docxRow": 10,
+          "renderedPdfPage": 146,
+          "exactTargetSpelling": "open up",
+          "exactMeaningAndReason": "Become accessible or understandable; a natural phrasal verb.",
+          "sourceRawRowSha256": "d834fe9e0a9ee9a483ce8fca8a46d44958f2fbcc454645ca4476e8e8e8040a70",
+          "currentDecisionFile": "editorial-decisions-3612-3671.jsonl",
+          "currentDecisionRawRowSha256": "f853fd98c469015ce7afbaec1b8c7dd86471bdbc3692a85b172b861830287a23"
+        },
+        {
+          "sourceOrdinal": 3681,
+          "sourceId": "book10-16-1570",
+          "book": 14,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "28–29",
+          "docxTable": 156,
+          "docxRow": 10,
+          "renderedPdfPage": 147,
+          "exactTargetSpelling": "open up",
+          "exactMeaningAndReason": "Become accessible or understandable; a natural phrasal verb.",
+          "sourceRawRowSha256": "dd420cdfbb42bbeef7f813a888d4f5ab7f8322984cd2f169aebafd4f136ffe87",
+          "currentDecisionFile": "editorial-decisions-3672-3731.jsonl",
+          "currentDecisionRawRowSha256": "f1c5fffb27638430cc3a6d674545d4e73d975cdcace926b4b1a8417e48b69aa7"
+        },
+        {
+          "sourceOrdinal": 4112,
+          "sourceId": "book10-16-2001",
+          "book": 15,
+          "question": 27,
+          "sample": "S1",
+          "sourceBookPages": "64–65",
+          "docxTable": 205,
+          "docxRow": 3,
+          "renderedPdfPage": 189,
+          "exactTargetSpelling": "open up",
+          "exactMeaningAndReason": "Become accessible or understandable; a natural phrasal verb.",
+          "sourceRawRowSha256": "955273aa59d3b43411f457e49e07f93d5cefad9a7e3a00983313442051739d01",
+          "currentDecisionFile": "editorial-decisions-4092-4151.jsonl",
+          "currentDecisionRawRowSha256": "652f136c689b544adc59eb921a94e3802112c259d90e9b82063db5810077031a"
+        }
+      ],
+      "laterHeldOrdinals": [
+        2541,
+        3670,
+        3681,
+        4112
+      ],
+      "laterSameSenseIfEarliestApproved": true,
+      "conditionalAliasAssessment": "conditional-yes-after-source-form-repair",
+      "individualReason": "All five rows use the same accessibility sense and the identical sentence. “Make the topic open up” is awkward and differs from the disclosure sense of open up; settle or repair that source-bound sense before authoring 2472. Only then may 2541, 3670, 3681 and 4112 share its owner.",
+      "currentDecision": "all hold-editorial; no link approved"
+    },
+    {
+      "earliestHeldOrdinal": 2495,
+      "exactSourceSentence": "A strong memory is a real advantage at work.",
+      "exactTargetSpelling": "a real advantage",
+      "exactMeaningAndReason": "A meaningful practical benefit; a reusable evaluation phrase.",
+      "sourceOrder": [
+        {
+          "sourceOrdinal": 2495,
+          "sourceId": "book10-16-0384",
+          "book": 10,
+          "question": 31,
+          "sample": "S1",
+          "sourceBookPages": "77–78",
+          "docxTable": 31,
+          "docxRow": 4,
+          "renderedPdfPage": 35,
+          "exactTargetSpelling": "a real advantage",
+          "exactMeaningAndReason": "A meaningful practical benefit; a reusable evaluation phrase.",
+          "sourceRawRowSha256": "bce1d85874363df0bfedebe7099bea92c9ced64ea7e2f9912c2c4b7cf5c5e969",
+          "currentDecisionFile": "editorial-decisions-2472-2531.jsonl",
+          "currentDecisionRawRowSha256": "9b03df4836e99dd290967e028fe16a6904337629a3c06f118ab6e67c9760b48b"
+        },
+        {
+          "sourceOrdinal": 4110,
+          "sourceId": "book10-16-1999",
+          "book": 15,
+          "question": 26,
+          "sample": "S2",
+          "sourceBookPages": "62–63",
+          "docxTable": 204,
+          "docxRow": 9,
+          "renderedPdfPage": 188,
+          "exactTargetSpelling": "a real advantage",
+          "exactMeaningAndReason": "A meaningful practical benefit; a reusable evaluation phrase.",
+          "sourceRawRowSha256": "8894f82fe3db041b6da84b03eb4c2d60c6a6adc92359dba789433a6a454c3e87",
+          "currentDecisionFile": "editorial-decisions-4092-4151.jsonl",
+          "currentDecisionRawRowSha256": "e219cf19475193cb5fabf517de4227ee9cf1f9243c154eae5fe5abecf5e8a081"
+        }
+      ],
+      "laterHeldOrdinals": [
+        4110
+      ],
+      "laterSameSenseIfEarliestApproved": true,
+      "conditionalAliasAssessment": "conditional-yes",
+      "individualReason": "Both rows use a real advantage for a practical benefit. The phrase is transparent, so decide if it merits a distinct advanced lesson; if 2495 is accepted, 4110 is a same-sense alias.",
+      "currentDecision": "all hold-editorial; no link approved"
+    },
+    {
+      "earliestHeldOrdinal": 2694,
+      "exactSourceSentence": "You can reserve a room with a few taps.",
+      "exactTargetSpelling": "a few taps",
+      "exactMeaningAndReason": "A small number of phone-screen actions; a natural digital collocation.",
+      "sourceOrder": [
+        {
+          "sourceOrdinal": 2694,
+          "sourceId": "book10-16-0583",
+          "book": 11,
+          "question": 13,
+          "sample": "S2",
+          "sourceBookPages": "33–36",
+          "docxTable": 49,
+          "docxRow": 10,
+          "renderedPdfPage": 54,
+          "exactTargetSpelling": "a few taps",
+          "exactMeaningAndReason": "A small number of phone-screen actions; a natural digital collocation.",
+          "sourceRawRowSha256": "f3d3d231ac7d1ed280069cdbe003f2b9dd821b63ed6af5d223eb248ff2cc00ba",
+          "currentDecisionFile": "editorial-decisions-2652-2711.jsonl",
+          "currentDecisionRawRowSha256": "f65eb32c8ae66eaa8803b554ea0926961a48fea5b80a8715bac4821f6d3ebeaf"
+        },
+        {
+          "sourceOrdinal": 4531,
+          "sourceId": "book10-16-2420",
+          "book": 16,
+          "question": 38,
+          "sample": "S1",
+          "sourceBookPages": "92–93",
+          "docxTable": 253,
+          "docxRow": 3,
+          "renderedPdfPage": 228,
+          "exactTargetSpelling": "a few taps",
+          "exactMeaningAndReason": "A small number of phone-screen actions; a natural digital collocation.",
+          "sourceRawRowSha256": "240591c0137303476540765eb5253e55bdbf881679a7e4072f45886ace5a2200",
+          "currentDecisionFile": "editorial-decisions-4512-4571.jsonl",
+          "currentDecisionRawRowSha256": "4c4aab5a8eaa82f186a21393d4c929af9637c52704b2d7a15f01e43d3a8d50fb"
+        },
+        {
+          "sourceOrdinal": 4677,
+          "sourceId": "book10-16-2566",
+          "book": 16,
+          "question": 56,
+          "sample": "S1",
+          "sourceBookPages": "130–131",
+          "docxTable": 271,
+          "docxRow": 3,
+          "renderedPdfPage": 242,
+          "exactTargetSpelling": "a few taps",
+          "exactMeaningAndReason": "A small number of phone-screen actions; a natural digital collocation.",
+          "sourceRawRowSha256": "48520fe8b923a9ffe5d563c29821ef3e0c9e49cbd0366414ee03b67c1bae9fb4",
+          "currentDecisionFile": "editorial-decisions-4632-4691.jsonl",
+          "currentDecisionRawRowSha256": "2d9cb580477a66676281efa3636924afc73ce3180ac4a3d31506672253ba423d"
+        }
+      ],
+      "laterHeldOrdinals": [
+        4531,
+        4677
+      ],
+      "laterSameSenseIfEarliestApproved": true,
+      "conditionalAliasAssessment": "conditional-yes",
+      "individualReason": "All three rows refer to a few touchscreen actions. It is a literal, reusable digital collocation rather than an idiom. If a natural-English lesson is justified at 2694, 4531 and 4677 can link to it.",
+      "currentDecision": "all hold-editorial; no link approved"
+    },
+    {
+      "earliestHeldOrdinal": 3454,
+      "exactSourceSentence": "Many families prefer home-cooked food during the week.",
+      "exactTargetSpelling": "home-cooked food",
+      "exactMeaningAndReason": "Meals prepared at home; a useful natural compound.",
+      "sourceOrder": [
+        {
+          "sourceOrdinal": 3454,
+          "sourceId": "book10-16-1343",
+          "book": 13,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "25–26",
+          "docxTable": 131,
+          "docxRow": 6,
+          "renderedPdfPage": 125,
+          "exactTargetSpelling": "home-cooked food",
+          "exactMeaningAndReason": "Meals prepared at home; a useful natural compound.",
+          "sourceRawRowSha256": "f5cd2e2698362e133a834db10d8af308d94ddc49f8c3aeac3f718fc05cbb8226",
+          "currentDecisionFile": "editorial-decisions-3432-3491.jsonl",
+          "currentDecisionRawRowSha256": "07609f434f79089f7a595796e98a0e1f3a45148f465f0d8139083f893d557206"
+        },
+        {
+          "sourceOrdinal": 3475,
+          "sourceId": "book10-16-1364",
+          "book": 13,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "31–33",
+          "docxTable": 134,
+          "docxRow": 3,
+          "renderedPdfPage": 127,
+          "exactTargetSpelling": "home-cooked food",
+          "exactMeaningAndReason": "Meals prepared at home; a useful natural compound.",
+          "sourceRawRowSha256": "2c1c5b269f249419ef294c86c0dbd54b9ca09b182c67e09da41ec072e13c4e12",
+          "currentDecisionFile": "editorial-decisions-3432-3491.jsonl",
+          "currentDecisionRawRowSha256": "cbec5284f17f23206111ef0d34add9f42c4985aada42af3ba8859b0a72abc2dd"
+        },
+        {
+          "sourceOrdinal": 3477,
+          "sourceId": "book10-16-1366",
+          "book": 13,
+          "question": 13,
+          "sample": "S2",
+          "sourceBookPages": "31–33",
+          "docxTable": 134,
+          "docxRow": 5,
+          "renderedPdfPage": 127,
+          "exactTargetSpelling": "home-cooked food",
+          "exactMeaningAndReason": "Meals prepared at home; a useful natural compound.",
+          "sourceRawRowSha256": "b8ce5e27775e914e20e009931cf021c350ac8c16bee643a665831ee29d7d54a0",
+          "currentDecisionFile": "editorial-decisions-3432-3491.jsonl",
+          "currentDecisionRawRowSha256": "e5240db75198e83587692065cfdbe02eb7c3baa3ef6ffec0c771827854015454"
+        }
+      ],
+      "laterHeldOrdinals": [
+        3475,
+        3477
+      ],
+      "laterSameSenseIfEarliestApproved": true,
+      "conditionalAliasAssessment": "conditional-yes",
+      "individualReason": "All three rows use home-cooked food for food prepared at home. The compound is transparent but reusable. If 3454 becomes a natural-English lesson, 3475 and 3477 can link to it.",
+      "currentDecision": "all hold-editorial; no link approved"
+    },
+    {
+      "earliestHeldOrdinal": 3731,
+      "exactSourceSentence": "Every powerful tool casts a shadow when used carelessly.",
+      "exactTargetSpelling": "every powerful tool casts a shadow",
+      "exactMeaningAndReason": "Major benefits may have harmful side effects; a shadow metaphor.",
+      "sourceOrder": [
+        {
+          "sourceOrdinal": 3731,
+          "sourceId": "book10-16-1620",
+          "book": 14,
+          "question": 18,
+          "sample": "S1",
+          "sourceBookPages": "41–42",
+          "docxTable": 162,
+          "docxRow": 2,
+          "renderedPdfPage": 152,
+          "exactTargetSpelling": "every powerful tool casts a shadow",
+          "exactMeaningAndReason": "Major benefits may have harmful side effects; a shadow metaphor.",
+          "sourceRawRowSha256": "149ccc31ae21d966db28b43116168d95e225ce50fd7e51f0a87fb88078322e0f",
+          "currentDecisionFile": "editorial-decisions-3672-3731.jsonl",
+          "currentDecisionRawRowSha256": "97bb126dabe72f56bc0d174ddaba4416434aca346b53ee9a2ae21a4c0b690681"
+        },
+        {
+          "sourceOrdinal": 3740,
+          "sourceId": "book10-16-1629",
+          "book": 14,
+          "question": 19,
+          "sample": "S1",
+          "sourceBookPages": "42–44",
+          "docxTable": 163,
+          "docxRow": 2,
+          "renderedPdfPage": 153,
+          "exactTargetSpelling": "every powerful tool casts a shadow",
+          "exactMeaningAndReason": "Major benefits may have harmful side effects; a shadow metaphor.",
+          "sourceRawRowSha256": "0a09445976d242df3d53f61d9f25417732ed8744b257a9e579401c848b9486dc",
+          "currentDecisionFile": "editorial-decisions-3732-3791.jsonl",
+          "currentDecisionRawRowSha256": "924095077405ba86f423a1e5892aacce9c6766dcb41ae889d58af623421056f7"
+        }
+      ],
+      "laterHeldOrdinals": [
+        3740
+      ],
+      "laterSameSenseIfEarliestApproved": true,
+      "conditionalAliasAssessment": "same-sense-but-do-not-author-without-one-time-image-review",
+      "individualReason": "The later row repeats the exact bespoke tool-and-shadow warning. Repetition in this guide does not prove an established expression. Under the user’s rule, review whether this is a one-time image with no reusable core before creating any lesson. If a defensible taught target is nonetheless established at 3731, 3740 would be its same-sense alias.",
+      "currentDecision": "all hold-editorial; no link approved"
+    },
+    {
+      "earliestHeldOrdinal": 3732,
+      "exactSourceSentence": "Excessive automation could make us mentally lazier.",
+      "exactTargetSpelling": "mentally lazier",
+      "exactMeaningAndReason": "Less inclined to think independently; a precise natural comparison.",
+      "sourceOrder": [
+        {
+          "sourceOrdinal": 3732,
+          "sourceId": "book10-16-1621",
+          "book": 14,
+          "question": 18,
+          "sample": "S1",
+          "sourceBookPages": "41–42",
+          "docxTable": 162,
+          "docxRow": 3,
+          "renderedPdfPage": 152,
+          "exactTargetSpelling": "mentally lazier",
+          "exactMeaningAndReason": "Less inclined to think independently; a precise natural comparison.",
+          "sourceRawRowSha256": "a66471a4d0ef099fc466fac257ada167f78aac1823d6b4e2068eda3db1c3ce9d",
+          "currentDecisionFile": "editorial-decisions-3732-3791.jsonl",
+          "currentDecisionRawRowSha256": "28b5a8ffa312698b950b7323302c3174f146fc182cf54d8499feb5ce215b0a24"
+        },
+        {
+          "sourceOrdinal": 3741,
+          "sourceId": "book10-16-1630",
+          "book": 14,
+          "question": 19,
+          "sample": "S1",
+          "sourceBookPages": "42–44",
+          "docxTable": 163,
+          "docxRow": 3,
+          "renderedPdfPage": 153,
+          "exactTargetSpelling": "mentally lazier",
+          "exactMeaningAndReason": "Less inclined to think independently; a precise natural comparison.",
+          "sourceRawRowSha256": "6eebe4352aaa6c414bb593158897619d292d9a03c3c1d9264ebe332891802694",
+          "currentDecisionFile": "editorial-decisions-3732-3791.jsonl",
+          "currentDecisionRawRowSha256": "3b2ebedac0f12d4bd31a5a983fa82d100f0eb5ff204b949f3060992b8522f0cf"
+        }
+      ],
+      "laterHeldOrdinals": [
+        3741
+      ],
+      "laterSameSenseIfEarliestApproved": true,
+      "conditionalAliasAssessment": "conditional-yes",
+      "individualReason": "Both rows mean less inclined to think independently. Mentally lazier is a natural comparative, not a fixed idiom; if a distinct teachable comparative lesson is justified at 3732, 3741 can link to it.",
+      "currentDecision": "all hold-editorial; no link approved"
+    },
+    {
+      "earliestHeldOrdinal": 3739,
+      "exactSourceSentence": "Training helps staff stay in control of the change.",
+      "exactTargetSpelling": "stay in control of the change",
+      "exactMeaningAndReason": "Guide a transition rather than be passively affected; a natural governance phrase.",
+      "sourceOrder": [
+        {
+          "sourceOrdinal": 3739,
+          "sourceId": "book10-16-1628",
+          "book": 14,
+          "question": 18,
+          "sample": "S2",
+          "sourceBookPages": "41–42",
+          "docxTable": 162,
+          "docxRow": 10,
+          "renderedPdfPage": 153,
+          "exactTargetSpelling": "stay in control of the change",
+          "exactMeaningAndReason": "Guide a transition rather than be passively affected; a natural governance phrase.",
+          "sourceRawRowSha256": "8cd9b3ad4643cc8d877c733a9659e0dc15d7ae975efe774a2e9cf80f0af3dac0",
+          "currentDecisionFile": "editorial-decisions-3732-3791.jsonl",
+          "currentDecisionRawRowSha256": "99a4f0a8e0ae7ca68608b8de553e202e96e663fb93adc5401ac5dcca304bbef0"
+        },
+        {
+          "sourceOrdinal": 3748,
+          "sourceId": "book10-16-1637",
+          "book": 14,
+          "question": 19,
+          "sample": "S2",
+          "sourceBookPages": "42–44",
+          "docxTable": 163,
+          "docxRow": 10,
+          "renderedPdfPage": 153,
+          "exactTargetSpelling": "stay in control of the change",
+          "exactMeaningAndReason": "Guide a transition rather than be passively affected; a natural governance phrase.",
+          "sourceRawRowSha256": "73ca7ea72d301cbac7b71e1c6694685da33c5a7f7fea0f867b7ccb4a7ede95f6",
+          "currentDecisionFile": "editorial-decisions-3732-3791.jsonl",
+          "currentDecisionRawRowSha256": "913a241adf01aaa228874a370848cb3362d0dc18d2d78587e3c314cf304bec95"
+        }
+      ],
+      "laterHeldOrdinals": [
+        3748
+      ],
+      "laterSameSenseIfEarliestApproved": true,
+      "conditionalAliasAssessment": "conditional-yes",
+      "individualReason": "Both rows mean that staff guide a transition rather than be passively affected by it. If the agency construction is given a bounded lesson at 3739, 3748 can link to it.",
+      "currentDecision": "all hold-editorial; no link approved"
+    },
+    {
+      "earliestHeldOrdinal": 3815,
+      "exactSourceSentence": "A good policy tackles both the symptoms and the roots of the problem.",
+      "exactTargetSpelling": "tackles both the symptoms and the roots of the problem",
+      "exactMeaningAndReason": "Addresses immediate effects and underlying causes; medical and plant metaphors.",
+      "sourceOrder": [
+        {
+          "sourceOrdinal": 3815,
+          "sourceId": "book10-16-1704",
+          "book": 14,
+          "question": 27,
+          "sample": "S2",
+          "sourceBookPages": "59–61",
+          "docxTable": 171,
+          "docxRow": 11,
+          "renderedPdfPage": 160,
+          "exactTargetSpelling": "tackles both the symptoms and the roots of the problem",
+          "exactMeaningAndReason": "Addresses immediate effects and underlying causes; medical and plant metaphors.",
+          "sourceRawRowSha256": "4e24654954079c8b41b822e447dd0f3da352ecf79218a2ac85fb134ae17ae9c0",
+          "currentDecisionFile": "editorial-decisions-3792-3851.jsonl",
+          "currentDecisionRawRowSha256": "fa61da02fe8cb2dc877c7b990cc5b0cb216afae8b149892902d7ff5f3b8e375a"
+        },
+        {
+          "sourceOrdinal": 3860,
+          "sourceId": "book10-16-1749",
+          "book": 14,
+          "question": 32,
+          "sample": "S2",
+          "sourceBookPages": "70–72",
+          "docxTable": 176,
+          "docxRow": 11,
+          "renderedPdfPage": 165,
+          "exactTargetSpelling": "tackles both the symptoms and the roots of the problem",
+          "exactMeaningAndReason": "Addresses immediate effects and underlying causes; medical and plant metaphors.",
+          "sourceRawRowSha256": "37c5f6d3b5f9148132512a19e3d87587eab5b3c222f74ba45e91215c60ead323",
+          "currentDecisionFile": "editorial-decisions-3852-3911.jsonl",
+          "currentDecisionRawRowSha256": "a3f9c881bfa04748ad79bfd4aa97a5e3759f607d18c2af4c4e3a72dccf1b9291"
+        }
+      ],
+      "laterHeldOrdinals": [
+        3860
+      ],
+      "laterSameSenseIfEarliestApproved": true,
+      "conditionalAliasAssessment": "conditional-yes-after-target-boundary-review",
+      "individualReason": "Both rows contrast immediate effects with underlying causes in the same sentence. The full wording mixes medical symptoms and plant roots; decide whether a coherent reusable unit is tackle the roots of a problem, symptoms versus root causes, or the full combination. If 3815 receives a source-supported lesson at one bounded sense, 3860 can link to it.",
+      "currentDecision": "all hold-editorial; no link approved"
+    },
+    {
+      "earliestHeldOrdinal": 4537,
+      "exactSourceSentence": "The new route avoids awkward transfers.",
+      "exactTargetSpelling": "awkward transfers",
+      "exactMeaningAndReason": "Inconvenient changes between vehicles; a useful travel collocation.",
+      "sourceOrder": [
+        {
+          "sourceOrdinal": 4537,
+          "sourceId": "book10-16-2426",
+          "book": 16,
+          "question": 39,
+          "sample": "S1",
+          "sourceBookPages": "94–95",
+          "docxTable": 254,
+          "docxRow": 3,
+          "renderedPdfPage": 229,
+          "exactTargetSpelling": "awkward transfers",
+          "exactMeaningAndReason": "Inconvenient changes between vehicles; a useful travel collocation.",
+          "sourceRawRowSha256": "1eae695aa2f6239d716d3eff3c075f06982a6c103148649ec4941a4fc44fdb6d",
+          "currentDecisionFile": "editorial-decisions-4512-4571.jsonl",
+          "currentDecisionRawRowSha256": "33c5bea0d3a17eb2e93b309043903a4edcac099ecb49f75635e7eac24d95e63d"
+        },
+        {
+          "sourceOrdinal": 4560,
+          "sourceId": "book10-16-2449",
+          "book": 16,
+          "question": 42,
+          "sample": "S1",
+          "sourceBookPages": "100–101",
+          "docxTable": 257,
+          "docxRow": 4,
+          "renderedPdfPage": 231,
+          "exactTargetSpelling": "awkward transfers",
+          "exactMeaningAndReason": "Inconvenient changes between vehicles; a useful travel collocation.",
+          "sourceRawRowSha256": "760f230e547b86ed0de91863f61a6389f8d72c913494633bdc30206f94b307d0",
+          "currentDecisionFile": "editorial-decisions-4512-4571.jsonl",
+          "currentDecisionRawRowSha256": "6b466f169535b05bcbfe3ddb68f9d378d6d881ef3b73dfe137cbe0603b4c330b"
+        }
+      ],
+      "laterHeldOrdinals": [
+        4560
+      ],
+      "laterSameSenseIfEarliestApproved": true,
+      "conditionalAliasAssessment": "conditional-yes",
+      "individualReason": "Both rows mean inconvenient changes between vehicles. The travel collocation is ordinary but reusable. If 4537 merits a natural-English lesson, 4560 can link to it.",
+      "currentDecision": "all hold-editorial; no link approved"
+    },
+    {
+      "earliestHeldOrdinal": 4555,
+      "exactSourceSentence": "The pass encourages drivers to leave the car at home.",
+      "exactTargetSpelling": "leave the car at home",
+      "exactMeaningAndReason": "Choose another transport option instead of driving; a fixed phrase.",
+      "sourceOrder": [
+        {
+          "sourceOrdinal": 4555,
+          "sourceId": "book10-16-2444",
+          "book": 16,
+          "question": 41,
+          "sample": "S2",
+          "sourceBookPages": "98–99",
+          "docxTable": 256,
+          "docxRow": 7,
+          "renderedPdfPage": 231,
+          "exactTargetSpelling": "leave the car at home",
+          "exactMeaningAndReason": "Choose another transport option instead of driving; a fixed phrase.",
+          "sourceRawRowSha256": "96788ed7583a32b63ef5bffa0665882752a565dff2cf571d942af748ef69f6c7",
+          "currentDecisionFile": "editorial-decisions-4512-4571.jsonl",
+          "currentDecisionRawRowSha256": "41f4d2f5718def515b34cf5b119fbc0caf9c74e7afabe80a7641d08d6e337992"
+        },
+        {
+          "sourceOrdinal": 4570,
+          "sourceId": "book10-16-2459",
+          "book": 16,
+          "question": 43,
+          "sample": "S2",
+          "sourceBookPages": "102–103",
+          "docxTable": 258,
+          "docxRow": 7,
+          "renderedPdfPage": 232,
+          "exactTargetSpelling": "leave the car at home",
+          "exactMeaningAndReason": "Choose another transport option instead of driving; a fixed phrase.",
+          "sourceRawRowSha256": "4974e1bce961a7e396d1ea1283af83eb8fdf4ebceeaafa9bcf243f07d39506b1",
+          "currentDecisionFile": "editorial-decisions-4512-4571.jsonl",
+          "currentDecisionRawRowSha256": "583798e5c680e2f23592a59554a86c938649764bd736402de2594638ffec5a5f"
+        }
+      ],
+      "laterHeldOrdinals": [
+        4570
+      ],
+      "laterSameSenseIfEarliestApproved": true,
+      "conditionalAliasAssessment": "conditional-yes",
+      "individualReason": "Both rows advise choosing transport other than driving. The meaning is transparent but contextually reusable. If 4555 becomes a lesson, 4570 can link to it.",
+      "currentDecision": "all hold-editorial; no link approved"
+    },
+    {
+      "earliestHeldOrdinal": 4557,
+      "exactSourceSentence": "The city wants buses to be the first instinct rather than their last option.",
+      "exactTargetSpelling": "first instinct rather than their last option",
+      "exactMeaningAndReason": "A preferred automatic choice instead of a reluctant fallback; a contrast metaphor.",
+      "sourceOrder": [
+        {
+          "sourceOrdinal": 4557,
+          "sourceId": "book10-16-2446",
+          "book": 16,
+          "question": 41,
+          "sample": "S2",
+          "sourceBookPages": "98–99",
+          "docxTable": 256,
+          "docxRow": 9,
+          "renderedPdfPage": 231,
+          "exactTargetSpelling": "first instinct rather than their last option",
+          "exactMeaningAndReason": "A preferred automatic choice instead of a reluctant fallback; a contrast metaphor.",
+          "sourceRawRowSha256": "a0b079dbc1664a2294b81fd89acd0032b6bed8d78cad342ba2857a815a3e4ec7",
+          "currentDecisionFile": "editorial-decisions-4512-4571.jsonl",
+          "currentDecisionRawRowSha256": "5ec97b858d5715164fc7ba7dcfb2c13fbc86ea9463cdd27b0a2db5ec48c7d4d4"
+        },
+        {
+          "sourceOrdinal": 4572,
+          "sourceId": "book10-16-2461",
+          "book": 16,
+          "question": 43,
+          "sample": "S2",
+          "sourceBookPages": "102–103",
+          "docxTable": 258,
+          "docxRow": 9,
+          "renderedPdfPage": 232,
+          "exactTargetSpelling": "first instinct rather than their last option",
+          "exactMeaningAndReason": "A preferred automatic choice instead of a reluctant fallback; a contrast metaphor.",
+          "sourceRawRowSha256": "5ffd99280f63623bea29aace480643f6b1efa9f4cdac534f49af61476dd446d6",
+          "currentDecisionFile": "editorial-decisions-4572-4631.jsonl",
+          "currentDecisionRawRowSha256": "af66f8dee816f6fde7ea836ad99a138acf77e35f840b6851058edb4362bfe637"
+        }
+      ],
+      "laterHeldOrdinals": [
+        4572
+      ],
+      "laterSameSenseIfEarliestApproved": true,
+      "conditionalAliasAssessment": "same-sense-but-do-not-author-whole-contrast-without-core-review",
+      "individualReason": "Both rows repeat the same first-instinct/last-option contrast. The exact whole contrast appears tailored to the sentence; first instinct and last option may be smaller reusable cores. Do not treat repetition as proof that the entire sentence is a fixed expression. If 4557 is eventually authored with a source-supported target and sense, 4572 can link to it.",
+      "currentDecision": "all hold-editorial; no link approved"
+    }
+  ],
+  "mutations": []
+}

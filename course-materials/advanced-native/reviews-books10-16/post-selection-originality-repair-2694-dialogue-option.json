@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "sourceOrdinal": 2694,
+  "selectedFile": "course-materials/advanced-native/drafts-books10-16/batch-held-exact-repeat-owner-2694-selected.json",
+  "preRepairSha256": "f71524ad062741c50e6300637248c9d35dfcf2a5155e92f2b52cc99459488ad1",
+  "postRepairSha256": "ad7c0af6d5083bf94afb31f6a29571d397db6c5ebf3c28e164a93accaafc4753",
+  "originalityReport": "../originality-643-after-repeat-owners.json",
+  "originalityFinding": "Three near-full flags arose from the same guide sentence repeated at sources 2694, 4531 and 4677.",
+  "field": "dialogue.options[0]",
+  "before": {
+    "id": "a",
+    "en": "You can reserve a place with a few taps; the app asks only for a time slot and confirmation.",
+    "zh": "你在程式上點幾下就能留位；它只要你選時間並確認。"
+  },
+  "after": {
+    "id": "a",
+    "en": "Booking a place takes just a few taps in the app: choose a time slot, then confirm.",
+    "zh": "在程式中預約名額只需點幾下：選時段，再按確認。"
+  },
+  "answerIdUnchanged": "a",
+  "audioTextChanged": false,
+  "publicationState": "unpublished",
+  "reviewState": "pending"
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-read-only-post-selection-originality-repair",
+  "lessonId": "advanced-native-2694",
+  "sourceOrdinal": 2694,
+  "selectedFile": "course-materials/advanced-native/drafts-books10-16/batch-held-exact-repeat-owner-2694-selected.json",
+  "selectedFileSha256": "ad7c0af6d5083bf94afb31f6a29571d397db6c5ebf3c28e164a93accaafc4753",
+  "changeEvidenceFile": "course-materials/advanced-native/reviews-books10-16/post-selection-originality-repair-2694-dialogue-option.json",
+  "changeEvidenceSha256": "2a0a6508afadcf456f3efef71f3d61925f0202c417d9c02ce54bbd9084b1f2b2",
+  "previousEditorialReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-seven-step-review-exact-repeat-owner-2694-final-followup-20261024.json",
+  "previousEditorialReviewSha256": "ceab5bb88489eb8e244adbb4f27faa7b9e1aedc7eeb0796c07f99d84232e90c5",
+  "changeScope": "Only dialogue option A English and Traditional Chinese wording changed for the originality repair. Source provenance and review metadata also differ from the original proposal because this is the selected record; no other learner-facing content changed.",
+  "originality": {
+    "exactGuideSentence": "You can reserve a room with a few taps.",
+    "attachedSameSentenceSourceOrdinals": [
+      2694,
+      4531,
+      4677
+    ],
+    "newOptionEnglish": "Booking a place takes just a few taps in the app: choose a time slot, then confirm.",
+    "sixWordContiguousGuideExampleOverlapsAcross2604InventoryRows": 0,
+    "judgment": "The reusable target “a few taps” remains, but the old near-full guide paraphrase has been replaced by a distinct booking instruction."
+  },
+  "editorialChecks": {
+    "englishNaturalness": "PASS: “Booking a place takes just a few taps in the app: choose a time slot, then confirm” is natural, grammatical and directly addresses the friend’s fear of many form pages.",
+    "traditionalChineseParity": "PASS: “在程式中預約名額只需點幾下：選時段，再按確認” preserves the short app process and both steps.",
+    "promptAndOtherOptions": "PASS: B mentions easy slot selection but not total page count; C mentions completed booking and no office visit but not the number of screen actions. Both are relevant partial replies; A answers the specific worry most completely.",
+    "uniqueKey": "PASS: answerId remains a; only A contains the target phrase; no second defensible best answer emerged.",
+    "targetPresence": "PASS: exact “a few taps” occurs once in A.",
+    "sourceOverlap": "PASS: zero six-word contiguous overlap with all 2,604 inventory guide examples, including the three exact repeated guide sentences.",
+    "audioImpact": "PASS: dialogue options are not one of the four audio roles; listening, speaking and both takeaway texts are byte-identical to the reviewed proposal; audio queue identity is unchanged."
+  },
+  "technicalChecks": {
+    "schemaErrors": 0,
+    "schemaWarnings": 0,
+    "compiledSteps": 7,
+    "compiledAssessedQuestions": 6,
+    "fourAudioRoles": true,
+    "answerKeysUnchanged": true,
+    "writingGlossaryUntouched": true
+  },
+  "verdict": "PASS_TARGETED_EDITORIAL",
+  "blockingIssues": [],
+  "selectedButPublished": false,
+  "selectedFileMutation": false,
+  "manifestOrDecisionMutation": false,
+  "limits": "Exact local JSON and targeted editorial/originality review. Does not claim browser rendering, physical-device use, hosted audio, database migration or publication."
+}

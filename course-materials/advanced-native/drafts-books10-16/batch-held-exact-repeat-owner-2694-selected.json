@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-held-exact-repeat-owner-2694-proposal",
+  "lessons": [
+    {
+      "id": "advanced-native-2694",
+      "number": 2694,
+      "inventoryId": "expr-2694",
+      "titleEn": "a few taps",
+      "titleZh": "在螢幕上點幾下",
+      "category": "natural",
+      "target": {
+        "pattern": "\\ba few taps\\b",
+        "glossaryForbidden": [
+          "\\btap(?:s|ped|ping)?\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A small number of touches on a phone or tablet screen to complete an action.",
+        "meaningZh": "在手機或平板螢幕上輕點幾下便完成操作。",
+        "grammar": "Use with a few taps after a digital action, or in just a few taps; taps refers to touchscreen presses here, not an exact number.",
+        "register": "Informal, practical digital-service wording: a user or service guide tells another user how few screen actions an app needs.",
+        "boundaryZh": "指簡短的觸控螢幕操作；若過程需大量步驟、只能用語音，或只是敲桌子，便不合適。",
+        "misconceptionZh": "「幾下」不是固定兩三下，也不保證服務整體沒有等候或其他麻煩。",
+        "outcomeZh": "能區分簡短觸控操作與漫長流程、語音操作或實物敲擊。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0583",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 54,
+          "book": 11,
+          "question": 13,
+          "sample": "S2",
+          "sourceBookPages": "33–36",
+          "locatorNote": "DOCX table 49, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "You can reserve a room with a few taps.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a few taps"
+        },
+        {
+          "occurrenceId": "book10-16-2420",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 228,
+          "book": 16,
+          "question": 38,
+          "sample": "S1",
+          "sourceBookPages": "92–93",
+          "locatorNote": "Exact same-sense repeat of source 2694, independently screened as an alias; DOCX table 253, row 3.",
+          "sentence": "You can reserve a room with a few taps.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a few taps"
+        },
+        {
+          "occurrenceId": "book10-16-2566",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 242,
+          "book": 16,
+          "question": 56,
+          "sample": "S1",
+          "sourceBookPages": "130–131",
+          "locatorNote": "Exact same-sense repeat of source 2694, independently screened as an alias; DOCX table 271, row 3.",
+          "sentence": "You can reserve a room with a few taps.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a few taps"
+        }
+      ],
+      "listening": {
+        "en": "Mara opens the library app, chooses a study room and confirms the time. She books the room with a few taps on her phone instead of queueing at the desk.",
+        "zh": "瑪拉打開圖書館程式，選擇自修室並確認時間。她在手機螢幕上點幾下便完成預約，毋須到櫃檯排隊。",
+        "promptZh": "with a few taps 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She completes the booking through a short sequence of screen touches.",
+            "zh": "她經過簡短的螢幕點按步驟便完成預約。"
+          },
+          {
+            "id": "b",
+            "en": "She taps on the library desk to ask for a room.",
+            "zh": "她敲圖書館櫃檯，詢問有沒有房間。"
+          },
+          {
+            "id": "c",
+            "en": "She speaks to the app without touching the screen.",
+            "zh": "她不用碰螢幕，只向程式說話。"
+          },
+          {
+            "id": "d",
+            "en": "She fills in a long paper form at the desk.",
+            "zh": "她在櫃檯填寫冗長的紙本表格。"
+          }
+        ],
+        "explanationZh": "她透過手機程式選房間並確認時間，指簡短的觸控流程。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "（你怎樣在校園程式預約練習室？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I open the app, choose a free slot and confirm it.",
+            "zh": "我打開程式，選空檔後確認。"
+          },
+          {
+            "id": "b",
+            "en": "I can reserve one with a few taps on my phone.",
+            "zh": "我在手機螢幕上點幾下便能預約。"
+          },
+          {
+            "id": "c",
+            "en": "I select the room and receive a confirmation straight away.",
+            "zh": "我選好房間，立即收到確認。"
+          },
+          {
+            "id": "d",
+            "en": "I use the booking screen instead of visiting the office.",
+            "zh": "我用預約頁面，不用親身到辦公室。"
+          }
+        ],
+        "explanationZh": "四句都自然回答如何用程式預約；金句用本課表達描述短暫的螢幕點按流程。",
+        "promptEn": "How do you book a rehearsal room in the campus app?",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "社區中心程式只要選活動、選日期、按確認三個螢幕操作，便顯示報名成功。哪句最準確地概括報名操作？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You can sign up with a few taps on the centre’s app.",
+            "zh": "你在中心的程式上點幾下便能報名。"
+          },
+          {
+            "id": "b",
+            "en": "Choosing the activity and date is straightforward on the app.",
+            "zh": "在程式上選擇活動和日期很直接。"
+          },
+          {
+            "id": "c",
+            "en": "The signup takes only a few screen touches, so the activity itself must also be easy.",
+            "zh": "報名只要在螢幕上點幾下，所以活動本身一定也很容易。"
+          }
+        ],
+        "explanationZh": "選活動、日期並確認後，程式已顯示報名成功；只談前兩步未涵蓋整個報名操作，而簡短操作也不代表活動本身簡單。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合用 a few taps 描述完成過程？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A user touches three menu items to renew a library book.",
+            "zh": "用戶點選三個選單項目便續借圖書。"
+          },
+          {
+            "id": "b",
+            "en": "A traveller touches the screen briefly to download a ticket.",
+            "zh": "旅客輕點螢幕便下載車票。"
+          },
+          {
+            "id": "c",
+            "en": "A caller speaks commands without touching the screen at all.",
+            "zh": "來電者完全沒有碰螢幕，只以語音下指令。"
+          }
+        ],
+        "explanationZh": "本課的 taps 是觸控螢幕操作；純語音操作沒有點按。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我怕預約工作坊要填很多頁資料。」你已經用過程式，知道只要選時段、按確認便完成。哪句回應最能解除她對報名步驟的擔心？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Booking a place takes just a few taps in the app: choose a time slot, then confirm.",
+            "zh": "在程式中預約名額只需點幾下：選時段，再按確認。"
+          },
+          {
+            "id": "b",
+            "en": "The app shows the available time slots clearly, so choosing one is simple.",
+            "zh": "程式清楚列出可選時段，所以選一個並不難。"
+          },
+          {
+            "id": "c",
+            "en": "Once you press confirm, the booking is complete, so there is no later office visit.",
+            "zh": "按確認後預約便完成，毋須之後再到辦公室。"
+          }
+        ],
+        "explanationZh": "你已完成過預約，能明確指出選時段和按確認這兩個簡短步驟；只說時段易選或毋須到辦公室，仍未直接交代報名需要多少螢幕操作。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The museum app lets visitors choose a tour with a few taps on the screen.",
+        "zh": "博物館程式讓訪客在螢幕上點幾下便選好導賞團。",
+        "promptZh": "先聽示範，再說出哪項操作可以迅速完成。",
+        "targetSpan": {
+          "start": 48,
+          "end": 58
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區花園原本要義工打電話報名。新程式讓他們在手機上選值班時段、按確認，便收到報名通知。用一至兩句英文說明新的報名方式；不要聲稱值班工作本身也很簡單。",
+        "selfCheckZh": "指出手機程式、選值班時段及按確認；a few taps 只描述報名操作，不代表值班工作輕鬆。",
+        "examples": [
+          {
+            "en": "Volunteers can sign up for a garden shift with a few taps: they choose a time slot on the app, confirm it and receive a notice.",
+            "zh": "義工在程式上選時段並確認後便收到通知；他們在手機螢幕上點幾下就能報名社區花園的值班。"
+          },
+          {
+            "en": "Instead of calling the organiser, they now select a shift and confirm it with a few taps on their phones, then get a booking notice.",
+            "zh": "他們現在不用致電主辦者，只須在手機上選擇值班時段、點幾下確認，便會收到報名通知。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "sign up for a garden shift",
+            "zh": "報名花園值班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 15,
+              "end": 41
+            }
+          },
+          {
+            "en": "choose a time slot",
+            "zh": "選擇時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 82
+            }
+          },
+          {
+            "en": "receive a notice",
+            "zh": "收到通知",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 126
+            }
+          },
+          {
+            "en": "calling the organiser",
+            "zh": "致電主辦者",
+            "exampleIndex": 1,
+            "span": {
+              "start": 11,
+              "end": 32
+            }
+          },
+          {
+            "en": "get a booking notice",
+            "zh": "收到報名通知",
+            "exampleIndex": 1,
+            "span": {
+              "start": 111,
+              "end": 131
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A few taps can replace a phone call for a simple booking.",
+          "zh": "簡單預約時，點幾下螢幕可以代替致電。"
+        },
+        {
+          "en": "The phrase a few taps describes the screen actions, not the whole activity afterwards.",
+          "zh": "a few taps 描述螢幕操作，不代表之後的整項活動都簡單。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "reviewed",
+          "reviewer": "Independent AI targeted originality repair review",
+          "evidence": "Exact learner-content repair passed independent-post-selection-originality-repair-2694-dialogue-option-final.json at pre-metadata SHA ad7c0af6d5083bf94afb31f6a29571d397db6c5ebf3c28e164a93accaafc4753; option A natural, unique and source-distinct."
+        },
+        "chinese": {
+          "status": "reviewed",
+          "reviewer": "Independent AI targeted originality repair review",
+          "evidence": "Exact Chinese option repair aligned with the English in independent-post-selection-originality-repair-2694-dialogue-option-final.json."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Four exact audio roles are queued; generation, file checks and hosting remain pending."
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": "Schema/independent editorial pass; integrated browser/device checks remain pending."
+        },
+        "notes": [
+          "Selected as unpublished draft after exact-hash independent editorial review independent-seven-step-review-exact-repeat-owner-2694-final-followup-20261024.json; later identical source occurrences [4531, 4677] are attached as provenance and aliases. No release approval.",
+          "AI-authored provisional proposal; independent English, Chinese, media and QA review remain pending.",
+          "Post-selection originality repair: dialogue option A was rewritten to avoid a near-full paraphrase of the guide sentence; answer ID and meaning are unchanged. Independent focused re-review passed; browser rerun pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}
