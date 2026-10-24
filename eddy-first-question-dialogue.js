@@ -1,7 +1,7 @@
 /* Eddy's welcome appears whenever an untouched exercise opens at its first question. */
 (() => {
   'use strict';
-  const message = 'Eddy 已準備好 與你一同迎接勇者的試煉！';
+  const message = 'Eddy 已準備好 與您一同迎接勇者的試煉！';
   let activeKey = '';
   let overlay = null;
   let previousFocus = null;
