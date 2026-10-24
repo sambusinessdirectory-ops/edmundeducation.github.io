@@ -16,6 +16,8 @@
   <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="eddy-first-question-dialogue.css?v=20261024-8">
+  <link rel="stylesheet" href="eddy-five-streak-dialogue.css?v=20261024-1">
   <script defer src="/pwa-register.js"></script>
   <script src="flashcard-theme-toggle.js?v=20260910-instant2"></script>
   <script>
@@ -17619,6 +17621,11 @@
       }
       setCardFamiliarity(sourceIndex, result, sourceDeckId);
       updateAttemptProgress(false);
+      if (!wasAnsweredThisRound && !document.documentElement.classList.contains('flashcards-reading-embed')) {
+        document.dispatchEvent(new CustomEvent('edmund:eddy-streak-answer', {
+          detail: { scope: `flashcards:${currentUser.name}:${currentDeckId}`, correct: result === 'green' }
+        }));
+      }
 
       if (answerCounts().answered >= studySession.roundQueue.length) {
         finishRound();
@@ -18988,5 +18995,6 @@
   <script src="flashcard-pronunciation.js?v=20260914-six-languages-1"></script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
   <script src="flashcards-eddy-toggle.js?v=20261022-2" defer></script>
+  <script defer src="eddy-five-streak-dialogue.js?v=20261024-1"></script>
 </body>
 </html>

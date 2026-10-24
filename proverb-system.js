@@ -2206,6 +2206,13 @@ function scheduleExercisePersistence() {
   }, 450);
 }
 
+function emitEddyStreakAnswer(correct, lesson) {
+  if (!state.user?.id || !lesson?.id || typeof CustomEvent !== 'function') return;
+  document.dispatchEvent(new CustomEvent('edmund:eddy-streak-answer', {
+    detail: { scope: `proverb:${state.user.id}:${lesson.id}`, correct }
+  }));
+}
+
 async function submitExercise(kind) {
   if (state.saveInFlight || !state.exercise || state.exercise.awaitingNextRound) return;
   readExerciseDrafts();
@@ -2239,6 +2246,7 @@ async function submitExercise(kind) {
     if (correct && isBookmarked(lesson.id, question.id)) {
       bookmarkChanged = upgradeBookmarkAnswer(lesson.id, question.id) || bookmarkChanged;
     }
+    emitEddyStreakAnswer(correct, lesson);
   }
 
   window.EdmundAnswerSound?.play(incorrectThisTime.length === 0);

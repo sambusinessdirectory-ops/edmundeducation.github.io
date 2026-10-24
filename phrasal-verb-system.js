@@ -3414,6 +3414,7 @@ function selectPhrasalChoice(questionId, form) {
     state.exercise.drafts[questionId] = form;
     window.EdmundAnswerSound?.play(false);
     renderExercisePage(lesson, { preserveScroll: true });
+    emitEddyStreakAnswer(false, lesson);
     return;
   }
   const controlsBefore = attemptControlState(state.exercise);
@@ -3446,7 +3447,15 @@ function selectPhrasalChoice(questionId, form) {
   }
   window.EdmundAnswerSound?.play(true);
   renderExercisePage(lesson, { preserveScroll: true });
+  emitEddyStreakAnswer(true, lesson);
   scheduleExercisePersistence();
+}
+
+function emitEddyStreakAnswer(correct, lesson) {
+  if (!state.user?.id || !lesson?.id || typeof CustomEvent !== 'function') return;
+  document.dispatchEvent(new CustomEvent('edmund:eddy-streak-answer', {
+    detail: { scope: `phrasal:${state.user.id}:${lesson.id}`, correct }
+  }));
 }
 
 async function submitExercise(kind) {
@@ -3483,6 +3492,7 @@ async function submitExercise(kind) {
     if (correct && isBookmarked(lesson.id, question.id)) {
       bookmarkChanged = upgradeBookmarkAnswer(lesson.id, question.id) || bookmarkChanged;
     }
+    emitEddyStreakAnswer(correct, lesson);
   }
 
   window.EdmundAnswerSound?.play(incorrectThisTime.length === 0);
