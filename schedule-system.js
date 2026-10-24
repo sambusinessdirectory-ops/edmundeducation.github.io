@@ -5278,6 +5278,17 @@ async function loadWeek(focusTarget = null) {
     restoreCalendarFocus(focusTarget);
     elements.exportPdf.disabled = false;
     setStatus(elements.calendarStatus, `已儲存於雲端 · ${state.weekPayload.entries.length} 項安排`);
+    const today = hongKongDayKey();
+    if (state.currentUser.role === "student" && weekDates(state.weekStart).includes(today)) {
+      const homeworkCount = state.weekPayload.entries.filter((entry) => {
+        if (entry.scheduleDate !== today) return false;
+        const homework = parseScheduleMessage(entry.message);
+        return Boolean(homework.text.trim() || homework.resources.length);
+      }).length;
+      document.dispatchEvent(new CustomEvent("edmund:schedule-today-homework", {
+        detail: { studentId: student.id, date: today, homeworkCount }
+      }));
+    }
   } catch (error) {
     if (requestId !== state.weekRequestId) return;
     console.warn("Schedule week load failed", error);
