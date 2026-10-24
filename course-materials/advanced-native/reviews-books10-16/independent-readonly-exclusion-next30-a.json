@@ -1,0 +1,48 @@
+{
+  "reportType": "independent-readonly-one-time-exclusion-review-current414",
+  "status": "read-only-second-review",
+  "reviewedProposal": "course-materials/advanced-native/reviews-books10-16/read-only-current414-next30-one-time-source-review-b.json",
+  "reviewedProposalSha256": "34b96dea5b17d668b6a3c9bb39fc7f976fddf9bb496ce837214c917be7f885f1",
+  "createdAtUtc": "2026-10-24T06:08:34.686535+00:00",
+  "userRule": "Skip one-time comparisons only with exact source-specific rationale; preserve reusable collocations and ambiguous owner routes as holds.",
+  "summary": {
+    "reviewed": 3,
+    "acceptProvisional": 2,
+    "rejectKeepHeld": 1
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 2798,
+      "sourceId": "book10-16-0687",
+      "exactSourceSentence": "Treat the post as a first alert rather than a final answer.",
+      "reviewedSourceRowSha256": "e9dea3d1d1772b60cafdcae72a4aa400cd8c3bba3a6ccad9b6d292695676d2dc",
+      "proposal": "propose-excluded-one-off",
+      "verdict": "accept-provisional-one-time-exclusion",
+      "sourceSpecificReason": "The full phrase contrasts an initial social-media notice with a verified final answer for this one post; the source does not supply a bounded idiom or collocation beyond general media-literacy advice. Record the exact sentence and this reason; no owner or course-content edit follows from this read-only verdict.",
+      "ownerLead": null
+    },
+    {
+      "sourceOrdinal": 3307,
+      "sourceId": "book10-16-1196",
+      "exactSourceSentence": "A written plan can turn vague intentions into clearer action.",
+      "reviewedSourceRowSha256": "188c6dca9f15264ed868f6c1c9e4dd02e582100fd1c90157697219e76fc61155",
+      "proposal": "propose-excluded-one-off",
+      "verdict": "reject-keep-held",
+      "sourceSpecificReason": "Although the inventory extracted only the result fragment, the full source has a productive turn [intentions] into [action] construction. Selected owner 1690 teaches turning intentions into daily habits, a narrower repeated-action outcome. A bounded same-sense/variant review or separate target-scope judgment is needed before exclusion; lack of standalone fragment alone does not prove one-time use.",
+      "ownerLead": "advanced-native-1690"
+    },
+    {
+      "sourceOrdinal": 3373,
+      "sourceId": "book10-16-1262",
+      "exactSourceSentence": "Parents need to distinguish guidance and control.",
+      "reviewedSourceRowSha256": "883abb8a9712b6327fbd83381ccc7d7d2c9c6128ce33700b2a2ca3bebedb2c7e",
+      "proposal": "propose-excluded-one-off",
+      "verdict": "accept-provisional-one-time-exclusion",
+      "sourceSpecificReason": "The paired abstract nouns name a parenting judgment in this one source sentence. No fixed target beyond ordinary distinguish X and Y is evidenced; the source gives no special lexical/figurative construction or source-specific reusable decision that warrants seven-step teaching. Retain exact source/reason in the exclusion record if approved.",
+      "ownerLead": null
+    }
+  ],
+  "decisionsEdited": false,
+  "manifestEdited": false,
+  "exclusionsApproved": false
+}
