@@ -1,0 +1,2696 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-current-next80-ten-b-replacement-proposal-20261024",
+  "lessons": [
+    {
+      "id": "advanced-native-2656",
+      "number": 2656,
+      "inventoryId": "expr-2656",
+      "titleEn": "at the speed of a swipe",
+      "titleZh": "滑動螢幕般迅速傳開",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bat the speed of a swipe\\b",
+        "glossaryForbidden": [
+          "\\bat the speed of a swipe\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Spread very quickly through phone-based sharing and feeds.",
+        "meaningZh": "透過手機分享和動態消息迅速傳開。",
+        "grammar": "A contemporary speed image, not a measurable physical speed or a claim that every viewer shared it.",
+        "register": "Informal discussion of online circulation.",
+        "boundaryZh": "短時間曝光可以很廣，但不代表訊息已被核實或會持久。",
+        "misconceptionZh": "不要把迅速傳播誤作傳播者已仔細閱讀。",
+        "outcomeZh": "能解釋甚麼內容經由甚麼渠道迅速傳開。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0545",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 50,
+          "book": 11,
+          "question": 10,
+          "sample": "S1",
+          "sourceBookPages": "25–27",
+          "locatorNote": "DOCX table 46, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "New trends now spread at the speed of a swipe.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "at the speed of a swipe"
+        }
+      ],
+      "listening": {
+        "promptZh": "食譜怎樣傳開？",
+        "options": [
+          {
+            "id": "a",
+            "en": "People forwarded it rapidly through phone groups.",
+            "zh": "人們透過手機群組迅速轉發。"
+          },
+          {
+            "id": "b",
+            "en": "The cook printed copies for every district.",
+            "zh": "廚師為每區印了食譜。"
+          },
+          {
+            "id": "c",
+            "en": "The recipe was posted only after lunch.",
+            "zh": "食譜到午飯後才貼出。"
+          },
+          {
+            "id": "d",
+            "en": "Residents needed several weeks to hear about it.",
+            "zh": "居民過了幾星期才聽到。"
+          }
+        ],
+        "explanationZh": "群組轉發令食譜在上午迅速傳開。",
+        "answerId": "a",
+        "en": "A neighbourhood cook posted a short recipe at breakfast. By lunch, residents in several districts had passed it through phone groups; it travelled at the speed of a swipe.",
+        "zh": "一位街坊廚師在早餐時貼出短食譜。到了午飯時間，幾區居民已在手機群組轉發；它像滑動螢幕般迅速傳開。"
+      },
+      "reply": {
+        "promptZh": "（食譜多快傳到其他區？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It reached them between breakfast and lunch.",
+            "zh": "它在早餐至午飯之間傳到其他區。"
+          },
+          {
+            "id": "b",
+            "en": "Phone groups helped it spread within hours.",
+            "zh": "手機群組令它在幾小時內傳開。"
+          },
+          {
+            "id": "c",
+            "en": "It spread at the speed of a swipe.",
+            "zh": "它像滑動螢幕般迅速傳開。"
+          },
+          {
+            "id": "d",
+            "en": "Forwarding made the spread unusually fast.",
+            "zh": "轉發令傳播速度特別快。"
+          }
+        ],
+        "explanationZh": "四句都描述數小時內由手機轉發；金句採用來源速度意象。",
+        "promptEn": "How quickly did the recipe reach other districts?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "社區義工剛發出一則尋狗啟事，兩小時內多個屋苑群組都看見，但仍未找到狗。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The notice travelled at the speed of a swipe, although the search is still under way.",
+            "zh": "啟事像滑動螢幕般迅速傳開，但搜尋仍在進行。"
+          },
+          {
+            "id": "b",
+            "en": "The notice reached only the original group.",
+            "zh": "啟事只傳到最初的群組。"
+          },
+          {
+            "id": "c",
+            "en": "Wide sharing proves the dog has already been found.",
+            "zh": "廣泛轉發證明狗已找到。"
+          }
+        ],
+        "explanationZh": "迅速轉發不等於搜尋已有結果。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句最準確指出此說法的限制？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Fast sharing does not prove a post is accurate.",
+            "zh": "迅速轉發不代表貼文準確。"
+          },
+          {
+            "id": "b",
+            "en": "A swipe is an official unit for measuring network speed.",
+            "zh": "滑動是量度網絡速度的正式單位。"
+          },
+          {
+            "id": "c",
+            "en": "A fast post is automatically memorable for years.",
+            "zh": "傳得快的貼文一定令人記住多年。"
+          }
+        ],
+        "explanationZh": "速度意象不等於驗證真確性或長期影響。",
+        "answerId": "a"
+      },
+      "dialogue": {
+        "promptZh": "同學問：「學校賣物會的消息為何半天內傳到其他班？」你知道班長把海報分享到幾個手機群組。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The poster spread at the speed of a swipe after class leaders shared it across phone groups.",
+            "zh": "班長在多個手機群組分享海報後，消息像滑動螢幕般迅速傳開。"
+          },
+          {
+            "id": "b",
+            "en": "Several class leaders shared the poster.",
+            "zh": "幾位班長分享了海報。"
+          },
+          {
+            "id": "c",
+            "en": "The news reached other classes by midday.",
+            "zh": "消息在中午前傳到其他班。"
+          }
+        ],
+        "explanationZh": "金句兼述迅速傳播及具體渠道。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The recipe crossed several neighbourhood groups at the speed of a swipe.",
+        "zh": "食譜像滑動螢幕般迅速傳遍幾個街坊群組。",
+        "promptZh": "先聽示範，再指出它經甚麼渠道傳開。",
+        "targetSpan": {
+          "start": 48,
+          "end": 71
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個青年劇團貼出免費工作坊報名連結；學生把連結轉到各校手機群組，當晚已有多校報名。用一至兩句英文描述傳播，並避免聲稱人人都參加。",
+        "selfCheckZh": "指出手機群組與短時間傳播；報名數增加不等於所有學生參與。",
+        "examples": [
+          {
+            "en": "The workshop link spread at the speed of a swipe through school phone groups, bringing registrations from several schools that evening.",
+            "zh": "工作坊連結透過學校手機群組像滑動螢幕般迅速傳開，當晚帶來幾間學校的報名。"
+          },
+          {
+            "en": "Students forwarded the invitation through school phone groups at the speed of a swipe; by evening, the theatre group had sign-ups from several campuses.",
+            "zh": "學生在學校手機群組像滑動螢幕般迅速轉發邀請；到了晚上，劇團收到幾間學校的報名。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The workshop link",
+            "zh": "工作坊連結",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "school phone groups",
+            "zh": "學校手機群組",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 76
+            }
+          },
+          {
+            "en": "several schools",
+            "zh": "幾間學校",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 121
+            }
+          },
+          {
+            "en": "the invitation",
+            "zh": "邀請",
+            "exampleIndex": 1,
+            "span": {
+              "start": 19,
+              "end": 33
+            }
+          },
+          {
+            "en": "several campuses",
+            "zh": "幾間學校",
+            "exampleIndex": 1,
+            "span": {
+              "start": 135,
+              "end": 151
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The notice travelled at the speed of a swipe, but the details still needed checking.",
+          "zh": "啟事像滑動螢幕般迅速傳開，但細節仍須核實。"
+        },
+        {
+          "en": "A clever caption can spread at the speed of a swipe without staying popular for long.",
+          "zh": "巧妙的說明文字可像滑動螢幕般迅速傳開，卻未必長久受歡迎。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2662",
+      "number": 2662,
+      "inventoryId": "expr-2662",
+      "titleEn": "vanish into the scroll",
+      "titleZh": "淹沒在不斷更新的貼文中",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:vanish|vanishes|vanished|vanishing) into the scroll\\b",
+        "glossaryForbidden": [
+          "\\bvanish(?:es|ed|ing)? into the scroll\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Stop attracting attention as newer online posts push past, even if the content remains available.",
+        "meaningZh": "較新的網上貼文不斷出現，使內容雖仍可找到，卻不再受注意。",
+        "grammar": "The scroll means a continually moving feed, not deletion from a site.",
+        "register": "Online attention and content planning.",
+        "boundaryZh": "失去曝光不等於檔案已刪除，也不代表內容本身沒有價值。",
+        "misconceptionZh": "此處重點是注意力消退，而非手機故障或畫面不能捲動。",
+        "outcomeZh": "能分清貼文仍存在與讀者不再看見它。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0551",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 51,
+          "book": 11,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "25–27",
+          "locatorNote": "DOCX table 46, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A popular clip may vanish into the scroll by next week.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "vanish into the scroll"
+        }
+      ],
+      "listening": {
+        "promptZh": "短片發生了甚麼事？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It lost visibility among newer posts but was still online.",
+            "zh": "它在新貼文之間失去曝光，但仍在網上。"
+          },
+          {
+            "id": "b",
+            "en": "The group deliberately deleted its link.",
+            "zh": "團體刻意刪除了連結。"
+          },
+          {
+            "id": "c",
+            "en": "Viewers could no longer play any video on the site.",
+            "zh": "觀眾已不能播放網站上的任何影片。"
+          },
+          {
+            "id": "d",
+            "en": "The clip had never attracted attention.",
+            "zh": "短片從未引起注意。"
+          }
+        ],
+        "explanationZh": "短片仍存在，但動態消息中的位置與注意力已變。",
+        "answerId": "a",
+        "en": "A wildlife group’s rescue clip attracted many views on Monday. By Friday, newer videos had filled the feed; the clip had vanished into the scroll, although its link still worked.",
+        "zh": "野生動物團體的救援短片星期一吸引很多觀看。到星期五，較新的影片佔滿動態消息；短片已淹沒在不斷更新的貼文中，雖然連結仍可開啟。"
+      },
+      "reply": {
+        "promptZh": "（救援短片到星期五有甚麼變化？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "New posts drew attention away from it.",
+            "zh": "新貼文把注意力帶走。"
+          },
+          {
+            "id": "b",
+            "en": "People could still open the link, but fewer saw it in the feed.",
+            "zh": "人們仍可開連結，但較少在動態消息看見它。"
+          },
+          {
+            "id": "c",
+            "en": "It vanished into the scroll.",
+            "zh": "它淹沒在不斷更新的貼文中。"
+          },
+          {
+            "id": "d",
+            "en": "Its earlier popularity no longer kept it prominent.",
+            "zh": "先前受歡迎也未能令它一直顯眼。"
+          }
+        ],
+        "explanationZh": "四句都指短片仍在網上，但曝光消退。",
+        "promptEn": "What happened to the rescue clip by Friday?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "校園攝影比賽貼文仍能透過連結打開，但新貼文太多，學生在動態消息幾乎看不到。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The competition post has vanished into the scroll.",
+            "zh": "比賽貼文淹沒在不斷更新的貼文中。"
+          },
+          {
+            "id": "b",
+            "en": "The school removed the competition post from its site.",
+            "zh": "學校從網站刪除了比賽貼文。"
+          },
+          {
+            "id": "c",
+            "en": "The link has become easier to find in the feed.",
+            "zh": "連結如今更容易在動態消息找到。"
+          }
+        ],
+        "explanationZh": "內容未刪除，只是較少出現在讀者眼前。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句錯把注意力消退當成檔案刪除？",
+        "options": [
+          {
+            "id": "a",
+            "en": "New posts can bury an older clip.",
+            "zh": "新貼文可以掩蓋較舊短片。"
+          },
+          {
+            "id": "b",
+            "en": "If it vanishes into the scroll, the server must have erased it.",
+            "zh": "若它淹沒在貼文中，伺服器一定已把它刪除。"
+          },
+          {
+            "id": "c",
+            "en": "An older link may still open normally.",
+            "zh": "較舊連結仍可能正常開啟。"
+          }
+        ],
+        "explanationZh": "比喻指不再顯眼，不能推出伺服器刪檔。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "社團問：「去年得獎者的短片明明還在，為何沒人看見？」你知道平台每天加入大量新片。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It has vanished into the scroll as new clips arrive; share the working link again if you want people to revisit it.",
+            "zh": "新片不斷出現，它已淹沒在不斷更新的貼文中；想讓大家重看，可以再分享仍有效的連結。"
+          },
+          {
+            "id": "b",
+            "en": "The link still works.",
+            "zh": "連結仍然有效。"
+          },
+          {
+            "id": "c",
+            "en": "New videos arrive every day.",
+            "zh": "每天都有新影片加入。"
+          }
+        ],
+        "explanationZh": "金句解釋注意力消退並提出具體方法。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The rescue clip vanished into the scroll even though its link still worked.",
+        "zh": "救援短片雖然連結仍可開啟，卻淹沒在不斷更新的貼文中。",
+        "promptZh": "先聽示範，再分清「不再顯眼」與「已被刪除」。",
+        "targetSpan": {
+          "start": 16,
+          "end": 40
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生會曾發布畢業生口述歷史短片；幾個月後連結仍有效，卻被每日新貼文蓋過。學生會想重新推介這批故事。用一至兩句英文說明情況。",
+        "selfCheckZh": "指出連結仍有效但曝光下降，並提出重新推介的方法。",
+        "examples": [
+          {
+            "en": "The oral-history clips have vanished into the scroll despite working links, so the council can feature them again in a new post.",
+            "zh": "口述歷史短片的連結仍有效，卻淹沒在不斷更新的貼文中；學生會可用新貼文再次推介。"
+          },
+          {
+            "en": "The stories did not disappear from the archive; they vanished into the scroll, so a pinned collection could make them visible again.",
+            "zh": "故事並未從檔案庫消失，而是淹沒在不斷更新的貼文中；置頂合集可令它們再次顯眼。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The oral-history clips",
+            "zh": "口述歷史短片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 22
+            }
+          },
+          {
+            "en": "working links",
+            "zh": "有效的連結",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 74
+            }
+          },
+          {
+            "en": "a new post",
+            "zh": "新貼文",
+            "exampleIndex": 0,
+            "span": {
+              "start": 117,
+              "end": 127
+            }
+          },
+          {
+            "en": "the archive",
+            "zh": "檔案庫",
+            "exampleIndex": 1,
+            "span": {
+              "start": 35,
+              "end": 46
+            }
+          },
+          {
+            "en": "a pinned collection",
+            "zh": "置頂合集",
+            "exampleIndex": 1,
+            "span": {
+              "start": 82,
+              "end": 101
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An old appeal can vanish into the scroll without losing its importance.",
+          "zh": "舊呼籲可淹沒在不斷更新的貼文中，卻不會因此失去重要性。"
+        },
+        {
+          "en": "The interview vanished into the scroll, so the editor shared its link again.",
+          "zh": "訪問淹沒在不斷更新的貼文中，所以編輯再次分享連結。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2722",
+      "number": 2722,
+      "inventoryId": "expr-2722",
+      "titleEn": "far from being overshadowed",
+      "titleZh": "遠未被蓋過風頭",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bfar from being overshadowed\\b",
+        "glossaryForbidden": [
+          "\\bbeing overshadowed\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Still visibly successful or significant despite a prominent competitor.",
+        "meaningZh": "即使有顯眼的競爭者，仍相當受重視或表現出色。",
+        "grammar": "The phrase denies the expected shadow metaphor; it does not mean competition is absent.",
+        "register": "Cultural comparisons, markets and public events.",
+        "boundaryZh": "須有仍受關注的證據；不能僅憑存在便斷言未被蓋過風頭。",
+        "misconceptionZh": "不要把 far from 誤解成兩者地理位置相隔很遠。",
+        "outcomeZh": "能指出哪項具體成績顯示本地選項仍受重視。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0611",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 56,
+          "book": 11,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "40–42",
+          "locatorNote": "DOCX table 51, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Local bands are far from being overshadowed by imports.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "far from being overshadowed"
+        }
+      ],
+      "listening": {
+        "promptZh": "甚麼顯示本地工匠仍受關注？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Visitors continued to queue at their stalls.",
+            "zh": "訪客繼續在他們的攤位排隊。"
+          },
+          {
+            "id": "b",
+            "en": "The international fair had no visitors.",
+            "zh": "國際工藝展沒有訪客。"
+          },
+          {
+            "id": "c",
+            "en": "The local stalls were moved overseas.",
+            "zh": "本地攤位搬到海外。"
+          },
+          {
+            "id": "d",
+            "en": "Every visitor bought only imported goods.",
+            "zh": "每位訪客都只買進口貨。"
+          }
+        ],
+        "explanationZh": "本地攤位持續有人排隊，是未被掩蓋的證據。",
+        "answerId": "a",
+        "en": "An international craft fair opened beside a local makers’ market. Visitors still queued for the local stalls all weekend, so the local artisans were far from being overshadowed by the larger event.",
+        "zh": "國際工藝展在本地手作市集旁開幕。整個週末，訪客仍在本地攤位排隊，因此本地工匠遠未被較大型展覽蓋過風頭。"
+      },
+      "reply": {
+        "promptZh": "（本地手作人在國際工藝展旁表現如何？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their stalls still attracted long queues.",
+            "zh": "他們的攤位仍吸引長龍。"
+          },
+          {
+            "id": "b",
+            "en": "They remained visible despite the larger event.",
+            "zh": "即使有較大型活動，他們仍受注目。"
+          },
+          {
+            "id": "c",
+            "en": "They were far from being overshadowed.",
+            "zh": "他們遠未被蓋過風頭。"
+          },
+          {
+            "id": "d",
+            "en": "The competing event did not erase local interest.",
+            "zh": "競爭活動沒有抹去本地興趣。"
+          }
+        ],
+        "explanationZh": "四句都指出本地攤位繼續受關注。",
+        "promptEn": "How did the local makers do beside the international fair?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "國際影展在同一週開幕，本地電影放映仍連續三晚滿座。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Even with the international festival in town, the local films are far from being overshadowed.",
+            "zh": "即使國際影展同時舉行，本地電影仍遠未被蓋過風頭。"
+          },
+          {
+            "id": "b",
+            "en": "The local sellouts prove the visiting films drew fewer viewers overall.",
+            "zh": "本地場次售罄證明外地電影整體觀眾較少。"
+          },
+          {
+            "id": "c",
+            "en": "The local screenings attracted no one.",
+            "zh": "本地放映沒有人觀看。"
+          }
+        ],
+        "explanationZh": "本地放映滿座，不代表競爭活動失敗。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 far from 誤作物理距離？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The smaller event still drew attention.",
+            "zh": "較小型活動仍受到注意。"
+          },
+          {
+            "id": "b",
+            "en": "The bands must be many kilometres apart.",
+            "zh": "樂隊一定相距很多公里。"
+          },
+          {
+            "id": "c",
+            "en": "The local group can stay important beside imports.",
+            "zh": "本地團體可與進口作品並存而仍重要。"
+          }
+        ],
+        "explanationZh": "far from 在此加強否定，不指兩者的實際距離。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「外地劇團來了，本地劇團一定沒觀眾吧？」你知道本地場次已售罄。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Our local group is far from being overshadowed; its shows sold out even with the visiting company in town.",
+            "zh": "本地劇團遠未被蓋過風頭；即使外地劇團來訪，本地場次仍售罄。"
+          },
+          {
+            "id": "b",
+            "en": "The local shows sold out.",
+            "zh": "本地場次售罄。"
+          },
+          {
+            "id": "c",
+            "en": "Both groups can draw audiences.",
+            "zh": "兩個劇團都可以吸引觀眾。"
+          }
+        ],
+        "explanationZh": "金句用售罄作未被蓋過風頭的證據。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The local stalls were far from being overshadowed by the larger fair.",
+        "zh": "本地攤位遠未被較大型展覽蓋過風頭。",
+        "promptZh": "先聽示範，再說出支持這個判斷的證據。",
+        "targetSpan": {
+          "start": 22,
+          "end": 49
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：海外串流平台在本地推出新劇，社區劇院同月每場門票都售罄，並增設一場演出。用一至兩句英文比較關注度。",
+        "selfCheckZh": "用售罄和加場作證，不要說海外平台完全沒人看。",
+        "examples": [
+          {
+            "en": "The community theatre is far from being overshadowed by the new streaming service: its performances sold out and it added another show.",
+            "zh": "社區劇院遠未被新串流服務蓋過風頭：演出售罄，還加開一場。"
+          },
+          {
+            "en": "Even with imported shows online, the theatre is far from being overshadowed; full houses led to an extra performance.",
+            "zh": "即使網上有外地劇集，劇院仍遠未被蓋過風頭；場場滿座促成加場。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The community theatre",
+            "zh": "社區劇院",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 21
+            }
+          },
+          {
+            "en": "performances sold out",
+            "zh": "演出售罄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 87,
+              "end": 108
+            }
+          },
+          {
+            "en": "another show",
+            "zh": "另一場演出",
+            "exampleIndex": 0,
+            "span": {
+              "start": 122,
+              "end": 134
+            }
+          },
+          {
+            "en": "imported shows",
+            "zh": "外地劇集",
+            "exampleIndex": 1,
+            "span": {
+              "start": 10,
+              "end": 24
+            }
+          },
+          {
+            "en": "full houses",
+            "zh": "場場滿座",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 88
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A smaller team can be far from being overshadowed if its work still attracts attention.",
+          "zh": "較小的團隊若作品仍受關注，便遠未被蓋過風頭。"
+        },
+        {
+          "en": "The independent shop was far from being overshadowed by the chain next door.",
+          "zh": "獨立商店遠未被隔壁連鎖店蓋過風頭。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2725",
+      "number": 2725,
+      "inventoryId": "expr-2725",
+      "titleEn": "emotional landmarks",
+      "titleZh": "情感記憶的里程碑",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bemotional landmarks\\b",
+        "glossaryForbidden": [
+          "\\bemotional landmarks\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Memorable works or moments that mark important stages in someone’s emotional life.",
+        "meaningZh": "標記人生重要情感階段、日後仍能喚起記憶的作品或時刻。",
+        "grammar": "Landmarks is a map metaphor; the reference points are in memory, not necessarily physical places.",
+        "register": "Personal reflection and cultural memories.",
+        "boundaryZh": "作品可以對某人有此意義，卻未必對所有人同樣重要。",
+        "misconceptionZh": "不必是快樂回憶；關鍵是它們幫助回想人生不同階段。",
+        "outcomeZh": "能說出哪個作品連着哪段人生經驗。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0614",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 57,
+          "book": 11,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "43–44",
+          "locatorNote": "DOCX table 52, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Those songs became emotional landmarks in her life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "emotional landmarks"
+        }
+      ],
+      "listening": {
+        "promptZh": "那些廣播劇對艾蓮娜有甚麼意義？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They help her recall stages of her first year away.",
+            "zh": "它們讓她回想離家第一年的不同階段。"
+          },
+          {
+            "id": "b",
+            "en": "They were the only dramas broadcast that year.",
+            "zh": "它們是那年唯一播出的廣播劇。"
+          },
+          {
+            "id": "c",
+            "en": "They taught her a physical route to her new home.",
+            "zh": "它們教她到新家的實際路線。"
+          },
+          {
+            "id": "d",
+            "en": "Everyone who heard them had the same memories.",
+            "zh": "每位聽眾都有相同回憶。"
+          }
+        ],
+        "explanationZh": "作品把她的經歷和情感階段連起來。",
+        "answerId": "a",
+        "en": "Three radio dramas followed Elena through her first year away from home. Hearing them again reminded her of the move, new friends and her first job; they had become emotional landmarks.",
+        "zh": "三齣廣播劇陪伴艾蓮娜離家後的第一年。再次聽到時，她想起搬家、新朋友和第一份工作；這些劇成了她情感記憶的里程碑。"
+      },
+      "reply": {
+        "promptZh": "（艾蓮娜為何一再聽那些廣播劇？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They reminded her of moving and making friends.",
+            "zh": "它們令她想起搬家和結交朋友。"
+          },
+          {
+            "id": "b",
+            "en": "They marked several stages of an important year.",
+            "zh": "它們標記了重要一年裏的幾個階段。"
+          },
+          {
+            "id": "c",
+            "en": "They became emotional landmarks for her.",
+            "zh": "它們成了她情感記憶的里程碑。"
+          },
+          {
+            "id": "d",
+            "en": "They connected particular sounds with personal memories.",
+            "zh": "它們把特定聲音與個人回憶連在一起。"
+          }
+        ],
+        "explanationZh": "四句都描述作品與她的人生記憶相連。",
+        "promptEn": "Why did Elena keep returning to the dramas?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "一位跑手保留首次完成短跑賽、受傷後復出及與隊友告別的三張照片；每張都令她想起當時感受。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The photographs are emotional landmarks in her running life.",
+            "zh": "照片是她跑步生涯中情感記憶的里程碑。"
+          },
+          {
+            "id": "b",
+            "en": "The photos show where every race was held.",
+            "zh": "照片顯示每場賽事在哪裏舉行。"
+          },
+          {
+            "id": "c",
+            "en": "The photos matter only because they are professionally printed.",
+            "zh": "照片重要只因由專業人員印製。"
+          }
+        ],
+        "explanationZh": "照片與重要經歷和感受相連，不只是地點紀錄。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句誤把這片語當作地圖上的建築物？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A song may mark a difficult but important year.",
+            "zh": "一首歌可標記艱難卻重要的一年。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase means monuments that tourists can visit.",
+            "zh": "這片語指遊客可參觀的紀念建築。"
+          },
+          {
+            "id": "c",
+            "en": "A memory can serve as a reference point in a life story.",
+            "zh": "回憶可以成為人生故事中的參照點。"
+          }
+        ],
+        "explanationZh": "這裏的 landmark 是情感記憶參照，不一定是實體建築。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「為何你留着這些舊賽事照片？」你想說它們記錄初賽、復出和告別三段感受。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are emotional landmarks: each one brings back a different stage of my running life.",
+            "zh": "它們是情感記憶的里程碑：每張都喚起我跑步生涯不同階段。"
+          },
+          {
+            "id": "b",
+            "en": "I remember several races when I see them.",
+            "zh": "看見它們，我便想起幾場比賽。"
+          },
+          {
+            "id": "c",
+            "en": "The pictures help me tell my story.",
+            "zh": "照片幫助我講述自己的故事。"
+          }
+        ],
+        "explanationZh": "金句指出照片如何標記不同人生階段。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "For Elena, those radio dramas were emotional landmarks from her first year away.",
+        "zh": "對艾蓮娜而言，那些廣播劇是離家第一年的情感記憶里程碑。",
+        "promptZh": "先聽示範，再指出每齣劇連着哪段經歷。",
+        "targetSpan": {
+          "start": 35,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一名退休消防員保存三張照片：首次完成訓練、與同僚在大火後互相支持、退休當日。用一至兩句英文說明照片為何有意義。",
+        "selfCheckZh": "提到照片連着不同情感階段，不要說所有消防員都有相同回憶。",
+        "examples": [
+          {
+            "en": "The three photographs are emotional landmarks because each one recalls a different stage of the firefighter’s career.",
+            "zh": "三張照片是情感記憶的里程碑，因為每張都喚起這名消防員職涯中的不同階段。"
+          },
+          {
+            "en": "The training photo could recall pride, the post-fire team photo relief, and the retirement photo gratitude; all three became emotional landmarks for her.",
+            "zh": "訓練照片可能令她想起自豪，火災後的團隊照片可能令她想起鬆一口氣，退休照片則可能令她想起感激；三張照片都成了她情感記憶的里程碑。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "three photographs",
+            "zh": "三張照片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 21
+            }
+          },
+          {
+            "en": "a different stage",
+            "zh": "不同階段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 88
+            }
+          },
+          {
+            "en": "the firefighter’s career",
+            "zh": "消防員的職涯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 116
+            }
+          },
+          {
+            "en": "The training photo",
+            "zh": "訓練照片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "the retirement photo",
+            "zh": "退休照片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 96
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A theatre ticket can become one of a person’s emotional landmarks after a life-changing evening.",
+          "zh": "若一晚演出改變人生，一張劇院門票也可成為個人的情感記憶里程碑之一。"
+        },
+        {
+          "en": "The letters were emotional landmarks, marking changes in their friendship.",
+          "zh": "那些書信是情感記憶的里程碑，標記了友誼的變化。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2763",
+      "number": 2763,
+      "inventoryId": "expr-2763",
+      "titleEn": "win on comfort",
+      "titleZh": "在舒適程度上較勝一籌",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:win|wins|won|winning) on comfort\\b",
+        "glossaryForbidden": [
+          "\\b(?:win|wins|won|winning) on comfort\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Be preferable on the particular measure of comfort, even if another option has other advantages.",
+        "meaningZh": "在舒適程度這一項較有優勢，儘管另一選擇可能在其他方面較好。",
+        "grammar": "Win on X identifies the dimension of comparison; it does not claim overall superiority.",
+        "register": "Everyday choices about media, travel and facilities.",
+        "boundaryZh": "較舒適不等於較便宜、較快或適合每個人。",
+        "misconceptionZh": "須說清楚比較對象，以及讓人感到較舒適的具體因素。",
+        "outcomeZh": "能指出某選項在哪一方面勝出，並承認另一選項的優點。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0652",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 60,
+          "book": 11,
+          "question": 20,
+          "sample": "S2",
+          "sourceBookPages": "51–52",
+          "locatorNote": "DOCX table 56, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A recorded show may win on comfort after work.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "win on comfort"
+        }
+      ],
+      "listening": {
+        "promptZh": "錄影在哪方面較有優勢？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It lets Omar rest at home after work.",
+            "zh": "它讓奧馬爾下班後在家休息。"
+          },
+          {
+            "id": "b",
+            "en": "It recreates every part of the live atmosphere.",
+            "zh": "它重現現場氣氛的每個細節。"
+          },
+          {
+            "id": "c",
+            "en": "It makes the concert ticket cheaper.",
+            "zh": "它令現場門票更便宜。"
+          },
+          {
+            "id": "d",
+            "en": "It shortens his late shift.",
+            "zh": "它縮短了他的晚班。"
+          }
+        ],
+        "explanationZh": "錄影的優勢是下班後可在家舒適休息。",
+        "answerId": "a",
+        "en": "After a late shift, Omar considered travelling across town for a live concert or watching its recording at home. The live event had atmosphere, but the recording might win on comfort because he could rest on his sofa.",
+        "zh": "晚班後，奧馬爾考慮橫越市區去看現場音樂會，或在家看錄影。現場氣氛好，但錄影可能在舒適程度上較勝一籌，因為他可以在梳化上休息。"
+      },
+      "reply": {
+        "promptZh": "（奧馬爾下班後為何可能選錄影？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It avoids a journey across town.",
+            "zh": "它免去橫越市區的路程。"
+          },
+          {
+            "id": "b",
+            "en": "He can watch while resting on his sofa.",
+            "zh": "他可在梳化上休息時觀看。"
+          },
+          {
+            "id": "c",
+            "en": "The recording may win on comfort.",
+            "zh": "錄影可能在舒適程度上較勝一籌。"
+          },
+          {
+            "id": "d",
+            "en": "He can enjoy the performance without leaving home.",
+            "zh": "他毋須離家也可欣賞表演。"
+          }
+        ],
+        "explanationZh": "四句都說明在家觀看的舒適優勢；金句明確指出比較面向。",
+        "promptEn": "Why might Omar choose the recording after work?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "兩間自修室都有充足參考書，一間座位狹窄，另一間桌椅寬敞且安靜；學生比較讀書環境。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The quieter room wins on comfort for a long study session.",
+            "zh": "安靜的房間在長時間溫習的舒適程度上較勝一籌。"
+          },
+          {
+            "id": "b",
+            "en": "The quieter room must also have more books.",
+            "zh": "安靜的房間一定也有更多參考書。"
+          },
+          {
+            "id": "c",
+            "en": "The two rooms offer exactly the same seating experience.",
+            "zh": "兩個房間的座位體驗完全相同。"
+          }
+        ],
+        "explanationZh": "寬敞桌椅與安靜環境支持舒適方面的比較。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 on comfort 誤作所有方面都較好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The recording may be easier to enjoy after a shift.",
+            "zh": "晚班後看錄影可能較輕鬆。"
+          },
+          {
+            "id": "b",
+            "en": "If it wins on comfort, it must also have the best sound and lowest cost.",
+            "zh": "它若較舒適，音質和價格也一定最優。"
+          },
+          {
+            "id": "c",
+            "en": "A live concert can still offer a stronger atmosphere.",
+            "zh": "現場音樂會的氣氛仍可能較好。"
+          }
+        ],
+        "explanationZh": "舒適只是其中一個比較面向。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「你不是更喜歡現場音樂嗎？今晚為何看錄影？」你剛下晚班，不想再乘車。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Live music has better atmosphere, but the recording wins on comfort tonight because I can rest at home.",
+            "zh": "現場音樂氣氛較好，但今晚錄影在舒適程度上較勝一籌，因為我可在家休息。"
+          },
+          {
+            "id": "b",
+            "en": "I am tired after the late shift.",
+            "zh": "晚班後我累了。"
+          },
+          {
+            "id": "c",
+            "en": "I do not want to cross town tonight.",
+            "zh": "今晚我不想橫越市區。"
+          }
+        ],
+        "explanationZh": "金句指出另一選項的優點和今晚選錄影的具體原因。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "After work, the recording may win on comfort even though the live show has atmosphere.",
+        "zh": "下班後，錄影可能在舒適程度上較勝一籌，儘管現場演出氣氛較好。",
+        "promptZh": "先聽示範，再指出兩個選項各自的優勢。",
+        "targetSpan": {
+          "start": 30,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：家人比較夜間長途巴士和臥鋪火車。巴士票較便宜，火車有可躺臥的床位；他們想翌日精神較好。用一至兩句英文說明取捨。",
+        "selfCheckZh": "指出火車的舒適優勢及巴士的價格優勢；不要斷言所有旅客都應選火車。",
+        "examples": [
+          {
+            "en": "The sleeper train may win on comfort because passengers can lie flat, although the coach costs less.",
+            "zh": "臥鋪火車可能在舒適程度上較勝一籌，因為乘客可以躺下，雖然長途巴士較便宜。"
+          },
+          {
+            "en": "If rest matters most, the train wins on comfort; its berths offer room to sleep, while the coach saves money.",
+            "zh": "若最重視休息，火車在舒適程度上較勝一籌；臥鋪提供睡眠空間，而長途巴士可省錢。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The sleeper train",
+            "zh": "臥鋪火車",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "lie flat",
+            "zh": "躺下",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 68
+            }
+          },
+          {
+            "en": "the coach",
+            "zh": "長途巴士",
+            "exampleIndex": 0,
+            "span": {
+              "start": 79,
+              "end": 88
+            }
+          },
+          {
+            "en": "its berths",
+            "zh": "臥鋪",
+            "exampleIndex": 1,
+            "span": {
+              "start": 49,
+              "end": 59
+            }
+          },
+          {
+            "en": "saves money",
+            "zh": "省錢",
+            "exampleIndex": 1,
+            "span": {
+              "start": 97,
+              "end": 108
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The padded seat wins on comfort, though the lighter chair is easier to carry.",
+          "zh": "軟墊座椅在舒適程度上較勝一籌，但較輕的椅子更易搬。"
+        },
+        {
+          "en": "A home replay may win on comfort without replacing every benefit of a live event.",
+          "zh": "在家重看可能在舒適程度上較勝一籌，卻不能取代現場活動的所有好處。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2801",
+      "number": 2801,
+      "inventoryId": "expr-2801",
+      "titleEn": "shorter bursts",
+      "titleZh": "較短的分段",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bshorter bursts\\b",
+        "glossaryForbidden": [
+          "\\bshorter bursts\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Briefer pieces delivered intermittently instead of one longer stretch.",
+        "meaningZh": "以較短、間歇的分段呈現，而非集中成一段較長內容。",
+        "grammar": "A comparative plural collocation; name what arrives or happens in bursts.",
+        "register": "Updates, lessons, alerts and media.",
+        "boundaryZh": "較短分段不一定代表總量較少，可能只是傳送方式改變。",
+        "misconceptionZh": "不要把 burst 一律理解成爆炸或猛烈聲響。",
+        "outcomeZh": "能比較以前與現在的每段長度和出現方式。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0690",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 64,
+          "book": 11,
+          "question": 25,
+          "sample": "S1",
+          "sourceBookPages": "61–63",
+          "locatorNote": "DOCX table 61, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Updates now arrive in shorter bursts throughout the day.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "shorter bursts"
+        }
+      ],
+      "listening": {
+        "promptZh": "公告方式改變了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One long announcement became several brief updates.",
+            "zh": "一段較長公告改為幾次簡短更新。"
+          },
+          {
+            "id": "b",
+            "en": "All visitor information was removed.",
+            "zh": "所有訪客資訊都被刪除。"
+          },
+          {
+            "id": "c",
+            "en": "The museum now opens for fewer hours.",
+            "zh": "博物館現在開放時間縮短。"
+          },
+          {
+            "id": "d",
+            "en": "The speakers became louder than before.",
+            "zh": "揚聲器變得比以前更響。"
+          }
+        ],
+        "explanationZh": "每次訊息變短並分散於不同時段。",
+        "answerId": "a",
+        "en": "The museum used to play a ten-minute announcement at opening. Now it sends short updates at three points in the day; information arrives in shorter bursts.",
+        "zh": "博物館以前開門時播放一段十分鐘公告。現在它在一天中的三個時段發出簡短更新；資訊以較短的分段送達。"
+      },
+      "reply": {
+        "promptZh": "（訪客現在怎樣接收資訊？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They receive several brief updates.",
+            "zh": "他們收到幾次簡短更新。"
+          },
+          {
+            "id": "b",
+            "en": "The messages are spread through the day.",
+            "zh": "訊息分布在一天不同時段。"
+          },
+          {
+            "id": "c",
+            "en": "The information arrives in shorter bursts.",
+            "zh": "資訊以較短的分段送達。"
+          },
+          {
+            "id": "d",
+            "en": "Each announcement is briefer than the old one.",
+            "zh": "每次公告都比舊式公告短。"
+          }
+        ],
+        "explanationZh": "四句都指出訊息分成較短段落。",
+        "promptEn": "How are visitors receiving information now?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "校園電台以前午飯時間一次播放所有消息，現在早、午、下午各播一段較短資訊。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Announcements now come in shorter bursts.",
+            "zh": "公告現在以較短的分段播出。"
+          },
+          {
+            "id": "b",
+            "en": "The station has stopped making announcements.",
+            "zh": "電台已停止播放公告。"
+          },
+          {
+            "id": "c",
+            "en": "The total number of announcements must be lower.",
+            "zh": "公告總數一定較少。"
+          }
+        ],
+        "explanationZh": "每段變短且分散播出，不代表總量一定減少。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句正確指出 shorter 的比較對象？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Each new update is briefer than the former long message.",
+            "zh": "每段新訊息都比以前的長公告短。"
+          },
+          {
+            "id": "b",
+            "en": "Shorter means the radio transmitter is physically smaller.",
+            "zh": "較短表示電台發射器在物理上較小。"
+          },
+          {
+            "id": "c",
+            "en": "Bursts means the loudspeaker exploded.",
+            "zh": "分段表示揚聲器爆炸。"
+          }
+        ],
+        "explanationZh": "shorter 比較的是每段訊息的長度。",
+        "answerId": "a"
+      },
+      "dialogue": {
+        "promptZh": "同學說：「為何今天收到三次課表更新？」你知道學校不再晚上一次發長訊息，而是改為白天分段通知。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Instead of one long message, the school sends shorter bursts of updates through the day; each covers only the latest change.",
+            "zh": "學校不再一次發出長訊息，而是在白天分段發出較短更新；每則只談最新變更。"
+          },
+          {
+            "id": "b",
+            "en": "The school sent three notices today.",
+            "zh": "學校今天發了三則通知。"
+          },
+          {
+            "id": "c",
+            "en": "Each notice focuses on a recent change.",
+            "zh": "每則通知聚焦近期變更。"
+          }
+        ],
+        "explanationZh": "金句說明分段方式與單則通知內容。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "At the museum, updates arrived in shorter bursts after the morning announcement changed.",
+        "zh": "博物館改變早上公告後，更新以較短的分段送達。",
+        "promptZh": "先聽示範，再比較以往與現在的公告。",
+        "targetSpan": {
+          "start": 34,
+          "end": 48
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：語音導覽原本一口氣播放八分鐘的作品介紹；改版後，訪客走到不同展廳時，才各聽一段較短的介紹。用一至兩句英文說明改動。",
+        "selfCheckZh": "比較每段長度和分段播放；不要推斷整個導覽總時長一定縮短。",
+        "examples": [
+          {
+            "en": "The audio guide now gives information in shorter bursts, with a brief segment starting in each gallery instead of one long introduction.",
+            "zh": "語音導覽現在以較短的分段提供資訊，每個展廳各播放一段簡介，而非一次播完長介紹。"
+          },
+          {
+            "en": "Visitors hear shorter bursts of commentary as they enter each room, replacing the earlier eight-minute recording.",
+            "zh": "訪客進入每個展室時會聽到較短的分段解說，取代之前一段八分鐘的錄音。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The audio guide",
+            "zh": "語音導覽",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "a brief segment",
+            "zh": "一段簡介",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 77
+            }
+          },
+          {
+            "en": "each gallery",
+            "zh": "每個展廳",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 102
+            }
+          },
+          {
+            "en": "commentary",
+            "zh": "解說",
+            "exampleIndex": 1,
+            "span": {
+              "start": 32,
+              "end": 42
+            }
+          },
+          {
+            "en": "the earlier eight-minute recording",
+            "zh": "之前一段八分鐘的錄音",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 112
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The podcast offered shorter bursts of news rather than one long daily summary.",
+          "zh": "播客以較短的分段提供新聞，而非每天一次長篇總結。"
+        },
+        {
+          "en": "Messages may arrive in shorter bursts without reducing the total amount of information.",
+          "zh": "訊息可以較短分段送達，而總資訊量未必減少。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2821",
+      "number": 2821,
+      "inventoryId": "expr-2821",
+      "titleEn": "keep a critical mind",
+      "titleZh": "保持審慎判斷",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping) a critical mind\\b",
+        "glossaryForbidden": [
+          "\\bcritical mind\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Continue checking evidence and reasoning instead of accepting a claim automatically.",
+        "meaningZh": "不自動接受某項說法，持續核查證據和推理。",
+        "grammar": "Critical means discerning here, not hostile or reflexively negative.",
+        "register": "Reading conflicting reports and everyday decisions.",
+        "boundaryZh": "審慎不等於凡事否定；較可靠的資料仍可支持結論。",
+        "misconceptionZh": "不能只說「我不相信」而不查看來源與時間。",
+        "outcomeZh": "能說明核對哪項證據、為何暫不下結論。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0710",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 65,
+          "book": 11,
+          "question": 27,
+          "sample": "S1",
+          "sourceBookPages": "67–68",
+          "locatorNote": "DOCX table 63, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Readers should keep a critical mind when claims conflict.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep a critical mind"
+        }
+      ],
+      "listening": {
+        "promptZh": "哈娜如何處理相互矛盾的日期？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She checked the dated office notice before sharing.",
+            "zh": "她在分享前核對辦事處註明日期的通告。"
+          },
+          {
+            "id": "b",
+            "en": "She shared both posts without checking.",
+            "zh": "她沒有核查便分享兩則貼文。"
+          },
+          {
+            "id": "c",
+            "en": "She assumed the older post must be correct.",
+            "zh": "她假設較舊貼文一定正確。"
+          },
+          {
+            "id": "d",
+            "en": "She refused to read any notice at all.",
+            "zh": "她完全拒絕閱讀任何通告。"
+          }
+        ],
+        "explanationZh": "她用可核查的官方通告比較兩個說法。",
+        "answerId": "a",
+        "en": "Two posts gave different dates for the community garden’s reopening. Hana kept a critical mind: she checked the dated notice from the garden office before sharing either post.",
+        "zh": "兩則貼文對社區花園重開日期說法不同。哈娜保持審慎判斷：分享任何一則貼文之前，先核對花園辦事處註明日期的通告。"
+      },
+      "reply": {
+        "promptZh": "（哈娜如何回應互相矛盾的貼文？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She looked for a dated source.",
+            "zh": "她尋找註明日期的來源。"
+          },
+          {
+            "id": "b",
+            "en": "She delayed sharing until she checked.",
+            "zh": "她核查前暫不分享。"
+          },
+          {
+            "id": "c",
+            "en": "She kept a critical mind.",
+            "zh": "她保持審慎判斷。"
+          },
+          {
+            "id": "d",
+            "en": "She compared the posts with the garden office’s notice.",
+            "zh": "她把貼文與花園辦事處通告比較。"
+          }
+        ],
+        "explanationZh": "四句都指她先核查再分享。",
+        "promptEn": "How did Hana respond to the conflicting posts?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "兩份活動海報列出不同開放時間，義工先查看主辦方新通告，才向訪客說明。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The volunteer kept a critical mind about the conflicting times.",
+            "zh": "義工面對矛盾時間時保持審慎判斷。"
+          },
+          {
+            "id": "b",
+            "en": "The volunteer knew both posters had to be false.",
+            "zh": "義工知道兩份海報一定都錯。"
+          },
+          {
+            "id": "c",
+            "en": "The volunteer chose the brighter poster as the authority.",
+            "zh": "義工把色彩較鮮明的海報當成權威來源。"
+          }
+        ],
+        "explanationZh": "面對矛盾資訊，她核對較新的主辦方通告。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 critical 誤解為一味苛責？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Compare the publication dates before deciding.",
+            "zh": "決定前比較公布日期。"
+          },
+          {
+            "id": "b",
+            "en": "Criticise everyone who asks a question instead of checking evidence.",
+            "zh": "不核查證據，只責罵每個提問的人。"
+          },
+          {
+            "id": "c",
+            "en": "An official correction may settle the difference.",
+            "zh": "正式更正可釐清差異。"
+          }
+        ],
+        "explanationZh": "critical mind 指審慎分析，不是責罵他人。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「兩個群組的花園重開日期不同，哪一個對？」你找到主辦方今天的新通告。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us keep a critical mind and check today’s garden-office notice before forwarding a date.",
+            "zh": "我們保持審慎判斷，轉發日期前先查今天的花園辦事處通告。"
+          },
+          {
+            "id": "b",
+            "en": "There are two different dates online.",
+            "zh": "網上有兩個不同日期。"
+          },
+          {
+            "id": "c",
+            "en": "The latest office notice may clarify it.",
+            "zh": "辦事處最新通告可能有助釐清。"
+          }
+        ],
+        "explanationZh": "金句提出核查來源與分享前的具體次序。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Hana kept a critical mind when two posts gave different opening dates.",
+        "zh": "兩則貼文列出不同開放日期時，哈娜保持審慎判斷。",
+        "promptZh": "先聽示範，再說出她核查哪份資料。",
+        "targetSpan": {
+          "start": 5,
+          "end": 25
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一間戲院網站的演出時間與轉發圖片不同，前者今天更新、後者沒有日期。售票員須回覆顧客。用一至兩句英文說明如何處理。",
+        "selfCheckZh": "核對更新時間並引用較可靠的來源；不要武斷地說無日期圖片必定虛假。",
+        "examples": [
+          {
+            "en": "The ticket clerk should keep a critical mind and check today’s theatre timetable before telling customers the show time.",
+            "zh": "售票員應保持審慎判斷，告知顧客演出時間前先核對戲院今天的時間表。"
+          },
+          {
+            "en": "Because the shared image has no date, staff should keep a critical mind and compare it with the updated website rather than guess.",
+            "zh": "由於轉發圖片沒有日期，職員應保持審慎判斷，拿它與更新過的網站比較，而非猜測。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The ticket clerk",
+            "zh": "售票員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 16
+            }
+          },
+          {
+            "en": "today’s theatre timetable",
+            "zh": "戲院今天的時間表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 80
+            }
+          },
+          {
+            "en": "customers",
+            "zh": "顧客",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 105
+            }
+          },
+          {
+            "en": "the shared image",
+            "zh": "轉發圖片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 8,
+              "end": 24
+            }
+          },
+          {
+            "en": "the updated website",
+            "zh": "更新過的網站",
+            "exampleIndex": 1,
+            "span": {
+              "start": 92,
+              "end": 111
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Keep a critical mind when an old screenshot conflicts with a new notice.",
+          "zh": "舊截圖與新通告矛盾時，要保持審慎判斷。"
+        },
+        {
+          "en": "The editor kept a critical mind by checking the report’s date and source.",
+          "zh": "編輯核對報告日期和來源，以保持審慎判斷。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2823",
+      "number": 2823,
+      "inventoryId": "expr-2823",
+      "titleEn": "narrow picture",
+      "titleZh": "片面的情況",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bnarrow picture\\b",
+        "glossaryForbidden": [
+          "\\bnarrow picture\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "An incomplete view produced by limited sources or perspectives.",
+        "meaningZh": "因來源或觀點有限而形成不完整的理解。",
+        "grammar": "Picture means understanding, not necessarily a photograph.",
+        "register": "Reports, surveys and evidence assessment.",
+        "boundaryZh": "資料片面不代表其中每項事實都錯；需指出缺少哪方面資訊。",
+        "misconceptionZh": "不要把「只訪問了一群人」說成「沒訪問任何人」。",
+        "outcomeZh": "能指出現有資料涵蓋誰、遺漏誰，以及如何補足。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0712",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 66,
+          "book": 11,
+          "question": 27,
+          "sample": "S1",
+          "sourceBookPages": "67–68",
+          "locatorNote": "DOCX table 63, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "One source may give a narrow picture of the issue.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "narrow picture"
+        }
+      ],
+      "listening": {
+        "promptZh": "原本調查有甚麼限制？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It left out students who experienced the queues.",
+            "zh": "它沒有訪問實際排隊的學生。"
+          },
+          {
+            "id": "b",
+            "en": "The teachers gave no answers at all.",
+            "zh": "教師完全沒有回答。"
+          },
+          {
+            "id": "c",
+            "en": "The school had already surveyed every group.",
+            "zh": "學校已訪問所有群體。"
+          },
+          {
+            "id": "d",
+            "en": "The queue had disappeared before the survey.",
+            "zh": "調查前排隊問題已消失。"
+          }
+        ],
+        "explanationZh": "只訪問教師，未包括學生經驗。",
+        "answerId": "a",
+        "en": "A school surveyed teachers about lunch queues but did not ask students who waited in them. The results gave a narrow picture of the problem, so the council added a student survey.",
+        "zh": "學校就午膳排隊訪問教師，卻沒有問實際排隊的學生。結果只呈現片面的情況，因此校務委員會加做學生調查。"
+      },
+      "reply": {
+        "promptZh": "（委員會為何加做學生調查？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The first survey omitted the pupils’ experience.",
+            "zh": "首輪調查遺漏學生經驗。"
+          },
+          {
+            "id": "b",
+            "en": "Teachers’ answers alone were not enough.",
+            "zh": "只靠教師回答並不足夠。"
+          },
+          {
+            "id": "c",
+            "en": "The first results gave a narrow picture.",
+            "zh": "首輪結果只呈現片面的情況。"
+          },
+          {
+            "id": "d",
+            "en": "They wanted a fuller account of the lunch queues.",
+            "zh": "他們想更全面了解午膳排隊。"
+          }
+        ],
+        "explanationZh": "四句都說明補足原調查的視角。",
+        "promptEn": "Why did the council add a student survey?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "住宅報告只統計市中心屋苑，卻用結果描述整個地區；山區住戶情況未列入。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The report gives a narrow picture of the whole district.",
+            "zh": "報告只呈現整區片面的情況。"
+          },
+          {
+            "id": "b",
+            "en": "The report includes every neighbourhood equally.",
+            "zh": "報告同等涵蓋每個社區。"
+          },
+          {
+            "id": "c",
+            "en": "The city-centre figures must all be false.",
+            "zh": "市中心數字一定全是假的。"
+          }
+        ],
+        "explanationZh": "市中心數據可能準確，但不足以代表整區。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 picture 誤當成攝影作品？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One source may miss an important viewpoint.",
+            "zh": "單一來源可能漏掉重要觀點。"
+          },
+          {
+            "id": "b",
+            "en": "A narrow picture means a photograph printed on thin paper.",
+            "zh": "片面的情況指印在薄紙上的照片。"
+          },
+          {
+            "id": "c",
+            "en": "A further survey can widen the evidence base.",
+            "zh": "進一步調查可擴大證據基礎。"
+          }
+        ],
+        "explanationZh": "picture 在這裏比喻對事情的理解。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "同事問：「教師問卷已有結果，何必再問學生？」你知道學生才是排隊者。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Teacher responses give a narrow picture of the queues; asking students will show what the wait is like for them.",
+            "zh": "教師回答只呈現排隊片面的情況；問學生才能了解他們實際等候的經驗。"
+          },
+          {
+            "id": "b",
+            "en": "The students may have useful experiences to share.",
+            "zh": "學生可能有有用經驗可分享。"
+          },
+          {
+            "id": "c",
+            "en": "Another survey could add information.",
+            "zh": "再做調查可以補充資訊。"
+          }
+        ],
+        "explanationZh": "金句指出原資料遺漏的人，以及補足方法。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The first survey gave a narrow picture because students were not asked.",
+        "zh": "首輪調查沒有訪問學生，因此只呈現片面的情況。",
+        "promptZh": "先聽示範，再指出缺了哪一群人的觀點。",
+        "targetSpan": {
+          "start": 24,
+          "end": 38
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：博物館展覽只引用船主日記來介紹一次航程，尚未加入船員工作紀錄。策展人希望補足展覽。用一至兩句英文說明。",
+        "selfCheckZh": "說明只見船主觀點的限制，並建議補入船員紀錄；不要說日記必定錯。",
+        "examples": [
+          {
+            "en": "The owner’s diary gives a narrow picture of the voyage, so the curator should add crew records to show daily work aboard.",
+            "zh": "船主日記只呈現航程片面的情況，因此策展人應加入船員紀錄，展示船上日常工作。"
+          },
+          {
+            "en": "Visitors get a narrow picture if they read only the owner’s account; crew logs would add another perspective.",
+            "zh": "訪客若只讀船主記述，得到的便是片面的情況；船員紀錄可加入另一個觀點。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The owner’s diary",
+            "zh": "船主日記",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "crew records",
+            "zh": "船員紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 94
+            }
+          },
+          {
+            "en": "daily work aboard",
+            "zh": "船上日常工作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 120
+            }
+          },
+          {
+            "en": "the owner’s account",
+            "zh": "船主記述",
+            "exampleIndex": 1,
+            "span": {
+              "start": 48,
+              "end": 67
+            }
+          },
+          {
+            "en": "another perspective",
+            "zh": "另一個觀點",
+            "exampleIndex": 1,
+            "span": {
+              "start": 89,
+              "end": 108
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A single interview may give a narrow picture without being inaccurate.",
+          "zh": "單一次訪問未必不準確，但可能只呈現片面的情況。"
+        },
+        {
+          "en": "The map gives a narrow picture of access if it omits the side entrance.",
+          "zh": "地圖若漏掉側門，對出入路線便只呈現片面的情況。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2846",
+      "number": 2846,
+      "inventoryId": "expr-2846",
+      "titleEn": "throw the gate wide open",
+      "titleZh": "大幅開放參與機會",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:throw|throws|threw|throwing) the gate wide open\\b",
+        "glossaryForbidden": [
+          "\\bthe gate wide open\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Remove a major barrier so many more people can take part.",
+        "meaningZh": "移除主要門檻，令更多人可以參與。",
+        "grammar": "A gate metaphor for access; a literal gate need not exist.",
+        "register": "Platforms, applications and creative participation.",
+        "boundaryZh": "開放申請不等於所有作品都會獲選或保證成功。",
+        "misconceptionZh": "不要把 access 與 quality review 混為一談；門檻降低後仍可審核作品。",
+        "outcomeZh": "能指出被移除的門檻及新增的參與者。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0735",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 68,
+          "book": 11,
+          "question": 30,
+          "sample": "S2",
+          "sourceBookPages": "74–76",
+          "locatorNote": "DOCX table 66, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new platform throws the gate wide open to creators.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "throws the gate wide open"
+        }
+      ],
+      "listening": {
+        "promptZh": "改動取消了甚麼門檻？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The need for a record-label recommendation.",
+            "zh": "需要唱片公司推薦的規定。"
+          },
+          {
+            "id": "b",
+            "en": "The need to submit any recording.",
+            "zh": "提交錄音的規定。"
+          },
+          {
+            "id": "c",
+            "en": "The organisers’ review of recordings.",
+            "zh": "主辦方對錄音的審核。"
+          },
+          {
+            "id": "d",
+            "en": "The showcase’s online application form.",
+            "zh": "展示活動的網上申請表。"
+          }
+        ],
+        "explanationZh": "獨立音樂人不再須先獲唱片公司推薦。",
+        "answerId": "a",
+        "en": "An online music showcase stopped requiring a record-label recommendation. Any independent musician could submit a demo. The change threw the gate wide open to new performers, though organisers still reviewed every recording.",
+        "zh": "網上音樂展示不再要求唱片公司推薦；任何獨立音樂人都可提交示範錄音。改動大幅開放了新表演者的參與機會，雖然主辦方仍審核每份錄音。"
+      },
+      "reply": {
+        "promptZh": "（展示活動如何改變參與門檻？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Independent musicians could apply without a label.",
+            "zh": "獨立音樂人毋須唱片公司便可申請。"
+          },
+          {
+            "id": "b",
+            "en": "More performers could submit demos.",
+            "zh": "更多表演者可以提交示範錄音。"
+          },
+          {
+            "id": "c",
+            "en": "It threw the gate wide open to new performers.",
+            "zh": "它大幅開放了新表演者的參與機會。"
+          },
+          {
+            "id": "d",
+            "en": "It removed a recommendation requirement.",
+            "zh": "它取消了推薦要求。"
+          }
+        ],
+        "explanationZh": "四句都指出推薦門檻取消後，更多人可以申請。",
+        "promptEn": "How did the showcase change access?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "寫作獎從「只收出版社推薦」改成「所有新人可自行投稿」，仍由評審選出入圍者。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "First-time writers can apply directly; that throws the gate wide open to them.",
+            "zh": "首次投稿作者可直接申請；這大幅開放了他們的參與機會。"
+          },
+          {
+            "id": "b",
+            "en": "Every submitted piece will win a prize.",
+            "zh": "每篇投稿都會得獎。"
+          },
+          {
+            "id": "c",
+            "en": "The award has stopped reviewing submissions.",
+            "zh": "獎項已停止審核投稿。"
+          }
+        ],
+        "explanationZh": "自行投稿降低參與門檻，卻不保證入圍或得獎。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句把 gate 誤讀成實體建築？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A new application route can widen access.",
+            "zh": "新申請途徑可擴大參與機會。"
+          },
+          {
+            "id": "b",
+            "en": "The platform must have installed a larger metal gate.",
+            "zh": "平台一定安裝了更大的金屬閘門。"
+          },
+          {
+            "id": "c",
+            "en": "Selection can remain after applications open.",
+            "zh": "開放申請後仍可維持甄選。"
+          }
+        ],
+        "explanationZh": "這裏的 gate 是參與門檻的比喻。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「取消唱片公司推薦後，是不是每位投稿者都能上台？」你知道仍需審核。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It throws the gate wide open to applicants, but organisers still choose which demos enter the showcase.",
+            "zh": "改動大幅開放申請機會，但主辦方仍會甄選哪些示範錄音可參與展示。"
+          },
+          {
+            "id": "b",
+            "en": "More musicians can send demos now.",
+            "zh": "更多音樂人現在可寄出示範錄音。"
+          },
+          {
+            "id": "c",
+            "en": "The organisers will still review submissions.",
+            "zh": "主辦方仍會審核投稿。"
+          }
+        ],
+        "explanationZh": "金句清楚分開申請機會和入選結果。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Removing the label requirement threw the gate wide open to independent musicians.",
+        "zh": "取消唱片公司推薦要求後，獨立音樂人的參與機會大幅開放。",
+        "promptZh": "先聽示範，再指出取消了哪項門檻。",
+        "targetSpan": {
+          "start": 31,
+          "end": 55
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：地方圖書館開放居民自行提交閱讀活動提案，毋須先獲學校推薦；圖書館仍按場地和內容作甄選。用一至兩句英文說明改動。",
+        "selfCheckZh": "說明推薦門檻取消及後續甄選仍在；不要說每份提案必定獲准。",
+        "examples": [
+          {
+            "en": "The library threw the gate wide open to local organisers by removing the school-reference rule, while still reviewing each proposal.",
+            "zh": "圖書館取消學校推薦規定，大幅開放本地活動籌辦者的參與機會，同時仍審核每份提案。"
+          },
+          {
+            "en": "Allowing residents to apply directly throws the gate wide open to new reading events, although space and content checks remain.",
+            "zh": "讓居民直接申請，大幅開放舉辦新閱讀活動的機會，雖然場地和內容審核仍在。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The library",
+            "zh": "圖書館",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 11
+            }
+          },
+          {
+            "en": "local organisers",
+            "zh": "本地活動籌辦者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 56
+            }
+          },
+          {
+            "en": "each proposal",
+            "zh": "每份提案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 118,
+              "end": 131
+            }
+          },
+          {
+            "en": "residents",
+            "zh": "居民",
+            "exampleIndex": 1,
+            "span": {
+              "start": 9,
+              "end": 18
+            }
+          },
+          {
+            "en": "space and content checks",
+            "zh": "場地和內容審核",
+            "exampleIndex": 1,
+            "span": {
+              "start": 95,
+              "end": 119
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Open submissions can throw the gate wide open without promising every applicant a place.",
+          "zh": "開放投稿可大幅增加參與機會，但不保證每位申請者都有名額。"
+        },
+        {
+          "en": "The new grant rule threw the gate wide open to small community teams.",
+          "zh": "新資助規則大幅開放小型社區團隊的參與機會。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2847",
+      "number": 2847,
+      "inventoryId": "expr-2847",
+      "titleEn": "all smoke and no fire",
+      "titleZh": "聲勢大卻缺乏實質",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\ball smoke and no fire\\b",
+        "glossaryForbidden": [
+          "\\ball smoke and no fire\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Dramatic talk or appearance with little supporting substance.",
+        "meaningZh": "說法或場面看似驚人，卻缺乏相應實質或證據。",
+        "grammar": "In this source it reverses the smoke–fire expectation; do not confuse it with the different proverb “no smoke without fire”.",
+        "register": "Claims, publicity and evidence-based discussion.",
+        "boundaryZh": "沒有實質證據支持某一說法，不等於證明所有相關問題都不存在。",
+        "misconceptionZh": "不能只因不喜歡一項消息便稱它 all smoke and no fire；要指出證據缺口。",
+        "outcomeZh": "能指出誇張說法與可核查事實之間的差距。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0736",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 68,
+          "book": 11,
+          "question": 30,
+          "sample": "S2",
+          "sourceBookPages": "74–76",
+          "locatorNote": "DOCX table 66, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The viral claim was all smoke and no fire.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "all smoke and no fire"
+        }
+      ],
+      "listening": {
+        "promptZh": "哪項資料削弱了傳聞？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The dated notice showed normal hours and no closure order.",
+            "zh": "註明日期的通告顯示照常開放，亦無關閉命令。"
+          },
+          {
+            "id": "b",
+            "en": "The rumour appeared in several chats.",
+            "zh": "傳聞出現在幾個群組。"
+          },
+          {
+            "id": "c",
+            "en": "The library once changed its weekend hours.",
+            "zh": "圖書館曾調整週末時間。"
+          },
+          {
+            "id": "d",
+            "en": "The notice mentioned the library’s address.",
+            "zh": "通告提及圖書館地址。"
+          }
+        ],
+        "explanationZh": "可核查的最新通告沒有支持翌日關閉的說法。",
+        "answerId": "a",
+        "en": "A rumour said the town library would close the next morning. The dated council notice showed normal opening hours and no closure order; the dated notice left the dramatic rumour looking all smoke and no fire.",
+        "zh": "傳聞說市立圖書館翌日會關閉。市議會註明日期的通告顯示照常開放，也沒有關閉命令；註明日期的通告令這則誇張傳聞顯得聲勢大卻缺乏實質。"
+      },
+      "reply": {
+        "promptZh": "（誇張的關閉傳聞與通告有甚麼差別？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The rumour lacked support in the dated notice.",
+            "zh": "註明日期的通告沒有支持傳聞。"
+          },
+          {
+            "id": "b",
+            "en": "The office had issued no closure order.",
+            "zh": "辦事處沒有發出關閉命令。"
+          },
+          {
+            "id": "c",
+            "en": "The claim was all smoke and no fire.",
+            "zh": "這說法聲勢大卻缺乏實質。"
+          },
+          {
+            "id": "d",
+            "en": "The announced hours still showed the library open.",
+            "zh": "公布的時間仍顯示圖書館開放。"
+          }
+        ],
+        "explanationZh": "四句都指傳聞缺乏通告支持。",
+        "promptEn": "How did the dramatic closure rumour compare with the notice?",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "網上廣告聲稱一款電池可連續用一個月，卻沒有測試方法；獨立測試只錄得兩天。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The month-long promise looks all smoke and no fire.",
+            "zh": "一個月的承諾看來聲勢大卻缺乏實質。"
+          },
+          {
+            "id": "b",
+            "en": "The independent test proves all batteries are unreliable.",
+            "zh": "獨立測試證明所有電池都不可靠。"
+          },
+          {
+            "id": "c",
+            "en": "The claim is well supported because its wording is bold.",
+            "zh": "這說法字體醒目，所以證據充分。"
+          }
+        ],
+        "explanationZh": "宣傳承諾與可核查測試結果不符。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句錯把傳聞的聲勢當成可靠證據？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The advertisement sounds impressive without adequate proof.",
+            "zh": "廣告聽來驚人，卻缺乏充分證據。"
+          },
+          {
+            "id": "b",
+            "en": "A widely repeated rumour must have a sound basis even without independent evidence.",
+            "zh": "傳聞被大量轉發，即使沒有獨立證據，也必定有可靠根據。"
+          },
+          {
+            "id": "c",
+            "en": "Check a claim against a dated source.",
+            "zh": "拿說法與註明日期的來源核對。"
+          }
+        ],
+        "explanationZh": "本課強調聲勢與證據不相稱；轉發次數不等於證據。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「大家都說圖書館明天關門！」你看到今天官方通告仍列出正常開放時間，且沒有關閉命令。哪句最完整？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The claim looks all smoke and no fire; today’s notice shows normal hours, so let us share the dated notice.",
+            "zh": "這說法看來聲勢大卻缺乏實質；今天的通告顯示照常開放，我們分享註明日期的通告吧。"
+          },
+          {
+            "id": "b",
+            "en": "The official notice lists normal hours.",
+            "zh": "官方通告列出正常開放時間。"
+          },
+          {
+            "id": "c",
+            "en": "We should check what the council posted today.",
+            "zh": "我們應查看市議會今天發布甚麼。"
+          }
+        ],
+        "explanationZh": "金句比對具體證據，並建議分享可核查資料。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Against the dated council notice, the closure rumour looked all smoke and no fire.",
+        "zh": "與註明日期的市議會通告相比，關閉傳聞顯得聲勢大卻缺乏實質。",
+        "promptZh": "先聽示範，再說出哪項通告與傳聞不符。",
+        "targetSpan": {
+          "start": 60,
+          "end": 81
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：新款耳機廣告聲稱一次充電可播放一整週，但沒有說明測試方式；一份獨立測試只測得一天。用一至兩句英文評價宣傳。",
+        "selfCheckZh": "把誇張承諾與實際測試結果對比；不要推斷耳機完全不能使用。",
+        "examples": [
+          {
+            "en": "The week-long battery promise looks all smoke and no fire when the only independent test reports one day of playback.",
+            "zh": "唯一的獨立測試只錄得一天播放時間，聲稱可用一整週的電池承諾便顯得聲勢大卻缺乏實質。"
+          },
+          {
+            "en": "Without a published test method, the slogan is all smoke and no fire beside the measured one-day result.",
+            "zh": "沒有公布測試方法，這口號與測得的一天結果相比，便聲勢大卻缺乏實質。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The week-long battery promise",
+            "zh": "可用一整週的電池承諾",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 29
+            }
+          },
+          {
+            "en": "the only independent test",
+            "zh": "唯一的獨立測試",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 88
+            }
+          },
+          {
+            "en": "one day of playback",
+            "zh": "一天播放時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 116
+            }
+          },
+          {
+            "en": "a published test method",
+            "zh": "公布的測試方法",
+            "exampleIndex": 1,
+            "span": {
+              "start": 8,
+              "end": 31
+            }
+          },
+          {
+            "en": "the measured one-day result",
+            "zh": "測得的一天結果",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 103
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The headline was all smoke and no fire once the full report appeared.",
+          "zh": "完整報告出現後，標題顯得聲勢大卻缺乏實質。"
+        },
+        {
+          "en": "A claim may be all smoke and no fire when no reliable figures support it.",
+          "zh": "若沒有可靠數據支持，一項說法可能聲勢大卻缺乏實質。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional proposal; independent English, Chinese, media and browser QA remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

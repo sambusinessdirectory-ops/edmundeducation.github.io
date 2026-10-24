@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "kind": "hash-bound-unpublished-selection-integration",
+  "date": "2026-10-24",
+  "status": "integrated-locally-unpublished",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-ten-b-replacement-2656-2847-20261024.json",
+  "proposalSha256": "4556241f31512fdb46be712bdba7ec9193fc0bd341c8946c26954719cfd17fc1",
+  "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-next80-ten-b-replacement-2656-2847-final-focused-rereview-20261024.json",
+  "independentReviewSha256": "985109a824f1047e6cf92d48d9fed7d08969842744f3be8ea7549e78f23d8954",
+  "authorQaPath": "course-materials/advanced-native/reviews-books10-16/author-qa-current-next80-ten-b-replacement-2656-2847-20261024.json",
+  "authorQaSha256": "3102ea255f8eec6a8b189689c1a14acd929abfdecedfc4a9a505839e1175f9b9",
+  "newBatchPath": "course-materials/advanced-native/drafts-books10-16/batch-reviewed-current-next80-ten-b-replacement-2656-2847-selected-20261024.json",
+  "newBatchSha256": "e37a46f04abf26f7e9625b23cf8e0063336ed0ff012e20751808e397539772f4",
+  "ordinals": [
+    2656,
+    2662,
+    2722,
+    2725,
+    2763,
+    2801,
+    2821,
+    2823,
+    2846,
+    2847
+  ],
+  "beforeSelectedManifestSha256": "afbfd411076b1a69522eb10992f112dbd14e7073b3bddff0f7a6879cfc15ba96",
+  "afterSelectedManifestSha256": "706bb293ffac720e3a71e383ce2954e6ef714b5f067225b1bbb06e9da325b9b1",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "decisionFilesChanged": [
+    "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2772-2831.jsonl",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl"
+  ],
+  "contentFidelity": "All 10 selected lesson objects equal independently reviewed proposal objects after removing only review metadata.",
+  "publication": {
+    "pushed": false,
+    "deployed": false,
+    "databaseApplied": false,
+    "releaseApproved": false,
+    "liveLessonsAdded": 0
+  }
+}

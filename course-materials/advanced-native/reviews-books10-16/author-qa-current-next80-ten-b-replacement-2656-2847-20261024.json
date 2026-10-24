@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "source-bound-author-self-check-proposal-only",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-ten-b-replacement-2656-2847-20261024.json",
+  "proposalSha256": "4556241f31512fdb46be712bdba7ec9193fc0bd341c8946c26954719cfd17fc1",
+  "sourceScreenPath": "course-materials/advanced-native/reviews-books10-16/read-only-next80-current361-holds-source-owner-screen-20261024.json",
+  "sourceScreenSha256": "65deae1273ec80df2d5a9d8edefc42bec56b2745f8b631bd0112d9ed769d2321",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "afbfd411076b1a69522eb10992f112dbd14e7073b3bddff0f7a6879cfc15ba96",
+  "lessonCount": 10,
+  "sourceChecks": [
+    {
+      "sourceOrdinal": 2656,
+      "sourceId": "book10-16-0545",
+      "sourceRawRowSha256": "a7e0b7fbd3f6827171beb286edeecc5ace02ffb2a8528577862f56011715a9ec",
+      "decisionFile": "books10-16/editorial-decisions-2652-2711.jsonl",
+      "decisionRawRowSha256": "d6d1bf91f18fc63086886c81af2383f2a9bf17aab1df7b505081e86461ecfd97",
+      "sourceExpression": "at the speed of a swipe",
+      "guideSentence": "New trends now spread at the speed of a swipe.",
+      "guideMeaning": "Very quickly in a phone-driven culture; a contemporary speed image.",
+      "sourcePage": 50,
+      "sourceBook": 11,
+      "sourceQuestion": 10,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2662,
+      "sourceId": "book10-16-0551",
+      "sourceRawRowSha256": "41463182d44cf4622a288677314ae8b8604b1a80ff9928c4c8431194abf0e135",
+      "decisionFile": "books10-16/editorial-decisions-2652-2711.jsonl",
+      "decisionRawRowSha256": "a84537f6e4e150ac3ff4a1384ab4994a84db1f0785bb4a51fe8c31bdd9f13348",
+      "sourceExpression": "vanish into the scroll",
+      "guideSentence": "A popular clip may vanish into the scroll by next week.",
+      "guideMeaning": "Disappear quickly amid endless online content; a digital metaphor.",
+      "sourcePage": 51,
+      "sourceBook": 11,
+      "sourceQuestion": 10,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2722,
+      "sourceId": "book10-16-0611",
+      "sourceRawRowSha256": "df12de406bdd2c037883aca553641ea782a662d6d2b543f404cc67e6ca9568a5",
+      "decisionFile": "books10-16/editorial-decisions-2712-2771.jsonl",
+      "decisionRawRowSha256": "297ff41f337724888d94e623b3897522f7c4b791d8a3962e48c55ef6c8ff6f97",
+      "sourceExpression": "far from being overshadowed",
+      "guideSentence": "Local bands are far from being overshadowed by imports.",
+      "guideMeaning": "Still visible or significant despite competition; a light-shadow metaphor.",
+      "sourcePage": 56,
+      "sourceBook": 11,
+      "sourceQuestion": 15,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2725,
+      "sourceId": "book10-16-0614",
+      "sourceRawRowSha256": "b38ac6e6bb731c3446c3f3eb703e4581256934b27aa71aeedffd32da062e7300",
+      "decisionFile": "books10-16/editorial-decisions-2712-2771.jsonl",
+      "decisionRawRowSha256": "feaf168698b5aeaecd4a258f0dfc310860f7529a9e9aac3860421f23339724a3",
+      "sourceExpression": "emotional landmarks",
+      "guideSentence": "Those songs became emotional landmarks in her life.",
+      "guideMeaning": "Events or works that mark stages of feeling or memory; a map metaphor.",
+      "sourcePage": 57,
+      "sourceBook": 11,
+      "sourceQuestion": 16,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2763,
+      "sourceId": "book10-16-0652",
+      "sourceRawRowSha256": "ad8fd798f14a169462d1e0c605819c95176da7c57395a0e4d21b5414948f2b6f",
+      "decisionFile": "books10-16/editorial-decisions-2712-2771.jsonl",
+      "decisionRawRowSha256": "8d702f82ae6588633016b975fa52d991684754b5405b33613a70c95029999cfe",
+      "sourceExpression": "win on comfort",
+      "guideSentence": "A recorded show may win on comfort after work.",
+      "guideMeaning": "Be preferable because of convenience and ease; a natural comparative pattern.",
+      "sourcePage": 60,
+      "sourceBook": 11,
+      "sourceQuestion": 20,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2801,
+      "sourceId": "book10-16-0690",
+      "sourceRawRowSha256": "c7248913f415829fd33c7956640face9fef967c783dfa768c20a721a96937a0b",
+      "decisionFile": "books10-16/editorial-decisions-2772-2831.jsonl",
+      "decisionRawRowSha256": "346946c3b44d2e9a66fe856314d8d68c8992608898ebaf627eb8f81f04d9112f",
+      "sourceExpression": "shorter bursts",
+      "guideSentence": "Updates now arrive in shorter bursts throughout the day.",
+      "guideMeaning": "Brief pieces delivered at intervals; a natural media collocation.",
+      "sourcePage": 64,
+      "sourceBook": 11,
+      "sourceQuestion": 25,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2821,
+      "sourceId": "book10-16-0710",
+      "sourceRawRowSha256": "eed5c8fbcf1d3997a6db9a8ba3542f2a76689d997064c36f126a3e8c91550dac",
+      "decisionFile": "books10-16/editorial-decisions-2772-2831.jsonl",
+      "decisionRawRowSha256": "b043d60e80c76e51db6d16d45ee8a55bc41961a9d6bec5c90bd46e9af6a21179",
+      "sourceExpression": "keep a critical mind",
+      "guideSentence": "Readers should keep a critical mind when claims conflict.",
+      "guideMeaning": "Continue to assess claims carefully; a natural learning collocation.",
+      "sourcePage": 65,
+      "sourceBook": 11,
+      "sourceQuestion": 27,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2823,
+      "sourceId": "book10-16-0712",
+      "sourceRawRowSha256": "ff1f4d11a202d92e7289d1a7bcb0a4e34df1d9308bf6769d574b3e5e016f4a6b",
+      "decisionFile": "books10-16/editorial-decisions-2772-2831.jsonl",
+      "decisionRawRowSha256": "27e428b042382d8c07df3af1c187001d6b1f8bb9b74ba7d6a6f9cff9511743f1",
+      "sourceExpression": "narrow picture",
+      "guideSentence": "One source may give a narrow picture of the issue.",
+      "guideMeaning": "An incomplete view of events; a visual metaphor.",
+      "sourcePage": 66,
+      "sourceBook": 11,
+      "sourceQuestion": 27,
+      "sourceSample": "S1",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2846,
+      "sourceId": "book10-16-0735",
+      "sourceRawRowSha256": "2eb279e3ad2850ebd539a68423d789c0fdb2715550df2ad5cdc14be104a8679e",
+      "decisionFile": "books10-16/editorial-decisions-2832-2891.jsonl",
+      "decisionRawRowSha256": "558065414e5e2b98db929ce9040c11f607cf8eb109b64a7bc72d5f77353a7226",
+      "sourceExpression": "throws the gate wide open",
+      "guideSentence": "The new platform throws the gate wide open to creators.",
+      "guideMeaning": "Allows far more people to participate; a gate metaphor.",
+      "sourcePage": 68,
+      "sourceBook": 11,
+      "sourceQuestion": 30,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    },
+    {
+      "sourceOrdinal": 2847,
+      "sourceId": "book10-16-0736",
+      "sourceRawRowSha256": "22e5531a810e62f9cafab32cb3d06a8cc85d87d9166cb77385b887aee6628d64",
+      "decisionFile": "books10-16/editorial-decisions-2832-2891.jsonl",
+      "decisionRawRowSha256": "5d3b3f8466564e1e4d13ee56d0ce94d60ed286dffb82f5d56c118001149d9339",
+      "sourceExpression": "all smoke and no fire",
+      "guideSentence": "The viral claim was all smoke and no fire.",
+      "guideMeaning": "Dramatic appearance without real substance; a fixed fire idiom.",
+      "sourcePage": 68,
+      "sourceBook": 11,
+      "sourceQuestion": 30,
+      "sourceSample": "S2",
+      "currentDecision": "hold-editorial",
+      "proposalOnly": true
+    }
+  ],
+  "structuralValidation": {
+    "errors": [],
+    "warnings": [],
+    "compiled": [
+      {
+        "id": "advanced-native-2656",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2662",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2722",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2725",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2763",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2801",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2821",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2823",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2846",
+        "steps": 7,
+        "questions": 6
+      },
+      {
+        "id": "advanced-native-2847",
+        "steps": 7,
+        "questions": 6
+      }
+    ]
+  },
+  "authorSelfCheck": {
+    "sourceSenseAndBoundary": "Source senses, evidence limits and use boundaries are specified in the briefs and questions.",
+    "distinctSevenStepContract": "Each proposal contains listening, four-valid reply, scene, boundary, dialogue, speaking and independent writing content.",
+    "translationPairing": "English source contexts, choices, models and suggested answers have paired Traditional Chinese.",
+    "writingSupport": "Two changed-context examples and five exact answer-derived target-free glossary spans per lesson.",
+    "selectionAndRelease": "No selected manifest, source decision, release index, audio asset or SOP audit modified."
+  },
+  "independentEnglishReview": "pending",
+  "independentChineseReview": "pending",
+  "mediaReview": "pending",
+  "browserDeviceQA": "pending",
+  "releaseApproval": false,
+  "knownIssues": [
+    "Unselected hold-editorial proposals awaiting independent review."
+  ]
+}

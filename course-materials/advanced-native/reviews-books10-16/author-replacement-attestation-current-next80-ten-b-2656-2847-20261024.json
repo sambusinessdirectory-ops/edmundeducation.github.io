@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "source-bound-author-replacement-attestation-unselected",
+  "date": "2026-10-24",
+  "priorProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-ten-b-2656-2847-20261024.json",
+  "priorProposalSha256": "a6a25a715b5b96beff6497d27701165b185a27381160d7a4bbc016a874f8857b",
+  "independentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-next80-ten-b-2656-2847-20261024.json",
+  "independentReviewSha256": "24688dfd72dcbbd03d62fd939869a6686936a87c9d85ebdb8538f0692684831a",
+  "replacementProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-ten-b-replacement-2656-2847-20261024.json",
+  "replacementProposalSha256": "4556241f31512fdb46be712bdba7ec9193fc0bd341c8946c26954719cfd17fc1",
+  "unchangedLessons": [
+    2662,
+    2801,
+    2821,
+    2823,
+    2846
+  ],
+  "repairedLessons": [
+    2656,
+    2722,
+    2725,
+    2847
+  ],
+  "removedFromProposalButStillOnHold": [
+    2748
+  ],
+  "addedSourceBoundReplacement": [
+    2763
+  ],
+  "sourceSpecificReasonFor2748Hold": "Single creative CDs metaphor does not justify teaching inanimate products or menu items as generally natural uses of at the head of the table; retained editorial hold, not excluded under one-time-comparison rule.",
+  "authorQaSha256": "3102ea255f8eec6a8b189689c1a14acd929abfdecedfc4a9a505839e1175f9b9",
+  "originalitySha256": "fd2c6045a0ae55a0a7ffae81fa5bce012cc6b111d2d9eea00019627e1bc8d49e",
+  "selectedManifestSha256": "afbfd411076b1a69522eb10992f112dbd14e7073b3bddff0f7a6879cfc15ba96",
+  "selectionOrPublicationModified": false,
+  "independentFocusedRereview": "pending"
+}

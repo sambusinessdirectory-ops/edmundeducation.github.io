@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "reviewKind": "independent-focused-rereview-replacement-next80-ten-b-exact-hash",
+  "reviewDate": "2026-10-24",
+  "proposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-ten-b-replacement-2656-2847-20261024.json",
+  "proposalSha256": "4556241f31512fdb46be712bdba7ec9193fc0bd341c8946c26954719cfd17fc1",
+  "originalProposalPath": "course-materials/advanced-native/drafts-books10-16/proposal-current-next80-ten-b-2656-2847-20261024.json",
+  "originalProposalSha256": "a6a25a715b5b96beff6497d27701165b185a27381160d7a4bbc016a874f8857b",
+  "priorIndependentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-next80-ten-b-2656-2847-20261024.json",
+  "priorIndependentReviewSha256": "24688dfd72dcbbd03d62fd939869a6686936a87c9d85ebdb8538f0692684831a",
+  "authorReplacementAttestationPath": "course-materials/advanced-native/reviews-books10-16/author-replacement-attestation-current-next80-ten-b-2656-2847-20261024.json",
+  "authorReplacementAttestationSha256": "0801184e926c9f474a4e913464934021f755af58aeb96d92a75abbadee461ae1",
+  "authorQaSha256": "3102ea255f8eec6a8b189689c1a14acd929abfdecedfc4a9a505839e1175f9b9",
+  "originalityScreenSha256": "fd2c6045a0ae55a0a7ffae81fa5bce012cc6b111d2d9eea00019627e1bc8d49e",
+  "selectedManifestSha256AtReview": "afbfd411076b1a69522eb10992f112dbd14e7073b3bddff0f7a6879cfc15ba96",
+  "checks": {
+    "lessons": 10,
+    "orderedSteps": 70,
+    "questions": 60,
+    "audioRoles": 40,
+    "isolatedBuildErrors": 0,
+    "isolatedBuildWarnings": 0,
+    "exactSourceAndHoldBindings": 10,
+    "sourceTargetRegexMatches": 10,
+    "glossarySpansExtractWritingAnswers": "all 50 passed",
+    "unchangedLessonObjects": [
+      2662,
+      2801,
+      2821,
+      2823,
+      2846
+    ],
+    "repairedLessonObjects": [
+      2656,
+      2722,
+      2725,
+      2847
+    ],
+    "newLessonObject": 2763,
+    "removedPriorCandidate": 2748,
+    "removedCandidateDecision": "hold-editorial remains unchanged; no one-time-comparison exclusion"
+  },
+  "focusedFindings": [
+    {
+      "sourceOrdinal": 2656,
+      "verdict": "pass",
+      "finding": "Both writing models now name school phone groups and evening spread; Traditional Chinese and glossary remain answer-derived."
+    },
+    {
+      "sourceOrdinal": 2722,
+      "verdict": "pass",
+      "finding": "Revised scene foil now overinfers international attendance from local sellouts, a plausible evidence error; key remains uniquely best."
+    },
+    {
+      "sourceOrdinal": 2725,
+      "verdict": "pass",
+      "finding": "Second writing model maps the three photographs to possible pride, relief and gratitude with cautious modal wording and accurate Chinese."
+    },
+    {
+      "sourceOrdinal": 2763,
+      "verdict": "pass",
+      "finding": "Full seven-step new lesson follows the source’s comparative comfort dimension, keeps live atmosphere as a separate advantage, makes four replies valid, has unique best keys, Traditional Chinese throughout, and two answer-derived target-free glossary sets."
+    },
+    {
+      "sourceOrdinal": 2847,
+      "verdict": "pass",
+      "finding": "Contrast prompt now tests treating a widely repeated rumour as evidence rather than inaccurately explaining another proverb."
+    },
+    {
+      "sourceOrdinal": 2748,
+      "verdict": "remains-held",
+      "finding": "Original creative CDs/table metaphor is no longer in this proposal; exact decision remains hold-editorial for lexical naturalness review, with no exclusion."
+    }
+  ],
+  "rows": [
+    {
+      "sourceOrdinal": 2656,
+      "sourceId": "book10-16-0545",
+      "sourceRawRowSha256": "a7e0b7fbd3f6827171beb286edeecc5ace02ffb2a8528577862f56011715a9ec",
+      "decisionRawRowSha256": "d6d1bf91f18fc63086886c81af2383f2a9bf17aab1df7b505081e86461ecfd97",
+      "exactSourceAndHoldBinding": true,
+      "sourceTargetMatches": true,
+      "status": "focused-repair-passed"
+    },
+    {
+      "sourceOrdinal": 2662,
+      "sourceId": "book10-16-0551",
+      "sourceRawRowSha256": "41463182d44cf4622a288677314ae8b8604b1a80ff9928c4c8431194abf0e135",
+      "decisionRawRowSha256": "a84537f6e4e150ac3ff4a1384ab4994a84db1f0785bb4a51fe8c31bdd9f13348",
+      "exactSourceAndHoldBinding": true,
+      "sourceTargetMatches": true,
+      "status": "unchanged-prior-pass"
+    },
+    {
+      "sourceOrdinal": 2722,
+      "sourceId": "book10-16-0611",
+      "sourceRawRowSha256": "df12de406bdd2c037883aca553641ea782a662d6d2b543f404cc67e6ca9568a5",
+      "decisionRawRowSha256": "297ff41f337724888d94e623b3897522f7c4b791d8a3962e48c55ef6c8ff6f97",
+      "exactSourceAndHoldBinding": true,
+      "sourceTargetMatches": true,
+      "status": "focused-repair-passed"
+    },
+    {
+      "sourceOrdinal": 2725,
+      "sourceId": "book10-16-0614",
+      "sourceRawRowSha256": "b38ac6e6bb731c3446c3f3eb703e4581256934b27aa71aeedffd32da062e7300",
+      "decisionRawRowSha256": "feaf168698b5aeaecd4a258f0dfc310860f7529a9e9aac3860421f23339724a3",
+      "exactSourceAndHoldBinding": true,
+      "sourceTargetMatches": true,
+      "status": "focused-repair-passed"
+    },
+    {
+      "sourceOrdinal": 2763,
+      "sourceId": "book10-16-0652",
+      "sourceRawRowSha256": "ad8fd798f14a169462d1e0c605819c95176da7c57395a0e4d21b5414948f2b6f",
+      "decisionRawRowSha256": "8d702f82ae6588633016b975fa52d991684754b5405b33613a70c95029999cfe",
+      "exactSourceAndHoldBinding": true,
+      "sourceTargetMatches": true,
+      "status": "new-owner-independently-passed"
+    },
+    {
+      "sourceOrdinal": 2801,
+      "sourceId": "book10-16-0690",
+      "sourceRawRowSha256": "c7248913f415829fd33c7956640face9fef967c783dfa768c20a721a96937a0b",
+      "decisionRawRowSha256": "346946c3b44d2e9a66fe856314d8d68c8992608898ebaf627eb8f81f04d9112f",
+      "exactSourceAndHoldBinding": true,
+      "sourceTargetMatches": true,
+      "status": "unchanged-prior-pass"
+    },
+    {
+      "sourceOrdinal": 2821,
+      "sourceId": "book10-16-0710",
+      "sourceRawRowSha256": "eed5c8fbcf1d3997a6db9a8ba3542f2a76689d997064c36f126a3e8c91550dac",
+      "decisionRawRowSha256": "b043d60e80c76e51db6d16d45ee8a55bc41961a9d6bec5c90bd46e9af6a21179",
+      "exactSourceAndHoldBinding": true,
+      "sourceTargetMatches": true,
+      "status": "unchanged-prior-pass"
+    },
+    {
+      "sourceOrdinal": 2823,
+      "sourceId": "book10-16-0712",
+      "sourceRawRowSha256": "ff1f4d11a202d92e7289d1a7bcb0a4e34df1d9308bf6769d574b3e5e016f4a6b",
+      "decisionRawRowSha256": "27e428b042382d8c07df3af1c187001d6b1f8bb9b74ba7d6a6f9cff9511743f1",
+      "exactSourceAndHoldBinding": true,
+      "sourceTargetMatches": true,
+      "status": "unchanged-prior-pass"
+    },
+    {
+      "sourceOrdinal": 2846,
+      "sourceId": "book10-16-0735",
+      "sourceRawRowSha256": "2eb279e3ad2850ebd539a68423d789c0fdb2715550df2ad5cdc14be104a8679e",
+      "decisionRawRowSha256": "558065414e5e2b98db929ce9040c11f607cf8eb109b64a7bc72d5f77353a7226",
+      "exactSourceAndHoldBinding": true,
+      "sourceTargetMatches": true,
+      "status": "unchanged-prior-pass"
+    },
+    {
+      "sourceOrdinal": 2847,
+      "sourceId": "book10-16-0736",
+      "sourceRawRowSha256": "22e5531a810e62f9cafab32cb3d06a8cc85d87d9166cb77385b887aee6628d64",
+      "decisionRawRowSha256": "5d3b3f8466564e1e4d13ee56d0ce94d60ed286dffb82f5d56c118001149d9339",
+      "exactSourceAndHoldBinding": true,
+      "sourceTargetMatches": true,
+      "status": "focused-repair-passed"
+    }
+  ],
+  "remainingBlockers": [],
+  "verdict": "focused-independent-pass",
+  "selectionApprovedByEditorialReview": true,
+  "releaseApproved": false,
+  "scope": "Read-only. No selected manifest, source decisions, selected lessons, audio, hosting, deployment, or release changed by reviewer."
+}
