@@ -9,6 +9,7 @@ import polysemyPackIndex2 from "./polysemy-pack-index-2.json" with { type: "json
 import synonymPackIndex from "./synonym-pack-index.json" with { type: "json" };
 
 const AUDIO_PREFIXES = [
+  "assets/flashcards/audio/edmund-neural/v1-custom-20261024/",
   "assets/dse-argument-bank/audio/v1/",
   "assets/natural-english/audio/advanced-native/v1/",
   "assets/writing-practice/audio/edmund-neural/dse-part-b-kokoro-20260911/",

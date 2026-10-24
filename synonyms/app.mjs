@@ -236,6 +236,8 @@ function answer(letter) {
   saveState = 'saving';
   window.EdmundAnswerSound?.play(correct);
   render(); void syncPending();
+  if (correct && total === 50 && mastered() === 50)
+    document.dispatchEvent(new CustomEvent('edmund:eddy-fifty-complete'));
   if (correct) {host.classList.remove('syn-celebrate');void host.offsetWidth;host.classList.add('syn-celebrate');setTimeout(()=>host.classList.remove('syn-celebrate'),900);}
   host.querySelector('.syn-feedback')?.focus({preventScroll:true});
 }
