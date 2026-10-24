@@ -1,0 +1,52 @@
+{
+  "status": "proposal-only-pending-independent-followup",
+  "sourceOrdinal": 2759,
+  "ownerId": "advanced-native-1062",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-same-sense-six-2322-4697-proposed-b.json",
+  "proposalSha256": "28cd6e40bf276fd81d267a2a2490080000cefa2848bb115ea122e3b1ccd9a619",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-readonly-same-sense-six-2322-4697-b.json",
+  "authorAuditSha256": "b87a266445698e74efbfe43729dfed10f245d4c16aa36c2ae17437354aa4413d",
+  "ownerObjectSha256": "c308718d12c53f8fefb2b03b55baba94a0db547229f5867bee92d47cc70fff2a",
+  "changedField": "advanced-native-1062.target.pattern",
+  "reason": "The prior branch included a variable noun phrase in the highlighted target and omitted the pronoun form named in brief.grammar. The revised branch matches only the reusable core 'something electric about' while checking, without highlighting, a bounded live-event or pronoun complement.",
+  "sourceSentence": "There is something electric about a small live concert.",
+  "sourceMatch": "something electric about",
+  "positiveControls": [
+    "The audience felt the electricity of the moment.",
+    "There is something electric about a small live concert.",
+    "There was something electric about the live performance.",
+    "There is something electric about it.",
+    "There is something electric about this.",
+    "There is something electric about that.",
+    "There is something electric about the quiet room."
+  ],
+  "negativeControls": [
+    "There was something electric about the socket.",
+    "There is something electric about the cable.",
+    "There was something electric about a battery.",
+    "There is something electric about them.",
+    "There is something electric about.",
+    "There is something electric about a concert poster.",
+    "The electricity of the heater was measured.",
+    "Something electric about itches should not match."
+  ],
+  "liveJsResults": {
+    "positive": 7,
+    "negative": 8,
+    "failures": 0,
+    "bothOwnerSourcesMatched": true,
+    "eightTargetBearingKeyAndModelLinesMatched": true
+  },
+  "focusedBuildAndCheck": "6 lessons / 36 questions / 24 audio requests / 0 review flags; both build and --check pass",
+  "unchangedOtherOwnerObjectHashes": {
+    "309": "c3194cb22d80693c23cb1fd68f804446f1425d1ebbc970aad5ceda5b3e3527e6",
+    "1523": "d0218df75d23a65d1384523d4c31df2b0c945ef65451f8b41e95788d37131b74",
+    "2961": "20f917f9d9e025d8f8fd3407fb08d35d86d68e65bd6fbbaf4640d3a716d8317f",
+    "2009": "2e2e9f73c4ca01117968ad921d31527ca414bfb2a2c9924e5c152b2130fbd89f",
+    "3715": "998766671e9c3bb811b1631fcf96005de44fe43b0647a8efa8f74cb014324439"
+  },
+  "limitations": [
+    "A pronoun complement such as 'it' needs surrounding lesson context to establish figurative excitement; regex cannot determine sense alone.",
+    "No selected owner, decision, manifest, audio, browser, release or publication file was changed."
+  ]
+}

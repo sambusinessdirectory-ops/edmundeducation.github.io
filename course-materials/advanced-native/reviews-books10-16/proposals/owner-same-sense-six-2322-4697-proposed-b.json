@@ -1,0 +1,1760 @@
+{
+  "schemaVersion": 1,
+  "batchId": "proposal-same-sense-six-2322-4697-b-unselected",
+  "lessons": [
+    {
+      "id": "advanced-native-309",
+      "number": 309,
+      "inventoryId": "expr-0309",
+      "titleEn": "black and white",
+      "titleZh": "非黑即白的簡單劃分",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bblack(?: and |\\-and\\-)white\\b",
+        "glossaryForbidden": [
+          "\\bblack(?: and |\\-and\\-)white\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Clear-cut, with simple opposed categories and little ambiguity; often negated to acknowledge complexity.",
+        "meaningZh": "界線分明，簡單分成對立類別，少有含糊；常以否定表示情況較複雜。",
+        "grammar": "be/not be black and white; a black-and-white issue/decision uses hyphens before a noun. Both forms describe simple opposed categories in judgement, not monochrome images or in black and white meaning in writing.",
+        "register": "Common idiom about distinctions or decisions.",
+        "boundaryZh": "not black and white 不表示無法判斷或所有選擇一樣；要比較理由、情境及取捨。",
+        "misconceptionZh": "承認複雜不等於放棄標準；也不因有困難就免去解釋決定。",
+        "outcomeZh": "能指出簡單二分的局限，仍用相關理由作判斷。"
+      },
+      "sources": [
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 5,
+          "expression": "black and white",
+          "sentence": "The decision is not always black and white.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 2,
+          "question": 5,
+          "sample": "S2",
+          "locatorNote": "PDF page 5, table 1, row 7; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p005-t1-r07"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 6,
+          "expression": "black and white",
+          "sentence": "The decision is not always black and white.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 2,
+          "question": 6,
+          "sample": "S2",
+          "locatorNote": "PDF page 6, table 1, row 7; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p006-t1-r07"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 57,
+          "expression": "black and white",
+          "sentence": "The decision is not always black and white.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 3,
+          "question": 25,
+          "sample": "S2",
+          "locatorNote": "PDF page 57, table 2, row 5; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p057-t2-r05"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 200,
+          "expression": "black and white",
+          "sentence": "The decision is not always black and white.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 7,
+          "question": 27,
+          "sample": "S2",
+          "locatorNote": "PDF page 200, table 1, row 2; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p200-t1-r02"
+        },
+        {
+          "occurrenceId": "pdf-2-p130-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 130,
+          "book": 5,
+          "question": 33,
+          "sample": "S1",
+          "sourceBookPages": "87–89",
+          "expression": "not a black-and-white issue",
+          "sentence": "Fairness is not a black-and-white issue.",
+          "referenceSentenceKind": "guide_original_example"
+        },
+        {
+          "occurrenceId": "pdf-2-p218-t1-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 218,
+          "book": 8,
+          "question": 14,
+          "sample": "S2",
+          "locatorNote": "Actual guide example and question context inspected; no locator inferred.",
+          "sentence": "Complex events should not become black-and-white stories.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "black-and-white stories",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-0211",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 19,
+          "book": 10,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "39–40",
+          "locatorNote": "DOCX table 16, row 2; page is the locally rendered PDF page. Same-sense alias proposed; the exact source wording remains provenance, not a verbatim learner model.",
+          "sentence": "We should not paint it in black and white when both plans have merits.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "paint it in black and white"
+        }
+      ],
+      "listening": {
+        "en": "The choice was not black and white: the cheaper venue was farther away, while the central one cost more but was easier for families to reach.",
+        "zh": "選擇並非非黑即白：較便宜場地更遠，市中心場地較貴，但家庭較易到達。",
+        "promptZh": "為甚麼選擇不簡單？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Both venues had exactly the same cost and location.",
+            "zh": "兩個場地費用與位置完全相同。"
+          },
+          {
+            "id": "b",
+            "en": "Each venue had an advantage and a drawback to weigh.",
+            "zh": "每個場地都有需衡量的優點與缺點。"
+          },
+          {
+            "id": "c",
+            "en": "Price was the only factor and clearly settled the choice.",
+            "zh": "價格是唯一因素，已清楚決定選擇。"
+          },
+          {
+            "id": "d",
+            "en": "The speaker says comparing the venues has no purpose.",
+            "zh": "說話者說比較場地毫無意義。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "便宜與可達性有取捨，不是不能比較或兩者相同。"
+      },
+      "reply": {
+        "promptZh": "為甚麼你不能只看票面租金就選場地？",
+        "promptEn": "Why can you not choose the venue by rent alone?",
+        "options": [
+          {
+            "id": "a",
+            "en": "Travel distance matters as well as the price.",
+            "zh": "除價格外，路程也重要。"
+          },
+          {
+            "id": "b",
+            "en": "The cheaper place is harder for families to reach.",
+            "zh": "較便宜地方讓家庭較難到達。"
+          },
+          {
+            "id": "c",
+            "en": "The choice is not black and white.",
+            "zh": "選擇並非非黑即白。"
+          },
+          {
+            "id": "d",
+            "en": "We have to weigh cost against accessibility.",
+            "zh": "我們需衡量費用與可達性。"
+          }
+        ],
+        "explanationZh": "四句都說明有取捨，不是只按價格即可；金句否定簡單二分。",
+        "goldenId": "c"
+      },
+      "scene": {
+        "promptZh": "學生遲交因要照顧家人，你仍要考慮班規、公平與支援，不能只說懶惰或完全不用交。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The situation is not black and white; the reasons and responsibilities both matter.",
+            "zh": "情況並非非黑即白；理由與責任都重要。"
+          },
+          {
+            "id": "b",
+            "en": "A complex case means there is no reason to apply or discuss any standard.",
+            "zh": "個案複雜表示沒有理由運用或討論任何標準。"
+          },
+          {
+            "id": "c",
+            "en": "The caring responsibility proves that all deadlines are irrelevant to everyone.",
+            "zh": "照顧責任證明所有人的期限都不相關。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "情境複雜需綜合考慮，不是把責任及規則一概抹去。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解最不符合 not black and white？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A decision may involve competing considerations.",
+            "zh": "決定可能涉及相互牽制的考慮。"
+          },
+          {
+            "id": "b",
+            "en": "The simple two-way division may miss important context.",
+            "zh": "簡單二分可能漏掉重要情境。"
+          },
+          {
+            "id": "c",
+            "en": "No evidence or reason can help distinguish the available choices.",
+            "zh": "任何證據或理由都無法幫助區分選擇。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "複雜不表示理據無用，反而需更仔細比較。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「既然事情並非非黑即白，我們隨便選也一樣。」哪句回應最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us treat the trade-offs as proof that evidence cannot matter.",
+            "zh": "把取捨當作證據不能有用的證明吧。"
+          },
+          {
+            "id": "b",
+            "en": "It is not black and white, so we should compare the reasons carefully rather than treat the choices as equal.",
+            "zh": "事情並非非黑即白，所以我們應仔細比較理由，而不是把兩個選擇當成一樣。"
+          },
+          {
+            "id": "c",
+            "en": "Because price is easier to measure, access needs can be left out of the decision.",
+            "zh": "因為價格較易量度，可把可達需要排除在決定外。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "「並非非黑即白」表示需要比較不同因素，不等於所有選擇一樣或可以隨便選。"
+      },
+      "speaking": {
+        "en": "The decision is not black and white because both options involve trade-offs.",
+        "zh": "決定並非非黑即白，因為兩個選項都有取捨。",
+        "promptZh": "先聽示範，再表達複雜選擇仍需理據。",
+        "targetSpan": {
+          "start": 20,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你修改展覽說明牌，短版容易快速讀完，卻省略了理解作品所需背景；長版保留背景，但閱讀負擔較大。用一至兩句英文提醒不能只按字數選，提出比較方法。",
+        "examples": [
+          {
+            "en": "The choice is not black and white: a shorter label is easier to scan but may lose essential context. We should test what visitors understand.",
+            "zh": "選擇並非非黑即白：較短說明牌易快速讀，卻可能失去必要背景。我們應測試訪客理解甚麼。"
+          },
+          {
+            "en": "It is not black and white when brevity helps reading but removes useful explanation. Let us compare clarity and context rather than word counts alone.",
+            "zh": "簡短有助閱讀卻刪掉有用解釋時，選擇並非非黑即白。一起比較清晰度與背景，而非只看字數。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a shorter label",
+            "zh": "較短說明牌",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 50
+            }
+          },
+          {
+            "en": "essential context",
+            "zh": "必要背景",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 99
+            }
+          },
+          {
+            "en": "what visitors understand",
+            "zh": "訪客理解甚麼",
+            "exampleIndex": 0,
+            "span": {
+              "start": 116,
+              "end": 140
+            }
+          },
+          {
+            "en": "useful explanation",
+            "zh": "有用解釋",
+            "exampleIndex": 1,
+            "span": {
+              "start": 65,
+              "end": 83
+            }
+          },
+          {
+            "en": "word counts alone",
+            "zh": "只看字數",
+            "exampleIndex": 1,
+            "span": {
+              "start": 132,
+              "end": 149
+            }
+          }
+        ],
+        "selfCheckZh": "說清簡短易讀與保留背景的取捨，以實際理解測試比較，不用複雜當拒絕判斷的理由。"
+      },
+      "takeaways": [
+        {
+          "en": "Questions of fairness are not always black and white.",
+          "zh": "公平問題不一定非黑即白。"
+        },
+        {
+          "en": "A situation that is not black and white still needs careful judgement.",
+          "zh": "並非非黑即白的情況，仍需仔細判斷。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": []
+      },
+      "contentRevision": 3,
+      "aliasInventoryIds": [
+        "expr-1793"
+      ]
+    },
+    {
+      "id": "advanced-native-1062",
+      "number": 1062,
+      "inventoryId": "expr-1062",
+      "titleEn": "the electricity of the moment",
+      "titleZh": "現場瞬間的強烈興奮感",
+      "category": "figurative",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\bthe electricity of the moment\\b|\\bsomething electric about\\b(?=\\s+(?:(?:a|the)\\s+(?:(?:small|live|quiet|shared)\\s+){0,2}(?:concert|performance|show|moment|room)\\b(?=$|[.,;:!?)]|\\s+(?:as|when|while|because|and|but|for|that|which|where|with|without|during|after|before|if|though|although|in|at|on)\\b)|(?:it|this|that)\\b))",
+        "glossaryForbidden": [
+          "\\belectricity\\b",
+          "\\bof the moment\\b",
+          "\\bsomething electric about\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p107-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 107,
+          "book": 5,
+          "question": 8,
+          "sample": "S2",
+          "sourceBookPages": "23–26",
+          "sentence": "The audience felt the electricity of the moment.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the electricity of the moment"
+        },
+        {
+          "occurrenceId": "book10-16-0648",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 60,
+          "book": 11,
+          "question": 20,
+          "sample": "S1",
+          "sourceBookPages": "51–52",
+          "locatorNote": "DOCX table 56, row 2; page is the locally rendered PDF page. Same-sense alias proposed; the exact source wording remains provenance, not a verbatim learner model.",
+          "sentence": "There is something electric about a small live concert.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "something electric about"
+        }
+      ],
+      "brief": {
+        "meaningEn": "The intense shared excitement or charged feeling of a particular event as it happens.",
+        "meaningZh": "事件發生當下，強烈而可能共同感受到的興奮或緊張活力。",
+        "grammar": "feel/capture/miss the electricity of the moment; electricity is an excitement image, not a report about electrical supply. Identify whose impression and what moment. A live performance may also have something electric about it; identify the event and whose charged feeling is being described.",
+        "register": "Creative live-experience metaphor. Intensity does not guarantee artistic quality, attendance size or agreement among all people present.",
+        "boundaryZh": "興奮感不是成效、人氣數字或人人認同的證明，亦可在短暫安靜中出現，不必只靠音量。",
+        "misconceptionZh": "可承認強烈體驗，同時保留事後評作品的不同標準。",
+        "outcomeZh": "能用具體互動描寫當下感受，分清感受及可核結果。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "最令說話者印象深刻的是甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The quiet anticipation before the final note, rather than the later applause alone.",
+            "zh": "最後一音前安靜的期待，不只後來掌聲。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The applause began before the soloist’s pause and covered the final note.",
+            "zh": "獨奏者停頓前掌聲已響，蓋過最後一音。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The remembered anticipation began only after the final note and the applause had both finished.",
+            "zh": "所記得的期待，只在最後一音及掌聲都完結後才開始。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The speaker describes a later replay rather than experiencing the pause in the room.",
+            "zh": "說話者在描述後來重播，不是在現場經歷停頓。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "說話者在房內感到最後一音前的共同等待，掌聲在後；不是掌聲後才有期待，也不是後來重播的回顧。",
+        "en": "I felt the electricity of the moment when the young soloist waited before the final note and the room fell quiet; the applause came later, but it was that shared pause I remembered most.",
+        "zh": "年輕獨奏者在最後一音前稍等、全場安靜時，我感到那瞬間的強烈興奮；掌聲後來才響，但我最記得的是共同停頓。"
+      },
+      "reply": {
+        "promptEn": "Why do you remember the pause more than the applause?",
+        "promptZh": "你為甚麼比起掌聲，更記得那停頓？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The room’s quiet waiting made the coming note feel especially intense.",
+            "zh": "全場安靜等待，讓將來的一音感覺特別強烈。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I felt the electricity of the moment in that shared anticipation before the note.",
+            "zh": "在那一音前共同期待中，我感到現場瞬間的強烈興奮。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Everyone’s silence gave the short gap a charged feeling for me.",
+            "zh": "大家安靜，讓那短暫空檔對我有強烈張力。"
+          },
+          {
+            "id": "choice-4",
+            "en": "It was the experience of waiting together that stayed with me afterwards.",
+            "zh": "之後留在我心裏的是一起等待的體驗。"
+          }
+        ],
+        "goldenId": "choice-2",
+        "explanationZh": "四句都具體說明停頓及期待，沒有把興奮限成大聲掌聲。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "首映結束，導演走到台前時，部分觀眾互望微笑，屏息等她回答第一個問題；你想寫自己感到的現場張力，但未收其他人評分。哪句合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I felt the electricity of the moment as we waited for her first answer, without yet knowing how others would rate the film.",
+            "zh": "等待她第一個回答時，我感到現場的強烈張力，仍不知道別人會怎評電影。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The quiet wait confirms that the audience has already given the film a unanimous top rating.",
+            "zh": "安靜等待確認觀眾已一致給電影最高分。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The director had finished answering every question before coming onto the stage.",
+            "zh": "導演上台前，已答完所有問題。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "等待中的強烈感受可以描述，卻不是評分或問答已完成。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不宜由 the electricity of the moment 的感受推出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Someone experiences intense excitement during the event.",
+            "zh": "有人在事件中感到強烈興奮。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The event has therefore been proved successful by every evaluation standard.",
+            "zh": "事件因此已被證明在每種評估標準下都成功。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account should explain what created that charged feeling.",
+            "zh": "敘述應解釋甚麼形成那強烈感受。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "當下感染力與不同評估標準不能互相代替。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友想把你最難忘的安靜停頓刪掉，只留掌聲大小，說那才算現場感。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The electricity of the moment was in the shared waiting for me, so the quiet pause belongs in my account too.",
+            "zh": "對我而言，那瞬間的張力來自共同等待，所以敘述也該保留安靜停頓。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The pause was just an empty gap; the main remembered intensity came once the applause started.",
+            "zh": "停頓只是一段空檔；主要記得的強烈感覺是在掌聲開始後。"
+          },
+          {
+            "id": "choice-3",
+            "en": "We can focus the account on the soloist’s final note and omit how the room responded before it.",
+            "zh": "可把敘述集中在獨奏者最後一音，刪去此前全場的回應。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "說話者最記得的是全場共同等待的張力，應保留停頓；不是掌聲才出現最深感受，也不只演奏者而沒有群體回應。"
+      },
+      "speaking": {
+        "en": "The electricity of the moment came from waiting together for the first response, not just from how loud the room became.",
+        "zh": "那瞬間的強烈張力來自一起等首個回應，不只看房間後來多大聲。",
+        "promptZh": "先聽，再以具體時刻支持感受。",
+        "targetSpan": {
+          "start": 0,
+          "end": 29
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你剪一段學生即興劇紀錄，現只保留鞠躬謝幕。你最想保留的是觀眾忽然提出角色後，演員互望並即場接出新故事的興奮；你要先問表演者是否願加入這段互動，再比較剪法，不保證每位觀看者會同感。用一至兩句英文提出。",
+        "examples": [
+          {
+            "en": "The electricity of the moment was in the unexpected suggestion and the actors’ quick response, not only in the final bows. Could we ask the performers about including that exchange before choosing the edit?",
+            "zh": "那瞬間的強烈興奮在意外建議及演員即時回應，不只在最後鞠躬；選剪法前，可否先問表演者是否願加入這段互動？"
+          },
+          {
+            "en": "I want the film to capture the electricity of the moment when the actors built a new story from the audience’s suggestion. Let us check their wishes and compare a version that includes the spontaneous exchange.",
+            "zh": "我想短片捕捉演員從觀眾建議接出新故事時的強烈興奮；先問他們意願，再比較加入即場互動的版本吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the unexpected suggestion",
+            "zh": "意外建議",
+            "exampleIndex": 0,
+            "span": {
+              "start": 37,
+              "end": 62
+            }
+          },
+          {
+            "en": "the actors’ quick response",
+            "zh": "演員即時回應",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 93
+            }
+          },
+          {
+            "en": "the final bows",
+            "zh": "最後鞠躬",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 121
+            }
+          },
+          {
+            "en": "choosing the edit",
+            "zh": "選擇剪法",
+            "exampleIndex": 0,
+            "span": {
+              "start": 188,
+              "end": 205
+            }
+          },
+          {
+            "en": "the spontaneous exchange",
+            "zh": "即場互動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 185,
+              "end": 209
+            }
+          }
+        ],
+        "selfCheckZh": "用即興建議及相互回應支持興奮感，先問表演者意願並比較版本，不只用結束動作代整段過程，也不保證人人同感。"
+      },
+      "takeaways": [
+        {
+          "en": "She remembered the electricity of the moment when the audience answered the storyteller’s first question.",
+          "zh": "觀眾回答說書人首條問題時，那瞬間的興奮讓她難忘。"
+        },
+        {
+          "en": "There was something electric about the live performance as the audience waited for the first note.",
+          "zh": "觀眾等待第一個音符時，現場演出有一種令人振奮的張力。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Charged-event excitement metaphor. Final proposes how to represent spontaneous collaborative invention in an edited film, distinct from the listening’s quiet anticipation or the scene’s waiting for a director’s first answer."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+      }
+    },
+    {
+      "id": "advanced-native-1523",
+      "number": 1523,
+      "inventoryId": "expr-1523",
+      "contentRevision": 3,
+      "titleEn": "keep relationships / family ties warm",
+      "titleZh": "維繫關係的溫度",
+      "category": "figurative",
+      "target": {
+        "pattern": "(?:\\b(?:keep(?:ing|s)?|kept)\\s+(?:their\\s+relationships|family\\s+ties)\\s+warm\\b)|(?:\\b(?:keep|keeps|keeping|kept) relationships warm\\b)|\\b(?:keep(?:s|ing)?|kept) family ties alive\\b",
+        "glossaryForbidden": [
+          "(?:\\b(?:keep(?:ing|s)?|kept)\\s+(?:their\\s+relationships|family\\s+ties)\\s+warm\\b)|(?:\\b(?:keep|keeps|keeping|kept) relationships warm\\b)|\\b(?:keep(?:s|ing)?|kept) family ties alive\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p175-t2-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 175,
+          "book": 7,
+          "question": 3,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Weekly calls help with keeping their relationships warm.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keeping their relationships warm",
+          "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "pdf-2-p142-t1-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 142,
+          "book": 6,
+          "question": 10,
+          "sample": "S2",
+          "locatorNote": "PDF page 142, table 1, row 8; exact source metadata, no inference.",
+          "sentence": "A weekly call helps with keeping family ties warm.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keeping family ties warm",
+          "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-0833",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 77,
+          "book": 12,
+          "question": 8,
+          "sample": "S1",
+          "sourceBookPages": "20–22",
+          "locatorNote": "DOCX table 78, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Regular calls help with keeping relationships warm.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keeping relationships warm"
+        },
+        {
+          "occurrenceId": "book10-16-0835",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 77,
+          "book": 12,
+          "question": 8,
+          "sample": "S1",
+          "sourceBookPages": "20–22",
+          "locatorNote": "DOCX table 78, row 4; page is the locally rendered PDF page. Same-sense alias proposed; the exact source wording remains provenance, not a verbatim learner model.",
+          "sentence": "The annual meal keeps family ties alive.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "family ties alive"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Maintain affection or emotional closeness in personal relationships, including family ties.",
+        "meaningZh": "維持人際關係中的情感親近，包括家庭連繫。",
+        "grammar": "keep relationships/family ties warm, with or without their before relationships; keeping and kept mark ongoing or past care. Warm refers to emotional closeness. Keep family ties alive is an alternative for sustaining family connection through continuing contact; alive is figurative, not a claim that relatives were literally at risk.",
+        "register": "neutral",
+        "boundaryZh": "warm 是親近的比喻，不是室溫；聯絡能幫助維繫，仍須真誠聆聽，不只是訊息數量，也不保證沒有分歧。",
+        "misconceptionZh": "warm 是親近的比喻，不是室溫；聯絡能幫助維繫，仍須真誠聆聽，不只是訊息數量，也不保證沒有分歧。",
+        "outcomeZh": "理解「維繫關係的溫度」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The cousins are keeping their relationships warm through regular calls in which they listen to one another’s news.",
+        "zh": "表親們定期通話並聆聽彼此近況，維繫關係的溫度。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "他們透過有聆聽的聯絡維持親近。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "他們主要調高房間溫度，沒有談關係。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "他們只記錄通話次數，不在意對方說甚麼。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "句子說定期通話已令親人不再有任何分歧。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "regular calls 加 listen 指情感維繫，不是物理溫度或沒有分歧的保證。"
+      },
+      "reply": {
+        "promptEn": "Why do the cousins make time for regular calls?",
+        "promptZh": "表親們為甚麼抽時間定期通話？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They are keeping their relationships warm despite living far apart.",
+            "zh": "雖住得遠，他們仍在維繫關係的溫度。"
+          },
+          {
+            "id": "reply-2",
+            "en": "They want to hear what matters in one another’s lives.",
+            "zh": "他們想聽彼此生活中重要的事。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Sharing small updates helps them feel connected.",
+            "zh": "分享小近況，幫他們感到彼此有連繫。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The calls give them time to listen and offer support.",
+            "zh": "通話讓他們有時間聆聽和支持對方。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "朋友住得遠，仍定期真心聊生活並聆聽需要，保持親近。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They are keeping their relationships warm.",
+            "zh": "他們正在維繫關係的溫度。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They are only increasing the number of messages without engaging with them.",
+            "zh": "他們只是增加訊息數量，沒有投入交流。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They have left the friendship unattended until the next annual event.",
+            "zh": "他們把友誼擱置，直到下一次年度活動。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "有投入的定期交流支持維繫，不是只數訊息或長期不理。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解最不符合 keeping their relationships warm？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "有聆聽的交流能維持情感親近。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "訊息數目增加便足夠，不需理會對方內容或感受。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "住得遠也能透過真誠交流維繫。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "親近不只靠數量；回應和投入同樣重要。"
+      },
+      "dialogue": {
+        "promptZh": "朋友只想用自動訊息數量判斷親密程度。哪句較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Keeping their relationships warm takes meaningful contact, not only a higher message count.",
+            "zh": "維繫關係的溫度需要有意義交流，不只更多訊息數量。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Increase the scheduled messages before checking whether anyone feels heard.",
+            "zh": "先增加預設訊息，再看是否有人感到被聆聽。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Treat a regular notification as a substitute for responding to personal news.",
+            "zh": "把定期通知當作回應個人近況的替代品。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "自動頻率可提醒聯絡，不能直接代替有投入的回應。"
+      },
+      "speaking": {
+        "en": "Regular calls help the cousins keep their relationships warm.",
+        "zh": "定期通話幫表親們維繫關係的溫度。",
+        "targetSpan": {
+          "start": 31,
+          "end": 60
+        },
+        "promptZh": "你想形容真誠聯絡的維繫作用。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：社團成員住得近但工作繁忙，大型聚會不常有；他們仍安排短散步，真心聆聽彼此生活。用一至兩句英文描述日常維繫。",
+        "examples": [
+          {
+            "en": "The club members are keeping their relationships warm through short walks between the larger gatherings. They make time to listen to one another.",
+            "zh": "社團成員在大型聚會之間透過短散步維繫關係的溫度。他們抽時間聆聽彼此。"
+          },
+          {
+            "en": "Shared walks help the busy members keep their relationships warm, even when there is no large event.",
+            "zh": "即使沒有大型活動，一起散步仍幫忙碌成員維繫關係的溫度。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The club members",
+            "zh": "社團成員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 16
+            }
+          },
+          {
+            "en": "short walks",
+            "zh": "短散步",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 73
+            }
+          },
+          {
+            "en": "the larger gatherings",
+            "zh": "大型聚會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 103
+            }
+          },
+          {
+            "en": "make time to listen",
+            "zh": "抽時間聆聽",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 129
+            }
+          }
+        ],
+        "selfCheckZh": "指明 their 是成員的關係，以面對面小互動說明維繫，不只靠年度大聚會。"
+      },
+      "takeaways": [
+        {
+          "en": "The friends are keeping their relationships warm through regular conversations.",
+          "zh": "朋友們透過定期交談維繫關係的溫度。"
+        },
+        {
+          "en": "A regular shared meal can keep family ties alive when relatives make time to listen and catch up.",
+          "zh": "親人若藉定期聚餐聆聽彼此、交流近況，就能維繫家庭連繫。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-2961",
+      "number": 2961,
+      "inventoryId": "expr-2961",
+      "titleEn": "more show than substance",
+      "titleZh": "外表風光多於實質",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bmore show than substance\\b|\\ball glitter and no substance\\b",
+        "glossaryForbidden": [
+          "\\bmore show than substance\\b|\\ball glitter and no substance\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Impressive presentation or publicity outweighs genuine practical value.",
+        "meaningZh": "表面聲勢或宣傳大於真正的實際價值。",
+        "grammar": "More show than substance; compare visible display with what the event or proposal actually delivers. All glitter and no substance is a related display-versus-value judgement; glitter refers to surface attraction, not literal decorative material.",
+        "register": "Critical but natural commentary. A community organiser may use it when a launch event is lavish but promised services do not appear.",
+        "boundaryZh": "須有外在展示與實際成果的對照；單純設計漂亮、但同時提供有用服務，不足以批評為華而不實。",
+        "misconceptionZh": "不表示完全沒有任何價值，也不是反對所有慶祝或設計。",
+        "outcomeZh": "能指出宣傳或場面，以及缺乏的具體實際成果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0850",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 79,
+          "book": 12,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "23–25",
+          "locatorNote": "DOCX table 79, row 14; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The costly event felt more show than substance.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "more show than substance"
+        },
+        {
+          "occurrenceId": "book10-16-0855",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 79,
+          "book": 12,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "26–29",
+          "locatorNote": "DOCX table 80, row 6; page is the locally rendered PDF page. Same-sense alias proposed; the exact source wording remains provenance, not a verbatim learner model.",
+          "sentence": "The ceremony was all glitter and no substance.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "all glitter and no substance"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "A costly health fair had banners, cameras and a long opening speech, but no appointment desk or written guidance for visitors. Several people left without knowing where to seek help. It felt more show than substance.",
+        "zh": "昂貴健康展有橫幅、鏡頭及冗長開幕演說，卻沒有預約櫃檯或給訪客的書面指引。多人離開時仍不知去哪裏求助。活動顯得外表風光多於實質。",
+        "promptZh": "甚麼支持這項批評？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The polished launch did not provide the practical help visitors needed.",
+            "zh": "漂亮的開幕沒有提供訪客需要的實際協助。"
+          },
+          {
+            "id": "b",
+            "en": "The fair had no visual material of any kind.",
+            "zh": "展會完全沒有任何視覺材料。"
+          },
+          {
+            "id": "c",
+            "en": "The appointment desk gave detailed help to everyone.",
+            "zh": "預約櫃檯為所有人提供詳細協助。"
+          },
+          {
+            "id": "d",
+            "en": "The fair was cancelled before visitors arrived.",
+            "zh": "訪客到來前展會已取消。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "外在聲勢與實際服務不相稱。"
+      },
+      "reply": {
+        "promptEn": "A new study app launches with celebrity videos and glossy ads, but the promised practice questions are missing and users cannot save answers. What might a student say?",
+        "promptZh": "（新學習程式以明星影片和精美廣告推出，但承諾的練習題缺失，用戶也不能儲存答案。學生可怎樣說？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The publicity is stronger than the learning tools.",
+            "zh": "宣傳比學習工具強。"
+          },
+          {
+            "id": "b",
+            "en": "The missing questions matter more than the videos.",
+            "zh": "缺失練習題比影片更重要。"
+          },
+          {
+            "id": "c",
+            "en": "It looks more show than substance.",
+            "zh": "它看來外表風光多於實質。"
+          },
+          {
+            "id": "d",
+            "en": "The attractive launch does not deliver the promised practice.",
+            "zh": "吸引的推出活動沒有提供承諾的練習。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均比較展示與實際功能。"
+      },
+      "scene": {
+        "promptZh": "社區計劃舉行華麗記者會，卻仍沒有開通承諾的輔導熱線。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The launch is more show than substance.",
+            "zh": "推出活動外表風光多於實質。"
+          },
+          {
+            "id": "b",
+            "en": "The hotline is already helping every resident.",
+            "zh": "熱線已協助每位居民。"
+          },
+          {
+            "id": "c",
+            "en": "Any attractive design makes a service useless.",
+            "zh": "任何好看設計都令服務無用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "宣傳先行而核心服務未到位。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 more show than substance？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A modestly designed service quietly delivers the promised appointments and clear guidance to users.",
+            "zh": "設計樸素的服務默默提供承諾的預約及清楚指引。"
+          },
+          {
+            "id": "b",
+            "en": "A polished programme advertises lessons that are not yet available.",
+            "zh": "精美計劃宣傳尚未開辦的課。"
+          },
+          {
+            "id": "c",
+            "en": "A large launch ceremony offers no way to access the announced support.",
+            "zh": "盛大開幕禮卻沒有取得所宣布支援的方法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "實際成果到位且沒有空洞宣傳。"
+      },
+      "dialogue": {
+        "promptEn": "A: The new reading centre has a dramatic launch video, but the books are not catalogued and visitors cannot borrow any yet. B: ______",
+        "promptZh": "（甲：新閱讀中心有震撼開幕影片，但書籍尚未編目，訪客也未能借閱。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The launch display is ahead of the service.",
+            "zh": "開幕展示走在服務前面。"
+          },
+          {
+            "id": "b",
+            "en": "Borrowing matters more than the video for readers.",
+            "zh": "對讀者而言借書比影片重要。"
+          },
+          {
+            "id": "c",
+            "en": "At the moment, it seems more show than substance.",
+            "zh": "目前看來外表風光多於實質。"
+          },
+          {
+            "id": "d",
+            "en": "Cataloguing the books would give the centre practical value.",
+            "zh": "為書編目才能讓中心有實際價值。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指當前展示超過可用服務。"
+      },
+      "speaking": {
+        "en": "The park project’s illuminated model impressed visitors, but with no confirmed accessible path in the actual plan it risked becoming more show than substance.",
+        "zh": "公園工程的發光模型令訪客印象深刻，但實際計劃尚未確認無障礙路線，恐怕外表風光多於實質。",
+        "promptZh": "比較模型展示與實際缺口。",
+        "targetSpan": {
+          "start": 133,
+          "end": 157
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項產品或計劃各有醒目的宣傳，但承諾的核心效用不足。用英文寫出展示與缺失。",
+        "selfCheckZh": "不能只因作品漂亮就批評；兩例須指出未交付的實際價值。",
+        "examples": [
+          {
+            "en": "The language course was more show than substance: its launch had bright screens and prizes, while learners still lacked the promised feedback sessions.",
+            "zh": "語言課程外表風光多於實質：開幕有亮麗螢幕和獎品，學員卻仍沒有承諾的回饋課。"
+          },
+          {
+            "en": "A glossy neighbourhood guide felt more show than substance because it displayed striking photos but omitted bus access and opening hours visitors needed.",
+            "zh": "精美鄰里指南有奪目照片，卻漏掉訪客需要的巴士路線與開放時間，顯得外表風光多於實質。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "bright screens",
+            "zh": "亮麗螢幕",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 79
+            }
+          },
+          {
+            "en": "feedback sessions",
+            "zh": "回饋課",
+            "exampleIndex": 0,
+            "span": {
+              "start": 133,
+              "end": 150
+            }
+          },
+          {
+            "en": "striking photos",
+            "zh": "奪目照片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 80,
+              "end": 95
+            }
+          },
+          {
+            "en": "opening hours",
+            "zh": "開放時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 123,
+              "end": 136
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "More show than substance contrasts display with actual value.",
+          "zh": "more show than substance 對比外在展示與實際價值。"
+        },
+        {
+          "en": "A polished launch can be all glitter and no substance if the promised help is still missing.",
+          "zh": "開幕活動即使包裝精美，若承諾的支援仍未到位，也可能只是表面耀眼、缺乏實質內容。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2009",
+      "number": 2009,
+      "inventoryId": "expr-2009",
+      "titleEn": "live on reputation alone",
+      "titleZh": "只靠過去名聲維持下去",
+      "category": "idiom",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\bliv(?:e|es|ed|ing) on reputation alone\\b|\\bliv(?:e|es|ed|ing) on reputation forever\\b",
+        "glossaryForbidden": [
+          "\\bon reputation alone\\b",
+          "\\bon reputation forever\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p253-t1-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 253,
+          "book": 9,
+          "question": 18,
+          "sample": "S2",
+          "sourceBookPages": "49–50",
+          "sentence": "Traditional outlets cannot live on reputation alone.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "live on reputation alone"
+        },
+        {
+          "occurrenceId": "book10-16-2582",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 244,
+          "book": 16,
+          "question": 58,
+          "sample": "S2",
+          "sourceBookPages": "134–135",
+          "locatorNote": "DOCX table 273, row 7; page is the locally rendered PDF page. Same-sense alias proposed; the exact source wording remains provenance, not a verbatim learner model.",
+          "sentence": "A city cannot live on reputation forever.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "live on reputation forever"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Depend on an established reputation for continuing support, rather than demonstrate the current work on which that support could also be based.",
+        "meaningZh": "依靠已有名聲維持支持，而不是展示也可作為支持依據的當前工作。",
+        "grammar": "cannot/should not live on reputation alone; a publication, organisation or person can be the subject. Alone limits the basis of support rather than denying that reputation has any value. Cannot live on reputation forever adds a time limit to the same warning: past standing cannot replace evidence of current value indefinitely. A city may be the subject when discussing a destination or its services.",
+        "register": "Conventional dependence-on-reputation expression. The guide’s negative sentence warns against relying only on prestige, not against acknowledging a real record of achievement.",
+        "boundaryZh": "名聲有價值，卻不能自行證明當前服務或作品仍合需要；cannot 的提醒不表示已倒閉或從來沒有成就。",
+        "misconceptionZh": "不能因反對只靠名聲，就抹去過去的好工作；也不能把舊獎項當成今天已核對內容的證據。",
+        "outcomeZh": "能保留過往成就，也指出當前仍需做甚麼來維持信任或參與。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "舊成就與當前工作，有甚麼關係？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The awards remained valuable, but current reporting and corrections were still needed.",
+            "zh": "獎項仍有價值，但仍需要當前報道及更正工作。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The speaker said the old awards had never represented any worthwhile work.",
+            "zh": "說話者說，舊獎項從未代表任何有價值的工作。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Repeating the prize list was presented as enough to check each new local claim.",
+            "zh": "重複得獎名單，被描述成足以核實每項新的本地主張。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The paper had already closed and the account concerned only its final sale.",
+            "zh": "報章已停辦，敘述只關乎最後出售。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "提醒針對只靠名聲，不是否定過去，也不是報告已停辦；核實新資料需要當前工作。",
+        "en": "The local paper could not live on reputation alone: its old awards mattered, but readers still needed clear corrections and checked local reports, not simply the same prize list beside every new article.",
+        "zh": "本地報章不能只靠過去名聲維持：舊獎項有價值，但讀者仍需要清楚更正及已核實的本地報道，而不只是每篇新文章旁邊重貼得獎名單。"
+      },
+      "reply": {
+        "promptEn": "Why did the paper still need checked reports and clear corrections?",
+        "promptZh": "報章為甚麼仍需要核實報道及清楚更正？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It could not live on reputation alone; readers needed evidence of present care.",
+            "zh": "它不能只靠過去名聲維持；讀者需要看見當前的用心及依據。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Old awards did not check the facts in each new article.",
+            "zh": "舊獎項沒有核實每篇新文章的事實。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Trust needed support from what the paper was doing now.",
+            "zh": "信任需要報章現在所做的工作支持。"
+          },
+          {
+            "id": "choice-4",
+            "en": "A prize list could record past achievement without answering current readers’ questions.",
+            "zh": "得獎名單可以記錄過去成就，卻不會回答當前讀者的問題。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都指出當前品質與舊成就不同，不把名聲當成沒有價值，也不讓它代做新工作。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "一間多年有口碑的修理店，仍逐件檢查新送來物品、清楚解釋限制及跟進結果。評論只因它有舊名聲，就說一定只靠名聲。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Having a reputation does not show that the shop is trying to live on reputation alone when current careful work is described.",
+            "zh": "敘述有當前細心工作時，有名聲不表示店舖正只靠名聲維持。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Mentioning its history establishes that the shop no longer checks new repairs.",
+            "zh": "提及歷史，就確立店舖不再檢查新維修。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The checks took place only when the shop first earned its reputation, not on the newly delivered items.",
+            "zh": "檢查只在店舖最初建立名聲時進行，不是針對新送來的物品。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "要看是否只靠名聲；這裏明說逐件檢查新送來物品，當前工作與過去好紀錄可以並存。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不符合「We cannot live on reputation alone」的提醒？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Recognise earlier achievements while checking current standards.",
+            "zh": "承認早期成就，也檢視當前標準。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Treat past prestige as a substitute for asking whether the present work meets people’s needs.",
+            "zh": "把過去名望當成替代品，不再問當前工作是否符合需要。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Identify what present action would support continuing trust.",
+            "zh": "指出哪些當前行動可支持持續信任。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "提醒是讓當前表現支持信任，不是只陳列過往名聲或否定所有舊成就。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "伙伴說：「得過獎，就不用公開今天那則更正，讀者自然會信吧？」你仍有一個已確認的錯誤要更正。哪個回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We cannot live on reputation alone; a clear correction is part of earning trust in what we publish now.",
+            "zh": "我們不能只靠過去名聲維持；清楚更正，是讓現在刊出的內容值得信任的一部分。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would put the award list beside the article instead of showing readers what changed.",
+            "zh": "我會把得獎名單放在文章旁，而不向讀者說明改了甚麼。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would revise the wording quietly and let the old awards stand as the explanation for why readers can trust it.",
+            "zh": "我會悄悄修改措辭，仍以舊獎項解釋讀者為何可相信它。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "更正回應的是當前已知錯誤；只列得獎名單或悄悄改字，都沒有向讀者清楚交代變更。"
+      },
+      "speaking": {
+        "en": "Our group cannot live on reputation alone, so we want newcomers to see how we work now rather than only hear what we won before.",
+        "zh": "團體不能只靠過去名聲維持，所以我們想讓新來者看見現在怎樣做，而不只聽以前贏過甚麼。",
+        "promptZh": "先聽示範，再把當前做法與舊成就分清。",
+        "targetSpan": {
+          "start": 17,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你的樂團以往得過獎，但新成員第一次排練時看不懂舊樂譜記號，也不知道何時可提問。你想在成員會上提議一次簡短導入及固定提問時段，讓新來者真正能參與，不取消舊團員的成就。用一至兩句英文提出建議。",
+        "examples": [
+          {
+            "en": "We cannot live on reputation alone if new members cannot follow the markings or find a moment to ask. Could we begin with a short guide to the score and set aside time for their questions?",
+            "zh": "如果新成員看不懂記號，也找不到時間發問，我們便不能只靠過去名聲維持。我們可否先簡短介紹樂譜，並留時間回答他們的問題？"
+          },
+          {
+            "en": "The awards are worth celebrating, but the band cannot live on reputation alone. A brief introduction to our markings and a regular question time would help newcomers take part in the work behind that record.",
+            "zh": "獎項值得慶祝，但樂團不能只靠過去名聲維持。簡短介紹記號，加上固定提問時間，可幫新來者參與支撐那份紀錄的實際工作。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "new members",
+            "zh": "新成員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 38,
+              "end": 49
+            }
+          },
+          {
+            "en": "follow the markings",
+            "zh": "看懂那些記號",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 76
+            }
+          },
+          {
+            "en": "a short guide to the score",
+            "zh": "簡短樂譜指引",
+            "exampleIndex": 0,
+            "span": {
+              "start": 122,
+              "end": 148
+            }
+          },
+          {
+            "en": "their questions",
+            "zh": "他們的問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 172,
+              "end": 187
+            }
+          },
+          {
+            "en": "a regular question time",
+            "zh": "固定提問時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 121,
+              "end": 144
+            }
+          }
+        ],
+        "selfCheckZh": "建議要針對新成員的具體參與障礙提出導入方法，保留舊成就但不讓它代替教學及聆聽；不聲稱一次介紹必定讓每人立即熟練。"
+      },
+      "takeaways": [
+        {
+          "en": "The festival could not live on reputation alone when returning visitors wanted to know how this year’s programme had been chosen.",
+          "zh": "舊訪客想知道今年節目怎樣挑選時，藝術節不能只靠過去名聲維持。"
+        },
+        {
+          "en": "The gallery cannot live on reputation forever; visitors also need to know what its current programme offers.",
+          "zh": "畫廊不能永遠只靠過往名聲；訪客也需要知道目前的展覽計劃提供甚麼。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Negative reliance-on-prestige warning preserves real earlier achievements. Main ongoing reporting responsibility, inverse scene reputable shop still doing careful current work, final concrete orientation proposal removes newcomers’ participation barriers rather than merely repeating a demand for fact checking."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+      }
+    },
+    {
+      "id": "advanced-native-3715",
+      "number": 3715,
+      "inventoryId": "expr-3715",
+      "titleEn": "move with the times",
+      "titleZh": "與時並進",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:move|moves|moved|moving) with the times\\b|\\b(?:evolve|evolves|evolved|evolving) with the times\\b",
+        "glossaryForbidden": [
+          "\\b(?:move|moves|moved|moving) with the times\\b|\\b(?:evolve|evolves|evolved|evolving) with the times\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Adapt one’s practices to changing technology, needs or social expectations while keeping the underlying purpose.",
+        "meaningZh": "隨技術、需要或社會期望改變而調整做法，同時保留原本目的。",
+        "grammar": "Move with the times is an intransitive verb phrase; the subject is usually an organisation or person adapting over time. Move changes tense; with the times stays fixed. Evolve with the times is a same-sense alternative. Evolve takes normal tense inflections; with the times stays fixed, and the change should answer a real need.",
+        "register": "Neutral conversational English. A service manager may say it to colleagues discussing an evidence-based update.",
+        "boundaryZh": "不是追逐每個潮流；應有需要改變的具體證據，亦可保留原有服務。",
+        "misconceptionZh": "不是搬到另一個時區，也不表示舊方法必須全部廢除。",
+        "outcomeZh": "能指出變化、調整方式及仍要服務的人。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1604",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 151,
+          "book": 14,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "36–38",
+          "locatorNote": "DOCX table 160, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The library has to move with the times.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "move with the times"
+        },
+        {
+          "occurrenceId": "book10-16-2586",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 244,
+          "book": 16,
+          "question": 58,
+          "sample": "S2",
+          "sourceBookPages": "134–135",
+          "locatorNote": "DOCX table 273, row 11; page is the locally rendered PDF page. Same-sense alias proposed; the exact source wording remains provenance, not a verbatim learner model.",
+          "sentence": "Hotels must evolve with the times.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "evolve with the times"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 3,
+      "listening": {
+        "en": "Many pharmacy patients now reorder medicine after work. The pharmacy added an evening online request form but kept the counter for those who prefer staff help. It can move with the times without excluding them.",
+        "zh": "不少藥房病人如今下班後才補訂藥物。藥房增設晚間網上申請表，同時為偏好職員協助的人保留櫃位。它可以與時並進，又不排除他們。",
+        "promptZh": "藥房怎樣回應顧客習慣改變？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It added an evening request option while retaining in-person service.",
+            "zh": "增設晚間申請方式，同時保留面對面服務。"
+          },
+          {
+            "id": "b",
+            "en": "It closed the counter and refused to speak with patients.",
+            "zh": "它關閉櫃位並拒絕與病人交談。"
+          },
+          {
+            "id": "c",
+            "en": "It stopped supplying regular medicine.",
+            "zh": "它不再供應常用藥。"
+          },
+          {
+            "id": "d",
+            "en": "It changed the pharmacy’s time zone.",
+            "zh": "它改變了藥房所在時區。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新方式配合下班後需求，同時保留原有服務。"
+      },
+      "reply": {
+        "promptEn": "More residents now check bus arrivals on phones, but some still rely on printed timetables. The bus office adds a live feed and keeps notices at stops. Why is this a sensible update?",
+        "promptZh": "（更多居民如今用手機查巴士到站時間，但有些人仍依賴紙本時間表。巴士公司增設即時資訊，同時保留站牌通知。為何這項更新合理？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It responds to a change in how many people seek information.",
+            "zh": "它回應不少人查找資訊方式的改變。"
+          },
+          {
+            "id": "b",
+            "en": "It still serves people who use printed notices.",
+            "zh": "它仍服務依賴紙本通知的人。"
+          },
+          {
+            "id": "c",
+            "en": "The office can move with the times without dropping the older channel.",
+            "zh": "公司可與時並進，而不放棄舊有渠道。"
+          },
+          {
+            "id": "d",
+            "en": "Both channels can help travellers plan the same journey.",
+            "zh": "兩種渠道都可幫旅客規劃同一段路程。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均依據兩種資訊方式；金句概括有取捨的更新。"
+      },
+      "scene": {
+        "promptZh": "社區診所發現越來越多人要在晚上查覆診日期，於是加入安全的網上查詢，同時保留電話服務。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The clinic moves with the times while keeping access for callers.",
+            "zh": "診所與時並進，同時保留電話使用者的服務。"
+          },
+          {
+            "id": "b",
+            "en": "The clinic has replaced every human appointment with a machine.",
+            "zh": "診所已用機器取代每項人手預約。"
+          },
+          {
+            "id": "c",
+            "en": "The clinic changes only because digital services are fashionable, with no patient need.",
+            "zh": "診所只因數碼服務流行而改變，並無病人需要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有明確新需求，也保留舊渠道。"
+      },
+      "contrast": {
+        "promptZh": "哪種做法最不能證明 move with the times？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An organisation copies a popular app without checking whether its users need it or can access it.",
+            "zh": "機構只因程式流行便照搬，沒有查核用戶是否需要或能否使用。"
+          },
+          {
+            "id": "b",
+            "en": "A centre extends evening hours after residents repeatedly request them.",
+            "zh": "中心在居民多次提出要求後延長晚間服務。"
+          },
+          {
+            "id": "c",
+            "en": "A service adds accessible digital forms while retaining help for those who need paper.",
+            "zh": "服務增設無障礙電子表格，同時保留紙本協助。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "盲目追潮流而忽視使用者，不算有根據地與時並進。"
+      },
+      "dialogue": {
+        "promptEn": "A: The sports centre now lets people renew memberships online, but staff still help members at the desk. B: ______",
+        "promptZh": "（甲：體育中心如今讓人網上續會，但職員仍在服務台協助會員。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is moving with the times while keeping help for people who need it.",
+            "zh": "它與時並進，同時保留給有需要者的協助。"
+          },
+          {
+            "id": "b",
+            "en": "That gives members another way to renew.",
+            "zh": "這讓會員多了一種續會方式。"
+          },
+          {
+            "id": "c",
+            "en": "Keeping desk support should help those who prefer it.",
+            "zh": "保留服務台支援應能幫助偏好親身辦理的人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句概括調整與服務延續。"
+      },
+      "speaking": {
+        "en": "The local archive moved with the times by adding searchable digital records after researchers requested remote access, yet it kept supervised access to fragile originals.",
+        "zh": "本地檔案館在研究者要求遠端查閱後加入可搜尋的數碼紀錄，因而與時並進；同時仍保留脆弱原件的受監督查閱。",
+        "promptZh": "指出改變的需求、新做法及原有目的如何保留。",
+        "targetSpan": {
+          "start": 18,
+          "end": 38
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項服務面對使用習慣改變，採取有根據的新做法，同時照顧仍需要舊渠道的人。用英文寫出前因後果。",
+        "selfCheckZh": "兩例須有需求證據與具體調整；不可把每種新工具一概視為進步。",
+        "examples": [
+          {
+            "en": "After market traders asked for later payment hours, the cooperative moved with the times by adding a secure evening payment link while keeping the staffed morning desk.",
+            "zh": "市集商戶要求較晚付款時段後，合作社增設安全的晚間付款連結，並保留早上的人手櫃位，以此與時並進。"
+          },
+          {
+            "en": "After shift workers asked for lessons they could revisit outside class hours, the adult-learning centre moved with the times by offering captioned recordings; tutors still ran face-to-face question sessions.",
+            "zh": "輪班工人要求有課外可重溫的課程後，成人教育中心提供有字幕的錄影課，藉此與時並進；導師仍主持面對面的答疑環節。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "market traders",
+            "zh": "市集商戶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 20
+            }
+          },
+          {
+            "en": "a secure evening payment link",
+            "zh": "安全的晚間付款連結",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 128
+            }
+          },
+          {
+            "en": "the staffed morning desk",
+            "zh": "早上的人手櫃位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 143,
+              "end": 167
+            }
+          },
+          {
+            "en": "captioned recordings",
+            "zh": "有字幕的錄影課",
+            "exampleIndex": 1,
+            "span": {
+              "start": 137,
+              "end": 157
+            }
+          },
+          {
+            "en": "face-to-face question sessions",
+            "zh": "面對面的答疑環節",
+            "exampleIndex": 1,
+            "span": {
+              "start": 176,
+              "end": 206
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Move with the times means adapting to a demonstrated change.",
+          "zh": "move with the times 是因應已證實的改變而調整。"
+        },
+        {
+          "en": "A neighbourhood library can evolve with the times by adding online renewals while keeping in-person help.",
+          "zh": "社區圖書館可加入網上續借服務，同時保留職員當面協助，以順應時代轉變。"
+        }
+      ]
+    }
+  ]
+}

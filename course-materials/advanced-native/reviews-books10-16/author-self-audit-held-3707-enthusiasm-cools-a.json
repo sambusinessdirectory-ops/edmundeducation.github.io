@@ -1,0 +1,147 @@
+{
+  "status": "unselected-revised-author-self-audit-pending-independent-followup",
+  "createdUtc": "2026-10-24T02:28:57.498511+00:00",
+  "scope": {
+    "selectedCheckpoint": 628,
+    "sourceOrdinal": 3707,
+    "draftedCount": 1,
+    "otherHoldsScreened": [
+      2191,
+      2210,
+      2302,
+      2401,
+      2837,
+      2966,
+      3010,
+      3212,
+      3352,
+      3442,
+      3707,
+      3983,
+      4059,
+      4545,
+      4697
+    ],
+    "decisionOrManifestMutation": false
+  },
+  "inputs": {
+    "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "selectedManifestSha256": "bf1012615ddfd8c8438124bbb4a0e2e61a04b737b8989f06cef700b012b5e882",
+    "sourceId": "book10-16-1596",
+    "sourceSentence": "High prices mean enthusiasm can cool down quickly.",
+    "sourceExpression": "enthusiasm can cool down",
+    "sourceQuestion": "Why do you think some inventions have not been successful in the marketplace?",
+    "sourceDocxSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012"
+  },
+  "draft": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-3707-enthusiasm-cools-a.json",
+    "sha256": "ffbd82d2284caf4e03674d69b5c85ff44d5fcb4692ea0bc9d03106bd42d25f6e",
+    "lessonId": "advanced-native-3707",
+    "contentRevision": 2,
+    "selectionState": "unselected; 3707 decision remains hold-editorial"
+  },
+  "sourceAndOwnerGate": {
+    "verdict": "provisionally distinct reusable lesson",
+    "evidence": "Oxford Learner's Dictionary defines figurative cool as becoming less enthusiastic and gives an enthusiasm example; source uses that gradual-interest sense. Existing 4263 lose its spark teaches lost appeal, 1174 keep the fire burning teaches maintaining enthusiasm, 1663 burn out teaches exhaustion under prolonged pressure, and 3155 losing my cool teaches anger. This lesson tests declining interest with remaining participation, not those outcomes.",
+    "primaryReference": "https://www.oxfordlearnersdictionaries.com/definition/english/cool_2",
+    "selectedOwnerDetectorScreen": {
+      "ownersScreened": 1943,
+      "fullSourceHits": 0,
+      "badPatterns": 0
+    },
+    "sourceExampleTargetMatch": true
+  },
+  "sevenStepChecks": {
+    "stages": [
+      "listening",
+      "reply",
+      "scene",
+      "contrast",
+      "dialogue",
+      "speaking",
+      "writing"
+    ],
+    "assessedQuestions": 6,
+    "audioTextRoles": 4,
+    "replyOptions": 4,
+    "replyAllAnswerThePrompt": true,
+    "writingModelAnswers": 2,
+    "exactAnswerDerivedNontargetGlossaryRows": 5,
+    "allSixKeyedAnswersTargetBearingWhereRequired": true,
+    "englishChineseAlignment": "self-checked; independent review pending"
+  },
+  "mechanicalChecks": {
+    "focusedBuild": "1 lesson / 6 questions / 4 audio roles / 0 flags",
+    "focusedCheck": "pass",
+    "targetPositiveControls": 5,
+    "targetNegativeControls": 6,
+    "allControlsPassed": true,
+    "learnerEnglishFields": 28,
+    "guideSourceExamplesCompared": 2604,
+    "sixTokenSourceCopies": 0,
+    "glossaryExactSpans": 5
+  },
+  "screenedButNotDrafted": [
+    {
+      "ordinals": [
+        3010,
+        3352,
+        4697,
+        4545,
+        2837,
+        2966
+      ],
+      "reason": "Prior selected owners already teach the same decision or a close construction; creating another lesson would duplicate ownership."
+    },
+    {
+      "ordinals": [
+        2191,
+        2302,
+        2401,
+        4059
+      ],
+      "reason": "Source expression is awkward or sense/register uncertain; no natural source-faithful seven-step unit established."
+    },
+    {
+      "ordinals": [
+        3442
+      ],
+      "reason": "Earlier independent review held the draft because formal-project prerequisites omitted the source's fatigue-driven everyday-task sense; broad hurdle noun alone has weak standalone value."
+    },
+    {
+      "ordinals": [
+        3983
+      ],
+      "reason": "Source is literal puzzle assembly; figurative coherence already has selected owners."
+    },
+    {
+      "ordinals": [
+        2210,
+        3212
+      ],
+      "reason": "Possible selected-owner variant requires bounded owner/sense review rather than a duplicate new lesson."
+    }
+  ],
+  "limitations": [
+    "No independent semantic or translation review yet.",
+    "No generated audio, browser QA, selection, publication, or human listening is claimed."
+  ],
+  "revision2Repair": {
+    "independentReportPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-3707-enthusiasm-cools-b.json",
+    "independentReportSha256": "cc68b1a52e5fa053ae9fc44ee33d4c470c0cea55ab7eaf880433fc861c940713",
+    "findingsAddressed": [
+      "R3707-01",
+      "R3707-02"
+    ],
+    "changedContexts": "Listening retains source-grounded product price. Reply now uses stated design preferences at unchanged price/hours; scene uses expressed policy support; dialogue uses the artist’s stated feelings; speaking uses archive research; writing transfers to a personal pottery progress note with stated feelings and ongoing practice. Foils were replaced with nearer but unsupported interpretations.",
+    "changedAudioRoles": [
+      "speaking",
+      "takeaway-1",
+      "takeaway-2"
+    ],
+    "focusedBuildAndCheck": "1 lesson / 6 questions / 4 audio roles / 0 flags",
+    "independentRecheckPending": true
+  }
+}

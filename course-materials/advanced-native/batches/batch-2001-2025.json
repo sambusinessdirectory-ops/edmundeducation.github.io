@@ -2110,11 +2110,12 @@
       "titleEn": "live on reputation alone",
       "titleZh": "只靠過去名聲維持下去",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\bliv(?:e|es|ed|ing) on reputation alone\\b",
+        "pattern": "\\bliv(?:e|es|ed|ing) on reputation alone\\b|\\bliv(?:e|es|ed|ing) on reputation forever\\b",
         "glossaryForbidden": [
-          "\\bon reputation alone\\b"
+          "\\bon reputation alone\\b",
+          "\\bon reputation forever\\b"
         ]
       },
       "sources": [
@@ -2130,12 +2131,26 @@
           "sentence": "Traditional outlets cannot live on reputation alone.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "live on reputation alone"
+        },
+        {
+          "occurrenceId": "book10-16-2582",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 244,
+          "book": 16,
+          "question": 58,
+          "sample": "S2",
+          "sourceBookPages": "134–135",
+          "locatorNote": "DOCX table 273, row 7; page is the locally rendered PDF page. Same-sense alias proposed; the exact source wording remains provenance, not a verbatim learner model.",
+          "sentence": "A city cannot live on reputation forever.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "live on reputation forever"
         }
       ],
       "brief": {
         "meaningEn": "Depend on an established reputation for continuing support, rather than demonstrate the current work on which that support could also be based.",
         "meaningZh": "依靠已有名聲維持支持，而不是展示也可作為支持依據的當前工作。",
-        "grammar": "cannot/should not live on reputation alone; a publication, organisation or person can be the subject. Alone limits the basis of support rather than denying that reputation has any value.",
+        "grammar": "cannot/should not live on reputation alone; a publication, organisation or person can be the subject. Alone limits the basis of support rather than denying that reputation has any value. Cannot live on reputation forever adds a time limit to the same warning: past standing cannot replace evidence of current value indefinitely. A city may be the subject when discussing a destination or its services.",
         "register": "Conventional dependence-on-reputation expression. The guide’s negative sentence warns against relying only on prestige, not against acknowledging a real record of achievement.",
         "boundaryZh": "名聲有價值，卻不能自行證明當前服務或作品仍合需要；cannot 的提醒不表示已倒閉或從來沒有成就。",
         "misconceptionZh": "不能因反對只靠名聲，就抹去過去的好工作；也不能把舊獎項當成今天已核對內容的證據。",
@@ -2344,8 +2359,8 @@
           "zh": "舊訪客想知道今年節目怎樣挑選時，藝術節不能只靠過去名聲維持。"
         },
         {
-          "en": "She warned that the workshop should not live on reputation alone and invited recent participants to describe the support they actually received.",
-          "zh": "她提醒工作坊不應只靠過去名聲維持，並邀最近參與者描述實際得到的支援。"
+          "en": "The gallery cannot live on reputation forever; visitors also need to know what its current programme offers.",
+          "zh": "畫廊不能永遠只靠過往名聲；訪客也需要知道目前的展覽計劃提供甚麼。"
         }
       ],
       "review": {

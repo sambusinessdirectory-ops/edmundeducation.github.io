@@ -1,0 +1,359 @@
+{
+  "type": "read-only six-source same-sense owner-expansion proposals",
+  "status": "proposal-only; independent review pending",
+  "recordedAtUtc": "2026-10-24T02:21:42.361561+00:00",
+  "snapshot": {
+    "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "selectedManifestSha256": "bf1012615ddfd8c8438124bbb4a0e2e61a04b737b8989f06cef700b012b5e882",
+    "selectedLessons": 628,
+    "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "currentHolds": 616
+  },
+  "screeningMethod": "Rechecked current hold decisions against prior read-only alias triage, complete source sentences and meanings, earlier selected or canonical owner teaching, full-source target patterns and current assessed uses. Six strongest retained; no quota forced.",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-same-sense-six-2322-4697-proposed-b.json",
+  "proposalSha256": "28cd6e40bf276fd81d267a2a2490080000cefa2848bb115ea122e3b1ccd9a619",
+  "rows": [
+    {
+      "sourceOrdinal": 2322,
+      "sourceId": "book10-16-0211",
+      "sourceExpression": "paint it in black and white",
+      "exactSourceSentence": "We should not paint it in black and white when both plans have merits.",
+      "sourceMeaningAndReason": "Present a complex matter as two simple opposites; a fixed colour metaphor.",
+      "sourceBook": 10,
+      "sourceQuestion": 16,
+      "currentDecision": {
+        "action": "hold-editorial",
+        "file": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+        "fileSha256": "3deeb54dc9cb42f947e5793bd0588f93c47d88d67c01c0d9f124e456b921cacd"
+      },
+      "earlierOwner": {
+        "id": "advanced-native-309",
+        "title": "black and white",
+        "path": "course-materials/advanced-native/batches/batch-0301-0325.json",
+        "fileSha256": "a27ef6e055b8dd34a51a93438c21d6c4f2e6022ef2a90432c6ac2325027b4698",
+        "objectSha256": "10938005ffa956fa3068b906c655d1dde09924f9882e9bff1f7860bad2cabb22",
+        "meaning": "Clear-cut, with simple opposed categories and little ambiguity; often negated to acknowledge complexity."
+      },
+      "senseRationale": "Both sentences reject forcing a complex choice into two simple categories; the added paint it in wording is a carrier, while black and white is the shared teachable target.",
+      "currentPattern": "\\bblack(?: and |\\-and\\-)white\\b",
+      "currentFullSourceMatch": true,
+      "proposedPattern": "\\bblack(?: and |\\-and\\-)white\\b",
+      "proposedFullSourceMatch": true,
+      "proposedOwnerObjectSha256": "c3194cb22d80693c23cb1fd68f804446f1425d1ebbc970aad5ceda5b3e3527e6",
+      "changedTopLevelFields": [
+        "sources",
+        "dialogue",
+        "contentRevision"
+      ],
+      "allFiveAnswerIdsPreserved": true,
+      "changedAudioRole": [],
+      "caveat": "The source’s paint it in black and white wording is less standard than not black and white; the proposed lesson keeps the standard form in learner keys and exact source as provenance.",
+      "confidence": "high",
+      "reviewPriority": 1,
+      "proposedDecision": {
+        "action": "proposed-alias-existing",
+        "canonicalId": "advanced-native-309",
+        "reason": "Both sentences reject forcing a complex choice into two simple categories; the added paint it in wording is a carrier, while black and white is the shared teachable target. Full source is recorded in owner provenance and matched by the bounded proposed target detector; independent content review is required before integration."
+      }
+    },
+    {
+      "sourceOrdinal": 2759,
+      "sourceId": "book10-16-0648",
+      "sourceExpression": "something electric about",
+      "exactSourceSentence": "There is something electric about a small live concert.",
+      "sourceMeaningAndReason": "An exciting quality that feels energetic; electricity is figurative.",
+      "sourceBook": 11,
+      "sourceQuestion": 20,
+      "currentDecision": {
+        "action": "hold-editorial",
+        "file": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+        "fileSha256": "3ab486f50083d297f6980bb2f4037afcaafe5aa369f3500610b786727a43d1f1"
+      },
+      "earlierOwner": {
+        "id": "advanced-native-1062",
+        "title": "the electricity of the moment",
+        "path": "course-materials/advanced-native/batches/batch-1051-1075.json",
+        "fileSha256": "54f8b2f982f99cba4cc50ef6c380c010e7300c9a70a2c4e3718411b9bd20bc44",
+        "objectSha256": "f448f7506051d6bf2a1e23f9848abf252099c55f3cb4020f8d57eabb9efa6df2",
+        "meaning": "The intense shared excitement or charged feeling of a particular event as it happens."
+      },
+      "senseRationale": "Both constructions name a charged, shared live-event feeling; the source’s electric adjective and owner’s electricity noun differ in form but not the audience-excitement decision.",
+      "currentPattern": "\\bthe electricity of the moment\\b",
+      "currentFullSourceMatch": false,
+      "proposedPattern": "\\bthe electricity of the moment\\b|\\bsomething electric about\\b(?=\\s+(?:(?:a|the)\\s+(?:(?:small|live|quiet|shared)\\s+){0,2}(?:concert|performance|show|moment|room)\\b(?=$|[.,;:!?)]|\\s+(?:as|when|while|because|and|but|for|that|which|where|with|without|during|after|before|if|though|although|in|at|on)\\b)|(?:it|this|that)\\b))",
+      "proposedFullSourceMatch": true,
+      "proposedOwnerObjectSha256": "c308718d12c53f8fefb2b03b55baba94a0db547229f5867bee92d47cc70fff2a",
+      "changedTopLevelFields": [
+        "contentRevision",
+        "target",
+        "sources",
+        "brief",
+        "takeaways"
+      ],
+      "allFiveAnswerIdsPreserved": true,
+      "changedAudioRole": [
+        "takeaway-2"
+      ],
+      "caveat": "The detector highlights only something electric about, requires a bounded live-event or pronoun complement, and rejects literal electrical objects. Its pronoun branch needs the lesson context to establish figurative event excitement.",
+      "confidence": "medium",
+      "reviewPriority": 5,
+      "proposedDecision": {
+        "action": "proposed-alias-existing",
+        "canonicalId": "advanced-native-1062",
+        "reason": "Both constructions name a charged, shared live-event feeling; the source’s electric adjective and owner’s electricity noun differ in form but not the audience-excitement decision. Full source is recorded in owner provenance and matched by the bounded proposed target detector; independent content review is required before integration."
+      }
+    },
+    {
+      "sourceOrdinal": 2946,
+      "sourceId": "book10-16-0835",
+      "sourceExpression": "family ties alive",
+      "exactSourceSentence": "The annual meal keeps family ties alive.",
+      "sourceMeaningAndReason": "Continuing connections among relatives; ties and life are figurative.",
+      "sourceBook": 12,
+      "sourceQuestion": 8,
+      "currentDecision": {
+        "action": "hold-editorial",
+        "file": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+        "fileSha256": "a7011b8b9a3350e6f5f207e7a550d3387c22ee9c8990ef822b29da759b7549cc"
+      },
+      "earlierOwner": {
+        "id": "advanced-native-1523",
+        "title": "keep relationships / family ties warm",
+        "path": "course-materials/advanced-native/batches/batch-1501-1525.json",
+        "fileSha256": "71a1a0c3969ea1dd0b3a43a0e1a530a10ba61f0e57a4b767dad929a567403a63",
+        "objectSha256": "a57e9ffd4bb19158c582a61799477ecb10e0bed8f896cbe9848d5e09915761d1",
+        "meaning": "Maintain affection or emotional closeness in personal relationships, including family ties."
+      },
+      "senseRationale": "Keeping family ties alive and keeping them warm both mean maintaining personal connection through meaningful contact; an annual meal is an instance, not proof that all conflict has ended.",
+      "currentPattern": "(?:\\b(?:keep(?:ing|s)?|kept)\\s+(?:their\\s+relationships|family\\s+ties)\\s+warm\\b)|(?:\\b(?:keep|keeps|keeping|kept) relationships warm\\b)",
+      "currentFullSourceMatch": false,
+      "proposedPattern": "(?:\\b(?:keep(?:ing|s)?|kept)\\s+(?:their\\s+relationships|family\\s+ties)\\s+warm\\b)|(?:\\b(?:keep|keeps|keeping|kept) relationships warm\\b)|\\b(?:keep(?:s|ing)?|kept) family ties alive\\b",
+      "proposedFullSourceMatch": true,
+      "proposedOwnerObjectSha256": "d0218df75d23a65d1384523d4c31df2b0c945ef65451f8b41e95788d37131b74",
+      "changedTopLevelFields": [
+        "contentRevision",
+        "target",
+        "sources",
+        "brief",
+        "takeaways"
+      ],
+      "allFiveAnswerIdsPreserved": true,
+      "changedAudioRole": [
+        "takeaway-2"
+      ],
+      "caveat": "Alive need not always imply warmth in arbitrary ties; here the source is a recurring family meal and the owner teaches continuing family closeness.",
+      "confidence": "medium-high",
+      "reviewPriority": 4,
+      "proposedDecision": {
+        "action": "proposed-alias-existing",
+        "canonicalId": "advanced-native-1523",
+        "reason": "Keeping family ties alive and keeping them warm both mean maintaining personal connection through meaningful contact; an annual meal is an instance, not proof that all conflict has ended. Full source is recorded in owner provenance and matched by the bounded proposed target detector; independent content review is required before integration."
+      }
+    },
+    {
+      "sourceOrdinal": 2966,
+      "sourceId": "book10-16-0855",
+      "sourceExpression": "all glitter and no substance",
+      "exactSourceSentence": "The ceremony was all glitter and no substance.",
+      "sourceMeaningAndReason": "Attractive on the surface but lacking real value; a conventional contrast.",
+      "sourceBook": 12,
+      "sourceQuestion": 10,
+      "currentDecision": {
+        "action": "hold-editorial",
+        "file": "course-materials/advanced-native/books10-16/editorial-decisions-2952-3011.jsonl",
+        "fileSha256": "04aa7bf80d4920dcfd3755ee85e864439561c7221fa68624d7aa2c21166842cb"
+      },
+      "earlierOwner": {
+        "id": "advanced-native-2961",
+        "title": "more show than substance",
+        "path": "course-materials/advanced-native/drafts-books10-16/batch-2961-3487-a.json",
+        "fileSha256": "f7f0711035af3841ed60c015b39478b429ff1770dfbfd11337b8f99bb668ff97",
+        "objectSha256": "a47c3002daaeb1f4e5aebcf507d41fc5149f728656a1421a47ea069e48ec90d5",
+        "meaning": "Impressive presentation or publicity outweighs genuine practical value."
+      },
+      "senseRationale": "All glitter and no substance and more show than substance make the same surface-display-versus-delivered-value judgement; the source ceremony is one scenario, not a separate outcome.",
+      "currentPattern": "\\bmore show than substance\\b",
+      "currentFullSourceMatch": false,
+      "proposedPattern": "\\bmore show than substance\\b|\\ball glitter and no substance\\b",
+      "proposedFullSourceMatch": true,
+      "proposedOwnerObjectSha256": "20f917f9d9e025d8f8fd3407fb08d35d86d68e65bd6fbbaf4640d3a716d8317f",
+      "changedTopLevelFields": [
+        "target",
+        "brief",
+        "sources",
+        "contentRevision",
+        "takeaways"
+      ],
+      "allFiveAnswerIdsPreserved": true,
+      "changedAudioRole": [
+        "takeaway-2"
+      ],
+      "caveat": "This adds an alternate figurative construction, not an orthographic variant; reviewer should challenge whether it deserves separate ownership despite identical learner judgement.",
+      "confidence": "medium",
+      "reviewPriority": 6,
+      "proposedDecision": {
+        "action": "proposed-alias-new",
+        "canonicalId": "advanced-native-2961",
+        "reason": "All glitter and no substance and more show than substance make the same surface-display-versus-delivered-value judgement; the source ceremony is one scenario, not a separate outcome. Full source is recorded in owner provenance and matched by the bounded proposed target detector; independent content review is required before integration."
+      }
+    },
+    {
+      "sourceOrdinal": 4693,
+      "sourceId": "book10-16-2582",
+      "sourceExpression": "live on reputation forever",
+      "exactSourceSentence": "A city cannot live on reputation forever.",
+      "sourceMeaningAndReason": "Rely indefinitely on past fame; a fixed sustenance metaphor.",
+      "sourceBook": 16,
+      "sourceQuestion": 58,
+      "currentDecision": {
+        "action": "hold-editorial",
+        "file": "course-materials/advanced-native/books10-16/editorial-decisions-4692-4715.jsonl",
+        "fileSha256": "481e53fc19077be362fdbee8a227c7b38b41c1b5805b28c5e4b83d8e4d249c22"
+      },
+      "earlierOwner": {
+        "id": "advanced-native-2009",
+        "title": "live on reputation alone",
+        "path": "course-materials/advanced-native/batches/batch-2001-2025.json",
+        "fileSha256": "818f2f78501c23aa1b9ce1f2df10f3d2cdc61242376faa028b291e0b94968077",
+        "objectSha256": "fe8162518251ba62f9f880d6fca9e2369c2889f05ca4bbb4afc9e9cdc0e9e1db",
+        "meaning": "Depend on an established reputation for continuing support, rather than demonstrate the current work on which that support could also be based."
+      },
+      "senseRationale": "Forever adds the duration warning to the owner’s alone warning: former standing cannot indefinitely substitute for present quality. The city is a tourism destination, not a literal person living on food.",
+      "currentPattern": "\\bliv(?:e|es|ed|ing) on reputation alone\\b",
+      "currentFullSourceMatch": false,
+      "proposedPattern": "\\bliv(?:e|es|ed|ing) on reputation alone\\b|\\bliv(?:e|es|ed|ing) on reputation forever\\b",
+      "proposedFullSourceMatch": true,
+      "proposedOwnerObjectSha256": "2e2e9f73c4ca01117968ad921d31527ca414bfb2a2c9924e5c152b2130fbd89f",
+      "changedTopLevelFields": [
+        "contentRevision",
+        "target",
+        "sources",
+        "brief",
+        "takeaways"
+      ],
+      "allFiveAnswerIdsPreserved": true,
+      "changedAudioRole": [
+        "takeaway-2"
+      ],
+      "caveat": "Forever stresses time, alone stresses exclusivity; source and owner both require present work rather than relying on past fame.",
+      "confidence": "high",
+      "reviewPriority": 2,
+      "proposedDecision": {
+        "action": "proposed-alias-existing",
+        "canonicalId": "advanced-native-2009",
+        "reason": "Forever adds the duration warning to the owner’s alone warning: former standing cannot indefinitely substitute for present quality. The city is a tourism destination, not a literal person living on food. Full source is recorded in owner provenance and matched by the bounded proposed target detector; independent content review is required before integration."
+      }
+    },
+    {
+      "sourceOrdinal": 4697,
+      "sourceId": "book10-16-2586",
+      "sourceExpression": "evolve with the times",
+      "exactSourceSentence": "Hotels must evolve with the times.",
+      "sourceMeaningAndReason": "Adapt to changing conditions; a fixed expression.",
+      "sourceBook": 16,
+      "sourceQuestion": 58,
+      "currentDecision": {
+        "action": "hold-editorial",
+        "file": "course-materials/advanced-native/books10-16/editorial-decisions-4692-4715.jsonl",
+        "fileSha256": "481e53fc19077be362fdbee8a227c7b38b41c1b5805b28c5e4b83d8e4d249c22"
+      },
+      "earlierOwner": {
+        "id": "advanced-native-3715",
+        "title": "move with the times",
+        "path": "course-materials/advanced-native/drafts-books10-16/batch-3702-3715-a.json",
+        "fileSha256": "f6b121e19a42ca0a3ca0098a304a870db137eddd2bf2356c7ce49c80ff536673",
+        "objectSha256": "f90c3afac8249d6b2e922a9e4332e3528d1d175a8c42a112ee609f7053f0addb",
+        "meaning": "Adapt one’s practices to changing technology, needs or social expectations while keeping the underlying purpose."
+      },
+      "senseRationale": "Evolve with the times and move with the times both mean adapting practices to changing needs while retaining purpose; evolve is an inflected same-sense verb variant.",
+      "currentPattern": "\\b(?:move|moves|moved|moving) with the times\\b",
+      "currentFullSourceMatch": false,
+      "proposedPattern": "\\b(?:move|moves|moved|moving) with the times\\b|\\b(?:evolve|evolves|evolved|evolving) with the times\\b",
+      "proposedFullSourceMatch": true,
+      "proposedOwnerObjectSha256": "998766671e9c3bb811b1631fcf96005de44fe43b0647a8efa8f74cb014324439",
+      "changedTopLevelFields": [
+        "target",
+        "brief",
+        "sources",
+        "contentRevision",
+        "takeaways"
+      ],
+      "allFiveAnswerIdsPreserved": true,
+      "changedAudioRole": [
+        "takeaway-2"
+      ],
+      "caveat": "This adds an alternate verb, not merely an inflection; content review should confirm the same adaptation outcome.",
+      "confidence": "high",
+      "reviewPriority": 3,
+      "proposedDecision": {
+        "action": "proposed-alias-new",
+        "canonicalId": "advanced-native-3715",
+        "reason": "Evolve with the times and move with the times both mean adapting practices to changing needs while retaining purpose; evolve is an inflected same-sense verb variant. Full source is recorded in owner provenance and matched by the bounded proposed target detector; independent content review is required before integration."
+      }
+    }
+  ],
+  "excludedLeads": [
+    {
+      "sourceOrdinal": 2234,
+      "reason": "The source’s created a ripple in water across the team is already recorded as owner1692 provenance but lacks the owner’s like construction and reads as a mixed metaphor; separate naturalness/target review needed before alias."
+    },
+    {
+      "sourceOrdinal": 2349,
+      "reason": "Proposed same-sense new owner2961 occurs later than source2349; the earlier-owner alias rule blocks this simple link."
+    },
+    {
+      "sourceOrdinal": 3366,
+      "reason": "As life unfolds lacks owner1437’s quietly/low-publicity condition; broadening would change the learner decision."
+    },
+    {
+      "sourceOrdinal": 4154,
+      "reason": "Switch off during a lecture lacks owner1487’s straight-away timing; a general disengagement owner would need substantive reauthoring."
+    },
+    {
+      "sourceOrdinal": 4431,
+      "reason": "Wear a relationship thin is a transitive phrase whose naturalness and grammar differ from intransitive wear thin; hold for lexical evidence."
+    },
+    {
+      "sourceOrdinal": 4468,
+      "reason": "Pass it on has an unresolved it referent in the exact sentence, so same-sense transmission to owner1326 is not grounded by the sentence alone."
+    }
+  ],
+  "checks": {
+    "focusedBuild": {
+      "lessons": 6,
+      "questions": 36,
+      "audioRoles": 24,
+      "flags": 0,
+      "build": "pass",
+      "check": "pass"
+    },
+    "nativeJsDetectorControls": {
+      "priorWave": {
+        "positive": 16,
+        "negative": 11,
+        "failures": 0
+      },
+      "revised1062Scoped": {
+        "positive": 7,
+        "negative": 8,
+        "failures": 0
+      },
+      "note": "Scoped live-JS controls for the revised target span supplement the original wave controls; see exact-hash follow-up."
+    },
+    "changedTakeawayOriginality": {
+      "changedEnglishTakeaways": 5,
+      "sourceExamples": 2604,
+      "sixTokenHits": 0
+    },
+    "sourceProvenanceExact": true,
+    "selectedFilesEdited": false,
+    "decisionFilesEdited": false,
+    "selectedManifestEdited": false
+  },
+  "pending": [
+    "Independent re-review of the revised 2759→1062 target span and detector; the other five owner objects already passed and remain unchanged.",
+    "Five changed takeaway-2 texts would require media regeneration and listening only if integrated.",
+    "No publication, database write, upload, commit or release approval."
+  ]
+}

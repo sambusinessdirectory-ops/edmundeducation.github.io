@@ -2948,12 +2948,13 @@
       "titleEn": "the electricity of the moment",
       "titleZh": "現場瞬間的強烈興奮感",
       "category": "figurative",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\bthe electricity of the moment\\b",
+        "pattern": "\\bthe electricity of the moment\\b|\\bsomething electric about\\b(?=\\s+(?:(?:a|the)\\s+(?:(?:small|live|quiet|shared)\\s+){0,2}(?:concert|performance|show|moment|room)\\b(?=$|[.,;:!?)]|\\s+(?:as|when|while|because|and|but|for|that|which|where|with|without|during|after|before|if|though|although|in|at|on)\\b)|(?:it|this|that)\\b))",
         "glossaryForbidden": [
           "\\belectricity\\b",
-          "\\bof the moment\\b"
+          "\\bof the moment\\b",
+          "\\bsomething electric about\\b"
         ]
       },
       "sources": [
@@ -2969,12 +2970,26 @@
           "sentence": "The audience felt the electricity of the moment.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "the electricity of the moment"
+        },
+        {
+          "occurrenceId": "book10-16-0648",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 60,
+          "book": 11,
+          "question": 20,
+          "sample": "S1",
+          "sourceBookPages": "51–52",
+          "locatorNote": "DOCX table 56, row 2; page is the locally rendered PDF page. Same-sense alias proposed; the exact source wording remains provenance, not a verbatim learner model.",
+          "sentence": "There is something electric about a small live concert.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "something electric about"
         }
       ],
       "brief": {
         "meaningEn": "The intense shared excitement or charged feeling of a particular event as it happens.",
         "meaningZh": "事件發生當下，強烈而可能共同感受到的興奮或緊張活力。",
-        "grammar": "feel/capture/miss the electricity of the moment; electricity is an excitement image, not a report about electrical supply. Identify whose impression and what moment.",
+        "grammar": "feel/capture/miss the electricity of the moment; electricity is an excitement image, not a report about electrical supply. Identify whose impression and what moment. A live performance may also have something electric about it; identify the event and whose charged feeling is being described.",
         "register": "Creative live-experience metaphor. Intensity does not guarantee artistic quality, attendance size or agreement among all people present.",
         "boundaryZh": "興奮感不是成效、人氣數字或人人認同的證明，亦可在短暫安靜中出現，不必只靠音量。",
         "misconceptionZh": "可承認強烈體驗，同時保留事後評作品的不同標準。",
@@ -3183,8 +3198,8 @@
           "zh": "觀眾回答說書人首條問題時，那瞬間的興奮讓她難忘。"
         },
         {
-          "en": "The letters described the electricity of the moment before the final result, while the later report recorded what actually happened.",
-          "zh": "書信描述最終結果前那瞬間的強烈期待，之後的報告則記實際發生甚麼。"
+          "en": "There was something electric about the live performance as the audience waited for the first note.",
+          "zh": "觀眾等待第一個音符時，現場演出有一種令人振奮的張力。"
         }
       ],
       "review": {

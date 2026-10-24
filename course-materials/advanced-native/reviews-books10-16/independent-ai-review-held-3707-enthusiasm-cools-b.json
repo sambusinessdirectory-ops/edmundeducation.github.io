@@ -1,0 +1,51 @@
+{
+  "status": "repair-required-unselected",
+  "reviewType": "independent-focused-seven-step-content-review",
+  "sourceOrdinal": 3707,
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-3707-enthusiasm-cools-a.json",
+  "draftSha256": "66deb9640a8b1a5a29eb1e9b2a7a061da027e2925cf4cf081cf453c79000c36d",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-3707-enthusiasm-cools-a.json",
+  "authorAuditSha256": "7060d2d70a978138afa903ffd587995fe55739f05b81d335900f9cc3608ba15e",
+  "source": {
+    "occurrenceId": "book10-16-1596",
+    "sentence": "High prices mean enthusiasm can cool down quickly.",
+    "expression": "enthusiasm can cool down",
+    "verdict": "The figurative weakening-of-interest sense is teachable and distinct from anger cooling, burnout, and complete loss of appeal. The exact source and lesson target match."
+  },
+  "perStep": {
+    "listening": "The stated organiser interpretation makes the price-related cooling answer grounded; EN/ZH agree. Its three foils are easy factual contradictions.",
+    "reply": "All four responses address the committee and preserve continuing members; only A uses the target. A infers weaker interest from fewer sign-ups after a less accessible meeting time, which is not established independently of scheduling difficulty.",
+    "scene": "Key and Chinese agree, but this repeats the reply's logistical barrier, falling new attendance, remaining regulars and cooling inference.",
+    "contrast": "A is the best boundary answer; B lacks prior enthusiasm and C confuses room temperature with interest. It again uses attendance decline as the sole positive evidence.",
+    "dialogue": "A is best and EN/ZH agree; B/C use categorical claims that are plainly contradicted by the prompt. It again assesses falling bookings with some families remaining.",
+    "speaking": "The marked target span is exact and Chinese is faithful. Weekday rescheduling plus continuing players repeats the reply/scene pattern, with attendance used as a proxy for interest.",
+    "writing": "Both complete models follow the prompt, EN/ZH and five exact answer-derived non-target glossary spans align. Yet this final transfer is another meeting moved to a less convenient format, falling attendance over weeks and a small regular group; it changes nouns rather than the learner decision."
+  },
+  "mechanicalSpotChecks": {
+    "sourcePatternMatches": true,
+    "keyedTargetMatches": true,
+    "speakingSpanExact": true,
+    "glossarySpansExact": 5,
+    "glossaryTargetExcluded": true,
+    "authorReportedBuildCheck": "1 lesson / 6 questions / 4 audio roles / 0 flags",
+    "independentBuildRerun": false
+  },
+  "findings": [
+    {
+      "id": "R3707-01",
+      "severity": "major",
+      "paths": ["reply.promptEn", "reply.options[a].en", "scene.promptZh", "scene.options[a].en", "dialogue.promptZh", "speaking.en", "writing.promptZh", "writing.examples"],
+      "finding": "Five successive applications repeat nearly the same decision: a price, timing or route barrier reduces registrations or attendance while a few participants remain, so interest is said to have cooled. Reply and scene especially cannot separate waning enthusiasm from people still wanting to participate but being unable to attend. The final library writing task repeats this participation-after-scheduling frame instead of demonstrating a changed-context transfer.",
+      "requiredRepair": "Keep the source-grounded high-price listening example, but vary at least the reply, scene/speaking and final writing across genuinely different evidence and communicative goals. Show direct indications of weaker enthusiasm in some cases, such as changed expressed preferences, fewer voluntary follow-ups or waning excitement despite unchanged access. Make final writing a different task/domain, not another shortened or rescheduled club with lower turnout. Preserve the useful 'some remain interested' boundary without making every key the same attendance inference. Recheck EN/ZH, target spans and glossary for changed fields."
+    },
+    {
+      "id": "R3707-02",
+      "severity": "minor",
+      "paths": ["listening.options[b..d]", "dialogue.options[b..c]"],
+      "finding": "Several foils are overt contradictions or absolutes (the price made the item cheaper; every family rejected it; every family lost interest). They can be rejected without deciding whether enthusiasm weakened versus disappeared or was merely blocked by access.",
+      "recommendedRepair": "When revising the repeated scenarios, use context-plausible wrong inferences that still have one best answer, such as confusing lower reservations with lower affordability or overstating the strength of the trend."
+    }
+  ],
+  "verdict": "repair-before-selection",
+  "scopeLimit": "Content review only. The draft remains unselected; no audio, browser, physical-device or release approval is claimed."
+}

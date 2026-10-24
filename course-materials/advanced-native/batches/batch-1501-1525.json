@@ -5240,12 +5240,15 @@
       "id": "advanced-native-1523",
       "number": 1523,
       "inventoryId": "expr-1523",
-      "contentRevision": 2,
+      "contentRevision": 3,
       "titleEn": "keep relationships / family ties warm",
       "titleZh": "維繫關係的溫度",
       "category": "figurative",
       "target": {
-        "pattern": "(?:\\b(?:keep(?:ing|s)?|kept)\\s+(?:their\\s+relationships|family\\s+ties)\\s+warm\\b)|(?:\\b(?:keep|keeps|keeping|kept) relationships warm\\b)"
+        "pattern": "(?:\\b(?:keep(?:ing|s)?|kept)\\s+(?:their\\s+relationships|family\\s+ties)\\s+warm\\b)|(?:\\b(?:keep|keeps|keeping|kept) relationships warm\\b)|\\b(?:keep(?:s|ing)?|kept) family ties alive\\b",
+        "glossaryForbidden": [
+          "(?:\\b(?:keep(?:ing|s)?|kept)\\s+(?:their\\s+relationships|family\\s+ties)\\s+warm\\b)|(?:\\b(?:keep|keeps|keeping|kept) relationships warm\\b)|\\b(?:keep(?:s|ing)?|kept) family ties alive\\b"
+        ]
       },
       "sources": [
         {
@@ -5289,12 +5292,26 @@
           "sentence": "Regular calls help with keeping relationships warm.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "keeping relationships warm"
+        },
+        {
+          "occurrenceId": "book10-16-0835",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 77,
+          "book": 12,
+          "question": 8,
+          "sample": "S1",
+          "sourceBookPages": "20–22",
+          "locatorNote": "DOCX table 78, row 4; page is the locally rendered PDF page. Same-sense alias proposed; the exact source wording remains provenance, not a verbatim learner model.",
+          "sentence": "The annual meal keeps family ties alive.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "family ties alive"
         }
       ],
       "brief": {
         "meaningEn": "Maintain affection or emotional closeness in personal relationships, including family ties.",
         "meaningZh": "維持人際關係中的情感親近，包括家庭連繫。",
-        "grammar": "keep relationships/family ties warm, with or without their before relationships; keeping and kept mark ongoing or past care. Warm refers to emotional closeness.",
+        "grammar": "keep relationships/family ties warm, with or without their before relationships; keeping and kept mark ongoing or past care. Warm refers to emotional closeness. Keep family ties alive is an alternative for sustaining family connection through continuing contact; alive is figurative, not a claim that relatives were literally at risk.",
         "register": "neutral",
         "boundaryZh": "warm 是親近的比喻，不是室溫；聯絡能幫助維繫，仍須真誠聆聽，不只是訊息數量，也不保證沒有分歧。",
         "misconceptionZh": "warm 是親近的比喻，不是室溫；聯絡能幫助維繫，仍須真誠聆聽，不只是訊息數量，也不保證沒有分歧。",
@@ -5490,8 +5507,8 @@
           "zh": "朋友們透過定期交談維繫關係的溫度。"
         },
         {
-          "en": "Short, regular messages can keep relationships warm when old friends live in different cities.",
-          "zh": "老朋友分隔不同城市生活時，定期傳簡短訊息有助維繫情誼。"
+          "en": "A regular shared meal can keep family ties alive when relatives make time to listen and catch up.",
+          "zh": "親人若藉定期聚餐聆聽彼此、交流近況，就能維繫家庭連繫。"
         }
       ],
       "review": {

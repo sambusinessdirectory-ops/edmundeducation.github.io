@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-3707-enthusiasm-cools-a",
+  "lessons": [
+    {
+      "id": "advanced-native-3707",
+      "number": 3707,
+      "inventoryId": "expr-3707",
+      "titleEn": "enthusiasm cools down",
+      "titleZh": "熱情逐漸減退",
+      "category": "figurative",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:enthusiasm|interest)\\s+(?:(?:(?:can|may|might|will)\\s+cool)|(?:(?:has|had)\\s+cooled)|(?:(?:is|was)\\s+cooling)|cools|cooled)\\s+(?:down|off)\\b",
+        "glossaryForbidden": [
+          "\\b(?:enthusiasm|interest)\\b",
+          "\\bcool(?:s|ed|ing)?\\s+(?:down|off)\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Initial enthusiasm or interest becomes weaker over time; a cooling metaphor does not by itself say that everybody has lost interest.",
+        "meaningZh": "原本的熱情或興趣隨時間減弱；降溫的比喻本身不表示所有人都已失去興趣。",
+        "grammar": "Use enthusiasm or interest as the subject followed by cool/cools/cooled/cooling down or off. Modal and perfect forms such as enthusiasm can cool down and interest has cooled off are natural. The subject is the feeling, not the person; give a clear activity or proposal and evidence of change. Cooling here means weakening interest, not physical temperature or anger settling.",
+        "register": "Neutral figurative wording. A product organiser may explain to colleagues why registrations slowed after a pricing change; a club member may tell other members that interest in an activity has weakened without claiming the activity is over.",
+        "boundaryZh": "主語是 enthusiasm 或 interest，重點是原有興趣減弱。報名減少、參與變疏落可作證據；不應單靠少人出席第一次活動推斷熱情曾經高漲後降溫，也不等於人人已退出。不要與氣溫下降或怒氣平息混淆。",
+        "misconceptionZh": "不要把 cool down 說成必然完全失去興趣，也不要把人冷靜下來的意思套到熱情減退上。",
+        "outcomeZh": "能根據前後參與變化，審慎說明某項活動的熱情或興趣逐漸減弱，並區分減弱、完全消失及怒氣平息。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1596",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 150,
+          "book": 14,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "34–35",
+          "locatorNote": "DOCX table 159, row 9; page refers to locally rendered PDF in intake summary. Source question: Why do you think some inventions have not been successful in the marketplace?",
+          "sentence": "High prices mean enthusiasm can cool down quickly.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "enthusiasm can cool down"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored exploratory held-source lesson, revision 2 after independent R3707-01/02 scenario-diversity and foil review. Source decision remains hold-editorial; independent exact-hash follow-up, media and release approval pending."
+        ]
+      },
+      "listening": {
+        "en": "Many families asked about a neighbourhood solar-lantern trial. After the price was posted, fewer reserved one, though a small group still wanted it. The organiser said enthusiasm cooled down as the cost became clear.",
+        "zh": "很多家庭都來詢問社區太陽能燈試用活動。公布價格後，預訂的家庭減少了，但仍有一小群人想要。籌辦者說，成本明朗後，大家的熱情逐漸減退。",
+        "promptEn": "What does the organiser mean by saying enthusiasm cooled down?",
+        "promptZh": "籌辦者說熱情逐漸減退，是甚麼意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Early curiosity became weaker after the price was posted, though some families still wanted the lantern.",
+            "zh": "公布價格後，原先的好奇心減弱了，但仍有家庭想要這盞燈。"
+          },
+          {
+            "id": "b",
+            "en": "Fewer families reserved one, but the organiser said their initial excitement was unchanged.",
+            "zh": "預訂的家庭減少了，但籌辦者說他們最初的興奮之情沒有改變。"
+          },
+          {
+            "id": "c",
+            "en": "The remaining small group was more eager than the many families who first asked about the trial.",
+            "zh": "留下來的一小群人比最初詢問試用活動的眾多家庭更熱切。"
+          },
+          {
+            "id": "d",
+            "en": "The price changed reservations, while the organiser made no claim about enthusiasm.",
+            "zh": "價格改變了預訂情況，但籌辦者沒有評論熱情是否改變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "起初很多家庭詢問，公布價格後預訂減少，且籌辦者明說熱情逐漸減退；仍有一小群家庭想要，不能推斷人人都失去興趣。"
+      },
+      "reply": {
+        "promptEn": "Visitors first sent our craft studio eager requests for custom postcards. At two later showcases, many said they now preferred the standard designs and rarely asked for custom work; a few still did. Prices and opening hours stayed the same. How should I describe the shift to the team?",
+        "promptZh": "參觀者最初熱切要求我們的手作工作室製作訂製明信片。之後兩次展示會上，很多人說現在較喜歡現成款式，也很少再詢問訂製作品；仍有少數人會問。價格及開放時間都沒有變。我應該怎樣向團隊描述這個變化？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Interest cooled down for custom postcards, although a few visitors still request them.",
+            "zh": "大家對訂製明信片的興趣逐漸減退，但仍有少數參觀者提出要求。"
+          },
+          {
+            "id": "b",
+            "en": "I would note that visitors now ask for standard designs more often than custom ones.",
+            "zh": "我會指出參觀者現在較常詢問現成款式，而不是訂製款式。"
+          },
+          {
+            "id": "c",
+            "en": "The shift is in what visitors say they prefer, since the price and opening hours have not changed.",
+            "zh": "變化在於參觀者所說的偏好，因為價格及開放時間都沒有改變。"
+          },
+          {
+            "id": "d",
+            "en": "Describe weaker demand for custom work without saying that nobody wants it any more.",
+            "zh": "可以描述訂製作品的需求減弱，但不要說已經沒有人想要。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都回答如何向團隊描述偏好變化；金句指出訂製作品的興趣減弱，並保留仍有少數人要求訂製的事實。"
+      },
+      "scene": {
+        "promptZh": "居民最初熱烈稱讚一項社區花園試驗。試行期間出現噪音問題後，不少人明說自己沒有先前那麼期待，但仍希望先試行較小的方案。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Enthusiasm cooled down after the noisy trial, although many residents still supported a smaller version.",
+            "zh": "嘈雜的試行過後，熱情逐漸減退，但不少居民仍支持較小規模的方案。"
+          },
+          {
+            "id": "b",
+            "en": "Residents had been sceptical from the start, so there was no earlier enthusiasm to weaken.",
+            "zh": "居民從一開始便持懷疑態度，因此沒有原有熱情可減退。"
+          },
+          {
+            "id": "c",
+            "en": "Residents still supported the original garden plan just as strongly and only wanted a new opening date.",
+            "zh": "居民仍像起初一樣強烈支持原有花園方案，只想更改開放日期。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "居民由起初熱烈稱讚轉為明說不如先前期待，但仍支持較小試行，符合熱情減退而非完全反對；題目沒有更改開放日期的說法。"
+      },
+      "contrast": {
+        "promptZh": "哪句最有根據地用 cool down 表達興趣減弱，而不是描述氣溫或把初期反應誤當後期變化？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Readers praised the first two instalments, but later reviews became neutral and recommendations fell; interest cooled down.",
+            "zh": "讀者稱讚最初兩期，之後的評論卻趨於平淡，推薦也減少了；興趣逐漸減退。"
+          },
+          {
+            "id": "b",
+            "en": "The first instalment drew only a few comments, so interest cooled down before any earlier response was observed.",
+            "zh": "第一期只有少量評論，所以尚未觀察到先前反應，興趣就已逐漸減退。"
+          },
+          {
+            "id": "c",
+            "en": "The reading room cooled down after its windows opened, so readers’ interest cooled down as well.",
+            "zh": "閱覽室開窗後降溫，因此讀者的興趣也一定逐漸減退。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲句有先前稱讚與後來評論、推薦轉弱的比較。乙句沒有較早的熱情作基準；丙句把室溫變化錯當興趣變化的證據。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「畫家起初很期待畫社區壁畫。經過幾輪修改，她說作品仍值得完成，但現在沒有先前那麼興奮。」乙要審慎描述她的心情變化。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her enthusiasm cooled down during the revisions, even though she still wanted to finish the mural.",
+            "zh": "修改過程令她的熱情逐漸減退，但她仍想完成壁畫。"
+          },
+          {
+            "id": "b",
+            "en": "She was always reluctant to paint it and has only now admitted that reluctance.",
+            "zh": "她一直不願意畫這幅壁畫，只是現在才承認。"
+          },
+          {
+            "id": "c",
+            "en": "She still feels as excited as she did at the start; only the drawing has changed.",
+            "zh": "她仍和最初一樣興奮，變化的只有畫作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她由很期待變成沒有那麼興奮，但仍想完成作品；乙應分清熱情減弱與起初就不願意或熱情完全不變。"
+      },
+      "speaking": {
+        "en": "Interest cooled down after the first archive visit produced little new material, although the researchers kept checking.",
+        "zh": "第一次檔案館查訪找到的新材料不多，之後興趣逐漸減退，但研究人員仍繼續查找。",
+        "promptZh": "先聽示範，說出初次查訪後的興趣變化，同時保留研究人員仍繼續查找的細節。",
+        "targetSpan": {
+          "start": 0,
+          "end": 20
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：朋友學陶藝時起初很興奮。幾輪上釉試驗後，她親口說自己沒有以前那麼期待每次課，但仍重視這門手藝，並每周繼續練習。用一至兩句英文寫一則體貼的進度訊息，交代起初的熱情、她後來的說法，以及她仍有練習；不要把她說成已放棄陶藝。",
+        "selfCheckZh": "用 enthusiasm 或 interest 搭配 cool down/off，指出她起初很興奮、幾輪上釉試驗後明說期待減少，並保留她每周仍練習及重視陶藝。",
+        "examples": [
+          {
+            "en": "She was excited when she began pottery, but after several glazing trials she said she no longer looked forward to every class as much. Her enthusiasm cooled down, though she still valued the craft and practised each week.",
+            "zh": "她剛開始學陶藝時很興奮，但經過幾輪上釉試驗後，她說自己沒有以前那麼期待每次課。她的熱情逐漸減退，不過她仍重視這門手藝，並且每周練習。"
+          },
+          {
+            "en": "At first she could hardly wait for each pottery class; later she said the glazing trials had made the sessions less exciting. Interest cooled off, but she continued her weekly practice because the craft still mattered to her.",
+            "zh": "起初她幾乎等不及上每一堂陶藝課；後來她說，上釉試驗令課堂不再那麼令人興奮。興趣逐漸減退，但她仍每周練習，因為這門手藝對她依然重要。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "glazing trials",
+            "zh": "上釉試驗",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 72
+            }
+          },
+          {
+            "en": "looked forward to",
+            "zh": "期待",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 113
+            }
+          },
+          {
+            "en": "valued the craft",
+            "zh": "重視這門手藝",
+            "exampleIndex": 0,
+            "span": {
+              "start": 180,
+              "end": 196
+            }
+          },
+          {
+            "en": "weekly practice",
+            "zh": "每周練習",
+            "exampleIndex": 1,
+            "span": {
+              "start": 169,
+              "end": 184
+            }
+          },
+          {
+            "en": "mattered to her",
+            "zh": "對她依然重要",
+            "exampleIndex": 1,
+            "span": {
+              "start": 209,
+              "end": 224
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Interest cooled down when readers stopped recommending the serial after its early chapters, though some kept following it.",
+          "zh": "讀者在連載最初幾章後不再那麼常推薦，興趣逐漸減退，但仍有人繼續追看。"
+        },
+        {
+          "en": "Enthusiasm can cool down after repeated delays without disappearing altogether.",
+          "zh": "一再延誤可能令熱情逐漸減退，但不一定會令它完全消失。"
+        }
+      ]
+    }
+  ]
+}

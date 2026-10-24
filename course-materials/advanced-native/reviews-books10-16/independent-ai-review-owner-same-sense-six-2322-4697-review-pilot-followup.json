@@ -1,0 +1,86 @@
+{
+  "reportType": "independent-ai-scoped-followup-owner-1062-source-2759",
+  "reviewedAtUtc": "2026-10-24T02:28:46.862448+00:00",
+  "status": "content-clear-proposal-only",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-same-sense-six-2322-4697-proposed-b.json",
+  "proposalSha256": "28cd6e40bf276fd81d267a2a2490080000cefa2848bb115ea122e3b1ccd9a619",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-readonly-same-sense-six-2322-4697-b.json",
+  "authorAuditSha256": "b87a266445698e74efbfe43729dfed10f245d4c16aa36c2ae17437354aa4413d",
+  "scopedAuthorRepairPath": "course-materials/advanced-native/reviews-books10-16/author-scoped-repair-owner-1062-source-2759-b.json",
+  "scopedAuthorRepairSha256": "a20a1e2646fec8c19ceebbc61f416d377ed6dea08e0c4310698cce5b41ef2c98",
+  "initialIndependentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-same-sense-six-2322-4697-review-pilot.json",
+  "initialIndependentReviewSha256": "c3b331afe1f2f66eed979464911e2562bc5319cb3255e96679f64d5947e5e1ad",
+  "scope": "Independent AI peer recheck of the 2759→1062 target-span repair and object identity of five previously passed owners; no human/release approval and no selected/decision edits.",
+  "findingResolution": {
+    "id": "R2759-1062-01",
+    "status": "resolved",
+    "evidence": "Live JS gi regex matches only “something electric about” in the exact source and changed takeaway, while requiring a bounded complement; “something electric about it/this/that” now matches as taught in brief.grammar. Socket/cable/battery, missing-complement, pronoun-them and concert-poster controls reject. The noun phrase and article are no longer highlighted."
+  },
+  "checks": {
+    "liveJsPositive": 7,
+    "liveJsNegative": 8,
+    "failures": 0,
+    "fullSourceMatched": true,
+    "sourceMatchText": "something electric about",
+    "changedTakeawayMatchText": "something electric about",
+    "oldNounPhraseHighlightRemoved": true,
+    "fiveOtherOwnerObjectsIdenticalToPriorReviewedHashes": true,
+    "assessmentIdsAndChineseUnchangedFromPriorReview": true,
+    "focusedBuild": {
+      "lessons": 6,
+      "questions": 36,
+      "audioRoles": 24,
+      "flags": 0,
+      "build": "pass",
+      "check": "pass"
+    }
+  },
+  "ownerHashes": [
+    {
+      "ownerId": "advanced-native-309",
+      "sourceOrdinal": 2322,
+      "currentObjectSha256": "c3194cb22d80693c23cb1fd68f804446f1425d1ebbc970aad5ceda5b3e3527e6",
+      "unchangedFromPriorReviewedProposal": true,
+      "scopedRepairResolved": false
+    },
+    {
+      "ownerId": "advanced-native-1062",
+      "sourceOrdinal": 2759,
+      "currentObjectSha256": "c308718d12c53f8fefb2b03b55baba94a0db547229f5867bee92d47cc70fff2a",
+      "unchangedFromPriorReviewedProposal": false,
+      "scopedRepairResolved": true
+    },
+    {
+      "ownerId": "advanced-native-1523",
+      "sourceOrdinal": 2946,
+      "currentObjectSha256": "d0218df75d23a65d1384523d4c31df2b0c945ef65451f8b41e95788d37131b74",
+      "unchangedFromPriorReviewedProposal": true,
+      "scopedRepairResolved": false
+    },
+    {
+      "ownerId": "advanced-native-2961",
+      "sourceOrdinal": 2966,
+      "currentObjectSha256": "20f917f9d9e025d8f8fd3407fb08d35d86d68e65bd6fbbaf4640d3a716d8317f",
+      "unchangedFromPriorReviewedProposal": true,
+      "scopedRepairResolved": false
+    },
+    {
+      "ownerId": "advanced-native-2009",
+      "sourceOrdinal": 4693,
+      "currentObjectSha256": "2e2e9f73c4ca01117968ad921d31527ca414bfb2a2c9924e5c152b2130fbd89f",
+      "unchangedFromPriorReviewedProposal": true,
+      "scopedRepairResolved": false
+    },
+    {
+      "ownerId": "advanced-native-3715",
+      "sourceOrdinal": 4697,
+      "currentObjectSha256": "998766671e9c3bb811b1631fcf96005de44fe43b0647a8efa8f74cb014324439",
+      "unchangedFromPriorReviewedProposal": true,
+      "scopedRepairResolved": false
+    }
+  ],
+  "limits": [
+    "The regex cannot classify every physically electric room versus a charged atmosphere without contextual editorial review. The tested socket/cable/battery literal controls reject; learner-facing examples are figurative.",
+    "Proposal-only clearance. Source decision and selected owner have not been integrated, and changed takeaway audio still needs media QA if integrated."
+  ]
+}

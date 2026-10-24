@@ -1,0 +1,178 @@
+{
+  "reportType": "independent-ai-six-owner-proposal-review",
+  "reviewedAtUtc": "2026-10-24T02:24:38.848928+00:00",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-same-sense-six-2322-4697-proposed-b.json",
+  "proposalSha256": "9d9eacf39298e925531226c7eee88a15486fd6ab236b3e34a6389d706a3b033e",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-readonly-same-sense-six-2322-4697-b.json",
+  "authorAuditSha256": "42e9f020bfceea9489f37fcb394df870f9f96d4e42fbe4f3ab916117e9d5de74",
+  "scope": "Independent AI peer review of six proposal-only owner objects against current source inventory and original owner files. No human or release approval. No selected/decision changes.",
+  "summary": {
+    "pass": 5,
+    "repair": 1,
+    "blockedSourceOrdinals": [
+      2759
+    ],
+    "focusedBuildLessons": 6,
+    "focusedBuildQuestions": 36,
+    "focusedBuildAudioRoles": 24,
+    "focusedBuildFlags": 0
+  },
+  "independentChecks": [
+    "Exact source sentence and expression equal the inventory/provenance entry for all six; live proposed target regex matches all six full sentences.",
+    "All original source occurrences remain in their owner objects; all five assessed answer identifiers per owner are unchanged.",
+    "Diffed every changed owner field against the original owner object, including EN/ZH takeaways, owner309 dialogue and target/brief edits.",
+    "Ran node tools/advanced-native-bulk/build.mjs on the proposal and --check: 6 lessons, 36 questions, 24 audio roles, zero review flags.",
+    "Independently ran the owner1062 live JS regex on the source, about-it example, performance variant and battery negative; documented target-span failure."
+  ],
+  "rows": [
+    {
+      "sourceOrdinal": 2322,
+      "sourceId": "book10-16-0211",
+      "exactSourceSentence": "We should not paint it in black and white when both plans have merits.",
+      "proposedOwnerId": "advanced-native-309",
+      "ownerOriginalFile": "course-materials/advanced-native/batches/batch-0301-0325.json",
+      "ownerOriginalFileSha256": "a27ef6e055b8dd34a51a93438c21d6c4f2e6022ef2a90432c6ac2325027b4698",
+      "proposedOwnerObjectSha256": "c3194cb22d80693c23cb1fd68f804446f1425d1ebbc970aad5ceda5b3e3527e6",
+      "verdict": "pass",
+      "reason": "The source uses black and white for an oversimplified binary judgement. Owner309 teaches that precise meaning. The proposed dialogue key now naturally includes not black and white, gives a reason to compare choices, and its Traditional Chinese preserves that logic. Existing answer IDs, all other assessed material, glossary and old sources remain stable; full-source detector already matched.",
+      "fullSourceDetectorMatch": true,
+      "oldFiveAnswerIdsPreserved": true,
+      "changedFields": [
+        "sources",
+        "dialogue",
+        "contentRevision"
+      ],
+      "changedAudioRolesIfIntegrated": []
+    },
+    {
+      "sourceOrdinal": 2759,
+      "sourceId": "book10-16-0648",
+      "exactSourceSentence": "There is something electric about a small live concert.",
+      "proposedOwnerId": "advanced-native-1062",
+      "ownerOriginalFile": "course-materials/advanced-native/batches/batch-1051-1075.json",
+      "ownerOriginalFileSha256": "54f8b2f982f99cba4cc50ef6c380c010e7300c9a70a2c4e3718411b9bd20bc44",
+      "proposedOwnerObjectSha256": "83b3a0ed09da88fbf0cd1cecb58dfb69c4d8ef766a8f1d260db06575819d47c8",
+      "verdict": "repair",
+      "reason": "The live-concert source and owner1062 both describe a charged shared atmosphere, and the new takeaway is natural in English and Traditional Chinese. But the new target detector highlights the variable complement in something electric about a small live concert as if the whole noun phrase were the reusable idiom; brief.grammar also names something electric about it, which the detector rejects. This conflicts with the SOP target-only span rule and taught grammar.",
+      "fullSourceDetectorMatch": true,
+      "oldFiveAnswerIdsPreserved": true,
+      "changedFields": [
+        "contentRevision",
+        "target",
+        "sources",
+        "brief",
+        "takeaways"
+      ],
+      "changedAudioRolesIfIntegrated": [
+        "takeaway-2"
+      ],
+      "findings": [
+        {
+          "id": "R2759-1062-01",
+          "severity": "major",
+          "path": "lesson 1062 target.pattern / brief.grammar",
+          "explanation": "Current pattern matches and highlights the entire complement “something electric about a small live concert”, including article/adjectives/event noun. It also does not match “something electric about it”, named in brief.grammar. The reusable target is “something electric about” with a contextually valid complement.",
+          "reproduction": {
+            "sourceMatch": "something electric about a small live concert",
+            "naturalBriefFormMatch": null,
+            "literalBatteryControlMatch": null
+          },
+          "suggestedRepair": "Use a bounded lookahead to require an event or pronoun complement while matching/highlighting only “something electric about”. Include the brief’s “about it” form. Re-run exact source, positive/negative controls, highlight span, glossary exclusion, and focused build/check. Keep takeaway EN/ZH and five assessed answer IDs unchanged."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 2946,
+      "sourceId": "book10-16-0835",
+      "exactSourceSentence": "The annual meal keeps family ties alive.",
+      "proposedOwnerId": "advanced-native-1523",
+      "ownerOriginalFile": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "ownerOriginalFileSha256": "71a1a0c3969ea1dd0b3a43a0e1a530a10ba61f0e57a4b767dad929a567403a63",
+      "proposedOwnerObjectSha256": "d0218df75d23a65d1384523d4c31df2b0c945ef65451f8b41e95788d37131b74",
+      "verdict": "pass",
+      "reason": "An annual meal keeping family ties alive is maintenance of family connection, within owner1523’s warm-relationship sense when understood as meaningful contact. The grammar and takeaway distinguish figurative alive from literal survival; Chinese expresses 維繫家庭連繫 without inventing a resolved conflict. Source, old keys and provenance are sound.",
+      "fullSourceDetectorMatch": true,
+      "oldFiveAnswerIdsPreserved": true,
+      "changedFields": [
+        "contentRevision",
+        "target",
+        "sources",
+        "brief",
+        "takeaways"
+      ],
+      "changedAudioRolesIfIntegrated": [
+        "takeaway-2"
+      ]
+    },
+    {
+      "sourceOrdinal": 2966,
+      "sourceId": "book10-16-0855",
+      "exactSourceSentence": "The ceremony was all glitter and no substance.",
+      "proposedOwnerId": "advanced-native-2961",
+      "ownerOriginalFile": "course-materials/advanced-native/drafts-books10-16/batch-2961-3487-a.json",
+      "ownerOriginalFileSha256": "f7f0711035af3841ed60c015b39478b429ff1770dfbfd11337b8f99bb668ff97",
+      "proposedOwnerObjectSha256": "20f917f9d9e025d8f8fd3407fb08d35d86d68e65bd6fbbaf4640d3a716d8317f",
+      "verdict": "pass",
+      "reason": "All glitter and no substance is an attested surface-versus-value formulation and gives the same learner decision as owner2961 more show than substance. The new takeaway preserves a missing promised service as evidence, and its Chinese conveys attractive surface with missing substance. No new assessment key changes or separate-owner rationale is needed.",
+      "fullSourceDetectorMatch": true,
+      "oldFiveAnswerIdsPreserved": true,
+      "changedFields": [
+        "target",
+        "brief",
+        "sources",
+        "contentRevision",
+        "takeaways"
+      ],
+      "changedAudioRolesIfIntegrated": [
+        "takeaway-2"
+      ]
+    },
+    {
+      "sourceOrdinal": 4693,
+      "sourceId": "book10-16-2582",
+      "exactSourceSentence": "A city cannot live on reputation forever.",
+      "proposedOwnerId": "advanced-native-2009",
+      "ownerOriginalFile": "course-materials/advanced-native/batches/batch-2001-2025.json",
+      "ownerOriginalFileSha256": "818f2f78501c23aa1b9ce1f2df10f3d2cdc61242376faa028b291e0b94968077",
+      "proposedOwnerObjectSha256": "2e2e9f73c4ca01117968ad921d31527ca414bfb2a2c9924e5c152b2130fbd89f",
+      "verdict": "pass",
+      "reason": "Cannot live on reputation forever adds a time limit to owner2009’s reliance-on-past-prestige warning. The gallery takeaway and Chinese require current programme value, without saying earlier reputation had none. The complete source sentence matches a bounded detector; old assessed answers remain intact.",
+      "fullSourceDetectorMatch": true,
+      "oldFiveAnswerIdsPreserved": true,
+      "changedFields": [
+        "contentRevision",
+        "target",
+        "sources",
+        "brief",
+        "takeaways"
+      ],
+      "changedAudioRolesIfIntegrated": [
+        "takeaway-2"
+      ]
+    },
+    {
+      "sourceOrdinal": 4697,
+      "sourceId": "book10-16-2586",
+      "exactSourceSentence": "Hotels must evolve with the times.",
+      "proposedOwnerId": "advanced-native-3715",
+      "ownerOriginalFile": "course-materials/advanced-native/drafts-books10-16/batch-3702-3715-a.json",
+      "ownerOriginalFileSha256": "f6b121e19a42ca0a3ca0098a304a870db137eddd2bf2356c7ce49c80ff536673",
+      "proposedOwnerObjectSha256": "998766671e9c3bb811b1631fcf96005de44fe43b0647a8efa8f74cb014324439",
+      "verdict": "pass",
+      "reason": "Evolve with the times and move with the times both require adapting to changed needs; hotel source and library takeaway retain this same practical-adaptation sense. The Chinese keeps addition of online renewals and in-person support. Detector inflections and original keys remain sound.",
+      "fullSourceDetectorMatch": true,
+      "oldFiveAnswerIdsPreserved": true,
+      "changedFields": [
+        "target",
+        "brief",
+        "sources",
+        "contentRevision",
+        "takeaways"
+      ],
+      "changedAudioRolesIfIntegrated": [
+        "takeaway-2"
+      ]
+    }
+  ],
+  "releaseGates": "Proposal only; five changed takeaway-2 audio roles would need exact-key regeneration and separate listening/media QA after any integration. No database, hosting or live release approval."
+}

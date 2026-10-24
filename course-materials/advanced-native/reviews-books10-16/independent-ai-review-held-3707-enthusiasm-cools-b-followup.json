@@ -1,0 +1,37 @@
+{
+  "status": "ai-content-clear-unselected",
+  "reviewType": "independent-scoped-exact-hash-followup",
+  "sourceOrdinal": 3707,
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-3707-enthusiasm-cools-a.json",
+  "draftSha256": "ffbd82d2284caf4e03674d69b5c85ff44d5fcb4692ea0bc9d03106bd42d25f6e",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-3707-enthusiasm-cools-a.json",
+  "authorAuditSha256": "e0427593224ba0b5ed3c8af1cc0b931b9755602d979576c017714b421e15988a",
+  "initialReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-3707-enthusiasm-cools-b.json",
+  "initialReviewSha256": "cc68b1a52e5fa053ae9fc44ee33d4c470c0cea55ab7eaf880433fc861c940713",
+  "findings": [
+    {
+      "id": "R3707-01",
+      "result": "resolved",
+      "evidence": "The seven steps now use different evidence and decisions: price affects invention interest; explicitly changed postcard-design preferences with unchanged access; residents state reduced excitement but prefer a smaller garden trial; serial reviews and recommendations weaken while the temperature case stays an invalid boundary; an artist directly reports less excitement yet still wants to finish a mural; archive researchers persist after a disappointing first visit; and a personal pottery progress note quotes reduced anticipation while preserving weekly practice. The final writing changes both setting and communicative goal from the source and prior activity-registration cases. Reply, scene, dialogue and writing no longer infer waning desire merely from inaccessible times/routes or lower attendance."
+    },
+    {
+      "id": "R3707-02",
+      "result": "resolved",
+      "evidence": "The revised listening alternatives distinguish the organiser's interpretation from bookings alone and unsupported intensity comparisons; scene and dialogue foils test initial versus later attitude and continued support rather than all-or-nothing claims. One best answer remains in each item."
+    }
+  ],
+  "recheck": {
+    "sourceSentence": "High prices mean enthusiasm can cool down quickly.",
+    "sourceAndNewTargetMatch": true,
+    "replyFourPromptDirectedOptions": true,
+    "replySingleGoldenTargetOption": true,
+    "sceneContrastDialogueSingleBestAnswers": true,
+    "englishTraditionalChineseAlignment": "Changed prompts, options, speaking and writing models reviewed; no material mismatch found.",
+    "speakingTargetSpanExact": true,
+    "twoWritingModelsCompleteAndTargetBearing": true,
+    "glossaryExactAnswerDerivedNontargetRows": 5,
+    "focusedBuildAndCheck": "Independently passed: 1 lesson / 6 questions / 4 audio requests / 0 flags in build and --check."
+  },
+  "verdict": "content-clear-for-possible-provisional-unpublished-selection",
+  "limits": "No lesson, decision, manifest or audit content was edited by this reviewer. This is AI content clearance only; no audio, browser, live or release approval is claimed."
+}

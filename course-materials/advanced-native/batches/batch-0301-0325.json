@@ -1920,6 +1920,20 @@
         "referenceSentenceKind": "guide_original_example",
         "expression": "black-and-white stories",
         "sourceCategory": "Idiom or set phrase"
+      },
+      {
+        "occurrenceId": "book10-16-0211",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 19,
+        "book": 10,
+        "question": 16,
+        "sample": "S1",
+        "sourceBookPages": "39–40",
+        "locatorNote": "DOCX table 16, row 2; page is the locally rendered PDF page. Same-sense alias proposed; the exact source wording remains provenance, not a verbatim learner model.",
+        "sentence": "We should not paint it in black and white when both plans have merits.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "paint it in black and white"
       }
     ],
     "listening": {
@@ -2024,7 +2038,7 @@
       "explanationZh": "複雜不表示理據無用，反而需更仔細比較。"
     },
     "dialogue": {
-      "promptZh": "朋友說「既然 not black and white，我們隨便選也一樣」。哪句回應最好？",
+      "promptZh": "朋友說：「既然事情並非非黑即白，我們隨便選也一樣。」哪句回應最好？",
       "options": [
         {
           "id": "a",
@@ -2033,8 +2047,8 @@
         },
         {
           "id": "b",
-          "en": "Complexity means we should compare the reasons carefully, not assume the choices are equal.",
-          "zh": "複雜表示應仔細比較理由，不是假定選項相同。"
+          "en": "It is not black and white, so we should compare the reasons carefully rather than treat the choices as equal.",
+          "zh": "事情並非非黑即白，所以我們應仔細比較理由，而不是把兩個選擇當成一樣。"
         },
         {
           "id": "c",
@@ -2043,7 +2057,7 @@
         }
       ],
       "answerId": "b",
-      "explanationZh": "需比較不同因素，不由非簡單二分推到隨意選。"
+      "explanationZh": "「並非非黑即白」表示需要比較不同因素，不等於所有選擇一樣或可以隨便選。"
     },
     "speaking": {
       "en": "The decision is not black and white because both options involve trade-offs.",
@@ -2149,7 +2163,7 @@
       },
       "notes": []
     },
-    "contentRevision": 2,
+    "contentRevision": 3,
     "aliasInventoryIds": [
       "expr-1793"
     ]

@@ -9,13 +9,15 @@
       "titleZh": "外表風光多於實質",
       "category": "idiom",
       "target": {
-        "pattern": "\\bmore show than substance\\b",
-        "glossaryForbidden": []
+        "pattern": "\\bmore show than substance\\b|\\ball glitter and no substance\\b",
+        "glossaryForbidden": [
+          "\\bmore show than substance\\b|\\ball glitter and no substance\\b"
+        ]
       },
       "brief": {
         "meaningEn": "Impressive presentation or publicity outweighs genuine practical value.",
         "meaningZh": "表面聲勢或宣傳大於真正的實際價值。",
-        "grammar": "More show than substance; compare visible display with what the event or proposal actually delivers.",
+        "grammar": "More show than substance; compare visible display with what the event or proposal actually delivers. All glitter and no substance is a related display-versus-value judgement; glitter refers to surface attraction, not literal decorative material.",
         "register": "Critical but natural commentary. A community organiser may use it when a launch event is lavish but promised services do not appear.",
         "boundaryZh": "須有外在展示與實際成果的對照；單純設計漂亮、但同時提供有用服務，不足以批評為華而不實。",
         "misconceptionZh": "不表示完全沒有任何價值，也不是反對所有慶祝或設計。",
@@ -35,6 +37,20 @@
           "sentence": "The costly event felt more show than substance.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "more show than substance"
+        },
+        {
+          "occurrenceId": "book10-16-0855",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 79,
+          "book": 12,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "26–29",
+          "locatorNote": "DOCX table 80, row 6; page is the locally rendered PDF page. Same-sense alias proposed; the exact source wording remains provenance, not a verbatim learner model.",
+          "sentence": "The ceremony was all glitter and no substance.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "all glitter and no substance"
         }
       ],
       "review": {
@@ -63,7 +79,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 1,
+      "contentRevision": 2,
       "listening": {
         "en": "A costly health fair had banners, cameras and a long opening speech, but no appointment desk or written guidance for visitors. Several people left without knowing where to seek help. It felt more show than substance.",
         "zh": "昂貴健康展有橫幅、鏡頭及冗長開幕演說，卻沒有預約櫃檯或給訪客的書面指引。多人離開時仍不知去哪裏求助。活動顯得外表風光多於實質。",
@@ -260,8 +276,8 @@
           "zh": "more show than substance 對比外在展示與實際價值。"
         },
         {
-          "en": "A beautiful launch is more show than substance if the promised help is missing.",
-          "zh": "若承諾的協助缺失，漂亮開幕便可能華而不實。"
+          "en": "A polished launch can be all glitter and no substance if the promised help is still missing.",
+          "zh": "開幕活動即使包裝精美，若承諾的支援仍未到位，也可能只是表面耀眼、缺乏實質內容。"
         }
       ]
     },

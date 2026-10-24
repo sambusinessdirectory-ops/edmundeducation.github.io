@@ -1,0 +1,125 @@
+{
+  "status": "unpublished-integrated-2759-owner-alias-and-3707-selected-lesson",
+  "createdUtc": "2026-10-24T02:32:05.443995+00:00",
+  "scope": {
+    "source2759": "proposed-alias-existing→advanced-native-1062",
+    "source3707": "proposed-new-lesson→advanced-native-3707",
+    "selectedLessonCount": 629,
+    "decisionsChangedOnly": [
+      2759,
+      3707
+    ],
+    "selectedManifestChangedOnly": "added batch-held-3707-enthusiasm-cools-a.json and source ordinal 3707",
+    "noAudioBrowserCommitPushOrPublication": true
+  },
+  "independentEvidence": {
+    "ownerProposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-same-sense-six-2322-4697-proposed-b.json",
+    "ownerProposalSha256": "28cd6e40bf276fd81d267a2a2490080000cefa2848bb115ea122e3b1ccd9a619",
+    "ownerFollowupPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-same-sense-six-2322-4697-review-pilot-followup.json",
+    "ownerFollowupSha256": "cfb0c7f5719b1064e4060bbb5f82fbbb5c5b4d0562477c4a8ffeeed7acf12ca5",
+    "newLessonPath": "course-materials/advanced-native/drafts-books10-16/batch-held-3707-enthusiasm-cools-a.json",
+    "newLessonSha256": "ffbd82d2284caf4e03674d69b5c85ff44d5fcb4692ea0bc9d03106bd42d25f6e",
+    "newLessonFollowupPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-3707-enthusiasm-cools-b-followup.json",
+    "newLessonFollowupSha256": "e3e3871ef6faa2054af9e85c88d992afdd62df965cf3a7310cbc8f07a4e7c806"
+  },
+  "fileChanges": [
+    {
+      "kind": "owner",
+      "path": "course-materials/advanced-native/batches/batch-1051-1075.json",
+      "beforeSha256": "54f8b2f982f99cba4cc50ef6c380c010e7300c9a70a2c4e3718411b9bd20bc44",
+      "afterSha256": "7ea6b016d0a18ec86b00a766a222ad237169c0420325adb75642d172654642e4",
+      "newObjectSha256": "c308718d12c53f8fefb2b03b55baba94a0db547229f5867bee92d47cc70fff2a",
+      "outsideObjectBytesPreserved": true
+    },
+    {
+      "kind": "decision",
+      "sourceOrdinal": 2759,
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+      "beforeSha256": "3ab486f50083d297f6980bb2f4037afcaafe5aa369f3500610b786727a43d1f1",
+      "afterSha256": "7e9610dd692fed5ce4e6b7ab92b1c03d693426865d01e48ffa212727bacb4cb5",
+      "otherLinesBytePreserved": true
+    },
+    {
+      "kind": "decision",
+      "sourceOrdinal": 3707,
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl",
+      "beforeSha256": "19b68aa5f89c33595baaddbb10b7485939da5e6275cc004a8c88eede1dd65e37",
+      "afterSha256": "951e95202cf70c8796e4f6540e58fb025b284a35023f38fddde69b726deaa0dc",
+      "otherLinesBytePreserved": true
+    },
+    {
+      "kind": "selectedManifest",
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+      "beforeSha256": "bf1012615ddfd8c8438124bbb4a0e2e61a04b737b8989f06cef700b012b5e882",
+      "afterSha256": "914b8b27ced7aa5a3b35ad0e1df3f5a172dbb31cbe8353cc251aa05ee305651a",
+      "otherEntriesBytePreserved": true
+    }
+  ],
+  "verification": {
+    "focusedBuildAndCheck": {
+      "lessons": 23,
+      "questions": 138,
+      "audioRoles": 92,
+      "flags": 0
+    },
+    "fullVerifier": {
+      "intakeRows": 2604,
+      "selectedLessons": 629,
+      "newLessons": 629,
+      "existingAliases": 1177,
+      "newAliases": 189,
+      "holds": 609,
+      "selectedQuestions": 3774,
+      "selectedAudioRoles": 2516,
+      "schemaErrors": 0,
+      "exactGuideSentenceCopies": 0,
+      "nearDuplicateFlags": 0
+    },
+    "existingAliasAudit": {
+      "matched": 1177,
+      "exceptions": 0
+    },
+    "newAliasAudit": {
+      "matched": 189,
+      "exceptions": 0
+    },
+    "holdCoverage": {
+      "currentHolds": 609,
+      "unauditedCurrentHolds": 0,
+      "errors": 0
+    },
+    "owner1062TargetControls": {
+      "positive": 3,
+      "negative": 4,
+      "failures": 0,
+      "exactSourceMatchText": "something electric about"
+    },
+    "guideOriginality": {
+      "path": "/private/tmp/advanced-629-guide-originality.json",
+      "sha256": "5328910c900ef46e7f63d391a58447f1dc05ceef9942cb270e2c091485206d15",
+      "selectedLessons": 629,
+      "learnerEnglishStrings": 15513,
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "nearFull": 5,
+      "reviewNearFull": 50,
+      "owner1062OrLesson3707Hits": 0
+    },
+    "priorFiveIntegratedOwnerObjectsUnchanged": true
+  },
+  "mediaDelta": {
+    "owner1062ChangedRole": "takeaway-2",
+    "new3707Roles": [
+      "listening",
+      "speaking",
+      "takeaway-1",
+      "takeaway-2"
+    ],
+    "localGenerationPerformed": false
+  },
+  "limits": [
+    "This is provisional unpublished selection, not audio, browser, physical-device or live-release verification.",
+    "Guide originality near-full candidates elsewhere in the selected set were not part of this scoped content change."
+  ]
+}
