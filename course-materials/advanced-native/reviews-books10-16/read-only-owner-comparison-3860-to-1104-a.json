@@ -1,0 +1,54 @@
+{
+  "reportType": "read-only-source-owner-comparison",
+  "status": "same-causal-decision-but-current-alias-invalid",
+  "snapshot": {
+    "selectedManifestSha256": "8288eb31976993a832f9ce8e35ef6ed4baf0623ccaa3021b2be95de0248537e3",
+    "ownerBatchPath": "course-materials/advanced-native/batches/batch-1101-1125.json",
+    "ownerBatchSha256": "3b8db33adc07a44326335324a4d2c898a166df0d3b3c40f748b9a882252175d9",
+    "decisionFilePath": "course-materials/advanced-native/books10-16/editorial-decisions-3852-3911.jsonl",
+    "decisionFileSha256": "7c868e286804303a972f3e53a57d262865f285c8e9e4d815999e7ad2ff68c2ae"
+  },
+  "heldSource": {
+    "sourceOrdinal": 3860,
+    "sourceId": "book10-16-1749",
+    "expression": "tackles both the symptoms and the roots of the problem",
+    "sentence": "A good policy tackles both the symptoms and the roots of the problem.",
+    "question": "What can be done to alleviate poverty?",
+    "sourceMeaning": "Addresses immediate effects and underlying causes; medical and plant metaphors.",
+    "decision": "hold-editorial"
+  },
+  "selectedOwner": {
+    "lessonId": "advanced-native-1104",
+    "title": "treat the symptom rather than the cause",
+    "sourceSentence": "A short-term ban may treat the symptom rather than the cause.",
+    "meaning": "Respond to an outward effect or sign without addressing the underlying source.",
+    "senseOverlap": [
+      "Both teach the immediate-effect versus underlying-cause distinction.",
+      "The 1104 brief explicitly allows useful temporary relief while the cause is investigated, so it does not force an either/or choice.",
+      "The owner listening and dialogue recommend both an immediate correction and removal of outdated schedules; the scene allows drying a wet floor while investigating the leak. These are positive two-track decisions similar to the held policy example."
+    ],
+    "constructionDifference": "The owner target criticizes a response that treats only the symptom; source 3860 praises a policy that tackles both the symptoms and the roots. It reverses the evaluation and mixes a medical image with roots as a plant image. It is not an inflected surface of the owner idiom."
+  },
+  "detector": {
+    "currentPattern": "\\btreat(?:s|ed|ing)? the symptom rather than the cause\\b",
+    "fullSourceMatch": false,
+    "diagnosticAdditionalBranch": "\\b(?:tackle|tackles|tackled|tackling) both the symptoms and the roots of the problem\\b",
+    "diagnosticFullSourceMatch": true,
+    "positiveControls": [
+      "A good policy tackles both the symptoms and the roots of the problem.",
+      "A response treated the symptom rather than the cause."
+    ],
+    "negativeControls": [
+      "The doctor treats a patient's symptoms and a plant's roots.",
+      "The policy mentions symptoms but leaves the causes untouched."
+    ],
+    "caveat": "The source-specific branch is intentionally narrow; it should not be added mechanically as if the two opposite-polarity constructions were grammatical variants."
+  },
+  "assessmentCoverage": {
+    "conceptual": "Yes: 1104 listening/dialogue/scene assess parallel relief and cause investigation.",
+    "sourceSurface": "No: none of the owner keys, speaking text or writing models uses tackle both the symptoms and the roots; the current detector misses source 3860.",
+    "requiredForMerge": "Revise brief grammar/Chinese and at least one assessed source-positive decision to distinguish tackle both from treat rather than, append exact provenance, use a reviewed bounded target union, update glossary forbidden/target spans, and rerun source-alias, six-key and audio-delta checks. Since this adds a second lexical construction, owner editorial approval is needed."
+  },
+  "recommendation": "Retain 3860 held at present. It is not a clear separate seven-step idiom because its source sentence is a transparent positive combination of familiar symptom/cause imagery, and the substantive causal decision is already taught by 1104. A careful two-construction expansion could support alias-existing, but a detector-only alias would misrepresent the current lesson and fail full-source coverage.",
+  "mutations": "None to canonical owner, source decision, manifest, audit or media."
+}

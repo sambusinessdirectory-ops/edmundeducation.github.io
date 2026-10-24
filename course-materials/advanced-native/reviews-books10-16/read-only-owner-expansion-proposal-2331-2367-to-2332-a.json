@@ -1,0 +1,54 @@
+{
+  "reportType": "read-only-conditional-owner-expansion-proposal",
+  "status": "not-recommended-as-a-bounded-current-cohort-edit",
+  "basis": "course-materials/advanced-native/reviews-books10-16/read-only-owner-comparison-2331-2367-to-2332-a.json",
+  "owner": {
+    "id": "advanced-native-2332",
+    "currentTitle": "light up the screen",
+    "currentCategory": "idiom",
+    "currentConstruction": "performer + light(s)/lit/lighting up the screen",
+    "currentSource": "book10-16-0221: The young actor can light up the screen with one smile."
+  },
+  "prospectiveSources": [
+    "book10-16-0220: She has an understated but powerful screen presence.",
+    "book10-16-0256: She has an understated but powerful screen presence."
+  ],
+  "semanticJudgment": "Both constructions evaluate on-camera appeal and viewer attention. The owner's one-smile source, quiet-scene reply and explicit listening paraphrase 'engaging screen presence' support overlap. They are nevertheless different lexical constructions: the noun names a quality that can be understated; the verb describes a vivid effect in a particular performance. They should not be presented as interchangeable grammatical forms or an inflection of one lemma.",
+  "diagnosticTargetPatternOnly": "\\b(?:(?:light|lights|lit|lighting) up the screen|screen presence)\\b",
+  "patternControls": {
+    "positives": [
+      "The young actor can light up the screen with one smile.",
+      "She has an understated but powerful screen presence.",
+      "Her quiet screen presence keeps viewers watching."
+    ],
+    "regexNegatives": [
+      "Her stage presence held the room.",
+      "The screen is present in the studio."
+    ],
+    "semanticNegativeThatRegexStillMatches": "The projector lights up the screen.",
+    "caveat": "The regex alone cannot distinguish literal screen-lighting or an unrelated use of screen presence in arbitrary prose; the reviewed lesson context must establish the filmed-performance sense. Do not ship this pattern without full positive/negative and source-alias audit."
+  },
+  "twoCandidateAssessedScenes": [
+    {
+      "construction": "screen presence noun",
+      "promptEn": "Across several filmed close-ups, an actor says very little, yet viewers keep watching her small changes of expression. Which assessment fits her continuing on-camera quality?",
+      "promptZh": "在幾段拍攝的面部特寫中，一位演員幾乎沒有台詞，但觀眾仍留意她細微的表情變化。哪句最能評價她持續的鏡頭魅力？",
+      "keyEn": "She has screen presence even in quiet moments.",
+      "keyZh": "即使在安靜的鏡頭裏，她仍有鏡頭魅力。"
+    },
+    {
+      "construction": "light up the screen verb",
+      "promptEn": "A newcomer appears for only a few seconds, but one hopeful smile suddenly makes a flat closing shot memorable. Which observation best describes that moment's effect?",
+      "promptZh": "一位新人只出現幾秒，但一個充滿希望的笑容突然令原本平淡的結尾鏡頭令人難忘。哪句最能描述那一刻的效果？",
+      "keyEn": "The newcomer lights up the screen with that smile.",
+      "keyZh": "那位新人憑那個笑容令銀幕表現光彩奪目。"
+    }
+  ],
+  "candidateTakeaway": {
+    "en": "Screen presence names a performer's ability to hold attention on camera; a moment that makes a filmed scene suddenly vivid can light up the screen.",
+    "zh": "screen presence 指表演者在鏡頭前留住觀眾注意力的能力；若某一刻令片段忽然生動，便可說表演者 light up the screen。"
+  },
+  "architectureDecision": "Golden SOP P81 asks for one target lemma, while P90 and the current schema provide one Step 3 scene and six assessed questions per lesson. The two samples above cannot both be separate Step 3 questions in the current seven-step contract. A merged lesson would need explicit owner approval of a two-construction target family, replacement of at least one existing assessed task, a contrast that prevents both answers fitting, paired grammar/Chinese brief, source provenance, writing examples, audio/text revision, contentRevision bump and independent review. This is a substantive lesson rewrite, not a bounded detector/provenance patch.",
+  "recommendation": "Keep 2331 and 2367 held for now and do not mark either alias-existing to 2332. If the owner later approves a two-construction lesson, use the two candidate scenes as design tests, assign one to Step 3 and the other to a different assessed step without adding a seventh question, then evaluate whether the distinction remains teachable. If not, retain the two source occurrences as a separate future lexical lesson only if it can make seven distinct decisions without duplicating 2332.",
+  "mutations": "Proposal/report only; no canonical, decision, manifest, audit, media or release edits."
+}

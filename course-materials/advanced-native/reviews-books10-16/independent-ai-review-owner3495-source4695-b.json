@@ -1,0 +1,28 @@
+{
+  "status": "independent-ai-content-clear-proposal-only",
+  "verdict": "accept",
+  "sourceOrdinal": 4695,
+  "proposedOwner": "advanced-native-3495",
+  "blockingFindings": [],
+  "reviewed": {
+    "authorProposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-3495-source-4695-independent-proposal-a.json",
+    "authorProposalSha256": "12044599de28e8f495d5d74eb66c7708ca6d861f6fe5e805f38d392945ded652",
+    "proposedBatchPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-3495-source-4695-proposed-review-pilot.json",
+    "proposedBatchSha256": "fc01d6d967579b9b9635b8dff14f5af968cba93eef895e28b7cd77babe91b55c",
+    "currentSelectedBatchSha256": "00e7a664b1b5f126b4d7cb95196f4a5917386b256676999beae3642335da28ad",
+    "selectedManifestSha256": "1a7791f9f16b4d95faca1a8398ccc10110b20930e7278e73e32cfa6de0c9b0da",
+    "currentDecisionFileSha256": "a3baa070f58514946fa903abd3c1dd3506c8a767580a28374ed1dd6e77c8af9d"
+  },
+  "checks": {
+    "sourceSense": "Source 4695 says a postcard image may attract initial visual attention, while service determines a return visit. Owner 3495 teaches the same attention-versus-quality boundary from a bright cover; the impersonal the-eye variant is a grammatical extension of the same learner decision.",
+    "sourceProvenance": "Inventory row book10-16-2584, Book 16 Q58 S2, rendered PDF page 244, exact sentence and expression match sources[1]; raw JSONL row SHA-256 771cbd7f87eb591a233e054f5a044af82bbef7c0b0bbdddeec456b548a575367.",
+    "detector": "Live JavaScript regex matches catches your eye in the original source and catch the eye in source 4695. Five stated positives and five negatives pass. Replacing only owner 3495 in the 632-selected catalogue yields exactly one full-source detector hit: advanced-native-3495.",
+    "assessment": "All six compiled question IDs remain stable. Listening, scene, contrast and dialogue retain one keyed answer; all five multiple-choice answer IDs are unchanged. Reply has four valid visual-attention answers, all four accepted, with only the golden C using the target.",
+    "chinese": "The changed dialogue answer A, A cover can catch the eye before you know whether the book is good, is faithfully paired with 封面可先吸引目光，但你仍未知道書是否好. Existing bilingual fields remain unchanged. Validation reports zero errors or warnings.",
+    "audio": "Listening, speaking and both takeaway texts, settings, and synthesis identity payloads are byte-equivalent before and after; no changed audio role is requested."
+  },
+  "limitations": [
+    "Content clearance is for a proposal only; selected owner and decision row remain unchanged.",
+    "No live database, hosted media, physical-device, or publication approval is inferred."
+  ]
+}

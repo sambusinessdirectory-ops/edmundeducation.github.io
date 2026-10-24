@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-ai-scoped-exact-hash-follow-up",
+  "status": "content-clear-proposal-only",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-4379-vehicle-pull-in-a.json",
+  "draftSha256": "e614f4f26324f6de3d4ae06d43f8c1d987ac7820270c65214b51ea142aa35a26",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-4379-vehicle-pull-in-a.json",
+  "authorAuditSha256": "8a45dea9e3e4eb462ae814c14b2dd54e41d4e8a150000434f46dca120bc4d989",
+  "priorReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-4379-vehicle-pull-in-review-pilot.json",
+  "priorReviewSha256": "1cd7f526c90479728b76442f2b6a3d703c0c2180ef65834c8b9d20a27bf6899c",
+  "lessonId": "advanced-native-4379",
+  "contentRevision": 3,
+  "findingFollowup": [
+    {
+      "id": "R4379-01",
+      "status": "resolved",
+      "evidence": "Revised listening now tests plural buses arriving and stopping at different times from nine to noon, versus a single bus parked all morning or simultaneous arrivals. This source-specific aspect is a different decision from the single-vehicle loading-bay scene and door-opening dialogue; the seven-step sequence is defensibly distinct."
+    },
+    {
+      "id": "R4379-02",
+      "status": "resolved",
+      "evidence": "B tests one parked bus, C multiple buses passing without stopping, and D all arrivals at nine. These are contextual near-misses to the observed repeated stopped arrivals. A remains the only supported answer; EN/ZH and rationale align."
+    }
+  ],
+  "regressionChecks": {
+    "sourceSentenceExact": true,
+    "fullSourceTargetMatched": true,
+    "listeningAudioTargetMatched": true,
+    "replyFourOptionsValid": true,
+    "targetBearingKeys": {
+      "reply": true,
+      "scene": true,
+      "contrast": true,
+      "dialogue": true
+    },
+    "speakingTargetSpanExact": true,
+    "allGlossarySlicesExact": true,
+    "focusedBuildAndCheckFromAuthor": "1 lesson, 6 questions, 4 roles, zero flags"
+  },
+  "remainingBlockingFindings": [],
+  "limits": "Independent AI content clearance of unselected draft only; no selected/decision, audio listening, physical-device, human or release approval."
+}

@@ -1,0 +1,51 @@
+{
+  "status": "retain-hold-editorial-read-only",
+  "createdUtc": "2026-10-24T01:45:57.462839+00:00",
+  "sourceOrdinal": 3275,
+  "sourceId": "book10-16-1164",
+  "decision": {
+    "sourceOrdinal": 3275,
+    "sourceId": "book10-16-1164",
+    "phrase": "the lesson can lose its teeth",
+    "action": "hold-editorial",
+    "canonicalId": null,
+    "reason": "A lesson losing its teeth adapts an enforcement metaphor to a consequence; this application needs editorial review. Provisional editorial decision; independent review remains open."
+  },
+  "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+  "decisionFileSha256": "c817e0b379d508d503a63e1c41a4c85b9ce57b1c2c187426fe0ea23cafa36aa6",
+  "sourceInventoryFile": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "source": {
+    "expression": "the lesson can lose its teeth",
+    "exactSentence": "Without follow-through, the lesson can lose its teeth.",
+    "guideGloss": "A consequence becomes too weak to matter; a teeth metaphor.",
+    "context": "What should parents do if their children make mistakes?",
+    "book": 12,
+    "question": 42,
+    "renderedPdfPage": 108
+  },
+  "naturalness": "The sentence is intelligible as a teeth/force metaphor, but the parent-lesson application is a marked extension; the exact lose-its-teeth construction is not established here as a reusable fixed unit across domains. Do not promote it solely from lexical plausibility.",
+  "ownerComparisons": [
+    {
+      "ownerId": "advanced-native-193",
+      "batchFile": "course-materials/advanced-native/batches/batch-0176-0200.json",
+      "batchSha256": "b6aaa6ab9a5eae75205a1f7da705dbaf2f2af4528b2d3f6d061e2ede42ae0ba2",
+      "currentTargetPattern": "\\bthe law has real teeth\\b",
+      "fullSourceMatchesCurrentDetector": false,
+      "teachingDecision": "Owner193 asks whether a law has enforceable investigation and penalties. Source3275 asks whether a child learns from a consequence when parents follow through; it reverses polarity and changes subject, actor and mechanism. Same metaphor family, different assessed decision.",
+      "sameSenseAliasNow": false
+    },
+    {
+      "ownerId": "advanced-native-1629",
+      "batchFile": "course-materials/advanced-native/batches/batch-1626-1650.json",
+      "batchSha256": "22ef53eb54a038024226c6e8dbd3ac1fce33d956c00a9dc561f5e472b2e161fa",
+      "currentTargetPattern": "\\b(?:catch|caught) problems before they (?:grow|grew) teeth\\b",
+      "fullSourceMatchesCurrentDetector": false,
+      "teachingDecision": "Owner1629 asks whether emerging problems are caught before becoming threatening; 3275 describes an already-given lesson becoming weak.",
+      "sameSenseAliasNow": false
+    }
+  ],
+  "completeSourceDetectorFeasibility": "A narrow branch such as the lesson can lose its teeth could match this one sentence, but appending it to the law-has-real-teeth detector would be a two-construction pedagogical expansion. A generic teeth/lose branch risks literal and unrelated threat cases. Detector match alone is insufficient for ownership.",
+  "distinctSevenStepAssessment": "Not warranted on current evidence. The single parenting sentence could support a contrast about follow-through, but six assessed decisions plus a changed-context writing transfer for a stable lose-its-teeth unit have not been demonstrated. Keep the source held pending stronger cross-context evidence or a substantive separately reviewed lesson design.",
+  "actionTaken": "None: no selected owner, decision, manifest, media or release edits."
+}

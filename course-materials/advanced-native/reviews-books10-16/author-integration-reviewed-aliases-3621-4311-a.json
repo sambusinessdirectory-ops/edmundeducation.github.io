@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "kind": "author-integration-reviewed-aliases-3621-4311",
+  "status": "provisional-unpublished-content-integration",
+  "sourceGitHead": "8775dda2",
+  "scope": "Only reviewed owner objects advanced-native-816 and advanced-native-3834 and decision rows 3621 and 4311 changed by this integration. No selected manifest, audio, browser, audit, commit, push or publication change by this agent.",
+  "beforeSha256": {
+    "owner816": "e415aca3922e9b6279eeeaab6d88c08bca95b45c6f4cc4e4d1307a96bce5041c",
+    "owner3834": "14bf74c30a5504daf8fef45c7fc980173184601b1ca14b28189b655be4b69f5f",
+    "decision3621": "44e688e1d9a6a5aa1ecb537c43f7db0f08e57e8dccc7d807369ca4b2ef9efdb3",
+    "decision4311": "d4ae9a6867cf2a6f343089e1b5c007dc4288596787dd2045874f8024a51e2c25"
+  },
+  "afterSha256": {
+    "owner816": "6c91ba72d6685101f7880be924c994bf7b388633a2794a0663875ead7d32afed",
+    "owner3834": "38d633a14d1afdd5ea500c8c10e24afeaea163df735dd400b8033ce8a333a771",
+    "decision3621": "f4a832cfc73217870f6c4a3ce6fef6c691da7299239719f59e9ff732f2743819",
+    "decision4311": "18d523595b5db3c6534bdec951ce841afbe984f15a0ac0663877251cec0a1802",
+    "manifest": "87003363015f40654aff303f71981081d476f09c6282e495983ec46fbb7838f0",
+    "proposal816": "ba2f3d1930b4b35cab03386203c2feba3ee051e59d39e66a81588c66f41ef214",
+    "proposal3834": "06384f43558e30e80c9a7f2cb637b9ec26746814a324c809efc34f2abad151cd",
+    "review816": "61374fcc478e88e2b6ecd20e09df3ff562c56541ef58312ce6583e8546ca7da9",
+    "review3834": "a325b82cde4357f18905707c73c527f8b866e930c5ab34faea35d3a3d8e3b752"
+  },
+  "reviewedMappings": [
+    {
+      "sourceOrdinal": 3621,
+      "action": "proposed-alias-existing",
+      "canonicalId": "advanced-native-816",
+      "audioDeltaIfSynthesized": [
+        "advanced-native-816:takeaway-2"
+      ]
+    },
+    {
+      "sourceOrdinal": 4311,
+      "action": "proposed-alias-new",
+      "canonicalId": "advanced-native-3834",
+      "audioDeltaIfSynthesized": [
+        "advanced-native-3834:takeaway-2"
+      ]
+    }
+  ],
+  "controls": [
+    {
+      "ownerId": "advanced-native-816",
+      "sourceId": "book10-16-1510",
+      "fullSourceMatches": true,
+      "provenancePresent": true,
+      "positiveControls": [
+        {
+          "text": "Tuition became a heavy load on the family's shoulders.",
+          "matches": true
+        },
+        {
+          "text": "The deadline felt like a weight on their shoulders.",
+          "matches": true
+        }
+      ],
+      "negativeControls": [
+        {
+          "text": "The weight was on their shoulder.",
+          "matches": false
+        },
+        {
+          "text": "The family carried a heavy load of boxes on their shoulders.",
+          "matches": false
+        },
+        {
+          "text": "The fee became a heavy load on the families shoulders.",
+          "matches": false
+        }
+      ]
+    },
+    {
+      "ownerId": "advanced-native-3834",
+      "sourceId": "book10-16-2200",
+      "fullSourceMatches": true,
+      "provenancePresent": true,
+      "positiveControls": [
+        {
+          "text": "Classroom knowledge spills into real life.",
+          "matches": true
+        },
+        {
+          "text": "Work pressure can end up spilling into every part of life.",
+          "matches": true
+        }
+      ],
+      "negativeControls": [
+        {
+          "text": "The knowledge stayed in the classroom.",
+          "matches": false
+        },
+        {
+          "text": "The effect never reached another domain.",
+          "matches": false
+        },
+        {
+          "text": "She spilt water on the desk.",
+          "matches": false
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "focusedBuild816": "21 lessons, 126 questions, 84 audio requests, 0 review flags; build and --check pass",
+    "focusedBuild3834": "3 lessons, 18 questions, 12 audio requests, 0 review flags; build and --check pass",
+    "fullVerifier": "2604 decisions; 631 drafted new lessons, 3786 questions, 2524 audio roles; 0 schema/source/alias errors and 0 exact guide copies",
+    "existingAliasAudit": "1190/1190 match; 0 exceptions",
+    "newAliasAudit": "190/190 match; 0 exceptions",
+    "holdCoverage": "593 current holds; 0 errors"
+  },
+  "limitations": [
+    "New audio for changed takeaway texts has not been generated or verified.",
+    "Owner3834 target is a surface detector and could match literal liquid context; assessed content disambiguates.",
+    "Selected manifest SHA recorded reflects concurrent selected-lesson integration by other agents; this agent did not edit it."
+  ]
+}

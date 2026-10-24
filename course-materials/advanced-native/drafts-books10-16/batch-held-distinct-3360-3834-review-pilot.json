@@ -549,7 +549,7 @@
       "titleEn": "spill into",
       "titleZh": "從一個範疇蔓延到另一範疇",
       "category": "figurative",
-      "contentRevision": 2,
+      "contentRevision": 3,
       "target": {
         "pattern": "\\b(?:spill|spills|spilled|spilt|spilling) into\\b",
         "glossaryForbidden": [
@@ -570,16 +570,30 @@
           "sentence": "Work pressure can end up spilling into every part of life.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "spilling into every part of life"
+        },
+        {
+          "occurrenceId": "book10-16-2200",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 207,
+          "book": 16,
+          "question": 11,
+          "sample": "S1",
+          "sourceBookPages": "27–28",
+          "locatorNote": "DOCX table 226, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Classroom knowledge spills into real life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "spills into real life"
         }
       ],
       "brief": {
-        "meaningEn": "For a pressure, problem or effect from one part of life or work to extend into another domain beyond its starting point.",
-        "meaningZh": "壓力、問題或影響從原本所在的工作或生活範疇，延伸到另一範疇。",
-        "grammar": "Pressure, work demands or delays spill into + an affected domain. Has spilled into marks an observed effect; may spill into predicts one. The liquid image is figurative here, so identify evidence that the effect crossed a boundary.",
-        "register": "Everyday to journalistic figurative description. A worker may notice a rota problem spilling into family time; a coordinator may describe a transport delay affecting a class.",
-        "boundaryZh": "必須有明確的起點和另一個受影響範疇；在原範疇內忙碌或真的打翻液體並非此處所教的比喻。",
-        "misconceptionZh": "不要把可能造成的影響說成已發生，也不要因兩件事相近便臆測其因果關係。",
-        "outcomeZh": "能指出影響從哪個範疇擴散到哪裏，並區分已發生與可能發生。"
+        "meaningEn": "For an effect, skill, benefit or pressure from one part of life or work to extend into another domain beyond its starting point.",
+        "meaningZh": "某個範疇的影響、技能、好處或壓力，延伸到原本範疇以外的生活或工作領域。",
+        "grammar": "A skill, benefit, pressure, work demand or delay spills into + an affected domain. Has spilled into marks an observed effect; may spill into predicts one. The liquid image is figurative here, so name the starting domain and evidence of crossing into another.",
+        "register": "Everyday to journalistic figurative description: a student can explain how classroom skills help in a community project, or a worker can explain how a rota problem affects family time.",
+        "boundaryZh": "須交代原本範疇和另一個受影響範疇；影響可以有益也可以有害。在同一範疇內發生的事，或真的打翻液體，都不是本課的比喻。",
+        "misconceptionZh": "不要把可能帶來的影響說成已發生，也不要只因兩件事相近便臆測其因果；有益或有害均須有具體線索。",
+        "outcomeZh": "能指出技能、好處或問題由哪裏延伸至何處，並區分已發生與可能發生的影響。"
       },
       "listening": {
         "en": "Mara’s work rota changed three times this week. She began answering shift messages during family dinner, so the scheduling pressure was spilling into her home time.",
@@ -640,26 +654,26 @@
         "explanationZh": "四句都合理回應周日時間被佔用的情況；金句用 spill into 表達工作影響休息。"
       },
       "scene": {
-        "promptZh": "晚間社區課程原定六時開始；巴士改道令多名參加者遲到二十分鐘，導師因而延遲開課。哪句最貼切？",
+        "promptZh": "學生在數學課學會比較單位價格；後來替社區花園採購材料時，他們實際用這方法比較兩家店的報價。哪句最有根據？",
         "options": [
           {
             "id": "a",
-            "en": "The bus delay is spilling into the evening class timetable.",
-            "zh": "巴士延誤正影響晚間課程的時間安排。"
+            "en": "The classroom skill spilled into the community garden’s purchasing decisions.",
+            "zh": "課堂學到的技能延伸到社區花園的採購決定中。"
           },
           {
             "id": "b",
-            "en": "The evening class caused the bus route to change.",
-            "zh": "晚間課程導致巴士改道。"
+            "en": "The garden purchases taught the students unit pricing before the maths class did.",
+            "zh": "花園採購比數學課更早教會學生比較單位價格。"
           },
           {
             "id": "c",
-            "en": "The route change affected drivers but left the class start time unchanged.",
-            "zh": "改道只影響司機，課程開始時間沒有改變。"
+            "en": "The maths lesson remained entirely within the classroom and never affected the purchases.",
+            "zh": "數學課所學完全留在課堂裏，沒有影響採購。"
           }
         ],
         "answerId": "a",
-        "explanationZh": "交通問題已影響課程開始時間；另兩句倒置因果或否認題目所述延誤。"
+        "explanationZh": "學生先在課堂學會比較單位價格，後來在社區採購時實際使用；另兩句倒置先後或否認已發生的延伸。"
       },
       "contrast": {
         "promptZh": "哪個情況最沒有顯示問題 spill into 另一範疇？",
@@ -781,8 +795,8 @@
           "zh": "問題 spill into 另一生活範疇，表示影響跨越了清楚可辨的界線。"
         },
         {
-          "en": "A delay may spill into a class schedule, but a possible effect should not be presented as already certain.",
-          "zh": "延誤可能影響課程時間表，但不應把尚未發生的影響說成已成定局。"
+          "en": "A skill learned in class can spill into a community project when students put it to use there.",
+          "zh": "學生把課堂技能用於社區計劃時，所學便能延伸到課堂以外。"
         }
       ],
       "review": {
@@ -809,7 +823,8 @@
         },
         "notes": [
           "AI-authored provisional held-source lesson. Independent English, Traditional Chinese, media, QA and human release review remain pending."
-        ]
+        ],
+        "note": "Proposal-only positive-domain expansion with exact source provenance and one assessed cross-domain skill transfer. Existing answer IDs retained. Takeaway 2 would require exact audio-text regeneration if integrated."
       }
     }
   ]

@@ -1,0 +1,1098 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-read-only-last100-three-owner-proposals-b",
+  "lessons": [
+    {
+      "id": "advanced-native-227",
+      "number": 227,
+      "inventoryId": "expr-0227",
+      "titleEn": "a safety net",
+      "titleZh": "出問題時提供保護的後盾",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\ba (?:quiet |kind of )?safety net\\b",
+        "glossaryForbidden": [
+          "\\bsafety net\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A system, resource or arrangement that provides protection if something goes wrong.",
+        "meaningZh": "在事情出問題時提供保護的制度、資源或安排。",
+        "grammar": "Provide, act as or have a safety net for someone. A quiet safety net is unobtrusive support; a kind of safety net signals an approximate protective comparison, including saved phone tools available if ordinary travel information fails. The risk and fallback should be named.",
+        "register": "Common protective metaphor. An organiser may call tested spare equipment a safety net; a traveller may call stored maps and emergency contacts a kind of safety net when connectivity is unreliable.",
+        "boundaryZh": "提供保障不等於風險全消失，也不一定是實物網；手機工具只有在能離線取用並對應具體問題時才算後備。",
+        "misconceptionZh": "要說明出甚麼問題時、提供甚麼保護；普通額外好處不一定是安全後盾。",
+        "outcomeZh": "能把後備安排連結到具體風險與保護作用。"
+      },
+      "sources": [
+        {
+          "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+          "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+          "page": 24,
+          "expression": "a safety net",
+          "sentence": "Protected habitats provide a safety net for vulnerable species.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 1,
+          "question": 19,
+          "sample": "S2",
+          "locatorNote": "PDF page 24, table 2, row 7; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-1-p024-t2-r07"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 139,
+          "expression": "a safety net",
+          "sentence": "Protected habitats provide a safety net for vulnerable species.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 6,
+          "question": 8,
+          "sample": "S1",
+          "locatorNote": "PDF page 139, table 2, row 5; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p139-t2-r05"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 195,
+          "expression": "a safety net",
+          "sentence": "Protected habitats provide a safety net for vulnerable species.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 7,
+          "question": 23,
+          "sample": "S1",
+          "locatorNote": "PDF page 195, table 2, row 3; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p195-t2-r03"
+        },
+        {
+          "occurrenceId": "pdf-2-p151-t1-r13",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 151,
+          "book": 6,
+          "question": 19,
+          "sample": "S2",
+          "sourceBookPages": "53–56",
+          "expression": "quiet safety net",
+          "sentence": "Neighbours became a quiet safety net for isolated residents.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "PDF page151, table1, row13"
+        },
+        {
+          "occurrenceId": "book10-16-2519",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 238,
+          "book": 16,
+          "question": 51,
+          "sample": "S1",
+          "sourceBookPages": "120–121",
+          "locatorNote": "DOCX table 266, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Modern travellers carry a kind of safety net in their pocket.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "carry a kind of safety net in their pocket"
+        }
+      ],
+      "listening": {
+        "en": "The backup recording gave us a safety net when the main file was damaged.",
+        "zh": "主要檔案損毀時，後備錄音為我們提供保障。",
+        "promptZh": "後備錄音發揮甚麼作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It was the main file that became damaged.",
+            "zh": "它就是損毀的主要檔案。"
+          },
+          {
+            "id": "b",
+            "en": "It made the original recording session longer.",
+            "zh": "它令原本錄音過程較長。"
+          },
+          {
+            "id": "c",
+            "en": "It provided protection when the primary file failed.",
+            "zh": "主要檔案出問題時，它提供了保障。"
+          },
+          {
+            "id": "d",
+            "en": "It was an unused reference for a later recording rather than a copy available when the file failed.",
+            "zh": "它是供日後錄音的未用參考，不是檔案失效時可用的副本。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "主要檔案損毀是風險，後備錄音讓成果仍有保存，是後盾作用。"
+      },
+      "reply": {
+        "promptZh": "為甚麼要另存一份錄音？",
+        "promptEn": "Why should we keep a separate copy of the recording?",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gives us a safety net if the main file is damaged.",
+            "zh": "如果主要檔案損毀，它會提供保障。"
+          },
+          {
+            "id": "b",
+            "en": "We would still have a copy if the original became unreadable.",
+            "zh": "如果原檔不能讀取，我們仍有副本。"
+          },
+          {
+            "id": "c",
+            "en": "It protects the work against losing the only usable file.",
+            "zh": "它保障作品，避免唯一可用檔案遺失。"
+          },
+          {
+            "id": "d",
+            "en": "A separate copy gives us a way to recover the content.",
+            "zh": "獨立副本讓我們有方法復原內容。"
+          }
+        ],
+        "explanationZh": "四句都說明後備保護；含 a safety net 的回應以比喻表達同一作用。",
+        "goldenId": "a"
+      },
+      "scene": {
+        "promptZh": "旅客在手機預存離線地圖和求助電話；若流動數據中斷，仍可查路線及聯絡支援。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The saved map and numbers will prevent mobile data from failing during the trip.",
+            "zh": "預存地圖和電話號碼可防止旅途中的流動數據失效。"
+          },
+          {
+            "id": "b",
+            "en": "The stored tools provide a kind of safety net if mobile data fails.",
+            "zh": "流動數據失效時，預存工具提供一種後備保障。"
+          },
+          {
+            "id": "c",
+            "en": "The offline map is useful only while mobile data remains connected.",
+            "zh": "離線地圖只有在流動數據仍連線時才有用。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "離線地圖與求助電話在數據中斷時提供具體後備；它們不能防止網絡故障，離線地圖也不依賴持續連線。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以稱為 a safety net？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A tested spare file kept separately in case the main copy fails.",
+            "zh": "另外保存、已測試的備用檔案，防主要副本失效。"
+          },
+          {
+            "id": "b",
+            "en": "An agreed backup venue available if the original room closes.",
+            "zh": "原房間關閉時可用的議定後備場地。"
+          },
+          {
+            "id": "c",
+            "en": "An extra microphone already committed to another simultaneous use, with no free replacement available.",
+            "zh": "額外咪高峰已用於另一項同時活動，沒有空閒替代品。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "同時已被佔用的額外設備，不是主設備故障時可用的後備。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說有後備場地就不用再核對主要場地。哪句回應最合理？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Should we wait for a cancellation before asking whether the backup room is available?",
+            "zh": "我們是否等取消後，才問後備房間是否可用？"
+          },
+          {
+            "id": "b",
+            "en": "Could we remove the original booking details now that a backup is listed?",
+            "zh": "已有後備名單，我們現在能否刪去原預訂資料？"
+          },
+          {
+            "id": "c",
+            "en": "A safety net helps if something fails, but we should still check the main arrangements.",
+            "zh": "後盾在出問題時有用，但我們仍應核對主要安排。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "後備保護與事前核對可並存；列了後備不表示主要或後備已自動確認。"
+      },
+      "speaking": {
+        "en": "The spare equipment provides a safety net if the main system fails.",
+        "zh": "主要系統失效時，備用器材提供保障。",
+        "promptZh": "先聽示範，再說明出問題時的後備保護。",
+        "targetSpan": {
+          "start": 29,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區探訪活動已有負責帶隊的義工，也事先安排另一位受訓義工留空，若帶隊者臨時不能來便可接替。用一至兩句英文說明這項保障。",
+        "examples": [
+          {
+            "en": "The reserve volunteer provides a safety net if the scheduled leader cannot attend the visit.",
+            "zh": "若原定帶隊者不能出席探訪，候補義工提供後備保障。"
+          },
+          {
+            "en": "We have arranged a trained volunteer as a safety net, ready to step in if the regular leader is unavailable.",
+            "zh": "我們安排受訓義工作後盾，原定帶隊者無法出席時可接替。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The reserve volunteer",
+            "zh": "候補義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 21
+            }
+          },
+          {
+            "en": "the scheduled leader",
+            "zh": "原定帶隊者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 67
+            }
+          },
+          {
+            "en": "attend the visit",
+            "zh": "出席探訪",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 91
+            }
+          },
+          {
+            "en": "a trained volunteer",
+            "zh": "受訓義工",
+            "exampleIndex": 1,
+            "span": {
+              "start": 17,
+              "end": 36
+            }
+          },
+          {
+            "en": "ready to step in",
+            "zh": "準備好接替",
+            "exampleIndex": 1,
+            "span": {
+              "start": 54,
+              "end": 70
+            }
+          }
+        ],
+        "selfCheckZh": "說明事先留空、受訓且可接替的人，並交代原帶隊者缺席才啟動；不是另一位同時已有工作的人。"
+      },
+      "takeaways": [
+        {
+          "en": "A tested backup gives the team a safety net.",
+          "zh": "測試過的後備安排為團隊提供保障。"
+        },
+        {
+          "en": "The support fund acts as a safety net when essential costs rise unexpectedly.",
+          "zh": "必要費用意外上升時，支援基金充當後盾。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": []
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-437",
+      "number": 437,
+      "inventoryId": "expr-0437",
+      "titleEn": "move forward",
+      "titleZh": "繼續推進事情",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\bmov(?:e|es|ed|ing) forward\\b|\\bmov(?:e|es|ed|ing) ahead quickly\\b(?=\\s+with\\s+(?:new|expanded|additional)\\s+(?:rail lines|bus routes|tram links|transport links)\\b)",
+        "glossaryForbidden": [
+          "\\bmov(?:e|es|ed|ing) forward\\b",
+          "\\bmov(?:e|es|ed|ing) ahead quickly\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Make progress with an activity, decision or development plan, especially after a difficulty or delay; moving ahead quickly describes its pace, not completed success.",
+        "meaningZh": "推進活動、決定或發展計劃，尤指經困難或延誤後；move ahead quickly 說明進展速度，不表示已完成。",
+        "grammar": "Move forward with a plan; moved in the past; can move forward once a condition is met. For a city or project, move ahead quickly with new rail lines or similar transport development describes rapid progress, not a train physically moving. The plan supplies the figurative direction.",
+        "register": "Common figurative progress use. A team lead may tell colleagues a rehearsal can move forward after a timing issue, while a planner may tell residents a rail project is moving ahead quickly after approvals.",
+        "boundaryZh": "推進或進展快不等於已完成、問題全解或必定成功；辨清具體已走的一步及未完成部分。",
+        "misconceptionZh": "一次進展可以很實際，仍可有待查資料及後續工作。",
+        "outcomeZh": "能指出推進的是哪一步，保留條件及未完成部分。"
+      },
+      "sources": [
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 20,
+          "expression": "move forward",
+          "sentence": "The team can move forward once everyone agrees.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 2,
+          "question": 21,
+          "sample": "S1",
+          "locatorNote": "PDF page 20, table 2, row 3; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p020-t2-r03"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 38,
+          "expression": "move forward",
+          "sentence": "The team can move forward once everyone agrees.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 3,
+          "question": 2,
+          "sample": "S2",
+          "locatorNote": "PDF page 38, table 1, row 13; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p038-t1-r13"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 48,
+          "expression": "move forward",
+          "sentence": "The team can move forward once everyone agrees.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 3,
+          "question": 14,
+          "sample": "S1",
+          "locatorNote": "PDF page 48, table 1, row 4; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p048-t1-r04"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 70,
+          "expression": "move forward",
+          "sentence": "The team can move forward once everyone agrees.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 3,
+          "question": 39,
+          "sample": "S2",
+          "locatorNote": "PDF page 70, table 2, row 10; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p070-t2-r10"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 120,
+          "expression": "move forward",
+          "sentence": "The team can move forward once everyone agrees.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 5,
+          "question": 24,
+          "sample": "S2",
+          "locatorNote": "PDF page 120, table 2, row 6; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p120-t2-r06"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 121,
+          "expression": "move forward",
+          "sentence": "The team can move forward once everyone agrees.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 5,
+          "question": 25,
+          "sample": "S1",
+          "locatorNote": "PDF page 121, table 2, row 7; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p121-t2-r07"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 124,
+          "expression": "move forward",
+          "sentence": "The team can move forward once everyone agrees.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 5,
+          "question": 27,
+          "sample": "S2",
+          "locatorNote": "PDF page 124, table 1, row 13; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p124-t1-r13"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 130,
+          "expression": "move forward",
+          "sentence": "The team can move forward once everyone agrees.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 5,
+          "question": 32,
+          "sample": "S2",
+          "locatorNote": "PDF page 130, table 1, row 2; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p130-t1-r02"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 171,
+          "expression": "move forward",
+          "sentence": "The team can move forward once everyone agrees.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 6,
+          "question": 38,
+          "sample": "S1",
+          "locatorNote": "PDF page 171, table 1, row 3; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p171-t1-r03"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 238,
+          "expression": "move forward",
+          "sentence": "The team can move forward once everyone agrees.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 9,
+          "question": 3,
+          "sample": "S2",
+          "locatorNote": "PDF page 238, table 1, row 6; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p238-t1-r06"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 262,
+          "expression": "move forward",
+          "sentence": "The team can move forward once everyone agrees.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 9,
+          "question": 27,
+          "sample": "S1",
+          "locatorNote": "PDF page 262, table 2, row 7; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p262-t2-r07"
+        },
+        {
+          "occurrenceId": "book10-16-2416",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 228,
+          "book": 16,
+          "question": 37,
+          "sample": "S2",
+          "sourceBookPages": "90–91",
+          "locatorNote": "DOCX table 252, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Some cities move ahead quickly with new rail lines.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "move ahead quickly"
+        }
+      ],
+      "listening": {
+        "en": "Once the two groups agreed on who would check the captions, we could move forward with the exhibition draft, although the final photographs still needed permission.",
+        "zh": "兩組議定由誰核圖說後，我們能推進展覽草稿，雖然最後照片仍需許可。",
+        "promptZh": "協議讓甚麼能推進？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The exhibition draft, while photo permissions remained to be obtained.",
+            "zh": "展覽草稿，而照片許可仍待取得。"
+          },
+          {
+            "id": "b",
+            "en": "The final opening, with all permissions already settled.",
+            "zh": "最後開幕，所有許可已辦妥。"
+          },
+          {
+            "id": "c",
+            "en": "The journey to a different venue before caption roles were discussed.",
+            "zh": "未討論圖說分工前，前往另一場地的行程。"
+          },
+          {
+            "id": "d",
+            "en": "A decision to stop work until after the exhibition closed.",
+            "zh": "等展覽結束後才工作的決定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "caption分工解開一步，with draft及still permissions限定進展。"
+      },
+      "reply": {
+        "promptZh": "核圖說分工議定後，有甚麼改變？",
+        "promptEn": "What changed after the caption-checking roles were agreed?",
+        "options": [
+          {
+            "id": "a",
+            "en": "We could continue the exhibition draft with the checking roles clear.",
+            "zh": "核對角色清楚後，可繼續展覽草稿。"
+          },
+          {
+            "id": "b",
+            "en": "We could move forward with the draft, though photo permissions were still pending.",
+            "zh": "我們能推進草稿，但照片許可仍待辦。"
+          },
+          {
+            "id": "c",
+            "en": "The agreement removed one delay without finishing the whole project.",
+            "zh": "協議除去一項延誤，未完成全項目。"
+          },
+          {
+            "id": "d",
+            "en": "We knew who would check the wording, so drafting could continue.",
+            "zh": "我們知道誰核文字，所以可繼續起草。"
+          }
+        ],
+        "explanationZh": "四句具體指出推進一步，不加全批。",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "城市的新鐵路線獲批後，首段工程較原定時間早動工；測試與餘下路段尚未完成。哪句準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The city can move ahead quickly with additional rail lines, though testing and other sections remain.",
+            "zh": "城市可迅速推進新鐵路線，但測試及其他路段仍待完成。"
+          },
+          {
+            "id": "b",
+            "en": "An early start on the first section proves the entire network will open on schedule.",
+            "zh": "首段提前動工，足以證明整個網絡會如期開通。"
+          },
+          {
+            "id": "c",
+            "en": "The project has only moved forward on paper because passengers cannot yet use the new line.",
+            "zh": "新線尚未載客，表示計劃只在紙面上有進展。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "首段提前動工支持進展快，但不能保證整個網絡如期開通；尚未載客也不抹煞已展開的工程。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不宜只憑 moved forward 得出？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Some progress was made on the stated activity.",
+            "zh": "所述活動有一些進展。"
+          },
+          {
+            "id": "b",
+            "en": "The entire task was finished with no remaining work.",
+            "zh": "整項任務完成，沒有剩餘工作。"
+          },
+          {
+            "id": "c",
+            "en": "Further context can identify the step that progressed.",
+            "zh": "更多情境可指出哪一步推進。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "進展與全部完成不同。"
+      },
+      "dialogue": {
+        "promptZh": "同伴問「能推草稿，是否照片都可立即刊了？」但許可仍未有。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can move forward with the draft, but publishing the photographs still depends on permission.",
+            "zh": "我們可推進草稿，但刊登照片仍須取得許可。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, agreement about captions supplies the permission for the photographs too.",
+            "zh": "對，圖說協議亦提供照片許可。"
+          },
+          {
+            "id": "c",
+            "en": "No part of the draft can progress because one permission remains outstanding.",
+            "zh": "因一項許可未辦，草稿任何部分都不能進展。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "草稿可先推進，照片刊登仍待許可；不能把局部進展說成所有步驟已完成，亦不須把全部工作停下。"
+      },
+      "speaking": {
+        "en": "We can move forward with the plan while keeping the unresolved permissions clearly marked.",
+        "zh": "我們可推進計劃，同時清楚標示未解決許可。",
+        "promptZh": "先聽，再分清局部進展及待辦。",
+        "targetSpan": {
+          "start": 7,
+          "end": 19
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你幫社團修舊展示桌，之前因拿不到工場鑰匙及缺修補材料一直停住，現兩者到位；你想通知組員可先修桌面，最後上色仍待小組選擇，不必把可動工說成整桌已修好。用一至兩句英文更新進度。",
+        "examples": [
+          {
+            "en": "With the workshop key and repair materials now available, we can move forward with restoring the tabletop. The final colour can remain open while we begin that work.",
+            "zh": "現有工場鑰匙及修補材料，我們可推進修桌面；開始這工作時，最後顏色可仍未定。"
+          },
+          {
+            "en": "We can move forward now that access and materials are sorted, without claiming the table is finished. Let us start the repairs and discuss the colour separately.",
+            "zh": "出入及材料已安排好，我們現在可推進，不聲稱桌子已完成；先修補，顏色另談。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the workshop key",
+            "zh": "工場鑰匙",
+            "exampleIndex": 0,
+            "span": {
+              "start": 5,
+              "end": 21
+            }
+          },
+          {
+            "en": "repair materials",
+            "zh": "修補材料",
+            "exampleIndex": 0,
+            "span": {
+              "start": 26,
+              "end": 42
+            }
+          },
+          {
+            "en": "restoring the tabletop",
+            "zh": "修復桌面",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 105
+            }
+          },
+          {
+            "en": "The final colour",
+            "zh": "最後顏色",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 123
+            }
+          },
+          {
+            "en": "start the repairs",
+            "zh": "開始修補",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 126
+            }
+          }
+        ],
+        "selfCheckZh": "把出入及材料解卡連到可動手修桌面，保留顏色未定及尚未完成，區分已可推進與成果已做好。"
+      },
+      "takeaways": [
+        {
+          "en": "The group moved forward once the first practical question had been settled.",
+          "zh": "首個實際問題解決後，小組繼續推進。"
+        },
+        {
+          "en": "We are moving forward with the guide while testing the directions separately.",
+          "zh": "我們正推進指南，同時另試指路說明。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": []
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-551",
+      "number": 551,
+      "inventoryId": "expr-0551",
+      "titleEn": "comfort zone",
+      "titleZh": "熟悉而安心的範圍",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bcomfort (?:zone|bubble)\\b",
+        "glossaryForbidden": [
+          "\\bcomfort (?:zone|bubble)\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A familiar situation or range of activities in which someone feels secure and at ease.",
+        "meaningZh": "某人感到安心自在的熟悉情況或活動範圍。",
+        "grammar": "In, within, outside or beyond one’s comfort zone; inside or outside one’s comfort bubble. Both noun forms describe familiar, easy-feeling options, while bubble here does not automatically mean ignorance of outside facts.",
+        "register": "Figurative description of a familiar, secure range. A guide might tell a traveller that staying with known activities keeps the trip inside a comfort bubble; a teacher may help a learner try one supported step beyond a comfort zone.",
+        "boundaryZh": "超出熟悉範圍不代表實際危險，也不保證必成長；comfort bubble 在這裏是熟悉選擇，不可單憑它推斷對外界事實無知。",
+        "misconceptionZh": "不是道德測驗，不能因緊張便說不適合，也不能以此要求接受每項邀請。",
+        "outcomeZh": "能用名詞搭配說明熟悉與陌生的範圍，提出合適嘗試。"
+      },
+      "sources": [
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 34,
+          "expression": "comfort zone",
+          "sentence": "Moving abroad pushed her beyond her comfort zone.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 2,
+          "question": 33,
+          "sample": "S1",
+          "locatorNote": "PDF page 34, table 1, row 4; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p034-t1-r04"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 136,
+          "expression": "comfort zone",
+          "sentence": "Moving abroad pushed her beyond her comfort zone.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 6,
+          "question": 5,
+          "sample": "S1",
+          "locatorNote": "PDF page 136, table 1, row 2; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p136-t1-r02"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 186,
+          "expression": "comfort zone",
+          "sentence": "Moving abroad pushed her beyond her comfort zone.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 7,
+          "question": 13,
+          "sample": "S2",
+          "locatorNote": "PDF page 186, table 1, row 5; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p186-t1-r05"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 190,
+          "expression": "comfort zone",
+          "sentence": "Moving abroad pushed her beyond her comfort zone.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 7,
+          "question": 18,
+          "sample": "S2",
+          "locatorNote": "PDF page 190, table 2, row 8; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p190-t2-r08"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 228,
+          "expression": "comfort zone",
+          "sentence": "Moving abroad pushed her beyond her comfort zone.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 8,
+          "question": 24,
+          "sample": "S2",
+          "locatorNote": "PDF page 228, table 2, row 6; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p228-t2-r06"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 232,
+          "expression": "comfort zone",
+          "sentence": "Moving abroad pushed her beyond her comfort zone.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 8,
+          "question": 28,
+          "sample": "S2",
+          "locatorNote": "PDF page 232, table 2, row 7; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p232-t2-r07"
+        },
+        {
+          "occurrenceId": "pdf-2-p129-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 129,
+          "book": 5,
+          "question": 32,
+          "sample": "S1",
+          "sourceBookPages": "84–86",
+          "expression": "out of my comfort zone",
+          "sentence": "The interview took me out of my comfort zone.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "PDF page 129, table 1, row 2"
+        },
+        {
+          "occurrenceId": "book10-16-2510",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 237,
+          "book": 16,
+          "question": 49,
+          "sample": "S2",
+          "sourceBookPages": "116–117",
+          "locatorNote": "DOCX table 264, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "He stayed inside his comfort bubble throughout the tour.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "comfort bubble"
+        }
+      ],
+      "listening": {
+        "en": "Editing the radio notes was within my comfort zone, but interviewing a guest was outside it; I agreed to ask one prepared question with the experienced host beside me, rather than lead the whole programme.",
+        "zh": "整理電台筆記在我熟悉安心範圍內，但訪問嘉賓在範圍外；我答應在有經驗主持陪同下問一條預備問題，不是帶整個節目。",
+        "promptZh": "哪項熟悉，怎樣嘗試陌生部分？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Editing felt familiar, and the speaker would try one interview question with support.",
+            "zh": "編筆記感熟悉，說話者會有支援地試一條訪問題。"
+          },
+          {
+            "id": "b",
+            "en": "Interviewing already felt easier than editing, so the speaker would lead the whole programme alone.",
+            "zh": "訪問已比編筆記輕鬆，所以說話者會獨帶全節目。"
+          },
+          {
+            "id": "c",
+            "en": "The speaker agreed to join the interview only after it had finished recording.",
+            "zh": "說話者在訪問錄完後才答應加入。"
+          },
+          {
+            "id": "d",
+            "en": "The speaker rejected all participation, including the editing work.",
+            "zh": "說話者拒絕全部參與，包括編輯工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "熟悉編輯與初試訪問可並存；一題有支援是已答應的安排，不是獨管、錄後才加入或全拒。"
+      },
+      "reply": {
+        "promptZh": "你打算怎樣嘗試第一次訪問？",
+        "promptEn": "How do you plan to try interviewing for the first time?",
+        "options": [
+          {
+            "id": "a",
+            "en": "I will ask one prepared question with the experienced host beside me.",
+            "zh": "我會在有經驗主持旁問一條預備問題。"
+          },
+          {
+            "id": "b",
+            "en": "It is outside my comfort zone, so I will begin with one supported question rather than the whole programme.",
+            "zh": "它在我熟悉安心範圍外，所以先試一條有支援問題，而非全節目。"
+          },
+          {
+            "id": "c",
+            "en": "I have agreed to a small interview role while keeping the host’s guidance.",
+            "zh": "我答應小訪問角色，保留主持指導。"
+          },
+          {
+            "id": "d",
+            "en": "The first attempt will be prepared and limited in scope, not an entire solo programme.",
+            "zh": "首次嘗試會有預備且範圍有限，不是整個獨立節目。"
+          }
+        ],
+        "explanationZh": "四句都答一條預備問題及支援範圍，不把陌生當不能試或全盤承諾。",
+        "goldenId": "b"
+      },
+      "scene": {
+        "promptZh": "旅途中，他仍選熟悉的餐點和活動，沒有試導遊提出的陌生體驗；那些體驗已有清楚說明，也可先小試。哪句最有根據？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He stayed inside his comfort bubble on this tour, although supported ways to try something new were available.",
+            "zh": "這次旅程中他仍留在熟悉安心的範圍內，雖然有支援他小試新體驗的方式。"
+          },
+          {
+            "id": "b",
+            "en": "He chose familiar activities because the guide’s alternatives cost too much.",
+            "zh": "他選熟悉活動，是因為導遊提出的其他體驗太貴。"
+          },
+          {
+            "id": "c",
+            "en": "Trying one new activity would require him to give up every familiar part of the tour.",
+            "zh": "只要試一項新活動，他就得放棄旅程中所有熟悉的部分。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他反覆選熟悉活動，足以描述舒適範圍；題目沒交代其他活動的價格，也沒有說小試一項活動就要放棄所有熟悉安排。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不宜由 outside someone’s comfort zone 推出？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The activity goes beyond what feels familiar and easy to that person.",
+            "zh": "活動超出當事人感熟悉自在之處。"
+          },
+          {
+            "id": "b",
+            "en": "The person is definitely incapable of learning it.",
+            "zh": "當事人肯定無法學會。"
+          },
+          {
+            "id": "c",
+            "en": "Preparation or a supported first step may help the person decide whether to try.",
+            "zh": "預備或有支援第一步可能幫決定是否試。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "不熟或不自在未證無法學，不以名詞當能力判決。"
+      },
+      "dialogue": {
+        "promptZh": "同伴想因訪問超出你熟悉範圍，就報你不再適合做任何電台工作；你編筆記很熟，亦願試一題。哪個回應最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The interview is outside my comfort zone, but I can try one supported question while continuing familiar editing.",
+            "zh": "訪問在我熟悉安心範圍外，但我可在支援下試問一題，同時繼續熟悉的編輯工作。"
+          },
+          {
+            "id": "b",
+            "en": "Remove me from both editing and interviewing without discussing the role I am ready to try.",
+            "zh": "不談我願試角色，便把編輯及訪問都取消。"
+          },
+          {
+            "id": "c",
+            "en": "Keep me on editing only and postpone the prepared question, although I have agreed to try it with the host.",
+            "zh": "即使我已答應跟主持試準備問題，仍只讓我編筆記，把問題延後。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "分清熟悉的編輯及有支援可小試的訪問，不必把超出舒適範圍誤作完全不適合。"
+      },
+      "speaking": {
+        "en": "This task is outside my comfort zone, but I would like to try a small part with clear support before taking on more.",
+        "zh": "任務在我熟悉安心範圍外，但我想先有清楚支援地試小部分，再接更多。",
+        "promptZh": "先聽，再以名詞搭配說熟悉範圍及嘗試步幅。",
+        "targetSpan": {
+          "start": 24,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你本周已處理搬家，朋友又邀你周末參加新即興活動。你喜歡探索，但這次想選熟悉的安靜素描來休息，並謝邀請，不把留在熟悉範圍說成失敗或承諾下次一定來。用一至兩句英文回覆。",
+        "examples": [
+          {
+            "en": "Thank you for inviting me, but I want to stay within my comfort zone this weekend and spend a quiet afternoon sketching. After the move, familiar drawing feels like the rest I need, rather than a failure to be adventurous.",
+            "zh": "謝謝邀請，但這周末我想留在熟悉安心範圍，安靜畫一下午；搬家後熟悉的畫畫是所需休息，不是缺乏探索心的失敗。"
+          },
+          {
+            "en": "I appreciate the invitation, though I am choosing my comfort zone this time because the week has been demanding. I would like some familiar sketching instead of another new activity just now.",
+            "zh": "我感謝邀請，但這周忙碌，所以這次選熟悉安心範圍；我現在想做熟悉素描，不再加一項新活動。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a quiet afternoon sketching",
+            "zh": "安靜畫畫的一下午",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 119
+            }
+          },
+          {
+            "en": "After the move",
+            "zh": "搬家之後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 121,
+              "end": 135
+            }
+          },
+          {
+            "en": "the rest I need",
+            "zh": "我所需的休息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 165,
+              "end": 180
+            }
+          },
+          {
+            "en": "I appreciate the invitation",
+            "zh": "我感謝這邀請",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 27
+            }
+          },
+          {
+            "en": "the week has been demanding",
+            "zh": "這星期很費心力",
+            "exampleIndex": 1,
+            "span": {
+              "start": 84,
+              "end": 111
+            }
+          }
+        ],
+        "selfCheckZh": "以本周資源及休息需要選熟悉活動，禮貌回應邀請，不貶低自己或對下次作未定承諾。"
+      },
+      "takeaways": [
+        {
+          "en": "The new role took me beyond my comfort zone, so I asked what support would be available for the first session.",
+          "zh": "新角色帶我超出熟悉安心範圍，所以我問首場有甚麼支援。"
+        },
+        {
+          "en": "Her comfort zone included familiar recipes, but she chose to try one new dish with her friend.",
+          "zh": "她熟悉安心範圍包括熟悉食譜，但選跟朋友試一道新菜。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "Root-approved useful complementary noun+in/out/beyond construction, same comfort-zone concept as baseline001 stay-in frame, not a new lexical sense. Do not modify baseline001. Future1198 out-of-my-comfort-zone exact source belongs to this exit-capable noun family."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

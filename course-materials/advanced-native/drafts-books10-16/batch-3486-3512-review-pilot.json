@@ -286,13 +286,13 @@
       "titleZh": "吸引目光",
       "category": "idiom",
       "target": {
-        "pattern": "\\b(?:catch|catches|caught|catching)\\s+(?:your|my|his|her|their|our|[A-Za-z]+(?:-[A-Za-z]+)?[’\\']s)\\s+eye\\b",
+        "pattern": "\\b(?:catch|catches|caught|catching)\\s+(?:the|your|my|his|her|their|our|[A-Za-z]+(?:-[A-Za-z]+)?[’']s)\\s+eye\\b",
         "glossaryForbidden": []
       },
       "brief": {
         "meaningEn": "Attract visual attention quickly among other things.",
         "meaningZh": "在其他事物之中迅速吸引人的視線。",
-        "grammar": "Catch/catches/caught someone’s eye; eye is singular in the idiom. The attraction does not itself prove quality.",
+        "grammar": "Catch/catches/caught someone’s eye or the eye; eye stays singular. The impersonal the-eye form is natural for a striking image or feature. Attraction does not prove quality.",
         "register": "Everyday browsing: a classmate explains why she noticed a vivid book cover on a crowded shelf.",
         "boundaryZh": "吸引目光不等於內容值得讀，也不表示一定購買。",
         "misconceptionZh": "不是眼睛被物件實際抓住；要分清注意到與深入評價。",
@@ -312,6 +312,20 @@
           "sentence": "The bright cover catches your eye.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "catches your eye"
+        },
+        {
+          "occurrenceId": "book10-16-2584",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 244,
+          "book": 16,
+          "question": 58,
+          "sample": "S2",
+          "sourceBookPages": "134–135",
+          "locatorNote": "DOCX table 273, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A postcard image may catch the eye, but service earns a return visit.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "postcard image may catch the eye"
         }
       ],
       "listening": {
@@ -420,7 +434,7 @@
         "options": [
           {
             "id": "a",
-            "en": "A cover can catch your eye before you know whether the book is good.",
+            "en": "A cover can catch the eye before you know whether the book is good.",
             "zh": "封面可先吸引目光，但你仍未知道書是否好。"
           },
           {
@@ -552,7 +566,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-3501",

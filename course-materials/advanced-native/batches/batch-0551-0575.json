@@ -7,17 +7,17 @@
     "titleZh": "熟悉而安心的範圍",
     "category": "idiom",
     "target": {
-      "pattern": "\\bcomfort zone\\b",
+      "pattern": "\\bcomfort (?:zone|bubble)\\b",
       "glossaryForbidden": [
-        "\\bcomfort zone\\b"
+        "\\bcomfort (?:zone|bubble)\\b"
       ]
     },
     "brief": {
       "meaningEn": "A familiar situation or range of activities in which someone feels secure and at ease.",
       "meaningZh": "某人感到安心自在的熟悉情況或活動範圍。",
-      "grammar": "in/within/outside/beyond one’s comfort zone; take/push someone out of their comfort zone; this noun frame can describe staying or moving beyond familiarity.",
-      "register": "Established psychological-space metaphor. Unfamiliarity can be challenging without proving inability; staying with a familiar task may also be a reasonable choice.",
-      "boundaryZh": "超出熟悉範圍不代表實際危險，也不保證必成長；應按能力、支援及意願決定步幅，不貶低選擇暫留熟悉做法的人。",
+      "grammar": "In, within, outside or beyond one’s comfort zone; inside or outside one’s comfort bubble. Both noun forms describe familiar, easy-feeling options, while bubble here does not automatically mean ignorance of outside facts.",
+      "register": "Figurative description of a familiar, secure range. A guide might tell a traveller that staying with known activities keeps the trip inside a comfort bubble; a teacher may help a learner try one supported step beyond a comfort zone.",
+      "boundaryZh": "超出熟悉範圍不代表實際危險，也不保證必成長；comfort bubble 在這裏是熟悉選擇，不可單憑它推斷對外界事實無知。",
       "misconceptionZh": "不是道德測驗，不能因緊張便說不適合，也不能以此要求接受每項邀請。",
       "outcomeZh": "能用名詞搭配說明熟悉與陌生的範圍，提出合適嘗試。"
     },
@@ -113,6 +113,20 @@
         "sentence": "The interview took me out of my comfort zone.",
         "referenceSentenceKind": "guide_original_example",
         "locatorNote": "PDF page 129, table 1, row 2"
+      },
+      {
+        "occurrenceId": "book10-16-2510",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 237,
+        "book": 16,
+        "question": 49,
+        "sample": "S2",
+        "sourceBookPages": "116–117",
+        "locatorNote": "DOCX table 264, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "He stayed inside his comfort bubble throughout the tour.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "comfort bubble"
       }
     ],
     "listening": {
@@ -173,26 +187,26 @@
       "goldenId": "b"
     },
     "scene": {
-      "promptZh": "畫家熟習鉛筆素描，但第一次試水彩，決定先畫一小片顏色練習，不立刻接大型委託。哪句準確？",
+      "promptZh": "旅途中，他仍選熟悉的餐點和活動，沒有試導遊提出的陌生體驗；那些體驗已有清楚說明，也可先小試。哪句最有根據？",
       "options": [
         {
           "id": "a",
-          "en": "Watercolour is beyond her comfort zone, so she is starting with a small colour study.",
-          "zh": "水彩在她熟悉安心範圍外，所以先做小色彩練習。"
+          "en": "He stayed inside his comfort bubble on this tour, although supported ways to try something new were available.",
+          "zh": "這次旅程中他仍留在熟悉安心的範圍內，雖然有支援他小試新體驗的方式。"
         },
         {
           "id": "b",
-          "en": "She already feels equally at ease with every watercolour commission as with pencil sketches.",
-          "zh": "她對每項水彩委託已跟鉛筆素描同樣自在。"
+          "en": "He chose familiar activities because the guide’s alternatives cost too much.",
+          "zh": "他選熟悉活動，是因為導遊提出的其他體驗太貴。"
         },
         {
           "id": "c",
-          "en": "The small study means she has accepted a large watercolour commission.",
-          "zh": "小練習表示她已接受大型水彩委託。"
+          "en": "Trying one new activity would require him to give up every familiar part of the tour.",
+          "zh": "只要試一項新活動，他就得放棄旅程中所有熟悉的部分。"
         }
       ],
       "answerId": "a",
-      "explanationZh": "新媒介配小試行，不等於已同熟或已接大委託。"
+      "explanationZh": "他反覆選熟悉活動，足以描述舒適範圍；題目沒交代其他活動的價格，也沒有說小試一項活動就要放棄所有熟悉安排。"
     },
     "contrast": {
       "promptZh": "哪項最不宜由 outside someone’s comfort zone 推出？",
@@ -221,8 +235,8 @@
       "options": [
         {
           "id": "a",
-          "en": "Keep the distinction between familiar editing and a new interview role, and describe the supported first step I agreed to.",
-          "zh": "分清熟悉編輯及新訪問角色，說明我答應的有支援第一步。"
+          "en": "The interview is outside my comfort zone, but I can try one supported question while continuing familiar editing.",
+          "zh": "訪問在我熟悉安心範圍外，但我可在支援下試問一題，同時繼續熟悉的編輯工作。"
         },
         {
           "id": "b",
@@ -236,7 +250,7 @@
         }
       ],
       "answerId": "a",
-      "explanationZh": "分清熟悉工作及已願意試的部分，不全排除，也不忽略本人已答應的有支援嘗試。"
+      "explanationZh": "分清熟悉的編輯及有支援可小試的訪問，不必把超出舒適範圍誤作完全不適合。"
     },
     "speaking": {
       "en": "This task is outside my comfort zone, but I would like to try a small part with clear support before taking on more.",
@@ -344,7 +358,7 @@
         "Root-approved useful complementary noun+in/out/beyond construction, same comfort-zone concept as baseline001 stay-in frame, not a new lexical sense. Do not modify baseline001. Future1198 out-of-my-comfort-zone exact source belongs to this exit-capable noun family."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-552",

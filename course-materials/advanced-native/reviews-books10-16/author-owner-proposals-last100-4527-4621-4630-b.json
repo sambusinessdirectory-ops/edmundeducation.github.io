@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "status": "proposal-only author audit; independent review required before any integration",
+  "baselineCommit": "8775dda278c09126121ca856cad7bb525b09e449",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-last100-4527-4621-4630-proposed-b.json",
+  "proposalSha256": "52c9ed7e5679c9022223581d9f78ef7711b8e4c775c732a253fdc4df4ef01b17",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "42878344ff07e2c228d95027b90691233c312c29fc12b391b30e21b0ffdcc453",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceOwnerComparisons": [
+    {
+      "sourceOrdinal": 4527,
+      "sourceId": "book10-16-2416",
+      "exactSourceSentence": "Some cities move ahead quickly with new rail lines.",
+      "sourceMeaning": "Make fast progress; a natural phrasal verb.",
+      "ownerId": 437,
+      "currentOwnerPath": "course-materials/advanced-native/batches/batch-0426-0450.json",
+      "currentOwnerFileSha256": "ca95098a4cb8f4f9909edf0a6f5a684c55c393d631cf74edff667bf5608dc091",
+      "currentOwnerObjectSha256": "c265228f093c2fc342e0c53c7d1cb297dcd501916a274a39025ff65ca56ab439",
+      "proposedOwnerObjectSha256": "17329872cf351244e6f1e5cf0f056f38da566a6c0f7c281cf03deb2ae8741ee1",
+      "changedFields": [
+        "/brief/boundaryZh",
+        "/brief/grammar",
+        "/brief/meaningEn",
+        "/brief/meaningZh",
+        "/brief/register",
+        "/contentRevision",
+        "/dialogue/explanationZh",
+        "/dialogue/options/0/en",
+        "/dialogue/options/0/zh",
+        "/scene/explanationZh",
+        "/scene/options/0/en",
+        "/scene/options/0/zh",
+        "/scene/options/1/en",
+        "/scene/options/1/zh",
+        "/scene/options/2/en",
+        "/scene/options/2/zh",
+        "/scene/promptZh",
+        "/sources/length",
+        "/target/glossaryForbidden/length",
+        "/target/pattern"
+      ],
+      "sourceFullSentencePatternMatch": "move ahead quickly",
+      "regexControls": {
+        "pass": true,
+        "positive": [
+          {
+            "text": "Some cities move ahead quickly with new rail lines.",
+            "match": "move ahead quickly"
+          },
+          {
+            "text": "The city can move ahead quickly with additional rail lines, though testing remains.",
+            "match": "move ahead quickly"
+          },
+          {
+            "text": "The project moved ahead quickly with expanded bus routes.",
+            "match": "moved ahead quickly"
+          },
+          {
+            "text": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          }
+        ],
+        "negative": [
+          {
+            "text": "The train moved ahead quickly on new rail lines.",
+            "match": null
+          },
+          {
+            "text": "The car moved ahead quickly with new tyres.",
+            "match": null
+          },
+          {
+            "text": "The rail lines moved ahead quickly on the map.",
+            "match": null
+          },
+          {
+            "text": "Some cities move ahead with new rail lines, without evidence of pace.",
+            "match": null
+          }
+        ],
+        "sourceHits": [
+          {
+            "sourceId": "book10-16-0901",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          },
+          {
+            "sourceId": "book10-16-1010",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          },
+          {
+            "sourceId": "book10-16-1077",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          },
+          {
+            "sourceId": "book10-16-1127",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          },
+          {
+            "sourceId": "book10-16-1234",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          },
+          {
+            "sourceId": "book10-16-1484",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          },
+          {
+            "sourceId": "book10-16-1509",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          },
+          {
+            "sourceId": "book10-16-1574",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          },
+          {
+            "sourceId": "book10-16-1575",
+            "example": "Research is one of the engines that keeps the world moving forward.",
+            "match": "moving forward"
+          },
+          {
+            "sourceId": "book10-16-1601",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          },
+          {
+            "sourceId": "book10-16-1700",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          },
+          {
+            "sourceId": "book10-16-1732",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          },
+          {
+            "sourceId": "book10-16-1745",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          },
+          {
+            "sourceId": "book10-16-2015",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          },
+          {
+            "sourceId": "book10-16-2134",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          },
+          {
+            "sourceId": "book10-16-2180",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          },
+          {
+            "sourceId": "book10-16-2395",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          },
+          {
+            "sourceId": "book10-16-2410",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          },
+          {
+            "sourceId": "book10-16-2416",
+            "example": "Some cities move ahead quickly with new rail lines.",
+            "match": "move ahead quickly"
+          },
+          {
+            "sourceId": "book10-16-2435",
+            "example": "The team can move forward once everyone agrees.",
+            "match": "move forward"
+          }
+        ]
+      },
+      "proposedDecisionReason": "Figurative progress in new rail infrastructure matches owner437 “move forward”; the new detector branch is limited to move ahead quickly with specified transport additions and excludes literal vehicle movement.",
+      "audioEnglishTextChanged": false
+    },
+    {
+      "sourceOrdinal": 4621,
+      "sourceId": "book10-16-2510",
+      "exactSourceSentence": "He stayed inside his comfort bubble throughout the tour.",
+      "sourceMeaning": "A familiar environment that limits new experiences; a bubble metaphor.",
+      "ownerId": 551,
+      "currentOwnerPath": "course-materials/advanced-native/batches/batch-0551-0575.json",
+      "currentOwnerFileSha256": "8bc703bfb65dd024f0d0fdb8c2ae7d30d083656bee7aeae4cc9fac2efa9e7de7",
+      "currentOwnerObjectSha256": "a589b533af272b5a3ac23ce01e980763fc693e637d97434c8907148818ae04cf",
+      "proposedOwnerObjectSha256": "ffa5a63315fe535f2dad2eb2747ce23765cba75e318cbadd276376fdfdda2cab",
+      "changedFields": [
+        "/brief/boundaryZh",
+        "/brief/grammar",
+        "/brief/register",
+        "/contentRevision",
+        "/dialogue/explanationZh",
+        "/dialogue/options/0/en",
+        "/dialogue/options/0/zh",
+        "/scene/explanationZh",
+        "/scene/options/0/en",
+        "/scene/options/0/zh",
+        "/scene/options/1/en",
+        "/scene/options/1/zh",
+        "/scene/options/2/en",
+        "/scene/options/2/zh",
+        "/scene/promptZh",
+        "/sources/length",
+        "/target/glossaryForbidden/0",
+        "/target/pattern"
+      ],
+      "sourceFullSentencePatternMatch": "comfort bubble",
+      "regexControls": {
+        "pass": true,
+        "positive": [
+          {
+            "text": "He stayed inside his comfort bubble throughout the tour.",
+            "match": "comfort bubble"
+          },
+          {
+            "text": "The traveller stepped outside her comfort bubble.",
+            "match": "comfort bubble"
+          },
+          {
+            "text": "The interview took me out of my comfort zone.",
+            "match": "comfort zone"
+          }
+        ],
+        "negative": [
+          {
+            "text": "The guide mentioned a bubble of comfort.",
+            "match": null
+          },
+          {
+            "text": "The artist painted comfort bubbles.",
+            "match": null
+          },
+          {
+            "text": "He lived in a bubble of misinformation.",
+            "match": null
+          }
+        ],
+        "sourceHits": [
+          {
+            "sourceId": "book10-16-1881",
+            "example": "Moving abroad pushed her beyond her comfort zone.",
+            "match": "comfort zone"
+          },
+          {
+            "sourceId": "book10-16-1982",
+            "example": "New courses help students step out of their comfort zone.",
+            "match": "comfort zone"
+          },
+          {
+            "sourceId": "book10-16-2510",
+            "example": "He stayed inside his comfort bubble throughout the tour.",
+            "match": "comfort bubble"
+          }
+        ]
+      },
+      "proposedDecisionReason": "Familiar, safe choices during travel match owner551 comfort-zone sense; the “comfort bubble” variant is bounded to that noun phrase and excludes epistemic “living in a bubble”.",
+      "audioEnglishTextChanged": false
+    },
+    {
+      "sourceOrdinal": 4630,
+      "sourceId": "book10-16-2519",
+      "exactSourceSentence": "Modern travellers carry a kind of safety net in their pocket.",
+      "sourceMeaning": "Have emergency tools on a phone; a safety-net metaphor.",
+      "ownerId": 227,
+      "currentOwnerPath": "course-materials/advanced-native/batches/batch-0226-0250.json",
+      "currentOwnerFileSha256": "49d2e01c3e30426b0da7eb81dcdbb241cf84e7987170293938ef9a23e4874a3b",
+      "currentOwnerObjectSha256": "042e221709564d268f6e17d585471c0fc0339c2060a6ca557cef00be4c33b3ee",
+      "proposedOwnerObjectSha256": "1301768e855fafbfd749240b084c5e77742b75b51f1e63b70e77dc1faa6bc580",
+      "changedFields": [
+        "/brief/boundaryZh",
+        "/brief/grammar",
+        "/brief/register",
+        "/contentRevision",
+        "/scene/explanationZh",
+        "/scene/options/0/en",
+        "/scene/options/0/zh",
+        "/scene/options/1/en",
+        "/scene/options/1/zh",
+        "/scene/options/2/en",
+        "/scene/options/2/zh",
+        "/scene/promptZh",
+        "/sources/length",
+        "/target/pattern"
+      ],
+      "sourceFullSentencePatternMatch": "a kind of safety net",
+      "regexControls": {
+        "pass": true,
+        "positive": [
+          {
+            "text": "Modern travellers carry a kind of safety net in their pocket.",
+            "match": "a kind of safety net"
+          },
+          {
+            "text": "The saved tools provide a kind of safety net if mobile data fails.",
+            "match": "a kind of safety net"
+          },
+          {
+            "text": "A tested backup gives the team a safety net.",
+            "match": "a safety net"
+          },
+          {
+            "text": "Neighbours became a quiet safety net for isolated residents.",
+            "match": "a quiet safety net"
+          }
+        ],
+        "negative": [
+          {
+            "text": "The climber fell onto safety netting.",
+            "match": null
+          },
+          {
+            "text": "The app is a kind of safety network for bookings.",
+            "match": null
+          },
+          {
+            "text": "The poster shows kind of safety net.",
+            "match": null
+          }
+        ],
+        "sourceHits": [
+          {
+            "sourceId": "book10-16-1538",
+            "example": "Protected habitats provide a safety net for vulnerable species.",
+            "match": "a safety net"
+          },
+          {
+            "sourceId": "book10-16-1544",
+            "example": "Protected habitats provide a safety net for vulnerable species.",
+            "match": "a safety net"
+          },
+          {
+            "sourceId": "book10-16-2519",
+            "example": "Modern travellers carry a kind of safety net in their pocket.",
+            "match": "a kind of safety net"
+          }
+        ]
+      },
+      "proposedDecisionReason": "A phone’s offline map and emergency numbers are contingent backup, matching owner227 “a safety net”; “a kind of safety net” keeps the same protection sense without promising safety.",
+      "audioEnglishTextChanged": false
+    }
+  ],
+  "focusedBuildAndCheck": {
+    "lessons": 3,
+    "questions": 18,
+    "audioRoles": 12,
+    "reviewFlags": 0,
+    "buildPassed": true,
+    "checkPassed": true
+  },
+  "sourceOverlapScreen": {
+    "method": "all proposed learner English six-token spans vs 2604 guide source examples; exclude own exact provenance",
+    "nonOwnSixTokenHits": 0
+  },
+  "nativeJsControlsPassed": true,
+  "newAudioTextDelta": 0,
+  "mutations": {
+    "canonicalOwners": false,
+    "decisions": false,
+    "selectedManifest": false
+  }
+}

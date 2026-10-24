@@ -1,0 +1,43 @@
+{
+  "status": "read-only-independent-AI-distinct-unit-gate-no-selection",
+  "createdUtc": "2026-10-24T03:30:07.986722+00:00",
+  "inputHashes": {
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "decisionFileDigestSha256": "f09668e6306a042f376019221bfe4e1d867b951a431c295ec4198d5652711158",
+    "selectedManifestSha256": "42878344ff07e2c228d95027b90691233c312c29fc12b391b30e21b0ffdcc453"
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 4379,
+      "sourceId": "book10-16-2268",
+      "expression": "pulling in",
+      "exactSourceSentence": "Buses were pulling in throughout the morning.",
+      "sourceMeaning": "Arriving and stopping, especially a vehicle; a natural phrasal verb.",
+      "currentHoldReason": "Buses pulling in is literal arrival, not figurative idiom. Provisional editorial decision; independent review remains open.",
+      "distinctSevenStepLessonNow": "YES-proposal-only",
+      "evidence": "The exact bus source is a natural intransitive pull in = arrive and stop. Cambridge labels the vehicle sense a B2 phrasal verb. Selected 2295 pull them in teaches attracting an audience and owner077 pull in the same direction teaches coordinating people; neither teaches vehicle arrival. A seven-step lesson can make genuinely separate choices about arrival versus passing/departure, intransitive subject, optional stop location, observed versus expected arrival, a timetable reply, a spoken report, and transfer to a train or taxi context. Do not infer boarding or punctuality from pull in alone.",
+      "nextGate": "Author one proposal-only pilot and independently challenge seven distinct decisions, four valid replies, EN/ZH, and a non-bus changed writing context.",
+      "primaryDictionary": "https://dictionary.cambridge.org/dictionary/english/pull-in-pull-into"
+    },
+    {
+      "sourceOrdinal": 4545,
+      "sourceId": "book10-16-2434",
+      "expression": "not standing still",
+      "exactSourceSentence": "Urban transport is not standing still.",
+      "sourceMeaning": "Continuing to develop; a fixed motion idiom.",
+      "currentHoldReason": "Not standing still means developing but overlaps standard make-progress patterns; course value needs review. Provisional editorial decision; independent review remains open.",
+      "distinctSevenStepLessonNow": "NO-keep-held",
+      "evidence": "The exact urban-transport sentence does use a valid figurative stand still = remain unchanged, which Cambridge records. Yet the negative phrase merely states continuing change. No distinctive advanced learner boundary beyond physical immobility versus ongoing development is shown, and seven steps would likely repeat that binary. It is not the same as owner3706 ahead of its time. Keep held unless a draft can first demonstrate a non-repetitive seven-decision outcome without inflating the source sense.",
+      "nextGate": "Keep held; optional course-value sketch only, not authoring or selection.",
+      "primaryDictionary": "https://dictionary.cambridge.org/us/dictionary/english/stand-still?topic=keeping-and-staying-the-same"
+    }
+  ],
+  "counts": {
+    "proposalOnlyYes": 1,
+    "keepHeldNo": 1
+  },
+  "limits": [
+    "YES approves only attempting a seven-step unselected draft, not content, owner, human or release approval.",
+    "No draft, decision, manifest or selected owner was edited."
+  ]
+}

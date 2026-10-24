@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "status": "author self-audit for unselected exploratory lesson; independent AI content review pending",
+  "baselineCommit": "8775dda278c09126121ca856cad7bb525b09e449",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-4410-suck-life-out-b.json",
+  "draftSha256": "810f83d5346afd47887b414556bb267a06c637971855dbb30f7b944e764c706f",
+  "sourceOrdinal": 4410,
+  "sourceId": "book10-16-2299",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceSentence": "Balanced rules reduce noise without sucking all the life out of the city.",
+  "sourceMeaning": "Removing a city's energy and activity; a fixed informal phrase.",
+  "decisionPath": "course-materials/advanced-native/books10-16/editorial-decisions-4392-4451.jsonl",
+  "decisionSha256": "ea25bb1eec6c5374159fe0cce1038e0337ac53f794f2d811e4c3396af64a4039",
+  "decisionAction": "hold-editorial",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "42878344ff07e2c228d95027b90691233c312c29fc12b391b30e21b0ffdcc453",
+  "includedInSelectedManifest": false,
+  "sourceSense": "The guide criticizes noise rules that drain a city of activity while allowing for balanced restrictions; the idiom is a vivid loss-of-vitality claim, not literal harm or a claim that all activity stops.",
+  "ownerBoundary": {
+    "priorSelectedAndCanonicalDetectorHitsOnCompleteSource": [],
+    "distinctTarget": "suck the life out of + place/activity; optional all and verb inflections",
+    "literalAndTrivialEditBoundary": "A merely quieter or shorter activity is insufficient without evidence of lost energy or warmth."
+  },
+  "targetControls": {
+    "pattern": "\\bsuck(?:s|ed|ing)?\\s+(?:all\\s+)?the life out of\\b",
+    "positive": [
+      [
+        "Balanced rules reduce noise without sucking all the life out of the city.",
+        "sucking all the life out of"
+      ],
+      [
+        "The new format sucked the life out of the show.",
+        "sucked the life out of"
+      ],
+      [
+        "A blanket ban would suck the life out of the market.",
+        "suck the life out of"
+      ],
+      [
+        "That rewrite sucks the life out of a speech.",
+        "sucks the life out of"
+      ]
+    ],
+    "negative": [
+      [
+        "The animal sucked the life from the prey.",
+        null
+      ],
+      [
+        "The editor kept the lively opening.",
+        null
+      ],
+      [
+        "The pump sucked water out of the tank.",
+        null
+      ]
+    ],
+    "fullSourceHitIds": [
+      "book10-16-2299"
+    ],
+    "keyAndModelTargetMatches": [
+      "sucked the life out of",
+      "sucked the life out of",
+      "sucked the life out of",
+      "suck the life out of",
+      "suck the life out of",
+      "sucked the life out of",
+      "sucked the life out of",
+      "Suck the life out of",
+      "suck the life out of"
+    ],
+    "speakingTargetSpan": {
+      "start": 33,
+      "end": 53
+    }
+  },
+  "sevenStepDecisions": [
+    "Listening: distinguish traders’ vitality concern from a rule repeal or a completed trial.",
+    "Reply: raise the cost of removing all youth-club games while keeping on-time pickup; four options are valid and A is the target-bearing gold.",
+    "Scene: identify a flat college-radio format despite accurate announcements.",
+    "Contrast: reject the exaggerated idiom claim after a lone typo fix.",
+    "Dialogue: diagnose the garden group’s loss of social energy from one-way notices while preserving clear dates.",
+    "Speaking: explain the likely loss from removing a poetry open-mic slot.",
+    "Writing: in a museum visit, retain factual panels and a quiet option while restoring brief stories or selected Q&A."
+  ],
+  "assessedItems": 6,
+  "fourValidReplyOptions": 4,
+  "sceneAndDialogueKeyCount": 2,
+  "audioRoles": 4,
+  "glossary": {
+    "rows": 6,
+    "answerDerivedExactSpans": true,
+    "targetExcluded": true,
+    "spans": [
+      {
+        "en": "The factual panels",
+        "actual": "The factual panels"
+      },
+      {
+        "en": "every guide story",
+        "actual": "every guide story"
+      },
+      {
+        "en": "brief guided stories at two stops",
+        "actual": "brief guided stories at two stops"
+      },
+      {
+        "en": "The factual panels and quiet option",
+        "actual": "The factual panels and quiet option"
+      },
+      {
+        "en": "every chance to ask a guide a question",
+        "actual": "every chance to ask a guide a question"
+      },
+      {
+        "en": "an optional short question period at selected stops",
+        "actual": "an optional short question period at selected stops"
+      }
+    ]
+  },
+  "guideOriginality": {
+    "sourceExamplesScreened": 2604,
+    "nonOwnSixTokenOverlaps": 0,
+    "copyFinding": "No six-token guide-source overlap in learner English strings."
+  },
+  "focusedBuildAndCheck": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRoles": 4,
+    "reviewFlags": 0,
+    "buildPassed": true,
+    "checkPassed": true
+  },
+  "pending": [
+    "Independent AI editorial review",
+    "Selection decision",
+    "Audio synthesis and listening",
+    "Browser/device QA",
+    "Hosting and release gates"
+  ],
+  "mutations": {
+    "selectedManifest": false,
+    "canonicalOwners": false,
+    "editorialDecisions": false,
+    "media": false
+  }
+}

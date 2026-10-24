@@ -1,0 +1,1988 @@
+{
+  "schemaVersion": 1,
+  "kind": "read-only-first-100-current-holds-source-order-triage",
+  "snapshot": {
+    "gitHead": "8775dda2",
+    "selectedManifestSha256": "42878344ff07e2c228d95027b90691233c312c29fc12b391b30e21b0ffdcc453",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "firstOrdinal": 2130,
+    "lastOrdinal": 2727,
+    "sourceCount": 100,
+    "first100DiagnosticSha256": "e6c33ba245d8b208bd55628bcf9b47ff4d0e13436bdac8b6b6359d1541dd6ec5"
+  },
+  "method": "Read exact inventory sentence/meaning and current hold reason for all 100; compare full source with all discovered legacy and draft target detectors; incorporate the prior 617/619 triages and later source-specific review; reject incidental detector hits, later-owner ordering conflicts, unresolved pronouns and weak bespoke wording. Only proposal bytes were written.",
+  "counts": {
+    "strongSameSenseOwnerProposals": 1,
+    "defensibleStandaloneNewLessonCandidates": 0,
+    "keepHeld": 99
+  },
+  "proposal": {
+    "path": "course-materials/advanced-native/reviews-books10-16/proposals/owner-726-source-2721-proposed-a.json",
+    "sha256": "2f962cfa6881ac98ab6eb3b78276e660ff03cf749f4b7d97a20e157d97f1732f",
+    "sourceOrdinal": 2721,
+    "ownerId": "advanced-native-726",
+    "ownerBatchSha256": "ef86956fd45d6228fa47b72400a2e6717d8c07b5a7755c5f89fdcadb7a7e9bbf",
+    "sourcePositiveControls": [
+      "The chorus became emotional shorthand for that summer.",
+      "The badge became visual shorthand for each team.",
+      "A uniform can be social shorthand for a person’s job.",
+      "The score became emotional shorthand for the tour."
+    ],
+    "negativeControls": [
+      "The chorus became shorthand notes.",
+      "The emotional reaction was short.",
+      "A visual handbook explained the task."
+    ],
+    "fullBooks10To16SourceMatches": [
+      "book10-16-0610"
+    ],
+    "focusedBuild": "1 lesson, 6 questions, 4 audio requests, 0 review flags; build and --check passed"
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 2130,
+      "sourceId": "book10-16-0019",
+      "expression": "settle their mind",
+      "exactSourceSentence": "A quiet walk helped the group settle their mind before the test.",
+      "sourceMeaning": "Calm their thoughts enough to concentrate; a natural mental-state collocation.",
+      "question": "What is an example of a time when it is very important for people to arrive on time in your country?",
+      "decisionFile": "editorial-decisions-2112-2141.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Source says the group settle their mind; review person/number and whether the useful target is settle one's mind before assigning a lesson.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2147,
+      "sourceId": "book10-16-0036",
+      "expression": "one step ahead of the clock",
+      "exactSourceSentence": "Preparing tonight keeps us one step ahead of the clock tomorrow.",
+      "sourceMeaning": "Better prepared than the time pressure demands; a vivid extension of being ahead.",
+      "question": "Can you suggest some ways to make sure you are not late for anything?",
+      "decisionFile": "editorial-decisions-2142-2171.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "One step ahead of the clock may be an ad hoc blend; check idiomaticity and source context before making a target.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2148,
+      "sourceId": "book10-16-0037",
+      "expression": "running after it",
+      "exactSourceSentence": "Without a timetable, we spend the week running after it.",
+      "sourceMeaning": "Trying unsuccessfully to catch up with time; a figurative image of pursuit.",
+      "question": "Can you suggest some ways to make sure you are not late for anything?",
+      "decisionFile": "editorial-decisions-2142-2171.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Running after it has an unclear it referent and may be an awkward time metaphor; inspect neighboring context first.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2159,
+      "sourceId": "book10-16-0048",
+      "expression": "sharpen your day",
+      "exactSourceSentence": "A clear plan can sharpen your day.",
+      "sourceMeaning": "Make a day's activities more focused and effective; sharpen is figurative.",
+      "question": "Let's move on to how modern technology influences the way that people manage time. Do you think computers make it easier or more difficult to manage time?",
+      "decisionFile": "editorial-decisions-2142-2171.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Sharpen your day is a questionable collocation; verify natural use and whether the real target is sharpen focus.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2160,
+      "sourceId": "book10-16-0049",
+      "expression": "scatter it",
+      "exactSourceSentence": "Your carefully planned day can fall apart when constant alerts scatter it.",
+      "sourceMeaning": "Break focus into unrelated pieces; a physical verb describes attention figuratively.",
+      "question": "Let's move on to how modern technology influences the way that people manage time. Do you think computers make it easier or more difficult to manage time?",
+      "decisionFile": "editorial-decisions-2142-2171.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Incidental detector hit is owner1164’s fall apart, not the held scatter it; no scatter-it unit is established.",
+      "fullSourceDetectorMatches": [
+        {
+          "ownerId": "advanced-native-1164",
+          "ownerTitle": null,
+          "ownerMeaning": "Become so upset that it is difficult to think calmly or deal with the immediate situation.",
+          "matchIsSameHeldUnit": false
+        }
+      ],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2164,
+      "sourceId": "book10-16-0053",
+      "expression": "excellent servants",
+      "exactSourceSentence": "Phones can be excellent servants during a busy workday.",
+      "sourceMeaning": "Useful tools when kept under human control; a personification that contrasts with masters in context.",
+      "question": "Let's move on to how modern technology influences the way that people manage time. Do you think computers make it easier or more difficult to manage time?",
+      "decisionFile": "editorial-decisions-2142-2171.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Excellent servants alone is not a stable expression without its masters contrast; inspect the full source context.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "prior-owner-or-variant-review"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2165,
+      "sourceId": "book10-16-0054",
+      "expression": "set off half-blind",
+      "exactSourceSentence": "Without a map, we would set off half-blind.",
+      "sourceMeaning": "Begin a journey with too little information; a figurative description of poor preparation.",
+      "question": "How can modern technology help people arrive early?",
+      "decisionFile": "editorial-decisions-2142-2171.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Set off half-blind may be a creative but awkward blend; verify naturalness and the complete expression.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2175,
+      "sourceId": "book10-16-0064",
+      "expression": "hold the day together",
+      "exactSourceSentence": "A written plan helped hold the day together.",
+      "sourceMeaning": "Keep daily activities organised and manageable; an image of physical cohesion.",
+      "question": "How can modern technology help people arrive early?",
+      "decisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Hold the day together is a creative planning metaphor; verify whether it is a reusable English target rather than an ad hoc extension of hold it together. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "prior-owner-or-variant-review"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2177,
+      "sourceId": "book10-16-0066",
+      "expression": "walk out of the door too late",
+      "exactSourceSentence": "If you walk out of the door too late, no app can fix the delay.",
+      "sourceMeaning": "Leave home after the time needed to be punctual; a natural spoken sequence.",
+      "question": "How can modern technology help people arrive early?",
+      "decisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Walk out of the door too late is a literal descriptive clause, not obviously a reusable expression; confirm the teachable unit before lesson drafting. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2181,
+      "sourceId": "book10-16-0070",
+      "expression": "chopped into pieces",
+      "exactSourceSentence": "Constant interruptions leave my study time chopped into pieces.",
+      "sourceMeaning": "Broken into many small fragments; a physical cutting image describes lost concentration.",
+      "question": "Do you think it is easy to manage your time in the modern world?",
+      "decisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Study time chopped into pieces is understandable but may be a one-off image rather than a stable target; check idiomaticity and full source context. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "provisional-distinct-candidate"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2188,
+      "sourceId": "book10-16-0077",
+      "expression": "draws a line around their time",
+      "exactSourceSentence": "A freelancer who draws a line around their time can protect evenings for family.",
+      "sourceMeaning": "Sets a firm boundary on when time is available; drawing a line is figurative.",
+      "question": "Do you think it is easy to manage your time in the modern world?",
+      "decisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Draws a line around their time may be an idiosyncratic extension of boundary language; verify natural wording and distinguish it from draw a line in the sand. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "prior-owner-or-variant-review"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2191,
+      "sourceId": "book10-16-0080",
+      "expression": "run away with you",
+      "exactSourceSentence": "Without a timer, the afternoon can run away with you.",
+      "sourceMeaning": "Become difficult to control, especially time or emotion; a conventional figurative phrase.",
+      "question": "Do you think it is easy to manage your time in the modern world?",
+      "decisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "The afternoon running away with you resembles losing track of time, but this personified frame and its implied cause are not secure enough to expand owner869.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "uncertain"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2193,
+      "sourceId": "book10-16-0082",
+      "expression": "hold their rhythm",
+      "exactSourceSentence": "Daily practice helped the runners hold their rhythm.",
+      "sourceMeaning": "Maintain a stable pace or routine; rhythm is used beyond music.",
+      "question": "Do you think it is easy to manage your time in the modern world?",
+      "decisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Hold their rhythm in a runners sentence may describe a literal exercise cadence rather than a distinct figurative idiom; review the intended sense. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2194,
+      "sourceId": "book10-16-0083",
+      "expression": "fast-moving current",
+      "exactSourceSentence": "A fast-moving current of new demands shaped the team's week.",
+      "sourceMeaning": "A rapidly changing force that is hard to resist; the water image describes modern life.",
+      "question": "Do you think it is easy to manage your time in the modern world?",
+      "decisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Fast-moving current of new demands is an extended one-off water metaphor; check whether the full image is a transferable expression. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2207,
+      "sourceId": "book10-16-0096",
+      "expression": "opening a window in a stuffy room",
+      "exactSourceSentence": "The holiday felt like opening a window in a stuffy room.",
+      "sourceMeaning": "Creating relief and freshness in an oppressive situation; an extended comparison.",
+      "question": "What types of leisure activities are popular in your country?",
+      "decisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Opening a window in a stuffy room is a vivid full-sentence simile, but its transferability as a fixed teaching target is uncertain. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2215,
+      "sourceId": "book10-16-0104",
+      "expression": "oxygen for the mind",
+      "exactSourceSentence": "Quiet reading can be oxygen for the mind after a difficult week.",
+      "sourceMeaning": "Something essential for mental refreshment; oxygen is a vivid figurative comparison.",
+      "question": "Why is it important for people to have time for leisure activities?",
+      "decisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Oxygen for the mind is a creative metaphor for refreshment rather than a settled expression; check register and reusable scope. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2220,
+      "sourceId": "book10-16-0109",
+      "expression": "swallowed whole by routine",
+      "exactSourceSentence": "Without a break, people can feel swallowed whole by routine.",
+      "sourceMeaning": "Overwhelmed completely by repeated daily demands; a vivid consumption metaphor.",
+      "question": "Why is it important for people to have time for leisure activities?",
+      "decisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Owner1144 covers being swallowed up by work, but this source uses swallowed whole by routine; naturalness of that passive and the broader routine sense need evidence before merging.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "prior-owner-or-variant-review"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2234,
+      "sourceId": "book10-16-0123",
+      "expression": "a ripple in water",
+      "exactSourceSentence": "One kind gesture created a ripple in water across the team.",
+      "sourceMeaning": "An effect spreading from a small starting point; a water image.",
+      "question": "Why are some activities more popular than others?",
+      "decisionFile": "editorial-decisions-2232-2291.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Exact guide wording is an awkward ripple in water frame already cited by owner1692; the reviewed owner normalizes to like a ripple in water and cannot match the full source. Prior source2234 diagnosis recommends hold rather than detector inflation.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "high-confidence-same-sense-alias-candidate",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2244,
+      "sourceId": "book10-16-0133",
+      "expression": "the melody is the same even if the instruments are different",
+      "exactSourceSentence": "In the new edition, the melody is the same even if the instruments are different.",
+      "sourceMeaning": "The underlying purpose stays constant while its form changes; an extended musical metaphor.",
+      "question": "Are the types of leisure activities that are popular today the same as those that were popular when your parents were young?",
+      "decisionFile": "editorial-decisions-2232-2291.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "The entire melody-and-instruments sentence is an extended ad hoc comparison rather than an established reusable unit; confirm a shorter target. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2247,
+      "sourceId": "book10-16-0136",
+      "expression": "split in two directions",
+      "exactSourceSentence": "The market may split in two directions over the next decade.",
+      "sourceMeaning": "Develop along two different paths; a spatial image describes divergent trends.",
+      "question": "What types of leisure activities may become more popular in the future?",
+      "decisionFile": "editorial-decisions-2232-2291.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Split in two directions may be awkward for diverging market trends; check whether split into two paths is the natural teachable form. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2259,
+      "sourceId": "book10-16-0148",
+      "expression": "fresh air for the mind",
+      "exactSourceSentence": "A good conversation can feel like fresh air for the mind.",
+      "sourceMeaning": "Mental relief and renewal; fresh air is used figuratively.",
+      "question": "What types of leisure activities may become more popular in the future?",
+      "decisionFile": "editorial-decisions-2232-2291.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Fresh air for the mind is a creative relief metaphor rather than an established collocation; compare with a breath of fresh air before teaching. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2302,
+      "sourceId": "book10-16-0191",
+      "expression": "cut away",
+      "exactSourceSentence": "The editor chose to cut away the long introduction.",
+      "sourceMeaning": "Remove an unnecessary section during editing; a useful phrasal verb.",
+      "question": "How are movies and real life different?",
+      "decisionFile": "editorial-decisions-2292-2351.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Cut away an introduction may be less natural than cut out or cut the introduction; confirm the editing sense and correct phrasal verb. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "uncertain"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2303,
+      "sourceId": "book10-16-0192",
+      "expression": "unfold in a clear and purposeful order",
+      "exactSourceSentence": "The evidence began to unfold in a clear and purposeful order.",
+      "sourceMeaning": "Develop step by step in an orderly sequence; unfold is figurative.",
+      "question": "How are movies and real life different?",
+      "decisionFile": "editorial-decisions-2292-2351.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Evidence unfolding in a clear and purposeful order may conflate organic disclosure with an editor arranging it; review the overlong target. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2305,
+      "sourceId": "book10-16-0194",
+      "expression": "life rarely comes with a script",
+      "exactSourceSentence": "Life rarely comes with a script, so we must adapt.",
+      "sourceMeaning": "Real events do not follow a neat predetermined plot; a stage metaphor.",
+      "question": "How are movies and real life different?",
+      "decisionFile": "editorial-decisions-2292-2351.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Life rarely comes with a script is a creative complete aphorism, not obviously an established expression; identify a transferable target. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "prior-owner-or-variant-review"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2312,
+      "sourceId": "book10-16-0201",
+      "expression": "heighten life",
+      "exactSourceSentence": "The bright colours heighten life in the scene.",
+      "sourceMeaning": "Make ordinary experience appear more intense; heighten is figurative.",
+      "question": "How are movies and real life different?",
+      "decisionFile": "editorial-decisions-2292-2351.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Heighten life in the scene is an awkward collocation; check whether the intended target is heighten the colours, energy, or sense of life. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2316,
+      "sourceId": "book10-16-0205",
+      "expression": "not the territory itself",
+      "exactSourceSentence": "A chart is useful, but it is not the territory itself.",
+      "sourceMeaning": "Only a representation, not the full reality; part of the map-territory metaphor.",
+      "question": "How are movies and real life different?",
+      "decisionFile": "editorial-decisions-2292-2351.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Not the territory itself is a fragment of the map-versus-territory idea; confirm the complete metaphor and source meaning before drafting. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2328,
+      "sourceId": "book10-16-0217",
+      "expression": "the gap is probably smaller than stereotypes suggest",
+      "exactSourceSentence": "The gap is probably smaller than stereotypes suggest once we compare real choices.",
+      "sourceMeaning": "Qualified comparison that resists an overgeneralisation; a useful precise spoken pattern.",
+      "question": "Do men and women watch the same kind of films?",
+      "decisionFile": "editorial-decisions-2292-2351.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "The gap is probably smaller than stereotypes suggest is a whole qualified claim, not a stable expression; isolate the teachable comparison. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2331,
+      "sourceId": "book10-16-0220",
+      "expression": "understated but powerful screen presence",
+      "exactSourceSentence": "She has an understated but powerful screen presence.",
+      "sourceMeaning": "A quietly compelling appearance on film; a natural critical phrase.",
+      "question": "Do you like any particular film star?",
+      "decisionFile": "editorial-decisions-2292-2351.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Understated but powerful screen presence is a lengthy compositional review description; confirm a reusable target such as screen presence. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2349,
+      "sourceId": "book10-16-0238",
+      "expression": "all fireworks and not much substance",
+      "exactSourceSentence": "The speech was all fireworks and not much substance.",
+      "sourceMeaning": "Exciting in appearance but shallow in content; fireworks is a figurative spectacle.",
+      "question": "Do different age groups like the same kind of films?",
+      "decisionFile": "editorial-decisions-2292-2351.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "The show-without-substance judgment overlaps later owner2961, but owner-number/source-order rules block direct alias and all fireworks is a less-settled source form; no safe merge now.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "high-confidence-same-sense-alias-candidate",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2356,
+      "sourceId": "book10-16-0245",
+      "expression": "speak different emotional languages",
+      "exactSourceSentence": "The story can speak different emotional languages to children and parents.",
+      "sourceMeaning": "Connect with different groups through different feelings; language is figurative.",
+      "question": "Do different age groups like the same kind of films?",
+      "decisionFile": "editorial-decisions-2352-2411.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Speak different emotional languages differs from the existing compatible-emotions lesson; check idiomaticity and scope before splitting senses. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "uncertain"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2367,
+      "sourceId": "book10-16-0256",
+      "expression": "understated but powerful screen presence",
+      "exactSourceSentence": "She has an understated but powerful screen presence.",
+      "sourceMeaning": "A quietly compelling appearance on film; a natural critical phrase.",
+      "question": "Do you like any particular film star?",
+      "decisionFile": "editorial-decisions-2352-2411.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Understated but powerful screen presence repeats a prior held review description; settle its reusable target first. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2393,
+      "sourceId": "book10-16-0282",
+      "expression": "make it bloom much later",
+      "exactSourceSentence": "The writer can introduce a minor theme and make it bloom much later.",
+      "sourceMeaning": "Allow an early detail to become significant later; a growth metaphor.",
+      "question": "Which do you think is better, a detective movie or its original novel?",
+      "decisionFile": "editorial-decisions-2352-2411.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Make it bloom much later is a creative authorial image; determine if a shorter reusable target is warranted. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2401,
+      "sourceId": "book10-16-0290",
+      "expression": "tighten the screws",
+      "exactSourceSentence": "The director used silence to tighten the screws.",
+      "sourceMeaning": "Increase pressure or tension; a fixed mechanical metaphor.",
+      "question": "Which do you think is better, a detective movie or its original novel?",
+      "decisionFile": "editorial-decisions-2352-2411.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Tighten the screws conventionally means increasing pressure on a person; using it for suspense in the source may be a loose cinematic extension. Hold for idiom/register review before any lesson is drafted.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "uncertain"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2405,
+      "sourceId": "book10-16-0294",
+      "expression": "a shadow moving just behind your shoulder",
+      "exactSourceSentence": "The music suggests a shadow moving just behind your shoulder.",
+      "sourceMeaning": "A near, unseen threat; a vivid figurative image.",
+      "question": "Which do you think is better, a detective movie or its original novel?",
+      "decisionFile": "editorial-decisions-2352-2411.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "A shadow moving just behind your shoulder is an extended one-off horror image, not a stable lesson target. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "high-confidence-nonreusable-or-literal-exclusion-candidate",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2406,
+      "sourceId": "book10-16-0295",
+      "expression": "the tension snap",
+      "exactSourceSentence": "The sudden reveal made the tension snap.",
+      "sourceMeaning": "A build-up of pressure breaking suddenly; a physical metaphor.",
+      "question": "Which do you think is better, a detective movie or its original novel?",
+      "decisionFile": "editorial-decisions-2352-2411.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "The tension snap has questionable wording in the source sentence; confirm natural collocation before intake. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2407,
+      "sourceId": "book10-16-0296",
+      "expression": "at once",
+      "exactSourceSentence": "The lights went out at once during the storm.",
+      "sourceMeaning": "Suddenly, in one moment; a fixed time expression.",
+      "question": "Which do you think is better, a detective movie or its original novel?",
+      "decisionFile": "editorial-decisions-2352-2411.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "The lights went out at once can mean simultaneously or immediately; owners048 and3142 split these senses while sharing the same surface detector, so this source lacks the context needed to choose one.",
+      "fullSourceDetectorMatches": [
+        {
+          "ownerId": "advanced-native-048",
+          "ownerTitle": null,
+          "ownerMeaning": "At the same time; this lesson focuses on simultaneous actions or demands.",
+          "matchIsSameHeldUnit": false
+        },
+        {
+          "ownerId": "advanced-native-3142",
+          "ownerTitle": null,
+          "ownerMeaning": "Immediately after a trigger, without delay; this is the time-sequence sense, not simultaneous actions.",
+          "matchIsSameHeldUnit": false
+        },
+        {
+          "ownerId": "advanced-native-3142",
+          "ownerTitle": null,
+          "ownerMeaning": "Immediately after a trigger, without delay; this is the time-sequence sense, not simultaneous actions.",
+          "matchIsSameHeldUnit": false
+        }
+      ],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "prior-owner-or-variant-review"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2408,
+      "sourceId": "book10-16-0297",
+      "expression": "a jolt of electricity",
+      "exactSourceSentence": "The final clue gave the audience a jolt of electricity.",
+      "sourceMeaning": "A sudden intense shock or excitement; an electrical image.",
+      "question": "Which do you think is better, a detective movie or its original novel?",
+      "decisionFile": "editorial-decisions-2352-2411.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "A jolt of electricity is a figurative audience-reaction image here; confirm a stable sense and natural source wording. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "uncertain"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2409,
+      "sourceId": "book10-16-0298",
+      "expression": "suspense in my bones",
+      "exactSourceSentence": "I could feel the suspense in my bones during the final scene.",
+      "sourceMeaning": "Suspense felt physically and intensely; an embodied expression.",
+      "question": "Which do you think is better, a detective movie or its original novel?",
+      "decisionFile": "editorial-decisions-2352-2411.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Suspense in my bones sounds less idiomatic than feel it in my bones; check source meaning and target before teaching. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "uncertain"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2448,
+      "sourceId": "book10-16-0337",
+      "expression": "run the background of it",
+      "exactSourceSentence": "Smart systems may run the background of it while residents work.",
+      "sourceMeaning": "Operate the less visible functions of a home; a computing metaphor.",
+      "question": "Do you think all new homes will be equipped with household machines in the future? Why?",
+      "decisionFile": "editorial-decisions-2412-2471.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Run the background of it has an unclear object and unnatural collocation; repair wording before extracting a lesson. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2455,
+      "sourceId": "book10-16-0344",
+      "expression": "convenience has started to replace capability",
+      "exactSourceSentence": "In some offices, convenience has started to replace capability.",
+      "sourceMeaning": "A concise contrast between ease and retained skill; useful for qualified criticism.",
+      "question": "Do you think people rely too much on technology?",
+      "decisionFile": "editorial-decisions-2412-2471.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Convenience has started to replace capability is a compositional claim rather than an established reusable expression. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "high-confidence-nonreusable-or-literal-exclusion-candidate",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2461,
+      "sourceId": "book10-16-0350",
+      "expression": "playground or a puzzle to crack",
+      "exactSourceSentence": "To her, the new software was a playground or a puzzle to crack.",
+      "sourceMeaning": "A space for experimentation or a challenge to solve; two images frame technology.",
+      "question": "Do you think men and women view technology differently?",
+      "decisionFile": "editorial-decisions-2412-2471.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Playground or a puzzle to crack combines two different metaphors; separate and verify any reusable target. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2464,
+      "sourceId": "book10-16-0353",
+      "expression": "absorbed over time",
+      "exactSourceSentence": "The habits were absorbed over time at school.",
+      "sourceMeaning": "Taken in gradually through experience; absorbed is figurative.",
+      "question": "Do you think men and women view technology differently?",
+      "decisionFile": "editorial-decisions-2412-2471.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Absorbed over time is a transparent passive phrase; determine whether a stronger figurative target exists. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "prior-owner-or-variant-review"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2468,
+      "sourceId": "book10-16-0357",
+      "expression": "a toolbox to one person, a canvas to another",
+      "exactSourceSentence": "The tablet can be a toolbox to one person, a canvas to another.",
+      "sourceMeaning": "The same tool serves practical and creative purposes for different people; paired object metaphors.",
+      "question": "Do you think men and women view technology differently?",
+      "decisionFile": "editorial-decisions-2412-2471.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "A toolbox to one person, a canvas to another is a tailored paired image; check for a reusable shorter target. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2472,
+      "sourceId": "book10-16-0361",
+      "expression": "open up",
+      "exactSourceSentence": "A patient explanation can make the topic open up.",
+      "sourceMeaning": "Become accessible or understandable; a natural phrasal verb.",
+      "question": "Finally, let's talk about the impact of technology on employment. How have developments in technology affected employment in your country?",
+      "decisionFile": "editorial-decisions-2472-2531.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Open up is established in other senses, but “make the topic open up” may be an awkward access-to-understanding usage; confirm natural source wording and target boundary. Provisional editorial hold; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "uncertain"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2486,
+      "sourceId": "book10-16-0375",
+      "expression": "work now follows them home like a shadow",
+      "exactSourceSentence": "For some staff, work now follows them home like a shadow.",
+      "sourceMeaning": "Job demands continue after people leave work; an extended shadow simile.",
+      "question": "Some people think that technology has brought more stress than benefits to employed people nowadays. Do you agree or disagree?",
+      "decisionFile": "editorial-decisions-2472-2531.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Work now follows them home like a shadow is a one-off simile; identify a stable target before lesson drafting. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2491,
+      "sourceId": "book10-16-0380",
+      "expression": "feel like a leash rather than a tool",
+      "exactSourceSentence": "Constant notifications can feel like a leash rather than a tool.",
+      "sourceMeaning": "Feel controlling instead of helpful; a vivid comparison.",
+      "question": "Some people think that technology has brought more stress than benefits to employed people nowadays. Do you agree or disagree?",
+      "decisionFile": "editorial-decisions-2472-2531.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Feel like a leash rather than a tool is a vivid but tailored comparison; decide whether leash is the reusable target. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2493,
+      "sourceId": "book10-16-0382",
+      "expression": "keep life running smoothly",
+      "exactSourceSentence": "A calendar helps keep life running smoothly.",
+      "sourceMeaning": "Help everyday routines function without trouble; a machinery metaphor.",
+      "question": "Do you think it's important to have a good memory?",
+      "decisionFile": "editorial-decisions-2472-2531.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Keep life running smoothly is a transparent construction; canonical 1353 has a much narrower oil metaphor and cannot detect it. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "high-confidence-nonreusable-or-literal-exclusion-candidate",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2495,
+      "sourceId": "book10-16-0384",
+      "expression": "a real advantage",
+      "exactSourceSentence": "A strong memory is a real advantage at work.",
+      "sourceMeaning": "A meaningful practical benefit; a reusable evaluation phrase.",
+      "question": "Do you think it's important to have a good memory?",
+      "decisionFile": "editorial-decisions-2472-2531.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "A real advantage is a transparent adjective-plus-noun evaluation; confirm that it warrants a dedicated expression lesson. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2496,
+      "sourceId": "book10-16-0385",
+      "expression": "memory may fill the toolbox",
+      "exactSourceSentence": "Memory may fill the toolbox, but practice teaches you how to use it.",
+      "sourceMeaning": "Remembered facts provide resources for thinking; a toolbox metaphor.",
+      "question": "Do you think it's important to have a good memory?",
+      "decisionFile": "editorial-decisions-2472-2531.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Memory may fill the toolbox is a bespoke comparison paired with practice; isolate a reusable metaphor before teaching. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2497,
+      "sourceId": "book10-16-0386",
+      "expression": "knowledge stays rather flat",
+      "exactSourceSentence": "Without examples, the knowledge stays rather flat.",
+      "sourceMeaning": "Information remains shallow without understanding; flat is figurative.",
+      "question": "Do you think it's important to have a good memory?",
+      "decisionFile": "editorial-decisions-2472-2531.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Knowledge stays rather flat is a subjective image that may not be a stable natural collocation; confirm target and sense. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "uncertain"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2510,
+      "sourceId": "book10-16-0399",
+      "expression": "a delicate thread",
+      "exactSourceSentence": "Trust between them felt like a delicate thread.",
+      "sourceMeaning": "Something fragile that can break under pressure; a thread metaphor.",
+      "question": "Why do people sometimes forget things?",
+      "decisionFile": "editorial-decisions-2472-2531.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "A delicate thread applies a generic fragile-thread image to trust; determine whether a distinct reusable target exists. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "uncertain"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2515,
+      "sourceId": "book10-16-0404",
+      "expression": "friendship runs on care",
+      "exactSourceSentence": "Friendship runs on care, not convenience.",
+      "sourceMeaning": "A relationship depends on ongoing attention; a mechanical metaphor.",
+      "question": "Which do you think is more important to remember, a business meeting or a meeting with a friend?",
+      "decisionFile": "editorial-decisions-2472-2531.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Friendship runs on care is a tailored mechanical personification rather than a clearly established expression. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2517,
+      "sourceId": "book10-16-0406",
+      "expression": "land quietly in the heart",
+      "exactSourceSentence": "Small kindnesses often land quietly in the heart.",
+      "sourceMeaning": "Cause a private emotional effect; landing is figurative.",
+      "question": "Which do you think is more important to remember, a business meeting or a meeting with a friend?",
+      "decisionFile": "editorial-decisions-2472-2531.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Land quietly in the heart is a poetic one-off emotional image; confirm idiomaticity and a reusable target. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "prior-owner-or-variant-review"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2523,
+      "sourceId": "book10-16-0412",
+      "expression": "internal backup system",
+      "exactSourceSentence": "Knowing the address gives you an internal backup system.",
+      "sourceMeaning": "Knowledge kept in memory in case devices fail; a computing metaphor.",
+      "question": "Are there any things that are especially important for people to memorise?",
+      "decisionFile": "editorial-decisions-2472-2531.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Internal backup system is a tailored computing analogy for remembered facts; choose a stable expression before drafting. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2526,
+      "sourceId": "book10-16-0415",
+      "expression": "live in your head",
+      "exactSourceSentence": "Basic safety steps should live in your head.",
+      "sourceMeaning": "Be remembered rather than only stored externally; a spatial metaphor.",
+      "question": "Are there any things that are especially important for people to memorise?",
+      "decisionFile": "editorial-decisions-2472-2531.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Live in your head here means memorised, but the phrase can imply persistent thoughts; clarify idiomatic boundary. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "uncertain"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2532,
+      "sourceId": "book10-16-0421",
+      "expression": "roots under a tree",
+      "exactSourceSentence": "Her grandparents' stories felt like roots under a tree.",
+      "sourceMeaning": "Hidden history that supports present identity; an extended tree metaphor.",
+      "question": "Why do people want to remember their family history?",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Roots under a tree is a tailored family-history simile; verify whether a shorter reusable roots metaphor exists. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2536,
+      "sourceId": "book10-16-0425",
+      "expression": "a lesson with a heartbeat",
+      "exactSourceSentence": "The interview turned history into a lesson with a heartbeat.",
+      "sourceMeaning": "A lesson made vivid by human experience; a personification.",
+      "question": "Why do people want to remember their family history?",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "A lesson with a heartbeat is a bespoke personification for vivid history; identify a stable target first. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2541,
+      "sourceId": "book10-16-0430",
+      "expression": "open up",
+      "exactSourceSentence": "A patient explanation can make the topic open up.",
+      "sourceMeaning": "Become accessible or understandable; a natural phrasal verb.",
+      "question": "What can you do to learn more about your family history?",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Make the topic open up repeats held source 2472; idiomaticity of this access-to-understanding use remains open. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "uncertain"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2543,
+      "sourceId": "book10-16-0432",
+      "expression": "pull on a thread and unravel a whole family story",
+      "exactSourceSentence": "One old photograph can pull on a thread and unravel a whole family story.",
+      "sourceMeaning": "Follow one detail and discover many connected facts; a fabric metaphor.",
+      "question": "What can you do to learn more about your family history?",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Pull on a thread and unravel a whole family story is a long bespoke image; isolate a teachable pattern. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "high-confidence-nonreusable-or-literal-exclusion-candidate",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2544,
+      "sourceId": "book10-16-0433",
+      "expression": "a little blurry",
+      "exactSourceSentence": "The memory is a little blurry after many years.",
+      "sourceMeaning": "Somewhat imprecise or unclear; a visual blur describes memory figuratively.",
+      "question": "What can you do to learn more about your family history?",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "A little blurry for memory is transparent but source specificity and relation to canonical warm but blurry need review. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "prior-owner-or-variant-review"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2546,
+      "sourceId": "book10-16-0435",
+      "expression": "stories give family history its heart",
+      "exactSourceSentence": "Stories give family history its heart, while records confirm details.",
+      "sourceMeaning": "Personal accounts supply emotional meaning; heart is figurative.",
+      "question": "What can you do to learn more about your family history?",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Stories give family history its heart is tailored personification; confirm a natural reusable expression. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2547,
+      "sourceId": "book10-16-0436",
+      "expression": "records give it shape",
+      "exactSourceSentence": "A timeline and letters help records give it shape.",
+      "sourceMeaning": "Documents provide structure and clarity; shape is figurative.",
+      "question": "What can you do to learn more about your family history?",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Records give it shape depends on an unclear pronoun and generic shape metaphor; clarify the target. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "prior-owner-or-variant-review"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2555,
+      "sourceId": "book10-16-0444",
+      "expression": "a constant tug on people's attention",
+      "exactSourceSentence": "Alerts can become a constant tug on people's attention.",
+      "sourceMeaning": "An ongoing demand for focus; a physical pulling metaphor.",
+      "question": "Do you think there should be regulations on the use of mobile phones?",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "A constant tug on people’s attention is a creative pulling image; confirm a reusable target and register. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2562,
+      "sourceId": "book10-16-0451",
+      "expression": "sharp like a scalpel, not blunt like a hammer",
+      "exactSourceSentence": "Good regulation should be sharp like a scalpel, not blunt like a hammer.",
+      "sourceMeaning": "Precise rather than indiscriminate; a vivid paired comparison.",
+      "question": "Do you think there should be regulations on the use of mobile phones?",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Sharp like a scalpel, not blunt like a hammer is a tailored paired comparison; isolate a stable contrast. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "uncertain"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2570,
+      "sourceId": "book10-16-0459",
+      "expression": "phone stops being a simple contact device",
+      "exactSourceSentence": "The phone stops being a simple contact device when games dominate its use.",
+      "sourceMeaning": "A natural contrast showing how a tool's role expands; useful in a qualified answer.",
+      "question": "What do you think of primary school students owning a mobile phone?",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Phone stops being a simple contact device is a compositional claim; decide whether it contains a stable phrase. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2574,
+      "sourceId": "book10-16-0463",
+      "expression": "run the child's day",
+      "exactSourceSentence": "Parents should not let a device run the child's day.",
+      "sourceMeaning": "Control a child's routine; running is figurative.",
+      "question": "What do you think of primary school students owning a mobile phone?",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Run the child’s day resembles proposed running their life but needs a reviewed general run-someone’s-life/day pattern. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "prior-owner-or-variant-review"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2576,
+      "sourceId": "book10-16-0465",
+      "expression": "a practical tool rather than just a toy",
+      "exactSourceSentence": "A basic phone can be a practical tool rather than just a toy.",
+      "sourceMeaning": "Something useful for real tasks, beyond entertainment; a useful contrast phrase.",
+      "question": "What (minimum) age do you think is appropriate for owning a cell phone?",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "A practical tool rather than just a toy is a transparent contextual contrast, not clearly a fixed expression. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2577,
+      "sourceId": "book10-16-0466",
+      "expression": "connected to home",
+      "exactSourceSentence": "A phone helps children feel connected to home.",
+      "sourceMeaning": "Still able to communicate with family; a connection metaphor.",
+      "question": "What (minimum) age do you think is appropriate for owning a cell phone?",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Connected to home is a literal communication link in this phone context; distinct figurative teaching value is uncertain. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "high-confidence-nonreusable-or-literal-exclusion-candidate",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2579,
+      "sourceId": "book10-16-0468",
+      "expression": "save a lot of worry",
+      "exactSourceSentence": "A quick update can save a lot of worry.",
+      "sourceMeaning": "Prevent significant anxiety; a natural collocation.",
+      "question": "What (minimum) age do you think is appropriate for owning a cell phone?",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Save a lot of worry is a transparent verb-object collocation; confirm it merits a dedicated idiomatic lesson. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2580,
+      "sourceId": "book10-16-0469",
+      "expression": "the world inside it",
+      "exactSourceSentence": "The world inside it can be difficult for a young child to navigate.",
+      "sourceMeaning": "The online environment accessible through a device; a spatial metaphor.",
+      "question": "What (minimum) age do you think is appropriate for owning a cell phone?",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "The world inside it is a vague spatial image dependent on device context; clarify its reusable meaning. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2599,
+      "sourceId": "book10-16-0488",
+      "expression": "steady the ground beneath your feet",
+      "exactSourceSentence": "Reliable income can steady the ground beneath your feet.",
+      "sourceMeaning": "Create security in an uncertain life; a grounding metaphor.",
+      "question": "Is money important to you?",
+      "decisionFile": "editorial-decisions-2592-2651.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Steady the ground beneath your feet is a tailored security image, different from canonical shifting-ground change; verify reusable target. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "uncertain"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2607,
+      "sourceId": "book10-16-0496",
+      "expression": "the ability to move them",
+      "exactSourceSentence": "A clear story gives leaders the ability to move them.",
+      "sourceMeaning": "The ability to influence people's feelings or actions; move is figurative.",
+      "question": "What is the relationship between money and power?",
+      "decisionFile": "editorial-decisions-2592-2651.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "The ability to move them has an unexplained pronoun and broad move verb; clarify whether emotional influence is the target. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2609,
+      "sourceId": "book10-16-0498",
+      "expression": "not identical twins",
+      "exactSourceSentence": "The two proposals are similar, but not identical twins.",
+      "sourceMeaning": "Closely related but distinct; a family comparison.",
+      "question": "What is the relationship between money and power?",
+      "decisionFile": "editorial-decisions-2592-2651.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Not identical twins applies a family comparison to proposals; confirm this is a natural reusable expression. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2621,
+      "sourceId": "book10-16-0510",
+      "expression": "limitless tap",
+      "exactSourceSentence": "Credit should not look like a limitless tap to a child.",
+      "sourceMeaning": "A source that appears to provide endlessly; a water metaphor.",
+      "question": "How do you think parents can teach the value of money to their children?",
+      "decisionFile": "editorial-decisions-2592-2651.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Limitless tap is a context-specific water image for apparently endless credit; confirm a stable expression. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2632,
+      "sourceId": "book10-16-0521",
+      "expression": "a tool rather than a trophy",
+      "exactSourceSentence": "Money should be a tool rather than a trophy.",
+      "sourceMeaning": "Something to use wisely rather than display as status; paired object metaphors.",
+      "question": "Do you think it is important to teach children money skills?",
+      "decisionFile": "editorial-decisions-2592-2651.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "A tool rather than a trophy is a tailored paired image about money; choose a stable target before teaching. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2638,
+      "sourceId": "book10-16-0527",
+      "expression": "passing trends",
+      "exactSourceSentence": "She learned to wait before buying into passing trends.",
+      "sourceMeaning": "Short-lived fashions; a natural collocation.",
+      "question": "Should we let children buy whatever they want with money they've saved?",
+      "decisionFile": "editorial-decisions-2592-2651.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "The full sentence matches owner1025 only at buying into; the held unit passing trends is a different transparent modifier+noun phrase.",
+      "fullSourceDetectorMatches": [
+        {
+          "ownerId": "advanced-native-1025",
+          "ownerTitle": null,
+          "ownerMeaning": "Accept or support an idea, belief or claim.",
+          "matchIsSameHeldUnit": false
+        }
+      ],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2640,
+      "sourceId": "book10-16-0529",
+      "expression": "not a cage, but a compass",
+      "exactSourceSentence": "Good rules are not a cage, but a compass.",
+      "sourceMeaning": "Guidance should orient rather than imprison; paired metaphors.",
+      "question": "Should we let children buy whatever they want with money they've saved?",
+      "decisionFile": "editorial-decisions-2592-2651.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Not a cage, but a compass is a tailored paired image; identify a reusable guidance metaphor first. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2647,
+      "sourceId": "book10-16-0536",
+      "expression": "the local heart still beats in Cantonese",
+      "exactSourceSentence": "In many homes, the local heart still beats in Cantonese.",
+      "sourceMeaning": "Cantonese remains central to local identity; a bodily metaphor.",
+      "question": "What kind of music is popular in your country?",
+      "decisionFile": "editorial-decisions-2592-2651.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "The local heart still beats in Cantonese is a poetic tailored personification; identify a stable target. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2652,
+      "sourceId": "book10-16-0541",
+      "expression": "a musical crossroads where nostalgia meets novelty",
+      "exactSourceSentence": "The festival is a musical crossroads where nostalgia meets novelty.",
+      "sourceMeaning": "A culture combining old and new influences; an extended crossroads metaphor.",
+      "question": "What kind of music is popular in your country?",
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "A musical crossroads where nostalgia meets novelty is an extended tailored image; isolate a stable crossroads sense. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2653,
+      "sourceId": "book10-16-0542",
+      "expression": "the city still sings in its own voice",
+      "exactSourceSentence": "Despite global trends, the city still sings in its own voice.",
+      "sourceMeaning": "The place retains a distinctive culture; a personification.",
+      "question": "What kind of music is popular in your country?",
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "The city still sings in its own voice is a poetic personification; verify a reusable cultural-identity target. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2654,
+      "sourceId": "book10-16-0543",
+      "expression": "music travelled at a steadier pace",
+      "exactSourceSentence": "Before streaming, music travelled at a steadier pace.",
+      "sourceMeaning": "Songs spread more slowly; travel is figurative.",
+      "question": "How does pop music now compare to when you were growing up?",
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Music travelled at a steadier pace is a context-bound personification of distribution speed, not a stable phrase. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "high-confidence-nonreusable-or-literal-exclusion-candidate",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2655,
+      "sourceId": "book10-16-0544",
+      "expression": "a hit song had time to breathe",
+      "exactSourceSentence": "On the old charts, a hit song had time to breathe.",
+      "sourceMeaning": "A popular song could be appreciated over a longer period; breathing is figurative.",
+      "question": "How does pop music now compare to when you were growing up?",
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "A hit song had time to breathe is a creative appreciation image; determine whether let music breathe is idiomatic. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "uncertain"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2656,
+      "sourceId": "book10-16-0545",
+      "expression": "at the speed of a swipe",
+      "exactSourceSentence": "New trends now spread at the speed of a swipe.",
+      "sourceMeaning": "Very quickly in a phone-driven culture; a contemporary speed image.",
+      "question": "How does pop music now compare to when you were growing up?",
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "At the speed of a swipe is a new coined speed image; compare with established speed phrases before curation. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2662,
+      "sourceId": "book10-16-0551",
+      "expression": "vanish into the scroll",
+      "exactSourceSentence": "A popular clip may vanish into the scroll by next week.",
+      "sourceMeaning": "Disappear quickly amid endless online content; a digital metaphor.",
+      "question": "How does pop music now compare to when you were growing up?",
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Vanish into the scroll is a novel digital image for disappearing among clips; confirm idiomaticity and scope. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2663,
+      "sourceId": "book10-16-0552",
+      "expression": "opening a time capsule",
+      "exactSourceSentence": "Hearing that tune felt like opening a time capsule.",
+      "sourceMeaning": "Revisiting vivid memories of an earlier period; a familiar object metaphor.",
+      "question": "How does pop music now compare to when you were growing up?",
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Prior independent review found the school-song time-capsule scene duplicates selected owner2726’s memory-trigger decision; no second lesson justified.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "prior-owner-or-variant-review"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2673,
+      "sourceId": "book10-16-0562",
+      "expression": "drag every child through it by the arm",
+      "exactSourceSentence": "We should not drag every child through it by the arm.",
+      "sourceMeaning": "Force participation instead of inviting it; an extended physical image.",
+      "question": "Do you think it is necessary for the government to require all children to learn music?",
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Drag every child through it by the arm is an extended tailored image for coercion; isolate a reusable expression. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2676,
+      "sourceId": "book10-16-0565",
+      "expression": "stitch it back together",
+      "exactSourceSentence": "The community worked to stitch it back together.",
+      "sourceMeaning": "Restore something that was fragmented; a fabric metaphor.",
+      "question": "Do you think the government needs to do more to preserve traditional music? What could they do?",
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Owner1357 restores the social fabric, but source it has no stated antecedent in its standalone sentence; traditional music itself versus community ties would change the object, so do not widen detector.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "prior-owner-or-variant-review"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2688,
+      "sourceId": "book10-16-0577",
+      "expression": "enjoying the fruit while ignoring the labour that grew it",
+      "exactSourceSentence": "Piracy is like enjoying the fruit while ignoring the labour that grew it.",
+      "sourceMeaning": "Taking the benefit while disregarding the work behind it; a harvest metaphor.",
+      "question": "There's a lot of pirated music. Do you agree that we should support official music?",
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Enjoying the fruit while ignoring the labour that grew it is a bespoke harvest analogy; isolate a stable target. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "high-confidence-nonreusable-or-literal-exclusion-candidate",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2692,
+      "sourceId": "book10-16-0581",
+      "expression": "a closed door invites people to climb through the window",
+      "exactSourceSentence": "Inflexible rules show how a closed door invites people to climb through the window.",
+      "sourceMeaning": "Poor access encourages workarounds; an extended building metaphor.",
+      "question": "There's a lot of pirated music. Do you agree that we should support official music?",
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "A closed door invites people to climb through the window is an extended coined analogy; confirm idiomatic target. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2694,
+      "sourceId": "book10-16-0583",
+      "expression": "a few taps",
+      "exactSourceSentence": "You can reserve a room with a few taps.",
+      "sourceMeaning": "A small number of phone-screen actions; a natural digital collocation.",
+      "question": "There's a lot of pirated music. Do you agree that we should support official music?",
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "A few taps is a transparent count of touchscreen actions; confirm distinct idiomatic value. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2695,
+      "sourceId": "book10-16-0584",
+      "expression": "the official route",
+      "exactSourceSentence": "A cheaper subscription makes the official route easier.",
+      "sourceMeaning": "The lawful or approved way to obtain something; route is figurative.",
+      "question": "There's a lot of pirated music. Do you agree that we should support official music?",
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "The official route is a context-dependent figurative description of legal access, not yet a fixed expression. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2706,
+      "sourceId": "book10-16-0595",
+      "expression": "locked out at the front door",
+      "exactSourceSentence": "Customers felt locked out at the front door by high prices.",
+      "sourceMeaning": "Denied access by the official route; a building metaphor.",
+      "question": "What are some possible advantages and disadvantages of being stricter about the illegal downloading of music?",
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Locked out at the front door is a tailored image for high-price exclusion; clarify relation to official access. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2712,
+      "sourceId": "book10-16-0601",
+      "expression": "stay in one musical lane",
+      "exactSourceSentence": "She does not stay in one musical lane for long.",
+      "sourceMeaning": "Limit listening to one genre or culture; a road-lane metaphor.",
+      "question": "Is foreign music or music from your country more popular with people your age?",
+      "decisionFile": "editorial-decisions-2712-2771.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Voluntary genre variety in does not stay in one musical lane differs from owner1509’s constrained/stuck state; a regex variant would conflate agency.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "prior-owner-or-variant-review"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2713,
+      "sourceId": "book10-16-0602",
+      "expression": "hop borders",
+      "exactSourceSentence": "Streaming lets listeners hop borders without planning to.",
+      "sourceMeaning": "Move easily between countries or cultures; hop is figurative.",
+      "question": "Is foreign music or music from your country more popular with people your age?",
+      "decisionFile": "editorial-decisions-2712-2771.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Hop borders is a novel shortcut metaphor for cultural movement; confirm idiomaticity before teaching. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2719,
+      "sourceId": "book10-16-0608",
+      "expression": "land a punch",
+      "exactSourceSentence": "A simple line can land a punch in the final verse.",
+      "sourceMeaning": "Have a strong impact; a fixed boxing metaphor.",
+      "question": "Is foreign music or music from your country more popular with people your age?",
+      "decisionFile": "editorial-decisions-2712-2771.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "The exact source line A simple line can land a punch in the final verse may be a strained lyric-line collocation relative to pack a punch; verify idiomaticity and target-unit choice before teaching it.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "uncertain"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2720,
+      "sourceId": "book10-16-0609",
+      "expression": "dominate the scroll",
+      "exactSourceSentence": "Short videos can dominate the scroll for weeks.",
+      "sourceMeaning": "Occupy most online attention; a digital metaphor.",
+      "question": "Is foreign music or music from your country more popular with people your age?",
+      "decisionFile": "editorial-decisions-2712-2771.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Dominate the scroll is a recent context-specific digital metaphor; establish reusable scope before drafting. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "high-confidence-nonreusable-or-literal-exclusion-candidate",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2721,
+      "sourceId": "book10-16-0610",
+      "expression": "emotional shorthand",
+      "exactSourceSentence": "The chorus became emotional shorthand for that summer.",
+      "sourceMeaning": "A brief cue that evokes shared feelings; a linguistic metaphor.",
+      "question": "Is foreign music or music from your country more popular with people your age?",
+      "decisionFile": "editorial-decisions-2712-2771.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "strong-same-sense-owner-proposal",
+      "proposedOwnerId": "advanced-native-726",
+      "rationale": "Owner726 already teaches a brief context-dependent cue; emotional shorthand changes the cue’s content to shared feeling without changing the inference. Proposal adds the exact source, bounded adjective branch and one assessed changed-context cue.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "prior-owner-or-variant-review"
+      },
+      "confidence": "high"
+    },
+    {
+      "sourceOrdinal": 2722,
+      "sourceId": "book10-16-0611",
+      "expression": "far from being overshadowed",
+      "exactSourceSentence": "Local bands are far from being overshadowed by imports.",
+      "sourceMeaning": "Still visible or significant despite competition; a light-shadow metaphor.",
+      "question": "Is foreign music or music from your country more popular with people your age?",
+      "decisionFile": "editorial-decisions-2712-2771.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "Far from being overshadowed is a transparent passive phrase with an intensifier, not clearly a separate idiom. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "genuinely-unresolved",
+        "focusedVerdict": "not-recommended-as-new-lesson"
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2725,
+      "sourceId": "book10-16-0614",
+      "expression": "emotional landmarks",
+      "exactSourceSentence": "Those songs became emotional landmarks in her life.",
+      "sourceMeaning": "Events or works that mark stages of feeling or memory; a map metaphor.",
+      "question": "Do singers play an important role in your country?",
+      "decisionFile": "editorial-decisions-2712-2771.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "A complete exploratory draft was previously withheld: emotional landmarks did not establish a seven-decision unit distinct from other memory cues.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "distinct-teachable-lesson-candidate",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    },
+    {
+      "sourceOrdinal": 2727,
+      "sourceId": "book10-16-0616",
+      "expression": "a key turning in an old door",
+      "exactSourceSentence": "The melody felt like a key turning in an old door.",
+      "sourceMeaning": "A trigger that unlocks long-held memories; an extended door metaphor.",
+      "question": "Do singers play an important role in your country?",
+      "decisionFile": "editorial-decisions-2712-2771.jsonl",
+      "currentAction": "hold-editorial",
+      "verdict": "keep-held",
+      "proposedOwnerId": null,
+      "rationale": "A key turning in an old door is an extended one-off memory simile; isolate a stable teaching target. Provisional editorial decision; independent review remains open.",
+      "fullSourceDetectorMatches": [],
+      "priorTriage": {
+        "snapshotClassification": "high-confidence-nonreusable-or-literal-exclusion-candidate",
+        "focusedVerdict": null
+      },
+      "confidence": "moderate-to-high-for-retaining-hold"
+    }
+  ],
+  "limitations": [
+    "This is triage and one proposal-only owner edit, not a decision promotion, exclusion approval, selected lesson change, media QA or release review.",
+    "No weak naturalness or one-off image was promoted solely to meet a count.",
+    "A source pattern matching an unrelated phrase within the sentence is not treated as a same-sense link."
+  ],
+  "mutations": {
+    "canonicalOwners": 0,
+    "editorialDecisions": 0,
+    "selectedManifest": 0,
+    "proposals": 1,
+    "reviewReports": 1
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-source-4379-vehicle-pull-in-unselected-a",
+  "lessons": [
+    {
+      "id": "advanced-native-4379",
+      "number": 4379,
+      "inventoryId": "expr-4379",
+      "titleEn": "pull in",
+      "titleZh": "（車輛）駛近並停下",
+      "category": "phrasal-verb",
+      "contentRevision": 3,
+      "target": {
+        "pattern": "\\b(?:pull|pulls|pulled|pulling) in(?=(?:\\s+(?:at|beside|outside|near|by|throughout|before|after)\\b)|[.,;!?]|$)",
+        "glossaryForbidden": [
+          "\\b(?:pull|pulls|pulled|pulling) in\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "For a vehicle to arrive at a stopping place and come to a stop there; the source uses buses arriving over the morning.",
+        "meaningZh": "指車輛駛到某處並停下來；原句描述巴士整個早上陸續駛入停靠。",
+        "grammar": "A bus, train, coach, van or other vehicle pulls in, pulls in at a stop/bay, or pulls into a station. This lesson assesses pull in with a vehicle subject. Distinguish arrival and stopping from passing by, pulling away, and pulling in an audience.",
+        "register": "Ordinary transport and travel English. Use it when arrival and the stopping point matter to passengers, staff or deliveries.",
+        "boundaryZh": "本課只教車輛駛近並停下的意思；車輛只是減速經過、駛離，或廣告吸引觀眾，都不是本課的意思。原句的 throughout the morning 表示多輛巴士陸續到站，並非同一輛車停了一整個早上。",
+        "misconceptionZh": "不要把 pull in 誤作單純接近、經過或離站；到達與停下這兩件事都要有根據。",
+        "outcomeZh": "能辨認車輛駛到指定停靠點並停下，用合適時間和地點向乘客或工作人員說明。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2268",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 214,
+          "book": 16,
+          "question": 20,
+          "sample": "S1",
+          "sourceBookPages": "49–50",
+          "locatorNote": "DOCX table 235, row 7; page refers to locally rendered PDF in intake summary. Source question: Where can people hear a lot of noise?",
+          "sentence": "Buses were pulling in throughout the morning.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pulling in"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored exploratory held-source vehicle-arrival lesson, revision 3 after independent R4379-01/02 listening decision and foil review. Source decision remains hold-editorial; media and release approval pending. Cambridge lists pull in/pull into for a vehicle moving toward a place and stopping there: https://dictionary.cambridge.org/dictionary/english/pull-in-pull-into ."
+        ]
+      },
+      "listening": {
+        "en": "From nine until noon, a different bus arrived at the depot about every twenty minutes. Each one pulled in at a marked bay and stopped before passengers boarded. The announcer described repeated arrivals, not one bus parked for hours.",
+        "zh": "由早上九時至中午，大約每隔二十分鐘便有另一輛巴士到達車站。每輛巴士都駛入指定車位並停下，乘客隨後才上車。廣播描述的是多次到站，不是一輛巴士停了幾個小時。",
+        "promptEn": "What does the announcer mean by buses pulling in across the morning?",
+        "promptZh": "廣播說整個早上都有巴士駛入停靠，是甚麼意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Several buses arrived and stopped at the depot at different times during the morning.",
+            "zh": "整個早上有多輛巴士在不同時間到達車站並停下。"
+          },
+          {
+            "id": "b",
+            "en": "One bus arrived at nine and remained in the same bay until noon.",
+            "zh": "一輛巴士在九時到達，並一直停在同一車位至中午。"
+          },
+          {
+            "id": "c",
+            "en": "Several buses slowed beside the marked bays but drove past without stopping.",
+            "zh": "有多輛巴士經過指定車位時減速，卻沒有停下便駛過。"
+          },
+          {
+            "id": "d",
+            "en": "Several buses arrived together at nine, with none arriving later that morning.",
+            "zh": "多輛巴士在九時同時到達，當天早上其後再沒有巴士到站。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "廣播說由九時至中午約每二十分鐘就有另一輛巴士到站並停下；重點是多次到站，不是一輛車長時間停泊、只減速經過，或所有車同時到達。"
+      },
+      "reply": {
+        "promptEn": "Our school shuttle is about to reach the museum. The marked pickup bay is clear, pupils are waiting behind the rail, and staff will let them board only after the shuttle stops. What should I tell the driver and staff?",
+        "promptZh": "校車快到博物館了。標明的接載車位空着，學生在欄杆後等候；工作人員會待校車停下後才讓他們上車。我應怎樣通知司機和工作人員？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Have the shuttle pull in at the marked bay, and keep the pupils behind the rail until it stops.",
+            "zh": "請校車駛入指定車位停下；車停穩前，讓學生留在欄杆後。"
+          },
+          {
+            "id": "b",
+            "en": "Tell the driver to use the clear marked bay and ask staff to release pupils only after a full stop.",
+            "zh": "請司機使用空着的指定車位，並請工作人員在校車完全停下後才讓學生上車。"
+          },
+          {
+            "id": "c",
+            "en": "Ask staff to keep the waiting group behind the rail while the driver comes into the bay and stops.",
+            "zh": "請工作人員讓等候的學生留在欄杆後，同時讓司機駛入車位並停下。"
+          },
+          {
+            "id": "d",
+            "en": "Confirm the bay is clear for the shuttle, then board the pupils only when it is stationary.",
+            "zh": "確認車位可供校車使用，待車停穩後才讓學生上車。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都交代指定車位與停穩後上車的安排；金句用 pull in 明確說明校車駛入停靠。"
+      },
+      "scene": {
+        "promptZh": "送貨車本來要到圖書館後方的卸貨車位。以下哪個記錄清楚表示它已抵達該車位並停下，而不是只在車位旁經過？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The delivery van pulled in at the rear loading bay, stopped, and the driver began unloading.",
+            "zh": "送貨車駛入後方卸貨車位並停下，司機開始卸貨。"
+          },
+          {
+            "id": "b",
+            "en": "The delivery van slowed beside the rear loading bay but continued past it without stopping.",
+            "zh": "送貨車經過後方卸貨車位時減速，但沒有停下便繼續駛過。"
+          },
+          {
+            "id": "c",
+            "en": "The delivery van left the rear loading bay before the driver unloaded anything.",
+            "zh": "司機還未卸貨，送貨車便已駛離後方卸貨車位。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲句同時有駛到指定卸貨車位和停下這兩個線索；乙只是經過，丙則說車已駛離。"
+      },
+      "contrast": {
+        "promptZh": "哪句的 pull in 是說車輛到達並停下，而不是指吸引觀眾或把東西拉進來？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The taxi pulled in outside the clinic so the passenger could get out.",
+            "zh": "的士駛到診所外停下，讓乘客下車。"
+          },
+          {
+            "id": "b",
+            "en": "The festival poster helped pull in a larger audience for the evening show.",
+            "zh": "節日海報吸引更多觀眾觀看晚間演出。"
+          },
+          {
+            "id": "c",
+            "en": "The stage crew used a rope to pull in the hanging curtain.",
+            "zh": "舞台工作人員用繩子把垂下的布幕拉進來。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲句的主語是的士，乘客下車顯示車已停下；乙指吸引觀眾，丙指實際拉動布幕。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「社區巴士剛駛入旁邊的車位，已停下，但司機還未開門。我們可以說它到了嗎？」乙要準確回答。哪句最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes, the bus has pulled in at the side bay and stopped; we should wait for the driver to open the door.",
+            "zh": "可以，巴士已駛入旁邊的車位並停下；我們應等司機開門。"
+          },
+          {
+            "id": "b",
+            "en": "No, the bus will count as arriving only after every passenger has gone home.",
+            "zh": "不可以，只有所有乘客回到家，巴士才算到達。"
+          },
+          {
+            "id": "c",
+            "en": "No, the bus is still driving past the bay and has not stopped there.",
+            "zh": "不可以，巴士仍在駛過車位，沒有在那裏停下。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲已交代巴士進入車位並停下；未開門不會改變它已到站的事實，但仍須等司機開門。"
+      },
+      "speaking": {
+        "en": "A bus pulled in beside the library at dusk, and the waiting volunteers boarded after it stopped.",
+        "zh": "黃昏時一輛巴士駛到圖書館旁並停下；車停穩後，等候的義工才上車。",
+        "promptZh": "先聽示範，說明巴士在黃昏到達圖書館旁並停下，以及義工何時上車。",
+        "targetSpan": {
+          "start": 6,
+          "end": 15
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：管弦樂團的旅遊巴到藝術中心卸下樂器。中心有標明的卸貨車位，旁邊的消防通道必須保持暢通。請用一至兩句英文寫給司機和樂手的簡訊，交代旅遊巴應在哪裏駛入停靠、何時卸下樂器，以及消防通道的限制。",
+        "selfCheckZh": "用 pull in 說明旅遊巴駛入指定卸貨車位並停下；說明停穩後才卸下樂器，並保持消防通道暢通。",
+        "examples": [
+          {
+            "en": "When the visiting coach reaches the arts centre, please pull in at the marked loading bay, not the fire lane. Once it has stopped, the musicians can unload their instrument cases there.",
+            "zh": "旅遊巴到達藝術中心時，請駛入標明的卸貨車位停下，不要停在消防通道。車停穩後，樂手便可在那裏卸下樂器箱。"
+          },
+          {
+            "en": "Please have the visiting coach pull in at the marked loading bay beside the arts centre entrance. Keep the fire lane clear, and unload the instrument cases only after the coach has stopped.",
+            "zh": "請讓旅遊巴駛入藝術中心入口旁標明的卸貨車位並停下。保持消防通道暢通，待旅遊巴停穩後才卸下樂器箱。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "marked loading bay",
+            "zh": "標明的卸貨車位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 89
+            }
+          },
+          {
+            "en": "fire lane",
+            "zh": "消防通道",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 108
+            }
+          },
+          {
+            "en": "instrument cases",
+            "zh": "樂器箱",
+            "exampleIndex": 0,
+            "span": {
+              "start": 162,
+              "end": 178
+            }
+          },
+          {
+            "en": "arts centre entrance",
+            "zh": "藝術中心入口",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 96
+            }
+          },
+          {
+            "en": "unload",
+            "zh": "卸下",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 134
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The taxi pulled in beside the clinic before the passenger got out.",
+          "zh": "的士先在診所旁停下，乘客才下車。"
+        },
+        {
+          "en": "When a vehicle pulls in, it arrives at a stopping place; the phrase does not mean it has already left.",
+          "zh": "車輛 pull in 是指它駛到停靠點並停下，不是指它已離開。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "status": "proposal-only-content-and-browser-clear",
+  "scope": "held source 4695 to selected owner 3495; selected owner and decision files unmodified",
+  "source": {
+    "ordinal": 4695,
+    "id": "book10-16-2584",
+    "inventoryPath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "inventoryRowSha256": "771cbd7f87eb591a233e054f5a044af82bbef7c0b0bbdddeec456b548a575367",
+    "exactSentence": "A postcard image may catch the eye, but service earns a return visit.",
+    "meaningAndReason": "Attractive promotional imagery draws initial attention; a postcard metaphor.",
+    "book": 16,
+    "question": 58,
+    "sample": "S2",
+    "pdfPage": 244,
+    "docxSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012"
+  },
+  "owner": {
+    "currentPath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/drafts-books10-16/batch-3486-3512-review-pilot.json",
+    "currentFileSha256": "00e7a664b1b5f126b4d7cb95196f4a5917386b256676999beae3642335da28ad",
+    "proposalPath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/reviews-books10-16/proposals/owner-3495-source-4695-proposed-review-pilot.json",
+    "proposalFileSha256": "fc01d6d967579b9b9635b8dff14f5af968cba93eef895e28b7cd77babe91b55c",
+    "pilotTriagePath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/reviews-books10-16/read-only-targeted-12-open-held-source-resolution-review-pilot.json",
+    "pilotTriageSha256": "ce491d658c76a65176dad4b3f8e3f7ce614fcede10cfabf87d6fde0b08c3945b",
+    "currentSourceMatch": null,
+    "proposedSourceMatch": "catch the eye",
+    "proposedAllSourceMatches": [
+      {
+        "id": "book10-16-1384",
+        "sentence": "The bright cover catches your eye.",
+        "match": "catches your eye"
+      },
+      {
+        "id": "book10-16-2584",
+        "sentence": "A postcard image may catch the eye, but service earns a return visit.",
+        "match": "catch the eye"
+      }
+    ],
+    "selectedDetectorHitsOnFullSource": [
+      "advanced-native-3495"
+    ],
+    "changedFields": [
+      "target.pattern",
+      "brief.grammar",
+      "sources[1]",
+      "dialogue.options[a].en",
+      "contentRevision"
+    ],
+    "sameSenseReason": "Both examples use a visually striking image or cover to attract notice; neither treats that first look as proof of quality or a return visit.",
+    "targetBoundary": "The detector covers the possessive someone’s-eye and impersonal the-eye constructions. It is lexical and cannot by itself distinguish figurative attention from literal eye contexts; sentence context remains an editorial gate.",
+    "positiveControls": [
+      {
+        "text": "A postcard image may catch the eye, but service earns a return visit.",
+        "matched": "catch the eye"
+      },
+      {
+        "text": "The bright cover catches your eye.",
+        "matched": "catches your eye"
+      },
+      {
+        "text": "The sign caught Nia’s eye.",
+        "matched": "caught Nia’s eye"
+      },
+      {
+        "text": "A bold heading catches the eye.",
+        "matched": "catches the eye"
+      },
+      {
+        "text": "A mural caught his eye.",
+        "matched": "caught his eye"
+      }
+    ],
+    "negativeControls": [
+      {
+        "text": "The image may catch eye.",
+        "matched": null
+      },
+      {
+        "text": "The image may catch a eye.",
+        "matched": null
+      },
+      {
+        "text": "The poster caught the eyes.",
+        "matched": null
+      },
+      {
+        "text": "The poster caught eyes.",
+        "matched": null
+      },
+      {
+        "text": "The poster catch an eye.",
+        "matched": null
+      }
+    ],
+    "answerIdsBefore": {
+      "listening": "a",
+      "reply": "c",
+      "scene": "a",
+      "contrast": "c",
+      "dialogue": "a"
+    },
+    "answerIdsAfter": {
+      "listening": "a",
+      "reply": "c",
+      "scene": "a",
+      "contrast": "c",
+      "dialogue": "a"
+    },
+    "sourceCountBefore": 1,
+    "sourceCountAfter": 2,
+    "questionCount": 6,
+    "audioRoleKeysUnchanged": true,
+    "audioRoles": [
+      {
+        "role": "listening",
+        "synthesisKey": "5102aba468b5a6377c8d8b3b8a05dffb9d58b9f483ea3841aea34ca8ea2ab595"
+      },
+      {
+        "role": "speaking",
+        "synthesisKey": "f6aa731030c378cd9f4d416022d4fafd61e749fca1a5e6442f4dbaada864fd11"
+      },
+      {
+        "role": "takeaway-1",
+        "synthesisKey": "dea690094dba4553a860233a30b71f67632491eeaa367090f451259254db1da9"
+      },
+      {
+        "role": "takeaway-2",
+        "synthesisKey": "d93f6fb4a4a176f56d45ae5fbf92a5cbd397a1ff74c6705b8a6bab4ad987fe51"
+      }
+    ]
+  },
+  "decision": {
+    "currentPath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/books10-16/editorial-decisions-4692-4715.jsonl",
+    "currentFileSha256": "a3baa070f58514946fa903abd3c1dd3506c8a767580a28374ed1dd6e77c8af9d",
+    "currentRow": {
+      "sourceOrdinal": 4695,
+      "sourceId": "book10-16-2584",
+      "phrase": "postcard image may catch the eye",
+      "action": "hold-editorial",
+      "canonicalId": null,
+      "reason": "Postcard image catching the eye combines two separate images; no single stable target boundary. Provisional editorial decision; independent review remains open."
+    },
+    "currentRowSha256": "5c0c9398a7c9898a006cc5883ad4ac3e12c751bbd746f8992fb518dbd3370693",
+    "proposedRow": {
+      "sourceOrdinal": 4695,
+      "sourceId": "book10-16-2584",
+      "phrase": "postcard image may catch the eye",
+      "action": "proposed-alias-existing",
+      "canonicalId": "advanced-native-3495",
+      "reason": "Same visual-attention sense as selected owner 3495: a postcard image first attracts notice, while service quality decides whether visitors return. The proposed owner covers impersonal catch the eye as well as possessive catch someone’s eye, tests that the visual cue does not prove quality, and preserves the exact book10-16-2584 source occurrence. Provisional unpublished alias; independent proposal review and integration checks required."
+    },
+    "action": "proposal only; do not write decision JSONL"
+  },
+  "validation": {
+    "focusedBuild": "1 lesson / 6 questions / 4 audio requests / 0 flags",
+    "focusedCheck": "pass",
+    "combinedBuild": "2515 lessons / 15090 questions / 10060 audio requests / 0 errors; 1 unchanged unrelated title warning for advanced-native-2123",
+    "combinedCheck": "pass",
+    "combinedInputPath": "/private/tmp/combined-preview-632-owner-3495-4695-proposal-a.json",
+    "combinedInputSha256": "21462cede91262c6703e8dd843cc78338170480b5007cb4f55205d6aa3c2edae",
+    "selectedManifestPath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "selectedManifestSha256": "1a7791f9f16b4d95faca1a8398ccc10110b20930e7278e73e32cfa6de0c9b0da",
+    "selectedLessons": 632,
+    "previewPath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/preview-site-632-owner-3495-4695-proposal-a"
+  },
+  "browser": {
+    "chromium": {
+      "resultPath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/browser-qa-632-owner-3495-4695-proposal-a-chromium/result.json",
+      "resultSha256": "a917e87dbad8e2e07789f62399a1e36acb992b12c21064be9d5ec41c60498862",
+      "wrapAuditPath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/browser-qa-632-owner-3495-4695-proposal-a-chromium/wrap-audit.json",
+      "wrapAuditSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "result": {
+        "origin": "http://127.0.0.1:8773",
+        "engine": "chromium",
+        "syntheticAccount": true,
+        "humanDeviceReviewClaimed": false,
+        "lessons": 1,
+        "steps": 7,
+        "checkedPrompts": 1,
+        "checkedOptions": 17,
+        "checkedExamples": 2,
+        "checkedTakeaways": 2,
+        "lightCompletionScreens": 1,
+        "widths": [
+          1280,
+          1024,
+          768,
+          600,
+          390,
+          320
+        ],
+        "pageErrors": []
+      },
+      "wrapFindings": []
+    },
+    "webkit": {
+      "resultPath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/browser-qa-632-owner-3495-4695-proposal-a-webkit/result.json",
+      "resultSha256": "b51685505ac49d724848db1d8f3e60d609d136ad07680e17970af5ff0b2b9b18",
+      "wrapAuditPath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/browser-qa-632-owner-3495-4695-proposal-a-webkit/wrap-audit.json",
+      "wrapAuditSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "result": {
+        "origin": "http://127.0.0.1:8773",
+        "engine": "webkit",
+        "syntheticAccount": true,
+        "humanDeviceReviewClaimed": false,
+        "lessons": 1,
+        "steps": 7,
+        "checkedPrompts": 1,
+        "checkedOptions": 17,
+        "checkedExamples": 2,
+        "checkedTakeaways": 2,
+        "lightCompletionScreens": 1,
+        "widths": [
+          1280,
+          1024,
+          768,
+          600,
+          390,
+          320
+        ],
+        "pageErrors": []
+      },
+      "wrapFindings": []
+    }
+  },
+  "limitations": [
+    "Isolated local synthetic browser QA only; no physical-device, live-site, audio-playback or publication claim.",
+    "No selected owner, source decision, manifest or release file was changed.",
+    "The isolated preview server logged ancillary static asset 404s; the lesson harness recorded no JavaScript page errors, wrap findings, or assessment failures."
+  ]
+}

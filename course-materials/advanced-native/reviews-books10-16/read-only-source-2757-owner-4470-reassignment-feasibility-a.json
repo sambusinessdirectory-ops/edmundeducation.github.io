@@ -1,0 +1,64 @@
+{
+  "kind": "read-only-owner-reassignment-feasibility",
+  "createdUtc": "2026-10-24T01:33:54.727031+00:00",
+  "status": "No safe true reassignment under current stable-ID and earlier-owner invariants.",
+  "source2757": {
+    "sourceId": "book10-16-0646",
+    "expression": "keep their roots alive",
+    "sentence": "Community performances help keep their roots alive.",
+    "meaning": "Maintain a connection with cultural origins; a plant metaphor.",
+    "currentAction": "hold-editorial"
+  },
+  "selectedOwner": {
+    "id": "advanced-native-4470",
+    "number": 4470,
+    "contentRevision": 4,
+    "title": "keep its roots",
+    "source2757AlreadyInProvenance": true,
+    "fullSourceDetectorMatches": true,
+    "otherDecisionAliasesToOwner": 0
+  },
+  "exactInputs": {
+    "course-materials/advanced-native/books10-16/source-inventory.jsonl": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl": "3ab486f50083d297f6980bb2f4037afcaafe5aa369f3500610b786727a43d1f1",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl": "bbccfbd136984523d970102b31c7b35fb4bfc8c8071a3bcc0ea961e5b639311e",
+    "course-materials/advanced-native/drafts-books10-16/batch-manifest.json": "7928f7c6e19bfd703c122c03ecd6e04fc789a407cca8be34e36f93632eb8c497",
+    "course-materials/advanced-native/drafts-books10-16/batch-4466-4481-a.json": "b4749ba641ad0a3d0da68568690e29675daf703146200d85a93900ee8059036c"
+  },
+  "currentSelection": {
+    "selectedLessons": 626,
+    "owner4470SelectedRank1Based": 574,
+    "owner4470DisplayNumber": 2467,
+    "source2757InsertionRank1Based": 206,
+    "hypotheticalDisplayNumberAt2757": 2099,
+    "interveningSelectedCardsShifted": 368,
+    "fiveCardGroupsCrossed": 74,
+    "otherCardsCrossingPaletteBoundary": 74
+  },
+  "contractEvidence": [
+    "verify-books10-16.mjs requires proposed-new lesson canonicalId advanced-native-{sourceOrdinal}, selected lesson.number equal sourceOrdinal, and proposed-alias-new to point to an earlier proposed-new owner.",
+    "audit-new-alias-owners.mjs independently rejects alias-new owner with sourceOrdinal >= alias sourceOrdinal.",
+    "schema.mjs builds six question IDs and seven step IDs from record.id; changing advanced-native-4470 to advanced-native-2757 changes those IDs and existing progress keys.",
+    "build.mjs sorts lessons by source number and assigns sequential display numbers. Moving the owner from 4470 to 2757 changes its card location and shifts intervening selected cards.",
+    "Audio synthesisKey uses exact text, voice, language, speed and pronunciation version, not moduleId; unchanged clips could be reused, but moduleId-scoped media metadata and hosted mapping need regeneration and verification."
+  ],
+  "options": [
+    {
+      "route": "leave-current-state",
+      "safeNow": true,
+      "effect": "Keep source2757 held but explicitly present in owner4470 provenance and detector coverage; no stable IDs, question IDs, card groups or media mapping change. This does not count as approved alias coverage."
+    },
+    {
+      "route": "explicit-forward-alias-exception",
+      "safeNow": false,
+      "effect": "A narrowly documented 2757→4470 forward-alias policy could preserve selected module/card/question/audio identity, but requires changing two verifier/audit earlier-owner checks and the source decision, with full regression; it is not reassignment to earliest ownership."
+    },
+    {
+      "route": "true-earliest-owner-reassignment",
+      "safeNow": false,
+      "effect": "Rename record to advanced-native-2757, change source decision owner/alias directions and selected manifest order. This breaks stable lesson and question IDs/progress, moves card display 2467→2099, shifts 368 intervening cards with 74 palette-boundary crossings, and requires module-scoped audio metadata remapping plus broad browser/progress migration QA."
+    }
+  ],
+  "recommendation": "Do not silently renumber the selected lesson. Preserve 4470 and the held 2757 occurrence until an explicit forward-alias exception is approved and tested; if immutable IDs are paramount, this is the only plausible route to classify the earlier occurrence without card and progress migration. Source/provenance is already attached, so the current hold is an ownership-contract issue, not a missing-content issue.",
+  "scope": "Read-only analysis; no lesson, decision, manifest, audit, audio, or publication changes."
+}

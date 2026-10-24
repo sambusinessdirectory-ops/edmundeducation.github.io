@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "reportType": "read-only-held-source-teachable-unit-adjudication",
+  "generatedUtc": "2026-10-24T01:53:20.044141+00:00",
+  "sourceOrdinals": [
+    3815,
+    3860
+  ],
+  "recommendation": "retain-both-hold-editorial; no distinct standalone lesson drafted",
+  "source": {
+    "expression": "tackles both the symptoms and the roots of the problem",
+    "sentence": "A good policy tackles both the symptoms and the roots of the problem.",
+    "meaningAndReason": "Addresses immediate effects and underlying causes; medical and plant metaphors.",
+    "sourceDocument": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+    "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+    "occurrences": [
+      {
+        "sourceOrdinal": 3815,
+        "sourceId": "book10-16-1704",
+        "book": 14,
+        "question": 27,
+        "questionText": "What can be done to alleviate poverty?",
+        "sample": "S2",
+        "sourceBookPages": "59–61",
+        "docxTable": 171,
+        "docxRow": 11,
+        "renderedPdfPage": 160,
+        "currentAction": "hold-editorial"
+      },
+      {
+        "sourceOrdinal": 3860,
+        "sourceId": "book10-16-1749",
+        "book": 14,
+        "question": 32,
+        "questionText": "What can be done to alleviate poverty?",
+        "sample": "S2",
+        "sourceBookPages": "70–72",
+        "docxTable": 176,
+        "docxRow": 11,
+        "renderedPdfPage": 165,
+        "currentAction": "hold-editorial",
+        "repeatOfSourceOrdinal": 3815
+      }
+    ]
+  },
+  "naturalnessAndNormalization": {
+    "sourceForm": "The source is intelligible, grammatical figurative English. It combines the symptom image for immediate effects with roots for underlying causes; no claim of an established fixed idiom is supported.",
+    "naturalAlternative": "Address both the symptoms and the root causes is natural, but it replaces source roots with the conventional root causes collocation. The alternative preserves meaning, not the exact source wording or a unique fixed expression.",
+    "primaryReferences": [
+      {
+        "title": "Cambridge English Dictionary: root as underlying cause, including root cause",
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/root"
+      },
+      {
+        "title": "Oxford Advanced Learner’s Dictionary: root of the problem/root cause",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/root_1"
+      },
+      {
+        "title": "Millennium Challenge Corporation root-cause analysis: symptoms versus underlying causes",
+        "url": "https://www.mcc.gov/publications-sections/story-cdg-chapter-6-guidelines-for-root-cause-analysis/"
+      }
+    ]
+  },
+  "priorOwnerComparison": {
+    "ownerId": "advanced-native-1104",
+    "title": "treat the symptom rather than the cause",
+    "meaning": "Criticises an effect-only response that misses the generating cause, while allowing useful immediate support alongside root repair.",
+    "fullSourceDetectorMatch": false,
+    "constructionDifference": "Source positively praises handling effects and causes together; owner 1104 names the inadequate symptom-only alternative. They are not surface variants, so a regex-only alias is unsound.",
+    "sevenStepOverlap": [
+      "Owner listening already pairs an immediate correction with removal of the outdated schedules causing confusion.",
+      "Owner reply says to stop the recurring confusion as well as alert helpers.",
+      "Owner scene permits drying a wet floor for safety while investigating the underlying leak.",
+      "Owner contrast teaches that temporary symptom relief can still have value.",
+      "Owner dialogue explicitly recommends sending today’s correction while removing old schedules."
+    ]
+  },
+  "selectedAndCanonicalDetectorScreen": {
+    "recordsTested": 2509,
+    "fullSourceSentenceMatches": []
+  },
+  "goldenSopDecision": "A new seven-step lesson on both immediate relief and underlying causes would repeat owner1104’s assessed choices rather than teach a distinct reusable unit. A broad detector accepting mixed roots and normalized root causes would conflate productive paraphrases with one fixed target. Keep exact source provenance and the hold reason; do not invent new assessment contexts solely to meet a lesson quota.",
+  "futureOptions": "If editorial policy later favors consolidating both positive and negative constructions, review a deliberate owner1104 redesign with bilingual brief/assessment changes and a bounded full-source detector. It is not safe as an alias or new standalone lesson at present.",
+  "files": {
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    "decision3815": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl",
+      "sha256": "68fc4397f3a42e0dad00a1324935c27b6be15c3c817e8f233de149db56382952"
+    },
+    "decision3860": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3852-3911.jsonl",
+      "sha256": "7c868e286804303a972f3e53a57d262865f285c8e9e4d815999e7ad2ff68c2ae"
+    },
+    "owner1104": {
+      "path": "course-materials/advanced-native/batches/batch-1101-1125.json",
+      "sha256": "3b8db33adc07a44326335324a4d2c898a166df0d3b3c40f748b9a882252175d9"
+    },
+    "selectedManifest": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+      "sha256": "7928f7c6e19bfd703c122c03ecd6e04fc789a407cca8be34e36f93632eb8c497"
+    },
+    "priorOwnerComparison": {
+      "path": "course-materials/advanced-native/reviews-books10-16/read-only-owner-comparison-3860-to-1104-a.json",
+      "sha256": "9d326dadee7e027e0e24f0b143be91b397564e244d5df7ab11fb9b280d0d7b6a"
+    },
+    "priorIndependentReview": {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-reconciliation-2181-2331-2367-3860-b.json",
+      "sha256": "c4b31227602299b9997dad49c30b8a2ecf1583caf2223c1e69bc0fa097ad64d1"
+    }
+  },
+  "changes": {
+    "draftFilesCreated": 0,
+    "ownerFilesChanged": 0,
+    "decisionRowsChanged": 0,
+    "selectedManifestChanged": false
+  },
+  "limits": "Read-only source/owner judgment. No independent human approval, release, audio, stage, commit or publication claim."
+}

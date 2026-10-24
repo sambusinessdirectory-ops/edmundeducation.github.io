@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "type": "hash-bound unpublished integration",
+  "baselineCommit": "8775dda278c09126121ca856cad7bb525b09e449",
+  "scope": {
+    "existingOwnerAliases": [
+      4527,
+      4621,
+      4630
+    ],
+    "selectedNewOwner": [
+      4410
+    ],
+    "otherOwnerObjectsUnchanged": true,
+    "otherDecisionRowsBytePreserved": true,
+    "selectedManifestOtherEntriesPreserved": true
+  },
+  "sourceScreenPath": "course-materials/advanced-native/reviews-books10-16/read-only-last100-held-disposition-4402-4715-b.json",
+  "sourceScreenSha256": "accda8af8e87c2416b66c4f58d19d587e6da84021e23c968c95bf8ea8ddf93c5",
+  "ownerProposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-last100-4527-4621-4630-proposed-b.json",
+  "ownerProposalSha256": "52c9ed7e5679c9022223581d9f78ef7711b8e4c775c732a253fdc4df4ef01b17",
+  "independentReviews": [
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-last100-4527-4621-4630-review-pilot.json",
+      "sha256": "f26c38b609783204bcbe690311a29e93d8359866d9decc03b3adcb0bccc83517",
+      "status": "three-owner content-clear proposal"
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-4410-suck-life-out-review-pilot-followup.json",
+      "sha256": "bb97e9837634e8a0070b7410675a764b12cbfd85a7a0c6357e5ab81edeb774ab",
+      "status": "4410 content-clear unselected draft before integration"
+    }
+  ],
+  "changedFiles": [
+    {
+      "path": "course-materials/advanced-native/batches/batch-0226-0250.json",
+      "beforeSha256": "49d2e01c3e30426b0da7eb81dcdbb241cf84e7987170293938ef9a23e4874a3b",
+      "afterSha256": "47887de946360268cd3f15f69fb2ecdf2acaebaca152863f04f1b17988a55766"
+    },
+    {
+      "path": "course-materials/advanced-native/batches/batch-0426-0450.json",
+      "beforeSha256": "ca95098a4cb8f4f9909edf0a6f5a684c55c393d631cf74edff667bf5608dc091",
+      "afterSha256": "99a20f69ed4fb5cd2fa8f0829689ea6261fe8f80896271ad4d8fd458ca88fcce"
+    },
+    {
+      "path": "course-materials/advanced-native/batches/batch-0551-0575.json",
+      "beforeSha256": "8bc703bfb65dd024f0d0fdb8c2ae7d30d083656bee7aeae4cc9fac2efa9e7de7",
+      "afterSha256": "f77a9f80ebe97807c0420c45ca49c79eb9fb64b0859888a1241276cfd6d28f98"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4392-4451.jsonl",
+      "beforeSha256": "ea25bb1eec6c5374159fe0cce1038e0337ac53f794f2d811e4c3396af64a4039",
+      "afterSha256": "523f5a22cf5c9239856af5f17c60b13193ac81438d953616a7e5a227cd4babf2"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4512-4571.jsonl",
+      "beforeSha256": "3430373ac3811fd3d965df6113a40c20c6af182d006377d74bb472ed95821cec",
+      "afterSha256": "85e11891c50e23de61a0ae4c69bf12a9581ab58a433369629e69f17983c1527f"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+      "beforeSha256": "25ae1634dea6d1f7850989218589c65628a81d39c64798375798df301272fd75",
+      "afterSha256": "9c5e20469aab74fd2d1423200121f6269d8a1a0bb4771c3988e7706f6aefef6d"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+      "beforeSha256": "42878344ff07e2c228d95027b90691233c312c29fc12b391b30e21b0ffdcc453",
+      "afterSha256": "87003363015f40654aff303f71981081d476f09c6282e495983ec46fbb7838f0"
+    }
+  ],
+  "integratedExistingOwnerRows": [
+    {
+      "sourceOrdinal": 4630,
+      "ownerId": 227,
+      "decision": {
+        "sourceOrdinal": 4630,
+        "sourceId": "book10-16-2519",
+        "phrase": "carry a kind of safety net in their pocket",
+        "action": "proposed-alias-existing",
+        "canonicalId": "advanced-native-227",
+        "reason": "Source book10-16-2519 uses a kind of safety net for phone-based emergency backup, the same contingent-protection sense as canonical 227 a safety net. The owner now includes the exact source and bounded variant without promising risk-free travel; provisional unpublished alias."
+      },
+      "ownerFile": "course-materials/advanced-native/batches/batch-0226-0250.json",
+      "ownerFileSha256": "47887de946360268cd3f15f69fb2ecdf2acaebaca152863f04f1b17988a55766",
+      "ownerObjectEqualsIndependentlyClearedProposal": true,
+      "ownerAudioEnglishTextsChanged": false
+    },
+    {
+      "sourceOrdinal": 4527,
+      "ownerId": 437,
+      "decision": {
+        "sourceOrdinal": 4527,
+        "sourceId": "book10-16-2416",
+        "phrase": "move ahead quickly",
+        "action": "proposed-alias-existing",
+        "canonicalId": "advanced-native-437",
+        "reason": "Source book10-16-2416 uses move ahead quickly for rapid transport progress, the same progress sense as canonical 437 move forward. The owner now includes the exact source occurrence and a bounded rail/bus/tram variant while preserving completion limits; provisional unpublished alias."
+      },
+      "ownerFile": "course-materials/advanced-native/batches/batch-0426-0450.json",
+      "ownerFileSha256": "99a20f69ed4fb5cd2fa8f0829689ea6261fe8f80896271ad4d8fd458ca88fcce",
+      "ownerObjectEqualsIndependentlyClearedProposal": true,
+      "ownerAudioEnglishTextsChanged": false
+    },
+    {
+      "sourceOrdinal": 4621,
+      "ownerId": 551,
+      "decision": {
+        "sourceOrdinal": 4621,
+        "sourceId": "book10-16-2510",
+        "phrase": "comfort bubble",
+        "action": "proposed-alias-existing",
+        "canonicalId": "advanced-native-551",
+        "reason": "Source book10-16-2510 uses comfort bubble for familiar safe travel choices, the same learner decision as canonical 551 comfort zone. The owner now teaches this bounded noun variant and distinguishes it from an epistemic bubble; provisional unpublished alias."
+      },
+      "ownerFile": "course-materials/advanced-native/batches/batch-0551-0575.json",
+      "ownerFileSha256": "f77a9f80ebe97807c0420c45ca49c79eb9fb64b0859888a1241276cfd6d28f98",
+      "ownerObjectEqualsIndependentlyClearedProposal": true,
+      "ownerAudioEnglishTextsChanged": false
+    }
+  ],
+  "selectedNewOwner": {
+    "sourceOrdinal": 4410,
+    "sourceId": "book10-16-2299",
+    "lessonPath": "course-materials/advanced-native/drafts-books10-16/batch-held-4410-suck-life-out-b.json",
+    "lessonSha256": "810f83d5346afd47887b414556bb267a06c637971855dbb30f7b944e764c706f",
+    "contentRevision": 2,
+    "decision": {
+      "sourceOrdinal": 4410,
+      "sourceId": "book10-16-2299",
+      "phrase": "sucking all the life out of the city",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-4410",
+      "reason": "The exact source uses the reusable figurative idiom suck the life out of for a rule draining a city’s vitality while preserving a need for balanced noise control. Independently AI-reviewed owner 4410 teaches this loss-of-energy sense across seven contexts, with bounded inflections, exact provenance and no prior-owner detector collision; provisional unpublished selection."
+    },
+    "newAudioRoles": 4
+  },
+  "verification": {
+    "sourceDecisionRows": 2604,
+    "selectedLessons": 631,
+    "selectedQuestions": 3786,
+    "selectedAudioRequests": 2524,
+    "existingAliases": 1189,
+    "newAliases": 189,
+    "holds": 595,
+    "wholeCatalogueSchemaErrors": 0,
+    "selectedExistingAliasMatches": 1189,
+    "selectedExistingAliasExceptions": 0,
+    "draftedNewAliasMatches": 189,
+    "newAliasExceptions": 0,
+    "unauditedHolds": 0,
+    "exactGuideSentenceCopies": 0,
+    "highOriginalityHits": 0,
+    "mediumOriginalityHits": 0,
+    "nearFullFuzzyLeads": 5,
+    "focusedOwnerBuildCheck": "73 lessons / 438 questions / 292 audio roles / 0 flags across three owner files; all --check passed",
+    "focused4410BuildCheck": "1 lesson / 6 questions / 4 audio roles / 0 flags; --check passed",
+    "gitDiffCheck": "pass"
+  },
+  "release": {
+    "published": false,
+    "releaseApproved": false,
+    "audioGeneratedHere": false,
+    "browserQaHere": false,
+    "commitOrPushHere": false
+  }
+}

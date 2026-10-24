@@ -6,15 +6,14 @@
       "id": "advanced-native-726",
       "number": 726,
       "inventoryId": "expr-0726",
-      "titleEn": "visual shorthand",
-      "titleZh": "一眼看懂的標記",
+      "titleEn": "visual, social and emotional shorthand",
+      "titleZh": "視覺、社會和情感的簡短提示",
       "category": "figurative",
-      "contentRevision": 1,
+      "contentRevision": 3,
       "target": {
-        "pattern": "\\b(?:visual|social) shorthand\\b",
+        "pattern": "\\b(?:visual|social|emotional) shorthand\\b",
         "glossaryForbidden": [
-          "\\bvisual\\b",
-          "\\bshorthand\\b"
+          "\\b(?:visual|social|emotional) shorthand\\b"
         ]
       },
       "sources": [
@@ -43,16 +42,30 @@
           "sample": "S1",
           "occurrenceId": "pdf-2-p050-t2-r07",
           "locatorNote": "PDF page 50, table 2, row 7."
+        },
+        {
+          "occurrenceId": "book10-16-0610",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 56,
+          "book": 11,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "40–42",
+          "locatorNote": "DOCX table 51, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The chorus became emotional shorthand for that summer.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "emotional shorthand"
         }
       ],
       "brief": {
-        "meaningEn": "A brief sign or signal that conveys an idea or social role quickly, often visually, without a full explanation.",
-        "meaningZh": "不用完整解釋，便能迅速傳達意思或社會角色的簡短標記或訊號，常以視覺呈現。",
-        "grammar": "X acts as/becomes visual shorthand for + meaning. Social shorthand focuses on the social meaning conveyed; a uniform may be a visual example that suggests a job role. Shorthand is metaphorical, not literal note-taking.",
-        "register": "Common explanatory visual metaphor; the sign usually relies on shared context.",
-        "boundaryZh": "快速提示依靠共同情境，不表示人人天生懂，也不代完整資料；制服可提示角色，但不能單憑外觀確定本人能力或背景。",
-        "misconceptionZh": "要交代標記在該情境代表甚麼，避免假定顏色有世界通用意思。",
-        "outcomeZh": "能解釋視覺提示如何在具體場合簡短傳意，並考慮新人需要。"
+        "meaningEn": "A brief, context-dependent cue that conveys an idea, social role or shared feeling quickly without a full explanation.",
+        "meaningZh": "依靠共同情境、無需完整解釋便能迅速提示意思、社會角色或共同感受的簡短訊號。",
+        "grammar": "X acts as/becomes visual, social or emotional shorthand for + a specific meaning, role or remembered feeling. Emotional shorthand can be a song, sound or other cue that evokes a shared experience; shorthand is metaphorical, not literal note-taking.",
+        "register": "A guide explaining a visual sign to visitors, or a friend explaining a shared memory cue to someone outside the group, can use this neutral explanatory metaphor. The speaker should identify the intended listeners and their shared context.",
+        "boundaryZh": "簡短提示須靠共同情境：一段旋律可喚起某群人的共同感受，不表示所有聽眾都有同一回憶；視覺標記也不代替完整資料。",
+        "misconceptionZh": "要說明訊號對哪群人代表甚麼，不要把私人或團體回憶說成每個人都懂的通用意思。",
+        "outcomeZh": "能以具體情境解釋視覺、社會或情感提示如何簡短傳意，並指出不熟悉情境的人或需補充說明。"
       },
       "listening": {
         "promptEn": "",
@@ -114,26 +127,26 @@
       },
       "scene": {
         "promptEn": "",
-        "promptZh": "你們先說明紅色邊框代表緊急資料，此後同學一看邊框便知道要先讀。哪句貼切？",
+        "promptZh": "劇團排練時播放一段舊曲，老團員想起艱難的首季終於順利演出，露出欣慰和自豪的笑容；新團員只聽到排練音樂。哪句最貼切？",
         "options": [
           {
             "id": "choice-1",
-            "en": "The red border acts as visual shorthand for urgency in our system.",
-            "zh": "在我們的系統，紅邊框是緊急程度的視覺簡寫。"
+            "en": "For the older members, that tune became emotional shorthand for the relief and pride of their first season.",
+            "zh": "對老團員來說，那段曲調成了首季欣慰與自豪之情的簡短提示。"
           },
           {
             "id": "choice-2",
-            "en": "The border explains every detail without any text.",
-            "zh": "邊框不用文字就解釋所有細節。"
+            "en": "The tune mainly stands for the group’s current rehearsal routine, rather than the older members’ first-season feelings.",
+            "zh": "那段曲調主要代表劇團目前的排練慣例，而非老團員對首季的感受。"
           },
           {
             "id": "choice-3",
-            "en": "The same border must mean urgency everywhere in the world.",
-            "zh": "同樣邊框在世界任何地方都必定表示緊急。"
+            "en": "The tune is emotional shorthand for the new members’ memories of that first season.",
+            "zh": "那段曲調是新團員對那個首季回憶的情感提示。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "先建立共同理解後，標記才在系統內簡短傳意；沒有通用或包辦所有資訊的保證。"
+        "explanationZh": "老團員聽到曲調便想起首季的欣慰與自豪；新團員並未經歷那段日子。曲調在這裏不是單指目前的排練慣例。"
       },
       "contrast": {
         "promptEn": "",
@@ -257,8 +270,8 @@
           "zh": "徽章成為團隊角色的一眼可辨標記。"
         },
         {
-          "en": "Visual shorthand works best when people understand the signs.",
-          "zh": "大家明白標記時，視覺簡寫較能發揮作用。"
+          "en": "A familiar tune can become emotional shorthand for an experience shared by a particular group.",
+          "zh": "熟悉的曲調可成為特定群體共同經歷的情感提示。"
         }
       ],
       "review": {
@@ -268,14 +281,14 @@
         "english": {
           "status": "self-reviewed",
           "reviewer": "AI author source_inventory",
-          "evidence": "Shared-context visual cue, not universal symbol decoding. Glossary key is the map legend sense, translated explicitly."
+          "evidence": "Visual/social cue senses retained; one assessed emotional cue identifies the shared group and the newcomers who may need context."
         },
         "chinese": {
           "status": "self-reviewed",
           "reviewer": "AI author source_inventory",
-          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+          "evidence": "The new emotional cue, group limitation and non-universal contrast were checked against the English scene and takeaway."
         },
-        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+        "note": "Proposal-only owner expansion; not integrated or independently approved. Assessed IDs and existing audio text apart from takeaway 2 remain unchanged."
       }
     },
     {

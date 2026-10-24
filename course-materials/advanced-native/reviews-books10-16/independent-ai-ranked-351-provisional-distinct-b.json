@@ -1,0 +1,180 @@
+{
+  "status": "read-only-ranked-screen; no content or decision mutations",
+  "scope": "Eight unique provisional distinct units from A’s 351-row aggregate, excluding independently content-cleared 2398 and 2714; repeat 2367 grouped with 2331.",
+  "inputHashes": {
+    "aggregate": {
+      "path": "course-materials/advanced-native/reviews-books10-16/read-only-aggregate-351-historical-unresolved-619-a.json",
+      "sha256": "375a343beb398e0947a5d02816236ef8a86a2c9f57bbb5ebe6df381644e99130"
+    },
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    "selectedManifest": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+      "sha256": "e6a9beb2defd46634a66c225fc09d0519b254569ce80c39799cdc8d01f83f1d3"
+    }
+  },
+  "excludedAlreadyReviewed": [
+    {
+      "sourceOrdinal": 2398,
+      "reason": "Existing exploratory draft independently content-cleared; avoid duplicate authoring."
+    },
+    {
+      "sourceOrdinal": 2714,
+      "reason": "Existing exploratory draft independently content-cleared; avoid duplicate authoring."
+    }
+  ],
+  "counts": {
+    "screenedUniqueUnits": 8,
+    "new lesson": 3,
+    "same-sense owner": 0,
+    "unclear": 4,
+    "ordinary/nonreusable": 1
+  },
+  "rankedCandidates": [
+    {
+      "rank": 1,
+      "sourceOrdinal": 2331,
+      "linkedSourceOrdinals": [
+        2331,
+        2367
+      ],
+      "sourceId": "book10-16-0220",
+      "exactSourceExpression": "understated but powerful screen presence",
+      "exactSourceSentence": "She has an understated but powerful screen presence.",
+      "category": "new lesson",
+      "confidence": "high",
+      "sourceAndTeachingValue": "Teach the conventional noun phrase “screen presence”; understated/powerful are source-specific evaluation, not mandatory target words. Repeat 2367 is exact same source sentence. Seven steps should test on-screen performance judgments without inventing a fixed “understated but powerful” idiom.",
+      "ownerComparison": "No selected screen-presence owner found. Selected screen/device lessons 1898 and 2237 concern exposure or attention, not performance charisma.",
+      "nextGate": "Read-only recommendation; no decision or selection change. Independent full SOP content review required before any selection."
+    },
+    {
+      "rank": 2,
+      "sourceOrdinal": 4543,
+      "linkedSourceOrdinals": [
+        4543
+      ],
+      "sourceId": "book10-16-2432",
+      "exactSourceExpression": "less like a patchwork",
+      "exactSourceSentence": "The service now feels less like a patchwork.",
+      "category": "new lesson",
+      "confidence": "medium-high",
+      "sourceAndTeachingValue": "“Patchwork” has a conventional figurative mixture sense. Source is comparative and about a service becoming less fragmented; retain the possibility that varied parts can work well when coordinated. A lesson can assess integration, gaps and uneven access in distinct service domains.",
+      "ownerComparison": "No selected patchwork owner found; general seamlessness owner 1948 does not itself teach the patchwork image.",
+      "nextGate": "Read-only recommendation; no decision or selection change. Independent full SOP content review required before any selection."
+    },
+    {
+      "rank": 3,
+      "sourceOrdinal": 2844,
+      "linkedSourceOrdinals": [
+        2844
+      ],
+      "sourceId": "book10-16-0733",
+      "exactSourceExpression": "a crowded town square",
+      "exactSourceSentence": "The forum became a crowded town square for debate.",
+      "category": "new lesson",
+      "confidence": "medium",
+      "sourceAndTeachingValue": "A public forum as a crowded town square is a coherent, transferable metaphor. Keep crowded debate, public participation and noise/visibility in scope. “Digital town square” is a permissible variant, not the exact source expression. Require seven distinct decisions, not seven public-versus-private paraphrases.",
+      "ownerComparison": "Selected owner 1995 teaches broad online-space roles (playground/marketplace/platform), not this public-debate town-square sense.",
+      "nextGate": "Read-only recommendation; no decision or selection change. Independent full SOP content review required before any selection."
+    },
+    {
+      "rank": 4,
+      "sourceOrdinal": 3860,
+      "linkedSourceOrdinals": [
+        3860
+      ],
+      "sourceId": "book10-16-1749",
+      "exactSourceExpression": "tackles both the symptoms and the roots of the problem",
+      "exactSourceSentence": "A good policy tackles both the symptoms and the roots of the problem.",
+      "category": "unclear",
+      "confidence": "medium",
+      "sourceAndTeachingValue": "Source teaches addressing immediate symptoms and underlying roots together. Aggregate relemma “treat the symptoms and the root cause” is not exact source; a new target must be naturally attested and preserve both layers without devaluing symptom relief.",
+      "ownerComparison": "Owner 1104 already teaches “treat the symptom rather than the cause”; same symptom/cause frame is close, but its negative contrast differs from source both/and. Compare full seven decisions before any new owner or alias.",
+      "nextGate": "Remain held pending the stated evidence; no decision or selection change."
+    },
+    {
+      "rank": 5,
+      "sourceOrdinal": 3013,
+      "linkedSourceOrdinals": [
+        3013
+      ],
+      "sourceId": "book10-16-0902",
+      "exactSourceExpression": "every choice opens one door and closes another",
+      "exactSourceSentence": "When planning a career, remember that every choice opens one door and closes another.",
+      "category": "unclear",
+      "confidence": "medium",
+      "sourceAndTeachingValue": "Source’s paired doors encode simultaneous opportunity cost, distinct from merely opening options. The full sentence may be an authored maxim rather than a stable fixed phrase; require natural reusable wording and seven non-repetitive applications before lesson promotion.",
+      "ownerComparison": "Owner 785 teaches keeping future doors open; owner 688 teaches generic trade-offs. Neither automatically covers the paired one-opens/one-closes source, but both are close teaching decisions.",
+      "nextGate": "Remain held pending the stated evidence; no decision or selection change."
+    },
+    {
+      "rank": 6,
+      "sourceOrdinal": 4151,
+      "linkedSourceOrdinals": [
+        4151
+      ],
+      "sourceId": "book10-16-2040",
+      "exactSourceExpression": "outsource every detail",
+      "exactSourceSentence": "We should not outsource every detail to our phones.",
+      "category": "unclear",
+      "confidence": "medium",
+      "sourceAndTeachingValue": "“Outsource every detail to our phones” uses a recognizable delegation metaphor for recall/reliance. Do not turn the source into a claim that all external memory aids are harmful; demonstrate a bounded choice of what to offload.",
+      "ownerComparison": "Owner 1031 “a crutch” covers dependence on an aid. Compare what distinct decision outsource contributes before creating another owner.",
+      "nextGate": "Remain held pending the stated evidence; no decision or selection change."
+    },
+    {
+      "rank": 7,
+      "sourceOrdinal": 2554,
+      "linkedSourceOrdinals": [
+        2554
+      ],
+      "sourceId": "book10-16-0443",
+      "exactSourceExpression": "downright dangerous",
+      "exactSourceSentence": "That shortcut looks downright dangerous after dark.",
+      "category": "unclear",
+      "confidence": "medium",
+      "sourceAndTeachingValue": "“Downright dangerous” is a natural informal intensifier construction, but a full lesson must teach register, adjective polarity and degree across six meaningful assessments rather than six synonym substitutions.",
+      "ownerComparison": "No selected downright target found; danger-focused content elsewhere does not teach this degree/register construction.",
+      "nextGate": "Remain held pending the stated evidence; no decision or selection change."
+    },
+    {
+      "rank": 8,
+      "sourceOrdinal": 2181,
+      "linkedSourceOrdinals": [
+        2181
+      ],
+      "sourceId": "book10-16-0070",
+      "exactSourceExpression": "chopped into pieces",
+      "exactSourceSentence": "Constant interruptions leave my study time chopped into pieces.",
+      "category": "ordinary/nonreusable",
+      "confidence": "medium",
+      "sourceAndTeachingValue": "“Chopped into pieces” is understandable figurative composition, but source supplies no stable constrained unit beyond a general cut-up image. Current evidence does not justify a standalone seven-step lesson; preserve exact source on editorial hold unless authentic usage and distinctive decisions emerge.",
+      "ownerComparison": "Selected 3513 “bite-sized” differs because that is intentional manageable division; do not force a same-sense alias.",
+      "nextGate": "Remain held pending the stated evidence; no decision or selection change."
+    }
+  ],
+  "externalUsageReferences": [
+    {
+      "appliesTo": 2331,
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/presence",
+      "purpose": "Screen presence conventional usage"
+    },
+    {
+      "appliesTo": 4543,
+      "url": "https://dictionary.cambridge.org/dictionary/english/patchwork",
+      "purpose": "Patchwork figurative mixture meaning"
+    },
+    {
+      "appliesTo": 2554,
+      "url": "https://dictionary.cambridge.org/dictionary/english/downright",
+      "purpose": "Downright degree and informal register"
+    }
+  ],
+  "limits": [
+    "Ranking is editorial triage, not a seven-step lesson clearance or permission to mutate source decisions.",
+    "Source inventory and selected owner comparisons were checked locally; no exhaustive full-owner semantic proof is claimed for unclear candidates.",
+    "No fixed quota was imposed."
+  ]
+}

@@ -49,10 +49,14 @@ expect(audit.includes(`\`${manifestHashes.decisions.sha256}\` for the ${manifest
 expect(report.published === false && report.releaseApproved === false, 'Draft verifier unexpectedly reports publication or approval');
 expect(holdCoverage.errorCount === 0 && holdCoverage.unauditedCurrentHolds === 0, 'Current editorial holds lack independent audit coverage');
 expect(holdCoverage.currentHolds === report.provisionalEditorialTriage['hold-editorial'], 'Hold audit and decision counts disagree');
+expect(holdCoverage.excludedOneOff === report.provisionalEditorialTriage['excluded-one-off'], 'Excluded one-off count and decision counts disagree');
 expect(holdTriage.errorCount === 0 && holdTriage.untriagedCurrentHolds === 0 &&
   holdTriage.currentHolds + holdTriage.closedSinceTriage === holdTriage.triageRows &&
-  holdTriage.currentHolds === holdCoverage.currentHolds,
+  holdTriage.currentHolds === holdCoverage.currentHolds &&
+  holdTriage.excludedOneOff === holdCoverage.excludedOneOff,
   'Read-only baseline triage does not cover each current hold exactly once');
+expect(Object.values(report.provisionalEditorialTriage).reduce((total,count)=>total+count,0)===report.editorialDecisionRows,
+  'Decision actions do not account for every source row');
 expect(/^\d{4}-\d{2}-\d{2}$/.test(intake.retrievedForIntakeDate ?? ''), 'Intake retrieval date is missing');
 expect(Boolean(intake.sourceReuseRestrictions?.known && intake.sourceReuseRestrictions?.unknown && intake.sourceReuseRestrictions?.handling),
   'Source reuse scope/uncertainty/handling record is missing');
@@ -64,6 +68,7 @@ for (const [label, value] of [
   ['existing-owner aliases', report.provisionalEditorialTriage['proposed-alias-existing']],
   ['new-owner aliases', report.provisionalEditorialTriage['proposed-alias-new']],
   ['editorial holds', report.provisionalEditorialTriage['hold-editorial']],
+  ...(report.provisionalEditorialTriage['excluded-one-off'] ? [['documented one-off exclusions', report.provisionalEditorialTriage['excluded-one-off']]] : []),
   ['draft lessons', report.pilotDrafts],
   ['assessed questions', report.pilotQuestions],
   ['audio roles', report.pilotAudioRequests],
@@ -88,7 +93,16 @@ for (const [state, phrase] of [
 expectText(scope, `- New document: ${formatted(report.intakeRows)} source rows`, 'Source-row total is stale in the scope bullet');
 expectText(scope, `- Draft set: ${report.pilotDrafts} independently AI-reviewed`, 'Selected draft total is stale in the scope bullet');
 expectText(scope, `${formatted(report.pilotDrafts * 7)} steps, ${formatted(report.pilotQuestions)} assessed questions, ${formatted(report.pilotDrafts * 2)} writing examples and ${formatted(report.pilotAudioRequests)} required audio roles`, 'Draft component totals are stale in the scope bullet');
-expectText(scope, `${triage['proposed-new-lesson']} proposed new lessons, ${triage['proposed-alias-existing']} proposed aliases to existing lessons, ${triage['proposed-alias-new']} proposed aliases within this document, and ${triage['hold-editorial']} wording`, 'Provisional triage counts are stale in the scope bullet');
+const triagePrefix=`${triage['proposed-new-lesson']} proposed new lessons, ${triage['proposed-alias-existing']} proposed aliases to existing lessons, ${triage['proposed-alias-new']} proposed aliases within this document`;
+const exclusionLabel=triage['excluded-one-off']===1?'documented one-off exclusion':'documented one-off exclusions';
+expectText(scope, triage['excluded-one-off']
+  ? `${triagePrefix}, ${triage['hold-editorial']} wording, naturalness or ownership holds, and ${triage['excluded-one-off']} ${exclusionLabel}`
+  : `${triagePrefix}, and ${triage['hold-editorial']} wording`, 'Provisional triage counts are stale in the scope bullet');
+if(triage['excluded-one-off']){
+  expectText(scope, `${triage['excluded-one-off']} ${exclusionLabel}`, 'Approved one-off exclusions are missing from the scope count');
+  expectText(scope, 'explicit user approval, no canonical owner, and a source-specific nonreusability reason', 'One-off exclusions lack a documented eligibility rule');
+  expectText(scope, 'excluded from the current hold count', 'Checklist does not distinguish one-off exclusions from current holds');
+}
 expectText(scope, `${holdCoverage.provisionallyReclassified} of the earlier ${holdCoverage.originallyAuditedHolds} holds were provisionally reclassified`, 'Editorial-hold reclassification count is stale');
 expectText(scope, `The remaining ${holdCoverage.currentHolds} are still tracked`, 'Remaining editorial-hold count is stale');
 expectText(scope, '4,237 and 4,680', 'Historical hold-promotion source IDs changed');

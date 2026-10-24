@@ -1,0 +1,55 @@
+{
+  "reportType": "read-only-source-owner-comparison",
+  "status": "semantic-overlap-supported-current-alias-not-valid",
+  "snapshot": {
+    "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "selectedManifestSha256": "8288eb31976993a832f9ce8e35ef6ed4baf0623ccaa3021b2be95de0248537e3",
+    "ownerBatchPath": "course-materials/advanced-native/drafts-books10-16/batch-2332-2350-a.json",
+    "ownerBatchSha256": "c82eb1ef9d1e5089bb30823a851787df269c479ac5c618c6fb84c76ba5334e8b",
+    "decisionFile2331Sha256": "3deeb54dc9cb42f947e5793bd0588f93c47d88d67c01c0d9f124e456b921cacd",
+    "decisionFile2367Sha256": "2ec2a2cc13b25cd21d9f1e0a05cd9dee549866c59c0e7bf4936d3b01df34418f"
+  },
+  "heldSources": [
+    {
+      "sourceOrdinal": 2331,
+      "sourceId": "book10-16-0220",
+      "expression": "understated but powerful screen presence",
+      "sentence": "She has an understated but powerful screen presence.",
+      "question": "Do you like any particular film star?",
+      "meaning": "A quietly compelling appearance on film; a natural critical phrase."
+    },
+    {
+      "sourceOrdinal": 2367,
+      "sourceId": "book10-16-0256",
+      "expression": "understated but powerful screen presence",
+      "sentence": "She has an understated but powerful screen presence.",
+      "question": "Do you like any particular film star?",
+      "meaning": "An exact repeated occurrence of the same quietly compelling filmed-performance phrase."
+    }
+  ],
+  "selectedOwner": {
+    "lessonId": "advanced-native-2332",
+    "title": "light up the screen",
+    "sourceSentence": "The young actor can light up the screen with one smile.",
+    "meaning": "Appear so engaging in filmed performance that viewers’ attention is drawn to the performer.",
+    "overlapEvidence": [
+      "The owner listening key explicitly paraphrases its target as 'The newcomer’s engaging screen presence catches the viewers’ attention.'",
+      "Its source gives one smile as the sufficient cue, so a quiet rather than loud performance is compatible with its taught outcome.",
+      "Its assessed reply, contrast and final writing all use attention held on film as the decisive effect, matching the held source's camera appeal."
+    ],
+    "lexicalDifference": "The selected target is a figurative verb construction describing the effect of a performance; screen presence is a noun naming the performer's enduring on-camera quality. The overlap in learner decision is strong, but they are not inflections of one lemma."
+  },
+  "detector": {
+    "currentPattern": "\\b(?:light|lights|lit|lighting) up the screen\\b",
+    "matchesSource2331": false,
+    "matchesSource2367": false,
+    "requiredBoundedSurfaceIfOwnerMergeApproved": "Add a separately reviewed screen presence branch, with full source sentence positives and non-film/literal negatives; do not make screen alone a target. The existing light-up branch must remain intact.",
+    "currentAliasAuditConsequence": "Neither held full source sentence can be claimed as an alias of 2332 under the current target pattern."
+  },
+  "recommendation": {
+    "immediate": "Keep 2331 and 2367 held; withdraw the proposed standalone 2331 draft from selection because it repeats selected 2332's filmed-engagement decisions.",
+    "conditionalOwnerMerge": "A single expanded owner could teach both the vivid verb and the quieter-quality noun only after editorial approval of a two-construction lesson. That requires revised brief grammar/Chinese nuance/category, exact provenance for both occurrences, bounded regex/glossary exclusion, and at least one assessed key and writing/speaking example for screen presence. Rebuild, source-alias audit and independent EN/ZH content review would then be required; a regex-only alias is insufficient.",
+    "ifTwoConstructionMergeRejected": "Retain both held for a later distinct-lesson decision; do not silently classify a different lexical expression as an inflection of light up the screen."
+  },
+  "mutations": "None to owner, decisions or manifest; this report is read-only evidence."
+}

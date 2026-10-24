@@ -8,6 +8,7 @@ import {validateCatalogue} from './schema.mjs';
 import {buildArtifacts} from './build.mjs';
 import {nearDuplicates} from './near-duplicates.mjs';
 import {runAudit as auditExistingAliasPatterns} from './audit-existing-alias-patterns.mjs';
+import {DECISION_ACTIONS,oneOffExclusionErrors} from './audit-provisional-decisions.mjs';
 
 const repo=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
 const base=path.join(repo,'course-materials/advanced-native');
@@ -61,11 +62,12 @@ for(const decision of decisions){
  assert.ok(source,`${decision.sourceId}: source exists`);
  assert.equal(decision.sourceOrdinal,2111+Number(decision.sourceId.slice(-4)));
  assert.equal(decision.phrase,source.expression);
- assert.ok(['proposed-new-lesson','proposed-alias-existing','proposed-alias-new','hold-editorial'].includes(decision.action));
+ assert.ok(DECISION_ACTIONS.includes(decision.action));
  if(decision.action==='proposed-new-lesson')assert.equal(decision.canonicalId,`advanced-native-${decision.sourceOrdinal}`);
  if(decision.action==='proposed-alias-existing')assert.ok(existingIds.has(decision.canonicalId),`${decision.sourceId}: existing alias target`);
  if(decision.action==='proposed-alias-new')assert.ok(decisions.some(other=>other.sourceOrdinal<decision.sourceOrdinal&&other.canonicalId===decision.canonicalId&&other.action==='proposed-new-lesson'),`${decision.sourceId}: earlier new alias target`);
  if(decision.action==='hold-editorial')assert.equal(decision.canonicalId,null);
+ if(decision.action==='excluded-one-off')assert.deepEqual(oneOffExclusionErrors(decision),[],`${decision.sourceId}: exclusion requires no owner, a substantive one-off rationale, and explicit user approval reference`);
  assert.ok(decision.reason.length>=30);
 }
 assert.equal(exactAliasSuggestions.length,816);
@@ -143,7 +145,7 @@ assert.deepEqual(nextIndex.slice(0,baseIndex.length).map(row=>[row.id,row.number
                  baseIndex.map(row=>[row.id,row.number]));
 assert.deepEqual(nextIndex.slice(-pilot.length).map(row=>row.number),Array.from({length:pilot.length},(_,i)=>1894+i));
 console.log(JSON.stringify({intakeRows:rows.length,books:Object.keys(intake.reportedBookCounts).length,
- sourcePageGaps:0,editorialDecisionRows:decisions.length,provisionalEditorialTriage:Object.fromEntries(['proposed-new-lesson','proposed-alias-existing','proposed-alias-new','hold-editorial'].map(action=>[action,decisions.filter(row=>row.action===action).length])),exactPriorAliasSuggestions:exactAliasSuggestions.length,exactSuggestionEditorialExceptions:exactAliasSuggestions.filter(row=>{const decision=decisions.find(other=>other.sourceId===row.sourceId);return decision&&decision.action!=='proposed-alias-existing';}).length,selectedExistingAliasPatternExceptions:aliasCoverage.exceptionCount,draftedNewAliasPatternMatches:draftedNewAliasMatches.length,undraftedNewAliasOwnerRows:undraftedNewAliasOwners.length,existingCanonical:release.counts.totalCanonicalModules,
+ sourcePageGaps:0,editorialDecisionRows:decisions.length,provisionalEditorialTriage:Object.fromEntries(DECISION_ACTIONS.map(action=>[action,decisions.filter(row=>row.action===action).length])),exactPriorAliasSuggestions:exactAliasSuggestions.length,exactSuggestionEditorialExceptions:exactAliasSuggestions.filter(row=>{const decision=decisions.find(other=>other.sourceId===row.sourceId);return decision&&decision.action!=='proposed-alias-existing';}).length,selectedExistingAliasPatternExceptions:aliasCoverage.exceptionCount,draftedNewAliasPatternMatches:draftedNewAliasMatches.length,undraftedNewAliasOwnerRows:undraftedNewAliasOwners.length,existingCanonical:release.counts.totalCanonicalModules,
  pilotDrafts:pilot.length,pilotQuestions:pilot.length*6,pilotAudioRequests:pilot.length*4,
  projectedDisplayRange:`1894–${1893+pilot.length}`,wholeCatalogueSchemaErrors:validation.errors.length,exactGuideSentenceCopies:0,pilotNearDuplicateFlags:nearFlags.length,
  published:false,releaseApproved:false},null,2));

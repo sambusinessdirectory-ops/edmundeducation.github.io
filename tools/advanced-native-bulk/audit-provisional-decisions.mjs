@@ -9,15 +9,32 @@ const base=path.join(repo,'course-materials/advanced-native');
 const dir=path.join(base,'books10-16');
 const json=file=>JSON.parse(fs.readFileSync(file,'utf8'));
 const jsonl=file=>fs.readFileSync(file,'utf8').split(/\r?\n/).filter(Boolean).map(JSON.parse);
+export const DECISION_ACTIONS=['proposed-new-lesson','proposed-alias-existing','proposed-alias-new','hold-editorial','excluded-one-off'];
+
+// Exclusion is a user-approved disposition, not an unaudited synonym for hold.
+// Required JSONL fields: action:'excluded-one-off', canonicalId:null, a source-specific
+// nonreusability reason, and exclusionApproval:{authority:'user',reference:'...'}.
+export function oneOffExclusionErrors(row){
+ const errors=[];
+ if(row.canonicalId!==null)errors.push('excluded-row-has-owner');
+ if(typeof row.reason!=='string'||row.reason.trim().length<80||
+    !/\b(?:one[- ](?:off|time)|non[- ]reusable|not reusable|no reusable)\b/i.test(row.reason))
+  errors.push('excluded-row-lacks-substantive-nonreusability-reason');
+ if(row.exclusionApproval?.authority!=='user'||
+    typeof row.exclusionApproval.reference!=='string'||row.exclusionApproval.reference.trim().length<20)
+  errors.push('excluded-row-lacks-user-approval-reference');
+ return errors;
+}
 
 export function auditProvisionalDecisions({decisions,sources,existingIds,firstOrdinal=2112}){
  const errors=[];
+ if(decisions.length!==sources.length)errors.push({reason:'decision-source-row-count-mismatch',decisions:decisions.length,sources:sources.length});
  const sourceById=new Map(sources.map(source=>[source.sourceId,source]));
  const ownerById=new Map();
  const seenOrdinals=new Set();
  const seenSourceIds=new Set();
- const counts={};
- const actions=new Set(['proposed-new-lesson','proposed-alias-existing','proposed-alias-new','hold-editorial']);
+ const counts=Object.fromEntries(DECISION_ACTIONS.map(action=>[action,0]));
+ const actions=new Set(DECISION_ACTIONS);
  for(let i=0;i<decisions.length;i++){
   const row=decisions[i];
   const ordinal=firstOrdinal+i;
@@ -39,6 +56,8 @@ export function auditProvisionalDecisions({decisions,sources,existingIds,firstOr
    if(!existingIds.has(row.canonicalId))errors.push({sourceOrdinal:row.sourceOrdinal,reason:'existing-owner-not-found'});
   }else if(row.action==='proposed-alias-new'){
    if(!ownerById.has(row.canonicalId))errors.push({sourceOrdinal:row.sourceOrdinal,reason:'earlier-new-owner-not-found'});
+  }else if(row.action==='excluded-one-off'){
+   for(const reason of oneOffExclusionErrors(row))errors.push({sourceOrdinal:row.sourceOrdinal,reason});
   }else if(row.action==='hold-editorial'&&row.canonicalId!==null){
    errors.push({sourceOrdinal:row.sourceOrdinal,reason:'held-row-has-owner'});
   }

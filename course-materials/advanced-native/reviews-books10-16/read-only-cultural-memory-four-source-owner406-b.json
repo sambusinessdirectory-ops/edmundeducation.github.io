@@ -1,0 +1,87 @@
+{
+  "status": "retain-four-editorial-holds-read-only",
+  "createdUtc": "2026-10-24T01:47:30.548547+00:00",
+  "sourceOrdinals": [
+    2646,
+    2678,
+    4469,
+    4505
+  ],
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceRows": [
+    {
+      "sourceOrdinal": 2646,
+      "sourceId": "book10-16-0535",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+      "decisionFileSha256": "bcb7bc790f25d87a0457330d91b33ad7550f468271b60518b4905d2bcf25377f",
+      "exactExpression": "cultural memory",
+      "exactSentence": "Old songs remain part of the city's cultural memory.",
+      "sourceGloss": "Shared remembrance within a community; a natural abstract collocation.",
+      "sourceBook": 11,
+      "sourceQuestion": 9,
+      "sourceRenderedPdfPage": 49,
+      "owner406FullSourceTargetMatch": false
+    },
+    {
+      "sourceOrdinal": 2678,
+      "sourceId": "book10-16-0567",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+      "decisionFileSha256": "4639246e76b5e4bb6bf1f13f0a6afcaabe28b6e13a93562cabcda8bd2148546e",
+      "exactExpression": "cultural memory",
+      "exactSentence": "Old songs remain part of the city's cultural memory.",
+      "sourceGloss": "Shared remembrance within a community; a natural abstract collocation.",
+      "sourceBook": 11,
+      "sourceQuestion": 12,
+      "sourceRenderedPdfPage": 52,
+      "owner406FullSourceTargetMatch": false
+    },
+    {
+      "sourceOrdinal": 4469,
+      "sourceId": "book10-16-2358",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionFileSha256": "42480ab6aefc90ae1cd06415dc9f9f1770bec6a45c03e40917456f58cf167590",
+      "exactExpression": "cultural memory",
+      "exactSentence": "Old songs remain part of the city's cultural memory.",
+      "sourceGloss": "Shared remembrance within a community; a natural abstract collocation.",
+      "sourceBook": 16,
+      "sourceQuestion": 30,
+      "sourceRenderedPdfPage": 223,
+      "owner406FullSourceTargetMatch": false
+    },
+    {
+      "sourceOrdinal": 4505,
+      "sourceId": "book10-16-2394",
+      "decisionAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionFileSha256": "42480ab6aefc90ae1cd06415dc9f9f1770bec6a45c03e40917456f58cf167590",
+      "exactExpression": "cultural memory",
+      "exactSentence": "Old songs remain part of the city's cultural memory.",
+      "sourceGloss": "Shared remembrance within a community; a natural abstract collocation.",
+      "sourceBook": 16,
+      "sourceQuestion": 34,
+      "sourceRenderedPdfPage": 226,
+      "owner406FullSourceTargetMatch": false
+    }
+  ],
+  "candidateOwnerId": "advanced-native-406",
+  "candidateOwnerBatchPath": "course-materials/advanced-native/batches/batch-0401-0425.json",
+  "candidateOwnerBatchSha256": "fe8bbc3493367e7b4afde479d988c39dc0fbef0b831a14e844eb07573f667805",
+  "candidateOwnerContentRevision": 1,
+  "candidateOwnerTitle": "uncover a layer of cultural memory",
+  "candidateOwnerPattern": "\\buncover(?:s|ed|ing)? a layer of cultural memory\\b",
+  "candidateOwnerOutcome": "能用具體材料說明文化記憶的一面，保留來源及代表性限制。",
+  "naturalness": {
+    "verdict": "natural abstract collocation, not itself a fixed idiom",
+    "support": "UNESCO describes community songs as an expression of collective cultural memory, supporting the noun’s natural community-level use. This supports the source sense but does not determine course ownership.",
+    "primarySourceUrl": "https://ich.unesco.org/en/RL/bhojpuri-folk-songs-in-mauritius-geet-gawai-01178"
+  },
+  "senseComparison": "All four exact occurrences state that old songs remain part of the city’s shared remembrance. Owner406 teaches discovering one partial layer of remembered communal life from letters, songs, albums or testimony, with source and representativeness limits. The underlying concept overlaps, but retention/membership is a different learner decision from uncovering a layer.",
+  "detectorFeasibility": "The current complete-source detector fails all four sentences. A bounded remains-part-of-the-city’s-cultural-memory branch could match the source, but no current assessed key teaches that membership construction. A bare cultural memory regex would erase owner406’s specific target and blur highlighting. A regex-only alias is unsafe.",
+  "sevenStepCoherence": "The current seven steps consistently assess source-based discovery and partial evidence, not whether a practice remains within collective memory. Re-lemma to the bare noun would require substantive rewriting of several assessments and models, so this is not a bounded owner expansion. A separate bare-noun lesson would overlap owner406’s concept and its independent course value has not been demonstrated.",
+  "recommendation": "Keep all four hold-editorial until a separately reviewed two-construction owner redesign or genuinely distinct seven-step outcome is justified. Do not create or integrate a proposal now.",
+  "actionsTaken": "Read-only report only; no owner, decision, manifest, audit, media or release edits."
+}

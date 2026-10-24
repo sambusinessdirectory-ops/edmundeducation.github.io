@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "kind": "author-self-audit-held-4379-vehicle-pull-in",
+  "status": "unselected-pending-independent-review",
+  "sourceOrdinal": 4379,
+  "sourceId": "book10-16-2268",
+  "exactSourceSentence": "Buses were pulling in throughout the morning.",
+  "sourceMeaning": "Arriving and stopping, especially a vehicle; a natural phrasal verb.",
+  "sourceQuestion": "Where can people hear a lot of noise?",
+  "sourceProvenance": {
+    "occurrenceId": "book10-16-2268",
+    "book": 16,
+    "question": 20,
+    "sample": "S1",
+    "docxTable": 235,
+    "docxRow": 7,
+    "renderedPdfPage": 214,
+    "sourceBookPages": "49–50",
+    "documentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012"
+  },
+  "lexicalSupport": {
+    "dictionary": "Cambridge Advanced Learner’s Dictionary",
+    "url": "https://dictionary.cambridge.org/dictionary/english/pull-in-pull-into",
+    "sense": "For a vehicle to move toward a place and stop there."
+  },
+  "ownerScreen": "No prior selected owner title or complete-source target detector teaches this vehicle-arrival/stopping meaning. A bare pull-in detector would hit source 0068 (competing pressures) and source 1157 (pull in the same direction); the bounded lookahead rejects them and matches only source 2268.",
+  "draft": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4379-vehicle-pull-in-a.json",
+    "sha256": "e614f4f26324f6de3d4ae06d43f8c1d987ac7820270c65214b51ea142aa35a26",
+    "lessonId": "advanced-native-4379",
+    "contentRevision": 3
+  },
+  "snapshot": {
+    "gitHead": "8775dda2",
+    "selectedManifestSha256": "87003363015f40654aff303f71981081d476f09c6282e495983ec46fbb7838f0",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "checks": {
+    "focusedBuild": "1 lesson, 6 questions, 4 audio requests, 0 review flags; build and --check passed",
+    "positiveControls": [
+      {
+        "text": "Buses were pulling in throughout the morning.",
+        "matches": true
+      },
+      {
+        "text": "The shuttle will pull in at the marked bay.",
+        "matches": true
+      },
+      {
+        "text": "The train pulls in beside the platform.",
+        "matches": true
+      },
+      {
+        "text": "The coach pulled in outside the hall.",
+        "matches": true
+      },
+      {
+        "text": "Several vans were pulling in near the depot.",
+        "matches": true
+      }
+    ],
+    "negativeControls": [
+      {
+        "text": "The poster pulled in many visitors.",
+        "matches": false
+      },
+      {
+        "text": "New managers can feel pulled in too many directions at once.",
+        "matches": false
+      },
+      {
+        "text": "A team succeeds when its members pull in the same direction.",
+        "matches": false
+      },
+      {
+        "text": "The taxi pulled away from the clinic.",
+        "matches": false
+      },
+      {
+        "text": "The bus passed the bay without stopping.",
+        "matches": false
+      },
+      {
+        "text": "Staff pulled in the curtain.",
+        "matches": false
+      }
+    ],
+    "fullSourceDetectorMatches": [
+      "book10-16-2268"
+    ],
+    "keys": [
+      {
+        "step": "listening",
+        "keyId": "a",
+        "answerEnglish": "Several buses arrived and stopped at the depot at different times during the morning.",
+        "targetInAnswer": false,
+        "optionCount": 4,
+        "allOptionsBilingual": true
+      },
+      {
+        "step": "reply",
+        "keyId": "a",
+        "answerEnglish": "Have the shuttle pull in at the marked bay, and keep the pupils behind the rail until it stops.",
+        "targetInAnswer": true,
+        "optionCount": 4,
+        "allOptionsBilingual": true
+      },
+      {
+        "step": "scene",
+        "keyId": "a",
+        "answerEnglish": "The delivery van pulled in at the rear loading bay, stopped, and the driver began unloading.",
+        "targetInAnswer": true,
+        "optionCount": 3,
+        "allOptionsBilingual": true
+      },
+      {
+        "step": "contrast",
+        "keyId": "a",
+        "answerEnglish": "The taxi pulled in outside the clinic so the passenger could get out.",
+        "targetInAnswer": true,
+        "optionCount": 3,
+        "allOptionsBilingual": true
+      },
+      {
+        "step": "dialogue",
+        "keyId": "a",
+        "answerEnglish": "Yes, the bus has pulled in at the side bay and stopped; we should wait for the driver to open the door.",
+        "targetInAnswer": true,
+        "optionCount": 3,
+        "allOptionsBilingual": true
+      }
+    ],
+    "replyOptionsIndependentlyValid": true,
+    "glossary": [
+      {
+        "entry": "marked loading bay",
+        "exact": true,
+        "forbidden": false
+      },
+      {
+        "entry": "fire lane",
+        "exact": true,
+        "forbidden": false
+      },
+      {
+        "entry": "instrument cases",
+        "exact": true,
+        "forbidden": false
+      },
+      {
+        "entry": "arts centre entrance",
+        "exact": true,
+        "forbidden": false
+      },
+      {
+        "entry": "unload",
+        "exact": true,
+        "forbidden": false
+      }
+    ],
+    "speakingTargetSpan": "pulled in",
+    "learnerEnglishStrings": 28,
+    "sixTokenGuideHits": []
+  },
+  "sevenDecisionMap": [
+    "Interpret multiple buses arriving and stopping in sequence across a morning, not one parked bus.",
+    "Choose a practical shuttle pickup reply with four independently valid options.",
+    "Distinguish a delivery van stopping in its loading bay from passing or leaving.",
+    "Separate vehicle arrival from audience recruitment and physically pulling an object.",
+    "Explain bus arrival despite its doors not yet opening.",
+    "Say a bus reached the library and stopped before volunteers boarded.",
+    "Write a coach-unloading message distinguishing a marked bay from a fire lane."
+  ],
+  "limits": [
+    "This is an ordinary but dictionary-attested vehicle phrasal verb, not a figurative idiom; independent review should judge advanced-course value.",
+    "The surface detector is bounded to common arrival contexts but is not a semantic classifier and need not cover every grammatical vehicle phrase.",
+    "Audio clips have not been generated or listened to; source decision remains hold-editorial."
+  ],
+  "mutations": "Draft and review artifacts only. No selected manifest, source decision, canonical owner, audit, media, commit, push or publication edit."
+}

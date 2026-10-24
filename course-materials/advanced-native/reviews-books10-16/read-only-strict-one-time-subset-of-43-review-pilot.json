@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "read-only-strict-one-time-subset-of-43",
+  "status": "exclusion-proposals-only-not-applied",
+  "userRule": "Skip one-time comparisons; record why.",
+  "input43ReportPath": "course-materials/advanced-native/reviews-books10-16/read-only-targeted-55-held-source-dispositions-review-pilot.json",
+  "input43ReportSha256": "022ee27a54d0ed914f84120f15c6fff9e705ab31b96159a7d723984504caa620",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "decisionManifestPath": "course-materials/advanced-native/books10-16/editorial-decision-manifest.json",
+  "decisionManifestSha256": "b4c210caa55d0c0d410ba3a19338550888fda1318975ff84ff3d6dbc6c9eb47f",
+  "counts": {
+    "originalDocumentedNonCourseProposals": 43,
+    "strictOneTimeSubset": 18,
+    "notIncludedFrom43": 25
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 2688,
+      "sourceId": "book10-16-0577",
+      "expression": "enjoying the fruit while ignoring the labour that grew it",
+      "exactSourceSentence": "Piracy is like enjoying the fruit while ignoring the labour that grew it.",
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "currentDecisionRowSha256": "b530afba20f5b6f09cb2c714741d6fab6187e221e367e5a7fabade0ffa0b8985",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "Explicit piracy-is-like-fruit harvest analogy. The fruit/labour roles are invented for this sentence; neither half is a stable transferable expression."
+    },
+    {
+      "sourceOrdinal": 2727,
+      "sourceId": "book10-16-0616",
+      "expression": "a key turning in an old door",
+      "exactSourceSentence": "The melody felt like a key turning in an old door.",
+      "decisionFile": "editorial-decisions-2712-2771.jsonl",
+      "currentDecisionRowSha256": "35341b3fe558b55922852d881bbb5a450a89aff8599f75f38f993155f99aaf32",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "The melody is compared with a key turning in an old door. The remembered-past inference depends on this exact key/door image."
+    },
+    {
+      "sourceOrdinal": 2866,
+      "sourceId": "book10-16-0755",
+      "expression": "news has moved from being a destination to being part of the feed",
+      "exactSourceSentence": "For many users, news has moved from being a destination to being part of the feed.",
+      "decisionFile": "editorial-decisions-2832-2891.jsonl",
+      "currentDecisionRowSha256": "e845e8b15c15bfe7373c15a809da106ac4206f097104be9185dc7c83b89b44e3",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "News as a former destination versus part of a feed is an extended topical analogy, not a bounded phrase to transfer unchanged."
+    },
+    {
+      "sourceOrdinal": 2906,
+      "sourceId": "book10-16-0795",
+      "expression": "the sweet stops being just food",
+      "exactSourceSentence": "When every success earns candy, the sweet stops being just food.",
+      "decisionFile": "editorial-decisions-2892-2951.jsonl",
+      "currentDecisionRowSha256": "b55f559407c5cb190d4149a71625f526121f57d41346dd9cca64bcf111045dbe",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "The sweet stops being just food is a one-sentence aphoristic contrast about reward candy; the wording has no independent reusable target."
+    },
+    {
+      "sourceOrdinal": 2907,
+      "sourceId": "book10-16-0796",
+      "expression": "a kind of trophy",
+      "exactSourceSentence": "The snack became a kind of trophy rather than an occasional treat.",
+      "decisionFile": "editorial-decisions-2892-2951.jsonl",
+      "currentDecisionRowSha256": "99baab8749e22f431be5a0b1ae13bdc5cfdee7d18ae4aedbda5da4acb9c77fa6",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "A snack becomes a trophy only in this reward/status comparison; the source explicitly says a kind of trophy rather than using a stable idiom."
+    },
+    {
+      "sourceOrdinal": 2964,
+      "sourceId": "book10-16-0853",
+      "expression": "fix the roof before hanging the flags",
+      "exactSourceSentence": "The council should fix the roof before hanging the flags.",
+      "decisionFile": "editorial-decisions-2952-3011.jsonl",
+      "currentDecisionRowSha256": "4fff52d3d4186d959127c6f333bf3592eef20a20124e1c9930dacb3d4df5268f",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "Fix the roof before hanging flags is an invented council-priority analogy. The exact roof/flags contrast is necessary to its point."
+    },
+    {
+      "sourceOrdinal": 3216,
+      "sourceId": "book10-16-1105",
+      "expression": "life has a way of bringing old words back with new meaning",
+      "exactSourceSentence": "Years later, he discovered that life has a way of bringing old words back with new meaning.",
+      "decisionFile": "editorial-decisions-3192-3251.jsonl",
+      "currentDecisionRowSha256": "058ce6d0a9887202e7667b0c68ebfa0b6650896b926a41843e86b04ecc824ef8",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "Life bringing old words back is extended personification; the clause, not a stable subphrase, conveys rediscovered advice."
+    },
+    {
+      "sourceOrdinal": 3386,
+      "sourceId": "book10-16-1275",
+      "expression": "a stamp of reassurance",
+      "exactSourceSentence": "The warranty felt like a stamp of reassurance.",
+      "decisionFile": "editorial-decisions-3372-3431.jsonl",
+      "currentDecisionRowSha256": "fe69ba36ca241915b4a274adb8f72cc6ea9c836ca18fdd3dbaa7e97130fcf0d3",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "Warranty felt like a stamp of reassurance is an explicit bespoke seal comparison; stamp of reassurance is not a conventional reusable unit."
+    },
+    {
+      "sourceOrdinal": 3592,
+      "sourceId": "book10-16-1481",
+      "expression": "judgment still has to be built the slow way",
+      "exactSourceSentence": "Facts are quick to find, but judgment still has to be built the slow way.",
+      "decisionFile": "editorial-decisions-3552-3611.jsonl",
+      "currentDecisionRowSha256": "fbed840788cd008c0b83004f821119e9784f60aa465e7c85c2b250ac3f7dfd9c",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "Facts are quick but judgment built the slow way is an aphorism whose force comes from the whole balanced sentence."
+    },
+    {
+      "sourceOrdinal": 3783,
+      "sourceId": "book10-16-1672",
+      "expression": "a promise before the box is even opened",
+      "exactSourceSentence": "The familiar logo feels like a promise before the box is even opened.",
+      "decisionFile": "editorial-decisions-3732-3791.jsonl",
+      "currentDecisionRowSha256": "6a8bc11f43543ea36fd009b25056d88611645cb9386af2c184f286db0a9b701a",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "A familiar logo as a promise before the box opens is a product-specific brand analogy, not a fixed promise-before-X expression."
+    },
+    {
+      "sourceOrdinal": 4113,
+      "sourceId": "book10-16-2002",
+      "expression": "a locked door",
+      "exactSourceSentence": "Before the class, chemistry felt like a locked door.",
+      "decisionFile": "editorial-decisions-4092-4151.jsonl",
+      "currentDecisionRowSha256": "ffb43b4b53ce39210ee3ef0f814c911803eda292bd41bc6d7160eafe9a03fb94",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "Chemistry felt like a locked door is an explicit subject-as-barrier simile; the exact subject and door context create the meaning."
+    },
+    {
+      "sourceOrdinal": 4187,
+      "sourceId": "book10-16-2076",
+      "expression": "real life does not come with an instruction manual",
+      "exactSourceSentence": "Real life does not come with an instruction manual for every crisis.",
+      "decisionFile": "editorial-decisions-4152-4211.jsonl",
+      "currentDecisionRowSha256": "3b4328cf4c12e4a78e55704b4ab7ec290ed6a589eeed8402dd751bc59ca5560e",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "Real life has no instruction manual for every crisis is a whole aphorism, not a bounded independent lesson target."
+    },
+    {
+      "sourceOrdinal": 4490,
+      "sourceId": "book10-16-2379",
+      "expression": "learned a new accent",
+      "exactSourceSentence": "The imported celebration seemed to have learned a new accent.",
+      "decisionFile": "editorial-decisions-4452-4511.jsonl",
+      "currentDecisionRowSha256": "6a67418074164e357cac1ac29c1ef218198d56915044b81f3d14af85f6cd9332",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "The celebration learned a new accent personifies an imported custom adapting locally; accent literally belongs to speech."
+    },
+    {
+      "sourceOrdinal": 4509,
+      "sourceId": "book10-16-2398",
+      "expression": "locked in a glass box",
+      "exactSourceSentence": "A living culture should not be locked in a glass box.",
+      "decisionFile": "editorial-decisions-4452-4511.jsonl",
+      "currentDecisionRowSha256": "857ea7c0760440d13f57cc26b88f329f7e940ea9e81cdd47d75a1e49b2758a74",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "Living culture locked in a glass box is an invented museum-display comparison; its argument depends on the full contrast."
+    },
+    {
+      "sourceOrdinal": 4582,
+      "sourceId": "book10-16-2471",
+      "expression": "dropping a stone into still water",
+      "exactSourceSentence": "The new policy was like dropping a stone into still water.",
+      "decisionFile": "editorial-decisions-4572-4631.jsonl",
+      "currentDecisionRowSha256": "8a3ca6fb421e907588fc9b6c70f7b69088cb31e5a3087b91686d978b989ce1fd",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "The policy was like a stone dropped into still water is an explicit one-off simile; rewriting it as ripple imagery would change the source target."
+    },
+    {
+      "sourceOrdinal": 4596,
+      "sourceId": "book10-16-2485",
+      "expression": "repair the roof while still living in the house",
+      "exactSourceSentence": "Transit planners must repair the roof while still living in the house.",
+      "decisionFile": "editorial-decisions-4572-4631.jsonl",
+      "currentDecisionRowSha256": "e589a9c1eafea432038ac588c872030bcaf51a023453ee7d757bff5a3d964879",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "Repairing the roof while living in the house is a bespoke analogy for changing an active transit system; the exact house/roof scene carries the lesson."
+    },
+    {
+      "sourceOrdinal": 4613,
+      "sourceId": "book10-16-2502",
+      "expression": "the noise of ordinary life has been turned right down",
+      "exactSourceSentence": "On holiday, the noise of ordinary life has been turned right down.",
+      "decisionFile": "editorial-decisions-4572-4631.jsonl",
+      "currentDecisionRowSha256": "cefb1ed93a1c8a3bcba4a662374a3a30dd4052653cd66991e6b8affa887cb36b",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "The noise of ordinary life turned right down is a context-specific volume-control analogy for holiday relief."
+    },
+    {
+      "sourceOrdinal": 4663,
+      "sourceId": "book10-16-2552",
+      "expression": "not infinitely absorbent",
+      "exactSourceSentence": "A small beach is not infinitely absorbent.",
+      "decisionFile": "editorial-decisions-4632-4691.jsonl",
+      "currentDecisionRowSha256": "ff581d1fe6788928d852e21ccc9463f1c7a4e400d85733b7bb02fdbd2e7979a3",
+      "proposedDisposition": "documented-non-course-under-one-time-rule",
+      "sourceSpecificReason": "A beach as not infinitely absorbent applies a material-capacity property to visitor pressure in this one sentence; no stable target survives."
+    }
+  ],
+  "exclusionsFromThisSubset": "Ordinary natural collocations, literal travel/transport descriptions, productive morphology, broad generic metaphors and expressions with unresolved owner or usage questions are deliberately outside this strict subset. The later four one-time/composite proposals from the separate 12-row report are not part of the original 43.",
+  "mutations": [
+    "this read-only report only"
+  ]
+}

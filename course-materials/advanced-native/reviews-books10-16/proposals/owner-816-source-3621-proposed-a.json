@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "batchId": "proposal-owner-816-source-3621-unselected",
+  "lessons": [
+    {
+      "id": "advanced-native-816",
+      "number": 816,
+      "inventoryId": "expr-0816",
+      "titleEn": "a weight or heavy load on someone’s shoulders",
+      "titleZh": "肩上的沉重負擔",
+      "category": "idiom",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\ba (?:(?:heavy )?weight on (?:my|your|his|her|our|their)|heavy load on the family['’]s) shoulders\\b",
+        "glossaryForbidden": [
+          "\\b(?:weight|load)\\b",
+          "\\bshoulders\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p072-t2-r10",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 72,
+          "book": 3,
+          "question": 41,
+          "sample": "S1",
+          "sourceBookPages": "116–117",
+          "sentence": "The deadline felt like a weight on their shoulders.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a weight on their shoulders"
+        },
+        {
+          "occurrenceId": "book10-16-1510",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 142,
+          "book": 14,
+          "question": 7,
+          "sample": "S1",
+          "sourceBookPages": "18–19",
+          "locatorNote": "DOCX table 151, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Tuition became a heavy load on the family's shoulders.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "heavy load on the family's shoulders"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A responsibility, worry or financial pressure that feels burdensome; both weight and heavy load use physical burden to describe the pressure felt by a person or family.",
+        "meaningZh": "令人感到沉重的責任、擔憂或經濟壓力；weight 和 heavy load 都借用身體負重來形容個人或家庭承受的壓力。",
+        "grammar": "Feel like/become a weight on someone’s shoulders; a heavy load on the family’s shoulders names the same burden metaphor in the source. Explain the responsibility, worry or cost and who must bear it; the family’s is a singular possessive, shoulders remains plural.",
+        "register": "A student discussing shared responsibility with teammates, or a parent explaining an unexpected bill to another family member, can use this neutral-to-emphatic bodily metaphor.",
+        "boundaryZh": "這裏不是量度實物重量；heavy load 可指經濟壓力，並不證明家庭完全無法應付，也不等於負擔一定由別人強加。",
+        "misconceptionZh": "要說明具體責任或費用及由誰承受；描述沉重感不等於已經失敗或沒有商量支援的餘地。",
+        "outcomeZh": "能以具體責任、擔憂或費用說明肩上重擔，區分比喻壓力與實際重量。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "甚麼令她感到沉重？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The broad responsibility and unclear division of work.",
+            "zh": "責任廣泛，加上分工不明。"
+          },
+          {
+            "id": "choice-2",
+            "en": "A heavy object was being carried during the exhibition.",
+            "zh": "展覽期間有人搬着重物。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The work had been fully reassigned and she had no remaining responsibility.",
+            "zh": "工作已全數改派，她沒有餘下責任。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The roles had all been confirmed before she accepted the task.",
+            "zh": "她接工作前，所有分工都已確認。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "負責整個展覽及其他角色未清，是責任負擔線索，不是實際搬重物。",
+        "en": "Being responsible for the whole exhibition felt like a weight on her shoulders, especially while the other roles were still unclear.",
+        "zh": "負責整個展覽令她感到肩負沉重壓力，尤其其他分工仍不清楚。"
+      },
+      "reply": {
+        "promptEn": "Why does organising the exhibition feel so demanding for her?",
+        "promptZh": "安排展覽為甚麼令她覺得壓力很大？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She is responsible for the whole event while other roles remain unclear.",
+            "zh": "她負責整項活動，其他角色卻仍不清楚。"
+          },
+          {
+            "id": "choice-2",
+            "en": "It feels like a weight on her shoulders because too many decisions depend on her.",
+            "zh": "太多決定依靠她處理，所以她感到肩負沉重壓力。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Too many decisions are coming to her without an agreed division of work.",
+            "zh": "沒有議定分工，太多決定都落到她身上。"
+          },
+          {
+            "id": "choice-4",
+            "en": "She cannot plan her own part confidently while the other responsibilities remain uncertain.",
+            "zh": "其他責任未清，令她難有把握安排自己的部分。"
+          }
+        ],
+        "goldenId": "choice-2",
+        "explanationZh": "四句都能合理說明壓力或所缺條件；金句不是她沒有任何能力。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "住家的屋頂突然要維修，費用超過這家人的備用積蓄，令他們擔心接下來的日常開支。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The unexpected repair became a heavy load on the family's shoulders.",
+            "zh": "突如其來的維修費成了這家人肩上的沉重負擔。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The repair has no effect on the family’s finances because they had savings.",
+            "zh": "因為家人有積蓄，維修費對他們的財政毫無影響。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The family is concerned only about the physical weight of the roof tiles.",
+            "zh": "這家人只擔心屋頂瓦片的實際重量。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "維修費超出備用積蓄，家人擔心後續開支；這是比喻經濟壓力，並非瓦片重量。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪句是實際負重，而不是本課的責任比喻？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The approaching deadline felt like a weight on their shoulders.",
+            "zh": "限期逼近，令他們感到肩負沉重壓力。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The loaded backpack put a heavy weight on his shoulders during the walk.",
+            "zh": "步行時，裝滿的背包把沉重負荷壓在他肩上。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Managing the whole project was a weight on her shoulders.",
+            "zh": "管理整個項目，是她肩上的沉重責任。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "背包及步行有實際負重；限期及管理項目是責任或擔心。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "同伴覺得展覽責任沉重，別人想只叫她「別擔心」而不談分工。哪句更有幫助？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "If it feels like a weight on her shoulders, ask which decisions can be shared and make the roles clear.",
+            "zh": "如果她感到肩負沉重壓力，就問哪些決定可分擔，並釐清角色。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Repeat the reassurance and leave every decision assigned to her as before.",
+            "zh": "重複安心說話，仍把每個決定照舊留給她。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Reassign tasks in the group chat before asking what support she actually needs.",
+            "zh": "未問實際所需支援，就在群組改派工作。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先了解負擔及商議分工，才能對應需要；只安慰或未問便重派不足。"
+      },
+      "speaking": {
+        "en": "The responsibility feels like a weight on my shoulders, so I want to agree a clearer division of work.",
+        "zh": "這份責任令我感到肩負沉重壓力，所以我想議定更清楚分工。",
+        "promptZh": "你想說清壓力來源，並提出可討論支援。先聽，再說。",
+        "targetSpan": {
+          "start": 30,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：選擇升學課程是你要作的重要決定，家人的期待令你覺得責任沉重。你想先找導師比較路向，而不是讓別人替你決定。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "Choosing my course feels like a weight on my shoulders because the decision matters so much. I want guidance to compare the options before deciding.",
+            "zh": "選課程令我感到肩負沉重壓力，因為決定很重要。我想先取得指導、比較選項，再決定。"
+          },
+          {
+            "en": "The expectations feel like a weight on my shoulders, so I will discuss the different routes with my tutor while keeping the final choice my own.",
+            "zh": "這些期待令我感到肩負沉重壓力，所以我會與導師討論不同路向，同時保留自己作最後選擇。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Choosing my course",
+            "zh": "選擇我的課程",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "the decision matters",
+            "zh": "決定很重要",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 83
+            }
+          },
+          {
+            "en": "compare the options",
+            "zh": "比較選項",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 131
+            }
+          },
+          {
+            "en": "my tutor",
+            "zh": "我的導師",
+            "exampleIndex": 1,
+            "span": {
+              "start": 97,
+              "end": 105
+            }
+          },
+          {
+            "en": "the final choice",
+            "zh": "最後選擇",
+            "exampleIndex": 1,
+            "span": {
+              "start": 120,
+              "end": 136
+            }
+          }
+        ],
+        "selfCheckZh": "描述重要決定及期待帶來的壓力，提出比較路向的支援，不把所有決定交出，也不說自己完全無能力。"
+      },
+      "takeaways": [
+        {
+          "en": "Having to make every final decision became a weight on her shoulders.",
+          "zh": "每個最後決定都要她作，成為她肩上重擔。"
+        },
+        {
+          "en": "The repair bill became a heavy load on the family's shoulders, even though they had some savings.",
+          "zh": "即使家人有些積蓄，維修費仍成為他們肩上的沉重負擔。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "State-of-burden shoulder metaphor kept distinct from801 taking a burden away. Responsibility and support discussed concretely without global judgements about capability."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Proposal-only owner expansion. New financial-burden variant is assessed in the keyed scene and takeaway; no shared owner/decision/manifest file is changed. Takeaway 2 would require exact audio-text regeneration if integrated."
+      }
+    }
+  ]
+}

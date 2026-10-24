@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "batchId": "proposal-owner-3834-source-4311-unselected",
+  "lessons": [
+    {
+      "id": "advanced-native-3834",
+      "number": 3834,
+      "inventoryId": "expr-3834",
+      "titleEn": "spill into",
+      "titleZh": "從一個範疇蔓延到另一範疇",
+      "category": "figurative",
+      "contentRevision": 3,
+      "target": {
+        "pattern": "\\b(?:spill|spills|spilled|spilt|spilling) into\\b",
+        "glossaryForbidden": [
+          "\\b(?:spill|spills|spilled|spilt|spilling) into\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1723",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 162,
+          "book": 14,
+          "question": 29,
+          "sample": "S2",
+          "sourceBookPages": "64–65",
+          "locatorNote": "DOCX table 173, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Work pressure can end up spilling into every part of life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "spilling into every part of life"
+        },
+        {
+          "occurrenceId": "book10-16-2200",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 207,
+          "book": 16,
+          "question": 11,
+          "sample": "S1",
+          "sourceBookPages": "27–28",
+          "locatorNote": "DOCX table 226, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Classroom knowledge spills into real life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "spills into real life"
+        }
+      ],
+      "brief": {
+        "meaningEn": "For an effect, skill, benefit or pressure from one part of life or work to extend into another domain beyond its starting point.",
+        "meaningZh": "某個範疇的影響、技能、好處或壓力，延伸到原本範疇以外的生活或工作領域。",
+        "grammar": "A skill, benefit, pressure, work demand or delay spills into + an affected domain. Has spilled into marks an observed effect; may spill into predicts one. The liquid image is figurative here, so name the starting domain and evidence of crossing into another.",
+        "register": "Everyday to journalistic figurative description: a student can explain how classroom skills help in a community project, or a worker can explain how a rota problem affects family time.",
+        "boundaryZh": "須交代原本範疇和另一個受影響範疇；影響可以有益也可以有害。在同一範疇內發生的事，或真的打翻液體，都不是本課的比喻。",
+        "misconceptionZh": "不要把可能帶來的影響說成已發生，也不要只因兩件事相近便臆測其因果；有益或有害均須有具體線索。",
+        "outcomeZh": "能指出技能、好處或問題由哪裏延伸至何處，並區分已發生與可能發生的影響。"
+      },
+      "listening": {
+        "en": "Mara’s work rota changed three times this week. She began answering shift messages during family dinner, so the scheduling pressure was spilling into her home time.",
+        "zh": "Mara 的工作更表本周改了三次。她開始在家庭晚餐時回覆更班訊息，因此排班壓力正蔓延到她的家庭時間。",
+        "promptEn": "What boundary has the pressure crossed?",
+        "promptZh": "這股壓力跨越了哪個範疇的界線？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Work scheduling has begun affecting time at home.",
+            "zh": "工作排班開始影響在家的時間。"
+          },
+          {
+            "id": "b",
+            "en": "Mara has already resigned from her job.",
+            "zh": "Mara 已經辭職。"
+          },
+          {
+            "id": "c",
+            "en": "Her family asked her to take extra shifts.",
+            "zh": "她的家人要求她加班。"
+          },
+          {
+            "id": "d",
+            "en": "The rota changes stayed entirely within office hours.",
+            "zh": "更表變動完全只在辦公時間內產生影響。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她在家庭晚餐時處理工作訊息，顯示工作壓力延伸到家中時間。"
+      },
+      "reply": {
+        "promptEn": "My volunteer rota was meant to take two hours a week, but I now answer club messages every Sunday afternoon. How would you respond?",
+        "promptZh": "我本來每周只需花兩小時處理義工更表，但現在每逢周日下午都要回覆學會訊息。你會怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds as if the club work is spilling into your rest time.",
+            "zh": "聽起來學會工作正蔓延到你的休息時間。"
+          },
+          {
+            "id": "b",
+            "en": "You could agree with the team on a fixed time for replies.",
+            "zh": "你可以跟團隊協議一個固定回覆時段。"
+          },
+          {
+            "id": "c",
+            "en": "That seems to take more of your weekend than the rota allowed.",
+            "zh": "這似乎佔用你周末的時間，比原定更表多。"
+          },
+          {
+            "id": "d",
+            "en": "Perhaps another volunteer could share the messages on Sundays.",
+            "zh": "也許另一名義工可分擔周日的訊息。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都合理回應周日時間被佔用的情況；金句用 spill into 表達工作影響休息。"
+      },
+      "scene": {
+        "promptZh": "學生在數學課學會比較單位價格；後來替社區花園採購材料時，他們實際用這方法比較兩家店的報價。哪句最有根據？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The classroom skill spilled into the community garden’s purchasing decisions.",
+            "zh": "課堂學到的技能延伸到社區花園的採購決定中。"
+          },
+          {
+            "id": "b",
+            "en": "The garden purchases taught the students unit pricing before the maths class did.",
+            "zh": "花園採購比數學課更早教會學生比較單位價格。"
+          },
+          {
+            "id": "c",
+            "en": "The maths lesson remained entirely within the classroom and never affected the purchases.",
+            "zh": "數學課所學完全留在課堂裏，沒有影響採購。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "學生先在課堂學會比較單位價格，後來在社區採購時實際使用；另兩句倒置先後或否認已發生的延伸。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最沒有顯示問題 spill into 另一範疇？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A shop’s staffing gap forces a parent to miss a child’s pickup.",
+            "zh": "商店人手不足令一名家長錯過接孩子的時間。"
+          },
+          {
+            "id": "b",
+            "en": "A rehearsal overrun delays the chess club’s room booking.",
+            "zh": "排練超時令棋藝會使用房間的時間延後。"
+          },
+          {
+            "id": "c",
+            "en": "A school deadline is handled entirely during class hours, with no effect on activities afterward.",
+            "zh": "學校限期完全在上課時間內處理，沒有影響之後的活動。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "限期的影響沒有延伸出原本課堂；前兩例都跨越了活動範疇。"
+      },
+      "dialogue": {
+        "promptZh": "經理說：「工作報告都在辦公室寫，所以期限壓力不可能影響家庭。」但同事為完成報告取消了兩次家庭晚餐。哪句回應最有根據？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The deadline pressure has spilled into family time; the cancelled dinners show the effect.",
+            "zh": "期限壓力已蔓延到家庭時間；取消晚餐就是證據。"
+          },
+          {
+            "id": "b",
+            "en": "The family dinners must have caused the work deadline.",
+            "zh": "家庭晚餐一定造成工作期限。"
+          },
+          {
+            "id": "c",
+            "en": "There is no evidence that the deadline affected time at home.",
+            "zh": "沒有證據顯示工作期限影響在家時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "取消家庭晚餐是工作壓力影響家庭時間的具體證據。"
+      },
+      "speaking": {
+        "en": "The delayed permit is spilling into the community workshop schedule: volunteers cannot open the room on Saturday.",
+        "zh": "許可證延誤正影響社區工作坊的日程：義工周六無法開放場地。",
+        "promptZh": "先聽示範，再指出問題從哪裏擴散到哪個安排。",
+        "targetSpan": {
+          "start": 22,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區體育館的新報名系統在周一和周二出錯。兩名義工周三晚上要手動核對預約，因此錯過原定的培訓；系統何時修好仍未確定。用一至兩句英文說明問題如何跨越到義工的晚上安排，不要說系統已修好。",
+        "selfCheckZh": "兩例都寫出周一及周二的報名問題、兩名義工周三晚手動核對預約而錯過培訓，以及修復時間未定。",
+        "examples": [
+          {
+            "en": "The Monday and Tuesday booking errors have spilled into the volunteers’ Wednesday evening: two people checked reservations by hand and missed training, while the repair date remains unknown.",
+            "zh": "周一和周二的預約錯誤已影響義工的周三晚上：兩人手動核對預約而錯過培訓，系統修復日期仍未確定。"
+          },
+          {
+            "en": "Because the new system failed on Monday and Tuesday, the problem spilled into Wednesday evening training: two volunteers had to check bookings manually and could not attend; no repair date is confirmed.",
+            "zh": "因新系統在周一和周二出錯，問題蔓延到周三晚的培訓：兩名義工須手動核對預約而無法出席；修復日期仍未確定。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Monday and Tuesday booking errors",
+            "zh": "周一和周二的預約錯誤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 37
+            }
+          },
+          {
+            "en": "checked reservations by hand",
+            "zh": "手動核對預約",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 130
+            }
+          },
+          {
+            "en": "the repair date remains unknown",
+            "zh": "修復日期仍未確定",
+            "exampleIndex": 0,
+            "span": {
+              "start": 158,
+              "end": 189
+            }
+          },
+          {
+            "en": "Wednesday evening training",
+            "zh": "周三晚的培訓",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 104
+            }
+          },
+          {
+            "en": "check bookings manually",
+            "zh": "手動核對預約",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 151
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "When a problem spills into another part of life, its effects cross an identifiable boundary.",
+          "zh": "問題 spill into 另一生活範疇，表示影響跨越了清楚可辨的界線。"
+        },
+        {
+          "en": "A skill learned in class can spill into a community project when students put it to use there.",
+          "zh": "學生把課堂技能用於社區計劃時，所學便能延伸到課堂以外。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional held-source lesson. Independent English, Traditional Chinese, media, QA and human release review remain pending."
+        ],
+        "note": "Proposal-only positive-domain expansion with exact source provenance and one assessed cross-domain skill transfer. Existing answer IDs retained. Takeaway 2 would require exact audio-text regeneration if integrated."
+      }
+    }
+  ]
+}

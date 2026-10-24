@@ -1,0 +1,31 @@
+{
+  "status": "independent-AI-proposal-content-clear-no-integration-or-human-approval",
+  "createdUtc": "2026-10-24T03:31:50.933703+00:00",
+  "sourceOrdinal": 2729,
+  "sourceId": "book10-16-0618",
+  "exactSourceSentence": "Today, the spotlight is shared with online creators.",
+  "sourceRowSha256": "d90401f038592f9a167d255b2d4fe904b0c4541cf913c2b96c74973766af6bcd",
+  "ownerId": "advanced-native-1478",
+  "proposalFile": "course-materials/advanced-native/reviews-books10-16/proposals/owner-1478-source-2729-proposed-a.json",
+  "proposalSha256": "e9224c9adc1667616b59c27c765c9fd75d1f77f21d8dd9d7f5f0c62da128ea0c",
+  "authorAuditSha256": "8e980d3b48c321c6701e7916f5360bdb62eab36c317f14d602951dc97f4c15af",
+  "ownerBeforeFile": "course-materials/advanced-native/batches/batch-1476-1500.json",
+  "ownerBeforeFileSha256": "3d5d7386d7821e2478d695698bd04cfe56a29896d60e9849285833a3f121e08c",
+  "ownerBeforeObjectSha256": "6ee0531238022b5726591ecf814a51f85e2849897dd52a6c0891ecc0c959d6b1",
+  "ownerAfterObjectSha256": "f5464b03dc225115403869c52a044c581dba4e16d2f966fe2531c70f2eee87d1",
+  "verdict": "PASS-proposal-only",
+  "assessment": {
+    "sameOwnerSense": "Both source 2729 and owner 1478 use spotlight metaphor for allocation of public attention. Affirmative shared with widens recipients; original not always equally shared qualifies distribution. The positive does not imply equal portions, and the original negative does not mean never equal.",
+    "sourceAndProvenance": "Exact occurrence book10-16-0618 and full source sentence are retained; new target matches source while old negative still matches.",
+    "keysAndChinese": "Changed scene has painters previously alone and now sculptors/textile artists also covered. A follows. B wrongly excludes painters; C wrongly infers exact equality. English/Chinese agree; original negative form remains in reply, dialogue, speaking and both writing models.",
+    "targetPattern": "Anchored the spotlight is with optional not always equally; the pattern matches source and original form. Literal stage-light use still needs semantic context, as with prior owner.",
+    "audioDelta": "Only takeaway[1] text changes; exact-key audio refresh needed if integrated.",
+    "sourceCoverage": "Three positive and three negative live JS spot controls, keyed scene and unchanged glossary slices reviewed.",
+    "contentRevision": 2
+  },
+  "findings": [],
+  "limits": [
+    "AI peer review, not human approval or release clearance.",
+    "No selected owner/decision/manifest/audio file edited."
+  ]
+}

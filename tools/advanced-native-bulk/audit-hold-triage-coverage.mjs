@@ -13,6 +13,7 @@ const manifest = readJson('books10-16/editorial-decision-manifest.json');
 const decisions = new Map(manifest.decisionFiles.flatMap(name => readJsonl(`books10-16/${name}`))
   .map(row => [row.sourceOrdinal, row]));
 const held = new Map([...decisions].filter(([, row]) => row.action === 'hold-editorial'));
+const excludedOneOff = [...decisions].filter(([, row]) => row.action === 'excluded-one-off').length;
 const reports = [
   ['reviews-books10-16/read-only-grouped-hold-disposition-2112-3000-a.json', 'sourceExample', 'workingGroup'],
   ['reviews-books10-16/independent-ai-readonly-hold-disposition-3001-3900-b.json', 'sourceSentence', 'category'],
@@ -42,7 +43,7 @@ for (const [path, sentenceKey, categoryKey] of reports) {
 }
 let untriagedCurrentHolds = 0;
 for (const ordinal of held.keys()) if (!seen.has(ordinal)) { errors.push(`${ordinal}: missing triage row`); untriagedCurrentHolds++; }
-const result = {currentHolds: held.size, triageRows: seen.size, closedSinceTriage,
+const result = {currentHolds: held.size, excludedOneOff, triageRows: seen.size, closedSinceTriage,
   untriagedCurrentHolds, reports: reports.length, categories, errorCount: errors.length, errors};
 console.log(JSON.stringify(result));
 if (errors.length) process.exitCode = 1;

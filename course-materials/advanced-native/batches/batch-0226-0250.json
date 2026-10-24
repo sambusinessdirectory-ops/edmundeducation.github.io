@@ -292,7 +292,7 @@
     "titleZh": "出問題時提供保護的後盾",
     "category": "idiom",
     "target": {
-      "pattern": "\\ba (?:quiet )?safety net\\b",
+      "pattern": "\\ba (?:quiet |kind of )?safety net\\b",
       "glossaryForbidden": [
         "\\bsafety net\\b"
       ]
@@ -300,9 +300,9 @@
     "brief": {
       "meaningEn": "A system, resource or arrangement that provides protection if something goes wrong.",
       "meaningZh": "在事情出問題時提供保護的制度、資源或安排。",
-      "grammar": "provide/act as/have a safety net; a safety net for someone. A quiet safety net describes unobtrusive protection, such as neighbours offering support without drawing attention to someone’s difficulties; quiet does not create a different protective sense.",
-      "register": "Common protective metaphor.",
-      "boundaryZh": "提供保障不等於風險全消失，也不一定是實物網；可指後備支援或制度。",
+      "grammar": "Provide, act as or have a safety net for someone. A quiet safety net is unobtrusive support; a kind of safety net signals an approximate protective comparison, including saved phone tools available if ordinary travel information fails. The risk and fallback should be named.",
+      "register": "Common protective metaphor. An organiser may call tested spare equipment a safety net; a traveller may call stored maps and emergency contacts a kind of safety net when connectivity is unreliable.",
+      "boundaryZh": "提供保障不等於風險全消失，也不一定是實物網；手機工具只有在能離線取用並對應具體問題時才算後備。",
       "misconceptionZh": "要說明出甚麼問題時、提供甚麼保護；普通額外好處不一定是安全後盾。",
       "outcomeZh": "能把後備安排連結到具體風險與保護作用。"
     },
@@ -359,6 +359,20 @@
         "sentence": "Neighbours became a quiet safety net for isolated residents.",
         "referenceSentenceKind": "guide_original_example",
         "locatorNote": "PDF page151, table1, row13"
+      },
+      {
+        "occurrenceId": "book10-16-2519",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 238,
+        "book": 16,
+        "question": 51,
+        "sample": "S1",
+        "sourceBookPages": "120–121",
+        "locatorNote": "DOCX table 266, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Modern travellers carry a kind of safety net in their pocket.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "carry a kind of safety net in their pocket"
       }
     ],
     "listening": {
@@ -419,26 +433,26 @@
       "goldenId": "a"
     },
     "scene": {
-      "promptZh": "活動主咪高峰可能故障，你們另備一支已測試的咪高峰，出問題時可替換。哪句貼切？",
+      "promptZh": "旅客在手機預存離線地圖和求助電話；若流動數據中斷，仍可查路線及聯絡支援。哪句貼切？",
       "options": [
         {
           "id": "a",
-          "en": "The spare is the main microphone awaiting repair, so it is not a separate replacement.",
-          "zh": "所謂備用品是等候維修的主咪高峰，所以不是獨立替代品。"
+          "en": "The saved map and numbers will prevent mobile data from failing during the trip.",
+          "zh": "預存地圖和電話號碼可防止旅途中的流動數據失效。"
         },
         {
           "id": "b",
-          "en": "The tested spare acts as a safety net.",
-          "zh": "測試過的備用咪高峰充當後盾。"
+          "en": "The stored tools provide a kind of safety net if mobile data fails.",
+          "zh": "流動數據失效時，預存工具提供一種後備保障。"
         },
         {
           "id": "c",
-          "en": "The extra microphone is needed for a second speaker at the same time, rather than as a replacement.",
-          "zh": "額外咪高峰是給另一位說話者同時使用，而非作替換。"
+          "en": "The offline map is useful only while mobile data remains connected.",
+          "zh": "離線地圖只有在流動數據仍連線時才有用。"
         }
       ],
       "answerId": "b",
-      "explanationZh": "可在主要設備故障時替換，具體提供後備保障。"
+      "explanationZh": "離線地圖與求助電話在數據中斷時提供具體後備；它們不能防止網絡故障，離線地圖也不依賴持續連線。"
     },
     "contrast": {
       "promptZh": "哪項最不足以稱為 a safety net？",
@@ -588,7 +602,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-228",

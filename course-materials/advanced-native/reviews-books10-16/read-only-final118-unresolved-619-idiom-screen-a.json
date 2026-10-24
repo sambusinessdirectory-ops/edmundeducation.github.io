@@ -1,0 +1,2213 @@
+{
+  "status": "versioned-read-only-semantic-screen-no-editorial-action",
+  "version": "2026-10-24-619-selection-final118-unresolved-a",
+  "scope": {
+    "historicalUnresolvedCount": 351,
+    "historicalInScopeCategoryCount": 318,
+    "historicalOtherCategoryCount": 33,
+    "currentSelectedLessonCount": 619,
+    "currentHoldDecisionCount": 640,
+    "selectionRule": "All remaining source-order rows after 3585 from historical genuinely-unresolved Idiom or set phrase, Figurative use, and Phrasal verb categories; retain only rows still hold-editorial at the current 619-selected checkpoint. Together with the two prior 100-row reports this screens all 318 historical unresolved rows in those categories. The other 33 historical unresolved rows belong to different source categories.",
+    "screenedSourceOrdinalMin": 3598,
+    "screenedSourceOrdinalMax": 4704,
+    "screenedCount": 118
+  },
+  "inputs": {
+    "historicalTriage": {
+      "path": "course-materials/advanced-native/reviews-books10-16/read-only-all-647-held-triage-617-snapshot-a.json",
+      "sha256": "5235f0680a5b32f9acb7e3c927b0772003ba2a9b4e1172b5b72ed23722fd9cf3"
+    },
+    "currentManifest": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+      "sha256": "e6a9beb2defd46634a66c225fc09d0519b254569ce80c39799cdc8d01f83f1d3"
+    },
+    "inventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    "ownerLessonsScanned": 2502,
+    "targetPatternsCompiled": 2502
+  },
+  "recentAliasIntegrations": {
+    "report": "course-materials/advanced-native/reviews-books10-16/author-integration-five-existing-aliases-619.json",
+    "sourceOrdinals": [
+      3264,
+      3998,
+      4234,
+      4289,
+      4456
+    ],
+    "impactOnThis118": "None of these five source ordinals is in this final historical unresolved category tranche; current selected manifest remains 619 and current decisions classify the 118 screened rows as hold-editorial."
+  },
+  "counts": {
+    "not-recommended-as-new-lesson": 69,
+    "uncertain": 19,
+    "prior-owner-or-variant-review": 27,
+    "provisional-distinct-candidate": 3
+  },
+  "rankedDistinctLessonCohort": [
+    {
+      "rank": 1,
+      "sourceOrdinal": 3860,
+      "sourceId": "book10-16-1749",
+      "proposedTeachingUnit": "treat the symptoms and the root cause",
+      "exactSourceSentence": "A good policy tackles both the symptoms and the roots of the problem.",
+      "reason": "The source contrasts immediate visible effects with underlying causes, a reusable policy, healthcare and operations decision. Existing root-themed owners teach origins or identity rather than diagnosing causes before repair. The mixed plant/medical source wording requires a natural target lemma.",
+      "nextGate": "Confirm idiomatic root-cause wording and build seven distinct diagnosis-versus-relief decisions without treating symptom care as worthless."
+    },
+    {
+      "rank": 2,
+      "sourceOrdinal": 4151,
+      "sourceId": "book10-16-2040",
+      "proposedTeachingUnit": "outsource memory to a device",
+      "exactSourceSentence": "We should not outsource every detail to our phones.",
+      "reason": "The source uses outsource figuratively for delegating recall to phones. No selected outsource owner exists, and the balance between useful aid and losing recall practice can transfer across study, travel and work.",
+      "nextGate": "Verify natural usage and teach a bounded human-to-device responsibility transfer rather than every mundane use of a phone."
+    },
+    {
+      "rank": 3,
+      "sourceOrdinal": 4543,
+      "sourceId": "book10-16-2432",
+      "proposedTeachingUnit": "a patchwork of services",
+      "exactSourceSentence": "The service now feels less like a patchwork.",
+      "reason": "The source uses patchwork for a fragmented transport service; no selected patchwork owner exists. A coherent lesson could distinguish useful diversity from gaps, incompatible pieces and uneven access across settings.",
+      "nextGate": "Check natural patchwork of X forms, source less-like comparative, and seven nonredundant decisions before authoring."
+    }
+  ],
+  "sourceChecks": [
+    {
+      "sourceOrdinal": 3598,
+      "sourceId": "book10-16-1487",
+      "sourceCategory": "Phrasal verb",
+      "expression": "push it further",
+      "exactSourceSentence": "The new study will push it further.",
+      "sourceMeaning": "Advance knowledge beyond its current state; a natural phrasal verb.",
+      "sourceQuestion": "What advantages do universities bring to society?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Push it further is a broad phrasal verb; the pronoun and object are too underspecified for this source. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Push it further is a broad phrasal verb; the pronoun and object are too underspecified for this source.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3601,
+      "sourceId": "book10-16-1490",
+      "sourceCategory": "Figurative use",
+      "expression": "stays in the hands of only a few people",
+      "exactSourceSentence": "Knowledge stays in the hands of only a few people without teaching.",
+      "sourceMeaning": "Information remains controlled by a small group; a hand metaphor.",
+      "sourceQuestion": "Which is more important, research or teaching?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Knowledge remaining in few hands is productive control imagery rather than a fixed expression. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "Knowledge in the hands of a few describes control, but hand-ownership may be transparent and current owner fit is unclear; check a bounded transfer decision.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 3606,
+      "sourceId": "book10-16-1495",
+      "sourceCategory": "Figurative use",
+      "expression": "pushes the frontier forward",
+      "exactSourceSentence": "Research pushes the frontier forward.",
+      "sourceMeaning": "Extends the edge of current knowledge; a frontier metaphor.",
+      "sourceQuestion": "Which is more important, research or teaching?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Pushes the frontier forward is a broad frontier metaphor whose naturalness and unit need review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-3046",
+          "titleEn": "push the boundaries of understanding"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Research extending the frontier of knowledge is near owner3046 pushing the boundaries of understanding; confirm same field/sense before a metaphor variant.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 3608,
+      "sourceId": "book10-16-1497",
+      "sourceCategory": "Figurative use",
+      "expression": "yesterday's answers to tomorrow's questions",
+      "exactSourceSentence": "Without research, we may offer yesterday's answers to tomorrow's questions.",
+      "sourceMeaning": "Outdated knowledge applied to new problems; a time contrast.",
+      "sourceQuestion": "Which is more important, research or teaching?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Yesterday’s answers to tomorrow’s questions is an aphoristic time contrast, not fixed usage. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Yesterday’s answers to tomorrow’s questions is an aphoristic time contrast, not fixed usage.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3621,
+      "sourceId": "book10-16-1510",
+      "sourceCategory": "Figurative use",
+      "expression": "heavy load on the family's shoulders",
+      "exactSourceSentence": "Tuition became a heavy load on the family's shoulders.",
+      "sourceMeaning": "A serious shared financial burden; a weight metaphor.",
+      "sourceQuestion": "Is higher education too expensive in your country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Heavy load on the family’s shoulders is a burden metaphor but differs from the weight-on-shoulders owner. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-816",
+          "titleEn": "a weight on their shoulders"
+        },
+        {
+          "ownerId": "advanced-native-542",
+          "titleEn": "shoulder a burden / shoulder all the risk"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "The tuition burden on the family matches weight-on-shoulders and shouldering-a-burden decisions, even though this source says load.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 3639,
+      "sourceId": "book10-16-1528",
+      "sourceCategory": "Figurative use",
+      "expression": "thrown at a child before they are ready",
+      "exactSourceSentence": "Independence should not be thrown at a child before they are ready.",
+      "sourceMeaning": "Imposed prematurely; a throwing metaphor.",
+      "sourceQuestion": "Do you think students should be taken to school by their parents or go by themselves?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Thrown at a child before ready is a broad passive throw metaphor without fixed expression boundary. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Thrown at a child before ready is a broad passive throw metaphor without fixed expression boundary.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3670,
+      "sourceId": "book10-16-1559",
+      "sourceCategory": "Phrasal verb",
+      "expression": "open up",
+      "exactSourceSentence": "A patient explanation can make the topic open up.",
+      "sourceMeaning": "Become accessible or understandable; a natural phrasal verb.",
+      "sourceQuestion": "What is the effect if parents interfere with children's life too much?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Make the topic open up is an unusual accessibility sense, distinct from existing disclosure owner. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-1576",
+          "titleEn": "open up to"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Exact source repeats at 3681 and 4112. Owner1576 open up to means a person disclosing feelings, whereas the topic becoming understandable is a different phrasal sense; retain for owner/sense adjudication, not automatic alias.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 3672,
+      "sourceId": "book10-16-1561",
+      "sourceCategory": "Figurative use",
+      "expression": "emotionally, they start shutting the door",
+      "exactSourceSentence": "If they feel judged, emotionally, they start shutting the door.",
+      "sourceMeaning": "They begin withholding thoughts and feelings; a door metaphor.",
+      "sourceQuestion": "What is the effect if parents interfere with children's life too much?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Bare emotional shutting the door means withdrawing thoughts or feelings after perceived judgement. It differs in grammar and learner decision from 3413's shut the door on a named opportunity; the source wording needs native re-lemma review before inclusion.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "Emotionally shutting the door signals withdrawal; owner3413 shut the door on blocks possibilities, while owner1576 open up to is disclosure. Neither is a safe automatic alias.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 3681,
+      "sourceId": "book10-16-1570",
+      "sourceCategory": "Phrasal verb",
+      "expression": "open up",
+      "exactSourceSentence": "A patient explanation can make the topic open up.",
+      "sourceMeaning": "Become accessible or understandable; a natural phrasal verb.",
+      "sourceQuestion": "How does changing school affect children?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Make a topic open up uses an unusual understanding sense distinct from existing disclosure owner. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-1576",
+          "titleEn": "open up to"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Exact repeat of 3670; topic becoming accessible differs from owner1576 personal disclosure. Link repeated source occurrences for one decision.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 3686,
+      "sourceId": "book10-16-1575",
+      "sourceCategory": "Figurative use",
+      "expression": "one of the engines that keeps the world moving forward",
+      "exactSourceSentence": "Research is one of the engines that keeps the world moving forward.",
+      "sourceMeaning": "A force driving social progress; a vehicle metaphor.",
+      "sourceQuestion": "Do you think science is important?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Research as an engine keeping the world moving is a bespoke extended machine metaphor. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [
+        {
+          "ownerId": "advanced-native-437",
+          "titleEn": "move forward"
+        },
+        {
+          "ownerId": "advanced-native-2400",
+          "titleEn": "keep moving"
+        }
+      ],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Research as an engine keeping the world moving is a bespoke extended machine metaphor.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3694,
+      "sourceId": "book10-16-1583",
+      "sourceCategory": "Figurative use",
+      "expression": "rewriting the rules of society",
+      "exactSourceSentence": "Digital communication is rewriting the rules of society.",
+      "sourceMeaning": "Changing accepted ways of living; a writing metaphor.",
+      "sourceQuestion": "Do you think science can change our society?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Rewriting the rules of society is a broad change metaphor; stable unit and scope need review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "Rewriting social rules might be an established change metaphor, but source scale and relation to existing rulebook owners need source-backed scope.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 3707,
+      "sourceId": "book10-16-1596",
+      "sourceCategory": "Figurative use",
+      "expression": "enthusiasm can cool down",
+      "exactSourceSentence": "High prices mean enthusiasm can cool down quickly.",
+      "sourceMeaning": "Interest can decline; a temperature metaphor.",
+      "sourceQuestion": "Why do you think some inventions have not been successful in the marketplace?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Enthusiasm cooling down is a productive temperature metaphor and may require scope review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-568",
+          "titleEn": "the shine soon wears off"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Interest cooling resembles owner568 initial attraction wearing off, but price-caused decline may not be the same novelty mechanism; compare scope before alias.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 3709,
+      "sourceId": "book10-16-1598",
+      "sourceCategory": "Figurative use",
+      "expression": "sink quietly afterwards",
+      "exactSourceSentence": "A weak product can sink quietly afterwards.",
+      "sourceMeaning": "Fade after early excitement; a water metaphor.",
+      "sourceQuestion": "Why do you think some inventions have not been successful in the marketplace?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Sink quietly afterwards extends the water image but is a productive failure metaphor. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Sink quietly afterwards extends the water image but is a productive failure metaphor.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3720,
+      "sourceId": "book10-16-1609",
+      "sourceCategory": "Phrasal verb",
+      "expression": "thrown aside",
+      "exactSourceSentence": "Working devices are often thrown aside too quickly.",
+      "sourceMeaning": "Discarded despite remaining useful; a common phrasal verb.",
+      "sourceQuestion": "Do you think it's good that new inventions are appearing so often?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Thrown aside is a broad disposal phrasal verb; the source may mean literal discarding. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Thrown aside is a broad disposal phrasal verb; the source may mean literal discarding.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3723,
+      "sourceId": "book10-16-1612",
+      "sourceCategory": "Figurative use",
+      "expression": "dazzle people for a moment",
+      "exactSourceSentence": "A flashy feature may dazzle people for a moment.",
+      "sourceMeaning": "Impress briefly without lasting value; light is figurative.",
+      "sourceQuestion": "Do you think it's good that new inventions are appearing so often?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Dazzle people for a moment is broad light imagery with no stable idiom boundary. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Dazzle people for a moment is broad light imagery with no stable idiom boundary.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3724,
+      "sourceId": "book10-16-1613",
+      "sourceCategory": "Figurative use",
+      "expression": "touches human life at its most basic level",
+      "exactSourceSentence": "Medicine touches human life at its most basic level.",
+      "sourceMeaning": "Affects survival and wellbeing directly; touch is figurative.",
+      "sourceQuestion": "Which area of science has been the most important in the last one hundred years?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Medicine touching life at its basic level is broad impact language rather than a fixed phrase. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Medicine touching life at its basic level is broad impact language rather than a fixed phrase.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3727,
+      "sourceId": "book10-16-1616",
+      "sourceCategory": "Figurative use",
+      "expression": "changes the whole shape of life",
+      "exactSourceSentence": "Better treatment changes the whole shape of life.",
+      "sourceMeaning": "Transforms how life is lived; shape is figurative.",
+      "sourceQuestion": "Which area of science has been the most important in the last one hundred years?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Changes the whole shape of life is a broad shape metaphor without a bounded conventional target. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [
+        {
+          "ownerId": "advanced-native-20",
+          "titleEn": "shape"
+        }
+      ],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Changes the whole shape of life is a broad shape metaphor without a bounded conventional target.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3758,
+      "sourceId": "book10-16-1647",
+      "sourceCategory": "Figurative use",
+      "expression": "in the cracks of daily life",
+      "exactSourceSentence": "People now buy groceries in the cracks of daily life.",
+      "sourceMeaning": "In brief spare moments within a busy routine; a crack metaphor.",
+      "sourceQuestion": "How have shopping habits changed over recent years?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Cracks of daily life is creative imagery for spare moments and needs naturalness review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "In the cracks of daily life could name spare moments, but the source phrase may be a coined image; check naturalness and seven-step depth.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 3793,
+      "sourceId": "book10-16-1682",
+      "sourceCategory": "Figurative use",
+      "expression": "small shops may win the heart",
+      "exactSourceSentence": "With familiar staff, small shops may win the heart.",
+      "sourceMeaning": "Personal service may create stronger affection; heart is figurative.",
+      "sourceQuestion": "Is service better in large shops or in small shops?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Small shops win the heart is an unusual singular-heart formulation requiring naturalness review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Small shops win the heart is an unusual singular-heart formulation requiring naturalness review.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3823,
+      "sourceId": "book10-16-1712",
+      "sourceCategory": "Idiom or set phrase",
+      "expression": "social fabric",
+      "exactSourceSentence": "Volunteers strengthen the social fabric.",
+      "sourceMeaning": "The network of relationships that holds a society together; a fixed fabric metaphor.",
+      "sourceQuestion": "Are there many charities in your country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Social fabric is conventional but existing owner teaches it inside a longer knit-back-together phrase; scope review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-1357",
+          "titleEn": "knit the social fabric back together"
+        },
+        {
+          "ownerId": "advanced-native-1717",
+          "titleEn": "keeps the social fabric from coming apart"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "The noun social fabric is central to owners1357/1717, which already assess repair and maintenance of community relationships. Standalone noun needs a distinct learning decision or bounded owner coverage.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 3844,
+      "sourceId": "book10-16-1733",
+      "sourceCategory": "Figurative use",
+      "expression": "cities keep swelling",
+      "exactSourceSentence": "The cities keep swelling as jobs concentrate there.",
+      "sourceMeaning": "Urban populations continue growing; a bodily expansion metaphor.",
+      "sourceQuestion": "Let's move on to talk about the overpopulation problem. Why do so many people move to live in cities?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Cities swelling is a productive bodily growth metaphor for population increase. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Cities swelling is a productive bodily growth metaphor for population increase.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3846,
+      "sourceId": "book10-16-1735",
+      "sourceCategory": "Figurative use",
+      "expression": "the more thinly everything has to be spread",
+      "exactSourceSentence": "The more users arrive, the more thinly everything has to be spread.",
+      "sourceMeaning": "Resources must be distributed across too many users; a spreading metaphor.",
+      "sourceQuestion": "What problems does overpopulation cause?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Everything spread more thinly is a broad resource-distribution metaphor with awkward source syntax. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Everything spread more thinly is a broad resource-distribution metaphor with awkward source syntax.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3847,
+      "sourceId": "book10-16-1736",
+      "sourceCategory": "Figurative use",
+      "expression": "constant squeeze",
+      "exactSourceSentence": "Commuting felt like a constant squeeze.",
+      "sourceMeaning": "Persistent pressure from limited space and resources; a physical compression image.",
+      "sourceQuestion": "What problems does overpopulation cause?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Constant squeeze is a general compression metaphor; idiom boundary needs review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Constant squeeze is a general compression metaphor; idiom boundary needs review.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3849,
+      "sourceId": "book10-16-1738",
+      "sourceCategory": "Figurative use",
+      "expression": "outpace a place's ability to care for them",
+      "exactSourceSentence": "Population growth can outpace a place's ability to care for them.",
+      "sourceMeaning": "Grow faster than a city's capacity; a race metaphor.",
+      "sourceQuestion": "What problems does overpopulation cause?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Outpace capacity to care is productive racing imagery for growth exceeding resources. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "Outpace a city’s capacity is a natural comparative verb use; decide whether it has a discrete advanced learning target or is transparent syntax.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 3860,
+      "sourceId": "book10-16-1749",
+      "sourceCategory": "Figurative use",
+      "expression": "tackles both the symptoms and the roots of the problem",
+      "exactSourceSentence": "A good policy tackles both the symptoms and the roots of the problem.",
+      "sourceMeaning": "Addresses immediate effects and underlying causes; medical and plant metaphors.",
+      "sourceQuestion": "What can be done to alleviate poverty?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Symptoms and roots pairs medical and plant images; an editorial target boundary is unresolved. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "provisional-distinct-candidate",
+      "proposedTeachingUnit": "treat the symptoms and the root cause",
+      "reason": "The source contrasts immediate visible effects with underlying causes, a reusable policy, healthcare and operations decision. Existing root-themed owners teach origins or identity rather than diagnosing causes before repair. The mixed plant/medical source wording requires a natural target lemma.",
+      "nextGate": "Confirm idiomatic root-cause wording and build seven distinct diagnosis-versus-relief decisions without treating symptom care as worthless."
+    },
+    {
+      "sourceOrdinal": 3893,
+      "sourceId": "book10-16-1782",
+      "sourceCategory": "Figurative use",
+      "expression": "stirs desire",
+      "exactSourceSentence": "A clever advert stirs desire for new products.",
+      "sourceMeaning": "Creates a feeling of wanting something; a mixing metaphor.",
+      "sourceQuestion": "Would you say that advertising makes people buy more new things than they would if there was no advertising?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Stirs desire is productive movement imagery for advertising influence. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Stirs desire is productive movement imagery for advertising influence.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3898,
+      "sourceId": "book10-16-1787",
+      "sourceCategory": "Figurative use",
+      "expression": "sharpens temptation",
+      "exactSourceSentence": "Repeated promotion sharpens temptation.",
+      "sourceMeaning": "Makes a desire stronger and more focused; a blade metaphor.",
+      "sourceQuestion": "Would you say that advertising makes people buy more new things than they would if there was no advertising?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Sharpens temptation is a broad edge metaphor rather than a fixed collocation. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Sharpens temptation is a broad edge metaphor rather than a fixed collocation.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3905,
+      "sourceId": "book10-16-1794",
+      "sourceCategory": "Figurative use",
+      "expression": "rules keep changing while they are still learning the game",
+      "exactSourceSentence": "For many users, the rules keep changing while they are still learning the game.",
+      "sourceMeaning": "Digital systems change before some users master them; a game metaphor.",
+      "sourceQuestion": "Do older people have difficulties using some things that young people do not?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Rules changing during the game is an extended metaphor for fast-changing digital norms. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Rules changing during the game is an extended metaphor for fast-changing digital norms.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3928,
+      "sourceId": "book10-16-1817",
+      "sourceCategory": "Idiom or set phrase",
+      "expression": "social fabric",
+      "exactSourceSentence": "Volunteers strengthen the social fabric.",
+      "sourceMeaning": "The network of relationships that holds a society together; a fixed fabric metaphor.",
+      "sourceQuestion": "Do you think the types of sports that are popular will change in the future?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Social fabric is conventional but current owners teach it only in longer constructions; scope review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-1357",
+          "titleEn": "knit the social fabric back together"
+        },
+        {
+          "ownerId": "advanced-native-1717",
+          "titleEn": "keeps the social fabric from coming apart"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Exact repeat of 3823. Community relationship network is already central to fabric owners; one owner/sense decision should cover both occurrences.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 3940,
+      "sourceId": "book10-16-1829",
+      "sourceCategory": "Figurative use",
+      "expression": "toughen their mindset",
+      "exactSourceSentence": "Competition can toughen their mindset.",
+      "sourceMeaning": "Make mental habits more resilient; a hardening metaphor.",
+      "sourceQuestion": "In your opinion, what are the benefits of playing a sport?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Toughen their mindset is a productive hardening metaphor; naturalness and target need review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Toughen their mindset is a productive hardening metaphor; naturalness and target need review.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3942,
+      "sourceId": "book10-16-1831",
+      "sourceCategory": "Figurative use",
+      "expression": "shared language that does not depend entirely on words",
+      "exactSourceSentence": "Football creates a shared language that does not depend entirely on words.",
+      "sourceMeaning": "Common understanding through sport despite linguistic differences; a language metaphor.",
+      "sourceQuestion": "What about cultural aspects? How can sports bring people from different countries closer together?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Sport as a shared language without words is a broad conceptual metaphor. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Sport as a shared language without words is a broad conceptual metaphor.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3944,
+      "sourceId": "book10-16-1833",
+      "sourceCategory": "Figurative use",
+      "expression": "distance between them often shrinks",
+      "exactSourceSentence": "After playing together, the distance between them often shrinks.",
+      "sourceMeaning": "Cultural separation feels smaller; physical distance is figurative.",
+      "sourceQuestion": "What about cultural aspects? How can sports bring people from different countries closer together?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Distance between people shrinking is productive proximity imagery for social connection. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "The distance between teammates shrinking is a familiar relational-distance image; exact fixedness and owner boundary are not established.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 3949,
+      "sourceId": "book10-16-1838",
+      "sourceCategory": "Figurative use",
+      "expression": "bond they built on the pitch",
+      "exactSourceSentence": "The teammates valued the bond they built on the pitch.",
+      "sourceMeaning": "Relationship formed through playing together; bond is figurative.",
+      "sourceQuestion": "What about cultural aspects? How can sports bring people from different countries closer together?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Bond built on the pitch is descriptive relational language, not an idiom. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [
+        {
+          "ownerId": "advanced-native-465",
+          "titleEn": "build on"
+        }
+      ],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Bond built on the pitch is descriptive relational language, not an idiom.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3955,
+      "sourceId": "book10-16-1844",
+      "sourceCategory": "Figurative use",
+      "expression": "chase intensity for its own sake",
+      "exactSourceSentence": "Beginners should not chase intensity for its own sake.",
+      "sourceMeaning": "Pursue harder exercise without a practical reason; chase is figurative.",
+      "sourceQuestion": "Do you think old people can keep fit by playing sports or exercising?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Chase intensity for its own sake is broad pursuit imagery and qualified purpose phrasing. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Chase intensity for its own sake is broad pursuit imagery and qualified purpose phrasing.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3957,
+      "sourceId": "book10-16-1846",
+      "sourceCategory": "Figurative use",
+      "expression": "fight age as if it were an enemy",
+      "exactSourceSentence": "The goal is not to fight age as if it were an enemy.",
+      "sourceMeaning": "Treat ageing as a battle to defeat; a war metaphor.",
+      "sourceQuestion": "Do you think old people can keep fit by playing sports or exercising?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Fight age as an enemy is a broad personification rather than a fixed idiom. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Fight age as an enemy is a broad personification rather than a fixed idiom.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3973,
+      "sourceId": "book10-16-1862",
+      "sourceCategory": "Figurative use",
+      "expression": "sport is a mirror of life",
+      "exactSourceSentence": "Sport is a mirror of life in a busy city.",
+      "sourceMeaning": "Sports preferences reflect wider lifestyle patterns; a mirror metaphor.",
+      "sourceQuestion": "Do you think the types of sport that are popular will change in the future?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Sport as a mirror of life is a broad interpretive metaphor without a stable target boundary. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Sport as a mirror of life is a broad interpretive metaphor without a stable target boundary.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 3993,
+      "sourceId": "book10-16-1882",
+      "sourceCategory": "Figurative use",
+      "expression": "more rounded rather than one-dimensional",
+      "exactSourceSentence": "The resulting training becomes more rounded rather than one-dimensional.",
+      "sourceMeaning": "Developing several abilities rather than only one; a shape metaphor.",
+      "sourceQuestion": "What kind of puzzles improve people's intelligence?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Rounded rather than one-dimensional is descriptive quality contrast with unclear idiom unit. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-313",
+          "titleEn": "well-rounded"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Several abilities rather than a single one matches well-rounded owner313; one-dimensional contrast is contextual support, not a second owner.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4029,
+      "sourceId": "book10-16-1918",
+      "sourceCategory": "Figurative use",
+      "expression": "promise may never fully bloom",
+      "exactSourceSentence": "Without support, that early promise may never fully bloom.",
+      "sourceMeaning": "Potential may never fully develop; a growth metaphor.",
+      "sourceQuestion": "Why are there so few top athletes?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Promise blooming is productive flower imagery with no bounded fixed expression. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "Promise blooming is coherent potential-growth language, but selected bloom owners use other subjects/senses; verify natural forms before target choice.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 4059,
+      "sourceId": "book10-16-1948",
+      "sourceCategory": "Idiom or set phrase",
+      "expression": "before their time",
+      "exactSourceSentence": "Those chairs were discarded before their time.",
+      "sourceMeaning": "Earlier than appropriate or expected; a fixed temporal idiom.",
+      "sourceQuestion": "What are your thoughts about the trend that people buy new things instead of repairing the old ones?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Before their time normally relates to premature death or unexpectedly early events. The source personifies discarded chairs in an unusual way; confirm idiomatic suitability and target sense before authoring.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "Before their time can mean prematurely discarded here, but also early death or ahead-of-era innovation; source form risks a polysemy trap.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 4076,
+      "sourceId": "book10-16-1965",
+      "sourceCategory": "Idiom or set phrase",
+      "expression": "bread and butter of daily life",
+      "exactSourceSentence": "Groceries are the bread and butter of daily life.",
+      "sourceMeaning": "Essential ordinary components of everyday living; a fixed food idiom.",
+      "sourceQuestion": "Which products are most consumed in your country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "The source uses groceries as the bread and butter of daily life, but the idiom often means livelihood or a mainstay and risks a literal-food reading here. Verify intended sense and rewrite a natural model before authoring.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "Bread and butter has established livelihood/basic-staple uses, but groceries as the bread and butter of daily life may be a strained source application; verify before lesson.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 4102,
+      "sourceId": "book10-16-1991",
+      "sourceCategory": "Figurative use",
+      "expression": "turn awkward first steps into real ability",
+      "exactSourceSentence": "Practice can turn awkward first steps into real ability.",
+      "sourceMeaning": "Develop early clumsy attempts into competence; a walking metaphor.",
+      "sourceQuestion": "Is it hard for students to learn new skills?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Awkward first steps becoming ability is a broad growth metaphor rather than a fixed unit. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [
+        {
+          "ownerId": "advanced-native-330",
+          "titleEn": "step into"
+        }
+      ],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Awkward first steps becoming ability is a broad growth metaphor rather than a fixed unit.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4104,
+      "sourceId": "book10-16-1993",
+      "sourceCategory": "Figurative use",
+      "expression": "climbing a steeper hill",
+      "exactSourceSentence": "For him, learning the new software felt like climbing a steeper hill.",
+      "sourceMeaning": "Facing a more difficult learning task; a climbing metaphor.",
+      "sourceQuestion": "Is it hard for old people to learn new skills?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Climbing a steeper hill is productive difficulty imagery rather than a bounded idiom. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Climbing a steeper hill is productive difficulty imagery rather than a bounded idiom.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4112,
+      "sourceId": "book10-16-2001",
+      "sourceCategory": "Phrasal verb",
+      "expression": "open up",
+      "exactSourceSentence": "A patient explanation can make the topic open up.",
+      "sourceMeaning": "Become accessible or understandable; a natural phrasal verb.",
+      "sourceQuestion": "Is a good teacher very important for students' learning experience? Why?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Make a topic open up is an unusual clarity sense distinct from disclosure owner. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-1576",
+          "titleEn": "open up to"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Exact repeat of 3670/3681; topic-open-up sense is not personal-disclosure owner1576, so this is a linked owner/sense review.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4144,
+      "sourceId": "book10-16-2033",
+      "sourceCategory": "Figurative use",
+      "expression": "give the memory more shape and structure",
+      "exactSourceSentence": "A short story can give the memory more shape and structure.",
+      "sourceMeaning": "Make a recollection more organised and meaningful; a form metaphor.",
+      "sourceQuestion": "Which can help people remember things better, words or photos?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Give memory shape and structure is broad spatial imagery, not a fixed phrase. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [
+        {
+          "ownerId": "advanced-native-20",
+          "titleEn": "shape"
+        }
+      ],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Give memory shape and structure is broad spatial imagery, not a fixed phrase.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4151,
+      "sourceId": "book10-16-2040",
+      "sourceCategory": "Figurative use",
+      "expression": "outsource every detail",
+      "exactSourceSentence": "We should not outsource every detail to our phones.",
+      "sourceMeaning": "Rely on an external device for all remembering; a business-process metaphor.",
+      "sourceQuestion": "Can technology help people remember things better? How?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Outsource details to phones is broad technology delegation imagery, not a settled target. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "provisional-distinct-candidate",
+      "proposedTeachingUnit": "outsource memory to a device",
+      "reason": "The source uses outsource figuratively for delegating recall to phones. No selected outsource owner exists, and the balance between useful aid and losing recall practice can transfer across study, travel and work.",
+      "nextGate": "Verify natural usage and teach a bounded human-to-device responsibility transfer rather than every mundane use of a phone."
+    },
+    {
+      "sourceOrdinal": 4158,
+      "sourceId": "book10-16-2047",
+      "sourceCategory": "Figurative use",
+      "expression": "memory is a bit like a muscle",
+      "exactSourceSentence": "Memory is a bit like a muscle, so test yourself regularly.",
+      "sourceMeaning": "Recall improves through use and practice; a muscle analogy.",
+      "sourceQuestion": "How can people improve their memory?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Memory as a muscle is a broad cognitive simile rather than one bounded phrase. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-88",
+          "titleEn": "cooperation is a bit like a muscle"
+        },
+        {
+          "ownerId": "advanced-native-1403",
+          "titleEn": "less like a fixed gift and more like a muscle"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Memory improving with practice uses the muscle analogy already taught for trainable cooperation/ability; one context-specific variant may be enough.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4162,
+      "sourceId": "book10-16-2051",
+      "sourceCategory": "Figurative use",
+      "expression": "living on stress",
+      "exactSourceSentence": "After months of living on stress, he struggled to focus.",
+      "sourceMeaning": "Functioning while constantly stressed; a sustenance metaphor.",
+      "sourceQuestion": "How can people improve their memory?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Living on stress is a productive fuel metaphor, but naturalness and target scope require review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Living on stress is a productive fuel metaphor, but naturalness and target scope require review.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4215,
+      "sourceId": "book10-16-2104",
+      "sourceCategory": "Figurative use",
+      "expression": "the backbone of a child's future",
+      "exactSourceSentence": "Many parents see education as the backbone of a child's future.",
+      "sourceMeaning": "The main support for a child's later opportunities; a body metaphor.",
+      "sourceQuestion": "How well-respected are teachers in your society?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Education as backbone of a future is productive support imagery with no stable target unit. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-1505",
+          "titleEn": "the backbone of ..."
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Education as central support for a future matches owner1505 the backbone of a system; examine bounded future-education form.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4257,
+      "sourceId": "book10-16-2146",
+      "sourceCategory": "Figurative use",
+      "expression": "attention can drift",
+      "exactSourceSentence": "During a long lecture, attention can drift.",
+      "sourceMeaning": "Focus can gradually move away; a movement metaphor.",
+      "sourceQuestion": "In your opinion, how can a teacher make lessons for children more interesting?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Attention drifting is broad movement imagery for distraction, not a bounded idiom. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "Attention can drift is natural, but a distinct lesson would need more than transparent drift plus noun and should avoid existing drift owners.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 4281,
+      "sourceId": "book10-16-2170",
+      "sourceCategory": "Figurative use",
+      "expression": "changed the odds of life itself",
+      "exactSourceSentence": "New vaccines changed the odds of life itself.",
+      "sourceMeaning": "Improved people's chances of survival; a probability metaphor.",
+      "sourceQuestion": "What's the best invention in the past hundred years?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Changed the odds of life itself is broad gambling imagery for improved survival. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Changed the odds of life itself is broad gambling imagery for improved survival.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4285,
+      "sourceId": "book10-16-2174",
+      "sourceCategory": "Figurative use",
+      "expression": "brought light into homes",
+      "exactSourceSentence": "Modern science brought light into homes across the region.",
+      "sourceMeaning": "Provided practical benefits through electricity; a light metaphor.",
+      "sourceQuestion": "What's the influence of science on human life?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Science bringing light into homes may describe literal electricity, so figurative sense is uncertain. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Science bringing light into homes may describe literal electricity, so figurative sense is uncertain.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4298,
+      "sourceId": "book10-16-2187",
+      "sourceCategory": "Figurative use",
+      "expression": "walk alongside it",
+      "exactSourceSentence": "Citizens can walk alongside it by joining studies.",
+      "sourceMeaning": "Support science's progress; a journey metaphor.",
+      "sourceQuestion": "What can individuals do for scientific research?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Citizens walking alongside science is broad companionship imagery, not fixed phrasing. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Citizens walking alongside science is broad companionship imagery, not fixed phrasing.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4308,
+      "sourceId": "book10-16-2197",
+      "sourceCategory": "Idiom or set phrase",
+      "expression": "plant the seeds of long-term cooperation",
+      "exactSourceSentence": "Student exchanges plant the seeds of long-term cooperation.",
+      "sourceMeaning": "Create conditions for future partnership; a fixed gardening metaphor.",
+      "sourceQuestion": "What influence can international cooperation in science bring about?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Plant the seeds of cooperation shares an existing seed metaphor but plural and object lie outside detector. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-22",
+          "titleEn": "plant a seed in their mind"
+        },
+        {
+          "ownerId": "advanced-native-1733",
+          "titleEn": "small seeds often grow into strong habits"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Planting seeds of later cooperation is close to planting an idea or early actions that grow; cause-and-later-growth image needs one owner rather than a duplicate lesson.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4311,
+      "sourceId": "book10-16-2200",
+      "sourceCategory": "Figurative use",
+      "expression": "spills into real life",
+      "exactSourceSentence": "Classroom knowledge spills into real life.",
+      "sourceMeaning": "Extends beyond school into ordinary life; a liquid metaphor.",
+      "sourceQuestion": "Do you think it is mandatory to teach science in schools?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Knowledge spilling into life is productive liquid imagery rather than a bounded idiom. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [
+        {
+          "ownerId": "advanced-native-3834",
+          "titleEn": "spill into"
+        }
+      ],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-3834",
+          "titleEn": "spill into"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Full source matches selected owner3834 spill into; knowledge extending beyond the classroom is a domain-transfer variant that needs sense-aware review.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4320,
+      "sourceId": "book10-16-2209",
+      "sourceCategory": "Figurative use",
+      "expression": "a real voice still carries something",
+      "exactSourceSentence": "Even online, a real voice still carries something valuable.",
+      "sourceMeaning": "Spoken communication conveys an additional human quality; a load metaphor.",
+      "sourceQuestion": "Why do some people dislike using text messages?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Voice carrying something valuable is broad transfer imagery without a fixed target. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Voice carrying something valuable is broad transfer imagery without a fixed target.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4346,
+      "sourceId": "book10-16-2235",
+      "sourceCategory": "Figurative use",
+      "expression": "shaping water as it flows",
+      "exactSourceSentence": "Conversation is more like shaping water as it flows.",
+      "sourceMeaning": "Adjusting communication while speaking; a water metaphor.",
+      "sourceQuestion": "What do you think are some of the main differences between written communication and spoken communication?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Shaping water as it flows is an explicit bespoke conversation simile. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [
+        {
+          "ownerId": "advanced-native-20",
+          "titleEn": "shape"
+        }
+      ],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Shaping water as it flows is an explicit bespoke conversation simile.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4347,
+      "sourceId": "book10-16-2236",
+      "sourceCategory": "Figurative use",
+      "expression": "carving something into stone",
+      "exactSourceSentence": "A formal letter can feel like carving something into stone.",
+      "sourceMeaning": "Creating a fixed lasting message; a stonework metaphor.",
+      "sourceQuestion": "What do you think are some of the main differences between written communication and spoken communication?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Carving a letter into stone is an explicit permanence simile, not fixed usage. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Carving a letter into stone is an explicit permanence simile, not fixed usage.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4349,
+      "sourceId": "book10-16-2238",
+      "sourceCategory": "Figurative use",
+      "expression": "has a voice behind it",
+      "exactSourceSentence": "Speech has a voice behind it that text lacks.",
+      "sourceMeaning": "Conveys tone beyond literal words; a personification.",
+      "sourceQuestion": "What do you think are some of the main differences between written communication and spoken communication?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Speech having a voice behind it is broad explanatory wording, not idiom. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Speech having a voice behind it is broad explanatory wording, not idiom.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4351,
+      "sourceId": "book10-16-2240",
+      "sourceCategory": "Figurative use",
+      "expression": "slippery underneath",
+      "exactSourceSentence": "A short message can look neat but feel slippery underneath.",
+      "sourceMeaning": "Potentially ambiguous despite a clear surface; a texture metaphor.",
+      "sourceQuestion": "What do you think are some of the main differences between written communication and spoken communication?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Message slippery underneath is unusual tactile imagery whose naturalness needs review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Message slippery underneath is unusual tactile imagery whose naturalness needs review.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4359,
+      "sourceId": "book10-16-2248",
+      "sourceCategory": "Idiom or set phrase",
+      "expression": "feed a family",
+      "exactSourceSentence": "A small plot of land could feed a family.",
+      "sourceMeaning": "Earn enough to support a household; a fixed expression.",
+      "sourceQuestion": "Were different possessions thought of as valuable in the past?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Feed a family refers to literal provision of food, not figurative expression here. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [
+        {
+          "ownerId": "advanced-native-135",
+          "titleEn": "land / land much better"
+        }
+      ],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "A small plot can literally feed a family; the source meaning claims earn enough, which is not established by the sentence. Resolve literal/financial sense.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 4361,
+      "sourceId": "book10-16-2250",
+      "sourceCategory": "Figurative use",
+      "expression": "value used to sit more heavily",
+      "exactSourceSentence": "In rural communities, value used to sit more heavily in tools.",
+      "sourceMeaning": "Worth was more strongly associated with useful objects; a weight metaphor.",
+      "sourceQuestion": "Were different possessions thought of as valuable in the past?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Value sitting more heavily in tools is unusual weight imagery needing naturalness review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Value sitting more heavily in tools is unusual weight imagery needing naturalness review.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4367,
+      "sourceId": "book10-16-2256",
+      "sourceCategory": "Figurative use",
+      "expression": "leave the drawbacks in the shadows",
+      "exactSourceSentence": "The campaign may leave the drawbacks in the shadows.",
+      "sourceMeaning": "Hide or understate disadvantages; a light-and-shadow metaphor.",
+      "sourceQuestion": "Do advertisements give correct information, or do they encourage people to buy things that they may not need?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Drawbacks left in shadows extends spotlight image but is productive, not a settled phrase. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "Drawbacks left in the shadows is coherent suppression imagery but may simply compose light/shadow words, not a reusable unit.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 4369,
+      "sourceId": "book10-16-2258",
+      "sourceCategory": "Figurative use",
+      "expression": "turn a want into something that feels like a need",
+      "exactSourceSentence": "Clever branding can turn a want into something that feels like a need.",
+      "sourceMeaning": "Make a desire seem necessary; a transformation metaphor.",
+      "sourceQuestion": "Do advertisements give correct information, or do they encourage people to buy things that they may not need?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Branding turning want into need is descriptive persuasion, not a fixed phrase. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Branding turning want into need is descriptive persuasion, not a fixed phrase.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4378,
+      "sourceId": "book10-16-2267",
+      "sourceCategory": "Figurative use",
+      "expression": "never really goes to sleep",
+      "exactSourceSentence": "The background noise never really goes to sleep downtown.",
+      "sourceMeaning": "Continues almost constantly; a personification.",
+      "sourceQuestion": "Where can people hear a lot of noise?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Noise never sleeping is city personification, not a stable idiom. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [
+        {
+          "ownerId": "advanced-native-2021",
+          "titleEn": "background noise"
+        }
+      ],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Noise never sleeping is city personification, not a stable idiom.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4389,
+      "sourceId": "book10-16-2278",
+      "sourceCategory": "Phrasal verb",
+      "expression": "cut them off from",
+      "exactSourceSentence": "Loud music can cut them off from birdsong.",
+      "sourceMeaning": "Separate them from an experience; a natural phrasal verb.",
+      "sourceQuestion": "What may happen when someone listens to very loud music using headphones while they are running or hiking?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Cut them off from birdsong shares isolation image with owners but is outside restricted detector. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-1347",
+          "titleEn": "cut off from others"
+        },
+        {
+          "ownerId": "advanced-native-648",
+          "titleEn": "cut off from opportunity"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Cut off from birdsong is separation from an experience, while current cut-off owners focus people and opportunity. A bounded object variant might work, but whole-sentence sense comparison is needed.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4400,
+      "sourceId": "book10-16-2289",
+      "sourceCategory": "Figurative use",
+      "expression": "endless roar can definitely be turned down",
+      "exactSourceSentence": "With better planning, that endless roar can definitely be turned down.",
+      "sourceMeaning": "Constant traffic noise can be reduced; a volume metaphor.",
+      "sourceQuestion": "What can be done to reduce traffic noise?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Roar turned down is a broad volume-control metaphor for city noise. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Roar turned down is a broad volume-control metaphor for city noise.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4404,
+      "sourceId": "book10-16-2293",
+      "sourceCategory": "Figurative use",
+      "expression": "add noise with one hand and take it away with the other",
+      "exactSourceSentence": "New transport can add noise with one hand and take it away with the other.",
+      "sourceMeaning": "Change produces both louder and quieter effects; a paired-hand metaphor.",
+      "sourceQuestion": "Do you think the world will be noisier in the future?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "The source add noise with one hand and take it away with the other improvises the give-with-one-hand/take-with-the-other idiom. It may mean a mixed effect, but its literal transport/noise framing and changed verb make automatic alias to proposed owner 3431 unsafe. Hold for idiomaticity and pattern review.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: The source add noise with one hand and take it away with the other improvises the give-with-one-hand/take-with-the-other idiom. It may mean a mixed effect, but its literal transport/noise framing and changed verb make automatic alias to proposed owner 3431 unsafe. Hold for idiomaticity and pattern review.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4415,
+      "sourceId": "book10-16-2304",
+      "sourceCategory": "Figurative use",
+      "expression": "repair small cracks",
+      "exactSourceSentence": "A kind word can repair small cracks between friends.",
+      "sourceMeaning": "Resolve minor relationship damage; a construction metaphor.",
+      "sourceQuestion": "What kinds of people are most likely to say sorry?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Repair cracks between friends is productive structural imagery for relationship repair. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "Repairing cracks in friendship is a plausible relationship image; compare social-fabric repair and cracks-begin-to-show owners before target choice.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 4419,
+      "sourceId": "book10-16-2308",
+      "sourceCategory": "Figurative use",
+      "expression": "say sorry almost as a reflex",
+      "exactSourceSentence": "Some staff say sorry almost as a reflex at work.",
+      "sourceMeaning": "Apologise automatically; a bodily reflex metaphor.",
+      "sourceQuestion": "What kinds of people are most likely to say sorry?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Saying sorry as a reflex is broad habit imagery rather than a fixed idiom. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Saying sorry as a reflex is broad habit imagery rather than a fixed idiom.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4451,
+      "sourceId": "book10-16-2340",
+      "sourceCategory": "Figurative use",
+      "expression": "show the touch of the hand",
+      "exactSourceSentence": "Handmade seals show the touch of the hand.",
+      "sourceMeaning": "Reveal human craftsmanship; a touch metaphor.",
+      "sourceQuestion": "What different types of traditional products are produced in your country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Show the touch of the hand is an unusual crafts description whose target and naturalness need review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Show the touch of the hand is an unusual crafts description whose target and naturalness need review.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4452,
+      "sourceId": "book10-16-2341",
+      "sourceCategory": "Figurative use",
+      "expression": "pieces of heritage made tangible",
+      "exactSourceSentence": "These garments are pieces of heritage made tangible.",
+      "sourceMeaning": "Cultural tradition given a physical form; a material metaphor.",
+      "sourceQuestion": "What different types of traditional products are produced in your country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Poetic description names garments as tangible heritage but lacks a reusable idiom beyond this particular topic. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Poetic description names garments as tangible heritage but lacks a reusable idiom beyond this particular topic.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4455,
+      "sourceId": "book10-16-2344",
+      "sourceCategory": "Figurative use",
+      "expression": "feeds the memory",
+      "exactSourceSentence": "Traditional craft feeds the memory of a community.",
+      "sourceMeaning": "Sustains cultural recollection; a food metaphor.",
+      "sourceQuestion": "What different types of traditional products are produced in your country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Feeds the memory is a bespoke food metaphor; confirm idiomatic status before building a standalone lesson. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Feeds the memory is a bespoke food metaphor; confirm idiomatic status before building a standalone lesson.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4457,
+      "sourceId": "book10-16-2346",
+      "sourceCategory": "Figurative use",
+      "expression": "carry the fingerprints of a culture",
+      "exactSourceSentence": "Local ceramics carry the fingerprints of a culture.",
+      "sourceMeaning": "Show a culture's distinctive mark; a fingerprint metaphor.",
+      "sourceQuestion": "In your opinion, why do traditional products attract tourists?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Carry the fingerprints of a culture is an extended bespoke image; check naturalness and teachable target boundaries. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Carry the fingerprints of a culture is an extended bespoke image; check naturalness and teachable target boundaries.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4463,
+      "sourceId": "book10-16-2352",
+      "sourceCategory": "Figurative use",
+      "expression": "cultural fingerprints",
+      "exactSourceSentence": "Local crafts are cultural fingerprints worth preserving.",
+      "sourceMeaning": "Distinctive signs of a community's identity; a fingerprint metaphor.",
+      "sourceQuestion": "Do you think there are benefits of traditional products to locals?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Cultural fingerprints is an unusual nominal image; confirm whether it is sufficiently natural and transferable. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Cultural fingerprints is an unusual nominal image; confirm whether it is sufficiently natural and transferable.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4473,
+      "sourceId": "book10-16-2362",
+      "sourceCategory": "Phrasal verb",
+      "expression": "pushed aside by cheap mass-produced goods",
+      "exactSourceSentence": "Local crafts can be pushed aside by cheap mass-produced goods.",
+      "sourceMeaning": "Displaced by inexpensive factory items; a natural phrasal verb.",
+      "sourceQuestion": "Do you think the government should help in the promotion of traditional products?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Pushed aside by cheap mass-produced goods describes displacement but the full source span is topic-specific. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Pushed aside by cheap mass-produced goods describes displacement but the full source span is topic-specific.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4480,
+      "sourceId": "book10-16-2369",
+      "sourceCategory": "Idiom or set phrase",
+      "expression": "tell its story",
+      "exactSourceSentence": "A museum helps the city tell its story.",
+      "sourceMeaning": "Present its history and identity; a fixed storytelling metaphor.",
+      "sourceQuestion": "Do you think the government should help in the promotion of traditional products?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Tell its story is a broad storytelling metaphor for a city; review overlap with tell a story and course value. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-672",
+          "titleEn": "tell a story"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "A museum helping a city tell its story is close to owner672 objects telling history/meaning; city-as-subject may be a scope variant.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4483,
+      "sourceId": "book10-16-2372",
+      "sourceCategory": "Figurative use",
+      "expression": "given the chance to breathe",
+      "exactSourceSentence": "Traditional makers should be given the chance to breathe.",
+      "sourceMeaning": "Allowed room to adapt and develop; a breathing metaphor.",
+      "sourceQuestion": "Do you think the government should help in the promotion of traditional products?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Given the chance to breathe is an extended personification of traditional makers; confirm reusable wording. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-307",
+          "titleEn": "room to breathe"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Chance to breathe means room to adapt/develop and overlaps owner307 room to breathe; traditional makers are the contextual subject.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4490,
+      "sourceId": "book10-16-2379",
+      "sourceCategory": "Figurative use",
+      "expression": "learned a new accent",
+      "exactSourceSentence": "The imported celebration seemed to have learned a new accent.",
+      "sourceMeaning": "Adapted to a new local culture; a language metaphor.",
+      "sourceQuestion": "Do you think because of globalisation countries are adopting each other's traditions?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Learned a new accent personifies an imported celebration; novel contextual metaphor needs editorial review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "A celebration learning a new accent is creative cross-cultural adaptation, but exact naturalness and repeatability are uncertain.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 4491,
+      "sourceId": "book10-16-2380",
+      "sourceCategory": "Figurative use",
+      "expression": "rarely arrive unchanged",
+      "exactSourceSentence": "Shared traditions rarely arrive unchanged.",
+      "sourceMeaning": "Typically evolve when moving between cultures; a travel metaphor.",
+      "sourceQuestion": "Do you think because of globalisation countries are adopting each other's traditions?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Rarely arrive unchanged is a bespoke travel metaphor for customs; confirm a stable target phrase. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Rarely arrive unchanged is a bespoke travel metaphor for customs; confirm a stable target phrase.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4498,
+      "sourceId": "book10-16-2387",
+      "sourceCategory": "Figurative use",
+      "expression": "win on character",
+      "exactSourceSentence": "Antique furniture can win on character.",
+      "sourceMeaning": "Compare more favorably in personality or aesthetic quality; a competition metaphor.",
+      "sourceQuestion": "Do you think traditional things from the past were of better quality than present-day things?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Win on character is an unusual comparative phrase; confirm naturalness before making a lesson. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Win on character is an unusual comparative phrase; confirm naturalness before making a lesson.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4502,
+      "sourceId": "book10-16-2391",
+      "sourceCategory": "Figurative use",
+      "expression": "traditions are a bit like roots",
+      "exactSourceSentence": "Traditions are a bit like roots for a community.",
+      "sourceMeaning": "Customs give a culture stability and connection to its past; a plant metaphor.",
+      "sourceQuestion": "Do you think it is necessary to protect traditions?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Traditions are like roots is an extended source simile; review overlap with rooted and keep roots. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-4470",
+          "titleEn": "keep its roots"
+        },
+        {
+          "ownerId": "advanced-native-1858",
+          "titleEn": "strong roots without becoming afraid to branch out"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Traditions as roots supply community continuity, near roots/keeping-roots owners; simile itself may be freely constructed.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4503,
+      "sourceId": "book10-16-2392",
+      "sourceCategory": "Idiom or set phrase",
+      "expression": "hold everything in place",
+      "exactSourceSentence": "Shared customs help hold everything in place.",
+      "sourceMeaning": "Provide stability to a wider system; a fixed physical phrase.",
+      "sourceQuestion": "Do you think it is necessary to protect traditions?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Hold everything in place is a broad physical image used figuratively here; exact lesson focus needs review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [
+        {
+          "ownerId": "advanced-native-2336",
+          "titleEn": "holding everything in"
+        }
+      ],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Hold everything in place is a broad physical image used figuratively here; exact lesson focus needs review.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4508,
+      "sourceId": "book10-16-2397",
+      "sourceCategory": "Idiom or set phrase",
+      "expression": "letting go of the ones that hold people back",
+      "exactSourceSentence": "Reform means letting go of the ones that hold people back.",
+      "sourceMeaning": "Abandoning traditions that restrict progress; paired fixed phrasal verbs.",
+      "sourceQuestion": "Do you think it is necessary to protect traditions?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Letting go and hold people back combine two idioms; source does not provide a single clear target unit. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "Letting go of traditions that hold people back combines two ordinary phrasal verbs; decide whether either deserves a bounded owner variant.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 4509,
+      "sourceId": "book10-16-2398",
+      "sourceCategory": "Figurative use",
+      "expression": "locked in a glass box",
+      "exactSourceSentence": "A living culture should not be locked in a glass box.",
+      "sourceMeaning": "Preserved without room to live or change; a display-case metaphor.",
+      "sourceQuestion": "Do you think it is necessary to protect traditions?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Locked in a glass box is an invented display-case metaphor for frozen culture; review naturalness. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Locked in a glass box is an invented display-case metaphor for frozen culture; review naturalness.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4512,
+      "sourceId": "book10-16-2401",
+      "sourceCategory": "Idiom or set phrase",
+      "expression": "spend a few hours in the air",
+      "exactSourceSentence": "They would rather spend a few hours in the air than take a ferry.",
+      "sourceMeaning": "Travel by plane for several hours; a natural travel expression.",
+      "sourceQuestion": "How do most people travel long distances in your country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Spend a few hours in the air transparently means fly and lacks a distinct figurative or idiomatic teaching unit. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Spend a few hours in the air transparently means fly and lacks a distinct figurative or idiomatic teaching unit.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4513,
+      "sourceId": "book10-16-2402",
+      "sourceCategory": "Idiom or set phrase",
+      "expression": "make more sense",
+      "exactSourceSentence": "For late travel, a car may make more sense.",
+      "sourceMeaning": "Be a more sensible choice; a fixed phrase.",
+      "sourceQuestion": "How do most people travel long distances in your country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Make more sense is a broad ordinary judgement phrase; editorial review should assess distinct course value. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Make more sense is a broad ordinary judgement phrase; editorial review should assess distinct course value.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4524,
+      "sourceId": "book10-16-2413",
+      "sourceCategory": "Figurative use",
+      "expression": "the mother of better transport",
+      "exactSourceSentence": "Urban congestion can be the mother of better transport.",
+      "sourceMeaning": "A problem that stimulates innovation; a parentage metaphor.",
+      "sourceQuestion": "Do you think transport is likely to continue to improve in the future?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Mother of better transport is an unusual invented metaphor; confirm naturalness and source sense first. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Mother of better transport is an unusual invented metaphor; confirm naturalness and source sense first.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4527,
+      "sourceId": "book10-16-2416",
+      "sourceCategory": "Phrasal verb",
+      "expression": "move ahead quickly",
+      "exactSourceSentence": "Some cities move ahead quickly with new rail lines.",
+      "sourceMeaning": "Make fast progress; a natural phrasal verb.",
+      "sourceQuestion": "Do you think transport is likely to continue to improve in the future?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Move ahead quickly is a transparent progress verb plus adverb and overlaps the live move-forward family. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Move ahead quickly is a transparent progress verb plus adverb and overlaps the live move-forward family.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4536,
+      "sourceId": "book10-16-2425",
+      "sourceCategory": "Phrasal verb",
+      "expression": "less broken up",
+      "exactSourceSentence": "The new timetable makes trips feel less broken up.",
+      "sourceMeaning": "Less fragmented; a natural phrasal verb.",
+      "sourceQuestion": "What kinds of improvement have there been in transport in your country in recent years?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Less broken up is a transparent comparative adjective; review whether a broader break-up sense warrants teaching. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "Less broken up accurately describes a journey with fewer interruptions, but can be transparent adjective phrasing; compare fragmentation owners.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 4543,
+      "sourceId": "book10-16-2432",
+      "sourceCategory": "Figurative use",
+      "expression": "less like a patchwork",
+      "exactSourceSentence": "The service now feels less like a patchwork.",
+      "sourceMeaning": "Less fragmented and inconsistently assembled; a fabric metaphor.",
+      "sourceQuestion": "What kinds of improvement have there been in transport in your country in recent years?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Less like a patchwork is a comparison anchored to this particular service; review stable target boundary. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "provisional-distinct-candidate",
+      "proposedTeachingUnit": "a patchwork of services",
+      "reason": "The source uses patchwork for a fragmented transport service; no selected patchwork owner exists. A coherent lesson could distinguish useful diversity from gaps, incompatible pieces and uneven access across settings.",
+      "nextGate": "Check natural patchwork of X forms, source less-like comparative, and seven nonredundant decisions before authoring."
+    },
+    {
+      "sourceOrdinal": 4545,
+      "sourceId": "book10-16-2434",
+      "sourceCategory": "Idiom or set phrase",
+      "expression": "not standing still",
+      "exactSourceSentence": "Urban transport is not standing still.",
+      "sourceMeaning": "Continuing to develop; a fixed motion idiom.",
+      "sourceQuestion": "Do you think transportation is likely to continue to improve in the future?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Not standing still means developing but overlaps standard make-progress patterns; course value needs review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-1600",
+          "titleEn": "needs do not stand still"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Not standing still expresses continuing change, near owner1600 needs do not stand still; urban transport changes rather than needs, so check whether the owner can cover it.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4559,
+      "sourceId": "book10-16-2448",
+      "sourceCategory": "Figurative use",
+      "expression": "clear path",
+      "exactSourceSentence": "Signs gave travellers a clear path across town.",
+      "sourceMeaning": "A route that is easy to follow or understand; a path metaphor.",
+      "sourceQuestion": "How has transportation improved in recent years?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Clear path in this sentence may be an actual route; figurative versus literal sense needs editorial review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Clear path in this sentence may be an actual route; figurative versus literal sense needs editorial review.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4562,
+      "sourceId": "book10-16-2451",
+      "sourceCategory": "Figurative use",
+      "expression": "smarter in the hand",
+      "exactSourceSentence": "With live updates, transport becomes smarter in the hand.",
+      "sourceMeaning": "More useful through phone-based tools; a hand metaphor.",
+      "sourceQuestion": "How has transportation improved in recent years?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Smarter in the hand is an invented phone-use metaphor; confirm naturalness before lesson creation. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Smarter in the hand is an invented phone-use metaphor; confirm naturalness before lesson creation.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4564,
+      "sourceId": "book10-16-2453",
+      "sourceCategory": "Phrasal verb",
+      "expression": "work that out",
+      "exactSourceSentence": "I can work that out with the route app.",
+      "sourceMeaning": "Determine an answer or solution; a natural phrasal verb.",
+      "sourceQuestion": "How has transportation improved in recent years?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Work that out means determine a route with an app; broad phrasal verb sense needs owner comparison. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-1849",
+          "titleEn": "work out"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Work that out using an app matches owner1849 solving/determining an answer; pronoun and tool context are variants.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4584,
+      "sourceId": "book10-16-2473",
+      "sourceCategory": "Figurative use",
+      "expression": "roads would start to breathe",
+      "exactSourceSentence": "With fewer cars, the roads would start to breathe.",
+      "sourceMeaning": "Congestion would ease; a breathing metaphor.",
+      "sourceQuestion": "Do you think traffic jams would be reduced if people could travel on public transport for free?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Roads start to breathe is an inventive personification of less congestion; naturalness needs review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-591",
+          "titleEn": "the whole city breathes more easily"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Roads breathing as congestion eases closely matches owner591 personified city breathing more easily under eased urban pressure.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4587,
+      "sourceId": "book10-16-2476",
+      "sourceCategory": "Idiom or set phrase",
+      "expression": "clear the roads",
+      "exactSourceSentence": "Better buses may help clear the roads.",
+      "sourceMeaning": "Reduce traffic congestion; a fixed phrase.",
+      "sourceQuestion": "Do you think traffic jams would be reduced if people could travel on public transport for free?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Clear the roads may literally describe reducing traffic; no distinct figurative sense is clear. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Clear the roads may literally describe reducing traffic; no distinct figurative sense is clear.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4591,
+      "sourceId": "book10-16-2480",
+      "sourceCategory": "Figurative use",
+      "expression": "the choice starts to make itself",
+      "exactSourceSentence": "With only two days off, the choice starts to make itself.",
+      "sourceMeaning": "One option becomes so attractive that deciding feels automatic; a personification.",
+      "sourceQuestion": "Why do you think more and more people prefer to travel by plane?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "The choice starts to make itself is source-specific personification and needs a stable idiom check. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: The choice starts to make itself is source-specific personification and needs a stable idiom check.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4601,
+      "sourceId": "book10-16-2490",
+      "sourceCategory": "Phrasal verb",
+      "expression": "run into political pressure",
+      "exactSourceSentence": "New rail projects can run into political pressure.",
+      "sourceMeaning": "Encounter opposition unexpectedly; a natural phrasal verb.",
+      "sourceQuestion": "What kinds of obstacles do you think some local governments have to face when they develop transportation infrastructure?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Run into political pressure uses ordinary encounter wording; compare with live run-into senses before release. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Run into political pressure uses ordinary encounter wording; compare with live run-into senses before release.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4602,
+      "sourceId": "book10-16-2491",
+      "sourceCategory": "Figurative use",
+      "expression": "pass through people's lives",
+      "exactSourceSentence": "Progress on a map must pass through people's lives.",
+      "sourceMeaning": "Affect residents directly during implementation; a journey metaphor.",
+      "sourceQuestion": "What kinds of obstacles do you think some local governments have to face when they develop transportation infrastructure?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Progress passing through peoples lives is an unusual invented journey metaphor; review idiomatic status. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Progress passing through peoples lives is an unusual invented journey metaphor; review idiomatic status.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4603,
+      "sourceId": "book10-16-2492",
+      "sourceCategory": "Figurative use",
+      "expression": "the real battle",
+      "exactSourceSentence": "For the project, the real battle was public trust.",
+      "sourceMeaning": "The most difficult part of a struggle; a conflict metaphor.",
+      "sourceQuestion": "What kinds of obstacles do you think some local governments have to face when they develop transportation infrastructure?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "The real battle is a broad conflict metaphor; sentence does not isolate a stable teachable expression. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: The real battle is a broad conflict metaphor; sentence does not isolate a stable teachable expression.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4604,
+      "sourceId": "book10-16-2493",
+      "sourceCategory": "Phrasal verb",
+      "expression": "pushing through money problems",
+      "exactSourceSentence": "Officials are pushing through money problems to finish the line.",
+      "sourceMeaning": "Continuing despite financial obstacles; a natural phrasal verb.",
+      "sourceQuestion": "What kinds of obstacles do you think some local governments have to face when they develop transportation infrastructure?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Pushing through money problems is nonstandard wording for persevering despite budget issues; review form. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Pushing through money problems is nonstandard wording for persevering despite budget issues; review form.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4610,
+      "sourceId": "book10-16-2499",
+      "sourceCategory": "Figurative use",
+      "expression": "the mental baggage sometimes comes along for the ride",
+      "exactSourceSentence": "On a short local trip, the mental baggage sometimes comes along for the ride.",
+      "sourceMeaning": "Everyday concerns persist during travel; a luggage metaphor.",
+      "sourceQuestion": "Why do some people prefer to travel abroad rather than travel in their own country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Mental baggage coming along for the ride combines two metaphors in a bespoke travel sentence. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [
+        {
+          "ownerId": "advanced-native-2283",
+          "titleEn": "come along"
+        }
+      ],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "Mental baggage coming along for the ride is a plausible travel/psychological blend, but could be two idioms stitched together; isolate any natural unit.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 4613,
+      "sourceId": "book10-16-2502",
+      "sourceCategory": "Figurative use",
+      "expression": "the noise of ordinary life has been turned right down",
+      "exactSourceSentence": "On holiday, the noise of ordinary life has been turned right down.",
+      "sourceMeaning": "Routine pressures feel much quieter; a volume metaphor.",
+      "sourceQuestion": "Why do some people prefer to travel abroad rather than travel in their own country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Noise of ordinary life turned down is a bespoke volume metaphor and needs a clearer target boundary. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Noise of ordinary life turned down is a bespoke volume metaphor and needs a clearer target boundary.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4614,
+      "sourceId": "book10-16-2503",
+      "sourceCategory": "Figurative use",
+      "expression": "seeing life from a wider angle",
+      "exactSourceSentence": "Travel can help students with seeing life from a wider angle.",
+      "sourceMeaning": "Gaining a broader perspective; a visual metaphor.",
+      "sourceQuestion": "Why do some people prefer to travel abroad rather than travel in their own country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Seeing life from a wider angle is awkwardly phrased in source; confirm naturalness before lesson. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Seeing life from a wider angle is awkwardly phrased in source; confirm naturalness before lesson.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4617,
+      "sourceId": "book10-16-2506",
+      "sourceCategory": "Figurative use",
+      "expression": "looked at life through one window",
+      "exactSourceSentence": "Before travelling, she had looked at life through one window.",
+      "sourceMeaning": "Seen life from only one perspective; a window metaphor.",
+      "sourceQuestion": "Do you think travelling to another country can change the way that people think?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Looking at life through one window is an inventive viewpoint metaphor; stable phrasing is uncertain. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Looking at life through one window is an inventive viewpoint metaphor; stable phrasing is uncertain.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4621,
+      "sourceId": "book10-16-2510",
+      "sourceCategory": "Figurative use",
+      "expression": "comfort bubble",
+      "exactSourceSentence": "He stayed inside his comfort bubble throughout the tour.",
+      "sourceMeaning": "A familiar environment that limits new experiences; a bubble metaphor.",
+      "sourceQuestion": "Do you think travelling to another country can change the way that people think?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Comfort bubble overlaps familiar comfort-zone wording; sense and canonical owner need comparison. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-551",
+          "titleEn": "comfort zone"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Comfort bubble is a lexical variant of comfort-zone security and limitation; teachable action is already owner551 unless bubble adds a real new sense.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4623,
+      "sourceId": "book10-16-2512",
+      "sourceCategory": "Idiom or set phrase",
+      "expression": "open eyes and an open mind",
+      "exactSourceSentence": "She explored the city with open eyes and an open mind.",
+      "sourceMeaning": "Attentive observation combined with willingness to reconsider; a fixed paired phrase.",
+      "sourceQuestion": "Do you think travelling to another country can change the way that people think?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Open eyes and an open mind is a compositional pairing; separate senses and target span need review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-423",
+          "titleEn": "go in with an open mind"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Open mind is already owner423; open eyes adds attentiveness, but source may be a paired elaboration rather than new fixed unit.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4630,
+      "sourceId": "book10-16-2519",
+      "sourceCategory": "Figurative use",
+      "expression": "carry a kind of safety net in their pocket",
+      "exactSourceSentence": "Modern travellers carry a kind of safety net in their pocket.",
+      "sourceMeaning": "Have emergency tools on a phone; a safety-net metaphor.",
+      "sourceQuestion": "Do you think it's safer to travel today than in the past?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Safety net in their pocket inventively maps phone tools to emergency support; assess stable target. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-227",
+          "titleEn": "a safety net"
+        },
+        {
+          "ownerId": "advanced-native-535",
+          "titleEn": "social safety net"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Phone emergency tools as a pocket safety net share protective-backup meaning with owner227; scope should remain bounded to protection, not any phone convenience.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4639,
+      "sourceId": "book10-16-2528",
+      "sourceCategory": "Phrasal verb",
+      "expression": "shows off the city",
+      "exactSourceSentence": "The harbour shows off the city at night.",
+      "sourceMeaning": "Displays the city at its most attractive; a natural phrasal verb.",
+      "sourceQuestion": "What are some famous tourist spots in your country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Shows off the city has an unclear object boundary; compare live show-off senses before release. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Shows off the city has an unclear object boundary; compare live show-off senses before release.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4646,
+      "sourceId": "book10-16-2535",
+      "sourceCategory": "Idiom or set phrase",
+      "expression": "doesn't put all its beauty in one basket",
+      "exactSourceSentence": "The region doesn't put all its beauty in one basket.",
+      "sourceMeaning": "Has beauty in several kinds of places; an adaptation of a fixed basket idiom.",
+      "sourceQuestion": "What are some famous tourist spots in your country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Beauty in one basket adapts another idiom with awkward wording; check naturalness before lesson. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-1869",
+          "titleEn": "not have all your eggs in one basket"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Multiple types of beauty paraphrases not all eggs in one basket; the source substitutes beauty for eggs, an adapted idiom rather than a distinct unit.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4648,
+      "sourceId": "book10-16-2537",
+      "sourceCategory": "Figurative use",
+      "expression": "keeps businesses alive",
+      "exactSourceSentence": "Weekend tourism keeps businesses alive.",
+      "sourceMeaning": "Allows firms to continue operating; a life metaphor.",
+      "sourceQuestion": "What are the positive impacts of tourism in your country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Keeps businesses alive is a broad survival metaphor; determine if it has a distinct lesson sense. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "Keep businesses alive is a common survival metaphor, but owner boundary against financially staying afloat is not established by this source alone.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    },
+    {
+      "sourceOrdinal": 4653,
+      "sourceId": "book10-16-2542",
+      "sourceCategory": "Idiom or set phrase",
+      "expression": "tell its story",
+      "exactSourceSentence": "A museum helps the city tell its story.",
+      "sourceMeaning": "Present its history and identity; a fixed storytelling metaphor.",
+      "sourceQuestion": "What are the positive impacts of tourism in your country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Tell its story repeats the broad storytelling metaphor held at 4480 pending owner and sense review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-672",
+          "titleEn": "tell a story"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Exact repeat of 4480. Museum/city identity storytelling belongs in one owner review, not a second candidate.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4654,
+      "sourceId": "book10-16-2543",
+      "sourceCategory": "Figurative use",
+      "expression": "an outsider's eyes",
+      "exactSourceSentence": "Sometimes an outsider's eyes reveal local beauty.",
+      "sourceMeaning": "The fresh perspective of a visitor; a visual metaphor.",
+      "sourceQuestion": "What are the positive impacts of tourism in your country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "An outsiders eyes is a compositional viewpoint metaphor; target boundary and article use need review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: An outsiders eyes is a compositional viewpoint metaphor; target boundary and article use need review.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4663,
+      "sourceId": "book10-16-2552",
+      "sourceCategory": "Figurative use",
+      "expression": "not infinitely absorbent",
+      "exactSourceSentence": "A small beach is not infinitely absorbent.",
+      "sourceMeaning": "Unable to handle unlimited visitors; a material-capacity metaphor.",
+      "sourceQuestion": "What are the negative impacts of tourism in your country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Not infinitely absorbent is a bespoke material-capacity metaphor; check stable target before lesson. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Not infinitely absorbent is a bespoke material-capacity metaphor; check stable target before lesson.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4665,
+      "sourceId": "book10-16-2554",
+      "sourceCategory": "Phrasal verb",
+      "expression": "chip away at the place",
+      "exactSourceSentence": "Repeated trampling can chip away at the place.",
+      "sourceMeaning": "Gradually damage the site in small ways; a natural phrasal verb.",
+      "sourceQuestion": "What are the negative impacts of tourism in your country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Hold: chip away at the place is awkward and underspecified for physical-site damage. Canonical 178 teaches gradual weakening of confidence, stereotypes or resources; the source may be read literally, so sense and naturalness need editorial evidence before owner expansion.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-178",
+          "titleEn": "chip away at"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Full expression chip away at the place matches owner178 gradual damage through repeated small effects; physical-site variant needs source provenance and object scope.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4688,
+      "sourceId": "book10-16-2577",
+      "sourceCategory": "Figurative use",
+      "expression": "old formula alone",
+      "exactSourceSentence": "The city cannot rely on its old formula alone.",
+      "sourceMeaning": "A familiar approach that is no longer sufficient; a recipe metaphor.",
+      "sourceQuestion": "What can you say about the future of the tourism industry in your country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Old formula alone is a context-specific recipe metaphor; check stable target and owner overlap. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [
+        {
+          "ownerId": "advanced-native-256",
+          "titleEn": "rely on"
+        }
+      ],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "not-recommended-as-new-lesson",
+      "reason": "This source does not yet isolate a reusable new learning decision: Old formula alone is a context-specific recipe metaphor; check stable target and owner overlap.",
+      "nextGate": "Keep held in this read-only screen; exclusion is not approved."
+    },
+    {
+      "sourceOrdinal": 4695,
+      "sourceId": "book10-16-2584",
+      "sourceCategory": "Figurative use",
+      "expression": "postcard image may catch the eye",
+      "exactSourceSentence": "A postcard image may catch the eye, but service earns a return visit.",
+      "sourceMeaning": "Attractive promotional imagery draws initial attention; a postcard metaphor.",
+      "sourceQuestion": "What can you say about the future of the tourism industry in your country?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "Postcard image catching the eye combines two separate images; no single stable target boundary. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [
+        {
+          "ownerId": "advanced-native-154",
+          "titleEn": "eye-catching"
+        }
+      ],
+      "screenVerdict": "prior-owner-or-variant-review",
+      "reason": "Image catching the eye is the visual-attention sense of eye-catching owner154; return-visit service is contextual contrast.",
+      "nextGate": "Resolve exact source sense, natural form and bounded owner detector; no automatic alias."
+    },
+    {
+      "sourceOrdinal": 4704,
+      "sourceId": "book10-16-2593",
+      "sourceCategory": "Figurative use",
+      "expression": "a restful hotel is golden",
+      "exactSourceSentence": "After a long flight, a restful hotel is golden.",
+      "sourceMeaning": "Good sleep is exceptionally valuable; a gold metaphor.",
+      "sourceQuestion": "Which feature is the most important facility you look for while staying in a hotel?",
+      "currentDecisionAction": "hold-editorial",
+      "historicalHoldReason": "A restful hotel is golden uses generic praise; stable gold target and nuance need review. Provisional editorial decision; independent review remains open.",
+      "currentFullSourceDetectorMatches": [],
+      "nearestPriorOwnerScreen": [],
+      "screenVerdict": "uncertain",
+      "reason": "A restful hotel is golden means highly valuable, but gold metaphor has competing rare/valuable senses; check idiomatic register and existing gold owners.",
+      "nextGate": "Retain hold pending naturalness, sense or owner-boundary evidence."
+    }
+  ],
+  "limits": [
+    "This is a read-only triage, not final editorial approval for exclusion, alias, or lesson.",
+    "Current full-source detector matches are mechanical signals and may be semantically unrelated; each proposed merge needs a bounded sense-aware review.",
+    "Three provisional distinct leads still need naturalness proof and seven nonredundant assessed decisions; none is authored or selected.",
+    "Exact examples/questions are guide-source evidence, not permission to copy guide sentences into learner-facing models."
+  ],
+  "mutations": {
+    "lessonFiles": 0,
+    "editorialDecisionFiles": 0,
+    "selectedManifest": 0,
+    "publishedAssets": 0
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "read-only-targeted-12-open-held-source-resolution",
+  "status": "proposals-only-no-integration",
+  "userPreference": "Skip one-time comparisons; record why. Applied only to exact source-specific composite/comparison cases, not to reusable natural collocations.",
+  "input55Report": "course-materials/advanced-native/reviews-books10-16/read-only-targeted-55-held-source-dispositions-review-pilot.json",
+  "input55ReportSha256": "022ee27a54d0ed914f84120f15c6fff9e705ab31b96159a7d723984504caa620",
+  "sourceInventory": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "decisionManifest": "course-materials/advanced-native/books10-16/editorial-decision-manifest.json",
+  "decisionManifestSha256": "b4c210caa55d0c0d410ba3a19338550888fda1318975ff84ff3d6dbc6c9eb47f",
+  "selectedManifest": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "1a7791f9f16b4d95faca1a8398ccc10110b20930e7278e73e32cfa6de0c9b0da",
+  "counts": {
+    "reviewed": 12,
+    "documented-non-course-proposal": 4,
+    "usage-validation-open": 1,
+    "same-sense-owner-migration-open": 1,
+    "language-and-course-value-open": 3,
+    "standalone-pilot-candidate": 2,
+    "bounded-alias-proposal": 1
+  },
+  "owner3495Proposal": {
+    "path": "course-materials/advanced-native/reviews-books10-16/proposals/owner-3495-source-4695-proposed-review-pilot.json",
+    "sha256": "fc01d6d967579b9b9635b8dff14f5af968cba93eef895e28b7cd77babe91b55c",
+    "focusedBuildCheck": "1 lesson, 6 questions, 4 audio roles, 0 review flags; proposal-only build and --check passed. Five positive and five negative native Python regex controls passed; source and old source forms covered.",
+    "contentRevision": 4,
+    "oldAssessedAnswerIdsPreserved": true,
+    "changedAudioText": false
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 2543,
+      "sourceId": "book10-16-0432",
+      "expression": "pull on a thread and unravel a whole family story",
+      "exactSourceSentence": "One old photograph can pull on a thread and unravel a whole family story.",
+      "sourceInventoryRowSha256": "fc6f9270cb4048766119c34473c9b347e38d1d37a98b3f3011b276632221e0e8",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "currentDecisionRowSha256": "c14a3781dfe2acf7e42b9c48b7d5ed6aa23afa8c04dfcb3b7ca6a430e860b4f8",
+      "currentAction": "hold-editorial",
+      "verdict": "documented-non-course-proposal",
+      "evidence": "The source combines pull on a thread with unravel a whole family story as one photograph-triggered fabric image. Isolating pull on a thread discards the story outcome; the full chain is a one-time comparison.",
+      "nextGate": "Record bespoke whole-sentence image under the user’s skip-one-time-comparisons preference."
+    },
+    {
+      "sourceOrdinal": 2720,
+      "sourceId": "book10-16-0609",
+      "expression": "dominate the scroll",
+      "exactSourceSentence": "Short videos can dominate the scroll for weeks.",
+      "sourceInventoryRowSha256": "abb7f813a5bd7f67a2557dfdb722224dcc57a632f8aa77125c85c3f0e8b229b9",
+      "decisionFile": "editorial-decisions-2712-2771.jsonl",
+      "currentDecisionRowSha256": "39728b55e551da97745ade3cf4e829357caf4aa1d15114b6e34d28a711384251",
+      "currentAction": "hold-editorial",
+      "verdict": "usage-validation-open",
+      "evidence": "Dominate the scroll has a coherent digital attention meaning, but a scroll is a feed action/context and the current evidence does not establish a stable cross-context collocation or detector.",
+      "nextGate": "Seek primary usage examples of dominate the scroll; if productive and seven distinct decisions can be written, consider pilot; otherwise document non-course."
+    },
+    {
+      "sourceOrdinal": 3352,
+      "sourceId": "book10-16-1241",
+      "expression": "life does not always move in a straight line",
+      "exactSourceSentence": "Her career shows that life does not always move in a straight line.",
+      "sourceInventoryRowSha256": "d5aff2666328794d6fc511f2ccf6322ccdd243afeddbdef32992148a0a84868b",
+      "decisionFile": "editorial-decisions-3312-3371.jsonl",
+      "currentDecisionRowSha256": "a6d4b33b2c01d47862b78848bd2a61d53dffdb5e2711a8efcf119bb31ba1e10f",
+      "currentAction": "hold-editorial",
+      "verdict": "same-sense-owner-migration-open",
+      "evidence": "Source says her career shows life does not always move in a straight line. Owner4548 teaches progress is not a straight line with setbacks and direction changes; its listening, reply, scene, contrast, dialogue and writing all assess that same nonlinear-development inference. The target regex matches the full source. Source3352 is earlier than owner4548, so a direct alias violates earliest-source ownership.",
+      "nextGate": "Choose a provenance/ID migration strategy that preserves selected history and exact source order; do not mark source3352 non-course or alias it automatically.",
+      "comparisonOwnerId": "advanced-native-4548",
+      "ownerEvidence": {
+        "path": "course-materials/advanced-native/drafts-books10-16/batch-4548-4612-review-pilot.json",
+        "fileSha256": "be697ff9a40c5f53b69df8a6793e5dacf9a68e6820e31a6f3ee7237f67a338ba",
+        "objectSha256": "a1a79c9d4b64b5f2ac4f9fa331d4b8583d6c598e8037d918a0bfb485817cfa56",
+        "targetPattern": "\\bnot\\s+(?:always\\s+)?a\\s+straight\\s+line\\b",
+        "meaningEn": "Progress does not happen smoothly or uniformly; it can include setbacks and changes of direction.",
+        "assessedDecisions": [
+          "a",
+          "c",
+          "a",
+          "a",
+          "a"
+        ]
+      }
+    },
+    {
+      "sourceOrdinal": 4404,
+      "sourceId": "book10-16-2293",
+      "expression": "add noise with one hand and take it away with the other",
+      "exactSourceSentence": "New transport can add noise with one hand and take it away with the other.",
+      "sourceInventoryRowSha256": "3289965c06ca8115b9530d05938bf7a02b7be4ef016b92d475f11688eda5a189",
+      "decisionFile": "editorial-decisions-4392-4451.jsonl",
+      "currentDecisionRowSha256": "9cea1987efc30df1e437b51cd3d4bb62652fd5aa23134541f59ae84ea3acf84a",
+      "currentAction": "hold-editorial",
+      "verdict": "documented-non-course-proposal",
+      "evidence": "Owner3431 requires one arrangement to give a benefit and then substantially offset it. Source transport adds noise in one place and takes noise away in another, without a described benefit being withdrawn. Replacing give/take with add/take is an improvised paired-hand comparison; owner target does not match.",
+      "nextGate": "Record one-time adaptation and no alias to3431 under the user’s preference.",
+      "comparisonOwnerId": "advanced-native-3431",
+      "ownerEvidence": {
+        "path": "course-materials/advanced-native/drafts-books10-16/batch-3412-3435-a.json",
+        "fileSha256": "b18a9055d379d02094da99770d68f90cb9eaf2e6506d97699e89a3fbb5397609",
+        "objectSha256": "8ba206bc661f448d35bf001db05d07a575a5568fada9a70b1ba744503300336d",
+        "targetPattern": "\\b(?:gives with one hand and takes|give with one hand and take|gave with one hand and took|giving with one hand and taking) with the other\\b",
+        "meaningEn": "Offer one benefit while another part of the same arrangement removes or reduces its value.",
+        "assessedDecisions": [
+          "a",
+          "c",
+          "a",
+          "a",
+          "a"
+        ]
+      }
+    },
+    {
+      "sourceOrdinal": 4493,
+      "sourceId": "book10-16-2382",
+      "expression": "made with a bit more soul",
+      "exactSourceSentence": "The handmade chair felt made with a bit more soul.",
+      "sourceInventoryRowSha256": "6ab157919ee124d8979e9fe691f85c7dbc286980f359d914d143a99447636f36",
+      "decisionFile": "editorial-decisions-4452-4511.jsonl",
+      "currentDecisionRowSha256": "e97a1238e423529d1fa9d6515f6ddf93aaf5a5c7b8bdfb6c944dfd9e68c2f9c6",
+      "currentAction": "hold-editorial",
+      "verdict": "language-and-course-value-open",
+      "evidence": "Cambridge confirms uncountable soul can describe the emotional character of a work of art, so the chair evaluation is not necessarily invented. The exact made with a bit more soul pattern remains subjective; a contrast against mere technical quality and a seven-decision lesson are unproven.",
+      "nextGate": "Check natural primary examples of made with soul for crafted objects and pilot a bounded learner decision before promotion.",
+      "primaryLexicalEvidence": {
+        "url": "https://dictionary.cambridge.org/dictionary/english/soul",
+        "evidence": "Soul as an uncountable quality of a work of art showing or producing deep feeling."
+      }
+    },
+    {
+      "sourceOrdinal": 4591,
+      "sourceId": "book10-16-2480",
+      "expression": "the choice starts to make itself",
+      "exactSourceSentence": "With only two days off, the choice starts to make itself.",
+      "sourceInventoryRowSha256": "ced1d5433fd3f4bfbfd7dc2b5c777dfbf77c6803ad64d74df096e9a04a9b9faf",
+      "decisionFile": "editorial-decisions-4572-4631.jsonl",
+      "currentDecisionRowSha256": "690ee8aa6322ef878d690787ed37d2e77066089432cb96a8f360089630c858fe",
+      "currentAction": "hold-editorial",
+      "verdict": "standalone-pilot-candidate",
+      "evidence": "The choice starts to make itself expresses a decision becoming effectively obvious as available time narrows. It is a concise transferable personification with a potential learner boundary: obvious choice versus an externally made decision or mere indecision. Search found varied natural uses of the decision/choice makes itself, but no primary dictionary entry establishing fixed idiom status.",
+      "nextGate": "Try an unselected seven-step pilot with timing/constraint transfer and four-valid reply; reject if tasks collapse into repeated paraphrase."
+    },
+    {
+      "sourceOrdinal": 4623,
+      "sourceId": "book10-16-2512",
+      "expression": "open eyes and an open mind",
+      "exactSourceSentence": "She explored the city with open eyes and an open mind.",
+      "sourceInventoryRowSha256": "e8481ea259007318708959d9abdbd13ffdbddada2b080e5b60d008d97f15ed8a",
+      "decisionFile": "editorial-decisions-4572-4631.jsonl",
+      "currentDecisionRowSha256": "930429950328773e4a277273357791ce90f746d216a8e9d5814506171a4a092d",
+      "currentAction": "hold-editorial",
+      "verdict": "documented-non-course-proposal",
+      "evidence": "Source joins open eyes (observe carefully) and an open mind (receptive judgment). Cambridge verifies open mind as a standard unit, but owner423 specifically teaches go in with an open mind before judging; the source lacks go in and adds a separate visual-attention decision. Broadening owner423 would merge two targets.",
+      "nextGate": "Record one-time compositional pairing; do not alias to423 or create a paired-expression lesson.",
+      "comparisonOwnerId": "advanced-native-423",
+      "ownerEvidence": {
+        "path": "course-materials/advanced-native/batches/batch-0401-0425.json",
+        "fileSha256": "fe8bbc3493367e7b4afde479d988c39dc0fbef0b831a14e844eb07573f667805",
+        "objectSha256": "2b649139bfaed3e6099a46016d98f829672207404c2daf896fc0be6c21d58bd4",
+        "targetPattern": "\\b(?:go|goes|going|went|gone) in with an open mind\\b",
+        "meaningEn": "Begin an experience willing to consider what it offers rather than fixing the judgement in advance.",
+        "assessedDecisions": [
+          "a",
+          "b",
+          "a",
+          "b",
+          "a"
+        ]
+      },
+      "primaryLexicalEvidence": {
+        "url": "https://dictionary.cambridge.org/dictionary/english/open-mind",
+        "evidence": "Have/keep an open mind means wait for facts before judging; the source adds a separate open-eyes clause."
+      }
+    },
+    {
+      "sourceOrdinal": 4648,
+      "sourceId": "book10-16-2537",
+      "expression": "keeps businesses alive",
+      "exactSourceSentence": "Weekend tourism keeps businesses alive.",
+      "sourceInventoryRowSha256": "773b250832d8ef45c11d2c9ef6ebf71bc81b00d77819a84920bf5ebded264a98",
+      "decisionFile": "editorial-decisions-4632-4691.jsonl",
+      "currentDecisionRowSha256": "6d8ba70bbcf85edf2c19221336616b7fce6b2b47900d7d9a071ddc7ed1b18f24",
+      "currentAction": "hold-editorial",
+      "verdict": "standalone-pilot-candidate",
+      "evidence": "Keep businesses alive has a coherent economic-survival sense: weekend tourism lets firms continue operating. This differs from owner349 stay afloat in subject/construction and from 1049/2012 keeping history/relationships alive. It may yield a survival-versus-growth/temporary-boost distinction, but the source alone does not prove seven distinct assessments.",
+      "nextGate": "Pilot unselected lesson only if seven tasks distinguish operating survival from profit growth and identify supported causal evidence."
+    },
+    {
+      "sourceOrdinal": 4654,
+      "sourceId": "book10-16-2543",
+      "expression": "an outsider's eyes",
+      "exactSourceSentence": "Sometimes an outsider's eyes reveal local beauty.",
+      "sourceInventoryRowSha256": "e5be2f51cff3e56dbbf76185ca654e6317ed46d7d95c851f99fe711d181976c5",
+      "decisionFile": "editorial-decisions-4632-4691.jsonl",
+      "currentDecisionRowSha256": "e89c6eb3802e51db59fdaab787a22d4f66473fcbb5e2a122c099f87d817c9ff6",
+      "currentAction": "hold-editorial",
+      "verdict": "documented-non-course-proposal",
+      "evidence": "An outsider’s eyes reveal local beauty personifies the visitor’s viewpoint as grammatical subject. Normalizing to through an outsider’s eyes changes the exact form; the source offers no stable idiom beyond a one-time perspective image.",
+      "nextGate": "Record source-specific viewpoint comparison under the user’s preference; do not silently rewrite its grammar."
+    },
+    {
+      "sourceOrdinal": 4668,
+      "sourceId": "book10-16-2557",
+      "expression": "a real boost to the economy",
+      "exactSourceSentence": "Tourism can be a real boost to the economy.",
+      "sourceInventoryRowSha256": "3608c1884ef3230afe623adc9a31bcea1d7fa91d4118b3a7ec410c0af7eb12c2",
+      "decisionFile": "editorial-decisions-4632-4691.jsonl",
+      "currentDecisionRowSha256": "bbaf6494db6d45a9c4e870ef16ebeb261126397ccf4ee4cb720e9fa0cc41d394",
+      "currentAction": "hold-editorial",
+      "verdict": "language-and-course-value-open",
+      "evidence": "Cambridge records noun a boost to the economy as natural conventional usage, so it cannot be rejected merely as non-idiomatic. The remaining question is whether real boost to the economy supports a distinct advanced decision beyond simple increase.",
+      "nextGate": "Compare any existing boost/increase owner and run a seven-step decision sketch; if ordinary-only, document non-course with this lexical evidence.",
+      "primaryLexicalEvidence": {
+        "url": "https://dictionary.cambridge.org/dictionary/english/boost",
+        "evidence": "Noun examples include a boost to the economy."
+      }
+    },
+    {
+      "sourceOrdinal": 4695,
+      "sourceId": "book10-16-2584",
+      "expression": "postcard image may catch the eye",
+      "exactSourceSentence": "A postcard image may catch the eye, but service earns a return visit.",
+      "sourceInventoryRowSha256": "06a051263824f07f114f8b2c535fb5d4de074588d47952af8e03b011b4892a78",
+      "decisionFile": "editorial-decisions-4692-4715.jsonl",
+      "currentDecisionRowSha256": "5c0c9398a7c9898a006cc5883ad4ac3e12c751bbd746f8992fb518dbd3370693",
+      "currentAction": "hold-editorial",
+      "verdict": "bounded-alias-proposal",
+      "evidence": "The source separates visual attention (postcard image may catch the eye) from service quality (return visit), matching owner3495’s assessed boundary that noticing a cover/sign does not prove quality. Cambridge supports catch someone’s eye and Collins records catch the eye. Current owner regex rejects impersonal the eye; proposal adds only that article variant, exact provenance, grammar note and one keyed dialogue use.",
+      "nextGate": "Peer-review proposal owner object and proposed decision row; then run all-source alias, focused build and media-delta checks before integration.",
+      "comparisonOwnerId": "advanced-native-3495",
+      "ownerEvidence": {
+        "path": "course-materials/advanced-native/drafts-books10-16/batch-3486-3512-review-pilot.json",
+        "fileSha256": "00e7a664b1b5f126b4d7cb95196f4a5917386b256676999beae3642335da28ad",
+        "objectSha256": "38f2d28d0b5229d8974ff541ed27c068415ecabe9469798277557e26cf00bf64",
+        "targetPattern": "\\b(?:catch|catches|caught|catching)\\s+(?:your|my|his|her|their|our|[A-Za-z]+(?:-[A-Za-z]+)?[’\\']s)\\s+eye\\b",
+        "meaningEn": "Attract visual attention quickly among other things.",
+        "assessedDecisions": [
+          "a",
+          "c",
+          "a",
+          "c",
+          "a"
+        ]
+      },
+      "primaryLexicalEvidence": {
+        "url": "https://dictionary.cambridge.org/dictionary/english/catch-eye?topic=making-people-excited-and-interested",
+        "evidence": "Catch someone’s eye means visually attract notice; complement variant corroborated by Collins."
+      },
+      "additionalPrimaryLexicalEvidence": {
+        "url": "https://www.collinsdictionary.com/us/dictionary/english/catch-the-eye",
+        "evidence": "Usage entry for impersonal catch the eye."
+      },
+      "proposalOwnerFile": "course-materials/advanced-native/reviews-books10-16/proposals/owner-3495-source-4695-proposed-review-pilot.json",
+      "proposalOwnerFileSha256": "fc01d6d967579b9b9635b8dff14f5af968cba93eef895e28b7cd77babe91b55c",
+      "proposalOwnerObjectSha256": "f6f4c0d5413bc1c4f3b456f2f9f4ba3f19dabd24bd6a91072424352de4f221e0",
+      "proposedDecisionRow": {
+        "sourceOrdinal": 4695,
+        "sourceId": "book10-16-2584",
+        "phrase": "postcard image may catch the eye",
+        "action": "proposed-alias-existing",
+        "canonicalId": "advanced-native-3495",
+        "reason": "Same visual-attention sense as selected owner 3495: a postcard image first attracts notice, while service quality decides whether visitors return. The proposed owner covers impersonal catch the eye as well as possessive catch someone’s eye, tests that the visual cue does not prove quality, and preserves the exact book10-16-2584 source occurrence. Provisional unpublished alias; independent proposal review and integration checks required."
+      }
+    },
+    {
+      "sourceOrdinal": 4704,
+      "sourceId": "book10-16-2593",
+      "expression": "a restful hotel is golden",
+      "exactSourceSentence": "After a long flight, a restful hotel is golden.",
+      "sourceInventoryRowSha256": "8b69d866044934cb8cbda17694d9befc3c0feefca8e14aedc27eaa156006d8cf",
+      "decisionFile": "editorial-decisions-4692-4715.jsonl",
+      "currentDecisionRowSha256": "e31c230df50c669cb04cd6b6e597ba84a8cb2c60240718c49fa4801400e5d271",
+      "currentAction": "hold-editorial",
+      "verdict": "language-and-course-value-open",
+      "evidence": "Cambridge documents golden as special/advantageous, which fits a restful hotel valued after a long flight. The predicative hotel is golden use is not the same unit as golden ticket/opportunity, and a seven-decision advanced lesson remains unproved.",
+      "nextGate": "Validate predicative register in primary usage and sketch distinct decisions; otherwise document generic praise as non-course.",
+      "primaryLexicalEvidence": {
+        "url": "https://dictionary.cambridge.org/dictionary/english/golden",
+        "evidence": "Adjective has nonliteral special/successful/advantageous sense."
+      }
+    }
+  ],
+  "limitations": "No decision or selected owner was edited. Owner3495 proposal still requires independent peer review. Source3352 migration has no safe automatic patch while selected IDs and earliest-source rule remain in force. Standalone pilots are not content clearance. No audio or release claim.",
+  "mutations": [
+    "proposal-only owner3495 JSON",
+    "this review JSON"
+  ]
+}

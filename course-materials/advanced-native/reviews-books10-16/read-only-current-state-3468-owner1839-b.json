@@ -1,0 +1,53 @@
+{
+  "status": "already-resolved-no-new-proposal",
+  "createdUtc": "2026-10-24T01:44:23.131333+00:00",
+  "sourceOrdinal": 3468,
+  "sourceId": "book10-16-1357",
+  "sourceExpression": "take the shine off it",
+  "exactSourceSentence": "A long journey can take the shine off it.",
+  "sourceMeaning": "Reduce enjoyment or appeal; a fixed light metaphor.",
+  "decision": {
+    "sourceOrdinal": 3468,
+    "sourceId": "book10-16-1357",
+    "phrase": "take the shine off it",
+    "action": "proposed-alias-existing",
+    "canonicalId": "advanced-native-1839",
+    "reason": "The source uses take the shine off it for reduced enjoyment or appeal, matching owner 1839. Its isolated it has no recoverable antecedent, so the reviewed owner teaches this pronoun only after a named anticipated experience and does not infer a referent from the source; the bounded detector matches the full source sentence and exact provenance is attached."
+  },
+  "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3432-3491.jsonl",
+  "decisionFileSha256": "3997af9c353b914c85a05e0b492e31113954056ea07744c1be7911bcee890cde",
+  "ownerId": "advanced-native-1839",
+  "ownerFile": "course-materials/advanced-native/batches/batch-1826-1850.json",
+  "ownerFileSha256": "1771f9980d893c0cc0ca62d885398ad9216b2dfbe9011dc2ac0fd1f793cf82f7",
+  "ownerContentRevision": 2,
+  "targetPattern": "\\b(?:take|takes|took|taken|taking) the shine off (?:the trip|it)\\b",
+  "exactSourceProvenance": {
+    "occurrenceId": "book10-16-1357",
+    "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+    "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+    "page": 127,
+    "book": 13,
+    "question": 12,
+    "sample": "S2",
+    "sourceBookPages": "29–30",
+    "locatorNote": "DOCX table 133, row 6; page refers to locally rendered PDF recorded in intake summary. The isolated source sentence does not resolve it; no specific antecedent is inferred.",
+    "sentence": "A long journey can take the shine off it.",
+    "referenceSentenceKind": "guide_original_example",
+    "expression": "take the shine off it"
+  },
+  "sourceFullSentenceMatchesTarget": true,
+  "antecedentBoundary": "The isolated source it has no recoverable antecedent; current brief and assessed use require an earlier named anticipated experience.",
+  "matchesPreviouslyClearedProposal": true,
+  "priorProposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-2551-3468-proposed-b.json",
+  "priorProposalSha256": "17be365c920b39f7eb90bcc311af2bc9e2567e633d06b0f06e55591981d3cb5d",
+  "priorIndependentReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-proposals-2551-3468-a-followup.json",
+  "priorIndependentReviewSha256": "bd9f8871876039d692282a3ee238c178eaea4fa041aea567bc7b194b6a8ea1c2",
+  "liveDetectorControls": {
+    "source": true,
+    "legacyTrip": true,
+    "clearIt": true,
+    "unsupportedObjectAward": false,
+    "literalTablePolish": false
+  },
+  "actionTaken": "No owner, decision, manifest, media or release edit. A duplicate proposal would be stale because the cleared change is already integrated."
+}

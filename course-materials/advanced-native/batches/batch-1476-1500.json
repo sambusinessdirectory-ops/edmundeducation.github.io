@@ -488,12 +488,12 @@
       "id": "advanced-native-1478",
       "number": 1478,
       "inventoryId": "expr-1478",
-      "contentRevision": 1,
-      "titleEn": "the spotlight is not always equally shared",
-      "titleZh": "注意力未必平均分配",
+      "contentRevision": 2,
+      "titleEn": "the spotlight is shared",
+      "titleZh": "注意力分給不同對象",
       "category": "figurative",
       "target": {
-        "pattern": "\\bthe\\s+spotlight\\s+is\\s+not\\s+always\\s+equally\\s+shared\\b"
+        "pattern": "\\bthe\\s+spotlight\\s+is\\s+(?:not\\s+always\\s+equally\\s+)?shared\\b"
       },
       "sources": [
         {
@@ -509,16 +509,30 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "the spotlight is not always equally shared",
           "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-0618",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 57,
+          "book": 11,
+          "question": 16,
+          "sample": "S2",
+          "sourceBookPages": "43–44",
+          "locatorNote": "DOCX table 52, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Today, the spotlight is shared with online creators.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the spotlight is shared"
         }
       ],
       "brief": {
-        "meaningEn": "Public attention is not distributed evenly on every occasion.",
-        "meaningZh": "公眾注意力並非在每個場合都平均分配。",
-        "grammar": "the spotlight is not always equally shared among + groups/events",
-        "register": "neutral",
-        "boundaryZh": "not always 是否定每次都一樣，不是說從來沒有平均；spotlight 比喻注意，不只舞台燈，也不直接量度活動本身價值。",
-        "misconceptionZh": "not always 是否定每次都一樣，不是說從來沒有平均；spotlight 比喻注意，不只舞台燈，也不直接量度活動本身價值。",
-        "outcomeZh": "理解「注意力未必平均分配」的語境及用法，並在新情境寫出自然句子。"
+        "meaningEn": "Public attention is distributed among multiple people or events; sharing does not itself imply equal attention, and not always equally shared identifies an uneven distribution.",
+        "meaningZh": "公眾注意力分給不同人物或活動；分享不代表必然平均，not always equally shared 則指出分配未必每次均等。",
+        "grammar": "The spotlight is shared with/among + people or events; the spotlight is not always equally shared among + groups or events. The first describes widened attention, the second qualifies how evenly attention is distributed.",
+        "register": "A culture reporter explaining to readers who receives coverage, or a community organiser discussing event publicity with residents, can use this neutral stage-light metaphor.",
+        "boundaryZh": "shared 表示注意力不只落在一處，並不保證份額相同；not always equally 不等於從來不平均。spotlight 比喻公眾注意，不直接量度價值。",
+        "misconceptionZh": "不要把「有分享」誤讀為「完全平均」，也不要把較少曝光推論成沒有價值。",
+        "outcomeZh": "能分辨注意力延伸至更多對象與注意力分配是否平均，並以具體報道證據支持判斷。"
       },
       "listening": {
         "en": "The spotlight is not always equally shared: the city’s famous parade gets more coverage than smaller neighbourhood events.",
@@ -578,26 +592,26 @@
         "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
       },
       "scene": {
-        "promptZh": "城市報紙用了數頁介紹大巡遊，只用幾行提社區聚會。哪句最貼切？",
+        "promptZh": "某地藝術展以往只訪問畫家；今年訪問稿也介紹雕塑家和編織藝術家，但沒有說三組篇幅相同。哪句最有根據？",
         "options": [
           {
             "id": "choice-1",
-            "en": "The spotlight is not always equally shared.",
-            "zh": "注意力並非總是平均分配。"
+            "en": "The spotlight is shared with sculptors and textile artists this year.",
+            "zh": "今年公眾注意力也分給雕塑家和編織藝術家。"
           },
           {
             "id": "choice-2",
-            "en": "The newspaper gives every event the same amount of space.",
-            "zh": "報紙給每項活動相同篇幅。"
+            "en": "Painters have received no attention in this year’s coverage.",
+            "zh": "今年的報道完全沒有關注畫家。"
           },
           {
             "id": "choice-3",
-            "en": "The smaller gathering has no participants because its article is short.",
-            "zh": "小聚會因文章短而沒有參加者。"
+            "en": "All three groups must have received exactly the same amount of coverage.",
+            "zh": "三組藝術家得到的報道篇幅必定完全相同。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "篇幅不同顯示注意失衡；短報道不能證明沒人參加。"
+        "explanationZh": "今年報道涵蓋更多藝術家，足以說注意力有分享；資料沒有說畫家被排除或三組篇幅完全相同。"
       },
       "contrast": {
         "promptZh": "哪個改述不符合 the spotlight is not always equally shared？",
@@ -710,8 +724,8 @@
           "zh": "社區活動之間，注意力並非總是平均分配。"
         },
         {
-          "en": "The spotlight is not always equally shared, but a small audience can still value an event.",
-          "zh": "注意力並非總是平均分配，但少量觀眾仍可重視一項活動。"
+          "en": "The spotlight is shared with new artists, although coverage need not be equal.",
+          "zh": "注意力也分給新藝術家，但報道篇幅未必相同。"
         }
       ],
       "review": {
@@ -722,7 +736,7 @@
           "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
         },
         "independentHumanApproval": false,
-        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+        "note": "Proposal-only owner expansion; not integrated or independently approved. Existing IDs/keys remain, except the same scene key now assesses shared attention. Takeaway 2 would create an audio-text delta if integrated."
       }
     },
     {

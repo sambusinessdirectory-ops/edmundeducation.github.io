@@ -1,0 +1,100 @@
+{
+  "status": "frozen-hold-review-coverage-only-not-release-approval",
+  "baselineCommit": "8775dda2",
+  "frozenHolds": 601,
+  "reviewedExactlyOnce": 601,
+  "reportFiles": [
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/read-only-first100-current-holds-2130-2727-a.json",
+      "sha256": "feaef309045ae06d04b6a1c13aa1a82905faf91f172429be12e176679a6dfd4c",
+      "rows": 100
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/read-only-second100-current-holds-2729-3107-a.json",
+      "sha256": "8e980d3b48c321c6701e7916f5360bdb62eab36c317f14d602951dc97f4c15af",
+      "rows": 100
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/read-only-third100-current-holds-3110-3528-a.json",
+      "sha256": "1e82b29f9e150adb5579092ce5f0d0a7a2d44d8be01208d000350cc4cd05b250",
+      "rows": 100
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/read-only-fourth100-current-holds-3530-3955-a.json",
+      "sha256": "4f607b94d9cfef1818a07c2cb6a45eac7ea8d64e8d98ea35976bb325316ff339",
+      "rows": 100
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/read-only-fifth101-current-holds-3956-4400-a.json",
+      "sha256": "19547cb63724340d0e61e7236b25003881dcfb30dd4926fc0bdb30f4ffd7ab7a",
+      "rows": 101
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/read-only-last100-held-disposition-4402-4715-b.json",
+      "sha256": "accda8af8e87c2416b66c4f58d19d587e6da84021e23c968c95bf8ea8ddf93c5",
+      "rows": 100
+    }
+  ],
+  "currentActionsForFrozenHolds": {
+    "hold-editorial": 592,
+    "proposed-alias-existing": 6,
+    "proposed-alias-new": 1,
+    "proposed-new-lesson": 2
+  },
+  "promotedSinceBaseline": [
+    {
+      "sourceOrdinal": 2721,
+      "sourceId": "book10-16-0610",
+      "action": "proposed-alias-existing",
+      "canonicalId": "advanced-native-726"
+    },
+    {
+      "sourceOrdinal": 2729,
+      "sourceId": "book10-16-0618",
+      "action": "proposed-alias-existing",
+      "canonicalId": "advanced-native-1478"
+    },
+    {
+      "sourceOrdinal": 3621,
+      "sourceId": "book10-16-1510",
+      "action": "proposed-alias-existing",
+      "canonicalId": "advanced-native-816"
+    },
+    {
+      "sourceOrdinal": 4311,
+      "sourceId": "book10-16-2200",
+      "action": "proposed-alias-new",
+      "canonicalId": "advanced-native-3834"
+    },
+    {
+      "sourceOrdinal": 4379,
+      "sourceId": "book10-16-2268",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-4379"
+    },
+    {
+      "sourceOrdinal": 4410,
+      "sourceId": "book10-16-2299",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-4410"
+    },
+    {
+      "sourceOrdinal": 4527,
+      "sourceId": "book10-16-2416",
+      "action": "proposed-alias-existing",
+      "canonicalId": "advanced-native-437"
+    },
+    {
+      "sourceOrdinal": 4621,
+      "sourceId": "book10-16-2510",
+      "action": "proposed-alias-existing",
+      "canonicalId": "advanced-native-551"
+    },
+    {
+      "sourceOrdinal": 4630,
+      "sourceId": "book10-16-2519",
+      "action": "proposed-alias-existing",
+      "canonicalId": "advanced-native-227"
+    }
+  ]
+}

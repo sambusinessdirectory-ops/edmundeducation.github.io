@@ -1,0 +1,378 @@
+{
+  "reportType": "read-only-current-held-new-unit-triage",
+  "createdAtUtc": "2026-10-24T02:22:13.244700+00:00",
+  "scope": "20 ordinal-ranked, manually screened current hold-editorial rows selected from the live hold inventory; no claim that all remaining holds were semantically reviewed.",
+  "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "counts": {
+    "rankedRows": 20,
+    "conditionalNewUnit": 1,
+    "directlyApprovedForDrafting": 0,
+    "decisionOrSelectedEdits": 0
+  },
+  "coordination": "Author A reserved source 3707 for an independent seven-step feasibility screen. Earlier provisional 3983/4545/4059/3720 were released to held status after owner/source review. Source 3442 was already rejected as a new unit by independent review.",
+  "primaryUsageEvidence": [
+    {
+      "sourceOrdinal": 3707,
+      "url": "https://dictionary.cambridge.org/dictionary/english/cool",
+      "relevance": "cool/cool off of a feeling or interest means becoming weaker; anger sense is separate"
+    },
+    {
+      "sourceOrdinal": 2401,
+      "url": "https://dictionary.cambridge.org/dictionary/english/put-tighten-the-screws-on",
+      "relevance": "fixed idiom uses pressure or threats on a person"
+    },
+    {
+      "sourceOrdinal": 2191,
+      "url": "https://dictionary.cambridge.org/dictionary/english/run-away-with",
+      "relevance": "established run-away-with-someone senses concern a rider or uncontrolled feeling/idea, not an afternoon"
+    },
+    {
+      "sourceOrdinal": 2719,
+      "url": "https://dictionary.cambridge.org/dictionary/english/land",
+      "relevance": "figurative joke landing is documented separately from literal land a punch"
+    },
+    {
+      "sourceOrdinal": 2966,
+      "url": "https://publications.gc.ca/collections/collection_2021/parl/X3-432-76-eng.pdf",
+      "relevance": "primary parliamentary attestation of all glitter and no substance, without proving need for a separate lesson"
+    }
+  ],
+  "rankedRows": [
+    {
+      "rank": 1,
+      "sourceOrdinal": 3707,
+      "sourceId": "book10-16-1596",
+      "expression": "enthusiasm can cool down",
+      "exactSourceSentence": "High prices mean enthusiasm can cool down quickly.",
+      "sourceCategory": "Figurative use",
+      "verdict": "conditional-new-unit",
+      "confidence": 0.72,
+      "closestOwnerIds": [],
+      "rationale": "The source naturally uses cool down for interest/enthusiasm becoming weaker, a reusable figurative change. Cambridge defines cooling feelings or interest as weakening. No selected title targets this attenuation form; losing one’s cool (3155) instead means becoming angry, while fade away (674) is eventual disappearance.",
+      "nextGate": "A is independently testing seven distinct decisions and a narrow feeling/interest subject pattern; keep held until that review.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl",
+      "decisionFileSha256": "19b68aa5f89c33595baaddbb10b7485939da5e6275cc004a8c88eede1dd65e37"
+    },
+    {
+      "rank": 2,
+      "sourceOrdinal": 2966,
+      "sourceId": "book10-16-0855",
+      "expression": "all glitter and no substance",
+      "exactSourceSentence": "The ceremony was all glitter and no substance.",
+      "sourceCategory": "Idiom or set phrase",
+      "verdict": "owner-scope-review",
+      "confidence": 0.48,
+      "closestOwnerIds": [
+        "advanced-native-2961"
+      ],
+      "rationale": "All glitter and no substance is attested in parliamentary usage and the source sentence is understandable, but selected 2961 more show than substance already tests appearance versus real value. Different wording alone may not justify a second six-question lesson.",
+      "nextGate": "Compare lexical-learning benefit against 2961 and prove seven nonduplicate decisions before any owner split.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2952-3011.jsonl",
+      "decisionFileSha256": "04aa7bf80d4920dcfd3755ee85e864439561c7221fa68624d7aa2c21166842cb"
+    },
+    {
+      "rank": 3,
+      "sourceOrdinal": 4389,
+      "sourceId": "book10-16-2278",
+      "expression": "cut them off from",
+      "exactSourceSentence": "Loud music can cut them off from birdsong.",
+      "sourceCategory": "Phrasal verb",
+      "verdict": "existing-owner-expansion-review",
+      "confidence": 0.47,
+      "closestOwnerIds": [
+        "advanced-native-1347",
+        "advanced-native-3414"
+      ],
+      "rationale": "Cut them off from birdsong is a natural sensory-isolation extension, while 1347 teaches isolation from people/world and 3414 self-isolation from ideas. Same phrasal construction, but the current 1347 detector excludes birdsong.",
+      "nextGate": "Prefer bounded 1347 sensory expansion if its taught decision and keys can cover it; otherwise retain hold.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4332-4391.jsonl",
+      "decisionFileSha256": "29fd435ab9750dbc40a553bb3c0aa5d6144fe9eea4bd1bfcfad1a2631703d639"
+    },
+    {
+      "rank": 4,
+      "sourceOrdinal": 4601,
+      "sourceId": "book10-16-2490",
+      "expression": "run into political pressure",
+      "exactSourceSentence": "New rail projects can run into political pressure.",
+      "sourceCategory": "Phrasal verb",
+      "verdict": "existing-owner-expansion-review",
+      "confidence": 0.44,
+      "closestOwnerIds": [
+        "advanced-native-1258"
+      ],
+      "rationale": "Run into political pressure means encounter an obstacle; selected 1258 run into practical problems teaches the encounter-difficulty construction with a narrower object. A second owner would repeat the learner decision.",
+      "nextGate": "Test bounded pressure-object extension on 1258 without accepting literal collision uses.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+      "decisionFileSha256": "0d1aee9a73ef7d252ae68b62e3a7045fed3b44237f11fbc61f43c7b720f47395"
+    },
+    {
+      "rank": 5,
+      "sourceOrdinal": 2210,
+      "sourceId": "book10-16-0099",
+      "expression": "lean into",
+      "exactSourceSentence": "The festival decided to lean into its local character.",
+      "sourceCategory": "Phrasal verb",
+      "verdict": "existing-owner-expansion-review",
+      "confidence": 0.43,
+      "closestOwnerIds": [
+        "advanced-native-1687"
+      ],
+      "rationale": "Lean into local character is deliberate embrace/emphasis; selected 1687 lean into healthy habits teaches active engagement with a narrow object. The source is natural but likely an owner expansion, not a distinct idiom.",
+      "nextGate": "Compare deliberate-emphasis versus increased participation and test 1687 key/grammar before broadening.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionFileSha256": "3e7d06e4473fe2d24ce2ab3f7bd10208fc6501badbbd608fb8b05b99e816c364"
+    },
+    {
+      "rank": 6,
+      "sourceOrdinal": 4468,
+      "sourceId": "book10-16-2357",
+      "expression": "pass it on",
+      "exactSourceSentence": "Grandparents can pass it on to their children.",
+      "sourceCategory": "Phrasal verb",
+      "verdict": "existing-owner-expansion-review",
+      "confidence": 0.42,
+      "closestOwnerIds": [
+        "advanced-native-1326"
+      ],
+      "rationale": "Pass it on is a reusable phrasal verb in a traditions passage, but the isolated source sentence does not identify the pronoun referent. Owner 1326 already teaches passing knowledge, values and traditions to others.",
+      "nextGate": "Recover the exact antecedent from source context before any bounded 1326 pattern or provenance update.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionFileSha256": "76e41d94a3779908f253ffc9c4be5f725cb19d32b52f06b8a80174721273e4b5"
+    },
+    {
+      "rank": 7,
+      "sourceOrdinal": 2191,
+      "sourceId": "book10-16-0080",
+      "expression": "run away with you",
+      "exactSourceSentence": "Without a timer, the afternoon can run away with you.",
+      "sourceCategory": "Idiom or set phrase",
+      "verdict": "source-wording-review",
+      "confidence": 0.36,
+      "closestOwnerIds": [
+        "advanced-native-857"
+      ],
+      "rationale": "Cambridge documents run away with someone for an uncontrolled feeling or animal, but the afternoon can run away with you is a strained time-personification. Selected 857 teaches losing track of time, the apparent intended learner decision.",
+      "nextGate": "Keep held unless a primary usage source supports the exact time construction; do not teach a normalized replacement as though it were the source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionFileSha256": "3e7d06e4473fe2d24ce2ab3f7bd10208fc6501badbbd608fb8b05b99e816c364"
+    },
+    {
+      "rank": 8,
+      "sourceOrdinal": 2401,
+      "sourceId": "book10-16-0290",
+      "expression": "tighten the screws",
+      "exactSourceSentence": "The director used silence to tighten the screws.",
+      "sourceCategory": "Idiom or set phrase",
+      "verdict": "source-sense-review",
+      "confidence": 0.34,
+      "closestOwnerIds": [],
+      "rationale": "Tighten the screws is an established pressure idiom, but Cambridge gives put/tighten the screws on someone for coercive pressure. A director using silence to build film tension lacks the pressured person and may teach a different, unsupported sense.",
+      "nextGate": "Identify a person under pressure in the actual source context, or keep held.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+      "decisionFileSha256": "2ec2a2cc13b25cd21d9f1e0a05cd9dee549866c59c0e7bf4936d3b01df34418f"
+    },
+    {
+      "rank": 9,
+      "sourceOrdinal": 2719,
+      "sourceId": "book10-16-0608",
+      "expression": "land a punch",
+      "exactSourceSentence": "A simple line can land a punch in the final verse.",
+      "sourceCategory": "Idiom or set phrase",
+      "verdict": "source-wording-review",
+      "confidence": 0.32,
+      "closestOwnerIds": [
+        "advanced-native-135"
+      ],
+      "rationale": "Cambridge supports land for a joke succeeding and land a punch for a literal blow; a simple lyric line landing a punch blends those constructions. Selected 135 already teaches land as communication impact.",
+      "nextGate": "Do not split from 135 unless independent usage establishes the figurative land-a-punch construction in this exact context.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+      "decisionFileSha256": "3ab486f50083d297f6980bb2f4037afcaafe5aa369f3500610b786727a43d1f1"
+    },
+    {
+      "rank": 10,
+      "sourceOrdinal": 2302,
+      "sourceId": "book10-16-0191",
+      "expression": "cut away",
+      "exactSourceSentence": "The editor chose to cut away the long introduction.",
+      "sourceCategory": "Phrasal verb",
+      "verdict": "source-wording-review",
+      "confidence": 0.3,
+      "closestOwnerIds": [],
+      "rationale": "Cut away is a real phrasal verb, but cut away the long introduction sounds less natural in editing than cut out the introduction; cut away in film commonly means switch shots. The source does not evidence that separate camera sense.",
+      "nextGate": "Verify editing usage for the exact transitive construction before considering a lesson.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionFileSha256": "3deeb54dc9cb42f947e5793bd0588f93c47d88d67c01c0d9f124e456b921cacd"
+    },
+    {
+      "rank": 11,
+      "sourceOrdinal": 2837,
+      "sourceId": "book10-16-0726",
+      "expression": "a spring in its step",
+      "exactSourceSentence": "Good news travels with a spring in its step.",
+      "sourceCategory": "Idiom or set phrase",
+      "verdict": "existing-owner-variant-review",
+      "confidence": 0.28,
+      "closestOwnerIds": [
+        "advanced-native-804"
+      ],
+      "rationale": "A spring in its step personifies good news, whereas selected 804 explicitly teaches a person’s lively step and its detector expects a human possessive. A separate owner would test the same cheerfulness decision.",
+      "nextGate": "Keep held unless the nonhuman subject is established natural usage and can be taught within 804.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+      "decisionFileSha256": "b07aac50ab764f0ab0a35d0813b1e9e10fa8ee4a2203a612d14e2b5d42f2e6ec"
+    },
+    {
+      "rank": 12,
+      "sourceOrdinal": 2847,
+      "sourceId": "book10-16-0736",
+      "expression": "all smoke and no fire",
+      "exactSourceSentence": "The viral claim was all smoke and no fire.",
+      "sourceCategory": "Idiom or set phrase",
+      "verdict": "source-wording-review",
+      "confidence": 0.27,
+      "closestOwnerIds": [],
+      "rationale": "All smoke and no fire appears to reverse the established no smoke without fire proverb; the source intends hollow appearance, but the form risks teaching a coined reversal as a standard idiom.",
+      "nextGate": "Require primary usage evidence for this exact contrast before drafting.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+      "decisionFileSha256": "b07aac50ab764f0ab0a35d0813b1e9e10fa8ee4a2203a612d14e2b5d42f2e6ec"
+    },
+    {
+      "rank": 13,
+      "sourceOrdinal": 3352,
+      "sourceId": "book10-16-1241",
+      "expression": "life does not always move in a straight line",
+      "exactSourceSentence": "Her career shows that life does not always move in a straight line.",
+      "sourceCategory": "Idiom or set phrase",
+      "verdict": "existing-owner-variant-review",
+      "confidence": 0.25,
+      "closestOwnerIds": [
+        "advanced-native-4548"
+      ],
+      "rationale": "Life does not always move in a straight line expresses nonlinear progress, which selected 4548 not a straight line already teaches. The full clause is a productive variant.",
+      "nextGate": "Keep held or evaluate bounded provenance under 4548, not a second lesson.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl",
+      "decisionFileSha256": "41f752c13b9f08935377d8ae5c8dcb7ab452f22441fffce97989c3d4ea42f9f6"
+    },
+    {
+      "rank": 14,
+      "sourceOrdinal": 3983,
+      "sourceId": "book10-16-1872",
+      "expression": "slots into place",
+      "exactSourceSentence": "The final piece slots into place.",
+      "sourceCategory": "Idiom or set phrase",
+      "verdict": "retain-hold",
+      "confidence": 0.21,
+      "closestOwnerIds": [
+        "advanced-native-3984",
+        "advanced-native-2416"
+      ],
+      "rationale": "The final puzzle piece slots into place describes literal assembly. Selected 3984 click into place and 2416 fall into place already cover figurative coherence; source does not itself demonstrate that transfer.",
+      "nextGate": "Keep held; do not invent a figurative source sense.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3972-4031.jsonl",
+      "decisionFileSha256": "173adb496634bc355f677c8699e2e43fa795bddc36856d6eab8d6d9ffb2d5b72"
+    },
+    {
+      "rank": 15,
+      "sourceOrdinal": 4545,
+      "sourceId": "book10-16-2434",
+      "expression": "not standing still",
+      "exactSourceSentence": "Urban transport is not standing still.",
+      "sourceCategory": "Idiom or set phrase",
+      "verdict": "existing-owner-variant-review",
+      "confidence": 0.2,
+      "closestOwnerIds": [
+        "advanced-native-1600"
+      ],
+      "rationale": "Urban transport not standing still conveys change over time, already the learner decision in selected 1600 needs do not stand still. A second negative stand-still lesson would duplicate it.",
+      "nextGate": "Keep held unless a source-faithful bounded 1600 variant is justified.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4512-4571.jsonl",
+      "decisionFileSha256": "3430373ac3811fd3d965df6113a40c20c6af182d006377d74bb472ed95821cec"
+    },
+    {
+      "rank": 16,
+      "sourceOrdinal": 3720,
+      "sourceId": "book10-16-1609",
+      "expression": "thrown aside",
+      "exactSourceSentence": "Working devices are often thrown aside too quickly.",
+      "sourceCategory": "Phrasal verb",
+      "verdict": "existing-owner-variant-review",
+      "confidence": 0.19,
+      "closestOwnerIds": [
+        "advanced-native-4060",
+        "advanced-native-1501"
+      ],
+      "rationale": "Working devices being thrown aside is primarily disposal. Selected 4060 cast aside teaches discard/reject without further use, and 1501 thrown out altogether covers discarding. A new owner would add little distinctive decision.",
+      "nextGate": "Keep held or compare exact phrase variant with 4060; avoid treating literal disposal as a new figurative idiom.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl",
+      "decisionFileSha256": "19b68aa5f89c33595baaddbb10b7485939da5e6275cc004a8c88eede1dd65e37"
+    },
+    {
+      "rank": 17,
+      "sourceOrdinal": 4059,
+      "sourceId": "book10-16-1948",
+      "expression": "before their time",
+      "exactSourceSentence": "Those chairs were discarded before their time.",
+      "sourceCategory": "Idiom or set phrase",
+      "verdict": "retain-hold",
+      "confidence": 0.18,
+      "closestOwnerIds": [],
+      "rationale": "Discarded chairs before their time personifies objects using a phrase more usual of premature death or early events; no reliable distinct seven-step sense is evident from the source.",
+      "nextGate": "Keep held pending exact-usage evidence, not a new lesson.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4032-4091.jsonl",
+      "decisionFileSha256": "ed5c5edb518985bd80198f9cc8c49ae335c42d2934febd2d2be2997a73ccc8f8"
+    },
+    {
+      "rank": 18,
+      "sourceOrdinal": 4154,
+      "sourceId": "book10-16-2043",
+      "expression": "switch off",
+      "exactSourceSentence": "During a dull lecture, the mind can switch off.",
+      "sourceCategory": "Phrasal verb",
+      "verdict": "existing-owner-variant-review",
+      "confidence": 0.18,
+      "closestOwnerIds": [
+        "advanced-native-1487"
+      ],
+      "rationale": "A mind switching off during a dull lecture is exactly selected 1487 switch off straight away’s disengagement sense; omission of straight away is a variant, not a new learner decision.",
+      "nextGate": "Review bounded variant under 1487 if its assessment can support duration differences.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4152-4211.jsonl",
+      "decisionFileSha256": "bc2f35af779a85244c45e5ad62bcf423d1fcc1ad3b23242a58e1471fc267216c"
+    },
+    {
+      "rank": 19,
+      "sourceOrdinal": 4621,
+      "sourceId": "book10-16-2510",
+      "expression": "comfort bubble",
+      "exactSourceSentence": "He stayed inside his comfort bubble throughout the tour.",
+      "sourceCategory": "Figurative use",
+      "verdict": "retain-hold",
+      "confidence": 0.16,
+      "closestOwnerIds": [
+        "advanced-native-1830",
+        "advanced-native-2856"
+      ],
+      "rationale": "Comfort bubble is a transparent blend near selected 1830 step out of their usual bubble and 2856 living in a bubble. The source says a traveller remained in familiar comfort but does not establish a distinct idiom.",
+      "nextGate": "Keep held unless primary usage and a learner decision distinct from both owners emerge.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+      "decisionFileSha256": "0d1aee9a73ef7d252ae68b62e3a7045fed3b44237f11fbc61f43c7b720f47395"
+    },
+    {
+      "rank": 20,
+      "sourceOrdinal": 3442,
+      "sourceId": "book10-16-1331",
+      "expression": "another hurdle to get over",
+      "exactSourceSentence": "After a long shift, cooking seemed like another hurdle to get over.",
+      "sourceCategory": "Idiom or set phrase",
+      "verdict": "retain-hold",
+      "confidence": 0.14,
+      "closestOwnerIds": [
+        "advanced-native-1124"
+      ],
+      "rationale": "Another hurdle to get over is compositional and source is fatigue-driven cooking. An earlier independent full-draft review found that teaching formal project prerequisites shifted away from the source and did not show unique course value.",
+      "nextGate": "Retain hold; prior review independent-ai-review-held-candidates-2262-3682-b.json is the relevant gate.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3432-3491.jsonl",
+      "decisionFileSha256": "3997af9c353b914c85a05e0b492e31113954056ea07744c1be7911bcee890cde"
+    }
+  ],
+  "conclusion": "Only 3707 is presently a plausible distinct new lesson, conditional on A’s source/owner and seven-step gate. The other 19 should stay held or receive bounded owner/source review; no decisions changed."
+}

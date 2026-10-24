@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "batchId": "proposal-owner-726-source-2721-unselected",
+  "lessons": [
+    {
+      "id": "advanced-native-726",
+      "number": 726,
+      "inventoryId": "expr-0726",
+      "titleEn": "visual, social and emotional shorthand",
+      "titleZh": "視覺、社會和情感的簡短提示",
+      "category": "figurative",
+      "contentRevision": 3,
+      "target": {
+        "pattern": "\\b(?:visual|social|emotional) shorthand\\b",
+        "glossaryForbidden": [
+          "\\b(?:visual|social|emotional) shorthand\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p059-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 59,
+          "book": 3,
+          "question": 28,
+          "sample": "S1",
+          "sourceBookPages": "81–84",
+          "sentence": "The colour of the badge became visual shorthand for each team.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "visual shorthand"
+        },
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 50,
+          "expression": "social shorthand",
+          "sentence": "A uniform can be social shorthand for a person's job.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 3,
+          "question": 17,
+          "sample": "S1",
+          "occurrenceId": "pdf-2-p050-t2-r07",
+          "locatorNote": "PDF page 50, table 2, row 7."
+        },
+        {
+          "occurrenceId": "book10-16-0610",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 56,
+          "book": 11,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "40–42",
+          "locatorNote": "DOCX table 51, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The chorus became emotional shorthand for that summer.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "emotional shorthand"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A brief, context-dependent cue that conveys an idea, social role or shared feeling quickly without a full explanation.",
+        "meaningZh": "依靠共同情境、無需完整解釋便能迅速提示意思、社會角色或共同感受的簡短訊號。",
+        "grammar": "X acts as/becomes visual, social or emotional shorthand for + a specific meaning, role or remembered feeling. Emotional shorthand can be a song, sound or other cue that evokes a shared experience; shorthand is metaphorical, not literal note-taking.",
+        "register": "A guide explaining a visual sign to visitors, or a friend explaining a shared memory cue to someone outside the group, can use this neutral explanatory metaphor. The speaker should identify the intended listeners and their shared context.",
+        "boundaryZh": "簡短提示須靠共同情境：一段旋律可喚起某群人的共同感受，不表示所有聽眾都有同一回憶；視覺標記也不代替完整資料。",
+        "misconceptionZh": "要說明訊號對哪群人代表甚麼，不要把私人或團體回憶說成每個人都懂的通用意思。",
+        "outcomeZh": "能以具體情境解釋視覺、社會或情感提示如何簡短傳意，並指出不熟悉情境的人或需補充說明。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "綠色徽章起了甚麼作用？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It quickly signalled a particular role within the event.",
+            "zh": "它在活動中迅速提示一個特定角色。"
+          },
+          {
+            "id": "choice-2",
+            "en": "It guaranteed that every visitor knew the meaning without being told.",
+            "zh": "它保證每位訪客不用告知也知道意思。"
+          },
+          {
+            "id": "choice-3",
+            "en": "It gave a full written explanation of every staff duty.",
+            "zh": "它完整書面解釋每項員工職責。"
+          },
+          {
+            "id": "choice-4",
+            "en": "It meant green badges have the same meaning in every organisation.",
+            "zh": "它表示綠色徽章在每個機構都有同一意思。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "At our event 限定情境；徽章提供簡短角色提示，不代表人人自動明白或職責全寫出。",
+        "en": "At our event, a green badge became visual shorthand for someone trained to give directions.",
+        "zh": "在我們的活動，綠色徽章成為受訓可指路人員的一眼可辨標記。"
+      },
+      "reply": {
+        "promptEn": "Why do you use icons on the activity map?",
+        "promptZh": "你們為甚麼在活動地圖上用圖示？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They provide visual shorthand for places such as toilets and information desks.",
+            "zh": "它們為洗手間和詢問處等地方提供簡短視覺標記。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Visitors can spot the main facilities quickly.",
+            "zh": "訪客可以迅速找到主要設施。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They help when people are scanning rather than reading every label.",
+            "zh": "人們快速掃看而非細讀每個標籤時，圖示有幫助。"
+          },
+          {
+            "id": "choice-4",
+            "en": "We can use the same symbols on the map and signs.",
+            "zh": "我們可以在地圖和指示牌上用同樣符號。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都合理說明圖示用途；金句概括用視覺提示簡短傳意。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "劇團排練時播放一段舊曲，老團員想起艱難的首季終於順利演出，露出欣慰和自豪的笑容；新團員只聽到排練音樂。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "For the older members, that tune became emotional shorthand for the relief and pride of their first season.",
+            "zh": "對老團員來說，那段曲調成了首季欣慰與自豪之情的簡短提示。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The tune mainly stands for the group’s current rehearsal routine, rather than the older members’ first-season feelings.",
+            "zh": "那段曲調主要代表劇團目前的排練慣例，而非老團員對首季的感受。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The tune is emotional shorthand for the new members’ memories of that first season.",
+            "zh": "那段曲調是新團員對那個首季回憶的情感提示。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "老團員聽到曲調便想起首季的欣慰與自豪；新團員並未經歷那段日子。曲調在這裏不是單指目前的排練慣例。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪個推論不宜由 visual shorthand 作出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A sign can convey a familiar idea quickly.",
+            "zh": "標記可以迅速傳達熟悉意思。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Some newcomers may need an explanation of the sign.",
+            "zh": "有些新人可能需要標記的說明。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Every person must understand the sign regardless of context or prior knowledge.",
+            "zh": "無論情境或原有知識，每個人都必須理解標記。"
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "標記常靠共同情境才能理解，不能保證任何人都無需說明。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "新訪客看不懂地圖上的圖示，朋友想刪去文字讓版面更簡潔。哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Icons can be visual shorthand, but a short key will help people who do not know them yet.",
+            "zh": "圖示可以簡短傳意，但一份簡短圖例有助尚未認識它們的人。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Add more symbols to the map before checking which ones confuse the visitors.",
+            "zh": "未查哪些符號令訪客困惑，便在地圖加更多符號。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Copy the icons from another venue and assume the same meanings will be clear here.",
+            "zh": "照抄另一場地的圖示，假設這裏也能清楚理解同樣意思。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "簡短圖例直接幫助不熟悉符號的人；未查問題便加符號或照抄別處用法，未處理新訪客理解。"
+      },
+      "speaking": {
+        "en": "The blue badge is visual shorthand for a trained volunteer here.",
+        "zh": "在這裏，藍徽章是受訓義工的一眼可辨標記。",
+        "promptZh": "你想解釋活動內一種徽章的意思。先聽，再自己說。",
+        "targetSpan": {
+          "start": 18,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你們在校園地圖用小書本圖示表示閱讀角，會先向新生提供圖例。用一至兩句英文說明圖示作用和理解需要。",
+        "examples": [
+          {
+            "en": "The book icon is visual shorthand for a reading corner on our map. We will add a key so new students understand it.",
+            "zh": "地圖上的書本圖示是閱讀角的視覺簡寫。我們會加圖例，讓新生明白。"
+          },
+          {
+            "en": "We use visual shorthand to help students find the reading areas quickly. A short explanation will show what each symbol means.",
+            "zh": "我們用視覺簡寫，幫學生迅速找到閱讀地方。簡短說明會交代每個符號的意思。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The book icon",
+            "zh": "書本圖示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 13
+            }
+          },
+          {
+            "en": "a reading corner",
+            "zh": "閱讀角",
+            "exampleIndex": 0,
+            "span": {
+              "start": 38,
+              "end": 54
+            }
+          },
+          {
+            "en": "add a key",
+            "zh": "加一份圖例",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 84
+            }
+          },
+          {
+            "en": "new students",
+            "zh": "新生",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 100
+            }
+          },
+          {
+            "en": "A short explanation",
+            "zh": "簡短說明",
+            "exampleIndex": 1,
+            "span": {
+              "start": 73,
+              "end": 92
+            }
+          }
+        ],
+        "selfCheckZh": "說清圖示代表閱讀角和提供簡短提示，也保留圖例或說明；不要假設所有新生自然懂。"
+      },
+      "takeaways": [
+        {
+          "en": "The badge became visual shorthand for the team’s role.",
+          "zh": "徽章成為團隊角色的一眼可辨標記。"
+        },
+        {
+          "en": "A familiar tune can become emotional shorthand for an experience shared by a particular group.",
+          "zh": "熟悉的曲調可成為特定群體共同經歷的情感提示。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Visual/social cue senses retained; one assessed emotional cue identifies the shared group and the newcomers who may need context."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "The new emotional cue, group limitation and non-universal contrast were checked against the English scene and takeaway."
+        },
+        "note": "Proposal-only owner expansion; not integrated or independently approved. Assessed IDs and existing audio text apart from takeaway 2 remain unchanged."
+      }
+    }
+  ]
+}

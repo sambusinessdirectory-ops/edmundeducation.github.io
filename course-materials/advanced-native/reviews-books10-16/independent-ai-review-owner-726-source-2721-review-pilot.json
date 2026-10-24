@@ -1,0 +1,41 @@
+{
+  "status": "independent-AI-proposal-review-repair-required-no-integration",
+  "createdUtc": "2026-10-24T03:29:47.035649+00:00",
+  "proposalFile": "course-materials/advanced-native/reviews-books10-16/proposals/owner-726-source-2721-proposed-a.json",
+  "proposalSha256": "e485eac8a21bdb44b75ba8e1056dc767dc08ea28525b19465caea8fee9eda26d",
+  "authorReportSha256": "08b7756b2d31757334648b555f31d7a3623bdf9dd51e6a7c16ddb8aa276e9489",
+  "ownerBeforeFile": "course-materials/advanced-native/batches/batch-0726-0750.json",
+  "ownerBeforeFileSha256": "ef86956fd45d6228fa47b72400a2e6717d8c07b5a7755c5f89fdcadb7a7e9bbf",
+  "ownerBeforeObjectSha256": "15fa5b749cfdba9eec73a8cd67a45e0088ac13c2ef765efb65fc3e4aaaf4daa1",
+  "ownerAfterObjectSha256": "ba71490b87471e761db638752d9c0a97cbeb2d135816390247d419258e8076ea",
+  "sourceOrdinal": 2721,
+  "sourceId": "book10-16-0610",
+  "exactSourceSentence": "The chorus became emotional shorthand for that summer.",
+  "sourceRowSha256": "6887c418b489c57f89bb9cf3f85c6043900d93e5212edbc8d3232cacb3ecc712",
+  "semanticVerdict": "same-shorthand-inference-and-valid-owner-expansion",
+  "contentVerdict": "repair-required",
+  "checks": {
+    "exactSourceProvenance": true,
+    "sourceFullSentenceDetectorMatch": true,
+    "priorVisualSocialFormsStillMatch": true,
+    "assessmentIdsUnchanged": true,
+    "fourValidReply": true,
+    "oneGoldenTargetReply": true,
+    "glossaryExactAnswerSpans": true,
+    "targetAudioChanges": [
+      "takeaways[1].en/zh"
+    ],
+    "liveJsDetectorControls": "Four positives and two non-target negatives passed; the token may also appear under explicit negation, which is a contextual use rather than a pattern error."
+  },
+  "finding": {
+    "id": "R2721-726-01",
+    "severity": "minor-editorial-block-before-integration",
+    "path": "lessons[0].scene.promptZh/options[1..2]/explanationZh",
+    "explanation": "The new assessed emotional-shorthand scene says the old tune recalls shared hardships but does not identify the shared emotion. The key and Chinese call it a shared feeling. Both foils are distant absolutes: all newcomers have the same memory, or the tune gives a complete account of every difficulty. This weakens the distinct emotional-cue decision required for the owner expansion.",
+    "recommendedRepair": "State one grounded shared feeling (e.g. pride or relief when hearing the tune after that first season). Replace both foils with plausible interpretations of timing, factual reminder or group scope that are still unsupported by the prompt. Keep the older-member/newcomer boundary and exact emotional shorthand in the key; align EN/ZH/rationale."
+  },
+  "remainingLimitations": [
+    "Proposal only; no selected owner/decision/manifest change.",
+    "No human or release approval."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-ai-seven-step-exploratory-review",
+  "status": "repair-required-before-selection",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-4410-suck-life-out-b.json",
+  "draftSha256": "51fd8004fc3f015b205e1bc6311efd2406f90e35a6ecdf52b6baa582ac58bdd5",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-4410-suck-life-out-b.json",
+  "authorAuditSha256": "3761553c41eeee9a6b5cd44aa43e26b6551087a380ae23c9a35e7f977add6aa0",
+  "sourceOrdinal": 4410,
+  "sourceId": "book10-16-2299",
+  "exactSourceSentence": "Balanced rules reduce noise without sucking all the life out of the city.",
+  "sourceAndOwnerVerdict": "Distinct, reusable idiom; source uses figurative loss of vitality rather than literal injury. No earlier selected/canonical target detector owns this complete sentence in the frozen author screen.",
+  "checks": {
+    "listening": {
+      "key": "a",
+      "optionCount": 4
+    },
+    "reply": {
+      "key": "a",
+      "optionCount": 4
+    },
+    "scene": {
+      "key": "a",
+      "optionCount": 3
+    },
+    "contrast": {
+      "key": "b",
+      "optionCount": 3
+    },
+    "dialogue": {
+      "key": "a",
+      "optionCount": 3
+    },
+    "speakingTargetSlice": "suck the life out of",
+    "glossaryExact": true
+  },
+  "sevenDecisions": [
+    "listening: infer vitality concern while retaining quiet-hours benefit",
+    "reply: express diplomatic trade-off; all four replies are valid",
+    "scene: infer flatness from removed interviews and music requests",
+    "contrast: reject overclaim from a single typo fix",
+    "dialogue: distinguish exchange/community energy from clearer dates",
+    "speaking: explain loss from open-mic removal",
+    "writing: transfer to museum interpretation with compromise"
+  ],
+  "findings": [
+    {
+      "id": "R4410-01",
+      "severity": "major",
+      "path": "/lessons/0/writing/examples",
+      "explanation": "The writing prompt and self-check require both accurate information and a quiet-visit choice in each model. Model 1 keeps factual panels but adds stories at two stops without preserving a quiet self-guided path; model 2 keeps a quiet option but does not say the factual panels/clear information remain. The models therefore do not each demonstrate the stated learner decision.",
+      "recommendedFix": "In model 1, make the short guided stories optional and preserve a quiet self-guided route. In model 2, explicitly retain the factual panels or accurate information while offering optional Q&A. Align Traditional Chinese and recalculate any changed glossary spans."
+    },
+    {
+      "id": "R4410-02",
+      "severity": "minor",
+      "path": "/lessons/0/listening/options/2-3",
+      "explanation": "Option C asserts live music at every stall throughout quiet hours and D asserts full repeal. Both are remote from the trial of an earlier music slot, so they do little to test the relevant timing-versus-effect distinction. The keyed answer remains correct.",
+      "recommendedFix": "Replace C/D with plausible but unsupported readings of the earlier-slot trial, for example that reduced-volume music continues during quiet hours or that the earlier slot has already solved the traders’ concern. Keep one unambiguous key and align English, Chinese and explanation."
+    }
+  ],
+  "passes": [
+    "Full source phrase is retained in provenance; target pattern matches source, assessed keys, speaking and takeaways.",
+    "No same-sense prior-owner hit identified by author screen.",
+    "Reply options each respectfully address the coordinator’s trade-off, with A carrying the target.",
+    "Scene, contrast and dialogue key reasoning is grounded in the displayed English/Chinese prompts.",
+    "Six glossary items are exact answer-derived English spans and exclude the target.",
+    "Four audio roles and seven schema steps are present; author focused build/check reports 1 lesson, 6 questions, 4 roles, zero flags."
+  ],
+  "limits": "This is independent AI editorial review of the frozen unselected draft, not human approval, real listening, device testing or release clearance."
+}

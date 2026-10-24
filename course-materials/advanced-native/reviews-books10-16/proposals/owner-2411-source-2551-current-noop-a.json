@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "reportType": "read-only-current-state-owner-proposal",
+  "generatedUtc": "2026-10-24T01:44:48.455541+00:00",
+  "sourceOrdinal": 2551,
+  "sourceId": "book10-16-0440",
+  "status": "no-op-already-integrated",
+  "source": {
+    "book": 10,
+    "question": 36,
+    "questionText": "What can you do to learn more about your family history?",
+    "sample": "S2",
+    "sourceBookPages": "87–88",
+    "docxTable": 36,
+    "docxRow": 15,
+    "renderedPdfPage": 40,
+    "expression": "piece it together",
+    "sentence": "We used the letters to piece it together.",
+    "meaningAndReason": "Combine fragments into a coherent understanding; a fixed puzzle image.",
+    "documentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+    "antecedentFromQuestion": "your family history"
+  },
+  "currentDecision": {
+    "action": "proposed-alias-new",
+    "canonicalId": "advanced-native-2411",
+    "finding": "Source 2551 is not currently hold-editorial."
+  },
+  "owner": {
+    "id": "advanced-native-2411",
+    "selectedManifestContainsBatch": true,
+    "contentRevision": 5,
+    "originalOccurrenceId": "book10-16-0300",
+    "addedOccurrenceId": "book10-16-0440",
+    "meaning": "Combine separate pieces of evidence to understand a whole situation.",
+    "targetPattern": "\\b(?:piece|pieces|pieced|piecing) (?:the puzzle|it) together\\b",
+    "sameSenseFinding": "Letters are fragments used to reconstruct the family history named by the source question; this is the evidence-combination sense already taught by owner 2411.",
+    "grammarBoundary": "The owner brief permits piece it together only when it has an already named event or story as antecedent.",
+    "assessedEvidence": {
+      "step3": "Staff pieced it together from the call log and the text notice.",
+      "step3Antecedent": "the sequence of an appointment change established in the Chinese scene prompt",
+      "step3AnswerId": "a"
+    },
+    "transferEvidence": "Takeaway 2 names Mara’s family move before saying that postcards and a tenancy letter helped her piece it together.",
+    "positiveControls": [
+      "We used the letters to piece it together.",
+      "Staff pieced it together from the call log and the text notice.",
+      "We had to piece the puzzle together from short reports."
+    ],
+    "negativeControls": [
+      "They pieced the paper together.",
+      "They pieced it."
+    ],
+    "detectorLimit": "The regex alone can match an antecedent-free piece it together; the brief and assessed contexts carry the necessary pragmatic guard. No new unbounded detector expansion is proposed."
+  },
+  "goldenSopReview": {
+    "sourceProvenance": "The exact second occurrence is already in owner.sources with DOCX file hash, locator, book/question/sample, expression and sentence.",
+    "sevenStepContract": "Existing selected owner retains listening, four-valid reply, scene, contrast, dialogue, speaking and writing; no question ID or grading change is needed for this alias.",
+    "bilingualAssessment": "The changed scene and takeaway are already bilingual and were cleared in the prior exact-hash independent follow-up.",
+    "validation": "Focused owner batch build and --check: 3 lessons, 18 questions, 12 audio requests, 0 review flags."
+  },
+  "recommendedOwnerChanges": [],
+  "recommendedDecisionChanges": [],
+  "reasonForNoChange": "The requested bounded expansion was previously proposed, independently checked, and integrated into both the selected owner and current source decision. Reapplying it would add no coverage and could perturb stable content/audio hashes.",
+  "hashes": {
+    "inventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    "decision": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "sha256": "a399c4addd119a641823fee841e0ff60e8479864475a53e861c8931843295707"
+    },
+    "owner": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2411-2415-a.json",
+      "sha256": "de3dcd8dd747ac12f320422907e36506caeeb9344be1ffca991a14a85c063610"
+    },
+    "selectedManifest": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+      "sha256": "7928f7c6e19bfd703c122c03ecd6e04fc789a407cca8be34e36f93632eb8c497"
+    },
+    "originalProposal": {
+      "path": "course-materials/advanced-native/reviews-books10-16/proposals/owner-expansions-2551-3468-proposed-b.json",
+      "sha256": "17be365c920b39f7eb90bcc311af2bc9e2567e633d06b0f06e55591981d3cb5d"
+    },
+    "independentFollowup": {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-proposals-2551-3468-a-followup.json",
+      "sha256": "bd9f8871876039d692282a3ee238c178eaea4fa041aea567bc7b194b6a8ea1c2"
+    }
+  },
+  "limits": "Read-only audit. No owner, decision, manifest, media, release or publication files changed."
+}

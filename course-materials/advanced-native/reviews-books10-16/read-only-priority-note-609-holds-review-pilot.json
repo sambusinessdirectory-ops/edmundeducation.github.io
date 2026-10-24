@@ -1,0 +1,141 @@
+{
+  "kind": "read-only-priority-note",
+  "status": "scoped-not-comprehensive-609-row-semantic-review",
+  "decisionManifest": {
+    "path": "course-materials/advanced-native/books10-16/editorial-decision-manifest.json",
+    "sha256": "b4c210caa55d0c0d410ba3a19338550888fda1318975ff84ff3d6dbc6c9eb47f",
+    "heldRows": 609
+  },
+  "sourceInventory": {
+    "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "exploratoryBatches": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-3903-4257-review-pilot.json",
+      "sha256": "a180ad66bd8e84c3c68aa527802313c7338bd1e597f8f26dffa66206fe8429e2",
+      "lessons": [
+        {
+          "sourceOrdinal": 3903,
+          "title": "half-formed",
+          "currentDecision": "proposed-new-lesson"
+        },
+        {
+          "sourceOrdinal": 3963,
+          "title": "in smaller doses",
+          "currentDecision": "proposed-new-lesson"
+        },
+        {
+          "sourceOrdinal": 4122,
+          "title": "keep showing up",
+          "currentDecision": "proposed-new-lesson"
+        },
+        {
+          "sourceOrdinal": 4207,
+          "title": "unpack a task",
+          "currentDecision": "proposed-new-lesson"
+        },
+        {
+          "sourceOrdinal": 4257,
+          "title": "attention drifts",
+          "currentDecision": "hold-editorial"
+        }
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4465-4702-review-pilot.json",
+      "sha256": "771b45e6243bd2f0e2638c22a6f78f2c1fc0418fad625c2153b739bab867ec6a",
+      "lessons": [
+        {
+          "sourceOrdinal": 4465,
+          "title": "support livelihoods",
+          "currentDecision": "hold-editorial"
+        },
+        {
+          "sourceOrdinal": 4511,
+          "title": "default choice",
+          "currentDecision": "proposed-new-lesson"
+        },
+        {
+          "sourceOrdinal": 4539,
+          "title": "fumble with",
+          "currentDecision": "proposed-new-lesson"
+        },
+        {
+          "sourceOrdinal": 4589,
+          "title": "drawn-out",
+          "currentDecision": "proposed-new-lesson"
+        },
+        {
+          "sourceOrdinal": 4702,
+          "title": "a haven",
+          "currentDecision": "proposed-new-lesson"
+        }
+      ]
+    }
+  ],
+  "priority": [
+    {
+      "sourceOrdinal": 4257,
+      "sourceId": "book10-16-2146",
+      "sourceSentence": "During a long lecture, attention can drift.",
+      "phrase": "attention can drift",
+      "decision": "hold-editorial",
+      "recommendation": "Conditional distinct new lesson only if six keyed decisions test gradual involuntary attention lapse and recovery, not sudden disengagement (owner1487), deliberate mind-wandering (owner3072), or discussion-topic drift (owner4242). Revised draft pending B freeze."
+    },
+    {
+      "sourceOrdinal": 4465,
+      "sourceId": "book10-16-2354",
+      "sourceSentence": "Tourist purchases can support livelihoods in the village.",
+      "phrase": "support livelihoods",
+      "decision": "hold-editorial",
+      "recommendation": "Retain hold: transparent income collocation and livelihood concept overlaps owner229; no distinct seven-step decision established."
+    },
+    {
+      "sourceOrdinal": 4389,
+      "sourceId": "book10-16-2278",
+      "sourceSentence": "Loud music can cut them off from birdsong.",
+      "phrase": "cut them off from",
+      "decision": "hold-editorial",
+      "recommendation": "Conditional alias-existing owner1347 after bounded sensory-isolation detector and coherent assessed transfer; A proposal pending."
+    },
+    {
+      "sourceOrdinal": 4601,
+      "sourceId": "book10-16-2490",
+      "sourceSentence": "New rail projects can run into political pressure.",
+      "phrase": "run into political pressure",
+      "decision": "hold-editorial",
+      "recommendation": "Conditional alias-existing owner1258 after bounded political-pressure object variant; A proposal pending."
+    },
+    {
+      "sourceOrdinal": 4154,
+      "sourceId": "book10-16-2043",
+      "sourceSentence": "During a dull lecture, the mind can switch off.",
+      "phrase": "switch off",
+      "decision": "hold-editorial",
+      "recommendation": "Possible bounded owner1487 variant, no separate lesson; the immediate-timing boundary needs assessment check."
+    },
+    {
+      "sourceOrdinal": 3352,
+      "sourceId": "book10-16-1241",
+      "sourceSentence": "Her career shows that life does not always move in a straight line.",
+      "phrase": "life does not always move in a straight line",
+      "decision": "hold-editorial",
+      "recommendation": "Possible owner4548 nonlinear-life-path variant, no separate lesson."
+    },
+    {
+      "sourceOrdinal": 4545,
+      "sourceId": "book10-16-2434",
+      "sourceSentence": "Urban transport is not standing still.",
+      "phrase": "not standing still",
+      "decision": "hold-editorial",
+      "recommendation": "Possible owner1600 negative stand-still variant, no separate lesson."
+    }
+  ],
+  "limits": [
+    "All 609 current hold decision statuses were counted; only listed candidates and two exploratory draft batches received focused semantic comparison.",
+    "No selection, decision, draft, or owner content was changed.",
+    "A and B have received the concise priority note and are preparing frozen proposals."
+  ],
+  "correction": "Owner4240 is keep learning on track; the relevant discussion-topic drift owner is 4242. This report supersedes its earlier mistaken nearest-owner label."
+}

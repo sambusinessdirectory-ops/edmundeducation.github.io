@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-ai-exact-hash-seven-step-review",
+  "status": "repair-required-before-selection",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-4379-vehicle-pull-in-a.json",
+  "draftSha256": "112a4e0dfa51cb7202424a8fe669ba024d3a06611b091497dc8704740db59fac",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-4379-vehicle-pull-in-a.json",
+  "authorAuditSha256": "ca5146919ec411eb33df7ebb9cd8e2a83347aa9833e2a1151a652fdc0bb887c4",
+  "sourceOrdinal": 4379,
+  "sourceId": "book10-16-2268",
+  "exactSourceSentence": "Buses were pulling in throughout the morning.",
+  "ownerVerdict": "The vehicle-arrival-and-stop sense is natural and distinct from prior audience-attraction/team-coordination owners. A phrasal verb qualifies under Golden SOP P79, but the lesson needs a stronger source-specific timing decision to justify seven-step breadth.",
+  "findings": [
+    {
+      "id": "R4379-01",
+      "severity": "major",
+      "path": "/lessons/0/scene and sevenDecisionMap",
+      "explanation": "Listening, scene and dialogue all ask learners to confirm that one vehicle arrived and stopped; speaking and writing repeat that same stop-before-boarding/unloading sequence. The source specifically uses plural buses plus throughout the morning to describe repeated arrivals, and the brief explains that this is not one bus parked all morning, yet no assessed task tests the distinction. Golden SOP P90/P97 requires distinct learner actions beyond repeated recognition.",
+      "recommendedFix": "Recast at least one assessed task, preferably the scene, around several vehicles pulling in at different times across a morning versus one vehicle remaining parked or merely passing. Preserve a single defensible key, align Traditional Chinese/rationale, and give the changed step a meaningfully different decision from listening/dialogue. Retain the other contextual boundaries and exact target forms."
+    },
+    {
+      "id": "R4379-02",
+      "severity": "minor",
+      "path": "/lessons/0/listening/options/2-3",
+      "explanation": "Options C (train had left when doors opened) and D (another train boarded while this one remained outside) are remote from the stated Platform Three arrival; they do little to test the arrival/stop-versus-door-opening timing that the listening task could teach. Key A is still correct.",
+      "recommendedFix": "Use plausible but unsupported timing or platform interpretations while keeping A uniquely supported and EN/ZH/explanation aligned."
+    }
+  ],
+  "passes": [
+    "Exact source occurrence and sentence retained; target matches source and four target-bearing keys.",
+    "Vehicle-arrival sense is distinct from audience recruitment and teamwork uses of pull in.",
+    "Four reply options are independently valid practical instructions; only A bears the target.",
+    "English/Traditional Chinese descriptions of arrival, stopping and post-stop boarding are consistent.",
+    "Speaking target span and all five answer-derived glossary spans are exact; target excluded from glossary.",
+    "Author focused build/check reports 1 lesson, 6 questions, 4 audio roles, zero flags, and no six-token guide-source copies."
+  ],
+  "limits": "Independent AI editorial review only. No selected/decision changes, audio listening, physical-device QA, human approval or release authorization."
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "type": "scoped-owner-integration-attestation-no-release",
+  "integratedMappings": [
+    {
+      "sourceOrdinal": 2721,
+      "ownerId": "advanced-native-726",
+      "sourceId": "book10-16-0610"
+    },
+    {
+      "sourceOrdinal": 2729,
+      "ownerId": "advanced-native-1478",
+      "sourceId": "book10-16-0618"
+    }
+  ],
+  "proposalSha256": [
+    "2f962cfa6881ac98ab6eb3b78276e660ff03cf749f4b7d97a20e157d97f1732f",
+    "e9224c9adc1667616b59c27c765c9fd75d1f77f21d8dd9d7f5f0c62da128ea0c"
+  ],
+  "independentReview": [
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-726-source-2721-review-pilot-followup.json",
+      "sha256": "83cc85ac85bd462e6233349dee4205c4251765b900617239921ba55ae80cec53"
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-1478-source-2729-review-pilot.json",
+      "sha256": "31a091b9231218a953291764d4450422637277dd796b5f04d60ca3f603cc9486"
+    }
+  ],
+  "changedFiles": [
+    {
+      "path": "course-materials/advanced-native/batches/batch-0726-0750.json",
+      "sha256Before": "ef86956fd45d6228fa47b72400a2e6717d8c07b5a7755c5f89fdcadb7a7e9bbf",
+      "sha256After": "ed2df5048bc55e8096bf61f3402e7f788dc294d0d406cdbf3f7549f86e196bcb"
+    },
+    {
+      "path": "course-materials/advanced-native/batches/batch-1476-1500.json",
+      "sha256Before": "3d5d7386d7821e2478d695698bd04cfe56a29896d60e9849285833a3f121e08c",
+      "sha256After": "3bec22a6457b15ffd043c40593bc7c06a7380bb0bc63826b73b4c73ee2fbbde8"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+      "sha256Before": "7e9610dd692fed5ce4e6b7ab92b1c03d693426865d01e48ffa212727bacb4cb5",
+      "sha256After": "f7990a4a82cb2b24649426a46a15fe4749fc66c360db2f95e2ae60a2dd12ed6b"
+    }
+  ],
+  "focusedBuildChecks": [
+    {
+      "batch": "batch-0726-0750",
+      "lessons": 21,
+      "questions": 126,
+      "audioRoles": 84,
+      "flags": 0,
+      "build": "pass",
+      "check": "pass"
+    },
+    {
+      "batch": "batch-1476-1500",
+      "lessons": 24,
+      "questions": 144,
+      "audioRoles": 96,
+      "flags": 0,
+      "build": "pass",
+      "check": "pass"
+    }
+  ],
+  "publicRelease": "not performed"
+}

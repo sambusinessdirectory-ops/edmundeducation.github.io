@@ -1,0 +1,32 @@
+{
+  "status": "independent-AI-proposal-content-clear-no-integration-or-human-approval",
+  "createdUtc": "2026-10-24T03:30:34.381888+00:00",
+  "sourceOrdinal": 2721,
+  "ownerId": "advanced-native-726",
+  "proposalFile": "course-materials/advanced-native/reviews-books10-16/proposals/owner-726-source-2721-proposed-a.json",
+  "proposalSha256": "2f962cfa6881ac98ab6eb3b78276e660ff03cf749f4b7d97a20e157d97f1732f",
+  "authorAuditSha256": "feaef309045ae06d04b6a1c13aa1a82905faf91f172429be12e176679a6dfd4c",
+  "priorReviewSha256": "10f5753e19cf22daab374d2bf941b364932a1e8e164126ad280a1c50ae97ace8",
+  "findingResolution": [
+    {
+      "id": "R2721-726-01",
+      "status": "resolved",
+      "evidence": "The prompt now explicitly grounds older members’ relief and pride, and distinguishes newcomers who only hear rehearsal music. Key A uses emotional shorthand for the grounded feeling; B tests mistaken current-routine meaning and C assigns the memory to the wrong group. English, Traditional Chinese and rationale align."
+    }
+  ],
+  "independentChecks": {
+    "sourceFullSentenceTargetMatch": true,
+    "fourPositiveAndThreeNegativeLiveJsControls": true,
+    "keyedSceneNaturalTarget": true,
+    "fiveGlossaryAnswerSpansExact": true,
+    "preexistingReplyFourValidOneGolden": true,
+    "oldAssessmentIdsAndKeysPreserved": true,
+    "newAudioDelta": "takeaways[1] English and Chinese text requires exact-key audio refresh at integration",
+    "ownerSense": "Same context-dependent shorthand inference; emotional cue expands what a quick familiar signal can convey without claiming universal meaning."
+  },
+  "result": "PASS proposal content for independent AI review; selected owner and decision remain unchanged",
+  "limits": [
+    "No human editorial or release approval.",
+    "No draft, selected manifest, decision, audit, audio or deployment file edited."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "author-integration-reviewed-held-lesson-4379",
+  "status": "provisional-unpublished-selection",
+  "gitHead": "8775dda2",
+  "sourceOrdinal": 4379,
+  "sourceId": "book10-16-2268",
+  "ownerId": "advanced-native-4379",
+  "sourceSentence": "Buses were pulling in throughout the morning.",
+  "scope": "Only selected batch-manifest and source 4379 decision row changed by this selection; reviewed draft bytes reused unchanged.",
+  "beforeSha256": {
+    "manifest": "87003363015f40654aff303f71981081d476f09c6282e495983ec46fbb7838f0",
+    "decision": "be0d5723365315c8ad67f7c788f05ffcbf4fce7c53907d2bf6430ca3a98f25aa"
+  },
+  "afterSha256": {
+    "draft": "e614f4f26324f6de3d4ae06d43f8c1d987ac7820270c65214b51ea142aa35a26",
+    "review": "1ab9c44c8119a569b2d4cd734236469fe8140a8593c3f17ec9d3a870d76d180f",
+    "authorAudit": "8a45dea9e3e4eb462ae814c14b2dd54e41d4e8a150000434f46dca120bc4d989",
+    "manifest": "1a7791f9f16b4d95faca1a8398ccc10110b20930e7278e73e32cfa6de0c9b0da",
+    "decision": "6c7067271a8f2ac9520c58ca84cf84e519445ac15e90a695a504b70d573efad8"
+  },
+  "manifest": {
+    "selectedLessons": 632,
+    "selectedBatchFiles": 169,
+    "sourceOrdinalIndex": 560,
+    "batchFileIndex": 119,
+    "strictOrdinalOrder": true
+  },
+  "decision": {
+    "action": "proposed-new-lesson",
+    "canonicalId": "advanced-native-4379",
+    "exactSourceId": "book10-16-2268"
+  },
+  "validation": {
+    "focusedBuildAndCheck": "1 lesson, 6 questions, 4 audio requests, 0 review flags; both pass",
+    "fullVerifier": "2604 decisions, 632 selected new lessons, 3792 questions, 2528 selected audio roles, 0 schema/source/alias errors, 0 exact guide copies, 0 near duplicate flags",
+    "existingAliasAudit": "1190 of 1190 matched, 0 exceptions",
+    "newAliasAudit": "190 of 190 matched, 0 exceptions",
+    "holdAudit": "592 current holds, 0 errors",
+    "targetAndProvenance": "complete exact source matches target; speaking span is target-bearing; source occurrence attached"
+  },
+  "limitations": [
+    "Four new lesson audio roles are not yet synthesized or verified.",
+    "No browser, physical-device, live, media, commit, push or publication QA was performed by this integration."
+  ]
+}

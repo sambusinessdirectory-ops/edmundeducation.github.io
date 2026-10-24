@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-held-4410-suck-life-out-b",
+  "lessons": [
+    {
+      "id": "advanced-native-4410",
+      "number": 4410,
+      "inventoryId": "expr-4410",
+      "titleEn": "suck the life out of",
+      "titleZh": "使……失去生氣與活力",
+      "category": "idiom",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\bsuck(?:s|ed|ing)?\\s+(?:all\\s+)?the life out of\\b",
+        "glossaryForbidden": [
+          "\\bsuck(?:s|ed|ing)?\\s+(?:all\\s+)?the life out of\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A rule, change, or repeated constraint drains much of the energy, spontaneity, or warmth from a place or activity. It is a vivid criticism of the effect, not a claim that people are physically harmed or that the activity has stopped entirely.",
+        "meaningZh": "規則、改動或反覆限制使地方或活動失去許多生氣、自發性或親切感。這是形象化批評其影響，不是說有人受身體傷害，也不等於活動完全停止。",
+        "grammar": "Use suck/sucks/sucked/sucking the life out of + a named place or activity; all adds emphasis. The cause is usually a rule, format, or restriction. A modal can precede suck. In this lesson, the phrase means draining vitality, not literally extracting life.",
+        "register": "Vivid, informal criticism. A resident can raise it with a council officer while acknowledging a noise or safety benefit; a club member can use it with a coordinator to propose a balanced change.",
+        "boundaryZh": "要有證據顯示新安排令活動失去活力，而不只是較安靜、較短或較有規律。可以承認規則的好處，同時指出過度限制的代價；別把形容詞當成活動已停辦。",
+        "misconceptionZh": "不要把任何輕微編輯都說成「抽走生氣」，也不要誤解成有人受傷。要說清楚甚麼被移除、活動氣氛如何改變，以及有甚麼折衷做法。",
+        "outcomeZh": "能在有根據時指出改動如何削弱地方或活動的生氣，區分必要調整與過度限制，並提出具體折衷辦法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2299",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 217,
+          "book": 16,
+          "question": 24,
+          "sample": "S2",
+          "sourceBookPages": "59–60",
+          "locatorNote": "DOCX table 239, row 7; page refers to locally rendered PDF recorded in the intake summary.",
+          "sentence": "Balanced rules reduce noise without sucking all the life out of the city.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "sucking all the life out of the city"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author scoped last-100 held lesson",
+          "evidence": "Exact source sense, seven separate decisions, target form and transfer contexts checked; independent AI review pending."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author scoped last-100 held lesson",
+          "evidence": "Traditional Chinese paraphrases checked for cause, effect, timeline and nonliteral meaning; independent AI review pending."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "Unselected exploratory lesson from held source 4410; no decision or manifest edit."
+        ],
+        "author": "AI author scoped last-100 held lesson",
+        "independentHumanApproval": false
+      },
+      "listening": {
+        "promptEn": "What concern did the traders raise about the quiet-hour rule?",
+        "promptZh": "商販對安靜時段規則提出甚麼憂慮？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They worry that it drains the market’s energy, although it helps residents sleep.",
+            "zh": "他們擔心規則令市集失去活力，儘管它有助居民睡覺。"
+          },
+          {
+            "id": "b",
+            "en": "They say the earlier music slot has already restored the old atmosphere.",
+            "zh": "他們說提早的音樂時段已恢復昔日氣氛。"
+          },
+          {
+            "id": "c",
+            "en": "They say buskers now play more softly during quiet hours, so the market has kept its energy.",
+            "zh": "他們說街頭藝人現於安靜時段內以較小音量演出，所以市集仍有活力。"
+          },
+          {
+            "id": "d",
+            "en": "They are asking the council to move the music later, after quiet hours, rather than trial an earlier slot.",
+            "zh": "他們要求議會把音樂改到安靜時段之後，而非試行較早時段。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "商販承認規則讓居民睡得好，但擔心取消現場演出令市集失去生氣；較早的音樂時段仍在試行，並非安靜時段內調低音量；商販也沒有要求把演出改到安靜時段之後。",
+        "en": "At the night market, a quiet-hour rule stopped the buskers. Residents slept better, but traders said the silence was sucking the life out of the market. The council is trying an earlier music slot instead of a full ban.",
+        "zh": "夜市的安靜時段規則叫停了街頭表演。居民睡得較好，但商販說，這種寂靜正令市集失去生氣。議會正試行較早的音樂時段，而非完全禁演。"
+      },
+      "reply": {
+        "promptEn": "Our youth club now finishes on time for parent pickup, but the new plan removes every game and chat break. How could I raise this with the coordinator?",
+        "promptZh": "青年中心現在能準時結束，方便家長接人，但新安排取消了所有遊戲和聊天休息。我要怎樣向統籌員提出？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Keeping pickup on time matters, but removing every game could suck the life out of the club. Could we keep one short activity?",
+            "zh": "準時讓家長接人很重要，但取消所有遊戲可能令中心失去生氣。我們可否保留一項短活動？"
+          },
+          {
+            "id": "b",
+            "en": "Could we keep the new finishing time and reserve ten minutes for a group game?",
+            "zh": "我們可否維持新的結束時間，同時預留十分鐘玩團體遊戲？"
+          },
+          {
+            "id": "c",
+            "en": "I support shorter sessions, but I would like a brief social break before pickup.",
+            "zh": "我支持縮短活動時間，但希望接人前有短暫的交流休息。"
+          },
+          {
+            "id": "d",
+            "en": "Can we ask families which activities matter most while keeping the new finishing time?",
+            "zh": "我們可否問問家庭最重視哪些活動，同時維持新的結束時間？"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都尊重準時接人的需要，同時提出保留交流或遊戲的可行方法；甲直接點出過度刪減可能削弱中心活力。"
+      },
+      "scene": {
+        "promptEn": "A college radio programme replaces student interviews and music requests with a plain list of announcements. The facts stay accurate, but students stop tuning in because the show feels flat. Which description fits?",
+        "promptZh": "學院電台節目用平鋪直敘的公告清單，取代學生訪問及點歌。資料仍然準確，但學生覺得節目乏味，不再收聽。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The new format sucked the life out of the show, although its information remained accurate.",
+            "zh": "新形式令節目失去生氣，儘管資料仍然準確。"
+          },
+          {
+            "id": "b",
+            "en": "The programme lost listeners because its reliable announcements no longer covered subjects students needed.",
+            "zh": "節目失去聽眾，是因為準確的公告不再涉及學生需要的題材。"
+          },
+          {
+            "id": "c",
+            "en": "The programme lost listeners because the announcements became too long for the available airtime.",
+            "zh": "節目失去聽眾，是因為公告太長，超出可用的播出時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "訪問及點歌被刪掉後，節目雖保留準確資料卻顯得乏味；題目沒有說題材失去相關性或公告過長。"
+      },
+      "contrast": {
+        "promptEn": "Which claim uses “suck the life out of” with the weakest evidence?",
+        "promptZh": "哪一句用「suck the life out of」時證據最弱？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Cutting every shared performance sucked the life out of the festival for many regular visitors.",
+            "zh": "取消所有共同演出，令許多常客覺得節慶失去生氣。"
+          },
+          {
+            "id": "b",
+            "en": "Correcting one typo while keeping the same stories and speakers sucked the life out of the presentation.",
+            "zh": "只改正一個錯字，故事和講者都不變，就令簡報失去生氣。"
+          },
+          {
+            "id": "c",
+            "en": "Removing every personal story from the farewell speech sucked the life out of it.",
+            "zh": "把告別致詞中所有個人故事刪去，令它失去生氣。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只改一個錯字，而故事和講者不變，缺乏氣氛被大幅削弱的證據；甲和丙都指出原本有活力的部分被完全刪掉。"
+      },
+      "dialogue": {
+        "promptEn": "A community garden chair says, “Our new one-way notices explain every planting date, but they replaced the informal planting chats. Fewer volunteers return, and they say they miss sharing ideas. What changed?” Which reply best answers the question?",
+        "promptZh": "社區花園主席說：「新單向通告清楚列出每個種植日期，卻取代了原本的種植閒談。回來的義工少了，他們說懷念交流想法。到底改變了甚麼？」哪個回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The notices made dates clearer, but removing the chats may have sucked the life out of the garden group. Keep the dates and restore a short exchange.",
+            "zh": "通告令日期更清楚，但取消閒談可能令花園小組失去生氣。保留日期資訊，同時恢復短暫交流吧。"
+          },
+          {
+            "id": "b",
+            "en": "The notice may need a clearer date table; let us revise it before bringing the chats back.",
+            "zh": "通告也許需要更清楚的日期表；先修改它，再考慮恢復閒談吧。"
+          },
+          {
+            "id": "c",
+            "en": "Clearer dates should be enough to bring people back without changing the one-way format.",
+            "zh": "只要日期更清楚，即使不改單向通告形式，也足以令義工回來。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "義工明說懷念交流，甲既保留清楚日期，也回應交流被刪後的活力流失；乙和丙都只着眼於日期資訊，忽略義工已說出的交流需要。"
+      },
+      "speaking": {
+        "en": "Removing the open-mic slot would suck the life out of our small poetry evening, even if it made the timetable easier.",
+        "zh": "取消開放朗誦時段會令我們的小型詩歌晚會失去生氣，即使這樣較易安排時間表。",
+        "promptZh": "先聽示範，說明一項改動雖有管理好處，卻可能令活動失去活力。",
+        "targetSpan": {
+          "start": 33,
+          "end": 53
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：小型博物館為了讓參觀更易管理，以靜態資料展板取代所有導賞故事和提問機會。有訪客說資料仍準確，卻失去了原本的生氣。請用一至兩句英文向館方提出既保留清楚資料和安靜參觀選項，又恢復部分互動的建議。",
+        "selfCheckZh": "兩例都要指出具體被移除的互動及其對參觀氣氛的影響，並提出兼顧清楚資料與訪客選擇的折衷方法；不要聲稱博物館已停辦。",
+        "examples": [
+          {
+            "en": "The factual panels are useful, but replacing every guide story with silent text sucked the life out of the museum visit. Could we offer brief guided stories at two stops while keeping the panels and a quiet self-guided route?",
+            "zh": "資料展板很有用，但用無聲文字取代所有導賞故事，令參觀博物館變得乏味。我們可否保留展板及安靜的自助參觀路線，同時在兩個站點提供可自由參加的簡短導賞故事？"
+          },
+          {
+            "en": "The factual panels and quiet option should stay, but removing every chance to ask a guide a question sucked the life out of the tour for some visitors. We could add an optional short question period at selected stops.",
+            "zh": "資料展板及安靜參觀選項應保留，但取消所有向導賞員提問的機會，令部分訪客覺得導賞失去生氣。我們可在指定站點加入可自由參加的簡短提問時段。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The factual panels",
+            "zh": "資料展板",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "every guide story",
+            "zh": "所有導賞故事",
+            "exampleIndex": 0,
+            "span": {
+              "start": 45,
+              "end": 62
+            }
+          },
+          {
+            "en": "brief guided stories at two stops",
+            "zh": "兩個站點的簡短導賞故事",
+            "exampleIndex": 0,
+            "span": {
+              "start": 136,
+              "end": 169
+            }
+          },
+          {
+            "en": "The factual panels and quiet option",
+            "zh": "資料展板及安靜參觀選項",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 35
+            }
+          },
+          {
+            "en": "every chance to ask a guide a question",
+            "zh": "所有向導賞員提問的機會",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 100
+            }
+          },
+          {
+            "en": "an optional short question period at selected stops",
+            "zh": "在指定站點可自由參加的簡短提問時段",
+            "exampleIndex": 1,
+            "span": {
+              "start": 165,
+              "end": 216
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Suck the life out of means drain the energy from a place or activity, not literally stop it.",
+          "zh": "「Suck the life out of」指令地方或活動失去活力，不等於活動真的停止。"
+        },
+        {
+          "en": "A necessary rule can still suck the life out of an event if it removes every lively part; a balanced alternative may keep its purpose.",
+          "zh": "必要規則若刪去所有有生氣的環節，仍可能令活動失去活力；折衷安排或可兼顧原本目的。"
+        }
+      ]
+    }
+  ]
+}

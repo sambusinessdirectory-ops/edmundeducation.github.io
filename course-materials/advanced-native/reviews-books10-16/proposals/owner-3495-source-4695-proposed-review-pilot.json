@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "batchId": "proposal-owner-3495-source-4695-unselected",
+  "lessons": [
+    {
+      "id": "advanced-native-3495",
+      "number": 3495,
+      "inventoryId": "expr-3495",
+      "titleEn": "catch your eye",
+      "titleZh": "吸引目光",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:catch|catches|caught|catching)\\s+(?:the|your|my|his|her|their|our|[A-Za-z]+(?:-[A-Za-z]+)?[’']s)\\s+eye\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Attract visual attention quickly among other things.",
+        "meaningZh": "在其他事物之中迅速吸引人的視線。",
+        "grammar": "Catch/catches/caught someone’s eye or the eye; eye stays singular. The impersonal the-eye form is natural for a striking image or feature. Attraction does not prove quality.",
+        "register": "Everyday browsing: a classmate explains why she noticed a vivid book cover on a crowded shelf.",
+        "boundaryZh": "吸引目光不等於內容值得讀，也不表示一定購買。",
+        "misconceptionZh": "不是眼睛被物件實際抓住；要分清注意到與深入評價。",
+        "outcomeZh": "能說出哪個視覺特徵吸引注意，並保留品質判斷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1384",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 129,
+          "book": 13,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "38–40",
+          "locatorNote": "DOCX table 136, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The bright cover catches your eye.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "catches your eye"
+        },
+        {
+          "occurrenceId": "book10-16-2584",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 244,
+          "book": 16,
+          "question": 58,
+          "sample": "S2",
+          "sourceBookPages": "134–135",
+          "locatorNote": "DOCX table 273, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A postcard image may catch the eye, but service earns a return visit.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "postcard image may catch the eye"
+        }
+      ],
+      "listening": {
+        "en": "Across a crowded station, a bright blue platform sign caught Nia’s eye. She followed it only after checking that its arrow pointed to the platform she needed.",
+        "zh": "擠迫車站裏，一塊鮮藍色月台指示牌吸引了妮雅的目光。她核對箭嘴確實指向所需月台後才跟着走。",
+        "promptZh": "caught Nia’s eye 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The platform sign drew her attention visually.",
+            "zh": "月台指示牌在視覺上吸引了她的注意。"
+          },
+          {
+            "id": "b",
+            "en": "The sign was proven to lead to her platform without checking.",
+            "zh": "指示牌毋須核對就肯定通往她的月台。"
+          },
+          {
+            "id": "c",
+            "en": "The sign physically grabbed her eye.",
+            "zh": "指示牌實際抓住她的眼睛。"
+          },
+          {
+            "id": "d",
+            "en": "She had already followed it before noticing it.",
+            "zh": "她留意到指示牌前已跟着它走。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "鮮藍色令她先注意到月台指示牌，箭嘴方向仍須核對。"
+      },
+      "reply": {
+        "promptEn": "Why did Kai stop at one poster in the corridor? Its large orange arrow stood out among many small grey notices; he still needs to read the details.",
+        "promptZh": "（啟為何在走廊的一張海報前停下？大橙色箭嘴在許多細小灰色告示中很顯眼；他仍須細讀內容。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The arrow drew his gaze first.",
+            "zh": "箭嘴首先吸引他的視線。"
+          },
+          {
+            "id": "b",
+            "en": "The poster stood out visually.",
+            "zh": "海報在視覺上較顯眼。"
+          },
+          {
+            "id": "c",
+            "en": "The orange arrow caught his eye.",
+            "zh": "橙色箭嘴吸引了他的目光。"
+          },
+          {
+            "id": "d",
+            "en": "Its design made him notice it before reading.",
+            "zh": "設計令他未閱讀先留意。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均只說明視覺注意，金句用 caught his eye。"
+      },
+      "scene": {
+        "promptZh": "學生在一排同色盒中看到一個有鮮紅標籤的盒子，先拿起查看。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The red label caught her eye.",
+            "zh": "紅色標籤吸引了她的目光。"
+          },
+          {
+            "id": "b",
+            "en": "The box must contain the best product.",
+            "zh": "盒裏一定是最佳產品。"
+          },
+          {
+            "id": "c",
+            "en": "The label physically held her eye.",
+            "zh": "標籤實際抓住她的眼睛。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "紅色標籤令她先注意，品質未明。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以支持 catch your eye？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A bright mural stands out on a grey wall.",
+            "zh": "鮮豔壁畫在灰牆上很顯眼。"
+          },
+          {
+            "id": "b",
+            "en": "A reader notices a bold title among tiny headings.",
+            "zh": "讀者在細小標題中留意到粗體標題。"
+          },
+          {
+            "id": "c",
+            "en": "A person never sees a poster hidden in a closed drawer.",
+            "zh": "有人完全沒看見藏在關閉抽屜中的海報。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "完全沒有看到，就談不上吸引目光。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「封面 catches your eye，所以內容一定出色。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A cover can catch the eye before you know whether the book is good.",
+            "zh": "封面可先吸引目光，但你仍未知道書是否好。"
+          },
+          {
+            "id": "b",
+            "en": "Visual attention proves the content’s quality.",
+            "zh": "目光被吸引便證明內容品質。"
+          },
+          {
+            "id": "c",
+            "en": "The idiom means physical eye injury.",
+            "zh": "成語表示眼睛受傷。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "注意到與評價品質不同。"
+      },
+      "speaking": {
+        "en": "The blue sign caught my eye beside the crowded noticeboard, so I stopped to read its opening hours.",
+        "zh": "那塊藍色告示在擠滿通知的告示板旁吸引了我的目光，所以我停下來看開放時間。",
+        "promptZh": "先聽示範，再指出是甚麼令說話者停下。",
+        "targetSpan": {
+          "start": 14,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校展示十張社團海報，詩社海報用亮藍色大標題，令穎兒首先注意；她仍未閱讀活動詳情，也沒有決定參加。用一至兩句英文說明目光被吸引與尚未作的判斷。",
+        "selfCheckZh": "寫出亮藍色大標題吸引穎兒、十張海報中先留意、尚未讀詳情或決定加入。",
+        "examples": [
+          {
+            "en": "Among ten club posters, the poetry club’s bright-blue heading caught her eye, but Ying-yi had not read the details or decided to join.",
+            "zh": "十張社團海報之中，詩社亮藍色大標題吸引了穎兒的目光，但她尚未閱讀詳情或決定加入。"
+          },
+          {
+            "en": "The bright-blue title caught Ying-yi’s eye first among the posters; she still needs to check the activities before deciding whether to join.",
+            "zh": "亮藍色標題在眾多海報中首先吸引穎兒的目光；她仍須查看活動內容才決定是否加入。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "ten club posters",
+            "zh": "十張社團海報",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 22
+            }
+          },
+          {
+            "en": "poetry club",
+            "zh": "詩社",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 39
+            }
+          },
+          {
+            "en": "bright-blue heading",
+            "zh": "亮藍色大標題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 61
+            }
+          },
+          {
+            "en": "decided to join",
+            "zh": "決定加入",
+            "exampleIndex": 0,
+            "span": {
+              "start": 118,
+              "end": 133
+            }
+          },
+          {
+            "en": "activities",
+            "zh": "活動內容",
+            "exampleIndex": 1,
+            "span": {
+              "start": 97,
+              "end": 107
+            }
+          },
+          {
+            "en": "whether to join",
+            "zh": "是否加入",
+            "exampleIndex": 1,
+            "span": {
+              "start": 124,
+              "end": 139
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Catch your eye means attract visual attention.",
+          "zh": "吸引目光，指在視覺上引人注意。"
+        },
+        {
+          "en": "Something that caught your eye is not necessarily high quality.",
+          "zh": "吸引了目光的事物不一定品質高。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 4
+    }
+  ]
+}

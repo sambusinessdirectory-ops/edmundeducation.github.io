@@ -2828,17 +2828,18 @@
     "titleZh": "繼續推進事情",
     "category": "phrasal-verb",
     "target": {
-      "pattern": "\\bmov(?:e|es|ed|ing) forward\\b",
+      "pattern": "\\bmov(?:e|es|ed|ing) forward\\b|\\bmov(?:e|es|ed|ing) ahead quickly\\b(?=\\s+with\\s+(?:new|expanded|additional)\\s+(?:rail lines|bus routes|tram links|transport links)\\b)",
       "glossaryForbidden": [
-        "\\bmov(?:e|es|ed|ing) forward\\b"
+        "\\bmov(?:e|es|ed|ing) forward\\b",
+        "\\bmov(?:e|es|ed|ing) ahead quickly\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Make progress with an activity or decision, especially after a difficulty or delay.",
-      "meaningZh": "推進活動或決定，尤指經困難或延誤後。",
-      "grammar": "move forward with a plan; moved in past; can move forward once + condition. The activity or decision supplies the figurative direction.",
-      "register": "Common progress use of a movement phrasal verb. It does not necessarily involve physical travel.",
-      "boundaryZh": "推進不等於已完成、問題全解或必定成功；條件若仍未滿足，需保留可能語氣。",
+      "meaningEn": "Make progress with an activity, decision or development plan, especially after a difficulty or delay; moving ahead quickly describes its pace, not completed success.",
+      "meaningZh": "推進活動、決定或發展計劃，尤指經困難或延誤後；move ahead quickly 說明進展速度，不表示已完成。",
+      "grammar": "Move forward with a plan; moved in the past; can move forward once a condition is met. For a city or project, move ahead quickly with new rail lines or similar transport development describes rapid progress, not a train physically moving. The plan supplies the figurative direction.",
+      "register": "Common figurative progress use. A team lead may tell colleagues a rehearsal can move forward after a timing issue, while a planner may tell residents a rail project is moving ahead quickly after approvals.",
+      "boundaryZh": "推進或進展快不等於已完成、問題全解或必定成功；辨清具體已走的一步及未完成部分。",
       "misconceptionZh": "一次進展可以很實際，仍可有待查資料及後續工作。",
       "outcomeZh": "能指出推進的是哪一步，保留條件及未完成部分。"
     },
@@ -2985,6 +2986,20 @@
         "sample": "S1",
         "locatorNote": "PDF page 262, table 2, row 7; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p262-t2-r07"
+      },
+      {
+        "occurrenceId": "book10-16-2416",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 228,
+        "book": 16,
+        "question": 37,
+        "sample": "S2",
+        "sourceBookPages": "90–91",
+        "locatorNote": "DOCX table 252, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Some cities move ahead quickly with new rail lines.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "move ahead quickly"
       }
     ],
     "listening": {
@@ -3045,26 +3060,26 @@
       "goldenId": "b"
     },
     "scene": {
-      "promptZh": "劇組解決排練時間分歧，現可試第一幕，服裝仍未選。哪句準確？",
+      "promptZh": "城市的新鐵路線獲批後，首段工程較原定時間早動工；測試與餘下路段尚未完成。哪句準確？",
       "options": [
         {
           "id": "a",
-          "en": "We can move forward with rehearsal while costume choices remain open.",
-          "zh": "我們可推進排練，服裝選擇仍未定。"
+          "en": "The city can move ahead quickly with additional rail lines, though testing and other sections remain.",
+          "zh": "城市可迅速推進新鐵路線，但測試及其他路段仍待完成。"
         },
         {
           "id": "b",
-          "en": "The costumes are already selected, but rehearsal has not been able to begin.",
-          "zh": "服裝已選好，排練卻仍未能開始。"
+          "en": "An early start on the first section proves the entire network will open on schedule.",
+          "zh": "首段提前動工，足以證明整個網絡會如期開通。"
         },
         {
           "id": "c",
-          "en": "The group decided not to rehearse any scene after settling the time.",
-          "zh": "定時間後，小組決定任何一幕都不排。"
+          "en": "The project has only moved forward on paper because passengers cannot yet use the new line.",
+          "zh": "新線尚未載客，表示計劃只在紙面上有進展。"
         }
       ],
       "answerId": "a",
-      "explanationZh": "時間分歧已解、可試第一幕，服裝仍未定；兩項進度不能倒轉或混成全停。"
+      "explanationZh": "首段提前動工支持進展快，但不能保證整個網絡如期開通；尚未載客也不抹煞已展開的工程。"
     },
     "contrast": {
       "promptZh": "哪項最不宜只憑 moved forward 得出？",
@@ -3093,8 +3108,8 @@
       "options": [
         {
           "id": "a",
-          "en": "We can continue drafting, but publication of the photographs still depends on permission.",
-          "zh": "可繼續起草，但刊照片仍視乎許可。"
+          "en": "We can move forward with the draft, but publishing the photographs still depends on permission.",
+          "zh": "我們可推進草稿，但刊登照片仍須取得許可。"
         },
         {
           "id": "b",
@@ -3108,7 +3123,7 @@
         }
       ],
       "answerId": "a",
-      "explanationZh": "不同工作可分進度，不能全當已完或全停。"
+      "explanationZh": "草稿可先推進，照片刊登仍待許可；不能把局部進展說成所有步驟已完成，亦不須把全部工作停下。"
     },
     "speaking": {
       "en": "We can move forward with the plan while keeping the unresolved permissions clearly marked.",
@@ -3214,7 +3229,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-438",

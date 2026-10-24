@@ -36,6 +36,7 @@ for (const name of reports) {
 }
 
 const currentHolds = decisions.filter(row => row.action === 'hold-editorial');
+const excludedOneOff = decisions.filter(row => row.action === 'excluded-one-off');
 const supplementalOrdinals = new Set();
 for (const spec of supplementalOwnerReviews) {
   const review = JSON.parse(readFileSync(resolve(reviewRoot, spec.name), 'utf8'));
@@ -57,6 +58,7 @@ const result = {
   reportFiles: reports.length,
   originallyAuditedHolds: audited.size,
   currentHolds: currentHolds.length,
+  excludedOneOff: excludedOneOff.length,
   provisionallyReclassified: audited.size - currentHolds.filter(row => audited.has(row.sourceOrdinal)).length,
   newlyHeldReviewed: newlyHeldReviewed.length,
   unauditedCurrentHolds: currentHolds.filter(row => !audited.has(row.sourceOrdinal) && !newlyHeldReviewed.some(item => item.sourceOrdinal === row.sourceOrdinal)).length,

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-ai-exact-hash-owner-proposal",
+  "status": "content-clear-proposal-only",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-3834-source-4311-proposed-a.json",
+  "proposalSha256": "06384f43558e30e80c9a7f2cb637b9ec26746814a324c809efc34f2abad151cd",
+  "authorReportPath": "course-materials/advanced-native/reviews-books10-16/read-only-fifth101-current-holds-3956-4400-a.json",
+  "authorReportSha256": "19547cb63724340d0e61e7236b25003881dcfb30dd4926fc0bdb30f4ffd7ab7a",
+  "currentSelectedOwnerBatchPath": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3360-3834-review-pilot.json",
+  "currentSelectedOwnerBatchSha256": "14bf74c30a5504daf8fef45c7fc980173184601b1ca14b28189b655be4b69f5f",
+  "sourceOrdinal": 4311,
+  "sourceId": "book10-16-2200",
+  "exactSourceSentence": "Classroom knowledge spills into real life.",
+  "ownerId": "advanced-native-3834",
+  "verdict": "pass",
+  "rationale": "Both source and existing owner teach a figurative effect crossing from one domain into another. The new source uses classroom knowledge to real life, a beneficial transfer, while the earlier source uses work pressure crossing into personal life; positive and negative consequences share the same spill into learner decision. The new scene supplies an observed classroom-to-community application rather than an inferred future benefit.",
+  "checks": {
+    "sourceOccurrenceAndSentenceExact": true,
+    "completeSourceTargetMatch": "spills into",
+    "oldCompleteSourceTargetMatch": "spilling into",
+    "nativeJsPositiveNegativeControls": "3 positive and 3 negative; zero failures",
+    "oldAssessedKeysPreserved": true,
+    "onlyAssessedSceneChanged": true,
+    "sceneKeySupported": "Students learned unit-price comparison in maths, then actually used it to compare two shops for community-garden purchases; B reverses chronology and C denies transfer. Chinese matches.",
+    "writingAndSpeakingUnchanged": true,
+    "allWritingGlossarySpansExact": true,
+    "focusedBuildAndCheckFromAuthor": "1 lesson, 6 questions, 4 roles, zero flags"
+  },
+  "changedEnglishAudioRoles": [
+    "advanced-native-3834:takeaway-2"
+  ],
+  "blockingFindings": [],
+  "nonblockingLimit": "The surface detector can also match literal liquid spill into; the lesson brief, prompts and keyed answers explicitly require figurative cross-domain effects.",
+  "limits": "No selected lesson, decision, manifest, audio or release files were changed in this review. Independent AI clearance only."
+}

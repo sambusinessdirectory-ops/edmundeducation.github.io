@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "reportType": "read-only-two-source-owner-disposition",
+  "generatedUtc": "2026-10-24T01:47:50.404296+00:00",
+  "scope": [
+    3823,
+    3928
+  ],
+  "recommendation": "retain-both-hold-editorial; do not alias to owner 1357 or 1717",
+  "sourceOccurrences": [
+    {
+      "sourceOrdinal": 3823,
+      "sourceId": "book10-16-1712",
+      "book": 14,
+      "question": 28,
+      "questionText": "Are there many charities in your country?",
+      "sample": "S2",
+      "sourceBookPages": "62–63",
+      "docxTable": 172,
+      "docxRow": 8,
+      "renderedPdfPage": 161,
+      "expression": "social fabric",
+      "sentence": "Volunteers strengthen the social fabric.",
+      "meaningAndReason": "The network of relationships that holds a society together; a fixed fabric metaphor.",
+      "currentAction": "hold-editorial"
+    },
+    {
+      "sourceOrdinal": 3928,
+      "sourceId": "book10-16-1817",
+      "book": 15,
+      "question": 5,
+      "questionText": "Do you think the types of sports that are popular will change in the future?",
+      "sample": "S2",
+      "sourceBookPages": "13–14",
+      "docxTable": 183,
+      "docxRow": 11,
+      "renderedPdfPage": 171,
+      "expression": "social fabric",
+      "sentence": "Volunteers strengthen the social fabric.",
+      "meaningAndReason": "The network of relationships that holds a society together; a fixed fabric metaphor.",
+      "currentAction": "hold-editorial",
+      "sourceContextCaveat": "The exact sentence repeats the Book 14 example but has no explicit sports link; retain this source-context question for any later owner decision rather than inventing a sports-specific reading."
+    }
+  ],
+  "sourceDocument": {
+    "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+    "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012"
+  },
+  "naturalness": {
+    "finding": "Social fabric is a conventional figurative noun for relationships/structures connecting a society or community. Strengthen the social fabric is a natural compositional predicate+noun use; source does not itself establish an earlier rupture or threatened collapse.",
+    "primaryReferences": [
+      {
+        "title": "Oxford Advanced Learner’s Dictionary: fabric, figurative social structure sense",
+        "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/fabric"
+      },
+      {
+        "title": "BBC Learning English: social fabric as community relationships",
+        "url": "https://downloads.bbc.co.uk/learningenglish/features/6min/250306_6_minute_english_the_country_that_measures_happiness_.pdf"
+      }
+    ]
+  },
+  "ownerComparisons": [
+    {
+      "ownerId": "advanced-native-1357",
+      "title": "knit the social fabric back together",
+      "targetPattern": "\\bknit(?:s|ted|ting)? the social fabric back together\\b",
+      "fullSourceDetectorMatch": false,
+      "taughtDecision": "Restore relationships after a prior rupture; back together requires an earlier connected state and observed reconnection.",
+      "whyNotSameSenseOwner": "The volunteer sentence says strengthen; it gives neither a previous rupture nor restoration. Adding bare social fabric would make this repair lesson accept improvement cases its Step 3 deliberately rejects."
+    },
+    {
+      "ownerId": "advanced-native-1717",
+      "title": "keeps the social fabric from coming apart",
+      "targetPattern": "\\bkeep(?:s|ing)? the social fabric from coming apart\\b|\\bkept the social fabric from coming apart\\b",
+      "fullSourceDetectorMatch": false,
+      "taughtDecision": "Maintain existing ties despite pressure and prevent them from coming apart.",
+      "whyNotSameSenseOwner": "Strengthening may create or deepen ties without a stated risk of coming apart. Adding the noun alone would erase the maintenance-versus-improvement distinction in the brief and assessed scene."
+    }
+  ],
+  "selectedDetectorScreen": {
+    "recordsScanned": 2509,
+    "fullSourceSentence": "Volunteers strengthen the social fabric.",
+    "matchingSelectedOrCanonicalTargetPatterns": [],
+    "scope": "Current canonical batches plus files in the unpublished selected Books 10–16 manifest; full source sentence tested with live JavaScript regex flags gi."
+  },
+  "goldenSopAssessment": {
+    "sourceContext": "P66/P70/P71 require exact occurrence, context, grammar and intended sense. Both occurrences are retained verbatim with distinct question locators; 3928 context mismatch remains explicit.",
+    "modeling": "P68 requires original changed-context practice rather than copying the guide sentence. Existing 1357/1717 tasks teach narrower actions, so a regex-only alias would not teach the source meaning.",
+    "teachingContract": "P253/P326 require coherent seven-step assessment and fair keyed decisions; an umbrella noun expansion would need revised brief, keys and examples, not only a detector branch."
+  },
+  "futurePath": "If editorial scope calls for this reusable noun, evaluate one separate provisional social fabric lesson covering strengthening/community links, with original seven distinct decisions and an explicit comparison to repair (1357) and preservation (1717). Treat 3928 as an exact repeated occurrence of the same source sentence; do not create a second lesson. This is a candidate, not approval or a drafted lesson.",
+  "proposedOwnerChanges": [],
+  "proposedDecisionChanges": [],
+  "files": {
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    "decision3823": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl",
+      "sha256": "68fc4397f3a42e0dad00a1324935c27b6be15c3c817e8f233de149db56382952"
+    },
+    "decision3928": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3912-3971.jsonl",
+      "sha256": "1cd256bb57c09ccca9017daa811d650ae13cb0594cd78dafda2a6e73c478410f"
+    },
+    "owner1357": {
+      "path": "course-materials/advanced-native/batches/batch-1351-1375.json",
+      "sha256": "892cc4d158497385839e2189591cf47fed2002c60ab4e0bf5728e0cc888e89e4"
+    },
+    "owner1717": {
+      "path": "course-materials/advanced-native/batches/batch-1701-1725.json",
+      "sha256": "be64c87c9f9394ad39b20111f2c70ce8613a670d5418e980c4662767b2751b6f"
+    },
+    "selectedManifest": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+      "sha256": "7928f7c6e19bfd703c122c03ecd6e04fc789a407cca8be34e36f93632eb8c497"
+    },
+    "priorTriage3823": {
+      "path": "course-materials/advanced-native/reviews-books10-16/read-only-hold-alias-triage-3000-4000-61-review-pilot.json",
+      "sha256": "ee3f1f5c60ed26ef8cee2f0b331f8326c7c2d9be8698e5f0548741c69cef9c8e"
+    },
+    "priorTriage3928": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-held-reconciliation-3928-4480-ten-b.json",
+      "sha256": "670d1b26889b4dc75f8bc7bac5c1ad4410738e535e03671e683993807a5b85a9"
+    }
+  },
+  "limits": "Read-only semantic/detector review. No owner, decision, manifest, media, release, stage, commit or publication edit."
+}

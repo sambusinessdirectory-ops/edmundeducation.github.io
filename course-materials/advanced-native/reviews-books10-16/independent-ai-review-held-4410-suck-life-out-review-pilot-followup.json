@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-ai-scoped-exact-hash-follow-up",
+  "status": "content-clear-proposal-only",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-4410-suck-life-out-b.json",
+  "draftSha256": "810f83d5346afd47887b414556bb267a06c637971855dbb30f7b944e764c706f",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-4410-suck-life-out-b.json",
+  "authorAuditSha256": "7923725c34b032bc3795898f3b32e483da0273dc9f07a37f91bd7b76802733b5",
+  "priorReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-4410-suck-life-out-review-pilot.json",
+  "priorReviewSha256": "d3507ff675abb502dadd47cce89058b62f38a6a0596704c227cfba207b2b0b00",
+  "lessonId": "advanced-native-4410",
+  "contentRevision": 2,
+  "findingFollowup": [
+    {
+      "id": "R4410-01",
+      "status": "resolved",
+      "evidence": "Both writing models now retain accurate factual panels and a quiet self-guided option while offering optional guide stories or Q&A. Both identify the removed interaction and its effect, address the museum directly, and align English/Traditional Chinese. Six glossary slices remain exact."
+    },
+    {
+      "id": "R4410-02",
+      "status": "resolved",
+      "evidence": "Listening C now tests a plausible but unreported low-volume music adaptation during quiet hours; D tests an unreported later-slot request. A remains the sole supported trader concern. English, Chinese and rationale align."
+    }
+  ],
+  "regressionChecks": {
+    "sourceSentenceUnchanged": true,
+    "fullSourceTargetMatched": true,
+    "listeningAnswerId": "a",
+    "replyGoldenId": "a",
+    "sceneAnswerId": "a",
+    "contrastAnswerId": "b",
+    "dialogueAnswerId": "a",
+    "allGlossarySlicesExact": true,
+    "fourValidRepliesStillGrounded": true,
+    "focusedBuildAndCheckFromAuthor": "1 lesson, 6 questions, 4 roles, zero flags"
+  },
+  "remainingBlockingFindings": [],
+  "limits": "Independent AI editorial clearance for unselected draft only; no human review, audio listening, visual acceptance or release approval."
+}

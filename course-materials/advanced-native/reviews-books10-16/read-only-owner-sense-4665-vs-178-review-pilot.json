@@ -1,0 +1,50 @@
+{
+  "reviewType": "read-only AI editorial sense and lesson audit",
+  "sourceOrdinal": 4665,
+  "sourceId": "book10-16-2554",
+  "sourceSentence": "Repeated trampling can chip away at the place.",
+  "sourceExpression": "chip away at the place",
+  "sourceContext": "Book 16, question 54 asks about negative impacts of tourism; the guide glosses the sentence as gradual damage to the site in small ways. The physical substrate or particular kind of damage is not identified.",
+  "currentDecision": "hold-editorial",
+  "candidateOwner": "advanced-native-178",
+  "verdict": "retain-hold-editorial",
+  "confidence": "high",
+  "evidence": {
+    "sourceSense": "The guide intends cumulative physical site damage from repeated trampling. The phrase 'the place' is vague, and trampling does not itself specify chipping, loss of stone, loss of surface, or another affected property.",
+    "ownerSense": "Owner 178 teaches repeated small effects gradually weakening or reducing confidence, stereotypes, savings, budget or health. Its title and brief are broad enough to suggest a family resemblance, but the six keyed assessments and writing models all use the confidence/feedback case; none asks learners to distinguish physical surface loss from figurative erosion.",
+    "dictionaryBoundary": "Cambridge defines 'chip away at something' as gradually reducing something so it becomes smaller or weaker; it separately defines 'chip something away' as breaking off small physical pieces. This source might be interpreted as literal site damage, but it does not identify the material or quantity being reduced. A broad detector over 'the place' would be a surface match without secure sense evidence.",
+    "targetDetector": {
+      "sourceFullSentenceMatchesCurrentOwner": false,
+      "positiveControlsMatching": [
+        "Comparisons can chip away at their confidence over time.",
+        "Constant overtime can chip away at their health.",
+        "Small daily purchases chipped away at her savings."
+      ],
+      "negativeOrUncoveredControls": [
+        "Repeated trampling can chip away at the place.",
+        "Repeated foot traffic can chip away at the stone path."
+      ],
+      "risk": "Adding a generic 'place/site/path' object branch would match both literal breakage and vague metaphorical site damage without establishing the taught learner decision."
+    },
+    "otherOwnerScreen": "No better selected owner found among the nearby erosion/damage lessons. Owner 171 is weakening a person's resistance; owner 569 is being exhausted or worn down; neither owns cumulative physical site damage. A second 'chip away at' lesson would duplicate owner 178's target phrase while resting on an underspecified example.",
+    "priorReviewReconciliation": "An earlier decision review considered 4665 a same-unit alias after owner expansion; a later implementation review returned it to hold because the object and physical-site sense were underspecified. The present review agrees with the latter disposition after inspecting the current owner assessments and live detector."
+  },
+  "nextGate": "Keep the exact source row as an editorial hold. Reconsider only with source-grounded evidence of the affected physical material or a clearly specified figurative object, plus a deliberately revised owner lesson that assesses physical-versus-figurative use, natural EN/ZH, and a bounded full-source detector. Do not silently replace the source sentence with a smoother guide-written example.",
+  "fileSha256": {
+    "sourceInventory": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "ownerBatch0176_0200": "b6aaa6ab9a5eae75205a1f7da705dbaf2f2af4528b2d3f6d061e2ede42ae0ba2",
+    "decisionBatch4632_4691": "b9e82ccec46a1f94d32a253bec03537abd88f5f8aaeec3c9fbad555c391688d0",
+    "reconciliationRegister": "0a21425d3977689d7a164b27f188dbfecc59918c88d09d3231692a36404c125d"
+  },
+  "languageSources": [
+    {
+      "title": "Cambridge Dictionary: chip away at something",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/chip-away-at"
+    },
+    {
+      "title": "Cambridge Dictionary: chip something away",
+      "url": "https://dictionary.cambridge.org/dictionary/english/chip-away"
+    }
+  ],
+  "scope": "Read-only editorial recommendation. No owner, decision, manifest, assessment, audio or release file was edited; no human approval is claimed."
+}

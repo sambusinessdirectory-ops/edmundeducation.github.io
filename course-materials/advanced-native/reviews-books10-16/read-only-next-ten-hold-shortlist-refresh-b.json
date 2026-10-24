@@ -1,0 +1,106 @@
+{
+  "status": "read_only_no_decision_or_content_mutation",
+  "generatedAtUTC": "2026-10-24T00:21:36.023358+00:00",
+  "scope": "Refresh of next-ten hold shortlist after selected/pending cohorts, with current Books 10–16 source and decision rows",
+  "inputEvidence": {
+    "sourceInventoryPath": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "priorShortlistPath": "course-materials/advanced-native/reviews-books10-16/read-only-next-ten-held-lesson-shortlist-a.json",
+    "priorShortlistSha256": "fe4bf287e29a68488b18442366ccedb994ae0d129a086c6fded8767951c2d3fc"
+  },
+  "counts": {
+    "highConfidenceSameSenseOwnerLeads": 2,
+    "conditionalSameSenseOwnerLeads": 1,
+    "highConfidenceDistinctNewLessons": 0,
+    "unresolvedFigurativeUnitLeads": 1,
+    "requestedSlotsUnfilled": 6
+  },
+  "method": "Checked full source example and meaning, current decision action, and selected owner brief/target/provenance. Prior shortlisted 3264,3442,3682,2262,2506,2816,3630 and 4596 have already been addressed by later proposal, selection, or withdrawal; no repeated promotion claim. Candidate count is deliberately below ten because evidence does not support ten untouched high-confidence items.",
+  "candidates": [
+    {
+      "sourceOrdinal": 2551,
+      "sourceId": "book10-16-0440",
+      "sourceExpression": "piece it together",
+      "exactSourceSentence": "We used the letters to piece it together.",
+      "sourceMeaning": "Combine fragments into a coherent understanding; a fixed puzzle image.",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "decisionFileSha256": "fe8dda0b93e9cebcb6c26f4c25144c748163e4507345f132ceb33a69fb0576cb",
+      "recommendation": "high-confidence same-sense owner lead",
+      "proposedOwner": 2411,
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-2411-2415-a.json",
+      "ownerFileSha256": "d835380932b20eabff2c61a61c65f45e4d86ef46b4eef63b14def15d7629ee0e",
+      "assessment": "Letters are fragments used to reconstruct family history. Owner2411 combines separate evidence into an account; source uses the natural pronoun-object form piece it together rather than owner title piece the puzzle together. Cambridge also documents piece something together for reconstructing facts. The current owner detector misses the source and needs a bounded pronoun-object teaching and assessment review.",
+      "nextStep": "Author a bounded owner-2411 variant proposal with exact provenance and whole-source positive/negative controls; independently review before any decision change."
+    },
+    {
+      "sourceOrdinal": 3468,
+      "sourceId": "book10-16-1357",
+      "sourceExpression": "take the shine off it",
+      "exactSourceSentence": "A long journey can take the shine off it.",
+      "sourceMeaning": "Reduce enjoyment or appeal; a fixed light metaphor.",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3432-3491.jsonl",
+      "decisionFileSha256": "74f7ddda1cdfc7a59a7b7e9dff8b1bf158bdac67f37024cae016db2583406c5d",
+      "recommendation": "high-confidence same-sense owner lead",
+      "proposedOwner": 1839,
+      "ownerFile": "course-materials/advanced-native/batches/batch-1826-1850.json",
+      "ownerFileSha256": "c652134bd9bf2763359dbebf092e17f9ad9472ff9bddcc88588303106d3020be",
+      "assessment": "A long journey reduces the enjoyment or appeal of the experience. Owner1839 teaches precisely this loss-of-pleasure sense but its title and detector are limited to the trip. The pronoun it needs a clearly established antecedent, so a bare broad regex would be unsafe.",
+      "nextStep": "Review a context-bounded owner-1839 expansion that teaches an explicit enjoyment antecedent and preserves the legacy trip case; do not convert by detector match alone."
+    },
+    {
+      "sourceOrdinal": 2594,
+      "sourceId": "book10-16-0483",
+      "sourceExpression": "money is a good servant, but a poor master",
+      "exactSourceSentence": "My grandfather believed money is a good servant, but a poor master in family life.",
+      "sourceMeaning": "Money helps when controlled but harms when allowed to rule life; an extended personification.",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+      "decisionFileSha256": "af35297774e349bed5011917bb4452a68ce1c6a3c90c7fd27bf0071fcd3ae8d3",
+      "recommendation": "conditional same-sense owner lead",
+      "proposedOwner": 2457,
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-2449-2458-a.json",
+      "ownerFileSha256": "246612f90c73f07713499a15cb13d039b0748a18cc1330a68f0743ec350264a9",
+      "assessment": "Money as useful servant versus harmful master has the same control-versus-domination decision as selected owner2457 technology as brilliant servant versus poor master. The adjectives and subject differ, and the owner currently teaches a tool-specific form. A two-construction owner expansion would be substantive but preferable to a duplicate lesson if pedagogy stays coherent.",
+      "nextStep": "Prepare read-only two-construction proposal with separate money/technology examples and bounded target; require independent semantic and assessed-key review."
+    },
+    {
+      "sourceOrdinal": 3275,
+      "sourceId": "book10-16-1164",
+      "sourceExpression": "the lesson can lose its teeth",
+      "exactSourceSentence": "Without follow-through, the lesson can lose its teeth.",
+      "sourceMeaning": "A consequence becomes too weak to matter; a teeth metaphor.",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionFileSha256": "c817e0b379d508d503a63e1c41a4c85b9ce57b1c2c187426fe0ea23cafa36aa6",
+      "recommendation": "unresolved figurative-unit lead",
+      "proposedOwner": null,
+      "ownerFile": null,
+      "ownerFileSha256": null,
+      "assessment": "The source means a lesson without follow-through lacks force. No current selected title was found for lose its teeth, but the application to a lesson is an extension of enforcement/consequence language; fixedness and seven distinct decisions remain unverified.",
+      "nextStep": "Retain hold pending primary usage evidence and a seven-step transfer sketch; not a high-confidence new-lesson promotion."
+    }
+  ],
+  "excludedExamples": [
+    {
+      "sourceOrdinal": 2401,
+      "reason": "Tighten the screws ordinarily pressures a person to act; the director/silence source stretches it to suspense, so retain hold."
+    },
+    {
+      "sourceOrdinal": 2847,
+      "reason": "All smoke and no fire reverses the familiar proverb; contemporary fixedness remains unverified."
+    },
+    {
+      "sourceOrdinal": 4151,
+      "reason": "Already authored unselected and independently content-cleared; outside next shortlist."
+    },
+    {
+      "sourceOrdinal": 2554,
+      "reason": "Already authored unselected and independently content-cleared; outside next shortlist."
+    }
+  ],
+  "externalPrimaryUsage": {
+    "pieceSomethingTogether": "https://dictionary.cambridge.org/dictionary/english/piece-together"
+  }
+}

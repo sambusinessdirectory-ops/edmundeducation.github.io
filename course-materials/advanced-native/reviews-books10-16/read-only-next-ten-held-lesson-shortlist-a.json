@@ -1,0 +1,263 @@
+{
+  "status": "read_only_shortlist_not_authorisation_to_promote",
+  "generatedAtUTC": "2026-10-23T23:02:50.942816+00:00",
+  "scope": "current Books 10–16 held-source occurrences; selected and exploratory lesson sources excluded",
+  "inputEvidence": {
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "editorialDecisionManifestSha256": "b4c210caa55d0c0d410ba3a19338550888fda1318975ff84ff3d6dbc6c9eb47f",
+    "decisionFileCount": 45,
+    "decisionActions": {
+      "hold-editorial": 650,
+      "proposed-alias-existing": 1159,
+      "proposed-alias-new": 181,
+      "proposed-new-lesson": 614
+    },
+    "heldSourceCount": 650,
+    "heldAlreadyAttachedToDiscoveredLessons": 3,
+    "heldUndraftedCount": 647,
+    "discoveredLessonRecords": 2541
+  },
+  "method": "Compared exact source expression, example and meaning with all discovered canonical/selected/exploratory lesson titles, briefs and target detectors. A regex miss is not proof of distinct semantic ownership. Naturalness and seven-step transfer were reviewed qualitatively; conditional entries require a separate idiomaticity and pedagogical gate. No decision, draft, manifest, media or audit was changed.",
+  "candidates": [
+    {
+      "rank": 1,
+      "sourceOrdinal": 3264,
+      "sourceId": "book10-16-1153",
+      "book": 12,
+      "question": 41,
+      "sourceExpression": "learning is caught rather than taught",
+      "exactSourceExample": "At home, much learning is caught rather than taught.",
+      "sourceMeaning": "Children absorb behaviour through observation; a catch metaphor.",
+      "proposedTargetUnit": "caught rather than taught",
+      "whyNotSameSenseAlias": "Education maxim: observed behaviour learned without direct instruction; unlike 366/367 information uptake, the decision is whether modelling changes conduct.",
+      "nearestKnownOwners": [],
+      "liveDetectorMatchesOnFullSource": [],
+      "sourceNaturalness": "Natural generalisation of the source maxim; fixedness needs editorial confirmation.",
+      "sevenStepTransferPotential": "Compare adult modelling, peer norms, home routines, and explicit instruction; do not imply teaching is ineffective.",
+      "confidence": "high",
+      "promotionStatus": "shortlist_only_not_approved"
+    },
+    {
+      "rank": 2,
+      "sourceOrdinal": 3442,
+      "sourceId": "book10-16-1331",
+      "book": 13,
+      "question": 9,
+      "sourceExpression": "another hurdle to get over",
+      "exactSourceExample": "After a long shift, cooking seemed like another hurdle to get over.",
+      "sourceMeaning": "Another difficulty to overcome; a fixed obstacle metaphor.",
+      "proposedTargetUnit": "a hurdle to get over",
+      "whyNotSameSenseAlias": "Canonical 1124 at the first hurdle marks the timing of a first obstacle; this source describes an additional task experienced as a difficulty to overcome.",
+      "nearestKnownOwners": [
+        1124
+      ],
+      "liveDetectorMatchesOnFullSource": [],
+      "sourceNaturalness": "Standard figurative hurdle construction; Cambridge defines a hurdle as a difficulty to overcome.",
+      "sevenStepTransferPotential": "Decide whether a further task is a real obstacle, how to get over it, and when support reduces it.",
+      "confidence": "high",
+      "promotionStatus": "shortlist_only_not_approved"
+    },
+    {
+      "rank": 3,
+      "sourceOrdinal": 3682,
+      "sourceId": "book10-16-1571",
+      "book": 14,
+      "question": 12,
+      "sourceExpression": "rewrite the story they were telling themselves",
+      "exactSourceExample": "For the new pupil, a supportive class helped rewrite the story they were telling themselves.",
+      "sourceMeaning": "Change a negative self-concept; a narrative metaphor.",
+      "proposedTargetUnit": "rewrite the story you tell yourself",
+      "whyNotSameSenseAlias": "Self-narrative revision based on new experience; not revision of a literal document or historical account.",
+      "nearestKnownOwners": [],
+      "liveDetectorMatchesOnFullSource": [],
+      "sourceNaturalness": "Natural narrative metaphor; normalize pronouns and tense from the source.",
+      "sevenStepTransferPotential": "Separate unsupported positive spin from an evidence-based revision of self-belief across school, work, sport.",
+      "confidence": "high",
+      "promotionStatus": "shortlist_only_not_approved"
+    },
+    {
+      "rank": 4,
+      "sourceOrdinal": 2262,
+      "sourceId": "book10-16-0151",
+      "book": 10,
+      "question": 11,
+      "sourceExpression": "come back to themselves",
+      "exactSourceExample": "After the break, the performers began to come back to themselves.",
+      "sourceMeaning": "Recover their usual sense of balance or identity; a natural reflective phrase.",
+      "proposedTargetUnit": "come back to yourself",
+      "whyNotSameSenseAlias": "Regain ordinary balance or identity after disruption; canonical 1750 pulled themselves back from the brink requires near-serious failure and active rescue.",
+      "nearestKnownOwners": [
+        1750
+      ],
+      "liveDetectorMatchesOnFullSource": [],
+      "sourceNaturalness": "Natural reflective phrase, but review singular/plural reflexive agreement.",
+      "sevenStepTransferPotential": "Distinguish simple rest from recovery of one’s usual self across performance, illness recovery, stress.",
+      "confidence": "medium",
+      "promotionStatus": "shortlist_only_not_approved"
+    },
+    {
+      "rank": 5,
+      "sourceOrdinal": 2506,
+      "sourceId": "book10-16-0395",
+      "book": 10,
+      "question": 32,
+      "sourceExpression": "a browser with too many tabs open",
+      "exactSourceExample": "On busy days, my brain feels like a browser with too many tabs open.",
+      "sourceMeaning": "A mind trying to handle too many thoughts at once; a digital simile.",
+      "proposedTargetUnit": "too many tabs open",
+      "whyNotSameSenseAlias": "Digital simile for competing thoughts; no current same-title or exact-source owner. Different from merely being busy: concurrent mental switching is central.",
+      "nearestKnownOwners": [],
+      "liveDetectorMatchesOnFullSource": [],
+      "sourceNaturalness": "Contemporary figurative simile rather than a fixed dictionary idiom; teach as such.",
+      "sevenStepTransferPotential": "Differentiate mental overload, actual browser tabs, task prioritisation, and when closing a thread helps.",
+      "confidence": "medium",
+      "promotionStatus": "shortlist_only_not_approved"
+    },
+    {
+      "rank": 6,
+      "sourceOrdinal": 2816,
+      "sourceId": "book10-16-0705",
+      "book": 11,
+      "question": 26,
+      "sourceExpression": "the truth catches up",
+      "exactSourceExample": "A rumour can spread before the truth catches up.",
+      "sourceMeaning": "Correct information eventually reaches people; a pursuit metaphor.",
+      "proposedTargetUnit": "the truth catches up",
+      "whyNotSameSenseAlias": "Correct information reaches the audience after a rumour; canonical 1521 catching up means friends exchanging recent news, not a delayed correction.",
+      "nearestKnownOwners": [
+        1521
+      ],
+      "liveDetectorMatchesOnFullSource": [
+        {
+          "owner": 1521,
+          "title": "catching up"
+        }
+      ],
+      "sourceNaturalness": "Natural pursuit metaphor; avoid promising that truth inevitably wins.",
+      "sevenStepTransferPotential": "Contrast rumour lead versus verified correction; do not invent eventual vindication. Existing 1521 detector matches the source mechanically and must be narrowed first.",
+      "confidence": "medium",
+      "promotionStatus": "shortlist_only_not_approved"
+    },
+    {
+      "rank": 7,
+      "sourceOrdinal": 2725,
+      "sourceId": "book10-16-0614",
+      "book": 11,
+      "question": 16,
+      "sourceExpression": "emotional landmarks",
+      "exactSourceExample": "Those songs became emotional landmarks in her life.",
+      "sourceMeaning": "Events or works that mark stages of feeling or memory; a map metaphor.",
+      "proposedTargetUnit": "emotional landmarks",
+      "whyNotSameSenseAlias": "Songs/events serve as memorable reference points in a life, distinct from canonical 726 visual shorthand, where a sign conveys an idea quickly.",
+      "nearestKnownOwners": [
+        726
+      ],
+      "liveDetectorMatchesOnFullSource": [],
+      "sourceNaturalness": "Defensible map metaphor, not an established fixed idiom; verify learner usefulness before drafting.",
+      "sevenStepTransferPotential": "Choose when a memory anchors a period, rather than merely evoking a mood; transfer to places, films and rituals.",
+      "confidence": "medium",
+      "promotionStatus": "shortlist_only_not_approved"
+    },
+    {
+      "rank": 8,
+      "sourceOrdinal": 3630,
+      "sourceId": "book10-16-1519",
+      "book": 14,
+      "question": 7,
+      "sourceExpression": "the cost may bite",
+      "exactSourceExample": "Even with a grant, the cost may bite.",
+      "sourceMeaning": "Expenses may cause financial pain; a bite metaphor.",
+      "proposedTargetUnit": "costs bite",
+      "whyNotSameSenseAlias": "Expenses have a painful practical effect despite partial support; canonical 471 bite off more than you can chew concerns overcommitment, not financial impact.",
+      "nearestKnownOwners": [
+        471
+      ],
+      "liveDetectorMatchesOnFullSource": [],
+      "sourceNaturalness": "The source “the cost may bite” is compressed; prefer natural cost/costs + bite construction only after usage check.",
+      "sevenStepTransferPotential": "Contrast felt cost after a grant versus mere sticker price; transfer to fees, repairs and ongoing bills.",
+      "confidence": "conditional",
+      "promotionStatus": "shortlist_only_not_approved"
+    },
+    {
+      "rank": 9,
+      "sourceOrdinal": 3465,
+      "sourceId": "book10-16-1354",
+      "book": 13,
+      "question": 12,
+      "sourceExpression": "slow the day down",
+      "exactSourceExample": "Making soup can slow the day down.",
+      "sourceMeaning": "Create a calmer pace; speed is figurative.",
+      "proposedTargetUnit": "slow the day down",
+      "whyNotSameSenseAlias": "An activity changes the felt pace of a day; canonical 2252 slow down and reset is an explicit personal pause to regain clarity.",
+      "nearestKnownOwners": [
+        2252
+      ],
+      "liveDetectorMatchesOnFullSource": [],
+      "sourceNaturalness": "Natural verb phrase, but may be too compositional for a separate seven-step lesson.",
+      "sevenStepTransferPotential": "Distinguish an unhurried routine from delay, inactivity, or a person deliberately pausing to reset.",
+      "confidence": "conditional",
+      "promotionStatus": "shortlist_only_not_approved"
+    },
+    {
+      "rank": 10,
+      "sourceOrdinal": 4596,
+      "sourceId": "book10-16-2485",
+      "book": 16,
+      "question": 47,
+      "sourceExpression": "repair the roof while still living in the house",
+      "exactSourceExample": "Transit planners must repair the roof while still living in the house.",
+      "sourceMeaning": "Improve an active system without stopping daily use; a house metaphor.",
+      "proposedTargetUnit": "repair the roof while still living in the house",
+      "whyNotSameSenseAlias": "Improve an operating system without stopping its daily service; no matching selected source/detector owner found.",
+      "nearestKnownOwners": [],
+      "liveDetectorMatchesOnFullSource": [],
+      "sourceNaturalness": "Understandable extended analogy but may be a one-off image; only promote if a natural shorter reusable pattern is justified.",
+      "sevenStepTransferPotential": "Differentiate live-service renovation from an offline rebuild; transfer to transit, a library, and a clinic.",
+      "confidence": "conditional",
+      "promotionStatus": "shortlist_only_not_approved"
+    }
+  ],
+  "excludedExamples": [
+    {
+      "sourceOrdinal": 2188,
+      "reason": "draws a line around their time is likely a boundary variant of canonical 207 draw the line; do not open a new owner without a sense split."
+    },
+    {
+      "sourceOrdinal": 2349,
+      "reason": "all fireworks and not much substance is same core presentation-versus-value decision as selected 2961 more show than substance."
+    },
+    {
+      "sourceOrdinal": 2594,
+      "reason": "money is a good servant, but a poor master closely repeats selected 2457 a brilliant servant, but a poor master."
+    },
+    {
+      "sourceOrdinal": 2210,
+      "reason": "lean into has an existing same-sense active-engagement owner 1687."
+    },
+    {
+      "sourceOrdinal": 2646,
+      "reason": "cultural memory is already taught inside canonical 406; investigate alias expansion."
+    },
+    {
+      "sourceOrdinal": 2401,
+      "reason": "source uses tighten the screws for cinematic suspense, while the established idiom pressures a person to act; source-sense mismatch."
+    }
+  ],
+  "usageEvidence": [
+    {
+      "sourceOrdinal": 3442,
+      "url": "https://dictionary.cambridge.org/dictionary/english/hurdle",
+      "note": "Dictionary supports figurative obstacle to overcome."
+    },
+    {
+      "sourceOrdinal": 3264,
+      "url": "https://files.eric.ed.gov/fulltext/EJ795624.pdf",
+      "note": "Education paper uses the caught-versus-taught maxim as an observational-learning contrast."
+    },
+    {
+      "sourceOrdinal": 2401,
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/put-tighten-the-screws-on",
+      "note": "Supports excluding suspense-only source use from the established coercive idiom."
+    }
+  ]
+}

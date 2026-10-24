@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-ai-exact-hash-existing-owner-proposal",
+  "status": "content-clear-proposal-only",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-816-source-3621-proposed-a.json",
+  "proposalSha256": "ba2f3d1930b4b35cab03386203c2feba3ee051e59d39e66a81588c66f41ef214",
+  "authorReportPath": "course-materials/advanced-native/reviews-books10-16/read-only-fourth100-current-holds-3530-3955-a.json",
+  "authorReportSha256": "4f607b94d9cfef1818a07c2cb6a45eac7ea8d64e8d98ea35976bb325316ff339",
+  "currentOwnerBatchPath": "course-materials/advanced-native/batches/batch-0801-0825.json",
+  "currentOwnerBatchSha256": "e415aca3922e9b6279eeeaab6d88c08bca95b45c6f4cc4e4d1307a96bce5041c",
+  "sourceOrdinal": 3621,
+  "sourceId": "book10-16-1510",
+  "sourceSentence": "Tuition became a heavy load on the family's shoulders.",
+  "ownerId": "advanced-native-816",
+  "verdict": "pass",
+  "sourceOwnerSense": "Tuition creates a serious shared family financial burden. Owner 816 already teaches a weight on someone’s shoulders as responsibility/worry. The proposed heavy load on the family’s shoulders branch is the same bodily burden metaphor, with financial pressure explicitly taught rather than a separate learner decision.",
+  "detectorAssessment": {
+    "fullSourceMatch": "a heavy load on the family's shoulders",
+    "positiveControlsPassed": 4,
+    "negativeControlsPassed": 3,
+    "newBooks10To16SourceHit": "book10-16-1510",
+    "boundedGrammar": "The added heavy-load branch requires the family’s shoulders, preserving the prior weight forms; it does not claim to cover all possible heavy-load possessives.",
+    "semanticLimit": "A literal load on a family’s shoulders can share the surface pattern; the source, brief and keyed scene establish financial pressure."
+  },
+  "contentAssessment": {
+    "exactSourceOccurrenceAppended": true,
+    "sceneKey": "choice-1",
+    "sceneRationale": "Unexpected roof repair exceeds reserve savings and threatens normal expenses; keyed family burden is supported. Neither financial immunity nor literal roof-tile weight follows.",
+    "traditionalChinese": "Scene key and explanation preserve financial pressure without claiming insolvency. Brief and takeaway distinguish figurative burden from physical weight.",
+    "oldAssessedAnswerIdsPreserved": true,
+    "oldListeningReplyContrastDialogueObjectsUnchanged": true,
+    "oldSpeakingWritingObjectsUnchanged": true,
+    "fiveGlossarySpansExact": true,
+    "changedEnglishAudioRoles": [
+      "takeaway-2"
+    ],
+    "focusedBuildAndCheckFromAuthor": "1 lesson, 6 questions, 4 roles, zero flags"
+  },
+  "blockingFindings": [],
+  "nonblockingNotes": [
+    "The scene’s physical-weight foil is direct, but it tests the explicit literal-versus-figurative boundary and does not create a second supported key.",
+    "If integrated, takeaway-2 English audio needs regeneration and listening review; this report is text-only."
+  ],
+  "limits": "No selected owner, decision, manifest, audio or release files were edited for this review."
+}

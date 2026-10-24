@@ -3890,14 +3890,14 @@
       "id": "advanced-native-816",
       "number": 816,
       "inventoryId": "expr-0816",
-      "titleEn": "a weight on their shoulders",
-      "titleZh": "肩負沉重壓力或責任",
+      "titleEn": "a weight or heavy load on someone’s shoulders",
+      "titleZh": "肩上的沉重負擔",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\ba (?:heavy )?weight on (?:my|your|his|her|our|their) shoulders\\b",
+        "pattern": "\\ba (?:(?:heavy )?weight on (?:my|your|his|her|our|their)|heavy load on the family['’]s) shoulders\\b",
         "glossaryForbidden": [
-          "\\bweight\\b",
+          "\\b(?:weight|load)\\b",
           "\\bshoulders\\b"
         ]
       },
@@ -3914,16 +3914,30 @@
           "sentence": "The deadline felt like a weight on their shoulders.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "a weight on their shoulders"
+        },
+        {
+          "occurrenceId": "book10-16-1510",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 142,
+          "book": 14,
+          "question": 7,
+          "sample": "S1",
+          "sourceBookPages": "18–19",
+          "locatorNote": "DOCX table 151, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Tuition became a heavy load on the family's shoulders.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "heavy load on the family's shoulders"
         }
       ],
       "brief": {
-        "meaningEn": "A responsibility or worry that feels burdensome.",
-        "meaningZh": "令人感到沉重負擔的責任或擔心。",
-        "grammar": "feel like/be a weight on someone’s shoulders; explain the responsibility or concern.",
-        "register": "Conventional bodily burden metaphor; the source focuses on pressure rather than literal physical load.",
-        "boundaryZh": "不是量度實際重量，也不一定指別人強迫；自己重視的責任也可有壓力。",
-        "misconceptionZh": "描述沉重感不等於完全不能應付，仍可商量分工、限期或支援。",
-        "outcomeZh": "能具體說明壓力來源及可討論的支援。"
+        "meaningEn": "A responsibility, worry or financial pressure that feels burdensome; both weight and heavy load use physical burden to describe the pressure felt by a person or family.",
+        "meaningZh": "令人感到沉重的責任、擔憂或經濟壓力；weight 和 heavy load 都借用身體負重來形容個人或家庭承受的壓力。",
+        "grammar": "Feel like/become a weight on someone’s shoulders; a heavy load on the family’s shoulders names the same burden metaphor in the source. Explain the responsibility, worry or cost and who must bear it; the family’s is a singular possessive, shoulders remains plural.",
+        "register": "A student discussing shared responsibility with teammates, or a parent explaining an unexpected bill to another family member, can use this neutral-to-emphatic bodily metaphor.",
+        "boundaryZh": "這裏不是量度實物重量；heavy load 可指經濟壓力，並不證明家庭完全無法應付，也不等於負擔一定由別人強加。",
+        "misconceptionZh": "要說明具體責任或費用及由誰承受；描述沉重感不等於已經失敗或沒有商量支援的餘地。",
+        "outcomeZh": "能以具體責任、擔憂或費用說明肩上重擔，區分比喻壓力與實際重量。"
       },
       "listening": {
         "promptEn": "",
@@ -3985,26 +3999,26 @@
       },
       "scene": {
         "promptEn": "",
-        "promptZh": "學生承擔全組交稿，擔心漏掉別人的修改，覺得責任沉重，希望釐清各人核對。哪句合適？",
+        "promptZh": "住家的屋頂突然要維修，費用超過這家人的備用積蓄，令他們擔心接下來的日常開支。哪句最貼切？",
         "options": [
           {
             "id": "choice-1",
-            "en": "The final submission feels like a weight on his shoulders.",
-            "zh": "最後交稿令他感到肩負沉重壓力。"
+            "en": "The unexpected repair became a heavy load on the family's shoulders.",
+            "zh": "突如其來的維修費成了這家人肩上的沉重負擔。"
           },
           {
             "id": "choice-2",
-            "en": "The submission has been taken away from him and he no longer has a role.",
-            "zh": "交稿工作已從他手上移走，他不再有角色。"
+            "en": "The repair has no effect on the family’s finances because they had savings.",
+            "zh": "因為家人有積蓄，維修費對他們的財政毫無影響。"
           },
           {
             "id": "choice-3",
-            "en": "He is describing only the physical weight of the printed pages.",
-            "zh": "他只在描述印刷頁的實際重量。"
+            "en": "The family is concerned only about the physical weight of the roof tiles.",
+            "zh": "這家人只擔心屋頂瓦片的實際重量。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "擔心全組交稿及漏改是責任感受，不是移交或量紙張。"
+        "explanationZh": "維修費超出備用積蓄，家人擔心後續開支；這是比喻經濟壓力，並非瓦片重量。"
       },
       "contrast": {
         "promptEn": "",
@@ -4128,8 +4142,8 @@
           "zh": "每個最後決定都要她作，成為她肩上重擔。"
         },
         {
-          "en": "Being the only coordinator became a weight on her shoulders.",
-          "zh": "獨自做統籌員，成為她肩上的沉重責任。"
+          "en": "The repair bill became a heavy load on the family's shoulders, even though they had some savings.",
+          "zh": "即使家人有些積蓄，維修費仍成為他們肩上的沉重負擔。"
         }
       ],
       "review": {
@@ -4146,7 +4160,7 @@
           "reviewer": "AI author source_inventory",
           "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
         },
-        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+        "note": "Proposal-only owner expansion. New financial-burden variant is assessed in the keyed scene and takeaway; no shared owner/decision/manifest file is changed. Takeaway 2 would require exact audio-text regeneration if integrated."
       }
     },
     {

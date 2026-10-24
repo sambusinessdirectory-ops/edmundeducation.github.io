@@ -1,0 +1,425 @@
+{
+  "status": "read-only-aggregate-351-historical-unresolved-no-editorial-action",
+  "version": "2026-10-24-619-selection-351-aggregate-a",
+  "scope": {
+    "historicalUnresolvedCount": 351,
+    "currentSelectedLessonCount": 619,
+    "currentHoldDecisionCount": 640,
+    "screenedCategories": [
+      "Idiom or set phrase",
+      "Figurative use",
+      "Phrasal verb",
+      "Natural English"
+    ],
+    "sourceOrdinalUniqueCount": 351,
+    "exactExpressionSentenceUniqueGroups": 339
+  },
+  "inputs": [
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/read-only-first100-unresolved-619-idiom-screen-a.json",
+      "sha256": "8b9fb9cd2f1fbde5ac3c6e3d39d0ba1d00ea8141d2aa367dbbf19829967f9089",
+      "sourceRows": 100
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/read-only-next100-unresolved-619-idiom-screen-a.json",
+      "sha256": "740175020014eb02630de4331c168a95c002b0f00a7f06c20b8265dd45ac21cf",
+      "sourceRows": 100
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/read-only-final118-unresolved-619-idiom-screen-a.json",
+      "sha256": "061a6b47ec718625e2673fd640dfe784591a14c983c72dd391f4b5dbe78a68b6",
+      "sourceRows": 118
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/read-only-remaining33-unresolved-619-natural-screen-a.json",
+      "sha256": "237566138c97ee3c4b86cfb3a9253bfbdeb70439e993e7e10316e313bebe9000",
+      "sourceRows": 33
+    }
+  ],
+  "sourceOccurrenceCounts": {
+    "uncertain": 63,
+    "not-recommended-as-new-lesson": 211,
+    "prior-owner-or-variant-review": 66,
+    "provisional-distinct-candidate": 11
+  },
+  "deduplicatedExpressionSentenceCounts": {
+    "uncertain": 62,
+    "not-recommended-as-new-lesson": 210,
+    "prior-owner-or-variant-review": 57,
+    "provisional-distinct-candidate": 10
+  },
+  "duplicateGroups": [
+    {
+      "expression": "understated but powerful screen presence",
+      "exactSourceSentence": "She has an understated but powerful screen presence.",
+      "sourceOrdinals": [
+        2331,
+        2367
+      ],
+      "representativeVerdict": "provisional-distinct-candidate",
+      "mixedVerdicts": false
+    },
+    {
+      "expression": "open up",
+      "exactSourceSentence": "A patient explanation can make the topic open up.",
+      "sourceOrdinals": [
+        2472,
+        2541,
+        3670,
+        3681,
+        4112
+      ],
+      "representativeVerdict": "uncertain",
+      "mixedVerdicts": true,
+      "mixedVerdictExplanation": "The earlier two occurrences were marked uncertain because the topic-as-subject source form may be awkward. The later three were marked owner/sense review against personal-disclosure owner1576, but that owner does not yet cover this sense. Aggregate keeps the repeated unit uncertain pending usage and ownership review."
+    },
+    {
+      "expression": "cultural memory",
+      "exactSourceSentence": "Old songs remain part of the city's cultural memory.",
+      "sourceOrdinals": [
+        2646,
+        2678,
+        4469,
+        4505
+      ],
+      "representativeVerdict": "prior-owner-or-variant-review",
+      "mixedVerdicts": false
+    },
+    {
+      "expression": "patience is a bit like a muscle",
+      "exactSourceSentence": "Patience is a bit like a muscle in long queues.",
+      "sourceOrdinals": [
+        3133,
+        3170
+      ],
+      "representativeVerdict": "prior-owner-or-variant-review",
+      "mixedVerdicts": false
+    },
+    {
+      "expression": "social fabric",
+      "exactSourceSentence": "Volunteers strengthen the social fabric.",
+      "sourceOrdinals": [
+        3823,
+        3928
+      ],
+      "representativeVerdict": "prior-owner-or-variant-review",
+      "mixedVerdicts": false
+    },
+    {
+      "expression": "tell its story",
+      "exactSourceSentence": "A museum helps the city tell its story.",
+      "sourceOrdinals": [
+        4480,
+        4653
+      ],
+      "representativeVerdict": "prior-owner-or-variant-review",
+      "mixedVerdicts": false
+    },
+    {
+      "expression": "awkward transfers",
+      "exactSourceSentence": "The new route avoids awkward transfers.",
+      "sourceOrdinals": [
+        4537,
+        4560
+      ],
+      "representativeVerdict": "not-recommended-as-new-lesson",
+      "mixedVerdicts": false
+    }
+  ],
+  "mixedVerdictDuplicateGroups": [
+    {
+      "expression": "open up",
+      "exactSourceSentence": "A patient explanation can make the topic open up.",
+      "sourceOrdinals": [
+        2472,
+        2541,
+        3670,
+        3681,
+        4112
+      ],
+      "representativeVerdict": "uncertain",
+      "mixedVerdicts": true,
+      "mixedVerdictExplanation": "The earlier two occurrences were marked uncertain because the topic-as-subject source form may be awkward. The later three were marked owner/sense review against personal-disclosure owner1576, but that owner does not yet cover this sense. Aggregate keeps the repeated unit uncertain pending usage and ownership review."
+    }
+  ],
+  "prioritizedProvisionalLessonUnits": [
+    {
+      "sourceOrdinal": 2398,
+      "linkedSourceOrdinals": [
+        2398
+      ],
+      "sourceId": "book10-16-0287",
+      "proposedTeachingUnit": "let a mystery/story breathe",
+      "exactSourceSentence": "The longer format lets the mystery breathe.",
+      "reason": "Source is a coherent narrative-pacing decision: leave enough space for a mystery to develop rather than compressing every clue. No selected owner teaches this transitive creative-pacing form; owner307 room to breathe concerns freedom or pressure, not narrative development.",
+      "nextGate": "Check usage across original writing/editing contexts and build seven nonredundant decisions; keep source exact rather than silently replacing mystery with story.",
+      "aggregateRank": 1,
+      "existingExploratoryDraft": "course-materials/advanced-native/drafts-books10-16/batch-held-2398-2714-author-review.json",
+      "nextAuthoringAction": "Existing exploratory draft passed independent AI content review; preserve the same owner and await parent selection. Do not author a duplicate.",
+      "independentReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-2398-2714-b-followup.json"
+    },
+    {
+      "sourceOrdinal": 3860,
+      "linkedSourceOrdinals": [
+        3860
+      ],
+      "sourceId": "book10-16-1749",
+      "proposedTeachingUnit": "treat the symptoms and the root cause",
+      "exactSourceSentence": "A good policy tackles both the symptoms and the roots of the problem.",
+      "reason": "The source contrasts immediate visible effects with underlying causes, a reusable policy, healthcare and operations decision. Existing root-themed owners teach origins or identity rather than diagnosing causes before repair. The mixed plant/medical source wording requires a natural target lemma.",
+      "nextGate": "Confirm idiomatic root-cause wording and build seven distinct diagnosis-versus-relief decisions without treating symptom care as worthless.",
+      "aggregateRank": 2
+    },
+    {
+      "sourceOrdinal": 2331,
+      "linkedSourceOrdinals": [
+        2331,
+        2367
+      ],
+      "sourceId": "book10-16-0220",
+      "proposedTeachingUnit": "screen presence",
+      "exactSourceSentence": "She has an understated but powerful screen presence.",
+      "reason": "The source contains a conventional film-criticism noun phrase for the quality of attracting attention on screen; no selected owner title or full-source detector teaches screen presence. Understated but powerful is supporting evaluation, not part of a fixed target.",
+      "nextGate": "Confirm primary usage and prove seven distinct, fair film/performance decisions before authoring.",
+      "aggregateRank": 3
+    },
+    {
+      "sourceOrdinal": 4151,
+      "linkedSourceOrdinals": [
+        4151
+      ],
+      "sourceId": "book10-16-2040",
+      "proposedTeachingUnit": "outsource memory to a device",
+      "exactSourceSentence": "We should not outsource every detail to our phones.",
+      "reason": "The source uses outsource figuratively for delegating recall to phones. No selected outsource owner exists, and the balance between useful aid and losing recall practice can transfer across study, travel and work.",
+      "nextGate": "Verify natural usage and teach a bounded human-to-device responsibility transfer rather than every mundane use of a phone.",
+      "aggregateRank": 4
+    },
+    {
+      "sourceOrdinal": 4543,
+      "linkedSourceOrdinals": [
+        4543
+      ],
+      "sourceId": "book10-16-2432",
+      "proposedTeachingUnit": "a patchwork of services",
+      "exactSourceSentence": "The service now feels less like a patchwork.",
+      "reason": "The source uses patchwork for a fragmented transport service; no selected patchwork owner exists. A coherent lesson could distinguish useful diversity from gaps, incompatible pieces and uneven access across settings.",
+      "nextGate": "Check natural patchwork of X forms, source less-like comparative, and seven nonredundant decisions before authoring.",
+      "aggregateRank": 5
+    },
+    {
+      "sourceOrdinal": 2714,
+      "linkedSourceOrdinals": [
+        2714
+      ],
+      "sourceId": "book10-16-0603",
+      "proposedTeachingUnit": "click emotionally",
+      "exactSourceSentence": "Readers often choose what clicks emotionally.",
+      "reason": "Reader preference based on immediate emotional connection differs from canonical understanding click and click-into-place constructions; the source sentence is clear enough for a bounded appeal/resonance lesson.",
+      "nextGate": "Confirm register and naturalness of inanimate subject plus click emotionally; require contrasts with intellectual understanding and literal device clicking.",
+      "aggregateRank": 6,
+      "existingExploratoryDraft": "course-materials/advanced-native/drafts-books10-16/batch-held-2398-2714-author-review.json",
+      "nextAuthoringAction": "Existing exploratory draft passed independent AI content review; preserve the same owner and await parent selection. Do not author a duplicate.",
+      "independentReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-2398-2714-b-followup.json"
+    },
+    {
+      "sourceOrdinal": 2554,
+      "linkedSourceOrdinals": [
+        2554
+      ],
+      "sourceId": "book10-16-0443",
+      "proposedTeachingUnit": "downright + evaluative adjective",
+      "exactSourceSentence": "That shortcut looks downright dangerous after dark.",
+      "reason": "Downright dangerous is natural emphatic register and downright can transfer to other evaluative adjectives; no selected downright owner was found. Its value would lie in register/strength boundaries, not danger vocabulary itself.",
+      "nextGate": "Check adjective-selection constraints and whether six assessments plus writing teach distinct decisions rather than merely intensifier substitution.",
+      "aggregateRank": 7
+    },
+    {
+      "sourceOrdinal": 2844,
+      "linkedSourceOrdinals": [
+        2844
+      ],
+      "sourceId": "book10-16-0733",
+      "proposedTeachingUnit": "digital town square",
+      "exactSourceSentence": "The forum became a crowded town square for debate.",
+      "reason": "An online forum as a contested public discussion space is a coherent metaphor that could transfer to civic, school and workplace forums; no selected town-square owner was found. The source adjective crowded may be contextual rather than part of the target.",
+      "nextGate": "Verify idiomatic digital-town-square usage and prove seven distinct decisions beyond public versus private or crowded versus quiet.",
+      "aggregateRank": 8
+    },
+    {
+      "sourceOrdinal": 3013,
+      "linkedSourceOrdinals": [
+        3013
+      ],
+      "sourceId": "book10-16-0902",
+      "proposedTeachingUnit": "one choice opens one door and closes another",
+      "exactSourceSentence": "When planning a career, remember that every choice opens one door and closes another.",
+      "reason": "The source makes a paired opportunity-cost decision: pursuing one path forecloses another. Owner028 teaches access opening; 785 teaches keeping future options open; 1644 teaches one problem followed by another. None teaches this simultaneous tradeoff, but the full sentence may be an authored maxim rather than a conventional unit.",
+      "nextGate": "Establish natural recurring wording and a nonredundant seven-step tradeoff lesson before promotion.",
+      "aggregateRank": 9
+    },
+    {
+      "sourceOrdinal": 2181,
+      "linkedSourceOrdinals": [
+        2181
+      ],
+      "sourceId": "book10-16-0070",
+      "proposedTeachingUnit": "chopped into pieces",
+      "exactSourceSentence": "Constant interruptions leave my study time chopped into pieces.",
+      "reason": "Unplanned fragmentation of study time differs from deliberately bite-sized study, and the cut-up image transfers to meetings or shifts; exact metaphor is natural enough to test, but fixedness/course value still needs external usage proof.",
+      "nextGate": "First verify natural figurative usage and a seven-decision lesson distinct from the selected bite-sized owner.",
+      "aggregateRank": 10
+    }
+  ],
+  "cohortPlan": [
+    {
+      "cohort": 1,
+      "sourceOrdinals": [
+        2398,
+        3860,
+        2331,
+        4151,
+        4543
+      ],
+      "purpose": "2398 already has an independently AI-cleared unselected draft; for the other high-clarity leads apply naturalness and seven-decision gates before authoring."
+    },
+    {
+      "cohort": 2,
+      "sourceOrdinals": [
+        2714,
+        2554,
+        2844,
+        3013,
+        2181
+      ],
+      "purpose": "2714 already has an independently AI-cleared unselected draft; other leads require focused usage and owner-boundary evidence before authoring."
+    }
+  ],
+  "ownerReviewQueue": [
+    {
+      "sourceOrdinal": 3010,
+      "ownerIds": [
+        "advanced-native-3014"
+      ]
+    },
+    {
+      "sourceOrdinal": 3275,
+      "ownerIds": [
+        "advanced-native-193"
+      ]
+    },
+    {
+      "sourceOrdinal": 3351,
+      "ownerIds": [
+        "advanced-native-4176"
+      ]
+    },
+    {
+      "sourceOrdinal": 3388,
+      "ownerIds": [
+        "advanced-native-305",
+        "advanced-native-744"
+      ]
+    },
+    {
+      "sourceOrdinal": 3468,
+      "ownerIds": [
+        "advanced-native-1839"
+      ]
+    },
+    {
+      "sourceOrdinal": 3823,
+      "ownerIds": [
+        "advanced-native-1357",
+        "advanced-native-1717"
+      ]
+    },
+    {
+      "sourceOrdinal": 3928,
+      "ownerIds": [
+        "advanced-native-1357",
+        "advanced-native-1717"
+      ]
+    },
+    {
+      "sourceOrdinal": 4308,
+      "ownerIds": [
+        "advanced-native-22",
+        "advanced-native-1733"
+      ]
+    },
+    {
+      "sourceOrdinal": 4311,
+      "ownerIds": [
+        "advanced-native-3834"
+      ]
+    },
+    {
+      "sourceOrdinal": 4483,
+      "ownerIds": [
+        "advanced-native-307"
+      ]
+    },
+    {
+      "sourceOrdinal": 4584,
+      "ownerIds": [
+        "advanced-native-591"
+      ]
+    },
+    {
+      "sourceOrdinal": 4621,
+      "ownerIds": [
+        "advanced-native-551"
+      ]
+    },
+    {
+      "sourceOrdinal": 4623,
+      "ownerIds": [
+        "advanced-native-423"
+      ]
+    },
+    {
+      "sourceOrdinal": 4665,
+      "ownerIds": [
+        "advanced-native-178"
+      ]
+    },
+    {
+      "sourceOrdinal": 2646,
+      "ownerIds": [
+        "advanced-native-406"
+      ]
+    },
+    {
+      "sourceOrdinal": 2678,
+      "ownerIds": [
+        "advanced-native-406"
+      ]
+    },
+    {
+      "sourceOrdinal": 4469,
+      "ownerIds": [
+        "advanced-native-406"
+      ]
+    },
+    {
+      "sourceOrdinal": 4505,
+      "ownerIds": [
+        "advanced-native-406"
+      ]
+    }
+  ],
+  "limits": [
+    "All counts are read-only screening judgments, not approved exclusion/alias/lesson actions.",
+    "Source occurrence counts include repeated guide examples; deduplicated counts group identical normalized expression plus exact source sentence.",
+    "Owner reviews still require full-sentence sense and bounded detector checks; mechanical matches alone are insufficient.",
+    "The 10 provisional lesson units are a shortlist, not approved content, and may shrink after naturalness/seven-step checks.",
+    "Two provisional units (2398 and 2714) already have an independently AI-cleared unselected exploratory draft; do not author duplicate lessons or infer publication approval."
+  ],
+  "mutations": {
+    "lessonFiles": 0,
+    "editorialDecisionFiles": 0,
+    "selectedManifest": 0,
+    "publishedAssets": 0
+  }
+}
