@@ -1,0 +1,208 @@
+{
+  "kind": "read-only-earliest-source-ownership-feasibility",
+  "status": "No safe direct ownership migration under current stable-ID and earlier-owner contracts.",
+  "selectedCount": 632,
+  "source3352": {
+    "row": {
+      "sourceId": "book10-16-1241",
+      "book": 12,
+      "question": 49,
+      "questionText": "Do you think it's important for a person to have a career plan?",
+      "sample": "S2",
+      "topic": "Plans",
+      "sourceBookPages": "114–115",
+      "docxTable": 119,
+      "docxRow": 9,
+      "renderedPdfPage": 115,
+      "expression": "life does not always move in a straight line",
+      "example": "Her career shows that life does not always move in a straight line.",
+      "category": "Idiom or set phrase",
+      "meaningAndReason": "A career need not follow one simple path; a road metaphor.",
+      "exactPriorPhraseMatches": [],
+      "status": "intake-pending-editorial"
+    },
+    "decision": {
+      "sourceOrdinal": 3352,
+      "sourceId": "book10-16-1241",
+      "phrase": "life does not always move in a straight line",
+      "action": "hold-editorial",
+      "canonicalId": null,
+      "reason": "Life not moving in a straight line is familiar road imagery but the full clause is not a fixed idiom. Provisional editorial decision; independent review remains open."
+    },
+    "decisionRowSha256": "a60d5de42c8ffb7da9b5c47b5296bb94922a14bdd9fafa6b1fa09823bc10bcea",
+    "fullSentenceTargetMatch": false,
+    "inOwnerProvenance": false
+  },
+  "selectedOwner4548": {
+    "id": "advanced-native-4548",
+    "number": 4548,
+    "title": "not a straight line",
+    "briefMeaning": "Progress does not happen smoothly or uniformly; it can include setbacks and changes of direction.",
+    "sourceRow": {
+      "sourceId": "book10-16-2437",
+      "book": 16,
+      "question": 40,
+      "questionText": "Do you think transportation is likely to continue to improve in the future?",
+      "sample": "S2",
+      "topic": "Things",
+      "sourceBookPages": "96–97",
+      "docxTable": 255,
+      "docxRow": 6,
+      "renderedPdfPage": 230,
+      "expression": "not a straight line",
+      "example": "Progress is not a straight line in transport policy.",
+      "category": "Idiom or set phrase",
+      "meaningAndReason": "Not a smooth or uniform progression; a fixed spatial idiom.",
+      "exactPriorPhraseMatches": [],
+      "status": "intake-pending-editorial"
+    },
+    "decision": {
+      "sourceOrdinal": 4548,
+      "sourceId": "book10-16-2437",
+      "phrase": "not a straight line",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-4548",
+      "reason": "Not a straight line is a conventional spatial metaphor for uneven progress. Provisional editorial decision; independent review remains open."
+    },
+    "decisionRowSha256": "d7afea7613f5e8ab319673fc4c6ebf944d4474d433dbfacd4dcc276b98a3a1eb",
+    "currentTargetPattern": "\\bnot\\s+(?:always\\s+)?a\\s+straight\\s+line\\b",
+    "sourceOccurrences": [
+      "book10-16-2437"
+    ],
+    "sixQuestionIds": [
+      "advanced-native-4548-v1-audio",
+      "advanced-native-4548-v2-reply",
+      "advanced-native-4548-v1-scene",
+      "advanced-native-4548-v1-contrast",
+      "advanced-native-4548-v1-branch",
+      "advanced-native-4548-v1-final"
+    ],
+    "answerIds": {
+      "listening": "a",
+      "reply": "c",
+      "scene": "a",
+      "contrast": "a",
+      "dialogue": "a"
+    },
+    "audio": [
+      {
+        "role": "listening",
+        "synthesisKey": "6444cf5df73ef10a0b1bb84bf3dc7ab2e6bd616f762a088d08568429141de3a0",
+        "text": "Maya can now play the whole piece, although last week she struggled with a section she had mastered before. Her progress is not a straight line."
+      },
+      {
+        "role": "speaking",
+        "synthesisKey": "88d3d4706010c48c29c708cf2b56fccf594ba4f3071a01ce8a5ff536176714aa",
+        "text": "The theatre’s attendance has grown this season, though a rainy month caused a dip; its recovery is not a straight line."
+      },
+      {
+        "role": "takeaway-1",
+        "synthesisKey": "6906508981ce1017f2fc8809962709d3dbe5a18c151aec5d8346e578fb3bf2a1",
+        "text": "Not a straight line allows overall growth with setbacks."
+      },
+      {
+        "role": "takeaway-2",
+        "synthesisKey": "219b833c6e40cb14b32ba736121bd19dfd27dc32e4f9d9efdfcefaa90b509355",
+        "text": "Progress is not a straight line, so a brief dip does not erase a wider gain."
+      }
+    ]
+  },
+  "semanticAssessment": {
+    "sameCoreMetaphor": true,
+    "source3352Nuance": "A career or life can change direction rather than follow a simple planned path; the sentence does not itself prove a setback.",
+    "owner4548Nuance": "Uneven progress, including temporary setbacks and change of direction. Current assessed tasks mainly show temporary dips/recoveries rather than career pivots.",
+    "coverageGap": "No owner assessed task tests the source's career-path change, and the current target regex misses the entire source sentence.",
+    "otherSelectedDetectorHitsFor3352": []
+  },
+  "migrationImpact": {
+    "currentOwnerRank1Based": 596,
+    "earliestSourceRank1Based": 350,
+    "interveningSelectedCardsShifted": 246,
+    "unrelatedCardPaletteChanges": 99,
+    "currentFiveCardGroup": 120,
+    "earliestFiveCardGroup": 70,
+    "stableLessonIdChangesIfRenumbered": true,
+    "allSixQuestionIdsChangeIfRenumbered": true,
+    "moduleScopedAudioMetadataChangesIfRenumbered": true,
+    "audioSynthesisKeysCouldBeReusedIfExactRoleTextAndSettingsRemainUnchanged": true
+  },
+  "currentContractEvidence": [
+    "verify-books10-16.mjs requires a proposed-new-lesson canonical ID equal to advanced-native-{sourceOrdinal}.",
+    "verify-books10-16.mjs requires each selected lesson number to have a proposed-new-lesson decision at that ordinal.",
+    "verify-books10-16.mjs and audit-new-alias-owners.mjs require proposed-alias-new to reference an earlier owner.",
+    "schema.mjs derives all six question IDs and seven step IDs from record.id; renaming 4548 to 3352 changes grading/progress identity.",
+    "build.mjs sorts selected records by source number; renumbering moves the card and shifts intervening palette/order."
+  ],
+  "reviewOnlyBoundedDetectorCandidate": {
+    "pattern": "\\b(?:not\\s+(?:always\\s+)?a\\s+straight\\s+line|(?:life|career|progress|development)\\s+(?:does\\s+not|doesn[’']t|did\\s+not|didn[’']t)\\s+(?:always\\s+)?move\\s+in\\s+a\\s+straight\\s+line|careers\\s+(?:do\\s+not|don[’']t|did\\s+not|didn[’']t)\\s+(?:always\\s+)?move\\s+in\\s+a\\s+straight\\s+line)\\b",
+    "positiveControls": [
+      {
+        "text": "Her career shows that life does not always move in a straight line.",
+        "match": "life does not always move in a straight line"
+      },
+      {
+        "text": "Progress is not a straight line in transport policy.",
+        "match": "not a straight line"
+      },
+      {
+        "text": "A career does not always move in a straight line.",
+        "match": "career does not always move in a straight line"
+      },
+      {
+        "text": "Careers do not move in a straight line.",
+        "match": "Careers do not move in a straight line"
+      }
+    ],
+    "negativeControls": [
+      {
+        "text": "The bus does not move in a straight line.",
+        "match": null
+      },
+      {
+        "text": "Her road does not move in a straight line.",
+        "match": null
+      },
+      {
+        "text": "Life always moves in a straight line.",
+        "match": null
+      },
+      {
+        "text": "Her career follows a straight line.",
+        "match": null
+      }
+    ],
+    "caveat": "This branch is illustrative only and still needs natural-form/semantic precision review. The existing not-a-straight-line branch can match literal roads; editorial context remains necessary."
+  },
+  "routes": [
+    {
+      "name": "current-hold-with-cross-reference",
+      "selectedIdentityPreserved": true,
+      "passesExistingVerifiers": true,
+      "coverageGain": false,
+      "scope": "Keep 3352 held and explicitly document same-core later-owner lead; no selected or decision mutation."
+    },
+    {
+      "name": "explicit-forward-alias-policy-exception",
+      "selectedIdentityPreserved": true,
+      "passesExistingVerifiers": false,
+      "coverageGain": true,
+      "scope": "Keep 4548 as selected owner and 4548 proposed-new-lesson; add exact 3352 provenance and a bounded move-in-a-straight-line detector. A policy exception could classify earlier 3352 to frozen later owner without changing IDs, card order or four audio texts. Its career-direction use should be assessed, but changing any keyed answer string or option set is an assessment-catalogue delta even if question and option IDs remain stable; that needs separate grading migration QA. If answer text must remain byte-identical, this route cannot both teach the new construction and satisfy the full seven-step contract."
+    },
+    {
+      "name": "true-earliest-source-reassignment",
+      "selectedIdentityPreserved": false,
+      "passesExistingVerifiersAfterBroadMigration": "possible only with new lineage/progress/media mapping design",
+      "coverageGain": true,
+      "scope": "Move lesson identity from 4548 to 3352 and reverse decisions; six question IDs and seven step IDs change, 246 selected cards move, and 99 unrelated cards change palette. Not safe as a scoped content correction."
+    }
+  ],
+  "recommendation": "No route currently satisfies strict earliest-source ownership plus immutable canonical ID, all answer text/audio contracts, and current verifier invariants at once. Retain 3352 held for this frozen 632 set. If coverage later outweighs strict answer immutability, separately review a narrow forward-alias policy exception with full source provenance, bounded detector, career-direction assessment, and grading/media/browser regression; do not silently renumber 4548.",
+  "exactInputs": {
+    "course-materials/advanced-native/books10-16/source-inventory.jsonl": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl": "41f752c13b9f08935377d8ae5c8dcb7ab452f22441fffce97989c3d4ea42f9f6",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4512-4571.jsonl": "85e11891c50e23de61a0ae4c69bf12a9581ab58a433369629e69f17983c1527f",
+    "course-materials/advanced-native/drafts-books10-16/batch-4548-4612-review-pilot.json": "be697ff9a40c5f53b69df8a6793e5dacf9a68e6820e31a6f3ee7237f67a338ba",
+    "course-materials/advanced-native/drafts-books10-16/batch-manifest.json": "1a7791f9f16b4d95faca1a8398ccc10110b20930e7278e73e32cfa6de0c9b0da"
+  },
+  "scope": "Read-only report; no selected lesson, decision, manifest, audio or publication changes."
+}
