@@ -544,17 +544,17 @@
       "titleZh": "出色的僕人，拙劣的主人",
       "category": "figurative",
       "target": {
-        "pattern": "\\ba brilliant servant,?\\s+but a poor master\\b",
+        "pattern": "\\ba (?:good|brilliant) servant,?\\s+but a poor master\\b",
         "glossaryForbidden": []
       },
       "brief": {
-        "meaningEn": "A tool is helpful when people direct it, but harmful when it dictates their choices.",
-        "meaningZh": "工具受人支配時很有用；若反過來主導人的選擇，便可能帶來問題。",
-        "grammar": "Pattern: X can be a brilliant servant, but a poor master. Keep the contrast between the two count-noun complements and their articles; X is the tool or system under discussion.",
-        "register": "Reflective advice about control: a community organiser tells a fellow volunteer using a translation app that the tool can help draft a notice but must not replace their final check.",
-        "boundaryZh": "這是工具與使用者主導權的對比，不是說機器真的成了僕人或主人，也不等於所有技術都不好。",
-        "misconceptionZh": "不要把便利性本身當成問題；真正界線是人是否仍可作出有判斷的選擇。",
-        "outcomeZh": "能說出工具如何幫助，以及何時開始不恰當地主導人。"
+        "meaningEn": "Money or a tool can help when people direct it, but can harm when allowed to govern their choices.",
+        "meaningZh": "金錢或工具受人主導時可以幫上忙；若反過來支配人的選擇，便可能帶來傷害。",
+        "grammar": "Pattern: X is/can be a good or brilliant servant, but a poor master. The source uses good with money; the original lesson uses brilliant with technology. Keep the two count-noun complements and their articles; X names the resource or tool being directed.",
+        "register": "Reflective advice about control: a person may value money or a tool for what it enables while resisting its power to dictate priorities. In the original technology case, a community organiser advises a fellow volunteer to check a translation-app draft.",
+        "boundaryZh": "此比喻可用於金錢或工具：有用不等於應讓它支配家庭生活或判斷；不是說金錢或機器真的變成僕人或主人。",
+        "misconceptionZh": "不要把賺錢、儲蓄或使用工具本身當成錯；關鍵是人是否仍按真正需要作出選擇。",
+        "outcomeZh": "能說出金錢或工具如何幫助人，以及它何時開始不恰當地主導人的選擇。"
       },
       "sources": [
         {
@@ -570,6 +570,20 @@
           "sentence": "Technology can be a brilliant servant, but a poor master.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "a brilliant servant, but a poor master"
+        },
+        {
+          "occurrenceId": "book10-16-0483",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 44,
+          "book": 11,
+          "question": 4,
+          "sample": "S2",
+          "sourceBookPages": "9–11",
+          "locatorNote": "DOCX table 40, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "My grandfather believed money is a good servant, but a poor master in family life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "money is a good servant, but a poor master"
         }
       ],
       "listening": {
@@ -633,23 +647,23 @@
         "options": [
           {
             "id": "a",
-            "en": "The translation tool can be a brilliant servant, but a poor master: it saves time, yet volunteers must check the event details.",
-            "zh": "翻譯工具可以是出色的僕人，卻是拙劣的主人：它節省時間，但義工仍須核對活動資料。"
+            "en": "Money can be a good servant, but a poor master: paying off debt helped, yet chasing a higher balance need not dictate every family hour.",
+            "zh": "金錢可以是好僕人，卻是差主人：還清債務有幫助，但追求更高存款不必支配每段家庭時間。"
           },
           {
             "id": "b",
-            "en": "The quick draft was useful, so checking the translated time would have added no value.",
-            "zh": "快速草稿既然有用，核對譯出的時間便沒有價值。"
+            "en": "The extra shifts paid off debt, so the lost family time cannot be a cost.",
+            "zh": "加班還清了債，所以失去的家庭時間不可能是代價。"
           },
           {
             "id": "c",
-            "en": "The wrong time proves the tool should never be used to prepare a first draft.",
-            "zh": "時間譯錯證明這工具絕不應用來草擬初稿。"
+            "en": "The lost family time proves that earning money to repay the debt was never useful.",
+            "zh": "失去家庭時間證明賺錢還債從來沒有用處。"
           }
         ],
         "answerId": "a",
-        "explanationZh": "工具能快速起草，但人仍須核對重要資訊；盲從錯譯與全盤拒用都忽略協助與主導權的界線。",
-        "promptZh": "社區義工用翻譯工具草擬雙語活動告示，省了不少時間；工具卻把活動時間譯錯，義工未核對便張貼。哪句評語最貼切？"
+        "explanationZh": "加班還債有實際幫助；若只為增加存款便放棄所有相聚時間，金錢就開始反過來支配生活。另兩項各忽略了一面。",
+        "promptZh": "麗娜多接班還清了債，現在卻為了讓存款數字繼續上升，連每週與家人吃飯的時間也全數放棄。哪句評語最能同時看到金錢的幫助和它對生活的支配？"
       },
       "contrast": {
         "options": [
@@ -771,8 +785,8 @@
           "zh": "科技可成為出色的僕人，但若取代人的判斷，便是拙劣的主人。"
         },
         {
-          "en": "A navigation app is a brilliant servant, but a poor master if drivers follow it against clear road signs.",
-          "zh": "導航程式可成為出色的僕人，但若司機無視清楚的路牌而盲從它，便是拙劣的主人。"
+          "en": "Money can be a good servant, but a poor master when saving begins to crowd out time with family.",
+          "zh": "儲蓄若開始擠掉與家人相處的時間，金錢便可能由好僕人變成差主人。"
         }
       ],
       "review": {
@@ -801,7 +815,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 6
+      "contentRevision": 7
     },
     {
       "id": "advanced-native-2458",

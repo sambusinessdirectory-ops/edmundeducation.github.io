@@ -1,0 +1,45 @@
+{
+  "reportType": "independent-read-only-four-hold-disposition-review",
+  "authorReport": "course-materials/advanced-native/reviews-books10-16/read-only-held-reconciliation-2181-2331-2367-3860-a.json",
+  "authorReportSha256": "11ce91ac3c3ce5f10ddaa5d08a115c5b29b0433d9af55aef8b4a004a15001126",
+  "ownerFiles": {
+    "2332": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2332-2350-a.json",
+      "sha256": "c82eb1ef9d1e5089bb30823a851787df269c479ac5c618c6fb84c76ba5334e8b"
+    },
+    "1104": {
+      "path": "course-materials/advanced-native/batches/batch-1101-1125.json",
+      "sha256": "3b8db33adc07a44326335324a4d2c898a166df0d3b3c40f748b9a882252175d9"
+    },
+    "366": {
+      "path": "course-materials/advanced-native/batches/batch-0351-0375.json",
+      "sha256": "54f81bdf9c3bece9553c930afe857ad5ce6854f3ecbd117c605a3e641f631763"
+    }
+  },
+  "verdicts": [
+    {
+      "sourceOrdinals": [
+        2331,
+        2367
+      ],
+      "result": "agree-retain-hold",
+      "evidence": "Exact-repeat screen-presence noun names persistent on-camera appeal; owner2332 light up the screen is a momentary vivid-performance verb. Current detector does not cover the noun, but the existing lesson already assesses viewer attention and even paraphrases engaging screen presence. A separate lesson would repeat the learner decision. A substantive two-construction owner design is conceivable, not mergeable now."
+    },
+    {
+      "sourceOrdinals": [
+        3860
+      ],
+      "result": "agree-retain-hold",
+      "evidence": "Source praises treating symptoms and roots together; owner1104 criticises symptom-only treatment. Same effect-versus-cause concept but opposite polarity and a different construction. Source long phrase is compositional. Current detector cannot match; no regex-only alias or distinct seven-step lesson justified."
+    },
+    {
+      "sourceOrdinals": [
+        2181
+      ],
+      "result": "agree-retain-hold",
+      "evidence": "Source says interruptions involuntarily chop study time into pieces. Owner366 in bits and pieces can describe planned or useful partial work. The source is transparent causative cutting imagery rather than the owner’s fixed adverbial expression; not an alias and no distinct reusable target shown."
+    }
+  ],
+  "blockingIssues": [],
+  "selectedOrDecisionMutations": "none"
+}

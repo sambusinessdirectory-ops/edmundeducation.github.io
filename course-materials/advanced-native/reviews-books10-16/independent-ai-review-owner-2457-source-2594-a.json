@@ -1,0 +1,44 @@
+{
+  "reportType": "independent-exact-hash-owner-expansion-review",
+  "status": "proposal-content-clear; no selected or decision edits",
+  "proposal": {
+    "path": "course-materials/advanced-native/reviews-books10-16/proposals/owner-2457-source-2594-proposed-b.json",
+    "sha256": "dcdcca3d8e9207583179a8df8598894fe264ffd318e133b001f174af14ac2cc6"
+  },
+  "authorAudit": {
+    "path": "course-materials/advanced-native/reviews-books10-16/author-held-reconciliation-2594-2725-3275-b.json",
+    "sha256": "5f48c1f170da2f2c6b7e5f374f3ffdf0f5183db671d29de2bbbd3fe2d3ec2679"
+  },
+  "reviewedOwner": 2457,
+  "sourceOrdinal": 2594,
+  "sourceId": "book10-16-0483",
+  "verdict": "same-sense alias to owner2457 is defensible after integrating the reviewed proposal",
+  "evidence": [
+    "The exact source says money is a good servant but a poor master in family life; the original owner says technology is a brilliant servant but a poor master. Both assess the benefit of a resource under human direction versus harm when it controls priorities.",
+    "The proposed detector matches both exact guide sentences and the money-domain keyed scene and takeaway. Its full 2,604-source-example scan matches only source ordinals 2457 and 2594; grammatical negative controls reject altered servant/master polarity and missing construction.",
+    "The proposed scene supplies both debt repayment benefit and the later loss of weekly family dinners. Its keyed English and Traditional Chinese reflect that two-sided evidence; both foils discard one side. The brief and new takeaway teach the good/brilliant variation rather than merely broadening the regex.",
+    "Both source occurrences preserve exact sentence, expression, book/question/sample/page, file and SHA provenance. Listening, reply, scene, contrast and dialogue answer IDs remain unchanged. Existing writing models, glossary spans and speaking span are unchanged.",
+    "Independent focused build and --check passed: 1 lesson, 6 questions, 4 audio roles, 0 review flags."
+  ],
+  "findings": [],
+  "integrationNotes": [
+    "Proposal is read-only; source2594 remains hold-editorial until coordinated owner and decision integration.",
+    "If integrated, takeaway-2 audio text changes and must be regenerated and checked against the exact combined queue.",
+    "The owner title remains the original brilliant variant, while brief, scene and detector explicitly cover good; this is acceptable as one two-form construction."
+  ],
+  "otherHeldRows": [
+    {
+      "sourceOrdinal": 2725,
+      "sourceId": "book10-16-0614",
+      "verdict": "retain hold",
+      "reason": "Songs as emotional landmarks mark remembered life stages; owner1296 emotional anchor provides ongoing steadiness. The latter is a different learner decision, and this source alone does not establish a reusable seven-step target."
+    },
+    {
+      "sourceOrdinal": 3275,
+      "sourceId": "book10-16-1164",
+      "verdict": "retain hold",
+      "reason": "A parenting lesson losing its teeth from lack of follow-through is not owner193's bounded law/enforcement expression, the law has real teeth. A generic teeth detector would erase the grammatical and decision boundary; no separate seven-step unit was demonstrated."
+    }
+  ],
+  "reviewLimit": "Independent AI review of proposal content and source/owner fit only; no human approval, live release, or media listening claim."
+}

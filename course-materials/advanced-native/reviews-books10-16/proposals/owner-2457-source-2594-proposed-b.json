@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-read-only-owner-proposal-2457-source-2594-b",
+  "lessons": [
+    {
+      "id": "advanced-native-2457",
+      "number": 2457,
+      "inventoryId": "expr-2457",
+      "titleEn": "a brilliant servant, but a poor master",
+      "titleZh": "出色的僕人，拙劣的主人",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba (?:good|brilliant) servant,?\\s+but a poor master\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Money or a tool can help when people direct it, but can harm when allowed to govern their choices.",
+        "meaningZh": "金錢或工具受人主導時可以幫上忙；若反過來支配人的選擇，便可能帶來傷害。",
+        "grammar": "Pattern: X is/can be a good or brilliant servant, but a poor master. The source uses good with money; the original lesson uses brilliant with technology. Keep the two count-noun complements and their articles; X names the resource or tool being directed.",
+        "register": "Reflective advice about control: a person may value money or a tool for what it enables while resisting its power to dictate priorities. In the original technology case, a community organiser advises a fellow volunteer to check a translation-app draft.",
+        "boundaryZh": "此比喻可用於金錢或工具：有用不等於應讓它支配家庭生活或判斷；不是說金錢或機器真的變成僕人或主人。",
+        "misconceptionZh": "不要把賺錢、儲蓄或使用工具本身當成錯；關鍵是人是否仍按真正需要作出選擇。",
+        "outcomeZh": "能說出金錢或工具如何幫助人，以及它何時開始不恰當地主導人的選擇。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0346",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 32,
+          "book": 10,
+          "question": 27,
+          "sample": "S2",
+          "sourceBookPages": "66–67",
+          "locatorNote": "DOCX table 27, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Technology can be a brilliant servant, but a poor master.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a brilliant servant, but a poor master"
+        },
+        {
+          "occurrenceId": "book10-16-0483",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 44,
+          "book": 11,
+          "question": 4,
+          "sample": "S2",
+          "sourceBookPages": "9–11",
+          "locatorNote": "DOCX table 40, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "My grandfather believed money is a good servant, but a poor master in family life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "money is a good servant, but a poor master"
+        }
+      ],
+      "listening": {
+        "en": "A budgeting app helped Noor spot waste, but its strict limits made her skip necessary groceries. She revised them around her needs: the app was a brilliant servant, but a poor master.",
+        "zh": "理財程式幫娜兒發現浪費，但程式建議的嚴格限額令她連必需食材也不買。她按自己的需要調整限額：程式是出色的僕人，卻是拙劣的主人。",
+        "promptZh": "這句話在娜兒使用理財程式時指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The app helped her spot waste, but its suggested limits should not override her essential needs.",
+            "zh": "程式幫她找出浪費，但建議的限額不應凌駕她的基本需要。"
+          },
+          {
+            "id": "b",
+            "en": "The suggested limits were helpful, so she should keep them even when they leave no money for necessary groceries.",
+            "zh": "建議限額既然有用，即使令她無錢買必需食材，也應照用。"
+          },
+          {
+            "id": "c",
+            "en": "Because one limit was unsuitable, the spending information the app provides has no value.",
+            "zh": "有一項限額不合適，便表示程式提供的開支資料毫無價值。"
+          },
+          {
+            "id": "d",
+            "en": "The main problem was that Noor bought groceries before reviewing the app’s spending categories.",
+            "zh": "主要問題是娜兒在檢視程式的開支分類前買了食材。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "程式指出浪費有幫助，但她曾盲從建議限額，犧牲基本需要；調整限額表示她重新掌握決定權。"
+      },
+      "reply": {
+        "promptEn": "How should we use a homework planning app without letting it decide our whole week?",
+        "promptZh": "（我們應如何使用功課規劃程式，同時不讓它決定整個星期？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Use its reminders, but choose our own priorities and rest times.",
+            "zh": "使用提醒功能，但自行決定優先次序與休息時間。"
+          },
+          {
+            "id": "b",
+            "en": "Review its suggestions before moving family or study plans.",
+            "zh": "更改家庭或溫習計劃前，先檢視它的建議。"
+          },
+          {
+            "id": "c",
+            "en": "It can be a brilliant servant, but a poor master; let it remind us without obeying every suggestion.",
+            "zh": "它可以是出色的僕人，卻是拙劣的主人；讓它提醒我們，卻不用盲從每項建議。"
+          },
+          {
+            "id": "d",
+            "en": "Keep a way to adjust the schedule when our needs change.",
+            "zh": "需要改變時，保留自行調整時間表的方法。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都提出既利用工具又保留自主決定的做法；金句以僕人與主人比喻概括界線。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Money can be a good servant, but a poor master: paying off debt helped, yet chasing a higher balance need not dictate every family hour.",
+            "zh": "金錢可以是好僕人，卻是差主人：還清債務有幫助，但追求更高存款不必支配每段家庭時間。"
+          },
+          {
+            "id": "b",
+            "en": "The extra shifts paid off debt, so the lost family time cannot be a cost.",
+            "zh": "加班還清了債，所以失去的家庭時間不可能是代價。"
+          },
+          {
+            "id": "c",
+            "en": "The lost family time proves that earning money to repay the debt was never useful.",
+            "zh": "失去家庭時間證明賺錢還債從來沒有用處。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "加班還債有實際幫助；若只為增加存款便放棄所有相聚時間，金錢就開始反過來支配生活。另兩項各忽略了一面。",
+        "promptZh": "麗娜多接班還清了債，現在卻為了讓存款數字繼續上升，連每週與家人吃飯的時間也全數放棄。哪句評語最能同時看到金錢的幫助和它對生活的支配？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A student uses an app’s reminder but chooses when to take a break.",
+            "zh": "學生使用程式提醒，仍自行決定何時休息。"
+          },
+          {
+            "id": "b",
+            "en": "A device schedules every meal and refuses changes even when family plans shift.",
+            "zh": "裝置安排每餐時間，即使家庭計劃改變也不容修改。"
+          },
+          {
+            "id": "c",
+            "en": "A recommendation system keeps pushing choices even after users reject them.",
+            "zh": "推薦系統在使用者拒絕後仍不斷推送選項。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "學生仍自己決定，工具只是協助，未出現反客為主；另外兩項限制或無視使用者選擇。",
+        "promptZh": "哪個情況最不適合用 a brilliant servant, but a poor master 警告工具反客為主？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "It can be a brilliant servant, but a poor master; use the light correction, but decide yourself which details belong in the picture.",
+            "zh": "它可以是出色的僕人，卻是拙劣的主人；可用它調光，但照片該保留甚麼細節，仍要自己決定。"
+          },
+          {
+            "id": "b",
+            "en": "The light correction helped, so its cropping suggestion must also preserve the picture’s meaning.",
+            "zh": "調光既然有幫助，裁剪建議也必定能保留照片的原意。"
+          },
+          {
+            "id": "c",
+            "en": "Because one crop was misleading, the tool cannot help with any part of the editing.",
+            "zh": "一次裁剪造成誤導，這工具便不能協助任何修圖工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "調光功能有用，但裁剪會改變照片意思時，使用者須自行判斷是否接受；另外兩項都把局部經驗推得太遠。",
+        "promptZh": "朋友說：「修圖工具幫我調亮照片很方便；但我照着它的建議刪掉重要背景，照片的意思也變了。」你如何回應較貼切？"
+      },
+      "speaking": {
+        "en": "A navigation app can be a brilliant servant, but a poor master if drivers follow it past a clear road-closure sign.",
+        "zh": "導航程式能提供協助；但若司機無視清楚的封路路牌而盲從它，程式便由出色的僕人變成拙劣的主人。",
+        "promptZh": "先聽示範，再指出司機應在哪裏自行判斷。",
+        "targetSpan": {
+          "start": 24,
+          "end": 62
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校報編輯用寫作工具修正文法，節省校對時間；工具卻建議刪去受訪者一段重要引述。編輯檢查建議後保留引述，自行決定文章重點。用一至兩句英文說明這個平衡。",
+        "selfCheckZh": "指出工具修正文法的幫助、刪去重要引述的問題，以及編輯核對建議並保留引述的自主決定；不要把工具說成全無用處。",
+        "examples": [
+          {
+            "en": "The editing tool can be a brilliant servant, but a poor master: it corrected grammar, yet the school editors kept an important quote after reviewing its suggestion.",
+            "zh": "編輯工具可以是出色的僕人，卻是拙劣的主人：它修正文法，但校報編輯核對建議後，仍保留一段重要引述。"
+          },
+          {
+            "en": "The school editors used software to fix grammar, but rejected its suggestion to remove an important quote; they showed that it can be a brilliant servant, but a poor master when allowed to decide what matters.",
+            "zh": "校報編輯用軟件修正文法，卻拒絕它刪去重要引述的建議；他們表明，工具若獲准決定文章重點，就可能由出色的僕人變成拙劣的主人。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "corrected grammar",
+            "zh": "修正文法",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 84
+            }
+          },
+          {
+            "en": "school editors",
+            "zh": "校報編輯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 108
+            }
+          },
+          {
+            "en": "an important quote",
+            "zh": "一段重要引述",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 132
+            }
+          },
+          {
+            "en": "rejected its suggestion",
+            "zh": "拒絕它的建議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 76
+            }
+          },
+          {
+            "en": "to decide what matters",
+            "zh": "決定文章重點",
+            "exampleIndex": 1,
+            "span": {
+              "start": 186,
+              "end": 208
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "As a tool, technology is a brilliant servant, but a poor master if it replaces a person’s judgment.",
+          "zh": "科技可成為出色的僕人，但若取代人的判斷，便是拙劣的主人。"
+        },
+        {
+          "en": "Money can be a good servant, but a poor master when saving begins to crowd out time with family.",
+          "zh": "儲蓄若開始擠掉與家人相處的時間，金錢便可能由好僕人變成差主人。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 7
+    }
+  ]
+}

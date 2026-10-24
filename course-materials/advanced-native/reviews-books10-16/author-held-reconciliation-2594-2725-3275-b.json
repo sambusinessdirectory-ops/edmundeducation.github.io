@@ -1,0 +1,136 @@
+{
+  "reportType": "author-read-only-held-disposition-and-owner-proposal",
+  "status": "unselected-proposal-pending-independent-review",
+  "inputs": {
+    "selectedOwnerFile": "course-materials/advanced-native/drafts-books10-16/batch-2449-2458-a.json",
+    "selectedOwnerSha256": "246612f90c73f07713499a15cb13d039b0748a18cc1330a68f0743ec350264a9",
+    "proposalFile": "course-materials/advanced-native/reviews-books10-16/proposals/owner-2457-source-2594-proposed-b.json",
+    "proposalSha256": "dcdcca3d8e9207583179a8df8598894fe264ffd318e133b001f174af14ac2cc6",
+    "sourceInventory": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "decisionRows": {
+      "2594": {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+        "fileSha256": "af35297774e349bed5011917bb4452a68ce1c6a3c90c7fd27bf0071fcd3ae8d3",
+        "row": {
+          "sourceOrdinal": 2594,
+          "sourceId": "book10-16-0483",
+          "phrase": "money is a good servant, but a poor master",
+          "action": "hold-editorial",
+          "canonicalId": null,
+          "reason": "Money is a good servant but a poor master resembles proposed technology servant-master maxim 2457; compare source scope and wording before merging. Provisional editorial decision; independent review remains open."
+        },
+        "rowSha256": "c86eeddda964e3782a4afd7e583d917e5a0d37658f3279aed8c85b344212ad61"
+      },
+      "2725": {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+        "fileSha256": "3ab486f50083d297f6980bb2f4037afcaafe5aa369f3500610b786727a43d1f1",
+        "row": {
+          "sourceOrdinal": 2725,
+          "sourceId": "book10-16-0614",
+          "phrase": "emotional landmarks",
+          "action": "hold-editorial",
+          "canonicalId": null,
+          "reason": "Emotional landmarks is a creative memory-map image; confirm a fixed reusable collocation. Provisional editorial decision; independent review remains open."
+        },
+        "rowSha256": "85c6185cbc98f27c25de3c69a00b3a63c38d268ee860bc7b1d7c297c03fbe01a"
+      },
+      "3275": {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+        "fileSha256": "c817e0b379d508d503a63e1c41a4c85b9ce57b1c2c187426fe0ea23cafa36aa6",
+        "row": {
+          "sourceOrdinal": 3275,
+          "sourceId": "book10-16-1164",
+          "phrase": "the lesson can lose its teeth",
+          "action": "hold-editorial",
+          "canonicalId": null,
+          "reason": "A lesson losing its teeth adapts an enforcement metaphor to a consequence; this application needs editorial review. Provisional editorial decision; independent review remains open."
+        },
+        "rowSha256": "5219fa6e03ddf07a1248a3aee3073f0d7e48215734b59d56450dcd0add473b01"
+      }
+    }
+  },
+  "dispositions": [
+    {
+      "sourceOrdinal": 2594,
+      "sourceId": "book10-16-0483",
+      "exactSourceExpression": "money is a good servant, but a poor master",
+      "exactSourceSentence": "My grandfather believed money is a good servant, but a poor master in family life.",
+      "recommendation": "conditional-alias-existing-to-2457-after-proposal-review",
+      "reason": "Money as a useful servant but harmful master requires the same control-versus-domination learner decision as owner2457 technology. Good/brilliant adjective and money/tool subject differ, so proposal teaches and assesses both forms instead of merely adding a detector.",
+      "changedOwnerFields": [
+        "target.pattern",
+        "brief.meaningEn",
+        "brief.meaningZh",
+        "brief.grammar",
+        "brief.register",
+        "brief.boundaryZh",
+        "brief.misconceptionZh",
+        "brief.outcomeZh",
+        "sources[1]",
+        "scene.promptZh",
+        "scene.options",
+        "scene.explanationZh",
+        "takeaways[1]",
+        "contentRevision"
+      ],
+      "preservedAssessmentIds": {
+        "listening": true,
+        "reply": true,
+        "scene": true,
+        "contrast": true,
+        "dialogue": true
+      },
+      "detector": {
+        "pattern": "\\ba (?:good|brilliant) servant,?\\s+but a poor master\\b",
+        "fullSourceHits": [
+          {
+            "sourceId": "book10-16-0346",
+            "sourceOrdinal": 2457,
+            "expression": "a brilliant servant, but a poor master"
+          },
+          {
+            "sourceId": "book10-16-0483",
+            "sourceOrdinal": 2594,
+            "expression": "money is a good servant, but a poor master"
+          }
+        ],
+        "positives": [
+          "Technology can be a brilliant servant, but a poor master.",
+          "My grandfather believed money is a good servant, but a poor master in family life.",
+          "Money can be a good servant, but a poor master.",
+          "This tool was a brilliant servant but a poor master."
+        ],
+        "negatives": [
+          "a good servant but a good master",
+          "a poor servant but a poor master",
+          "a servant, but a poor master",
+          "a brilliant servant with a poor master"
+        ]
+      },
+      "mechanical": "Focused build and --check: 1 lesson, 6 questions, 4 audio roles, 0 review flags. No selected file or decision edited.",
+      "mediaDelta": "takeaways[1] EN/ZH text changed in proposal; regenerate/check this role only if integrated."
+    },
+    {
+      "sourceOrdinal": 2725,
+      "sourceId": "book10-16-0614",
+      "exactSourceExpression": "emotional landmarks",
+      "exactSourceSentence": "Those songs became emotional landmarks in her life.",
+      "recommendation": "retain-hold-editorial",
+      "reason": "Emotional landmarks is a transparent personal-memory map image in this source. Owner1296 emotional anchor means steadiness, not milestones. No stable distinct target with seven nonrepetitive learner decisions is established; do not mark same-sense alias or force a lesson.",
+      "priorAudit": "author-held-candidates-2725-3630-screen-and-two.json"
+    },
+    {
+      "sourceOrdinal": 3275,
+      "sourceId": "book10-16-1164",
+      "exactSourceExpression": "the lesson can lose its teeth",
+      "exactSourceSentence": "Without follow-through, the lesson can lose its teeth.",
+      "recommendation": "retain-hold-editorial",
+      "reason": "The source extends a conventional teeth/effective-force metaphor to a parenting lesson without follow-through. Existing owner193 teaches the law has real teeth, a specific law/enforcement construction; its learner decision and detector do not cover this source. No independent fixed lose-its-teeth lesson with six distinct assessments was demonstrated; a generic teeth alias would erase the difference.",
+      "primaryUsageEvidence": "https://dictionary.cambridge.org/dictionary/english/toothless",
+      "comparedOwner": 193,
+      "priorAudit": "author-alias-wave-unresolved-3122-3275-3586-a.json"
+    }
+  ],
+  "mutations": "Only proposal and review report files were written; selected canonical, source decisions, selected manifest, Golden SOP audit, audio and release were unchanged."
+}

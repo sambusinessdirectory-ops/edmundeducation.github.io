@@ -1,0 +1,66 @@
+{
+  "reportType": "read-only-focused-held-source-reconciliation",
+  "status": "four-occurrences-retain-hold-pending-editorial-owner-design",
+  "selectedManifestSha256": "7928f7c6e19bfd703c122c03ecd6e04fc789a407cca8be34e36f93632eb8c497",
+  "counts": {
+    "sourceOccurrencesReviewed": 4,
+    "exactRepeatedOccurrencePairs": 1,
+    "newSevenStepLessonsRecommendedNow": 0,
+    "sameSenseAliasesMergeableNow": 0,
+    "conditionalTwoConstructionOwnerDesigns": 2,
+    "holdAsWeakOrInsufficientlyDistinct": 1
+  },
+  "items": [
+    {
+      "sourceOrdinals": [2331, 2367],
+      "sourceIds": ["book10-16-0220", "book10-16-0256"],
+      "sourceQuestion": "Do you like any particular film star?",
+      "exactSourceSentence": "She has an understated but powerful screen presence.",
+      "exactExpression": "understated but powerful screen presence",
+      "currentAction": "hold-editorial for both",
+      "selectedOwnerLead": "advanced-native-2332 light up the screen",
+      "ownerBatchSha256": "c82eb1ef9d1e5089bb30823a851787df269c479ac5c618c6fb84c76ba5334e8b",
+      "fullSourceMatchesOwnerTarget": false,
+      "senseJudgment": "Both constructions judge filmed-performance appeal and sustained viewer attention. The owner's one-smile, quiet-scene and engaging-screen-presence tasks overlap the held source's learner decision. The noun names an enduring on-camera quality while the verb describes a vivid moment, so they are not inflections of one lemma.",
+      "disposition": "Retain hold; do not select a duplicate standalone noun lesson or mark either source as an alias under the current target.",
+      "conditionalOwnerProposal": {
+        "design": "If a two-construction lesson is editorially approved, add a reviewed screen-presence noun branch, preserve the existing light-up branch, append both exact occurrences, explicitly contrast quiet enduring quality against a vivid moment, and assess each construction without changing question IDs.",
+        "diagnosticPatternNotApproved": "\\b(?:(?:light|lights|lit|lighting) up the screen|screen presence)\\b",
+        "requiredChecks": "Context-aware literal-screen negatives, English/Traditional Chinese brief and key changes, answer-derived glossary, source-alias audit, audio delta and independent content review. Regex-only expansion is insufficient."
+      },
+      "priorEvidence": ["read-only-owner-comparison-2331-2367-to-2332-a.json", "read-only-owner-expansion-proposal-2331-2367-to-2332-a.json"]
+    },
+    {
+      "sourceOrdinals": [3860],
+      "sourceIds": ["book10-16-1749"],
+      "sourceQuestion": "What can be done to alleviate poverty?",
+      "exactSourceSentence": "A good policy tackles both the symptoms and the roots of the problem.",
+      "exactExpression": "tackles both the symptoms and the roots of the problem",
+      "currentAction": "hold-editorial",
+      "selectedOwnerLead": "advanced-native-1104 treat the symptom rather than the cause",
+      "ownerBatchSha256": "3b8db33adc07a44326335324a4d2c898a166df0d3b3c40f748b9a882252175d9",
+      "fullSourceMatchesOwnerTarget": false,
+      "senseJudgment": "Both distinguish immediate effects from underlying causes, and owner1104 already discusses immediate relief plus cause investigation. The held source praises addressing both, while the owner target criticizes treating only the symptom; the source also mixes medical symptoms with plant roots. This is a polarity and construction change, not a target inflection.",
+      "disposition": "Retain hold. The long source construction is largely compositional and duplicates the underlying cause-versus-effect decision; a separate seven-step lesson would be repetitive.",
+      "conditionalOwnerProposal": "Only a substantive two-construction rewrite could assess the positive tackle-both formulation alongside the negative treat-rather-than formulation. It would need bounded target branches, exact provenance, an assessed source-positive key, English/Chinese grammar and meaning distinctions, and independent review; do not add a detector branch alone.",
+      "priorEvidence": "read-only-owner-comparison-3860-to-1104-a.json"
+    },
+    {
+      "sourceOrdinals": [2181],
+      "sourceIds": ["book10-16-0070"],
+      "sourceQuestion": "Do you think it is easy to manage your time in the modern world?",
+      "exactSourceSentence": "Constant interruptions leave my study time chopped into pieces.",
+      "exactExpression": "chopped into pieces",
+      "currentAction": "hold-editorial",
+      "selectedOwnerLead": "advanced-native-366 in bits and pieces",
+      "ownerBatchSha256": "54f81bdf9c3bece9553c930afe857ad5ce6854f3ecbd117c605a3e641f631763",
+      "fullSourceMatchesOwnerTarget": false,
+      "senseJudgment": "The source describes involuntary fragmentation of study time and lost concentration. Owner366 covers doing work or reading in separate small intervals, including potentially planned and useful piecemeal work. The source's causative negative image is related but not the same assessed learner decision.",
+      "disposition": "Retain hold rather than force a new seven-step target or a regex-only alias. The exact chopped into pieces wording is a transparent cutting metaphor, while a primary dictionary attests the more general chop something up for dividing a working day; evidence does not establish this exact phrase as a stable idiom distinct from existing fragmentation teaching.",
+      "primaryUsageEvidence": "https://dictionary.cambridge.org/dictionary/english/chop-up",
+      "revisitCondition": "A later lesson could use a natural, transferable chop up time construction only if the exact source form remains covered and seven tasks distinctly test unwanted interruption versus deliberate scheduling without repeating owner366."
+    }
+  ],
+  "mutations": "No lesson draft, selected owner, decision row, manifest, Golden audit, audio or publication files were modified for this triage.",
+  "reviewRequest": "Independent reviewer should challenge the three hold judgments and whether either conditional two-construction owner design is warranted; no selection is requested."
+}

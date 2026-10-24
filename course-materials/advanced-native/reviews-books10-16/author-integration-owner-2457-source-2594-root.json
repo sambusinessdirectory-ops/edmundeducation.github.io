@@ -1,0 +1,52 @@
+{
+  "status": "provisional-reviewed-alias-integrated-unpublished",
+  "createdUTC": "2026-10-24T01:00:17.914357+00:00",
+  "sourceOrdinal": 2594,
+  "canonicalId": "advanced-native-2457",
+  "action": "proposed-alias-new",
+  "exactOwnerObjectEqualsIndependentlyReviewedProposal": true,
+  "evidence": {
+    "proposal": {
+      "path": "course-materials/advanced-native/reviews-books10-16/proposals/owner-2457-source-2594-proposed-b.json",
+      "sha256": "dcdcca3d8e9207583179a8df8598894fe264ffd318e133b001f174af14ac2cc6"
+    },
+    "independentReview": {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-2457-source-2594-a.json",
+      "sha256": "b6f7a0dc04bb709c95b40870c8c522c1bcb7fe0acf7544d625e1d13566fce8bd"
+    },
+    "ownerBatch": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2449-2458-a.json",
+      "sha256": "72ad4155beb78cbb31b142ef73dc9c1153d4012a574ff6fd42f3498451da4c3d"
+    },
+    "decisionFile": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+      "sha256": "bcb7bc790f25d87a0457330d91b33ad7550f468271b60518b4905d2bcf25377f"
+    },
+    "manifest": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+      "sha256": "7928f7c6e19bfd703c122c03ecd6e04fc789a407cca8be34e36f93632eb8c497"
+    },
+    "browserSummary": {
+      "path": "../browser-qa-626-owner-2457-summary.json",
+      "sha256": "62db101b91b21cccd579897219b72d1c59ee46abcb6dba33f7dad974dbde32d2"
+    },
+    "audioEvidence": {
+      "path": "../audio-production/combined-20261024-626c/production-evidence-2623.json",
+      "sha256": "a8a7685b7b5bcc530572a9ecf9c9df3b6454facc86d502d232a82b1226936259"
+    }
+  },
+  "verifier": {
+    "selectedLessons": 626,
+    "questions": 3756,
+    "audioRoles": 2504,
+    "existingAliases": 1165,
+    "newAliases": 183,
+    "holds": 630,
+    "schemaErrors": 0
+  },
+  "limitations": {
+    "live": false,
+    "uploadedAudio": false,
+    "releaseApproved": false
+  }
+}
