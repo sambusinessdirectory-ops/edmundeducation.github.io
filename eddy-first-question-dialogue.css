@@ -70,10 +70,41 @@
   font-size: clamp(10px, 2.35vw, 22px);
   font-weight: 600;
 }
+.eddy-horse-pun {
+  position: relative;
+  display: inline-block;
+  margin: 0 .03em;
+  padding: 0 .1em;
+  border-radius: .24em;
+  background: linear-gradient(145deg, #b56529, #82331d);
+  box-shadow: 0 2px 0 #e9ac39, 0 0 .3em #f4c05b;
+  color: #fff6d5;
+  font-weight: 900;
+  text-shadow: 0 1px 1px #55210e;
+  transform: rotate(-7deg);
+  animation: eddy-horse-hop 1.8s ease-in-out 2;
+}
+.eddy-horse-pun::after {
+  position: absolute;
+  top: -.66em;
+  right: -.48em;
+  color: #9b4b20;
+  content: '♞';
+  font: 700 .72em Georgia, serif;
+  text-shadow: 0 1px #fff1c4;
+}
+@keyframes eddy-horse-hop {
+  0%, 74%, 100% { transform: translateY(0) rotate(-7deg); }
+  84% { transform: translateY(-.18em) rotate(5deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .eddy-horse-pun { animation: none; }
+}
 @media (max-width: 560px) {
   .eddy-first-question-dismiss { align-items: center; }
   .eddy-first-question-art { width: 100%; }
   .eddy-first-question-message { font-size: clamp(10px, 2.8vw, 16px); }
   .eddy-first-question-message--milestone strong { font-size: clamp(12px, 3.45vw, 19px); }
   .eddy-first-question-message--milestone > span { font-size: clamp(9px, 2.35vw, 14px); }
+  .eddy-horse-pun::after { display: none; }
 }
