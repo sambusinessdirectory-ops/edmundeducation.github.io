@@ -1,0 +1,53 @@
+{
+  "reviewType": "scoped independent AI exact-hash follow-up; not human approval",
+  "status": "content-clear-for-provisional-selection",
+  "lessonId": "advanced-native-3823",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-3823-social-fabric-a.json",
+  "reviewedDraftSha256": "4e4da7dbdbdfb72a3db3a130348a57ddea1d98099760ddeb1d113e6ffbc21b72",
+  "authorAuditSha256": "8a83840d57fb8141434c41948225034d0a731e740861fda9951fa88c4cd8dc63",
+  "initialReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-3823-social-fabric-review-pilot.json",
+  "initialReviewSha256": "fe2af49641b0f230c28b4e0d2b7db9731df6157cf3b0b58625b60b77158fdd8e",
+  "findingFollowup": [
+    {
+      "id": "R3823-01",
+      "result": "resolved",
+      "evidence": "Writing model 2 now names students and older residents from both estates and uses supplied continuing rides and checking on one another. It no longer invents participating families or later meal planning. English, Chinese, unresolved parking caveat and the revised ongoing-cooperation glossary span align."
+    },
+    {
+      "id": "R3823-02",
+      "result": "resolved",
+      "evidence": "The revised scene tests newly formed ties against owner1357 restoration after a prior rupture and owner1717 maintenance against threatened dissolution. The revised dialogue tests local evidence versus an unsupported citywide inference; speaking models the 'of the district' scope. These add decisions beyond the remaining listening/contrast evidence-versus-count distinction."
+    },
+    {
+      "id": "R3823-03",
+      "result": "resolved",
+      "evidence": "Listening foils now compare first-event reach, service continuity alone, and unsupported restoration history with lasting cross-street ties. Scene foils are credible neighbouring construction/sense errors. Dialogue foils test scale of inference and whether cooperation is merely scheduling. Keyed choices remain uniquely supported and Chinese alternatives follow the same claims."
+    },
+    {
+      "id": "R3823-04",
+      "result": "resolved",
+      "evidence": "Listening now opens with a volunteer desk for clinic rides, which is a clearer natural setting than 'a monthly clinic ride desk'; Traditional Chinese identifies the ride-arranging desk. The continuing-contact evidence remains intact."
+    }
+  ],
+  "freshSevenDecisionChallenge": [
+    {"step": 1, "decision": "Infer the social-fabric effect from continued cross-street help rather than from the ride total or mere service continuation."},
+    {"step": 2, "decision": "Choose a concise civic-report claim that names continuing mutual help, with four individually valid response strategies and one natural target-bearing golden reply."},
+    {"step": 3, "decision": "Choose strengthening of new ties among previously unacquainted residents over restoration after a rupture or prevention of a weakening old network."},
+    {"step": 4, "decision": "Reject sales data as insufficient evidence of stronger relationships while recognizing the two sustained-contact cases."},
+    {"step": 5, "decision": "Limit an evidenced relationship change to the two collaborating clubs rather than claim a citywide result or deny any relationship effect."},
+    {"step": 6, "decision": "Produce the noun phrase naturally with an explicit 'of the district' scope and identify who became connected."},
+    {"step": 7, "decision": "Write an original community-news example about students and older residents whose mutual help continues despite an unresolved parking disagreement."}
+  ],
+  "residualObservation": "Listening and contrast both require evidence beyond a one-off metric, but their clues and tasks differ; the repaired scene, dialogue, speaking and writing now add separate boundaries. This overlap is not a selection blocker.",
+  "verification": {
+    "focusedBuild": "1 lesson, 6 questions, 4 audio requests, 0 review flags",
+    "focusedCheck": "completed against the same generated output",
+    "target": "Both source sentences and all relevant keyed target lines match. Revised scene's longer 1357/1717 construction foils are rejected by 3823's target regex.",
+    "speakingSpan": "[39,56] slices exactly 'the social fabric' in the revised speaking model.",
+    "glossary": "All five English glossary spans are exact substrings of cited writing examples; the target is absent from glossary rows.",
+    "sourceAndOwnerMeaning": "The positive new/deeper-connection sense remains distinct from owner1357 repair and owner1717 prevention of coming apart. Source provenance and exact sentences are unchanged.",
+    "translationAndKeys": "Revised English/Traditional Chinese scene, dialogue, listening and writing claims align; each standard question has one defensible best answer and all four replies remain valid."
+  },
+  "releaseBoundary": "This is AI content clearance of an unpublished draft only. It is not human approval, actual listening, device/browser acceptance, manifest selection or permission to publish.",
+  "mutationScope": "Only this follow-up review JSON was added; no draft, decision, selected manifest, audio or release file was edited."
+}

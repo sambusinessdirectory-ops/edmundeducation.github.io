@@ -1,0 +1,138 @@
+{
+  "type": "unpublished provisional selection integration of independently AI-cleared cultural-memory lesson",
+  "recordedAtUtc": "2026-10-24T02:01:51.951114+00:00",
+  "sourceOrdinals": [
+    2646,
+    2678,
+    4469,
+    4505
+  ],
+  "sourceInventory": {
+    "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "selectedDraft": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-2646-cultural-memory-b.json",
+    "sha256": "be4a3f8349a7d0e72e9f532dc0009dad544bd948972fa3c0ad0bc8ebee6780f1"
+  },
+  "independentClearance": [
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-2646-cultural-memory-b-followup.json",
+      "sha256": "b2379877cdc9d28feb6f68878754c99ddd6553bdbc25f7979f39983025d051df"
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-2646-cultural-memory-a-followup.json",
+      "sha256": "3097d24e59099d438c154a07d7be328c2b01a17f01fbc23b95ed3e3a9edc2528"
+    }
+  ],
+  "changedFiles": {
+    "manifest": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+      "beforeSha256": "f36728341cd15d6dcf98bc4ad5ee04092054c8b4c21bce9a1ee21ead8740c55c",
+      "afterSha256": "bf1012615ddfd8c8438124bbb4a0e2e61a04b737b8989f06cef700b012b5e882"
+    },
+    "decisionFiles": [
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+        "beforeSha256": "bcb7bc790f25d87a0457330d91b33ad7550f468271b60518b4905d2bcf25377f",
+        "afterSha256": "bdf5a3df9a5d38afbb333d754906a894bc333c2f92a39ea5c22a44e35133377b"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+        "beforeSha256": "4639246e76b5e4bb6bf1f13f0a6afcaabe28b6e13a93562cabcda8bd2148546e",
+        "afterSha256": "088f8e847cc941c88a76aa617c27033ada021b3ae596de8a256e9731815e050a"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+        "beforeSha256": "42480ab6aefc90ae1cd06415dc9f9f1770bec6a45c03e40917456f58cf167590",
+        "afterSha256": "76e41d94a3779908f253ffc9c4be5f725cb19d32b52f06b8a80174721273e4b5"
+      }
+    ]
+  },
+  "decisionRows": [
+    {
+      "sourceOrdinal": 2646,
+      "sourceId": "book10-16-0535",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-2646",
+      "reason": "The exact source says old songs remain part of the city’s cultural memory: a community’s shared remembrance, not a new discovery of one layer. Independently AI-reviewed owner 2646 teaches membership, continuing recognition, varied recollections and documentation without endorsement. Canonical 406 teaches the longer uncover a layer of cultural memory discovery construction, which owner 2646’s bounded detector excludes. Four exact source occurrences are recorded in owner provenance."
+    },
+    {
+      "sourceOrdinal": 2678,
+      "sourceId": "book10-16-0567",
+      "action": "proposed-alias-new",
+      "canonicalId": "advanced-native-2646",
+      "reason": "Exact repeated cultural memory sentence and shared-remembrance guide meaning match independently reviewed proposed owner 2646; the complete source is in that owner’s exact provenance and target detector. No separate lesson."
+    },
+    {
+      "sourceOrdinal": 4469,
+      "sourceId": "book10-16-2358",
+      "action": "proposed-alias-new",
+      "canonicalId": "advanced-native-2646",
+      "reason": "Exact repeated cultural memory sentence and shared-remembrance guide meaning match independently reviewed proposed owner 2646 despite this question’s different topic; the complete source is in owner provenance and target detector. No separate lesson."
+    },
+    {
+      "sourceOrdinal": 4505,
+      "sourceId": "book10-16-2394",
+      "action": "proposed-alias-new",
+      "canonicalId": "advanced-native-2646",
+      "reason": "Exact repeated cultural memory sentence and shared-remembrance guide meaning match independently reviewed proposed owner 2646; the complete source is in owner provenance and target detector. No separate lesson."
+    }
+  ],
+  "preservedExistingSelection": {
+    "sourceOrdinal": 3823,
+    "stillSelected": true,
+    "draftFile": "batch-held-3823-social-fabric-a.json"
+  },
+  "checks": {
+    "fullVerifier": {
+      "intakeRows": 2604,
+      "editorialDecisionRows": 2604,
+      "selectedLessons": 628,
+      "selectedQuestions": 3768,
+      "selectedAudioRoles": 2512,
+      "wholeCatalogueSchemaErrors": 0,
+      "exactGuideSentenceCopies": 0,
+      "pilotNearDuplicateFlags": 0,
+      "published": false,
+      "releaseApproved": false
+    },
+    "existingAliasAudit": {
+      "aliases": 1173,
+      "matched": 1173,
+      "exceptions": 0
+    },
+    "newAliasAudit": {
+      "aliases": 187,
+      "matched": 187,
+      "exceptions": 0
+    },
+    "holdCoverage": {
+      "currentHolds": 616,
+      "unaudited": 0,
+      "errors": 0
+    },
+    "newOwnerCollisionScreen": {
+      "catalogueDetectorOverlaps": 30,
+      "source2646CollisionRecords": 0
+    },
+    "gitDiffCheck": "pass on modified manifest and three decision files",
+    "allDiscoveredNewAliasAudit": {
+      "aliases": 187,
+      "matched": 187,
+      "awaitingDrafts": 0,
+      "exceptions": 0
+    },
+    "holdTriageCoverage": {
+      "currentHolds": 616,
+      "untriaged": 0,
+      "errors": 0
+    }
+  },
+  "nonActions": [
+    "No selected lesson body edit",
+    "No owner406 edit",
+    "No audio generation or browser QA",
+    "No SOP audit, upload, publication, commit or push"
+  ]
+}

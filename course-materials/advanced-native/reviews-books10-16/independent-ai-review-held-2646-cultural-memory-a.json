@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-AI-exact-hash-held-lesson-review",
+  "generatedUtc": "2026-10-24T01:58:05.036833+00:00",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-2646-cultural-memory-b.json",
+  "draftSha256": "be4a3f8349a7d0e72e9f532dc0009dad544bd948972fa3c0ad0bc8ebee6780f1",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-2646-cultural-memory-b.json",
+  "authorAuditSha256": "9276cb6eeae1ad11fd01c1d534e63e4c6672553c9fe1e438badf3e55f8a89193",
+  "lessonId": "advanced-native-2646",
+  "sourceOrdinals": [
+    2646,
+    2678,
+    4469,
+    4505
+  ],
+  "status": "repair-before-provisional-selection",
+  "ownerComparison": {
+    "ownerId": "advanced-native-406",
+    "ownerBatchPath": "course-materials/advanced-native/batches/batch-0401-0425.json",
+    "ownerBatchSha256": "fe8bbc3493367e7b4afde479d988c39dc0fbef0b831a14e844eb07573f667805",
+    "meaningDistinction": "Owner406 teaches the act of uncovering one previously hidden aspect of shared past; 2646 can teach the noun for a community’s continuing shared remembrance. The seven-step content mostly preserves that distinction.",
+    "liveDetectorCollision": "2646 pattern \\bcultural memory\\b matches owner406 full source sentence: Reading family letters can feel like uncovering a layer of cultural memory.",
+    "boundedCandidate": "(?<!a layer of )\\bcultural memory\\b",
+    "candidateControlResults": "In native JS, candidate rejects owner406 full source and retains all four exact new source sentences plus current listening, speaking and assessed noun uses. Author must verify all keys, models and source screens after any pattern edit."
+  },
+  "findings": [
+    {
+      "id": "R2646-01",
+      "severity": "major",
+      "path": "target.pattern",
+      "issue": "The broad noun detector claims canonical owner406’s full expression and source sentence, creating a same-surface ownership collision despite a defensible pedagogical distinction.",
+      "recommendedFix": "Add a bounded exclusion for the exact a layer of cultural memory construction (for example the tested fixed-width lookbehind), then test all four source sentences and learner keys as positives and owner406 complete source/assessed phrase as negatives. Keep the noun lesson broad elsewhere; do not alias owner406."
+    },
+    {
+      "id": "R2646-02",
+      "severity": "minor",
+      "path": "listening.options[b,c,d]; scene.options[b,c]",
+      "issue": "Several distractors are categorical or remote: every retired worker exactly agrees, knots were only invented now, a private apprentice preference replaces the stated workers’ teaching, and a demolished building means no memory can remain. These can be rejected from obvious story contradictions without deciding the cultural-memory boundary.",
+      "recommendedFix": "Use close alternatives about what the workshop or annual storytelling warrants: a formally documented technique versus community remembrance; one preferred elder version versus differing accounts; memory in surviving records versus a vanished building. Keep exactly one best key and align Chinese."
+    },
+    {
+      "id": "R2646-03",
+      "severity": "minor",
+      "path": "brief.outcomeZh; writing.selfCheckZh",
+      "issue": "The source says old songs remain part of a city’s cultural memory, which establishes shared remembrance but does not require an identifiable person actively teaching a later generation. Current outcome and final self-check make explicit cross-person teaching appear necessary in every valid case.",
+      "recommendedFix": "Describe continued communal remembrance through practice, stories, or accessible records; keep the current intergenerational examples as valid examples rather than a universal requirement. If feasible, assess one case of collectively retained media or a shared place without a live teacher."
+    }
+  ],
+  "passedChecks": {
+    "sourceProvenance": "Four exact duplicate occurrence IDs/sentences match inventory; source contexts are not invented.",
+    "sixQuestionKeys": "Listening a, scene a, contrast a, dialogue a are defensible; reply b is target-bearing and all four replies can independently answer the exhibition-label prompt.",
+    "bilingual": "Required question prompts and options have Traditional Chinese; major actors/negations in keyed content align.",
+    "speakingSpan": "Exact cultural memory substring.",
+    "writingGlossary": "Six of six English spans exact and non-target; two models use distinct hill-path and kite settings.",
+    "structural": "Author focused build/--check 1 lesson, 6 questions, 4 audio roles, 0 flags; this review did not modify files.",
+    "naturalness": "Cultural memory is a natural abstract collocation. The academic/civic register in the brief is appropriate."
+  },
+  "independentUsageReference": {
+    "title": "Cambridge Memory, Mind & Media: cultural memory can be shared through texts and media as well as practices",
+    "url": "https://www.cambridge.org/core/journals/memory-mind-and-media/article/does-anyone-here-remember-my-grandfather-how-can-digital-memory-work-in-social-media-shape-the-remembrance-of-a-relatively-forgotten-event/AED680EE8CF16D36206A445FBBC4694A"
+  },
+  "limits": "AI editorial review only; no selected manifest, decision, owner, draft, audio or release file changed; no human approval claimed."
+}

@@ -1,0 +1,70 @@
+{
+  "reviewType": "independent AI editorial review; not human approval",
+  "status": "repair-before-selection",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-3823-social-fabric-a.json",
+  "draftSha256": "55e73b49a9a3d74699355444a4bd5df3cba745a26c06d284ed40cc054f159ded",
+  "lessonId": "advanced-native-3823",
+  "sourceOrdinals": [3823, 3928],
+  "sourceIds": ["book10-16-1712", "book10-16-1817"],
+  "sourceSentences": ["Volunteers strengthen the social fabric.", "Volunteers strengthen the social fabric."],
+  "ownerComparison": {
+    "verdict": "Provisionally distinct teaching unit, subject to the assessment repairs below.",
+    "owner1357": "advanced-native-1357 teaches knit the social fabric back together: restoring relationships after a strain or split. The new 3823 source states strengthening and does not imply a prior rupture. The draft's new-contact scenes can test this boundary.",
+    "owner1717": "advanced-native-1717 teaches keep the social fabric from coming apart: maintaining ties against potential loss. The new 3823 source instead supports building or deepening connections. Shared fabric imagery does not alone make these identical learner decisions.",
+    "targetControl": "The 3823 detector matches both full source sentences and keyed target-bearing reply, scene, dialogue, speaking and writing; it rejects the complete 1357 and 1717 source constructions. The longer owners remain separate. This is a form guard, not a proof of semantic distinction.",
+    "usageEvidence": "Cambridge lists social fabric as a collocation and provides examples treating it as a metaphor for interdependent social relationships (https://dictionary.cambridge.org/example/english/social-fabric). The draft's figurative classification is defensible."
+  },
+  "findings": [
+    {
+      "id": "R3823-01",
+      "severity": "major",
+      "path": "writing.examples[1].en; writing.examples[1].zh",
+      "issue": "The final prompt supplies students and older residents from two estates, ongoing recipe exchange, mutual checking and rides. Model 2 changes the actors to 'Families from both estates' / '兩個屋苑的家庭' and adds continuing meal planning. Neither is supplied by the prompt. This weakens the required changed-context answer grounding despite otherwise correct target use.",
+      "recommendedFix": "Keep the named students and older residents in model 2, use one or more supplied follow-on actions (recipe exchange, checking on one another, rides), and retain the unresolved parking dispute. Recalculate the 'ongoing cooperation' glossary span if the sentence changes."
+    },
+    {
+      "id": "R3823-02",
+      "severity": "major",
+      "path": "listening; scene; contrast; dialogue; speaking; writing",
+      "issue": "Six of the seven stages largely repeat the same inference: continuing contact or help supports stronger social fabric, whereas an event count or one-off output alone does not. Listening contrasts ride total with lasting links; contrast uses market sales; dialogue uses post count; scene, speaking and writing again reward continued links. The SOP calls for seven different learner decisions, and the current progression does not sufficiently test grammar/register or distinguish affirmative strengthening from restoration and maintenance.",
+      "recommendedFix": "Retain the valid core metaphor, but redesign at least two assessed stages with independent choices. For example, make one scene choose a strengthening claim for newly formed ties against 1357's unsupported past-rupture claim, and make one dialogue test when a civic-register claim is too broad or when 'of a neighbourhood' is natural. Keep a distinct negative-evidence contrast and changed final writing. Reassess option keys and EN/ZH after rewriting."
+    },
+    {
+      "id": "R3823-03",
+      "severity": "minor",
+      "path": "listening.options[b,c,d]; scene.options[b]; dialogue.options[b,c]",
+      "issue": "Several wrong options are remote, expressly contradicted, or categorical, making the keyed choice easy without understanding social fabric: a clinic booking-process change never mentioned, a polished concert programme unrelated to the asked social effect, and claims that post count proves relationships or online help can never support ties. The single keys are defensible, but distractor quality is weak.",
+      "recommendedFix": "Use plausible close alternatives that misread a real clue or overstate its scope: practical service versus durable ties, temporary coordination versus lasting cooperation, or online contacts that have not yet led to mutual help. Keep each wrong option clearly unsupported by the exact prompt, with faithful Chinese."
+    },
+    {
+      "id": "R3823-04",
+      "severity": "minor",
+      "path": "listening.en; listening.zh",
+      "issue": "'At a monthly clinic ride desk' / '在診所的每月接送服務台' is a stiff and slightly unclear setting for volunteers arranging patient rides. The remainder of the listening model is understandable and source-distinct.",
+      "recommendedFix": "Use a concrete natural setting such as a monthly volunteer desk that coordinates rides to the clinic, and align its Traditional Chinese. Preserve the continuing-help evidence and target phrase."
+    }
+  ],
+  "checklist": [
+    {"gate": "Exact source provenance and source meaning", "result": "pass", "evidence": "Both source IDs, repeated full sentence, book/question/sample/page and source-file checksum align with source inventory. The draft captures relationships and cooperation, not literal cloth or attendance alone."},
+    {"gate": "Distinct owner boundary", "result": "conditional-pass", "evidence": "Positive strengthening of new/deeper ties is distinct from owner1357 repair after division and owner1717 prevention of coming apart, but assessed stages need to test that distinction more deliberately."},
+    {"gate": "Seven ordered steps, six keyed questions, four audio roles", "result": "pass-structural", "evidence": "Focused build and --check produced 1 lesson, 6 questions, 4 audio requests and 0 review flags. This does not certify editorial quality."},
+    {"gate": "Six standard answer keys", "result": "pass-with-distractor-repair", "evidence": "Listening a, scene a, contrast b and dialogue a are uniquely supported; no competing option is equally true. Some decoys are too remote or categorical (R3823-03)."},
+    {"gate": "Four valid replies and one golden target", "result": "pass", "evidence": "Reply options a–d each address a reportable community benefit or continuing cooperation; only golden a uses the target form naturally."},
+    {"gate": "Seven pedagogically different learner decisions", "result": "fail", "evidence": "The lasting-ties-versus-count/output contrast recurs across most stages (R3823-02)."},
+    {"gate": "Natural English and register", "result": "repair", "evidence": "Target-bearing clauses are natural; the clinic ride-desk setting is stiff (R3823-04). Civic-report register is appropriate."},
+    {"gate": "Traditional Chinese semantic fidelity", "result": "pass-with-grounding-repair", "evidence": "Option-by-option Chinese generally follows English, including uncertainty and unresolved parking. Writing model 2 faithfully translates its English but both versions change the prompt's actors and action (R3823-01)."},
+    {"gate": "Target detector, speaking span and owner collision", "result": "pass", "evidence": "Native-JS pattern matched both source sentences and all keyed target-bearing uses; speaking [43,60] slices exactly 'the social fabric'; complete 1357/1717 source phrases were rejected."},
+    {"gate": "Answer-derived glossary and target exclusion", "result": "pass", "evidence": "All five glossary English spans are exact contiguous substrings of the stated writing examples, and none contains the social-fabric target. Recheck after writing repair."},
+    {"gate": "Original practice and changed final context", "result": "conditional-pass", "evidence": "No near-full guide source sentence is copied; the kitchen/parking writing context differs from earlier exercise settings. Model 2 needs prompt grounding (R3823-01)."},
+    {"gate": "Browser layout, audio listening, human approval and release", "result": "not-reviewed", "evidence": "Focused build/check does not establish device layout, audible quality, independent human sign-off, or release readiness."}
+  ],
+  "inputSha256": {
+    "sourceInventory": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "owner1357Batch": "892cc4d158497385839e2189591cf47fed2002c60ab4e0bf5728e0cc888e89e4",
+    "owner1717Batch": "be64c87c9f9394ad39b20111f2c70ce8613a670d5418e980c4662767b2751b6f",
+    "decision3823Batch": "68fc4397f3a42e0dad00a1324935c27b6be15c3c817e8f233de149db56382952",
+    "decision3928Batch": "1cd256bb57c09ccca9017daa811d650ae13cb0594cd78dafda2a6e73c478410f",
+    "goldenSopExtract": "04d1a7542cdd303153bb22f235fdb12f7db492badc75bc08ef13c8e9554a5863"
+  },
+  "mutationScope": "Only this review JSON was added. Draft, selected manifest, decision, owner, audit, audio and release files were not edited."
+}

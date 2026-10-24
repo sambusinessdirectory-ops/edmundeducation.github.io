@@ -1,0 +1,76 @@
+{
+  "reviewType": "independent AI editorial review; not human approval",
+  "status": "minor-repairs-before-selection",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-2646-cultural-memory-b.json",
+  "draftSha256": "ef00c1bdf7987e53a2208e332e9ef9de6244ddc94c80f30683a51a76b606c5b1",
+  "lessonId": "advanced-native-2646",
+  "sourceOrdinals": [2646, 2678, 4469, 4505],
+  "sourceIds": ["book10-16-0535", "book10-16-0567", "book10-16-2358", "book10-16-2394"],
+  "sourceSentence": "Old songs remain part of the city's cultural memory.",
+  "owner406Comparison": {
+    "verdict": "Defensibly distinct, with an explicit detector-scope note required.",
+    "owner406": "Owner 406 teaches the longer verb phrase 'uncover a layer of cultural memory': discovering a particular aspect of a remembered past from evidence, without making it the whole history. Its source is family letters being read as an uncovering experience.",
+    "proposed2646": "This draft teaches the standalone noun phrase 'cultural memory': whether an already remembered song, practice, place or story belongs to a community's shared memory. The source states continuing membership in the city's memory, not a new discovery. The lesson's strongest distinct choices are private versus communal memory, vanished building versus remembered practice, and documentation versus endorsement.",
+    "overlapLimit": "Both lessons necessarily explain shared remembrance and variation among accounts. The proposed target regex also matches 'cultural memory' inside owner 406's complete source phrase. Module-specific rendering may still keep lessons separate, but do not use a bare regex hit to declare the 406 source owned by 2646. Record this nested-construction exception or constrain the detector before selection."
+  },
+  "findings": [
+    {
+      "id": "R2646-01",
+      "severity": "minor",
+      "path": "speaking.zh",
+      "issue": "English says families still 'explain it to newcomers'; Traditional Chinese says they explain '其由來' (its origin). That adds an origin claim absent from English and salient because the lesson elsewhere says origin accounts may differ.",
+      "recommendedFix": "Use '家庭仍向新來者解說這項活動' or another Chinese line about explaining the seed exchange itself, without asserting they explain its origin. The English audio can remain unchanged."
+    },
+    {
+      "id": "R2646-02",
+      "severity": "minor",
+      "path": "writing.examples[1].en; writing.examples[1].zh",
+      "issue": "The prompt says elders teach younger people to make a traditional kite frame. The model changes this to 'fold the traditional frame' / '摺出傳統框架', an unprovided method that sounds questionable for a kite frame, which is usually assembled or bent rather than folded.",
+      "recommendedFix": "Use 'make' or 'assemble the traditional kite frame' and matching Chinese, preserving the named annual workshop, different origin accounts and target phrase. Revalidate all example-derived glossary spans after editing."
+    },
+    {
+      "id": "R2646-03",
+      "severity": "minor",
+      "path": "target.pattern; owner comparison",
+      "issue": "The bare /cultural memory/ detector matches all four proposed source sentences, but also matches the phrase inside owner 406's full 'uncover a layer of cultural memory' source and keyed lines. The lessons can remain distinct by construction and learner decision, yet a cross-owner detector screen will show a collision.",
+      "recommendedFix": "Document an intentional nested-expression exception keyed to the complete owner 406 construction, or add a bounded guard excluding 'a layer of cultural memory' while retaining all four proposed full-source matches and this draft's keyed forms. Test both owners' source sentences and inflected 406 forms before integration."
+    },
+    {
+      "id": "R2646-04",
+      "severity": "minor",
+      "path": "listening.options[b,c,d]; scene.options[b,c]",
+      "issue": "Several wrong options use near-absolute impossibilities ('every retired worker ... exactly the same way', a demolished building means no shared memory can remain, every resident used it identically). The keys are unambiguous, but students can discard some foils without deciding what cultural memory means.",
+      "recommendedFix": "Replace one or two with plausible near-misses drawn from the stated evidence, such as treating the workshop as merely a technical lesson without its shared port history, or mistaking differing accounts for proof that no common practice existed. Keep exactly one best key and align each Chinese option."
+    },
+    {
+      "id": "R2646-05",
+      "severity": "minor",
+      "path": "brief.outcomeZh; listening; scene; writing",
+      "issue": "Most affirmative assessments involve active annual teaching or retelling, while the source only says old songs remain part of a city's cultural memory. The brief itself allows stories, practices or places; active instruction to newcomers should be an example, not a requirement for membership in cultural memory.",
+      "recommendedFix": "Include or discuss one supported case of shared remembered material that persists through recognition, archives or community recollection without requiring a currently repeated workshop. Retain the private-versus-communal boundary and avoid claiming mere archival existence proves broad public remembrance."
+    }
+  ],
+  "checklist": [
+    {"gate": "Exact source and provenance", "result": "pass", "evidence": "All four source IDs, book/question/sample/page locators and exact repeated sentence match the source inventory. The draft does not infer a sports or products scenario from the repeated sentence."},
+    {"gate": "Distinct learner unit versus owner 406", "result": "conditional-pass", "evidence": "Standalone shared-memory noun versus discovery of one layer is a useful construction and decision difference. Shared remembrance/variation overlap is acknowledged; nested detector needs explicit handling (R2646-03)."},
+    {"gate": "Seven steps, six questions, four audio roles", "result": "pass-structural", "evidence": "Focused build and --check produced 1 lesson, 6 questions, 4 audio requests and 0 review flags. No audio was synthesized or listened to."},
+    {"gate": "Six keyed questions and single-best standard answers", "result": "pass-with-foil-polish", "evidence": "Listening a, scene a, contrast a and dialogue a are each uniquely supported; the reply golden b is natural and target-bearing. Some standard distractors are remote or absolute (R2646-04)."},
+    {"gate": "Four valid replies", "result": "pass", "evidence": "All a–d offer a cautious, usable exhibition-label approach that names continuing practice or preserves multiple family accounts; only golden b contains the target phrase."},
+    {"gate": "Seven distinct learner decisions", "result": "pass-with-coverage-note", "evidence": "The stages cover intergenerational practice, careful attribution, memory after a building disappears, private versus shared recollection, recording a harmful rule without endorsement, a spoken village example and changed-context exhibit writing. Variation among accounts recurs, but the decisions are not identical."},
+    {"gate": "Natural English and source sense", "result": "repair", "evidence": "The noun phrase is natural and the shared-memory sense is preserved. Model 2's 'fold the traditional frame' is an unsupported and likely awkward kite-making detail (R2646-02); positive cases overemphasize active teaching (R2646-05)."},
+    {"gate": "Traditional Chinese semantic fidelity", "result": "repair", "evidence": "Most translations preserve actors, qualification, negation and uncertainty. Speaking Chinese adds an origin explanation absent from English (R2646-01)."},
+    {"gate": "Target forms and speaking span", "result": "pass-with-owner-scope-note", "evidence": "Native-JS regex matches all four full source sentences and every target-bearing keyed model; speaking [50,65] slices exactly 'cultural memory'. It also matches inside owner 406's longer construction (R2646-03)."},
+    {"gate": "Answer-derived glossary and target exclusion", "result": "pass", "evidence": "All six English glossary spans exactly equal contiguous substrings of their cited suggested answers. None contains cultural memory; recheck after any writing edit."},
+    {"gate": "Originality and changed final context", "result": "pass", "evidence": "Harbour knots, market recipe, bathhouse, school rule, seeds, hill bell and kite frame differ from the guide's old-songs example. The final exhibit writing is a new context and provides two complete English/Chinese models."},
+    {"gate": "Browser, actual listening, human approval and release", "result": "not-reviewed", "evidence": "The focused builder does not certify device layout, audio quality, human approval, live hosting or release."}
+  ],
+  "inputSha256": {
+    "sourceInventory": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "owner406Batch": "fe8bbc3493367e7b4afde479d988c39dc0fbef0b831a14e844eb07573f667805",
+    "decision2646Batch": "bcb7bc790f25d87a0457330d91b33ad7550f468271b60518b4905d2bcf25377f",
+    "decision2678Batch": "4639246e76b5e4bb6bf1f13f0a6afcaabe28b6e13a93562cabcda8bd2148546e",
+    "decision4469And4505Batch": "42480ab6aefc90ae1cd06415dc9f9f1770bec6a45c03e40917456f58cf167590",
+    "goldenSopExtract": "04d1a7542cdd303153bb22f235fdb12f7db492badc75bc08ef13c8e9554a5863"
+  },
+  "mutationScope": "Only this review JSON was added. Draft, selected manifest, source decision, owner 406, audio, audit and release files were not edited."
+}

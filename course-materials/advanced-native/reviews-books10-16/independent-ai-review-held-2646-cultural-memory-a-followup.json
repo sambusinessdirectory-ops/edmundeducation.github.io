@@ -1,0 +1,55 @@
+{
+  "reviewType": "scoped independent AI exact-hash follow-up; not human approval",
+  "status": "content-clear-for-provisional-unpublished-selection",
+  "lessonId": "advanced-native-2646",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-2646-cultural-memory-b.json",
+  "reviewedDraftSha256": "be4a3f8349a7d0e72e9f532dc0009dad544bd948972fa3c0ad0bc8ebee6780f1",
+  "authorAuditSha256": "e08aaa46b6aa5ddfc1a68033c4be964ed23fd36c78fd3fa20d6a0d1144732f70",
+  "authorRepairReportSha256": "2895353561dea5b039a99650e282b6b3834cf8a66bed2fc0054386769d5d138f",
+  "sourceOrdinals": [
+    2646,
+    2678,
+    4469,
+    4505
+  ],
+  "findingFollowup": [
+    {
+      "id": "R2646-01",
+      "result": "resolved",
+      "evidence": "Speaking English and Traditional Chinese both say families explain the seed exchange to newcomers; no origin claim is added."
+    },
+    {
+      "id": "R2646-02",
+      "result": "resolved",
+      "evidence": "Kite model says make the traditional frame / 製作傳統框架, matching prompt; all six regenerated answer-derived glossary spans are exact non-target substrings."
+    },
+    {
+      "id": "R2646-03",
+      "result": "resolved",
+      "evidence": "Bounded target rejects complete owner406 source and assessed source-bearing construction while matching all four 2646-family source occurrences and all seven current target-bearing lines. Screen of selected plus canonical source examples finds zero pre-existing owner source hits."
+    },
+    {
+      "id": "R2646-04",
+      "result": "resolved",
+      "evidence": "Listening/scene alternatives now compare close but unsupported claims about unanimity, skill versus shared history, varied accounts and continued building use. Correct keys remain evidence-grounded and EN/ZH aligned."
+    },
+    {
+      "id": "R2646-05",
+      "result": "resolved",
+      "evidence": "Brief and scene allow shared recollection through photographs and archived recordings without requiring current teaching. Intergenerational workshop is one valid example rather than a universal condition."
+    }
+  ],
+  "verification": {
+    "focusedBuild": "1 lesson, 6 questions, 4 audio requests, 0 review flags",
+    "focusedCheck": "pass",
+    "exactSourceProvenance": 4,
+    "fullSourceDetectorMatches": 4,
+    "preexistingOwnerSourceDetectorHits": 0,
+    "owner406CompleteSourceMatch": false,
+    "keyTargetMatches": 7,
+    "speakingSpan": "cultural memory",
+    "glossaryExactNonTargetSpans": 6
+  },
+  "residual": "The exercise still uses one deliberately less close private-apprentice foil, but it is a valid individual-versus-shared-memory boundary and does not make the key ambiguous.",
+  "limits": "AI content review only; no selected manifest, editorial decision, audio, publication, or human approval claim."
+}

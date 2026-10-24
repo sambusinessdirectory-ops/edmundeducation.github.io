@@ -1,0 +1,59 @@
+{
+  "type": "author scoped repair after independent 2646 review",
+  "recordedAtUtc": "2026-10-24T01:58:48.212971+00:00",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-2646-cultural-memory-b.json",
+  "draftSha256": "be4a3f8349a7d0e72e9f532dc0009dad544bd948972fa3c0ad0bc8ebee6780f1",
+  "contentRevision": 2,
+  "previousDraftSha256": "ef00c1bdf7987e53a2208e332e9ef9de6244ddc94c80f30683a51a76b606c5b1",
+  "pilotReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-2646-cultural-memory-review-pilot.json",
+  "pilotReviewSha256": "d1a748269321f7ddb6b1ecabc2c1c9e94b87711c303b8e45d5e50df652c4ea77",
+  "aReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-2646-cultural-memory-a.json",
+  "aReviewSha256": "3afaf050f653c2450e99e75d2430cd21f9b36aa8064795c3c4126898f50fa8a3",
+  "authorSelfAuditPath": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-2646-cultural-memory-b.json",
+  "authorSelfAuditSha256": "e08aaa46b6aa5ddfc1a68033c4be964ed23fd36c78fd3fa20d6a0d1144732f70",
+  "repairs": [
+    {
+      "id": "R2646-01",
+      "status": "repaired",
+      "evidence": "Speaking Chinese now explains the seed exchange itself without asserting families explain its origin; English and exact [50,65] target span unchanged."
+    },
+    {
+      "id": "R2646-02",
+      "status": "repaired",
+      "evidence": "Kite writing model says make the traditional frame / 製作傳統框架; all six answer-derived glossary spans recomputed and exact."
+    },
+    {
+      "id": "R2646-03",
+      "status": "repaired",
+      "evidence": "Target regex uses a bounded negative lookbehind for a layer of cultural memory; 13 live JS positives and 5 negatives pass, including complete owner406 source and inflected owner406 forms."
+    },
+    {
+      "id": "R2646-04",
+      "status": "repaired",
+      "evidence": "Listening b/c and scene b/c now test plausible near-miss inferences about agreement, skill versus port history, varied recollections and continued building use; keys and EN/ZH stay aligned."
+    },
+    {
+      "id": "R2646-05",
+      "status": "repaired",
+      "evidence": "Brief no longer requires current instruction; scene includes shared recollection prompted by old archive photographs and model1 community recognition of archive bell recordings."
+    }
+  ],
+  "focusedBuildCheck": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRoles": 4,
+    "flags": 0,
+    "build": "passed",
+    "check": "passed"
+  },
+  "originalityScreen": {
+    "learnerEnglishStrings": 24,
+    "sourceExamples": 2604,
+    "sixTokenHits": 0,
+    "fullLineFuzzyAtLeast0_8": 0
+  },
+  "sourceDecisionsUnchanged": true,
+  "selectedManifestUnchanged": true,
+  "independentRecheck": "pending",
+  "releaseClaim": false
+}

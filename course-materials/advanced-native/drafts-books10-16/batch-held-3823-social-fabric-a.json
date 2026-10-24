@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-3823-social-fabric-a",
+  "lessons": [
+    {
+      "id": "advanced-native-3823",
+      "number": 3823,
+      "inventoryId": "expr-3823",
+      "titleEn": "the social fabric",
+      "titleZh": "社群關係網",
+      "category": "figurative",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\bthe social fabric\\b(?!\\s+(?:back together|from coming apart)\\b)",
+        "glossaryForbidden": [
+          "\\bsocial fabric\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "The network of relationships and cooperation that connects members of a community or society.",
+        "meaningZh": "把社群或社會成員連起來的關係與合作網絡。",
+        "grammar": "Use the social fabric as a singular noun phrase, often with of a community or place. Verbs such as strengthen, weaken or support can describe its condition. Strengthening may mean new or deeper ties; it does not itself claim a past rupture or a present threat of collapse.",
+        "register": "Neutral to fairly formal civic metaphor. A charity coordinator may explain to residents or a council member how volunteers build continuing ties; a community reporter may describe those ties to readers. Give observable relationship evidence rather than using it as a label for attendance or funding alone.",
+        "boundaryZh": "重點是持續的人際連繫或合作；單次活動人數、籌款金額或場地改善，本身不足以證明關係網變強。此名詞不自帶「曾經決裂後修復」或「正瀕臨瓦解而被維持」的意思。",
+        "misconceptionZh": "不要按字面理解為布料，也不要把任何義工活動都說成加強社群關係；要指出跨人群的實際互動及其延續。",
+        "outcomeZh": "能指出哪幾群人建立或加深了哪些持續連繫，並分清關係網變強、修復舊裂痕和避免現有連繫瓦解。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1712",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 161,
+          "book": 14,
+          "question": 28,
+          "sample": "S2",
+          "sourceBookPages": "62–63",
+          "locatorNote": "DOCX table 172, row 8; page refers to the locally rendered PDF recorded in the intake summary. Source question asks about charities.",
+          "sentence": "Volunteers strengthen the social fabric.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "social fabric"
+        },
+        {
+          "occurrenceId": "book10-16-1817",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 171,
+          "book": 15,
+          "question": 5,
+          "sample": "S2",
+          "sourceBookPages": "13–14",
+          "locatorNote": "DOCX table 183, row 11; page refers to the locally rendered PDF recorded in the intake summary. Exact repeated sentence; its sports-question context is not made explicit by that sentence.",
+          "sentence": "Volunteers strengthen the social fabric.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "social fabric"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored exploratory held-source lesson, revised after independent AI findings R3823-01 to R3823-04. Both source decisions remain hold-editorial; independent follow-up, media and release approval remain pending."
+        ]
+      },
+      "listening": {
+        "en": "At a volunteer desk for clinic rides, people from two streets met. They kept arranging rides for one another’s families after the first event. The organiser said those continuing links strengthened the social fabric, beyond the ride total.",
+        "zh": "在安排往返診所接送的義工服務台，來自兩條街的居民相識。首次活動後，他們繼續替彼此的家人安排接送。籌辦者說，除了接送總數，這些持續的連繫也加強了社群關係網。",
+        "promptEn": "What makes the social fabric stronger in the organiser’s account?",
+        "promptZh": "按籌辦者的說法，甚麼令社群關係網變強？",
+        "options": [
+          {
+            "id": "a",
+            "en": "People from different streets kept helping one another after the first event.",
+            "zh": "來自不同街道的居民在首次活動後仍繼續互相幫忙。"
+          },
+          {
+            "id": "b",
+            "en": "The organiser’s point was only that the first event served people from two streets.",
+            "zh": "籌辦者只想說首次活動服務了兩條街的居民。"
+          },
+          {
+            "id": "c",
+            "en": "The continuing ride service, rather than ties among volunteers, was what the organiser meant by the social fabric.",
+            "zh": "籌辦者所說的社群關係網，是持續的接送服務，而不是義工之間的連繫。"
+          },
+          {
+            "id": "d",
+            "en": "The ride arrangements repaired a cross-street friendship broken by an earlier dispute.",
+            "zh": "接送安排修補了早前因爭執中斷的跨街道友誼。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音重點是首次活動後仍持續互相安排接送，而不只服務範圍或當天接送量；也沒有交代曾有決裂待修復。"
+      },
+      "reply": {
+        "promptEn": "At our repair café, residents from two neighbourhoods now help one another fix appliances and use a shared contact list to arrange visits between events. What community benefit could I describe in our update?",
+        "promptZh": "在我們的維修咖啡館，兩個社區的居民現在互相幫忙修理電器，還用共用聯絡名單安排活動之間的探訪。我可以怎樣在近況報告裏描述這項社區裨益？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It strengthens the social fabric because residents from both neighbourhoods keep helping one another between repair days.",
+            "zh": "它加強了社群關係網，因為兩個社區的居民在維修日之間仍繼續互相幫忙。"
+          },
+          {
+            "id": "b",
+            "en": "I would describe the new cross-neighbourhood ties and give the continuing visits as evidence.",
+            "zh": "我會描述新建立的跨社區連繫，並以持續探訪作為證據。"
+          },
+          {
+            "id": "c",
+            "en": "The contact list gives residents a practical way to keep exchanging help after an event ends.",
+            "zh": "聯絡名單讓居民在活動結束後仍有實際方法繼續互相幫忙。"
+          },
+          {
+            "id": "d",
+            "en": "I would report the ongoing cooperation without claiming that it has solved every local problem.",
+            "zh": "我會報道持續的合作，但不會聲稱它已解決所有地區問題。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句各自回答近況報告可寫的社區裨益；金句用本課名詞指出跨社區、持續的互助。題目未說所有地區問題已解決。"
+      },
+      "scene": {
+        "promptZh": "一棟新落成的大廈迎來原本互不認識的住戶。大家建立共用工具庫，之後每周交流維修方法，亦會互相借工具。哪句最準確描述這些新關係？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their repeated help strengthens the social fabric of the new residential community.",
+            "zh": "他們反覆互相幫忙，加強了這個新住宅社區的關係網。"
+          },
+          {
+            "id": "b",
+            "en": "Their tool library knits the social fabric back together after a dispute split these neighbours.",
+            "zh": "工具庫在鄰居因爭執決裂後，把社群連繫重新編織起來。"
+          },
+          {
+            "id": "c",
+            "en": "Their tool library keeps the social fabric from coming apart as a long-standing network weakens.",
+            "zh": "原有的長期關係網逐漸變弱時，工具庫避免社群連繫瓦解。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新大廈的陌生住戶建立並持續加深互助，屬於加強關係網；題目沒有曾經決裂的舊關係，也沒有正在瓦解的長期網絡。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不能單憑現有資料證明「the social fabric」變強？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Residents who met at a flood-preparedness workshop now share contacts and check on one another.",
+            "zh": "居民在防洪工作坊相識後，現在交換聯絡方式，並互相關心。"
+          },
+          {
+            "id": "b",
+            "en": "A busy fair records strong sales, but its report gives no evidence of continuing contact among residents.",
+            "zh": "熱鬧市集錄得良好銷售額，但報告沒有提供居民之間持續聯絡的證據。"
+          },
+          {
+            "id": "c",
+            "en": "Families from two blocks continue to plan monthly meals together and offer one another help.",
+            "zh": "來自兩棟樓的家庭繼續一起策劃每月聚餐，並互相幫忙。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "銷售額只顯示交易結果，不能單靠它推斷居民建立了持續連繫；另外兩項都交代了活動後延續的人際互動。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「兩個體育會在聯合課程後持續分享教練和聯絡資料。市級報告可否寫成全市的社群關係都已變強？」乙說：「我們目前只觀察到這兩個會的合作。」哪句回應最審慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can say their continuing cooperation strengthened the social fabric of their local community, but we cannot claim a citywide change.",
+            "zh": "我們可以說他們持續合作，加強了所屬社區的關係網，但不能聲稱全市已有改變。"
+          },
+          {
+            "id": "b",
+            "en": "One joint course is enough to say that relationships across the whole city have improved.",
+            "zh": "單是一次聯合課程，已足以說全市的關係都有改善。"
+          },
+          {
+            "id": "c",
+            "en": "The shared trainers only affect scheduling, so the clubs’ continuing cooperation should not be reported as a relationship change.",
+            "zh": "共用教練只影響時間安排，因此不應把兩個會持續合作報道成關係上的改變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可根據兩個體育會持續分享教練與聯絡資料，有限度地說明當地連繫加強；不能擴大成全市成果，也不宜抹去已有的關係變化。"
+      },
+      "speaking": {
+        "en": "The new volunteer network strengthened the social fabric of the district by linking students with older residents.",
+        "zh": "新義工網絡把學生與年長居民連起來，令該區的社群關係網更強。",
+        "promptZh": "先聽示範，再說出哪些人建立連繫，並用 of the district 指明社群範圍。",
+        "targetSpan": {
+          "start": 39,
+          "end": 56
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個屋苑的學生和年長居民在共用廚房一起做飯，後來繼續交換食譜、互相關心，還會幫忙接送；兩個屋苑對泊車安排的分歧尚未解決。用一至兩句英文寫給社區通訊，說明哪些持續連繫加強了社群關係網，不要聲稱舊分歧已解決。",
+        "selfCheckZh": "指出來自兩個屋苑的群體及至少一項活動後仍持續的互助或聯絡，用 the social fabric，並保留泊車分歧尚未解決。",
+        "examples": [
+          {
+            "en": "Students and older residents from both estates kept sharing recipes and checking on one another after the kitchen sessions. Those ties strengthened the social fabric, though the parking dispute remained open.",
+            "zh": "兩個屋苑的學生和年長居民在共用廚房活動後仍分享食譜、互相關心。這些連繫加強了社群關係網，但泊車分歧仍未解決。"
+          },
+          {
+            "en": "Students and older residents from both estates kept offering rides and checking on one another after the shared kitchen sessions. Their ongoing cooperation strengthened the social fabric, though the parking dispute remained unresolved.",
+            "zh": "兩個屋苑的學生和年長居民在共用廚房活動後，繼續提供接送並互相關心。他們持續合作，加強了社群關係網，但泊車分歧仍未解決。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "older residents",
+            "zh": "年長居民",
+            "exampleIndex": 0,
+            "span": {
+              "start": 13,
+              "end": 28
+            }
+          },
+          {
+            "en": "sharing recipes",
+            "zh": "分享食譜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 52,
+              "end": 67
+            }
+          },
+          {
+            "en": "checking on one another",
+            "zh": "互相關心",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 95
+            }
+          },
+          {
+            "en": "parking dispute",
+            "zh": "泊車分歧",
+            "exampleIndex": 0,
+            "span": {
+              "start": 178,
+              "end": 193
+            }
+          },
+          {
+            "en": "ongoing cooperation",
+            "zh": "持續合作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 136,
+              "end": 155
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Shared childcare arrangements can strengthen the social fabric when families keep helping one another over time.",
+          "zh": "若家庭長期互相幫忙，共同照顧孩子的安排可以加強社群關係網。"
+        },
+        {
+          "en": "In its annual report, the association explained how regular cross-team mentoring strengthened the social fabric of the town.",
+          "zh": "協會在年報中解釋，定期跨隊指導如何加強鎮上的社群關係網。"
+        }
+      ]
+    }
+  ]
+}

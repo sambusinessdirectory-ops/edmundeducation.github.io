@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-source-2646-cultural-memory-b",
+  "lessons": [
+    {
+      "id": "advanced-native-2646",
+      "number": 2646,
+      "inventoryId": "expr-2646",
+      "titleEn": "cultural memory",
+      "titleZh": "文化記憶",
+      "category": "natural",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "(?<!a layer of )\\bcultural memory\\b",
+        "glossaryForbidden": [
+          "\\bcultural memory\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "The shared remembrance of a community's past that continues through stories, practices or places. A practice can belong to cultural memory even when members remember its details differently.",
+        "meaningZh": "社群透過故事、做法或地方延續的共同過去記憶。即使成員記得的細節不同，某項做法仍可屬於文化記憶。",
+        "grammar": "Cultural memory is normally an uncountable noun phrase: part of a city's cultural memory; in a community's cultural memory. Name the group and show shared remembrance, which may persist through recognition or recorded recollections without a current workshop. Do not use it for one private memory. The longer 'uncover a layer of cultural memory' construction is taught by owner 406.",
+        "register": "Neutral to academic cultural commentary. A community curator may use it in an exhibition caption for residents; a teacher may use it when discussing traditions with students.",
+        "boundaryZh": "屬共同記憶不等於每個居民都知道、說法完全一致，或有人現時定期教授；舊照片、錄音或故事若仍喚起社群中的共同回憶，也可作為證據。單有一份封存檔案而無人記得，則不能據此聲稱全社群保有這份記憶。",
+        "misconceptionZh": "不要把一人的私密回憶當成全社群的文化記憶，也不要把「文化記憶」誤當作只有正式檔案才有的紀錄。本課不同於既有課程的「發掘一層文化記憶」。",
+        "outcomeZh": "能指出哪個社群仍共同記得一項做法或故事、有哪些跨人的記憶證據，並避免把定期教授或人人有同一版本當成必要條件。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0535",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 49,
+          "book": 11,
+          "question": 9,
+          "sample": "S1",
+          "sourceBookPages": "22–24",
+          "locatorNote": "DOCX table 45, row 3; page is the locally rendered PDF page. Separate exact occurrence; no inference from the repeated example to this question's own topic.",
+          "sentence": "Old songs remain part of the city's cultural memory.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "cultural memory"
+        },
+        {
+          "occurrenceId": "book10-16-0567",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 52,
+          "book": 11,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "30–32",
+          "locatorNote": "DOCX table 48, row 4; page is the locally rendered PDF page. Separate exact occurrence; no inference from the repeated example to this question's own topic.",
+          "sentence": "Old songs remain part of the city's cultural memory.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "cultural memory"
+        },
+        {
+          "occurrenceId": "book10-16-2358",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 223,
+          "book": 16,
+          "question": 30,
+          "sample": "S2",
+          "sourceBookPages": "72–74",
+          "locatorNote": "DOCX table 245, row 8; page is the locally rendered PDF page. Separate exact occurrence; no inference from the repeated example to this question's own topic.",
+          "sentence": "Old songs remain part of the city's cultural memory.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "cultural memory"
+        },
+        {
+          "occurrenceId": "book10-16-2394",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 226,
+          "book": 16,
+          "question": 34,
+          "sample": "S1",
+          "sourceBookPages": "82–83",
+          "locatorNote": "DOCX table 249, row 5; page is the locally rendered PDF page. Separate exact occurrence; no inference from the repeated example to this question's own topic.",
+          "sentence": "Old songs remain part of the city's cultural memory.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "cultural memory"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "Exploratory unselected noun-phrase lesson; source2646 is proposed owner for exact-repeat occurrences 2678, 4469 and 4505. All four decisions remain hold-editorial pending independent review and integration."
+        ]
+      },
+      "listening": {
+        "en": "At an annual harbour workshop, retired dockworkers demonstrate old cargo knots to apprentices. The practice belongs to the port's cultural memory, although the workers recall some steps differently.",
+        "zh": "在每年的港口工作坊，退休碼頭工人向學徒示範舊式貨物繩結。這項做法屬於港口的文化記憶，雖然工人對部分步驟的記憶不同。",
+        "promptZh": "為何這些繩結做法可屬於港口的文化記憶？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Workers pass a shared practice to apprentices, even if they recall some details differently.",
+            "zh": "工人把共同做法傳給學徒，即使對部分細節的記憶不同。"
+          },
+          {
+            "id": "b",
+            "en": "The knots qualify only if all retired workers first agree on every step.",
+            "zh": "只有所有退休工人先對每個步驟達成一致，這些繩結才算文化記憶。"
+          },
+          {
+            "id": "c",
+            "en": "The knots count because apprentices can tie them efficiently, even if no one links them to the port’s past.",
+            "zh": "只要學徒能熟練打結，就算沒人把它們與港口的過去連起來，這些繩結也算文化記憶。"
+          },
+          {
+            "id": "d",
+            "en": "One apprentice privately likes a knot, but no worker has shared or taught it.",
+            "zh": "只有一名學徒私下喜歡某個繩結，沒有工人分享或教授它。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "退休工人仍向新學徒傳授舊做法，呈現社群延續的共同記憶；細節有差異不等於沒有文化記憶。"
+      },
+      "reply": {
+        "promptEn": "Several market families still prepare an old festival recipe, but they tell different stories about where it began. How should our exhibition label describe it without claiming the whole city shares one version?",
+        "promptZh": "幾個市集家庭仍製作一道舊節慶食譜，但對它的起源說法不同。我們的展覽說明應怎樣寫，才不會聲稱全城只有一個版本？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We could name the families who still prepare it and show their accounts side by side.",
+            "zh": "我們可註明仍製作它的家庭，並並列他們的說法。"
+          },
+          {
+            "id": "b",
+            "en": "We could call the recipe part of the market's cultural memory, credit the families and keep their different accounts visible.",
+            "zh": "我們可說這食譜是市集文化記憶的一部分，註明相關家庭，並保留各種不同說法。"
+          },
+          {
+            "id": "c",
+            "en": "We could explain that the recipe has been passed on while identifying which family gave each account.",
+            "zh": "我們可說明食譜一直有人傳承，並標明每種說法來自哪個家庭。"
+          },
+          {
+            "id": "d",
+            "en": "We could say named families still prepare it, then invite other residents to add their recollections.",
+            "zh": "我們可說明哪些家庭仍製作它，再邀請其他居民補充他們的回憶。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四句都保留家庭來源及不同說法，不把局部記憶寫成全城唯一版本；金句用 cultural memory 概括市集社群仍傳承的食譜。"
+      },
+      "scene": {
+        "promptZh": "舊公共澡堂已拆除。社區檔案館展出的舊相片讓幾位長者談起當年排隊入場的習慣；他們對細節說法不同，鄰居仍認得這個共同場景。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The bathhouse routine remains in the neighbourhood's cultural memory, although the building is gone and accounts differ.",
+            "zh": "澡堂的排隊習慣仍留在社區的文化記憶中，雖然建築已不在，各人說法亦有差異。"
+          },
+          {
+            "id": "b",
+            "en": "The photograph preserves a historical record, but the varied recollections cannot form a shared memory.",
+            "zh": "相片保存了一份歷史紀錄，但各人的回憶有差異，就不能構成共同記憶。"
+          },
+          {
+            "id": "c",
+            "en": "The old queue is part of the neighbourhood’s memory only if residents still use the bathhouse.",
+            "zh": "只有居民現在仍使用澡堂，舊時的排隊習慣才算社區記憶的一部分。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "建築雖已拆除，檔案館的相片仍喚起多位鄰居對舊習慣的共同回憶；細節不同不等於沒有共同記憶，也不要求澡堂仍在使用。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合稱為社群的 cultural memory？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A former member has a vivid private memory of a rehearsal no one else attended or heard about.",
+            "zh": "一名前團員清楚記得一次只有自己參加、也從未向人提起的綵排。"
+          },
+          {
+            "id": "b",
+            "en": "Many alumni still sing a school song at reunions, although they remember some lyrics differently.",
+            "zh": "不少舊生在聚會時仍唱校歌，雖然對部分歌詞的記憶不同。"
+          },
+          {
+            "id": "c",
+            "en": "Neighbours teach a seasonal greeting to children, with small variations between families.",
+            "zh": "鄰里教孩子一句季節問候語，各家庭的說法略有不同。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單獨而未分享的私人記憶，尚不足以構成社群持續保留的文化記憶；另外兩項都有跨人傳承。"
+      },
+      "dialogue": {
+        "promptZh": "學校展覽要記錄昔日一項令部分學生被排除在外的校內規定。幾代舊生仍會談起它。甲說：「把它放進展覽，就等於贊成當年的做法。」乙怎樣回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can document the rule as part of the school's cultural memory without endorsing it; let's include accounts from students who were excluded.",
+            "zh": "我們可把這規定記作學校文化記憶的一部分，並不代表贊同；也應加入當年被排除學生的敘述。"
+          },
+          {
+            "id": "b",
+            "en": "Let's omit the old rule and show only today's policy so no one mistakes documentation for praise.",
+            "zh": "我們只展示現行規定，不提舊規則，以免有人把記錄誤當成讚許。"
+          },
+          {
+            "id": "c",
+            "en": "Let's display the old rule as a respected tradition and leave out former students' objections.",
+            "zh": "我們把舊規則當成受尊重的傳統展出，略去舊生當年的反對意見。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "記錄社群仍記得的做法不等於贊許；展覽應保留受影響者的聲音，而非抹去往事或只呈現讚美。"
+      },
+      "speaking": {
+        "en": "The annual seed exchange is part of the village's cultural memory because families still explain it to newcomers.",
+        "zh": "每年的種子交換活動屬於村莊的文化記憶，因為家庭仍向新來者解說這項活動。",
+        "promptZh": "先聽示範，再說明誰在傳承這項村莊活動。",
+        "targetSpan": {
+          "start": 50,
+          "end": 65
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你為地方展覽寫一至兩句英文說明。可選山谷居民聽到舊錄音時仍能認出的山徑鐘聲節奏，或長者每年教年輕人製作的傳統風箏框架。指出哪個社群保留這項做法、有哪些記憶或傳承證據，並避免聲稱每戶家庭都用過或全都同意其起源。",
+        "selfCheckZh": "所選做法須有跨人的記憶、辨認或傳承證據；用 cultural memory 指明相關社群，交代誰仍認得或傳承它，並保留「不是每戶都用過」或「起源說法不同」的界線；不可把個人回憶或單獨封存的資料當全社群事實。",
+        "examples": [
+          {
+            "en": "The old hill-path bell pattern lives in the valley's cultural memory because local residents still recognise it in archive recordings. The label should credit those residents without claiming every household used the signal.",
+            "zh": "舊山徑的鐘聲節奏仍留在山谷的文化記憶中，因為當地居民聽到檔案錄音時仍認得它。展覽說明應註明這些居民的見證，不能聲稱每戶人家都用過這種信號。"
+          },
+          {
+            "en": "At the yearly kite workshop, elders show younger makers how to make the traditional frame. The method is part of the neighbourhood's cultural memory, though families tell different stories about where it began.",
+            "zh": "在每年的風箏工作坊，長者教年輕製作者製作傳統框架。這方法是社區文化記憶的一部分，雖然各家庭對其起源有不同說法。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The old hill-path bell pattern",
+            "zh": "舊山徑的鐘聲節奏",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 30
+            }
+          },
+          {
+            "en": "local residents",
+            "zh": "當地居民",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 92
+            }
+          },
+          {
+            "en": "every household",
+            "zh": "每戶人家",
+            "exampleIndex": 0,
+            "span": {
+              "start": 192,
+              "end": 207
+            }
+          },
+          {
+            "en": "the yearly kite workshop",
+            "zh": "每年的風箏工作坊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 3,
+              "end": 27
+            }
+          },
+          {
+            "en": "younger makers",
+            "zh": "年輕製作者",
+            "exampleIndex": 1,
+            "span": {
+              "start": 41,
+              "end": 55
+            }
+          },
+          {
+            "en": "where it began",
+            "zh": "它的起源",
+            "exampleIndex": 1,
+            "span": {
+              "start": 195,
+              "end": 209
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Cultural memory is shared remembrance passed through a community, not proof that everyone recalls the past alike.",
+          "zh": "文化記憶是社群傳下來的共同回憶，不證明每個人對過去的記法都一樣。"
+        },
+        {
+          "en": "The old mural symbols live in the town's cultural memory because residents still explain them at gatherings.",
+          "zh": "舊壁畫符號仍留在小鎮的文化記憶中，因為居民聚會時仍會解說它們。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "kind": "unpublished-selected-lesson-integration-attestation",
+  "lessonId": "advanced-native-3823",
+  "sourceActions": [
+    {
+      "sourceOrdinal": 3823,
+      "sourceId": "book10-16-1712",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-3823"
+    },
+    {
+      "sourceOrdinal": 3928,
+      "sourceId": "book10-16-1817",
+      "action": "proposed-alias-new",
+      "canonicalId": "advanced-native-3823"
+    }
+  ],
+  "before": {
+    "selectedCount": 626,
+    "manifestSha256": "7928f7c6e19bfd703c122c03ecd6e04fc789a407cca8be34e36f93632eb8c497",
+    "decision3823FileSha256": "68fc4397f3a42e0dad00a1324935c27b6be15c3c817e8f233de149db56382952",
+    "decision3928FileSha256": "1cd256bb57c09ccca9017daa811d650ae13cb0594cd78dafda2a6e73c478410f"
+  },
+  "after": {
+    "selectedCount": 627,
+    "fileSha256": {
+      "course-materials/advanced-native/drafts-books10-16/batch-manifest.json": "f36728341cd15d6dcf98bc4ad5ee04092054c8b4c21bce9a1ee21ead8740c55c",
+      "course-materials/advanced-native/drafts-books10-16/batch-held-3823-social-fabric-a.json": "4e4da7dbdbdfb72a3db3a130348a57ddea1d98099760ddeb1d113e6ffbc21b72",
+      "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl": "3969ec4614f8c0ee0e9511adaf669f0eeb0ec66b9c2eefd4ab3857f32215339d",
+      "course-materials/advanced-native/books10-16/editorial-decisions-3912-3971.jsonl": "c6afc321cfbfb5fa94f79780b9649b0a2f0bc343b16e271b7b504a68f0e6537b",
+      "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-3823-social-fabric-a-followup.json": "4a6cbdacc8d4a82ce596346885b0c1c7fb65ecd3da2038c3b584b8be90c73685"
+    }
+  },
+  "review": {
+    "status": "independent-ai-content-clear-for-provisional-selection",
+    "draftSha256": "4e4da7dbdbdfb72a3db3a130348a57ddea1d98099760ddeb1d113e6ffbc21b72",
+    "reviewSha256": "4a6cbdacc8d4a82ce596346885b0c1c7fb65ecd3da2038c3b584b8be90c73685"
+  },
+  "sourceCoverage": {
+    "exactSentenceBothOccurrences": "Volunteers strengthen the social fabric.",
+    "fullSourceTargetMatches": 2,
+    "exactOccurrencesInLessonProvenance": 2,
+    "selectedOrdinalIndexZeroBased": 441
+  },
+  "verification": {
+    "verifyBooks10to16": {
+      "intakeRows": 2604,
+      "selectedLessons": 627,
+      "questions": 3762,
+      "audioRequests": 2508,
+      "schemaErrors": 0,
+      "guideSentenceCopies": 0,
+      "nearDuplicateFlags": 0,
+      "published": false
+    },
+    "newAliasAudit": {
+      "aliasRows": 184,
+      "matchedDrafts": 184,
+      "exceptions": 0
+    },
+    "holdCoverageAudit": {
+      "currentHolds": 620,
+      "unauditedCurrentHolds": 0,
+      "errors": 0
+    },
+    "existingAliasAudit": {
+      "selectedAliases": 1173,
+      "matchedAliases": 1173,
+      "exceptions": 0
+    },
+    "provisionalDecisionAudit": {
+      "rows": 2604,
+      "errors": 0
+    },
+    "gitDiffCheck": "pass"
+  },
+  "limits": "Local unpublished selection only. No audio generation, deployment, publication, commit, push, or human approval is attested."
+}

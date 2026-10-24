@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "reportType": "author-self-audit-exploratory-held-lesson",
+  "generatedUtc": "2026-10-24T01:56:06.710684+00:00",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-3823-social-fabric-a.json",
+  "draftSha256": "4e4da7dbdbdfb72a3db3a130348a57ddea1d98099760ddeb1d113e6ffbc21b72",
+  "lessonId": "advanced-native-3823",
+  "contentRevision": 2,
+  "sourceOrdinals": [
+    3823,
+    3928
+  ],
+  "sourceIds": [
+    "book10-16-1712",
+    "book10-16-1817"
+  ],
+  "sourceAssessment": "Both held rows contain the identical guide sentence and same relationship-network meaning. Owner 3823 carries the first occurrence; 3928 is provenance only, with its sports-question context mismatch preserved in the locator note.",
+  "ownershipBoundary": {
+    "owner1357": "Repair after earlier rupture; new source does not establish a rupture.",
+    "owner1717": "Preserve ties against coming apart; new source does not establish a threat of loss.",
+    "newUnit": "The singular figurative noun the social fabric, strengthened through continuing ties and cooperation. Target detector excludes the two older complete constructions."
+  },
+  "assessment": {
+    "sevenSteps": [
+      "listening",
+      "four-valid-reply",
+      "scene",
+      "contrast",
+      "dialogue",
+      "speaking",
+      "writing"
+    ],
+    "sixQuestionKeys": {
+      "listening": "a",
+      "replyGolden": "a",
+      "scene": "a",
+      "contrast": "b",
+      "dialogue": "a",
+      "speaking": "exact-span-cloze"
+    },
+    "fourValidReply": "All four independently identify a community benefit of cross-neighbourhood contact; only a uses the target. Each is grounded in the repair-café prompt.",
+    "grounding": "Listening identifies continuing help beyond service totals; reply explains a reportable benefit; scene now chooses positive new-tie strengthening over unsupported repair/prevention forms; contrast checks evidence rather than sales alone; dialogue bounds a claim to two clubs rather than a whole city; speaking practices the social fabric of a district; writing transfers the noun to a community kitchen with an unresolved parking disagreement.",
+    "changedContextWriting": "Both original community-kitchen models now name students and older residents from two estates, use prompt-supplied ongoing actions, and retain the unresolved parking dispute; neither repeats an earlier exercise setting or guide sentence.",
+    "traditionalChinese": "Changed listening, scene, dialogue, speaking, writing model 2 and takeaway 2 were rechecked against English actors, duration, scope and uncertainty; every assessed prompt/option retains Traditional Chinese.",
+    "distinctLearnerDecisions": {
+      "listening": "Infer continuing cross-street help rather than service reach or restoration from audio.",
+      "fourValidReply": "Choose among four independently valid ways to report a repair-café community benefit; only golden uses target.",
+      "scene": "Select positive formation of ties, distinguishing old-owner restoration after rupture and prevention of threatened loss.",
+      "contrast": "Reject a commercial-output inference when no interpersonal evidence is supplied.",
+      "dialogue": "Calibrate the geographic scope of a civic claim from evidence about two clubs only.",
+      "speaking": "Produce the singular noun phrase with a natural of-the-district complement.",
+      "writing": "Apply it to two named groups with continuing concrete help and an explicitly unresolved parking dispute."
+    }
+  },
+  "mechanicalValidation": {
+    "focusedBuild": "1 lesson, 6 questions, 4 audio requests, 0 review flags",
+    "focusedCheck": "1 lesson, 6 questions, 4 audio requests, 0 review flags",
+    "targetPositiveControls": 10,
+    "targetNegativeControls": [
+      "owner1357 complete source",
+      "owner1717 complete source",
+      "literal fabric sentence"
+    ],
+    "selectedAndCanonicalSourceScreen": "2,509 owner records checked; no source-sentence detector collisions.",
+    "guideCopyScreen": "28 learner-facing English fields against 2,604 source examples; zero contiguous six-token overlap hits.",
+    "speakingTargetSpan": "exact",
+    "writingGlossarySpans": 5,
+    "audioTexts": {
+      "roles": 4,
+      "lengths": [
+        239,
+        114,
+        112,
+        124
+      ],
+      "maxAllowedCharacters": 240
+    },
+    "manifestState": "Draft batch absent from selected manifest; both source decisions remain hold-editorial."
+  },
+  "hashes": {
+    "sourceInventory": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "decision3823": "68fc4397f3a42e0dad00a1324935c27b6be15c3c817e8f233de149db56382952",
+    "decision3928": "1cd256bb57c09ccca9017daa811d650ae13cb0594cd78dafda2a6e73c478410f",
+    "owner1357": "892cc4d158497385839e2189591cf47fed2002c60ab4e0bf5728e0cc888e89e4",
+    "owner1717": "be64c87c9f9394ad39b20111f2c70ce8613a670d5418e980c4662767b2751b6f",
+    "selectedManifest": "7928f7c6e19bfd703c122c03ecd6e04fc789a407cca8be34e36f93632eb8c497"
+  },
+  "limits": "Author repair and structural checks only. Independent exact-hash follow-up, listening, media, browser and release approval remain pending. No decision, manifest, existing owner, audio or publication file changed.",
+  "independentReviewInput": {
+    "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-3823-social-fabric-review-pilot.json",
+    "sha256": "fe2af49641b0f230c28b4e0d2b7db9731df6157cf3b0b58625b60b77158fdd8e",
+    "status": "four author repairs submitted for independent follow-up; no clearance claimed"
+  },
+  "repairFindings": {
+    "R3823-01": "Writing model 2 now uses the specified students and older residents, ongoing rides/check-ins and unresolved parking; glossary span recalculated.",
+    "R3823-02": "Scene, dialogue and speaking now teach new-tie versus repair/prevention, civic claim scope and noun-plus-place grammar, respectively; seven-stage decision map recorded.",
+    "R3823-03": "Listening, scene and dialogue distractors now misread nearby evidence or another social-fabric construction instead of relying on remote/categorical claims.",
+    "R3823-04": "Listening now uses a volunteer desk for clinic rides with faithful Chinese; audio text is within 240 characters."
+  }
+}

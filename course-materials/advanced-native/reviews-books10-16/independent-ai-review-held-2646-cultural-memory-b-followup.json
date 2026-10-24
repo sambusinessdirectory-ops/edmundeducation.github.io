@@ -1,0 +1,56 @@
+{
+  "reviewType": "scoped independent AI exact-hash follow-up; not human approval",
+  "status": "content-clear-for-provisional-selection",
+  "lessonId": "advanced-native-2646",
+  "sourceOrdinals": [2646, 2678, 4469, 4505],
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-2646-cultural-memory-b.json",
+  "reviewedDraftSha256": "be4a3f8349a7d0e72e9f532dc0009dad544bd948972fa3c0ad0bc8ebee6780f1",
+  "authorSelfAuditSha256": "e08aaa46b6aa5ddfc1a68033c4be964ed23fd36c78fd3fa20d6a0d1144732f70",
+  "authorRepairReportSha256": "2895353561dea5b039a99650e282b6b3834cf8a66bed2fc0054386769d5d138f",
+  "initialReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-2646-cultural-memory-review-pilot.json",
+  "initialReviewSha256": "d1a748269321f7ddb6b1ecabc2c1c9e94b87711c303b8e45d5e50df652c4ea77",
+  "findingFollowup": [
+    {
+      "id": "R2646-01",
+      "result": "resolved",
+      "evidence": "Speaking Chinese now says families explain the seed exchange activity to newcomers, matching the English 'explain it' without inventing an origin explanation. English audio text and exact speaking span remain unchanged."
+    },
+    {
+      "id": "R2646-02",
+      "result": "resolved",
+      "evidence": "Writing model 2 now says elders show younger makers how to make the traditional kite frame / 製作傳統框架, matching the supplied making activity without an unsupported folding technique. All six glossary slices remain exact."
+    },
+    {
+      "id": "R2646-03",
+      "result": "resolved",
+      "evidence": "The bounded negative lookbehind excludes 'a layer of cultural memory'. Native-JS gi controls found the target in all four complete proposed source sentences and the revised lesson's keyed models, while finding no match in owner 406's full source, listening, reply key, scene key or speaking construction. The scope is now explicit at detector and brief level."
+    },
+    {
+      "id": "R2646-04",
+      "result": "resolved",
+      "evidence": "Listening distractors now test incorrect requirements for unanimous detail agreement or technical usefulness detached from port history. Scene distractors test whether varied accounts invalidate shared memory and whether a demolished building must still be used. These are closer semantic errors; the single best keys remain a in both cases. One private-apprentice foil remains easy but is not a content blocker."
+    },
+    {
+      "id": "R2646-05",
+      "result": "resolved",
+      "evidence": "The brief states that shared remembrance can persist through recognition or recorded recollections without a current workshop. The revised bathhouse scene uses archival photographs prompting multiple elders' recollections, and writing model 1 uses residents recognizing a bell pattern in archive recordings. It does not treat a lone unremembered archive as community memory."
+    }
+  ],
+  "finalSenseAndOwnerChallenge": {
+    "sourceMeaning": "All four source rows contain the same sentence about old songs remaining part of the city's cultural memory. The repaired draft permits retained shared recognition without ongoing formal teaching; its variation, attribution and community-evidence boundaries do not require everyone to remember one version.",
+    "owner406Distinction": "Owner 406 assesses discovering a particular layer from evidence. Owner 2646 assesses the standalone noun as already shared remembrance, including private-versus-communal and recording-without-endorsement choices. The two lessons share conceptual vocabulary but have different constructions and learner decisions; the detector now excludes the 406 source construction.",
+    "answerFairness": "Listening a, scene a, contrast a and dialogue a remain uniquely supported. Reply a–d are four usable exhibition-label approaches and only golden b bears the target. Revised distractors are plausible near-misses without a competing true key.",
+    "sevenDecisions": "Listening tests inherited port practice despite varying details; reply tests attribution in an exhibition label; scene tests communal recognition after demolition without active instruction; contrast separates private memory from shared; dialogue separates documenting harm from endorsing it; speaking models a bounded village example; writing transfers to recognised recordings or a kite-frame workshop with source limits."
+  },
+  "verification": {
+    "focusedBuild": "1 lesson, 6 questions, 4 audio requests, 0 review flags",
+    "focusedCheck": "passed against the generated output at the reviewed draft hash",
+    "target": "All four exact source sentences and lesson keyed target-bearing lines match; owner 406 full source and sampled keyed lines do not match the revised 2646 detector.",
+    "speakingSpan": "[50,65] slices exactly 'cultural memory'.",
+    "glossary": "All six English glossary rows slice exactly from their cited writing examples, with no target leakage.",
+    "translations": "Revised speaking and kite-model Traditional Chinese align with English; changed scene and writing recognition claims retain the stated uncertainty and community scope.",
+    "audio": "Four audio request roles were generated structurally; no synthesis, listening or media acceptance was performed."
+  },
+  "releaseBoundary": "AI content clearance of an unpublished draft only. The four hold decisions and selected manifest remain unchanged; human review, browser/device QA, audio QA and release approval are separate gates.",
+  "mutationScope": "Only this follow-up review JSON was added. No draft, decision, manifest, owner, audio, SOP audit or publication file was edited."
+}

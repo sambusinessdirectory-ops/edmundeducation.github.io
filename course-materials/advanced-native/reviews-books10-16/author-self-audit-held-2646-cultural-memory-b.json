@@ -1,0 +1,148 @@
+{
+  "type": "author self-audit: exploratory unselected lesson 2646 cultural memory",
+  "recordedAtUtc": "2026-10-24T01:58:48.212690+00:00",
+  "draft": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-2646-cultural-memory-b.json",
+    "sha256": "be4a3f8349a7d0e72e9f532dc0009dad544bd948972fa3c0ad0bc8ebee6780f1",
+    "contentRevision": 2
+  },
+  "sourceInventory": {
+    "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "rowCount": 2604
+  },
+  "sourceDocxSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "provenance": [
+    {
+      "ordinal": 2646,
+      "sourceId": "book10-16-0535",
+      "book": 11,
+      "question": 9,
+      "page": 49,
+      "docxTable": 45,
+      "docxRow": 3,
+      "sourceBookPages": "22–24",
+      "expression": "cultural memory",
+      "sentence": "Old songs remain part of the city's cultural memory."
+    },
+    {
+      "ordinal": 2678,
+      "sourceId": "book10-16-0567",
+      "book": 11,
+      "question": 12,
+      "page": 52,
+      "docxTable": 48,
+      "docxRow": 4,
+      "sourceBookPages": "30–32",
+      "expression": "cultural memory",
+      "sentence": "Old songs remain part of the city's cultural memory."
+    },
+    {
+      "ordinal": 4469,
+      "sourceId": "book10-16-2358",
+      "book": 16,
+      "question": 30,
+      "page": 223,
+      "docxTable": 245,
+      "docxRow": 8,
+      "sourceBookPages": "72–74",
+      "expression": "cultural memory",
+      "sentence": "Old songs remain part of the city's cultural memory."
+    },
+    {
+      "ordinal": 4505,
+      "sourceId": "book10-16-2394",
+      "book": 16,
+      "question": 34,
+      "page": 226,
+      "docxTable": 249,
+      "docxRow": 5,
+      "sourceBookPages": "82–83",
+      "expression": "cultural memory",
+      "sentence": "Old songs remain part of the city's cultural memory."
+    }
+  ],
+  "decisions": [
+    {
+      "ordinal": 2646,
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+      "sha256": "bcb7bc790f25d87a0457330d91b33ad7550f468271b60518b4905d2bcf25377f",
+      "action": "hold-editorial"
+    },
+    {
+      "ordinal": 2678,
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+      "sha256": "4639246e76b5e4bb6bf1f13f0a6afcaabe28b6e13a93562cabcda8bd2148546e",
+      "action": "hold-editorial"
+    },
+    {
+      "ordinal": 4469,
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "sha256": "42480ab6aefc90ae1cd06415dc9f9f1770bec6a45c03e40917456f58cf167590",
+      "action": "hold-editorial"
+    },
+    {
+      "ordinal": 4505,
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "sha256": "42480ab6aefc90ae1cd06415dc9f9f1770bec6a45c03e40917456f58cf167590",
+      "action": "hold-editorial"
+    }
+  ],
+  "selectedManifest": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "sha256": "7928f7c6e19bfd703c122c03ecd6e04fc789a407cca8be34e36f93632eb8c497",
+    "containsDraft": false
+  },
+  "existingOwner": {
+    "number": 406,
+    "path": "course-materials/advanced-native/batches/batch-0401-0425.json",
+    "sha256": "fe8bbc3493367e7b4afde479d988c39dc0fbef0b831a14e844eb07573f667805",
+    "title": "uncover a layer of cultural memory",
+    "fullSourceDetectorMatch": false,
+    "senseDistinction": "406 teaches uncovering a partial layer from evidence; proposed 2646 teaches whether an already shared practice or story belongs to and remains in a named community’s memory, including intergenerational transmission and private-memory/disagreement/documentation boundaries. Independent owner-scope review pending.",
+    "newDraftDetectorMatchesCompleteOwnerSource": false,
+    "detectorScopeNote": "The bounded negative lookbehind excludes the complete owner-406 a layer of cultural memory construction, including uncover/uncovered/uncovering forms; module-specific target rendering also remains separate."
+  },
+  "targetControls": {
+    "pattern": "(?<!a layer of )\\bcultural memory\\b",
+    "positiveCount": 13,
+    "negativeCount": 5,
+    "allPassedInNativeJs": true,
+    "positiveScope": "Four exact guide sources plus nine keyed/audio/model lines",
+    "negativeScope": "Complete owner-406 guide source, two inflected owner-406 constructions, private memory and intercultural-memory non-target."
+  },
+  "focusedBuildCheck": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRoles": 4,
+    "reviewFlags": 0,
+    "build": "passed",
+    "check": "passed"
+  },
+  "contentSelfChecks": {
+    "sevenSteps": 7,
+    "assessedQuestions": 6,
+    "fourIndependentlyValidReplies": true,
+    "oneTargetReply": true,
+    "sceneAndDialogueKeysTargetBearing": true,
+    "traditionalChineseParityReviewed": true,
+    "writingModels": 2,
+    "answerDerivedGlossaryRows": 6,
+    "glossarySpansExactAndNonTarget": true,
+    "speakingSpanExact": true,
+    "fourAudioTextsTargetBearing": true,
+    "nonTeachingMemoryCase": "Scene uses archive photographs that still prompt neighbours’ shared recollections; writing model 1 uses residents recognising bell-pattern recordings. Neither requires a current workshop or lesson."
+  },
+  "originalityScreen": {
+    "learnerEnglishStrings": 24,
+    "sourceExamples": 2604,
+    "sixTokenHits": 0,
+    "fuzzyFullLineAtLeast0_8": 0,
+    "limit": "Mechanical screen cannot establish semantic originality or comprehensive editorial quality."
+  },
+  "pending": [
+    "The noun phrase is natural but separate-owner course value versus owner 406 still requires final independent review of revised content.",
+    "Four source decisions remain hold-editorial; draft is unselected.",
+    "Audio production/listening, browser/device and release checks remain open."
+  ]
+}
